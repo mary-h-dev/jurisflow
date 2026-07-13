@@ -1,6 +1,12 @@
+import sys
 from pathlib import Path
 
+
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+
+sys.path.insert(0, str(BASE_DIR.parent))
+
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -15,6 +21,7 @@ INSTALLED_APPS = [
     "apps.users",
     "apps.search",
     "apps.agents",
+    "apps.documents",
 ]
 
 MIDDLEWARE = [
@@ -64,6 +71,13 @@ USE_TZ        = True
 
 STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+# Media files
+MEDIA_URL  = "/media/"
+MEDIA_ROOT = BASE_DIR / "media"
+
+
 
 # ── Plan Limits ───────────────────────────────────────────────────────────────
 PLAN_LIMITS = {
