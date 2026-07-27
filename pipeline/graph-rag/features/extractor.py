@@ -5,10 +5,10 @@ features/extractor.py — استخراج Feature از متن یک رأی با LL
     ۱. متن رأی همراه با closed vocabulary هر دسته (خروجی
        vocabulary_categorizer.py، از data/legal-vocabulary/categorized/)
        به LLM داده می‌شود.
-    ۲. برای concept/action/role/object/principle، LLM موظف است **فقط**
+    ۲. برای concept/action/role/object، LLM موظف است **فقط**
        از بین همان واژه‌ها انتخاب کند؛ برای fact آزاد است.
     ۳. برای هر Feature یک evidence-quote هم خواسته می‌شود؛ موقعیتش در
-       متن اصلی با str.find پیدا می‌شود (توضیح کامل در schemas.py).
+       متن اصلی با str.find (یا fuzzy fallback) پیدا می‌شود.
 
 چرا هر واژه‌ی خارج از closed vocabulary رد می‌شود (نه اصلاح/نگه‌داری)؟
     چون کل فلسفه‌ی closed vocabulary همینه: اگر یک‌بار اجازه بدیم LLM
@@ -48,7 +48,30 @@ _client = get_llm_client()
 # سقف امنیتی طول متن رأی که به LLM فرستاده می‌شود — مثل الگوی
 # embedder.py/analyzer.py، برای جلوگیری از overflow روی context window
 # و کنترل هزینه؛ اکثر رأی‌ها خیلی کوتاه‌ترند.
+#
+# چرا head+tail، نه فقط [:MAX_TEXT_CHARS] ساده؟
+#     چون در پرونده‌های چندمرحله‌ای (بدوی -> تجدیدنظر -> فرجام)، بخش‌ها
+#     به ترتیب زمانی به هم چسبانده می‌شوند (نگاه کن به main_features.py
+#     ._ruling_full_text)، یعنی رأی نهایی و مهم‌تر (که معمولاً پایه‌ی
+#     تصمیم قطعی‌ست) در *انتهای* متن می‌آید. بریدن ساده‌ی [:12000] این
+#     بخش حیاتی را کاملاً حذف می‌کرد و فقط زمینه‌ی اولیه‌ی پرونده به
+#     مدل می‌رسید. راه‌حل: هم ابتدای متن (زمینه/واقعیت‌ها) هم انتهای
+#     متن (رأی نهایی) نگه داشته می‌شود؛ فقط میانه (که معمولاً استدلال
+#     تکراری/طولانی است) حذف می‌شود.
 MAX_TEXT_CHARS = 12000
+_HEAD_RATIO = 0.4  # ۴۰٪ به ابتدای متن، ۶۰٪ به انتها (چون انتها مهم‌تره)
+
+
+def _truncate_keep_head_and_tail(text: str, max_chars: int) -> str:
+    if len(text) <= max_chars:
+        return text
+    head_len = int(max_chars * _HEAD_RATIO)
+    tail_len = max_chars - head_len
+    return (
+        text[:head_len]
+        + "\n\n[...بخشی از میانه‌ی متن به‌خاطر طولانی بودن حذف شد...]\n\n"
+        + text[-tail_len:]
+    )
 
 
 def load_closed_vocab(category_key: str) -> list[str]:
@@ -73,7 +96,7 @@ def _build_prompt(ruling_text: str, vocab: dict[str, list[str]]) -> str:
 تو یک دستیار حقوقی متخصص در قوانین ایران هستی. از متن رأی زیر، Featureهای
 حقوقی را طبق دسته‌های مشخص‌شده استخراج کن.
 
-برای دسته‌های concept / action / role / object / principle: **فقط** از
+برای دسته‌های concept / action / role / object: **فقط** از
 بین واژه‌های همان دسته در لیست زیر انتخاب کن (هیچ واژه‌ی جدیدی نساز؛
 اگر هیچ‌کدام مرتبط نبود، آن دسته را خالی بگذار):
 
@@ -82,6 +105,12 @@ def _build_prompt(ruling_text: str, vocab: dict[str, list[str]]) -> str:
 برای دسته‌ی "{FACT_CATEGORY.key}" ({FACT_CATEGORY.label_fa}):
 {FACT_CATEGORY.description}
 اینجا آزاد هستی — واقعیات کلیدیِ رأی را با یک جمله‌ی کوتاه بنویس.
+⚠️ مثال‌های بالا (مثل «پرداخت انجام نشده» یا «سند جعلی ارائه شده») فقط
+برای نشان‌دادن *سبک نوشتن* fact هستند، نه فهرستی که باید همیشه پر شود.
+اگر یکی از این مثال‌ها در *این* رأی مصداق ندارد، اصلاً ذکرش نکن — هرگز
+یک Feature را فقط به این دلیل که در توضیحات بالا مثال زده شده، با
+evidence_quote خالی و confidence صفر برنگردان؛ چنین مواردی به‌طور کامل
+حذف خواهند شد، پس اصلاً وقتت را صرفشان نکن.
 
 برای *هر* Feature استخراج‌شده (در هر دسته‌ای)، یک evidence لازم است:
 دقیقاً همان بخشی از متن رأی که این Feature از آن برداشت شده (عیناً،
@@ -96,9 +125,27 @@ def _build_prompt(ruling_text: str, vocab: dict[str, list[str]]) -> str:
 نامرتبط رد خواهد شد. اگر برای یک Feature نمی‌توانی evidence دقیق و
 مرتبط پیدا کنی، آن Feature را اصلاً استخراج نکن.
 
+⚠️ evidence_quote هرگز نباید شامل «...» یا خلاصه‌سازی/ترکیبِ چند تکه‌ی
+جدا از متن باشد — باید عیناً یک بخشِ *پیوسته* و *کامل* از متن اصلی
+باشد، کلمه‌به‌کلمه، بدون هیچ حذفیات. اگر جمله‌ی کامل خیلی طولانی است،
+فقط کوتاه‌ترین بخشِ پیوسته‌ای از متن را انتخاب کن که به‌تنهایی ادعای
+«value» را ثابت می‌کند — نه کل جمله با «...» بریده‌شده.
+
+⚠️ راهنمای دقیق برای تعیین confidence (لطفاً دقیقاً رعایت کن، نه فقط
+تقریبی؛ یک عدد ثابت برای همه‌ی موارد، مثلاً همه 0.95، قابل‌قبول نیست):
+- 0.95-1.0: کلمه یا عبارت «value» عیناً و بدون هیچ واسطه‌ای در evidence quote آمده است.
+- 0.75-0.9: value مستقیماً در quote نیامده، ولی مفهومش به‌وضوح و بدون ابهام از آن استنباط می‌شود.
+- 0.5-0.74: نیاز به استنباط چندمرحله‌ای یا context بیرون از quote دارد.
+- زیر 0.5: ارتباط ضعیف است؛ در این حالت بهتر است اصلاً این Feature را استخراج نکنی.
+
+مثال: اگر value="خواهان" و quote="آقای م.م. با وکالت... دادخواست داد"
+(بدون این‌که کلمه‌ی «خواهان» حرف‌به‌حرف در quote آمده باشد، بلکه از
+context استنباط شده)، این باید 0.75-0.85 باشد، نه 0.95 — چون کلمه‌ی
+دقیق در متن نیامده.
+
 متن رأی:
 \"\"\"
-{ruling_text[:MAX_TEXT_CHARS]}
+{_truncate_keep_head_and_tail(ruling_text, MAX_TEXT_CHARS)}
 \"\"\"
 
 فقط JSON برگردون — بدون هیچ توضیح اضافه، دقیقاً به این فرم (هر دسته
@@ -108,28 +155,40 @@ def _build_prompt(ruling_text: str, vocab: dict[str, list[str]]) -> str:
   "action": [],
   "role": [],
   "object": [],
-  "principle": [],
   "fact": [{{"value": "...", "evidence_quote": "...", "confidence": 0.85}}]
 }}
 """
 
 
+# کاراکترهای کنترلی جهت‌دهیِ متن (bidi control characters) — کاملاً
+# نامرئی‌ان (LRM, RLM, LRE, RLE, PDF, LRO, RLO)، پس هم مثل نیم‌فاصله
+# باید در fuzzy-match نادیده گرفته بشن. متن‌های حقوقی اسکرپ‌شده از
+# HTML اغلب این‌ها را (برای کنترل نمایش RTL/LTR مخلوط با اعداد لاتین)
+# دارند؛ ولی چون نامرئی‌اند، مدل هنگام تولید quote طبیعتاً فقط یک
+# فاصله‌ی معمولی می‌نویسد، نه خودِ کاراکتر کنترلی — پس str.find و حتی
+# fuzzy match قبلی (که فقط \s و \u200c را نادیده می‌گرفت) شکست می‌خورد.
+_BIDI_CONTROL_CHARS = "\u200e\u200f\u202a\u202b\u202c\u202d\u202e"
+_SPLIT_SEPARATOR_RE = re.compile(r"[\s\u200c" + _BIDI_CONTROL_CHARS + r"]+")
+
+
 def _fuzzy_find(quote: str, full_text: str) -> tuple[int | None, int | None]:
     """
     fallback برای وقتی str.find شکست می‌خوره. چرا لازم است؟
-    چون توی نمونه‌های واقعی دیدیم حدود نصفِ evidence ها فقط به‌خاطر
-    تفاوت نیم‌فاصله/فاصله (مثلاً «مبایعه‌نامه» با یا بدون ZWNJ بین
-    «مبایعه» و «نامه») در متن اصلی پیدا نمی‌شدند، نه چون quote واقعاً
-    غلط بود. اینجا quote را از روی فاصله/نیم‌فاصله می‌شکنیم و اجازه
-    می‌دیم بین تکه‌ها هر مقدار فاصله/نیم‌فاصله (حتی صفر) باشد؛ ولی
-    محتوای واقعی کلمه‌ها باید عیناً یکی باشد — این با حدس زدن یا
-    fuzzy-matching معنایی فرق دارد؛ فقط نویسه‌های جداکننده را نادیده
-    می‌گیرد.
+    چون توی نمونه‌های واقعی دیدیم بخش زیادی از evidence ها فقط به‌خاطر
+    تفاوت نیم‌فاصله/فاصله یا کاراکترهای کنترلی نامرئی جهت‌دهی (مثل
+    U+202C که بین «مبایعه» و «نامه» در متن اصلی دیدیم ولی مدل در quote
+    فقط یک space ساده نوشته بود) در متن اصلی پیدا نمی‌شدند، نه چون
+    quote واقعاً غلط بود. اینجا quote را از روی تمام این جداکننده‌های
+    نامرئی/فاصله‌ای می‌شکنیم و اجازه می‌دیم بین تکه‌ها هر ترکیبی از
+    این جداکننده‌ها (حتی هیچ‌کدام) باشد؛ ولی محتوای واقعی کلمه‌ها باید
+    عیناً یکی باشد — این با حدس زدن یا fuzzy-matching معنایی فرق دارد؛
+    فقط نویسه‌های جداکننده‌ی نامرئی را نادیده می‌گیرد.
     """
-    tokens = [t for t in re.split(r"[\s\u200c]+", quote.strip()) if t]
+    tokens = [t for t in _SPLIT_SEPARATOR_RE.split(quote.strip()) if t]
     if not tokens:
         return None, None
-    pattern = r"[\s\u200c]*".join(re.escape(t) for t in tokens)
+    separator_pattern = r"[\s\u200c" + _BIDI_CONTROL_CHARS + r"]*"
+    pattern = separator_pattern.join(re.escape(t) for t in tokens)
     m = re.search(pattern, full_text)
     if not m:
         return None, None
@@ -140,6 +199,14 @@ def _locate_evidence(quote: str, full_text: str, confidence: float) -> Evidence:
     quote = (quote or "").strip()
     if not quote:
         return Evidence(quote="", start_char=None, end_char=None, confidence=confidence)
+
+    # اول امتحان مستقیم — اگه quote (حتی شامل «...») عیناً در متن پیدا
+    # بشه، یعنی واقعاً verbatim بوده (مثلاً «...» خودش بخشی از سانسورِ
+    # شماره‌پلاک/اطلاعات حساس در متن اصلیه)، نه پارافریزِ مدل. چرا این
+    # بهتر از رد فوریِ هر quote حاویِ «...» است؟ چون بعضی متن‌های اصلیِ
+    # اسکرپ‌شده واقعاً حاوی «...» به‌عنوان یک placeholder رسمی‌اند، نه
+    # چیزی که مدل اختراع کرده باشد؛ رد کردن بدون چک، این موارد را هم
+    # قربانی می‌کرد.
     idx = full_text.find(quote)
     if idx != -1:
         return Evidence(quote=quote, start_char=idx, end_char=idx + len(quote), confidence=confidence)
@@ -148,9 +215,15 @@ def _locate_evidence(quote: str, full_text: str, confidence: float) -> Evidence:
     if start is not None:
         return Evidence(quote=quote, start_char=start, end_char=end, confidence=confidence)
 
-    # حتی با fuzzy match هم پیدا نشد — مدل کمی متن را واقعاً تغییر داده
-    # (نه فقط فاصله/نیم‌فاصله). متن مدرک را نگه می‌داریم ولی بی‌صدا
-    # موقعیت را حدس نمی‌زنیم (نگاه کن به schemas.py).
+    # فقط اگه با هیچ روشی (نه مستقیم، نه fuzzy) پیدا نشد و quote هم
+    # «...» داشت، این‌بار واقعاً احتمال زیاد پارافریزِ مدله (نه سانسورِ
+    # واقعی متن) — همینجا رد می‌کنیم و بدون موقعیت نگه می‌داریم.
+    if "..." in quote or "…" in quote:
+        print(f"  ⚠️ evidence حاوی «...» و پیدا نشد — احتمالاً پارافریزِ مدل: «{quote[:50]}...»")
+        return Evidence(quote=quote, start_char=None, end_char=None, confidence=confidence)
+
+    # حتی بدون «...» هم پیدا نشد — مدل کمی متن را واقعاً تغییر داده.
+    # متن مدرک را نگه می‌داریم ولی بی‌صدا موقعیت را حدس نمی‌زنیم.
     return Evidence(quote=quote, start_char=None, end_char=None, confidence=confidence)
 
 
@@ -189,7 +262,6 @@ def _to_result(
         "action": result.actions,
         "role": result.roles,
         "object": result.objects,
-        "principle": result.principles,
         "fact": result.facts,
     }
 
@@ -202,9 +274,22 @@ def _to_result(
             if allowed is not None and value not in allowed:
                 print(f"  ⚠️ مقدار خارج از closed vocabulary رد شد ({category_key}): «{value}»")
                 continue
-            evidence = _locate_evidence(
-                item.get("evidence_quote", ""), ruling_text, float(item.get("confidence", 0.0))
-            )
+
+            raw_quote = str(item.get("evidence_quote", "")).strip()
+            # فیلتر قطعی: اگر evidence_quote خالیه، این Feature اصلاً وارد
+            # نتیجه نمی‌شه — مهم نیست مدل چه value/confidence‌ای ادعا کرده.
+            # چرا این باید در کد باشه، نه فقط پرامپت؟ چون دیدیم مدل با
+            # وجود دستور صریح («اگه evidence نداری استخراج نکن»)، بازم
+            # موارد بدون مدرک را (اغلب دقیقاً همان مثال‌های توضیحیِ خودِ
+            # پرامپت، مثل «پرداخت انجام نشده»/«تحویل کالا انجام نشده»)
+            # با quote="" و confidence=0.0 برمی‌گردوند — یعنی این رفتار
+            # به‌اندازه‌ی کافی پایدار/تکرارشونده است که باید در کد، نه
+            # صرفاً در پرامپت، مسدود بشه.
+            if not raw_quote:
+                print(f"  🚫 [{ruling_id}] بدون evidence رد شد ({category_key}): «{value}»")
+                continue
+
+            evidence = _locate_evidence(raw_quote, ruling_text, float(item.get("confidence", 0.0)))
             _warn_if_evidence_unrelated(ruling_id, category_key, value, evidence.quote)
             target_list.append(ExtractedFeature(category=category_key, value=value, evidence=evidence))
 

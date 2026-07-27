@@ -16,7 +16,7 @@ features/schemas.py — ساختار داده‌ی خروجیِ Feature Extracti
     start_char/end_char برابر None می‌مانند، ولی خودِ متنِ مدرک نگه
     داشته می‌شود — صادقانه‌تر از این‌که یک عدد غلط حدس بزنیم.
 
-چرا Concept/Action/Role/Object/Principle و Fact یک کلاس مشترک
+چرا Concept/Action/Role/Object و Fact یک کلاس مشترک
 (ExtractedFeature) دارند، نه کلاس‌های جدا برای هرکدام؟
     چون ساختارشان (دسته، مقدار، مدرک) کاملاً یکسان است — تنها فرقشان
     این است که مقدارِ کدام‌ها باید از closed vocabulary باشد و کدام
@@ -52,11 +52,10 @@ class FeatureExtractionResult:
     actions: list[ExtractedFeature] = field(default_factory=list)
     roles: list[ExtractedFeature] = field(default_factory=list)
     objects: list[ExtractedFeature] = field(default_factory=list)
-    principles: list[ExtractedFeature] = field(default_factory=list)
     facts: list[ExtractedFeature] = field(default_factory=list)
 
     def all_features(self) -> list[ExtractedFeature]:
         return (
             self.concepts + self.actions + self.roles
-            + self.objects + self.principles + self.facts
+            + self.objects + self.facts
         )
