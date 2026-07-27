@@ -63,8 +63,13 @@ def extract_domain(domain: str, limit: int | None):
 
     done, skipped, failed = 0, 0, 0
     for i, path in enumerate(paths, start=1):
-        with open(path, encoding="utf-8") as f:
-            ruling = json.load(f)
+        try:
+            with open(path, encoding="utf-8") as f:
+                ruling = json.load(f)
+        except (json.JSONDecodeError, OSError) as e:
+            print(f"  ⚠️ [{i}/{len(paths)}] فایل خراب/خالی رد شد ({path}): {e}")
+            failed += 1
+            continue
 
         out_path = f"{out_dir}/{ruling['ruling_id']}.json"
         if os.path.exists(out_path):
@@ -99,7 +104,7 @@ def _dict_to_result(data: dict) -> FeatureExtractionResult:
         )
 
     kwargs = {"ruling_id": data["ruling_id"]}
-    for key in ["concepts", "actions", "roles", "objects", "principles", "facts"]:
+    for key in ["concepts", "actions", "roles", "objects", "facts"]:
         kwargs[key] = [to_feature(d) for d in data.get(key, [])]
     return FeatureExtractionResult(**kwargs)
 
@@ -118,15 +123,22 @@ def load_domain(domain: str, limit: int | None):
     loader = FeatureGraphLoader(connection)
     loader.create_indexes()
 
+    loaded_count, skipped_count = 0, 0
     for i, path in enumerate(paths, start=1):
         with open(path, encoding="utf-8") as f:
             data = json.load(f)
         result = _dict_to_result(data)
+
+        if loader.is_ruling_loaded(result.ruling_id):
+            skipped_count += 1
+            continue  # قبلاً بارگذاری شده -- resumable، نگاه کن به توضیح feature_loader.py
+
         loader.load_result(result)
+        loaded_count += 1
         print(f"  ✅ [{i}/{len(paths)}] {result.ruling_id} بارگذاری شد")
 
     connection.close()
-    print(f"\n✅ {len(paths)} نتیجه‌ی Feature در گراف سوم بارگذاری شد.")
+    print(f"\n✅ {loaded_count} نتیجه‌ی جدید بارگذاری شد، {skipped_count} از قبل موجود بود (رد شد).")
 
 
 if __name__ == "__main__":

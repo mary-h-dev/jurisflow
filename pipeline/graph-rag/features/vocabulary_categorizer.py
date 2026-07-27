@@ -35,11 +35,11 @@ features/vocabulary_categorizer.py — دسته‌بندیِ یک‌بارِ و�
     اسکریپت واژه‌هایی که قبلاً دسته‌بندی شده‌اند را رد می‌کند.
 
 خروجی نهایی:
-    data/legal-vocabulary/categorized/{concepts,actions,roles,objects,principles}.json
+    data/legal-vocabulary/categorized/{concepts,actions,roles,objects}.json
         هرکدوم یک لیست ساده از رشته‌های *ریشه* (canonical، نه همه‌ی
         alias های خام) — همون چیزی که extractor.py بعداً به‌عنوان
         closed vocabulary در پرامپت LLM استفاده می‌کند.
-    data/legal-vocabulary/categorized/{concepts,actions,roles,objects,principles}_aliases.json
+    data/legal-vocabulary/categorized/{concepts,actions,roles,objects}_aliases.json
         نگاشت ریشه → لیست alias های خام (برای هر دسته جدا)، مثلاً
         {"بیع": ["بیع", "عقد بیع", "قرارداد بیع"]}. این برای
         قابل‌ردیابی بودن نگه داشته می‌شود، نه برای استفاده‌ی مستقیم در
