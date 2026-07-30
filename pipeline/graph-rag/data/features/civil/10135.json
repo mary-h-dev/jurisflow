@@ -1,0 +1,183 @@
+{
+  "ruling_id": "10135",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "وکالت عقد جایز بوده",
+        "start_char": 385,
+        "end_char": 404,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد لازم",
+      "evidence": {
+        "quote": "عقدی از عقود لازم بین طرفین منعقد نشده است",
+        "start_char": 2652,
+        "end_char": 2694,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "حق عزل را سلب نمود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "به خواسته تنفیذ عزل وکالتنامه",
+        "start_char": 107,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عزل",
+      "evidence": {
+        "quote": "موکل می‌تواند وکیل را عزل کند",
+        "start_char": 407,
+        "end_char": 436,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ساقط",
+      "evidence": {
+        "quote": "حق عزل وکیل را از خود سلب و ساقط نمود",
+        "start_char": 2033,
+        "end_char": 2070,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته نقض می‌گردد",
+        "start_char": 2785,
+        "end_char": 2820,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 277,
+        "end_char": 288,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه نیز منکر وقوع هر گونه عقد لازم",
+        "start_char": 2435,
+        "end_char": 2478,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "وکیل تجدیدنظرخوانده ردیف اول",
+        "start_char": 2320,
+        "end_char": 2348,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موکل",
+      "evidence": {
+        "quote": "موکل می‌تواند وکیل را عزل کند",
+        "start_char": 407,
+        "end_char": 436,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "سردفتر",
+      "evidence": {
+        "quote": "سردفتر اسناد رسمی شماره... تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "وکالتنامه شماره 53913",
+        "start_char": 127,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اظهارنامه",
+      "evidence": {
+        "quote": "ارسال اظهارنامه مبنی بر عزل",
+        "start_char": 852,
+        "end_char": 879,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "تنظیم سند وکالت",
+        "start_char": 2379,
+        "end_char": 2394,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "در وکالتنامه ادعا شده بود که عزل حق ندارد اما در واقعیت عقد لازمی وجود نداشت",
+      "evidence": {
+        "quote": "عبارت: ((.... و موکل ضمن عقد خارج لازم حق عزل وکیل را از خود سلب و ساقط نمود.)) مندرج در ذیل وکالتنامه مزبور نیز برخلاف واقع درج گردیده",
+        "start_char": 1994,
+        "end_char": 2129,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بین طرفین در خارج از دفترخانه عقد لازمی منعقد نشده بود",
+      "evidence": {
+        "quote": "در خارج از دفتر خانه و قبل از تنظیم سند وکالت نیز بین آنان عقد لازمی منعقد نشده است",
+        "start_char": 2349,
+        "end_char": 2432,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

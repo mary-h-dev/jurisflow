@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10604",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه فرزند مشترک",
+        "start_char": 121,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک",
+        "start_char": 283,
+        "end_char": 300,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "اقساط مهریه",
+        "start_char": 399,
+        "end_char": 410,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مفهوم مخالف",
+      "evidence": {
+        "quote": "از مفهوم مخالف استفاده می‌شود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه فرزند مشترک",
+        "start_char": 110,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به موقع پرداخت گردد",
+        "start_char": 411,
+        "end_char": 430,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "دعوای وی را رد می‌نماید",
+        "start_char": 1717,
+        "end_char": 1740,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه فوق‌الذکر",
+        "start_char": 2647,
+        "end_char": 2673,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نسبت به قسمت مطالبه اخیر از زمان دادخواست تأیید می‌نماید",
+        "start_char": 3551,
+        "end_char": 3633,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار داشته است",
+        "start_char": 184,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده مکلف به تأدیه و پرداخت نفقه فرزند مشترک می‌باشد",
+        "start_char": 597,
+        "end_char": 651,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": 3094,
+        "end_char": 3129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده در حق تجدیدنظرخواه",
+        "start_char": 2749,
+        "end_char": 2782,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "به موجب رأی شماره 8701040",
+        "start_char": 212,
+        "end_char": 237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1051",
+        "start_char": 2182,
+        "end_char": 2208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اظهارنامه",
+      "evidence": {
+        "quote": "بر اساس اظهارنامه شماره 7126",
+        "start_char": 797,
+        "end_char": 825,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اقساط مهریه به موقع پرداخت نشده است",
+      "evidence": {
+        "quote": "معلوم می‌شود که اقساط به موقع پرداخت نشده است",
+        "start_char": 504,
+        "end_char": 549,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حضانت فرزند به مادر واگذار شده است",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک به نام ب. متولد 1386/11/20 به زوجه واگذار شده است",
+        "start_char": 283,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

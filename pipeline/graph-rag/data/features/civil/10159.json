@@ -1,0 +1,163 @@
+{
+  "ruling_id": "10159",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "به خواسته حضانت فرزند مشترک",
+        "start_char": 47,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق ملاقات",
+      "evidence": {
+        "quote": "با حفظ حق ملاقات مادر",
+        "start_char": 436,
+        "end_char": 457,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم بر رد دعوی خواهان صادر نمود",
+        "start_char": 504,
+        "end_char": 535,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم م.ک.",
+        "start_char": 768,
+        "end_char": 791,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه در خصوص حضانت فرزند",
+        "start_char": 1336,
+        "end_char": 1370,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از جمله اظهارات خواهان",
+        "start_char": 136,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به قسمت اخیر دادنامه",
+        "start_char": 1467,
+        "end_char": 1500,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "پدر",
+      "evidence": {
+        "quote": "حضانت به پدر واگذار شده",
+        "start_char": 344,
+        "end_char": 367,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مادر",
+      "evidence": {
+        "quote": "حق ملاقات مادر",
+        "start_char": 443,
+        "end_char": 457,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک",
+        "start_char": 57,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی صادره حضوری",
+        "start_char": 614,
+        "end_char": 629,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به آن بخش از رأی موضوع دادنامه",
+        "start_char": 812,
+        "end_char": 847,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین از یکدیگر جدا زندگی می‌کنند",
+      "evidence": {
+        "quote": "از جمله اظهارات خواهان طرفین جدای از یکدیگر زندگی می‌کنند",
+        "start_char": 136,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در دادنامه قبلی حضانت به پدر واگذار شده بود",
+      "evidence": {
+        "quote": "در آن حضانت به پدر واگذار شده",
+        "start_char": 338,
+        "end_char": 367,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزند در آستانه ورود به سن حضانت پدر است",
+      "evidence": {
+        "quote": "فرزند در آستانه ورود به سن حضانت پدر است",
+        "start_char": 376,
+        "end_char": 416,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

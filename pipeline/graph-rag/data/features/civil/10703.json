@@ -1,0 +1,183 @@
+{
+  "ruling_id": "10703",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "اعلام بطلان نکاح منقطع",
+        "start_char": 117,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "و ابطال سند عادی",
+        "start_char": 188,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجازه",
+      "evidence": {
+        "quote": "عدم وجود اذن و اجازه خواهان",
+        "start_char": 160,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "از جهت صحت است یا نفوذ",
+        "start_char": 443,
+        "end_char": 465,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "به خواسته اعلام بطلان نکاح",
+        "start_char": 106,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "دعوای وی را رد می‌نماید",
+        "start_char": 1897,
+        "end_char": 1920,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی آقای ع.ن.",
+        "start_char": 2134,
+        "end_char": 2164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه مذکور تأیید می‌شود",
+        "start_char": 3022,
+        "end_char": 3048,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "عدم وجود اذن و اجازه خواهان",
+        "start_char": 160,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به‬ طرفیت خواندگان",
+        "start_char": 45,
+        "end_char": 63,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "رد دعوی تجدیدنظرخواه",
+        "start_char": 2321,
+        "end_char": 2341,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "بین تجدیدنظرخواندگان",
+        "start_char": 2367,
+        "end_char": 2387,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "و ابطال سند عادی تنظیمی",
+        "start_char": 188,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "در عقدنامه انقطاعی برابر گواهی پزشکی",
+        "start_char": 2427,
+        "end_char": 2463,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 216301102",
+        "start_char": 2215,
+        "end_char": 2246,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زناشویی بین خواندگان برقرار بوده است",
+      "evidence": {
+        "quote": "از جمله ارائه عکس‌هایی که حاکی از ارتباط خواندگان به مانند ارتباطی که زوجین با هم دارند",
+        "start_char": 1285,
+        "end_char": 1372,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زن در زمان عقد باکره نبوده است",
+      "evidence": {
+        "quote": "در عقدنامه انقطاعی برابر گواهی پزشکی ارائه شده است زوجه زمان عقد باکره نبوده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

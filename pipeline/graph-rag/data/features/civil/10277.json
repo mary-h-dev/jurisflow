@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10277",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت وجه التزام",
+        "start_char": 57,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت اجرت‌المثل",
+        "start_char": 356,
+        "end_char": 391,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "خریدار حق فسخ دارد",
+        "start_char": 1657,
+        "end_char": 1675,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "عدم ایفای تعهدات متقابل در عقد معاوضی",
+        "start_char": 3695,
+        "end_char": 3732,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت وجه التزام",
+        "start_char": 57,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مابه‌التفاوت",
+        "start_char": 221,
+        "end_char": 240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "چهارصد میلیون ریال را پرداخت",
+        "start_char": 656,
+        "end_char": 684,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "تنظیم سند تحویل ملک",
+        "start_char": 777,
+        "end_char": 796,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت وجه التزام",
+        "start_char": 57,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ماحصل دعوی این است که خواهان",
+        "start_char": 449,
+        "end_char": 477,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "خوانده به‌عنوان فروشنده مالک مقدار کمتری",
+        "start_char": 906,
+        "end_char": 946,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "خریدار حق فسخ دارد",
+        "start_char": 1657,
+        "end_char": 1675,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "تأخیر در تحویل مبیع",
+        "start_char": 101,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی 1813 فرع از 24",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به‌موجب مبایعه‌نامه عادی بدون تاریخ",
+        "start_char": 478,
+        "end_char": 513,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مساحت ملک کمتر از مقدار فروخته شده است",
+      "evidence": {
+        "quote": "چنانچه معلوم شود مساحت ملک کمتر از مقدار فروخته‌شده است",
+        "start_char": 1600,
+        "end_char": 1655,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین توافقی برای جبران کسری متراژ نکرده‌اند",
+      "evidence": {
+        "quote": "و طرفین توافقی به جبران کسری متراژ ننموده‌اند",
+        "start_char": 1676,
+        "end_char": 1721,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "باقی‌مانده ثمن پرداخت نشده است",
+      "evidence": {
+        "quote": "ایشان بخشی از ثمن مورد توافق را حاضر ننموده",
+        "start_char": 1924,
+        "end_char": 1966,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

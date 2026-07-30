@@ -1,0 +1,183 @@
+{
+  "ruling_id": "10747",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته صدور حکم بر تأیید فسخ قرارداد",
+        "start_char": 65,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "از نوعی حق حبس استفاده کند",
+        "start_char": 2028,
+        "end_char": 2054,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "عقد بیع خصوصیتی ندارد",
+        "start_char": 1911,
+        "end_char": 1932,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "تقاضای تنفیذ اقاله",
+        "start_char": 566,
+        "end_char": 584,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "و خلع‌ ید خوانده از پلاک ثبتی",
+        "start_char": 125,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "لذا تخلیه نمی‌کند",
+        "start_char": 720,
+        "end_char": 737,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "محکوم به تنظیم سند رسمی در دفتر اسناد رسمی شده‌اند",
+        "start_char": 2696,
+        "end_char": 2746,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "پلاک موصوف به خوانده واگذار شده است",
+        "start_char": 330,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخوانده",
+      "evidence": {
+        "quote": "نظر به اینکه مستند دعوی واخوانده در الزام واخواهان",
+        "start_char": 2816,
+        "end_char": 2866,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "به موجب آن حکم به رد دعوی تجدیدنظرخواهان‌ها",
+        "start_char": 3777,
+        "end_char": 3820,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به خواسته خلع‌ید تجدیدنظرخوانده",
+        "start_char": 3821,
+        "end_char": 3853,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "فسخ قرارداد 0551 مورخ 1387/3/16",
+        "start_char": 93,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "خوانده از پلاک ثبتی...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "ثمن دریافتی طبق جدول زمانی اقدام شود",
+        "start_char": 520,
+        "end_char": 556,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "از تسلیم مبیع و ثمن حسب مورد خودداری کند",
+        "start_char": 1845,
+        "end_char": 1885,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین در سال ۱۳۹۳ توافق به فسخ قرارداد کردند",
+      "evidence": {
+        "quote": "طبق توافق مورخ 1393/2/11 اقدام به فسخ قرارداد مورخ 1387/3/16 نموده",
+        "start_char": 435,
+        "end_char": 501,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده مبلغ ثمن را پرداخت نکرده است",
+      "evidence": {
+        "quote": "چون طرف اقدام به استرداد مبلغ ثمن نکرده است",
+        "start_char": 676,
+        "end_char": 719,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

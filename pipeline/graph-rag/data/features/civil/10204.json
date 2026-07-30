@@ -1,0 +1,122 @@
+{
+  "ruling_id": "10204",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه فرزند",
+        "start_char": 171,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 860,
+        "end_char": 878,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه فرزند",
+        "start_char": 161,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "نام خانوادگی خود را از الف. به ز. تغییر داد",
+        "start_char": 115,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 1458,
+        "end_char": 1478,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه مذکور تأیید می‌شود",
+        "start_char": 1479,
+        "end_char": 1505,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست تقدیمی خواهان",
+        "start_char": 8,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده",
+        "start_char": 54,
+        "end_char": 70,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در مورد دعوی تجدیدنظرخواه",
+        "start_char": 1137,
+        "end_char": 1162,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرزند خوانده دعوی است",
+      "evidence": {
+        "quote": "فرزند خوانده دعوی است",
+        "start_char": 242,
+        "end_char": 263,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده توانایی مالی پرداخت هزینه دانشگاه را ندارد",
+      "evidence": {
+        "quote": "بیان داشت توانایی مالی پرداخت هزینه دانشگاه خواهان را ندارم",
+        "start_char": 473,
+        "end_char": 532,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

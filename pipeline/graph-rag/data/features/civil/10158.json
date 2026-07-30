@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10158",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "به خواسته حضانت طفل مشترک",
+        "start_char": 87,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "به مدت یک ماه در عقد موقت شخصی بوده",
+        "start_char": 862,
+        "end_char": 898,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت",
+      "evidence": {
+        "quote": "در قید زوجیت شخصی نمی‌باشد",
+        "start_char": 1044,
+        "end_char": 1070,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض واخواه را ثابت تشخیص داده",
+        "start_char": 1253,
+        "end_char": 1285,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادره دادگاه بدوی را نقض کرده",
+        "start_char": 2218,
+        "end_char": 2251,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی واگذاری حضانت فرزند مشترک مادر صادر می‌نماید",
+        "start_char": 2296,
+        "end_char": 2355,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست خواهان آقای م.الف.",
+        "start_char": 0,
+        "end_char": 27,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "عدم حضور خوانده",
+        "start_char": 219,
+        "end_char": 234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "واخواه اظهار داشته است",
+        "start_char": 836,
+        "end_char": 858,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "حق بذل مدت صیغه را به وکالت از زوج داشته باشد",
+        "start_char": 934,
+        "end_char": 979,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "صیغه‌نامه",
+      "evidence": {
+        "quote": "با توجه به صیغه نامه ارائه شده",
+        "start_char": 258,
+        "end_char": 289,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 335-1393/3/20",
+        "start_char": 688,
+        "end_char": 723,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرزند مشترک از سن حضانت مادر خارج است",
+      "evidence": {
+        "quote": "فرزند مشترک از سن حضانت مادر خارج است",
+        "start_char": 1889,
+        "end_char": 1926,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین در مورد حضانت اختلاف دارند",
+      "evidence": {
+        "quote": "در صورت بروز اختلاف تکلیف حضانت بر اساس ماده 1169 قانون مدنی بر حسب مورد، متوجه والدین بر اساس سن فرزند مشترک می‌باشد",
+        "start_char": 2024,
+        "end_char": 2141,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

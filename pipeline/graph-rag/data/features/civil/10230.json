@@ -1,0 +1,213 @@
+{
+  "ruling_id": "10230",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "و توجهاً به اصل لزوم قراردادها",
+        "start_char": 5915,
+        "end_char": 5945,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "قرارداد خود به‌ خود فسخ و معامله فاقد اعتبار است",
+        "start_char": 2453,
+        "end_char": 2501,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "بنابراین موضوع انفساخ معامله به لحاظ عدم تحقق شرط منتفی است",
+        "start_char": 4437,
+        "end_char": 4496,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "حکم بر ابطال سند رسمی شماره...- 1381/2/14 دفترخانه شماره... تهران صادر می‌گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "نسبت به تنظیم سند رسمی مورد معامله اقدام نمایند",
+        "start_char": 1206,
+        "end_char": 1253,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "فروشنده (خوانده ردیف یک) مورد معامله را به موکل تحویل داده است",
+        "start_char": 1015,
+        "end_char": 1077,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ -/62/000/000 ریال بابت قسمتی از ثمن معامله نقداً به مشارالیه پرداخت نموده",
+        "start_char": 842,
+        "end_char": 920,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "فروشندگان از حضور در دفترخانه مذکور استنکاف می‌نمایند",
+        "start_char": 1295,
+        "end_char": 1348,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان در تشریح خواسته و توجیه ادعای موکل اظهار داشته است",
+        "start_char": 337,
+        "end_char": 399,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف یکم به‌موجب سند عادی مورخ 1378/11/14",
+        "start_char": 406,
+        "end_char": 454,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده (خوانده ردیف یک) مورد معامله را به موکل تحویل داده است",
+        "start_char": 1015,
+        "end_char": 1077,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "خریدار در تاریخ مقرر حاضر نگردیده است",
+        "start_char": 3328,
+        "end_char": 3365,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "ابطال سند رسمی شماره...-1381/2/14 دفترخانه... تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "خوانده ردیف یکم به‌موجب سند عادی مورخ 1378/11/14",
+        "start_char": 406,
+        "end_char": 454,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان در طبقه پنجم",
+        "start_char": 564,
+        "end_char": 595,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "خلع ید و تحویل مبیع با احتساب خسارات دادرسی",
+        "start_char": 280,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبلغ مذکور ابتدا موکل به هنگام امضاء مبایعه‌نامه",
+        "start_char": 793,
+        "end_char": 841,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در تاریخ مقرر در دفترخانه حاضر نشده است",
+      "evidence": {
+        "quote": "فروشندگان از حضور در دفترخانه مذکور استنکاف می‌نمایند",
+        "start_char": 1295,
+        "end_char": 1348,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبلغ بخشی از ثمن معامله پرداخت شده است",
+      "evidence": {
+        "quote": "مبلغ -/62/000/000 ریال بابت قسمتی از ثمن معامله نقداً به مشارالیه پرداخت نموده",
+        "start_char": 842,
+        "end_char": 920,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "یکی از طرفین دعوا فوت کرده است",
+      "evidence": {
+        "quote": "آقای م.ص. فوت نموده است",
+        "start_char": 3776,
+        "end_char": 3799,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

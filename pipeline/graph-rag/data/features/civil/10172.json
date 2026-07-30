@@ -1,0 +1,112 @@
+{
+  "ruling_id": "10172",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه فرزندان مشترک",
+        "start_char": 118,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "محجور",
+      "evidence": {
+        "quote": "خوانده محجور",
+        "start_char": 326,
+        "end_char": 338,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه",
+        "start_char": 108,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادره دادگاه بدوی را نقض کرده",
+        "start_char": 1525,
+        "end_char": 1558,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اظهارات وکیل خواهان",
+        "start_char": 257,
+        "end_char": 276,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دفاعیات خوانده",
+        "start_char": 278,
+        "end_char": 292,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "قیم",
+      "evidence": {
+        "quote": "حکم به محکومیت قیم آقای ر.گ.",
+        "start_char": 1638,
+        "end_char": 1666,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "لایحه تجدیدنظرخواه",
+        "start_char": 1098,
+        "end_char": 1116,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پدر فرزندان مشترک محجور است",
+      "evidence": {
+        "quote": "هر چند پدر فرندان مشترک محجور می‌باشد",
+        "start_char": 1299,
+        "end_char": 1336,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پدر دارای حقوق ماهیانه است",
+      "evidence": {
+        "quote": "از حقوق ماهیانه از اداره مربوطه خود برخودار است",
+        "start_char": 1342,
+        "end_char": 1389,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

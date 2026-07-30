@@ -1,0 +1,162 @@
+{
+  "ruling_id": "10465",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ارش",
+      "evidence": {
+        "quote": "مطالبه مبلغ 110/500/000 ریال از بابت ارش مبیع معیوب",
+        "start_char": 75,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "ادعای خیار عیب و مطالبه ارش",
+        "start_char": 865,
+        "end_char": 892,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "به گونه ای تدلیس در معامله واقع شده",
+        "start_char": 2021,
+        "end_char": 2056,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "و فراهم بودن ارکان و شرایط تحقق مسئولیت مدنی",
+        "start_char": 2261,
+        "end_char": 2305,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ 110/500/000 ریال",
+        "start_char": 64,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ساقط",
+      "evidence": {
+        "quote": "کافّه خیارات از طرفین ساقط گردیده",
+        "start_char": 829,
+        "end_char": 862,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 2432,
+        "end_char": 2461,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت تجدیدنظرخوانده به پرداخت مبلغ 110/500/000 ریال",
+        "start_char": 2579,
+        "end_char": 2640,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با این توضیح که خواهان با استناد به نظریه کارشناسی",
+        "start_char": 273,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دفاعیات وکیل خوانده",
+        "start_char": 752,
+        "end_char": 771,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "اجماعاً در حق تجدیدنظرخواه",
+        "start_char": 2701,
+        "end_char": 2727,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخوانده آقای م.د.",
+        "start_char": 1317,
+        "end_char": 1351,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "بایع را ملزم به جبران خسارت وارده",
+        "start_char": 2060,
+        "end_char": 2093,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود نقص فنی در گیربکس خودرو",
+      "evidence": {
+        "quote": "نقص فنی در گیربکس اتومبیل مورد معامله (تویوتا لندکروز) ایجاد شده",
+        "start_char": 446,
+        "end_char": 510,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کشف عیب پنهان خودرو در تاریخ 1392/12/28",
+      "evidence": {
+        "quote": "کشف عیب پنهان خودروی موصوف (درتاریخ 1392/12/28)",
+        "start_char": 2159,
+        "end_char": 2206,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

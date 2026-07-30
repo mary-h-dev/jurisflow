@@ -1,0 +1,203 @@
+{
+  "ruling_id": "10394",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته الزام به تمکین",
+        "start_char": 76,
+        "end_char": 100,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت",
+      "evidence": {
+        "quote": "دعوی درزوجیت وی به سر می‌برد",
+        "start_char": 140,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ترک نموده",
+      "evidence": {
+        "quote": "منزل را ترک نموده است",
+        "start_char": 190,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "گواهی پزشکی قانونی هم مبنی بر ایراد ضرب و جرح عمدی ارائه نموده است",
+        "start_char": 413,
+        "end_char": 479,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی صادر می‌نماید",
+        "start_char": 621,
+        "end_char": 649,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه مارالذکر",
+        "start_char": 1479,
+        "end_char": 1503,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "حکم الزام تجدیدنظرخوانده (زوجه) به تمکین",
+        "start_char": 1536,
+        "end_char": 1576,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست تقدیمی خواهان",
+        "start_char": 8,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده",
+        "start_char": 51,
+        "end_char": 67,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به خواسته تمکین زوجه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "حکم الزام تجدیدنظرخوانده (زوجه)",
+        "start_char": 1536,
+        "end_char": 1567,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده (زوجه)",
+        "start_char": 1546,
+        "end_char": 1567,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "سوء رفتار زوج را",
+        "start_char": 1192,
+        "end_char": 1208,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "منزل را ترک نموده است",
+        "start_char": 190,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی پزشکی",
+      "evidence": {
+        "quote": "گواهی پزشکی ارائه شده",
+        "start_char": 1337,
+        "end_char": 1358,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "تهیه مسکن مستقل",
+        "start_char": 1642,
+        "end_char": 1657,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از منزل ترک کرده است",
+      "evidence": {
+        "quote": "از تاریخ 1393/2/4 منزل را ترک نموده است",
+        "start_char": 172,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دادرسی حاضر شده است",
+      "evidence": {
+        "quote": "خوانده دعوی در جلسه دادرسی نزد این دادگاه حاضرشده است",
+        "start_char": 242,
+        "end_char": 295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حکم رد دعوی صادر شده بود",
+      "evidence": {
+        "quote": "حکم به رد دعوی صادر می‌نماید",
+        "start_char": 621,
+        "end_char": 649,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "10898",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "صدک سکه بهار آزادی مهریه وی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "هبه",
+      "evidence": {
+        "quote": "مبنی بر قابل رجوع بودن هبه",
+        "start_char": 1551,
+        "end_char": 1577,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور رأی",
+      "evidence": {
+        "quote": "درخواست صدور رأی به محکومیت زوج",
+        "start_char": 88,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقاضای",
+      "evidence": {
+        "quote": "تقاضای واخواهی می‌کند",
+        "start_char": 645,
+        "end_char": 666,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "طرفین اعتراض نمی‌نمایند",
+        "start_char": 1396,
+        "end_char": 1419,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به‌طرفیت شوهرش م.ل.",
+        "start_char": 68,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "بخشیدن صد سکه از طرف زوجه",
+        "start_char": 1111,
+        "end_char": 1136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با حضور خواهان به پرونده رسیدگی می‌کند",
+        "start_char": 319,
+        "end_char": 357,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "یکصد و چهارده عدد سکه بهار آزادی",
+        "start_char": 130,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "یک فقره قرارداد عادی",
+        "start_char": 699,
+        "end_char": 719,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه بخشی از مهریه را بخشیده است",
+      "evidence": {
+        "quote": "بخشیدن صد سکه از طرف زوجه را گواهی می‌نمایند",
+        "start_char": 1111,
+        "end_char": 1155,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مهریه دین در ذمه زوج است",
+      "evidence": {
+        "quote": "مهریه تعیین شده در پرونده عین معین نبوده بلکه به‌صورت دین و در ذمه زوج بوده است",
+        "start_char": 1946,
+        "end_char": 2025,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

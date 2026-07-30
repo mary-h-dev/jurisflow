@@ -1,0 +1,143 @@
+{
+  "ruling_id": "10444",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "شرایط صحت",
+        "start_char": 1741,
+        "end_char": 1750,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال وکالت‌نامه",
+        "start_char": 125,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی",
+        "start_char": 213,
+        "end_char": 236,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی",
+        "start_char": 2203,
+        "end_char": 2216,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "تاریخ سند عادی مورد استناد خواهان",
+        "start_char": 1312,
+        "end_char": 1345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف سوم",
+        "start_char": 1392,
+        "end_char": 1407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 2203,
+        "end_char": 2215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "تجدیدنظرخواندگان",
+        "start_char": 2263,
+        "end_char": 2279,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "وکالت‌نامه شماره 43724-1390/11/3",
+        "start_char": 131,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند صلح غیرمنقول شماره 43947-1390/12/1",
+        "start_char": 172,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه‌نامه",
+        "start_char": 1585,
+        "end_char": 1596,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تاریخ سند عادی با تاریخ واقعی مطابقت ندارد",
+      "evidence": {
+        "quote": "تاریخ مندرج در مبایعه‌نامه استنادی با تاریخ واقعی تحریر و تنظیم مبایعه‌نامه مطابقت ندارد",
+        "start_char": 1570,
+        "end_char": 1658,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند عادی فاقد تاریخ است",
+      "evidence": {
+        "quote": "سند مزبور مانند سند عادی فاقد تاریخ بوده",
+        "start_char": 1189,
+        "end_char": 1229,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

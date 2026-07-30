@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10131",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 162,
+        "end_char": 179,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیمه",
+      "evidence": {
+        "quote": "در عقد بیمه",
+        "start_char": 1674,
+        "end_char": 1685,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی",
+        "start_char": 2251,
+        "end_char": 2268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 2555,
+        "end_char": 2573,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نصف دیه کامل",
+        "start_char": 106,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت چندین فقره دیه محکوم گردیده",
+        "start_char": 492,
+        "end_char": 529,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "از پرداخت نصف دیگر آن استنکاف می‌نماید",
+        "start_char": 1043,
+        "end_char": 1081,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 3983,
+        "end_char": 4013,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 214,
+        "end_char": 225,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "نماینده خوانده",
+        "start_char": 1178,
+        "end_char": 1192,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بیمه‌گر",
+      "evidence": {
+        "quote": "بیمه‌گر مکلف به جبران خسارت",
+        "start_char": 1686,
+        "end_char": 1714,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه ردیف اول",
+        "start_char": 3034,
+        "end_char": 3055,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "مطالبه نصف دیه کامل",
+        "start_char": 116,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اتومبیل",
+      "evidence": {
+        "quote": "اتومبیل موضوع تصادف",
+        "start_char": 637,
+        "end_char": 656,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به موجب دادنامه شماره 8801028",
+        "start_char": 335,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وقوع حادثه رانندگی منجر به فوت شده است",
+      "evidence": {
+        "quote": "در حادثه رانندگی فوت نموده است",
+        "start_char": 3065,
+        "end_char": 3095,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "راننده در حادثه مقصر بوده است",
+      "evidence": {
+        "quote": "راننده مقصر مشارالیه بوده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بیمه فقط نصف دیه را پرداخت کرده است",
+      "evidence": {
+        "quote": "اما شرکت بیمه فقط نصف دیه مرحومه س.ص. را پرداخت می‌نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

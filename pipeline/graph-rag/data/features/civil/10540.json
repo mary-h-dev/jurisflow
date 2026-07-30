@@ -1,0 +1,183 @@
+{
+  "ruling_id": "10540",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "مبایعه‌نامه تنظیمی اصولاً قراردادیست لازم",
+        "start_char": 2717,
+        "end_char": 2758,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "و دلیلی بر فسخ و اقاله و یا سلب اعتبار آن از جانب خواندگان به دادگاه ارائه و ابراز نشده است",
+        "start_char": 2616,
+        "end_char": 2707,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "مبلغی معادل 20 درصد ثمن معامله جهت وجه التزام انجام تعهد هر یک از طرفین قرارداد در نظر گرفته شده است",
+        "start_char": 3626,
+        "end_char": 3726,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "پرداخت خسارت تأخیر تأدیه در اجرای تعهد",
+        "start_char": 1910,
+        "end_char": 1948,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان شرط غیرمقدور ناظر به موردی است که ناتوانی در اجرای شرط، ناشی از وضع و طبیعت تعهد باشد",
+        "start_char": 7511,
+        "end_char": 7602,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام خوانده به حضور در دفترخانه و تنظیم سند رسمی",
+        "start_char": 89,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "تمامی بهای مورد معامله را به فروشندگان پرداخت کرده",
+        "start_char": 1440,
+        "end_char": 1490,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حاضر نشده",
+      "evidence": {
+        "quote": "در آن دفتر جهت انتقال رسمی مورد معامله حاضر نشده است",
+        "start_char": 1750,
+        "end_char": 1802,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان در تبیین خواسته اظهار داشته است",
+        "start_char": 446,
+        "end_char": 489,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به حضور در دفترخانه",
+        "start_char": 89,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "خوانده ردیف سوم به عنوان مالک (فروشنده) حضور داشته",
+        "start_char": 1112,
+        "end_char": 1162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "خانم الف.ع. و آقای ب.ب. به عنوان خریدار",
+        "start_char": 2428,
+        "end_char": 2467,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به‌استناد مبایعه‌نامه مورخ 1390/4/17",
+        "start_char": 493,
+        "end_char": 529,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "تنظیم سند رسمی یک دستگاه آپارتمان",
+        "start_char": 124,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "مبلغی معادل 20 درصد ثمن معامله",
+        "start_char": 3626,
+        "end_char": 3656,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در موعد مقرر در دفترخانه حاضر نشده است",
+      "evidence": {
+        "quote": "در موعد مقرر مستند به گواهی عدم حضور صادره از دفترخانه، در آن دفتر جهت انتقال رسمی مورد معامله حاضر نشده است",
+        "start_char": 1694,
+        "end_char": 1802,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت خوانده بر ملک ثابت شده است",
+      "evidence": {
+        "quote": "مالکیت خوانده آقای و.م. به قطعه 8 پلاک ثبتی... فرعی از... اصلی مفروز از پلاک... فرعی ثابت و مسلم است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

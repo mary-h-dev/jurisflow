@@ -1,0 +1,143 @@
+{
+  "ruling_id": "10539",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "موضوع از مصادیق ابطال دادخواست مندرج درماده 96 قانون آیین دادرسی دادگاه‌های عمومی و انقلاب در امور مدنی تشخیص نگردیده",
+        "start_char": 400,
+        "end_char": 517,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "نمی‌تواند رافع کیفیت مسئولیت هر یک از اشخاص حقیقی یا حقوقی گردد",
+        "start_char": 1889,
+        "end_char": 1952,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مبنی بر مطالبه مبلغ 205000 درهم امارات متحده عربی",
+        "start_char": 68,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدید‌نظر‌خوانده نسبت به نظریه کارشناس اعتراض نموده",
+        "start_char": 4208,
+        "end_char": 4257,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض",
+        "start_char": 5011,
+        "end_char": 5040,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای پ.ش. به طرف آقای ع.ع.",
+        "start_char": 0,
+        "end_char": 39,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در جلسه دادرسی خوانده، خواهان ملاحظه اصل سند مورد ادعا گردیده است",
+        "start_char": 209,
+        "end_char": 274,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید‌نظر‌خواه به پرداخت مبلغ 205000 درهم امارات متحده عربی",
+        "start_char": 3303,
+        "end_char": 3360,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدید‌نظر‌خوانده محکوم شده‌ است",
+        "start_char": 3468,
+        "end_char": 3505,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "خوانده، خواهان ملاحظه اصل سند مورد ادعا گردیده است",
+        "start_char": 224,
+        "end_char": 274,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "درهم",
+      "evidence": {
+        "quote": "مطالبه مبلغ 205000 درهم امارات متحده عربی",
+        "start_char": 76,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "امضاء پیش از متن نوشته شده است",
+      "evidence": {
+        "quote": "امضاء منتسب به تجدیدنظرخواه در ذیل سند مدرکیه، مقدم بر متن تحریر شده",
+        "start_char": 4623,
+        "end_char": 4691,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده منکر انتساب امضاء به خود نیست",
+      "evidence": {
+        "quote": "چون خوانده منکر انتساب امضاء ذیل سند به خود نبوده",
+        "start_char": 349,
+        "end_char": 398,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

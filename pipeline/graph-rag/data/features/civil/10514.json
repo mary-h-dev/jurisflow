@@ -1,0 +1,183 @@
+{
+  "ruling_id": "10514",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "دلالت بر امتداد و استمرار قصد طرفین بر انجام عقد بیع دارد",
+        "start_char": 1026,
+        "end_char": 1083,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "انتقال حقوق مالکیت",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "منافی با حق مرتهن بوده",
+        "start_char": 1480,
+        "end_char": 1502,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد رهن",
+      "evidence": {
+        "quote": "عقد رهن موجب خروج عین مرهونه از مالکیت مالک نمی‌گردد",
+        "start_char": 3446,
+        "end_char": 3498,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "واگذاری",
+      "evidence": {
+        "quote": "پلاک ثبتی... را به خواهان واگذار نموده‌است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعطای",
+      "evidence": {
+        "quote": "اعطای وکالتنامه مذکور",
+        "start_char": 882,
+        "end_char": 903,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "در زمان توقیف پلاک ثبتی مورد دعوی",
+        "start_char": 1745,
+        "end_char": 1778,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مستوجب نقض آن می‌باشد",
+        "start_char": 2854,
+        "end_char": 2875,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "پلاک ثبتی... را به خواهان واگذار نموده‌است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف دوم",
+        "start_char": 484,
+        "end_char": 499,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "راهن",
+      "evidence": {
+        "quote": "در چارچوب روابط بین راهن و مرتهن",
+        "start_char": 1604,
+        "end_char": 1636,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "بر اساس مبایعنامه مورخ 1391/11/25",
+        "start_char": 395,
+        "end_char": 428,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی... را به خواهان واگذار نموده‌است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "برابر اسناد رهنی به شماره‌های 11691",
+        "start_char": 3689,
+        "end_char": 3724,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انعقاد عقد بیع به صورت عادی",
+      "evidence": {
+        "quote": "قرارداد مذکور بصورت عادی تنظیم گردیده است",
+        "start_char": 3074,
+        "end_char": 3115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود رهن بر ملک مورد دعوا",
+      "evidence": {
+        "quote": "در رهن آن بانک قرار گرفته است",
+        "start_char": 3843,
+        "end_char": 3872,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اذن مرتهن برای انتقال ملک",
+      "evidence": {
+        "quote": "بانک مرتهن هیچگونه اذنی به راهن در جهت واگذاری عین و منافع عین مرهونه به راهن اعطا ننموده است",
+        "start_char": 3875,
+        "end_char": 3968,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

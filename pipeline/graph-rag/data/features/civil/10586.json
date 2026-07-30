@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10586",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قرض",
+      "evidence": {
+        "quote": "خوانده توانایی بازپرداخت این مبلغ را به عنوان قرض ندارد",
+        "start_char": 1487,
+        "end_char": 1542,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "هبه",
+      "evidence": {
+        "quote": "بلکه به قصد و نیت هبه پرداخت شده است",
+        "start_char": 1794,
+        "end_char": 1830,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر و اعلام می‌نماید",
+        "start_char": 1953,
+        "end_char": 1999,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مابقی را به صورت نقدی پرداخت نموده است",
+        "start_char": 700,
+        "end_char": 738,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "خوانده از پرداخت دین امتناع می‌نماید",
+        "start_char": 741,
+        "end_char": 777,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ح.ت. به‌طرفیت س.د.",
+        "start_char": 2159,
+        "end_char": 2191,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای ح.ت. با وکالت آقایان 1- ج.ح. 2- الف.ش.ی به‌ طرفیت خانم س.د.",
+        "start_char": 0,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم س.د. با وکالت آقایان1-س.ح. 2- ح.م.",
+        "start_char": 58,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": 2521,
+        "end_char": 2556,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "به پرداخت مبلغ 428620000 تومان",
+        "start_char": 145,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "به موجب مبایعه‌نامه عادی مورخ 1388/6/26",
+        "start_char": 288,
+        "end_char": 327,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "طی سه فقره چک به شماره‌های...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "اقدام به خرید یک دستگاه آپارتمان",
+        "start_char": 364,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده توانایی پرداخت ثمن معامله را نداشته است",
+      "evidence": {
+        "quote": "توانایی پرداخت ثمن معامله را نداشته است",
+        "start_char": 408,
+        "end_char": 447,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین با هم رابطه زوجیت داشته‌اند",
+      "evidence": {
+        "quote": "رابطه زوجیت بین طرفین",
+        "start_char": 1553,
+        "end_char": 1574,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده زوجه خواهان است",
+      "evidence": {
+        "quote": "خوانده دعوی که زوجه خواهان می‌باشد",
+        "start_char": 328,
+        "end_char": 362,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

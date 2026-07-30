@@ -1,0 +1,133 @@
+{
+  "ruling_id": "10382",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه از حقوق ممتازه زوجه بوده",
+        "start_char": 306,
+        "end_char": 336,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "صدور قرار توقیف عملیات اجرایی",
+        "start_char": 104,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه مهریه",
+      "evidence": {
+        "quote": "مطالبه مهریه",
+        "start_char": 257,
+        "end_char": 269,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی صادر",
+        "start_char": 579,
+        "end_char": 598,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "قابل تجدیدنظر در دادگاه تجدیدنظر",
+        "start_char": 645,
+        "end_char": 677,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی صادر شده دادگاه بدوی را با استناد به مواد 358 و 365 قانون آیین دادرسی دادگاه‌های عمومی و انقلاب در امور مدنی تأیید می‌نماید",
+        "start_char": 1347,
+        "end_char": 1474,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "عدم ایراد دفاع موجه از جانب زوج",
+        "start_char": 162,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "حقوق ممتازه زوجه بوده",
+        "start_char": 315,
+        "end_char": 336,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه ایراد و اعتراض موجهی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "فروش ملک به ثمن بخس",
+        "start_char": 485,
+        "end_char": 504,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انجام معامله بین زوج و مادرش پس از مطالبه مهریه",
+      "evidence": {
+        "quote": "معامله صورت گرفته زوج با مادرش که تاریخ و انشاء آن مؤخر بر مطالبه مهریه از جانب زوجه می‌باشد",
+        "start_char": 198,
+        "end_char": 290,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فروش ملک به قیمت پایین",
+      "evidence": {
+        "quote": "فروش ملک به ثمن بخس",
+        "start_char": 485,
+        "end_char": 504,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

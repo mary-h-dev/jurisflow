@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10186",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته تمکین",
+        "start_char": 57,
+        "end_char": 72,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 708,
+        "end_char": 732,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مانع مشروع",
+      "evidence": {
+        "quote": "دلیلی نیز بر وجود مانع مشروع",
+        "start_char": 1329,
+        "end_char": 1357,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عذر",
+      "evidence": {
+        "quote": "یا عذر موجه",
+        "start_char": 1358,
+        "end_char": 1369,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "دلیل بر نشوز زوجه در گذشته نیست",
+        "start_char": 1539,
+        "end_char": 1570,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "از تمکین امتناع می‌نماید",
+        "start_char": 190,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استناد",
+      "evidence": {
+        "quote": "به پرونده کیفری شماره 921374 شعبه 103 استناد نموده است",
+        "start_char": 371,
+        "end_char": 425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ایراد",
+      "evidence": {
+        "quote": "زوج محکوم به اتهام ایراد ضرب و جرح عمدی نسبت به زوجه شده است",
+        "start_char": 544,
+        "end_char": 604,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه مذکور",
+        "start_char": 1950,
+        "end_char": 1971,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای م.ع. به ‬طرفیت ف.م.",
+        "start_char": 0,
+        "end_char": 37,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده همسر من است",
+        "start_char": 144,
+        "end_char": 162,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج محکوم به اتهام ایراد ضرب و جرح عمدی",
+        "start_char": 544,
+        "end_char": 583,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "نسبت به زوجه شده است",
+        "start_char": 584,
+        "end_char": 604,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در منزل مشترک زندگی کرده",
+        "start_char": 1269,
+        "end_char": 1306,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "بازگشت به منزل مشترک",
+        "start_char": 1097,
+        "end_char": 1117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "استحقاق نفقه را نخواهد داشت",
+        "start_char": 2155,
+        "end_char": 2182,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج به اتهام ضرب و جرح محکوم شده است",
+      "evidence": {
+        "quote": "زوج محکوم به اتهام ایراد ضرب و جرح عمدی نسبت به زوجه شده است",
+        "start_char": 544,
+        "end_char": 604,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از تمکین امتناع کرده است",
+      "evidence": {
+        "quote": "از تمکین امتناع می‌نماید",
+        "start_char": 190,
+        "end_char": 214,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

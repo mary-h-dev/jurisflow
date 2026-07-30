@@ -1,0 +1,203 @@
+{
+  "ruling_id": "10580",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "وجود علقه زوجیت بین طرفین",
+        "start_char": 333,
+        "end_char": 358,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "صدور حکم تمکین",
+        "start_char": 58,
+        "end_char": 72,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم تجدیدنظر",
+        "start_char": 765,
+        "end_char": 807,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "دادخواست اعاده دادرسی",
+        "start_char": 1906,
+        "end_char": 1927,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم محکومیت",
+      "evidence": {
+        "quote": "به تمکین از شوهرش تجدیدنظرخوانده آقای ع.ح. محکوم گردیده",
+        "start_char": 1040,
+        "end_char": 1095,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه معترضٌ‌عنه را عیناً تأیید می‌نماید",
+        "start_char": 1530,
+        "end_char": 1572,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "قرار رد اعاده دادرسی صادر و اعلام می‌دارد",
+        "start_char": 2761,
+        "end_char": 2802,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "که خواهان اظهار نمود",
+        "start_char": 114,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به بازگشت به زندگی مشترک",
+        "start_char": 75,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی که موجبات جواز ترک تمکین وی را ایجاب نماید، ارائه نکرده‌است",
+        "start_char": 1224,
+        "end_char": 1311,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده آقای ع.ح.",
+        "start_char": 1058,
+        "end_char": 1082,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از اختیارات زوج بوده",
+        "start_char": 2540,
+        "end_char": 2560,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "محکومیت زوجه به تمکین",
+        "start_char": 2098,
+        "end_char": 2119,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "برابر سند رسمی ازدواج همسر قانونی وی است",
+        "start_char": 142,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 0283مورخ 1393/3/3",
+        "start_char": 944,
+        "end_char": 978,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رها کردن زندگی مشترک توسط خوانده",
+      "evidence": {
+        "quote": "بی‌جهت زندگی مشترک را رها نموده",
+        "start_char": 185,
+        "end_char": 216,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل برای عدم تمکین",
+      "evidence": {
+        "quote": "خوانده دلیل منطقی بر عدم تمکین و ایفای وظایف زوجیت ارائه نکرده است",
+        "start_char": 417,
+        "end_char": 483,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ایجاد ضرب و جرح توسط زوج",
+      "evidence": {
+        "quote": "به دلیل ایراد ضرب و جرح طی دادنامه شماره 82-30/7/93",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تعویض قفل توسط زوج",
+      "evidence": {
+        "quote": "تعویض قفل نیز از اختیارات زوج بوده",
+        "start_char": 2526,
+        "end_char": 2560,
+        "confidence": 0.8
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10250",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تابعیت",
+      "evidence": {
+        "quote": "پذیرش وی به تابعیت ایران",
+        "start_char": 1618,
+        "end_char": 1642,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "به خواسته صدور شناسنامه",
+        "start_char": 82,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "سجلی",
+      "evidence": {
+        "quote": "صدور اسناد سجلی",
+        "start_char": 345,
+        "end_char": 360,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده",
+        "start_char": 801,
+        "end_char": 822,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره کل امور هویتی ایرانیان",
+        "start_char": 1031,
+        "end_char": 1073,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه مذکور",
+        "start_char": 1842,
+        "end_char": 1863,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای م.م. با وکالت آقای ع.ص. به طرفیت اداره کل ثبت‌احوال (امور خارجه) به خواسته صدور شناسنامه و اسناد سجلی با توجه به اینکه خواهان اعلام نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "درخواست محکومیت خوانده",
+        "start_char": 319,
+        "end_char": 341,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به دادنامه مذکور راجع به دعوی تجدیدنظرخوانده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره کل امور هویتی ایرانیان",
+        "start_char": 1031,
+        "end_char": 1073,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "صدور شناسنامه",
+        "start_char": 92,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "صدور اسناد سجلی",
+        "start_char": 345,
+        "end_char": 360,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "صدور گواهی ولادت",
+        "start_char": 1496,
+        "end_char": 1512,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متولد شدن در ایران از والدین تبعه افغانستان",
+      "evidence": {
+        "quote": "در تاریخ 1369/4/18 در ایران از پدر و مادری تبعه افغانستان متولد شده است",
+        "start_char": 1246,
+        "end_char": 1317,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل بر عدم خروج از کشور",
+      "evidence": {
+        "quote": "دلیلی به عدم خروج خواهان از زمان تولد ارائه و اقامه نشده است",
+        "start_char": 633,
+        "end_char": 693,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تحصیل تابعیت ایران",
+      "evidence": {
+        "quote": "عدم ابراز دلیلی بر طی تشریفات مذکور و تحصیل تابعیت ایران",
+        "start_char": 1683,
+        "end_char": 1739,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

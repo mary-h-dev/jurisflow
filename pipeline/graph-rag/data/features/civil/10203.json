@@ -1,0 +1,183 @@
+{
+  "ruling_id": "10203",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت دائمی محرز است",
+        "start_char": 187,
+        "end_char": 213,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "مبنی بر نشوز زوجه",
+        "start_char": 283,
+        "end_char": 300,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "از حق حبس استفاده کند",
+        "start_char": 1182,
+        "end_char": 1203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دعوی",
+      "evidence": {
+        "quote": "زوج دعوی تمکینی مطرح نکرده",
+        "start_char": 2484,
+        "end_char": 2510,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "در قبال ادعای خواهان ارائه نداده",
+        "start_char": 386,
+        "end_char": 418,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اولاً اعتراض تجدیدنظرخواه ردیف اول وارد نیست",
+        "start_char": 2037,
+        "end_char": 2081,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه شماره 719",
+        "start_char": 2577,
+        "end_char": 2602,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی است",
+        "start_char": 876,
+        "end_char": 898,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در قبال ادعای خواهان",
+        "start_char": 386,
+        "end_char": 406,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "نفقه زوجه بر عهده زوج است",
+        "start_char": 228,
+        "end_char": 253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه ردیف اول (زوج را)",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "رونوشت مصدق سند نکاحیه دفتر رسمی ثبت ازدواج",
+        "start_char": 116,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "به پرداخت نفقه از تاریخ",
+        "start_char": 35,
+        "end_char": 58,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "به عنوان خسارات دادرسی و کارشناسی",
+        "start_char": 764,
+        "end_char": 798,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "رابطه زوجیت دائمی محرز است",
+        "start_char": 187,
+        "end_char": 213,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از حق حبس استفاده کرده است",
+      "evidence": {
+        "quote": "زوجه عملاً از زمان طرح دعوی، حق حبس خود را اعمال کرده است",
+        "start_char": 1223,
+        "end_char": 1280,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه باکره است",
+      "evidence": {
+        "quote": "با اقرار طرفین در جلسات دادگاه، زوجه باکره است",
+        "start_char": 2401,
+        "end_char": 2447,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

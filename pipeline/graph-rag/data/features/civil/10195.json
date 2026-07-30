@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10195",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام به تمکین",
+        "start_char": 57,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت بین طرفین",
+        "start_char": 140,
+        "end_char": 161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوای خواهان",
+        "start_char": 386,
+        "end_char": 411,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام به تمکین",
+        "start_char": 57,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 1110,
+        "end_char": 1130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه مذکور تأیید می‌شود",
+        "start_char": 1131,
+        "end_char": 1157,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست آقای ک.ق. به‬ طرفیت خانم م.م. به خواسته الزام به تمکین خوانده",
+        "start_char": 8,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام به تمکین خوانده",
+        "start_char": 57,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "دعوی زوج به خواسته الزام او به تمکین",
+        "start_char": 795,
+        "end_char": 831,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تمکین زوجه",
+        "start_char": 299,
+        "end_char": 309,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "فتوکپی مصدق عقدنامه",
+        "start_char": 120,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "توان گرفتن منزل مسکونی مستقل را ندارد",
+        "start_char": 236,
+        "end_char": 273,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم توانایی خواهان در فراهم کردن منزل مسکونی مستقل",
+      "evidence": {
+        "quote": "خواهان در جلسه مورخه 1393/4/22 اعلام داشته توان گرفتن منزل مسکونی مستقل را ندارد",
+        "start_char": 193,
+        "end_char": 273,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود رابطه زوجیت بین طرفین",
+      "evidence": {
+        "quote": "رابطه زوجیت بین طرفین را محرز می‌داند",
+        "start_char": 140,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

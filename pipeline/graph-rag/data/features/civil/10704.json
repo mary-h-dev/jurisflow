@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10704",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "وجود علقه زوجیت بین طرفین متداعیین",
+        "start_char": 155,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 46,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 1294,
+        "end_char": 1309,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر",
+      "evidence": {
+        "quote": "حکم الزام تجدیدنظرخوانده به تمکین از تجدیدنظرخواه صادر",
+        "start_char": 1341,
+        "end_char": 1395,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست آقای ح.ت. به‬ طرفیت خانم ز.ر.",
+        "start_char": 0,
+        "end_char": 45,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 46,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ح.ت.",
+        "start_char": 703,
+        "end_char": 726,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "حکم الزام تجدیدنظرخوانده به تمکین",
+        "start_char": 1341,
+        "end_char": 1374,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "وظائف زوج می‌باشد",
+        "start_char": 390,
+        "end_char": 407,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تکالیف تمکین زوجه از زوج است",
+        "start_char": 1060,
+        "end_char": 1088,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نامه رسمی",
+      "evidence": {
+        "quote": "فتوکپی مصدق نکاح نامه رسمی شماره....",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به دادنامه شماره 974",
+        "start_char": 746,
+        "end_char": 766,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مسکن تهیه شده اما اثاث منزل وجود ندارد",
+      "evidence": {
+        "quote": "اگر چه خواهان مسکن تهیه نموده لکن اثاث‬ البیتی وجود ندارد",
+        "start_char": 260,
+        "end_char": 317,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل برای عدم تمکین توسط زوجه",
+      "evidence": {
+        "quote": "زوجه هیچ دلیلی بر توجیه عدم تمکین خود ارائه نکرده است",
+        "start_char": 1091,
+        "end_char": 1144,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

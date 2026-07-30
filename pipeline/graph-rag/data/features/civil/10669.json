@@ -1,0 +1,163 @@
+{
+  "ruling_id": "10669",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتبار",
+      "evidence": {
+        "quote": "اصل بر اعتبار و استواری معاملات است",
+        "start_char": 682,
+        "end_char": 717,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم سند رسمی",
+        "start_char": 78,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تأیید فسخ قرارداد",
+        "start_char": 248,
+        "end_char": 265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "دعوای خواهان به نحو صحیح و موافق مقررات طرح و اقامه شده",
+        "start_char": 1839,
+        "end_char": 1894,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "قرار صادره از دادگاه بدوی را نقض و پرونده را برای رسیدگی در ماهیت عودت داده",
+        "start_char": 1550,
+        "end_char": 1625,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت خواهان فوق",
+        "start_char": 218,
+        "end_char": 237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم سند رسمی",
+        "start_char": 78,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شرکت الف.",
+        "start_char": 1037,
+        "end_char": 1060,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "مالکیت رسمی شرکت تجدیدنظرخوانده داشته",
+        "start_char": 1799,
+        "end_char": 1836,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "تنظیم سند رسمی یک قطعه زمین",
+        "start_char": 94,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "فسخ قرارداد واگذاری زمین",
+        "start_char": 254,
+        "end_char": 278,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "استعلام ثبتی",
+      "evidence": {
+        "quote": "حسب پاسخ استعلام ثبتی",
+        "start_char": 325,
+        "end_char": 346,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تعیین نشدن پلاک فرعی برای قطعه مورد نزاع",
+      "evidence": {
+        "quote": "طرفین پلاک فرعی منتقل تعیین و تخصیص نگردیده است",
+        "start_char": 367,
+        "end_char": 414,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم امکان تنظیم سند رسمی به دلیل عدم تعیین پلاک فرعی",
+      "evidence": {
+        "quote": "امکان تنظیم سند رسمی و انتقال رسمی آن وجود ندارد",
+        "start_char": 448,
+        "end_char": 496,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثابت شدن مالکیت رسمی شرکت تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "حکایت از مالکیت رسمی شرکت تجدیدنظرخوانده داشته",
+        "start_char": 1790,
+        "end_char": 1836,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

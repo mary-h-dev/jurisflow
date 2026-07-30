@@ -1,0 +1,203 @@
+{
+  "ruling_id": "10180",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 90,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت دائم",
+        "start_char": 245,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نکاح",
+      "evidence": {
+        "quote": "با انحلال نکاح",
+        "start_char": 3919,
+        "end_char": 3933,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "شرط ضمن عقد نکاح محسوب بوده",
+        "start_char": 4331,
+        "end_char": 4358,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 90,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "موکول به پرداخت مهریه",
+        "start_char": 632,
+        "end_char": 653,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در مورد تجدیدنظرخواهی خانم ر.ک.",
+        "start_char": 1371,
+        "end_char": 1402,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه فرجام‌خواسته",
+        "start_char": 6117,
+        "end_char": 6145,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بین خواهان و خوانده",
+        "start_char": 268,
+        "end_char": 287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بین خواهان و خوانده",
+        "start_char": 268,
+        "end_char": 287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "متقاضی طلاق زوجه‌اش بوده",
+        "start_char": 5407,
+        "end_char": 5431,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "متقاضی طلاق زوجه‌اش بوده",
+        "start_char": 5407,
+        "end_char": 5431,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "در حق زوجه فرجام‌خواه پرداخت نماید",
+        "start_char": 5795,
+        "end_char": 5829,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "رونوشت سند ازدواج",
+        "start_char": 183,
+        "end_char": 200,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "پرداخت مهریه",
+        "start_char": 641,
+        "end_char": 653,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "و بابت نفقه دوران عده",
+        "start_char": 863,
+        "end_char": 884,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "مهریه زوجه تعداد 414 عدد سکه بهار آزادی بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم وجود فرزند",
+      "evidence": {
+        "quote": "و فاقد فرزند می‌باشد",
+        "start_char": 916,
+        "end_char": 936,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم بارداری زوجه",
+      "evidence": {
+        "quote": "طبق اقرار زوجه حامله نمی‌باشد",
+        "start_char": 994,
+        "end_char": 1023,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

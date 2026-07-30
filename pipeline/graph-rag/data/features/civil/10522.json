@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10522",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "صدور حکم طلاق",
+        "start_char": 70,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صیغه طلاق",
+      "evidence": {
+        "quote": "اجرای صیغه طلاق",
+        "start_char": 88,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "پس شرط ضمن عقد بنظر دادگاه محقق نشده",
+        "start_char": 2770,
+        "end_char": 2806,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "حاضر است 28 عدد سکه از مهر خود را در قبال طلاق بذل کند",
+        "start_char": 422,
+        "end_char": 476,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "بنظر دادگاه اعتراض وارد است",
+        "start_char": 2350,
+        "end_char": 2377,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه مارالذکر",
+        "start_char": 3020,
+        "end_char": 3044,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان و.ن. فرزند ع.",
+        "start_char": 0,
+        "end_char": 20,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به‌طرفیت خوانده م.خ. فرزند ح.",
+        "start_char": 21,
+        "end_char": 50,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج اعتیاد به مواد مخدر دارد",
+        "start_char": 251,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه حاضر است 28 عدد سکه از مهر خود را در قبال طلاق بذل کند",
+        "start_char": 417,
+        "end_char": 476,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م.خ.",
+        "start_char": 2085,
+        "end_char": 2116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 769 مورخه 1393/05/18 صادره از شعبه 255 دادگاه خانواده تهران، که به موجب آن با تقاضای تجدیدنظرخوانده حکم طلاق خلع صادر شده است",
+        "start_char": 2174,
+        "end_char": 2321,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به موجب تصویر سند نکاحیه پیوستی",
+        "start_char": 164,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهر",
+      "evidence": {
+        "quote": "28 عدد سکه از مهر خود را در قبال طلاق بذل کند",
+        "start_char": 431,
+        "end_char": 476,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "در مورد نفقه معوقه ادعائی ندارد",
+        "start_char": 559,
+        "end_char": 590,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج به مواد مخدر اعتیاد داشته است",
+      "evidence": {
+        "quote": "بنا بنا به دلایل اینکه زوج اعتیاد به مواد مخدر دارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج اعتیاد خود را ترک کرده است",
+      "evidence": {
+        "quote": "ترک کرده ام",
+        "start_char": 855,
+        "end_char": 866,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه از ادامه زندگی با زوج تنفر دارد",
+      "evidence": {
+        "quote": "از زندگی با زوج تنفر و کراهت شدید دارم",
+        "start_char": 2464,
+        "end_char": 2502,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

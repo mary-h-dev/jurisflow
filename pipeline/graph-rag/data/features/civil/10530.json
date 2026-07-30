@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10530",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دعوی الزام",
+      "evidence": {
+        "quote": "طرح دعوی الزام به طلاق",
+        "start_char": 118,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "منزل مشترک",
+      "evidence": {
+        "quote": "ترک منزل مشترک",
+        "start_char": 160,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "حضانت طفل نه ساله با زوج بوده",
+        "start_char": 2066,
+        "end_char": 2095,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "در خصوص واخواهی آقای ف.ش.",
+        "start_char": 0,
+        "end_char": 25,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "متعاقب طرح دعوی الزام به طلاق",
+        "start_char": 111,
+        "end_char": 140,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "حکم بر طلاق صادر",
+        "start_char": 185,
+        "end_char": 201,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواه ایراد و اعتراض موجهی",
+        "start_char": 3112,
+        "end_char": 3145,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی صادر شده دادگاه بدوی را با استناد به مواد 358 و 365 قانون آیین دادرسی دادگاه‌های عمومی و انقلاب در امور مدنی تأیید می‌نماید",
+        "start_char": 3282,
+        "end_char": 3409,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "واخواه مدعی است",
+        "start_char": 286,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخوانده",
+      "evidence": {
+        "quote": "عدم ذکر اقامتگاه توسط واخوانده",
+        "start_char": 379,
+        "end_char": 409,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "ترک منزل مشترک توسط زوج",
+        "start_char": 160,
+        "end_char": 183,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "حق ملاقات دارد، به این شرح که مورخ‌های 1/5/ تا 1/14/ و 6/5/ تا 6/20/ هر سال تحت حضانت زوجه خواهد بود",
+        "start_char": 2103,
+        "end_char": 2203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "با عنایت به اینکه تجدیدنظرخواه ایراد و اعتراض موجهی",
+        "start_char": 3094,
+        "end_char": 3145,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 8909972290300767",
+        "start_char": 47,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دفتر",
+      "evidence": {
+        "quote": "به دلالت گواهی دفتر طلاق رباط کریم",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واخواه در محل اعلامی سکونت ندارد",
+      "evidence": {
+        "quote": "در محل اعلامی سکونت ندارد",
+        "start_char": 1231,
+        "end_char": 1256,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "واخواه از بابت اتهام ضرب و جرح عمدی محکوم شده است",
+      "evidence": {
+        "quote": "واخواه از بابت اتهام ضرب و جرح عمدی به پرداخت دیه محکوم شده است",
+        "start_char": 1447,
+        "end_char": 1510,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "واخواه خود را از دید مأمورین مخفی کرده است",
+      "evidence": {
+        "quote": "صورتجلسه مورخ 1388/11/2 خود را از دید مأمورین مخفی نموده",
+        "start_char": 1113,
+        "end_char": 1169,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

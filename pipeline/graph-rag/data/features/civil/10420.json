@@ -1,0 +1,143 @@
+{
+  "ruling_id": "10420",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "به لحاظ انتقال به غیر",
+        "start_char": 211,
+        "end_char": 232,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیحقی",
+      "evidence": {
+        "quote": "حکم به بی‌حقی خواهان صادر و اعلام می‌گردد",
+        "start_char": 1425,
+        "end_char": 1466,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "صدور حکم به تخلیه",
+        "start_char": 114,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "دادنامه مورد اعتراض",
+        "start_char": 2513,
+        "end_char": 2532,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ش. با وکالت آقای س.ه.",
+        "start_char": 1602,
+        "end_char": 1637,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان ش",
+        "start_char": 0,
+        "end_char": 25,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 45,
+        "end_char": 62,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم بر بی‌حقی تجدیدنظرخواه",
+        "start_char": 1749,
+        "end_char": 1775,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجاره",
+      "evidence": {
+        "quote": "صدور حکم به تخلیه مورد اجاره",
+        "start_char": 114,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "سند رسمی شماره 93277",
+        "start_char": 143,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "ملاحظه مستندات تقدیمی خواهان و قرارداد اجاره مورد استناد خواهان",
+        "start_char": 912,
+        "end_char": 975,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مستأجرین ملک را به شخص ثالث منتقل کرده‌اند",
+      "evidence": {
+        "quote": "مستأجرین، مورد اجاره را به خوانده ردیف 4 انتقال و درحال حاضر منتقل‌ٌالیه در آن، مشغول کسب و فروش البسه می‌باشد",
+        "start_char": 494,
+        "end_char": 604,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "هیچ انتقال به غیر اثبات نشده است",
+      "evidence": {
+        "quote": "هیچ گونه انتقال به غیر، محرز و مسلّم نگردیده است",
+        "start_char": 1253,
+        "end_char": 1301,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

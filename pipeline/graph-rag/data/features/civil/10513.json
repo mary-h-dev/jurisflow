@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10513",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "ادعای فسخ آن قرارداد نیز ثابت نیست",
+        "start_char": 3260,
+        "end_char": 3294,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "اقدام به تنظیم سند اجاره نموده",
+        "start_char": 209,
+        "end_char": 239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خواندگان از پرداخت حق‌العمل خودداری کرده‌اند",
+        "start_char": 415,
+        "end_char": 459,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "تقاضای رد دعوی را کرده‌اند",
+        "start_char": 699,
+        "end_char": 725,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقایان ن.الف. و م.الف.",
+        "start_char": 2647,
+        "end_char": 2683,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی بدوی را تأیید می‌نماید",
+        "start_char": 3575,
+        "end_char": 3601,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خلاصه مفاد دادخواست تقدیمی خواهان",
+        "start_char": 113,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت آقایان م.الف. و ن.الف. و ج.م.",
+        "start_char": 23,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشاور",
+      "evidence": {
+        "quote": "وی به عنوان متصدی مشاور املاک",
+        "start_char": 165,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقایان ن.الف. و م.الف.",
+        "start_char": 2647,
+        "end_char": 2683,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده بوده",
+        "start_char": 2894,
+        "end_char": 2919,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجاره",
+      "evidence": {
+        "quote": "اقدام به تنظیم سند اجاره نموده",
+        "start_char": 209,
+        "end_char": 239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "قرارداد تنظیمی توسط خواهان",
+        "start_char": 630,
+        "end_char": 656,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواندگان حق‌العمل را پرداخت نکرده‌اند",
+      "evidence": {
+        "quote": "خواندگان از پرداخت حق‌العمل خودداری کرده‌اند",
+        "start_char": 415,
+        "end_char": 459,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بخشی از حق‌العمل توسط خواهان دریافت شده است",
+      "evidence": {
+        "quote": "تنها مبلغ 20/000/000 ریال از طرفین دریافت شده است(توسط خواهان)",
+        "start_char": 1369,
+        "end_char": 1431,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "توافق بر سر مبلغ کمتر وجود ندارد",
+      "evidence": {
+        "quote": "ادعای حصول توافق طرفین به هزینه کمتر همچنان بلادلیل بوده",
+        "start_char": 3005,
+        "end_char": 3061,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

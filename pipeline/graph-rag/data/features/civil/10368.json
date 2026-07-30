@@ -1,0 +1,163 @@
+{
+  "ruling_id": "10368",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "یکی از این تکالیف تمکین زوجه است",
+        "start_char": 562,
+        "end_char": 594,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "حقوق و تکالیف زوجین در مقابل همدیگر برقرار می‌شود",
+        "start_char": 509,
+        "end_char": 558,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "عدم ابراز دلیل موجه در مورد نشوز",
+        "start_char": 1480,
+        "end_char": 1512,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 42,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادره دادگاه بدوی را نقض کرده",
+        "start_char": 1608,
+        "end_char": 1641,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان تمکین صادر می‌نماید",
+        "start_char": 1676,
+        "end_char": 1717,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 42,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "آمادگی زوج به انفاق به همسرش",
+        "start_char": 185,
+        "end_char": 213,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه دلیل موجهی بر عدم تمکین از شوهرش به دادگاه ارائه نداشته",
+        "start_char": 222,
+        "end_char": 282,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "الزام تجدیدنظرخواه به تمکین وارد است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان تمکین صادر می‌نماید",
+        "start_char": 1676,
+        "end_char": 1717,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "ملاحظه سند نکاحیه زوجین",
+        "start_char": 123,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "زوجین در یک منزل مشترک زندگی می‌کنند",
+        "start_char": 1170,
+        "end_char": 1206,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین در یک منزل مشترک زندگی می‌کنند",
+      "evidence": {
+        "quote": "زوجین در یک منزل مشترک زندگی می‌کنند",
+        "start_char": 1170,
+        "end_char": 1206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج مدعی است تمکین خاص صورت نمی‌گیرد",
+      "evidence": {
+        "quote": "زوج مدعی است تمکین خاص صورت نمی‌گیرد",
+        "start_char": 1313,
+        "end_char": 1349,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "10687",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "صدور حکم به خلع‌ید",
+        "start_char": 57,
+        "end_char": 75,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قلع و قمع",
+      "evidence": {
+        "quote": "قلع و قمع بنای احداثی",
+        "start_char": 129,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "در حکم غصب می‌باشد",
+        "start_char": 2719,
+        "end_char": 2737,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "خوانده آن‌ را تصرف و احداث بنا نموده است",
+        "start_char": 253,
+        "end_char": 293,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "احداث",
+      "evidence": {
+        "quote": "اشتباهاً مالک اولیه اعیانی را در پلاک متعلق به خواهان احداث کرده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ولیکن خوانده در دفاع اعلام داشته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم تجدیدنظر استان تهران می‌باشد",
+        "start_char": 1645,
+        "end_char": 1707,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان به موجب سند رسمی مالک پلاک فوق",
+        "start_char": 187,
+        "end_char": 224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده آن‌ را تصرف و احداث بنا نموده است",
+        "start_char": 253,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بر محکومیت تجدیدنظرخواه ر.س.",
+        "start_char": 1877,
+        "end_char": 1905,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "مراتب مالکیت تجدیدنظرخوانده (ستاد ا.)",
+        "start_char": 2101,
+        "end_char": 2138,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "خلع‌ید خوانده از ملک خواهان",
+        "start_char": 69,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "به موجب سند رسمی مالک پلاک فوق",
+        "start_char": 194,
+        "end_char": 224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی.. بخش 11 تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در بخشی از محدوده سند مالک خواهان بنا احداث کرده است",
+      "evidence": {
+        "quote": "تصرفات خوانده در قسمتی از محدوده سند مالکیت خواهان واقع شده است",
+        "start_char": 615,
+        "end_char": 678,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ملک را خریداری کرده است",
+      "evidence": {
+        "quote": "چون خوانده ملک را خریداری و دارای سند مالکیت است",
+        "start_char": 1089,
+        "end_char": 1137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده حق‌الزحمه کارشناس را تودیع نکرده است",
+      "evidence": {
+        "quote": "و حق‌الزحمه کارشناس را تودیع نکرده است",
+        "start_char": 804,
+        "end_char": 842,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

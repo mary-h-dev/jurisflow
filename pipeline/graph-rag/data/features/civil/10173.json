@@ -1,0 +1,113 @@
+{
+  "ruling_id": "10173",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "به خواسته اعسار از پرداخت هزینه نفقه فرزند مشترک",
+        "start_char": 43,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بطلان دعوی خواهان صادر و اعلام می‌نماید",
+        "start_char": 529,
+        "end_char": 572,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ج.الف.",
+        "start_char": 738,
+        "end_char": 763,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی تجدیدنظرخواسته تأیید می‬گردد",
+        "start_char": 1168,
+        "end_char": 1200,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را وارد و ثابت نمی‌داند",
+        "start_char": 437,
+        "end_char": 479,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه نیز در این مرحله مطلب قابل توجهی عنوان نکرده",
+        "start_char": 1063,
+        "end_char": 1120,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی صادره حضوری بوده",
+        "start_char": 573,
+        "end_char": 593,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به رأی موضوع دادنامه شماره 756- 1393/4/16",
+        "start_char": 784,
+        "end_char": 830,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود قرارداد طلاق توافقی با تعهد پرداخت نفقه",
+      "evidence": {
+        "quote": "اظهارات طرفین زوجین در جریان طلاق توافقی و به‌ موجب یکی از بندهای قرارداد",
+        "start_char": 141,
+        "end_char": 214,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تعهد پرداخت ماهیانه 800 هزار تومان نفقه فرزند",
+      "evidence": {
+        "quote": "مُنوط به این بوده است که زوج ماهی 800 هزار تومان بابت نفقه فرزند بدهد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

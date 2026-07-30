@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10445",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال شناسنامه",
+        "start_char": 52,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ثبوت",
+      "evidence": {
+        "quote": "حکم به عدم ثبوت خواسته خواهان اصلی صادر و اعلام می‌گردد",
+        "start_char": 2391,
+        "end_char": 2446,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استدعاست",
+      "evidence": {
+        "quote": "با حفظ سایر مندرجات مورد استدعاست",
+        "start_char": 543,
+        "end_char": 576,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "رأی صادره حضوری ظرف مهلت بیست روز قابل اعتراض",
+        "start_char": 1329,
+        "end_char": 1374,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترضٌ‌عنه را نقض نموده",
+        "start_char": 2250,
+        "end_char": 2281,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان اظهار داشته",
+        "start_char": 151,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و خوانده در جلسه دادرسی حاضر نگردیده است",
+        "start_char": 815,
+        "end_char": 855,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "و اینکه تجدیدنظرخواه برادری داشته",
+        "start_char": 1813,
+        "end_char": 1846,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "ابطال شناسنامه به شماره",
+        "start_char": 63,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "و لکن لایحه‌ای به شماره 54",
+        "start_char": 856,
+        "end_char": 882,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نظریه",
+      "evidence": {
+        "quote": "و به شرح نظریه به شماره 996-93",
+        "start_char": 728,
+        "end_char": 758,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شناسنامه متعلق به برادر متوفی است",
+      "evidence": {
+        "quote": "بلکه متعلق به برادر متوفی بنده است",
+        "start_char": 274,
+        "end_char": 308,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سن در شناسنامه با سن واقعی متفاوت است",
+      "evidence": {
+        "quote": "با توجه به اینکه سن واقعی اینجانب با سن مندرج در شناسنامه متفاوت است",
+        "start_char": 405,
+        "end_char": 473,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پزشکی قانونی سن را بیست سال تعیین کرد",
+      "evidence": {
+        "quote": "سن نامبرده بیست سال تمام تعیین می‌گردد",
+        "start_char": 776,
+        "end_char": 814,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

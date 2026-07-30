@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10593",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان معامله",
+      "evidence": {
+        "quote": "صدور حکم بر بطلان معامله",
+        "start_char": 98,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "ابطال سند رسمی شماره 78504",
+        "start_char": 125,
+        "end_char": 151,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت و غبطه موکل",
+      "evidence": {
+        "quote": "وکیل، در هر حال موظف است که رعایت غبطه و صلاح موکل خود را رعایت نماید",
+        "start_char": 1338,
+        "end_char": 1407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لاضرر",
+      "evidence": {
+        "quote": "براساس «قاعده لاضرر»",
+        "start_char": 3419,
+        "end_char": 3439,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "ملک موضوع دعوا را به موجب سند شماره... مورخ 1391/3/3 دفترخانه... تهران به خوانده ردیف اول، برادر خود، انتقال داده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "قابل واخواهی نزد این مرجع",
+        "start_char": 2023,
+        "end_char": 2048,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض نزد محاکم تجدیدنظر استان تهران",
+        "start_char": 2077,
+        "end_char": 2119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی مطروحه از ناحیه تجدیدنظرخواه آقای ح.پ.",
+        "start_char": 3944,
+        "end_char": 3996,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان مالک یک‌دستگاه آپارتمان مسکونی",
+        "start_char": 506,
+        "end_char": 543,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف 2، همسر خواهان بوده",
+        "start_char": 576,
+        "end_char": 607,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "به عنوان وکیل فروشنده",
+        "start_char": 753,
+        "end_char": 774,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه آقای ح.پ.",
+        "start_char": 3974,
+        "end_char": 3996,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده خانم الف.الف.",
+        "start_char": 4006,
+        "end_char": 4034,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "سند رسمی شماره 78504",
+        "start_char": 131,
+        "end_char": 151,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک موضوع دعوا",
+        "start_char": 916,
+        "end_char": 930,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "مالک یک‌دستگاه آپارتمان مسکونی",
+        "start_char": 513,
+        "end_char": 543,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ردیف دوم همسر خواهان بوده که طلاق گرفته‌اند",
+      "evidence": {
+        "quote": "خوانده ردیف 2، همسر خواهان بوده که زندگی ایشان با وقوع طلاق منحل گردیده است",
+        "start_char": 576,
+        "end_char": 651,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وکیل بدون رعایت صرفه و صلاح موکل اقدام به انتقال ملک کرده است",
+      "evidence": {
+        "quote": "وکیل مذکور مراتب غبطه و مصلحت موکله خویش را رعایت نداشته",
+        "start_char": 6423,
+        "end_char": 6479,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

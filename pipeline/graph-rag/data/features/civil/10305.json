@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10305",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "صدور حکم مبنی بر خلع ید",
+        "start_char": 90,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مالکیت مشاعی خواهان نسبت به پلاک ثبتی مذکور مسلم است",
+        "start_char": 329,
+        "end_char": 381,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "حکم به خلع ید خواندگان از ملک متنازع فیه صادر می‌نماید",
+        "start_char": 623,
+        "end_char": 678,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد واخواهی",
+      "evidence": {
+        "quote": "ضمن رد واخواهی واخواه",
+        "start_char": 1531,
+        "end_char": 1552,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی واخواسته عیناً آن را تأیید می‌نماید",
+        "start_char": 1594,
+        "end_char": 1633,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست",
+      "evidence": {
+        "quote": "ضمن رد درخواست تجدیدنظر",
+        "start_char": 3040,
+        "end_char": 3063,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مالکیت مشاعی خواهان نسبت به پلاک ثبتی مذکور مسلم است",
+        "start_char": 329,
+        "end_char": 381,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "خلع ید خواندگان از ملک مشاعی",
+        "start_char": 107,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "حکم به خلع ید واخواه صادر گردیده است",
+        "start_char": 1275,
+        "end_char": 1311,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر‌خواه نیز در این مرحله از دادرسی",
+        "start_char": 2348,
+        "end_char": 2388,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مشاعی",
+      "evidence": {
+        "quote": "خلع ید خواندگان از ملک مشاعی",
+        "start_char": 107,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی.../... بخش 11 تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "خلع ید مشاعی از یک دستگاه آپارتمان مسکونی",
+        "start_char": 2027,
+        "end_char": 2068,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت خواهان بر ملک مشاعی ثابت شده است",
+      "evidence": {
+        "quote": "مالکیت مشاعی خواهان نسبت به پلاک ثبتی مذکور مسلم است",
+        "start_char": 329,
+        "end_char": 381,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواندگان دلیلی برای استمرار تصرفات خود ارائه نداده‌اند",
+      "evidence": {
+        "quote": "خواندگان نیز دلیلی که استمرار تصرفات آن‬ها را توجیه نماید ارائه ننموده‌اند",
+        "start_char": 475,
+        "end_char": 549,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظر‌خواه دلیلی برای نقض رأی ارائه نکرده است",
+      "evidence": {
+        "quote": "تجدیدنظر‌خواه نیز در این مرحله از دادرسی، دلیل یا مدرک محکمه پسندی که نقض دادنامه را ایجاب کند ابراز نکرده",
+        "start_char": 2348,
+        "end_char": 2455,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

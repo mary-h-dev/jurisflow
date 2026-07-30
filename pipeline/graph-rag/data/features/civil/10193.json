@@ -1,0 +1,163 @@
+{
+  "ruling_id": "10193",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 57,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "وقوع عقد زن و شوهر",
+        "start_char": 1462,
+        "end_char": 1480,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "مکلف به انجام تکالیف شرعی در قبال همدیگر می‌باشند",
+        "start_char": 1480,
+        "end_char": 1529,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ترک کرده",
+      "evidence": {
+        "quote": "خانه و زندگی را ترک کرده",
+        "start_char": 159,
+        "end_char": 183,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض وارد است",
+        "start_char": 1433,
+        "end_char": 1448,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادره را نقض نموده",
+        "start_char": 1682,
+        "end_char": 1704,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست آقای س.م. به ‬طرفیت خانم ن.پ.",
+        "start_char": 0,
+        "end_char": 46,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 57,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زن و شوهر",
+        "start_char": 1471,
+        "end_char": 1480,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "الزام زوجه به تمکین",
+        "start_char": 1375,
+        "end_char": 1394,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "خانه",
+      "evidence": {
+        "quote": "خانه و زندگی را ترک کرده",
+        "start_char": 159,
+        "end_char": 183,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "تهیه مسکن مستقل",
+        "start_char": 1831,
+        "end_char": 1846,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج خانه را بدون عذر ترک کرده است",
+      "evidence": {
+        "quote": "همسرم خودش خانه را بدون عذر ترک کرده است",
+        "start_char": 368,
+        "end_char": 408,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مسکن مورد نظر مستقل نیست",
+      "evidence": {
+        "quote": "خانه مورد نظر مستقل نیست",
+        "start_char": 433,
+        "end_char": 457,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مدرک یا قولنامه تهیه مسکن در پرونده نیست",
+      "evidence": {
+        "quote": "مدرک و یا قولنامه تهیه مسکن که دلالت بر استقلال منزل به همرا وجود همه امکانات باشد ضمیمه پرونده نیست",
+        "start_char": 742,
+        "end_char": 842,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

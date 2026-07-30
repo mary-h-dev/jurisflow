@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10413",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "مسئولیت قراردادی",
+        "start_char": 841,
+        "end_char": 857,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "به بطلان آن انشاء حکم می‌نماید",
+        "start_char": 1294,
+        "end_char": 1324,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "ارائه و تسلیم حساب",
+        "start_char": 92,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "مجاز به فروش قطعی",
+        "start_char": 447,
+        "end_char": 464,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "ثمن مورد معامله را برابر مندرجات دادخواست تسلیمی به مبلغ 1/500/000/000 ریال به موکلین پرداخت نموده است",
+        "start_char": 1000,
+        "end_char": 1102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی تجدیدنظرخواه",
+        "start_char": 1506,
+        "end_char": 1532,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل مجاز به فروش قطعی",
+        "start_char": 442,
+        "end_char": 464,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موکلین",
+      "evidence": {
+        "quote": "به موکلین پرداخت نموده است",
+        "start_char": 1076,
+        "end_char": 1102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": 1886,
+        "end_char": 1921,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخوانده",
+        "start_char": 1550,
+        "end_char": 1573,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتمان",
+        "start_char": 489,
+        "end_char": 505,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "مفاد مندرجات وکالتنامه",
+        "start_char": 386,
+        "end_char": 408,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وکیل مجاز به فروش ملک به هر شخص و هر مبلغ بوده است",
+      "evidence": {
+        "quote": "وکیل مجاز به فروش قطعی یا مصالحه قطعیه شش دانگ یک واحد آپارتمان جزء پلاک ثبتی.../... واقع در بخش 11 تهران تحت هر عنوان عقد بوده و اطلاق وکالتنامه های مذکور دلالت بر آن دارد که وکیل مجاز به فروش موضوع وکالت به هر شخص حقیقی یا حقوقی حتی به خود و در مقابل هر مبلغ هر شرط بوده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وکیل ثمن معامله را به موکل پرداخت کرده است",
+      "evidence": {
+        "quote": "ثمن مورد معامله را برابر مندرجات دادخواست تسلیمی به مبلغ 1/500/000/000 ریال به موکلین پرداخت نموده است",
+        "start_char": 1000,
+        "end_char": 1102,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

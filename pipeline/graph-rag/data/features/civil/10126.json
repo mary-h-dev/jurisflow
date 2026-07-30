@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10126",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "دلالت بر وقوع عقد بیع میان خواهان و خوانده",
+        "start_char": 705,
+        "end_char": 747,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "ذیل مبایعه‌نامه مذکور شرط شده است",
+        "start_char": 473,
+        "end_char": 506,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "خواسته خود را به تأیید و اعلان انفساخ مبایعه‌نامه تغییرداده‌اند",
+        "start_char": 202,
+        "end_char": 265,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "حاضر به پرداخت وجه چک می‌باشند",
+        "start_char": 1131,
+        "end_char": 1161,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض تجدیدنظرخواه به نحوی نیست که حاوی دلیلی باشد",
+        "start_char": 3208,
+        "end_char": 3260,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "میان خواهان و خوانده",
+        "start_char": 134,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "میان خواهان و خوانده",
+        "start_char": 134,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ع.م.",
+        "start_char": 1966,
+        "end_char": 1997,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "ایضاً امضاء فروشنده (تجدیدنظرخوانده) نیز در آن ملاحظه نمی‌شود",
+        "start_char": 2648,
+        "end_char": 2709,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نامه عادی",
+      "evidence": {
+        "quote": "مبایعه‌ نامه عادی شماره 170",
+        "start_char": 99,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "جهت پرداخت ثمن یک فقره چک اعطا گردیده",
+        "start_char": 430,
+        "end_char": 467,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "دو قطعه زمین 66 مترمربعی از موکل وی خریداری کرده است",
+        "start_char": 375,
+        "end_char": 427,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک برگشت خورده است",
+      "evidence": {
+        "quote": "با توجه به برگشت خوردن چک به شرح خواسته",
+        "start_char": 549,
+        "end_char": 588,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجه چک در تاریخ سررسید پرداخت نشده است",
+      "evidence": {
+        "quote": "وجه چک در تاریخ سررسید چک پرداخت نشده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

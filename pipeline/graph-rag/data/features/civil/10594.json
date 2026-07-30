@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10594",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "وکالت",
+      "evidence": {
+        "quote": "موکل موظف است که حساب دوره وکالت ثمن معامله را به موکل خویش ارائه و پرداخت نماید",
+        "start_char": 634,
+        "end_char": 714,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت دادرسی",
+      "evidence": {
+        "quote": "به خواسته پرداخت ارزش شش دانگ یک واحد آپارتمان و خسارت دادرسی",
+        "start_char": 77,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "در مورد خسارت تأخیر تأدیه با توجه به اینکه طرح دعوی فوق مطابق مقررات ماده 522 نبوده",
+        "start_char": 1433,
+        "end_char": 1516,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بی‌حقی و بطلان ادعای خواهان صادر می‌شود",
+        "start_char": 3391,
+        "end_char": 3437,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال سند",
+      "evidence": {
+        "quote": "ولی خوانده اقدام به انتقال سند مالکیت به نام خویش می‌نماید",
+        "start_char": 540,
+        "end_char": 598,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "تقاضای محکومیت خوانده به پرداخت ارزش روز ملک مورد دعوی",
+        "start_char": 753,
+        "end_char": 807,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قیمت ملک را اعلام که مورد اعتراض وکلای طرفین قرار گرفت",
+        "start_char": 958,
+        "end_char": 1012,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ن.خ. نسبت به دادنامه شماره 244",
+        "start_char": 1743,
+        "end_char": 1787,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نظر به اینکه وکیل خواهان به موجب دادخواست",
+        "start_char": 140,
+        "end_char": 181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "تقاضای محکومیت خوانده به پرداخت ارزش روز ملک",
+        "start_char": 753,
+        "end_char": 797,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در مقام وکیل",
+        "start_char": 2285,
+        "end_char": 2310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده صادر گردیده",
+        "start_char": 2022,
+        "end_char": 2054,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در مقام وکیل",
+        "start_char": 2285,
+        "end_char": 2310,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "پرداخت ارزش شش دانگ یک واحد آپارتمان",
+        "start_char": 87,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "چون به‌شرح سند رسمی وکالت شماره... - 1385/12/23 تنظیم شده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "حساب دوره وکالت ثمن معامله را به موکل خویش ارائه و پرداخت نماید",
+        "start_char": 651,
+        "end_char": 714,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وکیل با اختیارات کامل در سند وکالت، ملک را به نام خودش منتقل کرده است",
+      "evidence": {
+        "quote": "وکیل موصوف نیز با اختیارات حاصل از سند رسمی وکالت مذکور... نسبت به انتقال آپارتمان متنازعٌ‌فیه به مبلغ 46/978/996 ریال به خودش نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده از پرداخت ثمن معامله سر باز زده است",
+      "evidence": {
+        "quote": "ایشان از این امر سر باز زده‌اند",
+        "start_char": 716,
+        "end_char": 747,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

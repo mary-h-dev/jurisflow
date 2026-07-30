@@ -1,0 +1,123 @@
+{
+  "ruling_id": "10169",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت‌المثل ایام زوجیت",
+        "start_char": 71,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت",
+      "evidence": {
+        "quote": "اجرت‌المثل ایام زوجیت",
+        "start_char": 78,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دایر به مطالبه اجرت‌المثل",
+        "start_char": 63,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "طرح دعوی نماید",
+        "start_char": 638,
+        "end_char": 652,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادر شده دادگاه بدوی را نقض",
+        "start_char": 2389,
+        "end_char": 2420,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان قابل اجابت نیست",
+        "start_char": 114,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج را به پرداخت مبلغ یکصد میلیون ریال",
+        "start_char": 2494,
+        "end_char": 2532,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "ثابت و مسلم است که زوجه در طول سنوات زندگی مشترک",
+        "start_char": 1630,
+        "end_char": 1678,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "به پرداخت مبلغ یکصد میلیون ریال",
+        "start_char": 2501,
+        "end_char": 2532,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انجام کارهای خانه توسط زوجه در طول زندگی مشترک",
+      "evidence": {
+        "quote": "زوجه در طول سنوات زندگی مشترک کارهای متداول و معمول را که در زندگی مشترک مطابق عرف جامعه ایران بوده از جمله نگهداری و تربیت فرزند و نظافت و تهیه غذا انجام داده است",
+        "start_char": 1649,
+        "end_char": 1812,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم حضور زوج در جلسه دادگاه",
+      "evidence": {
+        "quote": "علی‌رغم ابلاغ قانونی در جلسه دادگاه حاضر نشده و دفاعی نکرده است",
+        "start_char": 2154,
+        "end_char": 2217,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

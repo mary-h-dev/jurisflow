@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10694",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت",
+        "start_char": 178,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "اصل بر پرداخت نفقه است",
+        "start_char": 1428,
+        "end_char": 1450,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "به جهت نشوز استحقاق نفقه را نداشته است",
+        "start_char": 1684,
+        "end_char": 1722,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده",
+        "start_char": 49,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه معوقه",
+        "start_char": 1179,
+        "end_char": 1206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ترک کرده",
+      "evidence": {
+        "quote": "مسکن مشترک را در تاریخ 1393/3/24 ترک کرده",
+        "start_char": 610,
+        "end_char": 651,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تأیید می‌گردد",
+        "start_char": 1877,
+        "end_char": 1890,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خانم س.ش. به ‬طرفیت آقای س.الف.",
+        "start_char": 0,
+        "end_char": 48,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده",
+        "start_char": 49,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی خانم س.ش.",
+        "start_char": 1019,
+        "end_char": 1050,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده نیز منکر ترک انفاق در این مدت است",
+        "start_char": 1485,
+        "end_char": 1533,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به پرداخت نفقه معوقه",
+        "start_char": 49,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "با توجه به سند نکاحیه شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "خواهان مسکن مشترک را در تاریخ 1393/3/24 ترک کرده",
+        "start_char": 603,
+        "end_char": 651,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین تا تاریخ 1393/3/24 زندگی مشترک داشته‌اند",
+      "evidence": {
+        "quote": "حسب‌الاقرار طرفین تا تاریخ 1393/3/24 زندگی مشترک داشته‌اند",
+        "start_char": 1356,
+        "end_char": 1414,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه منزل مشترک را ترک کرده است",
+      "evidence": {
+        "quote": "از تاریخ 1393/3/24 به بعد نیز تجدیدنظرخواه منزل مشترک را ترک نموده",
+        "start_char": 1534,
+        "end_char": 1600,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10466",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته فسخ مبایعه‌نامه",
+        "start_char": 65,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "حق فسخ مشتری",
+        "start_char": 326,
+        "end_char": 338,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأخیر",
+      "evidence": {
+        "quote": "خیار تأخیر ثمن",
+        "start_char": 1181,
+        "end_char": 1195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان",
+        "start_char": 558,
+        "end_char": 582,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته فسخ مبایعه‌نامه",
+        "start_char": 65,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بایع با مراجعه به بانک و اخذ گواهینامه عدم پرداخت، به نحوی از خریدار مطالبه ثمن نموده است",
+        "start_char": 1475,
+        "end_char": 1564,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض به شرح لایحه اعتراضیه وارد نبوده",
+        "start_char": 1100,
+        "end_char": 1139,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حق فسخ خواهان وجود ندارد",
+        "start_char": 443,
+        "end_char": 467,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "بایع با مراجعه به بانک",
+        "start_char": 1475,
+        "end_char": 1497,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "از ناحیه خریدار",
+        "start_char": 1338,
+        "end_char": 1353,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "تحویل آن به فروشنده",
+        "start_char": 1356,
+        "end_char": 1375,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "فسخ مبایعه‌نامه",
+        "start_char": 75,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "تأخیر در پرداخت ثمن",
+        "start_char": 143,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "با اصدار چک از ناحیه خریدار",
+        "start_char": 1326,
+        "end_char": 1353,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "نسبت به یک دستگاه آپارتمان در حال ساخت",
+        "start_char": 988,
+        "end_char": 1026,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تأخیر در پرداخت ثمن معامله",
+      "evidence": {
+        "quote": "به علت تأخیر در پرداخت ثمن معامله",
+        "start_char": 136,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "افزایش مساحت",
+      "evidence": {
+        "quote": "و افزایش مساحت",
+        "start_char": 170,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تحویل چک برای تأدیه ثمن",
+      "evidence": {
+        "quote": "با اصدار چک از ناحیه خریدار و تحویل آن به فروشنده و تقبل چک از ناحیه فرد أخیرالذکر، برای تأدیه ثمن اجل مشخص شده است",
+        "start_char": 1326,
+        "end_char": 1441,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

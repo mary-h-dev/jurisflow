@@ -1,0 +1,233 @@
+{
+  "ruling_id": "10625",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال مبایعه نامه",
+        "start_char": 63,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "عقد مزبور معامله فضولی بوده",
+        "start_char": 1220,
+        "end_char": 1247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "باطل",
+      "evidence": {
+        "quote": "باطل می‌باشد",
+        "start_char": 1312,
+        "end_char": 1324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمان",
+      "evidence": {
+        "quote": "مشمول ضمان درک باشد",
+        "start_char": 2806,
+        "end_char": 2825,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استحقاق",
+      "evidence": {
+        "quote": "استحقاق مطالبه بهای روز آن را داشته باشد",
+        "start_char": 2912,
+        "end_char": 2952,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال مبایعه نامه",
+        "start_char": 63,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت ثمن",
+        "start_char": 102,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه هزینه دادرسی",
+        "start_char": 164,
+        "end_char": 183,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خریداری",
+      "evidence": {
+        "quote": "از خوانده خریداری نموده",
+        "start_char": 348,
+        "end_char": 371,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "ملک مزبور توسط شهرداری تصرف شده است",
+        "start_char": 684,
+        "end_char": 719,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی معترض عنه را تأیید می‌نماید",
+        "start_char": 3321,
+        "end_char": 3353,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان اظهار داشتند",
+        "start_char": 220,
+        "end_char": 239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت",
+        "start_char": 102,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "مالکیت مشتری بر مبیع مستقر نمی‌گردد",
+        "start_char": 2872,
+        "end_char": 2907,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "بایع مکلف به پرداخت ثمن",
+        "start_char": 1798,
+        "end_char": 1821,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "ابطال مبایعه نامه",
+        "start_char": 63,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "پرداخت ثمن معامله",
+        "start_char": 118,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "مطالبه هزینه دادرسی",
+        "start_char": 164,
+        "end_char": 183,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین واقع در گلستان",
+        "start_char": 240,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک موضوع خواسته",
+        "start_char": 1535,
+        "end_char": 1551,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زمین در حریم رودخانه قرار دارد",
+      "evidence": {
+        "quote": "قطعه زمین مذکور در بستر رودخانه قرار دارد",
+        "start_char": 867,
+        "end_char": 908,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک توسط شهرداری تصرف شده است",
+      "evidence": {
+        "quote": "ملک مزبور توسط شهرداری تصرف شده است",
+        "start_char": 684,
+        "end_char": 719,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

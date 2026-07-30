@@ -1,0 +1,273 @@
+{
+  "ruling_id": "10109",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "بر اساس دادخواست تقدیمی خلع ید",
+        "start_char": 100,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قلع و قمع",
+      "evidence": {
+        "quote": "و قلع و قمع مستحدثات",
+        "start_char": 171,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "به اعتبار بقای سند رسمی ثبتی",
+        "start_char": 410,
+        "end_char": 438,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اذن",
+      "evidence": {
+        "quote": "اذن در تصرف از ناحیه ولی قهری خواهان بوده",
+        "start_char": 470,
+        "end_char": 511,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "تصرفات در حکم غصب تشخیص گردیده",
+        "start_char": 921,
+        "end_char": 951,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسلیط",
+      "evidence": {
+        "quote": "و قاعده تسلیط",
+        "start_char": 1023,
+        "end_char": 1036,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسبيب",
+      "evidence": {
+        "quote": "و از باب تسبیب",
+        "start_char": 1111,
+        "end_char": 1125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ولایت",
+      "evidence": {
+        "quote": "تحت ولایت قهری پدر خود",
+        "start_char": 4011,
+        "end_char": 4033,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سوءاستفاده",
+      "evidence": {
+        "quote": "سوء استفاده از حق به قصد اضرار به غیر",
+        "start_char": 4677,
+        "end_char": 4714,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی کرده‌اند",
+        "start_char": 1437,
+        "end_char": 1459,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "احراز",
+      "evidence": {
+        "quote": "غاصبانه بودن آن احراز نمی‌شود",
+        "start_char": 4913,
+        "end_char": 4942,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته نقض می‌گردد",
+        "start_char": 5034,
+        "end_char": 5069,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر",
+      "evidence": {
+        "quote": "حکم به بطلان دعوای خواهان نخستین صادر می‌گردد",
+        "start_char": 5072,
+        "end_char": 5117,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان",
+        "start_char": 0,
+        "end_char": 19,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 46,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "وکیل خواندگان ( تجدیدنظرخواهان‬ها)",
+        "start_char": 1627,
+        "end_char": 1661,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در مورد دعوای تجدیدنظر خوانده",
+        "start_char": 1483,
+        "end_char": 1512,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ولی قهری",
+      "evidence": {
+        "quote": "از ناحیه ولی قهری خواهان",
+        "start_char": 482,
+        "end_char": 506,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دانگ یک",
+      "evidence": {
+        "quote": "خلع ید از 6 دانگ یک قطعه زمین",
+        "start_char": 124,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مستحدثات",
+      "evidence": {
+        "quote": "و قلع و قمع مستحدثات",
+        "start_char": 171,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "مفاد و مدلول سند رسمی",
+        "start_char": 840,
+        "end_char": 861,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تعمیرگاه",
+      "evidence": {
+        "quote": "احداث تعمیرگاه",
+        "start_char": 2609,
+        "end_char": 2623,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ساختمان",
+      "evidence": {
+        "quote": "پراونه ساختمان ملک مورد ترافع",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواندگان از سال ۱۳۶۰ در ملک متصرف شده‌اند",
+      "evidence": {
+        "quote": "که از سال ۱۳۶۰ خواندگان بلاجهت متصرف و تعمیرگاه احداث نموده‌اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه ردیف اول در سال ۱۳۵۵ تعمیرگاه را احداث کرده است",
+      "evidence": {
+        "quote": "مستحدثات موجود در ملک مورد ترافع (تعمیرگاه) در سال ۱۳۵۵ توسط تجدیدنظرخواه ردیف اول و با هزینه وی احداث گردیده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخوانده در هنگام احداث تعمیرگاه صغیر بوده است",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده در هنگام احداث تعمیرگاه صغیر بوده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

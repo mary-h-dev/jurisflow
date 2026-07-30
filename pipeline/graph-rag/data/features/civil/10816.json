@@ -1,0 +1,293 @@
+{
+  "ruling_id": "10816",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "خواسته مطالبه مهریه به مبلغ 000/500/1 تومان به نرخ روز و 500 عدد سکه تمام بهار آزادی است",
+        "start_char": 1514,
+        "end_char": 1602,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "عقد نکاح در تاریخ 24/11/1374 واقع شده",
+        "start_char": 2229,
+        "end_char": 2266,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "آیین دادرسی مدنی",
+      "evidence": {
+        "quote": "ماده 108 قانون آیین دادرسی مدنی",
+        "start_char": 1245,
+        "end_char": 1276,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "ماده 10 قانون مدنی",
+        "start_char": 7564,
+        "end_char": 7582,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "آیین دادرسی",
+      "evidence": {
+        "quote": "بند الف ماده 401 قانون آیین دادرسی دادگاه های عمومی و انقلاب در امور مدنی",
+        "start_char": 9815,
+        "end_char": 9888,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه مهریه",
+      "evidence": {
+        "quote": "خواسته مطالبه مهریه به مبلغ 000/500/1 تومان به نرخ روز و 500 عدد سکه تمام بهار آزادی است",
+        "start_char": 1514,
+        "end_char": 1602,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "تقدیم دادخواستی به خواسته مطالبه مهریه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأمین",
+      "evidence": {
+        "quote": "تقاضای صدور قرار تأمین خواسته و توقیف اموال خوانده به میزان مهریه",
+        "start_char": 351,
+        "end_char": 416,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "توقیف اموال خوانده به میزان مهریه",
+        "start_char": 383,
+        "end_char": 416,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "اقرارنامه رسمی شماره 126842-17/8/1383",
+        "start_char": 2415,
+        "end_char": 2452,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم به محکومیت زوج به پرداخت پانزده میلیون ریال",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "فرجام خواهی نسبت به رأی صادره",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان خواستار کل مهریه اعم از وجه نقد و سکه های ازدیاد یافته شده است",
+        "start_char": 2607,
+        "end_char": 2676,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده محترم تعداد 500 عدد سکه تمام بهار آزادی را به مهریه موکله اضافه نموده است",
+        "start_char": 652,
+        "end_char": 732,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوجین حسب سند نکاحیه زن و شوهر می باشند",
+        "start_char": 2187,
+        "end_char": 2226,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه خانم ز.م.",
+        "start_char": 7137,
+        "end_char": 7151,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 444,
+        "end_char": 455,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "قاضی",
+      "evidence": {
+        "quote": "رئیس شعبه 12 دیوان عالی کشور",
+        "start_char": 10004,
+        "end_char": 10032,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "سند ازدواج شماره 15234 مورخ 24/11/1374",
+        "start_char": 66,
+        "end_char": 104,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "اقرارنامه",
+      "evidence": {
+        "quote": "اقرارنامه رسمی شماره 126842-17/8/1383",
+        "start_char": 2415,
+        "end_char": 2452,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "500 عدد سکه تمام بهار آزادی",
+        "start_char": 276,
+        "end_char": 303,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "مبلغ 000/000/15 ریال وجه رایج",
+        "start_char": 2300,
+        "end_char": 2329,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دفترخانه",
+      "evidence": {
+        "quote": "دفترخانه شماره ... کرمانشاه",
+        "start_char": 2463,
+        "end_char": 2490,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی اقرارنامه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مهریه تعیین شده در زمان انعقاد عقد نکاح",
+      "evidence": {
+        "quote": "مهریه در سند نکاحیه و در زمان عقد تعیین شده",
+        "start_char": 4725,
+        "end_char": 4768,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "افزایش مهریه بعد از عقد نکاح",
+      "evidence": {
+        "quote": "افزایش مهریه بعد از عقد شرعاً صحیح نیست",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "صدور رأی وحدت رویه",
+      "evidence": {
+        "quote": "رأی وحدت رویه شماره 488 مورخ 15/6/1388 دیوان عدالت اداری",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "نقض رأی فرجام خواسته",
+      "evidence": {
+        "quote": "نقض رأی فرجام خواسته و ارجاع پرونده برای رسیدگی مجدد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

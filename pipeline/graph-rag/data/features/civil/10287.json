@@ -1,0 +1,163 @@
+{
+  "ruling_id": "10287",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "صدور حکم حضانت فرزند مشترک",
+        "start_char": 69,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت",
+      "evidence": {
+        "quote": "در نظر گرفتن مصلحت کودک می‌باشد",
+        "start_char": 2045,
+        "end_char": 2076,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ز.ع.",
+        "start_char": 1366,
+        "end_char": 1389,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم حضانت فرزند مشترک",
+        "start_char": 69,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "حکم به ابطال دعوی نامبرده صادر و اعلام می‌گردد",
+        "start_char": 590,
+        "end_char": 636,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "بنابراین صدور حکم به انجام ملاقات مادر با فرزند مشترک خارج از خواسته تجدیدنظرخواه است. لذا این قسمت از دادنامه نقض می‌گردد",
+        "start_char": 1653,
+        "end_char": 1775,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اولاً، خواهان مهریه ما فی القباله خود را",
+        "start_char": 270,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مادر",
+      "evidence": {
+        "quote": "در صورت بروز اختلاف مادر تا سن هفت‌سالگی",
+        "start_char": 156,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "پدر",
+      "evidence": {
+        "quote": "تفویض آن به پدر اصدار یافته",
+        "start_char": 1894,
+        "end_char": 1921,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه مشارالیه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "خواهان مهریه ما فی القباله خود را",
+        "start_char": 277,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "700 عدد سکه تمام بهار آزادی",
+        "start_char": 322,
+        "end_char": 349,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک",
+        "start_char": 78,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مادر مهریه خود را دریافت کرده است",
+      "evidence": {
+        "quote": "حسب الاقرار خودش دریافت نموده است",
+        "start_char": 355,
+        "end_char": 388,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مادر محل سکونت خود را در منزل پدری قرار داده است",
+      "evidence": {
+        "quote": "محل سکونت خود را در منزل پدری قزوین که خارج محل سکونت مشترک بوده (ورامین) قرار داده",
+        "start_char": 398,
+        "end_char": 481,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

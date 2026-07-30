@@ -1,0 +1,143 @@
+{
+  "ruling_id": "10583",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "وجود علقه زوجیت از نوع دائم بین خواهان و خوانده محرز و مسلّم است",
+        "start_char": 187,
+        "end_char": 251,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "تا تاریخ صدور حکم بدوی (1392/12/11) زوجه از حق حبس استفاده نکرده است",
+        "start_char": 1814,
+        "end_char": 1882,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه",
+        "start_char": 67,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تکذیب",
+      "evidence": {
+        "quote": "زوج نیز ادعای وکیل زوجه را در این خصوص تکذیب نموده است",
+        "start_char": 1698,
+        "end_char": 1752,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته نقض و حکم بر بی‌حقی زوجه در مورد نفقه معوقه",
+        "start_char": 2124,
+        "end_char": 2190,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خانم الف.ع. با وکالت آقای م.ع. به طرفیت آقای م.م. به خواسته مطالبه نفقه",
+        "start_char": 0,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای م.م. به خواسته مطالبه نفقه",
+        "start_char": 48,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م.م. (زوج)",
+        "start_char": 889,
+        "end_char": 926,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 357 مورخ 1392/12/11 صادره از شعبه 252 دادگاه خانواده تهران که به موجب آن تجدیدنظرخواه به پرداخت نفقه معوقه و جاریه در حق تجدیدنظرخوانده محکوم شده است",
+        "start_char": 973,
+        "end_char": 1144,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "رونوشت مصدق سند ازدواج شماره... دفتر ازدواج شماره... تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "به پرداخت نود و دو میلیون و پانصد و شصت هزار ریال بابت نفقه",
+        "start_char": 535,
+        "end_char": 594,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین زندگی مشترک را شروع نکرده اند",
+      "evidence": {
+        "quote": "پس از آن نیز به خاطر اختلافی که پیش آمده است، زوجین زندگی مشترک را شروع نکرده اند",
+        "start_char": 1467,
+        "end_char": 1548,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه در اصفهان مشغول به تحصیل بوده است",
+      "evidence": {
+        "quote": "زوجه حداقل تا یکسال بعد از عقد ازدواج، در اصفهان مشغول به تحصیل بوده",
+        "start_char": 1330,
+        "end_char": 1398,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

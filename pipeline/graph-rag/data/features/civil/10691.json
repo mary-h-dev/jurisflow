@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10691",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "کلیه خسارات دادرسی و تأخیر تأدیه",
+        "start_char": 100,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "دلیل بر اشتغال ذمه صادرکننده",
+        "start_char": 404,
+        "end_char": 432,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "با عنایت به اینکه وجود و ظهور اصول چک‌ها در ید خواهان دلیل بر اشتغال ذمه صادرکننده و استحقاق خواهان در دریافت وجه آن است و نیز با عنایت به اینکه خوانده نیز دلیل مدرکی دال بر برائت ذمه خود ارائه نداده است علی‌هذا دادگاه با استصحاب بقاء دین",
+        "start_char": 350,
+        "end_char": 588,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "دلیل مدرکی دال بر برائت ذمه خود ارائه نداده است",
+        "start_char": 506,
+        "end_char": 553,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه",
+        "start_char": 51,
+        "end_char": 72,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "در خصوص دعوی واخواهی آقای ح.ه.",
+        "start_char": 1180,
+        "end_char": 1209,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم تجدیدنظر استان تهران می‌باشد",
+        "start_char": 1053,
+        "end_char": 1109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد واخواهی",
+      "evidence": {
+        "quote": "ضمن رد واخواهی واخواه",
+        "start_char": 1546,
+        "end_char": 1567,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "جلب ثالث",
+      "evidence": {
+        "quote": "با پذیرش درخواست جلب ثالث",
+        "start_char": 3396,
+        "end_char": 3421,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اظهارات خواهان",
+        "start_char": 168,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با عنایت به اینکه خوانده نیز دلیل مدرکی دال بر برائت ذمه خود ارائه نداده است",
+        "start_char": 477,
+        "end_char": 553,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "نظر به اینکه واخواه دلیل و مدرکی دال بر نقض و بی‌اعتباری دادنامه معترض عنه به محکمه ارائه نداده است",
+        "start_char": 1327,
+        "end_char": 1427,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بر محکومیت تجدیدنظرخواه به پرداخت مبلغ 800000000 ریال",
+        "start_char": 2194,
+        "end_char": 2247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده آقای ع.الف. اصدار گردیده",
+        "start_char": 2561,
+        "end_char": 2606,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "حکم بر محکومیت مجلوب ثالث (ح.م.) به پرداخت وجوه",
+        "start_char": 3628,
+        "end_char": 3675,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "تصویر مصدق چک‌های صادره",
+        "start_char": 184,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک‌ها در ید خواهان است",
+      "evidence": {
+        "quote": "وجود و ظهور اصول چک‌ها در ید خواهان دلیل بر اشتغال ذمه صادرکننده",
+        "start_char": 368,
+        "end_char": 432,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک‌ها در راستای معاملات تجاری با مجلوب ثالث رد و بدل شده است",
+      "evidence": {
+        "quote": "چک‌های موصوف در راستای معاملات تجاری فی‌مابین مجلوب ثالث با تجدیدنظرخوانده بابت خرید (لب تاپ) رد و بدل شده است",
+        "start_char": 2800,
+        "end_char": 2910,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

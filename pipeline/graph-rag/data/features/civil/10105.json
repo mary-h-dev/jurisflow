@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10105",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "مطالبه خسارت تأخیر تأدیه",
+        "start_char": 117,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "تأخیر تأدیه در انجام تعهد",
+        "start_char": 130,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان آن صادر می‌نماید",
+        "start_char": 1214,
+        "end_char": 1243,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مدعی شده خوانده از پرداخت مابقی ثمن معامله خودداری نموده",
+        "start_char": 311,
+        "end_char": 367,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "خودداری",
+      "evidence": {
+        "quote": "خوانده از پرداخت مابقی ثمن معامله خودداری نموده",
+        "start_char": 320,
+        "end_char": 367,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارجاع",
+      "evidence": {
+        "quote": "خواستار ارجاع به کارشناسی شده",
+        "start_char": 576,
+        "end_char": 605,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شرکت ن.گ.م.",
+        "start_char": 1385,
+        "end_char": 1410,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد درخواست تجدیدنظرخواهی",
+        "start_char": 2242,
+        "end_char": 2270,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مستندات ابرازی از سوی خواهان",
+        "start_char": 219,
+        "end_char": 247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مدعی شده خوانده از پرداخت مابقی ثمن معامله خودداری نموده",
+        "start_char": 311,
+        "end_char": 367,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه به پرداخت",
+        "start_char": 1537,
+        "end_char": 1567,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "درهم",
+      "evidence": {
+        "quote": "مطالبه مبلغ 174/000 درهم امارات متحده عربی",
+        "start_char": 72,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "از جمله قرارداد مورخه 1391/12/17",
+        "start_char": 248,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اظهارنامه",
+      "evidence": {
+        "quote": "و اظهارنامه که به ‬موجب آن‬ها",
+        "start_char": 281,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "از طرف خوانده لایحه‌ای به شماره 2827/92",
+        "start_char": 445,
+        "end_char": 484,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 326",
+        "start_char": 1432,
+        "end_char": 1457,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از پرداخت مابقی ثمن معامله خودداری کرده است",
+      "evidence": {
+        "quote": "خوانده از پرداخت مابقی ثمن معامله خودداری نموده",
+        "start_char": 320,
+        "end_char": 367,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اختلاف در نوع جنس و مبلغ وجود دارد",
+      "evidence": {
+        "quote": "علت عدم پرداخت را اختلاف در نوع جنس و مبلغ عنوان نموده",
+        "start_char": 521,
+        "end_char": 575,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

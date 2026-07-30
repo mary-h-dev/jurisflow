@@ -1,0 +1,133 @@
+{
+  "ruling_id": "10576",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه",
+      "evidence": {
+        "quote": "احراز علقه زوجیّت بین طرفین متداعیین",
+        "start_char": 159,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "به سبب عقد نکاح دائم",
+        "start_char": 196,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "آن را محکوم به بطلان می‌نماید",
+        "start_char": 484,
+        "end_char": 513,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 46,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ح.م.",
+        "start_char": 673,
+        "end_char": 704,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه مذکور تأیید می‌شود",
+        "start_char": 1265,
+        "end_char": 1291,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست آقای ح.م. به‌طرفیت خانم ز.ی.",
+        "start_char": 0,
+        "end_char": 45,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 46,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از وظایف زوج می‌باشد",
+        "start_char": 392,
+        "end_char": 412,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در حد شأن زوجه نبوده",
+        "start_char": 314,
+        "end_char": 334,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "اگرچه خواهان مسکن تهیه نموده",
+        "start_char": 280,
+        "end_char": 308,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مسکن تهیه شده در شأن زوجه نیست",
+      "evidence": {
+        "quote": "اگرچه خواهان مسکن تهیه نموده، لکن در حد شأن زوجه نبوده",
+        "start_char": 280,
+        "end_char": 334,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

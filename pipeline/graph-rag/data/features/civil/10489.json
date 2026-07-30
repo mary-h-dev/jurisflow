@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10489",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تخلف",
+      "evidence": {
+        "quote": "موضوع متنازعٌ‌فیه از جمله موارد تخلف ساختمانی بوده",
+        "start_char": 385,
+        "end_char": 435,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به‌خواسته مطالبه خسارت",
+        "start_char": 90,
+        "end_char": 112,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم به رد آن صادر",
+        "start_char": 786,
+        "end_char": 803,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض",
+        "start_char": 2217,
+        "end_char": 2246,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت تجدیدنظرخوانده",
+        "start_char": 2373,
+        "end_char": 2402,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت مبلغ 144000000 ریال",
+        "start_char": 2403,
+        "end_char": 2432,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "طرح دعوی خواهان",
+        "start_char": 558,
+        "end_char": 573,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "عدم رعایت مقررات شهرسازی توسط خوانده",
+        "start_char": 1368,
+        "end_char": 1404,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخواه صادر",
+        "start_char": 2478,
+        "end_char": 2501,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظرخوانده آقای م. الف.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت به مبلغ دویست و پنجاه میلیون",
+        "start_char": 100,
+        "end_char": 141,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ورود ضرر و خسارت به ملک خواهان",
+        "start_char": 1482,
+        "end_char": 1512,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "ساختمان",
+      "evidence": {
+        "quote": "اثر نامطلوب در نمای ساختمان خواهان",
+        "start_char": 1867,
+        "end_char": 1901,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم رعایت سطح اشغال",
+      "evidence": {
+        "quote": "عدم رعایت سطح اشغال 60%",
+        "start_char": 1449,
+        "end_char": 1472,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پیشروی در سطح انفال",
+      "evidence": {
+        "quote": "اقدام غیر‌اصولی خوانده در پیشروی سطح انفال",
+        "start_char": 1752,
+        "end_char": 1794,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تخلف ساختمانی توسط خوانده",
+      "evidence": {
+        "quote": "مبناء و منشاء اختلاف، عدم رعایت مقررات شهرسازی توسط خوانده در احداث بناء ملک",
+        "start_char": 1346,
+        "end_char": 1422,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

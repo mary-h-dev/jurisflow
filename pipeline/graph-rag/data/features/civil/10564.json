@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10564",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت دائمی زوجین محرز است",
+        "start_char": 201,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "مبنی بر نشوز زوجه",
+        "start_char": 306,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ر.ط.",
+        "start_char": 1003,
+        "end_char": 1034,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به الزام آقای ر.ط.",
+        "start_char": 16,
+        "end_char": 34,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت نفقه",
+        "start_char": 35,
+        "end_char": 49,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "ارائه دهد",
+        "start_char": 363,
+        "end_char": 372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "تقدیم ننموده",
+        "start_char": 496,
+        "end_char": 508,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 1561,
+        "end_char": 1581,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در قبال ادعای خواهان",
+        "start_char": 412,
+        "end_char": 432,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده",
+        "start_char": 670,
+        "end_char": 691,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه محکوم به پرداخت",
+        "start_char": 1154,
+        "end_char": 1182,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "رونوشت مصدق سند نکاحیه",
+        "start_char": 119,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "به پرداخت نفقه",
+        "start_char": 35,
+        "end_char": 49,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "بعنوان خسارت دادرسی",
+        "start_char": 806,
+        "end_char": 825,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "رابطه زوجیت دائمی زوجین محرز است",
+        "start_char": 201,
+        "end_char": 233,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج مدارک مبنی بر نشوز زوجه ارائه نکرده است",
+      "evidence": {
+        "quote": "نه تنها دفاع مؤثر و موجهی در قبال ادعای خواهان ارائه نداده، بلکه دلایل و مدارکی مبنی بر ناشزه بودن خواهان نیز تقدیم ننموده",
+        "start_char": 386,
+        "end_char": 508,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

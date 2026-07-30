@@ -1,0 +1,213 @@
+{
+  "ruling_id": "10621",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "اعلام بطلان معامله موضوع سند رسمی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد رهن",
+      "evidence": {
+        "quote": "اعلام بطلان عقد رهن موضوع سند رسمی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "با عنایت به مالکیت موکل بر آپارتمان‌های مذکور فضولی",
+        "start_char": 2063,
+        "end_char": 2114,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صوری",
+      "evidence": {
+        "quote": "صوری بودن معامله",
+        "start_char": 3445,
+        "end_char": 3461,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رسمی انتقال",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم سند رسمی انتقال",
+        "start_char": 491,
+        "end_char": 528,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "ثمن معامله طبق اسناد فی‌مابین به فروشنده پرداخت گردیده",
+        "start_char": 1204,
+        "end_char": 1258,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "در تاریخ 1390/4/15 به موجب سند رسمی شماره... در دفتر... تهران به شرکت ساختمانی الف.ت. منتقل نمود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار داشتند",
+        "start_char": 978,
+        "end_char": 1002,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم سند رسمی",
+        "start_char": 491,
+        "end_char": 521,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "ثمن معامله طبق اسناد فی‌مابین به فروشنده پرداخت گردیده",
+        "start_char": 1204,
+        "end_char": 1258,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "حق عزل خریدار را از خود سلب و ساقط نمود",
+        "start_char": 1506,
+        "end_char": 1545,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "راهن",
+      "evidence": {
+        "quote": "بانک مرتهن به اعتبار مالکیت شخص راهن",
+        "start_char": 8644,
+        "end_char": 8680,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "موضوع سند رسمی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موکل به موجب مبایعه‌نامه شماره 1501",
+        "start_char": 1004,
+        "end_char": 1040,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه رسمی",
+      "evidence": {
+        "quote": "بر اساس وکالتنامه رسمی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان قطعه دهم تفکیکی",
+        "start_char": 537,
+        "end_char": 571,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "ثمن معامله طبق اسناد فی‌مابین به فروشنده پرداخت گردیده",
+        "start_char": 1204,
+        "end_char": 1258,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده بدون مجوز قانونی ملک را به شخص ثالث منتقل کرده است",
+      "evidence": {
+        "quote": "نامبرده من غیر حق و بدون مجوز قانونی قطعه دهم را ابتدا به موجب سند رسمی شماره... مورخ 1389/5/3 دفتر... تهران در رهن بانک ت. قرار داد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده نسبت به سند عادی ادعای جعل و الحاق کرده است",
+      "evidence": {
+        "quote": "ادعای جعل و الحاق به علت همزمانی با دفاع ماهوی (صوری بودن معامله) قابلیت استماع و رسیدگی نخواهد داشت",
+        "start_char": 3638,
+        "end_char": 3738,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت خوانده ردیف سوم بر املاک محرز شده است",
+      "evidence": {
+        "quote": "دلالت بر مالکیت خوانده ردیف سوم و ترهین خوانده ردیف دوم می‌نماید",
+        "start_char": 2388,
+        "end_char": 2452,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

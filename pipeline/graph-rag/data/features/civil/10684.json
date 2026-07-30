@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10684",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "خسارت وجهاً التزام قراردادی",
+        "start_char": 103,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "دلیلی بر فسخ یا اقاله و یا سلب اعتبار آن ارائه نشده است",
+        "start_char": 2883,
+        "end_char": 2938,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "عقد بیع فروشنده را ملزم به تحویل مبیع می‌نماید",
+        "start_char": 3239,
+        "end_char": 3285,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "به خواسته الزام به تحویل مبیع",
+        "start_char": 2450,
+        "end_char": 2480,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "و تخلیه",
+        "start_char": 264,
+        "end_char": 271,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت خسارت",
+        "start_char": 93,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "و اعتراض به شرح لایحه اعتراضیه وارد",
+        "start_char": 2661,
+        "end_char": 2696,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مستوجب نقض آن می‌باشد",
+        "start_char": 2699,
+        "end_char": 2720,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان",
+        "start_char": 710,
+        "end_char": 721,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "تخلف خوانده اول محرز است",
+        "start_char": 1213,
+        "end_char": 1237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه م.م.",
+        "start_char": 2432,
+        "end_char": 2449,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "به خواسته ورود ثالث در پرونده",
+        "start_char": 1726,
+        "end_char": 1755,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "تحویل مبیع",
+        "start_char": 139,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "مطابق بند 5-6 قرارداد مورخه 1391/3/25",
+        "start_char": 213,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "تحویل و تسلیم آپارتمان",
+        "start_char": 640,
+        "end_char": 662,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی... بخش 7 تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تفکیک نشدن پلاک ثبتی ملک",
+      "evidence": {
+        "quote": "تا زمانی‌که پلاک ثبتی یاد شده تفکیک نشود",
+        "start_char": 599,
+        "end_char": 639,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم انجام دفاع توسط خوانده",
+      "evidence": {
+        "quote": "با توجه به اینکه خوانده هیچ‌گونه دفاعی معمول نداشته است",
+        "start_char": 1240,
+        "end_char": 1295,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

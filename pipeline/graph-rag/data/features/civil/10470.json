@@ -1,0 +1,132 @@
+{
+  "ruling_id": "10470",
+  "concepts": [],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "از تنظیم سند رسمی به نام خواهان امتناع کرده است",
+        "start_char": 644,
+        "end_char": 691,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "خواهان مبادرت به طرح دعوی الزام به تنظیم سند رسمی نموده است",
+        "start_char": 707,
+        "end_char": 766,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص دادخواست تجدیدنظرخواهی آقای م.ذ.",
+        "start_char": 2483,
+        "end_char": 2523,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به پرداخت قیمت سه قطعه زمین",
+        "start_char": 62,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای م.م. به خواسته الزام خوانده",
+        "start_char": 42,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم به محکومیت تجدیدنظرخواه به پرداخت",
+        "start_char": 2637,
+        "end_char": 2674,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "قیمت سه قطعه زمین",
+        "start_char": 95,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "فتوکپی مصدق مبایعه‌نامه‌های فوق‌الذکر",
+        "start_char": 1094,
+        "end_char": 1131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "از تنظیم سند رسمی به نام خواهان امتناع کرده است",
+        "start_char": 644,
+        "end_char": 691,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از تنظیم سند رسمی امتناع کرده است",
+      "evidence": {
+        "quote": "از تنظیم سند رسمی به نام خواهان امتناع کرده است",
+        "start_char": 644,
+        "end_char": 691,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده مالک زمین‌ها نبوده است",
+      "evidence": {
+        "quote": "خوانده دعوی، مالکیتی در زمین‌های موصوف نداشته است",
+        "start_char": 783,
+        "end_char": 832,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در جلسات حاضر نشده است",
+      "evidence": {
+        "quote": "خوانده دعوی علیرغم ابلاغ قانونی حاضر نشده است",
+        "start_char": 1209,
+        "end_char": 1254,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

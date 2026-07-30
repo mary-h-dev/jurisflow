@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10686",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "به خواسته اعلام انفساخ و بی‌اعتباری",
+        "start_char": 123,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌اعتباری",
+      "evidence": {
+        "quote": "به خواسته اعلام انفساخ و بی‌اعتباری",
+        "start_char": 123,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "ناظر به خیار فسخ نیست بلکه شرط ناسخ است",
+        "start_char": 3438,
+        "end_char": 3477,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اراده",
+      "evidence": {
+        "quote": "بر حسب اصل آزادی و حکومت اراده متعاملین در قرارداد منعکس گردیده است",
+        "start_char": 3487,
+        "end_char": 3554,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهدات",
+      "evidence": {
+        "quote": "شرط صحت عقود و معاملات و لزوم اجرای تعهدات",
+        "start_char": 3803,
+        "end_char": 3845,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خوانده وجه 5 فقره چک به شماره‌های مذکور در دادخواست مجموعاً به مبلغ 1500000000 ریال را پرداخت نکرده",
+        "start_char": 626,
+        "end_char": 725,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی مطروحه",
+        "start_char": 4769,
+        "end_char": 4796,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را تأیید و ابرام می‌نماید",
+        "start_char": 4798,
+        "end_char": 4846,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده به نام ع.ق.",
+        "start_char": 76,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه محکومیت حاصل نموده است",
+        "start_char": 2815,
+        "end_char": 2850,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "فی‌مابین مشارالیه و تجدیدنظرخواندگان آقایان م.و...",
+        "start_char": 2695,
+        "end_char": 2745,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "مبایعه‌نامه عادی شماره...- 1388/11/10",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتمان در حال احداث با مشخصات مذکور در مبایعه‌نامه",
+        "start_char": 330,
+        "end_char": 390,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی عدم",
+      "evidence": {
+        "quote": "صدور گواهی عدم پرداخت از بانک محال‌علیه",
+        "start_char": 1682,
+        "end_char": 1721,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت چک‌ها توسط خوانده",
+      "evidence": {
+        "quote": "خوانده وجه 5 فقره چک به شماره‌های مذکور در دادخواست مجموعاً به مبلغ 1500000000 ریال را پرداخت نکرده",
+        "start_char": 626,
+        "end_char": 725,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "برگشت خوردن اولین چک در تاریخ 1391/1/30",
+      "evidence": {
+        "quote": "احد از چک‌‬‌ها در تاریخ 1391/1/30 به بانک ارائه و به علت عدم موجودی مواجه با گواهی عدم پرداخت شده است",
+        "start_char": 1801,
+        "end_char": 1901,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

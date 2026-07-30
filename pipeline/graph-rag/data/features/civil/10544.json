@@ -1,0 +1,143 @@
+{
+  "ruling_id": "10544",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "عقد محقق می‌شود به قصد انشاء",
+        "start_char": 315,
+        "end_char": 343,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قصد",
+      "evidence": {
+        "quote": "شرط تحقق عقد، قصد طرفین",
+        "start_char": 415,
+        "end_char": 438,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تراضی",
+      "evidence": {
+        "quote": "در غیر این صورت در مرحله تراضی می‌باشد",
+        "start_char": 580,
+        "end_char": 618,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "به بطلان آن انشاء حکم می‌نماید",
+        "start_char": 1162,
+        "end_char": 1192,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امضاء",
+      "evidence": {
+        "quote": "مبنی بر تنفیذ و امضاء الحاقیه",
+        "start_char": 82,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "و انتقال سهام",
+        "start_char": 159,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم",
+        "start_char": 1262,
+        "end_char": 1295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 2115,
+        "end_char": 2135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عیناً تأیید",
+        "start_char": 2190,
+        "end_char": 2227,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه بدوی مطابق با موازین قانونی و با رعایت اصول دادرسی صادر گردیده و اعتراض موجه و ایراد مؤثری که موجبات نقض و بی‌اعتباری آن را فراهم آورد، در این مرحله از دادرسی به عمل نیامده و موضوع تجدیدنظرخواهی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "مستند به مبایعه‌نامه شماره 862723 - 1386/10/22",
+        "start_char": 112,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه حقوقی مورد ادعا احراز نشده است",
+      "evidence": {
+        "quote": "چنین رابطه‌ای در مانحن فیه احراز نشده است",
+        "start_char": 931,
+        "end_char": 972,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی رد شد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 2115,
+        "end_char": 2135,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

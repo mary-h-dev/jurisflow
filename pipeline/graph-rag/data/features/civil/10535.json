@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10535",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "به خواسته خلع ید مقوم به 51/000/000 ریال",
+        "start_char": 72,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "و مطالبه اجرت‌المثل مقوم به 51/000/000 ریال",
+        "start_char": 113,
+        "end_char": 156,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت دادرسی",
+      "evidence": {
+        "quote": "و مطالبه خسارت دادرسی",
+        "start_char": 157,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "حاکی از مالکیت خواهان در موضوع دعوی دارد",
+        "start_char": 359,
+        "end_char": 399,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "و تصرفات خواندگان در موضوع دعوی دارد",
+        "start_char": 400,
+        "end_char": 436,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تراضی",
+      "evidence": {
+        "quote": "که مالکین وقت با یکدیگر تراضی به این امر نموده‌اند",
+        "start_char": 1736,
+        "end_char": 1786,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه اجرت‌المثل",
+        "start_char": 113,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دعوا",
+      "evidence": {
+        "quote": "قرار رد دعوا صادر می‌گردد",
+        "start_char": 1259,
+        "end_char": 1284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم م.ش. و آقای م.ص.",
+        "start_char": 1433,
+        "end_char": 1468,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را تأیید می‌نماید",
+        "start_char": 2201,
+        "end_char": 2241,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان ع.د.",
+        "start_char": 0,
+        "end_char": 28,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان 1- م.ص. 2- م.ش. 3- ع.خ.",
+        "start_char": 29,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "از جمله سند مالکیت",
+        "start_char": 278,
+        "end_char": 296,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "زمان مالکیت ملکی که توافق نموده‌اند",
+        "start_char": 1844,
+        "end_char": 1879,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "قانون تملک آپارتمان‌ها",
+        "start_char": 1928,
+        "end_char": 1950,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت خواهان در موضوع دعوی ثابت شده است",
+      "evidence": {
+        "quote": "حاکی از مالکیت خواهان در موضوع دعوی دارد",
+        "start_char": 359,
+        "end_char": 399,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواندگان در مشاعات تصرف کرده‌اند",
+      "evidence": {
+        "quote": "و تصرفات خواندگان در موضوع دعوی دارد",
+        "start_char": 400,
+        "end_char": 436,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان اجرت‌المثل را مسترد کرده است",
+      "evidence": {
+        "quote": "خواهان به موجب لایحه تقدیمی 1980 - 1392/1/17 مسترد نموده‌ است",
+        "start_char": 1108,
+        "end_char": 1169,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

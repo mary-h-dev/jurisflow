@@ -1,0 +1,133 @@
+{
+  "ruling_id": "10725",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ملاقات",
+      "evidence": {
+        "quote": "به خواسته ملاقات با نوه",
+        "start_char": 46,
+        "end_char": 70,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی صادر",
+        "start_char": 298,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "قرار صادره دادگاه بدوی را نقض کرده",
+        "start_char": 1089,
+        "end_char": 1123,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "صدور رأی ماهوی",
+        "start_char": 1140,
+        "end_char": 1154,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "پرونده را جهت صدور رأی ماهوی به دادگاه بدوی ارسال می‌دارد",
+        "start_char": 1126,
+        "end_char": 1183,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "ملاحظه لایحه تجدیدنظرخواه",
+        "start_char": 774,
+        "end_char": 799,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نوه",
+      "evidence": {
+        "quote": "به خواسته ملاقات با نوه 5/1 ساله",
+        "start_char": 46,
+        "end_char": 79,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 01489",
+        "start_char": 555,
+        "end_char": 582,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "ملاحظه لایحه تجدیدنظرخواه",
+        "start_char": 774,
+        "end_char": 799,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پدربزرگ و مادربزرگ خواستار ملاقات با نوه شده‌اند",
+      "evidence": {
+        "quote": "به خواسته ملاقات با نوه 5/1 ساله",
+        "start_char": 46,
+        "end_char": 79,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه بدوی قرار عدم استماع دعوی صادر کرده بود",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی صادر و اعلام می‌نماید",
+        "start_char": 298,
+        "end_char": 340,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه تجدیدنظر قرار دادگاه بدوی را نقض کرد",
+      "evidence": {
+        "quote": "قرار صادره دادگاه بدوی را نقض کرده",
+        "start_char": 1089,
+        "end_char": 1123,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

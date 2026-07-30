@@ -1,0 +1,133 @@
+{
+  "ruling_id": "10722",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ نکاح",
+        "start_char": 84,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان صادر",
+        "start_char": 940,
+        "end_char": 969,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم به فسخ نکاح",
+        "start_char": 72,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارات دادرسی",
+        "start_char": 162,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض",
+        "start_char": 1031,
+        "end_char": 1042,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای س.ش.",
+        "start_char": 1135,
+        "end_char": 1158,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی آقای س.ش. فرزند م. به طرفیت خانم س.ر. فرزند الف. به خواسته",
+        "start_char": 8,
+        "end_char": 71,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده و شهود اعلام نمودند",
+        "start_char": 246,
+        "end_char": 272,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی",
+        "start_char": 1548,
+        "end_char": 1575,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه 01231",
+        "start_char": 1179,
+        "end_char": 1195,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج به بیماری صرع مبتلا است",
+      "evidence": {
+        "quote": "هر چند که خوانده دارای بیماری صرع است",
+        "start_char": 494,
+        "end_char": 531,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بیماری صرع قابل کنترل است",
+      "evidence": {
+        "quote": "از مواردی است که قابل کنترل بوده",
+        "start_char": 556,
+        "end_char": 588,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

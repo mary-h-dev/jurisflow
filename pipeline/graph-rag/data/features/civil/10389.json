@@ -1,0 +1,132 @@
+{
+  "ruling_id": "10389",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "خواهان تنها نسبت به اقلام 1 و 2 دادخواست تقدیمی مالکیت داشته",
+        "start_char": 489,
+        "end_char": 549,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "هبه",
+      "evidence": {
+        "quote": "رجوع زوج به هدیه و هبه وقتی جایز است",
+        "start_char": 1416,
+        "end_char": 1452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "حکم به بی حقی وی صادر و اعلام می‌گردد",
+        "start_char": 844,
+        "end_char": 882,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد عین هدایا",
+        "start_char": 90,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در مرجع تجدیدنظر است",
+        "start_char": 913,
+        "end_char": 945,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض این بخش از دادنامه",
+        "start_char": 1790,
+        "end_char": 1815,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "بخش دیگر آن تأیید می‌گردد",
+        "start_char": 1871,
+        "end_char": 1896,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست خواهان آقای ح.ک.",
+        "start_char": 0,
+        "end_char": 25,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "رجوع زوج به هدیه و هبه",
+        "start_char": 1416,
+        "end_char": 1438,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فاکتور خرید برخی اقلام به نام پدر خواهان است",
+      "evidence": {
+        "quote": "الباقی به نام پدر خواهان می‌باشد",
+        "start_char": 362,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از وجود عین موهوب انکار کرده و سوگند یاد کرده است",
+      "evidence": {
+        "quote": "در مانحن فیه زوجه به طور کلی منکر آن بوده و برای اثبات آن اتیان سوگند نموده",
+        "start_char": 1479,
+        "end_char": 1556,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج دلیلی بر بقای عین موهوب ارائه نکرده است",
+      "evidence": {
+        "quote": "زوج نیز دلیلی بر بقاء عین موهوب ارائه نکرده",
+        "start_char": 1559,
+        "end_char": 1602,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

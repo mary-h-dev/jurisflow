@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10527",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "صدور حکم به حضانت فرزندان مشترک",
+        "start_char": 52,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "پرداخت نفقه ایشان",
+        "start_char": 86,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید‌نظر‌خواهی در دادگاه تجدید‌نظر",
+        "start_char": 1998,
+        "end_char": 2038,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم به حضانت فرزندان مشترک",
+        "start_char": 52,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت نفقه ایشان",
+        "start_char": 86,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "خواهان با طرح دعوی حاضر",
+        "start_char": 403,
+        "end_char": 426,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 2877,
+        "end_char": 2896,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه معترضٌ‌عنه را عیناً تأیید می‌نماید",
+        "start_char": 2898,
+        "end_char": 2940,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به این توضیح که خواهان مدعی است",
+        "start_char": 105,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده همسر شرعی و قانونی اوست",
+        "start_char": 137,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه محکوم به پرداخت آن",
+        "start_char": 2279,
+        "end_char": 2310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "حکم به حضانت تجدیدنظرخوانده",
+        "start_char": 2344,
+        "end_char": 2371,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 914",
+        "start_char": 2152,
+        "end_char": 2172,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلافات بین زوجین و جدایی آن‌ها",
+      "evidence": {
+        "quote": "به علت اختلافات فی‌مابین که سوابق رسیدگی در این دادگاه نیز وجود دارد، جدای از یک همدیگر زندگی می‌کنند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زندگی فرزندان نزد مادر",
+      "evidence": {
+        "quote": "هر سه فرزند نیز نزد مادرشان زندگی می‌کنند",
+        "start_char": 356,
+        "end_char": 397,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رسیدن دو فرزند به سن بلوغ",
+      "evidence": {
+        "quote": "در موضوع خواسته دو تن از فرزندان به نامهای ف. و ن. به سن بلوغ رسیده‌اند",
+        "start_char": 662,
+        "end_char": 733,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

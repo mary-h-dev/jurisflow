@@ -1,0 +1,122 @@
+{
+  "ruling_id": "10571",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته اعلام انحلال (فسخ) نکاح",
+        "start_char": 98,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "به لحاظ تدلیس",
+        "start_char": 132,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "با پذیرش و تسری خیار تدلیس در نکاح",
+        "start_char": 1378,
+        "end_char": 1412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر می‌نماید",
+        "start_char": 1858,
+        "end_char": 1896,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ نکاح",
+      "evidence": {
+        "quote": "به خواسته اعلام انحلال (فسخ) نکاح",
+        "start_char": 98,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن ردّ تجدیدنظرخواهی",
+        "start_char": 2595,
+        "end_char": 2616,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با این شرح که خواهان ابراز داشته",
+        "start_char": 147,
+        "end_char": 179,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به خواستگاری خوانده رفتیم",
+        "start_char": 229,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1085 مورخه 1392/06/31 صادره از شعبه 249 دادگاه خانواده تهران، که به موجب آن حکم به بطلان دعوی تجدیدنظرخواه مبنی بر فسخ نکاح صادر شده است",
+        "start_char": 2158,
+        "end_char": 2316,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده بیماری چشمی آرپی را کتمان کرده است",
+      "evidence": {
+        "quote": "خوانده در خصوص بیماری چشمی خود به نام آرپی چیزی نگفت",
+        "start_char": 632,
+        "end_char": 684,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بیماری چشمی آرپی منجر به نابینایی می‌شود",
+      "evidence": {
+        "quote": "این بیماری منجر به نابینایی می‌شود",
+        "start_char": 897,
+        "end_char": 931,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

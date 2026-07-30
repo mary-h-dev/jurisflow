@@ -1,0 +1,203 @@
+{
+  "ruling_id": "10337",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 56,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صیغه طلاق",
+      "evidence": {
+        "quote": "اجرای صیغه طلاق",
+        "start_char": 91,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ازدواج",
+      "evidence": {
+        "quote": "با خوانده ازدواج نموده",
+        "start_char": 213,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "به شرایط ضمن عقد که خود قرار داده‌اند مأخوذ و مقید می‌باشد",
+        "start_char": 1275,
+        "end_char": 1333,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلع",
+      "evidence": {
+        "quote": "خود را به طلاق از نوع خلع مطلقه نماید",
+        "start_char": 1793,
+        "end_char": 1830,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه‌های تجدیدنظر استان تهران است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "بذل یکصد قطعه سکه طلا",
+        "start_char": 2420,
+        "end_char": 2441,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجه و مدلل",
+        "start_char": 2543,
+        "end_char": 2574,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عیناً تأیید و ابرام می‌نماید",
+        "start_char": 2826,
+        "end_char": 2880,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خانم س.د. به طرفیت آقای م.د.",
+        "start_char": 0,
+        "end_char": 45,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با خوانده ازدواج نموده",
+        "start_char": 213,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجه",
+        "start_char": 2543,
+        "end_char": 2567,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "به موجب سند ازدواج",
+        "start_char": 190,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "از مهریه خود در قبال طلاق",
+        "start_char": 1766,
+        "end_char": 1791,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نظریه داوری",
+      "evidence": {
+        "quote": "به موجب نظریه داوری",
+        "start_char": 407,
+        "end_char": 426,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 9309970216900240",
+        "start_char": 2272,
+        "end_char": 2310,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده همسر دیگری اختیار کرده و دارای فرزند است",
+      "evidence": {
+        "quote": "خوانده با عقد ازدواج منقطع فی الواقع از شرایط فی‌مابین عدول کرده است و خواهان می‌تواند از وکالتی که از طرف خوانده به او داده شده برای گرفتن طلاق استفاده نماید",
+        "start_char": 1348,
+        "end_char": 1507,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجین فرزند مشترک ندارند",
+      "evidence": {
+        "quote": "زوجین فاقد فرزند مشترک می‌باشند",
+        "start_char": 1856,
+        "end_char": 1887,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "داوری منجر به عدم سازش شده است",
+      "evidence": {
+        "quote": "اما داوران زوجین موفق به ایجاد سازش بین زوجین نشده‌اند",
+        "start_char": 805,
+        "end_char": 859,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

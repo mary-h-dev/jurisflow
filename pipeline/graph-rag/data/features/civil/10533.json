@@ -1,0 +1,133 @@
+{
+  "ruling_id": "10533",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "حق دارد قرارداد را فسخ نموده",
+        "start_char": 1108,
+        "end_char": 1136,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "به‌خواسته صدور حکم بر اعلام و تنفیذ فسخ",
+        "start_char": 88,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "و الزام شرکت خوانده به استرداد مبلغ پیش پرداخت",
+        "start_char": 174,
+        "end_char": 220,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض مؤثر و موجهی",
+        "start_char": 3779,
+        "end_char": 3811,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "بانک",
+      "evidence": {
+        "quote": "در خصوص دعوی بانک",
+        "start_char": 0,
+        "end_char": 17,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام شرکت خوانده به استرداد",
+        "start_char": 176,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه اعتراض مؤثر و موجهی",
+        "start_char": 3772,
+        "end_char": 3811,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "فسخ قرارداد شماره 12/260/7/938/013",
+        "start_char": 124,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبلغ",
+      "evidence": {
+        "quote": "استرداد مبلغ پیش پرداخت",
+        "start_char": 197,
+        "end_char": 220,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "آموزش دو دستگاه سوئیچ سیکو 6500",
+        "start_char": 609,
+        "end_char": 640,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شرکت در انجام تعهدات خود تأخیر داشته است",
+      "evidence": {
+        "quote": "شرکت، مفاد قرارداد را در مهلت داده‌شده انجام نداده",
+        "start_char": 1175,
+        "end_char": 1225,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موضوع قرارداد توسط شخص ثالث انجام شده است",
+      "evidence": {
+        "quote": "موضوع قرارداد توسط شخصی و یا اشخاص ثالث دیگری انجام پذیرفته‌است",
+        "start_char": 2466,
+        "end_char": 2529,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

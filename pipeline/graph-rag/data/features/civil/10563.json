@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10563",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت‌المثل ایام زندگی مشترک",
+        "start_char": 76,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "با خواسته زوج و به قصد عدم تبرع باشد",
+        "start_char": 991,
+        "end_char": 1027,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به‌خواسته مطالبه اجرت‌المثل",
+        "start_char": 66,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی وی صادر",
+        "start_char": 343,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترضٌ‌عنه را نقض",
+        "start_char": 1715,
+        "end_char": 1740,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم بر محکومیت زوج",
+        "start_char": 1743,
+        "end_char": 1761,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست خواهان خانم م.الف.",
+        "start_char": 0,
+        "end_char": 27,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "با خواسته زوج",
+        "start_char": 991,
+        "end_char": 1004,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "چنانچه زوجه کارهایی که شرعاً بعهده وی نبوده",
+        "start_char": 871,
+        "end_char": 914,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "با وارد دانستن اعتراض معترض",
+        "start_char": 1607,
+        "end_char": 1634,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجرت‌المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت‌المثل ایام زندگی مشترک",
+        "start_char": 76,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "به پرداخت اجرت‌المثل همسرش به مبلغ 162/000/000 ریال",
+        "start_char": 1762,
+        "end_char": 1813,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "درخواست اجرت‌المثل برای کارهای منزل",
+      "evidence": {
+        "quote": "زوجه کارهایی که شرعاً بعهده وی نبوده(مانند کار در منزل، نظافت و آشپزی و...)",
+        "start_char": 878,
+        "end_char": 953,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم احراز شرایط ماده 336 قانون مدنی در مرحله اول",
+      "evidence": {
+        "quote": "قیود مندرج در تبصره ماده 336 قانون مدنی برای دادگاه احراز نگردیده است",
+        "start_char": 245,
+        "end_char": 314,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

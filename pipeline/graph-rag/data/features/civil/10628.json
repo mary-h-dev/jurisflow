@@ -1,0 +1,113 @@
+{
+  "ruling_id": "10628",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان صادر",
+        "start_char": 443,
+        "end_char": 472,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "دائر به صدور حکم",
+        "start_char": 62,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 1269,
+        "end_char": 1288,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بطلان دعوی خواهان",
+        "start_char": 450,
+        "end_char": 467,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مدافعات خوانده",
+        "start_char": 158,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ف.پ.",
+        "start_char": 636,
+        "end_char": 659,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "منع اشتغال تجدیدنظرخوانده",
+        "start_char": 832,
+        "end_char": 857,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 1213",
+        "start_char": 680,
+        "end_char": 701,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه مهماندار هواپیمایی بوده است",
+      "evidence": {
+        "quote": "زوجه یک سال قبل عقد مشغول بکار در هواپیمایی م. به عنوان مهماندار بوده",
+        "start_char": 223,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شغل زوجه با مصالح خانوادگی یا معیشات زوجین در تعارض نیست",
+      "evidence": {
+        "quote": "چون شغل زوجه خلاف مصالح خانوادگی یا معیشات زوجین احراز نمی‌شود",
+        "start_char": 349,
+        "end_char": 411,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

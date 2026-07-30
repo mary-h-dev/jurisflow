@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10727",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه",
+        "start_char": 54,
+        "end_char": 65,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "منوط به تمکین از زوج است",
+        "start_char": 302,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "دلیلی مبنی بر نشوز زوجه",
+        "start_char": 1113,
+        "end_char": 1136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "در عقد دایم نفقه زن بر عهده شوهر است",
+        "start_char": 1065,
+        "end_char": 1101,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دایر به مطالبه نفقه",
+        "start_char": 46,
+        "end_char": 65,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان",
+        "start_char": 386,
+        "end_char": 407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی وارد تشخیص داده می‌شود",
+        "start_char": 990,
+        "end_char": 1026,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "صادر شده دادگاه بدوی را با استناد به مواد 358 و 365 قانون آئین دادرسی دادگاه‌های عمومی و انقلاب در امور مدنی نقض",
+        "start_char": 1257,
+        "end_char": 1369,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت زوج به پرداخت نفقه",
+        "start_char": 1497,
+        "end_char": 1530,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت نفقه در حق زوجه",
+        "start_char": 1516,
+        "end_char": 1541,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "استحقاق زوجه نسبت به نفقه",
+        "start_char": 276,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "دلیلی مبنی بر نشوز زوجه و عدم تعلق نفقه بدوی به دادگاه ارائه نکرده است",
+        "start_char": 1113,
+        "end_char": 1183,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه",
+        "start_char": 54,
+        "end_char": 65,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج قادر به انجام عمل زناشویی نیست",
+      "evidence": {
+        "quote": "زوج قادر به انجام عمل زناشویی نیست",
+        "start_char": 158,
+        "end_char": 192,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه منزل پدر خود ساکن شده است",
+      "evidence": {
+        "quote": "در منزل پدر خود ساکن شده است",
+        "start_char": 231,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج دلیلی مبنی بر نشوز ارائه نکرده است",
+      "evidence": {
+        "quote": "زوج دلیلی مبنی بر نشوز زوجه و عدم تعلق نفقه بدوی به دادگاه ارائه نکرده است",
+        "start_char": 1109,
+        "end_char": 1183,
+        "confidence": 1.0
+      }
+    }
+  ]
+}
