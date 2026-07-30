@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10349",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال اجرائیه‌های صادره",
+        "start_char": 188,
+        "end_char": 221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "با اخذ چک، تبدیل تعهد صورت گرفته",
+        "start_char": 7747,
+        "end_char": 7779,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "اشتغال الذمه یقینی محتاج برائت ذمه یقینی بوده",
+        "start_char": 9322,
+        "end_char": 9368,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "مسترد نموده است",
+        "start_char": 414,
+        "end_char": 429,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "به مؤسسه مالی و اعتباری ع. تحویل",
+        "start_char": 1899,
+        "end_char": 1931,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "اقدام به تنظیم سند رهنی دیگری",
+        "start_char": 2219,
+        "end_char": 2248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "درخواست صدور اجرائیه می‌نماید",
+        "start_char": 2435,
+        "end_char": 2464,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه وجه",
+      "evidence": {
+        "quote": "در جهت وصول وجه چک",
+        "start_char": 3448,
+        "end_char": 3466,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان‬ها",
+        "start_char": 0,
+        "end_char": 22,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به‬ طرفیت خواندگان",
+        "start_char": 66,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اصلی",
+      "evidence": {
+        "quote": "شرکت ر.ت.خ. (خوانده ردیف دوم به عنوان متعهد اصلی)",
+        "start_char": 1345,
+        "end_char": 1394,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اسناد مالکیت",
+      "evidence": {
+        "quote": "استرداد اصول اسناد مالکیت",
+        "start_char": 285,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت مدنی",
+      "evidence": {
+        "quote": "مطابق قرارداد مشارکت مدنی",
+        "start_char": 479,
+        "end_char": 504,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "به موجب سند رهنی شماره 131989-1390/6/28",
+        "start_char": 853,
+        "end_char": 892,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "یک فقره چک به‬ شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شرکت ر.ت.خ. تسهیلات دریافت کرده است",
+      "evidence": {
+        "quote": "شرکت ر.ت.خ. مطابق قرارداد مشارکت مدنی مورخه 1390/7/24 مبلغ نود میلیارد ریال از مؤسسه مالی و اعتباری ع. تسهیلات دریافت می‌دارد",
+        "start_char": 467,
+        "end_char": 592,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک برای تسویه کامل تسهیلات تحویل داده شده است",
+      "evidence": {
+        "quote": "چک به‬ شماره... به تاریخ سررسید 1391/11/5 بانک پ. و مبلغ 127/745/000/000 ریال در وجه مؤسسه مالی و اعتباری ع. بابت تسویه حساب کامل تسهیلات و فک رهن نمودن قراردادهای شماره...-1390/6/28 و... مورخه 1390/6/28 از طرف رئیس هیئت مدیره شرکت ر.ت.خ. به مؤسسه مالی و اعتباری ع. تحویل",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مؤسسه مالی با وجود دریافت چک، اقدام به تنظیم سند رهنی جدید کرده است",
+      "evidence": {
+        "quote": "مؤسسه مالی واعتباری ع. به‬ جای اقدام در جهت وصول چک فوق ‬الاشعار جهت انجام تسویه حساب کامل تسه设施ات دریافتی از ناحیه شرکت ر.ت.خ. و فک رهن اسناد وثیقه‌ای خواهان‬ها با استناد و استفاده از وکالتنامه رسمی مأخوذه از راهنین اقدام به تنظیم سند رهنی دیگری به‬ شماره... مورخه 1392/3/26 می‌نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10248",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال شناسنامه",
+        "start_char": 67,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی اولیه تجدیدنظرخوانده",
+        "start_char": 2294,
+        "end_char": 2332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رسمی",
+      "evidence": {
+        "quote": "سند سجلی در زمره اسناد رسمی است",
+        "start_char": 1764,
+        "end_char": 1795,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "الزام خوانده به صدور شناسنامه جدید",
+        "start_char": 125,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در رابطه با تجدیدنظرخواهی اداره ثبت‌احوال",
+        "start_char": 1251,
+        "end_char": 1293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "با نقض رأی تجدیدنظرخواسته",
+        "start_char": 2268,
+        "end_char": 2293,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان توضیح داده",
+        "start_char": 183,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به صدور شناسنامه جدید",
+        "start_char": 125,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "الزام تجدیدنظرخوانده به صدور شناسنامه جدید",
+        "start_char": 1421,
+        "end_char": 1463,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "با نقض رأی تجدیدنظرخواسته",
+        "start_char": 2268,
+        "end_char": 2293,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "به خواسته ابطال شناسنامه",
+        "start_char": 67,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "سند سجلی در زمره اسناد رسمی است",
+        "start_char": 1764,
+        "end_char": 1795,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "استفاده از شناسنامه فعلی در طی سه دهه گذشته",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده در طی سه دهه گذشته به‌کرات و در مناسبات مختلف اداری و حقوقی از شناسنامه فعلی استفاده نموده",
+        "start_char": 1532,
+        "end_char": 1637,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه گواهی ولادت یا جواز دفن خواهر",
+      "evidence": {
+        "quote": "فقدان هرگونه دلیل موجه دال بر فوت خواهر موردادعا و نیز گواهی ولادت و جواز دفن وی",
+        "start_char": 2018,
+        "end_char": 2098,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

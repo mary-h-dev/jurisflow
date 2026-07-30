@@ -1,0 +1,183 @@
+{
+  "ruling_id": "10125",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته اعلام فسخ معامله",
+        "start_char": 68,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "به علت خیار غبن",
+        "start_char": 145,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "مستنداً به اصل لزوم قراردادها",
+        "start_char": 1175,
+        "end_char": 1204,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "به خواسته اعلام فسخ معامله",
+        "start_char": 68,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم بر ایفاء تعهد",
+        "start_char": 1393,
+        "end_char": 1425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تحویل مبیع",
+        "start_char": 1428,
+        "end_char": 1438,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "لذا مجموعاً ادعای خواهان را وارد ندانسته",
+        "start_char": 1130,
+        "end_char": 1170,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع صادر و اعلام می‌دارد",
+        "start_char": 1911,
+        "end_char": 1947,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عیناً تأیید",
+        "start_char": 3012,
+        "end_char": 3049,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ملاحظه اظهارات وکیل خواهان",
+        "start_char": 298,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "و فروشنده با اطلاع کامل",
+        "start_char": 538,
+        "end_char": 561,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بدون الزام خوانده به تنظیم سندرسمی",
+        "start_char": 1694,
+        "end_char": 1728,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "موضوع مبایعه‌نامه شماره 152 مورخ 1391/1/22",
+        "start_char": 102,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ارزش شش‌دانگ ملک موصوف",
+        "start_char": 921,
+        "end_char": 943,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "تحویل مبیع",
+        "start_char": 1428,
+        "end_char": 1438,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلاف در ارزش ملک در زمان انعقاد قرارداد",
+      "evidence": {
+        "quote": "مابه ‬التفاوت ارزش شش‌دانگ ملک موصوف در زمان انعقاد قرارداد را بیست و هفت میلیون تومان اعلام داشته",
+        "start_char": 907,
+        "end_char": 1005,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات مالکیت برای مطالبه تحویل مبیع",
+      "evidence": {
+        "quote": "دعوی تحویل مبیع فرع بر اثبات مالکیت می‌باشد",
+        "start_char": 1618,
+        "end_char": 1661,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

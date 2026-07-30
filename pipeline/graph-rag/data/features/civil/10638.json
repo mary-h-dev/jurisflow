@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10638",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 207,
+        "end_char": 224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "برائت ذمه خویش",
+        "start_char": 743,
+        "end_char": 757,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "باطل",
+      "evidence": {
+        "quote": "نامشروع و باطل می‌باشد",
+        "start_char": 2542,
+        "end_char": 2564,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه",
+        "start_char": 78,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انصراف",
+      "evidence": {
+        "quote": "از ادامه کار انصراف داده است",
+        "start_char": 635,
+        "end_char": 663,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض آن",
+        "start_char": 2719,
+        "end_char": 2729,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 1893,
+        "end_char": 1913,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان اعلام نموده است",
+        "start_char": 330,
+        "end_char": 352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده در دفاع",
+        "start_char": 496,
+        "end_char": 510,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه",
+        "start_char": 1468,
+        "end_char": 1488,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده می‌باشد",
+        "start_char": 1579,
+        "end_char": 1607,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رسید",
+      "evidence": {
+        "quote": "بابت رسید عادی",
+        "start_char": 119,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبلغ",
+      "evidence": {
+        "quote": "مبلغ 000/000/000/1 ریال",
+        "start_char": 95,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده مبلغی را بابت اصل طلب و ضرر و زیان پرداخت نکرده است",
+      "evidence": {
+        "quote": "بدهکاری باشد که تاکنون پرداخت نشده است",
+        "start_char": 457,
+        "end_char": 495,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ادعا کرده است که مبلغ مورد مطالبه جهت مشارکت بوده است",
+      "evidence": {
+        "quote": "مبلغ 500/000/000 ریال وفق قرارداد عادی آورده خواهان جهت مشارکت بوده است",
+        "start_char": 541,
+        "end_char": 612,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین در مورد پرداخت مبلغ اضافی بابت ضرر و زیان توافق کرده بودند",
+      "evidence": {
+        "quote": "متضمن تعیین وجهی اضافه بر مبلغ دین باشد",
+        "start_char": 2399,
+        "end_char": 2438,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

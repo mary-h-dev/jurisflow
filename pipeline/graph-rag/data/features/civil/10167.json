@@ -1,0 +1,183 @@
+{
+  "ruling_id": "10167",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ازدواج دائم",
+      "evidence": {
+        "quote": "واقعه ازدواج نکاح دائم",
+        "start_char": 101,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "عقد موقت",
+        "start_char": 505,
+        "end_char": 513,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اکراه",
+      "evidence": {
+        "quote": "در حالت اکراه و اجبار",
+        "start_char": 939,
+        "end_char": 960,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجبار",
+      "evidence": {
+        "quote": "در حالت اکراه و اجبار",
+        "start_char": 939,
+        "end_char": 960,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ثبت",
+      "evidence": {
+        "quote": "به خواسته ثبت واقعه ازدواج نکاح دائم",
+        "start_char": 87,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأکید",
+      "evidence": {
+        "quote": "دو مرتبه بر دائمی بودن عقد تأکید شده است",
+        "start_char": 262,
+        "end_char": 302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض",
+        "start_char": 1763,
+        "end_char": 1774,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "قابل فرجام‌خواهی",
+        "start_char": 1842,
+        "end_char": 1858,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اظهارات خواهان",
+        "start_char": 158,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دفاع خوانده",
+        "start_char": 446,
+        "end_char": 457,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجین",
+      "evidence": {
+        "quote": "امضای زوجین",
+        "start_char": 582,
+        "end_char": 593,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "عمده آن سند عادی است",
+        "start_char": 202,
+        "end_char": 222,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "در همان سند زوجه وکالت در طلاق از زوج گرفته است",
+        "start_char": 305,
+        "end_char": 352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "با مهریه مندرج در سند عادی",
+        "start_char": 1538,
+        "end_char": 1564,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین در سند عادی بر دائمی بودن عقد تأکید کرده‌اند",
+      "evidence": {
+        "quote": "در قسمت بیان نوع عقد دو مرتبه بر دائمی بودن عقد تأکید شده است",
+        "start_char": 241,
+        "end_char": 302,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در بازجویی‌های کیفری به ازدواج دائم اقرار کرده است",
+      "evidence": {
+        "quote": "با توجه به اقرار خوانده در بازجویی‌های پرونده کیفری ب 3/930060 شعبه 3 دادسرای الهیه که حاکی از ازدواج دائم است",
+        "start_char": 661,
+        "end_char": 771,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند در فرم‌های مخصوص عقد موقت تنظیم شده است",
+      "evidence": {
+        "quote": "سند عادی در فرم‌های چاپ شده برای عقد موقت تنظیم شده است",
+        "start_char": 472,
+        "end_char": 527,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

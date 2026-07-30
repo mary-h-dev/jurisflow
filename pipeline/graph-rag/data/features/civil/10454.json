@@ -1,0 +1,143 @@
+{
+  "ruling_id": "10454",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "به خواسته اعسار از پرداخت هزینه دادرسی",
+        "start_char": 65,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی صادر و اعلام می‌دارد",
+        "start_char": 701,
+        "end_char": 739,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "عدم کفایت دارایی محقق می‌گردد",
+        "start_char": 1277,
+        "end_char": 1306,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور چک",
+      "evidence": {
+        "quote": "صدور چک به میزان بیش از 500/000/000 ریال",
+        "start_char": 422,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مستوجب نقض آن می‌باشد",
+        "start_char": 1175,
+        "end_char": 1196,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اطلاعات کافی از سایر درآمدهای خواهان اعسار نداشته",
+        "start_char": 192,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بطلان دعوی تجدیدنظرخواه م.الف",
+        "start_char": 989,
+        "end_char": 1018,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاهد",
+      "evidence": {
+        "quote": "به شهادت شهود که از زمره بینه شرعیه بوده استناد",
+        "start_char": 1527,
+        "end_char": 1574,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "پس چگونه وکیل اختیار کردی؟",
+        "start_char": 283,
+        "end_char": 309,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "اعسار از پرداخت هزینه دادرسی",
+        "start_char": 75,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "صدور چک به میزان بیش از 500/000/000 ریال",
+        "start_char": 422,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان چک با مبلغ بالا صادر کرده است",
+      "evidence": {
+        "quote": "صدور چک به میزان بیش از 500/000/000 ریال دلالت بر تمکن مالی خواهان دارد",
+        "start_char": 422,
+        "end_char": 493,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شهود بر عدم توانایی مالی خواهان شهادت داده‌اند",
+      "evidence": {
+        "quote": "بر عدم ملائت مالی خواهان ادای شهادت نموده‌اند",
+        "start_char": 1618,
+        "end_char": 1663,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

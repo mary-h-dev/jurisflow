@@ -1,0 +1,143 @@
+{
+  "ruling_id": "10317",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رهن",
+      "evidence": {
+        "quote": "عقد رهن، تبعی است",
+        "start_char": 2327,
+        "end_char": 2344,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "باید دینی وجود داشته باشد",
+        "start_char": 2373,
+        "end_char": 2398,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فک رهن",
+      "evidence": {
+        "quote": "تقاضای الزام خوانده به فک رهن",
+        "start_char": 121,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی مطروحه از ناحیه خانم م.د",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان اجمالاً اشعار داشته‌اند",
+        "start_char": 329,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به فک رهن",
+        "start_char": 128,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "با ارائه وکالت‌نامه شماره 5761366 به عنوان وکیل خوانده",
+        "start_char": 745,
+        "end_char": 800,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "به وکالت از تجدیدنظرخواه ب.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخوانده خانم ش. و.",
+        "start_char": 3272,
+        "end_char": 3306,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "فک رهن از پلاک ثبتی... فرعی از... اصلی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "مطابق سند شماره 10301 دفترخانه... تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وام تسویه شده است",
+      "evidence": {
+        "quote": "اقساط وام تأدیه گردیده و در حال حاضر دینی به خوانده ندارد",
+        "start_char": 537,
+        "end_char": 594,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بانک از فک رهن امتناع کرده است",
+      "evidence": {
+        "quote": "خوانده علی‌رغم تسویه وام از فک رهن امتناع دارد",
+        "start_char": 609,
+        "end_char": 655,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

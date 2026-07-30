@@ -1,0 +1,143 @@
+{
+  "ruling_id": "10178",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته الزام به تمکین",
+        "start_char": 114,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان را صادر و اعلام می‌نماید",
+        "start_char": 3269,
+        "end_char": 3318,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ترک نموده",
+      "evidence": {
+        "quote": "منزل مشترک را ترک نموده",
+        "start_char": 246,
+        "end_char": 269,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "درخواست الزام خوانده به حضور در منزل تهیه شده",
+        "start_char": 617,
+        "end_char": 662,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "درخواست رد خواسته را نموده است",
+        "start_char": 1894,
+        "end_char": 1924,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت س.ر.ه فرزند س. با وکالت س.الف. به خواسته الزام به تمکین و وکیل خواهان توضیح داده است",
+        "start_char": 74,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده همسر شرعی و قانونی موکل می‌باشد",
+        "start_char": 169,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجین",
+      "evidence": {
+        "quote": "امکان زندگی مشترک مسالمت‌آمیز برای هیچ‌یک از زوجین وجود ندارد",
+        "start_char": 2344,
+        "end_char": 2406,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "منزل مشترک را ترک نموده",
+        "start_char": 246,
+        "end_char": 269,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره‌نامه",
+      "evidence": {
+        "quote": "منزل علیحده جدید طبق اجاره نامه پیوست در صباشهر تهیه نموده",
+        "start_char": 392,
+        "end_char": 450,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده منزل مشترک را ترک کرده است",
+      "evidence": {
+        "quote": "منزل مشترک را ترک نموده",
+        "start_char": 246,
+        "end_char": 269,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درگیری فیزیکی و مجروح شدن برادران خوانده",
+      "evidence": {
+        "quote": "با چاقو و قمه کتف برادر بزرگ خوانده آقای ر. را مجروح کرده",
+        "start_char": 1293,
+        "end_char": 1350,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود پرونده جزایی در شعبه بازپرسی",
+      "evidence": {
+        "quote": "پرونده‌ای در شعبه بازپرسی دادسرای عمومی و انقلاب شهرستان بهارستان به کلاسه 92096 که مطرح می‌باشد",
+        "start_char": 1117,
+        "end_char": 1213,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

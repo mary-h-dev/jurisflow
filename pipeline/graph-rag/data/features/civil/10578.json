@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10578",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "به‌خواسته اجرت‌المثل ایام زوجیت",
+        "start_char": 68,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "احراز علقه زوجیت",
+        "start_char": 247,
+        "end_char": 263,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد دائم",
+      "evidence": {
+        "quote": "با نوع عقد دائم",
+        "start_char": 264,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 974,
+        "end_char": 998,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض و رسیدگی",
+        "start_char": 1070,
+        "end_char": 1090,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی",
+        "start_char": 1186,
+        "end_char": 1207,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم بر رد دعوی صادر شده است",
+        "start_char": 1419,
+        "end_char": 1446,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "حکم تجدیدنظرخواسته را تأیید می‌نماید",
+        "start_char": 1833,
+        "end_char": 1869,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با عنایت به جامع محتویات پرونده، ملاحظه تصویر مصدق سند ازدواج شماره... صادره از سوی دفتر رسمی ثبت ازدواج شماره... تهران احراز علقه زوجیت با نوع عقد دائم و نظر به اینکه یکی از شرایط تعلق اجرت‌المثل ایام زندگی مشترک زوجین، دستور زوج می‌باشد و با توجه به اینکه خواهان اظهار داشته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "دستور زوج می‌باشد",
+        "start_char": 348,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی خانم الف.ت.",
+        "start_char": 1186,
+        "end_char": 1219,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "ملاحظه تصویر مصدق سند ازدواج",
+        "start_char": 158,
+        "end_char": 186,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم اثبات دستور زوج برای انجام کارها",
+      "evidence": {
+        "quote": "ولی در خصوص دستور، دلیلی ارائه ننموده",
+        "start_char": 475,
+        "end_char": 512,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات ادعای خواهان مبنی بر انجام کار به قصد دریافت اجرت",
+      "evidence": {
+        "quote": "با این وصف دادگاه خواسته خواهان را بلادلیل تشخیص",
+        "start_char": 881,
+        "end_char": 929,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10264",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تأیید و تنفیذ فسخ",
+        "start_char": 124,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غبن",
+      "evidence": {
+        "quote": "به لحاظ غبن بسیار فاحش (افحش)",
+        "start_char": 169,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "کلیه خسارات من‌ جمله خیار غبن",
+        "start_char": 1153,
+        "end_char": 1182,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تأیید و تنفیذ فسخ",
+        "start_char": 124,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ساقط",
+      "evidence": {
+        "quote": "طرفین در بند 6/6 قرارداد کلیه خسارات من‌ جمله خیار غبن به‌استثنای خیار تدلیس را اسقاط نموده‌اند",
+        "start_char": 1128,
+        "end_char": 1224,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مستوجب نقض آن می‌باشد",
+        "start_char": 2526,
+        "end_char": 2547,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل محترم خواهان اعلام نموده",
+        "start_char": 329,
+        "end_char": 358,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از ناحیه خوانده به نظر هیأت سه‌نفره کارشناسی ارجاع",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه‌نامه مورخ 1392/3/10",
+        "start_char": 142,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد بیع",
+      "evidence": {
+        "quote": "برگ قرارداد بیع عادی مورخ 1392/3/10",
+        "start_char": 376,
+        "end_char": 411,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "سه دانگ از شش‌دانگ یک قطعه زمین",
+        "start_char": 412,
+        "end_char": 443,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "قسمتی از ثمن را نیز پرداخت‌ نموده",
+        "start_char": 503,
+        "end_char": 536,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تفاوت قیمت واقعی و قیمت معامله‌شده کمتر از یک‌سوم است",
+      "evidence": {
+        "quote": "تفاوت قیمت واقعی (حسب اظهارنظر هیأت کارشناسان) و قیمت معامله‌شده کمتر از یک‌سوم قیمت معامله‌ شده می‌باشد",
+        "start_char": 1238,
+        "end_char": 1342,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین خیار غبن را اسقاط کرده‌اند",
+      "evidence": {
+        "quote": "طرفین در بند 6/6 قرارداد کلیه خسارات من‌ جمله خیار غبن به‌استثنای خیار تدلیس را اسقاط نموده‌اند",
+        "start_char": 1128,
+        "end_char": 1224,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

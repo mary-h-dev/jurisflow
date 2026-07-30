@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10431",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نقل و انتقال",
+      "evidence": {
+        "quote": "اصل بر صحت نقل و انتقال اسناد تجاری می‌باشد",
+        "start_char": 225,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "امانی",
+      "evidence": {
+        "quote": "با احراز امانی بودن ید",
+        "start_char": 2473,
+        "end_char": 2495,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "دایر بر استرداد لاشه دو فقره چک",
+        "start_char": 48,
+        "end_char": 79,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "فساد انتقال چک‌ها",
+        "start_char": 445,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی معترض‌ٌعنه را نقض",
+        "start_char": 2620,
+        "end_char": 2641,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم بر محکومیت تجدید‌نظر‌خواندگان",
+        "start_char": 2644,
+        "end_char": 2677,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از خواهان دریافت داشته",
+        "start_char": 350,
+        "end_char": 372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف اول",
+        "start_char": 284,
+        "end_char": 299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 719 مورخ 1392/6/17 شعبه 129 دادگاه حقوقی تهران که متضمن رد دعوای تجدید‌نظر‌خواه",
+        "start_char": 1144,
+        "end_char": 1245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدید‌نظر‌خواندگان دلیل موجهی",
+        "start_char": 1386,
+        "end_char": 1415,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "استرداد لاشه دو فقره چک",
+        "start_char": 56,
+        "end_char": 79,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "چک یکی از اسناد تجاری",
+        "start_char": 174,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "دو فقره سند عادی",
+        "start_char": 1499,
+        "end_char": 1515,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "انتقال 5 واحد آپارتمان",
+        "start_char": 1609,
+        "end_char": 1631,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک‌ها از طریق ظهرنویسی دریافت شده است",
+      "evidence": {
+        "quote": "خوانده ردیف اول به صراحت اعلام داشته که چک‌ها را از طریق ظهرنویسی از خواهان دریافت داشته",
+        "start_char": 284,
+        "end_char": 372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک‌ها در ازای معامله آپارتمان بوده است",
+      "evidence": {
+        "quote": "چک‌های مذکور از باب تضمین انتقال 5 واحد آپارتمان (جمعاً) مورد معامله بین تجدید‌نظر‌خواه و آقای م.م. در اختیار تجدید‌نظر‌خواه بوده",
+        "start_char": 1583,
+        "end_char": 1712,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

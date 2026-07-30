@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10721",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت",
+        "start_char": 103,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "عدم تمکین زوجه موجه می‌باشد",
+        "start_char": 722,
+        "end_char": 749,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام به تمکین",
+        "start_char": 45,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 750,
+        "end_char": 776,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 1605,
+        "end_char": 1620,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در محاکم تجدیدنظر",
+        "start_char": 845,
+        "end_char": 874,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان را وارد ندانسته",
+        "start_char": 637,
+        "end_char": 664,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده با معرفی چهار نفر گواه",
+        "start_char": 161,
+        "end_char": 190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "اعتیاد شدید زوج",
+        "start_char": 196,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "عدم تمکین زوجه موجه می‌باشد",
+        "start_char": 722,
+        "end_char": 749,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به دلالت سند نکاحیه",
+        "start_char": 127,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 971-1393/7/29",
+        "start_char": 1007,
+        "end_char": 1042,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج به مواد مخدر اعتیاد دارد",
+      "evidence": {
+        "quote": "اقرار به داشتن سابقه اعتیاد به مواد مخدر تریاک نموده است",
+        "start_char": 267,
+        "end_char": 323,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در منزل مشترک سکونت ندارد",
+      "evidence": {
+        "quote": "عدم حضور در منزل مشترک ایشان",
+        "start_char": 356,
+        "end_char": 384,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10579",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته تمکین",
+        "start_char": 32,
+        "end_char": 47,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 590,
+        "end_char": 614,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 684,
+        "end_char": 702,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "بمجرد وقوع عقد",
+        "start_char": 1245,
+        "end_char": 1259,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "از تمکین امتناع می‌نماید",
+        "start_char": 180,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض وارد",
+      "evidence": {
+        "quote": "با توجه به محتویات پرونده و دادنامه مذکور اعتراض وارد است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه مذکور را نقض نمود",
+        "start_char": 1200,
+        "end_char": 1225,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مدعی شده است که خوانده همسر دائمی من است",
+        "start_char": 104,
+        "end_char": 144,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده همسر دائمی من است",
+        "start_char": 120,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بطلان دعوی تجدیدنظرخواه",
+        "start_char": 955,
+        "end_char": 978,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده را ملزم به تمکین عام و خاص می‌نماید",
+        "start_char": 1440,
+        "end_char": 1490,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "در قبال شوهر است",
+        "start_char": 1375,
+        "end_char": 1391,
+        "confidence": 0.7
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در شأن زوجه می‌باشد",
+        "start_char": 1547,
+        "end_char": 1566,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "طی دادنامه شماره 9301300178 -1393/2/24",
+        "start_char": 282,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "تهیه منزل مسکونی مستقل",
+        "start_char": 1510,
+        "end_char": 1532,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لوازم",
+      "evidence": {
+        "quote": "و لوازم زندگی",
+        "start_char": 1533,
+        "end_char": 1546,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده سابقه محکومیت به ضرب وجرح دارد",
+      "evidence": {
+        "quote": "از شعبه 103 جزایی شهریار محکومیت به ضرب وجرح دارد",
+        "start_char": 321,
+        "end_char": 370,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوف ضرر جانی و حیثیتی برای زوجه وجود دارد",
+      "evidence": {
+        "quote": "وجود خوف ضرر جانی و حیثیتی زوجه محرز و مسلّم است",
+        "start_char": 503,
+        "end_char": 551,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

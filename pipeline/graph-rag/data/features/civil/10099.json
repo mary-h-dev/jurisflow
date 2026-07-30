@@ -1,0 +1,133 @@
+{
+  "ruling_id": "10099",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام تصرف",
+        "start_char": 81,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "ید متصرف غاصبانه",
+        "start_char": 317,
+        "end_char": 333,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "اصل نیز بر صحت تصرف واحدهتی دولتی و شهرداری‌ها است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 71,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را تأیید می‌نماید",
+        "start_char": 2654,
+        "end_char": 2690,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شهرداری",
+      "evidence": {
+        "quote": "به طرفیت شهرداری تهران",
+        "start_char": 48,
+        "end_char": 70,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "حکم بر بی‌حقی تجدیدنظرخواهان",
+        "start_char": 1244,
+        "end_char": 1272,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "ملک به تصرف تجدیدنظرخوانده درآمده",
+        "start_char": 2320,
+        "end_char": 2353,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دانگ پلاک",
+      "evidence": {
+        "quote": "یک سهم مشاع از شش سهم سه دانگ پلاک ثبتی",
+        "start_char": 110,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهای",
+      "evidence": {
+        "quote": "محکومیت شهرداری به پرداخت بهای ملک",
+        "start_char": 707,
+        "end_char": 741,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شهرداری ملک را طبق مقررات قانونی تملک کرده است",
+      "evidence": {
+        "quote": "تصرف شهرداری در ملک موصوف طبق مقررات قانونی نحوه خرید و تملک اراضی و املاک برای اجرای برنامه‌های عمومی، عمرانی و نظامی دولت مصوب 1358 صورت گرفته",
+        "start_char": 366,
+        "end_char": 511,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان‌ها قبلاً حکم به دریافت بهای ملک از شهرداری گرفته‌اند",
+      "evidence": {
+        "quote": "موفق به اخذ دادنامه شماره 91099702423014001 مورخ 1391/11/29 از شعبه 126 دادگاه حقوقی تهران مبنی بر دریافت بهای ملک به نرخ روز شده‌اند",
+        "start_char": 2138,
+        "end_char": 2271,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

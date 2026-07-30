@@ -174,3 +174,5 @@ class EmbeddingStore:
                 """,
                 section_id=section_id, embedding=embedding,
             )
+
+

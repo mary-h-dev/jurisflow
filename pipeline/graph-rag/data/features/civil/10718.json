@@ -1,0 +1,143 @@
+{
+  "ruling_id": "10718",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "به خواسته اعسار از پرداخت",
+        "start_char": 45,
+        "end_char": 70,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقسیط",
+      "evidence": {
+        "quote": "و تقسیط آن",
+        "start_char": 114,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "پلاک ثبتی شماره..... در قبال مهریه توقیف شده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 538,
+        "end_char": 564,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "یادشده را نقض",
+        "start_char": 1590,
+        "end_char": 1603,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پذیرش",
+      "evidence": {
+        "quote": "رأی به قبولی خواسته بر پذیرش اعسار",
+        "start_char": 1700,
+        "end_char": 1734,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 538,
+        "end_char": 564,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.خ.",
+        "start_char": 734,
+        "end_char": 757,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "و نیز دلیلی بر توانایی پرداخت زاید بر آنچه که در این پرونده از سوی تجدیدنظرخواه ارائه شده اقامه نگردیده و اینکه رأی معترض عنه بدون در نظر گرفتن این مبانی صادر گردیده لذا به استناد ماده 358 قانون آئین دادرسی در امور مدنی با وارد دانستن اعتراض دادنامه معترض عنه یادشده را نقض و به موجب ماده یک قانون اعسار و ماده 3 قانون نحوه اجرای محکومیت‌های مالی و ماده 1083 قانون مدنی رأی به قبولی خواسته بر پذیرش اعسار و پرداخت اقساطی آن ماهیانه 5/000/000 ریال با پیش پرداخت 15 میلیون تومان صادر و اعلام می‌دارد رأی دادگاه به استناد ماده 365 قانون مرقوم قطعی است.",
+        "start_char": 1328,
+        "end_char": 1880,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "در قبال مهریه توقیف شده",
+        "start_char": 221,
+        "end_char": 244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی شماره.....",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "توقیف ملک در قبال مهریه",
+      "evidence": {
+        "quote": "پلاک ثبتی شماره..... در قبال مهریه توقیف شده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم معرفی اموال بلامعارض توسط تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده نیز نتوانسته اموال بلامعارض دیگری جهت وصول محکوم به معرفی کند",
+        "start_char": 1250,
+        "end_char": 1327,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10650",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال سند سجلی",
+        "start_char": 90,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رسمی",
+      "evidence": {
+        "quote": "اسناد سجلی از جمله اسناد رسمی است",
+        "start_char": 1629,
+        "end_char": 1662,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "و صدور شناسنامه جدید",
+        "start_char": 186,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه تجدیدنظر",
+        "start_char": 1985,
+        "end_char": 2022,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را تأیید می‌نماید",
+        "start_char": 2683,
+        "end_char": 2723,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان آقای م.ک.",
+        "start_char": 0,
+        "end_char": 33,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم بر بی حقی خواهان (تجدیدنظرخواه)",
+        "start_char": 2250,
+        "end_char": 2286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "به طرفیت اداره ثبت احوال",
+        "start_char": 2121,
+        "end_char": 2145,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "ابطال سند سجلی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "صدور شناسنامه جدید",
+        "start_char": 188,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "برادر خواهان فوت شده است",
+      "evidence": {
+        "quote": "برادری همنام داشته که دو سال قبل از تولد موکل فوت نموده است",
+        "start_char": 310,
+        "end_char": 369,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "والدین شناسنامه متوفی را باطل نکرده‌اند",
+      "evidence": {
+        "quote": "والدین ایشان شناسنامه متوفی را باطل نکرده",
+        "start_char": 405,
+        "end_char": 446,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پزشکی قانونی سن را ۱۸ سال تخمین زده است",
+      "evidence": {
+        "quote": "سن نامبرده را در حدود 18 سال تخمین زده است",
+        "start_char": 728,
+        "end_char": 770,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "گواهی فوت برادر یا گواهی ولادت ارائه نشده است",
+      "evidence": {
+        "quote": "هیچ‌گونه مدرکی مبنی بر گواهی فوت برادر خواهان یا گواهی ولادت خود خواهان به دادگاه ابراز و ارائه ننموده‌اند",
+        "start_char": 1044,
+        "end_char": 1150,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

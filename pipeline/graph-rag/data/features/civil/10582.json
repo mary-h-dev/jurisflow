@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10582",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به‌خواسته فسخ نکاح",
+        "start_char": 114,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت فی‌مابین متداعیین",
+        "start_char": 141,
+        "end_char": 170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار فسخ",
+      "evidence": {
+        "quote": "فوریت استفاده از خیار فسخ",
+        "start_char": 972,
+        "end_char": 997,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "با توجه به اصل صحت عقود و قراردادها",
+        "start_char": 2206,
+        "end_char": 2241,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ نکاح",
+      "evidence": {
+        "quote": "به‌خواسته فسخ نکاح",
+        "start_char": 114,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "آنرا نقض و حکم به بطلان دعوا صادر و اعلام می‌دارد",
+        "start_char": 2487,
+        "end_char": 2536,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دعوا",
+      "evidence": {
+        "quote": "حکم به بطلان دعوا صادر و اعلام می‌دارد",
+        "start_char": 2498,
+        "end_char": 2536,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "عدم آگاهی خواهان از وصف واقعی تحصیلی و شغلی زوج",
+        "start_char": 679,
+        "end_char": 726,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "عدم ابراز اوصاف واقعی از سوی زوج",
+        "start_char": 901,
+        "end_char": 933,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "با وارد دانستن اعتراض معترض",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "سند نکاحیه شماره...-1390/8/24 دفتر ازدواج شماره... تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شغل زوج در سند نکاحیه مهندس ساختمان ذکر شده است",
+      "evidence": {
+        "quote": "در سند نکاحیه شغل خوانده مهندس ساختمان که مستلزم تحصیلات در این زمینه می‌باشد قید شده",
+        "start_char": 260,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تحصیلات واقعی زوج لیسانس مترجمی زبان انگلیسی است",
+      "evidence": {
+        "quote": "تحصیلات زوج لیسانس مترجمی زبان انگلیسی",
+        "start_char": 396,
+        "end_char": 434,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شغل واقعی زوج مشاور املاک است",
+      "evidence": {
+        "quote": "دارای پروانه کسب مشاور املاک بوده",
+        "start_char": 437,
+        "end_char": 470,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

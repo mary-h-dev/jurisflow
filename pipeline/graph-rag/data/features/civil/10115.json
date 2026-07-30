@@ -1,0 +1,163 @@
+{
+  "ruling_id": "10115",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "صدور حکم به بطلان معامله",
+        "start_char": 71,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "طبق ماده 401 قانون مدنی توسط خیار و بیع باطل است",
+        "start_char": 533,
+        "end_char": 581,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "با توجه به اصل صحت",
+        "start_char": 810,
+        "end_char": 828,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "نظر به اصول صحت و لزوم قراردادها",
+        "start_char": 747,
+        "end_char": 779,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "بدون دلیل بخواهد قولنامه را فسخ نماید",
+        "start_char": 404,
+        "end_char": 441,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی می‌باشد",
+        "start_char": 1275,
+        "end_char": 1301,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان در توضیح مبنای دعوی خود اظهار داشته",
+        "start_char": 209,
+        "end_char": 256,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "یک قطعه زمین به خوانده فروخته است",
+        "start_char": 299,
+        "end_char": 332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "از جمله تعهدات فروشنده می‌باشد",
+        "start_char": 714,
+        "end_char": 744,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "به نام خریدار تفسیر می‌گردد",
+        "start_char": 956,
+        "end_char": 983,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بیع‌نامه",
+      "evidence": {
+        "quote": "بطلان معامله و بیع نامه مورخه 1385/9/20",
+        "start_char": 83,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین به خوانده فروخته است",
+        "start_char": 299,
+        "end_char": 332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قولنامه",
+      "evidence": {
+        "quote": "بخواهد قولنامه را فسخ نماید",
+        "start_char": 414,
+        "end_char": 441,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "در قرارداد شرط فسخ بدون دلیل با جریمه وجود دارد",
+      "evidence": {
+        "quote": "هر یک از طرفین پشیمان شود و بدون دلیل بخواهد قولنامه را فسخ نماید معادل ده میلیون تومان باید به طرف دیگر پرداخت نماید",
+        "start_char": 376,
+        "end_char": 493,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مدت شرط فسخ در قرارداد تعیین نشده است",
+      "evidence": {
+        "quote": "چون برای خیار شرط مدت تعیین نشده است",
+        "start_char": 496,
+        "end_char": 532,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

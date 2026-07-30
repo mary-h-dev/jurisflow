@@ -1,0 +1,133 @@
+{
+  "ruling_id": "10707",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "صدور حکم اعسار",
+        "start_char": 90,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "رأي به بطلان دعوای خواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم اعسار",
+        "start_char": 90,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "اموالی از تجدیدنظرخواه توقیف شده",
+        "start_char": 964,
+        "end_char": 996,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه مذکور تأیید می‌شود",
+        "start_char": 1305,
+        "end_char": 1331,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوای خواهان",
+        "start_char": 405,
+        "end_char": 417,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بطلان دعوی تجدیدنظرخواه",
+        "start_char": 848,
+        "end_char": 871,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "توقیف شده توسط تجدیدنظرخوانده",
+        "start_char": 987,
+        "end_char": 1016,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "صد و پنجاه و شش عدد سکه تمام بهار آزادی",
+        "start_char": 115,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بابت مهریه",
+        "start_char": 155,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان اموالی از سهم‌الارث پدری دارد",
+      "evidence": {
+        "quote": "معرفی اموالی از خواهان که زاید بر مستثنیات دین بوده از سهم‌الارث پدری",
+        "start_char": 265,
+        "end_char": 334,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اموالی از تجدیدنظرخواه توقیف شده است",
+      "evidence": {
+        "quote": "اموالی از تجدیدنظرخواه توقیف شده",
+        "start_char": 964,
+        "end_char": 996,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

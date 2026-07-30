@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10480",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "صدور حکم مبنی بر حضانت فرزند مشترک",
+        "start_char": 73,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی وی",
+        "start_char": 1381,
+        "end_char": 1401,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.الف.",
+        "start_char": 1139,
+        "end_char": 1164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته نقض می‌گردد",
+        "start_char": 1991,
+        "end_char": 2025,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم مبنی بر حضانت فرزند مشترک",
+        "start_char": 73,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اظهار",
+      "evidence": {
+        "quote": "خوانده در مقام دفاع اظهار داشته است",
+        "start_char": 331,
+        "end_char": 366,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واگذاری",
+      "evidence": {
+        "quote": "از واگذاری حضانت وی",
+        "start_char": 1335,
+        "end_char": 1354,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خلاصه اظهارات وکیل خواهان",
+        "start_char": 123,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "فرزند مشترک نزد خوانده است",
+        "start_char": 205,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از واگذاری حضانت وی به تجدیدنظرخواه خودداری",
+        "start_char": 1335,
+        "end_char": 1378,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک به نام الف.م.",
+        "start_char": 90,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین جدا از یکدیگر زندگی می‌کنند",
+      "evidence": {
+        "quote": "زوجین به جهت طلاق جدا از یکدیگر زندگی می‌کنند",
+        "start_char": 158,
+        "end_char": 203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزند هفت ساله است",
+      "evidence": {
+        "quote": "در حال حاضر 7 ساله است",
+        "start_char": 250,
+        "end_char": 272,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان دو سال است فرزند را ندیده است",
+      "evidence": {
+        "quote": "دو سال است که فرزند مشترک را ندیده است",
+        "start_char": 435,
+        "end_char": 473,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

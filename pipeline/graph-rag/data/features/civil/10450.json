@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10450",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تابعیت",
+      "evidence": {
+        "quote": "مرجع تشخیص تابعیت ایرانی اشخاص مشمول بند 5 ماده 976 قانون مدنی",
+        "start_char": 1482,
+        "end_char": 1544,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "به‌خواسته صدور شناسنامه و اسناد سجلی",
+        "start_char": 83,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "سجلی",
+      "evidence": {
+        "quote": "صدور اسناد سجلی و شناسنامه",
+        "start_char": 347,
+        "end_char": 373,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدید‌نظر‌خواسته را نقض",
+        "start_char": 1886,
+        "end_char": 1917,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی نخستین را صادر",
+        "start_char": 1920,
+        "end_char": 1947,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با توجه به اینکه خواهان اعلام نموده است",
+        "start_char": 121,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "درخواست محکومیت خوانده",
+        "start_char": 321,
+        "end_char": 343,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید‌نظر‌خواه در صدور شناسنامه نمی‌گردد",
+        "start_char": 1643,
+        "end_char": 1683,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدید‌نظر‌خوانده که از پدر و مادری با تابعیت افغانستان",
+        "start_char": 1284,
+        "end_char": 1344,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "صدور شناسنامه و اسناد سجلی",
+        "start_char": 94,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "صدور شناسنامه و اسناد سجلی",
+        "start_char": 94,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان در ایران متولد شده است",
+      "evidence": {
+        "quote": "در تاریخ 1372/5/31 در ایران متولد شده‌ام",
+        "start_char": 164,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "والدین خواهان از اتباع خارجی بوده‌اند",
+      "evidence": {
+        "quote": "پدر و مادرم از اتباع خارج بوده اند",
+        "start_char": 207,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان از کشور خارج نشده است",
+      "evidence": {
+        "quote": "تاکنک از کشور خارج نشده ام",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

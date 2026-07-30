@@ -1,0 +1,123 @@
+{
+  "ruling_id": "10729",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "در زمان نامزدی و اجرای عقد نکاح",
+        "start_char": 77,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد طلاجات",
+        "start_char": 39,
+        "end_char": 53,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خریداری",
+      "evidence": {
+        "quote": "خریده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه نداده",
+      "evidence": {
+        "quote": "دفاع مؤثر موجهی ارائه نداده",
+        "start_char": 266,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "رأی صادر شده دادگاه بدوی را... تأیید می‌نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان مدعی شده",
+        "start_char": 58,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به‬ طرفیت خانم ب.ش. استرداد طلاجات است",
+        "start_char": 19,
+        "end_char": 57,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "با عنایت به اینکه تجدیدنظرخواه ایراد و اعتراض موجهی",
+        "start_char": 1208,
+        "end_char": 1259,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "پرداخت مبلغ 7650000 ریال",
+        "start_char": 487,
+        "end_char": 511,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبلغ ۵۸ گرم طلا خریداری شده است",
+      "evidence": {
+        "quote": "مقداری طلا به شرح فاکتورهای پیوستی به مقدار 58 گرم جهت خوانده خریداری نموده",
+        "start_char": 109,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طلاجات از نظر عرف از اقلام جهیزیه محسوب نمی‌شوند",
+      "evidence": {
+        "quote": "طلاجات از نظر عرف از اقلام جهیزیه محسوب نمی‬‌گردد",
+        "start_char": 1134,
+        "end_char": 1183,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

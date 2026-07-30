@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10275",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "معامله",
+      "evidence": {
+        "quote": "ضامن اجرای تعهدات قانونی و مالی ناشی از کشف فساد معامله می‌گردد",
+        "start_char": 835,
+        "end_char": 898,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمان",
+      "evidence": {
+        "quote": "واژه ضمان در ترکیب ضمان درک همانا ضمان معاوضی بوده",
+        "start_char": 4827,
+        "end_char": 4877,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه بهای ملک به نرخ روز خروج موضوعی از بحث غرامات دارد",
+        "start_char": 5384,
+        "end_char": 5441,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت بهای روز مبیع",
+        "start_char": 134,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "پس از اعتراض به‌موجب دادنامه",
+        "start_char": 1187,
+        "end_char": 1215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "در خصوص دادخواست واخواهی ف.م.",
+        "start_char": 2622,
+        "end_char": 2651,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بین خواهان و خوانده ردیف اول",
+        "start_char": 683,
+        "end_char": 711,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت بهای روز مبیع",
+        "start_char": 134,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ضامن",
+      "evidence": {
+        "quote": "آقای ف.م. ضامن اجرای تعهدات قانونی و مالی ناشی از کشف فساد معامله می‌گردد",
+        "start_char": 825,
+        "end_char": 898,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "بهای روز مبیع موضوع قرارداد بیع",
+        "start_char": 159,
+        "end_char": 190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتمان به آدرس... را از نامبرده خریداری می‌نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موضوع قرارداد بیع مورخ 1386/4/3 به شماره مبایعه‌نامه",
+        "start_char": 173,
+        "end_char": 225,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبیع مستحق‌الغیر بوده است",
+      "evidence": {
+        "quote": "مراتب مستحق للغیر بودن مبیع موضوع مبایعه‌نامه عادی صدرالذکر محرز و مسلم گردیده",
+        "start_char": 4500,
+        "end_char": 4578,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد با بطلان مواجه شده است",
+      "evidence": {
+        "quote": "حکم بر بطلان معامله به لحاظ مستحق للغیر بودن ملک صادر گردیده",
+        "start_char": 1575,
+        "end_char": 1635,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

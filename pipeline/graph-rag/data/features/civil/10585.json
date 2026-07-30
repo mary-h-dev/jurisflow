@@ -1,0 +1,143 @@
+{
+  "ruling_id": "10585",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "رابطه پدر و فرزندی برقرار است",
+        "start_char": 139,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفاق",
+      "evidence": {
+        "quote": "کسی ملزم به انفاق به بستگان است",
+        "start_char": 371,
+        "end_char": 402,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مفهوم مخالف",
+      "evidence": {
+        "quote": "با استفاده از مفهوم مخالف این ماده",
+        "start_char": 1195,
+        "end_char": 1229,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه نفقه",
+      "evidence": {
+        "quote": "به‌خواسته مطالبه نفقه",
+        "start_char": 65,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست",
+      "evidence": {
+        "quote": "رد درخواست مطالبه نفقه فرزند مشترک",
+        "start_char": 990,
+        "end_char": 1024,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی دادگاه بدوی را که رد درخواست خواهان بدوی اشعار دارد، تأیید می‌نماید",
+        "start_char": 1329,
+        "end_char": 1400,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بین خواهان و خوانده رابطه پدر و فرزندی برقرار است",
+        "start_char": 119,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بین خواهان و خوانده رابطه پدر و فرزندی برقرار است",
+        "start_char": 119,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "با رد اعتراض تجدیدنظرخواه",
+        "start_char": 1294,
+        "end_char": 1319,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه",
+        "start_char": 75,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ماهیانه",
+      "evidence": {
+        "quote": "حقوق ماهیانه دریافت می دارد",
+        "start_char": 459,
+        "end_char": 486,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده کارمند است و حقوق دریافت می‌کند",
+      "evidence": {
+        "quote": "خوانده کارمند بوده و حقوق ماهیانه دریافت می دارد",
+        "start_char": 438,
+        "end_char": 486,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان توانایی تامین معیشت خود را دارد",
+      "evidence": {
+        "quote": "می‌تواند با اشتغال به شغلی وسائل معیشت خود را فراهم نماید",
+        "start_char": 299,
+        "end_char": 356,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

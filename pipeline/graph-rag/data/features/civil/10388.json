@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10388",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت دائمی زوجین محرز است",
+        "start_char": 217,
+        "end_char": 249,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "مبنی بر نشوز زوجه",
+        "start_char": 319,
+        "end_char": 336,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظر",
+      "evidence": {
+        "quote": "قابل تجدیدنظر",
+        "start_char": 1016,
+        "end_char": 1029,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به الزام آقای ر.ک.",
+        "start_char": 30,
+        "end_char": 48,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت نفقه",
+        "start_char": 63,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه مذکور تأیید می‌شود",
+        "start_char": 1730,
+        "end_char": 1756,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در قبال ادعای خواهان",
+        "start_char": 422,
+        "end_char": 442,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حکم بر محکومیت خوانده",
+        "start_char": 632,
+        "end_char": 653,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به تأدیه ماهیانه",
+        "start_char": 1295,
+        "end_char": 1324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده",
+        "start_char": 1426,
+        "end_char": 1446,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "رونوشت مصدق سند نکاحیه شماره 3183",
+        "start_char": 141,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "به پرداخت مبلغ 1500000 ریال به عنوان نفقه",
+        "start_char": 654,
+        "end_char": 696,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "پرداخت مبلغ 1941000 ریال به عنوان خسارات دادرسی",
+        "start_char": 746,
+        "end_char": 794,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "رابطه زوجیت دائمی زوجین محرز است",
+        "start_char": 217,
+        "end_char": 249,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده از پرداخت نفقه امتناع ورزیده است",
+      "evidence": {
+        "quote": "ادعای خانم ز.ب. با وکالت ح.ع. به الزام آقای ر.ک. با وکالت ر.ب. به پرداخت نفقه",
+        "start_char": 0,
+        "end_char": 77,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

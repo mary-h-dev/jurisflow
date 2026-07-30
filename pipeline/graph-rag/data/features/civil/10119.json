@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10119",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال توافقنامه شماره 404/18",
+        "start_char": 131,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهأن‌های بدوی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "شرط مندرج در توافقنامه از نوع شرط فعل",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "خوانده ملک موصوف را که در طرح تفصیلی شهرداری قرار داشته از تاریخ 1387/4/1 تصرف نموده است",
+        "start_char": 333,
+        "end_char": 421,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "شهرداری متعهد گردیده پنجاه درصد مبلغ مندرج در ماده دوم توافقنامه پس از تحویل ملک به شهرداری به خواهان‌ها پرداخت کند",
+        "start_char": 586,
+        "end_char": 701,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عمل",
+      "evidence": {
+        "quote": "شهرداری به تعهد خود مبنی بر پرداخت پنجاه درصد میلغ مندرج در قرارداد پس از تحویل ملک (پلاک ثبتی... فرعی از... و... بخش 10 تهران) عمل نکرده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقدام",
+      "evidence": {
+        "quote": "نسبت به پرداخت مبلغ مذکور اقدام نکرده",
+        "start_char": 3731,
+        "end_char": 3768,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ملک موصوف را که در طرح تفصیلی شهرداری قرار داشته",
+        "start_char": 333,
+        "end_char": 388,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شهرداری",
+      "evidence": {
+        "quote": "به طرفیت شهرداری",
+        "start_char": 114,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "تجدیدنظرخواندگان (خواهان‌های نخستین) مدعی‌اند",
+        "start_char": 3488,
+        "end_char": 3533,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "ابطال توافقنامه شماره 404/18",
+        "start_char": 141,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "مالک پلاک ثبتی... و... واقع در بخش ده تهران می‌باشند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شهرداری ملک را تصرف کرده است",
+      "evidence": {
+        "quote": "خوانده ملک موصوف را که در طرح تفصیلی شهرداری قرار داشته از تاریخ 1387/4/1 تصرف نموده است",
+        "start_char": 333,
+        "end_char": 421,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شهرداری مبلغ توافق شده را پرداخت نکرده است",
+      "evidence": {
+        "quote": "شهرداری به تعهد خود مبنی بر پرداخت پنجاه درصد میلغ مندرج در قرارداد پس از تحویل ملک (پلاک ثبتی... فرعی از... و... بخش 10 تهران) عمل نکرده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

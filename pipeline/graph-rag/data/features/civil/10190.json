@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10190",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجازه",
+      "evidence": {
+        "quote": "به خواسته اجازه ازدواج",
+        "start_char": 87,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رسمی",
+      "evidence": {
+        "quote": "و ثبت رسمی آن",
+        "start_char": 110,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "به عنوان مهریه توافق شده است",
+        "start_char": 428,
+        "end_char": 457,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ح.ق",
+        "start_char": 1208,
+        "end_char": 1238,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 1684,
+        "end_char": 1704,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تأیید می‌شود",
+        "start_char": 1719,
+        "end_char": 1731,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ح.ق. که خوانده",
+        "start_char": 34,
+        "end_char": 62,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ولی قهری خواهان می‌باشد",
+        "start_char": 63,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "فرزند تجدیدنظرخواه",
+        "start_char": 1382,
+        "end_char": 1400,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "اجازه ازدواج تجدیدنظرخوانده",
+        "start_char": 1354,
+        "end_char": 1381,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "تعداد 314 عدد سکه تمام بهار آزادی",
+        "start_char": 394,
+        "end_char": 427,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نکاح‌نامه‌های رسمی",
+      "evidence": {
+        "quote": "در نکاح‌نامه‌های رسمی",
+        "start_char": 806,
+        "end_char": 828,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "نامزد با درآمد مشخص معرفی شده است",
+      "evidence": {
+        "quote": "آقای الف.م دارای شماره شناسنامه شماره... متولد 67/06/22 شاغل آزاد را به‌ عنوان نامزد خود معرفی نموده که ماهیانه به طور متوسط دارای 1/500/000 تومان درآمد می‌باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین بر سر مهریه توافق کرده‌اند",
+      "evidence": {
+        "quote": "به عنوان مهریه توافق شده است",
+        "start_char": 428,
+        "end_char": 457,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

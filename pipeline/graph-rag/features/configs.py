@@ -174,13 +174,15 @@ LLM_TEMPERATURE = 0.1
 
 # --- نام مدل هرکدام از providerها ---
 GEMINI_MODEL = "models/gemini-2.5-flash"       # https://ai.google.dev/gemini-api/docs/models
-GROQ_MODEL = "llama-3.3-70b-versatile"          # https://console.groq.com/docs/models
-OPENROUTER_MODEL = "meta-llama/llama-3.3-70b-instruct"  # https://openrouter.ai/models
+GROQ_MODEL = "llama-3.3-70b-versatile"         # https://console.groq.com/docs/models
+OPENROUTER_MODEL = "google/gemma-4-26b-a4b-it:free"
 GITHUB_MODEL = "gpt-4o-mini"                    # https://github.com/marketplace/models
-DEEPSEEK_MODEL = "deepseek-reasoner"            # همون DeepSeek R1 — https://api-docs.deepseek.com
-CEREBRAS_MODEL = "llama-3.3-70b"                # https://inference-docs.cerebras.ai/models
+DEEPSEEK_MODEL = "deepseek-reasoner"            # همون DeepSeek R1 — https://api-docs.deepseek.com             # https://inference-docs.cerebras.ai/models
+CEREBRAS_MODEL = "gemma-4-31b"
+OLLAMA_MODEL = "qwen2.5:3b"
+OLLAMA_BASE_URL ="http://localhost:11434"
 
-# چون بعضی فایل‌های قدیمی‌تر ممکنه مستقیم LLM_MODEL رو ایمپورت کنن،
+# چون بعضی فایل‌های قدیمی‌تر ممکنه مستقیم LLM_MODEL رو ایمپورت کنن，
 # نگهش می‌داریم و برابر با provider پیش‌فرض (Gemini) می‌ذاریم — ولی
 # در عمل هرکدوم از providerها با مدل خودشون صدا زده می‌شن، نه این
 # متغیر.
@@ -192,8 +194,10 @@ LLM_MODEL = GEMINI_MODEL
 #
 # مثال: اگه می‌خوای DeepSeek R1 اول امتحان بشه (برای reasoning قوی‌تر)
 # و بعدش Gemini fallback باشه:
-#     PROVIDER_ORDER = ["deepseek", "gemini", "groq", "openrouter", "github", "cerebras"]
-PROVIDER_ORDER = ["gemini", "groq", "openrouter", "github", "deepseek", "cerebras"]
+# PROVIDER_ORDER = ["groq", "cerebras", "gemini", "openrouter", "github", "deepseek", "ollama"]
+
+PROVIDER_ORDER = ["openrouter", "groq","gemini"]
+MAX_OUTPUT_TOKENS = 6000 # برای این نوع خروجی JSON، کافیه
 
 
 class _MultiProviderChatClient:
@@ -241,6 +245,10 @@ class _MultiProviderChatClient:
         self.completions = self._Completions(providers)
 
 
+
+
+
+
 def _make_gemini_call():
     """
     فراخوانی Gemini مستقیم با SDK رسمی گوگل (google-genai). نیاز به
@@ -263,6 +271,9 @@ def _make_gemini_call():
     return call
 
 
+
+
+    
 def _make_groq_call():
     """
     فراخوانی Groq (OpenAI-compatible). نیاز به GROQ_API_KEY در .env
@@ -277,10 +288,14 @@ def _make_groq_call():
             model=GROQ_MODEL,
             messages=[{"role": "user", "content": prompt}],
             temperature=temperature,
+            max_tokens=MAX_OUTPUT_TOKENS,   # ← اضافه شد
         )
         return response.choices[0].message.content
 
     return call
+
+
+
 
 
 def _make_openrouter_call():
@@ -298,6 +313,7 @@ def _make_openrouter_call():
             model=OPENROUTER_MODEL,
             messages=[{"role": "user", "content": prompt}],
             temperature=temperature,
+            max_tokens=MAX_OUTPUT_TOKENS,   # ← اضافه شد
         )
         return response.choices[0].message.content
 
@@ -323,6 +339,7 @@ def _make_github_call():
             model=GITHUB_MODEL,
             messages=[{"role": "user", "content": prompt}],
             temperature=temperature,
+            max_tokens=MAX_OUTPUT_TOKENS,   # ← اضافه شد
         )
         return response.choices[0].message.content
 
@@ -344,6 +361,7 @@ def _make_deepseek_call():
             model=DEEPSEEK_MODEL,
             messages=[{"role": "user", "content": prompt}],
             temperature=temperature,
+            max_tokens=MAX_OUTPUT_TOKENS,   # ← اضافه شد
         )
         return response.choices[0].message.content
 
@@ -366,10 +384,35 @@ def _make_cerebras_call():
             model=CEREBRAS_MODEL,
             messages=[{"role": "user", "content": prompt}],
             temperature=temperature,
+            max_tokens=MAX_OUTPUT_TOKENS,   # ← اضافه شد
         )
         return response.choices[0].message.content
 
     return call
+
+        
+def _make_ollama_call():
+    import requests
+
+    def call(prompt: str, temperature: float) -> str:
+        response = requests.post(
+            f"{OLLAMA_BASE_URL}/api/chat",
+            json={
+                "model": OLLAMA_MODEL,
+                "messages": [{"role": "user", "content": prompt}],
+                "options": {
+                    "num_ctx": 8192,
+                    "temperature": temperature,
+                },
+                "stream": False,
+            },
+            timeout=300,
+        )
+        response.raise_for_status()
+        return response.json()["message"]["content"]
+
+    return call
+
 
 
 # نگاشت نام provider → تابع‌سازِ call. هر provider فقط وقتی به زنجیره
@@ -381,6 +424,8 @@ _PROVIDER_FACTORIES = {
     "github": ("GITHUB_TOKEN", _make_github_call),
     "deepseek": ("DEEPSEEK_API_KEY", _make_deepseek_call),
     "cerebras": ("CEREBRAS_API_KEY", _make_cerebras_call),
+    "ollama": ("OLLAMA_MODEL", _make_ollama_call),
+
 }
 
 

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10381",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "نفقه فرزند مشترک",
+        "start_char": 91,
+        "end_char": 107,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکلیف",
+      "evidence": {
+        "quote": "تکلیف شرعی و قانونی موصوف را از بین ببرد",
+        "start_char": 1897,
+        "end_char": 1937,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت نفقه فرزند از تاریخ تقدیم دادخواست",
+        "start_char": 435,
+        "end_char": 476,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "اقامه دعوی نماید",
+        "start_char": 1664,
+        "end_char": 1680,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "تاریخ تقدیم دادخواست",
+        "start_char": 456,
+        "end_char": 476,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صادر و اعلام می‌دارد",
+        "start_char": 798,
+        "end_char": 818,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان طی دادخواست تقدیمی",
+        "start_char": 264,
+        "end_char": 289,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وکیل خوانده با حضور در جلسه دادگاه",
+        "start_char": 386,
+        "end_char": 420,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "پدر",
+      "evidence": {
+        "quote": "پدر در صورت تمکن مکلف به پرداخت است",
+        "start_char": 1499,
+        "end_char": 1534,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه در هر حال می‌تواند برای نفقه زمان گذشته خود اقامه دعوی نماید",
+        "start_char": 1615,
+        "end_char": 1680,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "دادخواست تقدیمی",
+        "start_char": 142,
+        "end_char": 157,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "فتوکپی مصدق شناسنامه پیوست پرونده",
+        "start_char": 184,
+        "end_char": 217,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "تنظیم قرارداد بین مکلف (پدر) و طرف دیگر",
+        "start_char": 1847,
+        "end_char": 1886,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت نفقه انجام نشده",
+      "evidence": {
+        "quote": "پرداخت نفقه فرزند مشترک توسط خوانده پرداخت نشده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادخواست تقدیم شده",
+      "evidence": {
+        "quote": "تاریخ تقدیم دادخواست",
+        "start_char": 456,
+        "end_char": 476,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حکم محکومیت صادر شده",
+      "evidence": {
+        "quote": "صادر و اعلام می‌دارد",
+        "start_char": 798,
+        "end_char": 818,
+        "confidence": 0.8
+      }
+    }
+  ]
+}

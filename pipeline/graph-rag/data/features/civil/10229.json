@@ -1,0 +1,163 @@
+{
+  "ruling_id": "10229",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "بخواسته مطالبه اجرت‌المثل سه دانگ یک باب منزل مسکونی",
+        "start_char": 79,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "اعلام قصد تبرع خواهان",
+        "start_char": 726,
+        "end_char": 747,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اذن",
+      "evidence": {
+        "quote": "اذن در انتفاع به‌صورت مجانی احرازشده",
+        "start_char": 1689,
+        "end_char": 1725,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجرت‌المثل سه دانگ یک باب منزل مسکونی",
+        "start_char": 87,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ساقط",
+      "evidence": {
+        "quote": "هرگونه ادعایی را ساقط نموده‌اند",
+        "start_char": 606,
+        "end_char": 637,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی دادنامه مذکور تأیید می‌شود",
+        "start_char": 1892,
+        "end_char": 1939,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از سوی خواهان",
+        "start_char": 226,
+        "end_char": 239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در تصرف خوانده بوده",
+        "start_char": 370,
+        "end_char": 389,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی تجدیدنظرخواه",
+        "start_char": 1459,
+        "end_char": 1489,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "یک باب منزل مسکونی پلاک ثبتی",
+        "start_char": 113,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "کپی مصدق شده سند مالکیت",
+        "start_char": 247,
+        "end_char": 270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به‌موجب دادنامه طلاق توافقی",
+        "start_char": 563,
+        "end_char": 590,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین وجود داشته است",
+      "evidence": {
+        "quote": "با اشاره به سابقه رابطه زوجیت موکله با خواهان",
+        "start_char": 434,
+        "end_char": 479,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تصرف به صورت مجانی و بدون قصد تبرع بوده است",
+      "evidence": {
+        "quote": "حکایت از تبرعی بودن تصرف داشته",
+        "start_char": 832,
+        "end_char": 862,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در دادنامه طلاق، ادعایی از طرفین ساقط شده است",
+      "evidence": {
+        "quote": "هرگونه ادعایی را ساقط نموده‌اند",
+        "start_char": 606,
+        "end_char": 637,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

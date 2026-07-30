@@ -1,0 +1,133 @@
+{
+  "ruling_id": "10261",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ولی قهری",
+      "evidence": {
+        "quote": "صدور حکم عزل ولی قهری",
+        "start_char": 66,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای الف.ز.",
+        "start_char": 1228,
+        "end_char": 1253,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مسترد",
+      "evidence": {
+        "quote": "این خواسته را مسترد نموده",
+        "start_char": 954,
+        "end_char": 979,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه نشده",
+      "evidence": {
+        "quote": "دلیل جدید که مستلزم نقض رأی صادره باشد اقامه نشده است",
+        "start_char": 1643,
+        "end_char": 1696,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض",
+        "start_char": 1759,
+        "end_char": 1772,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان الف.س.",
+        "start_char": 0,
+        "end_char": 18,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به‌طرفیت ر.ز. به خواسته صدور حکم عزل ولی قهری (خوانده)",
+        "start_char": 42,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ولی قهری",
+      "evidence": {
+        "quote": "عزل ولی قهری (خوانده)",
+        "start_char": 75,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مولی علیه",
+      "evidence": {
+        "quote": "مبالغی از حساب مولی‌علیه برداشت نموده",
+        "start_char": 179,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 920464",
+        "start_char": 1273,
+        "end_char": 1301,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه مدرک برای اثبات برداشت مبالغ",
+      "evidence": {
+        "quote": "اما مدرک متیقنی جهت اثبات ادعای خود ارائه نکرده است",
+        "start_char": 254,
+        "end_char": 305,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "استرداد خواسته تعیین قیم جدید توسط وکیل",
+      "evidence": {
+        "quote": "وکیل خواهان مطابق لایحه مورخ 7/ 9/ 1391 این خواسته را مسترد نموده",
+        "start_char": 914,
+        "end_char": 979,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

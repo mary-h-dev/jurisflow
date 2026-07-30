@@ -1,0 +1,163 @@
+{
+  "ruling_id": "10093",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "آثار بیع بوده",
+        "start_char": 122,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقود",
+      "evidence": {
+        "quote": "عقود نه تنها متعاملین را",
+        "start_char": 950,
+        "end_char": 974,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی صادر می‌نماید",
+        "start_char": 338,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ف.پ.",
+        "start_char": 539,
+        "end_char": 562,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض قرار",
+      "evidence": {
+        "quote": "با نقض قرار صادره",
+        "start_char": 1254,
+        "end_char": 1271,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عودت",
+      "evidence": {
+        "quote": "عودت داده می‌شود",
+        "start_char": 1328,
+        "end_char": 1344,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را",
+        "start_char": 234,
+        "end_char": 255,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "قرار رد دعوی تجدیدنظرخواه",
+        "start_char": 685,
+        "end_char": 710,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "فقدان مالکیت تجدیدنظرخوانده",
+        "start_char": 748,
+        "end_char": 775,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "تحویل مبیع از ناحیه فروشنده",
+        "start_char": 1088,
+        "end_char": 1115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "به مشتری می‌باشد",
+        "start_char": 1116,
+        "end_char": 1132,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "تحویل مبیع",
+        "start_char": 63,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی مال مورد معامله",
+        "start_char": 150,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تنظیم سند رسمی مالکیت به نام خریدار",
+      "evidence": {
+        "quote": "تا زمانی که سند رسمی مال مورد معامله به نام خریدار تنظیم نشود",
+        "start_char": 138,
+        "end_char": 199,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم مالکیت رسمی تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "فقدان مالکیت تجدیدنظرخوانده",
+        "start_char": 748,
+        "end_char": 775,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

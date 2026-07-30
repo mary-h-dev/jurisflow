@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10246",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "استفاده از نام حق طبیعی هر فرد می‌باشد",
+        "start_char": 514,
+        "end_char": 552,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اهلیت",
+      "evidence": {
+        "quote": "پس از حلول اهلیت، اختیار تغییر آن برای اشخاص قائل شد",
+        "start_char": 1478,
+        "end_char": 1530,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "حکم بر تغییر نام خواهان از م. به م.",
+        "start_char": 734,
+        "end_char": 769,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی اداره ثبت‌احوال",
+        "start_char": 1036,
+        "end_char": 1073,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 1931,
+        "end_char": 1951,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عیناً تأیید",
+        "start_char": 2004,
+        "end_char": 2041,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان این است",
+        "start_char": 96,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از جانب خوانده ایرادی که موجب خدشه در خواسته خواهان شود به عمل نیامده است",
+        "start_char": 587,
+        "end_char": 660,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بطرفیت تجدیدنظرخوانده خانم م.ت.",
+        "start_char": 1092,
+        "end_char": 1123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره ثبت‌احوال",
+        "start_char": 1044,
+        "end_char": 1073,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "در سند سجلی شماره 1234-1351",
+        "start_char": 770,
+        "end_char": 797,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه بدوی مطابق با موازین قانونی",
+        "start_char": 1618,
+        "end_char": 1653,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دارا بودن دو نام برای خواهان",
+      "evidence": {
+        "quote": "داشتن دو نام مشکلات فراوانی در روابط اجتماعی برای وی ایجاد کرده",
+        "start_char": 153,
+        "end_char": 216,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم وجود ایراد از سوی خوانده در مرحله بدوی",
+      "evidence": {
+        "quote": "از جانب خوانده ایرادی که موجب خدشه در خواسته خواهان شود به عمل نیامده است",
+        "start_char": 587,
+        "end_char": 660,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

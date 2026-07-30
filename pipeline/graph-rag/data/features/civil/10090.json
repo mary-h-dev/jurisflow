@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10090",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ یکی از طرق انحلال قرارداد بوده",
+        "start_char": 1931,
+        "end_char": 1965,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "با اراده یکی از طرفین قرارداد (صاحب خیار) محقق می‌گردد",
+        "start_char": 1978,
+        "end_char": 2032,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "فسخ با بطلان قرارداد دو مقوله جداگانه بوده",
+        "start_char": 2384,
+        "end_char": 2426,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعلام و تأیید فسخ مبایعه ‬نامه عادی",
+        "start_char": 55,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه ثمن پرداختی",
+        "start_char": 117,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض به شرح لایحه اعتراضیه وارد نبوده",
+        "start_char": 1846,
+        "end_char": 1885,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان به شرح لایحه ثبت شده",
+        "start_char": 330,
+        "end_char": 357,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده در جلسه دادرسی",
+        "start_char": 749,
+        "end_char": 770,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "عدم درج نام فروشنده به‬ عنوان مالک",
+        "start_char": 2291,
+        "end_char": 2325,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "فسخ مبایعه ‬نامه عادی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "مطالبه ثمن پرداختی",
+        "start_char": 117,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "بازداشت بودن ملک",
+        "start_char": 2430,
+        "end_char": 2446,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده مالک قانونی مورد معامله نیست",
+      "evidence": {
+        "quote": "خوانده مالک قانونی مورد معامله نیستند",
+        "start_char": 1072,
+        "end_char": 1109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مورد معامله در زمان انجام معامله قابل نقل و انتقال نبوده است",
+      "evidence": {
+        "quote": "ناظر به قابل نقل و انتقال نبودن مورد معامله در زمان انجام معامله می‌باشد",
+        "start_char": 916,
+        "end_char": 988,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "ruling_id": "10086",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صحت و لزوم معامله",
+      "evidence": {
+        "quote": "بنا به اصل صحت و لزوم معامله قانونی و شرعی تلقی می‌گردد",
+        "start_char": 2227,
+        "end_char": 2282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "آثار فسخ قرارداد ناظر به زمان وقوع فسخ و بعد از آن بوده",
+        "start_char": 1462,
+        "end_char": 1517,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار فسخ",
+      "evidence": {
+        "quote": "وجود خیار برای فروشنده مأذون، مانع انتقال توسط خریدار نیست",
+        "start_char": 2596,
+        "end_char": 2654,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع شرط",
+      "evidence": {
+        "quote": "که در آن صورت فروشنده با فسخ معامله قصد دارد عین مبیع را مسترد نماید در این مورد ماده 460 قانون مذکور مقرر داشته در بیع شرط مشتری",
+        "start_char": 2970,
+        "end_char": 3099,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "تنظیم سند رسمی",
+        "start_char": 210,
+        "end_char": 224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تحویل یک دستگاه آپارتمان",
+        "start_char": 228,
+        "end_char": 253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "حسب نظریه داوری منتهی به فسخ گردیده است",
+        "start_char": 1417,
+        "end_char": 1456,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "مانع انتقال توسط خریدار نیست",
+        "start_char": 2626,
+        "end_char": 2654,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی از سوی وکیل خواهان علیه موکله ایشان",
+        "start_char": 581,
+        "end_char": 621,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با وکالت آقای ر.الف. دادخواستی به طرفیت 1- خانم ش.ق.",
+        "start_char": 29,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "قائم مقام",
+      "evidence": {
+        "quote": "خوانده ردیف دوم قائم مقام آقای ع.و. گردیده است",
+        "start_char": 2442,
+        "end_char": 2489,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "حق فسخ فروشنده (خوانده ردیف اول)",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "مانع انتقال مبیع توسط خریدار نبوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "تحویل یک دستگاه آپارتمان واقع در طبقه دوم شرقی",
+        "start_char": 228,
+        "end_char": 275,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پارکینگ",
+      "evidence": {
+        "quote": "به انضمام پارکینگ و انباری متعلقه",
+        "start_char": 287,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "انباری",
+      "evidence": {
+        "quote": "به انضمام پارکینگ و انباری متعلقه",
+        "start_char": 287,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "تنظیم سند رسمی",
+        "start_char": 210,
+        "end_char": 224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "قرارداد منعقد فی‌مابین مالک اولیه",
+        "start_char": 1362,
+        "end_char": 1395,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "قرارداد اولیه بین مالک اولیه و خوانده دوم فسخ شده است",
+      "evidence": {
+        "quote": "قرارداد منعقد فی‌مابین مالک اولیه به نام ز.ق. با ع.و. حسب نظریه داوری منتهی به فسخ گردیده است",
+        "start_char": 1362,
+        "end_char": 1456,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده دوم جایگزین مالک اولیه شده است",
+      "evidence": {
+        "quote": "خوانده ردیف دوم قائم مقام آقای ع.و. گردیده است",
+        "start_char": 2442,
+        "end_char": 2489,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

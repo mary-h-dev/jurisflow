@@ -1,0 +1,143 @@
+{
+  "ruling_id": "10561",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به‌خواسته تمکین",
+        "start_char": 80,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 577,
+        "end_char": 595,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 402,
+        "end_char": 428,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادره دادگاه بدوی را نقض کرده",
+        "start_char": 1511,
+        "end_char": 1544,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت زوجه",
+        "start_char": 1579,
+        "end_char": 1598,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی آقای ح.ع.",
+        "start_char": 8,
+        "end_char": 22,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده با حضور در جلسه دادرسی",
+        "start_char": 195,
+        "end_char": 224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "در تمکین وی باشد",
+        "start_char": 1146,
+        "end_char": 1162,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه موظف است",
+        "start_char": 1094,
+        "end_char": 1107,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی صادره",
+        "start_char": 541,
+        "end_char": 550,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 01003",
+        "start_char": 765,
+        "end_char": 792,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین از یکدیگر جدا زندگی می‌کنند",
+      "evidence": {
+        "quote": "زوجین از یکدیگر جدا زندگی می‌کنند",
+        "start_char": 1194,
+        "end_char": 1227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج منزل را برای زندگی مشترک فراهم کرده است",
+      "evidence": {
+        "quote": "زوج منزل جهت زندگی مشترک را فراهم نموده‌است",
+        "start_char": 1356,
+        "end_char": 1399,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10140",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تجاری",
+      "evidence": {
+        "quote": "حکم سند تجاری لازم‌الاجرا را دارا است",
+        "start_char": 503,
+        "end_char": 541,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر",
+        "start_char": 854,
+        "end_char": 883,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال یک فقره چک",
+        "start_char": 38,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه 60.000.000 ریال وجه چک",
+        "start_char": 144,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "تقاضای رد دعوی را نموده است",
+        "start_char": 403,
+        "end_char": 430,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای الف.ر.",
+        "start_char": 988,
+        "end_char": 1021,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته عیناً تأیید می‌گردد",
+        "start_char": 1721,
+        "end_char": 1763,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان",
+        "start_char": 0,
+        "end_char": 19,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 20,
+        "end_char": 37,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مؤسسه اعتباری",
+      "evidence": {
+        "quote": "به نام مؤسسه اعتباری ق.",
+        "start_char": 1221,
+        "end_char": 1244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بانک",
+      "evidence": {
+        "quote": "از بانک م. ایران",
+        "start_char": 1181,
+        "end_char": 1197,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه ایراد و اعتراض موجهی",
+        "start_char": 1451,
+        "end_char": 1484,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "ابطال یک فقره چک",
+        "start_char": 48,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه چک",
+      "evidence": {
+        "quote": "مطالبه 60.000.000 ریال وجه چک",
+        "start_char": 146,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک مفقود شده است",
+      "evidence": {
+        "quote": "مشخص نیست چک را خرج نموده یا مفقود شده است",
+        "start_char": 250,
+        "end_char": 292,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک نزد تجدیدنظرخواه مفقود شده است",
+      "evidence": {
+        "quote": "به لحاظ مفقود گردیدن چک نزد وی",
+        "start_char": 1245,
+        "end_char": 1275,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

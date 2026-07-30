@@ -1,0 +1,203 @@
+{
+  "ruling_id": "10380",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "وجود علقه زوجیت دائم بین طرفین محرز و مسلم است",
+        "start_char": 236,
+        "end_char": 282,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "دعوی خواهان به طرفیت خوانده به خواسته صدور حکم تمکین علیه خوانده",
+        "start_char": 8,
+        "end_char": 72,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "اثر این حکم نسبت به آتیه است و دلیل بر نشوز زوجه درگذشته نیست",
+        "start_char": 538,
+        "end_char": 599,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زناشویی",
+      "evidence": {
+        "quote": "خوانده را به تمکین از خواهان در انجام وظایف خاص زناشویی محکوم می‌نماید",
+        "start_char": 466,
+        "end_char": 536,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "زوج مکلف است مقدمات تمکین را فراهم سپس مبادرت به تقدیم دادخواست تمکین نماید",
+        "start_char": 1605,
+        "end_char": 1680,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را وارد و ثابت تشخیص و مستنداً به مواد 1102 و 1114 قانون مدنی خوانده را به تمکین از خواهان در انجام وظایف خاص زناشویی محکوم می‌نماید",
+        "start_char": 385,
+        "end_char": 536,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابراز",
+      "evidence": {
+        "quote": "بررسی اسناد و مدارک ابرازی",
+        "start_char": 1193,
+        "end_char": 1219,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان به طرفیت خوانده به خواسته صدور حکم تمکین علیه خوانده",
+        "start_char": 8,
+        "end_char": 72,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دعوی خواهان به طرفیت خوانده به خواسته صدور حکم تمکین علیه خوانده",
+        "start_char": 8,
+        "end_char": 72,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج مکلف است مقدمات تمکین را فراهم سپس مبادرت به تقدیم دادخواست تمکین نماید",
+        "start_char": 1605,
+        "end_char": 1680,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "اثر این حکم نسبت به آتیه است و دلیل بر نشوز زوجه درگذشته نیست",
+        "start_char": 538,
+        "end_char": 599,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نامه",
+      "evidence": {
+        "quote": "تصویر مصدق نکاح نامه رسمی طرفین که ضم پرونده",
+        "start_char": 189,
+        "end_char": 233,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "فراهم بودن مسکن متناسب",
+        "start_char": 623,
+        "end_char": 645,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث‌البیت",
+      "evidence": {
+        "quote": "فراهم بودن اثاث البیت متعارف",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "تقدیم دادخواست تمکین",
+        "start_char": 1654,
+        "end_char": 1674,
+        "confidence": 0.85
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان و خوانده زوج هستند",
+      "evidence": {
+        "quote": "وجود علقه زوجیت دائم بین طرفین محرز و مسلم است",
+        "start_char": 236,
+        "end_char": 282,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوا در دادگاه خانواده تهران اقامه شده",
+      "evidence": {
+        "quote": "شعبه 282 دادگاه عمومی خانواده تهران",
+        "start_char": 862,
+        "end_char": 897,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رأی صادره غیابی است",
+      "evidence": {
+        "quote": "رأی صادره غیابی بوده",
+        "start_char": 687,
+        "end_char": 707,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج مکلف به تهیه مسکن و اثاث البیت است",
+      "evidence": {
+        "quote": "اجرای آن نیز منوط به فراهم بودن مسکن متناسب و اثاث البیت متعارف از سوی زوج می‌باشد",
+        "start_char": 602,
+        "end_char": 685,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

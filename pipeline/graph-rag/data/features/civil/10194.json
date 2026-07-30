@@ -1,0 +1,203 @@
+{
+  "ruling_id": "10194",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت‌المثل ایام زوجیت خود را",
+        "start_char": 64,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت",
+      "evidence": {
+        "quote": "ایام زوجیت خود را",
+        "start_char": 82,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "قصد تبرع هم نداشته است",
+        "start_char": 296,
+        "end_char": 318,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت‌المثل",
+        "start_char": 54,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "تسلیم دادگاه نموده",
+        "start_char": 100,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "طلاق گرفته",
+      "evidence": {
+        "quote": "از خوانده طلاق گرفته",
+        "start_char": 208,
+        "end_char": 228,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "خوانده را به پرداخت 8/500/000 تومان در حق خواهان محکوم می‌نماید",
+        "start_char": 995,
+        "end_char": 1058,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.ز.",
+        "start_char": 1203,
+        "end_char": 1226,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه مورد اعتراض را تأیید می‌شود",
+        "start_char": 1920,
+        "end_char": 1955,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان خانم س.ن.",
+        "start_char": 0,
+        "end_char": 16,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به ‬طرفیت خوانده آقای م.ز.",
+        "start_char": 17,
+        "end_char": 43,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله دلیلی",
+        "start_char": 1459,
+        "end_char": 1490,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده محکوم شده است",
+        "start_char": 1422,
+        "end_char": 1456,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "طلاق‌نامه",
+      "evidence": {
+        "quote": "تصویر سند طلاق‌نامه",
+        "start_char": 141,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "و شناسنامه پیوستی",
+        "start_char": 161,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 200019",
+        "start_char": 1246,
+        "end_char": 1274,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طلاق در مورخ 1391/11/30 انجام شده است",
+      "evidence": {
+        "quote": "در مورخه 1391/11/30 از خوانده طلاق گرفته",
+        "start_char": 188,
+        "end_char": 228,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زندگی مشترک از سال 1379/5/3 شروع شده است",
+      "evidence": {
+        "quote": "زندگی مشترک آن‌ها در سال 1379/5/3 شروع شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زندگی مشترک تا مورخ 1389/7/7 ادامه داشته است",
+      "evidence": {
+        "quote": "تا مورخ 1389/7/7 ادامه داشته است",
+        "start_char": 569,
+        "end_char": 601,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

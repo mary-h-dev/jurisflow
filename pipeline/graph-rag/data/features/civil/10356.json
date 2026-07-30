@@ -1,0 +1,143 @@
+{
+  "ruling_id": "10356",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "لاضرر",
+      "evidence": {
+        "quote": "قاعده لاضرر",
+        "start_char": 994,
+        "end_char": 1005,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسبيب",
+      "evidence": {
+        "quote": "قواعد تسبیب",
+        "start_char": 1338,
+        "end_char": 1349,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه کلیه هزینه‌های بیمارستانی",
+        "start_char": 59,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 2195,
+        "end_char": 2215,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 239,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده به موجب دادنامه",
+        "start_char": 283,
+        "end_char": 305,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه ایراد و اعتراض موجهی",
+        "start_char": 1944,
+        "end_char": 1977,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق وی صادر شد به تجدیدنظرخوانده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "به پرداخت دیه محکوم گردیده",
+        "start_char": 443,
+        "end_char": 469,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "به مبلغ 78/291/300 ریال برآورد گردیده است",
+        "start_char": 812,
+        "end_char": 853,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده به دلیل بی‌احتیاطی در رانندگی محکوم شده است",
+      "evidence": {
+        "quote": "خوانده به موجب دادنامه قطعی شماره 00262 صادره از شعبه 39 دادگاه تجدیدنظر استان تهران به اتهام بی احتیاطی در امر رانندگی منجر به صدمه بدنی غیرعمدی در حق خواهان به پرداخت دیه محکوم گردیده است",
+        "start_char": 283,
+        "end_char": 473,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دیه تعیین شده خسارت موکل را پوشش نداده است",
+      "evidence": {
+        "quote": "دیه تعیینی خسارت موکل را تأمین نکرده",
+        "start_char": 494,
+        "end_char": 530,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی رد شد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی دادنامه تجدیدنظرخواسته عیناً تأیید می‌گردد",
+        "start_char": 2195,
+        "end_char": 2258,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10701",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "به خواسته طلاق",
+        "start_char": 92,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "شرط ضمن‌العقد محقق نشده",
+        "start_char": 397,
+        "end_char": 420,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "از این نظر دادگاه مشارالیها را در عسر و حرج تلقی می‌نماید",
+        "start_char": 1177,
+        "end_char": 1234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی زوجه صادر می‌گردد",
+        "start_char": 3384,
+        "end_char": 3419,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقاضای",
+      "evidence": {
+        "quote": "من تقاضای طلاق دارم",
+        "start_char": 346,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "تقاضای رد دعوی طلاق نموده است",
+        "start_char": 533,
+        "end_char": 562,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "داوری",
+      "evidence": {
+        "quote": "قرار ارجاع امر به داوری صادر نمود",
+        "start_char": 576,
+        "end_char": 609,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "وصول",
+      "evidence": {
+        "quote": "مهریه‌اش را که یک کیلو طلای شمش 24 عیار است از زوج وصول نموده",
+        "start_char": 2656,
+        "end_char": 2717,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته نقض می‌گردد",
+        "start_char": 3347,
+        "end_char": 3381,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "مدارک و مستندات ابرازی زوجه",
+        "start_char": 137,
+        "end_char": 164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "با وکالت خانم ل.ق. به طرفیت همسرشان آقای ک.ن.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "زوجه مهریه خود را دریافت نموده",
+        "start_char": 1774,
+        "end_char": 1804,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "زوج شش دانگ زمین به مساحت 360 مترمربع واقع در تنکابن را بلاعوض به وی انتقال دهد",
+        "start_char": 2746,
+        "end_char": 2825,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج عقیم است",
+      "evidence": {
+        "quote": "میزان اسپرم (نطفه) صفر است",
+        "start_char": 893,
+        "end_char": 919,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ازدواج در سال 1391 انجام شده است",
+      "evidence": {
+        "quote": "در تاریخ 1391/8/12 با زوج ازدواج کردم",
+        "start_char": 242,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزندی از زوجین وجود ندارد",
+      "evidence": {
+        "quote": "فرزندی از ایشان ندارم",
+        "start_char": 280,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

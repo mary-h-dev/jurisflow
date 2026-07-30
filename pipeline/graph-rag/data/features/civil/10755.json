@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10755",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 155,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ",
+        "start_char": 731,
+        "end_char": 734,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تضامن",
+      "evidence": {
+        "quote": "به صورت تضامنی",
+        "start_char": 1537,
+        "end_char": 1551,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مبلغ پانصد و پنجاه میلیون ریال",
+        "start_char": 91,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "با رد اعتراض دادنامه",
+        "start_char": 2075,
+        "end_char": 2095,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دلایل و مدارک استنادی خواهان",
+        "start_char": 210,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف اول",
+        "start_char": 310,
+        "end_char": 325,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ضامن",
+      "evidence": {
+        "quote": "به عنوان ضامن ظهر حواله‌ها",
+        "start_char": 365,
+        "end_char": 392,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.ک.",
+        "start_char": 1390,
+        "end_char": 1413,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده",
+        "start_char": 1787,
+        "end_char": 1807,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "حواله",
+      "evidence": {
+        "quote": "5 فقره حواله",
+        "start_char": 247,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "اسناد تجاری",
+        "start_char": 532,
+        "end_char": 543,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده مدعی فسخ معامله به دلیل معیوب بودن کالا شده است",
+      "evidence": {
+        "quote": "خوانده ردیف اول مدعی معیوب بودن کالاهای مورد معامله و فسخ آن شده است",
+        "start_char": 677,
+        "end_char": 745,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده دلیلی برای فسخ معامله ارائه نکرده است",
+      "evidence": {
+        "quote": "خوانده دلیلی بر فسخ معامله ارائه ننموده است",
+        "start_char": 797,
+        "end_char": 840,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

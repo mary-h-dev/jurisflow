@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10524",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "بموجب آن حکم حضانت طفل مشترک پسر 9 ساله به نام الف. توسط تجدیدنظرخوانده(مادرطفل) صادر گردیده",
+        "start_char": 3137,
+        "end_char": 3229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت",
+      "evidence": {
+        "quote": "با توجه به مصلحت فرزند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.م.",
+        "start_char": 3026,
+        "end_char": 3049,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوای",
+      "evidence": {
+        "quote": "رأی به رد دستور موقت و رد دعوای خواهان صادر و اعلام می‌نماید",
+        "start_char": 2801,
+        "end_char": 2861,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید دادنامه",
+      "evidence": {
+        "quote": "دادنامه معترضٌ‌عنه را عیناً تأیید می‌نماید",
+        "start_char": 3755,
+        "end_char": 3797,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 3734,
+        "end_char": 3753,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوای آقای م.م. فرزند م. به طرفیت خانم س.ح.",
+        "start_char": 0,
+        "end_char": 51,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم س.ح.",
+        "start_char": 33,
+        "end_char": 51,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی که موجبات نقض و یا بی‌اعتباری دادنامه را فراهم نماید، ارائه ننموده",
+        "start_char": 3502,
+        "end_char": 3596,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده(مادرطفل)",
+        "start_char": 3194,
+        "end_char": 3217,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 553 مورخه 1393/4/14",
+        "start_char": 3069,
+        "end_char": 3105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "کپی مصدق شناسنامه خواهان",
+        "start_char": 147,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلاف زوجین و زندگی جداگانه آن‌دو",
+      "evidence": {
+        "quote": "رابطه پدری- مادری خواهان و خوانده با فرزند موصوف و اختلاف زوجین و زندگی جداگانه آن‌دو محرز و مسلّم است",
+        "start_char": 194,
+        "end_char": 296,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزندان در سنین مختلف هستند",
+      "evidence": {
+        "quote": "الف فرزند اول در سن نه سال و دو ماه است و فرزند اول خانواده است. ر. یکسال و هفت ماه(1/7) سن دارد",
+        "start_char": 858,
+        "end_char": 954,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

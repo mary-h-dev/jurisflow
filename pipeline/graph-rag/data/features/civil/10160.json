@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10160",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "حضانت فرزند با توافق طرفین تا سن بلوغ شرعی به زوجه محول گردیده",
+        "start_char": 263,
+        "end_char": 325,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ولایت",
+      "evidence": {
+        "quote": "ولایت بر طفل نیز با پدر می‌باشد",
+        "start_char": 1455,
+        "end_char": 1486,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "صدور حکم بر تحویل فرزندان مشترک",
+        "start_char": 86,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 758,
+        "end_char": 784,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه مارالذکر",
+        "start_char": 1559,
+        "end_char": 1583,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان خانم م.ن.",
+        "start_char": 0,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به ‬طرفیت خوانده آقای م.ع.",
+        "start_char": 49,
+        "end_char": 75,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به خواسته تحویل فرزند مشترک به تجدیدنظرخوانده (پدر طفل) صادر شده است",
+        "start_char": 1143,
+        "end_char": 1211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مادر",
+      "evidence": {
+        "quote": "مادر حق دارد هر دو هفته 24 ساعت آخر هفته فرزند خود را ملاقات نماید",
+        "start_char": 1677,
+        "end_char": 1743,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "پدر",
+      "evidence": {
+        "quote": "پس از آن با پدر است",
+        "start_char": 624,
+        "end_char": 643,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "طلاق‌نامه",
+      "evidence": {
+        "quote": "طبق طلاق‌نامه مورخ 1393/4/5",
+        "start_char": 224,
+        "end_char": 251,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1182 مورخه 1393/7/7",
+        "start_char": 1023,
+        "end_char": 1064,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "حضانت فرزند با توافق طرفین تا سن بلوغ شرعی به زوجه محول شده است",
+      "evidence": {
+        "quote": "حضانت فرزند با توافق طرفین تا سن بلوغ شرعی به زوجه محول گردیده",
+        "start_char": 263,
+        "end_char": 325,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مادر از نگهداری فرزند خودداری می‌کند",
+      "evidence": {
+        "quote": "وقتی مادر از نگهداری او خودداری می‌کند",
+        "start_char": 1356,
+        "end_char": 1394,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

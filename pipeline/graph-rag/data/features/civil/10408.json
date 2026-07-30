@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10408",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شخصیت حقوقی",
+      "evidence": {
+        "quote": "هر موقوفه‌ای دارای شخصیت حقوقی مستقلی است",
+        "start_char": 451,
+        "end_char": 492,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "دادگاه حکم به ابطال نظریه شماره 3",
+        "start_char": 1563,
+        "end_char": 1596,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "با التفات به ملاحظه قانون مارالبیان دعوی اقامه شده",
+        "start_char": 592,
+        "end_char": 642,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دادخواست",
+      "evidence": {
+        "quote": "دادگاه قرار رد دادخواست خواهان را صادر و اعلام می‌نماید",
+        "start_char": 821,
+        "end_char": 876,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی موقوفه م.ن.",
+        "start_char": 2221,
+        "end_char": 2246,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد درخواست تجدیدنظرخواهی",
+        "start_char": 3096,
+        "end_char": 3124,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "صدور حکم تولیت خواهان",
+        "start_char": 174,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخوانده",
+        "start_char": 2288,
+        "end_char": 2311,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": 2665,
+        "end_char": 2700,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "گواهی حصر وراثت استنادی به شرح مضبوط در پرونده",
+        "start_char": 1678,
+        "end_char": 1725,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "استشهادیه",
+      "evidence": {
+        "quote": "و نیز استشهادیه محلی منضمی جملگی",
+        "start_char": 1726,
+        "end_char": 1758,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به لحاظ ازاله گردیدن اوصاف تبعی شرط تولیت متولی اخیرالبیان با عنایت به وقف‌نامه استنادی فوق به موجب مقررات ماده 80 از قانون مدنی دادگاه حکم به ابطال نظریه شماره 3 مورخ 1390/1/28 اداره حقوقی تحقیق اوقاف صادر و اعلام می‌نماید",
+        "start_char": 1433,
+        "end_char": 1657,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه توارث شخص اخیر با واقف النهایه احراز شده است",
+      "evidence": {
+        "quote": "نظر به احراز رابطه توارث شخص اخیر با واقف النهایه",
+        "start_char": 1183,
+        "end_char": 1232,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان صرفاً متوجه خوانده ردیف اول بوده است",
+      "evidence": {
+        "quote": "خواهان صرفاً متوجه خوانده ردیف اول بوده و است",
+        "start_char": 643,
+        "end_char": 688,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

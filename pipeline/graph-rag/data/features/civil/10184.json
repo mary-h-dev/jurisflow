@@ -1,0 +1,163 @@
+{
+  "ruling_id": "10184",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خانوادگی",
+      "evidence": {
+        "quote": "با مصالح خانوادگی منافات دارد",
+        "start_char": 492,
+        "end_char": 521,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان را صادر",
+        "start_char": 1016,
+        "end_char": 1045,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه مارالذکر",
+        "start_char": 1837,
+        "end_char": 1861,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض تجدیدنظرخواه وارد است",
+        "start_char": 1530,
+        "end_char": 1558,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار نموده",
+        "start_char": 175,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم الف.ر. به خواسته منع اشتغال خوانده",
+        "start_char": 46,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای الف.ق.",
+        "start_char": 1211,
+        "end_char": 1244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به خواسته منع اشتغال تجدیدنظرخوانده",
+        "start_char": 1408,
+        "end_char": 1443,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "شغل همسر کمک اقتصادی خوبی برای خانواده می‌باشد",
+        "start_char": 820,
+        "end_char": 866,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "اشتغال زوجه در عقد شرط نشده",
+        "start_char": 1579,
+        "end_char": 1606,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "تصویر مصدق شناسنامه و سند ازدواج",
+        "start_char": 126,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 674",
+        "start_char": 1284,
+        "end_char": 1309,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج و زوجه زندگی مشترک دارند",
+      "evidence": {
+        "quote": "موکل قریب 2 سال است که با خوانده محترم زندگی مشترک دارند",
+        "start_char": 199,
+        "end_char": 255,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه منزل مشترک را ترک کرده است",
+      "evidence": {
+        "quote": "زوجه منزل مشترک را برابر اظهارات خودش ترک کرده",
+        "start_char": 1614,
+        "end_char": 1660,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه در فروشگاه مشغول به کار شده است",
+      "evidence": {
+        "quote": "بدون اذن و اجازه موکل در فروشگاهی به شغل فروشندگی مشغول شده است",
+        "start_char": 333,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

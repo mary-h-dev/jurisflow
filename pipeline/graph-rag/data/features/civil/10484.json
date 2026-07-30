@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10484",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "واگذاری حضانت فرزند مشترک",
+        "start_char": 56,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر",
+        "start_char": 548,
+        "end_char": 577,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدید‌نظر‌خواهی س.ن. به‌ طرفیت الف.ع.",
+        "start_char": 753,
+        "end_char": 790,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "نفقه فرزند مشترک",
+        "start_char": 1649,
+        "end_char": 1665,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دادخواست",
+      "evidence": {
+        "quote": "خواسته خواهان را مردود اعلام",
+        "start_char": 470,
+        "end_char": 498,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی صادر شده دادگاه بدوی را... تأیید می‌نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست خانم س.ن. به طرفیت آقای الف.ع.",
+        "start_char": 8,
+        "end_char": 47,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "نظر به اینکه خوانده در خارج از منزل اشتغال دارد",
+        "start_char": 307,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "با عنایت به اینکه تجدید‌نظر‌خواه ایراد و اعتراض موجهی",
+        "start_char": 1269,
+        "end_char": 1322,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "لازم به توضیح است زوجه می‌تواند",
+        "start_char": 1609,
+        "end_char": 1640,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "پدر",
+      "evidence": {
+        "quote": "علیه پدر فرزند مشترک",
+        "start_char": 1695,
+        "end_char": 1715,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "ملاحظه شناسنامه خواهان",
+        "start_char": 146,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 0103",
+        "start_char": 791,
+        "end_char": 817,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "مفاد لایحه تجدید‌نظر‌خواهی",
+        "start_char": 1023,
+        "end_char": 1049,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرزند کمتر از ۳ سال سن دارد",
+      "evidence": {
+        "quote": "دختر بچه کمتر از 3 سال سن دارد",
+        "start_char": 227,
+        "end_char": 257,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در خارج از منزل اشتغال دارد",
+      "evidence": {
+        "quote": "خوانده در خارج از منزل اشتغال دارد",
+        "start_char": 320,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "10410",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "با احتساب خسارت تأخیر تأدیه",
+        "start_char": 301,
+        "end_char": 328,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت",
+      "evidence": {
+        "quote": "وکیل باید در اقدامات خود مصلحت موکل را مراعات نماید",
+        "start_char": 3088,
+        "end_char": 3139,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت ثمن",
+        "start_char": 97,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نظریه مذکور در مهلت مقرر قانونی از ناحیه وکیل خواهان مورد اعتراض واقع",
+        "start_char": 848,
+        "end_char": 917,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم تجدیدنظر استان تهران است",
+        "start_char": 1876,
+        "end_char": 1926,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "اقدام به تنظیم سند رسمی انتقال",
+        "start_char": 2874,
+        "end_char": 2904,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 386,
+        "end_char": 397,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت",
+        "start_char": 97,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "به وکالت از آقای د.ص.",
+        "start_char": 28,
+        "end_char": 48,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بر محکومیت تجدیدنظرخواه ق.ص.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "از این حیث تجدیدنظرخوانده استحقاق دریافت آن را در مقطع تنظیم سند رسمی داشته است",
+        "start_char": 3345,
+        "end_char": 3424,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "قیمت 5/1 دانگ از ملک",
+        "start_char": 126,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "موضوع سند رسمی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تنظیم سند رسمی انتقال در دفترخانه",
+      "evidence": {
+        "quote": "اقدام به تنظیم سند رسمی انتقال به شماره... مورخ 1389/5/20 در دفترخانه... اسناد رسمی تهران نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "برآورد ارزش ملک توسط کارشناسان",
+      "evidence": {
+        "quote": "هئیت مذکور ارزش یک و نیم دانگ سهم خواهان را در تاریخ 1389/05/02 یک میلیارد و هفتصد و پنجاه میلیون ریال برآورد و اعلام نمود",
+        "start_char": 1022,
+        "end_char": 1144,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

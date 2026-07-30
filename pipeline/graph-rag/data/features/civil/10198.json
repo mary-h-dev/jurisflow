@@ -1,0 +1,163 @@
+{
+  "ruling_id": "10198",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "علقه زوجیت بین خواهان و خوانده دارد",
+        "start_char": 236,
+        "end_char": 271,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "دلیلی به نشوز زوجه اعلام و ارائه نشده است",
+        "start_char": 691,
+        "end_char": 732,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "و نسبت به ایام قبلی حق حبس اعمال نشده است",
+        "start_char": 1637,
+        "end_char": 1678,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خوانده هیچ‌گونه نفقه‌ای به همسرش پرداخت نکرده است",
+        "start_char": 376,
+        "end_char": 425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "از تشکیل زندگی مشترک استنکاف می‌ورزد",
+        "start_char": 491,
+        "end_char": 527,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 2863,
+        "end_char": 2882,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "باعث رد دعوی خواهان شود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در مقام دفاع حاضر نشده",
+        "start_char": 588,
+        "end_char": 610,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "الزام خوانده به‌عنوان زوج",
+        "start_char": 70,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجین",
+      "evidence": {
+        "quote": "از 1393/2/1 زوجین اختلاف کرده‌اند",
+        "start_char": 1558,
+        "end_char": 1591,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "فتوکپی مصدق سند عقد نکاح",
+        "start_char": 194,
+        "end_char": 218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "تقاضای نفقه کرده",
+        "start_char": 272,
+        "end_char": 288,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "حکایت از رابطه و علقه زوجیت بین خواهان و خوانده دارد",
+        "start_char": 219,
+        "end_char": 271,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین از تاریخ 1393/2/1 دچار اختلاف شده‌اند",
+      "evidence": {
+        "quote": "از 1393/2/1 زوجین اختلاف کرده‌اند",
+        "start_char": 1558,
+        "end_char": 1591,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجین در منزل پدر زوجه زندگی مشترک داشته‌اند",
+      "evidence": {
+        "quote": "زوجین با هم در منزل پدر زوجه زندگی مشترک داشته▁‌اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

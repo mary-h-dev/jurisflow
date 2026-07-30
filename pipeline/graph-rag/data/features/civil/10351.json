@@ -1,0 +1,183 @@
+{
+  "ruling_id": "10351",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "خواهان پلاک فوق از طریق عقد معاوضه از خوانده خریداری نموده",
+        "start_char": 563,
+        "end_char": 621,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "نسبت به وجه التزام قراردادی",
+        "start_char": 1090,
+        "end_char": 1117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "متعهدله در صورت استحقاق اعمال ضمانت نقض اجرای تعهد و دریافت وجه التزام آن را دارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال رسمی",
+      "evidence": {
+        "quote": "به خواسته انتقال رسمی یک دستگاه آپارتمان",
+        "start_char": 77,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقل و انتقال",
+      "evidence": {
+        "quote": "و نقل و انتقال به سند صورت نپذیرفته",
+        "start_char": 622,
+        "end_char": 657,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه التزام قراردادی",
+        "start_char": 1896,
+        "end_char": 1932,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ع.گ.",
+        "start_char": 1717,
+        "end_char": 1740,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی دادنامه تجدیدنظرخواسته تأیید می‌شود",
+        "start_char": 2300,
+        "end_char": 2355,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مؤید صحت ادعای وی و استحقاق دریافت خواسته را دارد",
+        "start_char": 781,
+        "end_char": 830,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده علی‬رغم ابلاغ قانونی در جلسه رسیدگی حضور نیافته",
+        "start_char": 679,
+        "end_char": 733,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخواه علل و جهات موجهی",
+        "start_char": 2050,
+        "end_char": 2088,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارامان واقع در شمال غرب طبقه اول",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "به استناد سند عادی بیع",
+        "start_char": 339,
+        "end_char": 361,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اظهارنامه",
+      "evidence": {
+        "quote": "و اظهارنامه ارسالی",
+        "start_char": 362,
+        "end_char": 380,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خرید آپارتمان از طریق عقد معاوضه انجام شده اما انتقال رسمی صورت نگرفته است",
+      "evidence": {
+        "quote": "خواهان پلاک فوق از طریق عقد معاوضه از خوانده خریداری نموده و نقل و انتقال به سند صورت نپذیرفته",
+        "start_char": 563,
+        "end_char": 657,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه رسیدگی حضور نیافته و دفاعی ارائه نداده است",
+      "evidence": {
+        "quote": "خوانده علی‬رغم ابلاغ قانونی در جلسه رسیدگی حضور نیافته و دفاعی به عمل نیاورده",
+        "start_char": 679,
+        "end_char": 756,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت خوانده توسط اداره ثبت تأیید شده است",
+      "evidence": {
+        "quote": "اداره ثبت نیز طی پاسخ شماره 1894 مورخ 1393/01/24 مالکیت خوانده را مورد تأیید قرار داده است",
+        "start_char": 840,
+        "end_char": 930,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "ruling_id": "10560",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مکلف به پرداخت نفقه به زوجه می‌باشد",
+        "start_char": 1266,
+        "end_char": 1301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "از حق حبس خود استفاده نموده و تمکین نمی‌نمایند",
+        "start_char": 249,
+        "end_char": 295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ناشزه",
+      "evidence": {
+        "quote": "ثابت کند که زوجه در تمکین شوهر خود نبوده و ناشزه معرفی گردد",
+        "start_char": 1460,
+        "end_char": 1519,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه",
+        "start_char": 82,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "نفقه زوجه را پرداخت کرده‌ام",
+        "start_char": 386,
+        "end_char": 413,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "آن را نقض می‌کند",
+        "start_char": 1778,
+        "end_char": 1794,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج براساس ماده 1106 قانون مدنی",
+        "start_char": 1211,
+        "end_char": 1242,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "مکلف به پرداخت نفقه به زوجه می‌باشد",
+        "start_char": 1266,
+        "end_char": 1301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت نفقه",
+        "start_char": 124,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان را ثابت ندانسته",
+        "start_char": 489,
+        "end_char": 518,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "طبق سند نکاحیه شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین با سند نکاحیه در سال ۱۳۹۳ عقد کرده‌اند",
+      "evidence": {
+        "quote": "زوجین طبق سند نکاحیه شماره... مورخه 1393/03/30 به عقد یکدیگر در‌آمده‌اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج دلیلی برای اثبات ناشزه بودن زوجه ارائه نکرده است",
+      "evidence": {
+        "quote": "زوج هیچ گونه دلیلی که اثبات کند زوج در طول مدت مطالبه نفقه، ناشزه بوده به دادگاه ارائه نکرده‌است",
+        "start_char": 1535,
+        "end_char": 1632,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

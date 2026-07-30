@@ -1,0 +1,143 @@
+{
+  "ruling_id": "10138",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ضمانت",
+      "evidence": {
+        "quote": "چک بابت ضمانت به طرف دوم قرارداد تحویل گردیده",
+        "start_char": 448,
+        "end_char": 493,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه دو فقره چک",
+        "start_char": 98,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان را صادر و اعلام می‌نماید",
+        "start_char": 1078,
+        "end_char": 1122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.ی. به طرفیت آقای م.ج.",
+        "start_char": 1262,
+        "end_char": 1304,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان آقای م.ی.ف",
+        "start_char": 0,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای م.ج.",
+        "start_char": 52,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه مستحق دریافت وجه چک‌ها خواهد بود",
+        "start_char": 1784,
+        "end_char": 1829,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "مطالبه وجه دو فقره چک",
+        "start_char": 108,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "منشاء صدور چک‌های مدرکیه، قرارداد منعقد فی‌مابین اصحاب پرونده",
+        "start_char": 287,
+        "end_char": 349,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "تحت عنوان (سند همکاری تولید و پروش کرم خاکی)",
+        "start_char": 350,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک‌ها بابت ضمانت صادر شده‌اند",
+      "evidence": {
+        "quote": "چک بابت ضمانت به طرف دوم قرارداد تحویل گردیده",
+        "start_char": 448,
+        "end_char": 493,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک‌ها پرداخت نشدنی هستند",
+      "evidence": {
+        "quote": "دو فقره چک پرداخت نشدنی",
+        "start_char": 119,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تسویه حساب و رسیدگی سود و زیان انجام نشده است",
+      "evidence": {
+        "quote": "طرفین نسبت به تسویه حساب و رسیدگی سود و زیان ایام همکاری اقدام",
+        "start_char": 678,
+        "end_char": 741,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -18,6 +18,7 @@ main_features.py — اجرای دو-مرحله‌ای پایپ‌لاین Featu
 نحوه‌ی استفاده:
     uv run main_features.py extract civil --limit 50
     uv run main_features.py load civil --limit 50
+    PYTHONUNBUFFERED=1 uv run main_features.py extract civil --limit 0 2>&1 | tee -a pipeline.log
 """
 
 import dataclasses
@@ -32,6 +33,9 @@ from database.connection import Neo4jConnection
 from database.feature_loader import FeatureGraphLoader
 from features.extractor import extract_ruling
 from features.schemas import Evidence, ExtractedFeature, FeatureExtractionResult
+from features.vocab_resolver import VocabResolver
+
+
 
 load_dotenv()
 
@@ -61,6 +65,9 @@ def extract_domain(domain: str, limit: int | None):
     print(f"🔎 استخراج Feature برای {len(paths)} پرونده از «{domain}» "
           f"(limit={limit or 'بدون محدودیت'})...")
 
+    resolver = VocabResolver()
+    print("📖 واژه‌نامه و کش embedding برای resolver بارگذاری شد.")
+
     done, skipped, failed = 0, 0, 0
     for i, path in enumerate(paths, start=1):
         try:
@@ -82,7 +89,7 @@ def extract_domain(domain: str, limit: int | None):
             continue
 
         try:
-            result = extract_ruling(ruling["ruling_id"], text)
+            result = extract_ruling(ruling["ruling_id"], text, resolver)
         except RuntimeError as e:
             print(f"  ❌ [{i}/{len(paths)}] {ruling['ruling_id']}: {e}")
             failed += 1

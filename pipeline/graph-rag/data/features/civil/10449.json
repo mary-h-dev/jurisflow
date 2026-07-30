@@ -1,0 +1,112 @@
+{
+  "ruling_id": "10449",
+  "concepts": [],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "به خواسته تغییر نام از الف. به الف.",
+        "start_char": 51,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجهی که نقض دادنامه تجدیدنظرخواسته را ایجاب نماید، طرح ننموده است",
+        "start_char": 1541,
+        "end_char": 1627,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی اداره ثبت احوال",
+        "start_char": 1109,
+        "end_char": 1146,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خانم الف.ع.",
+        "start_char": 0,
+        "end_char": 24,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و نظر به دفاعیات بلاموثر خوانده",
+        "start_char": 544,
+        "end_char": 575,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجهی که نقض دادنامه تجدیدنظرخواسته را ایجاب نماید، طرح ننموده است",
+        "start_char": 1541,
+        "end_char": 1627,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "در شناسنامه شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 398...93",
+        "start_char": 1163,
+        "end_char": 1193,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "نام خواهان در خانواده و فامیل با نام در شناسنامه متفاوت است",
+      "evidence": {
+        "quote": "نام ایشان از سوی والدینش انتخاب و لیکن از همان بدو تولد به نام الف. در نزد خانواده و فامیل و سایرین شناخته و مورد خطاب قرار می‌گرفته است",
+        "start_char": 231,
+        "end_char": 367,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شهادت شهود در محضر دادگاه ارائه شده است",
+      "evidence": {
+        "quote": "با عنایت به مودای شهادت شهود که در محضر دادگاه متفقاً در مقام اثبات ادعا و اظهارات خواهان ادای شهادت نموده‌اند",
+        "start_char": 433,
+        "end_char": 543,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

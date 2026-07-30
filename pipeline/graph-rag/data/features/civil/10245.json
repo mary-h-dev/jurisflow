@@ -1,0 +1,133 @@
+{
+  "ruling_id": "10245",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "هرکس حق دارد از نامی مناسب و متناسب با طبقه و اعتقادات و باورهای مذهبی برخوردار باشد",
+        "start_char": 124,
+        "end_char": 208,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی محسوب",
+        "start_char": 1141,
+        "end_char": 1155,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "بخواسته تغییر نام",
+        "start_char": 81,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض‌عنه",
+        "start_char": 1423,
+        "end_char": 1448,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان نخستین",
+        "start_char": 1449,
+        "end_char": 1477,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "تغییر نام خواهان از خ. به و.",
+        "start_char": 442,
+        "end_char": 470,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی اداره ثبت‌احوال",
+        "start_char": 643,
+        "end_char": 680,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "در اسناد سجلی",
+        "start_char": 480,
+        "end_char": 493,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "نام مندرج در سند سجلی",
+        "start_char": 245,
+        "end_char": 266,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "نام مندرج در شناسنامه",
+        "start_char": 1208,
+        "end_char": 1229,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان درخواست تغییر نام داده است",
+      "evidence": {
+        "quote": "بخواسته تغییر نام از خ. به و.",
+        "start_char": 81,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند سجلی با امضای مأمور و ولی قهری تنظیم شده است",
+      "evidence": {
+        "quote": "سندسجلی خواهان نخستین خانم خ.خ. با اعلام ولی قهری مشارالیها و با امضاء مأمور صلاحیت‌دار و اجرای مادتین قانون ثبت‌احوال تنظیم یافته است",
+        "start_char": 914,
+        "end_char": 1048,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

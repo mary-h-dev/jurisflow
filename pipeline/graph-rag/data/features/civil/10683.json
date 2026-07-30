@@ -1,0 +1,203 @@
+{
+  "ruling_id": "10683",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "به جهت شرط فاسخ",
+        "start_char": 941,
+        "end_char": 956,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "عدم ایفای تعهدات قراردادی",
+        "start_char": 959,
+        "end_char": 984,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "به اعتبار انفساخ",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "فضولی بوده",
+        "start_char": 2152,
+        "end_char": 2162,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "در حکم غصب است",
+        "start_char": 3523,
+        "end_char": 3537,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "صدور حکم به خلع‌ید",
+        "start_char": 151,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه حقوق کسب و پیشه",
+        "start_char": 305,
+        "end_char": 337,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض و قرار رد دعوی صادر",
+        "start_char": 698,
+        "end_char": 721,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "مغازه موصوف توسط خواهان به آقای ن. منتقل",
+        "start_char": 897,
+        "end_char": 937,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دعوی خواهان اصلی",
+        "start_char": 0,
+        "end_char": 23,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 54,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "با رعایت حقوق مستأجر",
+        "start_char": 1458,
+        "end_char": 1478,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "مالک قائم‌مقام مالک قبلی است",
+        "start_char": 1679,
+        "end_char": 1707,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "خریدار حق مراجعه به ناقلین",
+        "start_char": 2228,
+        "end_char": 2254,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سرقفلی",
+      "evidence": {
+        "quote": "مطالبه حقوق کسب و پیشه و سرقفلی مغازه",
+        "start_char": 315,
+        "end_char": 352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "طی مبایعه‌نامه عادی 1380/5/25",
+        "start_char": 867,
+        "end_char": 896,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره‌نامه",
+      "evidence": {
+        "quote": "طی اجاره‌نامه 1385/5/23",
+        "start_char": 1334,
+        "end_char": 1357,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انحلال قرارداد مبایعه‌نامه سال ۱۳۸۰ به دلیل عدم ایفای تعهدات",
+      "evidence": {
+        "quote": "طی دادنامه 89428 مورخ 1389/6/6 این مبایعه‌نامه منحل",
+        "start_char": 985,
+        "end_char": 1036,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فروش سه دانگ سرقفلی مغازه توسط خوانده ردیف سوم",
+      "evidence": {
+        "quote": "طی مبایعه‌نامه عادی سه دانگ سرقفلی مغازه را خریداری",
+        "start_char": 1280,
+        "end_char": 1331,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

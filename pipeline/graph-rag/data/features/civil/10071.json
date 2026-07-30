@@ -1,0 +1,263 @@
+{
+  "ruling_id": "10071",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "با انقضای قرارداد",
+        "start_char": 331,
+        "end_char": 348,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تاخیر",
+      "evidence": {
+        "quote": "مطالبه خسارت تأخیر",
+        "start_char": 783,
+        "end_char": 801,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "به عنوان خسارت قراردادی",
+        "start_char": 3087,
+        "end_char": 3111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 918,
+        "end_char": 935,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "باطل",
+      "evidence": {
+        "quote": "واجد آثار حقوقی نمی‌باشد و این شرط و توافق باطل است",
+        "start_char": 3184,
+        "end_char": 3235,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ هفتصد میلیون ریال",
+        "start_char": 94,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "موجر مکلف به استرداد ودیعه",
+        "start_char": 370,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابراز",
+      "evidence": {
+        "quote": "از سوی خوانده ارائه و ابراز نگردیده",
+        "start_char": 475,
+        "end_char": 510,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تادیه",
+      "evidence": {
+        "quote": "مبلغ دو میلیارد ریال ودیعه را قبل از تخلیه به مستأجر تأدیه نموده",
+        "start_char": 1026,
+        "end_char": 1090,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تودیع",
+      "evidence": {
+        "quote": "با تودیع قسمت اعظم ودیعه",
+        "start_char": 1627,
+        "end_char": 1651,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم تجدیدنظر",
+        "start_char": 2302,
+        "end_char": 2338,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض این قسمت از دادنامه",
+        "start_char": 4312,
+        "end_char": 4339,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان آقای ر.ک.",
+        "start_char": 0,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای ر.ج.",
+        "start_char": 49,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "موجر مکلف به استرداد ودیعه به مستأجر می‌باشد",
+        "start_char": 370,
+        "end_char": 414,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "موجر مکلف به استرداد ودیعه",
+        "start_char": 370,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مطالبه مبلغ هفتصد میلیون ریال",
+        "start_char": 104,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ودیعه",
+      "evidence": {
+        "quote": "بابت مابقی مبلغ ودیعه",
+        "start_char": 134,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "قرارد مورخ اجاره 1390/4/16",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره نامه",
+      "evidence": {
+        "quote": "مستند به اجاره نامه شماره 28929 مورخ 1390/4/16",
+        "start_char": 251,
+        "end_char": 298,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "بابت هزینه دادرسی",
+        "start_char": 677,
+        "end_char": 694,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حق الوکاله",
+      "evidence": {
+        "quote": "حق الوکاله وکیل",
+        "start_char": 718,
+        "end_char": 734,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عین مستأجره",
+      "evidence": {
+        "quote": "تخلیه عین مستأجره",
+        "start_char": 351,
+        "end_char": 368,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده بخشی از ودیعه را قبل از تخلیه پرداخت کرده است",
+      "evidence": {
+        "quote": "خوانده مبلغ دو میلیارد ریال ودیعه را قبل از تخلیه به مستأجر تأدیه نموده",
+        "start_char": 1019,
+        "end_char": 1090,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مستأجر نسبت به تخلیه و تسویه حساب اقدام نکرده است",
+      "evidence": {
+        "quote": "مادامی که مستأجر نسبت به تخلیه و تسویه حساب عین مستأجره اقدام ننماید",
+        "start_char": 1435,
+        "end_char": 1503,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "10201",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "به خواسته اجرت‌المثل ایام زوجیت",
+        "start_char": 49,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "احراز علقه زوجیت",
+        "start_char": 207,
+        "end_char": 223,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد دائم",
+      "evidence": {
+        "quote": "با نوع عقد دائم",
+        "start_char": 224,
+        "end_char": 239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 575,
+        "end_char": 599,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت‌المثل ایام زوجیت",
+        "start_char": 2797,
+        "end_char": 2835,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "هر کس مدعی حقی باشد باید آن را ثابت نماید",
+        "start_char": 1807,
+        "end_char": 1848,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض و رسیدگی",
+        "start_char": 670,
+        "end_char": 690,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض دادنامه معترض‌عنه را تأیید",
+        "start_char": 3331,
+        "end_char": 3377,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست خانم م.م. به‬ طرفیت آقای الف.س.",
+        "start_char": 8,
+        "end_char": 48,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم م.م.",
+        "start_char": 2600,
+        "end_char": 2623,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخوانده آقای الف.س.",
+        "start_char": 2761,
+        "end_char": 2796,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "ملاحظه تصویر مصدق سند ازدواج شماره 14345",
+        "start_char": 115,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه صادره از این شعبه حکم بوده",
+        "start_char": 1186,
+        "end_char": 1220,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل مبنی بر دستور زوج",
+      "evidence": {
+        "quote": "ولی در خصوص دستور دلیلی ندارم",
+        "start_char": 435,
+        "end_char": 464,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات ادعای خواهان",
+      "evidence": {
+        "quote": "و هیچ دلیلی ارائه نشده",
+        "start_char": 1921,
+        "end_char": 1943,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

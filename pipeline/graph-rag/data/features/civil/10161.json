@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10161",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "زوجیت دائم",
+      "evidence": {
+        "quote": "احراز علقه زوجیت دائم بین طرفین",
+        "start_char": 676,
+        "end_char": 707,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "با احراز عسروحرج زوجه",
+        "start_char": 1529,
+        "end_char": 1550,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلع",
+      "evidence": {
+        "quote": "نوع طلاق با توجه به اینکه زوجه چهار میلیون تومان از مهریه مافی القباله اش را در قبال طلاق به شوهرش بذل نموده است خلع می‌باشد",
+        "start_char": 1862,
+        "end_char": 1988,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام به تمکین",
+        "start_char": 2484,
+        "end_char": 2498,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "چهار میلیون تومان از مهریه مافی القباله اش را در قبال طلاق به شوهرش بذل نموده است",
+        "start_char": 1893,
+        "end_char": 1976,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم طلاق",
+        "start_char": 94,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی نامبرده صادر",
+        "start_char": 2639,
+        "end_char": 2666,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت آقای م.ح. فرزند ق. به خواسته صدور حکم طلاق خواهان",
+        "start_char": 66,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای م.ح. فرزند ق. به خواسته صدور حکم طلاق خواهان",
+        "start_char": 66,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.ح.",
+        "start_char": 2847,
+        "end_char": 2870,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده خانم م.ح.س.",
+        "start_char": 2991,
+        "end_char": 3017,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "با مهریه هیجده میلیون تومان وجه رایج به عقد دائم خوانده در آمده است",
+        "start_char": 168,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به‌موجب تصویر مصدق سند نکاحیه",
+        "start_char": 708,
+        "end_char": 737,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شوهر به مواد مخدر اعتیاد دارد",
+      "evidence": {
+        "quote": "شوهرش یک سال و نیم است که اعتیاد شدید به شیشه پیدا نموده",
+        "start_char": 263,
+        "end_char": 319,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شوهر مورد ضرب و شتم قرار داده است",
+      "evidence": {
+        "quote": "بارها وی را مورد کتک‌کاری قرار داده است",
+        "start_char": 368,
+        "end_char": 407,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زن بخشی از مهریه را برای طلاق می‌بخشد",
+      "evidence": {
+        "quote": "از هیجده میلیون تومان چهار میلیون تومان آن را در قبال طلاق به وی می‌بخشد",
+        "start_char": 558,
+        "end_char": 630,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

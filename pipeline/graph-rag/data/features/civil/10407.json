@@ -1,0 +1,183 @@
+{
+  "ruling_id": "10407",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته صدور حکم مبنی بر ابطال وصیت‌نامه رسمی",
+        "start_char": 115,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "محجور",
+      "evidence": {
+        "quote": "ادعای خواهان مبنی بر محجور بودن پدرش",
+        "start_char": 408,
+        "end_char": 444,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "وراثت",
+      "evidence": {
+        "quote": "مراتب وراثت تجدیدنظر‌خواه",
+        "start_char": 1593,
+        "end_char": 1618,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ثلث",
+      "evidence": {
+        "quote": "وصیت به زیاده بر ثلث ترکه نافذ نبوده",
+        "start_char": 1776,
+        "end_char": 1812,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم مبنی بر ابطال وصیت‌نامه رسمی",
+        "start_char": 115,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض به شرح لایحه اعتراضیه وارد و مستوجب نقض آن می‌باشد",
+        "start_char": 1521,
+        "end_char": 1578,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واگذاری",
+      "evidence": {
+        "quote": "مازاد بر ثلث اموال را نیز به احد از ورثه ب.م.ک. که وصی وی نیز بوده است واگذار نموده است",
+        "start_char": 2051,
+        "end_char": 2138,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ادعای خواهان مبنی بر محجور بودن پدرش",
+        "start_char": 408,
+        "end_char": 444,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "مدافعات خواندگان",
+        "start_char": 306,
+        "end_char": 322,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بطلان دعوی تجدیدنظر‌خواه م.ط.",
+        "start_char": 1331,
+        "end_char": 1360,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موصی",
+      "evidence": {
+        "quote": "مراتب وراثت تجدیدنظر‌خواه نسبت به موصی",
+        "start_char": 1593,
+        "end_char": 1631,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "وصیت‌نامه رسمی شماره 7645 -1388/07/25",
+        "start_char": 148,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ترکه",
+      "evidence": {
+        "quote": "وصیت به زیاده بر ثلث ترکه نافذ نبوده",
+        "start_char": 1776,
+        "end_char": 1812,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "گواهی حصر وراثت صادره از شورای حل اختلاف تهران",
+        "start_char": 1641,
+        "end_char": 1687,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پدر خواهان در زمان تنظیم وصیت‌نامه محجور نبوده است",
+      "evidence": {
+        "quote": "پزشکی قانونی نیز طی نامه شماره 28718 - 31/1/-1393/3/12 چنین امری را تأیید ننموده است",
+        "start_char": 692,
+        "end_char": 776,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موصی بخشی از اموال خود را برای نماز و روزه وقف کرده است",
+      "evidence": {
+        "quote": "موصی (مورث متداعیین پرونده) به نام الف.ط. علاوه بر اینکه ثلث اموال و ماترک خود را صرف یک‌سال نماز و روزه نموده است",
+        "start_char": 1935,
+        "end_char": 2050,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موصی مازاد بر ثلث را به یکی از ورثه که وصی او بوده واگذار کرده است",
+      "evidence": {
+        "quote": "مازاد بر ثلث اموال را نیز به احد از ورثه ب.م.ک. که وصی وی نیز بوده است واگذار نموده است",
+        "start_char": 2051,
+        "end_char": 2138,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "10228",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "محمول بر قصد تبرع خواهد شد",
+        "start_char": 2429,
+        "end_char": 2455,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "دلیلی بر پرداخت و یا برائت ذمه خویش ارائه و ابراز نگردیده",
+        "start_char": 955,
+        "end_char": 1012,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "زمانی شخص می تواند اجرت عمل خویش را مورد مطالبه قرار دهد",
+        "start_char": 2209,
+        "end_char": 2265,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 2853,
+        "end_char": 2883,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان خانم ف.م.",
+        "start_char": 0,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده آقای ح.ف.",
+        "start_char": 108,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 947-10/9/92صادره از شعبه 117دادگاه عمومی حقوقی تهرآن که به موجب آن حکم بر محکومیت تجدیدنظرخواه",
+        "start_char": 1695,
+        "end_char": 1811,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخواندگان صادر گردیده",
+        "start_char": 1946,
+        "end_char": 1980,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "ساخت وساز یک واحد آپارتمان",
+        "start_char": 258,
+        "end_char": 284,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه های",
+      "evidence": {
+        "quote": "پرداخت هزینه های تعمیر و بازسازی و ساخت وساز",
+        "start_char": 223,
+        "end_char": 267,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انجام تعمیرات توسط خوانده",
+      "evidence": {
+        "quote": "حکایت از انجام تعمیرات با هزینه هفت صد و هشتاد میلیون ریال داشته",
+        "start_char": 684,
+        "end_char": 748,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات دستور یا درخواست صاحب کار برای بازسازی",
+      "evidence": {
+        "quote": "خواهان ها هیچ دلیل یا مدرک محکمه پسندی که نشان بدهد آن ها بنا به درخواست یا دستور تجدیدنظرخواه اقدام به بازسازی آپارتمان وی نموده اند ابراز نکرده",
+        "start_char": 2543,
+        "end_char": 2688,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

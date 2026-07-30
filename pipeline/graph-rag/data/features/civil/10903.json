@@ -1,0 +1,113 @@
+{
+  "ruling_id": "10903",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "به خواسته صدور حکم بر تأیید وقوع معامله (اثبات صحت و اصالت)",
+        "start_char": 112,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صوری",
+      "evidence": {
+        "quote": "معامله صوری بوده است",
+        "start_char": 838,
+        "end_char": 858,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قصد",
+      "evidence": {
+        "quote": "قصد انشاء نداشته",
+        "start_char": 1235,
+        "end_char": 1251,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "تقدیم دادگاه نموده",
+        "start_char": 231,
+        "end_char": 249,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "با قرار رد دعوی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 515,
+        "end_char": 526,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده به استناد",
+        "start_char": 274,
+        "end_char": 290,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "مبایعه‌نامه شماره 34103- 1388/4/18",
+        "start_char": 172,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبایعه‌نامه در مشاور املاک تنظیم شده است",
+      "evidence": {
+        "quote": "در مشاور املاک د. شش‌دانگ یک‌ باب غرفه بارفروشی واقع در ف. به موکل فروخته است",
+        "start_char": 349,
+        "end_char": 426,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان در جلسه دادگاه دلیلی برای اثبات ادعای خود ارائه نداده است",
+      "evidence": {
+        "quote": "در جلسه دادگاه دلیلی که به اثبات ادعای وی دلالت نماید ارائه نداده",
+        "start_char": 1077,
+        "end_char": 1142,
+        "confidence": 0.95
+      }
+    }
+  ]
+}
