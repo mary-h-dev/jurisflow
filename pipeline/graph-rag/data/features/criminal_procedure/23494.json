@@ -1,0 +1,113 @@
+{
+  "ruling_id": "23494",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "سرقت",
+      "evidence": {
+        "quote": "دائر بر سرقت یک دستگاه موتورسیکلت",
+        "start_char": 52,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "منع تعقیب",
+      "evidence": {
+        "quote": "قرار منع تعقیب صادر و اعلام می‌نماید",
+        "start_char": 347,
+        "end_char": 383,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم تجدیدنظر",
+        "start_char": 421,
+        "end_char": 463,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض قرار صادره",
+        "start_char": 1183,
+        "end_char": 1201,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را جهت اقدامات قانونی طبق مقررات ماده 104 قانون آئین دادرسی کیفری به دادگاه صادرکننده قرار اعاده می‌نماید",
+        "start_char": 1202,
+        "end_char": 1314,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 500249-94 مورخ1394/3/16 در پرونده کلاسه500274-94 صادره از شعبه 101 دادگاه عمومی بخش چ. که به موجب آن در خصوص شکایت تجدیدنظرخواه",
+        "start_char": 584,
+        "end_char": 733,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شخص ناشناس",
+      "evidence": {
+        "quote": "علیه شخص ناشناس",
+        "start_char": 734,
+        "end_char": 749,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "سرقت یک دستگاه موتورسیکلت",
+        "start_char": 60,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "موتورسیکلت سرقت شده است",
+      "evidence": {
+        "quote": "دائر بر سرقت یک دستگاه موتورسیکلت",
+        "start_char": 52,
+        "end_char": 85,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم معین نیست",
+      "evidence": {
+        "quote": "دادگاه نمی‌تواند به عذر آنکه متهم معین نیست تحقیقات را متوقف کند",
+        "start_char": 860,
+        "end_char": 924,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

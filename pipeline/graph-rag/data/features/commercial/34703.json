@@ -1,0 +1,173 @@
+{
+  "ruling_id": "34703",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تضامن",
+      "evidence": {
+        "quote": "به خواسته محکومیت تضامنی خواندگان",
+        "start_char": 139,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "با احتساب خسارات دادرسی و تأخیر تأدیه",
+        "start_char": 267,
+        "end_char": 304,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "به خواسته محکومیت تضامنی خواندگان",
+        "start_char": 139,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت مبلغ 687/501/604 ریال",
+        "start_char": 173,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "پس از تجدیدنظرخواهی بانک صادرات",
+        "start_char": 1997,
+        "end_char": 2028,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "پس از تجویز اعاده دادرسی توسط ریاست محترم قوّه قضائیه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه های بدوی و تجدیدنظر فوق الذکر را نقض می نماید",
+        "start_char": 4346,
+        "end_char": 4399,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "بانک",
+      "evidence": {
+        "quote": "بانک صادرات ایران",
+        "start_char": 18,
+        "end_char": 35,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت شرکت و. و م.ر.ز. و م.ق. و ش.م.ج. و م.ج.الف. و ش.س. و م.ص.ط.ر.",
+        "start_char": 68,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان در شرح دادخواست توضیح داده است",
+        "start_char": 503,
+        "end_char": 545,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدیر",
+      "evidence": {
+        "quote": "بایستی مدیر تصفیه طرف دعوی قرار گیرد",
+        "start_char": 1850,
+        "end_char": 1886,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "ناشی از قرارداد و ضمانت نامه شماره 87011369",
+        "start_char": 223,
+        "end_char": 266,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ضمانت‌نامه",
+      "evidence": {
+        "quote": "و ضمانت نامه شماره 87011369",
+        "start_char": 239,
+        "end_char": 266,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بانکی",
+      "evidence": {
+        "quote": "به موجب چک بانکی شماره... - 88/10/17",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شرکت قبل از تقدیم دادخواست منحل شده است",
+      "evidence": {
+        "quote": "این شرکت در تاریخ 91/05/01 یعنی قبل از تقدیم دادخواست توسط بانک خواهان منحل شده است",
+        "start_char": 1704,
+        "end_char": 1787,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انحلال شرکت در روزنامه رسمی ثبت نشده است",
+      "evidence": {
+        "quote": "در حالی که حسب آگهی انحلال شماره... ت مورخ 91/07/05 ثبت انحلال نشده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "31448",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "به علت تدلیس",
+        "start_char": 202,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فساد",
+      "evidence": {
+        "quote": "و کشف فساد",
+        "start_char": 215,
+        "end_char": 225,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "حق فسخ مبیع می باشد",
+        "start_char": 1713,
+        "end_char": 1732,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت خسارت",
+        "start_char": 186,
+        "end_char": 201,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خریداری",
+      "evidence": {
+        "quote": "خریداری نموده",
+        "start_char": 470,
+        "end_char": 483,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان",
+        "start_char": 1879,
+        "end_char": 1900,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به خواسته صدور حکم مبنی بر محکومیت خواندگان",
+        "start_char": 142,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "محکومیت خواندگان",
+        "start_char": 169,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "حق فسخ برای مشتری متصور است",
+        "start_char": 2953,
+        "end_char": 2980,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "اگر بایع تدلیس نموده باشد",
+        "start_char": 2823,
+        "end_char": 2848,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "سند رسمی شماره 19897",
+        "start_char": 229,
+        "end_char": 249,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "مبایعه نامه عادی مورخ 87/12/27",
+        "start_char": 350,
+        "end_char": 380,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتمان",
+        "start_char": 381,
+        "end_char": 397,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده با وانمود کردن به فضای ملک، از بی‌اطلاعی خواهان استفاده کرده است",
+      "evidence": {
+        "quote": "طوری وانمود نموده استکه فضای موجود درجلو و پشت و طرفین مبیع متعلق به واحد فروخته شده به خواهان می باشد و از بی اطلاعی خواهان استفاده کرده است",
+        "start_char": 572,
+        "end_char": 713,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مساحت آپارتمان و قسمت‌های اختصاصی در اسناد رسمی مشخص شده است",
+      "evidence": {
+        "quote": "مساحت آپارتمان موضوع معامله و همچنین قسمتهای اختصاصی و مشترک آپارتمان که جز مشاعات قید می شود بر اساس صورتمجلس تفکیکی اسناد رسمی مشخص بوده است",
+        "start_char": 1164,
+        "end_char": 1306,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

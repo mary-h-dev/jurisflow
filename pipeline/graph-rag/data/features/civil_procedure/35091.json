@@ -1,0 +1,183 @@
+{
+  "ruling_id": "35091",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "صدور حکم به ابطال رأی هیئت",
+        "start_char": 224,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مالکین مشاعی",
+        "start_char": 547,
+        "end_char": 559,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "تصرفات خود را مفروزی اعلام داشتند",
+        "start_char": 642,
+        "end_char": 675,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم به ابطال رأی هیئت",
+        "start_char": 214,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "موفق به اخذ رأی هیئت گردیده",
+        "start_char": 678,
+        "end_char": 705,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "به ایشان انتقال یافته",
+        "start_char": 620,
+        "end_char": 641,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نظریه کارشناس از سوی وکیل خواهان ضمناً مورد اعتراض قرار گرفته",
+        "start_char": 3982,
+        "end_char": 4043,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی فرجام خواسته که بدون توجه به جهات و معانی مذکور در فوق صادر گردیده نقض",
+        "start_char": 7657,
+        "end_char": 7731,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان",
+        "start_char": 2291,
+        "end_char": 2303,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ح. ع. و اداره ثبت طرقبه",
+        "start_char": 176,
+        "end_char": 213,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالکین",
+      "evidence": {
+        "quote": "مالکین مشاعی افراد دیگری نیز هستند",
+        "start_char": 1315,
+        "end_char": 1349,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "کارشناس",
+      "evidence": {
+        "quote": "آقای ی. خ. را به عنوان کارشناس انتخاب نموده",
+        "start_char": 3060,
+        "end_char": 3103,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی هیئت به شماره 92004733",
+        "start_char": 242,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "اخذ سند رسمی مفروزی",
+        "start_char": 1252,
+        "end_char": 1271,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قولنامه",
+      "evidence": {
+        "quote": "به موجب یک فقره قولنامه عادی",
+        "start_char": 5199,
+        "end_char": 5227,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده بدون افراز اقدام به اخذ سند مفروزی کرده است",
+      "evidence": {
+        "quote": "خوانده بدون اینکه افراز صورت گیرد اقدام به اخذ سند رسمی مفروزی از طریق هیئت ثبتی نموده است",
+        "start_char": 1209,
+        "end_char": 1299,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وکیل خواهان از وضعیت تصرف موکل خود بی‌اطلاعی اعلام کرد",
+      "evidence": {
+        "quote": "از تصرفات موکلین خود ابراز بی اطلاعی نموده",
+        "start_char": 7421,
+        "end_char": 7463,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

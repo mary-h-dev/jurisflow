@@ -1,0 +1,173 @@
+{
+  "ruling_id": "38790",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "به خواسته مطالبه خسارت",
+        "start_char": 134,
+        "end_char": 156,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ربا و معاملات باطله",
+      "evidence": {
+        "quote": "مطالبه خسارت استفاده بقا نامشروع",
+        "start_char": 159,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "به علاوه خسارات دادرسی",
+        "start_char": 262,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "ماده 1 قانون مسئولیت مدنی",
+        "start_char": 5071,
+        "end_char": 5096,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "وجود دین است",
+        "start_char": 4146,
+        "end_char": 4158,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارت",
+        "start_char": 144,
+        "end_char": 156,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ وصول شده از خواهان تمام و کمال به ایشان عودت گردیده",
+        "start_char": 3750,
+        "end_char": 3806,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رای داوری و احکام مورد اعاده دادرسی را خلاف شرع تشخیص و نقض نموده است",
+        "start_char": 1140,
+        "end_char": 1209,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت خانم م. ک. فرزند ع. با وکالت آقای م. ب. به خواسته مطالبه خسارت",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وجوه این شرکت نزد خوانده",
+        "start_char": 194,
+        "end_char": 218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "این شرکت فروشنده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی اپارتمان را در تاریخ تعیینی انتقال نداده",
+        "start_char": 618,
+        "end_char": 667,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "مبلغ 2٫910٫650٫100 ریال",
+        "start_char": 290,
+        "end_char": 313,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده مبلغی را از حساب شرکت تملک کرده است",
+      "evidence": {
+        "quote": "خوانده با صدور اجراییه مبلغ 100٫650٫20910 ریال از حسابهای این شرکت به طور نامشروع تملک نموده",
+        "start_char": 1237,
+        "end_char": 1329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رای داوری توسط دیوان عالی کشور نقض شده است",
+      "evidence": {
+        "quote": "رای داوری و احکام مورد اعاده دادرسی را خلاف شرع تشخیص و نقض نموده است",
+        "start_char": 1140,
+        "end_char": 1209,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده وجوه را به خواهان عودت داده است",
+      "evidence": {
+        "quote": "مبلغ وصول شده از خواهان تمام و کمال به ایشان عودت گردیده",
+        "start_char": 3750,
+        "end_char": 3806,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

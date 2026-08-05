@@ -1,0 +1,153 @@
+{
+  "ruling_id": "37681",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شرب خمر",
+      "evidence": {
+        "quote": "دایر بر شرب خمر",
+        "start_char": 232,
+        "end_char": 247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قتل عمدی",
+      "evidence": {
+        "quote": "منجر به قتل عمدی",
+        "start_char": 310,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دفاع مشروع",
+      "evidence": {
+        "quote": "رد ادعای دفاع مشروع",
+        "start_char": 1251,
+        "end_char": 1270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "حکم بر برائت صادر می گردد",
+        "start_char": 2121,
+        "end_char": 2146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضرب وجرح عمدی",
+      "evidence": {
+        "quote": "اتهام وی دایر بر ایراد ضرب وجرح عمدی ساده",
+        "start_char": 650,
+        "end_char": 691,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی",
+        "start_char": 19,
+        "end_char": 40,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه",
+        "start_char": 2092,
+        "end_char": 2106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد تجدیدنظرخواهی صادر می گردد",
+        "start_char": 2353,
+        "end_char": 2387,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اصیل ردیف اول",
+        "start_char": 339,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "در حق شاکی م. پ.",
+        "start_char": 723,
+        "end_char": 739,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مشروب الکلی",
+      "evidence": {
+        "quote": "نگهداری و حمل یک و نیم لیتر مشروب الکلی",
+        "start_char": 505,
+        "end_char": 544,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "یک درصد دیه کامل",
+        "start_char": 706,
+        "end_char": 722,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مشروب در خودرو کشف شده است",
+      "evidence": {
+        "quote": "در اتومبیل وی مقادیری مشروب کشف شده",
+        "start_char": 1918,
+        "end_char": 1953,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تعداد شرکت کنندگان در نزاع چهار نفر بوده است",
+      "evidence": {
+        "quote": "تعداد شرکت کنندگان در نزاع درمجموع چهار نفر بوده است",
+        "start_char": 1535,
+        "end_char": 1587,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

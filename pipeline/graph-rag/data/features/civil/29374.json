@@ -1,0 +1,163 @@
+{
+  "ruling_id": "29374",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تایید فسخ بیع",
+        "start_char": 100,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "به لحاظ خیار تدلیس",
+        "start_char": 163,
+        "end_char": 181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "تدلیس مطابق ماده 438 قانون مدنی",
+        "start_char": 219,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تایید فسخ بیع",
+        "start_char": 100,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "دایر به صدور حکم",
+        "start_char": 80,
+        "end_char": 96,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "بطلان دعوی",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر",
+        "start_char": 498,
+        "end_char": 527,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ه. ش.",
+        "start_char": 699,
+        "end_char": 718,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را عینا\" تایید می نماید",
+        "start_char": 1654,
+        "end_char": 1701,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "موجب فریب خواهان گردد",
+        "start_char": 354,
+        "end_char": 375,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از ناحیه خوانده واقع نشده",
+        "start_char": 325,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه عادی شماره 8848434 مورخ 93/2/4",
+        "start_char": 114,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 945",
+        "start_char": 719,
+        "end_char": 744,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عمليات فریب از سوی خوانده انجام نشده است",
+      "evidence": {
+        "quote": "در حالی که در مانحن فیه عملیاتی از ناحیه خوانده واقع نشده تا موجب فریب خواهان گردد",
+        "start_char": 293,
+        "end_char": 375,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ادعای تدلیس اثبات نشده است",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را غیر ثابت تشخیص",
+        "start_char": 423,
+        "end_char": 459,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

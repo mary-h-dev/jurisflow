@@ -1,0 +1,163 @@
+{
+  "ruling_id": "7106",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 91,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "وظایف و تکالیف قانونی زوجین نسبت به یکدیگر",
+        "start_char": 175,
+        "end_char": 217,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معاشرت",
+      "evidence": {
+        "quote": "تعهد بر حسن معاشرت با همسرش",
+        "start_char": 453,
+        "end_char": 480,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 812,
+        "end_char": 830,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "ردّ شده است",
+        "start_char": 388,
+        "end_char": 399,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "تجدیدنظر خواسته را عیناً تأیید می نماید",
+        "start_char": 1617,
+        "end_char": 1656,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن ردّ تجدیدنظرخواهی",
+        "start_char": 1574,
+        "end_char": 1595,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 91,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "تمکین خواهان",
+        "start_char": 342,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی",
+        "start_char": 1314,
+        "end_char": 1341,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده آقای ق.پ.",
+        "start_char": 1052,
+        "end_char": 1077,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "ملاحظه تصویر سند ازدواج",
+        "start_char": 151,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بر اساس دادنامه 9201302",
+        "start_char": 277,
+        "end_char": 300,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در دادگاه تعهد به حسن معاشرت داده است",
+      "evidence": {
+        "quote": "خوانده تعهد بر حسن معاشرت با همسرش در دادگاه داده است",
+        "start_char": 446,
+        "end_char": 499,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بیم جانی یا حیثیتی توسط زوجه ثابت نشده است",
+      "evidence": {
+        "quote": "عدم بیم جانی و حیثیتی توسط زوجه",
+        "start_char": 1154,
+        "end_char": 1185,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

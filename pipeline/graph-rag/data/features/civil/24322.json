@@ -1,0 +1,163 @@
+{
+  "ruling_id": "24322",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "دو فقره تجدیدنظرخواهی متقابل",
+        "start_char": 0,
+        "end_char": 28,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "متضمن محکومیت به تجمیع پلاکهای ثبتی",
+        "start_char": 158,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رهن",
+      "evidence": {
+        "quote": "و الزام به فک رهن",
+        "start_char": 266,
+        "end_char": 283,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دعوی",
+      "evidence": {
+        "quote": "فلذا قطع نظر از اصل دعوی",
+        "start_char": 1251,
+        "end_char": 1275,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "دو فقره تجدیدنظرخواهی متقابل",
+        "start_char": 0,
+        "end_char": 28,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع تجدیدنظرخواهی را صادر و اعلام می نماید",
+        "start_char": 718,
+        "end_char": 772,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه معترض عنه",
+        "start_char": 1455,
+        "end_char": 1479,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده جهت رسیدگی به محکمه محترم بدوی اعاده می شود",
+        "start_char": 1480,
+        "end_char": 1530,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "بانک س. بعنوان محکوم علیه",
+        "start_char": 32,
+        "end_char": 57,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "مدعی حضوری بودن می باشند، ملاحظه می شود دادنامه معترض عنه دلالتی بر محکومیت تجدیدنظرخواه",
+        "start_char": 484,
+        "end_char": 572,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اصلی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی خواهان های اصلی",
+        "start_char": 774,
+        "end_char": 810,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "انتقال رسمی آپارتمان موضوع خواسته",
+        "start_char": 919,
+        "end_char": 952,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "موضوع ماده 56 قانون اجرای احکام مدنی مراجعت به انتقال رسمی ملک داشته",
+        "start_char": 1066,
+        "end_char": 1134,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رأی قبلی غیابی بوده است",
+      "evidence": {
+        "quote": "در مرحله داوری بدوی که رأی غیابی اعلام شده",
+        "start_char": 441,
+        "end_char": 483,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست انتقال رسمی آپارتمان مطرح شده است",
+      "evidence": {
+        "quote": "صدور قرار عدم استماع دعوی الزام به انتقال رسمی آپارتمان موضوع خواسته",
+        "start_char": 884,
+        "end_char": 952,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

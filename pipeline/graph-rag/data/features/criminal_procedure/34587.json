@@ -1,0 +1,213 @@
+{
+  "ruling_id": "34587",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تجاوز",
+      "evidence": {
+        "quote": "تجاوز بعنف",
+        "start_char": 150,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تهدید",
+      "evidence": {
+        "quote": "تهدید به قتل",
+        "start_char": 176,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ایراد ضرب",
+      "evidence": {
+        "quote": "ایراد ضرب و جرح",
+        "start_char": 191,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سرقت",
+      "evidence": {
+        "quote": "سرقت",
+        "start_char": 209,
+        "end_char": 213,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طرح",
+      "evidence": {
+        "quote": "طرح و عنوان شده",
+        "start_char": 114,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعلام جرم نموده",
+        "start_char": 258,
+        "end_char": 273,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رسیدگی",
+      "evidence": {
+        "quote": "خواستار رسیدگی بموارد مذکور شده اند",
+        "start_char": 276,
+        "end_char": 311,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "بعمل",
+      "evidence": {
+        "quote": "تحقیق بعمل آمده",
+        "start_char": 520,
+        "end_char": 535,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار عدم",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت صادر نموده است",
+        "start_char": 1143,
+        "end_char": 1173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتخاب",
+      "evidence": {
+        "quote": "پس از انتخاب وکیل",
+        "start_char": 1298,
+        "end_char": 1315,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "متهم نسبت به تشدید قرار تامین و حدود قرار بازداشت موقت، اعتراض نموده است",
+        "start_char": 2327,
+        "end_char": 2399,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "مبنی بر محکومیت متهم",
+        "start_char": 2724,
+        "end_char": 2744,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهمین",
+        "start_char": 469,
+        "end_char": 475,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شکات",
+      "evidence": {
+        "quote": "شکایت شکات خصوصی",
+        "start_char": 433,
+        "end_char": 449,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل مدافع وی",
+        "start_char": 1565,
+        "end_char": 1578,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "همسر بانو ک.س.ز.",
+        "start_char": 1367,
+        "end_char": 1383,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "مبلغ چهار میلیون و پنجاه هزار تومان وجه نقد",
+        "start_char": 828,
+        "end_char": 871,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "وثیقه معادل مبلغ دو میلیارد ریال",
+        "start_char": 1766,
+        "end_char": 1798,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "همسر شاکی به دلیل هتک ناموس و تألمات روحی خودکشی کرده است",
+      "evidence": {
+        "quote": "همسرش بعلت عمل هتک ناموس و تألمات روحی ناشی از آن، با خودکشی به زندگی خود خاتمه داده است",
+        "start_char": 1403,
+        "end_char": 1491,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم با ایداع وثیقه از زندان آزاد شده است",
+      "evidence": {
+        "quote": "متهم با ایداع وثیقه از زندان آزاد شده است",
+        "start_char": 1832,
+        "end_char": 1873,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

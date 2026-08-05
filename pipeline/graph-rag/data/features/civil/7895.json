@@ -1,0 +1,173 @@
+{
+  "ruling_id": "7895",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال قرارداد اجاره",
+        "start_char": 85,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "باطل",
+      "evidence": {
+        "quote": "به خودی خود باطل می گردد",
+        "start_char": 693,
+        "end_char": 717,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "فضولی شناخته می شود",
+        "start_char": 1177,
+        "end_char": 1196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "اعلام بطلان معامله فضولی",
+        "start_char": 1346,
+        "end_char": 1370,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "مبادرت به تنظیم اجاره نامه و صلح سرقفلی رسمی",
+        "start_char": 807,
+        "end_char": 851,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی مطرحی طرفین دعوی",
+        "start_char": 2399,
+        "end_char": 2437,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "و خواهان ها با تقدیم دادخواست",
+        "start_char": 1306,
+        "end_char": 1335,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "اما خوانده باوجود اطلاع از فوت موکل",
+        "start_char": 718,
+        "end_char": 753,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالکین",
+      "evidence": {
+        "quote": "و علاوه و مالکین قهری نیز وکالتی به وکیل مزبور نداده اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "و تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": 2926,
+        "end_char": 2963,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "قرارداد اجاره شماره 11059 مورخ16/10/1387 دفترخانه 800 تهران",
+        "start_char": 101,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "مغازه بستنی فروشی",
+        "start_char": 209,
+        "end_char": 226,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "رونوشت سند مالکیت 22355 مورخ21/3/58",
+        "start_char": 293,
+        "end_char": 328,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه رسمی",
+      "evidence": {
+        "quote": "وکالت نامه رسمی 17175 مورخ10/3/91",
+        "start_char": 457,
+        "end_char": 490,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فوت موکل",
+      "evidence": {
+        "quote": "با فوت موکل م.م.",
+        "start_char": 540,
+        "end_char": 556,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تنظیم اجاره نامه پس از فوت موکل",
+      "evidence": {
+        "quote": "اما خوانده باوجود اطلاع از فوت موکل در تاریخ16/10/1387 به موجب وکالت نامه های رسمی مذکور مبادرت به تنظیم اجاره نامه و صلح سرقفلی رسمی 11059-16/10/87 به نام خود می نماید",
+        "start_char": 718,
+        "end_char": 886,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

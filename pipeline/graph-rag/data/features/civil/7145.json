@@ -1,0 +1,143 @@
+{
+  "ruling_id": "7145",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام به تمکین",
+        "start_char": 63,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ازدواج دائم",
+      "evidence": {
+        "quote": "با خوانده ازدواج دائم کرده",
+        "start_char": 225,
+        "end_char": 251,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی به خواسته الزام به تمکین به طرفیت خانم ح.ش. تقدیم دادگستری کرج",
+        "start_char": 43,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بازگشت",
+      "evidence": {
+        "quote": "حاضر به بازگشت نشده است",
+        "start_char": 343,
+        "end_char": 366,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نفی",
+      "evidence": {
+        "quote": "با نفی صلاحیت خویش",
+        "start_char": 900,
+        "end_char": 918,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به وکالت از آقای م.ت. دادخواستی",
+        "start_char": 21,
+        "end_char": 52,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با خوانده ازدواج دائم کرده",
+        "start_char": 225,
+        "end_char": 251,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "بدون اجازه زوج",
+        "start_char": 280,
+        "end_char": 294,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "اقامتگاه زوجه",
+        "start_char": 1004,
+        "end_char": 1017,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "عقدنامه شماره 9047 مورخ 17/9/81",
+        "start_char": 148,
+        "end_char": 179,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "از منزل خارج",
+        "start_char": 295,
+        "end_char": 307,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه بدون اجازه زوج از منزل خارج شده است",
+      "evidence": {
+        "quote": "مشارالیها در تاریخ 10/4/91 بدون اجازه زوج از منزل خارج",
+        "start_char": 253,
+        "end_char": 307,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج و زوجه با هم ازدواج کرده‌اند",
+      "evidence": {
+        "quote": "با خوانده ازدواج دائم کرده",
+        "start_char": 225,
+        "end_char": 251,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

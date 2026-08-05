@@ -1,0 +1,193 @@
+{
+  "ruling_id": "1732",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "تقاضای طلاق توافقی نموده اند",
+        "start_char": 82,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "تقاضای صدور گواهی عدم امکان سازش را دارم",
+        "start_char": 278,
+        "end_char": 318,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "دو عدد سکه از مهریه را بذل می کنم",
+        "start_char": 196,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "زوج نسبت به این رأی تجدیدنظرخواهی نموده است",
+        "start_char": 555,
+        "end_char": 598,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "زوج توسط وکیل خود نسبت به این رأی فرجام خواهی نموده است",
+        "start_char": 1087,
+        "end_char": 1142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "تقاضای نقض رأی و صدور حکم قانونی را نموده است",
+        "start_char": 1240,
+        "end_char": 1285,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابرام",
+      "evidence": {
+        "quote": "رأی فرجام خواسته را ابرام می نماید",
+        "start_char": 3220,
+        "end_char": 3254,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "دادخواستی تسلیم دادگاه نموده",
+        "start_char": 45,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "دو عدد سکه از مهریه را بذل می کنم",
+        "start_char": 196,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی تجدیدنظرخواسته تأیید شده است",
+        "start_char": 1054,
+        "end_char": 1086,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "با رد دعوی تجدیدنظرخواهی",
+        "start_char": 2376,
+        "end_char": 2400,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "بانوان م.ق. و م.م. به ترتیب وکلای زوج و زوجه",
+        "start_char": 0,
+        "end_char": 44,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجین",
+      "evidence": {
+        "quote": "وکلای زوجین در مورخ 26/2/1391",
+        "start_char": 1355,
+        "end_char": 1384,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "وکلای زوج و زوجه",
+        "start_char": 28,
+        "end_char": 44,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "دو عدد سکه از مهریه را بذل می کنم",
+        "start_char": 196,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "برابر سند رسمی وکالت شماره 17779-13/5/89",
+        "start_char": 1482,
+        "end_char": 1522,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وکیل بدون اختیار قبول بذل اقدام کرده است",
+      "evidence": {
+        "quote": "وکیل مذکور حق قبول بذل مهریه را نپذیرفته است",
+        "start_char": 790,
+        "end_char": 834,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست طلاق توافقی ارائه شده است",
+      "evidence": {
+        "quote": "تقاضای طلاق توافقی نموده اند",
+        "start_char": 82,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "4431",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهدات",
+      "evidence": {
+        "quote": "وجه ضمانت نامه حسن اجرای تعهدات",
+        "start_char": 105,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فورس ماژور",
+      "evidence": {
+        "quote": "عامل فورس ماژور",
+        "start_char": 2038,
+        "end_char": 2053,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قوه قاهره",
+      "evidence": {
+        "quote": "قوه قاهره",
+        "start_char": 2056,
+        "end_char": 2065,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصل حسن نیت",
+      "evidence": {
+        "quote": "رعایت اصل حسن نیت در قراردادها",
+        "start_char": 3221,
+        "end_char": 3251,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد مبلغ",
+        "start_char": 64,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ضبط",
+      "evidence": {
+        "quote": "اقدام به ضبط ضمانت نامه",
+        "start_char": 2240,
+        "end_char": 2263,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ش. نسبت به دادنامه",
+        "start_char": 3692,
+        "end_char": 3724,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده خرید ماده شیمیایی",
+        "start_char": 263,
+        "end_char": 287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موکل",
+      "evidence": {
+        "quote": "موکل با شرکت در مناقصه برنده اعلام گردیده است",
+        "start_char": 320,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان دعوی صادر",
+        "start_char": 3494,
+        "end_char": 3516,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه به استرداد",
+        "start_char": 3807,
+        "end_char": 3838,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ضمانت‌نامه",
+      "evidence": {
+        "quote": "ضمانت نامه مذکور صادر و تسلیم شده است",
+        "start_char": 391,
+        "end_char": 428,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ماده",
+      "evidence": {
+        "quote": "خرید ماده شیمیایی تعلیق شکن",
+        "start_char": 270,
+        "end_char": 297,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبلغ",
+      "evidence": {
+        "quote": "استرداد مبلغ 750/518/558/1ریال",
+        "start_char": 74,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "برنده شدن در مناقصه",
+      "evidence": {
+        "quote": "موکل با شرکت در مناقصه برنده اعلام گردیده است",
+        "start_char": 320,
+        "end_char": 365,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تحریم اتحادیه اروپا",
+      "evidence": {
+        "quote": "اگر تحریم اتحادیه اروپا شامل ماده مزبور گردد",
+        "start_char": 478,
+        "end_char": 522,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تحویل کالا",
+      "evidence": {
+        "quote": "تخلف خواهان با توجه به عدم تحویل کالا محرز است",
+        "start_char": 1654,
+        "end_char": 1700,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

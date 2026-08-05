@@ -1,0 +1,183 @@
+{
+  "ruling_id": "22926",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "صدور حکم به ابطال عقد نکاح",
+        "start_char": 101,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اکراه",
+      "evidence": {
+        "quote": "با تهدید و اکراه متوفی",
+        "start_char": 783,
+        "end_char": 805,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "موت",
+      "evidence": {
+        "quote": "عقدی که در مرض موت تنظیم گردیده",
+        "start_char": 26077,
+        "end_char": 26108,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "تسلیم و طی آن",
+        "start_char": 238,
+        "end_char": 251,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "متقاضی صدور حکم به شرح خواسته گردیده‌اند",
+        "start_char": 1496,
+        "end_char": 1536,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "از این رأی فرجام‌خواهی نمود",
+        "start_char": 29735,
+        "end_char": 29762,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 1538,
+        "end_char": 1549,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم ف. الف. ع.",
+        "start_char": 50,
+        "end_char": 74,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج (مرحوم)",
+        "start_char": 1353,
+        "end_char": 1364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "فرمان‌خواه به عنوان زوجه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "ورثه",
+      "evidence": {
+        "quote": "یکی از ورثه ایشان می‌باشد",
+        "start_char": 1307,
+        "end_char": 1332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مورث",
+      "evidence": {
+        "quote": "مورث فرجام‌خوانده",
+        "start_char": 30903,
+        "end_char": 30920,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "موضوع سند ازدواج",
+        "start_char": 128,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ماترک",
+      "evidence": {
+        "quote": "ماترک شوهرش",
+        "start_char": 26717,
+        "end_char": 26728,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "کپی شناسنامه",
+        "start_char": 1753,
+        "end_char": 1765,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مرحوم در حال نیمه اغماء بوده است",
+      "evidence": {
+        "quote": "در حال نیمه اغماء ناشی از تشدید بیماری مزمن و مسبوق به سابقه سرطان به‌سر‌می‌برده",
+        "start_char": 560,
+        "end_char": 640,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عقد در زمان بیماری شدید و قبل از فوت انجام شده است",
+      "evidence": {
+        "quote": "بیماری شدید و وخامت حال مرحوم مورث فرجام‌خوانده همزمان با انعقاد عقد نکاح دائم و مستقل مورّخ 1386/11/28 که منجر به فوت وی در تاریخ 1‍386/11/30 گردیده",
+        "start_char": 31780,
+        "end_char": 31929,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

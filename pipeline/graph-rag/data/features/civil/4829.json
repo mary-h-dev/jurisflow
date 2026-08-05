@@ -1,0 +1,143 @@
+{
+  "ruling_id": "4829",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شفعه",
+      "evidence": {
+        "quote": "اعلام اخذ به شفعه",
+        "start_char": 154,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوای خواهان",
+        "start_char": 1217,
+        "end_char": 1245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی م.ز.",
+        "start_char": 1412,
+        "end_char": 1437,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم مبنی بر اعلام اخذ به شفعه",
+        "start_char": 127,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام خواندگان به تنظیم سند رسمی",
+        "start_char": 310,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی دادنامه معترضٌ عنه عیناً تأیید می‌گردد",
+        "start_char": 2337,
+        "end_char": 2396,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان دادخواست خود را",
+        "start_char": 439,
+        "end_char": 466,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دفاعیات خوانده ردیف اول",
+        "start_char": 699,
+        "end_char": 722,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل قانونی درجهت نقض دادنامه ارائه نداده",
+        "start_char": 2145,
+        "end_char": 2199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "وجه التزام تجدیدنظرخواندگان به تنظیم سند رسمی",
+        "start_char": 1747,
+        "end_char": 1792,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "سه دانگ یک باب مغازه",
+        "start_char": 180,
+        "end_char": 200,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "منع نقل وانتقال ملک",
+        "start_char": 402,
+        "end_char": 421,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه گواهی اداره ثبت اسناد و املاک مبنی بر قابل تقسیم بودن ملک",
+      "evidence": {
+        "quote": "گواهی اداره ثبت اسناد و املاک محل (تصمیم واحد ثبتی) دایر بر قابل تقسیم و افراز بودن ملک موضوع خواسته ارائه و ابراز نشده است",
+        "start_char": 963,
+        "end_char": 1086,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

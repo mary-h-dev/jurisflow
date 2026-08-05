@@ -1,0 +1,123 @@
+{
+  "ruling_id": "5397",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "مبنی بر وقوع عقدی با مفاد و محتوای فوق",
+        "start_char": 425,
+        "end_char": 463,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "نهاد حق حبس راهی به آن ندارد",
+        "start_char": 913,
+        "end_char": 941,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقود",
+      "evidence": {
+        "quote": "حق حبس منحصر به عقود تملیکی است",
+        "start_char": 1041,
+        "end_char": 1072,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "الزام خواندگان به انجام تعهد مبنی بر ترخیص و تحویل کالا",
+        "start_char": 77,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای الف.الف.",
+        "start_char": 1682,
+        "end_char": 1709,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ادعای خواهان مبنی بر توافق",
+        "start_char": 234,
+        "end_char": 260,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان به انجام تعهد",
+        "start_char": 77,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظرخواه مبنی بر ترخیص کالای موضوع دادخواست",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "کالا",
+      "evidence": {
+        "quote": "ترخیص و تحویل کالا از گمرک بندرعباس",
+        "start_char": 114,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "توافق بر خرید و تحویل کالای طب سوزنی از چین",
+      "evidence": {
+        "quote": "توافق با خوانده در خصوص الزام خوانده به خرید سوزن های طب سوزنی از چین و تحویل آن به خواهان",
+        "start_char": 255,
+        "end_char": 345,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اقرار خوانده به انعقاد قرارداد",
+      "evidence": {
+        "quote": "پذیرش اصل انعقاد این قراردادها توسط خوانده در لایحه دفاعیه",
+        "start_char": 348,
+        "end_char": 406,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

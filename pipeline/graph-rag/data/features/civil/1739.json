@@ -1,0 +1,233 @@
+{
+  "ruling_id": "1739",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش جهت اجرای صیغه طلاق",
+        "start_char": 91,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم پرداخت",
+      "evidence": {
+        "quote": "عدم پرداخت نفقه",
+        "start_char": 200,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "عسر و حرج",
+        "start_char": 973,
+        "end_char": 982,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "تخلف زوج از شروط ضمن عقد",
+        "start_char": 1098,
+        "end_char": 1122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام زوجه به تمکین",
+        "start_char": 4002,
+        "end_char": 4021,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مهریه تقدیم و 200 سکه از 313 سکه را مطالبه کرده ام",
+        "start_char": 3513,
+        "end_char": 3570,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خروج",
+      "evidence": {
+        "quote": "خروج زوجه از کشور",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اخراج",
+      "evidence": {
+        "quote": "زوج را از منزل اخراج کرده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان در متن دادخواست",
+        "start_char": 275,
+        "end_char": 302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در نشانی معینه در دادخواست خوانده شناخته نشده است",
+        "start_char": 1369,
+        "end_char": 1418,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "نسبت به زوج",
+        "start_char": 224,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "نسبت به زوجه",
+        "start_char": 10167,
+        "end_char": 10179,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "زوجه داور خود را معرفی کرده است",
+        "start_char": 3925,
+        "end_char": 3956,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "سند نکاحیه 2427",
+        "start_char": 316,
+        "end_char": 331,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "ارسال جهیزیه به منزل پدر موکل",
+        "start_char": 531,
+        "end_char": 560,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه خود را مطالبه",
+        "start_char": 4621,
+        "end_char": 4640,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی پزشکی",
+      "evidence": {
+        "quote": "گواهی پزشکی قانونی",
+        "start_char": 10710,
+        "end_char": 10728,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین دو سال است که با هم زندگی مشترک ندارند",
+      "evidence": {
+        "quote": "متجاوز از مدت 2 سال سوءرفتار و سوءمعاشرت",
+        "start_char": 157,
+        "end_char": 197,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج، زوجه را از منزل مشترک اخراج کرده است",
+      "evidence": {
+        "quote": "زوج را از منزل اخراج کرده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج، جهیزیه زوجه را به منزل پدر او ارسال کرده است",
+      "evidence": {
+        "quote": "و جهازیه زوجه را به منزل پدر زوجه ارسال داشته است",
+        "start_char": 2352,
+        "end_char": 2401,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه برای ادامه تحصیل به کشور ر سفر کرده است",
+      "evidence": {
+        "quote": "با اجازه زوج نسبت به ادامه تحصیل به کشور ر رفته",
+        "start_char": 617,
+        "end_char": 664,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج، حکم تمکین علیه زوجه گرفته است",
+      "evidence": {
+        "quote": "حکم بر الزام زوجه به تمکین از زوج صادرشده",
+        "start_char": 21446,
+        "end_char": 21487,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

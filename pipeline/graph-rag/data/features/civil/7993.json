@@ -1,0 +1,213 @@
+{
+  "ruling_id": "7993",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام به تمکین",
+        "start_char": 94,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "الزام به پرداخت نفقه",
+        "start_char": 195,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه معوقه",
+      "evidence": {
+        "quote": "الزام به پرداخت نفقه معوقه",
+        "start_char": 195,
+        "end_char": 221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی",
+        "start_char": 685,
+        "end_char": 702,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "طبق شرط مندرج در عقدنامه",
+        "start_char": 402,
+        "end_char": 426,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام به تمکین",
+        "start_char": 84,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام به پرداخت نفقه",
+        "start_char": 195,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تادیه",
+      "evidence": {
+        "quote": "به تأدیه نفقه معوقه",
+        "start_char": 1485,
+        "end_char": 1504,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "خواست نقض",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان آقای ب.گ.",
+        "start_char": 0,
+        "end_char": 33,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده خانم ز.ق.",
+        "start_char": 58,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "مورد انکار زوج قرار گرفته است",
+        "start_char": 2097,
+        "end_char": 2126,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "الزام زوجه به زندگی در منزل شوهرش",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به تأدیه نفقه معوقه",
+        "start_char": 1472,
+        "end_char": 1504,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظر خوانده محکوم شده",
+        "start_char": 1505,
+        "end_char": 1536,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "عقدنامه زوجین",
+        "start_char": 419,
+        "end_char": 432,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "تهیه مسکن مورد نظر زوجه",
+        "start_char": 545,
+        "end_char": 568,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه",
+      "evidence": {
+        "quote": "اقرار به عدم پرداخت نفقه دارد",
+        "start_char": 346,
+        "end_char": 375,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ترک منزل توسط زوجه",
+      "evidence": {
+        "quote": "زوجه منزل مشترک را ترک نموده",
+        "start_char": 1923,
+        "end_char": 1951,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه عذر موجه برای ترک منزل",
+      "evidence": {
+        "quote": "و عذر موجهی نیز برای ترک منزل ارائه ننموده",
+        "start_char": 1975,
+        "end_char": 2017,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

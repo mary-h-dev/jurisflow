@@ -1,0 +1,183 @@
+{
+  "ruling_id": "5156",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "ضمن احراز مالکیت خواهان نسبت به پلاک ثبتی یادشده",
+        "start_char": 341,
+        "end_char": 389,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان آن صادر و اعلام می گردد",
+        "start_char": 2962,
+        "end_char": 2998,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتبار",
+      "evidence": {
+        "quote": "برخلاف اصل تسلیط و اعتبار مالکیت افراد",
+        "start_char": 1934,
+        "end_char": 1972,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نافذ",
+      "evidence": {
+        "quote": "به موجب ماده 10 قانون مدنی معتبر و نافذ است",
+        "start_char": 4374,
+        "end_char": 4417,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت قیمت روز",
+        "start_char": 94,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "به علت تصرف ملک فوق توسط خوانده",
+        "start_char": 214,
+        "end_char": 245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال سند",
+      "evidence": {
+        "quote": "مبنی بر انتقال سند پلاک ثبتی 53210/138 به نام شهرداری",
+        "start_char": 1613,
+        "end_char": 1666,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه صادره",
+        "start_char": 4472,
+        "end_char": 4493,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ضمن احراز مالکیت خواهان نسبت به پلاک ثبتی یادشده",
+        "start_char": 341,
+        "end_char": 389,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت قیمت روز",
+        "start_char": 94,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شهرداری",
+      "evidence": {
+        "quote": "به طرفیت شهرداری",
+        "start_char": 55,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه به پرداخت",
+        "start_char": 3425,
+        "end_char": 3455,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بطلان دعوی تقابل تجدیدنظرخواه",
+        "start_char": 3543,
+        "end_char": 3572,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "قیمت روز پلاک ثبتی 53210 فرعی از 138 اصلی",
+        "start_char": 117,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "ایفای تعهدات قرارداد شماره 11193",
+        "start_char": 1566,
+        "end_char": 1598,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شهرداری ملک را برای اجرای طرح‌های عمرانی تصرف کرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه برای اجرای طرح های عمرانی خود پلاک فوق الاشاره را تصرف نموده است",
+        "start_char": 3772,
+        "end_char": 3849,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "میان مالک و شهرداری توافقاتی صورت گرفته است",
+      "evidence": {
+        "quote": "بین مالکین رقبات مورد تصرف و شهرداری توافقاتی صورت گرفته",
+        "start_char": 4178,
+        "end_char": 4234,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "ruling_id": "25125",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 70,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "حاکی از علقه زوجیت فیمابین است",
+        "start_char": 2404,
+        "end_char": 2434,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "احراز وقوع عسر و حرج برای زوجه",
+        "start_char": 5996,
+        "end_char": 6025,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "ایشان تمکین از من ندارد",
+        "start_char": 3200,
+        "end_char": 3223,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی... تقدیم می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "حاضر است در قبال طلاق همه حقوق خود را بذل نماید",
+        "start_char": 709,
+        "end_char": 756,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحقیق",
+      "evidence": {
+        "quote": "تقاضای تحقیق محلی می نماید",
+        "start_char": 1213,
+        "end_char": 1239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را نقض و حکم به رد دعوی صادر",
+        "start_char": 9204,
+        "end_char": 9250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده جهت تکمیل تحقیقات و صدور رأی مجدد به شعبه محترم 19 دادگاه تجدیدنظر اصفهان اعاده می شود",
+        "start_char": 10667,
+        "end_char": 10760,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه اعلام می کند",
+        "start_char": 1017,
+        "end_char": 1034,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "در پاسخ زوج اعلام نمود",
+        "start_char": 758,
+        "end_char": 780,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "آقای م. الف. پدر زوجه بعنوان داور زوجه",
+        "start_char": 1566,
+        "end_char": 1604,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل زوج تقاضای تحقیق محلی می نماید",
+        "start_char": 1204,
+        "end_char": 1239,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "رونوشت مصدق سند نکاحیه شماره... -1387/1/1",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "با دادنامه شماره 9409970369800318",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین در متارکه بوده و زوجه در منزل پدرش است",
+      "evidence": {
+        "quote": "زوجین درمتارکه بوده و زوجه با هر دو فرزندان خود در منزل پدرش بسرمی برد",
+        "start_char": 2669,
+        "end_char": 2738,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در دو شغل صبح و عصر مشغول به کار است",
+      "evidence": {
+        "quote": "با اشتغال در دو شغل صبح و بعد از ظهر هزینه زندگی خود و دو فرزندش را تأمین می نماید",
+        "start_char": 10433,
+        "end_char": 10515,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از زوجه ضرب و شتم کرده است",
+      "evidence": {
+        "quote": "ایراد ضرب مکرر زوج نسبت به فرزندانش",
+        "start_char": 9960,
+        "end_char": 9995,
+        "confidence": 0.8
+      }
+    }
+  ]
+}

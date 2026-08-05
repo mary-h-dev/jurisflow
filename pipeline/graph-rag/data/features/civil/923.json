@@ -1,0 +1,173 @@
+{
+  "ruling_id": "923",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته فسخ نکاح",
+        "start_char": 101,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "قطعاً با وقوع ازدواج مرتکب تدلیس نشده است",
+        "start_char": 1631,
+        "end_char": 1672,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "برای طرف مقابل حق فسخ ایجاد می گردد",
+        "start_char": 1449,
+        "end_char": 1484,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ نکاح",
+      "evidence": {
+        "quote": "به خواسته فسخ نکاح",
+        "start_char": 101,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی آقای ب.ک. صادر می نماید",
+        "start_char": 2173,
+        "end_char": 2211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ب.ک.",
+        "start_char": 2355,
+        "end_char": 2386,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 3068,
+        "end_char": 3087,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "مدارک و مستندات ابرازی زوج",
+        "start_char": 143,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در مانحن فیه زوجه در زمان ازدواج با زوج",
+        "start_char": 1674,
+        "end_char": 1713,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی",
+        "start_char": 2844,
+        "end_char": 2871,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند طلاق وی از همسر قبلی",
+        "start_char": 1777,
+        "end_char": 1801,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "سند نکاحیه فی مابین",
+        "start_char": 1906,
+        "end_char": 1925,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره101243",
+        "start_char": 2452,
+        "end_char": 2474,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "جدا زندگی کردن زوجین به مدت یک سال",
+      "evidence": {
+        "quote": "به مدت یک سال است که جدا از یکدیگر زندگی می کنیم",
+        "start_char": 266,
+        "end_char": 314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم داشتن فرزند از ازدواج فعلی",
+      "evidence": {
+        "quote": "فرزندی از ایشان ندارم",
+        "start_char": 316,
+        "end_char": 337,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم توانایی زوجه در باروری",
+      "evidence": {
+        "quote": "عدم توانایی زوجه را در باروری و بچه دار شدن",
+        "start_char": 923,
+        "end_char": 966,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

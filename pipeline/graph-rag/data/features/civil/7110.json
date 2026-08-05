@@ -1,0 +1,143 @@
+{
+  "ruling_id": "7110",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "به خواسته سلب حضانت فرزند",
+        "start_char": 54,
+        "end_char": 79,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انحطاط اخلاقی",
+      "evidence": {
+        "quote": "تجدیدنظرخواه انحطاط اخلاقی نداشته",
+        "start_char": 1365,
+        "end_char": 1398,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان بدوی صادر می گردد",
+        "start_char": 1743,
+        "end_char": 1785,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم س.س.",
+        "start_char": 899,
+        "end_char": 922,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته نقض",
+        "start_char": 1713,
+        "end_char": 1740,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان اظهار داشته است",
+        "start_char": 169,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "ضمن سلب حضانت از خوانده مذکور",
+        "start_char": 646,
+        "end_char": 675,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه انحطاط اخلاقی نداشته",
+        "start_char": 1365,
+        "end_char": 1398,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "با عنایت به دادخواست تقدیمی و سند نکاحیه",
+        "start_char": 99,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "فتوکپی شناسنامه",
+        "start_char": 142,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 251-31/2/93",
+        "start_char": 942,
+        "end_char": 975,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پدر زوجه سابقه کیفری دارد",
+      "evidence": {
+        "quote": "پدر ایشان در کار خلاف در منزل که همسرم با فرزند مشترک زندگی می نماید مدام قماربازی در خانه می کند و سابقه کیفری متعددی دارد",
+        "start_char": 219,
+        "end_char": 342,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "والدین از یکدیگر جدا هستند",
+      "evidence": {
+        "quote": "ابوین او جدا از یکدیگر زندگی می کنند",
+        "start_char": 1241,
+        "end_char": 1277,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

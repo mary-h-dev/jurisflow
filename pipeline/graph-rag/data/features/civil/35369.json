@@ -1,0 +1,203 @@
+{
+  "ruling_id": "35369",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "مطالبه وجه التزام",
+        "start_char": 57,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "ادعای خیار غبن داشته",
+        "start_char": 686,
+        "end_char": 706,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "ادعایی از جهت فسخ",
+        "start_char": 1125,
+        "end_char": 1142,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه وجه التزام",
+        "start_char": 57,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "تخلیه ملک",
+        "start_char": 402,
+        "end_char": 411,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "آماده پرداخت تتمه ثمن بوده",
+        "start_char": 769,
+        "end_char": 795,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تودیع",
+      "evidence": {
+        "quote": "وجه آن را به حساب خواهان تودیع و یا به صندوق دادگستری تودیع نماید",
+        "start_char": 1378,
+        "end_char": 1443,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "دادگاه اعتراض معترض را وارد ندانسته",
+        "start_char": 2253,
+        "end_char": 2288,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خانم ز. الف. به طرفیت آقای ع. ق.ح.",
+        "start_char": 7,
+        "end_char": 46,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده درتاریخ 93/3/25",
+        "start_char": 208,
+        "end_char": 230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی تجدیدنظرخواه",
+        "start_char": 2035,
+        "end_char": 2068,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخوانده",
+        "start_char": 2069,
+        "end_char": 2092,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارطمان مسکونی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "باقی ثمن المعامله",
+        "start_char": 308,
+        "end_char": 325,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد تجاری و تضمینی",
+      "evidence": {
+        "quote": "طی چکهای تضمینی ارائه شده",
+        "start_char": 1265,
+        "end_char": 1290,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "تخلیه ملک",
+        "start_char": 402,
+        "end_char": 411,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ملک را خریداری کرده است",
+      "evidence": {
+        "quote": "خوانده درتاریخ 93/3/25 یک دستگاه آپارتمان مسکونی از خواهان خریداری",
+        "start_char": 208,
+        "end_char": 274,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده با وجود تخلیه ملک، وجه را پرداخت نکرده است",
+      "evidence": {
+        "quote": "خوانده علی رغم تخلیه ملک و اعلام رسمی از طریق اظهارنامه حاضربه پرداخت وجه نبوده است",
+        "start_char": 387,
+        "end_char": 470,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان ادعای فسخ یا خیار غبن داشته اما از آن انصراف داده است",
+      "evidence": {
+        "quote": "اگرچه خواهان قبل از موعد تحویل و تخلیه ملک ادعایی از جهت فسخ یا خیار غبن داشته است با رد دعوی ایشان با انصراف از این امر",
+        "start_char": 1082,
+        "end_char": 1202,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

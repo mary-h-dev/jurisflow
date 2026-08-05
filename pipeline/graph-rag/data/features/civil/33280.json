@@ -1,0 +1,173 @@
+{
+  "ruling_id": "33280",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل زمان تصرف",
+        "start_char": 147,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "و شرط ضمنی آن که مقرر گردید",
+        "start_char": 701,
+        "end_char": 728,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهانها",
+        "start_char": 1456,
+        "end_char": 1482,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظر خواهی",
+        "start_char": 1540,
+        "end_char": 1559,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه اجرت المثل",
+        "start_char": 139,
+        "end_char": 164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تخلیه و تحویل خریداران داده",
+        "start_char": 796,
+        "end_char": 823,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظر خواهی",
+        "start_char": 3109,
+        "end_char": 3130,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نسبت به سهم خواهانها",
+        "start_char": 215,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وکیل خوانده",
+        "start_char": 486,
+        "end_char": 497,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده نامبرده",
+        "start_char": 734,
+        "end_char": 749,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریداران",
+      "evidence": {
+        "quote": "تحویل خریداران داده",
+        "start_char": 804,
+        "end_char": 823,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی انتقال شماره 1211",
+        "start_char": 410,
+        "end_char": 436,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "نظر به شرط مذکور در مبایعه نامه",
+        "start_char": 1006,
+        "end_char": 1037,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "از پلاک ثبتی 28 فرعی از 90 اصلی",
+        "start_char": 2145,
+        "end_char": 2176,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تخلیه ملک در موعد مقرر",
+      "evidence": {
+        "quote": "در صورت مسامحه اضافه بر این که ملزم به تخلیه و تحویل است",
+        "start_char": 850,
+        "end_char": 906,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود شرط خسارت در قرارداد",
+      "evidence": {
+        "quote": "تعیین خسارات ناشی از تاخیر در انجام تعهد",
+        "start_char": 1049,
+        "end_char": 1089,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

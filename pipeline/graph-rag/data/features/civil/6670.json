@@ -1,0 +1,173 @@
+{
+  "ruling_id": "6670",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "حق واگذاری و انتقال به غیر و شخص ثالث را تحت هیچ عنوانی و شرطی نداشته",
+        "start_char": 1926,
+        "end_char": 1995,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال رسمی",
+      "evidence": {
+        "quote": "الزام به انتقال رسمی یک دستگاه آپارتمان",
+        "start_char": 150,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "کل ثمن معامله را پرداخت می نماید",
+        "start_char": 327,
+        "end_char": 359,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "ملک به وی تحویل می شود",
+        "start_char": 363,
+        "end_char": 385,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ساخت",
+      "evidence": {
+        "quote": "تخریب و ساخت ملک را به عهده می گیرد",
+        "start_char": 461,
+        "end_char": 496,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واگذار",
+      "evidence": {
+        "quote": "آپارتمان متنازع فیه سهم اختصاصی او می باشد به خواهان واگذار می نماید",
+        "start_char": 542,
+        "end_char": 610,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظر خواسته",
+        "start_char": 2249,
+        "end_char": 2280,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان دعوی ملک را از آقای ی.ف. خریداری",
+        "start_char": 285,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان‌ها",
+      "evidence": {
+        "quote": "تجدیدنظر خواهان ها با مشارکت کننده بنام ی.ف.",
+        "start_char": 1881,
+        "end_char": 1925,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارطمان با انباری جزء پلاک ثبتی 2181/7182",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "ملاحظه قرارداد عادی مورخه 19/08/1387",
+        "start_char": 248,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت در ساخت",
+      "evidence": {
+        "quote": "بموجب قرارداد مشارکت در ساخت",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان ملک را از ی.ف خریداری کرده است",
+      "evidence": {
+        "quote": "خواهان دعوی ملک را از آقای ی.ف. خریداری",
+        "start_char": 285,
+        "end_char": 324,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثمن معامله پرداخت شده است",
+      "evidence": {
+        "quote": "کل ثمن معامله را پرداخت می نماید",
+        "start_char": 327,
+        "end_char": 359,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک تحویل شده است",
+      "evidence": {
+        "quote": "ملک به وی تحویل می شود",
+        "start_char": 363,
+        "end_char": 385,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در قرارداد مشارکت، حق انتقال به غیر وجود ندارد",
+      "evidence": {
+        "quote": "حق واگذاری و انتقال به غیر و شخص ثالث را تحت هیچ عنوانی و شرطی نداشته",
+        "start_char": 1926,
+        "end_char": 1995,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

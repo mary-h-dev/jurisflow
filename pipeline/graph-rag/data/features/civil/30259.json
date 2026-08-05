@@ -1,0 +1,203 @@
+{
+  "ruling_id": "30259",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مستحق للغیر",
+      "evidence": {
+        "quote": "مستحق للغیر درآمدن مبیع",
+        "start_char": 219,
+        "end_char": 242,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "قانون مسئولیت مدنی",
+        "start_char": 1308,
+        "end_char": 1326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 1748,
+        "end_char": 1766,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "الزام خوانده به استرداد",
+        "start_char": 170,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "اخذ مبلغ هجده میلیون ریال",
+        "start_char": 542,
+        "end_char": 567,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تحویل آپارتمان",
+        "start_char": 593,
+        "end_char": 607,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "خلع ید خواهان از آپارتمان",
+        "start_char": 739,
+        "end_char": 764,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 2765,
+        "end_char": 2785,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان",
+        "start_char": 1664,
+        "end_char": 1676,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده",
+        "start_char": 170,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "شرکت تجدیدنظرخواه",
+        "start_char": 2178,
+        "end_char": 2195,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "استرداد کلیه ثمن دریافتی",
+        "start_char": 186,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "تحویل آپارتمان",
+        "start_char": 593,
+        "end_char": 607,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "غرامات",
+      "evidence": {
+        "quote": "با احتساب کلیه غرامات",
+        "start_char": 243,
+        "end_char": 264,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "و خسارات دادرسی",
+        "start_char": 276,
+        "end_char": 291,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "بابت هزینه دادرسی",
+        "start_char": 1608,
+        "end_char": 1625,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حق‌الوکاله",
+      "evidence": {
+        "quote": "بابت حق الوکاله",
+        "start_char": 1648,
+        "end_char": 1663,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شرکت تعاونی آپارتمان را به شخص دیگری واگذار کرده است",
+      "evidence": {
+        "quote": "تحویل آن به عضو قبلی شرکت تعاونی",
+        "start_char": 778,
+        "end_char": 810,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده مبالغی را از دو نفر مختلف دریافت کرده است",
+      "evidence": {
+        "quote": "از یکدستگاه آپارتمان همزمان از دو نفر وجوهی اخذ و در حساب شرکت وجود داشته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

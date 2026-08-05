@@ -1,0 +1,233 @@
+{
+  "ruling_id": "6566",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "زوجیت دائم",
+      "evidence": {
+        "quote": "وجود علقه زوجیت دائم فی مابین طرفین",
+        "start_char": 140,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "به سبب عقد نکاح دائم",
+        "start_char": 176,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "تکلیف زوجه تمکین از زوج",
+        "start_char": 478,
+        "end_char": 501,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "قابل واخواهی",
+        "start_char": 1074,
+        "end_char": 1086,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظر",
+      "evidence": {
+        "quote": "قابل تجدیدنظر",
+        "start_char": 1123,
+        "end_char": 1136,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "حضور نیافته",
+      "evidence": {
+        "quote": "خوانده با وصف ابلاغ قانونی در دادگاه حضور نیافته",
+        "start_char": 704,
+        "end_char": 752,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "لایحه ای ارسال نداشته",
+        "start_char": 755,
+        "end_char": 776,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دفاعی",
+      "evidence": {
+        "quote": "در قبال دعوی خواهان دفاعی به عمل نیاورده",
+        "start_char": 790,
+        "end_char": 830,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "واخواهی واخواه ردّ اعلام می نماید",
+        "start_char": 1649,
+        "end_char": 1682,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه فوق الذکر",
+        "start_char": 2796,
+        "end_char": 2821,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست ع.م. فرزند م. با وکالت آقای ی.خ. به طرفیت خانم م.ت. فرزند الف. به خواسته تمکین",
+        "start_char": 0,
+        "end_char": 95,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "عدم حضور خوانده در دادگاه",
+        "start_char": 307,
+        "end_char": 332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تکلیف زوجه تمکین از زوج",
+        "start_char": 478,
+        "end_char": 501,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تکلیف زوجه تمکین از زوج",
+        "start_char": 478,
+        "end_char": 501,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "واخواه دلیل و بینه کافی و مؤثر",
+        "start_char": 1402,
+        "end_char": 1432,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه 00291 که حکایت از محکومیت تمکین زوجه دارد صادر گردید",
+        "start_char": 2128,
+        "end_char": 2196,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "کپی سند نکاحیه",
+        "start_char": 125,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه 9209970216800291",
+        "start_char": 1304,
+        "end_char": 1328,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "منزل معرفی شده قابل بهره برداری نیست",
+        "start_char": 2305,
+        "end_char": 2341,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم حضور خوانده در جلسات دادگاه",
+      "evidence": {
+        "quote": "عدم حضور خوانده در دادگاه با وصف ابلاغ قانونی",
+        "start_char": 307,
+        "end_char": 352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "منزل معرفی شده قابل بهره‌برداری نیست",
+      "evidence": {
+        "quote": "منزل معرفی شده قابل بهره برداری نیست",
+        "start_char": 2305,
+        "end_char": 2341,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود تبعه افغانستان در محل سکونت",
+      "evidence": {
+        "quote": "منزل مهیا شده چند نفر تبعه افغانستان در آن محل سکونت دارند",
+        "start_char": 2468,
+        "end_char": 2526,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

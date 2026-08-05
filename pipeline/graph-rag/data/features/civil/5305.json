@@ -1,0 +1,183 @@
+{
+  "ruling_id": "5305",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "و زوجه در عسر و حرج قرار دارد",
+        "start_char": 397,
+        "end_char": 426,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "صدور حکم طلاق",
+        "start_char": 109,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظر",
+      "evidence": {
+        "quote": "قابل تجدیدنظر درمحاکم تجدیدنظر استان تهران خواهد بود",
+        "start_char": 1468,
+        "end_char": 1520,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "قابل فرجام خواهی در دیوان عالی کشور نمی باشد",
+        "start_char": 1551,
+        "end_char": 1595,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "زوجه حاضر است نصف مهر خود را در قبال طلاق به زوج بذل کند",
+        "start_char": 467,
+        "end_char": 523,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ایراد و اعتراض مدلل و مؤثری که موجبات نقض یا گسیختن دادنامه معترض লিখে را در نظر دادگاه فراهم سازد به عمل نیامده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "رأی صادره مطابق با موازین شرعی و قانونی اصدار یافته و ایرادی از حیث شکلی و ماهوی بر آن وارد نمی باشد",
+        "start_char": 1978,
+        "end_char": 2078,
+        "confidence": 0.85
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان الف.م. فرزند و. با وکالت ز.ف.",
+        "start_char": 0,
+        "end_char": 36,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده ک.ع. فرزند ح.",
+        "start_char": 37,
+        "end_char": 66,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از تاریخ 8/5/1389 که زوجین باهم دیگر ازدواج کرده اند",
+        "start_char": 289,
+        "end_char": 341,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "و زوجه در عسر و حرج قرار دارد",
+        "start_char": 397,
+        "end_char": 426,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ک.ع.",
+        "start_char": 1645,
+        "end_char": 1668,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به موجب تصویر سند نکاحیه پیوستی",
+        "start_char": 203,
+        "end_char": 234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهر",
+      "evidence": {
+        "quote": "نصف مهر خود را در قبال طلاق به زوج بذل کند",
+        "start_char": 481,
+        "end_char": 523,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پزشکی قانونی",
+      "evidence": {
+        "quote": "تعارض گواهی های پزشکی قانونی به شماره های 19338/31/1",
+        "start_char": 2169,
+        "end_char": 2221,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم برقراری رابطه جنسی از زمان ازدواج",
+      "evidence": {
+        "quote": "از تاریخ 8/5/1389 که زوجین باهم دیگر ازدواج کرده اند تاکنون هم بستر نشده است",
+        "start_char": 289,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ناتوانی جنسی زوج",
+      "evidence": {
+        "quote": "در خصوص ناتوانی جنسی زوج مودی گواهی های صادره حکایت از ناتوانی نسبی زوج بوده",
+        "start_char": 2287,
+        "end_char": 2363,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

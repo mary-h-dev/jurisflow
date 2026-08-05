@@ -1,0 +1,193 @@
+{
+  "ruling_id": "6539",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "عقودی که بر طبق قانون واقع شده باشد بین متعاملین و قائم مقام آن ها لازم الاتباع است",
+        "start_char": 7971,
+        "end_char": 8054,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوای خواهان ها صادر و اعلام می نماید",
+        "start_char": 7191,
+        "end_char": 7241,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "به خواسته الزام به تحویل و تنظیم سند رسمی سه واحد آپارتمان",
+        "start_char": 172,
+        "end_char": 230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "مغازه در تاریخ 17/06/1383 تحویل خواندگان گردید",
+        "start_char": 1766,
+        "end_char": 1812,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "محکومیت به پرداخت خسارات دادرسی",
+        "start_char": 522,
+        "end_char": 553,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی دادگاه بدوی را نقض و حکم بر محکومیت خواندگان",
+        "start_char": 8490,
+        "end_char": 8538,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان ها اظهار داشته اند",
+        "start_char": 586,
+        "end_char": 617,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "مغازه در تاریخ 17/06/1383 تحویل خواندگان گردید",
+        "start_char": 1766,
+        "end_char": 1812,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "و فروشندگان صرفاً تعهد داشتند",
+        "start_char": 5768,
+        "end_char": 5797,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "سند مالکیت مبیع بنام خواندگان (خریدار) انتقال نیافته است",
+        "start_char": 5711,
+        "end_char": 5767,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "الزام به تحویل و تنظیم سند رسمی سه واحد آپارتمان",
+        "start_char": 182,
+        "end_char": 230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "مبیع یک باب مغازه به مساحت 113 مترمربع",
+        "start_char": 5603,
+        "end_char": 5641,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی",
+        "start_char": 3400,
+        "end_char": 3423,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به موجب مبایعه نامه مورخ 15/06/1383",
+        "start_char": 1191,
+        "end_char": 1226,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "از ثمن معامله مبلغ 000/000/500 ریال طی چک تأمین و پرداخت می گردد",
+        "start_char": 1457,
+        "end_char": 1521,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مغازه تحویل شده است",
+      "evidence": {
+        "quote": "مغازه در تاریخ 17/06/1383 تحویل خواندگان گردید",
+        "start_char": 1766,
+        "end_char": 1812,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "آپارتمان‌ها تحویل داده نشده‌اند",
+      "evidence": {
+        "quote": "سه واحد آپارتمان مسکونی هیچ گاه به تحویل و تصرف عملی موکلین درنیامده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند مالکیت آپارتمان‌ها به نام خواندگان صادر شده است",
+      "evidence": {
+        "quote": "سند مالکیت آپارتمان پلاک 70676/88 به مساحت 46/83 در تاریخ 17/06/1386 ذیل صفحه 383 دفتر... تهران پارس بنام آقای ک.الف. صادر و تحویل گردیده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

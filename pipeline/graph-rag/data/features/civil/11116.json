@@ -1,0 +1,233 @@
+{
+  "ruling_id": "11116",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک به نام س.",
+        "start_char": 42,
+        "end_char": 69,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "وکالت",
+      "evidence": {
+        "quote": "وکالت‌نامه شماره ... مورخ 1390/9/8",
+        "start_char": 279,
+        "end_char": 313,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عزل",
+      "evidence": {
+        "quote": "هیچ‌گونه سابقه‌ای از عزل وکیل مشاهده نشده",
+        "start_char": 397,
+        "end_char": 438,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال دعوی خواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.ه.",
+        "start_char": 895,
+        "end_char": 918,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حقوقی",
+      "evidence": {
+        "quote": "وکالت‌نامه مذکور راجع به موضوع حضانت فاقد نفوذ حقوقی است",
+        "start_char": 1989,
+        "end_char": 2045,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خروج",
+      "evidence": {
+        "quote": "اذن خروج طفل از کشور",
+        "start_char": 348,
+        "end_char": 368,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابلاغ",
+      "evidence": {
+        "quote": "قابل اعتراض و تجدیدنظرخواهی در دادگاه تجدیدنظر استان تهران خواهد بود",
+        "start_char": 775,
+        "end_char": 843,
+        "confidence": 0.75
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "حکم به حضانت فرزند مشترک 7 ساله به نام س.",
+        "start_char": 2259,
+        "end_char": 2300,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی م.ه. به طرفیت پ.م.",
+        "start_char": 8,
+        "end_char": 31,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دعوی م.ه. به طرفیت پ.م.",
+        "start_char": 8,
+        "end_char": 31,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "پدر",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک 7 ساله به نام س.ه..",
+        "start_char": 1098,
+        "end_char": 1135,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "مادر",
+      "evidence": {
+        "quote": "اقدام مادر برای خروج طفل از کشور",
+        "start_char": 452,
+        "end_char": 484,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.ه.",
+        "start_char": 895,
+        "end_char": 918,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.ه. از دادنامه",
+        "start_char": 895,
+        "end_char": 929,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دعوی",
+      "evidence": {
+        "quote": "دعوی م.ه. به طرفیت پ.م.",
+        "start_char": 8,
+        "end_char": 31,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "وکالت‌نامه شماره ... مورخ 1390/9/8",
+        "start_char": 279,
+        "end_char": 313,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره 980 مورخ 1391/9/29",
+        "start_char": 181,
+        "end_char": 213,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پدر-child حضانت ندارد",
+      "evidence": {
+        "quote": "حضانت طفل با ولی قهری بوده",
+        "start_char": 1495,
+        "end_char": 1521,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "child 7 سال دارد",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک 7 ساله به نام س.",
+        "start_char": 1098,
+        "end_char": 1132,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پدر-child را به مادر واگذار کرده",
+      "evidence": {
+        "quote": "وکالت‌نامه شماره ... مورخ 1390/9/8",
+        "start_char": 279,
+        "end_char": 313,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مادر-child را از کشور خارج کرده",
+      "evidence": {
+        "quote": "اقدام مادر برای خروج طفل از کشور",
+        "start_char": 452,
+        "end_char": 484,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

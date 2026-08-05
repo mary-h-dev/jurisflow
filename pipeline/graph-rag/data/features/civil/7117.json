@@ -1,0 +1,193 @@
+{
+  "ruling_id": "7117",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "تاریخ وقوع عقد نکاح",
+        "start_char": 144,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت",
+        "start_char": 287,
+        "end_char": 304,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "پرداخت نفقه مستلزم تمکین زوجه از زوج بوده",
+        "start_char": 533,
+        "end_char": 574,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استحقاق",
+      "evidence": {
+        "quote": "در دعوی مطالبه نفقه اصل بر استحقاق زوجه است",
+        "start_char": 1565,
+        "end_char": 1608,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "در شروط ضمن عقد حق تعیین مسکن با زوجه بوده",
+        "start_char": 1343,
+        "end_char": 1385,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه معوقه",
+        "start_char": 98,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "زوج به نظریه کارشناس اعتراض ولی از ناحیه زوجه اعتراضی واصل نگردیده است",
+        "start_char": 2062,
+        "end_char": 2132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض عنه",
+        "start_char": 2418,
+        "end_char": 2443,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت زوج تجدیدنظر خوانده",
+        "start_char": 2555,
+        "end_char": 2589,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان را وارد تشخیص نداده",
+        "start_char": 625,
+        "end_char": 656,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم پ.ب.",
+        "start_char": 879,
+        "end_char": 902,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت همسرش تجدیدنظر خوانده آقای غ.ب.",
+        "start_char": 1036,
+        "end_char": 1076,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تمکین زوجه از زوج بوده",
+        "start_char": 552,
+        "end_char": 574,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخواه (زوجه) صادر و اعلام می دارد",
+        "start_char": 2824,
+        "end_char": 2870,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه معوقه",
+        "start_char": 98,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "حق تعیین مسکن با زوجه بوده",
+        "start_char": 1359,
+        "end_char": 1385,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "ضمن احراز رابطه زوجیت زوجین",
+        "start_char": 283,
+        "end_char": 310,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در محل اقامت زوجه حضور نداشته است",
+      "evidence": {
+        "quote": "زوجه در محل اقامت زوج در شهرستان تبریز حضور نداشته",
+        "start_char": 480,
+        "end_char": 530,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

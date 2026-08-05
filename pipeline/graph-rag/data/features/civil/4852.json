@@ -1,0 +1,153 @@
+{
+  "ruling_id": "4852",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "بابت تأخیر در تنظیم سند رسمی از قرار روزانه به مبلغ 000/000/2 ریال",
+        "start_char": 127,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسؤولیت",
+      "evidence": {
+        "quote": "و مسؤولیت قراردادی است که ناشی از حکومت اراده است",
+        "start_char": 857,
+        "end_char": 906,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مدنی",
+      "evidence": {
+        "quote": "باشد که موضوع مربوط به خسارت ناشی از مسؤولیت مدنی باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه التزام",
+        "start_char": 74,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "تأخیر در تنظیم سند رسمی",
+        "start_char": 132,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی نسبت به خوانده ردیف اول صادر",
+        "start_char": 458,
+        "end_char": 499,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی خانم پ.خ.",
+        "start_char": 1457,
+        "end_char": 1487,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست خواهان 1ـ ع.الف.",
+        "start_char": 0,
+        "end_char": 32,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده 1ـ ر.ن.",
+        "start_char": 41,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "که به موجب آن تجدیدنظرخواه به پرداخت مبلغ",
+        "start_char": 1636,
+        "end_char": 1677,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "حسب مفاد مبایعه نامه استنادی",
+        "start_char": 283,
+        "end_char": 311,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "تأخیر در تنظیم سند رسمی",
+        "start_char": 132,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "برای تنظیم سند رسمی انتقال آپارتمان مورد معامله",
+        "start_char": 1774,
+        "end_char": 1821,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تنظیم سند رسمی در موعد معین",
+      "evidence": {
+        "quote": "عدم انجام تعهد (عدم حضور در دفتر اسناد رسمی در موعد معین برای تنظیم سند رسمی انتقال آپارتمان مورد معامله)",
+        "start_char": 1717,
+        "end_char": 1822,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

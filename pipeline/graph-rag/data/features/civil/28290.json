@@ -1,0 +1,143 @@
+{
+  "ruling_id": "28290",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رشد",
+      "evidence": {
+        "quote": "سن رشد در دختران ،نه سال قمری می باشد",
+        "start_char": 516,
+        "end_char": 551,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دعوی",
+      "evidence": {
+        "quote": "حکم به رددعوی را صادرمی نماید",
+        "start_char": 750,
+        "end_char": 778,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی درمحاکم تجدیدنظراستان تهران می باشد",
+        "start_char": 823,
+        "end_char": 877,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "لغو",
+      "evidence": {
+        "quote": "به خواسته لغوحضانت فرزندمشترک",
+        "start_char": 63,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واگذار",
+      "evidence": {
+        "quote": "حضانت فرزندم رابه او واگذارکرد",
+        "start_char": 210,
+        "end_char": 240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن ردّ تجدیدنظرخواهی دادنامه مذکور تایید می شود",
+        "start_char": 1390,
+        "end_char": 1438,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ازآنجاکه خوانده اعتیادبه موادمخدرداردصلاحیت حضانت ازفرزندم رانداردوالخ.خوانده درجلسه رسیدگی حاضرنشده ودفاعی ارائه ننموده است دادگاه باعنایت به محتویات پرونده وصرفنظرازاینکه به تایید خواهان ،دادگاه تجدیدنظراستان تهران حضانت فرزندمشترک رابه خوانده واگذارنموده است",
+        "start_char": 241,
+        "end_char": 502,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "ازآنجاکه خوانده اعتیادبه موادمخدرداردصلاحیت حضانت ازفرزندم رانداردوالخ.خوانده درجلسه رسیدگی حاضرنشده ودفاعی ارائه ننموده است",
+        "start_char": 241,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی تجدیدنظرخواه بخواسته لغو حضانت فرزند مشترک توسط زوج صادر شده است",
+        "start_char": 1071,
+        "end_char": 1151,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "لغو حضانت فرزند مشترک توسط زوج صادر شده است",
+        "start_char": 1108,
+        "end_char": 1151,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "به خواسته لغوحضانت فرزندمشترک",
+        "start_char": 63,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده دارای اعتیاد به مواد مخدر است",
+      "evidence": {
+        "quote": "خوانده اعتیادبه موادمخدردارد",
+        "start_char": 250,
+        "end_char": 278,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزند در شرف رسیدن به سن رشد شرعی است",
+      "evidence": {
+        "quote": "فرزندمشترک زوجین درشرف رسیدن به سن رشدشرعی قراردارد",
+        "start_char": 552,
+        "end_char": 603,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

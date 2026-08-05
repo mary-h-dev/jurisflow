@@ -1,0 +1,163 @@
+{
+  "ruling_id": "28274",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "رد عقد فضولی",
+        "start_char": 2439,
+        "end_char": 2451,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مطلع از مالکیت مشاعی",
+        "start_char": 1043,
+        "end_char": 1063,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "ارکان مسئولیت قراردادی",
+        "start_char": 3278,
+        "end_char": 3300,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "الزام خواندگان به تحویل",
+        "start_char": 166,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارات وارده",
+        "start_char": 241,
+        "end_char": 260,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "تنفیذ خواندگان ردیف های دوم و سوم نیز واقع نشده است",
+        "start_char": 699,
+        "end_char": 750,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی آقایان الف. ر.ز. و ک. ک.",
+        "start_char": 1557,
+        "end_char": 1596,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان 1. الف. ر.ز.",
+        "start_char": 0,
+        "end_char": 32,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خواندگان 1. س. الف.و.",
+        "start_char": 77,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "اطلاع مستاجر از مالکیت مشاعی",
+        "start_char": 2591,
+        "end_char": 2619,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجاره نامه",
+      "evidence": {
+        "quote": "موضوع اجاره نامه عادی مورخه 1391/6/15",
+        "start_char": 201,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره",
+      "evidence": {
+        "quote": "تحویل مورد اجاره",
+        "start_char": 184,
+        "end_char": 200,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اجاره‌نامه بدون اذن سایر شرکا تنظیم شده است",
+      "evidence": {
+        "quote": "تنظیم اجاره نامه برای شش دانگ محل متنازع فیه بدون اذن و اجاره خواندگان ردیف های دوم و سوم صورت گرفته",
+        "start_char": 535,
+        "end_char": 635,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عین مستأجره تحویل داده نشده است",
+      "evidence": {
+        "quote": "با توجه به عدم تحویل عین مستاجره",
+        "start_char": 2032,
+        "end_char": 2064,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ادعای جعل نسبت به سند مطرح شده است",
+      "evidence": {
+        "quote": "ادعای جعل نسبت به قسمتی از سند اجاره و مهر بنگاه نموده است",
+        "start_char": 2265,
+        "end_char": 2323,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

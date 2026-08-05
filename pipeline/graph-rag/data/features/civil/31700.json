@@ -1,0 +1,163 @@
+{
+  "ruling_id": "31700",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت",
+        "start_char": 579,
+        "end_char": 596,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "عدم ارائه دلیل از سوی زوج بر برائت ذمه",
+        "start_char": 668,
+        "end_char": 706,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه معوقه",
+        "start_char": 67,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "نفقه پرداخت نموده است",
+        "start_char": 461,
+        "end_char": 482,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "این بخش از دادنامه را نقض",
+        "start_char": 1769,
+        "end_char": 1794,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأي تجدید نظر خواسته تایید میگردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خانم ز. ح.ن. با وکالت آقای ش. خ. به طرفیت آقای ر. ب.چ. به خواسته مطالبه نفقه معوقه",
+        "start_char": 7,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده همسر دائمی من است",
+        "start_char": 277,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظر خواهی آقای ر. ب.چ.",
+        "start_char": 1248,
+        "end_char": 1276,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "حسب ادعای زوج",
+        "start_char": 1522,
+        "end_char": 1535,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تکذیب زوجه نیز قرار نگرفته است",
+        "start_char": 1544,
+        "end_char": 1574,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه معوقه",
+        "start_char": 77,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "زوجین در منزل مشترک بسر می برنده اند",
+        "start_char": 1575,
+        "end_char": 1611,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین در منزل مشترک زندگی می‌کردند",
+      "evidence": {
+        "quote": "زوجین در منزل مشترک بسر می برنده اند",
+        "start_char": 1575,
+        "end_char": 1611,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در تاریخ‌های مورد ادعا نفقه پرداخت نکرده است",
+      "evidence": {
+        "quote": "عدم ارائه دلیل از سوی زوج بر برائت ذمه از تاریخ 25 /2 /94 خویش",
+        "start_char": 668,
+        "end_char": 730,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

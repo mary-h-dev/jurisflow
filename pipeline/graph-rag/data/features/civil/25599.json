@@ -1,0 +1,183 @@
+{
+  "ruling_id": "25599",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "به خواسته اثبات نسب",
+        "start_char": 111,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت",
+        "start_char": 736,
+        "end_char": 747,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "رابطه سببی",
+        "start_char": 800,
+        "end_char": 810,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جمهوری اسلامی ایران",
+      "evidence": {
+        "quote": "کسب تابعیت جمهوری اسلامی ایران",
+        "start_char": 673,
+        "end_char": 703,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "خواسته خود را از اثبات نسب به الزام اداره ثبت- احوال تهران به صدور شناسنامه برای خواهان تغییر داده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مسترد",
+      "evidence": {
+        "quote": "دادخواست خود را نسبت به خواندگان ردیف اول و دوم... را مسترد نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "قرار ابطال دادخواست صادر و اعلام می‌گردد",
+        "start_char": 512,
+        "end_char": 552,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر و اعلام می‌گردد",
+        "start_char": 1160,
+        "end_char": 1202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم تجدیدنظر استان تهران می‌باشد",
+        "start_char": 1251,
+        "end_char": 1313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "تأیید می‌نماید",
+        "start_char": 2342,
+        "end_char": 2356,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 148,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "نسبت به خواندگان ردیف اول و دوم",
+        "start_char": 312,
+        "end_char": 343,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیلی که موجبات نقض",
+        "start_char": 2019,
+        "end_char": 2051,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "دفاعیات تجدیدنظرخوانده",
+        "start_char": 1872,
+        "end_char": 1894,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "صدور شناسنامه",
+        "start_char": 241,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وکیل خواهان خواسته دعوا را از اثبات نسب به الزام به صدور شناسنامه تغییر داد",
+      "evidence": {
+        "quote": "وکیل خواهان در جلسه اول رسیدگی خواسته خود را از اثبات نسب به الزام اداره ثبت- احوال تهران به صدور شناسنامه برای خواهان تغییر داده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان نسبت به پدر و مادر خود دادخواست را مسترد کرد",
+      "evidence": {
+        "quote": "دادخواست خود را نسبت به خواندگان ردیف اول و دوم که پدر و مادر خواهان (حسب اظهار مشارالیه) می‌باشند را مسترد نموده است",
+        "start_char": 296,
+        "end_char": 413,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

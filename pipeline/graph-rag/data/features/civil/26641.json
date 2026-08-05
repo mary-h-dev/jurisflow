@@ -1,0 +1,203 @@
+{
+  "ruling_id": "26641",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "عدم تمکین زوجه",
+        "start_char": 268,
+        "end_char": 282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "نفقه را عبارت از همه نیازهای متعارف و متناسب با وضعیت زن",
+        "start_char": 1280,
+        "end_char": 1336,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقدام",
+      "evidence": {
+        "quote": "اقدام نموده است",
+        "start_char": 229,
+        "end_char": 244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "وارد",
+      "evidence": {
+        "quote": "وارد بنظر نمی رسد",
+        "start_char": 377,
+        "end_char": 394,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد آن",
+      "evidence": {
+        "quote": "حکم به رد آن صادر و اعلام می گردد",
+        "start_char": 594,
+        "end_char": 627,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض کرده",
+        "start_char": 2342,
+        "end_char": 2376,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت تجدیدنظرخوانده",
+        "start_char": 2420,
+        "end_char": 2449,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اعلامی خواهان",
+        "start_char": 360,
+        "end_char": 373,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده نسبت به تهیه منزل",
+        "start_char": 169,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تقاضای تجدیدنظرخواه(زوجه)",
+        "start_char": 967,
+        "end_char": 992,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده (زوج)",
+        "start_char": 1007,
+        "end_char": 1027,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده (زوج)",
+        "start_char": 1007,
+        "end_char": 1027,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "شئونات زوجه",
+        "start_char": 512,
+        "end_char": 523,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "الزام به تهیه مسکن مستقل",
+        "start_char": 104,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره",
+      "evidence": {
+        "quote": "با ارائه قراردار اجاره",
+        "start_char": 194,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کد رهگیری",
+      "evidence": {
+        "quote": "و کد رهگیری",
+        "start_char": 217,
+        "end_char": 228,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک آپارتمان 70 متری",
+        "start_char": 1611,
+        "end_char": 1630,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده برای اثبات اقدام خود قرارداد اجاره ارائه کرده است",
+      "evidence": {
+        "quote": "خوانده نسبت به تهیه منزل با ارائه قراردار اجاره و کد رهگیری اقدام نموده است",
+        "start_char": 169,
+        "end_char": 244,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج با همسر دوم خود در مناطق شمالی تهران ساکن است",
+      "evidence": {
+        "quote": "خود زوج نیز در حال حاضر با همسر دوم خود در مناطق شمالی تهران ساکن است",
+        "start_char": 2103,
+        "end_char": 2172,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

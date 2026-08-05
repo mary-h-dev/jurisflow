@@ -1,0 +1,112 @@
+{
+  "ruling_id": "21886",
+  "concepts": [],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "عدم صدور دستورالعمل اجرایی نمی‌تواند مانع اجرای قانون باشد",
+        "start_char": 550,
+        "end_char": 608,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابلاغ",
+      "evidence": {
+        "quote": "رأی معترض‌عنه در تاریخ 93/7/22 ابلاغ",
+        "start_char": 1064,
+        "end_char": 1100,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارایه",
+      "evidence": {
+        "quote": "دادخواست تجدید‌نظر‌خواهی در مورخ 93/9/9، خارج از مهلت مقرر قانونی ارایه شده است",
+        "start_char": 1104,
+        "end_char": 1183,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "کارمند",
+      "evidence": {
+        "quote": "به بانوان کارمند، مرخصی زایمان به مدت نه ماه تعلق می‌گیرد",
+        "start_char": 103,
+        "end_char": 160,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "رییس شعبه",
+      "evidence": {
+        "quote": "رییس شعبه 45 دیوان عدالت اداری- رنگ‌ آمیز",
+        "start_char": 973,
+        "end_char": 1014,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستشار شعبه",
+      "evidence": {
+        "quote": "رئیس شعبه نهم تجدید نظر دیوان عدالت اداری ـ مستشار شعبه تقوی - خضرایی",
+        "start_char": 1390,
+        "end_char": 1459,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قانون",
+      "evidence": {
+        "quote": "ماده واحده قانون اصلاح قوانین تنظیم جمعیت و خانواده مصوب 1392/3/20 مجلس شورای اسلامی",
+        "start_char": 0,
+        "end_char": 84,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "دادخواست تجدید‌نظر‌خواهی در مورخ 93/9/9، خارج از مهلت مقرر قانونی ارایه شده است",
+        "start_char": 1104,
+        "end_char": 1183,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مرخصی زایمان 6 ماهه به 9 ماه افزایش یافت",
+      "evidence": {
+        "quote": "مدت مرخصی زایمان بانوان کارمند از 6 (شش) ماه به 9 ماه افزایش یافته است",
+        "start_char": 294,
+        "end_char": 364,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدید‌نظر‌خواهی خارج از مهلت مقرر قانونی ارایه شد",
+      "evidence": {
+        "quote": "دادخواست تجدید‌نظر‌خواهی در مورخ 93/9/9، خارج از مهلت مقرر قانونی ارایه شده است",
+        "start_char": 1104,
+        "end_char": 1183,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

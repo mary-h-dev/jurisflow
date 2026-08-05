@@ -1,0 +1,163 @@
+{
+  "ruling_id": "29023",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد اجاره",
+      "evidence": {
+        "quote": "انعقاد عقد اجاره",
+        "start_char": 1088,
+        "end_char": 1104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شراکت",
+      "evidence": {
+        "quote": "حسب مندرجات آن شراکت نامه است",
+        "start_char": 1399,
+        "end_char": 1428,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان آن صادر واعلام می دارد",
+        "start_char": 2093,
+        "end_char": 2128,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام خواندگان به تنظیم قراداد رسمی",
+        "start_char": 129,
+        "end_char": 164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "تقاضای واریز اجاره بها را نموده است",
+        "start_char": 748,
+        "end_char": 783,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شرکت خدمات ک. ی.الف.پ.الف.",
+        "start_char": 2299,
+        "end_char": 2339,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "تقاضای رد دعوی مطروحه را نموده است",
+        "start_char": 1130,
+        "end_char": 1164,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان در دادخواست تقدیمی چنین اعلام داشته است",
+        "start_char": 290,
+        "end_char": 336,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت بانک... شعبه خ و شرکت گ. ی.شهریار",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "الزام تجدیدنظرخواندگان به تنظیم قرارداد رسمی",
+        "start_char": 2488,
+        "end_char": 2532,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "اجاره ملک به شماره پلاک...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "مفاد قرارداد شماره.....- 24 / 4 / 91",
+        "start_char": 1293,
+        "end_char": 1329,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین قرارداد اصلی شراکت بوده است نه اجاره",
+      "evidence": {
+        "quote": "از مفاد قرارداد شماره.....- 24 / 4 / 91 افاده انعقاد عقد اجاره فیمابین خواهان وخوانده ردیف دوم نمی گردد بلکه حسب مندرجات آن شراکت نامه است",
+        "start_char": 1290,
+        "end_char": 1428,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک از طریق اجرای ثبت به خوانده ردیف اول منتقل شده است",
+      "evidence": {
+        "quote": "از طریق انتقال اجرایی وفق مقررات از طریق اجرای ثبت ملک به خوانده ردیف اول منتقل شده است",
+        "start_char": 543,
+        "end_char": 630,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

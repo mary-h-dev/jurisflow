@@ -1,0 +1,173 @@
+{
+  "ruling_id": "38546",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال رای داوری",
+        "start_char": 96,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "تنفیذانفساخ مبایعه نامه",
+        "start_char": 155,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "از جمله شرط داوری",
+        "start_char": 1093,
+        "end_char": 1110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "ازصلاحیت داورخارج بوده",
+        "start_char": 937,
+        "end_char": 959,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "باطل",
+      "evidence": {
+        "quote": "رای داوری باطل بوده",
+        "start_char": 1299,
+        "end_char": 1318,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "موظف است. که ثمن دریافتی رامستردنماید",
+        "start_char": 1529,
+        "end_char": 1566,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت وجه التزام",
+        "start_char": 242,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "محکومیت خواهان به استرداد",
+        "start_char": 180,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "درحق خوانده دعوای حاضرصادرشده است",
+        "start_char": 365,
+        "end_char": 398,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "اقای ح. ک. به عنوان داورمرضی الطرفین",
+        "start_char": 478,
+        "end_char": 514,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده موظف است",
+        "start_char": 1521,
+        "end_char": 1537,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه نامه تنظیمی بین طرفین",
+        "start_char": 424,
+        "end_char": 452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای داوری مورخ 22/9/1402",
+        "start_char": 102,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "ثمن دریافتی",
+        "start_char": 1542,
+        "end_char": 1553,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم حضور اکثریت داوران برای صدور رای",
+      "evidence": {
+        "quote": "درحالیکه فقط یک نفراقدام نموده است",
+        "start_char": 742,
+        "end_char": 776,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پیش‌بینی شرط انفساخ در قرارداد",
+      "evidence": {
+        "quote": "انفساخ یا منفسخ شدن مبایعه نامه.بین انها شرط و پیش بینی نشده است",
+        "start_char": 1385,
+        "end_char": 1449,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

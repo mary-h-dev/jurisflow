@@ -1,0 +1,153 @@
+{
+  "ruling_id": "32179",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بازنشستگی",
+      "evidence": {
+        "quote": "بازنشستگی عادی افراد مشمول قانون [تأمین اجتماعی]",
+        "start_char": 67,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زیان",
+      "evidence": {
+        "quote": "استفاده ازمزایای مشاغل سخت و زیان آور",
+        "start_char": 154,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظرخواهی در شعب تجدید نظر دیوان عدالت اداری می باشد",
+        "start_char": 992,
+        "end_char": 1054,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "شکایت",
+      "evidence": {
+        "quote": "حکم به ورود شکایت",
+        "start_char": 726,
+        "end_char": 743,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام سازمان تأمین اجتماعی استان همدان",
+        "start_char": 746,
+        "end_char": 784,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اصلاح",
+      "evidence": {
+        "quote": "اصلاح حکم بازنشستگی شاکی",
+        "start_char": 812,
+        "end_char": 836,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت ما به التفاوت",
+        "start_char": 851,
+        "end_char": 871,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "در خصوص اعتراض و تجدید نظرخواهی مطروحه",
+        "start_char": 1098,
+        "end_char": 1136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "حکم به تأیید و استواری دادنامه",
+        "start_char": 1870,
+        "end_char": 1900,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "اصلاح حکم بازنشستگی شاکی",
+        "start_char": 812,
+        "end_char": 836,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تأمین اجتماعی",
+      "evidence": {
+        "quote": "الزام سازمان تأمین اجتماعی استان همدان",
+        "start_char": 746,
+        "end_char": 784,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "طبق مفاد دادنامه شماره 225 ـ 89/6/22",
+        "start_char": 0,
+        "end_char": 36,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "کمیته تشخیص مشاغل، مشاغل را زیان آور تشخیص داده است",
+      "evidence": {
+        "quote": "کمیته تشخیص مشاغل سخت و زیان آور استان همدان، مشاغل را زیان آور تشخیص داده",
+        "start_char": 367,
+        "end_char": 441,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اعتراض مطرح شده وارد نیست",
+      "evidence": {
+        "quote": "اعتراض مطروحه را غیر وارد تشخیص",
+        "start_char": 1836,
+        "end_char": 1867,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

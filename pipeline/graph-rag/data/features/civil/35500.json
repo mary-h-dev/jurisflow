@@ -1,0 +1,193 @@
+{
+  "ruling_id": "35500",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق ملاقات",
+      "evidence": {
+        "quote": "این حق را از موکل دریغ می نماید",
+        "start_char": 776,
+        "end_char": 807,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "هرچند حضانت و نگهداری طفل هم حق و هم تکلیف ابوین است",
+        "start_char": 1876,
+        "end_char": 1928,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون اساسی",
+      "evidence": {
+        "quote": "در اصل 40 قانون اساسی نیز بیان شده است",
+        "start_char": 2318,
+        "end_char": 2356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در یکی از محاکم محترم دادگاه تجدیدنظر",
+        "start_char": 3684,
+        "end_char": 3740,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "عمل",
+      "evidence": {
+        "quote": "از ملاقات مادربزرگ با نوه ممانعت بعمل می آورد",
+        "start_char": 686,
+        "end_char": 731,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض دادنامه معترض عنه را",
+        "start_char": 4485,
+        "end_char": 4519,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "راعاٌت تایید مینماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "پیرامون دادخواست خواهان خانم ح.خ. ص.ف.",
+        "start_char": 0,
+        "end_char": 38,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای الف. خ.",
+        "start_char": 67,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اقارب و خویشاوندان",
+      "evidence": {
+        "quote": "موکل در حال حاضر مادربزرگ این بچه 2/5 ساله دختر می باشد",
+        "start_char": 538,
+        "end_char": 593,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای الف. خ.",
+        "start_char": 3822,
+        "end_char": 3848,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نوه",
+      "evidence": {
+        "quote": "به خواسته ی صدور حکم به ملاقات فرزند فرزند(نوه)",
+        "start_char": 96,
+        "end_char": 143,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "به انضمام پرداخت خسارات دادرسی",
+        "start_char": 144,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حق‌الوکاله",
+      "evidence": {
+        "quote": "و حق الوکاله وکیل",
+        "start_char": 175,
+        "end_char": 192,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره730",
+        "start_char": 3871,
+        "end_char": 3889,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دختر خواهان در سال 1391 به عقد خوانده درآمد",
+      "evidence": {
+        "quote": "در سال 1391 دخترخواهان به عقد دائمی خوانده در آمد",
+        "start_char": 308,
+        "end_char": 357,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "یکی از فرزندان در زایمان فوت شد",
+      "evidence": {
+        "quote": "فرزند موکل خانم الف.ش. همراه یکی از قل ها فوت می شوند",
+        "start_char": 436,
+        "end_char": 489,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده از ملاقات مادربزرگ با نوه جلوگیری می‌کند",
+      "evidence": {
+        "quote": "از ملاقات مادربزرگ با نوه ممانعت بعمل می آورد",
+        "start_char": 686,
+        "end_char": 731,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

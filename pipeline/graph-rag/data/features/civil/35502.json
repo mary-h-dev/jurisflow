@@ -1,0 +1,123 @@
+{
+  "ruling_id": "35502",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر و اعلام می گردد",
+        "start_char": 537,
+        "end_char": 582,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "وارد دانستن اعتراض معترض",
+        "start_char": 1209,
+        "end_char": 1233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دلیل بر نقض توافقات طرفین نمی باشد",
+        "start_char": 467,
+        "end_char": 501,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر و اعلام می گردد",
+        "start_char": 537,
+        "end_char": 582,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با عنایت به دفاعیات وکیل خوانده",
+        "start_char": 165,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه میتواند ماهی سه ساعت بافرزند خود ملاقات نماید",
+        "start_char": 1414,
+        "end_char": 1472,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "وارد دانستن اعتراض معترض",
+        "start_char": 1209,
+        "end_char": 1233,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "به موجب دادنامه شماره 930201536",
+        "start_char": 218,
+        "end_char": 249,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "ملاقات فرزند مشترک",
+        "start_char": 108,
+        "end_char": 126,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین بر سر حضانت و ملاقات فرزند توافق کرده‌اند",
+      "evidence": {
+        "quote": "زوجین به موجب دادنامه شماره 930201536 مورخ 4/9/93 بر امر حضانت و ملاقات فرزند و دیگر موارد توافق نموده اند",
+        "start_char": 212,
+        "end_char": 318,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملاقات فعلی ماهی یک ساعت است",
+      "evidence": {
+        "quote": "ماهی یک ساعت ملاقات براساس توافق بوده",
+        "start_char": 978,
+        "end_char": 1015,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

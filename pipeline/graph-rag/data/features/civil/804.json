@@ -1,0 +1,153 @@
+{
+  "ruling_id": "804",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "صدور حکم به حضانت فرزند مشترک",
+        "start_char": 85,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ازدواج",
+      "evidence": {
+        "quote": "اقدام خوانده به ازدواج مجدد",
+        "start_char": 145,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "پس از وقوع طلاق",
+        "start_char": 291,
+        "end_char": 306,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعلام داشت با توجه به اقدام خوانده به ازدواج مجدد",
+        "start_char": 241,
+        "end_char": 290,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "منکر",
+      "evidence": {
+        "quote": "منکر ادعای خواهان شد",
+        "start_char": 430,
+        "end_char": 450,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تأیید اقدام به ازدواج مجدد",
+        "start_char": 500,
+        "end_char": 526,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ایراد تجدیدنظرخواه در حدی نیست",
+        "start_char": 1348,
+        "end_char": 1378,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دعوی خواهان آقای الف.غ.",
+        "start_char": 0,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده خانم ع.ز.",
+        "start_char": 40,
+        "end_char": 65,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی خانم ع.ز.",
+        "start_char": 988,
+        "end_char": 1018,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "صدور حکم به حضانت فرزند مشترک",
+        "start_char": 85,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه 1116- 22/7/91",
+        "start_char": 1035,
+        "end_char": 1064,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ازدواج مجدد کرده است",
+      "evidence": {
+        "quote": "تأیید اقدام به ازدواج مجدد",
+        "start_char": 500,
+        "end_char": 526,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده با خواسته خواهان مخالفت کرده است",
+      "evidence": {
+        "quote": "مراتب مخالفت خودش با خواسته خواهان را بیان",
+        "start_char": 385,
+        "end_char": 427,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "31348",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "در خصوص واخواهی آقای الف. ل.",
+        "start_char": 0,
+        "end_char": 28,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی آقای الف. ل.",
+        "start_char": 754,
+        "end_char": 781,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "محکومیت ایشان به پرداخت نفقه فرزندش",
+        "start_char": 918,
+        "end_char": 953,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "از جانب واخواه اعتراض موثر و مستدلی",
+        "start_char": 240,
+        "end_char": 275,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض بعمل آمده",
+        "start_char": 484,
+        "end_char": 507,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را عیناً تایید می نماید",
+        "start_char": 554,
+        "end_char": 595,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "فقط نسبت به آتیه قابل مطالبه است",
+        "start_char": 1523,
+        "end_char": 1555,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "از جانب واخواه اعتراض موثر",
+        "start_char": 240,
+        "end_char": 266,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی",
+        "start_char": 1212,
+        "end_char": 1239,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه صادره",
+        "start_char": 70,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه در مرحله تجدیدنظر دلیل برای نقض دادنامه ارائه نکرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی که موجبات نقض یابی اعتباری دادنامه را فراهم نماید ارائه ننموده است",
+        "start_char": 1212,
+        "end_char": 1306,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حق مطالبه نفقه فقط از تاریخ تقدیم دادخواست است و نه گذشته",
+      "evidence": {
+        "quote": "مشارالیها صرفا\" از تاریخ تقدیم دادخواست مستحق نفقه بوده",
+        "start_char": 1576,
+        "end_char": 1631,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

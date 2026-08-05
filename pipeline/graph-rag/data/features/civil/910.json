@@ -1,0 +1,273 @@
+{
+  "ruling_id": "910",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 76,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "وجود علقه زوجیت",
+        "start_char": 158,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "حاضر به قبول خواسته (طلاق) نمی باشد",
+        "start_char": 507,
+        "end_char": 542,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "حضانت فرزند صغیر طرفین با زوج است",
+        "start_char": 1023,
+        "end_char": 1056,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق ملاقات",
+      "evidence": {
+        "quote": "حق ملاقات دارد",
+        "start_char": 1100,
+        "end_char": 1114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "فقدان تمکین زوجه از زوج",
+        "start_char": 1472,
+        "end_char": 1495,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "دادگاه خوانده را مستحق نفقه و نصف دارائی و اجرت المثل و یا نحله نمی داند",
+        "start_char": 1497,
+        "end_char": 1569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم تجدیدنظر استان تهران می باشد",
+        "start_char": 1664,
+        "end_char": 1720,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 76,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ف.ح.",
+        "start_char": 1774,
+        "end_char": 1797,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد درخواست تجدیدنظرخواهی",
+        "start_char": 2461,
+        "end_char": 2489,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی صادره... تأیید و این رأی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست تقدیمی و اظهارات خواهان",
+        "start_char": 212,
+        "end_char": 244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به لحاظ محکومیت خوانده",
+        "start_char": 260,
+        "end_char": 282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به خواسته تجدیدنظرخوانده (زوج)",
+        "start_char": 1933,
+        "end_char": 1963,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه قرار گرفته است",
+        "start_char": 2058,
+        "end_char": 2085,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به خواسته تجدیدنظرخوانده (زوج)",
+        "start_char": 1933,
+        "end_char": 1963,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "سوءرفتار زوجه",
+        "start_char": 1429,
+        "end_char": 1442,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "سند نکاحیه ثبتی",
+        "start_char": 130,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "استرداد جهیزیه خوانده",
+        "start_char": 1185,
+        "end_char": 1206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "خوانده مهریه را",
+        "start_char": 1280,
+        "end_char": 1295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال و دارایی",
+      "evidence": {
+        "quote": "نصف دارائی",
+        "start_char": 1527,
+        "end_char": 1537,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده به اتهام حمل شیشه و افترا محکوم شده است",
+      "evidence": {
+        "quote": "به لحاظ محکومیت خوانده به حمل شیشه و افترا به وی",
+        "start_char": 260,
+        "end_char": 308,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده به اتهام افترا در زندان است",
+      "evidence": {
+        "quote": "و الان نیز به اتهام افترا به خواهان در زندان می باشد",
+        "start_char": 452,
+        "end_char": 504,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده مهریه را جداگانه پرداخت کرده است",
+      "evidence": {
+        "quote": "خوانده مهریه را حسب اظهارات خودش جداگانه اقدام نموده است",
+        "start_char": 1280,
+        "end_char": 1336,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه باردار نیست",
+      "evidence": {
+        "quote": "زوجه باردار نمی باشد",
+        "start_char": 1001,
+        "end_char": 1021,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

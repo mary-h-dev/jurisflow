@@ -1,0 +1,153 @@
+{
+  "ruling_id": "5408",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "صدور حکم بر ابطال معامله",
+        "start_char": 127,
+        "end_char": 151,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "اثبات مالکیت",
+        "start_char": 188,
+        "end_char": 200,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "صدور حکم به بطلان",
+        "start_char": 824,
+        "end_char": 841,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "مشارٌالیها آن را به خود انتقال داده",
+        "start_char": 665,
+        "end_char": 700,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض نامبرده غیرموجه تشخیص",
+        "start_char": 2442,
+        "end_char": 2470,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "رأی صادره ظرف 20 روز از تاریخ ابلاغ قبل تجدیدنظرخواهی",
+        "start_char": 1825,
+        "end_char": 1878,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی خواهان آقای ف.ک.",
+        "start_char": 0,
+        "end_char": 40,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "آقای م. ق. به طرفیت خوانده خانم ف.غ.",
+        "start_char": 61,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "برگ انتقال شماره 14240- 3/12/85",
+        "start_char": 154,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "به موجب وکالت نامه شماره 12653- 22/3/81",
+        "start_char": 424,
+        "end_char": 463,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان",
+        "start_char": 345,
+        "end_char": 363,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "انباری",
+      "evidence": {
+        "quote": "یک واحد انباری",
+        "start_char": 366,
+        "end_char": 380,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ملک را به خود منتقل کرده است",
+      "evidence": {
+        "quote": "مشارٌالیها آن را به خود انتقال داده",
+        "start_char": 665,
+        "end_char": 700,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وکالت نامه به نحو مطلق داده شده است",
+      "evidence": {
+        "quote": "وکالت مزبور به نحو مطلق داده شده",
+        "start_char": 1299,
+        "end_char": 1331,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

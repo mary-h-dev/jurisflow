@@ -1,0 +1,113 @@
+{
+  "ruling_id": "5310",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته الزام به تمکین",
+        "start_char": 80,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی خواهان صادر",
+        "start_char": 365,
+        "end_char": 392,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در مورد تجدیدنظرخواهی آقای الف.م.",
+        "start_char": 567,
+        "end_char": 600,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه معترض‌عنه را تأیید می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را وارد تشخیص نداده",
+        "start_char": 292,
+        "end_char": 330,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "با عنایت به اینکه زوج و زوجه دریک منزل بسر می برند",
+        "start_char": 145,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "با عنایت به اینکه زوج و زوجه دریک منزل بسر می برند",
+        "start_char": 145,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "رأی بر اساس قواعد جاری و تشریفات ساری و اصول حاکم و مقررات صادرشده و اعتراض معترض با هیچ یک از شقوق و بنود ماده 348 قانون آیین دادرسی مدنی انطباق نداشته",
+        "start_char": 819,
+        "end_char": 971,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج و زوجه در یک منزل زندگی می‌کنند",
+      "evidence": {
+        "quote": "زوج و زوجه دریک منزل بسر می برند",
+        "start_char": 163,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج دلیلی بر عدم تمکین ارائه نکرده است",
+      "evidence": {
+        "quote": "زوج نیز دلیل و مدرکی که مبین عدم تمکین باشد ارائه ننموده است",
+        "start_char": 226,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

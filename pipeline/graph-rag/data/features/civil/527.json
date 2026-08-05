@@ -1,0 +1,183 @@
+{
+  "ruling_id": "527",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال اقرار نامه رسمی",
+        "start_char": 49,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "بین طرفین عقد نکاح منعقد گردیده است",
+        "start_char": 422,
+        "end_char": 457,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "افزایش مهریه بعد از وقوع عقد نکاح خلاف موازین شرع شناخته شده",
+        "start_char": 652,
+        "end_char": 712,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلاف",
+      "evidence": {
+        "quote": "زیاد شدن مهریه را خلاف شرع عنوان نموده",
+        "start_char": 1879,
+        "end_char": 1917,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "حکم به ابطال اقرار نامه فوق الذکر و ابطال عملیات اجرایی",
+        "start_char": 2424,
+        "end_char": 2479,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقاضای رد",
+      "evidence": {
+        "quote": "لذا تقاضای رد دعوی خواهان را نموده است",
+        "start_char": 1593,
+        "end_char": 1631,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقاضای",
+      "evidence": {
+        "quote": "خوانده دعوی بر مبنای سند مذکور مبادرت به تقاضای عملیات اجرایی",
+        "start_char": 1006,
+        "end_char": 1067,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه های تجدیدنظر استان تهران می باشد",
+        "start_char": 2846,
+        "end_char": 2907,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی دیگر خواهان علیه خوانده",
+        "start_char": 180,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دعوی دیگر خواهان علیه خوانده",
+        "start_char": 180,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل خوانده در دفاع از موکل خویش",
+        "start_char": 1200,
+        "end_char": 1232,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "اقرار نامه رسمی شماره 136839 مورخ 27/10/89",
+        "start_char": 65,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "به موجب سند رسمی به شماره 3059",
+        "start_char": 377,
+        "end_char": 407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه [را] از یک سکه بهار آزادی به پانصد و پانزده سکه بهار آزادی افزایش داده است",
+        "start_char": 551,
+        "end_char": 631,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پرونده کلاسه 4863/الف اداره ثبت شمیران",
+        "start_char": 239,
+        "end_char": 277,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "افزایش مهریه پس از عقد نکاح انجام شده است",
+      "evidence": {
+        "quote": "خواهان در مورخ 27/10/80 طی سند رسمی فوق الذکر مهریه [را] از یک سکه بهار آزادی به پانصد و پانزده سکه بهار آزادی افزایش داده است",
+        "start_char": 505,
+        "end_char": 631,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی خارج از مهلت قانونی تقدیم شده است",
+      "evidence": {
+        "quote": "به لحاظ تقدیم دادخواست تجدیدنظر خارج از مهلت 20 روزه قانونی",
+        "start_char": 3068,
+        "end_char": 3127,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

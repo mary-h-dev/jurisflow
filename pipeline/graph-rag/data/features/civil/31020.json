@@ -1,0 +1,163 @@
+{
+  "ruling_id": "31020",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نسبی",
+      "evidence": {
+        "quote": "حسب اصل نسبی بودن قراردادها",
+        "start_char": 3716,
+        "end_char": 3743,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "منتقل می نماید",
+        "start_char": 633,
+        "end_char": 647,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ دادنامه",
+        "start_char": 1912,
+        "end_char": 1923,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 4316,
+        "end_char": 4331,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "ضمن رد واخواهی",
+        "start_char": 2019,
+        "end_char": 2033,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهانها",
+        "start_char": 113,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت آقایان 1- گ.الف. ر. 2- الف. م.گ. 3- غ. خ.",
+        "start_char": 147,
+        "end_char": 195,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "پیمانکار",
+      "evidence": {
+        "quote": "خواهانها به عنوان پیمانکار",
+        "start_char": 392,
+        "end_char": 418,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریداران",
+      "evidence": {
+        "quote": "عدم اطلاع خریداران",
+        "start_char": 973,
+        "end_char": 991,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "قائم مقام مالک قبلی",
+        "start_char": 1020,
+        "end_char": 1039,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "تحویل ملک تحت پلاک ثبتی 121/3383 اصلی",
+        "start_char": 241,
+        "end_char": 278,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت در ساخت",
+      "evidence": {
+        "quote": "موضوع قرارداد مشارکت درساخت شماره 100-1389/4/8",
+        "start_char": 295,
+        "end_char": 341,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "طی سند رسمی شماره 157928-91/4/7",
+        "start_char": 563,
+        "end_char": 594,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انتقال ملک بدون اطلاع پیمانکار",
+      "evidence": {
+        "quote": "خوانده ردیف اول پلاک ثبتی را بدون اطلاع خواهانها به خواندگان ردیف دوم و سوم... منتقل می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اطلاع خریداران از وجود قرارداد مشارکت",
+      "evidence": {
+        "quote": "عدم اطلاع خریداران از مشارکت در ساخت دیگران",
+        "start_char": 2409,
+        "end_char": 2452,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

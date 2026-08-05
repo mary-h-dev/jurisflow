@@ -1,0 +1,223 @@
+{
+  "ruling_id": "6511",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 295,
+        "end_char": 312,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان دعوی",
+        "start_char": 660,
+        "end_char": 670,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 1954,
+        "end_char": 1969,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "محکومیت خوانده",
+        "start_char": 98,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه هزینه های",
+        "start_char": 1058,
+        "end_char": 1074,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض موجه و مؤثری اقامه نشده",
+        "start_char": 1554,
+        "end_char": 1584,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در رابطه با تجدیدنظرخواهی",
+        "start_char": 834,
+        "end_char": 859,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار ردّ",
+      "evidence": {
+        "quote": "قرار ردّ دعوی صادر می‌گردد",
+        "start_char": 2299,
+        "end_char": 2325,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده",
+        "start_char": 98,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بابت تعمیرات اساسی مورد اجاره و بهره برداری از آن با جلب نظر کارشناس ازجمله هزینه دادرسی، حق الوکاله وکیل و خسارت تأخیر تأدیه، هزینه کارشناس. با توجه به محتویات و مندرجات پرونده و کیفیات منعکس در آن، صرف نظر از صحت وسقم قضیه نظر به اینکه خواهان هیچ گونه دلیلی دال بر اذن موجر در تعمیرات مورد ادعا ارائه و ابراز نداشته است لذا دعوی نامبرده به علت عدم ثبوت و فقد دلایل کافی وارد و ثابت نمی باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "اذن موجر",
+        "start_char": 454,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "مستأجر محق به مطالبه هزینه های می باشد",
+        "start_char": 1804,
+        "end_char": 1842,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه یکی از دو مستأجر محل بوده",
+        "start_char": 2003,
+        "end_char": 2041,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "تجدیدنظر خواندگان را با المناصفه به پرداخت بیست میلیون تومان",
+        "start_char": 2042,
+        "end_char": 2102,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "هزینه های",
+      "evidence": {
+        "quote": "هزینه های صورت پذیرفته توسط خواهان بابت تعمیرات اساسی مورد اجاره",
+        "start_char": 123,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عین مستأجره",
+      "evidence": {
+        "quote": "در عین مستأجره",
+        "start_char": 1085,
+        "end_char": 1099,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "به پلاک ثبتی 237370",
+        "start_char": 1100,
+        "end_char": 1119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "موضوع قرارداد اجاره",
+        "start_char": 1120,
+        "end_char": 1139,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان دلیلی بر اذن موجر برای انجام تعمیرات ارائه نکرده است",
+      "evidence": {
+        "quote": "خواهان هیچ گونه دلیلی دال بر اذن موجر در تعمیرات مورد ادعا ارائه و ابراز نداشته است",
+        "start_char": 425,
+        "end_char": 508,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تعمیرات در عین مستأجره انجام شده است",
+      "evidence": {
+        "quote": "انجام تعمیرات صورت گرفته در عین مستأجره",
+        "start_char": 1372,
+        "end_char": 1411,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "هزینه تعمیرات چهارصد میلیون ریال برآورد شده است",
+      "evidence": {
+        "quote": "میزان هزینه های صورت گرفته به مبلغ چهارصد میلیون ریال برآورد شده است",
+        "start_char": 1462,
+        "end_char": 1530,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

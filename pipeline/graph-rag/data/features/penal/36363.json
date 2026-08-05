@@ -1,0 +1,143 @@
+{
+  "ruling_id": "36363",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نظام اقتصادی",
+      "evidence": {
+        "quote": "اخلال در نظام اقتصادی کشور",
+        "start_char": 135,
+        "end_char": 161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "کلاهبرداری",
+      "evidence": {
+        "quote": "کلاهبرداری",
+        "start_char": 164,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی می کند",
+        "start_char": 285,
+        "end_char": 311,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تشکیل",
+      "evidence": {
+        "quote": "تشکیل ودایر کردن شرکت هرمی",
+        "start_char": 79,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محاکمه",
+      "evidence": {
+        "quote": "محاکمه شده",
+        "start_char": 115,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی می کند",
+        "start_char": 285,
+        "end_char": 311,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم",
+        "start_char": 917,
+        "end_char": 925,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "محکوم علیه",
+        "start_char": 362,
+        "end_char": 372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متقاضی",
+      "evidence": {
+        "quote": "متقاضی اعاده دادرسی",
+        "start_char": 1143,
+        "end_char": 1162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دیوان عالی کشور",
+      "evidence": {
+        "quote": "دادیار دیوان عالی کشور",
+        "start_char": 863,
+        "end_char": 885,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ارز خارجی",
+      "evidence": {
+        "quote": "مقادیری ارز خارجی",
+        "start_char": 221,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "محکومیت به هشت سال حبس و جریمه مالی",
+      "evidence": {
+        "quote": "به هشت سال حبس وپرداخت بیش از 6میلیارد ریال و مقادیری ارز خارجی محکومیت مالی محکوم شده است",
+        "start_char": 175,
+        "end_char": 265,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم مدلل شدن عنوان اخلال در نظام اقتصادی در دادنامه",
+      "evidence": {
+        "quote": "شرایط صدق عنوان اخلال در نظام اقتصادی در مورد محکوم علیه متقاضی اعاده دادرسی مدلل نشده است",
+        "start_char": 1086,
+        "end_char": 1176,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

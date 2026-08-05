@@ -1,0 +1,163 @@
+{
+  "ruling_id": "36531",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ایراد ضرب",
+      "evidence": {
+        "quote": "به اتهام ایراد ضرب و جرح عمدی",
+        "start_char": 107,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمرد نسبت به مامورین",
+      "evidence": {
+        "quote": "از باب اتهام تمرد نسبت به مامورین",
+        "start_char": 543,
+        "end_char": 576,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حبس تعزیری",
+      "evidence": {
+        "quote": "16 ماه حبس تعزیری",
+        "start_char": 504,
+        "end_char": 521,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تقاضای تجدیدنظرخواهی نموده",
+        "start_char": 678,
+        "end_char": 704,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه بالااشاره",
+        "start_char": 1303,
+        "end_char": 1328,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را تایید می نماید",
+        "start_char": 1695,
+        "end_char": 1735,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی مطروحه",
+        "start_char": 1667,
+        "end_char": 1694,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "نسبت به شاکی اقای ر. ص. ش.",
+        "start_char": 137,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "موقوفی تعقیب متهم را صادر می نماید",
+        "start_char": 1334,
+        "end_char": 1368,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از جانب تجدیدنظرخواه ایراد پذیرفتنی و اعتراض کارسازی",
+        "start_char": 1416,
+        "end_char": 1468,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره *مورخ 1400/02/27",
+        "start_char": 36,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "به پرداخت دیه",
+        "start_char": 164,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مصدق بودن عدم وجود جنبه عمومی جرم ضرب و جرح",
+      "evidence": {
+        "quote": "در نتیجه موضوع فاقد جنبه عمومی جرم می باشد",
+        "start_char": 1178,
+        "end_char": 1220,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبتلای بودن مادر متهم به بیماری قند شدید",
+      "evidence": {
+        "quote": "مادرش که به بیماری قند شدید مبتلا",
+        "start_char": 1840,
+        "end_char": 1873,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ممانعت پلیس از حرکت متهم",
+      "evidence": {
+        "quote": "پلیس مانع حرکت وی شده",
+        "start_char": 1969,
+        "end_char": 1990,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

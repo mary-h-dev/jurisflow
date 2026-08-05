@@ -1,0 +1,173 @@
+{
+  "ruling_id": "11033",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "به خواسته اعسار و تقسیط اقساط معوقه",
+        "start_char": 46,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "به نظر دادگاه طلاق طرفین توافقی بوده",
+        "start_char": 295,
+        "end_char": 331,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بابت مهریه به خوانده شده",
+        "start_char": 412,
+        "end_char": 436,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "و تاکنون پرداخت ننموده است",
+        "start_char": 2478,
+        "end_char": 2504,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "در قالب بیع به پدر خود منتقل نموده",
+        "start_char": 831,
+        "end_char": 865,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ب.ع. و خانم م.ب.",
+        "start_char": 2110,
+        "end_char": 2153,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مدارک ابرازی خواهان",
+        "start_char": 248,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بابت مهریه به خوانده شده",
+        "start_char": 412,
+        "end_char": 436,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم",
+      "evidence": {
+        "quote": "اقساط جاری مابقی محکومٌ‌به",
+        "start_char": 1827,
+        "end_char": 1853,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج ماهانه 5 سکه بهار آزادی پرداخت نماید",
+        "start_char": 2437,
+        "end_char": 2477,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "و زوجه هیچ اموالی از زوج معرفی ننموده",
+        "start_char": 2836,
+        "end_char": 2873,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "تعداد پنج سکه طلای یک بهار آزادی",
+        "start_char": 173,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "شش دانگ آپارتمان خود را",
+        "start_char": 906,
+        "end_char": 929,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان ملک خود را به پدر منتقل کرده است",
+      "evidence": {
+        "quote": "دو دانگ از ملکی را که به نام وی بوده در قالب بیع به پدر خود منتقل نموده",
+        "start_char": 794,
+        "end_char": 865,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان آپارتمان خود را به شخص ثالث فروخته است",
+      "evidence": {
+        "quote": "خواهان در تاریخ 1390/9/22 شش دانگ آپارتمان خود را به غیر فروخته است",
+        "start_char": 880,
+        "end_char": 947,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین در سال ۱۳۹۰ طلاق توافقی گرفته‌اند",
+      "evidence": {
+        "quote": "نامبردگان به موجب طلاق توافقی 709-1390/5/29 صادره از شعبه مذکور جدا شده‌اند",
+        "start_char": 2325,
+        "end_char": 2400,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "28157",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه فرزند",
+      "evidence": {
+        "quote": "بپرداخت نفقه فرزند",
+        "start_char": 211,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "مطابق شرط ضمن عقد مصرح در سند نکاحیه",
+        "start_char": 1551,
+        "end_char": 1587,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "موافق با ماده 10 قانون مدنی بوده و مغایرتی نیز با قواعد عمومی قراردادها ندارد",
+        "start_char": 2468,
+        "end_char": 2545,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص دادخواست تجدیدنظرخواهی",
+        "start_char": 0,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجه و مدلل و موثری",
+        "start_char": 445,
+        "end_char": 484,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "موجبات نقض دادنامه تجدیدنظرخواسته را ایجاب نماید",
+        "start_char": 488,
+        "end_char": 536,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عینا تایید",
+        "start_char": 723,
+        "end_char": 759,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی",
+        "start_char": 928,
+        "end_char": 948,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست",
+      "evidence": {
+        "quote": "ضمن رد درخواست اعاده دادرسی",
+        "start_char": 2550,
+        "end_char": 2577,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه",
+        "start_char": 190,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متقاضی",
+      "evidence": {
+        "quote": "متقاضی به پرداخت نفقه فرزند",
+        "start_char": 1165,
+        "end_char": 1192,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 9409970242900662",
+        "start_char": 53,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "منعکس در سند نکاحیه",
+        "start_char": 2362,
+        "end_char": 2381,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم وجود رابطه پدر فرزندی بین متقاضی و فرزند مورد ادعا",
+      "evidence": {
+        "quote": "ادعای عدم رابطه پدر فرزندی متقاضی صحیح بوده",
+        "start_char": 2246,
+        "end_char": 2289,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متقاضی در سند نکاحیه متعهد به پرداخت مخارج فرزند همسر شده است",
+      "evidence": {
+        "quote": "متقاضی با خانم خ. نباتی کلخوارن ازدواج اما فرزند مذکور حاصل ازدواج قبلی بوده لکن مطابق شرط ضمن عقد مصرح در سند نکاحیه منعکس در پرونده خواهان متعهد گردیده است که مخارج فرزند همسر خود را اعم از هزینه تحصیل و خوراک و پوشاک و بهداشت بپردازد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رها شدن زندگی توسط زوجه",
+      "evidence": {
+        "quote": "مشارالیه مدعی است زوجه 5 سال است زندگی را رها نموده و بچه را نیز با خود برده",
+        "start_char": 1815,
+        "end_char": 1891,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

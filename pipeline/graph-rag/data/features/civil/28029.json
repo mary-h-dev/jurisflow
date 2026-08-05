@@ -1,0 +1,133 @@
+{
+  "ruling_id": "28029",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهدات",
+      "evidence": {
+        "quote": "مطابق قرارداد تعهداتی متقابلاً بر عهده هر یک از طرفین بوده",
+        "start_char": 447,
+        "end_char": 505,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "به انضمام خسارات دادرسی",
+        "start_char": 174,
+        "end_char": 197,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "و تأخیر تأدیه",
+        "start_char": 198,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان صادر",
+        "start_char": 710,
+        "end_char": 734,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را عینا\" تایید می نماید",
+        "start_char": 1874,
+        "end_char": 1921,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای ن. ن. با وکالت آقایان ع. ق. و ع. ن. به طرفیت آقای ح. ن.",
+        "start_char": 0,
+        "end_char": 73,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به ارائه حساب",
+        "start_char": 110,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ن. ن. با وکالت ع. ق.",
+        "start_char": 910,
+        "end_char": 944,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "الزام تجدیدنظرخوانده به ارائه حساب",
+        "start_char": 1068,
+        "end_char": 1102,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال و دارایی",
+      "evidence": {
+        "quote": "ارائه حساب ایام وکالت",
+        "start_char": 126,
+        "end_char": 147,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود قرارداد با تعهدات متقابل بین طرفین",
+      "evidence": {
+        "quote": "مطابق قرارداد تعهداتی متقابلاً بر عهده هر یک از طرفین بوده",
+        "start_char": 447,
+        "end_char": 505,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات وکالت از سوی خواهان",
+      "evidence": {
+        "quote": "اصولاً خواهان وکالتی به خوانده اعطا ننموده",
+        "start_char": 225,
+        "end_char": 267,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

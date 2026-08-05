@@ -1,0 +1,293 @@
+{
+  "ruling_id": "29463",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت توافقی روزانه دو میلیون ریال",
+        "start_char": 66,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تاخیر تادیه",
+        "start_char": 226,
+        "end_char": 243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "و خسارات دادرسی",
+        "start_char": 244,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استصحاب",
+      "evidence": {
+        "quote": "بقاء دین کما کان استصحاب می گردد",
+        "start_char": 602,
+        "end_char": 634,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "بقاء دین کما کان استصحاب می گردد",
+        "start_char": 602,
+        "end_char": 634,
+        "confidence": 0.7
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "موجهی که موجبات فسخ دادنامه واخواسته را ایجاب نماید",
+        "start_char": 2222,
+        "end_char": 2273,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی نخستین",
+        "start_char": 4849,
+        "end_char": 4873,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دائر بر مطالبه خسارت توافقی",
+        "start_char": 58,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خواندگان مکلف به پرداخت",
+        "start_char": 350,
+        "end_char": 373,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تکذیب",
+      "evidence": {
+        "quote": "حاضر به تکذیب ادعا نشده",
+        "start_char": 522,
+        "end_char": 545,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "دلیلی هم بر پرداخت یا برائت ذمه خود ارائه نکرده اند",
+        "start_char": 548,
+        "end_char": 599,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "قابل واخواهی در این دادگاه",
+        "start_char": 1163,
+        "end_char": 1189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درمورد تجدیدنظرخواهی آقایان ع. و پدرام",
+        "start_char": 2679,
+        "end_char": 2715,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را در بخش اخیر نقض نموده",
+        "start_char": 4772,
+        "end_char": 4816,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "خواندگان مکلف به پرداخت",
+        "start_char": 350,
+        "end_char": 373,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان صادر و اعلام می گردد",
+        "start_char": 1086,
+        "end_char": 1119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "و واخواه در این مرحله از رسیدگی",
+        "start_char": 2168,
+        "end_char": 2199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "بموجب بخش اول دادنامه اخیر الذکر حکم بر محکومیت تجدیدنظرخواهان",
+        "start_char": 2902,
+        "end_char": 2962,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بموجب بخش اول دادنامه اخیر الذکر حکم بر محکومیت تجدیدنظرخواهان بالمناصفه به پرداخت مبلغ یکصد و چهل میلیون ریال بابت اصل تعهد پرداخت دویست و پنجاه میلیون ریال بابت خسارت تاخیر تادیه از تاریخ 92/3/30 لغایت 92/8/2 همچنین پرداخت خسارات دادرسی در حق تجدیدنظرخوانده صادر شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "به استناد تصویر مصدق چک",
+        "start_char": 260,
+        "end_char": 283,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی عدم",
+      "evidence": {
+        "quote": "و گواهی عدم پرداخت",
+        "start_char": 284,
+        "end_char": 302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "صورتجلسه",
+      "evidence": {
+        "quote": "و صورتجلسه شعبه محترم 70 تجدید نظر",
+        "start_char": 303,
+        "end_char": 337,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه غیابی 9201152",
+        "start_char": 1659,
+        "end_char": 1688,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "و اسناد عادی دادگاه",
+        "start_char": 1782,
+        "end_char": 1801,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "درموردی که برای تاخیر در پرداخت دین از نوع وجه نقد خسارت تعیین کرده باشند",
+        "start_char": 4405,
+        "end_char": 4475,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواندگان علی رغم احضار حاضر به تکذیب ادعا نشده‌اند",
+      "evidence": {
+        "quote": "خواندگان علی رغم احضار حاضر به تکذیب ادعا نشده",
+        "start_char": 499,
+        "end_char": 545,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواندگان دلیلی بر پرداخت یا برائت ذمه خود ارائه نکرده‌اند",
+      "evidence": {
+        "quote": "و دلیلی هم بر پرداخت یا برائت ذمه خود ارائه نکرده اند",
+        "start_char": 546,
+        "end_char": 599,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک پرداخت نشده است",
+      "evidence": {
+        "quote": "گواهی عدم پرداخت",
+        "start_char": 286,
+        "end_char": 302,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

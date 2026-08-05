@@ -1,0 +1,223 @@
+{
+  "ruling_id": "34589",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دعوای تخلیه",
+      "evidence": {
+        "quote": "صدور حکم به تخلیه",
+        "start_char": 139,
+        "end_char": 156,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تغییر شغل",
+      "evidence": {
+        "quote": "به علت تغییر شغل",
+        "start_char": 192,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی کرده است",
+        "start_char": 895,
+        "end_char": 923,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخواست تجدیدنظر میکند",
+        "start_char": 1173,
+        "end_char": 1195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "فرجامخواهی میکند",
+        "start_char": 1614,
+        "end_char": 1630,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سقوط",
+      "evidence": {
+        "quote": "قرار سقوط دعوی صادر کرده است",
+        "start_char": 4163,
+        "end_char": 4191,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "اقامه ی دعوی",
+        "start_char": 109,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم به تخلیه",
+        "start_char": 139,
+        "end_char": 156,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "از آن واخواهی کرده است",
+        "start_char": 483,
+        "end_char": 505,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست",
+      "evidence": {
+        "quote": "قرار رددادخواست را صادر میکند",
+        "start_char": 1049,
+        "end_char": 1078,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "وکیل مزبور ازاین رأی درخواست تجدیدنظر میکند",
+        "start_char": 1152,
+        "end_char": 1195,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "فرمان‌خواندگان",
+      "evidence": {
+        "quote": "از 5نفر از فرجامخواندگان",
+        "start_char": 31,
+        "end_char": 55,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "همان خواها نها",
+        "start_char": 3544,
+        "end_char": 3558,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "با موافقت خواندگان دعوی",
+        "start_char": 3242,
+        "end_char": 3265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "وکیل فعلی فرجام خواه",
+        "start_char": 708,
+        "end_char": 728,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "تخلیه یک باب مغازه",
+        "start_char": 151,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بموجب دادنامه ی شماره",
+        "start_char": 318,
+        "end_char": 339,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی صادره",
+        "start_char": 397,
+        "end_char": 406,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تغییر شغل و انتقال به غیر باعث طرح دعوای تخلیه شده است",
+      "evidence": {
+        "quote": "دادخواست تخلیه مورد اجاره بعلت تغییر شغل وانتقال به غیر توسط فرجامخواندگان طرح گردیده است",
+        "start_char": 3108,
+        "end_char": 3197,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان‌ها در پرونده قبلی با خواندگان به دلیل تغییر شغل توافق کرده و دعوا را مسترد کرده بودند",
+      "evidence": {
+        "quote": "خواهانها با موافقت خواندگان دعوی تخلیه بعلت تغییرشغل را مسترد داشته اند",
+        "start_char": 3233,
+        "end_char": 3304,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرجامخواهی خارج از موعد قانونی بوده است",
+      "evidence": {
+        "quote": "فرجامخواهی را خارج از موعد قانونی تشخیص و قرار رد دادخواست فرجامخواهی را صادر میکند",
+        "start_char": 1902,
+        "end_char": 1984,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

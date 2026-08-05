@@ -1,0 +1,173 @@
+{
+  "ruling_id": "31200",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تقسیم",
+      "evidence": {
+        "quote": "به خواسته تقسیم مال",
+        "start_char": 94,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر می نماید",
+        "start_char": 625,
+        "end_char": 663,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "تقسیم نامه بعد از آن که صحیحا واقع شد لازم است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقسیم",
+      "evidence": {
+        "quote": "الزام خواندگان به تقسیم",
+        "start_char": 115,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اقدام به ارائه تقسیم نامه عادی 69/6/30 نموده",
+        "start_char": 1196,
+        "end_char": 1253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض وپرونده امر جهت رسیدگی ماهوی به دادگاه مربوطه اعاده می نماید",
+        "start_char": 1895,
+        "end_char": 1985,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده امر جهت رسیدگی ماهوی به دادگاه مربوطه اعاده می نماید",
+        "start_char": 1926,
+        "end_char": 1985,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان به تقسیم",
+        "start_char": 115,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اقدام به ارائه تقسیم نامه عادی 69/6/30 نموده",
+        "start_char": 1196,
+        "end_char": 1253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "بطرفیت تجدیدنظرخواندگان",
+        "start_char": 845,
+        "end_char": 868,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک",
+      "evidence": {
+        "quote": "پلاک1-2104 بخش ده تهران",
+        "start_char": 139,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه مورخ",
+      "evidence": {
+        "quote": "تقسیم نامه مورخ 69/6/30",
+        "start_char": 169,
+        "end_char": 192,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منقول",
+      "evidence": {
+        "quote": "موضوع دعوا،مال غیر منقول ثبت شده است",
+        "start_char": 1346,
+        "end_char": 1382,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه عادی",
+      "evidence": {
+        "quote": "تقسیم نامه عادی 69/6/30",
+        "start_char": 1224,
+        "end_char": 1247,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود تقسیم نامه عادی",
+      "evidence": {
+        "quote": "به اعتبار وجود تقسیم نامه عادی مورخ1369/6/30",
+        "start_char": 1023,
+        "end_char": 1067,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پذیرش تقسیم نامه عادی در ادارات و محاکم برای اموال غیرمنقول",
+      "evidence": {
+        "quote": "در مانحن فیه تقسیم نامه عادی در ادارات ومحاکم قابل پذیرش نیست",
+        "start_char": 1495,
+        "end_char": 1556,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

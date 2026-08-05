@@ -1,0 +1,163 @@
+{
+  "ruling_id": "26026",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "بخواسته استرداد ثمن معامله",
+        "start_char": 88,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "معامله فسخ گردیده",
+        "start_char": 457,
+        "end_char": 474,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "حق حبس پیش بینی شده در ماده 377 قانون مدنی",
+        "start_char": 1138,
+        "end_char": 1180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "با وقوع فسخ عقد طرفین ملزم به استرداد عوضین می باشند",
+        "start_char": 1226,
+        "end_char": 1278,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "خوانده علیرغم ارسال اظهار نامه ثمن معامله را استرداد نکرده است",
+        "start_char": 481,
+        "end_char": 543,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "توقیف شده",
+        "start_char": 710,
+        "end_char": 719,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان اینست که",
+        "start_char": 260,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده علیرغم ارسال اظهار نامه",
+        "start_char": 481,
+        "end_char": 511,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ع.الف. ق.",
+        "start_char": 2089,
+        "end_char": 2125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "با توجه به دفاعیات تجدیدنظرخوانده",
+        "start_char": 2576,
+        "end_char": 2609,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اتومبیل",
+      "evidence": {
+        "quote": "کارت اتومبیل و بیمه نامه آن",
+        "start_char": 636,
+        "end_char": 663,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بیمه‌نامه",
+      "evidence": {
+        "quote": "کارت اتومبیل و بیمه نامه آن",
+        "start_char": 636,
+        "end_char": 663,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "معامله خودرو فسخ شده است",
+      "evidence": {
+        "quote": "معامله فسخ گردیده",
+        "start_char": 457,
+        "end_char": 474,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثمن معامله پرداخت نشده است",
+      "evidence": {
+        "quote": "خوانده علیرغم ارسال اظهار نامه ثمن معامله را استرداد نکرده است",
+        "start_char": 481,
+        "end_char": 543,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کارت و بیمه خودرو در نیروی انتظامی توقیف شده است",
+      "evidence": {
+        "quote": "کارت اتومبیل و بیمه نامه آن بعلت تخلف خواهان در نیروی انتظامی شهرستان....توقیف شده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

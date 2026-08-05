@@ -1,0 +1,173 @@
+{
+  "ruling_id": "38567",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "ورشکستگی شرکت تجارتی در نتیجه توقف از تادیه وجوهی که بر عهده اوست حاصل می شود",
+        "start_char": 1554,
+        "end_char": 1631,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقف",
+      "evidence": {
+        "quote": "ورشکستگی شرکت تجارتی در نتیجه توقف از تادیه وجوزی که بر عهده اوست حاصل می شود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرکت",
+      "evidence": {
+        "quote": "ورشکستگی از موارد انحلال شرکت سهامی است",
+        "start_char": 4127,
+        "end_char": 4166,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتبار",
+      "evidence": {
+        "quote": "هر تاجر ورشکسته که کلیه دیون و متفرعات ان را بپردازد حقا اعاده اعتبار می نماید",
+        "start_char": 3858,
+        "end_char": 3936,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "به خواسته اعلام حکم ورشکستگی خوانده",
+        "start_char": 105,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "نسبت به پرداخت بدهی خویش به موکل اقدام مثبتی انجام نداده",
+        "start_char": 634,
+        "end_char": 690,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "استیفاء",
+      "evidence": {
+        "quote": "نتوانسته طلب خود را از خوانده استیفا نماید",
+        "start_char": 762,
+        "end_char": 804,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان بیان نمود",
+        "start_char": 296,
+        "end_char": 317,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 47,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تاجر",
+      "evidence": {
+        "quote": "ورشکستگی فقط نسبت به تاجر رخ می دهد",
+        "start_char": 5423,
+        "end_char": 5458,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دیون",
+      "evidence": {
+        "quote": "به دلیل عدم پرداخت دیون",
+        "start_char": 141,
+        "end_char": 164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "اموالی از محکوم علیه توقیف و به مزایده گذاشته شد",
+        "start_char": 2122,
+        "end_char": 2170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دفاتر",
+      "evidence": {
+        "quote": "با ارائه صورتحساب دارایی و کلیه دفاتر تجاری توقف خود را",
+        "start_char": 2564,
+        "end_char": 2619,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم توانایی خوانده در پرداخت بدهی",
+      "evidence": {
+        "quote": "عدم توانایی خوانده به پرداخت بدهی و دیون حال خود به موکل محرز و مبرهن و ثابت شده",
+        "start_char": 1006,
+        "end_char": 1086,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم وجود مال منقول و غیرمنقول",
+      "evidence": {
+        "quote": "خوانده فاقد هرگونه مال منقول وغیر منقول بوده",
+        "start_char": 570,
+        "end_char": 614,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ناتوانی در اجرای اجراییه",
+      "evidence": {
+        "quote": "اموال مزبور موفی به دین نبود",
+        "start_char": 2175,
+        "end_char": 2203,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

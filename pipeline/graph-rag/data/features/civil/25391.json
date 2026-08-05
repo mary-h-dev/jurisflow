@@ -1,0 +1,143 @@
+{
+  "ruling_id": "25391",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی را صادر و اعلام می‌نماید",
+        "start_char": 1009,
+        "end_char": 1054,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رهن",
+      "evidence": {
+        "quote": "پلاک ثبتی مرقوم در رهن بانک س. بوده",
+        "start_char": 428,
+        "end_char": 463,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "تنظیم سند رسمی قطعه دوم تفکیکی",
+        "start_char": 115,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "دادگاه ضمن رد تجدیدنظرخواهی",
+        "start_char": 1824,
+        "end_char": 1851,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید دادنامه",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را تأیید می‌نماید",
+        "start_char": 1884,
+        "end_char": 1925,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای ن. ت.",
+        "start_char": 31,
+        "end_char": 57,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اسناد مالکیت خواهان",
+        "start_char": 408,
+        "end_char": 427,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مرتهن",
+      "evidence": {
+        "quote": "مؤثر بین آنهاست و معاملات مالک نسبت به مال مرهونه در صورتیکه منافی حق مرتهن باشد",
+        "start_char": 579,
+        "end_char": 659,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی تجدیدنظرخواه",
+        "start_char": 1359,
+        "end_char": 1392,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان واقع در طبقه دوم",
+        "start_char": 146,
+        "end_char": 181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی... فرعی از... اصلی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک در رهن بانک است",
+      "evidence": {
+        "quote": "پلاک ثبتی مرقوم در رهن بانک س. بوده",
+        "start_char": 428,
+        "end_char": 463,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دلیلی برای فک رهن ارائه نشده است",
+      "evidence": {
+        "quote": "دلیلی بر فک رهن آن تاکنون ارایه نشده است",
+        "start_char": 467,
+        "end_char": 507,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "ruling_id": "31031",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل مقوم به -/51/000/000ریال",
+        "start_char": 107,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق‌الوکاله",
+      "evidence": {
+        "quote": "وپرداخت حق الوکاله",
+        "start_char": 361,
+        "end_char": 379,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "به انضمام خسارت تاخیرتادیه",
+        "start_char": 497,
+        "end_char": 523,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "موضوع غصب",
+        "start_char": 2223,
+        "end_char": 2232,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "موضوع منطبق با مقررات مربوط به معاملات فضولی است",
+        "start_char": 2397,
+        "end_char": 2445,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 107,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "به خواسته محکومیت خواندگان",
+        "start_char": 220,
+        "end_char": 246,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت هزینه های انجام شده",
+        "start_char": 247,
+        "end_char": 276,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استفاده",
+      "evidence": {
+        "quote": "خوانده سالیان طولانی از موکلین استفاده می نمایم",
+        "start_char": 709,
+        "end_char": 756,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض وقراررد دعوی صادرمینماید",
+        "start_char": 2948,
+        "end_char": 2976,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل مقوم به -/51/000/000ریال وهزینه دادرسی وحق الوکاله می باشد.خوانده دعوای تقابلی بطرفیت خواهانها",
+        "start_char": 107,
+        "end_char": 219,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده دعوای تقابلی بطرفیت خواهانها",
+        "start_char": 184,
+        "end_char": 219,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ن. ج.",
+        "start_char": 1879,
+        "end_char": 1903,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "ادعای تجدیدنظرخواندگان",
+        "start_char": 2714,
+        "end_char": 2736,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "درساختمان احداثی در پلاک ثبتی...بخش 12 ثبتی تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "اقدامات را درملک مارالذکر انجام داده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از ملک استفاده می‌کند اما اجرت‌المثل را پرداخت نمی‌کند",
+      "evidence": {
+        "quote": "خوانده سالیان طولانی از موکلین استفاده می نمایم ولی ازپرداخت اجرت المثل آن امتناع می نمایم",
+        "start_char": 709,
+        "end_char": 799,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت خواهان‌ها نسبت به ملک محرز شده است",
+      "evidence": {
+        "quote": "مالکیت خواهانها نسبت به ملک حسب پاسخ اداره ثبت به شماره 404-92مورخ92/3/5محرز می باشد",
+        "start_char": 1029,
+        "end_char": 1113,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "28341",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "وجود علقه زوجیت بین خواهان و خوانده محرز و مسلم است",
+        "start_char": 428,
+        "end_char": 479,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "حقوق و تکالیف زوجین درمقابل یکدیگر برقرار می شود",
+        "start_char": 492,
+        "end_char": 540,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم پرداخت",
+      "evidence": {
+        "quote": "اصل برعدم پرداخت نفقه از ناحیه زوج است",
+        "start_char": 1039,
+        "end_char": 1077,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه نقفه",
+        "start_char": 119,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدید نظر خواهی آقای و. الف.",
+        "start_char": 2112,
+        "end_char": 2140,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست تقدیمی خواهان ز. ج.الف.",
+        "start_char": 0,
+        "end_char": 39,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت و. الف. فرزند ع. بخواسته",
+        "start_char": 93,
+        "end_char": 126,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظر خواه نیز در این مرحله مطلب قابل توجهی عنوان نکرده",
+        "start_char": 2494,
+        "end_char": 2553,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "با استناد به سند رسمی نکاحیه بشماره 20459",
+        "start_char": 169,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "بخواسته مطالبه نقفه",
+        "start_char": 119,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود رابطه زوجیت بین طرفین",
+      "evidence": {
+        "quote": "وجود علقه زوجیت بین خواهان و خوانده محرز و مسلم است",
+        "start_char": 428,
+        "end_char": 479,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل پرداخت نفقه توسط زوج",
+      "evidence": {
+        "quote": "درمانحن فیه خوانده دلیل ومدرک محکمه پسندی ارائه نداده است",
+        "start_char": 1138,
+        "end_char": 1195,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

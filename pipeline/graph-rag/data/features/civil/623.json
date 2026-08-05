@@ -1,0 +1,153 @@
+{
+  "ruling_id": "623",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تهاتر",
+      "evidence": {
+        "quote": "با احراز تهاتر قضایی غیر مدلل تشخیص",
+        "start_char": 522,
+        "end_char": 557,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأخیر تأدیه",
+      "evidence": {
+        "quote": "با احتساب خسارات تأخیر تأدیه",
+        "start_char": 99,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "و خسارات دادرسی",
+        "start_char": 172,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ 000/000/80 ریال",
+        "start_char": 61,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "اقدام به پرداخت عوارض مذکور نموده است",
+        "start_char": 401,
+        "end_char": 438,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.ع.",
+        "start_char": 755,
+        "end_char": 778,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به عهده خواهان بوده",
+        "start_char": 340,
+        "end_char": 359,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "که خوانده با تقدیم مدارکی",
+        "start_char": 360,
+        "end_char": 385,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم بر بی حقی تجدیدنظرخواه",
+        "start_char": 914,
+        "end_char": 940,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مطالبه مبلغ 000/000/80 ریال",
+        "start_char": 71,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "به دلالت قرارداد اولیه",
+        "start_char": 242,
+        "end_char": 264,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه مورخ",
+      "evidence": {
+        "quote": "و توافق نامه مورخ 10/2/83",
+        "start_char": 265,
+        "end_char": 290,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده عوارض بیمه و مالیات شغلی را پرداخت کرده است",
+      "evidence": {
+        "quote": "اقدام به پرداخت عوارض مذکور نموده است",
+        "start_char": 401,
+        "end_char": 438,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "میزان پرداختی خوانده معادل طلب خواهان است",
+      "evidence": {
+        "quote": "چون میزان پرداختی ایشان معادل تتمه حساب خواهان می باشد",
+        "start_char": 440,
+        "end_char": 494,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

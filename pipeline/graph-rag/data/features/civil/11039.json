@@ -1,0 +1,173 @@
+{
+  "ruling_id": "11039",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 70,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت",
+      "evidence": {
+        "quote": "ایفای وظایف زوجیت",
+        "start_char": 94,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 1267,
+        "end_char": 1285,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ترک نموده",
+      "evidence": {
+        "quote": "منزل مشترک را ترک نموده",
+        "start_char": 321,
+        "end_char": 344,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خودداری",
+      "evidence": {
+        "quote": "از زندگی در منزل تعیین شده خودداری نموده است",
+        "start_char": 347,
+        "end_char": 391,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "با نقض رأی صادره",
+        "start_char": 2019,
+        "end_char": 2035,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دادخواست",
+      "evidence": {
+        "quote": "حکم به رد دادخواست خواهان بدوی",
+        "start_char": 2037,
+        "end_char": 2067,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "طرفیت خوانده خانم ز.الف. بخواسته الزام خوانده",
+        "start_char": 37,
+        "end_char": 82,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده خانم ز.الف.",
+        "start_char": 34,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "فتوکپی مصدق شناسنامه زوج",
+        "start_char": 142,
+        "end_char": 166,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "صدمات وارده به زوجه",
+        "start_char": 641,
+        "end_char": 660,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "سند نکاحیه به شماره ترتیب",
+        "start_char": 169,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "منزل مشترک را ترک نموده",
+        "start_char": 321,
+        "end_char": 344,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث‌البیت",
+      "evidence": {
+        "quote": "مبنی بر مهیا بودن منزل و اثاث‌البیت",
+        "start_char": 912,
+        "end_char": 947,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه منزل مشترک را ترک کرده است",
+      "evidence": {
+        "quote": "زوجه بدون دلیل و مانع مشروع منزل مشترک را ترک نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ضرر بدنی به زوجه وارد شده است",
+      "evidence": {
+        "quote": "در حالی که ضرر بدنی باستناد حکم قطعی حادث گردیده است",
+        "start_char": 1905,
+        "end_char": 1957,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

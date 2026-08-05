@@ -1,0 +1,173 @@
+{
+  "ruling_id": "26638",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "با توجه به این مانع طرفین قرارداد مشارکت را فسخ می کنند",
+        "start_char": 588,
+        "end_char": 643,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان معامله",
+      "evidence": {
+        "quote": "دعوی ناشی از معامله باطل و آثار بطلان معامله ممکن است مورد صلح و توافق قرارگردد",
+        "start_char": 2630,
+        "end_char": 2709,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "و مطالبه به خسارت تاخیر تادیه و دادرسی اقامه کرده است",
+        "start_char": 163,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "با توجه به اینکه حق دلالی را آقای م. ع. دریافت کرده",
+        "start_char": 988,
+        "end_char": 1039,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دعوایی به خواسته ی مطالبه مبلغ 000ر000ر570 ریال",
+        "start_char": 91,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "مبلغ 570 میلیون ریال به عنوان کمیسیون به خواندگان تسلیم می نماید",
+        "start_char": 426,
+        "end_char": 490,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خواهانها به موجب لایحه اعلام کرده به پرداخت دست مزد عرض دلالی حسب نظر کارشناسی و رضایت دارد",
+        "start_char": 1293,
+        "end_char": 1384,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را در شق اول و دوم نقض و حکم بر بی حقی خواهان بدوی را صادر و اعلام می نماید",
+        "start_char": 6289,
+        "end_char": 6387,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهانها اظهار داشته",
+        "start_char": 274,
+        "end_char": 299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وکیل خوانده پاسخ داده",
+        "start_char": 722,
+        "end_char": 743,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دلال",
+      "evidence": {
+        "quote": "مطابق ماده 352 قانون تجارت موکل اش به عنوان دلال واسطه ی معامله بوده",
+        "start_char": 844,
+        "end_char": 912,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت",
+      "evidence": {
+        "quote": "موکل اش با چند مالک که قصد احداث بنا در ملک خود را داشتند قرارداد مشارکت منعقد می کند",
+        "start_char": 300,
+        "end_char": 385,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چک هایی که بوسیله آن کمیسیون پرداخت شده 45 میلیون تومان بوده",
+        "start_char": 747,
+        "end_char": 807,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "قصد احداث بنا در ملک خود را داشتند",
+        "start_char": 323,
+        "end_char": 357,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شهرداری مجوز احداث بنا را صادر نکرده است",
+      "evidence": {
+        "quote": "شهرداری مجوز نمی دهد",
+        "start_char": 565,
+        "end_char": 585,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین قرارداد مشارکت را فسخ کرده‌اند",
+      "evidence": {
+        "quote": "با توجه به این مانع طرفین قرارداد مشارکت را فسخ می کنند",
+        "start_char": 588,
+        "end_char": 643,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

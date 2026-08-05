@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25442",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "وجود رابطه زوجیت دایم بین طرفین محرز است",
+        "start_char": 544,
+        "end_char": 584,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "اصل عدم تبرع",
+        "start_char": 2184,
+        "end_char": 2196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "شرط ضمنی عرفی",
+        "start_char": 2377,
+        "end_char": 2390,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حدوث",
+      "evidence": {
+        "quote": "با استصحاب عدم حدوث",
+        "start_char": 1801,
+        "end_char": 1820,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجرت‌المثل",
+        "start_char": 2483,
+        "end_char": 2500,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان را صادر و اعلام می‌دارد",
+        "start_char": 728,
+        "end_char": 771,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "کردن",
+      "evidence": {
+        "quote": "در حق خواهان محکوم واعلام می‌نماید",
+        "start_char": 3807,
+        "end_char": 3841,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خانم ز. ح. به طرفیت آقای ع. ج.",
+        "start_char": 0,
+        "end_char": 47,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده در باره منزل می گوید",
+        "start_char": 342,
+        "end_char": 369,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "منزل کرج را خود زوج در 1382 به نام من کرده",
+        "start_char": 184,
+        "end_char": 226,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه اظهار داشته جداگانه در کرج اقدام خواهم کرد",
+        "start_char": 615,
+        "end_char": 662,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "منزل کرج را خود زوج در 1382 به نام من کرده",
+        "start_char": 184,
+        "end_char": 226,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "به پرداخت دویست و پنجاه میلیون ریال مخارج انجام شده",
+        "start_char": 3627,
+        "end_char": 3678,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "منزل کرج به نام زوجه شده است",
+      "evidence": {
+        "quote": "منزل کرج را خود زوج در 1382 به نام من کرده",
+        "start_char": 184,
+        "end_char": 226,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین وجود دارد",
+      "evidence": {
+        "quote": "وجود رابطه زوجیت دایم بین طرفین محرز است",
+        "start_char": 544,
+        "end_char": 584,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

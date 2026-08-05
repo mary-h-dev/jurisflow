@@ -1,0 +1,173 @@
+{
+  "ruling_id": "5238",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "اصل عدم تبرع",
+        "start_char": 481,
+        "end_char": 493,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "استصحاب بقای دین",
+        "start_char": 1428,
+        "end_char": 1444,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان دعوی",
+        "start_char": 1097,
+        "end_char": 1107,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "اقدام به واریز مبلغ مذکور",
+        "start_char": 329,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "از پرداخت آن امتناع",
+        "start_char": 429,
+        "end_char": 448,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "استحقاق خواهان در مطالبه مبلغ خواسته",
+        "start_char": 1141,
+        "end_char": 1177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تأیید می نماید",
+        "start_char": 2933,
+        "end_char": 2947,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مختصر ادعای خواهان",
+        "start_char": 185,
+        "end_char": 203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده",
+        "start_char": 94,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم الف.ح.",
+        "start_char": 1946,
+        "end_char": 1971,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده",
+        "start_char": 2278,
+        "end_char": 2293,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ 000/600/156 ریال",
+        "start_char": 119,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "انضمام هزینه دادرسی",
+        "start_char": 144,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 166,
+        "end_char": 183,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واریز مبلغ به حساب خوانده در بانک صادرات",
+      "evidence": {
+        "quote": "اقدام به واریز مبلغ مذکور به حساب شخص خوانده در بانک صادرات نموده",
+        "start_char": 329,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم وجود رابطه حقوقی بین اصحاب دعوا",
+      "evidence": {
+        "quote": "عدم وجود رابطه حقوقی فی مابین اصحاب دعوا",
+        "start_char": 2606,
+        "end_char": 2646,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

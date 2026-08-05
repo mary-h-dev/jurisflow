@@ -1,0 +1,143 @@
+{
+  "ruling_id": "28525",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه معوقه",
+        "start_char": 118,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "محکوم به تمکین از زوج شده است",
+        "start_char": 1024,
+        "end_char": 1053,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "به واسطه نداشتن حق حبس",
+        "start_char": 671,
+        "end_char": 693,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه نفقه معوقه",
+        "start_char": 110,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 1182,
+        "end_char": 1208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "عینا تایید می نماید",
+        "start_char": 2130,
+        "end_char": 2149,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 1182,
+        "end_char": 1208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "مستحق نفقه نمی باشد مگر اینکه اثبات کند که اولاَ در تمکین زوج بوده است",
+        "start_char": 703,
+        "end_char": 773,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیلی که موجبات نقض یا بی اعتباری دادنامه را فراهم نماید ارائه ننموده",
+        "start_char": 1884,
+        "end_char": 1966,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بموجب دادنامه 940486",
+        "start_char": 987,
+        "end_char": 1007,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم شروع زندگی زوجین",
+      "evidence": {
+        "quote": "در عدم شروع زندگی توسط زوجین موافقت داشته",
+        "start_char": 316,
+        "end_char": 357,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موافقت با عدم شروع زندگی",
+      "evidence": {
+        "quote": "در عدم شروع زندگی توسط زوجین موافقت داشته",
+        "start_char": 316,
+        "end_char": 357,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل اثباتی برای عدم پرداخت نفقه",
+      "evidence": {
+        "quote": "حال اینکه دادخواست مطالبه نفقه بدون دلیل اثباتی است",
+        "start_char": 921,
+        "end_char": 972,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

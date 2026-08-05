@@ -1,0 +1,183 @@
+{
+  "ruling_id": "24042",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت",
+        "start_char": 170,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 89,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 89,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارات دادرسی",
+        "start_char": 113,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "دادگاه اعتراض تجدیدنظرخواه را وارد دانسته",
+        "start_char": 1323,
+        "end_char": 1364,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را نقض",
+        "start_char": 1965,
+        "end_char": 1989,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 89,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از وظایف زوج",
+        "start_char": 658,
+        "end_char": 670,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "از وظایف زوج و مقدمه لازم تمکین می باشد",
+        "start_char": 658,
+        "end_char": 697,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "دادگاه اعتراض تجدیدنظرخواه را وارد دانسته",
+        "start_char": 1323,
+        "end_char": 1364,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "مندرجات سند نکاحیه",
+        "start_char": 209,
+        "end_char": 227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "تصویر مصدق قرارداد عادی اجاره",
+        "start_char": 383,
+        "end_char": 412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره نامه",
+      "evidence": {
+        "quote": "اجاره نامه عادی پیوست پرونده",
+        "start_char": 537,
+        "end_char": 565,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "تهیه مسکن مناسب",
+        "start_char": 298,
+        "end_char": 313,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج و زوجه با هم ازدواج کرده‌اند",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت اصحاب دعوی",
+        "start_char": 170,
+        "end_char": 198,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج مسکن مناسب تهیه نکرده است",
+      "evidence": {
+        "quote": "با توجه به عدم تهیه مسکن مناسب از سوی زوج",
+        "start_char": 700,
+        "end_char": 741,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اجاره‌نامه ارائه شده فاقد اعتبار است",
+      "evidence": {
+        "quote": "از آنجاکه تهیه مسکن مناسب در حد شئونات زوجه از وظایف زوج و مقدمه لازم تمکین می باشد و با توجه به عدم تهیه مسکن مناسب از سوی زوج دادگاه دعوی خواهان را غیر ثابت تشخیص و مستندا به ماده 1257 قانون مدنی حکم بر بطلان دعوی وی صادر و اعلام می نماید",
+        "start_char": 614,
+        "end_char": 854,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

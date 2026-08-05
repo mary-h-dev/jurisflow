@@ -1,0 +1,193 @@
+{
+  "ruling_id": "30905",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "صدور حکم به خلع ید",
+        "start_char": 85,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "خوانده تصرف غیرقانونی کرده",
+        "start_char": 274,
+        "end_char": 300,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "آخرین وضعیت مالکیت با خواهان است",
+        "start_char": 462,
+        "end_char": 494,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تصرفات غاصبانه",
+      "evidence": {
+        "quote": "احراز تصرفات غاصبانه متصرف می باشد",
+        "start_char": 1382,
+        "end_char": 1416,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "در راستای قرارداد اجاره پلاک یاد شده",
+        "start_char": 1451,
+        "end_char": 1487,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "صدور حکم به خلع ید",
+        "start_char": 85,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ایراد و اعتراض تجدیدنظر خواه وارد و موجه است",
+        "start_char": 1237,
+        "end_char": 1281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه مالا مستلزم نقض است",
+        "start_char": 1284,
+        "end_char": 1311,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم صادره نقض قرار رد دعوی خواهان صادر",
+        "start_char": 1795,
+        "end_char": 1833,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان بیان کرده",
+        "start_char": 205,
+        "end_char": 226,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده تصرف غیرقانونی کرده",
+        "start_char": 274,
+        "end_char": 300,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متصرف",
+      "evidence": {
+        "quote": "احراز تصرفات غاصبانه متصرف می باشد",
+        "start_char": 1382,
+        "end_char": 1416,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "یک باب",
+      "evidence": {
+        "quote": "خلع ید از یک باب مغازه",
+        "start_char": 97,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی 7022/38019",
+        "start_char": 129,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "در راستای قرارداد اجاره",
+        "start_char": 1451,
+        "end_char": 1474,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در محل مغازه تصرف کرده است",
+      "evidence": {
+        "quote": "خوانده تصرف غیرقانونی کرده",
+        "start_char": 274,
+        "end_char": 300,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بین طرفین قرارداد اجاره وجود دارد",
+      "evidence": {
+        "quote": "تصرفات متصرف در راستای قرارداد اجاره پلاک یاد شده",
+        "start_char": 1438,
+        "end_char": 1487,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد اجاره هنوز ابطال نشده است",
+      "evidence": {
+        "quote": "مادامیکه قرارداد یاد شده از طریق قانونی ابطال نگردیده",
+        "start_char": 1568,
+        "end_char": 1621,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

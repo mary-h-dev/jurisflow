@@ -1,0 +1,123 @@
+{
+  "ruling_id": "805",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق ملاقات",
+      "evidence": {
+        "quote": "حق ملاقات طفل خود را دارد",
+        "start_char": 312,
+        "end_char": 337,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.خ.",
+        "start_char": 815,
+        "end_char": 838,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 1605,
+        "end_char": 1624,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان حق دارد",
+        "start_char": 487,
+        "end_char": 501,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده نیز اذعان به دعوی نموده است",
+        "start_char": 359,
+        "end_char": 393,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی",
+        "start_char": 1316,
+        "end_char": 1343,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "رد اعتراض معترض",
+        "start_char": 1609,
+        "end_char": 1624,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "ملاقات فرزند مشترک",
+        "start_char": 97,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 5001257",
+        "start_char": 858,
+        "end_char": 882,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ابوین طفل در یک منزل سکونت ندارند",
+      "evidence": {
+        "quote": "ابوین طفل در یک منزل سکونت نداشته باشند",
+        "start_char": 230,
+        "end_char": 269,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده به دعوی اذعان کرده است",
+      "evidence": {
+        "quote": "خوانده نیز اذعان به دعوی نموده است",
+        "start_char": 359,
+        "end_char": 393,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

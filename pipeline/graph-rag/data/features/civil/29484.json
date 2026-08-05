@@ -1,0 +1,233 @@
+{
+  "ruling_id": "29484",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "انقضای مدت",
+      "evidence": {
+        "quote": "با توجه به انقضای مدت اجاره",
+        "start_char": 102,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "با احتساب هزینه دادرسی و خسارت تاخیر تادیه",
+        "start_char": 130,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان دعوی تقابل",
+        "start_char": 587,
+        "end_char": 603,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 251,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "تصرف غیرفیزیکی آن نموده است",
+        "start_char": 1877,
+        "end_char": 1904,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه وجه معادل دویست میلیون ریال",
+        "start_char": 49,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "اقامه نموده",
+        "start_char": 205,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی بعمل می آید",
+        "start_char": 629,
+        "end_char": 654,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را به دادگاه بدوی اعاده نموده است",
+        "start_char": 903,
+        "end_char": 943,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "خوانده دعوی تقابل به موجب مندرجات صورتجلسات تنظیمی دادگاه اقرار به قفل زدن مغازه",
+        "start_char": 1794,
+        "end_char": 1874,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تحویل کلید آن به دائی خود",
+        "start_char": 2041,
+        "end_char": 2066,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مطالبه روزانه این مبلغ را از تاریخ 91/7/1 لغایت تاریخ تخلیه یعنی 91/11/20 بمدت 140 روز نموده است که ضمن وارد دانستن دعوی مطروح",
+        "start_char": 2859,
+        "end_char": 2985,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده دعوی تقابل به موجب مندرجات صورتجلسات تنظیمی دادگاه اقرار به قفل زدن مغازه",
+        "start_char": 1794,
+        "end_char": 1874,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "عدم تصرفات مالکانه منفعت بعنوان مستاجر",
+        "start_char": 2069,
+        "end_char": 2107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "بعد از انقضاء مدت اجاره بعنوان مالک عین مستاجره",
+        "start_char": 2561,
+        "end_char": 2608,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی آقای م. م. به طرفیت س. غ.",
+        "start_char": 3578,
+        "end_char": 3618,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظر خوانده",
+        "start_char": 3839,
+        "end_char": 3860,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مطالبه وجه معادل دویست میلیون ریال",
+        "start_char": 49,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "قفل زدن مغازه",
+        "start_char": 1861,
+        "end_char": 1874,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "استرداد چک تخلیه ی شصت میلیون تومانی",
+        "start_char": 7018,
+        "end_char": 7054,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده مغازه را قفل کرده است",
+      "evidence": {
+        "quote": "خوانده اقرار به قفل نمودن درب محل نموده",
+        "start_char": 2406,
+        "end_char": 2445,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبلغ بیست میلیون تومان پرداخت نشده است",
+      "evidence": {
+        "quote": "مبلغ بیست میلیون تومان آن هیچگونه مبلغ نقدی پرداخت نشده",
+        "start_char": 4061,
+        "end_char": 4116,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

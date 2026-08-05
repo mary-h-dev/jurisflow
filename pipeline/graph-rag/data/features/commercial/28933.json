@@ -1,0 +1,193 @@
+{
+  "ruling_id": "28933",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مضاربه",
+      "evidence": {
+        "quote": "قرارداد مضاربه",
+        "start_char": 126,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 151,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "دلیلی بر برائت ذمه خود",
+        "start_char": 1304,
+        "end_char": 1326,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ",
+        "start_char": 70,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "مورد اعتراض خوانده قرار گرفته است",
+        "start_char": 664,
+        "end_char": 697,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "از پرداخت هزینه و حق الزحمه هیئت کارشناس استنکاف ورزیده اند",
+        "start_char": 744,
+        "end_char": 803,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان را صادر",
+        "start_char": 1175,
+        "end_char": 1202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض قرار تجدیدنظرخواسته",
+        "start_char": 2591,
+        "end_char": 2618,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عودت",
+      "evidence": {
+        "quote": "پرونده را جهت رسیدگی ماهیتی به دادگاه محترم مذکور عودت می دهد",
+        "start_char": 2619,
+        "end_char": 2679,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 52,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از توجه به دلائل و مستندات خواهان",
+        "start_char": 332,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل مدافع خوانده ردیف اول",
+        "start_char": 386,
+        "end_char": 412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدیر",
+      "evidence": {
+        "quote": "صرف طرف قرار دادن مدیر تصفیه",
+        "start_char": 899,
+        "end_char": 927,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "مستند است به قرارداد مضاربه شماره 7808581 11/11/78",
+        "start_char": 229,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سفته",
+      "evidence": {
+        "quote": "و ده برگ سفته",
+        "start_char": 298,
+        "end_char": 311,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده مدعی پرداخت کل وجوه بوده است",
+      "evidence": {
+        "quote": "مدعی پرداخت کل وجوه مورد ادعای خواهان بوده است",
+        "start_char": 450,
+        "end_char": 496,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کارشناس نظریه خود را تقدیم دادگاه کرده است",
+      "evidence": {
+        "quote": "کارشناس منتخب پس از بررسی دلایل طرفین نظریه خود را به شماره 1286 تقدیم دادگاه داشته است",
+        "start_char": 549,
+        "end_char": 636,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواندگان دلیل بر برائت خود ارائه نکرده‌اند",
+      "evidence": {
+        "quote": "خواندگان مذکور دلیلی بر برائت ذمه خود و رد دعوی خواهان ارائه و اقامه ننموده اند",
+        "start_char": 1289,
+        "end_char": 1368,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

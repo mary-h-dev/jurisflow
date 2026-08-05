@@ -1,0 +1,163 @@
+{
+  "ruling_id": "11149",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بابت بخشی از مهریه",
+        "start_char": 122,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت فی‌مابین طرفین",
+        "start_char": 298,
+        "end_char": 330,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه یکصد و ده عدد سکه بهار آزادی",
+        "start_char": 76,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "خوانده دلیلی بر پرداخت مهریه یادشده به دادگاه ارائه ننموده",
+        "start_char": 339,
+        "end_char": 397,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در محاکم محترم تجدیدنظر",
+        "start_char": 1679,
+        "end_char": 1714,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 2586,
+        "end_char": 2605,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای م.الف.",
+        "start_char": 48,
+        "end_char": 75,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خانم م.ق.",
+        "start_char": 0,
+        "end_char": 22,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "درمورد پرداخت یکصد و ده عدد سکه بهار آزادی بابت اصل خواسته مهریه و نیز پرداخت مبلغ 2066400 ریال بابت هزینه دادرسی و پرداخت مبلغ دو میلیون ریال بابت حق‌الوکاله وکیل در حق خواهان بدوی تجدیدنظرخوانده",
+        "start_char": 1969,
+        "end_char": 2165,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق خواهان بدوی تجدیدنظرخوانده",
+        "start_char": 2133,
+        "end_char": 2165,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "یکصد و ده عدد سکه بهار آزادی",
+        "start_char": 93,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "تصویر مصدق سند نکاحیه رسمی به شماره ترتیب... مورخ 1376/7/3",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "اموالی را از جمله ملک مسکونی خود واقع در...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل پرداخت مهریه توسط خوانده",
+      "evidence": {
+        "quote": "خوانده دلیلی بر پرداخت مهریه یادشده به دادگاه ارائه ننموده",
+        "start_char": 339,
+        "end_char": 397,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود رابطه زوجیت بین طرفین",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت فی‌مابین طرفین",
+        "start_char": 298,
+        "end_char": 330,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

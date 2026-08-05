@@ -1,0 +1,153 @@
+{
+  "ruling_id": "23379",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "دلیلی بر بطلان شناسنامه ارائه نگردیده",
+        "start_char": 221,
+        "end_char": 258,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال شناسنامه شماره ***",
+        "start_char": 77,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اصدار",
+      "evidence": {
+        "quote": "تقاضای اصدار شناسنامه جدید",
+        "start_char": 114,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر میگردد",
+        "start_char": 587,
+        "end_char": 620,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م. ر.ز.",
+        "start_char": 745,
+        "end_char": 771,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را عیناً تایید واعلام می دارد",
+        "start_char": 1391,
+        "end_char": 1437,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با مشخصات واقعی خواهان",
+        "start_char": 141,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مدافعات خوانده",
+        "start_char": 198,
+        "end_char": 212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "ازسوی تجددینظرخواه",
+        "start_char": 1264,
+        "end_char": 1282,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "ابطال شناسنامه شماره ***",
+        "start_char": 87,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "تقاضای اصدار شناسنامه جدید",
+        "start_char": 114,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "ازدادنامه شماره 1096-93",
+        "start_char": 851,
+        "end_char": 874,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "درخواست تغییر تاریخ تولد",
+      "evidence": {
+        "quote": "خواسته تقلیل سن مالا تغییر تاریخ تولد مثبوت و قطعی به تاریخ تولد احتمالی و تقریبی بوده",
+        "start_char": 261,
+        "end_char": 347,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل برای بطلان شناسنامه",
+      "evidence": {
+        "quote": "دلیلی بر بطلان شناسنامه ارائه نگردیده",
+        "start_char": 221,
+        "end_char": 258,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

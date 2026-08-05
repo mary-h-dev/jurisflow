@@ -1,0 +1,133 @@
+{
+  "ruling_id": "30802",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوا را صادر و اعلام می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته نقض وپرونده جهت رسیدگی ماهوی به دادگاه صادر کننده قرار اعاده گردد",
+        "start_char": 1649,
+        "end_char": 1738,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه دو فقره چک",
+        "start_char": 100,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در دادگاه محترم تجدیدنظر استان تهران است",
+        "start_char": 874,
+        "end_char": 926,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده جهت رسیدگی ماهوی به دادگاه صادر کننده قرار اعاده گردد",
+        "start_char": 1678,
+        "end_char": 1738,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوای خواهان آقای الف. م.پ.",
+        "start_char": 0,
+        "end_char": 35,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دفاعیات موجه وکیل خوانده",
+        "start_char": 250,
+        "end_char": 274,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 611 مورخ 94/5/27صادره از شعبه 122دادگاه عمومی حقوقی تهران که به موجب آن قرار عدم استماع دعوی تجدیدنظر خواه",
+        "start_char": 1055,
+        "end_char": 1183,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "دو فقره چک به شماره های 366687 و 366",
+        "start_char": 121,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 611 مورخ 94/5/27",
+        "start_char": 1055,
+        "end_char": 1093,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "گذشت زمان پنج ساله از تاریخ صدور گواهی عدم پرداخت",
+      "evidence": {
+        "quote": "خواهان پس از انقضای پنج سال از تاریخ صدور گواهی نامه عدم پرداخت اقدام به طرح دعوا نموده",
+        "start_char": 388,
+        "end_char": 475,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات تجاری بودن چک",
+      "evidence": {
+        "quote": "درمانحن فیه مدرک ودلیلی به اینکه صادر کننده تاجر بوده یا چک برای امور تجاری صادر شده باشد ارائه نداده",
+        "start_char": 1449,
+        "end_char": 1550,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "30563",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "با تقدیم دادخواست به عنوان اعتراض ثالث",
+        "start_char": 203,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "آراء قابل فرجامخواهی در شعب دیوان عالی کشور",
+        "start_char": 1491,
+        "end_char": 1534,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظر",
+      "evidence": {
+        "quote": "برفرض داشتن شرایط تجدیدنظر",
+        "start_char": 1802,
+        "end_char": 1828,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "محکوم و",
+      "evidence": {
+        "quote": "به اتهام مشارکت در حمل 280 گرم هروئین به اعدام محکوم",
+        "start_char": 31,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ضبط",
+      "evidence": {
+        "quote": "خودرو پراید شماره 56-411 ق51 نامبرده به نفع دولت ضبط گردیده است",
+        "start_char": 86,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "با تقدیم دادخواست به عنوان اعتراض ثالث نسبت به این ضبط خودرو اعتراض می نماید",
+        "start_char": 203,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "حکم به استرداد خودرو به خواهان صادرگردیده است",
+        "start_char": 309,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکم به استرداد خودرو به خواهان صادرگردیده است",
+        "start_char": 309,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "اعتراض معترض اقتضاء رسیدگی در شعب دیوان عالی کشور را نداشته",
+        "start_char": 1740,
+        "end_char": 1799,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "هروئین",
+      "evidence": {
+        "quote": "حمل 280 گرم هروئین",
+        "start_char": 50,
+        "end_char": 68,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "خودرو پراید شماره 56-411 ق51",
+        "start_char": 86,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به موجب دادنامه شماره 9409971312900897",
+        "start_char": 355,
+        "end_char": 393,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه اعتراضیه",
+      "evidence": {
+        "quote": "مفاد دادخواست و لایحه اعتراضیه",
+        "start_char": 654,
+        "end_char": 684,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مشارکت در حمل مواد مخدر",
+      "evidence": {
+        "quote": "به اتهام مشارکت در حمل 280 گرم هروئین",
+        "start_char": 31,
+        "end_char": 68,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خودرو به نفع دولت ضبط شده است",
+      "evidence": {
+        "quote": "خودرو پراید شماره 56-411 ق51 نامبرده به نفع دولت ضبط گردیده است",
+        "start_char": 86,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حکم استرداد خودرو صادر شده است",
+      "evidence": {
+        "quote": "حکم به استرداد خودرو به خواهان صادرگردیده است",
+        "start_char": 309,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

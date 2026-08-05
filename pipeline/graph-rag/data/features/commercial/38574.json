@@ -1,0 +1,203 @@
+{
+  "ruling_id": "38574",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "موضوع تقاضای حکم ورشکستگی",
+        "start_char": 504,
+        "end_char": 529,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "به خواسته ی \"اعتراض ثالث نسبت به حکم ورشکستگی",
+        "start_char": 99,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأخیر",
+      "evidence": {
+        "quote": "به انضمام تاخیر و تادیه",
+        "start_char": 1249,
+        "end_char": 1272,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مبادرت به طرح دادخواست مطالبه سفته",
+        "start_char": 1073,
+        "end_char": 1107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "اموال غیرمنقول ایشان توقیف",
+        "start_char": 1387,
+        "end_char": 1413,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اقدام به اخذ تسهیلات",
+        "start_char": 846,
+        "end_char": 866,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "مبادرت به طرح دادخواست تقاضای صدور حکم ورشکستگی",
+        "start_char": 1537,
+        "end_char": 1584,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به عنوان خواهان پرونده",
+        "start_char": 562,
+        "end_char": 584,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به عنوان خوانده",
+        "start_char": 606,
+        "end_char": 621,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ضامن",
+      "evidence": {
+        "quote": "به عنوان ضامن",
+        "start_char": 1319,
+        "end_char": 1332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ظهرنویس",
+      "evidence": {
+        "quote": "به عنوان ظهرنویس",
+        "start_char": 1174,
+        "end_char": 1190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "شخص ثالث",
+        "start_char": 4441,
+        "end_char": 4449,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سفته",
+      "evidence": {
+        "quote": "مبادرت به اصدار سفته",
+        "start_char": 905,
+        "end_char": 925,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تسهیلات و وام",
+      "evidence": {
+        "quote": "اقدام به اخذ تسهیلات",
+        "start_char": 846,
+        "end_char": 866,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "تعدادی ازاموال غیرمنقول ایشان",
+        "start_char": 1378,
+        "end_char": 1407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حکم",
+      "evidence": {
+        "quote": "حکم ورشکستگی شرکت یاد شده",
+        "start_char": 1637,
+        "end_char": 1662,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شرکت اقساط تسهیلات را پرداخت نکرده است",
+      "evidence": {
+        "quote": "شرکت پ. ا. سازمان اقساط تسهیلات را پرداخت نمی نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اموال غیرمنقول ضامن توقیف شده است",
+      "evidence": {
+        "quote": "تعدادی ازاموال غیرمنقول ایشان توقیف",
+        "start_char": 1378,
+        "end_char": 1413,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حکم ورشکستگی قطعی شده است",
+      "evidence": {
+        "quote": "حکم ورشکستگی به شماره دادنامه ی فوق الذکر قطعی",
+        "start_char": 4086,
+        "end_char": 4132,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

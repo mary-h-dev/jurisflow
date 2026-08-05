@@ -1,0 +1,163 @@
+{
+  "ruling_id": "37587",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اختلاس",
+      "evidence": {
+        "quote": "به اتهام اختلاس",
+        "start_char": 118,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حبس تعزیری",
+      "evidence": {
+        "quote": "به تحمل هیجده ماه حبس تعزیری",
+        "start_char": 134,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفصال دایم از خدمات دولتی",
+      "evidence": {
+        "quote": "انفصال دایم از خدمات دولتی",
+        "start_char": 164,
+        "end_char": 190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جزای نقدی",
+      "evidence": {
+        "quote": "پرداخت مبلغ 600٫000٫000 ریال جزای نقدی",
+        "start_char": 193,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم محکومیت",
+      "evidence": {
+        "quote": "محکوم گردیده",
+        "start_char": 232,
+        "end_char": 244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعمال",
+      "evidence": {
+        "quote": "درخواست اعمال مقررات ماده 62 قانون مجازات اسلامی",
+        "start_char": 394,
+        "end_char": 442,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار می دهد",
+      "evidence": {
+        "quote": "قرار می دهد",
+        "start_char": 794,
+        "end_char": 805,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "محکوم علیه",
+        "start_char": 55,
+        "end_char": 65,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادیار",
+      "evidence": {
+        "quote": "دادیار محترم",
+        "start_char": 312,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدیر",
+      "evidence": {
+        "quote": "مدیر",
+        "start_char": 554,
+        "end_char": 558,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "رییس",
+      "evidence": {
+        "quote": "رییس",
+        "start_char": 925,
+        "end_char": 929,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستشار",
+      "evidence": {
+        "quote": "مستشار",
+        "start_char": 932,
+        "end_char": 938,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ 600٫000٫000 ریال",
+        "start_char": 200,
+        "end_char": 221,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "محکوم علیه در زندان در حال تحمل کیفر حبس است",
+      "evidence": {
+        "quote": "در حال تحمل کیفر حبس می باشد",
+        "start_char": 278,
+        "end_char": 306,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست اعمال ماده 62 قانون مجازات اسلامی شده است",
+      "evidence": {
+        "quote": "درخواست اعمال مقررات ماده 62 قانون مجازات اسلامی مصوب سال 1392 را نموده است",
+        "start_char": 394,
+        "end_char": 469,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

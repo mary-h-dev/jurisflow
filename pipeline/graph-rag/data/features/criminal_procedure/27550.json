@@ -1,0 +1,143 @@
+{
+  "ruling_id": "27550",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "زنای به عنف",
+      "evidence": {
+        "quote": "زنای به عنف",
+        "start_char": 1142,
+        "end_char": 1153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرب خمر",
+      "evidence": {
+        "quote": "شرب خمر",
+        "start_char": 920,
+        "end_char": 927,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نگهداری",
+      "evidence": {
+        "quote": "نگهداری مشروبات الکلی",
+        "start_char": 1180,
+        "end_char": 1201,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "شکایت",
+      "evidence": {
+        "quote": "شکایت نموده",
+        "start_char": 30,
+        "end_char": 41,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض نموده",
+        "start_char": 1407,
+        "end_char": 1419,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تبرئه",
+      "evidence": {
+        "quote": "تبرئه",
+        "start_char": 1154,
+        "end_char": 1159,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکیه",
+      "evidence": {
+        "quote": "شاکیه",
+        "start_char": 577,
+        "end_char": 582,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم",
+        "start_char": 879,
+        "end_char": 883,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه",
+        "start_char": 1099,
+        "end_char": 1106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مشروبات الکلی",
+      "evidence": {
+        "quote": "مشروبات الکلی",
+        "start_char": 1188,
+        "end_char": 1201,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تهدید با چوب و چاقو",
+      "evidence": {
+        "quote": "با چوب و چاقو تهدید نمود",
+        "start_char": 170,
+        "end_char": 194,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اجبار به خوردن ماده‌ای ناشناخته",
+      "evidence": {
+        "quote": "یک چیزی به من داد و گفت باید بخوری و به زور وارد دهانم کرد",
+        "start_char": 287,
+        "end_char": 345,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ابلاغ نسخه ثانی دادنامه",
+      "evidence": {
+        "quote": "نسخه ثانی ابلاغ دادنامه تجدیدنظرخواسته در پرونده ملاحظه نمی شود",
+        "start_char": 2160,
+        "end_char": 2223,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "ruling_id": "31567",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد ثمن معامله",
+        "start_char": 129,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "و خسارت تأخیر تأدیه",
+        "start_char": 234,
+        "end_char": 253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق‌الوکاله",
+      "evidence": {
+        "quote": "و حق الوکاله",
+        "start_char": 254,
+        "end_char": 266,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "و هزینه دادرسی",
+        "start_char": 272,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "و اصل صحت بر معامله راجع به آن حاکم است",
+        "start_char": 3407,
+        "end_char": 3446,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "مشتری حق دارد قیمت موجود را با تأدیه حصه ای از ثمن به نسبت موجود پرداخت نماید و بیع نسبت به مقدار نقیصه باطل است",
+        "start_char": 2513,
+        "end_char": 2625,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "منتقل نموده است",
+        "start_char": 468,
+        "end_char": 483,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دریافت",
+      "evidence": {
+        "quote": "ثمن معامله را تمام و کمال دریافت داشته است",
+        "start_char": 486,
+        "end_char": 528,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "تقاضای استرداد ثمن دریافتی را کرده اند",
+        "start_char": 5027,
+        "end_char": 5065,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "ساقط",
+      "evidence": {
+        "quote": "کلیه خیارات را نیز از ناحیه خود ساقط نموده اند",
+        "start_char": 5668,
+        "end_char": 5714,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان ها",
+        "start_char": 299,
+        "end_char": 313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده اظهار داشت",
+        "start_char": 1007,
+        "end_char": 1024,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "مشتری حق دارد قیمت موجود را",
+        "start_char": 2513,
+        "end_char": 2540,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "بایع می تواند آن را فسخ کند",
+        "start_char": 5321,
+        "end_char": 5348,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه تجدیدنظرخواسته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در مورد دعوی تجدیدنظرخواندگان",
+        "start_char": 4045,
+        "end_char": 4074,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "به موجب سند رسمی تنظیمی",
+        "start_char": 330,
+        "end_char": 353,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "مبیع حدود 47 متر از مساحت تعیین شده کمتر می باشد",
+        "start_char": 619,
+        "end_char": 667,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "در مبایعه نامه مساحت 441/95 متر مربّع تعیین شده بود",
+        "start_char": 563,
+        "end_char": 614,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک مذکورمالیت و منفعت عقلایی دارد",
+        "start_char": 3372,
+        "end_char": 3406,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مساحت زمین کمتر از مساحت تعیین شده در قرارداد است",
+      "evidence": {
+        "quote": "مبیع حدود 47 متر از مساحت تعیین شده کمتر می باشد",
+        "start_char": 619,
+        "end_char": 667,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثمن معامله به طور کامل پرداخت شده است",
+      "evidence": {
+        "quote": "ثمن معامله را تمام و کمال دریافت داشته است",
+        "start_char": 486,
+        "end_char": 528,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

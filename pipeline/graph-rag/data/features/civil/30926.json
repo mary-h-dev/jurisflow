@@ -1,0 +1,133 @@
+{
+  "ruling_id": "30926",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "سال",
+      "evidence": {
+        "quote": "قانون روابط موجر ومستأجر سال 76",
+        "start_char": 205,
+        "end_char": 236,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "آیین دادرسی مدنی",
+      "evidence": {
+        "quote": "قانون آیین دادرسی مدنی",
+        "start_char": 1141,
+        "end_char": 1163,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "دستور تخلیه",
+        "start_char": 46,
+        "end_char": 57,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی",
+        "start_char": 936,
+        "end_char": 949,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار رد",
+      "evidence": {
+        "quote": "قرار رد آن صادر می شود",
+        "start_char": 520,
+        "end_char": 542,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اجابت خواسته خواهان",
+        "start_char": 337,
+        "end_char": 356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت م. م.",
+        "start_char": 23,
+        "end_char": 37,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک تجاری",
+      "evidence": {
+        "quote": "ملک تجاری",
+        "start_char": 58,
+        "end_char": 67,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مصوب",
+      "evidence": {
+        "quote": "نقشه مصوب شهرداری",
+        "start_char": 604,
+        "end_char": 621,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تخریب",
+      "evidence": {
+        "quote": "گواهی نوسازی و تخریب",
+        "start_char": 629,
+        "end_char": 649,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه اسناد اثباتی تخریب توسط خواهان",
+      "evidence": {
+        "quote": "خواهان پرونده فاقد این اسناد می باشد",
+        "start_char": 674,
+        "end_char": 710,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم قابلیت تجدیدنظرخواهی نسبت به قرار رد",
+      "evidence": {
+        "quote": "قرار رد درخواست مذکور نیز به دلالت ماده 332 همان قانون ، قابلیت تجدیدنظرخواهی ندارد",
+        "start_char": 1173,
+        "end_char": 1256,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "28963",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "به خواسته صدور حکم به اعلام برائت",
+        "start_char": 135,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "با اتکا به اصل لزوم و صحت قراردادها",
+        "start_char": 3669,
+        "end_char": 3704,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نسبی",
+      "evidence": {
+        "quote": "بنابراصل نسبی بودن قراردادها",
+        "start_char": 3023,
+        "end_char": 3051,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم به اعلام برائت",
+        "start_char": 135,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "قرار ابطال دادخواست خواهان را در این قسمت صادر",
+        "start_char": 435,
+        "end_char": 481,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ن. ر.ک. با وکالت ف و ف. الف.",
+        "start_char": 4113,
+        "end_char": 4155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عینا\" تایید می نماید",
+        "start_char": 5121,
+        "end_char": 5167,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت بانک مرکزی جمهوری اسلامی ایران وبانک ملی ایران به خواسته صدور حکم به اعلام برائت ورفع ممنوع الخروجی بانوی خواهان را تقدیم این دادگاه کرده اند",
+        "start_char": 69,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اسلامی ایران",
+      "evidence": {
+        "quote": "به طرفیت بانک مرکزی جمهوری اسلامی ایران",
+        "start_char": 79,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بانک",
+      "evidence": {
+        "quote": "وبانک ملی ایران",
+        "start_char": 119,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ضامن",
+      "evidence": {
+        "quote": "که ضامن تعهدات شرکت بوده اند",
+        "start_char": 997,
+        "end_char": 1025,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تسهیلات و وام",
+      "evidence": {
+        "quote": "به واسطه اخذ تسهیلات",
+        "start_char": 891,
+        "end_char": 911,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "بانک ملی ممنوع الخروجی بانوی خواهان را درخواست کرده است",
+      "evidence": {
+        "quote": "بانک ملی ایران با ادعای بدهکاری مشارالیه به آن بانک از طریق بانک مرکزی در مقام ممنوع الخروج نمودن وی برآمده",
+        "start_char": 576,
+        "end_char": 683,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان قصد خروج از کشور را داشته است",
+      "evidence": {
+        "quote": "موکل قصد خروج از کشور را داشته",
+        "start_char": 531,
+        "end_char": 561,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرکت‌ها با هم ادغام شده‌اند",
+      "evidence": {
+        "quote": "ادغام دو شخصیت حقوقی",
+        "start_char": 2896,
+        "end_char": 2916,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

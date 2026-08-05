@@ -1,0 +1,143 @@
+{
+  "ruling_id": "29615",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تابعیت",
+      "evidence": {
+        "quote": "صدور شناسنامه ایرانی در واقع دادن تابعیت ایرانی برای تجدیدنظر خوانده می باشد",
+        "start_char": 1208,
+        "end_char": 1284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانونی",
+      "evidence": {
+        "quote": "تحصیل تابعیت مستلزم طی تشریفات قانونی",
+        "start_char": 1336,
+        "end_char": 1373,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده به صدور اسناد سجلی وشناسنامه",
+        "start_char": 562,
+        "end_char": 612,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض و تجدیدنظر",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی کرده است",
+        "start_char": 1063,
+        "end_char": 1086,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض و آن گاه به استناد ماده 2 همان قانون قرار رد دعوای بدوی صادر",
+        "start_char": 1814,
+        "end_char": 1878,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درمورخ 31/1/72 از پدر ومادر خارجی به دنیا آمده ام وگواهی ولادت نیز اخذ کرده ام وتاکنون از کشور خارج نشده ام فلذا درخواست صدور اسناد سجلی وشناسنامه ایرانی را دادم",
+        "start_char": 174,
+        "end_char": 335,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده دفاعی بعمل نیاورده است",
+        "start_char": 336,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه به تنظیم سند سجلی ( شناسنامه ) صادر گردیده",
+        "start_char": 1006,
+        "end_char": 1062,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "صدور اسناد سجلی وشناسنامه",
+        "start_char": 295,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "صدور اسناد سجلی وشناسنامه",
+        "start_char": 295,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان از پدر و مادر خارجی به دنیا آمده است",
+      "evidence": {
+        "quote": "از پدر ومادر خارجی به دنیا آمده ام",
+        "start_char": 189,
+        "end_char": 223,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان از کشور خارج نشده است",
+      "evidence": {
+        "quote": "تاکنون از کشور خارج نشده ام",
+        "start_char": 254,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظر خوانده دارای تابعیت کشور افغانستان می باشد",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده دارای پدر و مادر خارجی و دارای تابعیت کشور افغانستان می باشد",
+        "start_char": 1129,
+        "end_char": 1205,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

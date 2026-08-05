@@ -1,0 +1,243 @@
+{
+  "ruling_id": "7938",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "با وکالت بعدی آقای الف.ب. و آقای س.ت. به خواسته اعتراض ثالث اجرایی",
+        "start_char": 87,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "در راستای توقیف بخشی از مهریه زوجه",
+        "start_char": 247,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "در راستای توقیف بخشی از مهریه زوجه",
+        "start_char": 247,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معامله",
+      "evidence": {
+        "quote": "به عنوان معامله با مال مرهونه صحیح نبوده",
+        "start_char": 1317,
+        "end_char": 1357,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "باطل",
+      "evidence": {
+        "quote": "چنین معامله ای باطل بوده است",
+        "start_char": 1360,
+        "end_char": 1388,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بازداشت",
+      "evidence": {
+        "quote": "نسبت به بازداشت یک دستگاه خودرو کشنده",
+        "start_char": 154,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خریداری",
+      "evidence": {
+        "quote": "یک دستگاه کامیون کشنده مدل 2006 به شماره شناسه 2461225 و شماره انتظامی... را از خوانده ردیف دوم خریداری نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "مبادرت به توقیف کامیون فوق",
+        "start_char": 649,
+        "end_char": 675,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "تقاضای ابطال اقدامات اجرایی",
+        "start_char": 819,
+        "end_char": 846,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظر خواسته",
+        "start_char": 5242,
+        "end_char": 5273,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی خواهان معترض ثالث اجرایی آقای ر.ر.",
+        "start_char": 0,
+        "end_char": 58,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خواندگان خانم س.س.",
+        "start_char": 59,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به عنوان مال متعلق به زوج",
+        "start_char": 676,
+        "end_char": 701,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "خوانده ردیف اول که زوجه خوانده ردیف دوم می باشد",
+        "start_char": 532,
+        "end_char": 579,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مرتهن",
+      "evidence": {
+        "quote": "با حفظ حقوق مرتهن",
+        "start_char": 3892,
+        "end_char": 3909,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ر.ر.",
+        "start_char": 3124,
+        "end_char": 3155,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "نسبت به بازداشت یک دستگاه خودرو کشنده",
+        "start_char": 154,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "یک دستگاه کامیون کشنده مدل 2006 به شماره شناسه 2461225",
+        "start_char": 413,
+        "end_char": 467,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "حسب وکالت نامه شماره 8378-10/7/90",
+        "start_char": 348,
+        "end_char": 381,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "سند عادی ابرازی",
+        "start_char": 4388,
+        "end_char": 4403,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "کامیون در زمان معامله در رهن بانک بوده است",
+      "evidence": {
+        "quote": "کامیون تریلر مورد بحث تا سال 92 در رهن بانک بوده",
+        "start_char": 1155,
+        "end_char": 1203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کامیون در تاریخ 9/6/92 از رهن بانک خارج شده است",
+      "evidence": {
+        "quote": "کامیون موصوف در تاریخ 9/6/92 از رهن بانک خارج شده است",
+        "start_char": 1647,
+        "end_char": 1700,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله کامیون قبل از توقیف انجام شده است",
+      "evidence": {
+        "quote": "حکایت از وقوع معامله قبل از توقیف ماشین دارد",
+        "start_char": 5060,
+        "end_char": 5104,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

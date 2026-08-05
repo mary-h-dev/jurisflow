@@ -1,0 +1,103 @@
+{
+  "ruling_id": "24966",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "با نفی صلاحیت محلی از خود قرار عدم صلاحیت به اعتبار صلاحیت دادگاه عمومی شهرستان ب. صادر نموده است",
+        "start_char": 488,
+        "end_char": 585,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اختلاف",
+      "evidence": {
+        "quote": "پس از وصول پرونده و ارجاع به شعبه چهلم دیوان عالی کشور مورد بررسی قرار گرفت و گزارش آن تهیه شد",
+        "start_char": 1654,
+        "end_char": 1748,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم بر الزام خوانده به پرداخت مبلغ 65/000/000 ریال",
+        "start_char": 110,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت مبلغ 65/000/000 ریال",
+        "start_char": 132,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خانم س. ف. ساکن ا. دادخواستی به طرفیت آقای پ. الف.",
+        "start_char": 0,
+        "end_char": 50,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای پ. الف. شغل دانشجوی رشته مکانیک ب.",
+        "start_char": 29,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "به خواسته صدور حکم بر الزام خوانده به پرداخت مبلغ 65/000/000 ریال",
+        "start_char": 110,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دادگاه حضور نیافته است",
+      "evidence": {
+        "quote": "خوانده حضور نیافته",
+        "start_char": 753,
+        "end_char": 771,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اختلاف در صلاحیت بین دو شعبه وجود دارد",
+      "evidence": {
+        "quote": "در مورد اختلاف حادث شده بین شعبه چهارم دادگاه عمومی (حقوقی) ک. و شعبه سوم دادگاه عمومی (حقوقی) ب.",
+        "start_char": 2413,
+        "end_char": 2510,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

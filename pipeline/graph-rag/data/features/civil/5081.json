@@ -1,0 +1,183 @@
+{
+  "ruling_id": "5081",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "به جهت عدم ایفاء تعهد",
+        "start_char": 332,
+        "end_char": 353,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "مبادرت به طرح دعوی جداگانه مبنی بر فسخ قرارداد نموده",
+        "start_char": 838,
+        "end_char": 890,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمان",
+      "evidence": {
+        "quote": "عدم انجام تعهد قانوناً موجب ضمان می باشد",
+        "start_char": 1757,
+        "end_char": 1797,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارت فرع بر تصریح در قرارداد بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "دعوای خواهان به نحو صحیح و مطابق مقررات قانونی اقامه شده",
+        "start_char": 1988,
+        "end_char": 2044,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض قرار مذکور",
+        "start_char": 2403,
+        "end_char": 2421,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عودت",
+      "evidence": {
+        "quote": "پرونده را برای ادامه رسیدگی در ماهیت به محکمه نخستین عودت می دهد",
+        "start_char": 2423,
+        "end_char": 2487,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان آقای م.ف.",
+        "start_char": 0,
+        "end_char": 21,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت شرکت پ.",
+        "start_char": 59,
+        "end_char": 75,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "متعهدله",
+      "evidence": {
+        "quote": "متعهد له می تواند ادعای خسارت نموده",
+        "start_char": 1894,
+        "end_char": 1929,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ماشین",
+      "evidence": {
+        "quote": "یک دستگاه ماشین تزریق پلاستیک",
+        "start_char": 214,
+        "end_char": 243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "موضوع قرارداد اجاره به شرط تملیک",
+        "start_char": 244,
+        "end_char": 276,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "عدم وصول وجه چک های پرداختی",
+        "start_char": 791,
+        "end_char": 818,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته",
+        "start_char": 1386,
+        "end_char": 1409,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تحویل مبیع",
+      "evidence": {
+        "quote": "عدم تحویل مبیع",
+        "start_char": 190,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تغییر مشخصات مبیع در صورت جلسه",
+      "evidence": {
+        "quote": "نوع و مشخصات مبیع تغییر و طی آن تاریخی برای تحویل در نظر گرفته نشده است",
+        "start_char": 703,
+        "end_char": 774,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم وصول وجه چک‌ها",
+      "evidence": {
+        "quote": "عدم وصول وجه چک های پرداختی",
+        "start_char": 791,
+        "end_char": 818,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

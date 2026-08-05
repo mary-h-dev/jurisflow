@@ -1,0 +1,203 @@
+{
+  "ruling_id": "40967",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قتل عمدی",
+      "evidence": {
+        "quote": "مباشرت در قتل عمدی",
+        "start_char": 2726,
+        "end_char": 2744,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ایراد",
+      "evidence": {
+        "quote": "ایراد جرح عمدی با چاقو",
+        "start_char": 2766,
+        "end_char": 2788,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصرف مسکرات",
+      "evidence": {
+        "quote": "مصرف مسکرات",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دفاع مشروع",
+      "evidence": {
+        "quote": "دفاع مشروع",
+        "start_char": 8731,
+        "end_char": 8741,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "حاکمیت اصل شرعی و قانونی برائت",
+        "start_char": 13163,
+        "end_char": 13193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رشد",
+      "evidence": {
+        "quote": "رشد و کمال عقلی",
+        "start_char": 1747,
+        "end_char": 1762,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "قتل",
+      "evidence": {
+        "quote": "مقتول توسط ضربه چاقو به قتل رسیده",
+        "start_char": 502,
+        "end_char": 535,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رضایت",
+      "evidence": {
+        "quote": "رضایت خود را اعلام نموده است",
+        "start_char": 2411,
+        "end_char": 2439,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض ایشان",
+        "start_char": 1881,
+        "end_char": 1893,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "مقتول",
+      "evidence": {
+        "quote": "مقتول توسط ضربه چاقو به قتل رسیده",
+        "start_char": 502,
+        "end_char": 535,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم اقای ر. پ. فرزند ب.",
+        "start_char": 2572,
+        "end_char": 2596,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اولیای دم",
+      "evidence": {
+        "quote": "اولیای دم مرحوم ا. ح. ا. ا.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "مطالبه دیه از سوی شاکی خصوصی",
+        "start_char": 11939,
+        "end_char": 11967,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چاقو",
+      "evidence": {
+        "quote": "چاقو دارای تیغه فلزی و دسته سبز رنگ",
+        "start_char": 920,
+        "end_char": 955,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شوکر",
+      "evidence": {
+        "quote": "با چاقو و شوکر از محل متواری می گردند",
+        "start_char": 683,
+        "end_char": 720,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "موتورسیکلت",
+      "evidence": {
+        "quote": "با موتورسیکلت من رفته بودیم",
+        "start_char": 3894,
+        "end_char": 3921,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "درگیری فیزیکی بین متهم و مقتول",
+      "evidence": {
+        "quote": "با ر. پ. بحث کرد شروع به ضرب و شتم یکدیگر کردند",
+        "start_char": 4104,
+        "end_char": 4151,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مرگ مقتول بر اثر ضربات چاقو",
+      "evidence": {
+        "quote": "مقتول به اتفاق دوستش به نام اقای م. ش. خ. با دو نفر به اسامی اقایان م. پ. و ر. پ. درگیر که منتهی به قتل وی شده است",
+        "start_char": 3258,
+        "end_char": 3372,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مصرف مشروب توسط متهم",
+      "evidence": {
+        "quote": "ر. پ. که قبل از ان داخل منزل ما مشروب خورده بودیم",
+        "start_char": 3842,
+        "end_char": 3891,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

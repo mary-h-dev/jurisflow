@@ -1,0 +1,133 @@
+{
+  "ruling_id": "34707",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی",
+        "start_char": 198,
+        "end_char": 218,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "درخواست",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی کرده است",
+        "start_char": 198,
+        "end_char": 227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابرام",
+      "evidence": {
+        "quote": "ابرام شده است",
+        "start_char": 349,
+        "end_char": 362,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد اعاده دادرسی",
+        "start_char": 1417,
+        "end_char": 1436,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "محکومین",
+      "evidence": {
+        "quote": "یکی از محکومین",
+        "start_char": 16,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادیار",
+      "evidence": {
+        "quote": "آقای دادیار محترم",
+        "start_char": 396,
+        "end_char": 413,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مجری حکم",
+      "evidence": {
+        "quote": "فقط دادستان مجری حکم مجاز به درخواست اعاده دادرسی می باشد",
+        "start_char": 1308,
+        "end_char": 1365,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره 7200106-92/3/23",
+        "start_char": 31,
+        "end_char": 60,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "لایحه مورخ 95/1/18",
+        "start_char": 117,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "ارسال پرونده های محاکماتی",
+        "start_char": 453,
+        "end_char": 478,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "درخواست اعاده دادرسی به دلیل اشتباه در محاسبه جزای نقدی مطرح شده است",
+      "evidence": {
+        "quote": "به لحاظ اشتباه در محاسبه جزای نقدی درخواست اعاده دادرسی کرده است",
+        "start_char": 163,
+        "end_char": 227,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادنامه قبلی توسط دیوان عالی کشور ابرام شده است",
+      "evidence": {
+        "quote": "دادنامه مذکور مطابق دادنامه شماره 8700134-93/3/20 شعبه 31 دیوان عالی کشور ابرام شده است",
+        "start_char": 275,
+        "end_char": 362,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

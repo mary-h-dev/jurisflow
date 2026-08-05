@@ -1,0 +1,123 @@
+{
+  "ruling_id": "407",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رسمی",
+      "evidence": {
+        "quote": "سند مذکور از جمله اسناد رسمی است",
+        "start_char": 713,
+        "end_char": 745,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "نظر به اینکه داشتن نام مورد علاقه از ابتدائی ترین حقوق افراد است",
+        "start_char": 1903,
+        "end_char": 1967,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم مبنی بر تغییر نام از ت. به الف.",
+        "start_char": 80,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادره نقض و حکم به تغییر نام خواهان برای یکبار صادر می گردد",
+        "start_char": 2282,
+        "end_char": 2345,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی آقای ت.ش. فرزند ع. به طرفیت اداره ثبت احوال",
+        "start_char": 0,
+        "end_char": 67,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "به طرفیت اداره ثبت احوال",
+        "start_char": 43,
+        "end_char": 67,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "طبق دادنامه مذکور درخواست تجدیدنظرخواه",
+        "start_char": 1656,
+        "end_char": 1694,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "با همین نام برایم شناسنامه گرفته اند",
+        "start_char": 238,
+        "end_char": 274,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "سند سجلی خواهان طبق مادتین 16 و 20 قانون ثبت احوال",
+        "start_char": 587,
+        "end_char": 637,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "نام فعلی خواهان در شناسنامه ت. است",
+      "evidence": {
+        "quote": "پس از تولدم پدر و مادرم نامم را ت. گذاشته و با همین نام برایم شناسنامه گرفته اند",
+        "start_char": 194,
+        "end_char": 274,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان در اجتماع با نام الف. شناخته می‌شود",
+      "evidence": {
+        "quote": "از همان ابتدائی تولد نزد فامیل و آشنایان به نام الف. نامیده شده و به همین نام مشهور شده ام",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

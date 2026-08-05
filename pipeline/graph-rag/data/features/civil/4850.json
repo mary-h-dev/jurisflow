@@ -1,0 +1,173 @@
+{
+  "ruling_id": "4850",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد رهن",
+      "evidence": {
+        "quote": "عقد رهن فی ما بین مدیون و دائن محقق است",
+        "start_char": 521,
+        "end_char": 560,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "باطل",
+      "evidence": {
+        "quote": "عقد قرارداد تحت عنوان رهن باطل است",
+        "start_char": 726,
+        "end_char": 760,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "استعانت از اصول کلی برائت",
+        "start_char": 888,
+        "end_char": 913,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم اشتغال ذمّه",
+      "evidence": {
+        "quote": "عدم اشتغال ذمّه",
+        "start_char": 916,
+        "end_char": 931,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "حکم به ابطال سند رهنی",
+        "start_char": 1293,
+        "end_char": 1314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارات دادرسی",
+        "start_char": 216,
+        "end_char": 236,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی بانک م.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم به رد دعوی مطالبه خسارات دادرسی",
+        "start_char": 932,
+        "end_char": 967,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نسبت به سهم خواهان",
+        "start_char": 155,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مدافعات غیرمؤثر خوانده ردیف اوّل",
+        "start_char": 295,
+        "end_char": 327,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخواه",
+        "start_char": 1520,
+        "end_char": 1541,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به سهم تجدیدنظرخوانده",
+        "start_char": 1340,
+        "end_char": 1366,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند رهنی 126347",
+        "start_char": 128,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره 446",
+        "start_char": 1205,
+        "end_char": 1222,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ثالث راهن در این پرونده وثیقه گذار نیست",
+      "evidence": {
+        "quote": "در مانحن فیه وثیقه گذار ثالث راهن نمی باشد",
+        "start_char": 563,
+        "end_char": 605,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ردیف سوم در جلسه حاضر نشده است",
+      "evidence": {
+        "quote": "از سوی خوانده ردیف سوم علی رغم ابلاغ قانونی کسی حضور ندارد",
+        "start_char": 370,
+        "end_char": 428,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

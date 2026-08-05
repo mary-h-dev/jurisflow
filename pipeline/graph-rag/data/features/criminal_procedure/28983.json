@@ -1,0 +1,153 @@
+{
+  "ruling_id": "28983",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "توهین",
+      "evidence": {
+        "quote": "اتهام آقای ح. ف. دایربر توهین",
+        "start_char": 8,
+        "end_char": 37,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ایراد ضرب",
+      "evidence": {
+        "quote": "ایراد ضرب و جرح عمدی",
+        "start_char": 40,
+        "end_char": 60,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دیه",
+      "evidence": {
+        "quote": "دیه کامل",
+        "start_char": 554,
+        "end_char": 562,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "قرار ابطال دادخواست مشار الیه را صادر واعلام می نمایند",
+        "start_char": 1603,
+        "end_char": 1657,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ح. ف. نسبت به دادنامه",
+        "start_char": 1065,
+        "end_char": 1100,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "درخواست تقدیمی را استرداد نموده است",
+        "start_char": 1519,
+        "end_char": 1554,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "دفاع بلاوجه متهم",
+        "start_char": 180,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شکایت شاکی",
+        "start_char": 111,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخواندگان",
+        "start_char": 1174,
+        "end_char": 1199,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 00813",
+        "start_char": 1085,
+        "end_char": 1112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "طی لایحه مورخ 95/1/21",
+        "start_char": 1497,
+        "end_char": 1518,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وقوع جرم توهین و ضرب و جرح",
+      "evidence": {
+        "quote": "بزهکاری ایشان محرز و مسلم است",
+        "start_char": 318,
+        "end_char": 347,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ایجاد کبودی و سرخ‌شدگی در بدن شاکیان",
+      "evidence": {
+        "quote": "بابت کبودی ساعد چپ",
+        "start_char": 563,
+        "end_char": 581,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "استرداد درخواست تجدیدنظر توسط متهم",
+      "evidence": {
+        "quote": "درخواست تقدیمی را استرداد نموده است",
+        "start_char": 1519,
+        "end_char": 1554,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

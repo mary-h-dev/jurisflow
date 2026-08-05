@@ -1,0 +1,183 @@
+{
+  "ruling_id": "26016",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "دعوای خواهان م. الف. با وکالت س. م. به طرفیت خوانده ع. الف. به خواسته خلع ید",
+        "start_char": 100,
+        "end_char": 176,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "اطلاق عنوان غصب یا در حکم غصب به تصرفات خوانده صحیح نمی‌باشد",
+        "start_char": 2392,
+        "end_char": 2452,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "برای مطالبه ثمن رقبه مورد ترافع اقامه دعوا نموده",
+        "start_char": 1819,
+        "end_char": 1867,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "از تسلیم مبیع خودداری کرده",
+        "start_char": 1621,
+        "end_char": 1647,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "نسبت به پرداخت ثمن معامله اقدامی نکرده",
+        "start_char": 2023,
+        "end_char": 2061,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان را صادر می‌نماید",
+        "start_char": 2959,
+        "end_char": 2995,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوای خواهان م. الف. با وکالت س. م.",
+        "start_char": 100,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده ع. الف.",
+        "start_char": 136,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "لیکن خوانده دعوا که فروشنده ملک بوده",
+        "start_char": 1541,
+        "end_char": 1577,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "هریک از بایع و مشتری حق دارد",
+        "start_char": 2177,
+        "end_char": 2205,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "خلع ید از پلاک ثبتی... واقع در بخش 11 تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "به موجب سند رسمی شماره 2988",
+        "start_char": 1337,
+        "end_char": 1364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "تا زمانی که ثمن به وی پرداخت نشده",
+        "start_char": 2541,
+        "end_char": 2574,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "حق دارد از تسلیم مبیع یا ثمن خودداری کند",
+        "start_char": 2198,
+        "end_char": 2238,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ملک را به خواهان واگذار کرده است",
+      "evidence": {
+        "quote": "ملک مورد خواسته به موجب سند رسمی شماره 2988 مورخ 1388/3/25 تنظیم شده در دفترخانه اسناد رسمی شماره... تهران از سوی خوانده با وکالت خواهان به شخص خواهان واگذار گردیده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثمن معامله پرداخت نشده است",
+      "evidence": {
+        "quote": "نسبت به پرداخت ثمن معامله اقدامی نکرده و تا این تاریخ نیز دلیلی بر پرداخت ثمن به دادگاه ارائه نکرده است",
+        "start_char": 2023,
+        "end_char": 2126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در ملک تصرف دارد",
+      "evidence": {
+        "quote": "خوانده دعوا که فروشنده ملک بوده تا کنون در پلاک ثبتی مورد نزاع تصرف دارد",
+        "start_char": 1546,
+        "end_char": 1618,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

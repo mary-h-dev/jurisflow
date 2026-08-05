@@ -1,0 +1,152 @@
+{
+  "ruling_id": "5111",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام زوجیت",
+        "start_char": 112,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت",
+      "evidence": {
+        "quote": "اجرت المثل ایام زوجیت",
+        "start_char": 119,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سهم الارث",
+      "evidence": {
+        "quote": "نسبت به سهم الارث خود از ماترک متوفی",
+        "start_char": 1680,
+        "end_char": 1716,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ماترک",
+      "evidence": {
+        "quote": "سهم الارث خود از ماترک متوفی",
+        "start_char": 1688,
+        "end_char": 1716,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دایر به مطالبه اجرت المثل ایام زوجیت",
+        "start_char": 104,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی مطروحه صادر",
+        "start_char": 514,
+        "end_char": 541,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادره دادگاه بدوی را نقض کرده",
+        "start_char": 1567,
+        "end_char": 1600,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "به مبلغ هیجده میلیون تومان محکوم می نماید",
+        "start_char": 1745,
+        "end_char": 1786,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "که خواهان اظهار داشت",
+        "start_char": 141,
+        "end_char": 161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نظر به اینکه تجدیدنظرخواه در لایحه تجدیدنظرخواهی اظهار نمودم",
+        "start_char": 1018,
+        "end_char": 1078,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "تجدیدنظر خواندگان ایراد و اعتراض نسبت به خواسته زوجه ابراز ننمودند",
+        "start_char": 1328,
+        "end_char": 1394,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زندگی مشترک سی و هفت ساله",
+      "evidence": {
+        "quote": "37 سال با شوهرم زندگی کردم",
+        "start_char": 162,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فوت شوهر",
+      "evidence": {
+        "quote": "شوهرم فوت کرد",
+        "start_char": 189,
+        "end_char": 202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انجام کارهای خانه با قصد اجرت",
+      "evidence": {
+        "quote": "کارها را با قصد اجرت انجام دادم",
+        "start_char": 1264,
+        "end_char": 1295,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

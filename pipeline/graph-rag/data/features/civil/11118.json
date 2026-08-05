@@ -1,0 +1,183 @@
+{
+  "ruling_id": "11118",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اهلیت",
+      "evidence": {
+        "quote": "پدر اهلیت ندارد",
+        "start_char": 256,
+        "end_char": 271,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "سلب حضانت از خوانده",
+        "start_char": 65,
+        "end_char": 84,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت",
+      "evidence": {
+        "quote": "تشخیص مصلحت طفل",
+        "start_char": 1241,
+        "end_char": 1256,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکلیف",
+      "evidence": {
+        "quote": "قصور در انجام تکلیف قانونی",
+        "start_char": 1671,
+        "end_char": 1697,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "سلب",
+      "evidence": {
+        "quote": "سلب حضانت از خوانده",
+        "start_char": 65,
+        "end_char": 84,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای الف.ق.",
+        "start_char": 763,
+        "end_char": 788,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر کردن حکم",
+      "evidence": {
+        "quote": "صادر و اعلام می‌گردد",
+        "start_char": 2033,
+        "end_char": 2053,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان خواسته‌ای به شرح مذکور مطرح کرده است",
+        "start_char": 96,
+        "end_char": 139,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "پدر",
+      "evidence": {
+        "quote": "پدر اهلیت ندارد",
+        "start_char": 256,
+        "end_char": 271,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "مادر",
+      "evidence": {
+        "quote": "فرزندم نزد من است",
+        "start_char": 237,
+        "end_char": 254,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "فرزندم نزد من است",
+        "start_char": 237,
+        "end_char": 254,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دعوا",
+      "evidence": {
+        "quote": "دعوی مطروحه از ناحیه تجدیدنظرخوانده",
+        "start_char": 893,
+        "end_char": 928,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پدر حاضر به نگهداری فرزندش نیست",
+      "evidence": {
+        "quote": "پدر حاضر به نگهداری فرزندش نبوده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزند چندین سال است نزد مادر است",
+      "evidence": {
+        "quote": "فرزندم نزد من است",
+        "start_char": 237,
+        "end_char": 254,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پدر دارای سابقه مصرف مواد است",
+      "evidence": {
+        "quote": "شیشه‌ای بوده است",
+        "start_char": 273,
+        "end_char": 289,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پدر دارای سابقه زندان است",
+      "evidence": {
+        "quote": "زندان رفته است",
+        "start_char": 291,
+        "end_char": 305,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

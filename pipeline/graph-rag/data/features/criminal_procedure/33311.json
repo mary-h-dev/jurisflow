@@ -1,0 +1,183 @@
+{
+  "ruling_id": "33311",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نگهداری",
+      "evidence": {
+        "quote": "نگهداری مشروبات الکلی",
+        "start_char": 42,
+        "end_char": 63,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تخفیف",
+      "evidence": {
+        "quote": "رعایت قواعد تخفیف",
+        "start_char": 561,
+        "end_char": 578,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "موجبات نقض دادنامه",
+        "start_char": 1345,
+        "end_char": 1363,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "درخصوص اعتراض",
+        "start_char": 857,
+        "end_char": 870,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی",
+        "start_char": 873,
+        "end_char": 886,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "محکومیت یافته است",
+        "start_char": 1152,
+        "end_char": 1169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اصلاح",
+      "evidence": {
+        "quote": "اصلاح میگردد",
+        "start_char": 1754,
+        "end_char": 1766,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تبدیل",
+      "evidence": {
+        "quote": "تبدیل می نماید",
+        "start_char": 1927,
+        "end_char": 1941,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم",
+        "start_char": 205,
+        "end_char": 209,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکیه",
+      "evidence": {
+        "quote": "شاکیه",
+        "start_char": 185,
+        "end_char": 190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 873,
+        "end_char": 885,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مشروبات الکلی",
+      "evidence": {
+        "quote": "مشروبات الکلی",
+        "start_char": 50,
+        "end_char": 63,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه",
+        "start_char": 906,
+        "end_char": 913,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه اعتراضیه",
+      "evidence": {
+        "quote": "لایحه اعتراضیه",
+        "start_char": 1197,
+        "end_char": 1211,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "کشف مشروبات الکلی از منزل متهم",
+      "evidence": {
+        "quote": "کشف مشروبات الکلی از منزل وی",
+        "start_char": 216,
+        "end_char": 244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم فاقد سابقه کیفری است",
+      "evidence": {
+        "quote": "با توجه به فقد سابقه کیفری",
+        "start_char": 1769,
+        "end_char": 1795,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم ابراز ندامت و پشیمانی کرده است",
+      "evidence": {
+        "quote": "اظهار ندامت و پشیمانی",
+        "start_char": 1798,
+        "end_char": 1819,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "35749",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "صدور حکم بر تنفیذ فسخ نکاح",
+        "start_char": 123,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "به دلیل تدلیس",
+        "start_char": 150,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "موجب تزلزل اصل لزوم قرارداد شود",
+        "start_char": 3531,
+        "end_char": 3562,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی را به طرفیت خانم ر. ر. فرزند ق. به خواسته صدور حکم بر تنفیذ فسخ نکاح به دلیل تدلیس خوانده دعوا تقدیم دادگستری مشکین شهر نموده است",
+        "start_char": 71,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "سازش",
+      "evidence": {
+        "quote": "جهت صلح و سازش پرونده را به واحد مصالحه ارسال",
+        "start_char": 643,
+        "end_char": 688,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "پس از ابلاغ رأی صادره مورد اعتراض و تجدیدنظر خواهی قرار گرفته است",
+        "start_char": 3708,
+        "end_char": 3773,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "مورد اعتراض و تجدیدنظر خواهی قرار گرفته است",
+        "start_char": 3730,
+        "end_char": 3773,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "پس از ابلاغ دادنامه مارالذکر مورد اعتراض و فرجام خواهی آقای الف. ح. قرار گرفته است",
+        "start_char": 4032,
+        "end_char": 4114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی بدوی را عیناً تأیید نموده است",
+        "start_char": 3996,
+        "end_char": 4029,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به وکالت از آقای الف. ح. فرزند ی. دادخواستی را به طرفیت خانم ر. ر. فرزند ق. به خواسته صدور حکم بر تنفیذ فسخ نکاح به دلیل تدلیس خوانده دعوا تقدیم دادگستری مشکین شهر نموده است",
+        "start_char": 37,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم ر. ر. فرزند ق. به خواسته صدور حکم بر تنفیذ فسخ نکاح به دلیل تدلیس خوانده دعوا",
+        "start_char": 84,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "آقای م. پ. به عنوان وکیل خوانده خانم ر. ر. وارد دعوا گردیده است",
+        "start_char": 806,
+        "end_char": 869,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "به موجب سند رسمی با خوانده دعوا عقد دایم نکاح نموده است",
+        "start_char": 251,
+        "end_char": 306,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در زمان عقد اعلام کرده که ازدواج نکرده است",
+      "evidence": {
+        "quote": "در ضمن عقد از خوانده سئوال گردید آیا ازدواج کرده یا خیر اظهار نموده است ازدواج نکرده است",
+        "start_char": 309,
+        "end_char": 397,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده سابقه ازدواج قبلی داشته است",
+      "evidence": {
+        "quote": "بعد مشخص شد خانم قبلاً با فرد دیگری ازدواج نموده است و از آن جدا شده است",
+        "start_char": 398,
+        "end_char": 470,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

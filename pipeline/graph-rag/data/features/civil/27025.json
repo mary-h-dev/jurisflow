@@ -1,0 +1,173 @@
+{
+  "ruling_id": "27025",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "صدور پروانه ساخت بناء در ملک مشاعی",
+        "start_char": 14,
+        "end_char": 48,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشاعه",
+      "evidence": {
+        "quote": "با تحلیلی که از تئوری اشاعه به عمل می آید",
+        "start_char": 114,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "موجبات فسخ رأی بدوی را فراهم آورد",
+        "start_char": 1646,
+        "end_char": 1679,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ساخت",
+      "evidence": {
+        "quote": "صدور پروانه ساخت بناء در ملک مشاعی",
+        "start_char": 14,
+        "end_char": 48,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد شکایت صادر",
+        "start_char": 923,
+        "end_char": 941,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظر خواهی در شعب تجدید نظر",
+        "start_char": 1018,
+        "end_char": 1055,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه شماره... تأیید می گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "مالکین",
+      "evidence": {
+        "quote": "با درخواست مالک یا مالکین",
+        "start_char": 611,
+        "end_char": 636,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "با درخواست شاکی خواهد بود",
+        "start_char": 1455,
+        "end_char": 1480,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه ایرادی موثر",
+        "start_char": 1497,
+        "end_char": 1528,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پروانه",
+      "evidence": {
+        "quote": "صدور پروانه ساخت",
+        "start_char": 14,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مشاعی",
+      "evidence": {
+        "quote": "در ملک مشاعی",
+        "start_char": 36,
+        "end_char": 48,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "تا سند تفکیکی و احرازی اخذ گردد",
+        "start_char": 1288,
+        "end_char": 1319,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره... تأیید می گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پروانه ساخت بدون اذن شرکا صادر شده است",
+      "evidence": {
+        "quote": "صدور پروانه ساخت بناء در ملک مشاعی بدون اذن شرکای دیگر",
+        "start_char": 14,
+        "end_char": 68,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تفکیک و احراز ملک انجام نشده است",
+      "evidence": {
+        "quote": "تا تاکنون تفکیک و احرازی بعمل نیامده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

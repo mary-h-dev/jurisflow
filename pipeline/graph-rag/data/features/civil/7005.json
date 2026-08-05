@@ -1,0 +1,153 @@
+{
+  "ruling_id": "7005",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل یک دستگاه آپارتمان مسکونی",
+        "start_char": 83,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدوان",
+      "evidence": {
+        "quote": "امر عدوان را نیز احراز ننموده",
+        "start_char": 375,
+        "end_char": 404,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اذن",
+      "evidence": {
+        "quote": "هرگاه کسی برحسب اذن صریح یا ضمنی از مال غیر استیفاء منفعت کند",
+        "start_char": 1157,
+        "end_char": 1218,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 73,
+        "end_char": 100,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استناد",
+      "evidence": {
+        "quote": "به دادنامه شماره 884-27/8/91 شعبه 16 تهران استناد",
+        "start_char": 218,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "خوانده دعوا به شرح لایحه شماره 692-31/3/93 اقرار به تصرف خود",
+        "start_char": 1319,
+        "end_char": 1379,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض قرار مذکور",
+        "start_char": 1853,
+        "end_char": 1870,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان ها خانم ها ع.ص. و ر.ز.",
+        "start_char": 0,
+        "end_char": 46,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای م.ح.",
+        "start_char": 47,
+        "end_char": 72,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ر.ز. و ع.ص.",
+        "start_char": 616,
+        "end_char": 641,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان مسکونی",
+        "start_char": 101,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "جزء پلاک ثبتی شماره 4/908 بخش 7 تهران",
+        "start_char": 819,
+        "end_char": 856,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده به تصرف خود اقرار کرده است",
+      "evidence": {
+        "quote": "خوانده دعوا به شرح لایحه شماره 692-31/3/93 اقرار به تصرف خود",
+        "start_char": 1319,
+        "end_char": 1379,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده مالکیت خود را نسبت به مورد دعوا نفی کرده است",
+      "evidence": {
+        "quote": "اقرار به تصرف خود و فقد مالکیت خویش نموده",
+        "start_char": 1362,
+        "end_char": 1403,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "ruling_id": "35352",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "دایر بر تنفیذ وصیت نامه",
+        "start_char": 206,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "محجور",
+      "evidence": {
+        "quote": "دو تن از خواندگان بنامهای م. و م. د. محجور هستند",
+        "start_char": 296,
+        "end_char": 344,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قیمومیت",
+      "evidence": {
+        "quote": "تحت قیمومیت خواهان هستند",
+        "start_char": 347,
+        "end_char": 371,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع آن صادر می گردد",
+        "start_char": 571,
+        "end_char": 602,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طرح",
+      "evidence": {
+        "quote": "قیم نمی تواند علیه مولی علیه خود ( محجور) دعوایی طرح نماید",
+        "start_char": 418,
+        "end_char": 476,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه محترم تجدیدنظر استان تهران خواهد بود",
+        "start_char": 667,
+        "end_char": 732,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دادخواست",
+      "evidence": {
+        "quote": "ضمن رد دادخواست تجدید نظر خواهی",
+        "start_char": 1451,
+        "end_char": 1482,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "تحت قیمومیت خواهان هستند",
+        "start_char": 347,
+        "end_char": 371,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "دو تن از خواندگان بنامهای م. و م. د. محجور هستند",
+        "start_char": 296,
+        "end_char": 344,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "با عنایت به اینکه تجدیدنظرخواه ایراد و اعتراض موجهی",
+        "start_char": 1296,
+        "end_char": 1347,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وصیت‌نامه",
+      "evidence": {
+        "quote": "تنفیذ وصیت نامه",
+        "start_char": 214,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دو تن از خواندگان محجور هستند",
+      "evidence": {
+        "quote": "دو تن از خواندگان بنامهای م. و م. د. محجور هستند",
+        "start_char": 296,
+        "end_char": 344,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوی قابلیت استماع ندارد",
+      "evidence": {
+        "quote": "دعوی در شرایط فعلی به نحو مطروحه قابلیت استماع ندارد",
+        "start_char": 477,
+        "end_char": 529,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "ruling_id": "29245",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "با عتایت به اصل عدم تبرع",
+        "start_char": 621,
+        "end_char": 645,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مستحق اجرت المثل است",
+        "start_char": 691,
+        "end_char": 711,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه اجرت المثل",
+        "start_char": 95,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "خوانده را به پرداخت مبلغ 180/000/000 ریال بابت اصل خواسته وهزینه دادرسی در حق خواهان محکوم می نماید",
+        "start_char": 889,
+        "end_char": 988,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 1943,
+        "end_char": 1962,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نتیجتا تایید می نماید",
+        "start_char": 1963,
+        "end_char": 2010,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نظر به اینکه خواهان بشرح اظهارات مندرج در صورتجلسه رسیدگی دادگاه اظهار داشته",
+        "start_char": 201,
+        "end_char": 277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده دلیل ومدرکی مبنی بر اینکه کارهایی که همسرش انجام داده به قصد تبرع بوده به دادگاه ارائه ننموده",
+        "start_char": 396,
+        "end_char": 496,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیلی که موجبات نقض و یا بی اعتباری دادنامه را فراهم نماید ارائه ننموده",
+        "start_char": 1738,
+        "end_char": 1822,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق خواهان بدوی تجدیدنظرخوانده بشرح توضیحات داده شده",
+        "start_char": 1476,
+        "end_char": 1530,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "خوانده را به پرداخت مبلغ 180/000/000 ریال بابت اصل خواسته وهزینه دادرسی در حق خواهان محکوم می نماید",
+        "start_char": 889,
+        "end_char": 988,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انجام کارهایی که شرعاً بر عهده زن نبوده به دستور زوج",
+      "evidence": {
+        "quote": "در مدت زندگی مشترک زناشوئی کارهایی را که شرعاً بر عهده اش نبوده بنا به دستور زوج انجام داده است",
+        "start_char": 278,
+        "end_char": 373,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل مبنی بر قصد تبرع توسط خوانده",
+      "evidence": {
+        "quote": "خوانده دلیل ومدرکی مبنی بر اینکه کارهایی که همسرش انجام داده به قصد تبرع بوده به دادگاه ارائه ننموده",
+        "start_char": 396,
+        "end_char": 496,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

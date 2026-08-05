@@ -1,0 +1,193 @@
+{
+  "ruling_id": "26294",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "معامله",
+      "evidence": {
+        "quote": "مطالبه ثمن معامله",
+        "start_char": 105,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "وکالت",
+      "evidence": {
+        "quote": "موکلین طی وکالت نامه رسمی",
+        "start_char": 200,
+        "end_char": 225,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "باعقد بیع",
+        "start_char": 1239,
+        "end_char": 1248,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه ثمن معامله",
+        "start_char": 95,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "اقدام به انتقال ملک موصوف به خود نموده است",
+        "start_char": 366,
+        "end_char": 408,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "ازتادیه ثمن معامله به موکلین امتناع ورزیده",
+        "start_char": 410,
+        "end_char": 452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امضاء",
+      "evidence": {
+        "quote": "موکلین نیزبه جهت کهولت سن و اعتماد آنرا امضاء مینمایند",
+        "start_char": 1115,
+        "end_char": 1169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مخدوش تشخیص و نقض میشود",
+        "start_char": 3394,
+        "end_char": 3417,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهانها بیان نموده",
+        "start_char": 665,
+        "end_char": 689,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت آقای الف. ن. ب. به خواسته مطالبه ثمن معامله",
+        "start_char": 72,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موکلین",
+      "evidence": {
+        "quote": "موکلین طی وکالت نامه رسمی",
+        "start_char": 200,
+        "end_char": 225,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل خواهانها بیان نموده",
+        "start_char": 665,
+        "end_char": 689,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "اقدام به انتقال ملک موصوف به خود نموده است",
+        "start_char": 366,
+        "end_char": 408,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اراضی",
+      "evidence": {
+        "quote": "اراضی قریه ج.پلاک",
+        "start_char": 746,
+        "end_char": 763,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه رسمی",
+      "evidence": {
+        "quote": "طی وکالت نامه رسمی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "مطابق سندشماره...",
+        "start_char": 324,
+        "end_char": 341,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده با استفاده از وکالتنامه اقدام به انتقال ملک به خودش کرده است",
+      "evidence": {
+        "quote": "خوانده با استفاده از این وکالتنامه اقدام به انتقال کل هشت سهم موکلین باعقد بیع به خودش نموده است",
+        "start_char": 1170,
+        "end_char": 1266,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثمن معامله پرداخت نشده است",
+      "evidence": {
+        "quote": "بدون اینکه ثمن معامله را به موکلین پرداخت نماید",
+        "start_char": 1267,
+        "end_char": 1314,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

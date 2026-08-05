@@ -1,0 +1,213 @@
+{
+  "ruling_id": "823",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "با احراز رابطه زوجیت فی مابین خواهان و خوانده",
+        "start_char": 341,
+        "end_char": 386,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "حقوق و تکالیف زوجین در مقابل یکدیگر برقرار می شود",
+        "start_char": 413,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خانواده",
+      "evidence": {
+        "quote": "ریاست خانواده از خصایص شوهر است",
+        "start_char": 1019,
+        "end_char": 1050,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نظم عمومی",
+      "evidence": {
+        "quote": "از امر مربوط به نظم عمومی است",
+        "start_char": 1350,
+        "end_char": 1379,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت دائم",
+      "evidence": {
+        "quote": "ادامه علقه زوجیت دائم",
+        "start_char": 3096,
+        "end_char": 3117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عذر",
+      "evidence": {
+        "quote": "وجود عذر موجه",
+        "start_char": 3224,
+        "end_char": 3237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مانع مشروع",
+      "evidence": {
+        "quote": "مانع مشروع",
+        "start_char": 3240,
+        "end_char": 3250,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین از خواهان",
+        "start_char": 189,
+        "end_char": 230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت نفقه",
+        "start_char": 957,
+        "end_char": 968,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "می تواند برابر مقررات نفقه خود را از طریق محکمه صالحه مطالبه نماید",
+        "start_char": 3754,
+        "end_char": 3820,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته نقض می شود",
+        "start_char": 4023,
+        "end_char": 4056,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست تقدیمی خواهان ح.ع.",
+        "start_char": 0,
+        "end_char": 34,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت س.س. فرزند الف. به خواسته الزام خوانده",
+        "start_char": 164,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "در ما نحن فیه امارات و اظهارات موجود در پرونده حاکی از عدم ایفای زوج از تکالیف قانونی در حق زوجه می باشد",
+        "start_char": 1399,
+        "end_char": 1503,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در حق زوجه می باشد",
+        "start_char": 1485,
+        "end_char": 1503,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به دلالت منطوق سند نکاحیه",
+        "start_char": 387,
+        "end_char": 412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "بازگشت به منزل مشترک",
+        "start_char": 2956,
+        "end_char": 2976,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "پرداخت نفقه",
+        "start_char": 957,
+        "end_char": 968,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج نفقه را پرداخت نکرده است",
+      "evidence": {
+        "quote": "زوج نفقه مقرر قانونی را در حق زوجه پرداخت ننموده",
+        "start_char": 1670,
+        "end_char": 1718,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ادعای ضرب و جرح و فحاشی اثبات نشده است",
+      "evidence": {
+        "quote": "ادعای زوجه در مورد ضرب و جرح و فحاشی هنوز اثبات نگردیده",
+        "start_char": 3340,
+        "end_char": 3395,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

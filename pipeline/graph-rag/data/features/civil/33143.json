@@ -1,0 +1,173 @@
+{
+  "ruling_id": "33143",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه فرزند",
+        "start_char": 106,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "صدور حکم اعسار",
+        "start_char": 1705,
+        "end_char": 1719,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "احراز عسرو حرج",
+        "start_char": 1722,
+        "end_char": 1736,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه نفقه فرزند",
+        "start_char": 98,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد واخواهی",
+      "evidence": {
+        "quote": "ضمن رد وا خواهی",
+        "start_char": 1878,
+        "end_char": 1893,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظر خواهی",
+        "start_char": 945,
+        "end_char": 964,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان محکوم می نماید",
+        "start_char": 824,
+        "end_char": 851,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "رسمی خوانده را به پرداخت",
+        "start_char": 755,
+        "end_char": 779,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخوانده",
+      "evidence": {
+        "quote": "به طرفیت واخوانده خانم ز. ع.",
+        "start_char": 1108,
+        "end_char": 1136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "از ناحیه معترض ایراد و یا اعتراض موجهی",
+        "start_char": 1488,
+        "end_char": 1526,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م. ب.پ.",
+        "start_char": 2146,
+        "end_char": 2172,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "فتوکپی مصدق شناسنامه",
+        "start_char": 158,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بموجب دادنامه صادره",
+        "start_char": 1371,
+        "end_char": 1390,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه پدری و مادری بین طرفین وجود دارد",
+      "evidence": {
+        "quote": "احراز رابطه بنوت به دلالت سند سجلی شنا سنامه",
+        "start_char": 220,
+        "end_char": 264,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حکم به پرداخت نفقه صادر شده است",
+      "evidence": {
+        "quote": "حکم به پرداخت نفقه فرزند بمبلغ 200/000 تومان تعیین گردیده است",
+        "start_char": 1391,
+        "end_char": 1452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبلغ نفقه به دلیل عسر و حرج تعدیل شد",
+      "evidence": {
+        "quote": "با توجه به وضعیت صدور حکم اعسار و احراز عسرو حرج واخواه دادگه در میزان نفقه تعدیل نموده",
+        "start_char": 1688,
+        "end_char": 1775,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

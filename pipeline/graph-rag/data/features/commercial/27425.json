@@ -1,0 +1,173 @@
+{
+  "ruling_id": "27425",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "اعلام ورشکستگی شرکت مزبور",
+        "start_char": 616,
+        "end_char": 641,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "مبنای عدم تعلق خسارت تأخیر تأدیه ارفاق قانونی به خود شخص ورشکسته است",
+        "start_char": 1582,
+        "end_char": 1650,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد رهن",
+      "evidence": {
+        "quote": "بعلاوه عقد رهن عقد تبعی است",
+        "start_char": 4897,
+        "end_char": 4924,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فک رهن",
+      "evidence": {
+        "quote": "تقاضای رسیدگی و صدور حکم می نماید. بانک خوانده طی لایحه ای به شماره 1 *** -93/11/27 دفاعاً اظهار نموده که نامبردگان ضامن و راهن شرکت تعاونی... می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسویه و تصفیه",
+      "evidence": {
+        "quote": "برای تسویه و آزاد سازی سندملکی اینجانبان برآورده",
+        "start_char": 1112,
+        "end_char": 1160,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "فرمانخواه نیز اعتراض مؤثری نسبت به آن به عمل نیاورده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهانهای پرونده آقایان و خانمها ش. - ط. - ر.الف. - ب. - ش. - ل. - ن. - شهرت همگی م. و خانم ع. خ.",
+        "start_char": 0,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بانک خوانده طی لایحه ای به شماره 1 *** -93/11/27 دفاعاً اظهار نموده",
+        "start_char": 1345,
+        "end_char": 1412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدیر",
+      "evidence": {
+        "quote": "تعیین خوانده دوم پرونده به عنوان مدیر تصفیه",
+        "start_char": 642,
+        "end_char": 685,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "راهن",
+      "evidence": {
+        "quote": "نامبردگان ضامن و راهن شرکت تعاونی... می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ضامن",
+      "evidence": {
+        "quote": "نامبردگان ضامن و راهن شرکت تعاونی... می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "این رأی مورد فرجامخواهی بانک صادرات قرار گرفته",
+        "start_char": 5164,
+        "end_char": 5210,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "املاک و پلاک ثبتی",
+      "evidence": {
+        "quote": "فک رهن سند رسمی پلاک... فرعی از... اصلی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تسهیلات و وام",
+      "evidence": {
+        "quote": "بابت قسمت تسهیلات مأخوذه شرکت تعاونی تولید فرآورده های حجیم",
+        "start_char": 428,
+        "end_char": 487,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "بدهکار مبلغ تسهیلات را پرداخت کرده است",
+      "evidence": {
+        "quote": "بدهکار حاضر به پرداخت کلیه دیون بوده و بانک بنا به خواسته خود مبلغ فوق را حذف کرده است",
+        "start_char": 2402,
+        "end_char": 2488,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرکت تعاونی ورشکسته شده است",
+      "evidence": {
+        "quote": "حکم به ورشکستگی شرکت صادر شده",
+        "start_char": 851,
+        "end_char": 880,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

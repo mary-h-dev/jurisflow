@@ -1,0 +1,123 @@
+{
+  "ruling_id": "4390",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قوانین آمره",
+      "evidence": {
+        "quote": "مخالفت با قوانین آمره",
+        "start_char": 147,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "اعلام بطلان قرارداد",
+        "start_char": 104,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "اقامه نمودند",
+        "start_char": 172,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد آن",
+      "evidence": {
+        "quote": "قرار رد آن را صادر و اعلام می داند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "تأیید می نماید",
+        "start_char": 1745,
+        "end_char": 1759,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خواندهN.G.",
+        "start_char": 41,
+        "end_char": 60,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 1089,
+        "end_char": 1101,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "بطلان قرارداد",
+        "start_char": 110,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 9101189",
+        "start_char": 1176,
+        "end_char": 1205,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین در قرارداد بر صلاحیت دادگاه برلین توافق کرده‌اند",
+      "evidence": {
+        "quote": "طرفین به صراحت توافق نموده اند که هرگونه اختلاف ناشی از این قرارداد در دادگاه واجد شرایط برلین مورد رسیدگی قرار گیرد",
+        "start_char": 550,
+        "end_char": 666,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد با یک تبعه آلمانی منعقد شده است",
+      "evidence": {
+        "quote": "قرارداد فوق الذکر نیز با یک تبعه آلمانی منعقد شده است",
+        "start_char": 415,
+        "end_char": 468,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

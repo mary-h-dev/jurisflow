@@ -1,0 +1,133 @@
+{
+  "ruling_id": "35356",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "ظاهر در عدم تبرع است",
+        "start_char": 325,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تاخیر تادیه",
+        "start_char": 948,
+        "end_char": 965,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه",
+        "start_char": 85,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "بپردازد مبلغ دویست میلیون ریال",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 1720,
+        "end_char": 1740,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حق خواهان",
+        "start_char": 810,
+        "end_char": 819,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به حساب خوانده",
+        "start_char": 136,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه",
+        "start_char": 1356,
+        "end_char": 1376,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ دویست میلیون ریال",
+        "start_char": 102,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فیش",
+      "evidence": {
+        "quote": "روگرفت فیش واریزی",
+        "start_char": 212,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واریز وجه به حساب خوانده در سال ۱۳۹۳",
+      "evidence": {
+        "quote": "وجوه واریزی به حساب خوانده مورخ 5 /3 /93",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم وجود توافق کتبی برای حق کمیسیون",
+      "evidence": {
+        "quote": "اعلام داشته توافق شفاهی بوده نه کتبی و ودلیلی بر وجود توافق ابراز نداشته است",
+        "start_char": 516,
+        "end_char": 592,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

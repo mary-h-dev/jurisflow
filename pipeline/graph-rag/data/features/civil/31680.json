@@ -1,0 +1,203 @@
+{
+  "ruling_id": "31680",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتبار",
+      "evidence": {
+        "quote": "اوراق مذکور اعتبار و سند تجاری را دارا نباشند",
+        "start_char": 210,
+        "end_char": 255,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصل خواسته",
+      "evidence": {
+        "quote": "بابت اصل خواسته",
+        "start_char": 2251,
+        "end_char": 2266,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "ضرر و زیان ناشی از تاخیر تادیه",
+        "start_char": 125,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت دادرسی",
+      "evidence": {
+        "quote": "بعلاوه خسارت دادرسی",
+        "start_char": 2267,
+        "end_char": 2286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "دلالت بر اشتغال ذمه تجدیدنظرخوانده",
+        "start_char": 1956,
+        "end_char": 1990,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مبنی بر مطالبه ده میلیون تومان",
+        "start_char": 52,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "مراتب اعتراض خود را اعلام کرده",
+        "start_char": 1076,
+        "end_char": 1106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته مقتضی نقض است",
+        "start_char": 1499,
+        "end_char": 1535,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت مبلغ ده میلیون تومان",
+        "start_char": 2220,
+        "end_char": 2250,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "میزان بدهی خوانده به خواهان مشخص نیست",
+        "start_char": 364,
+        "end_char": 401,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "میزان بدهی خوانده به خواهان مشخص نیست",
+        "start_char": 364,
+        "end_char": 401,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 00113 مورخ 94/2/16 شعبه سوم دادگاه حقوقی ملارد که به موجب آن راجع به خواسته تجدیدنظرخواه",
+        "start_char": 709,
+        "end_char": 819,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده علی رغم ابلاغ برگ اخطاریه",
+        "start_char": 1137,
+        "end_char": 1177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "صادرکننده",
+      "evidence": {
+        "quote": "عدم ذکر مبلغ از سوی صادر کننده",
+        "start_char": 1550,
+        "end_char": 1580,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سفته",
+      "evidence": {
+        "quote": "دو فقره سفته به شماره های 461653و461654",
+        "start_char": 83,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "مطالبه ده میلیون تومان",
+        "start_char": 60,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم واخواست سفته ها",
+      "evidence": {
+        "quote": "با توجه به عدم واخواست سفته ها",
+        "start_char": 163,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ذکر مبلغ در متن سفته",
+      "evidence": {
+        "quote": "عدم ذکر مبلغ از سوی صادر کننده در متن سفته",
+        "start_char": 1550,
+        "end_char": 1592,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پاسخگویی تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "عدم پاسخگویی به تجدیدنظرخواهی در این مرحله",
+        "start_char": 1910,
+        "end_char": 1952,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

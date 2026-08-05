@@ -1,0 +1,223 @@
+{
+  "ruling_id": "10936",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "صدور حکم طلاق",
+        "start_char": 334,
+        "end_char": 347,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "نوع طلاق بائن است",
+        "start_char": 4076,
+        "end_char": 4093,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "دادخواستی به خواسته صدور حکم طلاق به طرفیت خانم م.الف. تقدیم و توضیح می‌دهد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "بذل نموده",
+        "start_char": 1408,
+        "end_char": 1417,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد جهیزیه",
+        "start_char": 6156,
+        "end_char": 6170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "نسبت به آن تجدیدنظرخواهی می‌کند",
+        "start_char": 4141,
+        "end_char": 4172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأي فرجام‌خواسته نقض و پرونده برای رسیدگی مجدد ارجاع می‌گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با شرح دعوای خواهان",
+        "start_char": 3498,
+        "end_char": 3517,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه باکره است",
+        "start_char": 1185,
+        "end_char": 1199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تلاش برای صلح و سازش بین زوجین",
+        "start_char": 2836,
+        "end_char": 2866,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "خود را وکیل زوجه معرفی می‌کند",
+        "start_char": 656,
+        "end_char": 685,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "داور زوج در تاریخ 1393/4/2",
+        "start_char": 2786,
+        "end_char": 2812,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشاور",
+      "evidence": {
+        "quote": "مشاور دادگاه توضیح می‌دهد",
+        "start_char": 3303,
+        "end_char": 3328,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "رونوشت مصدق سند ازدواج",
+        "start_char": 39,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "تمام مهریه خود را",
+        "start_char": 1326,
+        "end_char": 1343,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "اقلام مربوط به جهیزیه",
+        "start_char": 5809,
+        "end_char": 5830,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "نصف یک باب منزل مسکونی",
+        "start_char": 1352,
+        "end_char": 1374,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "دو برگ چک‌های اقساطی",
+        "start_char": 5544,
+        "end_char": 5564,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه در زمان عقد باکره بوده است",
+      "evidence": {
+        "quote": "پرده بکارت نامبرده از نوع حلقوی - سالم و غیر مدخوله است",
+        "start_char": 2481,
+        "end_char": 2536,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بخش از مهریه در قبال ملک بذل شده است",
+      "evidence": {
+        "quote": "زوجه تمام مهریه خود را در قبال نصف یک باب منزل مسکونی که مبایعه‌نامه آن پیوست می‌باشد، بذل نموده و دریافت کرده است",
+        "start_char": 1321,
+        "end_char": 1435,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تلاش برای صلح و سازش میان زوجین بی‌نتیجه بوده است",
+      "evidence": {
+        "quote": "تلاش برای صلح و سازش بین زوجین مؤثر واقع نشده است",
+        "start_char": 2836,
+        "end_char": 2885,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "32798",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قرض",
+      "evidence": {
+        "quote": "بابت بازپس دادن مبلغ قرض",
+        "start_char": 66,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ازدواج",
+      "evidence": {
+        "quote": "بقصد ازدواج",
+        "start_char": 493,
+        "end_char": 504,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "وجود رابطه زوجیت بین طرفین محرز نگردیده است",
+        "start_char": 535,
+        "end_char": 578,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه 90/000/000 ریال",
+        "start_char": 43,
+        "end_char": 65,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استعلام",
+      "evidence": {
+        "quote": "اقدام به استعلام از بانک آینده",
+        "start_char": 232,
+        "end_char": 262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "به نام خوانده منتقل شده است",
+        "start_char": 387,
+        "end_char": 414,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم بر محکومیت خوانده",
+        "start_char": 1074,
+        "end_char": 1095,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را عینا\" تأیید مینماید",
+        "start_char": 2144,
+        "end_char": 2183,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان آقای ک. خ.گ.",
+        "start_char": 0,
+        "end_char": 32,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به نام خوانده منتقل شده است",
+        "start_char": 387,
+        "end_char": 414,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم منا زاویه",
+        "start_char": 1482,
+        "end_char": 1510,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبلغ",
+      "evidence": {
+        "quote": "مبلغ 41/500/000 ریال",
+        "start_char": 319,
+        "end_char": 339,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انتقال مبلغ از کارت‌های بانکی خوانده به خوانده",
+      "evidence": {
+        "quote": "مجموعا مبلغ 41/500/000 ریال از کارتهای 6362141070924833 و 6037997142563890 به نام خوانده منتقل شده است",
+        "start_char": 312,
+        "end_char": 414,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات رابطه زوجیت بین طرفین",
+      "evidence": {
+        "quote": "وجود رابطه زوجیت بین طرفین محرز نگردیده است",
+        "start_char": 535,
+        "end_char": 578,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

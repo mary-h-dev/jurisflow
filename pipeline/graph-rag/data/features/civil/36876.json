@@ -1,0 +1,213 @@
+{
+  "ruling_id": "36876",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "دادخواست طلاق",
+        "start_char": 45,
+        "end_char": 58,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "از دادگاه به دلیل عسر و حرج",
+        "start_char": 344,
+        "end_char": 371,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "زوجه حق حبس خود را اعمال نموده",
+        "start_char": 756,
+        "end_char": 786,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "دادخواست تجدیدنظرخواهی",
+        "start_char": 1897,
+        "end_char": 1919,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواست طلاق به طرفیت اقای م. ا. تقدیم شعبه *درعباس نموده",
+        "start_char": 45,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "موکل تمامی نفقات زوجه را برابر سند ارائه شده سازمان *مدنی پرداخت کرده است",
+        "start_char": 648,
+        "end_char": 721,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعمال",
+      "evidence": {
+        "quote": "زوجه حق حبس خود را اعمال نموده",
+        "start_char": 756,
+        "end_char": 786,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "دادخواست الزام به تمکین زوجه به دلیل استفاده از حق حبس زوجه رد شده است",
+        "start_char": 1262,
+        "end_char": 1332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رای فرجامخواسته را مستندا به مواد 370 و 396 قانون ایین دادرسی مدنی ابرام می نماید",
+        "start_char": 6883,
+        "end_char": 6964,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با خوانده ازدواج نمودم",
+        "start_char": 135,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "متاسفانه زوج نسبت به موکله",
+        "start_char": 158,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه حق حبس خود را اعمال نموده",
+        "start_char": 756,
+        "end_char": 786,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان را قبول ندارم",
+        "start_char": 513,
+        "end_char": 538,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "نسبت به رای شماره *مورخ 1400/9/11 شعبه *متضمن تایید دادنامه شماره *مورخ 1400/7/30 شعبه *درعب. مبنی بر صدور حکم به طلاق بلحاظ احراز عسر و حرج زوجه با توجه به محتویات پرونده فرجامخواهی وارد است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "لایحه دفاعیه",
+      "evidence": {
+        "quote": "وکیل زوج برابر لایحه دفاعیه اضافه کرده",
+        "start_char": 609,
+        "end_char": 647,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "برابر سند ارائه شده سازمان *مدنی",
+        "start_char": 673,
+        "end_char": 705,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "دادگاه رای قطعی محکومیت زوج",
+        "start_char": 1605,
+        "end_char": 1632,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه توسط زوج",
+      "evidence": {
+        "quote": "متاسفانه زوج نسبت به موکله سوی رفتار و معاشرت از جهت ایراد تهمت و توهین و ضرب و جرح و تهدید و ازار روحی و جسمی داشته و نفقه موکله را پرداخت ننموده است",
+        "start_char": 158,
+        "end_char": 308,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم شروع زندگی مشترک مستمر",
+      "evidence": {
+        "quote": "زوجین هنوز زندگی مشترک را شروع ننمودند",
+        "start_char": 3210,
+        "end_char": 3248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود پرونده اجراییه نفقه",
+      "evidence": {
+        "quote": "صدور اجراییه در تاریخ 99/2/9",
+        "start_char": 6259,
+        "end_char": 6287,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

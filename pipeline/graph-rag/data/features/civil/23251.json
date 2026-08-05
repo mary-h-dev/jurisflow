@@ -1,0 +1,143 @@
+{
+  "ruling_id": "23251",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "با احتساب خسارات دادرسی و تأخیرتأدیه",
+        "start_char": 127,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌حقی",
+      "evidence": {
+        "quote": "حکم بر بیحقی خواهان صادر",
+        "start_char": 748,
+        "end_char": 772,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مبنی بر مطالبه وجه",
+        "start_char": 83,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "مبلغ مذکور را به حساب وی واریز نموده است",
+        "start_char": 241,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.م.با وکالت ح.ه.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عیناً تأیید می‌نماید",
+        "start_char": 1988,
+        "end_char": 2033,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "که خواهان مدعی است",
+        "start_char": 175,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بابت تسویه وام بدهی خوانده",
+        "start_char": 194,
+        "end_char": 220,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم به بی‌حقی تجدیدنظرخواه",
+        "start_char": 1075,
+        "end_char": 1101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به حساب تجدیدنظرخوانده باشد",
+        "start_char": 1330,
+        "end_char": 1357,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "مبنی بر مطالبه وجه",
+        "start_char": 83,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبالغ",
+      "evidence": {
+        "quote": "و اینکه مبالغ دارای عناوین مختلف بوده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واریز وجه به حساب خوانده بدون ارائه دلیل بر قرض بودن",
+      "evidence": {
+        "quote": "هیچ مدرک دیگری که دلالت بر واریز مبالغ به‌ عنوان قرض به حساب تجدیدنظرخوانده باشد، ارایه نگردیده است",
+        "start_char": 1277,
+        "end_char": 1376,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

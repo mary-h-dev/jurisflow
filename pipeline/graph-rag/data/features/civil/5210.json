@@ -1,0 +1,133 @@
+{
+  "ruling_id": "5210",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "صدور حکم بر اعسار مطلق",
+        "start_char": 100,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقسیط",
+      "evidence": {
+        "quote": "قرار تقسیط محکوم به",
+        "start_char": 1150,
+        "end_char": 1169,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی نموده است",
+        "start_char": 2038,
+        "end_char": 2061,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "ضمن ردّ تجدیدنظرخواهی",
+        "start_char": 2436,
+        "end_char": 2457,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته تأیید می‌گردد",
+        "start_char": 2465,
+        "end_char": 2502,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از سوی خواهان",
+        "start_char": 435,
+        "end_char": 448,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "عدم ارائه ادله متقن از سوی خوانده",
+        "start_char": 476,
+        "end_char": 509,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌له",
+      "evidence": {
+        "quote": "نافی استیفای حقوق محکومٌ له",
+        "start_char": 1479,
+        "end_char": 1506,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "موضوع دادنامه شماره 00574-900",
+        "start_char": 144,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبلغ یک",
+      "evidence": {
+        "quote": "حدوداً مبلغ یک میلیارد ریال",
+        "start_char": 290,
+        "end_char": 317,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده توانایی پرداخت یکجا را ندارد",
+      "evidence": {
+        "quote": "دادگاه دعوی مطروحه را در حد اعسار از پرداخت یکجا و دفعی محکوم به وارد تشخیص داد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست اعسار مطلق پذیرفته نشد",
+      "evidence": {
+        "quote": "اعسار مطلق و کلی متقاضی پذیرفته نشده",
+        "start_char": 2266,
+        "end_char": 2302,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

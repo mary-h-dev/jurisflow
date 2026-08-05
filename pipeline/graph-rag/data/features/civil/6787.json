@@ -1,0 +1,183 @@
+{
+  "ruling_id": "6787",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "صدور حکم بر بطلان معامله فی مابین خواندگان",
+        "start_char": 139,
+        "end_char": 181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "محکوم به مجازات معامله به قصد فرار از پرداخت دین شده است",
+        "start_char": 748,
+        "end_char": 804,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صوری",
+      "evidence": {
+        "quote": "مبین صوری بودن معامله مزبور باشد",
+        "start_char": 2599,
+        "end_char": 2631,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "ناچار به اقامه دعوی شده",
+        "start_char": 565,
+        "end_char": 588,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "اقدام به فروش یک واحد آپارتمان مسکونی",
+        "start_char": 837,
+        "end_char": 874,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "آپارتمان مزبور رسماً به موکلین انتقال یافته است",
+        "start_char": 1495,
+        "end_char": 1542,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص دادخواست تجدیدنظرخواهی آقای س.ن.",
+        "start_char": 2882,
+        "end_char": 2922,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی خواهان آقای س.ن.",
+        "start_char": 0,
+        "end_char": 40,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان آقای س.ح. و خانم ها ه. و ف.",
+        "start_char": 60,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بطلان دعوای خواهان (تجدیدنظرخواه)",
+        "start_char": 3074,
+        "end_char": 3107,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دفترخانه شماره",
+      "evidence": {
+        "quote": "بطلان سند رسمی شماره 43774- 8/12/88 دفترخانه شماره... تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "نسبت به 6 دانگ یک واحد آپارتمان",
+        "start_char": 247,
+        "end_char": 278,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "به موجب یک فقره چک به شماره 532666- 30/8/82",
+        "start_char": 436,
+        "end_char": 479,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به موجب مبایعه نامه مورخ 26/5/88",
+        "start_char": 1343,
+        "end_char": 1375,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده بدهکار بوده است",
+      "evidence": {
+        "quote": "بدهکار بوده و به جهت عدم پرداخت موکل ناچار به اقامه دعوی شده",
+        "start_char": 528,
+        "end_char": 588,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دادگاه حاضر نشده است",
+      "evidence": {
+        "quote": "مطابق ماده 73 ق.آ.د.م. و فرض اطلاع از وقت رسیدگی در دادگاه حاضر نشده",
+        "start_char": 1108,
+        "end_char": 1176,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انتقال ملک پس از تنظیم سند عادی صورت گرفته است",
+      "evidence": {
+        "quote": "انتقال به قصد فرار از پرداخت دین ماه ها بعد از تنظیم سند عادی صورت گرفته",
+        "start_char": 1634,
+        "end_char": 1706,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

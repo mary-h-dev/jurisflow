@@ -1,0 +1,153 @@
+{
+  "ruling_id": "29330",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته فسخ معامله",
+        "start_char": 53,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "و استرداد ثمن معامله",
+        "start_char": 155,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض موثری معمول نداشته",
+        "start_char": 371,
+        "end_char": 396,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ف. م.",
+        "start_char": 961,
+        "end_char": 985,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را محمول بر صحت تلقی",
+        "start_char": 493,
+        "end_char": 532,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "که خوانده به دلالت لایحه تقدیمی",
+        "start_char": 311,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه مکلف به پرداخت",
+        "start_char": 1136,
+        "end_char": 1163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "درحق تجدیدنظرخوانده شده است",
+        "start_char": 1226,
+        "end_char": 1253,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "یک دستگاه خودروی پراید به شماره انتظامی 866 ج 12 ایران 21",
+        "start_char": 74,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "استرداد ثمن معامله",
+        "start_char": 157,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "فسخ مبیع",
+        "start_char": 615,
+        "end_char": 623,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه نامه پیوست پرونده",
+        "start_char": 256,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خودرو دارای عیب بوده است",
+      "evidence": {
+        "quote": "مدعی معیوب بودن مبیع به تاریخ قبل از بیع و مربوط به ایادی سابق دانسته",
+        "start_char": 410,
+        "end_char": 479,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله خودرو انجام شده است",
+      "evidence": {
+        "quote": "با انتقال مبیع امکان فسخ بیع وجود نداشته",
+        "start_char": 1437,
+        "end_char": 1476,
+        "confidence": 0.7
+      }
+    }
+  ]
+}

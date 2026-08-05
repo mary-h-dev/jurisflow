@@ -1,0 +1,153 @@
+{
+  "ruling_id": "24405",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مطالبه مهریه به تعداد چهارصد عدد سکه طلای تمام بهار آزادی",
+        "start_char": 59,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت دادرسی",
+      "evidence": {
+        "quote": "مطالبه خسارت دادرسی",
+        "start_char": 119,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "مهریه زوجه درسال وقوع عقد",
+        "start_char": 329,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌حقی",
+      "evidence": {
+        "quote": "نسبت به مازاد ان به عنوان مهریه به حکم بی حقی خواهان صادر",
+        "start_char": 944,
+        "end_char": 1001,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه مهریه",
+        "start_char": 51,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "ضمن رد تجدید نظر خواهی دادنامه مذکور تائید می شود",
+        "start_char": 1859,
+        "end_char": 1908,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با عنایت به اظهارات خواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت آقای ص. ت.د.",
+        "start_char": 31,
+        "end_char": 50,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدید نظر خواهی خانم ف. الف.",
+        "start_char": 1222,
+        "end_char": 1258,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "چهارصد عدد سکه طلای تمام بهار آزادی",
+        "start_char": 81,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "کپی سند طلاق زوجین",
+        "start_char": 166,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "موضوع سند رسمی شماره.....- 1386/12/16",
+        "start_char": 1444,
+        "end_char": 1481,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین از هم جدا شده‌اند",
+      "evidence": {
+        "quote": "به موجب طلاق از هم جدا شدند",
+        "start_char": 185,
+        "end_char": 212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مهریه در سال ۱۳۸۶ افزایش یافته است",
+      "evidence": {
+        "quote": "و در سال 1386در دفتر اسناد.....تهران به پانصد عدد سکه تمام بهار آزادی افزایش یافته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

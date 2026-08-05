@@ -1,0 +1,123 @@
+{
+  "ruling_id": "25589",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "پرداخت نفقه فرزند مشترک به عهده پدر است",
+        "start_char": 209,
+        "end_char": 248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌حقی",
+      "evidence": {
+        "quote": "حکم بر بی حقی خواهان صادر می‌نماید",
+        "start_char": 742,
+        "end_char": 776,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خوانده را به پرداخت مبلغ 1/300/000 ریال",
+        "start_char": 439,
+        "end_char": 478,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجه و مدلل و مؤثری",
+        "start_char": 1378,
+        "end_char": 1417,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عیناً تأیید و ابرام می‌نماید",
+        "start_char": 1660,
+        "end_char": 1714,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت نفقه",
+        "start_char": 73,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکم بر بی حقی خواهان صادر می‌نماید",
+        "start_char": 742,
+        "end_char": 776,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجه و مدلل",
+        "start_char": 1378,
+        "end_char": 1409,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "به مبلغ 250/000/000 ریال",
+        "start_char": 125,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دادگاه حضور پیدا نکرده است",
+      "evidence": {
+        "quote": "خوانده علیرغم ابلاغ قانونی وقت رسیدگی در جلسه دادگاه حضور پیدا نکرده",
+        "start_char": 251,
+        "end_char": 319,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رأی بدوی غیابی صادر شده است",
+      "evidence": {
+        "quote": "رأی صادره غیابی",
+        "start_char": 778,
+        "end_char": 793,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

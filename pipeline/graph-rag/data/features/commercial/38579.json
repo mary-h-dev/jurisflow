@@ -1,0 +1,72 @@
+{
+  "ruling_id": "38579",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "اشخاصی را که می توانند دعوی ورشکستگی مطرح نمایند",
+        "start_char": 132,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "سهامداران می توانند با طرح دعوی تصمیمات ارکان شرکت را برابر ماده 270 از قانون تجارت ابطال نمایند",
+        "start_char": 487,
+        "end_char": 583,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "با طرح دعوی تصمیمات ارکان شرکت",
+        "start_char": 507,
+        "end_char": 537,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطرح",
+      "evidence": {
+        "quote": "اشخاصی را که می توانند دعوی ورشکستگی مطرح نمایند",
+        "start_char": 132,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تاجر",
+      "evidence": {
+        "quote": "الف:تاجر",
+        "start_char": 249,
+        "end_char": 257,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "سهامداران حق طرح دعوی ورشکستگی را ندارند",
+      "evidence": {
+        "quote": "در قانون چنین اجازه ای به سهامداران شرکت داده نشده تا بتوانند دعوی ورشکستگی مطرح نمایند",
+        "start_char": 391,
+        "end_char": 478,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

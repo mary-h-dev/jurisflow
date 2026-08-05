@@ -1,0 +1,143 @@
+{
+  "ruling_id": "6766",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "خواهان می تواند فسخ کند",
+        "start_char": 716,
+        "end_char": 739,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ کسر مساحت",
+        "start_char": 118,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی خواهان صادر می نماید",
+        "start_char": 937,
+        "end_char": 973,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض نامبرده غیرموجه تشخیص",
+        "start_char": 1599,
+        "end_char": 1627,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته تأیید می گردد",
+        "start_char": 1676,
+        "end_char": 1713,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان آقای ح.ش.",
+        "start_char": 0,
+        "end_char": 33,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان خانم م.م.",
+        "start_char": 53,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "ادعای تجدیدنظرخواه قابل انطباق",
+        "start_char": 1502,
+        "end_char": 1532,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه نامه شماره 788565-16/7/90",
+        "start_char": 292,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "مساحت ملک خریداری شده",
+        "start_char": 144,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی 3191 بخش قنات آباد",
+        "start_char": 166,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مساحت ملک خریداری شده کسر مساحت دارد",
+      "evidence": {
+        "quote": "اکنون برابر نقشه جدید ملک 11 متر کسر مساحت دارد",
+        "start_char": 427,
+        "end_char": 474,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبلغ کسر مساحت پرداخت شده است",
+      "evidence": {
+        "quote": "مبلغ 11 مترمربع کسر را موکل به مبیع خیالی و ناموجود پرداخت نموده",
+        "start_char": 477,
+        "end_char": 541,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

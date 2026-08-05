@@ -1,0 +1,143 @@
+{
+  "ruling_id": "907",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام زندگی مشترک",
+        "start_char": 58,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "با تقاضای طلاق",
+        "start_char": 172,
+        "end_char": 186,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 48,
+        "end_char": 75,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی خانم پ.الف",
+        "start_char": 587,
+        "end_char": 619,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را با توجه به موارد فوق ازحیث نتیجه تأیید می نماید",
+        "start_char": 1448,
+        "end_char": 1521,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در پرونده کلاسه 90/262/239 طی دادنامه 973 مورخ 30/6/90 با تقاضای طلاق، خود را مطلقه نموده است. چون مطابق تبصره 6 ماده واحده اصلاح مقررات مرتبط به طلاق، اگر زوجه درخواست طلاق نماید (بطور مطلق) استحقاق دریافت اجرت المثل ندارد، لذا دعوی خواهان محکوم به رد است",
+        "start_char": 117,
+        "end_char": 373,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حکم بر له خوانده و علیه خواهان صادر و اعلام می گردد",
+        "start_char": 376,
+        "end_char": 427,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه می بایست دستورتجدیدنظرخوانده (زوج) در انجام کارهایی راکه شرعاً برعهده وی نبوده",
+        "start_char": 1037,
+        "end_char": 1128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده (زوج)",
+        "start_char": 1064,
+        "end_char": 1084,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده (زوج)",
+        "start_char": 1064,
+        "end_char": 1084,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "طی دادنامه 973 مورخ 30/6/90",
+        "start_char": 144,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه درخواست طلاق کرده است",
+      "evidence": {
+        "quote": "اگر زوجه درخواست طلاق نماید (بطور مطلق) استحقاق دریافت اجرت المثل ندارد",
+        "start_char": 269,
+        "end_char": 340,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه نتوانسته است دستور دادن به انجام کار یا عدم قصد تبرع را اثبات کند",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیلی براثبات دو امر مذکور اقامه ننموده است",
+        "start_char": 1208,
+        "end_char": 1264,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

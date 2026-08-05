@@ -1,0 +1,153 @@
+{
+  "ruling_id": "272",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "اصل بر صحت عقود و قرار دادهاست",
+        "start_char": 981,
+        "end_char": 1011,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "خواسته ابطال قرارداد اجاره",
+        "start_char": 62,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "صدور حکم تخلیه",
+        "start_char": 91,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی صادر",
+        "start_char": 1446,
+        "end_char": 1465,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را تأیید می نماید",
+        "start_char": 2462,
+        "end_char": 2502,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار داشته",
+        "start_char": 119,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با مبلغ معین به خوانده تحویل",
+        "start_char": 249,
+        "end_char": 277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "تا زمان حیات مستأجر استمرار یابد",
+        "start_char": 384,
+        "end_char": 416,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "موجر حق انتفاع از مورد اجاره را",
+        "start_char": 2176,
+        "end_char": 2207,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "ابطال قرارداد اجاره",
+        "start_char": 69,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان برای مدت یک سال",
+        "start_char": 183,
+        "end_char": 217,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک مورد",
+      "evidence": {
+        "quote": "ملک مورد اجاره تا زمان حیات مستأجر استمرار یابد",
+        "start_char": 369,
+        "end_char": 416,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین مدت اجاره را تا زمان حیات مستأجر تعیین کرده‌اند",
+      "evidence": {
+        "quote": "طرفین با تعیین مدت عمر مستأجر ، انتهای مدت عقد را معلوم و آغاز عقد نیز مطابق ماده 400 همان قانون تاریخ انعقاد عقد محسوب می گردد",
+        "start_char": 818,
+        "end_char": 945,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان مدارک لازم برای ابطال قرارداد را ارائه نکرده است",
+      "evidence": {
+        "quote": "خواهان دلایل و مدارکی که موجبات ابطال قرارداد اجاره را بنماید ارائه و ابراز نکرده",
+        "start_char": 2039,
+        "end_char": 2120,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

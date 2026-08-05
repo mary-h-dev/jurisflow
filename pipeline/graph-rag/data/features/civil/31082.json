@@ -1,0 +1,203 @@
+{
+  "ruling_id": "31082",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد یک سوم ثمن معامله",
+        "start_char": 180,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "وجه التزام قراردادی",
+        "start_char": 227,
+        "end_char": 246,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال دودانگ",
+        "start_char": 522,
+        "end_char": 534,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "دلیلی بر برائت ذمه",
+        "start_char": 1490,
+        "end_char": 1508,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "شرط ضمن عقد",
+        "start_char": 1695,
+        "end_char": 1706,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه بخشی ازثمن",
+        "start_char": 97,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خریداری",
+      "evidence": {
+        "quote": "ازخوانده خریداری وسندرسمی صادرمتعاقبا",
+        "start_char": 408,
+        "end_char": 445,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دفاع",
+      "evidence": {
+        "quote": "دفاع کرده است",
+        "start_char": 1002,
+        "end_char": 1015,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شرکت افق توسعه ص.",
+        "start_char": 3337,
+        "end_char": 3368,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "شرح دادخواست خواهان",
+        "start_char": 316,
+        "end_char": 335,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "طرفین حاضرخواهان",
+        "start_char": 803,
+        "end_char": 819,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "شخص ثالث",
+      "evidence": {
+        "quote": "شخص ثالث مدعی مالکیت دودانگ شده",
+        "start_char": 447,
+        "end_char": 478,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "بایع مکلف است ثمن مورد معامله را به نرخ روز پرداخت نماید",
+        "start_char": 3886,
+        "end_char": 3942,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "در صورت جهل مشتری به وجود فساد",
+        "start_char": 3830,
+        "end_char": 3860,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک به پلاک ثبتی... از 6817",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "استرداد یک سوم ثمن معامله",
+        "start_char": 180,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند قطعی رسمی انتقال مبیع",
+        "start_char": 1148,
+        "end_char": 1173,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "سند مبیع به دلیل دودانگ ابطال شده است",
+      "evidence": {
+        "quote": "بموجب احکام قطعی خواهان به ابطال دودانگ سند محکوم وسندباطل شده است",
+        "start_char": 495,
+        "end_char": 561,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در قبال ادعا دفاع موثری نکرده است",
+      "evidence": {
+        "quote": "خوانده در قبال ادعای خواهان دفاع و ایراد موثری ننموده",
+        "start_char": 1434,
+        "end_char": 1487,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

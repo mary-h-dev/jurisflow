@@ -1,0 +1,153 @@
+{
+  "ruling_id": "4123",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تخریب",
+      "evidence": {
+        "quote": "تخریب عمدی",
+        "start_char": 421,
+        "end_char": 431,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ایراد ضرب",
+      "evidence": {
+        "quote": "ایراد ضرب عمدی",
+        "start_char": 480,
+        "end_char": 494,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توهین",
+      "evidence": {
+        "quote": "توهین و تمرد نسبت به مأمور دولت در حین انجام وظیفه",
+        "start_char": 269,
+        "end_char": 319,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی",
+        "start_char": 8,
+        "end_char": 21,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض",
+        "start_char": 885,
+        "end_char": 891,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقلیل و تخفیف",
+      "evidence": {
+        "quote": "تقلیل و تخفیف داده",
+        "start_char": 1279,
+        "end_char": 1297,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تأیید و استوار می نماید",
+        "start_char": 1541,
+        "end_char": 1564,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 8,
+        "end_char": 20,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده",
+        "start_char": 716,
+        "end_char": 731,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دولت",
+      "evidence": {
+        "quote": "مأمور دولت",
+        "start_char": 290,
+        "end_char": 300,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اتومبیل",
+      "evidence": {
+        "quote": "شیشه اتومبیل",
+        "start_char": 703,
+        "end_char": 715,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جزای نقدی",
+      "evidence": {
+        "quote": "جزای نقدی",
+        "start_char": 353,
+        "end_char": 362,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه به تخریب شیشه اتومبیل اعتراف کرده است",
+      "evidence": {
+        "quote": "اذعان تلویحی تجدیدنظرخواه به تخریب عمدی شیشه اتومبیل",
+        "start_char": 663,
+        "end_char": 715,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه در مرحله واخواهی مجازات حبس او به جزای نقدی تبدیل شده بود",
+      "evidence": {
+        "quote": "ضمن تبدیل مجازات 12 ماه حبس تعزیری از حین اتهامات توهین و تمرد نسبت به مأمور دولت در حین انجام وظیفه به پرداخت مبلغ پنجاه میلیون ریال جزای نقدی",
+        "start_char": 219,
+        "end_char": 362,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "ruling_id": "37182",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "دادخواست طلاق",
+        "start_char": 48,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "عسر و حرج",
+        "start_char": 732,
+        "end_char": 741,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تخلف",
+      "evidence": {
+        "quote": "تخلف شرط",
+        "start_char": 721,
+        "end_char": 729,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان",
+        "start_char": 1149,
+        "end_char": 1161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "دادخواست اعسار",
+        "start_char": 430,
+        "end_char": 444,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواست طلاق به طرفیت اقای ر. ب. ا. تقدیم نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ترک زندگی مشترک",
+      "evidence": {
+        "quote": "موكله را بلاتکلیف و بدون پرداخت نفقه رها نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خودداری",
+      "evidence": {
+        "quote": "از پرداخت ان خودداری کرده است",
+        "start_char": 376,
+        "end_char": 405,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "نفقه را به طور مرتب پرداخت کرده ام",
+        "start_char": 970,
+        "end_char": 1004,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "مبادرت به صدور رای به نقض رای تجدیدنظرخواسته",
+        "start_char": 2205,
+        "end_char": 2249,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با خوانده ازدواج نموده",
+        "start_char": 140,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "حکم جلب زوج جهت پرداخت نفقه صادر گردیده",
+        "start_char": 321,
+        "end_char": 360,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه علت طرح دعوای طلاق را",
+        "start_char": 2932,
+        "end_char": 2958,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "گواهان",
+      "evidence": {
+        "quote": "گواهان فی الجمله به صحت اظهارات و ادعاهای زوجه شهادت داده اند",
+        "start_char": 1621,
+        "end_char": 1682,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "بدون پرداخت نفقه",
+        "start_char": 215,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه را هم به اقساط می پردازم",
+        "start_char": 1005,
+        "end_char": 1035,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "از بندهای اول و دوم و هشتم از شروط ضمن عقد نکاح",
+        "start_char": 3208,
+        "end_char": 3255,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج از پرداخت نفقه خودداری کرده است",
+      "evidence": {
+        "quote": "علی رغم ان از پرداخت ان خودداری کرده است",
+        "start_char": 365,
+        "end_char": 405,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج نسبت به زوجه اتهامات مختلفی مطرح کرده است",
+      "evidence": {
+        "quote": "اتهامات را به موکله اعم از خیانت در امانت و سرقت و سقط جنین و داشتن رابطه نامشروع نسبت داده است",
+        "start_char": 507,
+        "end_char": 602,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج حکم محکومیت به پرداخت نفقه دارد",
+      "evidence": {
+        "quote": "زوج برابر رای شورای حل اختلاف محکومیت قطعی به پرداخت نفقه حاصل نموده",
+        "start_char": 3835,
+        "end_char": 3903,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

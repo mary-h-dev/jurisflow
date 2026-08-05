@@ -1,0 +1,163 @@
+{
+  "ruling_id": "24052",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته اعلام فسخ نکاح",
+        "start_char": 108,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "وجود علقه زوجیت بین طرفین را محرز دانسته",
+        "start_char": 270,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ازدواج",
+      "evidence": {
+        "quote": "به لحاظ ازدواج سابق زوج",
+        "start_char": 133,
+        "end_char": 156,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ نکاح",
+      "evidence": {
+        "quote": "به خواسته اعلام فسخ نکاح",
+        "start_char": 108,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان فسخ نکاح صادر می نماید",
+        "start_char": 2190,
+        "end_char": 2234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رای صادره دادگاه بدوی را نقض کرده",
+        "start_char": 2125,
+        "end_char": 2158,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان ضمن دادخواست",
+        "start_char": 311,
+        "end_char": 330,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با خوانده در حالی که اعلام نموده",
+        "start_char": 458,
+        "end_char": 490,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "ازدواج سابق زوج",
+        "start_char": 141,
+        "end_char": 156,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه انگیزه و دلیل اصلی طرح دعوی",
+        "start_char": 1694,
+        "end_char": 1726,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "تصویر مصدق سند نکاحیه",
+        "start_char": 209,
+        "end_char": 230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "شناسنامه مصدق خواهان",
+        "start_char": 233,
+        "end_char": 253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "به موجب سند رسمی ازدواج",
+        "start_char": 375,
+        "end_char": 398,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج در سند رسمی اعلام کرده که همسر دیگری ندارد",
+      "evidence": {
+        "quote": "درسند مذکور اعلام نموده که همسر دیگری ندارد",
+        "start_char": 552,
+        "end_char": 595,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه از ازدواج قبلی زوج مطلع نشده بود",
+      "evidence": {
+        "quote": "پس از آن اخیرا\" زوجه به این امر که خوانده سابقا\" با خانم دیگری ازدواج نموده واقف شده",
+        "start_char": 602,
+        "end_char": 686,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

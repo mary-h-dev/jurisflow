@@ -1,0 +1,133 @@
+{
+  "ruling_id": "32453",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "به خواسته اعاده دادرسی",
+        "start_char": 114,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی مطروحه را صادر",
+        "start_char": 875,
+        "end_char": 907,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال سند",
+      "evidence": {
+        "quote": "تنظیم و انتقال سند رسمی",
+        "start_char": 215,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 1621,
+        "end_char": 1651,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان الف. ( س.) ح.",
+        "start_char": 19,
+        "end_char": 44,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "موضوع الزام خواندگان",
+        "start_char": 172,
+        "end_char": 192,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی تجدیدنظرخواه",
+        "start_char": 1104,
+        "end_char": 1138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "بطرفیت تجدیدنظرخواندگان",
+        "start_char": 1167,
+        "end_char": 1190,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "تنظیم و انتقال سند رسمی",
+        "start_char": 215,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه 9100793",
+        "start_char": 137,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ارائه نشدن اسناد و مدارک در جهت رسیدگی",
+      "evidence": {
+        "quote": "در جهت رسیدگی نیز وکیل خواهان اولاَ اسناد و مدارکی ارائه نشده",
+        "start_char": 631,
+        "end_char": 692,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه آرای مستند در فرجه قانونی",
+      "evidence": {
+        "quote": "وی دلیلی بر تقدیم آن در فرجه قانونی ابراز نداشته است",
+        "start_char": 786,
+        "end_char": 838,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

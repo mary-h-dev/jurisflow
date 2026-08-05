@@ -1,0 +1,163 @@
+{
+  "ruling_id": "28421",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قرض‌الحسنه",
+      "evidence": {
+        "quote": "مبنی بر مطالبه وجه بعنوان قرض الحسنه",
+        "start_char": 178,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "حکومت اصل ظاهر عدم تبرع",
+        "start_char": 2861,
+        "end_char": 2884,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "در مقام ایفاء دین خود",
+        "start_char": 3082,
+        "end_char": 3103,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه مبلغ 200/000/000 ریال",
+        "start_char": 66,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "حاضر به پرداخت نمی باشد",
+        "start_char": 361,
+        "end_char": 384,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "درخور نقض می باشد",
+        "start_char": 3348,
+        "end_char": 3365,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان محکوم مینماید",
+        "start_char": 1028,
+        "end_char": 1053,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مطالبه مبلغ 200/000/000 ریال به این شرح که طرفین با یکدیگر خویشاوندی نسبی دارند و متعاقب درخواست خوانده",
+        "start_char": 74,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه موصوف در مورد دعوای تجدیدنظرخوانده به خواسته مطالبه مبلغ دویست میلیون ریال که به عنوان قرض به موجب چک شماره.....مورخ 1393/7/23 عهده بانک...... به خوانده (تجدیدنظرخواه) پرداخت کرده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به دادنامه موصوف در مورد دعوای تجدیدنظرخوانده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "به موجب چک شماره...... عهده بانک.........",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مطالبه مبلغ 200/000/000 ریال",
+        "start_char": 74,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین با یکدیگر خویشاوندی نسبی دارند",
+      "evidence": {
+        "quote": "طرفین با یکدیگر خویشاوندی نسبی دارند",
+        "start_char": 117,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک در وجه حامل صادر شده است",
+      "evidence": {
+        "quote": "در متن چک عبارت در وجه حامل ذکر و تصریح شده",
+        "start_char": 1978,
+        "end_char": 2021,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده از پرداخت وجه امتناع کرده است",
+      "evidence": {
+        "quote": "علیرغم مراجعات مکرر حاضر به پرداخت نمی باشد",
+        "start_char": 341,
+        "end_char": 384,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

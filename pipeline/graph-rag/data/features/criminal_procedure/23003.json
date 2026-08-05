@@ -1,0 +1,193 @@
+{
+  "ruling_id": "23003",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خیانت",
+      "evidence": {
+        "quote": "خیانت در امانت",
+        "start_char": 135,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعلیق",
+      "evidence": {
+        "quote": "تعلیق گردیده است",
+        "start_char": 433,
+        "end_char": 449,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "این رأی مورد تجدیدنظرخواهی",
+        "start_char": 451,
+        "end_char": 477,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "تقاضای پذیرش اعاده دادرسی نموده",
+        "start_char": 1327,
+        "end_char": 1358,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مجازات",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی و تشدید مجازات",
+        "start_char": 1025,
+        "end_char": 1059,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "محکوم و",
+      "evidence": {
+        "quote": "به تحمل شش ماه حبس محکوم",
+        "start_char": 283,
+        "end_char": 307,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "لغو",
+      "evidence": {
+        "quote": "لغو نموده",
+        "start_char": 972,
+        "end_char": 981,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه بدوی را تأیید کرده است",
+        "start_char": 1061,
+        "end_char": 1091,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجویز",
+      "evidence": {
+        "quote": "به تجویز ماده 258",
+        "start_char": 899,
+        "end_char": 916,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "نسبت به متهم",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "نسبت به شاکی",
+        "start_char": 336,
+        "end_char": 348,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شکات",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی شکات",
+        "start_char": 762,
+        "end_char": 788,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "یا دادستان",
+        "start_char": 2309,
+        "end_char": 2319,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به موجب دادنامه شماره 00153-1394/2/13",
+        "start_char": 0,
+        "end_char": 37,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "با تسلیم لایحه‌ای",
+        "start_char": 1162,
+        "end_char": 1179,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم به حبس محکوم شده است",
+      "evidence": {
+        "quote": "به تحمل شش ماه حبس محکوم",
+        "start_char": 283,
+        "end_char": 307,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مجازات حبس متهم تعلیق شده بود",
+      "evidence": {
+        "quote": "مجازات حبس به استناد ماده 46 قانون مذکور به مدت یک سال تعلیق گردیده است",
+        "start_char": 378,
+        "end_char": 449,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه تجدیدنظر تعلیق را لغو و مجازات را تشدید کرد",
+      "evidence": {
+        "quote": "لغو تعلیق اجرای مجازات حبس را لغو نموده سپس به استناد بند الف ماده 257 قانون مذکور با رد تجدیدنظرخواهی و تشدید مجازات",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "24380",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "الزام به پرداخت خسارت وارده از باب تخلف از شرط ضمن عقد",
+        "start_char": 79,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "با توجه به وجه التزام قراردادی مبلغی است که بر اساس توافق طرفین قرارداد بعنوان تخلف از شروط قرارداد تعیین می گردد",
+        "start_char": 364,
+        "end_char": 477,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوا صادر و اعلام می نماید",
+        "start_char": 846,
+        "end_char": 885,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت خسارت",
+      "evidence": {
+        "quote": "بخواسته الزام به پرداخت خسارت وارده از باب تخلف از شرط ضمن عقد",
+        "start_char": 71,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه نشده",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه اعتراض موثر موجهی که موجب نقض دادنامه تجدید نظر خواسته باشد ارائه نشده",
+        "start_char": 1377,
+        "end_char": 1467,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "لذا با رد تجدید نظرخواهی به استناد ماده 358 قانون مرقوم عینا دادنامه تجدیدنظرخواسته تایید و استوار می شود",
+        "start_char": 1654,
+        "end_char": 1759,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان بیان نموده است",
+        "start_char": 147,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "بایستی فروشنده ضرر و زیان به خریدار پرداخت نماید",
+        "start_char": 234,
+        "end_char": 282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "بایستی فروشنده ضرر و زیان به خریدار پرداخت نماید",
+        "start_char": 234,
+        "end_char": 282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در مورد دعوی تجدیدنظرخواه مبنی بر الزام به پرداخت خسارت وارده",
+        "start_char": 1209,
+        "end_char": 1270,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "در قرارداد بصورت چاپی آمده است",
+        "start_char": 177,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "در قرارداد مبلغی برای خسارت تعیین نشده است",
+      "evidence": {
+        "quote": "در قرارداد مذکور هیچ مبلغی نوشته نشده است",
+        "start_char": 667,
+        "end_char": 708,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

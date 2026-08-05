@@ -1,0 +1,103 @@
+{
+  "ruling_id": "24129",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "اعتراض ثالث اجرائی آقای م. ح.ل.",
+        "start_char": 0,
+        "end_char": 31,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی معترض ثالث صادر و اعلام می نماید",
+        "start_char": 2064,
+        "end_char": 2114,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض و تجدیدنظر",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی کرده است",
+        "start_char": 839,
+        "end_char": 861,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "در خور نقض می داند",
+        "start_char": 1101,
+        "end_char": 1119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "رفع توقیف از مال مذکور را صادر می نماید",
+        "start_char": 514,
+        "end_char": 553,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "ضمن پذیرش اعتراض اقای م. ح.ل. به عنوان ثالث",
+        "start_char": 882,
+        "end_char": 925,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "از جمله قرارداد عادی خرید در تاریخ 1391/10/15",
+        "start_char": 205,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دستگاه از محکوم علیه به معترض واگذار شده بود",
+      "evidence": {
+        "quote": "قبل از توقیف مال یاد شده وسیله مذکور از طرف محکومٌ علیه به معترض واگذار و در ید ایشان قرار گرفته است",
+        "start_char": 253,
+        "end_char": 353,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معترض ثالث در زمان توقیف در محل حضور داشته اما ادعایی نکرده است",
+      "evidence": {
+        "quote": "شخص آقای ح.ل. حسب گزارش کلانتری مربوطه در محل حضور داشته و در جریان توقیف دستگاه تراش مبحوث عنه هیچگونه ادعایی اعم از عین یا منافع به آن نداشته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

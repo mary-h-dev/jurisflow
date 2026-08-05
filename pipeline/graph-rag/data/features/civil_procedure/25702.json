@@ -1,0 +1,123 @@
+{
+  "ruling_id": "25702",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "صدور حکم اعسار",
+        "start_char": 73,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان آن",
+        "start_char": 446,
+        "end_char": 461,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم اعسار",
+        "start_char": 73,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظر خواهی",
+        "start_char": 638,
+        "end_char": 660,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "ضمن نقض رای تجدیدنظر",
+        "start_char": 1350,
+        "end_char": 1370,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان را",
+        "start_char": 324,
+        "end_char": 338,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه نیز این مطلب را",
+        "start_char": 1091,
+        "end_char": 1120,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "هزینه دادرسی مرحله بدوی",
+        "start_char": 98,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 882-94/9/14",
+        "start_char": 684,
+        "end_char": 717,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان در جلسه رسیدگی شهود حاضر نشده است",
+      "evidence": {
+        "quote": "خواهان با وصف حضور در جلسه دادرسی شهود تعرفه شده خود را در دادگاه حاضر ننموده",
+        "start_char": 158,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شهادت شهود استماع نشده است",
+      "evidence": {
+        "quote": "دادگاه قرار استماع شهادت شهود نیز صادر ننموده است",
+        "start_char": 1154,
+        "end_char": 1203,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

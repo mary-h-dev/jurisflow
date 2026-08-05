@@ -1,0 +1,163 @@
+{
+  "ruling_id": "23983",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شخصیت حقوقی",
+      "evidence": {
+        "quote": "شرکت دارای هویت و شخصیت حقوقی جدا از خوانده دارد",
+        "start_char": 351,
+        "end_char": 399,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقود",
+      "evidence": {
+        "quote": "وکالت از عقود اذنی بوده",
+        "start_char": 878,
+        "end_char": 901,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "مستند به دلایل و مدارک اثباتی اشتغال ذمه باشد",
+        "start_char": 2422,
+        "end_char": 2467,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه چک",
+        "start_char": 83,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دفاع",
+      "evidence": {
+        "quote": "خوانده در ماهیت دعوی دفاع موثری نداشته است",
+        "start_char": 822,
+        "end_char": 864,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض آن مستند به ماده 353 قانون آئین دادرسی م.",
+        "start_char": 2770,
+        "end_char": 2818,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استماع دعوی",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی را بلحاظ عدم طرح صحیح دعوی صادر و اعلام می نماید",
+        "start_char": 2819,
+        "end_char": 2888,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت آقای ش. غ.",
+        "start_char": 65,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با توجه به احراز سمت خواهان",
+        "start_char": 685,
+        "end_char": 712,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "به وکالت از آقای الف. ر.",
+        "start_char": 26,
+        "end_char": 50,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "وکیل تجدیدنظرخوانده درپرونده کیفری",
+        "start_char": 1678,
+        "end_char": 1712,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ش. غ.",
+        "start_char": 1420,
+        "end_char": 1444,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "مطالبه وجه چک شماره......",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک سفیدامضاء است",
+      "evidence": {
+        "quote": "احراز سفیدامضاء بودن چک مذکور",
+        "start_char": 1746,
+        "end_char": 1775,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک در اختیار خواهان است",
+      "evidence": {
+        "quote": "وجود چک در ید خواهان دلیل بر ذی نفع بودن وی می باشد",
+        "start_char": 751,
+        "end_char": 802,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

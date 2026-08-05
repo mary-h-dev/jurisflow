@@ -1,0 +1,173 @@
+{
+  "ruling_id": "34686",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تجاوز",
+      "evidence": {
+        "quote": "دائر بمزاحمت و تجاوز",
+        "start_char": 109,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اکراه",
+      "evidence": {
+        "quote": "با اکراه با او رابطه در حد مادون زنا بر قرار کرده",
+        "start_char": 410,
+        "end_char": 459,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زنای به عنف",
+      "evidence": {
+        "quote": "دائر به زنای به عنف",
+        "start_char": 828,
+        "end_char": 847,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 1301,
+        "end_char": 1316,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نماینده دادستان نسبت به قرار عدم صلاحیت صادره اعتراض نموده",
+        "start_char": 1366,
+        "end_char": 1424,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "عدم امکان فرجامخواهی درخصوص موضوع مطروح",
+        "start_char": 2250,
+        "end_char": 2289,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "شکایت",
+      "evidence": {
+        "quote": "مبادرت به اعلام شکایت نموده",
+        "start_char": 130,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نماینده دادستان نسبت به قرار عدم صلاحیت صادره اعتراض نموده",
+        "start_char": 1366,
+        "end_char": 1424,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار عدم",
+      "evidence": {
+        "quote": "صادر نموده",
+        "start_char": 1355,
+        "end_char": 1365,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکیه",
+      "evidence": {
+        "quote": "از شاکیه که خود را الف. ر. 19 ساله دارای شوهر معرفی نموده",
+        "start_char": 266,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "نماینده دادستان نسبت به قرار عدم صلاحیت صادره اعتراض نموده",
+        "start_char": 1366,
+        "end_char": 1424,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دیوان عالی کشور",
+      "evidence": {
+        "quote": "رئیس شعبه هفتم دیوان عالی کشور",
+        "start_char": 2745,
+        "end_char": 2775,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بموجب دادنامه شماره 00442- 94/5/10",
+        "start_char": 750,
+        "end_char": 784,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرار",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 1301,
+        "end_char": 1316,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شاکیه ادعا کرده است که با اکراه با فرد مورد نظر رابطه برقرار کرده است",
+      "evidence": {
+        "quote": "با اکراه با او رابطه در حد مادون زنا بر قرار کرده",
+        "start_char": 410,
+        "end_char": 459,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادستان نسبت به قرار عدم صلاحیت صادره از دادگاه تجدیدنظر استان اعتراض کرده است",
+      "evidence": {
+        "quote": "نماینده دادستان نسبت به قرار عدم صلاحیت صادره اعتراض نموده",
+        "start_char": 1366,
+        "end_char": 1424,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

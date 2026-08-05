@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10997",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "الزام",
+      "evidence": {
+        "quote": "دایر به الزام خواندگان",
+        "start_char": 99,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "تعهد به تحویل از سوی آنان",
+        "start_char": 546,
+        "end_char": 571,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 1846,
+        "end_char": 1870,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی غ.ک. به طرفیت ک.گ.",
+        "start_char": 2687,
+        "end_char": 2719,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تحویل مورد معامله",
+        "start_char": 125,
+        "end_char": 142,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "تنظیم سند رسمی انتقال آن",
+        "start_char": 145,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "محکومیت خواندگان به پرداخت خسارت",
+        "start_char": 256,
+        "end_char": 288,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "دادنامه مورد اعتراض",
+        "start_char": 3577,
+        "end_char": 3596,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دایر به الزام خواندگان",
+        "start_char": 99,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "دایر به الزام خواندگان",
+        "start_char": 99,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": 3253,
+        "end_char": 3288,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده صادر گردیده",
+        "start_char": 3067,
+        "end_char": 3099,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "معامله",
+      "evidence": {
+        "quote": "تحویل مورد معامله",
+        "start_char": 125,
+        "end_char": 142,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "تنظیم سند رسمی انتقال آن",
+        "start_char": 145,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "تفکیک آپارتمان موضوع قرارداد",
+        "start_char": 916,
+        "end_char": 944,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "موضوع قرارداد عادی شماره 2700-1386/12/19",
+        "start_char": 2970,
+        "end_char": 3010,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم وجود نمایندگی برای فروش از سوی سایر مالکین",
+      "evidence": {
+        "quote": "خوانده ردیف اول آقای غ.ک. وکالت و نمایندگی برای فروش از سوی خواندگان دیگر و سایر مالکین نداشته است",
+        "start_char": 445,
+        "end_char": 543,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تحویل مبیع",
+      "evidence": {
+        "quote": "با توجه به عدم تحویل مبیع و تنظیم سند رسمی انتقال",
+        "start_char": 2044,
+        "end_char": 2093,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

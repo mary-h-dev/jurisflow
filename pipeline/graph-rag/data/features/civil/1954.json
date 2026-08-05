@@ -1,0 +1,813 @@
+{
+  "ruling_id": "1954",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اتهام",
+      "evidence": {
+        "quote": "به اتهام صدور یک فقره چک بانکی",
+        "start_char": 109,
+        "end_char": 139,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حبس تعزیری",
+      "evidence": {
+        "quote": "به تحمل دو سال حبس تعزیری",
+        "start_char": 335,
+        "end_char": 360,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "محرومیت",
+      "evidence": {
+        "quote": "دو سال محرومیت از داشتن دسته چک",
+        "start_char": 363,
+        "end_char": 394,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات",
+      "evidence": {
+        "quote": "و خسارات",
+        "start_char": 429,
+        "end_char": 437,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "و خسارت تأخیر تأدیه",
+        "start_char": 438,
+        "end_char": 457,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظر",
+      "evidence": {
+        "quote": "درخواست تجدیدنظر کرده",
+        "start_char": 493,
+        "end_char": 514,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی محکوم علیه نیز به موجب دادنامه شماره 17/19 در شعبه 19 دیوان عالی کشور رد شده است.",
+        "start_char": 664,
+        "end_char": 766,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ارکان",
+      "evidence": {
+        "quote": "ارکان عمومی و اختصاص بزه انتسابی ثابت است",
+        "start_char": 1243,
+        "end_char": 1284,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "وجود چک در ید دارنده، دلیل اشتغال ذمه صادرکننده به میزان وجه چک بوده",
+        "start_char": 1455,
+        "end_char": 1523,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قرائن",
+      "evidence": {
+        "quote": "به موجب قرائن و امارات موجود در پرونده قانع نشده",
+        "start_char": 1717,
+        "end_char": 1765,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "با توجه به ماده 282 قانون مدنی",
+        "start_char": 2496,
+        "end_char": 2526,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأدیه",
+      "evidence": {
+        "quote": "تشخیص اینکه تأدیه بابت کدام دین است",
+        "start_char": 2528,
+        "end_char": 2563,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "تشخیص اینکه تأدیه بابت کدام دین است، با مدیون است",
+        "start_char": 2528,
+        "end_char": 2577,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "آیین دادرسی",
+      "evidence": {
+        "quote": "به استناد بند 6 و 5 ماده 272 قانون آیین دادرسی دادگاه های عمومی و انقلاب در امور کیفری",
+        "start_char": 2662,
+        "end_char": 2748,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "کیفر",
+      "evidence": {
+        "quote": "ممکن التأثیر در کیفر صادرکننده نیز می باشد",
+        "start_char": 2771,
+        "end_char": 2813,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعلام جرم نموده.",
+        "start_char": 200,
+        "end_char": 216,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه وجه",
+      "evidence": {
+        "quote": "مضافاً مطالبه وجه چک را نیز کرده است.",
+        "start_char": 217,
+        "end_char": 254,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "احراز",
+      "evidence": {
+        "quote": "با احراز بزهکاری متهم",
+        "start_char": 306,
+        "end_char": 327,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "درخواست",
+      "evidence": {
+        "quote": "محکوم علیه از این رأی درخواست تجدیدنظر کرده",
+        "start_char": 471,
+        "end_char": 514,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "وارد ندانسته",
+      "evidence": {
+        "quote": "درخواست محکوم را وارد ندانسته",
+        "start_char": 548,
+        "end_char": 577,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی دادگاه بدوی را تأیید نموده اند",
+        "start_char": 627,
+        "end_char": 661,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "در شعبه 19 دیوان عالی کشور رد شده است.",
+        "start_char": 728,
+        "end_char": 766,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی نموده",
+        "start_char": 844,
+        "end_char": 869,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "پذیرفته",
+      "evidence": {
+        "quote": "درخواست او پذیرفته شده",
+        "start_char": 927,
+        "end_char": 949,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "استدلال",
+      "evidence": {
+        "quote": "چنین استدلال نموده اند",
+        "start_char": 1043,
+        "end_char": 1065,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "با ارائه 6 فقره رسید بانکی",
+        "start_char": 1083,
+        "end_char": 1109,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مدعی پرداخت قسمتی از وجوه چک",
+        "start_char": 1111,
+        "end_char": 1139,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "پذیرش",
+      "evidence": {
+        "quote": "با فرض پذیرش ادعای وی",
+        "start_char": 1170,
+        "end_char": 1191,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "وارد نمی",
+      "evidence": {
+        "quote": "خدشه ای به ارکان متشکله جرم وارد نمی نماید.",
+        "start_char": 1299,
+        "end_char": 1342,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "بایستی چک از وی اخذ",
+        "start_char": 1963,
+        "end_char": 1982,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "به وی تحویل می داد.",
+        "start_char": 2030,
+        "end_char": 2049,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارجاع",
+      "evidence": {
+        "quote": "به این شعبه ارجاع گردیده است.",
+        "start_char": 2139,
+        "end_char": 2168,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "وارد",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی محکوم علیه از رأی شماره 9109978324100577 شعبه اول دادگاه تجدیدنظر استان ، وارد است.",
+        "start_char": 2208,
+        "end_char": 2312,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "قبول",
+      "evidence": {
+        "quote": "مورد قبول شاکی نیز بوده",
+        "start_char": 2429,
+        "end_char": 2452,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "محول",
+      "evidence": {
+        "quote": "رسیدگی به شعبه دیگر دادگاه تجدیدنظر استان محول می گردد.",
+        "start_char": 2829,
+        "end_char": 2884,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "با احراز بزهکاری متهم",
+        "start_char": 306,
+        "end_char": 327,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "محکوم علیه از این رأی درخواست تجدیدنظر کرده",
+        "start_char": 471,
+        "end_char": 514,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم",
+      "evidence": {
+        "quote": "درخواست محکوم را وارد ندانسته",
+        "start_char": 548,
+        "end_char": 577,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "برده",
+      "evidence": {
+        "quote": "هر چند نام برده با ارائه 6 فقره رسید بانکی",
+        "start_char": 1067,
+        "end_char": 1109,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "دارنده",
+      "evidence": {
+        "quote": "وجود چک در ید دارنده",
+        "start_char": 1455,
+        "end_char": 1475,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "مدافعات دارنده، مبنی بر اینکه تجدیدنظرخواه مبلغ بیشتری به وی بدهکار بوده",
+        "start_char": 1561,
+        "end_char": 1633,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادگاه",
+      "evidence": {
+        "quote": "هیأت دادگاه نیز به موجب قرائن و امارات موجود در پرونده قانع نشده",
+        "start_char": 1701,
+        "end_char": 1765,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "به حساب بانکی شاکی ریخته است",
+        "start_char": 2397,
+        "end_char": 2425,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدیون",
+      "evidence": {
+        "quote": "تشخیص اینکه تأدیه بابت کدام دین است، با مدیون است",
+        "start_char": 2528,
+        "end_char": 2577,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "صادرکننده",
+      "evidence": {
+        "quote": "کیفر صادرکننده نیز می باشد",
+        "start_char": 2787,
+        "end_char": 2813,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "دیوان عالی کشور",
+      "evidence": {
+        "quote": "رئیس شعبه 19 دیوان عالی کشور",
+        "start_char": 2885,
+        "end_char": 2913,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستشار",
+      "evidence": {
+        "quote": "مستشار فاتحی ـ کریمی",
+        "start_char": 2916,
+        "end_char": 2936,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادگاه عمومی",
+      "evidence": {
+        "quote": "شعبه 101 دادگاه عمومی جزایی",
+        "start_char": 52,
+        "end_char": 79,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظر استان",
+      "evidence": {
+        "quote": "شعبه 7 دادگاه تجدیدنظر استان",
+        "start_char": 517,
+        "end_char": 545,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 9009978411300417 مورخه 9/5/90",
+        "start_char": 8,
+        "end_char": 51,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "بانک",
+      "evidence": {
+        "quote": "یک فقره چک بانکی شماره ... مورخ 25/12/89 عهده بانک ملی",
+        "start_char": 123,
+        "end_char": 177,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه چک",
+      "evidence": {
+        "quote": "مطالبه وجه چک را نیز کرده است.",
+        "start_char": 224,
+        "end_char": 254,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "محرومیت از داشتن دسته چک",
+        "start_char": 370,
+        "end_char": 394,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "محکوم علیه از این رأی درخواست تجدیدنظر کرده",
+        "start_char": 471,
+        "end_char": 514,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادگاه بدوی",
+      "evidence": {
+        "quote": "رأی دادگاه بدوی را تأیید نموده اند",
+        "start_char": 627,
+        "end_char": 661,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "بانکی",
+      "evidence": {
+        "quote": "با استناد به رسیدهای بانکی خالی از پرداخت قسمتی از وجه چک",
+        "start_char": 785,
+        "end_char": 842,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "درخواست",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی نموده",
+        "start_char": 844,
+        "end_char": 869,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی شماره",
+      "evidence": {
+        "quote": "رأی شماره 9109970907900137-3/4/91",
+        "start_char": 893,
+        "end_char": 926,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجوه",
+      "evidence": {
+        "quote": "مدعی پرداخت قسمتی از وجوه چک",
+        "start_char": 1111,
+        "end_char": 1139,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "موجود در پرونده قانع نشده",
+        "start_char": 1740,
+        "end_char": 1765,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "لایحه متقاضی هنگام شور قرائت می گردد.",
+        "start_char": 2169,
+        "end_char": 2206,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "حساب بانکی",
+      "evidence": {
+        "quote": "به حساب بانکی شاکی ریخته است",
+        "start_char": 2397,
+        "end_char": 2425,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "آقای الف.ق. علیه آقای ح.ف. به اتهام صدور چک بانکی اعلام جرم کرده است.",
+      "evidence": {
+        "quote": "آقای الف.ق. علیه آقای ح.ف. به اتهام صدور یک فقره چک بانکی شماره ... مورخ 25/12/89 عهده بانک ملی ، به مبلغ میلیون ریال اعلام جرم نموده.",
+        "start_char": 82,
+        "end_char": 216,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "آقای الف.ق. مطالبه وجه چک را نیز کرده است.",
+      "evidence": {
+        "quote": "مضافاً مطالبه وجه چک را نیز کرده است.",
+        "start_char": 217,
+        "end_char": 254,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه بدوی بزهکاری متهم را احراز و او را به حبس، محرومیت از دسته چک و پرداخت وجه چک و خسارات محکوم کرده است.",
+      "evidence": {
+        "quote": "شعبه 101 دادگاه عمومی جزایی به موجب دادنامه مذکور، با احراز بزهکاری متهم، وی را به تحمل دو سال حبس تعزیری و دو سال محرومیت از داشتن دسته چک و پرداخت پانصد میلیون ریال وجه چک و خسارات و خسارت تأخیر تأدیه محکوم نموده.",
+        "start_char": 255,
+        "end_char": 470,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محکوم علیه از رأی بدوی درخواست تجدیدنظر کرده است.",
+      "evidence": {
+        "quote": "محکوم علیه از این رأی درخواست تجدیدنظر کرده",
+        "start_char": 471,
+        "end_char": 514,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه تجدیدنظر درخواست محکوم را رد و رأی بدوی را تأیید کرده است.",
+      "evidence": {
+        "quote": "شعبه 7 دادگاه تجدیدنظر استان ، درخواست محکوم را وارد ندانسته و به موجب دادنامه شماره 9009978324700492-29/8/90 رأی دادگاه بدوی را تأیید نموده اند",
+        "start_char": 517,
+        "end_char": 661,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست اعاده دادرسی محکوم علیه در دیوان عالی کشور رد شده است.",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی محکوم علیه نیز به موجب دادنامه شماره 17/19 در شعبه 19 دیوان عالی کشور رد شده است.",
+        "start_char": 664,
+        "end_char": 766,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محکوم علیه مجدداً با استناد به رسیدهای بانکی تقاضای اعاده دادرسی کرده است.",
+      "evidence": {
+        "quote": "محکوم علیه مجدداً با استناد به رسیدهای بانکی خالی از پرداخت قسمتی از وجه چک، تقاضای اعاده دادرسی نموده",
+        "start_char": 767,
+        "end_char": 869,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست اعاده دادرسی محکوم علیه در این مرحله پذیرفته شده است.",
+      "evidence": {
+        "quote": "در این مرحله به شرح رأی شماره 9109970907900137-3/4/91 درخواست او پذیرفته شده",
+        "start_char": 873,
+        "end_char": 949,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شعبه اول دادگاه تجدیدنظر استان رأی بدوی را تأیید کرده است.",
+      "evidence": {
+        "quote": "شعبه اول دادگاه تجدیدنظر استان ، به موجب رأی شماره 9109978324100577 رأی بدوی تأیید نموده",
+        "start_char": 952,
+        "end_char": 1040,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محکوم علیه مدعی پرداخت قسمتی از وجوه چک با ارائه رسید بانکی است.",
+      "evidence": {
+        "quote": "نام برده با ارائه 6 فقره رسید بانکی، مدعی پرداخت قسمتی از وجوه چک موضوع محکومیت است",
+        "start_char": 1074,
+        "end_char": 1157,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه تجدیدنظر معتقد است پرداخت قسمتی از وجه چک خدشه‌ای به ارکان جرم وارد نمی‌کند.",
+      "evidence": {
+        "quote": "با فرض پذیرش ادعای وی مبنی بر پرداخت بخش از وجه چک یاد شده، با این اوصاف ارکان عمومی و اختصاص بزه انتسابی ثابت است و ادعای مذکور خدشه ای به ارکان متشکله جرم وارد نمی نماید.",
+        "start_char": 1170,
+        "end_char": 1342,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه تجدیدنظر به دلیل وجود چک در ید دارنده و مدافعات دارنده، رسیدها را مربوط به وجه چک مورد دعوی ندانسته است.",
+      "evidence": {
+        "quote": "هیأت دادگاه نیز به موجب قرائن و امارات موجود در پرونده قانع نشده که رسیدهای مذکور مربوط به وجه چک مورد استناد دادنامه می باشد.",
+        "start_char": 1701,
+        "end_char": 1827,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه تجدیدنظر استدلال کرده که اگر پرداخت بابت چک بود، باید چک اخذ یا معادل آن تحویل داده می‌شد.",
+      "evidence": {
+        "quote": "چنانچه تجدیدنظرخواه، مبالغ مذکور را بابت پاره ای از وجه چک موجود در ید دارنده پرداخت می کرد، بایستی چک از وی اخذ و چکی معادل مبلغ واقعی, پس از کسر مبلغ پرداختی به وی تحویل می داد.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست اعاده دادرسی محکوم علیه از رأی شعبه اول دادگاه تجدیدنظر استان وارد تشخیص داده شده است.",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی محکوم علیه از رأی شماره 9109978324100577 شعبه اول دادگاه تجدیدنظر استان ، وارد است.",
+        "start_char": 2208,
+        "end_char": 2312,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محکوم علیه مدعی است مبالغی را بابت چک به حساب شاکی واریز کرده که شاکی نیز آن را قبول دارد.",
+      "evidence": {
+        "quote": "محکوم علیه با ارائه چند فقره رسید بانکی مدعی است مبالغی را بابت چک مورد شکایت، به حساب بانکی شاکی ریخته است که مورد قبول شاکی نیز بوده",
+        "start_char": 2318,
+        "end_char": 2452,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دیوان عالی کشور تشخیص تأدیه بابت دین را با مدیون دانسته و امارات دادگاه را مغایر قانون اعلام کرده است.",
+      "evidence": {
+        "quote": "تشخیص اینکه تأدیه بابت کدام دین است، با مدیون است و امارات مستند دادگاه مغایر با صراحت قانون است.",
+        "start_char": 2528,
+        "end_char": 2625,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست اعاده دادرسی محکوم علیه به استناد مواد قانونی و تأثیر پرداخت وجه چک در کیفر پذیرفته شده است.",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی محکوم علیه به استناد بند 6 و 5 ماده 272 قانون آیین دادرسی دادگاه های عمومی و انقلاب در امور کیفری و اینکه پرداخت وجه چک ممکن التأثیر در کیفر صادرکننده نیز می باشد، پذیرفته شده",
+        "start_char": 2630,
+        "end_char": 2826,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رسیدگی به پرونده به شعبه دیگر دادگاه تجدیدنظر استان محول شده است.",
+      "evidence": {
+        "quote": "رسیدگی به شعبه دیگر دادگاه تجدیدنظر استان محول می گردد.",
+        "start_char": 2829,
+        "end_char": 2884,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

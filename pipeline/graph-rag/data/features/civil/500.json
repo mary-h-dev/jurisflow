@@ -1,0 +1,163 @@
+{
+  "ruling_id": "500",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "شرط مندرج در قرارداد (پرداخت عوارض توسط فروشنده یعنی خوانده) شرط فعل است",
+        "start_char": 788,
+        "end_char": 860,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی صادر",
+        "start_char": 1656,
+        "end_char": 1678,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ 000/784/142 ریال",
+        "start_char": 103,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "عوارض شهرداری را با اخذ تخفیف پرداخت می کند",
+        "start_char": 598,
+        "end_char": 641,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض و رسیدگی در محاکم محترم تجدیدنظر استان تهران می باشد",
+        "start_char": 1740,
+        "end_char": 1804,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "حکم تجدیدنظرخواسته را تأیید و استوار می نماید",
+        "start_char": 2846,
+        "end_char": 2891,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان",
+        "start_char": 216,
+        "end_char": 228,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از نظر تجاری و پایانکار تفکیکی به عهده فروشنده یعنی خوانده می باشد",
+        "start_char": 383,
+        "end_char": 449,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "به عهده فروشنده یعنی خوانده می باشد",
+        "start_char": 414,
+        "end_char": 449,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای الف.ن.",
+        "start_char": 1855,
+        "end_char": 1888,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "موکل به موجب مبایعه نامه عادی یک باب مغازه",
+        "start_char": 252,
+        "end_char": 294,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مطالبه مبلغ 000/784/142 ریال",
+        "start_char": 113,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "یک باب",
+      "evidence": {
+        "quote": "یک باب مغازه از خوانده دعوی خریداری نموده",
+        "start_char": 282,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خرید مغازه بر اساس مبایعه نامه عادی",
+      "evidence": {
+        "quote": "موکل به موجب مبایعه نامه عادی یک باب مغازه از خوانده دعوی خریداری نموده",
+        "start_char": 252,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت عوارض شهرداری توسط خریدار بدون اذن",
+      "evidence": {
+        "quote": "پرداخت آن بدون اذن متعهد و الزام حاکم موجبی برای رجوع به متعهد نیست",
+        "start_char": 1538,
+        "end_char": 1605,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

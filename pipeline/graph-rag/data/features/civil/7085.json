@@ -1,0 +1,193 @@
+{
+  "ruling_id": "7085",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "چون وقوع بیع فی مابین خواهان و خوانده ردیف دوم واقع شده",
+        "start_char": 1179,
+        "end_char": 1234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "خلاف عقد بیع منعقده بوده",
+        "start_char": 1274,
+        "end_char": 1298,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "از حق استرداد موضوع ماده 382 قانون مذکور استفاده نماید",
+        "start_char": 4242,
+        "end_char": 4296,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "محکومیت خواندگان به تحویل کالا",
+        "start_char": 123,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد شش قرقره کابل",
+        "start_char": 241,
+        "end_char": 272,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "از تحویل آن امتناع نموده است",
+        "start_char": 1133,
+        "end_char": 1161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "صدور حکم محکومیت خواندگان",
+        "start_char": 114,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.ب.",
+        "start_char": 5002,
+        "end_char": 5025,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "محکوم به ردّ می باشد",
+        "start_char": 4821,
+        "end_char": 4841,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان دعوی اولیه",
+        "start_char": 489,
+        "end_char": 506,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از خوانده ردیف دوم",
+        "start_char": 726,
+        "end_char": 744,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1221 مورخ 24/11/92 صادره از شعبه دوم دادگاه عمومی بخش کهریزک که بر اساس آن حکم بر محکومیت تجدیدنظرخواه",
+        "start_char": 5058,
+        "end_char": 5182,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "کالا",
+      "evidence": {
+        "quote": "تحویل کالا",
+        "start_char": 143,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "به تحویل مبیع",
+        "start_char": 4395,
+        "end_char": 4408,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فاکتور",
+      "evidence": {
+        "quote": "به موجب فاکتور فروش شماره 2703",
+        "start_char": 580,
+        "end_char": 610,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بارنامه",
+      "evidence": {
+        "quote": "به موجب بارنامه 01415-28/11/91",
+        "start_char": 771,
+        "end_char": 801,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از تحویل کالا امتناع کرده است",
+      "evidence": {
+        "quote": "انباردار با اشاره به درخواست ارسال کننده کالا (خوانده ردیف دوم) از تحویل آن امتناع نموده است",
+        "start_char": 1069,
+        "end_char": 1161,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کالا به مقصد خریداری شده و ارسال شده است",
+      "evidence": {
+        "quote": "تعداد 6 قرقره کابل افشان به متراژ 2789 متر از خوانده ردیف دوم (آقای م.ب.) خریداری و سپس به موجب بارنامه 01415-28/11/91 بار به مقصد باراندازی",
+        "start_char": 683,
+        "end_char": 823,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

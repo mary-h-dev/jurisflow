@@ -1,0 +1,173 @@
+{
+  "ruling_id": "38519",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "غصب عنوان بازنشسته وزارت اطلاعات",
+        "start_char": 242,
+        "end_char": 274,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توهین",
+      "evidence": {
+        "quote": "توهین به مقدسات اسلام و کتاب مقدس قران",
+        "start_char": 348,
+        "end_char": 386,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرب خمر",
+      "evidence": {
+        "quote": "شرب خمر",
+        "start_char": 425,
+        "end_char": 432,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "مستفاد از اصل 37 قانون اساسی",
+        "start_char": 3894,
+        "end_char": 3922,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی",
+        "start_char": 21198,
+        "end_char": 21218,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "حکم بدوی نقض",
+        "start_char": 26564,
+        "end_char": 26576,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد درخواست اخیر",
+        "start_char": 29214,
+        "end_char": 29234,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهمین",
+      "evidence": {
+        "quote": "متهمین: 1. اقای ع. ه. ف. فرزند ح. 2. خانم ب. ز. فرزند م.",
+        "start_char": 122,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم ردیف اول",
+        "start_char": 1790,
+        "end_char": 1803,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم",
+      "evidence": {
+        "quote": "محکوم علیها خانم ب. ه. ف. ( ز. )",
+        "start_char": 26495,
+        "end_char": 26527,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متقاضی",
+      "evidence": {
+        "quote": "متقاضی: خانم ب. ه. ف. فرزند م.",
+        "start_char": 25124,
+        "end_char": 25154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "با وکالت اقای م. ج.",
+        "start_char": 179,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شوکر",
+      "evidence": {
+        "quote": "1 عدد شوکر",
+        "start_char": 334,
+        "end_char": 344,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم در سلول انفرادی تحت فشار روحی بوده است",
+      "evidence": {
+        "quote": "در طول 28 روز بازداشت در سلول انفرادی مرتبا با سوالات القایی از سوی ضابطین مواجه بوده است",
+        "start_char": 27583,
+        "end_char": 27672,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم در مراحل تحقیقاتی به شرب خمر اقرار کرده است",
+      "evidence": {
+        "quote": "اقرار متهمه مستند حکم محکومیت مشارالیها قرار گرفته است",
+        "start_char": 23174,
+        "end_char": 23228,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم در دادگاه از جرم شرب خمر انکار کرده است",
+      "evidence": {
+        "quote": "موکله هم در دادسرا و هم در دادگاه منکر این مسیله بوده و اقراری نداشته است",
+        "start_char": 27073,
+        "end_char": 27146,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

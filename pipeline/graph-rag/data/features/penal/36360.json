@@ -1,0 +1,163 @@
+{
+  "ruling_id": "36360",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "سابقه کیفری",
+      "evidence": {
+        "quote": "دارای سابقه کیفری",
+        "start_char": 380,
+        "end_char": 397,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حبس تعزیری",
+      "evidence": {
+        "quote": "تحمل شش ماه حبس تعزیری",
+        "start_char": 956,
+        "end_char": 978,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "کفالت",
+      "evidence": {
+        "quote": "قرار کفالت صادره از شعبه *",
+        "start_char": 1343,
+        "end_char": 1369,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی بعمل اورده",
+        "start_char": 1179,
+        "end_char": 1203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "از ان فرجام خواهی بعمل اورده",
+        "start_char": 1950,
+        "end_char": 1978,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "در خصوص اعتراض متهم",
+        "start_char": 1301,
+        "end_char": 1320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "حکم به رد اعتراض متهم صادر و اعلام می گردد",
+        "start_char": 1782,
+        "end_char": 1824,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "اقای ا. ح. ز. ا. متهم بوده است",
+        "start_char": 146,
+        "end_char": 176,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "محکوم علیه برابر درخواست مورخ 99/1/11",
+        "start_char": 1097,
+        "end_char": 1134,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "کیفرخواست",
+      "evidence": {
+        "quote": "کیفرخواست شماره *– 98/11/21",
+        "start_char": 88,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "و لایحه پیوست ان در اوراق 2631 پرونده",
+        "start_char": 1135,
+        "end_char": 1172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای بدوی را تایید",
+        "start_char": 1264,
+        "end_char": 1281,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم به توهین به مقامات قضایی متهم شده است",
+      "evidence": {
+        "quote": "به توهین به مقامات قضایی در تاریخ 98/9/20",
+        "start_char": 177,
+        "end_char": 218,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم درخواست تجدیدنظر ارائه کرده است",
+      "evidence": {
+        "quote": "از ان تجدیدنظرخواهی بعمل اورده",
+        "start_char": 1173,
+        "end_char": 1203,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم درخواست فرجام‌خواهی ارائه کرده است",
+      "evidence": {
+        "quote": "از ان فرجام خواهی بعمل اورده",
+        "start_char": 1950,
+        "end_char": 1978,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "ruling_id": "6891",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته فسخ نکاح به دلیل بیماری ام اس (MS) تقدیم محاکم عمومی تهران نموده",
+        "start_char": 67,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "فسخ عقد نکاح را درخواست می نماییم",
+        "start_char": 571,
+        "end_char": 604,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "با استناد به مواد 1101 و 1128 قانون مدنی",
+        "start_char": 530,
+        "end_char": 570,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "آیین دادرسی مدنی",
+      "evidence": {
+        "quote": "با استناد به ماده 370 قانون آیین دادرسی مدنی",
+        "start_char": 6548,
+        "end_char": 6592,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ نکاح",
+      "evidence": {
+        "quote": "فسخ نکاح را درخواست می نماییم",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "و نهایتاً ردّ دعوی را خواستار شده است",
+        "start_char": 1045,
+        "end_char": 1082,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "وکیل خواهان به نظریه پزشکی قانونی اعتراض و درخواست ارجاع مورد را به هیئت چندنفره پزشکی خواسته است",
+        "start_char": 2700,
+        "end_char": 2797,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "یا تجدیدنظرخواهی زوج نسبت به دادنامه مرقوم",
+        "start_char": 4564,
+        "end_char": 4606,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "این رأی در این مرحله مورد فرجام خواه آقای م.ر. واقع شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ادعای خواهان مطابق قانون نمی باشد",
+        "start_char": 801,
+        "end_char": 834,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده قبل از عقد نکاح دارای بیماری ام اس بوده",
+        "start_char": 280,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "طرفین زوجین دائمی هستند",
+        "start_char": 256,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجین",
+      "evidence": {
+        "quote": "طرفین زوجین دائمی هستند",
+        "start_char": 256,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "فرمان خواه نیز اعتراض مؤثری نسبت به آن به عمل نیاورده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "به موجب سند رسمی نکاحیه پیوست دادخواست",
+        "start_char": 217,
+        "end_char": 255,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "با عنایت به اینکه تنها مدرکی که خواهان به عنوان مستند تقدیم دادگاه نموده",
+        "start_char": 4129,
+        "end_char": 4201,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده دارای بیماری ام اس است",
+      "evidence": {
+        "quote": "در حال حاضر دچار بیماری ام اس می باشد",
+        "start_char": 2424,
+        "end_char": 2461,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بیماری زوجه از قبل از ازدواج وجود داشته است",
+      "evidence": {
+        "quote": "تاریخ شروع علائم مطرح کننده بیماری در حدود 4 یا 5 سال قبل از تاریخ عقد ایشان بوده است",
+        "start_char": 3598,
+        "end_char": 3683,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متقاضی از بیماری خود اطلاع نداشته است",
+      "evidence": {
+        "quote": "تشخیص اطلاع قطعی نامبرده از بیماری خود قبل از ازدواج مقدور نیست",
+        "start_char": 4035,
+        "end_char": 4098,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

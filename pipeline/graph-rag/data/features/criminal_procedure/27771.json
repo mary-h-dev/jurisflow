@@ -1,0 +1,143 @@
+{
+  "ruling_id": "27771",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "کلاهبرداری",
+      "evidence": {
+        "quote": "بمبنی بر کلاهبرداری",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مال",
+      "evidence": {
+        "quote": "تحصیل مال از طریق نامشروع",
+        "start_char": 77,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "ضمن نفی صلاحیت خویش",
+        "start_char": 337,
+        "end_char": 356,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اختلاف",
+      "evidence": {
+        "quote": "برابر حل اختلاف به دیوان عالی کشور ارسال کرده است",
+        "start_char": 589,
+        "end_char": 638,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "شکایتی علیه شرکت w مبنی بر کلاهبرداری و تحصیل مال از طریق نامشروع به شرح شکوائیه تقدیم دادسرای بابلسر کرده است",
+        "start_char": 37,
+        "end_char": 147,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نفی",
+      "evidence": {
+        "quote": "ضمن نفی صلاحیت خویش",
+        "start_char": 337,
+        "end_char": 356,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "به صلاحیت دادسرای تهران اعلام نظر کرده است",
+        "start_char": 357,
+        "end_char": 399,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "پرونده را با صدور قرار شماره 100477 – 1394/7/25 برابر حل اختلاف به دیوان عالی کشور ارسال کرده است",
+        "start_char": 541,
+        "end_char": 638,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "مدیر",
+      "evidence": {
+        "quote": "ع. مدیر شرکت تعاونی ت.",
+        "start_char": 14,
+        "end_char": 36,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتکی عنه",
+      "evidence": {
+        "quote": "مشتکی عنه تبعه خارج است",
+        "start_char": 248,
+        "end_char": 271,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پرونده را با صدور قرار شماره 100477 – 1394/7/25 برابر حل اختلاف به دیوان عالی کشور ارسال کرده است",
+        "start_char": 541,
+        "end_char": 638,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مشتکی عنه تبعه خارجی دارد",
+      "evidence": {
+        "quote": "مشتکی عنه تبعه خارج است",
+        "start_char": 248,
+        "end_char": 271,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محل وقوع جرم تهران است",
+      "evidence": {
+        "quote": "محل وقوع جرم تهران بوده",
+        "start_char": 217,
+        "end_char": 240,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

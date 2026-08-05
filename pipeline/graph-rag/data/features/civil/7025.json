@@ -1,0 +1,213 @@
+{
+  "ruling_id": "7025",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مستحق للغیر",
+      "evidence": {
+        "quote": "به لحاظ مستحق للغیر درآمدن مبیع",
+        "start_char": 215,
+        "end_char": 246,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "جهل به فساد بیع",
+        "start_char": 328,
+        "end_char": 343,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمان",
+      "evidence": {
+        "quote": "بایع ضامن است",
+        "start_char": 1206,
+        "end_char": 1219,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "دلیلی بر برائت ذمه خود ارائه نکرده اند",
+        "start_char": 2197,
+        "end_char": 2235,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "ملزم به استرداد آن به خواهان می باشند",
+        "start_char": 1639,
+        "end_char": 1676,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروخته",
+      "evidence": {
+        "quote": "به خواهان فروخته",
+        "start_char": 705,
+        "end_char": 721,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دریافت",
+      "evidence": {
+        "quote": "ثمن معامله را دریافت کرده اند",
+        "start_char": 724,
+        "end_char": 753,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه غرامات",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ع.پ.",
+        "start_char": 3683,
+        "end_char": 3706,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اظهارات خواهان",
+        "start_char": 440,
+        "end_char": 454,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "طرفیت آقایان و خانم ها",
+        "start_char": 26,
+        "end_char": 48,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "بایع ضامن است",
+        "start_char": 1206,
+        "end_char": 1219,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "در صورت جهل مشتری",
+        "start_char": 1332,
+        "end_char": 1349,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ورثا",
+      "evidence": {
+        "quote": "ورثاء به نسبت سهم خود مسئول پرداخت می باشند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "استرداد ثمن معامله",
+        "start_char": 126,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دانگ مشاع",
+      "evidence": {
+        "quote": "یک دانگ مشاع از شش دانگ سرقفلی مغازه",
+        "start_char": 145,
+        "end_char": 181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "جزء پلاک ثبتی 289/3 بخش 12 تهران",
+        "start_char": 182,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "مستحق للغیر درآمدن مبیع",
+        "start_char": 223,
+        "end_char": 246,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبیع متعلق به شخص دیگری بوده است",
+      "evidence": {
+        "quote": "یک دانگ مشاع از مغازه جزء پلاک ثبتی مرقوم و مورد معامله متعلق به پ.ش. بوده است",
+        "start_char": 764,
+        "end_char": 842,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثمن معامله دریافت شده است",
+      "evidence": {
+        "quote": "ثمن معامله را دریافت کرده اند",
+        "start_char": 724,
+        "end_char": 753,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "4856",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "بحث فرار از دین اطلاق احراز دین و انتقال بعد از مسجل شدن دین محکومٌ علیه می باشد",
+        "start_char": 2185,
+        "end_char": 2265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صوری",
+      "evidence": {
+        "quote": "ظهور در صوری بودن معامله",
+        "start_char": 5049,
+        "end_char": 5073,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر و اعلام می گردد",
+        "start_char": 3039,
+        "end_char": 3084,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "را در تاریخ 16/8/87 طی سند شماره 22138را به فرزند خویش ح.الف. خوانده ردیف دوم منتقل",
+        "start_char": 949,
+        "end_char": 1032,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "در سال 1385 دعوی به خواسته مطالبه و ارائه صورت حساب مبالغ دریافتی",
+        "start_char": 334,
+        "end_char": 399,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی کرده است",
+        "start_char": 3447,
+        "end_char": 3469,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نظر به اینکه خواهان در دادخواست تقدیمی",
+        "start_char": 270,
+        "end_char": 308,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف اول محکوم به تأدیه مبلغ",
+        "start_char": 578,
+        "end_char": 613,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه نسبت به دادنامه شماره 0741",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده ردیف اول در زمان انجام معامله",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اسناد رسمی",
+      "evidence": {
+        "quote": "خواسته صدور حکم به ابطال اسناد رسمی شماره 22138",
+        "start_char": 116,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "تمامی شش دانگ پلاک ثبتی 31565/70",
+        "start_char": 830,
+        "end_char": 862,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "مبالغ دریافتی حاصل از فروش آپارتمان های مشترک",
+        "start_char": 386,
+        "end_char": 431,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انتقال ملک قبل از صدور حکم محکومیت",
+      "evidence": {
+        "quote": "درحالی که محکومیت خوانده ردیف اول به موجب دادنامه شماره 290 در تاریخ 10/4/88 بوده یعنی قبل از صدور حکم و احراز دین خوانده ردیف اول و ملک به ایادی بعدی منتقل گردیده",
+        "start_char": 2011,
+        "end_char": 2174,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود دین در زمان انتقال",
+      "evidence": {
+        "quote": "در زمان انتقال پلاک ثبتی دینی محقق نگردیده بود",
+        "start_char": 2447,
+        "end_char": 2493,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

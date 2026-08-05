@@ -1,0 +1,183 @@
+{
+  "ruling_id": "24011",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال رای داور",
+        "start_char": 116,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوا صادر و اعلام می شود",
+        "start_char": 614,
+        "end_char": 651,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "استناد به ماده 265 قانون مدنی",
+        "start_char": 493,
+        "end_char": 522,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "آیین دادرسی",
+      "evidence": {
+        "quote": "با لحاظ بند 1 ماده 489 قانون آئین دادرسی مدنی",
+        "start_char": 3416,
+        "end_char": 3461,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "مبنی بر محکومیت موکل به پرداخت مبلغ 465/000 دلارآمریکا",
+        "start_char": 152,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "محکومیت وی به پرداخت 465/000 دلار آمریکا",
+        "start_char": 1042,
+        "end_char": 1082,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م. د. و خانم الف. الف.",
+        "start_char": 777,
+        "end_char": 818,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 3386,
+        "end_char": 3415,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت آقای م. ت.",
+        "start_char": 76,
+        "end_char": 95,
+        "confidence": 0.7
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در حق خوانده",
+        "start_char": 207,
+        "end_char": 219,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 682,
+        "end_char": 694,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده",
+        "start_char": 1083,
+        "end_char": 1103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "رای داور آقای ع. ش.",
+        "start_char": 132,
+        "end_char": 151,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای داور آقای ع. ش.",
+        "start_char": 132,
+        "end_char": 151,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره 0368",
+        "start_char": 885,
+        "end_char": 903,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انتقال وجه از حساب تجدیدنظرخوانده به حساب شرکت داد",
+      "evidence": {
+        "quote": "وجه یاد شده به طور مستقیم از حساب تجدیدنظرخوانده به حساب شرکت داد (ثالث) واریز شده است",
+        "start_char": 2308,
+        "end_char": 2394,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "برداشت‌های متعدد توسط آقای ت. از حساب",
+      "evidence": {
+        "quote": "موارد زیادی برداشت شده و به حدود 40 میلیون دلار این موضوع صورت گرفته",
+        "start_char": 2891,
+        "end_char": 2959,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

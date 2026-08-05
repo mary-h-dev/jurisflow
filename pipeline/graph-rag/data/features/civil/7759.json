@@ -1,0 +1,213 @@
+{
+  "ruling_id": "7759",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "دلالت بر تحقق عقد بیع شرعی و قانونی دارد",
+        "start_char": 1367,
+        "end_char": 1407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهدات",
+      "evidence": {
+        "quote": "طبق اصول کلی حقوقی عقود و تعهدات",
+        "start_char": 1410,
+        "end_char": 1442,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "دلالت بر مالکیت خواهان ها دارد",
+        "start_char": 1544,
+        "end_char": 1574,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "افراز",
+      "evidence": {
+        "quote": "نوعی افراز بوده",
+        "start_char": 3600,
+        "end_char": 3615,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بازداشت",
+      "evidence": {
+        "quote": "الزام خواندگان اول تا سوم به رفع بازداشت",
+        "start_char": 243,
+        "end_char": 283,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تفکیک",
+      "evidence": {
+        "quote": "الزام خوانده ردیف چهارم به تفکیک",
+        "start_char": 380,
+        "end_char": 412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال سند",
+      "evidence": {
+        "quote": "انتقال سند رسمی و تنظیم سند قطعی",
+        "start_char": 415,
+        "end_char": 447,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شرکت س. در حال تصفیه",
+        "start_char": 2778,
+        "end_char": 2812,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن پذیرش درخواست تجدیدنظرخواهی و نقض دادنامه تجدیدنظر خواسته",
+        "start_char": 4003,
+        "end_char": 4064,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان بنام الف.ک.",
+        "start_char": 0,
+        "end_char": 35,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خواندگان بنام های بانک م.",
+        "start_char": 91,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 122 مورخ 30/2/93 که به موجب آن حکم بر محکومیت تجدیدنظرخواه",
+        "start_char": 2813,
+        "end_char": 2893,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "رفع بازداشت یک قطعه زمین به مساحت 1100 مترمربع",
+        "start_char": 272,
+        "end_char": 318,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بیع‌نامه",
+      "evidence": {
+        "quote": "مفاد و مندرجات بیع نامه مورخه 21/7/65",
+        "start_char": 609,
+        "end_char": 646,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "قرارداد مزایده مورخه 3/6/65",
+        "start_char": 649,
+        "end_char": 676,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "انتقال سند رسمی",
+        "start_char": 415,
+        "end_char": 430,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواندگان اول تا سوم قراردادی با خواهان‌ها ندارند",
+      "evidence": {
+        "quote": "خواندگان مزبور هیچ گونه قراردادی و بیع نامه با خواهان ها ندارد",
+        "start_char": 915,
+        "end_char": 977,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثمن مورد معامله پرداخت شده است",
+      "evidence": {
+        "quote": "با توجه به پرداخت ثمن مورد معامله بر اساس قرارداد مزبور",
+        "start_char": 1488,
+        "end_char": 1543,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرکت س. نسبت به تنظیم سند اقدام نکرده است",
+      "evidence": {
+        "quote": "شرکت س. تاکنون نسبت به تنظیم سند و انتقال آن به خواهان ها اقدام ننموده",
+        "start_char": 1577,
+        "end_char": 1647,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک توسط خواندگان ردیف اول تا سوم بازداشت شده است",
+      "evidence": {
+        "quote": "توقیف و بازداشت ملک توسط خواندگان ردیف اول الی سوم بعد از انعقاد قرارداد مزبور بوده",
+        "start_char": 1817,
+        "end_char": 1900,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "6674",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "دادگاه عبارت مزبور را نمی تواند شرط خیار بداند",
+        "start_char": 583,
+        "end_char": 629,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "و برای وی حق فسخ شناسایی نمود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "یکی از الزامات اصل صحت اعمال حقوقی",
+        "start_char": 1384,
+        "end_char": 1418,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ در بستر قرارداد صحیح قابل تصور است",
+        "start_char": 1326,
+        "end_char": 1364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوای خواهان صادر می نماید",
+        "start_char": 2861,
+        "end_char": 2900,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم سند رسمی انتقال",
+        "start_char": 46,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "مستمسک خواهان تقابل برای فسخ قرارداد شده است",
+        "start_char": 534,
+        "end_char": 578,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انصراف",
+      "evidence": {
+        "quote": "ضمن تذکر عدم پرداخت مابقی ثمن معامله و اشاره به قسمت اخیر بند 5-6 بیع نامه انصراف خود از معامله را به خریدار اعلام نمود",
+        "start_char": 4069,
+        "end_char": 4188,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مستمسک خواهان تقابل",
+        "start_char": 534,
+        "end_char": 553,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم سند رسمی",
+        "start_char": 46,
+        "end_char": 76,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "ضمن محکومیت فروشنده به تنظیم سند رسمی",
+        "start_char": 4483,
+        "end_char": 4520,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "انتقال یک باب آپارتمان مسکونی",
+        "start_char": 77,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بیع‌نامه",
+      "evidence": {
+        "quote": "طی بیع نامه عادی در تاریخ 23/10/90",
+        "start_char": 3174,
+        "end_char": 3208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "عدم پرداخت ثمن که مستند دیگر خواهان تقابل است",
+        "start_char": 2395,
+        "end_char": 2440,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وقوع قرارداد موسوم به قولنامه بین طرفین",
+      "evidence": {
+        "quote": "مطابق محتویات اسناد پیوست دادخواست وقوع قرارداد موسوم به قولنامه بین طرفین تحقق تعهد خوانده به انتقال رسمی ملک و عدم انجام این تعهد محرز است",
+        "start_char": 191,
+        "end_char": 331,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم انجام تعهد انتقال رسمی ملک",
+      "evidence": {
+        "quote": "عدم انجام این تعهد محرز است",
+        "start_char": 304,
+        "end_char": 331,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت رسمی خوانده بر ملک",
+      "evidence": {
+        "quote": "مطابق پاسخ استعلام ثبتی خوانده بر ملک مورد دعوا مالکیت رسمی دارد",
+        "start_char": 1747,
+        "end_char": 1811,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

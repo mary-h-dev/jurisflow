@@ -1,0 +1,173 @@
+{
+  "ruling_id": "38537",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اصل تناظر",
+      "evidence": {
+        "quote": "عدم رعایت اصل تناظر اعلام نموده است",
+        "start_char": 321,
+        "end_char": 356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اراده",
+      "evidence": {
+        "quote": "احترام به اراده ی متعاملین و اصل حاکمیت اراده ایجاب می نماید",
+        "start_char": 2547,
+        "end_char": 2607,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لازم الاجرا",
+      "evidence": {
+        "quote": "اصل بر اعتبار و لازم الاجرا بودن انست",
+        "start_char": 1154,
+        "end_char": 1191,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال رای داوری",
+        "start_char": 103,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با تجدیدنظرخواهی خواهان",
+        "start_char": 13013,
+        "end_char": 13036,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه ی معترض عنه را نقض و پرونده را جهت صدور رای نسبت به خواهان اعاده نموده است",
+        "start_char": 13073,
+        "end_char": 13155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست",
+      "evidence": {
+        "quote": "قرار رد درخواست خواهان را صادر و اعلام می نماید",
+        "start_char": 12206,
+        "end_char": 12253,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از سوی خواهان",
+        "start_char": 1517,
+        "end_char": 1530,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خواندگان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه: مسکن مهر شماره بیست و هشت",
+        "start_char": 14637,
+        "end_char": 14676,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "رای داور",
+        "start_char": 119,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای داور",
+        "start_char": 119,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "بموجب عقد فی مابین",
+        "start_char": 608,
+        "end_char": 626,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه ی شماره",
+        "start_char": 12826,
+        "end_char": 12841,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دعوی خارج از مهلت قانونی مطرح شده است",
+      "evidence": {
+        "quote": "خارج از مهلت قانونی مقرر در ماده 490 قانون ایین دادرسی مدنی اقامه و مطرح گردیده است",
+        "start_char": 11681,
+        "end_char": 11764,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ابلاغ رای داوری به دلیل عدم وجود نگهبان در محل، با عدم اطلاع مخاطب همراه بوده است",
+      "evidence": {
+        "quote": "فاقد نگهبان بوده است. بنابراین تردیدی باقی نمی ماند که مخاطب ( تجدید نظر خواه ) از مفاد ابلاغیه مورخ 1402/1/22 بی اطلاع بوده است",
+        "start_char": 17947,
+        "end_char": 18075,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

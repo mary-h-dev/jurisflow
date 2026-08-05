@@ -1,0 +1,92 @@
+{
+  "ruling_id": "22041",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "موجبات فسخ رأی بدوی را فراهم کند",
+        "start_char": 161,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "دادنامه مورد اعتراض",
+        "start_char": 40,
+        "end_char": 59,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "با رد تجدیدنظر‌خواهی",
+        "start_char": 309,
+        "end_char": 329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را با اصلاح حکم به پرداخت بهای ملک مورد تملک تأیید و ابرام می نماید",
+        "start_char": 331,
+        "end_char": 416,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه مورد اعتراض",
+        "start_char": 40,
+        "end_char": 59,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "موجبات فسخ رأی بدوی را فراهم کند",
+        "start_char": 161,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "بهای ملک مورد تملک",
+        "start_char": 375,
+        "end_char": 393,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل یا مدرک مؤثر برای نقض قوانین",
+      "evidence": {
+        "quote": "دلیل و مدرک یا ایراد مؤثری که متضمن اثبات نقض قوانین و مقررات بوده و موجبات فسخ رأی بدوی را فراهم کند تحصیل و ارائه نگردیده است",
+        "start_char": 92,
+        "end_char": 219,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

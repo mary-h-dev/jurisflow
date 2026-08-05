@@ -1,0 +1,123 @@
+{
+  "ruling_id": "34558",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "در معاملات و قراردادهای بین مسلمین، اصل بر صحت است",
+        "start_char": 1380,
+        "end_char": 1430,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بزه",
+      "evidence": {
+        "quote": "با احراز وقوع بزه ربا",
+        "start_char": 377,
+        "end_char": 398,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "از این رأی توسط آقای ص.گ. تقاضای تجدیدنظرخواهی شده است",
+        "start_char": 211,
+        "end_char": 265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی نسبت به این که توسط وکلای محکوم‌علیها خانم ز. به عمل آمده بوده",
+        "start_char": 774,
+        "end_char": 857,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "مورد پذیرش قرار نمی گیرد و رد می گردد",
+        "start_char": 3191,
+        "end_char": 3228,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهمین",
+      "evidence": {
+        "quote": "حکم بر محکومیت هر دو نفر متهمین زیر",
+        "start_char": 400,
+        "end_char": 435,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "و توضیح داده است که در معاملات و قراردادهای بین مسلمین، اصل بر صحت است",
+        "start_char": 1360,
+        "end_char": 1430,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "خانم ر.ز. نیز به رد چک های دریافتی",
+        "start_char": 675,
+        "end_char": 709,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت",
+      "evidence": {
+        "quote": "خصوصاً اینکه قرارداد مشارکت بین طرفین وجود دارد",
+        "start_char": 1507,
+        "end_char": 1554,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "معامله ربوی انجام شده است",
+      "evidence": {
+        "quote": "با احراز وقوع بزه ربا",
+        "start_char": 377,
+        "end_char": 398,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تقاضای اعاده دادرسی دادستان مطرح شده است",
+      "evidence": {
+        "quote": "و توضیح داده است که در معاملات و قراردادهای بین مسلمین، اصل بر صحت است",
+        "start_char": 1360,
+        "end_char": 1430,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

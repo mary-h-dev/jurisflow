@@ -1,0 +1,153 @@
+{
+  "ruling_id": "32291",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "موجبی جهت ابطال آن ارائه نشده است",
+        "start_char": 3239,
+        "end_char": 3272,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "با نظر به اصل لزوم",
+        "start_char": 3085,
+        "end_char": 3103,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه ثمن معامله",
+        "start_char": 486,
+        "end_char": 503,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خرید",
+      "evidence": {
+        "quote": "اقدام به خرید 1470 متر مربع",
+        "start_char": 760,
+        "end_char": 787,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "فرمان خواهی کرده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان بیان میدارد",
+        "start_char": 729,
+        "end_char": 747,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وکیل مستعفی خوانده آقای ع. م.",
+        "start_char": 1154,
+        "end_char": 1183,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "خریداری نموده",
+        "start_char": 822,
+        "end_char": 835,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "رونوشت مبایعه نامه مورخه 1384/5/10",
+        "start_char": 566,
+        "end_char": 600,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "ثمن معامله را پرداخت کرده",
+        "start_char": 838,
+        "end_char": 863,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اراضی",
+      "evidence": {
+        "quote": "از اراضی معروف به «ش. »; شازند",
+        "start_char": 788,
+        "end_char": 818,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زمین در حریم راه آهن قرار گرفته است",
+      "evidence": {
+        "quote": "متراژ 900 متر مربع از طرف خط راه آهن در حریم قرار گرفته",
+        "start_char": 868,
+        "end_char": 923,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زمین در حریم خطوط لوله نفت و گاز قرار گرفته است",
+      "evidence": {
+        "quote": "به میزان 195 متر مربع نیز در حریم خطوط لوله نفت و گاز است",
+        "start_char": 1010,
+        "end_char": 1067,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثمن معامله پرداخت شده است",
+      "evidence": {
+        "quote": "ثمن معامله را پرداخت کرده",
+        "start_char": 838,
+        "end_char": 863,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

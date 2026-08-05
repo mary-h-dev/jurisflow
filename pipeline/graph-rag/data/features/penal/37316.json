@@ -1,0 +1,133 @@
+{
+  "ruling_id": "37316",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "کاربری",
+      "evidence": {
+        "quote": "تغییر غیر مجاز کاربری اراضی",
+        "start_char": 59,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "رای برائت",
+        "start_char": 91,
+        "end_char": 100,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مرور زمان",
+      "evidence": {
+        "quote": "مرور زمان تعقیب شامل انها می گردد",
+        "start_char": 648,
+        "end_char": 681,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تقاضای تجویز اعاده دادرسی نموده",
+        "start_char": 365,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور حکم محکومیت",
+      "evidence": {
+        "quote": "به جزای نقدی محکوم گردیده",
+        "start_char": 188,
+        "end_char": 213,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالعه",
+      "evidence": {
+        "quote": "محاکماتی مطالبه و ملاحظه گردید",
+        "start_char": 691,
+        "end_char": 721,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "به وکالت از محکوم علیه",
+        "start_char": 330,
+        "end_char": 352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "سازمان شاکی",
+        "start_char": 1229,
+        "end_char": 1240,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بنا",
+      "evidence": {
+        "quote": "شامل بنا و محوطه سازی",
+        "start_char": 147,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بموجب دادنامه شماره *00/8/24",
+        "start_char": 240,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ساخت و ساز مستحدثات بین سالهای 89 تا 91 انجام شده است",
+      "evidence": {
+        "quote": "مستحدثات بین سالهای 89 تا 91 ساخته شده",
+        "start_char": 761,
+        "end_char": 799,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بیش از سه سال از شروع ساخت و ساز تا اعلام شکایت گذشته است",
+      "evidence": {
+        "quote": "از زمان شروع ساخت و ساز تا اعلام شکایت سازمان شاکی بیش از سه سال سپری شده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "28312",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام زوجیت",
+        "start_char": 88,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "با عدم قصد تبرع",
+        "start_char": 278,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "وخسارات دادرسی",
+        "start_char": 117,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه اجرت المثل",
+        "start_char": 80,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "حکم به الزام خوانده",
+        "start_char": 559,
+        "end_char": 578,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت مبلغ نود میلیون ریال",
+        "start_char": 579,
+        "end_char": 609,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی تجدید نظر خواسته تایید میگردد",
+        "start_char": 1385,
+        "end_char": 1418,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "رادرحق خواهان صادر",
+        "start_char": 669,
+        "end_char": 687,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده دلیل ومدرکی بر رد دعوی اقامه نکرده است",
+        "start_char": 382,
+        "end_char": 427,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه نیز در این مرحله مطلب قابل توجهی عنوان نکرده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ نود میلیون ریال",
+        "start_char": 589,
+        "end_char": 609,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "مبلغ 9 میلیون تومان",
+        "start_char": 1037,
+        "end_char": 1056,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجیت طرفین",
+      "evidence": {
+        "quote": "ایام زوجیت",
+        "start_char": 106,
+        "end_char": 116,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل توسط خوانده",
+      "evidence": {
+        "quote": "خوانده دلیل ومدرکی بر رد دعوی اقامه نکرده است",
+        "start_char": 382,
+        "end_char": 427,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

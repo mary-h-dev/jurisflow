@@ -1,0 +1,143 @@
+{
+  "ruling_id": "27682",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "وحدت قاضی",
+      "evidence": {
+        "quote": "با وحدت قاضی صادر شده است",
+        "start_char": 50,
+        "end_char": 75,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعدد قاضی",
+      "evidence": {
+        "quote": "باید با تعدد قاضی تشکیل شود",
+        "start_char": 1421,
+        "end_char": 1448,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "این امر شیوه دادرسی است",
+        "start_char": 1807,
+        "end_char": 1830,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "محکوم و",
+      "evidence": {
+        "quote": "محکوم شده است",
+        "start_char": 267,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نظر به نقض دادنامه",
+        "start_char": 1148,
+        "end_char": 1166,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارجاع",
+      "evidence": {
+        "quote": "ارجاع می‌گردد",
+        "start_char": 2048,
+        "end_char": 2061,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "فرمان‌خواهان",
+      "evidence": {
+        "quote": "فرمان‌خواهان فوق‌الذکر",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دیوان عالی کشور",
+      "evidence": {
+        "quote": "دادیار دیوان عالی کشور",
+        "start_char": 912,
+        "end_char": 934,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پیش‌ساز تولید شیشه",
+      "evidence": {
+        "quote": "پیش‌ساز تولید شیشه",
+        "start_char": 112,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شیشه",
+      "evidence": {
+        "quote": "نگهداری 297/20 شیشه",
+        "start_char": 212,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "مصادره اموال",
+        "start_char": 243,
+        "end_char": 255,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رأی با وحدت قاضی صادر شده است",
+      "evidence": {
+        "quote": "با وحدت قاضی صادر شده است",
+        "start_char": 50,
+        "end_char": 75,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرونده قبل از تاریخ مقرر ثبت شده است",
+      "evidence": {
+        "quote": "قبل از 1394/4/1 ثبت شده",
+        "start_char": 692,
+        "end_char": 715,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

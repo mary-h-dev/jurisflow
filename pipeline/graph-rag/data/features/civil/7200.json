@@ -1,0 +1,223 @@
+{
+  "ruling_id": "7200",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "سوء رفتار",
+      "evidence": {
+        "quote": "به علت سوءرفتار و کردار و گفتار",
+        "start_char": 118,
+        "end_char": 149,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "اعلام داشته ادامه این زندگی برایم مشقت بار و با عسر و حرج شدید همراه است",
+        "start_char": 682,
+        "end_char": 754,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "تقاضای صدور رأی مبنی بر طلاق نموده",
+        "start_char": 316,
+        "end_char": 350,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 83,
+        "end_char": 108,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "حاضر است مبلغ یک صد هزار تومان از مهریه خود را به زوج ببخشم",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلع",
+      "evidence": {
+        "quote": "نوع طلاق با توجه به اینکه زوجه مبلغ یک صد هزار تومان از مهریه خود را به زوج بذل نموده خلع می باشد",
+        "start_char": 5740,
+        "end_char": 5837,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت آقای الف.پ. به خواسته صدور گواهی عدم امکان سازش جهت طلاق به علت سوءرفتار و کردار و گفتار و داشتن سوابق کیفری متعدد تقدیم دادگاه های عمومی قائم شهر نموده",
+        "start_char": 42,
+        "end_char": 213,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "از دادنامه فوق تجدیدنظرخواهی نموده",
+        "start_char": 2254,
+        "end_char": 2288,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "پس از ابلاغ دادنامه آقای ف. اقدام به فرجام خواهی نموده",
+        "start_char": 6057,
+        "end_char": 6111,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی بدوی را نقض و به استناد ماده واحده قانون اصلاح مقررات مربوط به طلاق و ماده 1130 قانون مدنی گواهی عدم امکان سازش را صادر",
+        "start_char": 5439,
+        "end_char": 5562,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "فرجام خوانده خانم ن.پ.",
+        "start_char": 0,
+        "end_char": 22,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان طی لایحه ای ضمن اعلام مراتب سوءرفتار زوج",
+        "start_char": 427,
+        "end_char": 474,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "خوانده همسر شرعی و قانونی من است",
+        "start_char": 256,
+        "end_char": 288,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "بنا به مراتب رأی فرجام خواسته در وضعیت حاضر قابلیت تأیید را ندارد و نقض می گردد",
+        "start_char": 7299,
+        "end_char": 7378,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "آقای ع.الف. به عنوان داور زوج اعلام می داید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "حسب رونوشت سند نکاحیه پیوست",
+        "start_char": 228,
+        "end_char": 255,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مبلغ یک صد هزار تومان از مهریه خود را به زوج ببخشم",
+        "start_char": 4270,
+        "end_char": 4320,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "با توجه به محتویات پرونده و اظهارات طرفین و دفاعیات موجه خوانده",
+        "start_char": 1921,
+        "end_char": 1984,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده سابقه کیفری و محکومیت به حبس دارد",
+      "evidence": {
+        "quote": "بنده زمین و خانه و خانه سرا در کیاکلا داشتم اما ایشان نگذاشت من در کیاکلا ساختمان بسازم در شهر مستأجر هستیم ازدواج موقت من در سال 65 یا 66 بود آن هم یک دسیسه بود و دو ماه بیشتر دوام نداشت",
+        "start_char": 3728,
+        "end_char": 3915,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به اتهام رابطه نامشروع و نگهداری مواد مخدر محکوم شده است",
+      "evidence": {
+        "quote": "الف.ف. به اتهام رابطه نامشروع و نگهداری تریاک محکومیت کیفری داشته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج و زوجه از یکدیگر جدا زندگی می‌کنند",
+      "evidence": {
+        "quote": "الان مدت هیجده ماه است جدا از یکدیگر زندگی می کنیم",
+        "start_char": 3090,
+        "end_char": 3140,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "321",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شراکت",
+      "evidence": {
+        "quote": "شراکت و اشاعه صرفاً در شیء واحد قابل تحقق می باشد",
+        "start_char": 996,
+        "end_char": 1045,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشاعه",
+      "evidence": {
+        "quote": "شراکت و اشاعه صرفاً در شیء واحد قابل تحقق می باشد",
+        "start_char": 996,
+        "end_char": 1045,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقاضای رد",
+      "evidence": {
+        "quote": "تقاضای رد دعوی به لحاظ عدم توجه آن به شهرداری را نموده است",
+        "start_char": 841,
+        "end_char": 899,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ش.ب. با وکالت خانم س.ع.",
+        "start_char": 1719,
+        "end_char": 1761,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد آن را صادر و اعلام می نماید",
+        "start_char": 1398,
+        "end_char": 1435,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی خواهان آقای ش.ب.",
+        "start_char": 0,
+        "end_char": 40,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خواندگان به اسامی 1- آقای ش.ب. و 2-شهرداری",
+        "start_char": 59,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شهرداری",
+      "evidence": {
+        "quote": "به طرفیت خواندگان به اسامی 1- آقای ش.ب. و 2-شهرداری",
+        "start_char": 59,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "مالک مشاعی پلاک ثبتی شماره 675/66 بخش 11 تهران بوده اند",
+        "start_char": 302,
+        "end_char": 357,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان و خوانده مالک مشاعی ملک هستند",
+      "evidence": {
+        "quote": "خواهان و خوانده مالک مشاعی پلاک ثبتی شماره 675/66 بخش 11 تهران بوده اند",
+        "start_char": 286,
+        "end_char": 357,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تراکم خریداری شده است",
+      "evidence": {
+        "quote": "در سال 74 از شهرداری منطقه یک 1495 متر مربع تراکم نسبت به ملک خریداری کرده اند",
+        "start_char": 361,
+        "end_char": 439,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در دادگاه حاضر نشده است",
+      "evidence": {
+        "quote": "خوانده ردیف اول علی رغم ابلاغ قانونی اخطاریه و فرض اطلاع از وقت رسیدگی در دادگاه حاضر نشده",
+        "start_char": 700,
+        "end_char": 790,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "ruling_id": "413",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عهد",
+      "evidence": {
+        "quote": "وفای به عهد",
+        "start_char": 778,
+        "end_char": 789,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهدات",
+      "evidence": {
+        "quote": "سقوط تعهدات",
+        "start_char": 799,
+        "end_char": 810,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "عدم تبرع",
+        "start_char": 860,
+        "end_char": 868,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مبلغ 000/000/150ریال",
+        "start_char": 103,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "اقدام به واریز مبلغ فوق الذکر",
+        "start_char": 254,
+        "end_char": 283,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "از استرداد این مبلغ استنکاف می ورزد",
+        "start_char": 341,
+        "end_char": 376,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "تقاضای رد دعوی را دارم",
+        "start_char": 702,
+        "end_char": 724,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم تجدیدنظر",
+        "start_char": 1460,
+        "end_char": 1496,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "عیناً دادنامه تجدیدنظرخواسته را تأیید",
+        "start_char": 2424,
+        "end_char": 2461,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از سوی وکیل خوانده مراودات مالی متعددی فی مابین وجود داشته",
+        "start_char": 967,
+        "end_char": 1025,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به حساب خوانده می نماید",
+        "start_char": 284,
+        "end_char": 307,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "صدور حکم بر بی حقی تجدیدنظرخواه",
+        "start_char": 1747,
+        "end_char": 1778,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مطالبه مبلغ 000/000/150ریال",
+        "start_char": 103,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "با احتساب خسارات دادرسی",
+        "start_char": 131,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تأخیر تادیه",
+      "evidence": {
+        "quote": "و تأخیر تأدیه",
+        "start_char": 155,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اصل 40",
+      "evidence": {
+        "quote": "اصل رسید دستگاه عابربانک را نیز به موکل تحویل داده است",
+        "start_char": 604,
+        "end_char": 658,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انتقال وجه از طریق کارت به کارت انجام شده است",
+      "evidence": {
+        "quote": "از طریق انتقال کارت به کارت و بوسیله دستگاه عابر بانک اقدام به واریز مبلغ فوق الذکر به حساب خوانده می نماید",
+        "start_char": 200,
+        "end_char": 307,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین دارای مراودات مالی متعددی هستند",
+      "evidence": {
+        "quote": "طرفین مراودات مالی متعددی دارند",
+        "start_char": 489,
+        "end_char": 520,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

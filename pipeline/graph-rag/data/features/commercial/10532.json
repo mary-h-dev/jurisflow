@@ -1,0 +1,213 @@
+{
+  "ruling_id": "10532",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ضمانت",
+      "evidence": {
+        "quote": "در صورت عدم امکان وصول مهریه از زوج",
+        "start_char": 1802,
+        "end_char": 1837,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "دعوی اعسار و تعدیل و کاهش اقساط مهریه خواهان",
+        "start_char": 510,
+        "end_char": 554,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقساط",
+      "evidence": {
+        "quote": "دعوی اعسار و تعدیل و کاهش اقساط مهریه خواهان",
+        "start_char": 510,
+        "end_char": 554,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "نیم سکه مهریه موضوع دادنامه های مذکور",
+        "start_char": 711,
+        "end_char": 748,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمان",
+      "evidence": {
+        "quote": "ضامن موظف به پرداخت آن شده است",
+        "start_char": 1716,
+        "end_char": 1746,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "خواهان بموجب طلاق توافقی با آقای م.ق. توافق نمودند",
+        "start_char": 231,
+        "end_char": 281,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت می‌نماید",
+        "start_char": 752,
+        "end_char": 767,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "اقامه دعوا کرد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.5
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم م.و. به‌طرفیت آقای ع.ص.",
+        "start_char": 1370,
+        "end_char": 1412,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض وارد نمی‌باشد",
+        "start_char": 1927,
+        "end_char": 1947,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان بموجب طلاق توافقی با آقای م.ق. توافق نمودند",
+        "start_char": 231,
+        "end_char": 281,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به‌طرفیت آقای ع.ص.",
+        "start_char": 23,
+        "end_char": 41,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "ضامن",
+      "evidence": {
+        "quote": "ضامن موظف به پرداخت آن شده است",
+        "start_char": 1716,
+        "end_char": 1746,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از حقوق زوج کسر نماید",
+        "start_char": 321,
+        "end_char": 342,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "از ماهیانه یک سکه طلای تمام بهار آزادی به نیم سکه در حق خواهان",
+        "start_char": 592,
+        "end_char": 654,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "نیم سکه مهریه موضوع دادنامه های مذکور",
+        "start_char": 711,
+        "end_char": 748,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره 461 مورخه 1393/6/26",
+        "start_char": 1416,
+        "end_char": 1449,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت مهریه انجام نشده",
+      "evidence": {
+        "quote": "در صورت عدم امکان وصول مهریه از زوج",
+        "start_char": 1802,
+        "end_char": 1837,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در حال پرداخت مهریه است",
+      "evidence": {
+        "quote": "زوج به صورت تقسیط درحال پرداخت مهریه می‌باشد",
+        "start_char": 1854,
+        "end_char": 1898,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان و زوج توافق کرده‌اند",
+      "evidence": {
+        "quote": "خواهان بموجب طلاق توافقی با آقای م.ق. توافق نمودند",
+        "start_char": 231,
+        "end_char": 281,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

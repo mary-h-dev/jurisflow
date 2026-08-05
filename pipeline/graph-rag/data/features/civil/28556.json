@@ -1,0 +1,193 @@
+{
+  "ruling_id": "28556",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "خواسته صدور حکم به خلع ید",
+        "start_char": 91,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قلع و قمع",
+      "evidence": {
+        "quote": "و قلع قمع بنای احداثی",
+        "start_char": 168,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غاصبانه",
+      "evidence": {
+        "quote": "با احراز غاصبانه بودن ید متصرف",
+        "start_char": 3927,
+        "end_char": 3957,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "مبادرت به تصرف آ ن",
+        "start_char": 528,
+        "end_char": 546,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "احداث",
+      "evidence": {
+        "quote": "احداث جایگاههای سی ان جی و پمپ بنزین نموده است",
+        "start_char": 549,
+        "end_char": 595,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "از انتقال رسمی ملک امتناع نمود",
+        "start_char": 891,
+        "end_char": 921,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واگذار",
+      "evidence": {
+        "quote": "ملک مورد ترافع در تصرف شهرداری منطقه 13 میباشد",
+        "start_char": 1021,
+        "end_char": 1067,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض این بخش از دادنامه",
+        "start_char": 4176,
+        "end_char": 4202,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بدین توضیح که خواهان به موجب سند رسمی",
+        "start_char": 214,
+        "end_char": 251,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و خوانده بدون اذن مبادرت به تصرف آ ن",
+        "start_char": 510,
+        "end_char": 546,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "از خوانده مجلوب ثالث خریداری نماید",
+        "start_char": 2282,
+        "end_char": 2316,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شرکت ملی پخش فرآورده های نفتی",
+        "start_char": 2847,
+        "end_char": 2890,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "از خوانده مجلوب ثالث (تجدیدنظرخوانده ردیف دوم)",
+        "start_char": 3229,
+        "end_char": 3275,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "خلع ید خوانده از ملک واقع در بزرگراه",
+        "start_char": 110,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بنای احداثی",
+      "evidence": {
+        "quote": "و قلع قمع بنای احداثی",
+        "start_char": 168,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مستحدثات",
+      "evidence": {
+        "quote": "بطلان دعوی به خواسته قلع و قمع بنای مستحدثات",
+        "start_char": 3747,
+        "end_char": 3791,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده بدون اذن اقدام به تصرف و احداث جایگاه کرده است",
+      "evidence": {
+        "quote": "و خوانده بدون اذن مبادرت به تصرف آ ن و احداث جایگاههای سی ان جی و پمپ بنزین نموده است",
+        "start_char": 510,
+        "end_char": 595,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شهرداری برخلاف تعهد از انتقال رسمی ملک امتناع کرده است",
+      "evidence": {
+        "quote": "شهرداری بر خلاف تعهد از انتقال رسمی ملک امتناع نمود",
+        "start_char": 870,
+        "end_char": 921,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

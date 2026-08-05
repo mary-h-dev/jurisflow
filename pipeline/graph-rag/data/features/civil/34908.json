@@ -1,0 +1,153 @@
+{
+  "ruling_id": "34908",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تقسیم ترکه",
+      "evidence": {
+        "quote": "در تقسیم ترکه طی دادنامه شماره 9000599 - 90/08/30",
+        "start_char": 59,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی و اعمال ماده 18 اصلاحی را نموده است",
+        "start_char": 898,
+        "end_char": 954,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "به عنوان معترض ثالث نسبت به دادنامه صدرالاشاره اعتراض نموده",
+        "start_char": 1019,
+        "end_char": 1078,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "خودسرانه اقدام به فروش مقداری از ماترک نموده است",
+        "start_char": 411,
+        "end_char": 459,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظر خواهی دادنامه تجدیدنظر خواسته را تأیید و قطعی اعلام نموده است",
+        "start_char": 650,
+        "end_char": 727,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه مزبور و رأی مورد تأیید آن صرفا در خصوص تعیین سهم الارث همسر متوفی از عین اموال غیرمنقول نقض",
+        "start_char": 3735,
+        "end_char": 3834,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "به عنوان معترض ثالث نسبت به دادنامه صدرالاشاره اعتراض نموده",
+        "start_char": 1019,
+        "end_char": 1078,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهانهای",
+      "evidence": {
+        "quote": "وکیل خواهانهای بدوی ( س. خ. و م. ن. )",
+        "start_char": 1389,
+        "end_char": 1426,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متوفی",
+      "evidence": {
+        "quote": "متوفی دارای فرزندانی بوده و آنها آمادگی به پرداخت قیمت اعیانی را داشته اند",
+        "start_char": 3573,
+        "end_char": 3647,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ماترک",
+      "evidence": {
+        "quote": "از زمان فوت مورث کلیه اموال و ماترک را در تصرف خود داشته",
+        "start_char": 316,
+        "end_char": 372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "زمین 61 تفکیکی (پلاک...بخش 6 واقع در حاجی آباد)",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "سهم الارث همسر متوفی را از عین اموال غیرمنقول تعیین کرده است",
+        "start_char": 3502,
+        "end_char": 3562,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مورث در تصرف اموال بوده و بخشی از ماترک را فروخته است",
+      "evidence": {
+        "quote": "از زمان فوت مورث کلیه اموال و ماترک را در تصرف خود داشته و از منافع آنها استفاده می کرده و حتی خودسرانه اقدام به فروش مقداری از ماترک نموده است",
+        "start_char": 316,
+        "end_char": 459,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سهم همسر متوفی به صورت عین تعیین شده است",
+      "evidence": {
+        "quote": "سهم الارث همسر متوفی را از عین اموال غیرمنقول تعیین کرده است",
+        "start_char": 3502,
+        "end_char": 3562,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

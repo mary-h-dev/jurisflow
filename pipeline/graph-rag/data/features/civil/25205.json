@@ -1,0 +1,133 @@
+{
+  "ruling_id": "25205",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حجر",
+      "evidence": {
+        "quote": "در خصوص صدور حکم حجر نامبرده",
+        "start_char": 493,
+        "end_char": 521,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جنون",
+      "evidence": {
+        "quote": "مبنی بر اینکه در تاریخ 82/5/1 از آقای ی. ب.ن. در بیمارستان 506 ارتش معاینه بعمل آمده و سوابقی از ابتلاء به جنون حداقل از سال 1379 دارد",
+        "start_char": 274,
+        "end_char": 408,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جنون ادواری",
+      "evidence": {
+        "quote": "نامبرده مبتلا به جنون ادواری است",
+        "start_char": 3217,
+        "end_char": 3249,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "بموجب دادنامه شماره 994-90/9/29 صادره از شعبه 45 دادگاه عمومی تهران ، در خصوص دادخواست آقای ی. ب.ن.... تقاضای صدور حکم حجر را نموده و دادگاه نیز طی دادنامه 1303-82/12/10 حکم حجر مشارالیه را صادر",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "دادنامه فوق الذکر مورد تجدیدنظر خواهی آقای ی. ب.ن. واقع شده",
+        "start_char": 3569,
+        "end_char": 3628,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه فرجام خواسته موصوف",
+        "start_char": 25714,
+        "end_char": 25748,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "قیم",
+      "evidence": {
+        "quote": "پدر وی را بسمت قیم منصوب مینماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "در مورد اموال غیرمنقول و اموال منقول محجور را از خود وی پرسش نمائید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بانکی",
+      "evidence": {
+        "quote": "نحوه اداره اموال از گذشته تاکنون (منزل - حسابهای بانکی - حقوق ماهیانه) را پرسش نمائید",
+        "start_char": 18858,
+        "end_char": 18943,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ابتلای شخص به جنون از سال 1379",
+      "evidence": {
+        "quote": "سوابقی از ابتلاء به جنون حداقل از سال 1379 دارد",
+        "start_char": 361,
+        "end_char": 408,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم توانایی فرد در اداره امور خود",
+      "evidence": {
+        "quote": "و قادر به اداره امور خود نیست",
+        "start_char": 441,
+        "end_char": 470,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "صدور حکم حجر به صورت غیابی",
+      "evidence": {
+        "quote": "بموجب دادنامه شماره 1303-82/12/10 صادره از آن شعبه حکم حجر نامبرده بصورت غیابی (بدون حضور بیمار) صادر و قطعیت یافته",
+        "start_char": 4548,
+        "end_char": 4663,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

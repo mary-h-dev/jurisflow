@@ -1,0 +1,163 @@
+{
+  "ruling_id": "7969",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "وکالت",
+      "evidence": {
+        "quote": "ایام وکالت",
+        "start_char": 225,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معامله",
+      "evidence": {
+        "quote": "ثمن معامله",
+        "start_char": 245,
+        "end_char": 255,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "ارائه صورتحساب",
+        "start_char": 210,
+        "end_char": 224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت ثمن معامله",
+        "start_char": 238,
+        "end_char": 255,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ردّ تجدیدنظرخواهی",
+        "start_char": 2690,
+        "end_char": 2707,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 421,
+        "end_char": 432,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان",
+        "start_char": 192,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ع.الف.",
+        "start_char": 1975,
+        "end_char": 2000,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظر خوانده",
+        "start_char": 2300,
+        "end_char": 2321,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی 663 فرعی از 1639 اصلی",
+        "start_char": 264,
+        "end_char": 295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دفتر اسناد رسمی",
+      "evidence": {
+        "quote": "وکالت نامه رسمی شماره 3471 مورخ 7/8/90 دفتر اسناد رسمی شماره... تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه عادی",
+      "evidence": {
+        "quote": "توافق نامه عادی مورخ 4/8/90",
+        "start_char": 587,
+        "end_char": 614,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "مبایعه نامه عادی",
+        "start_char": 781,
+        "end_char": 797,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فروش آپارتمان مورد وکالت انجام شده است",
+      "evidence": {
+        "quote": "دلالت بر فروش مورد وکالت به مبلغ 000/000/404 ریال دارد",
+        "start_char": 827,
+        "end_char": 881,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواندگان نسبت به طلبکار بودن از همسر خواهان تعهداتی داشته‌اند",
+      "evidence": {
+        "quote": "با توجه به طلبکار بودن خواندگان از همسر خواهان و تعهداتی که خواهان در جهت تأدیه دیون همسرش متعاقب توافق نامه عادی داشته",
+        "start_char": 1106,
+        "end_char": 1225,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

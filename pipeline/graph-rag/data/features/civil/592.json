@@ -1,0 +1,153 @@
+{
+  "ruling_id": "592",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "ظاهر عدم تبرع است",
+        "start_char": 1395,
+        "end_char": 1412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 250,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 4015,
+        "end_char": 4033,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "مبلغ سیصد میلیون ریال به حساب خوانده آقای س.غ. واریز نمودند",
+        "start_char": 118,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "خوانده از باز پرداخت آن استنکاف می نمایند",
+        "start_char": 189,
+        "end_char": 230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "خواهان می تواند مبالغ واریزی را مطالبه کند",
+        "start_char": 3303,
+        "end_char": 3345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوای",
+      "evidence": {
+        "quote": "درخواست رد دعوای ایشان را نمودند",
+        "start_char": 648,
+        "end_char": 680,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به حساب خوانده آقای س.غ. واریز نمودند",
+        "start_char": 140,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از خواهان (به نحو مذکور در دادخواست)",
+        "start_char": 562,
+        "end_char": 598,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادگستری",
+      "evidence": {
+        "quote": "خانم الف.ر. وکیل دادگستری",
+        "start_char": 0,
+        "end_char": 25,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ سیصد میلیون ریال",
+        "start_char": 118,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مدارک",
+      "evidence": {
+        "quote": "به موجب قبوض و مدارک پیوست",
+        "start_char": 90,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واریز شدن مبلغ خواسته به حساب خوانده",
+      "evidence": {
+        "quote": "خوانده به شرح لایحه تقدیمی واریز شدن مبلغ خواسته به حساب خود را انکار ننمودند",
+        "start_char": 1628,
+        "end_char": 1705,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کاهش مبلغ خواسته توسط وکیل خواهان",
+      "evidence": {
+        "quote": "مبلغ خواسته را به دویست و هشتاد و سه میلیون و یکصد هزار ریال کاهش دادند",
+        "start_char": 1954,
+        "end_char": 2025,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

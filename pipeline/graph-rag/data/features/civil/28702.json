@@ -1,0 +1,163 @@
+{
+  "ruling_id": "28702",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل سالهای زندگی مشترک",
+        "start_char": 66,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "قصد تبرع نداشتن",
+        "start_char": 429,
+        "end_char": 444,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "احراز",
+      "evidence": {
+        "quote": "با قید اصل احراز",
+        "start_char": 1976,
+        "end_char": 1992,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصل عدم",
+      "evidence": {
+        "quote": "امر عدمی قابل اثبات نیست",
+        "start_char": 3127,
+        "end_char": 3151,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل سالهای زندگی مشترک",
+        "start_char": 66,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "در زمان اقدام به اثبات نرسانده",
+        "start_char": 461,
+        "end_char": 491,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه بدوی",
+        "start_char": 4260,
+        "end_char": 4279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "زوج را الزام به پرداخت مبلغ بیست میلیون تومان",
+        "start_char": 4416,
+        "end_char": 4461,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "ماحصل ادعای زوجه",
+        "start_char": 162,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "برای شوهر در امور زندگی مشترک",
+        "start_char": 199,
+        "end_char": 228,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حقوق هریک از زوجین ندارد",
+        "start_char": 3272,
+        "end_char": 3296,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده می گوید",
+        "start_char": 241,
+        "end_char": 255,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "پرداخت مبلغ بیست میلیون تومان",
+        "start_char": 4432,
+        "end_char": 4461,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انجام کارهای منزل توسط زوجه به دستور شوهر بوده است",
+      "evidence": {
+        "quote": "انجام کارهای منزل به دستور و امر شوهر بوده است",
+        "start_char": 4198,
+        "end_char": 4244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم مطالبه در زمان زندگی مشترک به دلیل شرایط خاص بوده است",
+      "evidence": {
+        "quote": "عدم اقدام به دلیل شرایط خاص زندگی زناشویی و عدم توان پرداخت از سوی زوج در آن زمان صورت نگرفته است",
+        "start_char": 3610,
+        "end_char": 3707,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "ruling_id": "36574",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "مبادرت بصدور قرار عدم صلاحیت نموده است",
+        "start_char": 91,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جرم",
+      "evidence": {
+        "quote": "یا دارای مجازات مستقلی باشند در دادگاهی صورت می پذیرد",
+        "start_char": 1868,
+        "end_char": 1921,
+        "confidence": 0.75
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "قرار عدم",
+      "evidence": {
+        "quote": "مبادرت بصدور قرار عدم صلاحیت نموده است",
+        "start_char": 91,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "با اعلام صلاحیت شعبه... حل اختلاف می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "پرونده جهت حل اختلاف به محاکم محترم تجدید نظر... ارسال میگردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "اصلی",
+      "evidence": {
+        "quote": "متهم اصلی همان مرتشی است",
+        "start_char": 1735,
+        "end_char": 1759,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "رییس اداره صنعت و معدن...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "کارت",
+      "evidence": {
+        "quote": "دو عدد کارت هدیه ده میلیون ریالی",
+        "start_char": 232,
+        "end_char": 264,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ارتکاب جرم رشوه توسط متهمان",
+      "evidence": {
+        "quote": "در پرونده اتهامی رشوه دارای دو طرف ر. و مرتشی بوده",
+        "start_char": 3190,
+        "end_char": 3240,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اختلاف در صلاحیت بین شعب",
+      "evidence": {
+        "quote": "در خصوص اختلاف بین شعبه... و شعبه...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

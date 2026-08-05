@@ -1,0 +1,143 @@
+{
+  "ruling_id": "38404",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نظم عمومی",
+      "evidence": {
+        "quote": "نظم عمومی",
+        "start_char": 1048,
+        "end_char": 1057,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی",
+        "start_char": 7,
+        "end_char": 20,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "ضمن نقض رای تجدیدنظرخواسته",
+        "start_char": 464,
+        "end_char": 490,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم",
+        "start_char": 701,
+        "end_char": 709,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "صدور شناسنامه جدید",
+        "start_char": 2229,
+        "end_char": 2247,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 7,
+        "end_char": 19,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "دادستان محترم",
+        "start_char": 889,
+        "end_char": 902,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متخصص",
+      "evidence": {
+        "quote": "متخصص",
+        "start_char": 998,
+        "end_char": 1003,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره *",
+        "start_char": 81,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی پزشکی",
+      "evidence": {
+        "quote": "گواهی پزشکی قانونی",
+        "start_char": 241,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "شناسنامه",
+        "start_char": 2234,
+        "end_char": 2242,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه دارای شرایط کامل برای تغییر جنسیت است",
+      "evidence": {
+        "quote": "تجدید نظر خواه که تمام شرایط جنس مونث را داشته و از کودکی دارای رفتاردخترا نه می باشد",
+        "start_char": 528,
+        "end_char": 613,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پزشکی قانونی با انجام عمل جراحی تغییر جنسیت موافق است",
+      "evidence": {
+        "quote": "با انجام عمل جراحی تغیر جنسیت وی بلامانع است",
+        "start_char": 811,
+        "end_char": 855,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

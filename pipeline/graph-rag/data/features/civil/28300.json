@@ -1,0 +1,193 @@
+{
+  "ruling_id": "28300",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفی نسب",
+      "evidence": {
+        "quote": "به خواسته نفی نسب فرزندی",
+        "start_char": 120,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفی ولد",
+      "evidence": {
+        "quote": "مدعی نفی ولد و نفی نسب",
+        "start_char": 1749,
+        "end_char": 1771,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "اقراربه نسب",
+        "start_char": 2030,
+        "end_char": 2041,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 2211,
+        "end_char": 2235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد دعوا صادر می‌گردد",
+        "start_char": 4119,
+        "end_char": 4144,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "دعوا",
+      "evidence": {
+        "quote": "طرح دعوی",
+        "start_char": 641,
+        "end_char": 649,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض",
+        "start_char": 2291,
+        "end_char": 2302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظر خواهی",
+        "start_char": 2415,
+        "end_char": 2437,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خانم ر. ک.",
+        "start_char": 7,
+        "end_char": 22,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم س.ف. ط.م.",
+        "start_char": 53,
+        "end_char": 76,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "متوفی",
+      "evidence": {
+        "quote": "متوفی س.ع. ط.م.",
+        "start_char": 164,
+        "end_char": 179,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ورثه",
+      "evidence": {
+        "quote": "کلیه ورثه",
+        "start_char": 631,
+        "end_char": 640,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "گواهی انحصار وراثت شماره.....",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "براساس اطلاعات شناسنامه ای",
+        "start_char": 311,
+        "end_char": 337,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "شناسنامه سند رسمی تلقی می شود",
+        "start_char": 1297,
+        "end_char": 1326,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ردیف اول در شناسنامه به عنوان فرزند متوفی ثبت شده است",
+      "evidence": {
+        "quote": "خوانده ردیف اول به عنوان فرزند متوفی و خوانده ردیف دوم معرفی شده است",
+        "start_char": 1219,
+        "end_char": 1287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ردیف اول و دوم در سند رسمی از ورثه متوفی محسوب شده‌اند",
+      "evidence": {
+        "quote": "خوانده ردیف اول و دوم راجزء ورثه مرحوم شادروان س.ع. ط.م. ی داشتند",
+        "start_char": 906,
+        "end_char": 971,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متوفی در زمان حیات ادعای نفی نسب نکرده است",
+      "evidence": {
+        "quote": "متوفی درزمان حیات و خوانده ردیف دوم ازسال 1364 تاکنون مدعی نفی ولد و نفی نسب از خوانده ردیف اول نشدند",
+        "start_char": 1695,
+        "end_char": 1796,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

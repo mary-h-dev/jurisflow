@@ -1,0 +1,183 @@
+{
+  "ruling_id": "26655",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی",
+        "start_char": 129,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "دعوی اعتراض ثالث",
+        "start_char": 512,
+        "end_char": 528,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی است",
+        "start_char": 1888,
+        "end_char": 1910,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "طرح دعوی نموده",
+        "start_char": 166,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "حکم به ورشکستگی صادر",
+        "start_char": 242,
+        "end_char": 262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "دعوی اعتراض ثالث را طرح نموده",
+        "start_char": 512,
+        "end_char": 541,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض انها",
+        "start_char": 3124,
+        "end_char": 3136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عودت",
+      "evidence": {
+        "quote": "مراتب را جهت ادامه رسیدگی ماهوی به دادگاه بدوی عودت میدهد",
+        "start_char": 3137,
+        "end_char": 3194,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "مدیر",
+      "evidence": {
+        "quote": "از سوی این اداره و مدیر تصفیه صورت می گیرد",
+        "start_char": 1181,
+        "end_char": 1223,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "معترض ثالث نیز بعنوان غرما",
+        "start_char": 1515,
+        "end_char": 1541,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه نسبت به دادنامه",
+        "start_char": 2201,
+        "end_char": 2229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده ردیف اول",
+        "start_char": 2278,
+        "end_char": 2301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "به طرفیت دادستان عمومی و انقلاب تهران",
+        "start_char": 81,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "برابر دادنامه شماره 9300231",
+        "start_char": 214,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "صدور حکم ورشکستگی شرکت ا. به شماره ثبت........",
+      "evidence": {
+        "quote": "حکم به ورشکستگی صادر",
+        "start_char": 242,
+        "end_char": 262,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اعتراض ثالث بانک..... در خارج از مهلت انجام شده است",
+      "evidence": {
+        "quote": "اعتراض معترض ثالث در این پرونده با وصف مطالب پیش گفته شده خارج از مهلت است",
+        "start_char": 1722,
+        "end_char": 1796,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم حضور طلبکاران در دعوی ورشکستگی",
+      "evidence": {
+        "quote": "مدعی ورشکستگی باید علاوه بر دادستان طلبکاران را نیز طرف دعوی قرار دهد",
+        "start_char": 2700,
+        "end_char": 2769,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

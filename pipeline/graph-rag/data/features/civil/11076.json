@@ -1,0 +1,213 @@
+{
+  "ruling_id": "11076",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "به خواسته تسلیم مبیع",
+        "start_char": 44,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "همان خلع ید است",
+        "start_char": 448,
+        "end_char": 463,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "فرع به اثبات مالکیت می‌باشد",
+        "start_char": 467,
+        "end_char": 494,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "قراردادی لازم",
+        "start_char": 1555,
+        "end_char": 1568,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "مجرد انعقاد قرارداد و عقد بیع",
+        "start_char": 1927,
+        "end_char": 1956,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالباتی که از اصل آزادی اراده قبول نموده‌اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.7
+      }
+    },
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "دلیلی بر فسخ",
+        "start_char": 1473,
+        "end_char": 1485,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقاله",
+      "evidence": {
+        "quote": "یا اقاله",
+        "start_char": 1486,
+        "end_char": 1494,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مستلزم نقض است",
+        "start_char": 1349,
+        "end_char": 1363,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "ملزم به تحویل مبیع می‌نماید",
+        "start_char": 1974,
+        "end_char": 2001,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از سوی خواهان دعوی",
+        "start_char": 265,
+        "end_char": 283,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "سند رسمی به نام خوانده می‌باشد",
+        "start_char": 385,
+        "end_char": 415,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده را ملزم به تحویل مبیع می‌نماید",
+        "start_char": 1963,
+        "end_char": 2001,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "خریدار می تواند با طرح دعوی",
+        "start_char": 2280,
+        "end_char": 2307,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتمان شماره... فرعی از... اصلی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "تسلیم مبیع",
+        "start_char": 54,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه‌نامه شماره 5460729- 1391/10/18",
+        "start_char": 1157,
+        "end_char": 1194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی به نام خوانده می‌باشد",
+        "start_char": 385,
+        "end_char": 415,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ثمن معامله پرداخت شده است",
+      "evidence": {
+        "quote": "پرداخت مبلغ قابل توجهی ثمن آن است",
+        "start_char": 1780,
+        "end_char": 1813,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبیع تحویل داده نشده است",
+      "evidence": {
+        "quote": "عدم ایفای تعهد مبنی بر تحویل مبیع به نحو کامل",
+        "start_char": 2233,
+        "end_char": 2278,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

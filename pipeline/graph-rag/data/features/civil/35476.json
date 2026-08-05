@@ -1,0 +1,163 @@
+{
+  "ruling_id": "35476",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "استصحاب بقاء",
+      "evidence": {
+        "quote": "استصحاب بقاء دین بر ذمهء مشارالیه",
+        "start_char": 497,
+        "end_char": 530,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "خسارات تأخیر تأدیه",
+        "start_char": 116,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبـــه مبلــــغ یک میلیارد و هشتصد میلیون ریال",
+        "start_char": 56,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد ادعای واخواه",
+        "start_char": 1556,
+        "end_char": 1575,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تایید و ابرام",
+      "evidence": {
+        "quote": "دادنامه واخواسته عینا\" تائید و ابرام می گردد",
+        "start_char": 1578,
+        "end_char": 1622,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 2861,
+        "end_char": 2881,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان خانم ط. ش.ز.",
+        "start_char": 0,
+        "end_char": 32,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت.آقای س.الف. ع.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "در خصوص واخواهی آقای س.الف. ه.",
+        "start_char": 1051,
+        "end_char": 1081,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه به پرداخت",
+        "start_char": 2002,
+        "end_char": 2032,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "تصویر مصدق 3 فقره چک",
+        "start_char": 145,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی عدم",
+      "evidence": {
+        "quote": "گواهی عدم پرداخت صادره از بانک محال",
+        "start_char": 276,
+        "end_char": 311,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اصل مستندات در ید دارنده است",
+      "evidence": {
+        "quote": "ملاحظه اصول مستندات در ید دارنده( خواهان)",
+        "start_char": 347,
+        "end_char": 388,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ارائه ایراد و دفاعی از ناحیه خوانده صورت نگرفته است",
+      "evidence": {
+        "quote": "عدم ارائه هرگونه ایراد و دفاعی از ناحیه خوانده",
+        "start_char": 401,
+        "end_char": 447,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ارائه رسیدهایی که دلالتی بر پرداخت وجه چک ندارد",
+      "evidence": {
+        "quote": "رسیدهای مورد استناد واخواه دلالتی بر پرداخت وجه چکهای مورد ادعای واخوانده نمی نماید",
+        "start_char": 1311,
+        "end_char": 1394,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

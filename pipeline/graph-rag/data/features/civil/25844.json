@@ -1,0 +1,193 @@
+{
+  "ruling_id": "25844",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت",
+      "evidence": {
+        "quote": "بابت تتمه اجرت المسمی",
+        "start_char": 124,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 182,
+        "end_char": 199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با تجدیدنظرخواهی از آن",
+        "start_char": 916,
+        "end_char": 937,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انقضاء",
+      "evidence": {
+        "quote": "با انقضاء مدت اجاره",
+        "start_char": 1451,
+        "end_char": 1470,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مبلغ چهارصدو سی و شش میلیون ریال",
+        "start_char": 84,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "مبادرت به صدور حکم",
+        "start_char": 726,
+        "end_char": 744,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض این قسمت از رای بدوی",
+        "start_char": 990,
+        "end_char": 1017,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را اعاده نموده است",
+        "start_char": 1080,
+        "end_char": 1105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد تجدیدنظر",
+      "evidence": {
+        "quote": "با رد تجدیدنظر خواهی دادنامه تجدیدنظر خواسته تائید می شود",
+        "start_char": 3145,
+        "end_char": 3202,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در این پرونده خواهان آقای ح. ذوق",
+        "start_char": 0,
+        "end_char": 32,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای ع. ف.",
+        "start_char": 327,
+        "end_char": 353,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "موجر مستحق دریافت اجرت المسمی بوده است",
+        "start_char": 1311,
+        "end_char": 1349,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "مستاجر در صورتی باید اجرت المثل بدهد",
+        "start_char": 1553,
+        "end_char": 1589,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک",
+      "evidence": {
+        "quote": "پلاک های ثبتی 47600 4476 و 47599 4476 و 47611 4476",
+        "start_char": 451,
+        "end_char": 501,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "قرارداد اجاره ای بین خواهان و خوانده منعقد گردیده است",
+        "start_char": 565,
+        "end_char": 618,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "با دادنامه شماره 930928",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت مشاع بین خواهان و خوانده در پلاک‌های مذکور",
+      "evidence": {
+        "quote": "خواهان و خوانده در پلاک های مذکور به نحو مشاع بالمناصفه مالک بوده اند",
+        "start_char": 1167,
+        "end_char": 1236,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تصرف مستاجر در بازه زمانی مشخص",
+      "evidence": {
+        "quote": "از تاریخ 1387/5/21 لغایت 1388/10/30 مستاجر ( خوانده) هیچ تصرفی در مال مشاع نداشته است",
+        "start_char": 1831,
+        "end_char": 1916,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

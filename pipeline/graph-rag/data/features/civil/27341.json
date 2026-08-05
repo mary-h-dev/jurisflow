@@ -1,0 +1,203 @@
+{
+  "ruling_id": "27341",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "صدور حکم طلاق بلحاظ عسر و حرج",
+        "start_char": 151,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ازدواج",
+      "evidence": {
+        "quote": "بلحاظ تخلف وی از شرط ازدواج",
+        "start_char": 416,
+        "end_char": 443,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان قرارداد",
+      "evidence": {
+        "quote": "تخلف زوج از شرط ازدواج مبنی بر عقیم بودن زوج محرز است",
+        "start_char": 2358,
+        "end_char": 2411,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "دادخواستی خواسته صدور حکم طلاق",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "تقدیم و توضیح میدهد",
+        "start_char": 237,
+        "end_char": 256,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "استعفا",
+      "evidence": {
+        "quote": "استعفاء می کند",
+        "start_char": 1476,
+        "end_char": 1490,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "نسبت به آن تجدیدنظرخواهی می کند",
+        "start_char": 2696,
+        "end_char": 2727,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده اعاده می گردد",
+        "start_char": 3563,
+        "end_char": 3583,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "طرفیت آقای م. خ. تقدیم و توضیح میدهد باستند سند ازدواج همسر دائمی خوانده هستم",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "وکیل زوج معرفی می کند",
+        "start_char": 706,
+        "end_char": 727,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "وکیل زوجه معرفی می کند",
+        "start_char": 624,
+        "end_char": 646,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "آقای ق. الف. داور زوج",
+        "start_char": 2099,
+        "end_char": 2120,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "باستند تصاویر مصدق سند ازدواج",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "و شناسنامه",
+        "start_char": 122,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "با تقدیم وکالتنامه خود",
+        "start_char": 598,
+        "end_char": 620,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "طی رأی شماره 569",
+        "start_char": 2256,
+        "end_char": 2272,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم باروری در طول ۵ سال زندگی مشترک",
+      "evidence": {
+        "quote": "پس از گذشتن 5 سال از زندگی مشترک بچه دار نشدم",
+        "start_char": 338,
+        "end_char": 383,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ضعف نطفه و کاهش تعداد اسپرم زوج",
+      "evidence": {
+        "quote": "دچار نطفه ضعیف ناشی از کاهش حرکت و تعداد اسپرم",
+        "start_char": 1244,
+        "end_char": 1290,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "احتمال باروری زوج به روش‌های مصنوعی وجود دارد",
+      "evidence": {
+        "quote": "احتمال باروری به روش های ART (مصنوعی) وجود دارد",
+        "start_char": 1594,
+        "end_char": 1641,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

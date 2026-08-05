@@ -1,0 +1,123 @@
+{
+  "ruling_id": "29360",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مدنی",
+      "evidence": {
+        "quote": "حق درخواست تغییرنام ازحقوق مدنی است",
+        "start_char": 325,
+        "end_char": 360,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اهلیت",
+      "evidence": {
+        "quote": "خواهان اهلیت اعمال این حق را دارا می باشد",
+        "start_char": 513,
+        "end_char": 554,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "به خواسته تغییر نام از س. به مینو",
+        "start_char": 74,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی اداره ثبت احوال منطقه مرکزی",
+        "start_char": 885,
+        "end_char": 927,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان س. ج.",
+        "start_char": 0,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده اداره ثبت احوال شهرستان تهران",
+        "start_char": 30,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از دادرسی",
+        "start_char": 1305,
+        "end_char": 1340,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "در سند سجلی شماره ***",
+        "start_char": 108,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان درخواست تغییر نام از س. به مینو را دارد",
+      "evidence": {
+        "quote": "به خواسته تغییر نام از س. به مینو",
+        "start_char": 74,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه حکم به تغییر نام صادر کرده است",
+      "evidence": {
+        "quote": "حکم به الزام اداره خوانده به تغییر نام از س. به مینو",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اداره ثبت احوال درخواست تجدیدنظر کرده است",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی اداره ثبت احوال منطقه مرکزی",
+        "start_char": 885,
+        "end_char": 927,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "ruling_id": "4312",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "صدور حکم بر ابطال شناسنامه",
+        "start_char": 79,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصالت",
+      "evidence": {
+        "quote": "خدشه ای به اصالت سند سجلی صادره وارد نیست",
+        "start_char": 1979,
+        "end_char": 2020,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم بر ابطال شناسنامه",
+        "start_char": 79,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی اصلی صادر می گردد",
+        "start_char": 2088,
+        "end_char": 2118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترض عنه نقض",
+        "start_char": 2064,
+        "end_char": 2085,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان در شرح خواسته مدعی گردیده",
+        "start_char": 157,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "اداره ثبت احوال خوانده",
+        "start_char": 660,
+        "end_char": 682,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "دلیل استنادی تجدیدنظرخوانده",
+        "start_char": 1495,
+        "end_char": 1522,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره ثبت احوال الف.",
+        "start_char": 1143,
+        "end_char": 1177,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "ابطال شناسنامه شماره 296",
+        "start_char": 866,
+        "end_char": 890,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "با توجه به صدور سند رسمی",
+        "start_char": 1920,
+        "end_char": 1944,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "استفاده از شناسنامه برادر متوفی برای خواهان",
+      "evidence": {
+        "quote": "خانواده موکل شناسنامه فرزند متوفی را برای خواهان اختصاص داده",
+        "start_char": 297,
+        "end_char": 357,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مخدوش بودن عکس ملصق به کپی شناسنامه",
+      "evidence": {
+        "quote": "عکس ملصق به کپی شناسنامه پیوستی مخدوش است",
+        "start_char": 1658,
+        "end_char": 1699,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

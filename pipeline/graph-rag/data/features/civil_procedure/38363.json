@@ -1,0 +1,173 @@
+{
+  "ruling_id": "38363",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "الزام",
+      "evidence": {
+        "quote": "وجه التزام قراردادی را محاسبه و تعیین نمودند",
+        "start_char": 696,
+        "end_char": 740,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تاخیر",
+      "evidence": {
+        "quote": "خسارت تاخیر در پرداخت را سالیانه 30٪ اصل سرمایه",
+        "start_char": 572,
+        "end_char": 619,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انجام تعهد",
+      "evidence": {
+        "quote": "خسارت تاخیر در انجام تعهد را در قالب ماده 230 قانون مدنی تعیین نمودند",
+        "start_char": 1521,
+        "end_char": 1590,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت از خسارت قانونی نمی باشد",
+        "start_char": 1681,
+        "end_char": 1718,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدید نظر خواهی اقای ع. ا. ح.",
+        "start_char": 0,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت مبلغ 100/000/000 ریال",
+        "start_char": 196,
+        "end_char": 227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارت از خسارت قانونی نمی باشد",
+        "start_char": 1681,
+        "end_char": 1718,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را نقض",
+        "start_char": 1776,
+        "end_char": 1806,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را تایید می نماید",
+        "start_char": 1330,
+        "end_char": 1370,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به پرداخت مبلغ",
+        "start_char": 183,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوای خواهان بدوی",
+        "start_char": 1825,
+        "end_char": 1842,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره14002468",
+        "start_char": 78,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت",
+      "evidence": {
+        "quote": "از جمله قرارداد مشارکت فیمابین طرفین",
+        "start_char": 468,
+        "end_char": 504,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اصل 40",
+      "evidence": {
+        "quote": "30٪ اصل سرمایه",
+        "start_char": 605,
+        "end_char": 619,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین در قرارداد خسارت تاخیر را تعیین کرده‌اند",
+      "evidence": {
+        "quote": "طرفین برای تاخیر در پرداخت اصل وجه با توافق هم خسارت تاخیر در انجام تعهد را در قالب ماده 230 قانون مدنی تعیین نمودند",
+        "start_char": 1474,
+        "end_char": 1590,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه در مرحله رسیدگی اعتراض موثری ارائه نداده است",
+      "evidence": {
+        "quote": "در این مرحله از رسیدگی از سوی تجدیدنظرخواه ایراد و اعتراض موثر و مدللی که موجبات گسیختن دادنامه تجدیدنظرخواسته را فراهم نماید. اقامه نگردیده است",
+        "start_char": 901,
+        "end_char": 1045,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

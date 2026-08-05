@@ -1,0 +1,163 @@
+{
+  "ruling_id": "36053",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته های 1- استرداد سند",
+        "start_char": 443,
+        "end_char": 471,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "به انضمام خسارات دادرسی",
+        "start_char": 701,
+        "end_char": 724,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت به صلاحیت و شایستگی محاکم محترم حقوقی",
+        "start_char": 3293,
+        "end_char": 3346,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "منعقد",
+      "evidence": {
+        "quote": "که با شرکت ازادراه قزوین –زنجان منعقد نموده",
+        "start_char": 829,
+        "end_char": 872,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "با وجود مطالبه از استرداد تضمینات سپرده شده استنکاف می ورزد",
+        "start_char": 1200,
+        "end_char": 1259,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "اقدام به صدور یک فقره ضمانت نامه",
+        "start_char": 1972,
+        "end_char": 2004,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی اقای ص. ا. ا. فرزند ز. اله با وکالت خانم س. ب. فرزند ک. به طرفیت",
+        "start_char": 147,
+        "end_char": 224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده اخیرالذکر حسب اظهارات وکیل خواهان",
+        "start_char": 265,
+        "end_char": 305,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ذی‌نفع",
+      "evidence": {
+        "quote": "بنا به درخواست ذینفع به نام شرکت ازادراه زنجان –قزوین",
+        "start_char": 1918,
+        "end_char": 1971,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ضمانت‌نامه",
+      "evidence": {
+        "quote": "استرداد سند ( یک فقره ضمانت نامه بانکی به شماره 6000062545002",
+        "start_char": 460,
+        "end_char": 521,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "استرداد لاشه چک به شماره سریال *",
+        "start_char": 563,
+        "end_char": 595,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "خواهان به موجب قرارداد شماره 765 مورخه 1386/6/25",
+        "start_char": 780,
+        "end_char": 828,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "قرارداد با شرکت ازادراه منعقد شده است",
+      "evidence": {
+        "quote": "خواهان به موجب قرارداد شماره 765 مورخه 1386/6/25 که با شرکت ازادراه قزوین –زنجان منعقد نموده",
+        "start_char": 780,
+        "end_char": 872,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تعهدات از جانب موکل انجام شده است",
+      "evidence": {
+        "quote": "و انجام کلیه تعهدات از جانب موکل",
+        "start_char": 1133,
+        "end_char": 1165,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرکت از استرداد تضمینات امتناع کرده است",
+      "evidence": {
+        "quote": "با وجود مطالبه از استرداد تضمینات سپرده شده استنکاف می ورزد",
+        "start_char": 1200,
+        "end_char": 1259,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

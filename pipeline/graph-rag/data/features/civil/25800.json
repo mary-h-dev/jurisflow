@@ -1,0 +1,183 @@
+{
+  "ruling_id": "25800",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته حکم به فسخ نکاح",
+        "start_char": 110,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جنون",
+      "evidence": {
+        "quote": "گویای وجود جنون در وی می‌باشد",
+        "start_char": 415,
+        "end_char": 444,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حجر",
+      "evidence": {
+        "quote": "منشاء حجر، جنون باشد یا سفه",
+        "start_char": 754,
+        "end_char": 781,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "به لحاظ عدم رعایت حق خیار (فوریت)",
+        "start_char": 2223,
+        "end_char": 2256,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر",
+        "start_char": 1606,
+        "end_char": 1635,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ نکاح",
+      "evidence": {
+        "quote": "به خواسته حکم به فسخ نکاح",
+        "start_char": 110,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ب. ش. با وکالت ح.الف. الف.",
+        "start_char": 1809,
+        "end_char": 1849,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "دادنامه مورد اعتراض",
+        "start_char": 2749,
+        "end_char": 2768,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان در شرح خواسته بیان داشته است",
+        "start_char": 153,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده محترم قبل از سن 15 سالگی",
+        "start_char": 322,
+        "end_char": 353,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "جنون مرد چه مستمر چه ادواری",
+        "start_char": 481,
+        "end_char": 508,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 2663 مورخ 1393/11/23 در پرونده کلاسه 1666 صادره از شعبه دوم دادگاه عمومی حقوقی تهران که به موجب آن حکم به بطلان دعوی تجدیدنظرخواه به خواسته فسخ نکاح صادر گردید",
+        "start_char": 1882,
+        "end_char": 2063,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "طرفین به موجب عقدنامه 712236 مورخه 1388/8/28 تنظیمی در دفترخانه اسلامشهر به نکاح دائم هم درآمده‌اند",
+        "start_char": 194,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 2663 مورخ 1393/11/23",
+        "start_char": 1882,
+        "end_char": 1924,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده پیش از سن ۱۵ سالگی محجور شناخته شده است",
+      "evidence": {
+        "quote": "خوانده محترم قبل از سن 15 سالگی و پیش از احراز رشد در تاریخ 1372/8/14محجور شناخته شده‌اند",
+        "start_char": 322,
+        "end_char": 411,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین حدود ۴ تا ۵ سال با هم زندگی کرده‌اند",
+      "evidence": {
+        "quote": "مدتی حدود 4-5 سال زندگی نموده",
+        "start_char": 2077,
+        "end_char": 2106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خانواده زوجه از محجور بودن زوج اطلاع داشته‌اند",
+      "evidence": {
+        "quote": "قبل از عقد زوجه و خانواده اش از محجور بودن زوج و اینکه ایشان دارای قیم می‌باشد به لحاظ حجر اطلاع داشته‌اند",
+        "start_char": 1027,
+        "end_char": 1133,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

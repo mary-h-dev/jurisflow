@@ -1,0 +1,103 @@
+{
+  "ruling_id": "25197",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "کاربری",
+      "evidence": {
+        "quote": "تغییر کاربری اراضی زراعی",
+        "start_char": 111,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جزای نقدی",
+      "evidence": {
+        "quote": "میزان جزای نقدی مقرر",
+        "start_char": 249,
+        "end_char": 269,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 370,
+        "end_char": 385,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "قرار عدم",
+      "evidence": {
+        "quote": "صدور قرار عدم صلاحیت",
+        "start_char": 522,
+        "end_char": 542,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حل اختلاف",
+      "evidence": {
+        "quote": "جهت حل اختلاف",
+        "start_char": 574,
+        "end_char": 587,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "مدیریت",
+      "evidence": {
+        "quote": "موضوع شکایت مدیریت جهاد کشاورزی شهرستان پ.",
+        "start_char": 157,
+        "end_char": 199,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اراضی",
+      "evidence": {
+        "quote": "تغییر کاربری اراضی زراعی",
+        "start_char": 111,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلاف در صلاحیت بین دو شعبه دادگاه",
+      "evidence": {
+        "quote": "اختلاف حاصله بین شعبه 101 دادگاه کیفری دو شهرستان پ. و شعبه سوم دادگاه کیفری یک تهران",
+        "start_char": 843,
+        "end_char": 928,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تغییر غیرمجاز کاربری اراضی",
+      "evidence": {
+        "quote": "تغییر غیرمجاز اراضی زراعی",
+        "start_char": 982,
+        "end_char": 1007,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

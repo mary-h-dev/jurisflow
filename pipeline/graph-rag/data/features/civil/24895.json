@@ -1,0 +1,93 @@
+{
+  "ruling_id": "24895",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عطف",
+      "evidence": {
+        "quote": "حسب قاعده عطف به ماسبق نشدن قانون",
+        "start_char": 299,
+        "end_char": 332,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "حق بیمه را به مبلغ... ریال در تاریخ 1391/12/2 به سازمان تأمین اجتماعی پرداخت نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "الزام مشتکی عنه به استرداد وجوه حق بیمه پرداختی",
+        "start_char": 547,
+        "end_char": 594,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم به رد شکایت صادر",
+        "start_char": 706,
+        "end_char": 726,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه دلیلی مبنی بر خلاف مقررات بودن رای شعبه بدوی ابراز نداشته است",
+        "start_char": 945,
+        "end_char": 1020,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "دلالت گواهی شماره... مشارالیه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای صادره قطعی است",
+        "start_char": 1259,
+        "end_char": 1277,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت حق بیمه قبل از تاریخ اجرای قانون بودجه 1392 انجام شده است",
+      "evidence": {
+        "quote": "پرداخت حق بیمه ساختمان به تأمین اجتماعی توسط شاکی قبل از 1392/4/1 بوده است",
+        "start_char": 222,
+        "end_char": 296,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "ruling_id": "36567",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "حکم بر برائت متهم از اتهام انتسابی صادر می نماید",
+        "start_char": 2405,
+        "end_char": 2453,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "شکایت",
+      "evidence": {
+        "quote": "رای دادگاه در خصوص شکایت ا قای س. خ. پ.",
+        "start_char": 0,
+        "end_char": 39,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در محاکم محترم تجدیدنظر",
+        "start_char": 2001,
+        "end_char": 2036,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شاکی در اظهارات خویش بیان داشته",
+        "start_char": 154,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "بزهکاری متهم را محرز و مسلم تشخیص داده",
+        "start_char": 1206,
+        "end_char": 1244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاهد",
+      "evidence": {
+        "quote": "شهادت شهود به نام های اقایان م. ع. ش. پ. و ع. ش. پ.",
+        "start_char": 660,
+        "end_char": 711,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "از سوی شاکی و دادستان محترم",
+        "start_char": 2541,
+        "end_char": 2568,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "متهم را به پرداخت 1 دوازده هزارم دیه کامل مرد مسلمان",
+        "start_char": 1358,
+        "end_char": 1409,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تراکم درگیری فیزیکی بین شاکی و متهم",
+      "evidence": {
+        "quote": "ایجاد درگیری بین شاکی و متهم را تایید می کنند",
+        "start_char": 715,
+        "end_char": 760,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ضرب و جرح با استفاده از صندلی",
+      "evidence": {
+        "quote": "ج. صندلی بلند کرد و به سرم کوبید",
+        "start_char": 509,
+        "end_char": 541,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

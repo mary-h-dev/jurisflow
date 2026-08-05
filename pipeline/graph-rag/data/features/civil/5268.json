@@ -1,0 +1,183 @@
+{
+  "ruling_id": "5268",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مالکیت مشاعی تمامیت یک قطعه زمین",
+        "start_char": 805,
+        "end_char": 837,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "تقاضای ابطال تقسیم نامه را دارد",
+        "start_char": 2344,
+        "end_char": 2375,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام ایشان به تنظیم سند رسمی",
+        "start_char": 3091,
+        "end_char": 3120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقسیم",
+      "evidence": {
+        "quote": "مبادرت به تقسیم و تخصیص آپارتمان ها",
+        "start_char": 1060,
+        "end_char": 1095,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "از ایفای تعهدات خود امتناع می کنند",
+        "start_char": 1578,
+        "end_char": 1612,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی نموده اند",
+        "start_char": 4518,
+        "end_char": 4541,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به وکالت از خواهان ها",
+        "start_char": 29,
+        "end_char": 50,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "علی رغم آن خواندگان از ایفای تعهدات خود امتناع می کنند",
+        "start_char": 1558,
+        "end_char": 1612,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالکین",
+      "evidence": {
+        "quote": "به امضای تمامی مالکین رسیده است",
+        "start_char": 1014,
+        "end_char": 1045,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تقسیم‌نامه",
+      "evidence": {
+        "quote": "مبنی بر حضور در دفترخانه اسناد رسمی و اداره ثبت اسناد و تنظیم سند رسمی انتقال قطعی آپارتمان های قطعات 3، 4 و 2",
+        "start_char": 144,
+        "end_char": 254,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "مشتمل بر 5 آپارتمان مسکونی",
+        "start_char": 859,
+        "end_char": 885,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "انباری",
+      "evidence": {
+        "quote": "5 قطعه انباری",
+        "start_char": 898,
+        "end_char": 911,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پارکینگ",
+      "evidence": {
+        "quote": "8 قطعه پارکینگ",
+        "start_char": 914,
+        "end_char": 928,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "موضوع پلاک ثبتی 28/431 بخش 11 تهران",
+        "start_char": 303,
+        "end_char": 338,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تقسیم نامه در دفترخانه تنظیم نشده و عادی است",
+      "evidence": {
+        "quote": "به موجب تقسیم نامه عادی اشاره شده",
+        "start_char": 954,
+        "end_char": 987,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت پلاک مذکور در استعلام ثبتی به نام شخص دیگری است",
+      "evidence": {
+        "quote": "حکایت از مالکیت آقای ع.ن. نسبت به پلاک ذکرشده دارد",
+        "start_char": 1795,
+        "end_char": 1845,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دو پارکینگ در صورت مجلس تفکیکی قید نشده‌اند",
+      "evidence": {
+        "quote": "دو پارکینگ روباز در صورت مجلس تفکیکی قید نگردیده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

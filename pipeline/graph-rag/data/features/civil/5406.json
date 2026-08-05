@@ -1,0 +1,193 @@
+{
+  "ruling_id": "5406",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "هبه",
+      "evidence": {
+        "quote": "چنانچه تلقی هبه باشد",
+        "start_char": 1314,
+        "end_char": 1334,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی تقابل صادر می نماید",
+        "start_char": 3092,
+        "end_char": 3129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌اعتباری",
+      "evidence": {
+        "quote": "به خواسته صدور حکم بر بی اعتباری و بطلان سند عادی",
+        "start_char": 1103,
+        "end_char": 1152,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "الزام خواندگان به تحویل یک قطعه زمین",
+        "start_char": 309,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "قرار ردّ دعوی صادر می نماید",
+        "start_char": 1015,
+        "end_char": 1042,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "دعوی خود را مسترد نمود",
+        "start_char": 931,
+        "end_char": 953,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض نامبرده غیرموجه تشخیص",
+        "start_char": 3946,
+        "end_char": 3974,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به خواهان و برادرش ک.ز.",
+        "start_char": 621,
+        "end_char": 644,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان به تحویل",
+        "start_char": 309,
+        "end_char": 332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ورثه",
+      "evidence": {
+        "quote": "ورثه مرحوم م.",
+        "start_char": 172,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واهب",
+      "evidence": {
+        "quote": "چون در زمان حیات 40 روزه واهب",
+        "start_char": 1335,
+        "end_char": 1364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهب",
+      "evidence": {
+        "quote": "قبضی از طرف متهب صورت نگرفته است",
+        "start_char": 1381,
+        "end_char": 1413,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "تحویل یک قطعه زمین",
+        "start_char": 327,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "موضوع بند 3 سند عادی مورخ 12/2/71",
+        "start_char": 414,
+        "end_char": 447,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "باغ",
+      "evidence": {
+        "quote": "به همراه یک باغ",
+        "start_char": 585,
+        "end_char": 600,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مورث زمین را به فرزندانش بخشیده است",
+      "evidence": {
+        "quote": "مورث طرفین 40 روز قبل از وفاتش به موجب سند عادی مذکور یک قطعه زمین به شرح موصوف کنار جاده اصلی تهران رودهن را به همراه یک باغ و یک قطعه زمین دیگر به خواهان و برادرش ک.ز. بخشیده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بخش برخی املاک انجام شده اما بخش دیگر تحویل نشده است",
+      "evidence": {
+        "quote": "موضوعات بندهای 1 و 2 شامل یک باغ و یک قطعه زمین تحویل شده است لکن حاضر به تحویل موضوع بند سوم به شرح خواسته نمی باشد",
+        "start_char": 749,
+        "end_char": 865,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت زمین به صورت مشاعی بوده است",
+      "evidence": {
+        "quote": "حکایت از مالکیت رسمی مرحوم س.ز. به صورت مشاعی نسبت به 3 سهم از هفت سهم ملک موصوف می نماید",
+        "start_char": 2000,
+        "end_char": 2089,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

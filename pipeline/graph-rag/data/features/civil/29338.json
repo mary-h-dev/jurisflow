@@ -1,0 +1,153 @@
+{
+  "ruling_id": "29338",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "به خواسته اثبات مالکیت",
+        "start_char": 303,
+        "end_char": 325,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "و اعسار از پرداخت هزینه دادرسی",
+        "start_char": 542,
+        "end_char": 572,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکن مالی",
+      "evidence": {
+        "quote": "عدم تمکن مالی خود",
+        "start_char": 824,
+        "end_char": 841,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دادخواست تقدیم کرده است",
+        "start_char": 711,
+        "end_char": 734,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوای خواهان را صادر",
+        "start_char": 979,
+        "end_char": 1015,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض قرار پرونده را",
+        "start_char": 2197,
+        "end_char": 2219,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را جهت رسیدگی در ماهیت امر به مرجع محترم بدوی اعاده می کند",
+        "start_char": 2210,
+        "end_char": 2275,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نظر به اینکه خواهان به عنوان وصی و نماینده ترکه مرحوم کامبیز آریامنش دادخواست تقدیم کرده است",
+        "start_char": 642,
+        "end_char": 734,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وصی",
+      "evidence": {
+        "quote": "خواهان به عنوان وصی و نماینده ترکه مرحوم کامبیز آریامنش",
+        "start_char": 655,
+        "end_char": 710,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی م. ک.",
+        "start_char": 1168,
+        "end_char": 1187,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بطرفیت تجدیدنظرخواندگان",
+        "start_char": 1351,
+        "end_char": 1374,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اصلی بخش",
+      "evidence": {
+        "quote": "اثبات مالکیت سه دانگ مشاع از 6 دانگ پلاک ثبتی 1051 فرعی از 36 اصلی بخش 11 تهران",
+        "start_char": 328,
+        "end_char": 407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "اعسار از پرداخت هزینه دادرسی",
+        "start_char": 544,
+        "end_char": 572,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان به دلیل عدم اصالت (عدم وصی بودن در مقام مطرح دعوای اعسار) دادخواست اعسار را صحیح مطرح نکرده است",
+      "evidence": {
+        "quote": "نظر به اینکه خواهان به عنوان وصی و نماینده ترکه مرحوم کامبیز آریامنش دادخواست تقدیم کرده است و اصیل نمیباشد تا دادخواست اعسار از پرداخت هزینه دادرسی را مطرح و استشهادیه محلی مبنی بر عدم تمکن مالی خود و دانشجو بودن خود را مطرح نماید بنابراین دادخواست اعسار خواهان به طور صحیحا مطرح نشده است",
+        "start_char": 642,
+        "end_char": 931,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

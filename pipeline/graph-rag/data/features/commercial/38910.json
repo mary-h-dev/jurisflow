@@ -1,0 +1,163 @@
+{
+  "ruling_id": "38910",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مرور زمان",
+      "evidence": {
+        "quote": "چک را مشمول مرور زمان دانسته",
+        "start_char": 2534,
+        "end_char": 2562,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمانت",
+      "evidence": {
+        "quote": "بابت ضمانت خرید خودرو",
+        "start_char": 835,
+        "end_char": 856,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "با این توضیح وکیل خواهان طی دادخواست تقدیمی وضمایم وباحضور درجلسه دادگاه اعلام داشته: خوانده محترم مبادرت به صدور یک فقره چک به شماره 2136249 به مبلغ 800/000/000 ریال به تاریخ 1388/05/24 عهده بانک کارافرینی نموده که درمراجعه به بانک محال علیه منتهی به صدور گواهی عدم پرداخت گردیده وتاکنون از ادای دین استنکاف ورزیده است.",
+        "start_char": 5588,
+        "end_char": 5906,
+        "confidence": 0.7
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه وجه",
+      "evidence": {
+        "quote": "مطالبه وجه چک",
+        "start_char": 149,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت تاخیر تادیه",
+        "start_char": 166,
+        "end_char": 190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "تاکنون از ادای دین استنکاف ورزیده است",
+        "start_char": 5868,
+        "end_char": 5905,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "دعوی وی به لحاظ ضمانتی بودن چک رد شده است",
+        "start_char": 1321,
+        "end_char": 1362,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "دادخواه",
+      "evidence": {
+        "quote": "دادخواه: م. ا.",
+        "start_char": 232,
+        "end_char": 246,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده در مقام دفاع اظهار داشته",
+        "start_char": 789,
+        "end_char": 820,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اقای ع. ن. ( خواهان )",
+        "start_char": 1699,
+        "end_char": 1720,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "مطالبه وجه چک",
+        "start_char": 149,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی عدم",
+      "evidence": {
+        "quote": "منتهی به صدور گواهی عدم پرداخت گردیده",
+        "start_char": 5829,
+        "end_char": 5866,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک بابت ضمانت صادر شده است",
+      "evidence": {
+        "quote": "چک موضوع دعوی بابت ضمانت خرید خودرو ( سازمان *) بوده است",
+        "start_char": 821,
+        "end_char": 877,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک مشمول مرور زمان شده است",
+      "evidence": {
+        "quote": "چک موضوع دعوا مشمول مرور زمان شده است",
+        "start_char": 8500,
+        "end_char": 8537,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تاریخ استقرار دین با تاریخ چک متفاوت است",
+      "evidence": {
+        "quote": "تاریخ استقرار دین بر ذمه خوانده مورخ 20/08/1396 بوده",
+        "start_char": 4330,
+        "end_char": 4382,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "ruling_id": "22541",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 378,
+        "end_char": 393,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال شناسنامه",
+        "start_char": 71,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "تغییر تاریخ تولد",
+        "start_char": 88,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطرح",
+      "evidence": {
+        "quote": "مطرح گردیده",
+        "start_char": 121,
+        "end_char": 132,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "اعاده می شود",
+        "start_char": 1301,
+        "end_char": 1313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض آن",
+        "start_char": 1247,
+        "end_char": 1256,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان",
+        "start_char": 271,
+        "end_char": 277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "اداره ثبت احوال",
+        "start_char": 25,
+        "end_char": 40,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "ابطال شناسنامه",
+        "start_char": 71,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلاف در تاریخ تولد برادر با خواهان",
+      "evidence": {
+        "quote": "فقط در تاریخ تولد با یکدیگر اختلاف دارند",
+        "start_char": 983,
+        "end_char": 1023,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست صدور شناسنامه جدید",
+      "evidence": {
+        "quote": "صدور شناسنامه جدید",
+        "start_char": 867,
+        "end_char": 885,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

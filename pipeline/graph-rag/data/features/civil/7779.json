@@ -1,0 +1,173 @@
+{
+  "ruling_id": "7779",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "دلالت بر اشتغال ذمه خوانده",
+        "start_char": 290,
+        "end_char": 316,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "تحصیل برائت ذمه",
+        "start_char": 562,
+        "end_char": 577,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استصحاب بقاء",
+      "evidence": {
+        "quote": "استصحاب بقاء دین",
+        "start_char": 672,
+        "end_char": 688,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی نخستین",
+        "start_char": 3123,
+        "end_char": 3147,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اصل وجه چک",
+        "start_char": 95,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد واخواهی",
+      "evidence": {
+        "quote": "ضمن رد واخواهی",
+        "start_char": 1836,
+        "end_char": 1850,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را نقض",
+        "start_char": 3090,
+        "end_char": 3120,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان شرکت فروشگاه زنجیره ای ر.",
+        "start_char": 0,
+        "end_char": 45,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ع.ک. فرزند الف.",
+        "start_char": 65,
+        "end_char": 94,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در محکومیت تجدیدنظرخواه",
+        "start_char": 2240,
+        "end_char": 2263,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "شرکت تجدیدنظر خوانده",
+        "start_char": 2492,
+        "end_char": 2512,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "اصل وجه چک",
+        "start_char": 112,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "وجود اصل مستند",
+        "start_char": 262,
+        "end_char": 276,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "شرح قرارداد مورخ 9/7/76",
+        "start_char": 2737,
+        "end_char": 2760,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک موضوع دعوی قبلاً پرداخت شده است",
+      "evidence": {
+        "quote": "چک موضوع دعوی و چک شماره 233200-28/12/76 بابت قسط اول و دوم مضاربه از تجدیدنظرخواه اخذ گردیده است",
+        "start_char": 2551,
+        "end_char": 2648,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تعهد شرکت به پرداخت وجه چک با تعهد دیگری جایگزین شده است",
+      "evidence": {
+        "quote": "با عنایت به تبدیل تعهد شرکت تحت تصدی تجدیدنظرخواه در مورد پرداخت وجه اقساط مضاربه به شرح قرارداد مورخ 9/7/76 ط شماره 110/ع/ح/م به تحویل تعداد 1094400 قوطی تن ماهی ه.، اقدام تجدیدنظر خوانده در مطالبه وجه چک موضوع دعوی که پرداخت آن به موجب توافق بعدی به تعهد دیگری به شرح مذکور تغییریافته",
+        "start_char": 2652,
+        "end_char": 2938,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

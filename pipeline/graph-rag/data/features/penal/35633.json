@@ -1,0 +1,123 @@
+{
+  "ruling_id": "35633",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "به اتهام انتقال مال غیر",
+        "start_char": 20,
+        "end_char": 43,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مرور زمان",
+      "evidence": {
+        "quote": "به لحاظ شمول مقررات مرور زمان",
+        "start_char": 1294,
+        "end_char": 1323,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "رد اعتراض",
+        "start_char": 1640,
+        "end_char": 1649,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ن. ت.",
+        "start_char": 1020,
+        "end_char": 1052,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "از سوی شاکی",
+        "start_char": 266,
+        "end_char": 277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "موضوع شکایت تجدیدنظرخواه",
+        "start_char": 1140,
+        "end_char": 1164,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین به مساحت ششصد متر مربع",
+        "start_char": 46,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قولنامه",
+      "evidence": {
+        "quote": "بر اساس قولنامه ی ابرازی",
+        "start_char": 241,
+        "end_char": 265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "میزان ثمن معامله",
+        "start_char": 399,
+        "end_char": 415,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "بیش از نوزده سال از تاریخ تنظیم قولنامه تا شکایت گذشته است",
+      "evidence": {
+        "quote": "از تاریخ تنظیم قولنامه تا شکایت شاکی در تاریخ 93/8/3 بیش از نوزده سال گذشته است",
+        "start_char": 317,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تاریخ وقوع معامله 1374/10/9 بوده است",
+      "evidence": {
+        "quote": "تاریخ وقوع معامله 1374/10/9 بوده است",
+        "start_char": 278,
+        "end_char": 314,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

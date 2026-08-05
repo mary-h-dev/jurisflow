@@ -1,0 +1,203 @@
+{
+  "ruling_id": "3568",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "به خواسته صدور گواهی عدم امکان سازش (طلاق)",
+        "start_char": 170,
+        "end_char": 212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "به خواسته صدور گواهی عدم امکان سازش (طلاق)",
+        "start_char": 170,
+        "end_char": 212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل مطابق مقررات قانونی مذکور",
+        "start_char": 8239,
+        "end_char": 8282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "بخش بحث و بررسی نفقه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امکان سازش",
+      "evidence": {
+        "quote": "به خواسته صدور گواهی عدم امکان سازش (طلاق)",
+        "start_char": 170,
+        "end_char": 212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "پرونده به شورای حل اختلاف برای ایجاد سازش ارسال گردید",
+        "start_char": 518,
+        "end_char": 571,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 8239,
+        "end_char": 8256,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "ردّ و دادنامه تجدیدنظر خواسته تأیید شد",
+        "start_char": 6748,
+        "end_char": 6786,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض رأی فرجام خواسته",
+        "start_char": 9979,
+        "end_char": 10003,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج با تکرار دعوی و خواسته",
+        "start_char": 619,
+        "end_char": 645,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه مدعی شد در طول 21 سال ازدواج شان",
+        "start_char": 762,
+        "end_char": 799,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "آقای م.م. با بی نتیجه اعلام کردن تلاش خود برای ایجاد سازش بین طرفین به عنوان داور زوجه",
+        "start_char": 4108,
+        "end_char": 4194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "خانم م.ه. دارای پروانه وکالت پایه یکم",
+        "start_char": 3294,
+        "end_char": 3331,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "رونوشت سند ازدواج شان",
+        "start_char": 241,
+        "end_char": 262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "زوجه تمام مهریه اش را وصول کرد",
+        "start_char": 5895,
+        "end_char": 5925,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "اموال را با وی نصف کند",
+        "start_char": 1313,
+        "end_char": 1335,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ازدواج از سال 1371",
+      "evidence": {
+        "quote": "تاریخ وقوع و ثبت عقد 19/7/1371",
+        "start_char": 277,
+        "end_char": 307,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود فرزند مشترک",
+      "evidence": {
+        "quote": "داشتن فرزند پسر مشترک 19 ساله",
+        "start_char": 2472,
+        "end_char": 2501,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه",
+      "evidence": {
+        "quote": "و نفقه نمی دهد",
+        "start_char": 1481,
+        "end_char": 1495,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

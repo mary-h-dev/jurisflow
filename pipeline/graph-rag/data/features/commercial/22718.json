@@ -1,0 +1,263 @@
+{
+  "ruling_id": "22718",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مطالبه وجه چک",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه چک",
+        "start_char": 62,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "و تاخیر تادیه",
+        "start_char": 134,
+        "end_char": 147,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جلب ثالث",
+      "evidence": {
+        "quote": "تحت عنوان جلب ثالث",
+        "start_char": 474,
+        "end_char": 492,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "به استناد مبایعه نامه",
+        "start_char": 730,
+        "end_char": 751,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "انتقال برات (و چک) به موجب ظهرنویسی به عمل می آید",
+        "start_char": 6139,
+        "end_char": 6188,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قوانین آمره",
+      "evidence": {
+        "quote": "از قوانین آمره محسوب نمیگردد",
+        "start_char": 6577,
+        "end_char": 6605,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصل آزادی قرارداد‌ها",
+      "evidence": {
+        "quote": "توافق آنان مطابق ماده 10 قانون مدنی بر ایشان لازم الرعایه است",
+        "start_char": 6661,
+        "end_char": 6722,
+        "confidence": 0.85
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "تسلیم و توضیح داده",
+        "start_char": 170,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خودداری",
+      "evidence": {
+        "quote": "از تادیه آن خودداری میکند",
+        "start_char": 286,
+        "end_char": 311,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "به اینجانب پیش فروش نموده",
+        "start_char": 859,
+        "end_char": 884,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "طی یک فقره چک پرداخت شده",
+        "start_char": 917,
+        "end_char": 941,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحریر",
+      "evidence": {
+        "quote": "زمان تحویل آپارتمان به خط م. پ. تحریر گردیده",
+        "start_char": 2650,
+        "end_char": 2694,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "آقای م. پ. به رأی دادگاه اعتراض و دادخواست فرجام خواهی",
+        "start_char": 5336,
+        "end_char": 5390,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان اصلی",
+        "start_char": 572,
+        "end_char": 589,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "مجلوب ثالث – م. پ.",
+        "start_char": 711,
+        "end_char": 729,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "خریدار حق دارد از محل ثمن معامله",
+        "start_char": 2001,
+        "end_char": 2033,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادگستری",
+      "evidence": {
+        "quote": "آقای م. آ. وکیل دادگستری",
+        "start_char": 3040,
+        "end_char": 3064,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "فرجام خواه آقای م. پ.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "موضوع دعوی عبارت از چک",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به استناد مبایعه نامه",
+        "start_char": 730,
+        "end_char": 751,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "واحد",
+      "evidence": {
+        "quote": "واحد... واقع در بخش... تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "از محل ثمن معامله",
+        "start_char": 2016,
+        "end_char": 2033,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عبارت حواله کرد در چک قلم زده شده است",
+      "evidence": {
+        "quote": "در چک موضوع دعوی عبارت حواله کرد خط خورده است",
+        "start_char": 4924,
+        "end_char": 4969,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک با ظهرنویسی به فرزند منتقل شده است",
+      "evidence": {
+        "quote": "نامبرده با ظهرنویسی چک آنرا به فرزندش م. پ. منتقل کرده",
+        "start_char": 2839,
+        "end_char": 2893,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تحویل آپارتمان با تأخیر انجام شده است",
+      "evidence": {
+        "quote": "واحد مذکور را تحویل میدهد و در مبایعه نامه به ازای هر روز تأخیر مبلغ سی و شش میلیون ریال محاسبه شده است",
+        "start_char": 1598,
+        "end_char": 1701,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

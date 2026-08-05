@@ -1,0 +1,123 @@
+{
+  "ruling_id": "5363",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "اراده فسخ قرارداد را نداشته",
+        "start_char": 997,
+        "end_char": 1024,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عیب",
+      "evidence": {
+        "quote": "وجود عیب و یا حادث شدن عیب",
+        "start_char": 1175,
+        "end_char": 1201,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه ضرر و زیان",
+        "start_char": 142,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "با ردّ ادعای تجدیدنظرخواه",
+        "start_char": 2186,
+        "end_char": 2211,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان بیان داشته اند",
+        "start_char": 275,
+        "end_char": 302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "از خواندگان به مدت سه سال اجاره کرده است",
+        "start_char": 397,
+        "end_char": 437,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "کلیه اقدامات مربوط به شهرداری و دارایی با مستأجر است",
+        "start_char": 785,
+        "end_char": 837,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "به موجب سند عادی اجاره مورخ 15/8/91",
+        "start_char": 304,
+        "end_char": 339,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "به جهت اینکه ملک مذکور فاقد کاربری تجاری بوده",
+        "start_char": 567,
+        "end_char": 612,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "محل کسب به دلیل فاقد کاربری تجاری بودن پلمپ شده است",
+      "evidence": {
+        "quote": "با ورود شهرداری و پلمپ محل مورد اجاره به جهت اینکه ملک مذکور فاقد کاربری تجاری بوده",
+        "start_char": 529,
+        "end_char": 612,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان قصد فسخ قرارداد را نداشته است",
+      "evidence": {
+        "quote": "خواهان باوجود عیوب عارضی بر عین مستأجره اراده فسخ قرارداد را نداشته",
+        "start_char": 957,
+        "end_char": 1024,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

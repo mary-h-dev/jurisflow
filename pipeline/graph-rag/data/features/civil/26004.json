@@ -1,0 +1,123 @@
+{
+  "ruling_id": "26004",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مدنی",
+      "evidence": {
+        "quote": "حق درخواست تغییرنام ازحقوق مدنی است",
+        "start_char": 424,
+        "end_char": 459,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اهلیت",
+      "evidence": {
+        "quote": "خواهان اهلیت اعمال این حق را دارا می باشد",
+        "start_char": 652,
+        "end_char": 693,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "به خواسته تغییر نام از م. به م. ن",
+        "start_char": 104,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره ثبت احوال",
+        "start_char": 1009,
+        "end_char": 1038,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در دادگاه تجدید نظر",
+        "start_char": 907,
+        "end_char": 938,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده اداره ثبت احوال",
+        "start_char": 61,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از توجه به اظهارات طرفین دادنامه",
+        "start_char": 169,
+        "end_char": 201,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "در سند سجلی شماره",
+        "start_char": 138,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان درخواست تغییر نام دارد",
+      "evidence": {
+        "quote": "به خواسته تغییر نام از م. به م. ن",
+        "start_char": 104,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اداره ثبت احوال درخواست تجدیدنظر ارائه داده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره ثبت احوال",
+        "start_char": 1009,
+        "end_char": 1038,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

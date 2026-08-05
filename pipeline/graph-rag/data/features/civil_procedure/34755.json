@@ -1,0 +1,163 @@
+{
+  "ruling_id": "34755",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "در مورد اعسار خواهان از پرداخت هزینه دادرسی رسیدگی",
+        "start_char": 238,
+        "end_char": 288,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "هر کس مالی به دیگری بدهد اصل بر عدم تبرع است",
+        "start_char": 2448,
+        "end_char": 2492,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم بر محکومیت خوانده",
+        "start_char": 63,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "نسبت به دادنامه یاد شده تجدیدنظرخواهی نموده است",
+        "start_char": 3164,
+        "end_char": 3211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "نسبت به دادنامه فوق الذکر فرجامخواهی نموده",
+        "start_char": 3348,
+        "end_char": 3390,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "با رد اعتراض رأی تجدیدنظر خواسته را تأیید کرده است",
+        "start_char": 3285,
+        "end_char": 3335,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواستی بطرفیت آقای م. ن.م. فرزند ح. و به خواسته صدور حکم بر محکومیت خوانده",
+        "start_char": 22,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به خواسته صدور حکم بر محکومیت خوانده",
+        "start_char": 63,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "مهریه خانم ش. خ. یکصد و پنجاه هزار ریال وجه رایج به انضمام ده مثقال طلا میباشد که بر ذمه زوج است",
+        "start_char": 498,
+        "end_char": 594,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بمیزان 17/432/421 تومان بابت مهریه و ده مثقال طلا",
+        "start_char": 100,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "طلا",
+      "evidence": {
+        "quote": "بمیزان 17/432/421 تومان بابت مهریه و ده مثقال طلا",
+        "start_char": 100,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "بموجب سندرسمی ازدواج بشماره ترتیب... -1353/10/11دفتر رسمی ازدواج شماره 19 حوزه ثبت بروجرد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "میزان سه دانگ از ملک پلاک ثبتی...-38",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین در مورد ماهیت انتقال سه دانگ منزل اختلاف دارند",
+      "evidence": {
+        "quote": "وکیل خواهان دفاع نموده که سه دانگی که میگویند بصورت بیع نامه و توافقی بوده و برای تداوم زندگی بوده است",
+        "start_char": 993,
+        "end_char": 1095,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده بخشی از مهریه را به صورت ملک به خواهان واگذار کرده است",
+      "evidence": {
+        "quote": "و اینکه خواهان پذیرفته که خوانده سه دانگ منزل خود را به خواهان واگذار نموده است",
+        "start_char": 2240,
+        "end_char": 2319,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

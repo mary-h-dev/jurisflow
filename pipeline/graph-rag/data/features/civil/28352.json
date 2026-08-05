@@ -1,0 +1,163 @@
+{
+  "ruling_id": "28352",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "صدور حکم الزام به تمکین",
+        "start_char": 89,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه معوقه",
+      "evidence": {
+        "quote": "صدور حکم محکومیت خوانده به پرداخت نفقه معوقه",
+        "start_char": 205,
+        "end_char": 249,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت دایم بین زوجن",
+        "start_char": 399,
+        "end_char": 430,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم الزام به تمکین",
+        "start_char": 89,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت نفقه معوقه",
+        "start_char": 232,
+        "end_char": 249,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "آنرا نقض وحکم به رددعوی زوج",
+        "start_char": 1743,
+        "end_char": 1770,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض دادنامه",
+        "start_char": 1934,
+        "end_char": 1955,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت نفقه معوقه",
+        "start_char": 214,
+        "end_char": 249,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "الزام به خوانده تمکین از زوج صادر می گردد",
+        "start_char": 676,
+        "end_char": 717,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تمکن خاص را زوجه ندارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم س.ز. م.ر.ص.",
+        "start_char": 1177,
+        "end_char": 1207,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "ملاحظه تصویر مصدق سند ازدواج",
+        "start_char": 367,
+        "end_char": 395,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه معترض عنه برخلاف مبانی حقوقی",
+        "start_char": 1601,
+        "end_char": 1637,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین در یک سقف زندگی می‌کنند",
+      "evidence": {
+        "quote": "طرفین اعلام میکنند هردودرزیریک سقف زندگی میکنند",
+        "start_char": 1386,
+        "end_char": 1433,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم وجود تمکین خاص",
+      "evidence": {
+        "quote": "نسبت به تمکین خاص امتناعی ندارد",
+        "start_char": 1515,
+        "end_char": 1546,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

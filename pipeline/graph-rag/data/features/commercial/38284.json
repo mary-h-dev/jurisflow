@@ -1,0 +1,163 @@
+{
+  "ruling_id": "38284",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی",
+        "start_char": 242,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مورد بینه",
+      "evidence": {
+        "quote": "اصل ان است.که اقامه ی بینه ، بر عهده مدعی می باشد",
+        "start_char": 1399,
+        "end_char": 1448,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقف",
+      "evidence": {
+        "quote": "توقف از پرداخت دیون",
+        "start_char": 1850,
+        "end_char": 1869,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اقای ا. ز. و خانم م. ز.",
+        "start_char": 0,
+        "end_char": 37,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "تجدیدنظرخواندگان به رد دعوا",
+        "start_char": 583,
+        "end_char": 610,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انکار",
+      "evidence": {
+        "quote": "شرکت سازمان *ادعا و تجدیدنظرخواندگان انکار می نمایند",
+        "start_char": 739,
+        "end_char": 791,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "اقامه می شود",
+        "start_char": 1233,
+        "end_char": 1245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته تایید",
+        "start_char": 2578,
+        "end_char": 2606,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اقای ا. ز. و خانم م. ز.",
+        "start_char": 0,
+        "end_char": 37,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "تجدیدنظرخواندگان به رد دعوا",
+        "start_char": 583,
+        "end_char": 610,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تاجر",
+      "evidence": {
+        "quote": "ازسوی تاجر",
+        "start_char": 1028,
+        "end_char": 1038,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تسهیلات بانکی",
+      "evidence": {
+        "quote": "پس از دریافت تسهیلات بانکی",
+        "start_char": 910,
+        "end_char": 936,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دارایی",
+      "evidence": {
+        "quote": "ورود مالی به دارایی شرکت تجاری",
+        "start_char": 1757,
+        "end_char": 1787,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "درخواست صدور حکم ورشکستگی مطرح شده است",
+      "evidence": {
+        "quote": "به خواسته صدور حکم ورشکستگی",
+        "start_char": 232,
+        "end_char": 259,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرکت تسهیلات بانکی دریافت کرده است",
+      "evidence": {
+        "quote": "پس از دریافت تسهیلات بانکی توسط شرکت تجاری",
+        "start_char": 910,
+        "end_char": 952,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

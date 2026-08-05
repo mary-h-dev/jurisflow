@@ -1,0 +1,193 @@
+{
+  "ruling_id": "24361",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "دعوای اعتراض واخواهی",
+        "start_char": 221,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تردید",
+      "evidence": {
+        "quote": "اظهار انکار و تردید نموده",
+        "start_char": 3145,
+        "end_char": 3170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "در قالب (( شرط فعل)) مقرر گردیده",
+        "start_char": 6797,
+        "end_char": 6829,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی مطروحه",
+        "start_char": 0,
+        "end_char": 20,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "ضمن رد دعوی مرقوم",
+        "start_char": 812,
+        "end_char": 829,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مستلزم نقض می باشد",
+        "start_char": 1091,
+        "end_char": 1109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مبادرت به مطالبه وجه چک",
+        "start_char": 7175,
+        "end_char": 7198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "مورد و یا موارد تخلف متعهد را در محکمه اثبات",
+        "start_char": 7021,
+        "end_char": 7065,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "به وکالت از تجدیدنظرخواه ق. ن.",
+        "start_char": 43,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان بدوی یا وکیل مشارالیه",
+        "start_char": 5327,
+        "end_char": 5355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخوانده",
+        "start_char": 8662,
+        "end_char": 8685,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "پرداخت وجه یک فقره چک",
+        "start_char": 366,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "قرارداد عادی بیع مورخ 89/04/16",
+        "start_char": 2272,
+        "end_char": 2302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "قرار داد مورخ 88/02/28",
+        "start_char": 2309,
+        "end_char": 2331,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرار",
+      "evidence": {
+        "quote": "بموجب قرار داد متمم",
+        "start_char": 3436,
+        "end_char": 3455,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه اصل چک در جلسه رسیدگی",
+      "evidence": {
+        "quote": "به علت عدم ارائه آن از ناحیه مشارالیه یا وکیل حاضر وی در جلسه مذکور",
+        "start_char": 3010,
+        "end_char": 3077,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اشتباه در اعلام شماره و تاریخ چک در دادنامه تجدیدنظر",
+      "evidence": {
+        "quote": "در دادنامه تجدیدنظرخواسته شماره آنها الف) 9207091 تاریخ 92/09/30 ب)93021193 به تاریخ 93/04/02 اعلام و تعرفه گردیده که کاملا ناصحیح",
+        "start_char": 1485,
+        "end_char": 1614,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کتمان مستند (صورت جلسه)",
+      "evidence": {
+        "quote": "از ابتدا مستند مذکور که به عنوان صورتجلسه 88/02/28 تلقی شده را ارائه نداشته و با کتمان آن",
+        "start_char": 5356,
+        "end_char": 5445,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

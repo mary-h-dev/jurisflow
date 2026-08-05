@@ -1,0 +1,183 @@
+{
+  "ruling_id": "23331",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان معامله",
+      "evidence": {
+        "quote": "صدور حکم بر اعلان بطلان معامله صوری",
+        "start_char": 128,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قاعده",
+      "evidence": {
+        "quote": "قاعده اصاله اللزوم قراردادها حکمفرما می باشد",
+        "start_char": 816,
+        "end_char": 859,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "محمول بر صحت است",
+        "start_char": 917,
+        "end_char": 933,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "قصد فرار از دین",
+        "start_char": 3528,
+        "end_char": 3543,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم بر اعلان بطلان معامله صوری",
+        "start_char": 128,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "ثمن هم مبادله نگردیده",
+        "start_char": 312,
+        "end_char": 333,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعلام می نمود",
+        "start_char": 2503,
+        "end_char": 2516,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه معترض عنه",
+        "start_char": 5165,
+        "end_char": 5189,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "طرفیت خانم ط. س. فرزند ک. به خواسته",
+        "start_char": 92,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و خوانده مدعی می باشد",
+        "start_char": 1256,
+        "end_char": 1277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدید نظر خواهی آقای ج. ا.",
+        "start_char": 3122,
+        "end_char": 3156,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "تملیک مبیع نداشته",
+        "start_char": 288,
+        "end_char": 305,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "ثمن هم مبادله نگردیده",
+        "start_char": 312,
+        "end_char": 333,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "مبلغ 90 میلیون تومان به عنوان ثمن معامله پرداخت شده",
+        "start_char": 2147,
+        "end_char": 2198,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ثمن معامله پرداخت نشده است",
+      "evidence": {
+        "quote": "ثمن هم مبادله نگردیده",
+        "start_char": 312,
+        "end_char": 333,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبیع در اختیار خوانده قرار گرفته است",
+      "evidence": {
+        "quote": "مبیع در ید موکله می باشد",
+        "start_char": 1924,
+        "end_char": 1948,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله با هدف کسب امتیاز مسکن مهر انجام شده است",
+      "evidence": {
+        "quote": "صرفاً به لحاظ برخورداری خواهان از امتیازات اخذ مسکن مهر بوده است",
+        "start_char": 336,
+        "end_char": 400,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

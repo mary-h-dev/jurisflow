@@ -1,0 +1,223 @@
+{
+  "ruling_id": "28007",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عرف",
+      "evidence": {
+        "quote": "طرفین قرارداد ملزم به نتایج حاصل از عرف و عادت می باشند",
+        "start_char": 1341,
+        "end_char": 1396,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "در صورت وجود تعهد قراردادی بر تنظیم سند ملزم به پرداخت بدهیهای شهرداری وغیره می باشد",
+        "start_char": 3145,
+        "end_char": 3229,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "بنده مجبور به پرداخت آن به شهرداری",
+        "start_char": 642,
+        "end_char": 676,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "لیکن ایشان از پرداخت آن امتناع",
+        "start_char": 609,
+        "end_char": 639,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و در حال حاضر مطالبه نموده",
+        "start_char": 1092,
+        "end_char": 1118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم بر رد دعوی صادر",
+        "start_char": 2068,
+        "end_char": 2087,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "دادنامه مارالذکر را تائید",
+        "start_char": 3752,
+        "end_char": 3777,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان اعلام نموده",
+        "start_char": 377,
+        "end_char": 395,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "ملکی را از خوانده",
+        "start_char": 396,
+        "end_char": 413,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "از مجلوب ثالث خریداری نموده",
+        "start_char": 959,
+        "end_char": 986,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه نسبت به دادنامه",
+        "start_char": 3663,
+        "end_char": 3691,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "الزام تجدیدنظرخوانده به پرداخت",
+        "start_char": 2448,
+        "end_char": 2478,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده به عنوان فروشنده",
+        "start_char": 3108,
+        "end_char": 3139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "که به خریدار منتقل می گردد",
+        "start_char": 1796,
+        "end_char": 1822,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مستنداً به کپی دادنامه استناد به پرونده کلاسه 920494 شعبه دوم دادگاه عمومی ورامین و مبایعه نامه",
+        "start_char": 265,
+        "end_char": 360,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملکی را از خوانده",
+        "start_char": 396,
+        "end_char": 413,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "انتقال سند رسمی",
+        "start_char": 1474,
+        "end_char": 1489,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سفته",
+      "evidence": {
+        "quote": "ده فقره سفته",
+        "start_char": 720,
+        "end_char": 732,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک دارای بدهی شهرداری بوده است",
+      "evidence": {
+        "quote": "متوجه شدم که ملک خریداری شده مبلغ مذکور را به شهرداری بدهکار می باشد",
+        "start_char": 502,
+        "end_char": 570,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله بدون تنظیم سند رسمی انجام شده است",
+      "evidence": {
+        "quote": "در خصوص انجام معاملات ملک بدون انتقال سند رسمی",
+        "start_char": 1443,
+        "end_char": 1489,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بدهی‌ها در قرارداد ذکر نشده بود",
+      "evidence": {
+        "quote": "هر چند که این موارد در عقد ذکر نگردیده باشد",
+        "start_char": 1397,
+        "end_char": 1440,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

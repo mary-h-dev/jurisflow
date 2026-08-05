@@ -1,0 +1,133 @@
+{
+  "ruling_id": "756",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "اعمال خیار عیب بعد از علم به آن فوری می باشد",
+        "start_char": 808,
+        "end_char": 852,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عیب",
+      "evidence": {
+        "quote": "مدعی وجود عیب در مبیع موضوع دعوی بوده",
+        "start_char": 735,
+        "end_char": 772,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه خسارت",
+      "evidence": {
+        "quote": "تقاضای مطالبه خسارت و هزینه تعمیر و اصلاح ملک",
+        "start_char": 575,
+        "end_char": 620,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ز.ف.",
+        "start_char": 1479,
+        "end_char": 1502,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان در دادخواست تقدیمی اظهار نموده",
+        "start_char": 191,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان به پرداخت خسارت",
+        "start_char": 96,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "استدلال وکیل تجدیدنظرخواه",
+        "start_char": 1846,
+        "end_char": 1871,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "خسارت وارده به مبیع موضوع معامله",
+        "start_char": 121,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "6 دانگ یک دستگاه آپارتمان موضوع دعوی مطروحه",
+        "start_char": 253,
+        "end_char": 296,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "هزینه تعمیر و اصلاح ملک",
+        "start_char": 597,
+        "end_char": 620,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود عیب در ساختمان",
+      "evidence": {
+        "quote": "آپارتمان دارای اشکال سازه ای می باشد",
+        "start_char": 515,
+        "end_char": 551,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اقدام قانونی در فوریت عرفی",
+      "evidence": {
+        "quote": "اقدام قانونی در فوریت عرفی صورت نگرفته",
+        "start_char": 1141,
+        "end_char": 1179,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

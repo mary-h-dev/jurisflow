@@ -1,0 +1,143 @@
+{
+  "ruling_id": "28194",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "به خواسته اعلان بطلان مبایعه نامه عادی",
+        "start_char": 40,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مستحق للغیر بودن",
+      "evidence": {
+        "quote": "به لحاظ مستحق للغیر بودن مبیع",
+        "start_char": 92,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "و استرداد ثمن معامله",
+        "start_char": 393,
+        "end_char": 412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام به پرداخت قیمت زمین",
+        "start_char": 124,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "و دفاعیات خواهان",
+        "start_char": 625,
+        "end_char": 640,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "از سوی خواندگان دلیلی بر اثبات خلاف ادعای خواهان ارئه نشده است",
+        "start_char": 1200,
+        "end_char": 1262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در مورد تجدیدنظرخواهی آقای ع. ت.ز.",
+        "start_char": 1980,
+        "end_char": 2012,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "بطلان مبایعه نامه عادی مورخ 82/12/15",
+        "start_char": 56,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "الزام به پرداخت قیمت زمین",
+        "start_char": 124,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "استرداد ثمن معامله",
+        "start_char": 394,
+        "end_char": 412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "قیمت ملک",
+        "start_char": 882,
+        "end_char": 890,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت ملک متعلق به غیر است",
+      "evidence": {
+        "quote": "مالکیت رسمی موضوع معاملات متنازع فیه متعلق به غیر است",
+        "start_char": 1291,
+        "end_char": 1344,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت تجدیدنظرخواه بر ملک منتفی بوده است",
+      "evidence": {
+        "quote": "مالکیت تجدیدنظرخواه برملک موردمعامله منتفی بوده",
+        "start_char": 2521,
+        "end_char": 2568,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "ruling_id": "37134",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "دادخواست طلاق",
+        "start_char": 56,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "گواهی عدم امکان سازش",
+        "start_char": 683,
+        "end_char": 703,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "دادخواست تجدیدنظرخواهی",
+        "start_char": 762,
+        "end_char": 784,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "اسقاط حق فرجام خواهی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "وکالت",
+      "evidence": {
+        "quote": "از حدود وکالت او خارج است",
+        "start_char": 2399,
+        "end_char": 2424,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "دادخواست طلاق",
+        "start_char": 56,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "ضمن استرداد دادخواست طلاق",
+        "start_char": 344,
+        "end_char": 369,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "دادخواست تجدیدنظرخواهی تقدیم داشته",
+        "start_char": 762,
+        "end_char": 796,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "تقاضای فرجامخواهی",
+        "start_char": 1033,
+        "end_char": 1050,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "ضمن نقض ان پرونده",
+        "start_char": 3025,
+        "end_char": 3042,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج اقای س. م.",
+        "start_char": 281,
+        "end_char": 295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "به زوجه فرجام خوانده",
+        "start_char": 1777,
+        "end_char": 1797,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "فرمان خواهی اقای س. م.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمانخوانده",
+      "evidence": {
+        "quote": "به زوجه فرجام خوانده",
+        "start_char": 1777,
+        "end_char": 1797,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل مع الواسطه زوج",
+        "start_char": 1462,
+        "end_char": 1481,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موکل",
+      "evidence": {
+        "quote": "از طرف زوج بعنوان موکل",
+        "start_char": 1875,
+        "end_char": 1897,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "وکالتنامه رسمی شماره 37401 مورخ 1400/7/19 دفترخانه 198",
+        "start_char": 98,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره *مورخ 1400/10/12",
+        "start_char": 1216,
+        "end_char": 1246,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج وکالت بلاعزل برای طلاق به زوجه داده است",
+      "evidence": {
+        "quote": "زوج فرجام خواه وکالت بلاعزل با حق توکیل بغیر جهت اجرای صیغه طلاق به زوجه فرجام خوانده تفویض نموده",
+        "start_char": 1712,
+        "end_char": 1809,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وکیل مع الواسطه اختیار اسقاط حق تجدیدنظر و فرجام خواهی را نداشته است",
+      "evidence": {
+        "quote": "وکیل مع الواسطه زوج فاقد اختیار در اسقاط حق تجدیدنظرخواهی و فرجام خواهی بوده",
+        "start_char": 2268,
+        "end_char": 2344,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

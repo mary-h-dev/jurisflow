@@ -1,0 +1,203 @@
+{
+  "ruling_id": "26054",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قانونی",
+      "evidence": {
+        "quote": "خواهان از معافیت قانونی بهره مند شود",
+        "start_char": 162,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق‌الوکاله",
+      "evidence": {
+        "quote": "حق الوکاله نماینده قضایی دادگاه",
+        "start_char": 117,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت دادرسی",
+      "evidence": {
+        "quote": "مطالبه خسارت دادرسی",
+        "start_char": 95,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه خسارت دادرسی",
+        "start_char": 87,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "هزینه دادرسی مالی ابطال ننموده",
+        "start_char": 201,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استفاده",
+      "evidence": {
+        "quote": "از طرفی برابر قانون خواهان در دفاع و طرح دعوی از نماینده حقوقی استفاده نموده",
+        "start_char": 234,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر می نماید",
+        "start_char": 393,
+        "end_char": 428,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی بنیاد شهید و امور ایثارگران",
+        "start_char": 575,
+        "end_char": 616,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "محکوم به رد اعلام شده",
+        "start_char": 930,
+        "end_char": 951,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "تجدیدنظرخواسته را تایید می نماید",
+        "start_char": 2130,
+        "end_char": 2162,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نظر به اینکه خواهان از معافیت قانونی بهره مند شود",
+        "start_char": 149,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه وجهی بابت هزینه دادرسی در مراحل بدوی و تجدیدنظر پرداخت نکرده است",
+        "start_char": 1877,
+        "end_char": 1954,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "با توجه به قطعیت محکومیت تجدیدنظرخواندگان در پرداخت اصل خواسته",
+        "start_char": 1596,
+        "end_char": 1658,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "نماینده",
+      "evidence": {
+        "quote": "از طرفی برابر قانون خواهان در دفاع و طرح دعوی از نماینده حقوقی استفاده نموده",
+        "start_char": 234,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "هزینه دادرسی مالی ابطال ننموده",
+        "start_char": 201,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دانگ مشاع",
+      "evidence": {
+        "quote": "بهای دودانگ و یک چهارم دانگ مشاع دو قطعه زمین",
+        "start_char": 839,
+        "end_char": 884,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاکهای ثبتی",
+      "evidence": {
+        "quote": "پلاکهای ثبتی",
+        "start_char": 888,
+        "end_char": 900,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان هزینه دادرسی را پرداخت نکرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه وجهی بابت هزینه دادرسی در مراحل بدوی و تجدیدنظر پرداخت نکرده است",
+        "start_char": 1877,
+        "end_char": 1954,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه از معافیت قانونی بهره‌مند است",
+      "evidence": {
+        "quote": "از معافیت قانونی در این رابطه بهره مند شده",
+        "start_char": 1957,
+        "end_char": 1999,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

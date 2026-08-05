@@ -1,0 +1,133 @@
+{
+  "ruling_id": "34766",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "به خواسته اعتراض نسبت به تشخیص منابع ملی",
+        "start_char": 289,
+        "end_char": 329,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت به اعتبار صلاحیت هیأت",
+        "start_char": 683,
+        "end_char": 720,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت ذاتی مورد اشاره در فوق",
+        "start_char": 1791,
+        "end_char": 1829,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "به خواسته اعتراض نسبت به تشخیص منابع ملی",
+        "start_char": 289,
+        "end_char": 329,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض و پرونده برای رسیدگی به دادگاه اعاده می گردد",
+        "start_char": 1928,
+        "end_char": 1976,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده برای رسیدگی به دادگاه اعاده می گردد",
+        "start_char": 1934,
+        "end_char": 1976,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در زمان تقدیم دادخواست خواهان",
+        "start_char": 1241,
+        "end_char": 1270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "به طرفیت اداره منابع طبیعی شهرستان مشهد",
+        "start_char": 249,
+        "end_char": 288,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "در مورد 12578/5 متر مربع زمین",
+        "start_char": 330,
+        "end_char": 359,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اراضی",
+      "evidence": {
+        "quote": "از اراضی واقع در پلاک 184 اصلی",
+        "start_char": 360,
+        "end_char": 390,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ادعای مالکیت بر اراضی در پلاک 184 اصلی بخش 6 مشهد",
+      "evidence": {
+        "quote": "از اراضی واقع در پلاک 184 اصلی بخش 6 مشهد",
+        "start_char": 360,
+        "end_char": 401,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تغییر مدت قانونی در قانون افزایش بهره وری بخش کشاورزی و منابع طبیعی",
+      "evidence": {
+        "quote": "و مدت مذکور در آن تبصره از یک سال به پنج سال افزایش یافته",
+        "start_char": 623,
+        "end_char": 680,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "813",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز وجود رابطه زوجیت فی مابین متداعیین",
+        "start_char": 292,
+        "end_char": 332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه معوقه",
+        "start_char": 106,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "علی رغم تمکین و انجام وظایف زناشوئی",
+        "start_char": 376,
+        "end_char": 411,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه معوقه",
+        "start_char": 96,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "اقامه دعوی نموده است",
+        "start_char": 190,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "خوانده از پرداخت نفقه استنکاف نموده",
+        "start_char": 427,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ج.الف.",
+        "start_char": 1193,
+        "end_char": 1218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دادنامه تجدیدنظرخواسته را تأیید می نماید",
+        "start_char": 1844,
+        "end_char": 1897,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در این پرونده خواهان خانم ف.ک.",
+        "start_char": 0,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای ج.الف.",
+        "start_char": 59,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی",
+        "start_char": 1610,
+        "end_char": 1637,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "رونوشت سند نکاحیه شماره 790",
+        "start_char": 262,
+        "end_char": 289,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه 9101378",
+        "start_char": 1219,
+        "end_char": 1237,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین وجود دارد",
+      "evidence": {
+        "quote": "احراز وجود رابطه زوجیت فی مابین متداعیین",
+        "start_char": 292,
+        "end_char": 332,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده از پرداخت نفقه خودداری کرده است",
+      "evidence": {
+        "quote": "خوانده از پرداخت نفقه استنکاف نموده",
+        "start_char": 427,
+        "end_char": 462,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

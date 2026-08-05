@@ -1,0 +1,183 @@
+{
+  "ruling_id": "31509",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "صدور حکم در بطلان رأی داوری",
+        "start_char": 54,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "به شرط داوری مندرج در قرارداد",
+        "start_char": 1159,
+        "end_char": 1188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اهلیت",
+      "evidence": {
+        "quote": "با وصف دارا شدن اهلیت قانونی بوده",
+        "start_char": 1739,
+        "end_char": 1772,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "بخواسته صدور حکم در بطلان رأی داوری",
+        "start_char": 46,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مراجعه",
+      "evidence": {
+        "quote": "مراجعت به طرفین قرارداد داشته",
+        "start_char": 1189,
+        "end_char": 1218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "اقدام به فروش کرده",
+        "start_char": 940,
+        "end_char": 958,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را نقض کرده",
+        "start_char": 1885,
+        "end_char": 1919,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ع. ر.",
+        "start_char": 522,
+        "end_char": 546,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مولی علیه",
+      "evidence": {
+        "quote": "در کلیه امور مربوط به اموال و حقوق مالی مولی علیه",
+        "start_char": 1247,
+        "end_char": 1295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "نماینده",
+      "evidence": {
+        "quote": "ولی نماینده قانونی او می باشد",
+        "start_char": 1297,
+        "end_char": 1326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "از جانب داور منوط به اعمال مورد از طریق شخص مولی علیه",
+        "start_char": 1685,
+        "end_char": 1738,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "بطلان رأی داوری",
+        "start_char": 66,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "همان گونه که در قرارداد ابراز شده",
+        "start_char": 789,
+        "end_char": 822,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "مالک ملک موضوع قرارداد بوده",
+        "start_char": 878,
+        "end_char": 905,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "مالک دودانگ پلاک ثبتی یادشده بوده",
+        "start_char": 991,
+        "end_char": 1024,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "موضوع رای داوری مربوط به مالکیت متین ر. بوده است",
+      "evidence": {
+        "quote": "موضوع رای داوری (110-1393/3/20) تصریح شده آقای متین ر. مالک ملک موضوع قرارداد بوده",
+        "start_char": 823,
+        "end_char": 905,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ع. ر. به عنوان ولی اقدام به فروش ملک کرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به ولایت از نامبرده اقدام به فروش کرده",
+        "start_char": 907,
+        "end_char": 958,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

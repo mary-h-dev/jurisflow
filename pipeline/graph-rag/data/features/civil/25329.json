@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25329",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "بدواً‌ اعسار از هزینه دادرسی",
+        "start_char": 140,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت‌المثل",
+        "start_char": 68,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "در قالب قرارداد موجر و مستأجر هم نبوده",
+        "start_char": 951,
+        "end_char": 989,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت‌المثل",
+        "start_char": 58,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض کرده",
+        "start_char": 1799,
+        "end_char": 1823,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن پذیرش اعتراض و نقض دادنامه مارالذکر",
+        "start_char": 1974,
+        "end_char": 2013,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "تجدیدنظرخواه هزینه را با وجود ابلاغ پرداخت نکرده است",
+        "start_char": 1865,
+        "end_char": 1917,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با توجه به اینکه خواهان در خصوص اثبات ادعای خود",
+        "start_char": 183,
+        "end_char": 230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "کارهای انجام شده برحسب امر خوانده نبوده",
+        "start_char": 909,
+        "end_char": 948,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه با توجه به کارهایی را که در منزل مشترک انجام داده",
+        "start_char": 1594,
+        "end_char": 1656,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده نیز این ادعا را رد نکرده است",
+        "start_char": 1701,
+        "end_char": 1744,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجرت‌المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت‌المثل 35 سال زندگی مشترک",
+        "start_char": 68,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "اعسار از هزینه دادرسی",
+        "start_char": 147,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "حکم به محکومیت تجدیدنظرخوانده به پرداخت مبلغ ده (10) میلیون و یکصد هزار تومان",
+        "start_char": 2073,
+        "end_char": 2150,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زندگی مشترک ۳۵ ساله وجود داشته است",
+      "evidence": {
+        "quote": "مطالبه اجرت‌المثل 35 سال زندگی مشترک",
+        "start_char": 68,
+        "end_char": 104,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه هزینه کارشناسی را پرداخت نکرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه هزینه را با وجود ابلاغ پرداخت نکرده است",
+        "start_char": 1865,
+        "end_char": 1917,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

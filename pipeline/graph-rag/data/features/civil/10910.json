@@ -1,0 +1,163 @@
+{
+  "ruling_id": "10910",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "عسروحرج زوجه را محرز دانسته",
+        "start_char": 3262,
+        "end_char": 3289,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "تقاضای صدور حکم طلاق دارد",
+        "start_char": 1597,
+        "end_char": 1622,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلح",
+      "evidence": {
+        "quote": "درخواست ارشاد طرفین برای صلح و سازش",
+        "start_char": 2760,
+        "end_char": 2795,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی به خواسته صدور گواهی عدم امکان سازش به سبب عسروحرج، به‌طرفیت زوج آقای م.ع. تقدیم دادگستری شهرستان آمل نموده",
+        "start_char": 33,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "زوج نیز هیچ‌گونه نفقه و خرجی به زوجه پرداخت نمی‌نماید",
+        "start_char": 501,
+        "end_char": 554,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "با تقدیم دادخواست تجدیدنظر نسبت به آن اعتراض نموده",
+        "start_char": 3627,
+        "end_char": 3677,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "حاضر است چهار سکه از مهریه‌اش را در ازاء طلاق بذل نماید",
+        "start_char": 1525,
+        "end_char": 1580,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "تقاضای نقض دادنامه تجدیدنظرخواسته را دارم",
+        "start_char": 4220,
+        "end_char": 4261,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار داشته",
+        "start_char": 803,
+        "end_char": 826,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به موجب سند نکاحیه شماره 10913 با مهریه 124 عدد سکه تمام بهار آزادی به عقد شرعی و رسمی خوانده درآمده است",
+        "start_char": 191,
+        "end_char": 295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "آقای م.ح. به‌عنوان داور زوجه",
+        "start_char": 2434,
+        "end_char": 2462,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به موجب سند نکاحیه شماره 10913",
+        "start_char": 191,
+        "end_char": 221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "با مهریه 124 عدد سکه تمام بهار آزادی",
+        "start_char": 222,
+        "end_char": 258,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مراسم عروسی برگزار نشده است",
+      "evidence": {
+        "quote": "هنوز در دوره عقد است و به‌اصطلاح مراسم عروسی برگزار نشده و زیر یک سقف نرفته‌اند",
+        "start_char": 1792,
+        "end_char": 1871,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از پرداخت نفقه خودداری کرده است",
+      "evidence": {
+        "quote": "زوج نیز هیچ‌گونه نفقه و خرجی به زوجه پرداخت نمی‌نماید",
+        "start_char": 501,
+        "end_char": 554,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

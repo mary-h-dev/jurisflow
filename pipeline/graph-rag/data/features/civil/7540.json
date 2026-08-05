@@ -1,0 +1,163 @@
+{
+  "ruling_id": "7540",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "محکومیت تضامنی وی با خوانده اخیر و خوانده ردیف سوّم را خواستار شده",
+        "start_char": 17641,
+        "end_char": 17707,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمان",
+      "evidence": {
+        "quote": "بعدازاین که ضمان به طور صحیح واقع شده ذمّه مضمونٌ عنه بری و ذمّه ضامن مشغول می شود",
+        "start_char": 1447,
+        "end_char": 1529,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشخاص ثالث",
+      "evidence": {
+        "quote": "اصل عدم توجه ایرادات اشخاص ثالث که از اوصاف اسناد تجاری است",
+        "start_char": 2554,
+        "end_char": 2613,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ شش صد و هفتاد میلیون ریال",
+        "start_char": 194,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "نسبت به دادنامه یادشده واخواهی به عمل آورده",
+        "start_char": 2196,
+        "end_char": 2239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "نسبت به دادنامه مذکور واخواهی و تجدیدنظرخواهی نشده",
+        "start_char": 3709,
+        "end_char": 3759,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "تقاضای نقض دادنامه را نموده",
+        "start_char": 3072,
+        "end_char": 3099,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "آقای الف.م.... با وکالت آقای س.ج.... به خواسته مطالبه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت الف ـ شرکت گروه صنعتی شیمیایی ن. (سهامی خاص) ب ـ خانم س.چ. ج ـ آقای ر.پ.",
+        "start_char": 90,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه 86/809 تجدیدنظرخواهی به عمل آورده",
+        "start_char": 3944,
+        "end_char": 3993,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجام‌خوانده",
+      "evidence": {
+        "quote": "لایحه پاسخیه ای از فرجام خوانده مشهود نمی باشد",
+        "start_char": 16553,
+        "end_char": 16599,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "وجه یک فقره چک شماره 956172ـ ن ـ45",
+        "start_char": 242,
+        "end_char": 276,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "طبق متن چک، وجه آن به عنوان بخشی از ثمن خرید سهام شرکت به استناد موضوع قرارداد",
+        "start_char": 2279,
+        "end_char": 2357,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک برگشت خورده است",
+      "evidence": {
+        "quote": "با مراجعه به بانک به جهت عدم موجودی، برگشت خورده",
+        "start_char": 551,
+        "end_char": 599,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک به دلیل تقلب در تراز مالی فاقد اعتبار است",
+      "evidence": {
+        "quote": "گزارش کارشناس رسمی حکایت از ساختگی بودن آن دارد یعنی تنظیم کردن تراز مالی صوری",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

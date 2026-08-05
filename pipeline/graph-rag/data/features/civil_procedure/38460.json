@@ -1,0 +1,123 @@
+{
+  "ruling_id": "38460",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "اصل صلاحیت محل اقامت خوانده",
+        "start_char": 2923,
+        "end_char": 2950,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه وجه",
+      "evidence": {
+        "quote": "مطالبه وجه چک",
+        "start_char": 116,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت دادرسی",
+        "start_char": 149,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار عدم",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 2139,
+        "end_char": 2154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حل اختلاف",
+      "evidence": {
+        "quote": "حل اختلاف",
+        "start_char": 3826,
+        "end_char": 3835,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "اقای ا. ج. ح. فرزند ع. ساکن *",
+        "start_char": 398,
+        "end_char": 427,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "دارنده",
+      "evidence": {
+        "quote": "دارنده سند تجاری",
+        "start_char": 3033,
+        "end_char": 3049,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "وجه یک فقره چک به شماره 614281-1400/12/22",
+        "start_char": 445,
+        "end_char": 486,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی عدم",
+      "evidence": {
+        "quote": "گواهی عدم پرداخت چک توسط بانک ملت شهرستان خمینی شهر",
+        "start_char": 883,
+        "end_char": 934,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "صدور گواهی عدم پرداخت توسط بانک ملت",
+      "evidence": {
+        "quote": "گواهی عدم پرداخت چک توسط بانک ملت شهرستان خمینی شهر امضا و ممهور شده است",
+        "start_char": 883,
+        "end_char": 955,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم صلاحیت شعبه اول دادگاه عمومی حقوقی شهرستان خمینی شهر",
+      "evidence": {
+        "quote": "خود را صالح به رسیدگی تشخیص نداده",
+        "start_char": 2025,
+        "end_char": 2058,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

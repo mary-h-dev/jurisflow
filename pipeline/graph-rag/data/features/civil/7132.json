@@ -1,0 +1,233 @@
+{
+  "ruling_id": "7132",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "زوجیت",
+      "evidence": {
+        "quote": "خواهان و خوانده در قید زوجیت می باشد",
+        "start_char": 200,
+        "end_char": 236,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ثابت شود",
+      "evidence": {
+        "quote": "اصل بر این است که وسایل منزل، متعلق به زوج است مگر خلاف آن ثابت شود",
+        "start_char": 1147,
+        "end_char": 1214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "امانت",
+      "evidence": {
+        "quote": "وسایل مذکور در غیاب زوج به عنوان امانت نزد زوجه تلقی می گردد",
+        "start_char": 1841,
+        "end_char": 1901,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد لوازم و اجناس منزل",
+        "start_char": 105,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "زوجه نفقه معوقه خود را، طی دادخواست جداگانه، مطالبه نموده",
+        "start_char": 1606,
+        "end_char": 1663,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض عنه",
+        "start_char": 1807,
+        "end_char": 1832,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض وارد است",
+        "start_char": 1091,
+        "end_char": 1106,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان آقای ر.ک.",
+        "start_char": 0,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم ل.م. فرزند ب. به خواسته",
+        "start_char": 77,
+        "end_char": 114,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "اصل بر این است که وسایل منزل، متعلق به زوج است",
+        "start_char": 1147,
+        "end_char": 1193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "نیاز ضروری زوجه می باشد",
+        "start_char": 279,
+        "end_char": 302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "با عنایت به اینکه تجدیدنظرخواه صراحتاً اعلام نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "لوازم",
+      "evidence": {
+        "quote": "استرداد لوازم و اجناس منزل",
+        "start_char": 115,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فاکتور",
+      "evidence": {
+        "quote": "مطابق فاکتورهای موجود",
+        "start_char": 142,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "استشهادیه",
+      "evidence": {
+        "quote": "و استشهادیه",
+        "start_char": 164,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث‌البیت",
+      "evidence": {
+        "quote": "و اثاث البیت موجود در منزل",
+        "start_char": 237,
+        "end_char": 263,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "زوجه نفقه معوقه خود را",
+        "start_char": 1606,
+        "end_char": 1628,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "استرداد اموال زوج",
+        "start_char": 2018,
+        "end_char": 2035,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین در قید زوجیت هستند",
+      "evidence": {
+        "quote": "خواهان و خوانده در قید زوجیت می باشد",
+        "start_char": 200,
+        "end_char": 236,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجین در یک منزل سکونت دارند",
+      "evidence": {
+        "quote": "زوجین در یک منزل سکونت داشته اند",
+        "start_char": 1112,
+        "end_char": 1144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجین در حال حاضر جدا زندگی می‌کنند",
+      "evidence": {
+        "quote": "زوجین در حال حاضر جدا زندگی می کنند",
+        "start_char": 1462,
+        "end_char": 1497,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حکم طلاق صادر شده است",
+      "evidence": {
+        "quote": "حسب اظهارات آنان حکم طلاق صادر شده است",
+        "start_char": 1527,
+        "end_char": 1565,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

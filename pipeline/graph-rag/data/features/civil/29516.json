@@ -1,0 +1,203 @@
+{
+  "ruling_id": "29516",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم احراز",
+      "evidence": {
+        "quote": "عدم احراز مالکیت",
+        "start_char": 520,
+        "end_char": 536,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم رعایت",
+      "evidence": {
+        "quote": "عدم رعایت",
+        "start_char": 496,
+        "end_char": 505,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "تنظیم سندرسمی",
+        "start_char": 113,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل مبیع",
+      "evidence": {
+        "quote": "تحویل مبیع",
+        "start_char": 231,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدید نظر خواهی",
+        "start_char": 868,
+        "end_char": 883,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "رد تجدید نظر خواهی",
+        "start_char": 3274,
+        "end_char": 3292,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان",
+        "start_char": 412,
+        "end_char": 418,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده",
+        "start_char": 102,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظر خواه",
+        "start_char": 868,
+        "end_char": 882,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "تجدید نظر خواندگان",
+        "start_char": 939,
+        "end_char": 957,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "مشتری",
+        "start_char": 2416,
+        "end_char": 2421,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "خریدار",
+        "start_char": 2424,
+        "end_char": 2430,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شخص ثالث",
+      "evidence": {
+        "quote": "شخص ثالث",
+        "start_char": 449,
+        "end_char": 457,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "قطعه زمین",
+        "start_char": 135,
+        "end_char": 144,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعنامه",
+      "evidence": {
+        "quote": "مبایعنامه",
+        "start_char": 392,
+        "end_char": 401,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرار",
+      "evidence": {
+        "quote": "قرار داد عادی بیع",
+        "start_char": 2369,
+        "end_char": 2386,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "وکالت نامه",
+        "start_char": 2646,
+        "end_char": 2656,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبایعنامه توسط شخص ثالثی امضا شده است",
+      "evidence": {
+        "quote": "مبایعنامه مورداستنادخواهان به امضاء خواهان نرسیده وازسوی شخص ثالثی به هویت موسوی امضاء گردیده است",
+        "start_char": 392,
+        "end_char": 489,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وکالتنامه فاقد اعتبار نسبت به اشخاص ثالث است",
+      "evidence": {
+        "quote": "نسبت به اشخاص ثالث معتبر نمی باشد",
+        "start_char": 2881,
+        "end_char": 2914,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

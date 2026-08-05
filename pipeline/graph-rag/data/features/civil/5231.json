@@ -1,0 +1,123 @@
+{
+  "ruling_id": "5231",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتبار",
+      "evidence": {
+        "quote": "دایر بر اعتبار بینه شرعیه",
+        "start_char": 628,
+        "end_char": 653,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "حکم به ابطال شناسنامه",
+        "start_char": 654,
+        "end_char": 675,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "صدور شناسنامه جدید",
+        "start_char": 132,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره ثبت احوال اراک",
+        "start_char": 944,
+        "end_char": 978,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظر خواسته",
+        "start_char": 1548,
+        "end_char": 1579,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به این شرح که خواهان ادعا نموده",
+        "start_char": 192,
+        "end_char": 223,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و الزام خوانده به صدور",
+        "start_char": 703,
+        "end_char": 725,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نظر به اینکه تجدیدنظرخواه در مقام اعتراض",
+        "start_char": 1234,
+        "end_char": 1274,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "ابطال شناسنامه فرزند خواهان",
+        "start_char": 92,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرزند در ایام نوزادی فوت کرده است",
+      "evidence": {
+        "quote": "که در ایام نوزادی فوت کرده",
+        "start_char": 287,
+        "end_char": 313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شناسنامه فرزند قبلی برای فرزند بعدی استفاده شده است",
+      "evidence": {
+        "quote": "همان شناسنامه برای فرزند بعدی مورداستفاده قرارگرفته",
+        "start_char": 316,
+        "end_char": 367,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "29528",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "موجبات مسئولیت تضامنی برای متصدی رستوران نمی باشد",
+        "start_char": 1878,
+        "end_char": 1927,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "و خسارت تاخیر تادیه از تاریخ صدور چکها",
+        "start_char": 789,
+        "end_char": 827,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه",
+        "start_char": 123,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته درخور نقض می باشد",
+        "start_char": 2074,
+        "end_char": 2114,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نظر به اینکهخواهان به موجب دادخواست",
+        "start_char": 232,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف اول بعنوان صادر کننده چکها",
+        "start_char": 280,
+        "end_char": 318,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظرخوانده آقای ع. ق.ش.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظرخوانده آقای ع. ق.ش.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "وجه27 فقره چک",
+        "start_char": 140,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 521",
+        "start_char": 1295,
+        "end_char": 1320,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تادیه وجوه",
+      "evidence": {
+        "quote": "عدم تادیه وجوه منتهی به صدور گواهی عدم تادیه وجوه آنها گردیده",
+        "start_char": 427,
+        "end_char": 488,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مهر بدون امضاء شخص",
+      "evidence": {
+        "quote": "صرف مهر رستوران بدون آنکه منقوش به امضاء شخص گرددازموجبات مسئولیت تضامنی برای متصدی رستوران نمی باشد",
+        "start_char": 1827,
+        "end_char": 1927,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

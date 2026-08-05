@@ -1,0 +1,113 @@
+{
+  "ruling_id": "4862",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "به خواسته اعلام ورشکستگی شرکت خواهان",
+        "start_char": 105,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقف",
+      "evidence": {
+        "quote": "با تعیین تاریخ 4/2/1387 به عنوان تاریخ توقف",
+        "start_char": 142,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام ورشکستگی",
+      "evidence": {
+        "quote": "به خواسته اعلام ورشکستگی شرکت خواهان",
+        "start_char": 105,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد آن را صادر می نماید",
+        "start_char": 1036,
+        "end_char": 1063,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را جهت رسیدگی ماهوی به دادگاه محترم صادرکننده آن اعاده می نماید",
+        "start_char": 2037,
+        "end_char": 2107,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت دادستان عمومی و انقلاب تهران به خواسته اعلام ورشکستگی شرکت خواهان",
+        "start_char": 67,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "به طرفیت دادستان عمومی و انقلاب تهران",
+        "start_char": 67,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال و دارایی",
+      "evidence": {
+        "quote": "صورت حساب دارایی و کلیه دفاتر تجارتی خود را به آن تسلیم نمود",
+        "start_char": 374,
+        "end_char": 434,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دفاتر",
+      "evidence": {
+        "quote": "صورت حساب دارایی و کلیه دفاتر تجارتی خود را به آن تسلیم نمود",
+        "start_char": 374,
+        "end_char": 434,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه صورت و مشخصات اموال و بدهی ها و بستانکاران",
+      "evidence": {
+        "quote": "به لحاظ عدم ارائه صورت و مشخصات اموال و بدهی ها و بستانکاران و...قرار رد آن صادرشده",
+        "start_char": 1444,
+        "end_char": 1527,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

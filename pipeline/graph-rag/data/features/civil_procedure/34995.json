@@ -1,0 +1,163 @@
+{
+  "ruling_id": "34995",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ معامله انتقال پلاک های",
+        "start_char": 207,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال انتقال رسمی پلاک های مذکور",
+        "start_char": 315,
+        "end_char": 347,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تقاضای رسیدگی و صدور حکم می نماید",
+        "start_char": 810,
+        "end_char": 843,
+        "confidence": 0.7
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "حکم به ابطال سند انتقال صادر",
+        "start_char": 2410,
+        "end_char": 2438,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "ولی دعوی فسخ را ردّ می کند",
+        "start_char": 2439,
+        "end_char": 2465,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تجویز اعاده دادرسی فرموده",
+        "start_char": 3960,
+        "end_char": 3985,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان ها در پاسخ اظهار داشته",
+        "start_char": 1231,
+        "end_char": 1265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ح. ب. فرزند الف. و آقای ع. ر.ض. فرزند م.",
+        "start_char": 138,
+        "end_char": 192,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "موکل ها مالک پلاک های مذکور بوده",
+        "start_char": 455,
+        "end_char": 487,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک",
+      "evidence": {
+        "quote": "پلاک های... و... و... بخش... بوشهر",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "ثمن معامله یک میلیارد تومان",
+        "start_char": 1717,
+        "end_char": 1744,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "حکم به ابطال سند انتقال صادر",
+        "start_char": 2410,
+        "end_char": 2438,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده دوم مدعی عدم دریافت ثمن شده است",
+      "evidence": {
+        "quote": "خوانده ردیف دوم مدعی عدم دریافت ثمن گردیده",
+        "start_char": 685,
+        "end_char": 727,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده اول مدعی عدم تمکن در پرداخت ثمن است",
+      "evidence": {
+        "quote": "خواندۀ دیگر مدعی عدم تمکن در پرداخت ثمن می باشد",
+        "start_char": 730,
+        "end_char": 777,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کاهش مبلغ خواسته توسط خواهان انجام شده است",
+      "evidence": {
+        "quote": "وکیل خواهان طی لایحه ای ارزش دو خواسته را هر یک به 250 هزار تومان تقویم و ارزش خواسته را کاهش می دهد",
+        "start_char": 2258,
+        "end_char": 2358,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

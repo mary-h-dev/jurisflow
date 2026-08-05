@@ -1,0 +1,173 @@
+{
+  "ruling_id": "35603",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ایراد ضرب",
+      "evidence": {
+        "quote": "ایراد ضرب و جرح عمدی",
+        "start_char": 82,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حبس تعزیری",
+      "evidence": {
+        "quote": "حبس تعزیری",
+        "start_char": 715,
+        "end_char": 725,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دیه",
+      "evidence": {
+        "quote": "پرداخت مقادیری دیه",
+        "start_char": 2743,
+        "end_char": 2761,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ارش",
+      "evidence": {
+        "quote": "پرداخت مقادیری دیه و ارش",
+        "start_char": 2743,
+        "end_char": 2767,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی",
+        "start_char": 2971,
+        "end_char": 2985,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت",
+        "start_char": 656,
+        "end_char": 670,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تعلیق",
+      "evidence": {
+        "quote": "تعلیق گردیده است",
+        "start_char": 2915,
+        "end_char": 2931,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اصلاح",
+      "evidence": {
+        "quote": "دادنامه صادره اصلاح می گردد",
+        "start_char": 3409,
+        "end_char": 3436,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظر خواهی",
+        "start_char": 3491,
+        "end_char": 3512,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "تجدیدنظر خواسته را با اصلاح مذکور تائید می نماید",
+        "start_char": 3539,
+        "end_char": 3587,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهمین",
+      "evidence": {
+        "quote": "هر یک از متهمین",
+        "start_char": 1168,
+        "end_char": 1183,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شکایت شاکی خصوصی",
+        "start_char": 298,
+        "end_char": 314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مصدوم",
+      "evidence": {
+        "quote": "در حق مصدوم آقای ق. خ",
+        "start_char": 2081,
+        "end_char": 2102,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره 301260-93",
+        "start_char": 2427,
+        "end_char": 2450,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وقوع درگیری و ضرب و جرح",
+      "evidence": {
+        "quote": "اقرار متهم ردیف اول و سوم به درگیری",
+        "start_char": 419,
+        "end_char": 454,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود جراحات و کبودی در بدن",
+      "evidence": {
+        "quote": "هشت فقره کبودی در پشت گردن",
+        "start_char": 1257,
+        "end_char": 1283,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "36903",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قصاص",
+      "evidence": {
+        "quote": "محکوم به قصاص گردیده",
+        "start_char": 172,
+        "end_char": 192,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعزیر",
+      "evidence": {
+        "quote": "پس از تعیین تعزیر مناسب",
+        "start_char": 739,
+        "end_char": 762,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "در خصوص اعتراض محکوم علیه",
+        "start_char": 13,
+        "end_char": 38,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده از امار کسر به اجرای احکام اعاده گردد",
+        "start_char": 435,
+        "end_char": 479,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "اعتراض محکوم علیه س. ک.",
+        "start_char": 21,
+        "end_char": 44,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متقاضی",
+      "evidence": {
+        "quote": "متقاضی قصاص به علت عدم پرداخت سهم عافی از قصاص ( پدر مقتول )",
+        "start_char": 304,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اولیای دم",
+      "evidence": {
+        "quote": "تا بنحو مقتضی به اولیای دم اعلام شود",
+        "start_char": 481,
+        "end_char": 517,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "تقاضای مکتوب دادستان",
+        "start_char": 1005,
+        "end_char": 1025,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "طی دادنامه شماره 955300215",
+        "start_char": 117,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اصل 40",
+      "evidence": {
+        "quote": "اصل پرونده اجرایی",
+        "start_char": 978,
+        "end_char": 995,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت سهم عافی از قصاص توسط متقاضی قصاص",
+      "evidence": {
+        "quote": "متقاضی قصاص به علت عدم پرداخت سهم عافی از قصاص ( پدر مقتول ) نسبت به فراهم اوردن شرایط اجرای حکم مبادرت ننموده است",
+        "start_char": 304,
+        "end_char": 418,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قطعیت حکم",
+      "evidence": {
+        "quote": "پس از قطعیت حکم در شعبه محترم چهارم دیوان عالی کشور",
+        "start_char": 208,
+        "end_char": 259,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

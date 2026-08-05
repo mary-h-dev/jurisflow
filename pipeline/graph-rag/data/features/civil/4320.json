@@ -1,0 +1,203 @@
+{
+  "ruling_id": "4320",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "به خواسته اثبات انتقال 4 برگ حواله",
+        "start_char": 146,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "الزام",
+      "evidence": {
+        "quote": "و الزام به تحویل آن",
+        "start_char": 264,
+        "end_char": 283,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بطلان دعوی صادر و اعلام می شود",
+        "start_char": 3055,
+        "end_char": 3089,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتبار",
+      "evidence": {
+        "quote": "فاقد اعتبار می باشند",
+        "start_char": 1311,
+        "end_char": 1331,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "واگذار",
+      "evidence": {
+        "quote": "خواهان ها 100 سهم شرکت خ. متعلق به خود را در قبال /000/000/630 تومان به خوانده ردیف اول واگذار کردند",
+        "start_char": 382,
+        "end_char": 482,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "می بایست مبلغ /000/000/150 تومان دیگر نیز وجه نقد تحویل نماید",
+        "start_char": 627,
+        "end_char": 688,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحقق",
+      "evidence": {
+        "quote": "شرط مندرج در قرارداد فی مابین خواندگان تحقق پیدا ننموده",
+        "start_char": 2876,
+        "end_char": 2931,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان ها 100 سهم شرکت خ. متعلق به خود را",
+        "start_char": 382,
+        "end_char": 423,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به خوانده ردیف اول واگذار کردند",
+        "start_char": 451,
+        "end_char": 482,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "طلبکار",
+      "evidence": {
+        "quote": "زیرا طلبکار (خوانده ردیف اول) نمی تواند",
+        "start_char": 1806,
+        "end_char": 1845,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بدهکار",
+      "evidence": {
+        "quote": "و بدهکار (شرکت خوانده ردیف دوم) حق دارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.الف. و م.ف.",
+        "start_char": 3418,
+        "end_char": 3450,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "مسئولیت متوجه تجدیدنظرخوانده (شرکت ذ. و ن.) نمی باشد",
+        "start_char": 4138,
+        "end_char": 4190,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "حواله",
+      "evidence": {
+        "quote": "4 برگ حواله به شماره های 328، 329، 383 و 386",
+        "start_char": 169,
+        "end_char": 213,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سهم",
+      "evidence": {
+        "quote": "خواهان ها 100 سهم شرکت خ. متعلق به خود را",
+        "start_char": 382,
+        "end_char": 423,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "می بایست مبلغ /000/000/150 تومان دیگر نیز وجه نقد تحویل نماید",
+        "start_char": 627,
+        "end_char": 688,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واگذاری سهام در قبال حواله",
+      "evidence": {
+        "quote": "خواهان ها 100 سهم شرکت خ. متعلق به خود را در قبال /000/000/630 تومان به خوانده ردیف اول واگذار کردند که بابت قسمتی از ثمن مقدار 450 تن میلگرد با اوصاف مذکور طی 4 فقره حواله مستند دعوی واگذاری از ناحیه خوانده ردیف دوم به اول به خواهان ها تحویل",
+        "start_char": 382,
+        "end_char": 624,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه مجوز صادرات",
+      "evidence": {
+        "quote": "تا کنون هیچ گونه دلیلی که حکایت از ارایه مجوز باشد به اثبات نرسیده و عنوان نشده است",
+        "start_char": 2253,
+        "end_char": 2336,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم انجام تعهد توسط خوانده ردیف اول",
+      "evidence": {
+        "quote": "عدم انجام تعهد توسط خوانده ردیف اول به نفع خوانده ردیف دوم تأثیری در تعهد وی به انجام تعهد به نفع خواهان ها نداشته",
+        "start_char": 2356,
+        "end_char": 2470,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "5109",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "اصل نیز بر عدم تبرع می باشد",
+        "start_char": 326,
+        "end_char": 353,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "به خواسته اجرت المثل ایام زندگی مشترک طرفین",
+        "start_char": 59,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "خود را مطلقه نموده است",
+        "start_char": 1554,
+        "end_char": 1576,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض وارد است",
+        "start_char": 1415,
+        "end_char": 1430,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض عنه",
+        "start_char": 2376,
+        "end_char": 2401,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم بر ردّ دعوی خواهان بدوی صادر",
+        "start_char": 2431,
+        "end_char": 2463,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مدارک و مستندات ابرازی خواهان",
+        "start_char": 133,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با توجه به اینکه خوانده نیز دلیلی کافی",
+        "start_char": 356,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به پرداخت اجرت المثل",
+        "start_char": 1349,
+        "end_char": 1382,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به دستور زوج کارهایی انجام داده",
+        "start_char": 1848,
+        "end_char": 1879,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه به موجب وکالت نامه",
+        "start_char": 1436,
+        "end_char": 1459,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 753",
+        "start_char": 1252,
+        "end_char": 1277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "به موجب وکالت نامه شماره 3020",
+        "start_char": 1441,
+        "end_char": 1470,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه اقدام به طلاق توافقی کرده است",
+      "evidence": {
+        "quote": "زوجه به موجب وکالت نامه شماره 3020\\nمورخ 29/2/90\\nدفترخانه....تهران با تقدیم دادخواست نخست عنوان طلاق توافقی (بدون حضور) خود را مطلقه نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان در منزل مشترک کارهایی انجام داده است",
+      "evidence": {
+        "quote": "خواهان در طول زندگی مشترک کارهایی را که شرعاً به عده وی نبوده در منزل مشترک انجام داده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

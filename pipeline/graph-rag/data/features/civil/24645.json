@@ -1,0 +1,123 @@
+{
+  "ruling_id": "24645",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "ملاک تحقق مسئولیت مدنی است",
+        "start_char": 289,
+        "end_char": 315,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لاضرر",
+      "evidence": {
+        "quote": "لاضرر",
+        "start_char": 1077,
+        "end_char": 1082,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لاضرار",
+      "evidence": {
+        "quote": "لاضرار فی الاسلام",
+        "start_char": 1085,
+        "end_char": 1102,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در شعب تجدیدنظر دیوان می باشد",
+        "start_char": 1555,
+        "end_char": 1603,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تأیید و استواری اعلام می‌گردد",
+        "start_char": 2490,
+        "end_char": 2519,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "ورود خسارت به اتومبیل شاکی",
+        "start_char": 64,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخواه نیز دلیل و مدرکی",
+        "start_char": 2186,
+        "end_char": 2224,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اتومبیل",
+      "evidence": {
+        "quote": "ورود خسارت به اتومبیل شاکی",
+        "start_char": 64,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "ورود خسارت به اتومبیل شاکی",
+        "start_char": 64,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم نصب علایم هشدار دهنده توسط شهرداری",
+      "evidence": {
+        "quote": "عدم رعایت مقررات قانونی، از جمله عدم نصب علایم هشدار دهنده",
+        "start_char": 1707,
+        "end_char": 1765,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وقوع حادثه و ورود خسارت به خودرو",
+      "evidence": {
+        "quote": "دلالت بر ورود خسارت به اتومبیل شاکی داشته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

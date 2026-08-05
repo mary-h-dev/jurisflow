@@ -1,0 +1,183 @@
+{
+  "ruling_id": "4087",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تخریب",
+      "evidence": {
+        "quote": "اتهام تخریب عمدی",
+        "start_char": 326,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضرب وجرح عمدی",
+      "evidence": {
+        "quote": "مشارکت در ضرب و جرح عمدی",
+        "start_char": 452,
+        "end_char": 476,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تهدید",
+      "evidence": {
+        "quote": "بابت جرم تهدید",
+        "start_char": 621,
+        "end_char": 635,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توهین",
+      "evidence": {
+        "quote": "بابت توهین",
+        "start_char": 668,
+        "end_char": 678,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی نمودند",
+        "start_char": 250,
+        "end_char": 270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تبرئه",
+      "evidence": {
+        "quote": "تبرئه گردیدند",
+        "start_char": 383,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل محترم",
+        "start_char": 24,
+        "end_char": 34,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شکات",
+      "evidence": {
+        "quote": "شکوائیه های شکات",
+        "start_char": 1388,
+        "end_char": 1404,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "طرفین",
+      "evidence": {
+        "quote": "طرفین نزاع",
+        "start_char": 1415,
+        "end_char": 1425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مصدومین",
+      "evidence": {
+        "quote": "مصدومین",
+        "start_char": 1495,
+        "end_char": 1502,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اتومبیل",
+      "evidence": {
+        "quote": "تخریب عمدی اتومبیل",
+        "start_char": 332,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عینک",
+      "evidence": {
+        "quote": "جرم تخریب عینک",
+        "start_char": 1208,
+        "end_char": 1222,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دیات",
+      "evidence": {
+        "quote": "پرداخت دیات",
+        "start_char": 681,
+        "end_char": 692,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جزای نقدی",
+      "evidence": {
+        "quote": "جزای نقدی",
+        "start_char": 611,
+        "end_char": 620,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "آقای الف.س. و خانم س.ت. از اتهام تخریب اتومبیل تبرئه شدند",
+      "evidence": {
+        "quote": "آقای الف.س. و خانم س.ت. از اتهام تخریب عمدی اتومبیل حسب دلایل ابرازی در این دادنامه تبرئه گردیدند",
+        "start_char": 299,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خانم ها س. و ن. به جرم ضرب و جرح عمدی محکوم شدند",
+      "evidence": {
+        "quote": "خانم ها س. و ن. هر دو با شهرت خ. بابت جنبه عمومی جرم مشارکت در ضرب و جرح عمدی هر یک به نود و یک روز حبس محکوم شدند",
+        "start_char": 399,
+        "end_char": 513,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "جرم تهدید برای برخی از متهمین محرز نیست",
+      "evidence": {
+        "quote": "و هم demikian جرم تهدید برای افرادی که از جهت این جرم محکوم گردیدند محرز نمی باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

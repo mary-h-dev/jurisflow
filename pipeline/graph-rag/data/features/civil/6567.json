@@ -1,0 +1,153 @@
+{
+  "ruling_id": "6567",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "احراز علقه زوجیت",
+        "start_char": 248,
+        "end_char": 264,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد دائم",
+      "evidence": {
+        "quote": "با نوع عقد دائم",
+        "start_char": 265,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر",
+        "start_char": 492,
+        "end_char": 521,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 85,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض تجدیدنظرخواه وارد نمی باشد",
+        "start_char": 1348,
+        "end_char": 1381,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "ضمن ردّ دادخواست تجدیدنظرخواهی",
+        "start_char": 1945,
+        "end_char": 1975,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست خواهان را مردود تشخیص",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم ز.ر. فرزند م. با وکالت خانم الف.چ. به خواسته الزام خوانده",
+        "start_char": 36,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص دادخواست تجدیدنظرخواهی آقای ف.د.",
+        "start_char": 708,
+        "end_char": 748,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظر خوانده",
+        "start_char": 914,
+        "end_char": 938,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "تصویر مصدق رونوشت سند ازدواج شماره 5592",
+        "start_char": 156,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1924",
+        "start_char": 768,
+        "end_char": 794,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم قابلیت جمع بین دعوای طلاق و تمکین",
+      "evidence": {
+        "quote": "دادخواست طلاق و درخواست الزام به تمکین قابل جمع نبوده",
+        "start_char": 296,
+        "end_char": 349,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سابقه تقدیم دادخواست گواهی عدم امکان سازش",
+      "evidence": {
+        "quote": "خواهان قبلاً دادخواست گواهی عدم امکان سازش به منظور اجرای صیغه طلاق را تقدیم",
+        "start_char": 1066,
+        "end_char": 1142,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

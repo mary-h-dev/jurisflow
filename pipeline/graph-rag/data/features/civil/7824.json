@@ -1,0 +1,183 @@
+{
+  "ruling_id": "7824",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "احراز علقه زوجیت",
+        "start_char": 247,
+        "end_char": 263,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد دائم",
+      "evidence": {
+        "quote": "با نوع عقد دائم",
+        "start_char": 264,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مانع مشروع",
+      "evidence": {
+        "quote": "وجود مانع مشروع",
+        "start_char": 1077,
+        "end_char": 1092,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عذر",
+      "evidence": {
+        "quote": "عذر موجه",
+        "start_char": 1096,
+        "end_char": 1104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "دلیل بر نشوز زوجه درگذشته نیست",
+        "start_char": 1259,
+        "end_char": 1289,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 76,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه مذکور نقض می شود",
+        "start_char": 1720,
+        "end_char": 1744,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بازگشت",
+      "evidence": {
+        "quote": "صدور حکم بر بازگشت همسرش به منزل مشترک",
+        "start_char": 863,
+        "end_char": 901,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با توجه به اینکه خواهان اظهار داشته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 86,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ج.م.",
+        "start_char": 686,
+        "end_char": 717,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "وجوب نفقه زوجه بر زوج",
+        "start_char": 1146,
+        "end_char": 1167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "وجوب نفقه زوجه بر زوج",
+        "start_char": 1146,
+        "end_char": 1167,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "تصویر مصدق رونوشت سند ازدواج شماره 2630",
+        "start_char": 147,
+        "end_char": 186,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث‌البیت",
+      "evidence": {
+        "quote": "فعلاً اثاث البیت ندارم",
+        "start_char": 315,
+        "end_char": 337,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "بازگشت همسرش به منزل مشترک",
+        "start_char": 875,
+        "end_char": 901,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تهیه اثاث البیت توسط خواهان",
+      "evidence": {
+        "quote": "با توجه به اینکه تمکین خوانده از خواهان قبل از تهیه اثاث البیت توسط خواهان منتفی می باشد",
+        "start_char": 340,
+        "end_char": 428,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

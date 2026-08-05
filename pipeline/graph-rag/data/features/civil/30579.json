@@ -1,0 +1,203 @@
+{
+  "ruling_id": "30579",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "پس از انقضاء مدت اجاره متصرف بایستی اجرت‌المثل بپردازد",
+        "start_char": 391,
+        "end_char": 445,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "از حیث خسارت تأخیر تأدیه",
+        "start_char": 532,
+        "end_char": 556,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "از جمله انتقال مالکیت",
+        "start_char": 698,
+        "end_char": 719,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جعلیت",
+      "evidence": {
+        "quote": "ادعای جعلیت و الحاق شده است",
+        "start_char": 1674,
+        "end_char": 1701,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "آثار غصب بر تصرفات خوانده فرجام خواه مترتب نمی باشد",
+        "start_char": 9288,
+        "end_char": 9339,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "مستأجر مورد اجاره را تخلیه نکرده است",
+        "start_char": 2819,
+        "end_char": 2855,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "بایستی اجرت‌المثل بپردازد",
+        "start_char": 420,
+        "end_char": 445,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اصل خواسته از سوی خواهان ها وجاهت داشته",
+        "start_char": 1824,
+        "end_char": 1870,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مطالبه اصل خواسته از سوی خواهان ها وجاهت داشته",
+        "start_char": 1824,
+        "end_char": 1870,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مستأجر مورد اجاره را تخلیه نکرده است",
+        "start_char": 2819,
+        "end_char": 2855,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "مستأجر مورد اجاره را تخلیه نکرده است",
+        "start_char": 2819,
+        "end_char": 2855,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "در قرارداد اجاره بین موجر و مستأجر",
+        "start_char": 9347,
+        "end_char": 9381,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "محکومیت فرجام خواه به پرداخت اجرت المثل",
+        "start_char": 8341,
+        "end_char": 8380,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه ایراد یا دفاع موجّهی",
+        "start_char": 6737,
+        "end_char": 6770,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجاره‌نامه",
+      "evidence": {
+        "quote": "بموجب اجاره نامه از تاریخ 1378/6/15",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ودیعه",
+      "evidence": {
+        "quote": "مبالغی به موجر تحت عنوان ودیعه پرداخت گردیده",
+        "start_char": 9420,
+        "end_char": 9464,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مدت اجاره منقضی شده است",
+      "evidence": {
+        "quote": "نهایتاً در تاریخ 1390/6/15 مدت اجاره منقضی گردیده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مستأجر ملک را تخلیه نکرده است",
+      "evidence": {
+        "quote": "مستأجر مورد اجاره را تخلیه نکرده است",
+        "start_char": 2819,
+        "end_char": 2855,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ودیعه به مستأجر پرداخت نشده است",
+      "evidence": {
+        "quote": "موجر دلیلی بر پرداخت ودیعه به فرجام خواه و یا تودیع آن به صندوق دادگستری ارائه نداده",
+        "start_char": 9513,
+        "end_char": 9597,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

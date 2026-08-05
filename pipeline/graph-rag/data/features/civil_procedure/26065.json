@@ -1,0 +1,203 @@
+{
+  "ruling_id": "26065",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال رای داور",
+        "start_char": 548,
+        "end_char": 572,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "به انضمام خسارات دادرسی",
+        "start_char": 573,
+        "end_char": 596,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تنازع",
+      "evidence": {
+        "quote": "بدون توجه به اصل تنازع",
+        "start_char": 1478,
+        "end_char": 1500,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی طرفی",
+      "evidence": {
+        "quote": "اصل بی طرفی",
+        "start_char": 1503,
+        "end_char": 1514,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "این خسارت بابت مالکیت مشاعی است",
+        "start_char": 2988,
+        "end_char": 3019,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "عدم انجام تعهدات قراردادی",
+        "start_char": 5570,
+        "end_char": 5595,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انعقاد",
+      "evidence": {
+        "quote": "طرفین با یکدیگرمبادرت به انعقاد قرارداد مشارکت در ساخت",
+        "start_char": 610,
+        "end_char": 664,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور رای",
+      "evidence": {
+        "quote": "مبادرت به صدور رای داوری نموده است",
+        "start_char": 940,
+        "end_char": 974,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت خواهان دعوی",
+        "start_char": 996,
+        "end_char": 1022,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "فروش بعضی از واحدها",
+        "start_char": 2386,
+        "end_char": 2405,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقسیم",
+      "evidence": {
+        "quote": "واحدها تقسیم نشده اند",
+        "start_char": 1721,
+        "end_char": 1742,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "محکومیت خواهان دعوی",
+        "start_char": 1003,
+        "end_char": 1022,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "بین طرفین خواندگان",
+        "start_char": 869,
+        "end_char": 887,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "از طریق داوری و حکمیت داور مرضی الطرفین",
+        "start_char": 776,
+        "end_char": 815,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت در ساخت",
+      "evidence": {
+        "quote": "انعقاد قرارداد مشارکت در ساخت",
+        "start_char": 635,
+        "end_char": 664,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ساختمان",
+      "evidence": {
+        "quote": "تاریخ تکمیل ساختمان",
+        "start_char": 2918,
+        "end_char": 2937,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین قرارداد مشارکت در ساخت امضا کرده‌اند",
+      "evidence": {
+        "quote": "طرفین با یکدیگرمبادرت به انعقاد قرارداد مشارکت در ساخت به شماره 600/85 مورخ 1/8/85 نموده اند",
+        "start_char": 610,
+        "end_char": 702,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "داور یکی از طرفین قرارداد است",
+      "evidence": {
+        "quote": "داور احد از طرفین قرارداد محسوب می شود",
+        "start_char": 6855,
+        "end_char": 6893,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "واحدها هنوز تقسیم نشده‌اند",
+      "evidence": {
+        "quote": "رای داور به لحاظ اینکه هنوز واحدها تقسیم نشده اند",
+        "start_char": 1693,
+        "end_char": 1742,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

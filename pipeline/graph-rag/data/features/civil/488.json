@@ -1,0 +1,143 @@
+{
+  "ruling_id": "488",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتبار",
+      "evidence": {
+        "quote": "حفظ اعتبار به اسناد رسمی",
+        "start_char": 528,
+        "end_char": 552,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان را صادر",
+        "start_char": 616,
+        "end_char": 648,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اصلاح",
+      "evidence": {
+        "quote": "صدور حکم بر اصلاح شناسنامه",
+        "start_char": 68,
+        "end_char": 94,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "الزام خوانده به صدورشناسنامه جدید",
+        "start_char": 110,
+        "end_char": 143,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترضٌ عنه",
+        "start_char": 1449,
+        "end_char": 1475,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان نخستین را صادر",
+        "start_char": 1476,
+        "end_char": 1510,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان را غیر وارد تشخیص",
+        "start_char": 489,
+        "end_char": 518,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به صدورشناسنامه جدید",
+        "start_char": 110,
+        "end_char": 143,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "به طرفیت اداره ثبت احوال",
+        "start_char": 33,
+        "end_char": 57,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "اصلاح شناسنامه به شماره 313",
+        "start_char": 80,
+        "end_char": 107,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "اعتبار به اسناد رسمی",
+        "start_char": 532,
+        "end_char": 552,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "استفاده از مزایای شناسنامه به مدت ۵۶ سال",
+      "evidence": {
+        "quote": "خواهان از شناسنامه مذکور به مدت 56 سال استفاده از مزایا قانونی آن بهره مند گردیده است",
+        "start_char": 287,
+        "end_char": 372,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرح دعوای اصلاح شناسنامه بیش از پنج سال از تاریخ مورد ادعا گذشته است",
+      "evidence": {
+        "quote": "طرح دعوی اصلاح شناسنامه بیش از پنج سال در دادگستری جمهوری اسلامی ایران قابلیت استماع نداشته",
+        "start_char": 1248,
+        "end_char": 1339,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

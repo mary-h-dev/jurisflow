@@ -1,0 +1,143 @@
+{
+  "ruling_id": "34888",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 202,
+        "end_char": 219,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 578,
+        "end_char": 593,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خواندگان به پرداخت",
+        "start_char": 145,
+        "end_char": 169,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی",
+        "start_char": 460,
+        "end_char": 472,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را به دادگاه عمومی حقوقی مهریز اعاده نموده",
+        "start_char": 2016,
+        "end_char": 2065,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان آقای ع. پ.",
+        "start_char": 56,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان به پرداخت",
+        "start_char": 145,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "راننده",
+      "evidence": {
+        "quote": "خوانده ردیف اول صرفاً راننده کامیون حامل کالا",
+        "start_char": 315,
+        "end_char": 360,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "خسارت; وارده به اموال خواهان",
+        "start_char": 170,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کالا",
+      "evidence": {
+        "quote": "کامیون حامل کالا",
+        "start_char": 344,
+        "end_char": 360,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ردیف اول صرفاً راننده بوده است",
+      "evidence": {
+        "quote": "خوانده ردیف اول صرفاً راننده کامیون حامل کالا از مهریز به تهران بوده",
+        "start_char": 315,
+        "end_char": 383,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرار رد دعوی به خوانده ردیف اول ابلاغ نشده بود",
+      "evidence": {
+        "quote": "رأی موصوف به خواهان و خوانده موصوف ابلاغ نگردیده است",
+        "start_char": 757,
+        "end_char": 809,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اقامتگاه خواندگان در تهران است",
+      "evidence": {
+        "quote": "اقامتگاه خواندگان ردیف دوم و سوم در دادخواست تقدیمی تهران اعلام شده",
+        "start_char": 510,
+        "end_char": 577,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

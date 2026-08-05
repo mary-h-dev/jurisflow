@@ -1,0 +1,133 @@
+{
+  "ruling_id": "27140",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "موجبات فسخ رای بدوی را فراهم آورد",
+        "start_char": 1251,
+        "end_char": 1284,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "مبادرت به اقامه دعوی",
+        "start_char": 366,
+        "end_char": 386,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "لغو",
+      "evidence": {
+        "quote": "لغو تصمیم موضوع نامه",
+        "start_char": 668,
+        "end_char": 688,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در شعب تجدید نظر",
+        "start_char": 765,
+        "end_char": 793,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدید نظر خواهی",
+        "start_char": 1326,
+        "end_char": 1348,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از سوی تجدید نظر خواه",
+        "start_char": 1100,
+        "end_char": 1121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده",
+        "start_char": 847,
+        "end_char": 862,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "دارای سند رسمی مالکیت بر زمین مورد نزاع بوده",
+        "start_char": 863,
+        "end_char": 907,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد رسمی",
+      "evidence": {
+        "quote": "دستگاههای اجرائی مکلف به ترتیب اثر دادن به اسناد رسمی معتبر هستند",
+        "start_char": 910,
+        "end_char": 975,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره 411-1393/2/28",
+        "start_char": 1350,
+        "end_char": 1377,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده دارای سند رسمی مالکیت بر زمین مورد نزاع است",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده دارای سند رسمی مالکیت بر زمین مورد نزاع بوده",
+        "start_char": 847,
+        "end_char": 907,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرار داد موضوع دعوا دارای وجاهت قانونی است",
+      "evidence": {
+        "quote": "وجاهت قانونی نداشته و در اجرای مواد 11و63 قانون تشکیلات و آئین دادرسی دیوان عدالت اداری حکم به ورود شکایت شاکیه و لغو تصمیم موضوع نامه... شهرداری شیراز صادر و اعلام می شود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

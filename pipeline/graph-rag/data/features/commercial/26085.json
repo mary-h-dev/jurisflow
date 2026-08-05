@@ -1,0 +1,133 @@
+{
+  "ruling_id": "26085",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مرور زمان",
+      "evidence": {
+        "quote": "دادگاه دعوی مزبور را مشمول مرورزمان دانسته",
+        "start_char": 768,
+        "end_char": 810,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "پرداخت خسارت تاخیر تادیه",
+        "start_char": 138,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت دادرسی",
+      "evidence": {
+        "quote": "توام با خسارت دادرسی",
+        "start_char": 190,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه وجه",
+        "start_char": 33,
+        "end_char": 51,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی صادر می نماید",
+        "start_char": 876,
+        "end_char": 902,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض قرار تجدیدنظرخواسته",
+        "start_char": 1692,
+        "end_char": 1719,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "به دادگاه بدوی اعاده می شود",
+        "start_char": 1745,
+        "end_char": 1772,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در مورد دعوی تجدیدنظرخواه",
+        "start_char": 1214,
+        "end_char": 1239,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "دو فقره چک بانکی",
+        "start_char": 52,
+        "end_char": 68,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "تحت عنوان سند عادی",
+        "start_char": 1524,
+        "end_char": 1542,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "گذشت زمان پنج ساله از تاریخ صدور چک",
+      "evidence": {
+        "quote": "پس از انقضای مهلت پنج سال از تاریخ صدور",
+        "start_char": 647,
+        "end_char": 686,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت چک توسط بانک",
+      "evidence": {
+        "quote": "گواهی عدم پرداخت بانک محال علیه چکها",
+        "start_char": 286,
+        "end_char": 322,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

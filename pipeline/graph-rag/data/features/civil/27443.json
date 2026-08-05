@@ -1,0 +1,173 @@
+{
+  "ruling_id": "27443",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "صدورحکم مبنی بر فسخ بیع",
+        "start_char": 93,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غبن",
+      "evidence": {
+        "quote": "به دلیل غبن فاحش",
+        "start_char": 153,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "خیار غبن بعداز علم به غبن فوری است",
+        "start_char": 1341,
+        "end_char": 1375,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عوض",
+      "evidence": {
+        "quote": "اقتضاء اصل برابری وتساوی در عوضین است",
+        "start_char": 19194,
+        "end_char": 19231,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "مراتب فسخ معامله را از طریق اظهارنامه به خوانده ابلاغ",
+        "start_char": 638,
+        "end_char": 691,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابلاغ",
+      "evidence": {
+        "quote": "مراتب فسخ را طی اظهارنامه رسمی به خوانده ابلاغ نموده",
+        "start_char": 2210,
+        "end_char": 2262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به صدورحکم بطلان دعوی راجع به دعوی جلب ثالث به خواستۀ ابطال معامله بین خواندۀ ردیف اول و خوانده جلب ثالث اعتراض و پرونده به دادگاه تجدیدنظر استان خراسان جنوبی ارسال می گردد",
+        "start_char": 15138,
+        "end_char": 15315,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان مرقوم نموده",
+        "start_char": 294,
+        "end_char": 318,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به خوانده به مبلغ 26 میلیون تومان",
+        "start_char": 441,
+        "end_char": 474,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شخص ثالث",
+      "evidence": {
+        "quote": "به شخص ثالثی بنام آقای ن. ا.. ی.",
+        "start_char": 1782,
+        "end_char": 1814,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه عادی مورخ 93/6/15",
+        "start_char": 117,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "و سه قطعه زمین را",
+        "start_char": 385,
+        "end_char": 402,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "من چکی به فروشنده نداده بودم",
+        "start_char": 3277,
+        "end_char": 3305,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "معامله با اختلاف قیمت انجام شده است",
+      "evidence": {
+        "quote": "وجود غبن به حد افحش نیز می باشد",
+        "start_char": 19129,
+        "end_char": 19160,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین در زمان معامله از قیمت واقعی مطلع نبوده‌اند",
+      "evidence": {
+        "quote": "عدم اطلاع مغبون از قیمت واقعی بیع است",
+        "start_char": 13386,
+        "end_char": 13423,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده پس از معامله اقدام به کاشت محصولات کشاورزی کرده است",
+      "evidence": {
+        "quote": "او به جای قبول فسخ اقدام به غرس نهال و شخم زدن کرده",
+        "start_char": 2272,
+        "end_char": 2323,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

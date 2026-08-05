@@ -1,0 +1,213 @@
+{
+  "ruling_id": "34655",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "درخواست رسیدگی و صدور حکم به تأیید فسخ معامله",
+        "start_char": 86,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "ثمن برای کل مبیع بهای هر جزء از مساحت خیار تخلف از وصف محقق است",
+        "start_char": 1092,
+        "end_char": 1155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "فروشنده حق فسخ دارد",
+        "start_char": 1180,
+        "end_char": 1199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "با وقوع بیع تملیک و تملک مبیع و ثمن حاصل شده است",
+        "start_char": 2580,
+        "end_char": 2628,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "وکلای فرجامخواه علیه فرجامخوانده در دادگستری اردبیل اقامه ی دعوی",
+        "start_char": 19,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "معامله منعقده را فسخ نموده است",
+        "start_char": 716,
+        "end_char": 746,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "درخواست رد دعوی می شود",
+        "start_char": 2073,
+        "end_char": 2095,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "درخواست نقض دادنامه ی صادره می شود",
+        "start_char": 4443,
+        "end_char": 4477,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "وکلای فرجامخواه علیه فرجامخوانده",
+        "start_char": 19,
+        "end_char": 51,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجام‌خوانده",
+      "evidence": {
+        "quote": "وکلای فرجامخواه علیه فرجامخوانده",
+        "start_char": 19,
+        "end_char": 51,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده حق فسخ دارد",
+        "start_char": 1180,
+        "end_char": 1199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "حق فسخ برای خریدار پیش بینی شده است",
+        "start_char": 2862,
+        "end_char": 2897,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "س. د.الف. بوکالت از خوانده وارد دعوی شده است",
+        "start_char": 964,
+        "end_char": 1008,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "الملک از تاریخ 93/4/14 در تصرف خواهان بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قولنامه",
+      "evidence": {
+        "quote": "موضوع قولنامه ی مورخ 449 - 93/4/14",
+        "start_char": 132,
+        "end_char": 166,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین دارای پلاک ثبتی",
+        "start_char": 296,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "ثمن معامله را بمبلغ دو میلیارد و یکصد میلیون ریال تعیین شده",
+        "start_char": 416,
+        "end_char": 475,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مساحت زمین بیشتر از مساحت مورد معامله است",
+      "evidence": {
+        "quote": "یعنی مساحت آن بیش از ملک فروخته شده است",
+        "start_char": 628,
+        "end_char": 667,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبلغ معامله به طور کامل پرداخت نشده است",
+      "evidence": {
+        "quote": "و تنها بیست میلیون تومان از ثمن پرداخت شده است",
+        "start_char": 476,
+        "end_char": 522,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زمین دارای حریم رودخانه است",
+      "evidence": {
+        "quote": "زمین از دو طرف دارای حریم رودخانه است",
+        "start_char": 1761,
+        "end_char": 1798,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

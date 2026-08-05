@@ -1,0 +1,193 @@
+{
+  "ruling_id": "6887",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تقاضای صدور حکم به فسخ نکاح",
+        "start_char": 177,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عنن",
+      "evidence": {
+        "quote": "به لحاظ ابتلاء زوج به عیب عنن",
+        "start_char": 205,
+        "end_char": 234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "زوجه از این بابت در عسر و حرج است",
+        "start_char": 1958,
+        "end_char": 1991,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "تقاضای صدور حکم به فسخ نکاح",
+        "start_char": 177,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "از ناحیه زوج مورد اعتراض واقع شده",
+        "start_char": 2117,
+        "end_char": 2150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی را وارد دانسته است",
+        "start_char": 2328,
+        "end_char": 2360,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "فرجام خواهی نموده است",
+        "start_char": 3092,
+        "end_char": 3113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن پذیرش تجدیدنظرخواهی و نقض دادنامه",
+        "start_char": 2859,
+        "end_char": 2896,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان زوجه خانم س.م.",
+        "start_char": 0,
+        "end_char": 21,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده",
+        "start_char": 144,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از ناحیه زوج مورد اعتراض واقع شده",
+        "start_char": 2117,
+        "end_char": 2150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه خانم س.م.",
+        "start_char": 7,
+        "end_char": 21,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "فتوکپی سند نکاحیه",
+        "start_char": 126,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "در دادنامه شماره 001487-21/6/91",
+        "start_char": 1269,
+        "end_char": 1300,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "یک سال از آغاز زندگی مشترک می‌گذرد",
+      "evidence": {
+        "quote": "قریب یک سال از آغاز زندگی مشترکمان می گذرد",
+        "start_char": 314,
+        "end_char": 356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج قادر به انجام وظایف زناشویی و نزدیکی نیست",
+      "evidence": {
+        "quote": "ولیکن ایشان قادر به انجام وظایف زناشویی و نزدیکی نیستند",
+        "start_char": 357,
+        "end_char": 412,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج فاقد بیماری عنن است",
+      "evidence": {
+        "quote": "پزشک قانونی نیز اعلام داشته که زوج فاقد بیماری عنن است",
+        "start_char": 1569,
+        "end_char": 1623,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کاهش تمایل جنسی به واسطه بزرگی خفیف در غده هیپوفیز است",
+      "evidence": {
+        "quote": "کاهش تمایل جنسی ایشان به واسطه بزرگی خفیف در غده هیپوفیز است",
+        "start_char": 1097,
+        "end_char": 1157,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

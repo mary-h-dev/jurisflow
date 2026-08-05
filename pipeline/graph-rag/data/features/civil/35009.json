@@ -1,0 +1,193 @@
+{
+  "ruling_id": "35009",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "تقاضای صدور حکم بر الزام زوج به طلاق",
+        "start_char": 147,
+        "end_char": 183,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "بابت اتهام سرقت گوسفند طی پرونده اجرایی 2983/89 به یکسال حبس و هفتاد ضربه شلاق و رد مال محکوم شده",
+        "start_char": 1193,
+        "end_char": 1290,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "با اعلام بذل و پنج عدد از سکه ها",
+        "start_char": 4558,
+        "end_char": 4590,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "تقاضای صدور حکم بر الزام زوج به طلاق",
+        "start_char": 147,
+        "end_char": 183,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "از تأدیه خرج و نفقه وی استنکاف می ورزد",
+        "start_char": 474,
+        "end_char": 512,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به آن اعتراض و تقاضای تجدیدنظرخواهی می کند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض عنه",
+        "start_char": 6127,
+        "end_char": 6152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده عیناً اعاده می گردد",
+        "start_char": 7048,
+        "end_char": 7074,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با حضور خواهان و وکیلش تشکیل جلسه میدهد",
+        "start_char": 905,
+        "end_char": 944,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "باعث شده که موکله همسر شرعی و دائمی خوانده محترم می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "سوابق کیفری زوج را نیز از اداره زندان استعلام می نماید",
+        "start_char": 2301,
+        "end_char": 2355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تقاضای صدور حکم طلاق زوجه ( م. م.) را دارم",
+        "start_char": 1927,
+        "end_char": 1969,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "باستناد تصاویر مصدق سند نکاحیه",
+        "start_char": 58,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کارت",
+      "evidence": {
+        "quote": "کارت شناسایی ملی",
+        "start_char": 91,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سکه طلا",
+      "evidence": {
+        "quote": "به مقدار 225 عدد سکه طلا",
+        "start_char": 2151,
+        "end_char": 2175,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده به اتهام سرقت محکوم شده است",
+      "evidence": {
+        "quote": "از بابت اتهام سرقت گوسفند طی پرونده اجرایی 2983/89 به یکسال حبس و هفتاد ضربه شلاق و رد مال محکوم شده",
+        "start_char": 1190,
+        "end_char": 1290,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده به اتهام ترک انفاق محکوم شده است",
+      "evidence": {
+        "quote": "خوانده به خاطر ترک انفاق به شش ماه حبس محکوم شد",
+        "start_char": 3744,
+        "end_char": 3791,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بزه سرقت پیش از تاریخ عقد وقوع یافته است",
+      "evidence": {
+        "quote": "وقوع بزه سرقت سال 89 که مقدم بر تاریخ عقد و قابل استناد به عنوان شرط ضمن العقد نمی باشد",
+        "start_char": 5955,
+        "end_char": 6042,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

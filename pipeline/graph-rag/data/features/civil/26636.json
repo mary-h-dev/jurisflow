@@ -1,0 +1,163 @@
+{
+  "ruling_id": "26636",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت اصحاب دعوی محرزاست",
+        "start_char": 195,
+        "end_char": 225,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خانواده",
+      "evidence": {
+        "quote": "اشتغال زوجه در باشگاه لاغری زنان به مصلحت خانواده زوج نمی باشد",
+        "start_char": 644,
+        "end_char": 706,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اختلافات",
+      "evidence": {
+        "quote": "طرفین در اثر اختلافات خانوادگی جدا از هم زندگی می کنند",
+        "start_char": 1485,
+        "end_char": 1539,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "زوجه به تمکین محکوم شده",
+        "start_char": 1540,
+        "end_char": 1563,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفاق",
+      "evidence": {
+        "quote": "مدعی است بلحاظ عدم انفاق از سوی زوج نیاز به اشتغال بکار دارد",
+        "start_char": 1566,
+        "end_char": 1626,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوا صادر می گردد",
+        "start_char": 1777,
+        "end_char": 1807,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته نقض",
+        "start_char": 1748,
+        "end_char": 1774,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "منع اشتغال زوجه (خواهان)",
+        "start_char": 88,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده در یک باشگاه ورزشی ( سالن لاغری) مشغول بکار میباشد",
+        "start_char": 267,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "مصلحت خانواده زوج نمی باشد",
+        "start_char": 680,
+        "end_char": 706,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "اشتغال زوجه در باشگاه لاغری زنان",
+        "start_char": 644,
+        "end_char": 676,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "فتوکپی مصدق سند نکاحیه",
+        "start_char": 159,
+        "end_char": 181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 645-1394/5/14",
+        "start_char": 1076,
+        "end_char": 1106,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین از هم جدا زندگی می‌کنند",
+      "evidence": {
+        "quote": "طرفین در اثر اختلافات خانوادگی جدا از هم زندگی می کنند",
+        "start_char": 1485,
+        "end_char": 1539,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه در باشگاه ورزشی مشغول به کار است",
+      "evidence": {
+        "quote": "خوانده در یک باشگاه ورزشی ( سالن لاغری) مشغول بکار میباشد",
+        "start_char": 267,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

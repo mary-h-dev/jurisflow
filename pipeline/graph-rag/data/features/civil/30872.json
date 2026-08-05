@@ -1,0 +1,153 @@
+{
+  "ruling_id": "30872",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "وکالت",
+      "evidence": {
+        "quote": "پرداخت حساب دوره تصدی وکالت",
+        "start_char": 108,
+        "end_char": 135,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بطلان دعوای خواهان را صادر و اعلام می دارد",
+        "start_char": 690,
+        "end_char": 736,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "در خور نقض است",
+        "start_char": 1366,
+        "end_char": 1380,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم محکومیت",
+        "start_char": 66,
+        "end_char": 92,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مابقی قابل رد است و جدای از هم قابل مطالبه نیست",
+        "start_char": 1538,
+        "end_char": 1585,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی آقای د. ش.",
+        "start_char": 870,
+        "end_char": 895,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده",
+        "start_char": 85,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "توسط خوانده به عنوان وکیل مدنی",
+        "start_char": 421,
+        "end_char": 451,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوای خواهان به کیفیت مطروحه فاقد دلیل می باشد",
+        "start_char": 545,
+        "end_char": 591,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "موکل",
+      "evidence": {
+        "quote": "به موکل خود بوده",
+        "start_char": 1453,
+        "end_char": 1469,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "در وکالتنامه قید نشده است",
+        "start_char": 514,
+        "end_char": 539,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل و مدرک برای اجرای مورد وکالت",
+      "evidence": {
+        "quote": "دلیل و مدرک محکمه پسندی که حکایت از اجرای مورد وکالت مندرج در وکالتنامه موصوف توسط خوانده به عنوان وکیل مدنی نماید به دادگاه ارایه ننموده است",
+        "start_char": 343,
+        "end_char": 484,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم قید شدن استرداد ثمن در وکالتنامه",
+      "evidence": {
+        "quote": "استرداد ثمن مورد وکالت در وکالتنامه قید نشده است",
+        "start_char": 491,
+        "end_char": 539,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم درخواست صورت حساب توسط خواهان",
+      "evidence": {
+        "quote": "لیکن خواهان صورت حساب را تقاضا نکرده است",
+        "start_char": 1586,
+        "end_char": 1626,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

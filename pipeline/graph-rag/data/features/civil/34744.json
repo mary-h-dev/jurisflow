@@ -1,0 +1,263 @@
+{
+  "ruling_id": "34744",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "صدور حکم طلاق به لحاظ احراز شرایط اعمال وکالت در طلاق",
+        "start_char": 74,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد دائم",
+      "evidence": {
+        "quote": "با صداق یکصد و ده عدد سکه تمام بهار آزادی به عقد دائم خوانده درآمده",
+        "start_char": 206,
+        "end_char": 273,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد لازم",
+      "evidence": {
+        "quote": "در صورتیکه عقد لازمی در دفترخانه جاری نشود",
+        "start_char": 1458,
+        "end_char": 1500,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "نفس عقد وکالت جایز می باشد",
+        "start_char": 1299,
+        "end_char": 1325,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عزل",
+      "evidence": {
+        "quote": "موکل بنده زوجه را از وکالت در طلاق عزل نموده اند",
+        "start_char": 1366,
+        "end_char": 1414,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بخواسته صدور",
+      "evidence": {
+        "quote": "دادخواستی بخواسته صدور حکم طلاق",
+        "start_char": 56,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعطای",
+      "evidence": {
+        "quote": "اقدام به اعطاء وکالت بلاعزل",
+        "start_char": 399,
+        "end_char": 426,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مهریه و نفقه خویش را بموجب دعاوی جداگانه مطالبه نموده ام",
+        "start_char": 600,
+        "end_char": 656,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عزل",
+      "evidence": {
+        "quote": "موکل بنده زوجه را از وکالت در طلاق عزل نموده اند",
+        "start_char": 1366,
+        "end_char": 1414,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "وکیل زوجه خواهان نسبت به آن تجدیدنظرخواهی نموده",
+        "start_char": 3553,
+        "end_char": 3600,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام خواهی",
+      "evidence": {
+        "quote": "با تقدیم دادخواست نسبت به آن فرجام خواهی نموده",
+        "start_char": 4531,
+        "end_char": 4577,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خانم ف. م. بطرفیت همسرش آقای الف. ه.و. دادخواستی بخواسته",
+        "start_char": 17,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به عقد دائم خوانده درآمده",
+        "start_char": 248,
+        "end_char": 273,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "با حضور زوجین و وکلای آنان تشکیل گردیده",
+        "start_char": 1120,
+        "end_char": 1159,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه می بایست در اجرای صیغه طلاق وکالت بلاعزل داشته باشد",
+        "start_char": 2470,
+        "end_char": 2526,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در متن وکالتنامه استنادی که بموجب آن از سوی زوج (فرجام خوانده) به زوجه (فرجام خواه) اعطای وکالت شده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "از سوی زوج (فرجام خوانده) به زوجه (فرجام خواه) اعطای وکالت شده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "بموجب سند نکاحیه پیوست",
+        "start_char": 166,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "یکصد و ده عدد سکه تمام بهار آزادی",
+        "start_char": 214,
+        "end_char": 247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه رسمی",
+      "evidence": {
+        "quote": "بموجب وکالتنامه رسمی تنظیمی در دفترخانه",
+        "start_char": 332,
+        "end_char": 371,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه و نفقه خویش را بموجب دعاوی جداگانه مطالبه نموده ام",
+        "start_char": 600,
+        "end_char": 656,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مهریه و نفقه خویش را بموجب دعاوی جداگانه مطالبه نموده ام",
+        "start_char": 600,
+        "end_char": 656,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اظهارنامه",
+      "evidence": {
+        "quote": "بموجب این اظهارنامه خطاب به خانم ف. م.",
+        "start_char": 2804,
+        "end_char": 2842,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ازدواج و عروسی انجام نشده است",
+      "evidence": {
+        "quote": "ام که هنوز ازدواج و عروسی نکرده",
+        "start_char": 274,
+        "end_char": 305,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از وکالت زوجه عزل کرده است",
+      "evidence": {
+        "quote": "آقای الف. ه.و. بموجب این اظهارنامه خطاب به خانم ف. م. و پیرو وکالت اعطائی بجهت جایز بودن عقد وکالت نامبرده از وکالت خود عزل نموده است",
+        "start_char": 2789,
+        "end_char": 2922,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

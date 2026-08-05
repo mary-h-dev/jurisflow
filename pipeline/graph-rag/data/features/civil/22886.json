@@ -1,0 +1,203 @@
+{
+  "ruling_id": "22886",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "انقضاء",
+      "evidence": {
+        "quote": "به لحاظ انقضاء مدت اجاره",
+        "start_char": 153,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت‌المثل ایام تصرف",
+        "start_char": 181,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد اجاره",
+      "evidence": {
+        "quote": "عقد اجاره به محض انقضاء مدت برطرف می‌شود",
+        "start_char": 5455,
+        "end_char": 5495,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "صدور حکم به تخلیه عین مستأجره",
+        "start_char": 123,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجرت‌المثل ایام تصرف",
+        "start_char": 181,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ را به شما می‌دهیم",
+        "start_char": 1545,
+        "end_char": 1567,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "در صورت استنکاف مستأجر از تخلیه",
+        "start_char": 523,
+        "end_char": 554,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "در صورت استنکاف مستأجر از تخلیه",
+        "start_char": 523,
+        "end_char": 554,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "به موجر بپردازد",
+        "start_char": 658,
+        "end_char": 673,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص خواسته خواهان مبنی بر تخلیه",
+        "start_char": 882,
+        "end_char": 917,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف یک پاسخ داده",
+        "start_char": 1196,
+        "end_char": 1220,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عین مستأجره",
+      "evidence": {
+        "quote": "تخلیه عین مستأجره",
+        "start_char": 135,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره‌نامه",
+      "evidence": {
+        "quote": "به موجب اجاره‌نامه پیوست",
+        "start_char": 279,
+        "end_char": 303,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "منافع یک باب منزل مسکونی",
+        "start_char": 304,
+        "end_char": 328,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چک های من که ابتدای قرارداد بود",
+        "start_char": 1631,
+        "end_char": 1662,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پول",
+      "evidence": {
+        "quote": "پول رهن دست ایشان داشتم",
+        "start_char": 3404,
+        "end_char": 3427,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مستأجر ملک را تخلیه نکرده است",
+      "evidence": {
+        "quote": "از تخلیه ملک خودداری می‌نمایند",
+        "start_char": 437,
+        "end_char": 467,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مستأجر ادعا می‌کند بخشی از اجاره را قبلاً پرداخت کرده است",
+      "evidence": {
+        "quote": "مبلغ را از آقای م. وصول کند",
+        "start_char": 2759,
+        "end_char": 2786,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مستأجر ادعا می‌کند وجه رهن مسترد نشده است",
+      "evidence": {
+        "quote": "ایشان وجه رهن را به من ندادند",
+        "start_char": 3463,
+        "end_char": 3492,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "27684",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اکراه",
+      "evidence": {
+        "quote": "اقرار که تحت اکراه، اجبار، شکنجه یا اذیت و آزار روحی یا جسمی اخذ شود فاقد ارزش و اعتبار است",
+        "start_char": 24631,
+        "end_char": 24722,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "در جرائم موجب رجم یا حد قتل عدول از اقرار به موجب ماده 173 قانون مجازات اسلامی موجب سقوط مجازات می‌شود",
+        "start_char": 24152,
+        "end_char": 24254,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "دستگیر شدم",
+      "evidence": {
+        "quote": "بنده در جاده اسکله... شهر دستگیر شدم",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "وکیسه شبیه مواد مخدر نیز به خانمم داده بود",
+        "start_char": 1017,
+        "end_char": 1059,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم به نام ع. ز. را به همراه خودرو و مواد مکشوفه",
+        "start_char": 408,
+        "end_char": 457,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "فرجام‌خواه یعنی آقای ت. ی. معروف به ش.",
+        "start_char": 3439,
+        "end_char": 3477,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "در غیر این صورت دادگاه برای نامبردگان وکیل تسخیری تعیین می‌نماید",
+        "start_char": 18515,
+        "end_char": 18579,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "مراتب را به دادستانی... شهر گزارش و دادستان در ذیل همان گزارش رسیدگی به پرونده را به بازپرس شعبه دوم محول نمود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مواد مخدر",
+      "evidence": {
+        "quote": "از زیر صندلی سرنشین بسته‌ای حاوی 1000 گرم ماده‌ای تقریبا\" سفید رنگ مشکوک به هروئین کشف و ضبط می‌شود",
+        "start_char": 306,
+        "end_char": 405,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "متوجه خودرو سمندی می‌شود که در کنار جاده متوقف بوده",
+        "start_char": 143,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هروئین",
+      "evidence": {
+        "quote": "بسته حاوی 1000 گرم ماده‌ای تقریبا\" سفید رنگ مشکوک به هروئین",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "راننده در حال مخدوش کردن پلاک خودرو بوده است",
+      "evidence": {
+        "quote": "راننده مشغول مخدوش نمودن پلاک‌های جلو و عقب آن بوده است",
+        "start_char": 197,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم سابقه محکومیت کیفری ندارد",
+      "evidence": {
+        "quote": "فاقد سابقه محکومیت کیفری بوده است",
+        "start_char": 1514,
+        "end_char": 1547,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم ادعای شکنجه و اکراه در زمان اقرار دارد",
+      "evidence": {
+        "quote": "متهم مدعی است اقاریر وی نزد مراجع دیگر غیر از قاضی در اثر شکنجه و از روی اکراه بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

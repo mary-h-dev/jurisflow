@@ -1,0 +1,103 @@
+{
+  "ruling_id": "25182",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "کلاهبرداری",
+      "evidence": {
+        "quote": "مبنی بر کلاهبرداری",
+        "start_char": 60,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "شکایتی علیه آقای الف. مبنی بر کلاهبرداری و اخذ دویست و بیست میلیون ریال از وی به دادسرای عمومی و الف.ت. ، ناحیه شش تسلیم می‌نماید",
+        "start_char": 38,
+        "end_char": 167,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام می‌دارد",
+      "evidence": {
+        "quote": "متهم علت بازداشت خود را در مشهد صدور چک بلامحل اعلام می‌دارد",
+        "start_char": 1312,
+        "end_char": 1372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "درخواست احاله رد می‌گردد",
+        "start_char": 2646,
+        "end_char": 2670,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم از طرف شعبه 702 بازپرسی مشهد بازداشت و زندانی است",
+        "start_char": 988,
+        "end_char": 1042,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شاکی هم مقیم تهران می‌باشد",
+        "start_char": 2485,
+        "end_char": 2511,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "صدور چک بلامحل",
+        "start_char": 1344,
+        "end_char": 1358,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم در زندان است",
+      "evidence": {
+        "quote": "متهم از طرف شعبه 702 بازپرسی مشهد بازداشت و زندانی است",
+        "start_char": 988,
+        "end_char": 1042,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محل وقوع جرم در تهران بوده است",
+      "evidence": {
+        "quote": "محل وقوع جرم موضوع پرونده حاضر در تهران بوده است",
+        "start_char": 2435,
+        "end_char": 2483,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

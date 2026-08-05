@@ -1,0 +1,113 @@
+{
+  "ruling_id": "38303",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "بطلان دعوی ابتدایی ورشکستگی",
+        "start_char": 66,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقف",
+      "evidence": {
+        "quote": "توقف ظاهری",
+        "start_char": 396,
+        "end_char": 406,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دراین مرحله از رسیدگی",
+        "start_char": 854,
+        "end_char": 888,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد درخواست تجدیدنظرخواهی",
+        "start_char": 1268,
+        "end_char": 1296,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عینا تایید می نماید",
+        "start_char": 1297,
+        "end_char": 1342,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "لایحه اعتراضیه تجدیدنظرخواه",
+        "start_char": 219,
+        "end_char": 246,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بطلان دعوی ابتدایی ورشکستگی سازمان",
+        "start_char": 66,
+        "end_char": 100,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه اعتراضیه",
+      "evidence": {
+        "quote": "مفاد لایحه اعتراضیه تجدیدنظرخواه",
+        "start_char": 214,
+        "end_char": 246,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ادعای تجدیدنظرخواه وارد نیست",
+      "evidence": {
+        "quote": "دادگاه ادعای تجدیدنظرخواه را وارد و محمول بر صحت تشخیص نداده",
+        "start_char": 1114,
+        "end_char": 1174,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "توقف ظاهری در شرکت وجود دارد",
+      "evidence": {
+        "quote": "ایراد مطرح شده توسط وکلای تجدیدنظرخواهان در مورد\" توقف ظاهری\" در عین اینکه صحت دارد",
+        "start_char": 346,
+        "end_char": 429,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

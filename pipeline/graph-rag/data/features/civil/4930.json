@@ -1,0 +1,203 @@
+{
+  "ruling_id": "4930",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اقاله",
+      "evidence": {
+        "quote": "اقاله نوعی عقد است که با تراضی طرفین صورت می پذیرد",
+        "start_char": 2402,
+        "end_char": 2452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "با توجه به قواعد لزوم و صحت معامله",
+        "start_char": 2601,
+        "end_char": 2635,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "با توجه به قواعد لزوم و صحت معامله",
+        "start_char": 2601,
+        "end_char": 2635,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "صدور حکم مبنی بر تأیید و تنفیذ اقاله و تفاسخ مبایعه نامه عادی 18/8/89",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه خسارات دادرسی",
+        "start_char": 155,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انکار",
+      "evidence": {
+        "quote": "انکار دعوی خواهان می باشد",
+        "start_char": 595,
+        "end_char": 620,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظر",
+        "start_char": 2694,
+        "end_char": 2718,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "یک قطعه زمین از سوی خواهان به خوانده دعوی به عقد بیع واگذار گردیده",
+        "start_char": 225,
+        "end_char": 291,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "یک قطعه زمین از سوی خواهان به خوانده دعوی به عقد بیع واگذار گردیده",
+        "start_char": 225,
+        "end_char": 291,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "از سوی خریدار یعنی خوانده دعوی به اشخاص ثالث واگذار گردیده است",
+        "start_char": 912,
+        "end_char": 974,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "و قبول آن از سوی فروشنده دارد",
+        "start_char": 2517,
+        "end_char": 2546,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "مبایعه نامه عادی 18/8/89",
+        "start_char": 130,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین از سوی خواهان به خوانده دعوی به عقد بیع واگذار گردیده",
+        "start_char": 225,
+        "end_char": 291,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "ثمن معامله نیز یک دستگاه خودرو",
+        "start_char": 364,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "ثمن معامله نیز یک دستگاه خودرو، آپارتمان",
+        "start_char": 364,
+        "end_char": 404,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "و چند فقره چک می باشد",
+        "start_char": 405,
+        "end_char": 426,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت ثمن معامله",
+      "evidence": {
+        "quote": "علّت اقاله نیز عدم پرداخت ثمن می باشد",
+        "start_char": 326,
+        "end_char": 363,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انتقال آپارتمان و خودرو به اشخاص ثالث",
+      "evidence": {
+        "quote": "انتقال آپارتمان و خودرو توسط شخص خوانده به اشخاص ثالث",
+        "start_char": 479,
+        "end_char": 532,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "برگشت خوردن چک‌ها",
+      "evidence": {
+        "quote": "و چک های صادره نیز برگشت خورده اند",
+        "start_char": 975,
+        "end_char": 1009,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

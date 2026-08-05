@@ -1,0 +1,263 @@
+{
+  "ruling_id": "25492",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تنفیذ فسخ معامله",
+        "start_char": 109,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تخلف",
+      "evidence": {
+        "quote": "به علت تخلف از شرط",
+        "start_char": 151,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "و پرداخت خسارت و ضرر و زیان",
+        "start_char": 185,
+        "end_char": 212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "و تأخیر تأدیه لغایت اجرای حکم",
+        "start_char": 316,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "ضمن صدور حکم به بطلان دعوی خواهان تقابل",
+        "start_char": 3346,
+        "end_char": 3385,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "تنفیذ فسخ معامله",
+        "start_char": 109,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "و استرداد مبیع",
+        "start_char": 170,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "کل ثمن معامله را پرداخت و تسویه حساب نهایی می‌نمود",
+        "start_char": 637,
+        "end_char": 687,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تعیین",
+      "evidence": {
+        "quote": "تنظیم سند رسمی",
+        "start_char": 1295,
+        "end_char": 1309,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "برگشت",
+      "evidence": {
+        "quote": "چک‌ها برگشت داده شود",
+        "start_char": 949,
+        "end_char": 969,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای م. س. به خواسته",
+        "start_char": 67,
+        "end_char": 96,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "مطابق شروط مقرر در قولنامه خوانده (خریدار)",
+        "start_char": 566,
+        "end_char": 608,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "به علت امتناع خوانده (فروشنده)",
+        "start_char": 1684,
+        "end_char": 1714,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "توضیح داده است تمام ثمن معامله را برخلاف ادعای خواهان دعوی اصلی پرداخت نموده است",
+        "start_char": 1504,
+        "end_char": 1584,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "عمده دفاعیات تجدیدنظرخواه این است که",
+        "start_char": 5964,
+        "end_char": 6000,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "معامله",
+      "evidence": {
+        "quote": "فسخ معامله و قرارداد مورخه 1389/9/7",
+        "start_char": 115,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "فسخ معامله و قرارداد مورخه 1389/9/7",
+        "start_char": 115,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "و استرداد مبیع",
+        "start_char": 170,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "۴ فقره از آن‌ها به شماره‌های 23337348، 621628، 2162924، 62163014 منجر به گواهی عدم پرداخت می‌شود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "موضوع پلاک یک فرعی از... اصلی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "خانه",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی تمامی یک باب خانه",
+        "start_char": 1286,
+        "end_char": 1327,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "کل ثمن معامله را پرداخت و تسویه حساب نهایی می‌نمود",
+        "start_char": 637,
+        "end_char": 687,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت مابقی ثمن معامله",
+      "evidence": {
+        "quote": "عدم پرداخت قسمت اعظم ثمن معامله",
+        "start_char": 3637,
+        "end_char": 3668,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "برگشت خوردن چک‌ها",
+      "evidence": {
+        "quote": "چک‌ها برگشت داده شده به خریدار به گواهی بانک باطل شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تنظیم سند رسمی",
+      "evidence": {
+        "quote": "به علت امتناع خوانده (فروشنده) از تنظیم سند رسمی تاکنون پرداخت نشده است",
+        "start_char": 1684,
+        "end_char": 1755,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

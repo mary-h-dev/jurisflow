@@ -1,0 +1,133 @@
+{
+  "ruling_id": "7740",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "احراز رابطه استیجاری",
+        "start_char": 206,
+        "end_char": 226,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعدی",
+      "evidence": {
+        "quote": "به لحاظ تعدی و تفریط",
+        "start_char": 172,
+        "end_char": 192,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "به خواسته تخلیه",
+        "start_char": 82,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نصب",
+      "evidence": {
+        "quote": "نصب درب شیشه",
+        "start_char": 1540,
+        "end_char": 1552,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان ها",
+        "start_char": 8,
+        "end_char": 22,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده",
+        "start_char": 42,
+        "end_char": 57,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "اقدامات مستأجر",
+        "start_char": 433,
+        "end_char": 447,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده",
+        "start_char": 1489,
+        "end_char": 1504,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "یک باب",
+      "evidence": {
+        "quote": "تخلیه یک باب مغازه",
+        "start_char": 92,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی شماره 190 فرعی از 4481 اصلی",
+        "start_char": 114,
+        "end_char": 151,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مستأجر اقدام به حفر چاه و نصب درب شیشه کرده است",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده مبادرت به حفر چاه جهت فاضلاب و نیز نصب درب شیشه رأی به جای درب آهنی در آن نموده است",
+        "start_char": 1489,
+        "end_char": 1588,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اقدامات مستأجر موجب افزایش مورد اجاره شده است",
+      "evidence": {
+        "quote": "اقدامات مستأجر را متعارف و موجب افزایش مورد اجاره شده است",
+        "start_char": 540,
+        "end_char": 597,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

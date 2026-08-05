@@ -1,0 +1,243 @@
+{
+  "ruling_id": "37034",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "بخواسته صدور حکم طلاق",
+        "start_char": 64,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم پرداخت",
+      "evidence": {
+        "quote": "بلحاظ عدم پرداخت نفقه",
+        "start_char": 86,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "عسر و حرج",
+        "start_char": 177,
+        "end_char": 186,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "مابقی مهریه را در ازی طلاق بذل مینمایم",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بخواسته",
+      "evidence": {
+        "quote": "دادخواستی بخواسته صدور حکم طلاق",
+        "start_char": 54,
+        "end_char": 85,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور حکم محکومیت",
+      "evidence": {
+        "quote": "محکوم گردیده",
+        "start_char": 413,
+        "end_char": 425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "جلب",
+      "evidence": {
+        "quote": "دستور جلب زوج",
+        "start_char": 428,
+        "end_char": 441,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "نسبت به ان تجدیدنظرخواهی نموده",
+        "start_char": 3298,
+        "end_char": 3328,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "با تقدیم دادخواست نسبت به ان فرجام خواهی نموده",
+        "start_char": 3716,
+        "end_char": 3762,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر نموده",
+        "start_char": 3200,
+        "end_char": 3232,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "همسرش",
+      "evidence": {
+        "quote": "بطرفیت همسرش",
+        "start_char": 30,
+        "end_char": 42,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از جانب خوانده دعوی ( زوج )",
+        "start_char": 750,
+        "end_char": 777,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با حضور خواهان",
+        "start_char": 833,
+        "end_char": 847,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج",
+        "start_char": 323,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "از سوی زوجه",
+        "start_char": 4687,
+        "end_char": 4698,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "اقای ی. ح. وکیل پایه یک",
+        "start_char": 693,
+        "end_char": 716,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمانده",
+      "evidence": {
+        "quote": "مامور انتظامی",
+        "start_char": 524,
+        "end_char": 537,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "تصویر سند نکاحیه",
+        "start_char": 213,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "پرداخت نفقه جاریه",
+        "start_char": 330,
+        "end_char": 347,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه اینجانب 114 سکه بهار آزادی بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "114 سکه بهار آزادی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج مبالغی را به حساب سپرده دادگستری واریز کرده است",
+      "evidence": {
+        "quote": "زوج مبلغ 1/400/000 تومان در تاریخ 1400/1/21 به حساب سپرده دادگستری واریز نموده است",
+        "start_char": 2186,
+        "end_char": 2268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از پرداخت نفقه استنکاف نکرده و مبالغ را پرداخت کرده است",
+      "evidence": {
+        "quote": "زوج فرمان خوانده نفقه جاریه مورد حکم استحقاقی زوجه را که بصورت معوق درامده به تناوب قبل از تقدیم دادخواست از سوی زوجه به نحو کامل پرداخت نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

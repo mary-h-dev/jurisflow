@@ -1,0 +1,163 @@
+{
+  "ruling_id": "27391",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "با ایراد در صلاحیت محلی",
+        "start_char": 350,
+        "end_char": 373,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اختلاف",
+      "evidence": {
+        "quote": "درخصوص حل اختلاف در صلاحیت مشاوره نموده",
+        "start_char": 1163,
+        "end_char": 1202,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت",
+        "start_char": 11,
+        "end_char": 29,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "تقدیم دادگاه حقوقی ن. کرده است",
+        "start_char": 78,
+        "end_char": 108,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "خوانده تقاضا واخواهی کرده است",
+        "start_char": 253,
+        "end_char": 282,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نفی",
+      "evidence": {
+        "quote": "با نفی صلاحیت خویش",
+        "start_char": 506,
+        "end_char": 524,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "با اعلام صلاحیت دادگاه حقوقی ک",
+        "start_char": 1726,
+        "end_char": 1756,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "رای به نفع خواهان صادر کرده است",
+        "start_char": 185,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده تقاضا واخواهی کرده است",
+        "start_char": 253,
+        "end_char": 282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "توسط واخواه",
+        "start_char": 374,
+        "end_char": 385,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "به خواسته مبلغ 100/000/000/ ریال",
+        "start_char": 45,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قراردادی",
+      "evidence": {
+        "quote": "مربوط به قراردادی است",
+        "start_char": 407,
+        "end_char": 428,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رای قبلی غیابی بوده است",
+      "evidence": {
+        "quote": "رای مذکور غیابی بوده است",
+        "start_char": 228,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محل اقامت خوانده ک. و محل کار وی ر. است",
+      "evidence": {
+        "quote": "خوانده محل اقامت خود را ک. و محل کارخویش را ر. اعلام کرده است",
+        "start_char": 1387,
+        "end_char": 1448,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد در قزوین منعقد شده است",
+      "evidence": {
+        "quote": "خواسته مربوط به قراردادی است که در قزوین منعقد شده است",
+        "start_char": 400,
+        "end_char": 454,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

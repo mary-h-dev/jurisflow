@@ -1,0 +1,183 @@
+{
+  "ruling_id": "28811",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "بخواسته فسخ اجاره",
+        "start_char": 60,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دعوای تخلیه",
+      "evidence": {
+        "quote": "وتخلیه",
+        "start_char": 78,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "حق تخلیه",
+        "start_char": 683,
+        "end_char": 691,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "منافع",
+      "evidence": {
+        "quote": "باید مالک منافع آن باشد",
+        "start_char": 1530,
+        "end_char": 1553,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "می تواند این اجاره را یکطرفه فسخ نماید",
+        "start_char": 417,
+        "end_char": 455,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقدام نماید",
+      "evidence": {
+        "quote": "نسبت به تخلیه عین مستاجره اقدام نماید",
+        "start_char": 457,
+        "end_char": 494,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی صادر می گردد",
+        "start_char": 917,
+        "end_char": 942,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "را نقض و جهت ادامه رسیدگی",
+        "start_char": 1660,
+        "end_char": 1685,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان",
+        "start_char": 0,
+        "end_char": 19,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده محترم",
+        "start_char": 176,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "موجر می تواند این اجاره را یکطرفه فسخ نماید",
+        "start_char": 412,
+        "end_char": 455,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "خانم ط. ب.م. مالک سه دانگ",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجاره نامه",
+      "evidence": {
+        "quote": "بموجب اجاره نامه عادی شماره 92/121",
+        "start_char": 206,
+        "end_char": 240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "مغازه موصوف",
+        "start_char": 241,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "املاک و پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک 17141 فرعی از 3526 اصلی",
+        "start_char": 635,
+        "end_char": 663,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در تاریخ 92/5/12 مغازه را اجاره کرده است",
+      "evidence": {
+        "quote": "خوانده محترم در تاریخ 92/5/12 بموجب اجاره نامه عادی شماره 92/121 مغازه موصوف را از ناقل قانونی جهت طباخی اجاره نموده است",
+        "start_char": 176,
+        "end_char": 296,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان مالک سه دانگ از پلاک مذکور است",
+      "evidence": {
+        "quote": "خانم ط. ب.م. مالک سه دانگ از پلاک 17141 فرعی از 3526 اصلی بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "28569",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی",
+        "start_char": 215,
+        "end_char": 232,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "منوط به اخذ مجوز واستعلامات لازم میباشد",
+        "start_char": 623,
+        "end_char": 662,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی آقای ر. الف. بوکالت",
+        "start_char": 0,
+        "end_char": 40,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارت",
+        "start_char": 375,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان‌ها",
+      "evidence": {
+        "quote": "تجدیدنظرخواهانها ملک را بر رضایت مالک",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "بر رضایت مالک از مستاجرین سابق خود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستاجر",
+      "evidence": {
+        "quote": "از مستاجرین سابق خود",
+        "start_char": 508,
+        "end_char": 527,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "رضایت موجربه انتقال منافع",
+        "start_char": 544,
+        "end_char": 569,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "تجدیدنظرخواهانها ملک را بر رضایت مالک",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عین مستأجره",
+      "evidence": {
+        "quote": "خسارت ناشی از پلمپ عین مستاجره",
+        "start_char": 233,
+        "end_char": 262,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تغییر وصف ملک از مسکونی به تجاری",
+      "evidence": {
+        "quote": "اختلاف وصف عین مستاجره از مسکونی به تجاری",
+        "start_char": 395,
+        "end_char": 435,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انتقال منافع منوط به اخذ مجوز است",
+      "evidence": {
+        "quote": "رضایت موجربه انتقال منافع عین مستاجره همچنان که در پشت برگه قرارداد اجاره قید شده منوط به اخذ مجوز و استعلامات لازم میباشد",
+        "start_char": 544,
+        "end_char": 662,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

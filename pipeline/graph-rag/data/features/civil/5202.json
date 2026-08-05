@@ -1,0 +1,123 @@
+{
+  "ruling_id": "5202",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "اعلام حق فسخ خواهان",
+        "start_char": 185,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان",
+        "start_char": 657,
+        "end_char": 681,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مورد بینه",
+      "evidence": {
+        "quote": "شهادت بینه را در برابر اسناد معتبر فاقد ارزش دانسته",
+        "start_char": 1247,
+        "end_char": 1298,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال و اصلاح صلح نامه",
+        "start_char": 89,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اصلاح",
+      "evidence": {
+        "quote": "اصلاح صلح نامه",
+        "start_char": 107,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "خواسته را نقض پرونده جهت رسیدگی به ماهیت موضوع به دادگاه بدوی عودت می شود",
+        "start_char": 1958,
+        "end_char": 2031,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اعلام حق فسخ خواهان",
+        "start_char": 185,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 32,
+        "end_char": 49,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نامه شماره",
+      "evidence": {
+        "quote": "صلح نامه شماره 4949 مورخ 13/11/87",
+        "start_char": 113,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد رسمی",
+      "evidence": {
+        "quote": "اسناد رسمی تهران",
+        "start_char": 166,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "استناد به گواهی گواهان برای تغییر مفاد سند رسمی",
+      "evidence": {
+        "quote": "با توجه به سند رسمی مذکور و اعتبار آن به مفاد گواهی گواهان نمی توان مندرجات آن را تغییر داد",
+        "start_char": 514,
+        "end_char": 605,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

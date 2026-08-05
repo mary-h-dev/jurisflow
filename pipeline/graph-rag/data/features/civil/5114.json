@@ -1,0 +1,173 @@
+{
+  "ruling_id": "5114",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "به خواسته اعتراض ثالث اجرایی",
+        "start_char": 52,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌حقی",
+      "evidence": {
+        "quote": "حکم بر بیحقی و بطلان ادعای معترض ثالث صادر می نماید",
+        "start_char": 1560,
+        "end_char": 1611,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بیحقی و بطلان ادعای معترض ثالث صادر می نماید",
+        "start_char": 1560,
+        "end_char": 1611,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "نسبت به توقیف 3 دانگ سرقفلی",
+        "start_char": 81,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی غ.ک. نسبت به دادنامه",
+        "start_char": 669,
+        "end_char": 703,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظر خواسته",
+        "start_char": 1527,
+        "end_char": 1558,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "نسبت به وجود حق برای معترض ثالث",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شکایت شاکی مصون از تعرض مدلل واقع شده است",
+        "start_char": 349,
+        "end_char": 390,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و خوانده دلیلی بر ردّ شکایت شاکی اقامه ننموده است",
+        "start_char": 297,
+        "end_char": 346,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه که شخص ثالث تلقی می شود",
+        "start_char": 1355,
+        "end_char": 1398,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اصلی بخش",
+      "evidence": {
+        "quote": "توقیف 3 دانگ سرقفلی پلاک ثبتی 1038 فرعی از 3745 اصلی بخش 3 تهران",
+        "start_char": 89,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سرقفلی",
+      "evidence": {
+        "quote": "قرارداد انتقال سرقفلی مورخ 18/10/88",
+        "start_char": 167,
+        "end_char": 202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه",
+      "evidence": {
+        "quote": "و شهادت نامه کتبی پیوست دادخواست",
+        "start_char": 203,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "به موجب یک قرارداد عادی مورخ 18/10/88",
+        "start_char": 1005,
+        "end_char": 1042,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "معترض ثالث مدعی خریداری سرقفلی از طریق قرارداد عادی شده است",
+      "evidence": {
+        "quote": "معترض ثالث به موجب یک قرارداد عادی مورخ 18/10/88 مدعی خریداری سرقفلی مذکور گردیده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تاریخ سند عادی نسبت به شخص ثالث معتبر نیست",
+      "evidence": {
+        "quote": "تاریخ در اسناد عادی نسبت به اشخاص ثالث معتبر نبوده",
+        "start_char": 1195,
+        "end_char": 1245,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

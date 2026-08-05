@@ -1,0 +1,163 @@
+{
+  "ruling_id": "4419",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "وضع ید",
+      "evidence": {
+        "quote": "صدور حکم به وضع ید خواهان ها",
+        "start_char": 167,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "و مالکیت مشارالیه در دو دانگ منافع مغازه متنازع فیه",
+        "start_char": 718,
+        "end_char": 769,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم به وضع ید خواهان ها",
+        "start_char": 167,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد واخواهی",
+      "evidence": {
+        "quote": "ضمن رد واخواهی",
+        "start_char": 1994,
+        "end_char": 2008,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تایید و ابرام",
+      "evidence": {
+        "quote": "تأیید و ابرام می نماید",
+        "start_char": 2883,
+        "end_char": 2905,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "صدور حکم به وضع ید خواهان ها",
+        "start_char": 167,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "عدم ایراد و اعتراضی از جانب خوانده ردیف دوم",
+        "start_char": 556,
+        "end_char": 599,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "در خصوص واخواهی واخواه آقای ح.ه.",
+        "start_char": 1289,
+        "end_char": 1321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواندگان",
+      "evidence": {
+        "quote": "به طرفیت واخواندگان به نام های",
+        "start_char": 1331,
+        "end_char": 1361,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "تجدیدنظرخواندگان خانم ها و آقایان",
+        "start_char": 2443,
+        "end_char": 2476,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "املاک و مستغلات",
+      "evidence": {
+        "quote": "دو دانگ از شش دانگ مغازه تجاری",
+        "start_char": 205,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره نامه",
+      "evidence": {
+        "quote": "موضوع سند اجاره نامه رسمی 130645",
+        "start_char": 276,
+        "end_char": 308,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "ملاحظه رونوشت مصدق گواهی حصر وراثت مرحوم ع.",
+        "start_char": 414,
+        "end_char": 457,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وراثت خواهان ها با مرحوم ع.ه. احراز شده است",
+      "evidence": {
+        "quote": "با احراز رابطه وراثت خواهان ها با ع.ه.",
+        "start_char": 679,
+        "end_char": 717,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ردیف دوم غیابی در جلسه حاضر نبوده است",
+      "evidence": {
+        "quote": "رأی صادره در خصوص خوانده ردیف 2 غیابی بوده",
+        "start_char": 1030,
+        "end_char": 1072,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "25675",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "اعلام بطلان قرار داد",
+        "start_char": 165,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتبار",
+      "evidence": {
+        "quote": "اعتبار امر مختومه",
+        "start_char": 2221,
+        "end_char": 2238,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غرر",
+      "evidence": {
+        "quote": "عدم توانایی مشروط علیه بر تسلیم متعلق شرط ، مستلزم غرر در شرط است",
+        "start_char": 7130,
+        "end_char": 7195,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "مربوط به انتقال سه دانگ",
+        "start_char": 355,
+        "end_char": 378,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 5609,
+        "end_char": 5636,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظر",
+        "start_char": 8001,
+        "end_char": 8025,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با ولایت قهری خواهان شماره 1",
+        "start_char": 33,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت شرکت خ.... به خوانده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متعهد",
+      "evidence": {
+        "quote": "از سوی متعهد مقدور نمی باشد",
+        "start_char": 6616,
+        "end_char": 6643,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تفاهم‌نامه",
+      "evidence": {
+        "quote": "بطلان قرار داد (تفاهم نامه )",
+        "start_char": 171,
+        "end_char": 199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "ابطال سند رسمی به شماره ثبت 92112",
+        "start_char": 280,
+        "end_char": 313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اصلی بخش",
+      "evidence": {
+        "quote": "مربوط به انتقال سه دانگ از پلاک ثبتی... فرعی از 126 اصلی بخش 11 تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تعهد جمع‌آوری دکل‌های برق غیرممکن است",
+      "evidence": {
+        "quote": "انجام این تعهد از سوی ایشان غیر ممکن بوده است",
+        "start_char": 1155,
+        "end_char": 1200,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موضوع دعوای شعبه ۱۹ با دعوای فعلی متفاوت است",
+      "evidence": {
+        "quote": "ضمن اینکه جهت دو دعوی متفاوت است",
+        "start_char": 2705,
+        "end_char": 2737,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

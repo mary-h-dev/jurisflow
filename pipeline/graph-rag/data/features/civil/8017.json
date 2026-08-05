@@ -1,0 +1,203 @@
+{
+  "ruling_id": "8017",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "اعلام فسخ نکاح",
+        "start_char": 98,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "به لحاظ تدلیس و فریب در ازدواج",
+        "start_char": 113,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ازدواج",
+      "evidence": {
+        "quote": "وجود علقه زوجیت بین طرفین",
+        "start_char": 253,
+        "end_char": 278,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "به لحاظ حق احلاف زوجه",
+        "start_char": 3778,
+        "end_char": 3799,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "به خواسته اعلام فسخ نکاح",
+        "start_char": 88,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "کتمان",
+      "evidence": {
+        "quote": "ازدواج دیگری داشته و آن را کتمان کرده است",
+        "start_char": 400,
+        "end_char": 441,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پذیرش",
+      "evidence": {
+        "quote": "ضمن پذیرش ازدواج اول",
+        "start_char": 629,
+        "end_char": 649,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض نامبرده قابل انطباق با جهات مقرر",
+        "start_char": 2104,
+        "end_char": 2143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادرسی ناقص تشخیص دادنامه فرجام خواسته... نقض و... ارجاع می‌گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "حکم تجدیدنظر خواسته را تأیید می‌نماید",
+        "start_char": 2276,
+        "end_char": 2313,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "شناسنامه مصدق خواهان",
+        "start_char": 217,
+        "end_char": 237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دفاع خوانده مبنی بر اینکه",
+        "start_char": 1172,
+        "end_char": 1197,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به موجب دادخواست زوج",
+        "start_char": 3544,
+        "end_char": 3564,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظر خواهی خانم م.م. به طرفیت آقای الف.ش.... نسبت به دادنامه... در اثر فرجام خواهی پرونده... در خصوص مورد قسم یاد نماید و زوج مراتب احلاف را اجرا و قسم یاد نمود که زوجه در زمان ازدواج به وی نگفته است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "تصویر مصدق سند نکاحیه",
+        "start_char": 193,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "شناسنامه مصدق خواهان",
+        "start_char": 217,
+        "end_char": 237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "ضمن تقدیم لایحه ثبت شده به شماره 867",
+        "start_char": 550,
+        "end_char": 586,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه پیش از ازدواج با شخص دیگری ازدواج داشته و آن را پنهان کرده است",
+      "evidence": {
+        "quote": "زوجه قبل از ازدواج با خواهان، ازدواج دیگری داشته و آن را کتمان کرده است",
+        "start_char": 370,
+        "end_char": 441,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه در شناسنامه المثنی نام شوهر قبلی خود را حذف کرده است",
+      "evidence": {
+        "quote": "اخذ شناسنامه المثنی که در آن نام شوهر قبلی خود را حذف کرده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

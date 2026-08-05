@@ -1,0 +1,183 @@
+{
+  "ruling_id": "23312",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مضاربه",
+      "evidence": {
+        "quote": "به موجب قرارداد مضاربه",
+        "start_char": 607,
+        "end_char": 629,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "مطالبۀ مبلغ هفتاد و یک میلیون و پانصد و شصت هزار و هشتصد و هفتاد و سه ریال بابت خسارت تاخیر تادیه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمانت",
+      "evidence": {
+        "quote": "خواندگان ردیف دوم و سوم نیز با امضاء ذیل قرارداد موصوف پرداخت کلیه مطالبات بانک را ضمانت نموده اند",
+        "start_char": 959,
+        "end_char": 1057,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تضامن",
+      "evidence": {
+        "quote": "محکومیت تضامنی خواندگان",
+        "start_char": 1344,
+        "end_char": 1367,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان دعوی نسبت به خواسته خسارت تاخیر تادیه",
+        "start_char": 2703,
+        "end_char": 2746,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه",
+        "start_char": 109,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تادیه",
+      "evidence": {
+        "quote": "خودداری تمام خواندگان از تادیه بدهی",
+        "start_char": 1093,
+        "end_char": 1128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "درخور نقض و از شقوق مندرج در ماده 358 قانون آئین دادرسی مدنی محسوب می شود",
+        "start_char": 3391,
+        "end_char": 3459,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 521,
+        "end_char": 532,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف اول",
+        "start_char": 557,
+        "end_char": 572,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی بانک",
+        "start_char": 3115,
+        "end_char": 3133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "تجدیدنظرخواندگان",
+        "start_char": 3309,
+        "end_char": 3325,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ضامن",
+      "evidence": {
+        "quote": "ضامنین ضمن تعهد به پرداخت اصل",
+        "start_char": 3536,
+        "end_char": 3565,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "به موجب قرارداد مضاربه",
+        "start_char": 607,
+        "end_char": 629,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اصل 40",
+      "evidence": {
+        "quote": "نسبت به اصل طلب",
+        "start_char": 360,
+        "end_char": 375,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت اصل بدهی توسط خوانده ردیف اول به خواندگان ردیف دوم و سوم",
+      "evidence": {
+        "quote": "عدم پرداخت اصل بدهی توسط خوانده ردیف اول به خواندگان ردیف دوم و سوم",
+        "start_char": 2804,
+        "end_char": 2871,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم حضور خواندگان در وقت دادرسی",
+      "evidence": {
+        "quote": "خواندگان علیرغم ابلاغ قانونی وقت دادرسی حضور پیدا نکرده اند",
+        "start_char": 1518,
+        "end_char": 1577,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

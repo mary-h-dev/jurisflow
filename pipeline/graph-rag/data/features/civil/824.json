@@ -1,0 +1,223 @@
+{
+  "ruling_id": "824",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت فی مابین خواهان و خوانده",
+        "start_char": 221,
+        "end_char": 263,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "حقوق و تکالیف زوجین در مقابل یکدیگر برقرار می شود",
+        "start_char": 290,
+        "end_char": 339,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خانواده",
+      "evidence": {
+        "quote": "ریاست خانواده از خصایص شوهر است",
+        "start_char": 959,
+        "end_char": 990,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نظم عمومی",
+      "evidence": {
+        "quote": "از امر مربوط به نظم عمومی است",
+        "start_char": 1284,
+        "end_char": 1313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "تمکین زوجه از زوج منوط و مشروط به پرداخت نفقه از سوی زوج می باشد",
+        "start_char": 1510,
+        "end_char": 1574,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "تمکین زوجه از زوج منوط و مشروط به پرداخت نفقه از سوی زوج می باشد",
+        "start_char": 1510,
+        "end_char": 1574,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 67,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت نفقه",
+        "start_char": 896,
+        "end_char": 907,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض وارد است",
+        "start_char": 2903,
+        "end_char": 2918,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 3708,
+        "end_char": 3723,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست تقدیمی خواهان",
+        "start_char": 0,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت ف.خ. فرزند ص. به خواسته الزام خوانده",
+        "start_char": 44,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج (خواهان) به تکالیف قانونی خویش",
+        "start_char": 858,
+        "end_char": 892,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "متناسب با شان زوجه نمی باشد",
+        "start_char": 828,
+        "end_char": 855,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "دعوی تجدیدنظرخواه به خواسته الزام به تمکین",
+        "start_char": 2830,
+        "end_char": 2872,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به دلالت منطوق سند نکاحیه",
+        "start_char": 264,
+        "end_char": 289,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بر خلاف استدلال دادگاه محترم که تمکین فرع بر پرداخت نفقه اعلام کرده اند",
+        "start_char": 2925,
+        "end_char": 2996,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه توسط زوج",
+      "evidence": {
+        "quote": "زوج نفقه مقرر قانونی را درحق زوجه پرداخت ننموده",
+        "start_char": 1600,
+        "end_char": 1647,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تناسب محل سکونت با شأن زوجه",
+      "evidence": {
+        "quote": "محل سکونت مشترک متناسب با شان زوجه نمی باشد",
+        "start_char": 812,
+        "end_char": 855,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ضرب و شتم توسط خواهان",
+      "evidence": {
+        "quote": "نسبت به زوج کتک کاری می کرده",
+        "start_char": 2209,
+        "end_char": 2237,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زندگی طولانی در منزل مشترک",
+      "evidence": {
+        "quote": "زوجین مدت 11 سال در یک منزل مشترک زندگی کرده اند",
+        "start_char": 3228,
+        "end_char": 3276,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

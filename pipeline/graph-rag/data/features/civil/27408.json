@@ -1,0 +1,213 @@
+{
+  "ruling_id": "27408",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "به علت عسروحرج بلحاظ سوء رفتار و ضرب وشتم زوجه",
+        "start_char": 96,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "نوع طلاق بائن خلعی است",
+        "start_char": 3281,
+        "end_char": 3303,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "اجرت المثل وتا نصف دارایی را به زوجه بذل نموده",
+        "start_char": 3162,
+        "end_char": 3208,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "ضمن احراز علقه زوجیت",
+        "start_char": 2646,
+        "end_char": 2666,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مهریه خود را مطالبه",
+        "start_char": 766,
+        "end_char": 785,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "اجرت المثل وتا نصف دارایی را به زوجه بذل نموده",
+        "start_char": 3162,
+        "end_char": 3208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض دادنامه صادره را خواستار شده است",
+        "start_char": 3507,
+        "end_char": 3543,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان در شرح دادخواست",
+        "start_char": 212,
+        "end_char": 239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده طی لایحه ای",
+        "start_char": 662,
+        "end_char": 680,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تلاش دادگاه وداوران درجهت سازش فیمابین زوجین مؤثر واقع نشده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه همچنان اصرار بر طلاق دارد",
+        "start_char": 2749,
+        "end_char": 2779,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نامه عادی",
+      "evidence": {
+        "quote": "به استناد عقد نامه عادی به عقد دائم",
+        "start_char": 289,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه خود را مطالبه",
+        "start_char": 766,
+        "end_char": 785,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "از بابت نفقه هر ماهه",
+        "start_char": 885,
+        "end_char": 905,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "به پرداخت دیه صادر شده است",
+        "start_char": 1368,
+        "end_char": 1394,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجرت‌المثل",
+      "evidence": {
+        "quote": "اجرت المثل وتانصف دارایی را می خواهم",
+        "start_char": 2150,
+        "end_char": 2186,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج و زوجه با عقدنامه عادی به عقد دائم درآمده‌اند",
+      "evidence": {
+        "quote": "درتاریخ 92/03/03 به استناد عقد نامه عادی به عقد دائم خوانده در آمده",
+        "start_char": 272,
+        "end_char": 339,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در رابطه با زوجه حکم محکومیت به پرداخت دیه دارد",
+      "evidence": {
+        "quote": "حکم محکومیت ، به پرداخت دیه صادر شده است",
+        "start_char": 1354,
+        "end_char": 1394,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تلاش برای سازش میان زوجین بی‌نتیجه مانده است",
+      "evidence": {
+        "quote": "تلاش دادگاه وداوران درجهت سازش فیمابین زوجین مؤثر واقع نشده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج و زوجه فرزند مشترک ندارند",
+      "evidence": {
+        "quote": "زوجین اولاد مشترک ندارند",
+        "start_char": 3234,
+        "end_char": 3258,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

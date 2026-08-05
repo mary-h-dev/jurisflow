@@ -1,0 +1,133 @@
+{
+  "ruling_id": "11126",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ولی قهری",
+      "evidence": {
+        "quote": "ولى قهری منحصر به‌‌ واسطه غیبت و یا حبس به هر علتی که نتواند به امور مولی‌علیه رسیدگی کند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "ماده 1187 قانون مدنی که اعلام نموده هرگاه ولی قهری منحصر به‌‌ واسطه غیبت و یا حبس به هر علتی که نتواند به امور مولی‌علیه رسیدگی کند",
+        "start_char": 1044,
+        "end_char": 1175,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تعیین",
+      "evidence": {
+        "quote": "تعیین امین موقت نسبت به صغیر الف.ت.",
+        "start_char": 116,
+        "end_char": 151,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم بر رد درخواست شعبه دوم دادیاری",
+        "start_char": 469,
+        "end_char": 508,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شعبه دوم دادیاری ناحیه 25 تهران",
+        "start_char": 2268,
+        "end_char": 2313,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان (شعبه دوم دادیاری)",
+        "start_char": 1617,
+        "end_char": 1642,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "ولی قهری",
+      "evidence": {
+        "quote": "ولى قهری منحصر به‌‌ واسطه غیبت و یا حبس به هر علتی که نتواند به امور مولی‌علیه رسیدگی کند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "با وصول پرونده و جری تشریفات قانونی",
+        "start_char": 352,
+        "end_char": 387,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "به حکایت پرونده و به‌ موجب گواهی ولادت صادره از بیمارستان ف.",
+        "start_char": 168,
+        "end_char": 228,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پدر صغیر نامعلوم است",
+      "evidence": {
+        "quote": "پدر وی نامعلوم است",
+        "start_char": 267,
+        "end_char": 285,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان درخواست تعیین امین موقت را کرده است",
+      "evidence": {
+        "quote": "درخواست شعبه دوم دادیاری دادسرای ناحیه 25 تهران (اداره امورپرستی) به شماره 190069.2 مورخه 1393/7/26 مبنی بر تعیین امین موقت",
+        "start_char": 8,
+        "end_char": 131,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه بدوی حکم به رد درخواست را صادر کرده است",
+      "evidence": {
+        "quote": "صدور حکم بر رد درخواست شعبه دوم دادیاری",
+        "start_char": 469,
+        "end_char": 508,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

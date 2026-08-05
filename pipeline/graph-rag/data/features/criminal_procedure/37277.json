@@ -1,0 +1,83 @@
+{
+  "ruling_id": "37277",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "جعل",
+      "evidence": {
+        "quote": "اتهام جعل",
+        "start_char": 39,
+        "end_char": 48,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "محکوم علیه اعاده دادرسی خواسته",
+        "start_char": 252,
+        "end_char": 282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "شاکی اعلام رضایت کرده است",
+        "start_char": 971,
+        "end_char": 996,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "محکوم علیه اعاده دادرسی خواسته",
+        "start_char": 252,
+        "end_char": 282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شاکی اعلام رضایت کرده است",
+        "start_char": 971,
+        "end_char": 996,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "استفاده از سند مجعول ( سند عادی )",
+        "start_char": 51,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "محکوم به یک سال حبس شده است",
+      "evidence": {
+        "quote": "بابت هرکدام از اتهامات به تحمل یکسال حبس محکوم شده است",
+        "start_char": 123,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "ruling_id": "25679",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "به خواسته خلع ید از مشاعات ساختمان",
+        "start_char": 34,
+        "end_char": 68,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "مبادرت به تصرف بخشی از پشت بام",
+        "start_char": 204,
+        "end_char": 234,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "مبادرت به تصرف بخشی از پشت بام",
+        "start_char": 204,
+        "end_char": 234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در دادگاه تجدیدنظر",
+        "start_char": 930,
+        "end_char": 960,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تأیید می‌نماید",
+        "start_char": 1889,
+        "end_char": 1903,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان ف. ب.",
+        "start_char": 0,
+        "end_char": 25,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده بدون مجوز قانونی",
+        "start_char": 180,
+        "end_char": 203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م. غ.",
+        "start_char": 1029,
+        "end_char": 1061,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده محکوم شده است",
+        "start_char": 1290,
+        "end_char": 1324,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ساختمان",
+      "evidence": {
+        "quote": "تصرفات وی در بخش مشاعی ساختمان",
+        "start_char": 456,
+        "end_char": 486,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "انباری",
+      "evidence": {
+        "quote": "به صورت انباری",
+        "start_char": 235,
+        "end_char": 249,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده بخشی از پشت بام را به صورت انباری تصرف کرده است",
+      "evidence": {
+        "quote": "خوانده بدون مجوز قانونی مبادرت به تصرف بخشی از پشت بام به صورت انباری نموده است",
+        "start_char": 180,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ملک مورد نظر را از مالک قبلی خریداری کرده است",
+      "evidence": {
+        "quote": "بنده به کیفیت مذکور از مالک قبلی خریداری کرده‌­ام",
+        "start_char": 283,
+        "end_char": 332,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

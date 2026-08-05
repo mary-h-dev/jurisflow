@@ -1,0 +1,193 @@
+{
+  "ruling_id": "28610",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "قرار داد فسخ گردد",
+        "start_char": 558,
+        "end_char": 575,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "قانون مسئولیت مدنی",
+        "start_char": 1126,
+        "end_char": 1144,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه مبلغ هشتادو هشت میلیون ریال",
+        "start_char": 81,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبالغی را جهت تنظیم و عقد قرارداد در بنگاه دیگر و جابجایی اسباب و اثاث منزل و پرداخت اجاره بها به موجه قبلی پرداخت نموده",
+        "start_char": 658,
+        "end_char": 778,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته که برخلاف مقررات مذکور صادر شده ، درخور تأیید نمیباشد بنابراین به دلالت مواد 197و 358 قانون آئین دادرسی مدنی دادنامه تجدیدنظرخواسته در بخش مورد اشاره فوق نقض",
+        "start_char": 2360,
+        "end_char": 2540,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بطرفیت خانم ها ع. ت.ک. و س. ط. بخواست مطالبه مبلغ هشتادو هشت میلیون ریال",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خواهان و خوانده ردیف دوم",
+        "start_char": 195,
+        "end_char": 219,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "مبلغ بیست میلیون ریال به مستاجر به عنوان ضر و زیان عدم تحویل پرداخت",
+        "start_char": 488,
+        "end_char": 555,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "بطرفیت موجر خانم س. ط.",
+        "start_char": 1041,
+        "end_char": 1063,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم س. ط.",
+        "start_char": 1733,
+        "end_char": 1757,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "باعنایت به توافق تجدیدنظرخوانده یاقائم مقام قراردادی تجدیدنظرخواه",
+        "start_char": 2061,
+        "end_char": 2126,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "بموجب قرارداد عادی اجاره تنظیمی فیما بین",
+        "start_char": 154,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "یک باب",
+      "evidence": {
+        "quote": "یک باب آپارتمان مسکونی ملکی خوانده",
+        "start_char": 220,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ودیعه",
+      "evidence": {
+        "quote": "و ودیعه پرداختی نیز به ایشان مسترد شود",
+        "start_char": 576,
+        "end_char": 614,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث",
+      "evidence": {
+        "quote": "جابجایی اسباب و اثاث منزل",
+        "start_char": 708,
+        "end_char": 733,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک در موعد مقرر آماده تحویل نبوده است",
+      "evidence": {
+        "quote": "به علت عدم تکمیل و آماده تحویل نبودن کلک در موعد مقرر",
+        "start_char": 385,
+        "end_char": 438,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین در ظهر قرارداد بر پرداخت خسارت و فسخ توافق کرده‌اند",
+      "evidence": {
+        "quote": "طرفین به شرح مندرجات ظهر قرارداد توافق نموده اند مبلغ بیست میلیون ریال به مستاجر به عنوان ضر و زیان عدم تحویل پرداخت و قرار داد فسخ گردد",
+        "start_char": 439,
+        "end_char": 575,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالک عین و منافع نبوده است",
+      "evidence": {
+        "quote": "نظر به این که ایشان مالک عین و منافع نبوده",
+        "start_char": 1395,
+        "end_char": 1437,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

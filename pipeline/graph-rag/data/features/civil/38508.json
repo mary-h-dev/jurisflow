@@ -1,0 +1,183 @@
+{
+  "ruling_id": "38508",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر و اعلام می نماید",
+        "start_char": 2134,
+        "end_char": 2180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "انچه بین طرفین مطرح گردیده خیار شرط می باشد",
+        "start_char": 1672,
+        "end_char": 1715,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "طرفین یا یکی از انها اختیار فسخ معامله را برای مدت معینی داشته باشند",
+        "start_char": 1368,
+        "end_char": 1436,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غرر",
+      "evidence": {
+        "quote": "موجب ضرر و غرر فروشنده می شود",
+        "start_char": 17369,
+        "end_char": 17398,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارت دادرسی",
+        "start_char": 317,
+        "end_char": 336,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعلام بطلان معامله",
+        "start_char": 340,
+        "end_char": 358,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تاییدفسخ",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی تنفیذ فسخ",
+        "start_char": 12803,
+        "end_char": 12830,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان: سازمان",
+        "start_char": 34,
+        "end_char": 48,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده: اقای ه. ج. فرزند ج.",
+        "start_char": 232,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "و خریدار نیز از شرط مندرج در قرارداد تخلف کرده است",
+        "start_char": 9356,
+        "end_char": 9406,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "و فروشنده نیز جهت جبران خسارت با طرح دعوی مذکور راه دیگری جز بطلان قرارداد ندارد",
+        "start_char": 15000,
+        "end_char": 15080,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "قرارداد شماره 10963مورخه:20/ 11/ 86",
+        "start_char": 900,
+        "end_char": 935,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "هرگاه یکی از چک های ثمن معامله برگشت بخورد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "به انتقال رسمی مبیع به ه. ا. ج. محکوم کرده است",
+        "start_char": 15748,
+        "end_char": 15794,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ذکر مدت در خیار شرط",
+      "evidence": {
+        "quote": "عدم ذکر مدت در خیار شرط",
+        "start_char": 1231,
+        "end_char": 1254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "برگشت نخوردن چک ها",
+      "evidence": {
+        "quote": "با توجه به عدم برگشت خوردن چک ها",
+        "start_char": 18753,
+        "end_char": 18785,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت ثمن معامله انجام شده است",
+      "evidence": {
+        "quote": "بلکه تا مرحله تحویل مبیع پرداخت شده است",
+        "start_char": 16644,
+        "end_char": 16683,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

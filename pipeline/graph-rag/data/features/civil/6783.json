@@ -1,0 +1,133 @@
+{
+  "ruling_id": "6783",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اصاله‌الصحه",
+      "evidence": {
+        "quote": "اصاله الصحه",
+        "start_char": 1386,
+        "end_char": 1397,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصاله الزوم",
+      "evidence": {
+        "quote": "اصاله الزوم",
+        "start_char": 1400,
+        "end_char": 1411,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "قرار ردّ دعوی صادر",
+        "start_char": 710,
+        "end_char": 728,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض قرار صادره",
+        "start_char": 1752,
+        "end_char": 1769,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عودت",
+      "evidence": {
+        "quote": "عودت داده می شود",
+        "start_char": 1825,
+        "end_char": 1841,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان",
+        "start_char": 8,
+        "end_char": 19,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ظاهراً به تعهد خود عمل ننموده",
+        "start_char": 1511,
+        "end_char": 1547,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "قرار ردّ دعوی تجدیدنظرخواه",
+        "start_char": 1042,
+        "end_char": 1068,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت",
+      "evidence": {
+        "quote": "قرارداد مشارکت ساخت وساز و احداث بنا به شماره 101-86 مورخ 17/11/1386",
+        "start_char": 104,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "به صورت سند عادی تنظیم گردیده است",
+        "start_char": 468,
+        "end_char": 501,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "قرارداد مشارکت به صورت سند عادی تنظیم شده است",
+      "evidence": {
+        "quote": "مستند دعوی خواهان در ایفا تعهدات قراردادی و مطالبه خسارت ناشی از قرارداد مشارکت شماره 101-86 مورخ 17/11/1386 است که به صورت سند عادی تنظیم گردیده است",
+        "start_char": 352,
+        "end_char": 501,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده به تعهد خود عمل نکرده است",
+      "evidence": {
+        "quote": "خوانده ظاهراً به تعهد خود عمل ننموده",
+        "start_char": 1511,
+        "end_char": 1547,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

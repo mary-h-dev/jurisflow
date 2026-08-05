@@ -1,0 +1,183 @@
+{
+  "ruling_id": "29519",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "با قصد عدم تبرع",
+        "start_char": 389,
+        "end_char": 404,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "تصرف به عنوان مالکیت",
+        "start_char": 896,
+        "end_char": 916,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تاخیر تادیه",
+        "start_char": 124,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی",
+        "start_char": 1571,
+        "end_char": 1588,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "واریز نموده",
+        "start_char": 329,
+        "end_char": 340,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد آن",
+        "start_char": 486,
+        "end_char": 496,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مبلغ شصت میلیون ریال",
+        "start_char": 65,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مستوجب نقض می باشد",
+        "start_char": 2156,
+        "end_char": 2174,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 1201,
+        "end_char": 1212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به حساب بانکی خوانده",
+        "start_char": 296,
+        "end_char": 316,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه آقای ج. گ.",
+        "start_char": 1905,
+        "end_char": 1928,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده خانم ط. ح.ر",
+        "start_char": 2812,
+        "end_char": 2838,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ شصت میلیون ریال",
+        "start_char": 72,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجوه",
+      "evidence": {
+        "quote": "موکل وجوه مذکور را",
+        "start_char": 347,
+        "end_char": 365,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واریز وجه از طریق خودپرداز به حساب بانکی خوانده",
+      "evidence": {
+        "quote": "مبلغ خواسته را از طریق خود پرداز بانک ،به حساب بانکی خوانده نزد بانک دی واریز نموده است",
+        "start_char": 257,
+        "end_char": 344,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم حضور خوانده در جلسه دادگاه",
+      "evidence": {
+        "quote": "خوانده در جلسه دادگاه حضور نیافته",
+        "start_char": 570,
+        "end_char": 603,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل برای استحقاق استرداد وجه",
+      "evidence": {
+        "quote": "وکیل خواهان دلیلی بر استحقاق موکل خویش در استرداد وجوه پرداختی به دادگاه ارائه نکرده است",
+        "start_char": 1201,
+        "end_char": 1289,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

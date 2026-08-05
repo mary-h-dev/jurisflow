@@ -1,0 +1,163 @@
+{
+  "ruling_id": "36997",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته صدور رای مبنی بر تایید فسخ قرارداد",
+        "start_char": 89,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار فسخ",
+      "evidence": {
+        "quote": "بایع ( خواهان پرونده ) حق خیار فسخ قرارداد را دارد",
+        "start_char": 1208,
+        "end_char": 1258,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "لذا حکم بر بطلان دعوی خواهان صادر و اعلام گردیده است",
+        "start_char": 1400,
+        "end_char": 1452,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "وی اقدام به پرداخت مبالغ قید شده در ماده مذبور ننماید",
+        "start_char": 1153,
+        "end_char": 1206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "و دادنامه مزبور از سوی خواهان با وکالت د. ا. ر. مورد فرجام خواهی قرار گرفته است",
+        "start_char": 1465,
+        "end_char": 1544,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "بایع ( خواهان پرونده )",
+        "start_char": 1208,
+        "end_char": 1230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بایع ( خواهان پرونده )",
+        "start_char": 1208,
+        "end_char": 1230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بایع ( خواهان پرونده ) حق خیار فسخ قرارداد را دارد",
+        "start_char": 1208,
+        "end_char": 1258,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمانخوانده",
+      "evidence": {
+        "quote": "لایحه فرجام خوانده",
+        "start_char": 1668,
+        "end_char": 1686,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "تایید فسخ قرارداد مورخ 1393/3/7",
+        "start_char": 116,
+        "end_char": 147,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "واحد",
+      "evidence": {
+        "quote": "مربوط به پیش فروش یک واحد اپارتمان",
+        "start_char": 148,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "صدور دادنامه شماره * مورخ 1400/9/14",
+        "start_char": 819,
+        "end_char": 854,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت مبالغ قرارداد",
+      "evidence": {
+        "quote": "وی اقدام به پرداخت مبالق قید شده در ماده مذبور ننماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارسال اخطاریه کتبی طبق قرارداد",
+      "evidence": {
+        "quote": "خواهان اخطاریه کتبی وفق قرارداد به خوانده ارسال ننموده است",
+        "start_char": 1276,
+        "end_char": 1334,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم مشخص بودن تاریخ ابلاغ دادنامه",
+      "evidence": {
+        "quote": "تاریخ ابلاغ دادنامه فرجام خواسته مشخص نیست",
+        "start_char": 2069,
+        "end_char": 2111,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

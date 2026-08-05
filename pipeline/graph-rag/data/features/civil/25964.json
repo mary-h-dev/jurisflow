@@ -1,0 +1,153 @@
+{
+  "ruling_id": "25964",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "از باب قاعده تسبیب",
+        "start_char": 845,
+        "end_char": 863,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "آثار سند رسمی را دارا ست",
+        "start_char": 1783,
+        "end_char": 1807,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد 6 قلم طلاجات",
+        "start_char": 76,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "بخواسته اعاده دادرسی",
+        "start_char": 1232,
+        "end_char": 1252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابلیت تجدید نظر خواهی",
+        "start_char": 1067,
+        "end_char": 1089,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رای صادره دادگاه بدوی را نقض کرده",
+        "start_char": 2890,
+        "end_char": 2923,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکایت از ان دارد که خواهان مالک طلاجات مذکور می باشد",
+        "start_char": 243,
+        "end_char": 295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده علیرغم ابلاغ واقعی در جلسه دادرسی حضور نیافته",
+        "start_char": 298,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظر خواه به موجب رسید عادی",
+        "start_char": 2462,
+        "end_char": 2494,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال منقول و طلا",
+      "evidence": {
+        "quote": "استرداد 6 قلم طلاجات",
+        "start_char": 86,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رسید",
+      "evidence": {
+        "quote": "تجدید نظر خواه به موجب رسید عادی",
+        "start_char": 2462,
+        "end_char": 2494,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دادرسی حضور نیافته است",
+      "evidence": {
+        "quote": "خوانده علیرغم ابلاغ واقعی در جلسه دادرسی حضور نیافته",
+        "start_char": 298,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده نسبت به مفاد سند رسمی تردیدی نکرده است",
+      "evidence": {
+        "quote": "با توجه به اینکه انکار و تردیدی نسبت به مفاد آن نشده است",
+        "start_char": 1726,
+        "end_char": 1782,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده اموال را به تجدید نظر خواه تحویل داده است",
+      "evidence": {
+        "quote": "اظها نموده البا قی اموال و ا ثا ث خودم را از آقای ع. ب. تحویل گرفتم",
+        "start_char": 2534,
+        "end_char": 2601,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

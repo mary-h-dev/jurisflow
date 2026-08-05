@@ -1,0 +1,183 @@
+{
+  "ruling_id": "22888",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "تقاضای طلاق را به جهت تحقق شرط ضمن عقد نکاح",
+        "start_char": 122,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سوء رفتار",
+      "evidence": {
+        "quote": "سوءرفتار زوج",
+        "start_char": 168,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "از عسروحرج ذکری به میان نیاورده",
+        "start_char": 191,
+        "end_char": 222,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "فرق ما بین طلاق وکالتی و طلاق حرجی",
+        "start_char": 3839,
+        "end_char": 3873,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "موکله حاضر است از پنجاه عدد سکه از مهریه خود گذشت کند",
+        "start_char": 856,
+        "end_char": 909,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقاضای",
+      "evidence": {
+        "quote": "تقاضای طلاق را به جهت تحقق شرط ضمن عقد نکاح",
+        "start_char": 122,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "اعتراض و فرجام‌خواهی وارد تشخیص",
+        "start_char": 595,
+        "end_char": 626,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه پرونده",
+        "start_char": 629,
+        "end_char": 651,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "گذشت",
+      "evidence": {
+        "quote": "موکله حاضر است از پنجاه عدد سکه از مهریه خود گذشت کند",
+        "start_char": 856,
+        "end_char": 909,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "سوءرفتار زوج",
+        "start_char": 168,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه در دادخواست اولیه",
+        "start_char": 99,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مابقی مهریه را خواستار است",
+        "start_char": 912,
+        "end_char": 938,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "موکله صرفاً جهیزیه و نفقه خود را گذشت می‌کند",
+        "start_char": 1300,
+        "end_char": 1344,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "موکله صرفاً جهیزیه و نفقه خود را گذشت می‌کند",
+        "start_char": 1300,
+        "end_char": 1344,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج به پرداخت دیه محکوم شده است",
+      "evidence": {
+        "quote": "محکومیت زوج به پرداخت دیه در سال84 و نیز محکومیت به پرداخت دیه در سال91",
+        "start_char": 305,
+        "end_char": 376,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در پرونده دیگری محکوم به تمکین شده است",
+      "evidence": {
+        "quote": "زوجه در پرونده کلاسه شعبه اول محکوم‌به تمکین گردیده",
+        "start_char": 1595,
+        "end_char": 1646,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه از منزل ترک کرده است",
+      "evidence": {
+        "quote": "زوجه با مشاجره بسیار جزئی اقدام به ترک منزل",
+        "start_char": 1798,
+        "end_char": 1841,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

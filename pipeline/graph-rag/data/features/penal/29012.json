@@ -1,0 +1,153 @@
+{
+  "ruling_id": "29012",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شرب خمر",
+      "evidence": {
+        "quote": "مبنی بر شرب خمر",
+        "start_char": 22,
+        "end_char": 37,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حد",
+      "evidence": {
+        "quote": "به تحمل هشتاد تازیانه حد شرعی",
+        "start_char": 687,
+        "end_char": 716,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مجازات",
+      "evidence": {
+        "quote": "و از باب مجازات تکمیلی",
+        "start_char": 1553,
+        "end_char": 1575,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قاعده",
+      "evidence": {
+        "quote": "بلحاظ قاعده درأ",
+        "start_char": 1891,
+        "end_char": 1906,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "رای به برائت وی صادر می گردد",
+        "start_char": 1989,
+        "end_char": 2017,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رانندگی",
+      "evidence": {
+        "quote": "رانندگی با وسیله نقلیه موتوری",
+        "start_char": 818,
+        "end_char": 847,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تصادف",
+      "evidence": {
+        "quote": "منجر به تصادف جرحی و خسارتی",
+        "start_char": 483,
+        "end_char": 510,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انکار",
+      "evidence": {
+        "quote": "و انکار وی به شرب خمر",
+        "start_char": 1752,
+        "end_char": 1773,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "و اقرار نداشتن وی",
+        "start_char": 1690,
+        "end_char": 1707,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "دفاعیات بلاوجه متهم",
+        "start_char": 147,
+        "end_char": 166,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وسیله",
+      "evidence": {
+        "quote": "رانندگی با وسیله نقلیه موتوری",
+        "start_char": 818,
+        "end_char": 847,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "الکل",
+      "evidence": {
+        "quote": "تست الکل",
+        "start_char": 356,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود الکل در خون متهم",
+      "evidence": {
+        "quote": "17 میلی گرم الکل اتیلیک درصد میلی لیتر خون تشخیص داده است",
+        "start_char": 1833,
+        "end_char": 1890,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تصادف جرحی و خسارتی بر اثر رانندگی",
+      "evidence": {
+        "quote": "منجر به تصادف جرحی و خسارتی",
+        "start_char": 483,
+        "end_char": 510,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25303",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام به تمکین",
+        "start_char": 68,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "از حق حبس استفاده کرده",
+        "start_char": 343,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه را هم به صورت اقساط",
+        "start_char": 166,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "ملزم به پرداخت مهریه و نفقه می‌باشد",
+        "start_char": 399,
+        "end_char": 434,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تهیه مسکن",
+      "evidence": {
+        "quote": "اقدام به تهیه مسکن مستقل نمودم",
+        "start_char": 135,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت می‌نمایم",
+        "start_char": 269,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استفاده",
+      "evidence": {
+        "quote": "از حق حبس استفاده کرده",
+        "start_char": 343,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "زوجه تمکین خود را منوط به اخذ مهریه نموده",
+        "start_char": 1822,
+        "end_char": 1863,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست آقای الف. الف. به طرفیت خوانده",
+        "start_char": 8,
+        "end_char": 47,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده خانم ف.ر.",
+        "start_char": 32,
+        "end_char": 57,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "در موضوع بحث ما زوج نسبت به پرداخت اقساطی مهریه اقدام نموده",
+        "start_char": 914,
+        "end_char": 973,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه می‌تواند تمکین خود را منوط به اخذ کل مهریه نماید",
+        "start_char": 2104,
+        "end_char": 2157,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "4 عدد سکه تمام بهار آزادی",
+        "start_char": 203,
+        "end_char": 228,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج اقدام به تهیه مسکن مستقل کرده است",
+      "evidence": {
+        "quote": "اقدام به تهیه مسکن مستقل نمودم",
+        "start_char": 135,
+        "end_char": 165,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه باکره است",
+      "evidence": {
+        "quote": "زوجه باکره می‌باشد",
+        "start_char": 1931,
+        "end_char": 1949,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مهریه عندالمطالبه است",
+      "evidence": {
+        "quote": "مهریه مشارالیه عندالمطالبه و حال بوده",
+        "start_char": 2167,
+        "end_char": 2204,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

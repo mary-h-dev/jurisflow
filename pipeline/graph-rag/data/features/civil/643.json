@@ -1,0 +1,163 @@
+{
+  "ruling_id": "643",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "به خواسته خلع ید از سه دانگ مشاع",
+        "start_char": 78,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشتراکی",
+      "evidence": {
+        "quote": "مالکیت اشتراکی نامبردگان ثابت و محرز است",
+        "start_char": 864,
+        "end_char": 904,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "مؤید تحقق غصب یا تصرف عدوانی و غیره نخواهد بود",
+        "start_char": 1231,
+        "end_char": 1277,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی و بی حقی خواهان را صادر و اعلام می دارد",
+        "start_char": 1999,
+        "end_char": 2056,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت خانم ز.ع. به خواسته خلع ید از سه دانگ مشاع از شش دانگ یک دستگاه آپارتمان در دو طبقه به پلاک ثبتی 46701/6933 واقع در بخش دو تهران با لحاظ خسارت دادرسی را تقدیم این دادگاه کرده اند",
+        "start_char": 49,
+        "end_char": 246,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی، دادنامه معترض عنه عیناً تأیید می گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از ناحیه وکیل محترم خواهان و خوانده دعوی",
+        "start_char": 616,
+        "end_char": 656,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از ناحیه وکیل محترم خواهان و خوانده دعوی",
+        "start_char": 616,
+        "end_char": 656,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی م.ج.",
+        "start_char": 2318,
+        "end_char": 2344,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 311 مورخ 31/3/1391 صادره از شعبه 86 دادگاه عمومی حقوقی تهران، که به موجب آن حکم بر بطلان دعوی اولیه تجدیدنظرخواه به خواسته خلع ید تجدیدنظرخوانده",
+        "start_char": 2383,
+        "end_char": 2548,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "آپارتمان مورد نظر به صورت اشتراکی در مالکیت به نحو تساوی اصحاب دعوی، قرار داشته",
+        "start_char": 278,
+        "end_char": 357,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "خوانده قریب به 5 سال است که ملک موصوف را متصرف گردیده",
+        "start_char": 360,
+        "end_char": 413,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین دعوا در زوجیت یکدیگر قرار داشتند",
+      "evidence": {
+        "quote": "نامبردگان در زوجیت یکدیگر قرار داشته اند",
+        "start_char": 722,
+        "end_char": 762,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت ملک به صورت اشتراکی است",
+      "evidence": {
+        "quote": "مالکیت اشتراکی نامبردگان ثابت و محرز است",
+        "start_char": 864,
+        "end_char": 904,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ملک را تصرف کرده است",
+      "evidence": {
+        "quote": "خوانده قریب به 5 سال است که ملک موصوف را متصرف گردیده",
+        "start_char": 360,
+        "end_char": 413,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

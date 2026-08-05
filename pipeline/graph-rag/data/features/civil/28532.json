@@ -1,0 +1,153 @@
+{
+  "ruling_id": "28532",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "بموجب آن حکم رد دعوی تجدیدنظرخواه مبنی بر صدور حکم تمکین صادر شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "بموجب وقوع عقد زن و مرد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "مکلف به انجام تکالیف شرعی و قانونی در قبال همدیگرند",
+        "start_char": 774,
+        "end_char": 825,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان را صادر واعلام می نماید",
+        "start_char": 257,
+        "end_char": 302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "باتوجه به محتویات پرونده اعتراض وارد است",
+        "start_char": 704,
+        "end_char": 744,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه مذکور",
+        "start_char": 984,
+        "end_char": 1005,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان را صادر واعلام می نماید",
+        "start_char": 257,
+        "end_char": 302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم رد دعوی تجدیدنظرخواه مبنی بر صدور حکم تمکین صادر شده است",
+        "start_char": 643,
+        "end_char": 703,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زن و مرد",
+        "start_char": 765,
+        "end_char": 773,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "لزوم زوجه را ملزم به تمکین عام و خاص می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "تهیه منزل مسکونی مستقل",
+        "start_char": 1114,
+        "end_char": 1136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لوازم",
+      "evidence": {
+        "quote": "و لوازم زندگی در شأن زوجه می باشد",
+        "start_char": 1137,
+        "end_char": 1170,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل یا مدرک برای اثبات ادعای تمکین",
+      "evidence": {
+        "quote": "دلیل و مدرکی مستند و موثر در اثبات ادعای وی باشد ارایه ننموده",
+        "start_char": 117,
+        "end_char": 178,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وقوع عقد بین زن و مرد",
+      "evidence": {
+        "quote": "بموجب وقوع عقد زن و مرد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

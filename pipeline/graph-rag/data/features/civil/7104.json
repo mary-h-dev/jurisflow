@@ -1,0 +1,133 @@
+{
+  "ruling_id": "7104",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 117,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 107,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "دادگاه اعتراض تجدیدنظرخواه را وارد دانسته",
+        "start_char": 870,
+        "end_char": 911,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را نقض",
+        "start_char": 1277,
+        "end_char": 1301,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان آقای پ.ن.",
+        "start_char": 0,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم ف.م. فرزند ج. با وکالت آقای ح.الف. به خواسته الزام خوانده",
+        "start_char": 58,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "با عنایت به مدارک ابرازی از سوی تجدیدنظرخواه",
+        "start_char": 999,
+        "end_char": 1043,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "الزام خوانده اصلی پرونده (زوجه)",
+        "start_char": 1363,
+        "end_char": 1394,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به تمکین نسبت به زوج صادر و اعلام می نماید",
+        "start_char": 1395,
+        "end_char": 1437,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجاره نامه",
+      "evidence": {
+        "quote": "اجاره نامه شماره 204725",
+        "start_char": 1051,
+        "end_char": 1074,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مسکن و اثاث البیت تهیه نشده بود",
+      "evidence": {
+        "quote": "مسکن و اثاث البیت که زوجه بتواند در آنجا اسکان یابد تهیه نکرده",
+        "start_char": 306,
+        "end_char": 368,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موجبات تمکین فراهم شده است",
+      "evidence": {
+        "quote": "دلالت بر فراهم بودن موجبات تمکین را دارد",
+        "start_char": 1140,
+        "end_char": 1180,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

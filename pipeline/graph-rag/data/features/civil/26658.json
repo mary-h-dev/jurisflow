@@ -1,0 +1,233 @@
+{
+  "ruling_id": "26658",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "هر کس مالی به دیگری بدهد ظاهر در عدم تبرع است",
+        "start_char": 388,
+        "end_char": 433,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "دلیلی بر برائت ذمه خود ارائه و ابراز نداشته است",
+        "start_char": 628,
+        "end_char": 675,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانونی",
+      "evidence": {
+        "quote": "واخواهی با توجه به مطالب مذکور خارج از فرجه قانونی بوده است",
+        "start_char": 1896,
+        "end_char": 1955,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ هیجده میلیارد و سیصد میلیون ریال",
+        "start_char": 45,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "حکایت از پرداخت وجه فوق به حساب خوانده دارد",
+        "start_char": 323,
+        "end_char": 366,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "تقاضای واخواهی از پرونده",
+        "start_char": 1681,
+        "end_char": 1705,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظر خواهی در محاکم تجدید نظر استان تهران میباشد",
+        "start_char": 1148,
+        "end_char": 1206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد واخواهی",
+      "evidence": {
+        "quote": "بنا به استدلال و مستندات مذکور در رای واخواسته با استناد به ماده 305 قانون آئین دادرسی مدنی حکم به تایید دادنامه معترض عنه صادر و اعلام مینماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "بنابراین باوارد دانستن اعتراض معترض ونقض دادنامه معترض عنه",
+        "start_char": 4525,
+        "end_char": 4583,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده جهت رسیدگی در ماهیت به دادگاه محترم نخستین اعاده میگردد",
+        "start_char": 4635,
+        "end_char": 4696,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با توجه به دادخواست تقدیمی خواهان",
+        "start_char": 172,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حکایت از پرداخت وجه فوق به حساب خوانده دارد",
+        "start_char": 323,
+        "end_char": 366,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "تقاضای واخواهی از پرونده و اعسار از هزینه دادرسی را تقدیم دادگاه نموده اند",
+        "start_char": 1681,
+        "end_char": 1755,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی آقای س. م.",
+        "start_char": 4793,
+        "end_char": 4818,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظر خوانده محکوم شده است",
+        "start_char": 5128,
+        "end_char": 5163,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بانکی",
+      "evidence": {
+        "quote": "پرینت بانکی به انضمام هزینه دادرسی",
+        "start_char": 116,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 911105",
+        "start_char": 3218,
+        "end_char": 3241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "دروکالتنامه وکیل واخواه آقای پ.",
+        "start_char": 2229,
+        "end_char": 2260,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت وجه به حساب خوانده انجام شده است",
+      "evidence": {
+        "quote": "حکایت از پرداخت وجه فوق به حساب خوانده دارد",
+        "start_char": 323,
+        "end_char": 366,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در وقت دادرسی حاضر نشده است",
+      "evidence": {
+        "quote": "خوانده با ابلاغ و استحضار از وقت دادرسی در دادگاه حاضر نشده",
+        "start_char": 523,
+        "end_char": 582,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "واخواه از رای غیابی مطلع بوده است",
+      "evidence": {
+        "quote": "واخواه محترم در تاریخ 93/8/21 از مفاد رای غیابی مطلع گردیده است",
+        "start_char": 1825,
+        "end_char": 1888,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "واخواهی خارج از مهلت قانونی بوده است",
+      "evidence": {
+        "quote": "واخواهی با توجه به مطالب مذکور خارج از فرجه قانونی بوده است",
+        "start_char": 1896,
+        "end_char": 1955,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

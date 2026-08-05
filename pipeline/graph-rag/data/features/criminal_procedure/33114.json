@@ -1,0 +1,203 @@
+{
+  "ruling_id": "33114",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "سرقت",
+      "evidence": {
+        "quote": "به اتهام سرقت",
+        "start_char": 1985,
+        "end_char": 1998,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حبس تعزیری",
+      "evidence": {
+        "quote": "تحمل مدت دو سال حبس تعزیری",
+        "start_char": 625,
+        "end_char": 651,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رد",
+      "evidence": {
+        "quote": "رد عین در صورت فقدان عین",
+        "start_char": 682,
+        "end_char": 706,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ایراد",
+      "evidence": {
+        "quote": "به اتهام ایراد جرح عمدی با چاقو",
+        "start_char": 4191,
+        "end_char": 4222,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "قابل واخواهی در این دادگاه",
+        "start_char": 804,
+        "end_char": 830,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم",
+        "start_char": 863,
+        "end_char": 896,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "ضمن رد دعوی واخواهی واخواه",
+        "start_char": 1535,
+        "end_char": 1561,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را عینا تائید",
+        "start_char": 1562,
+        "end_char": 1593,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض هرسه محکومیت",
+        "start_char": 4760,
+        "end_char": 4780,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "عدم حضور متهم در جلسه رسیدگی",
+        "start_char": 296,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "از ناحیه واخواه در این مرحله",
+        "start_char": 1394,
+        "end_char": 1422,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "محکوم علیه نسبت به دادنامه",
+        "start_char": 3155,
+        "end_char": 3181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "در حق شاکی محکوم شده است",
+        "start_char": 2084,
+        "end_char": 2108,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سقف",
+      "evidence": {
+        "quote": "قاب سقف آلومینیومی",
+        "start_char": 187,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "قیمت اموال مسروقه",
+        "start_char": 718,
+        "end_char": 735,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم در جلسه رسیدگی حضور نیافته است",
+      "evidence": {
+        "quote": "عدم حضور متهم در جلسه رسیدگی دادگاه",
+        "start_char": 296,
+        "end_char": 331,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رأی صادره غیابی بوده است",
+      "evidence": {
+        "quote": "رای صادره غیابی بوده",
+        "start_char": 751,
+        "end_char": 771,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رأی صادره حضوری بوده است",
+      "evidence": {
+        "quote": "رای صادره حضوری بوده",
+        "start_char": 1612,
+        "end_char": 1632,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رأی صادره قطعی است",
+      "evidence": {
+        "quote": "رای صادره قطعی است",
+        "start_char": 2543,
+        "end_char": 2561,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

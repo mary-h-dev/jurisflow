@@ -1,0 +1,143 @@
+{
+  "ruling_id": "697",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 65,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "مثبت عسر و حرج زوجه نمی گردد",
+        "start_char": 608,
+        "end_char": 636,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "با احراز رابطه زوجیت",
+        "start_char": 492,
+        "end_char": 512,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 729,
+        "end_char": 755,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم م.ب.",
+        "start_char": 916,
+        "end_char": 939,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "حکم تجدیدنظر خواسته را تأیید می نماید",
+        "start_char": 1508,
+        "end_char": 1545,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان به نظر دادگاه غیر ثابت تشخیص",
+        "start_char": 638,
+        "end_char": 678,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "نظر به اینکه زوج مخالف طلاق است",
+        "start_char": 515,
+        "end_char": 546,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "مثبت عسر و حرج زوجه نمی گردد",
+        "start_char": 608,
+        "end_char": 636,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم م.ب.",
+        "start_char": 916,
+        "end_char": 939,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره 1633مورخ 27/8/91",
+        "start_char": 964,
+        "end_char": 994,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وقوع ضرب و شتم",
+      "evidence": {
+        "quote": "به علت ضرب و شتم",
+        "start_char": 91,
+        "end_char": 107,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "برقرار بودن رابطه ازدواج",
+      "evidence": {
+        "quote": "در سال 79 به عقد ازدواج خوانده درآمده ام",
+        "start_char": 138,
+        "end_char": 178,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

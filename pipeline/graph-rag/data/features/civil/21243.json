@@ -1,0 +1,112 @@
+{
+  "ruling_id": "21243",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حجر",
+      "evidence": {
+        "quote": "صدور حکم حجر خوانده",
+        "start_char": 112,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال قیم‌نامه خود را نموده",
+        "start_char": 657,
+        "end_char": 684,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت فرزندش آقای م.ن. به همان آدرس خواهان به خواسته صدور حکم حجر خوانده تقدیم نموده",
+        "start_char": 46,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "حکم به حجر خوانده از سال 1381 صادر نموده",
+        "start_char": 288,
+        "end_char": 328,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقاضای",
+      "evidence": {
+        "quote": "تقاضای رفع حجر ایشان و ابطال قیم‌نامه خود را نموده",
+        "start_char": 634,
+        "end_char": 684,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به همان آدرس خواهان به خواسته صدور حکم حجر خوانده",
+        "start_char": 82,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "صدور حکم حجر خوانده",
+        "start_char": 112,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "قیم",
+      "evidence": {
+        "quote": "انتصاب آقای ر.ن. به سمت قیم",
+        "start_char": 438,
+        "end_char": 465,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "محجور در آسایشگاه در تهران سکونت دارد",
+      "evidence": {
+        "quote": "اعلام نموده که محل سکونت و آسایشگاه وی تهران بوده",
+        "start_char": 774,
+        "end_char": 823,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قیم در شهر اندیشه سکونت دارد",
+      "evidence": {
+        "quote": "نشانی محل سکونت و اقامتگاه قیم به نام آقای ر.ن. شهر اندیشه... خیابان... می‌باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

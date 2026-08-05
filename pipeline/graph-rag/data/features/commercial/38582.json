@@ -1,0 +1,123 @@
+{
+  "ruling_id": "38582",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "ردعوی ابتدایی اعتراض ثالث",
+        "start_char": 70,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "اعتراض به حکم ورشکستگی",
+        "start_char": 428,
+        "end_char": 450,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "موضوع ماده 539 قانون استنادی قایل به نوعی اعتراض به شرح ماده 536 همان قانون شده",
+        "start_char": 816,
+        "end_char": 895,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض به حکم ورشکستگی",
+        "start_char": 428,
+        "end_char": 450,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه نکرده",
+      "evidence": {
+        "quote": "دلیل و مدرکی که موجب گسیختن دادنامه تجدیدنظرخواسته شود. اقامه و ارائه نکرده است",
+        "start_char": 1870,
+        "end_char": 1949,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از دادرسی",
+        "start_char": 1834,
+        "end_char": 1869,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تاجر",
+      "evidence": {
+        "quote": "که با تاجر ورشکسته معاملات تجاری داشته اند",
+        "start_char": 1130,
+        "end_char": 1172,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "ردعوی ابتدایی اعتراض ثالث نسبت به دادنامه شماره *مورخ 1396/3/22",
+        "start_char": 70,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حکم",
+      "evidence": {
+        "quote": "اعتراض به حکم ورشکستگی",
+        "start_char": 428,
+        "end_char": 450,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مهلت اعتراض سپری شده است",
+      "evidence": {
+        "quote": "پس از انقضای مهلت اعتراض تاریخ توقیف نسبت به سایر طلبکار ها قطعی و غیر قابل تغییر می باشد",
+        "start_char": 1388,
+        "end_char": 1477,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه مدرکی ارائه نکرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از دادرسی دلیل و مدرکی که موجب گسیختن دادنامه تجدیدنظرخواسته شود. اقامه و ارائه نکرده است",
+        "start_char": 1834,
+        "end_char": 1949,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

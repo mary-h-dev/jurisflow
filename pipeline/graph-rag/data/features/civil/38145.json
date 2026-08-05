@@ -1,0 +1,193 @@
+{
+  "ruling_id": "38145",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "به علت عسر و حرج و با توجه به شرط ضمن عقد نکاح تقاضای طلاق دارم",
+        "start_char": 251,
+        "end_char": 314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "با توجه به شرط ضمن عقد نکاح تقاضای طلاق دارم",
+        "start_char": 270,
+        "end_char": 314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "و زوجه از حق حبس خود استفاده نموده است",
+        "start_char": 1322,
+        "end_char": 1360,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "صدور حکم به بطلان دعوی طلاق نموده است",
+        "start_char": 2286,
+        "end_char": 2323,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "دادخواست طلاق به طرفیت اقای ص. ح. پ. تقدیم شعبه *نموده",
+        "start_char": 28,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "حاضرم 50 عدد سکه بهار ازادی مهریه ام را در قبال طلاق به زوج بذل نمایم",
+        "start_char": 746,
+        "end_char": 815,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مبادرت به صدور رای به نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 2235,
+        "end_char": 2283,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "زوج پس از محکومیت نفقه فوق الذکر مجددا از انجام تکلیف خود در پرداخت نفقه امتناع نموده",
+        "start_char": 7252,
+        "end_char": 7337,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دادخواست طلاق به طرفیت اقای ص. ح. پ. تقدیم شعبه *نموده",
+        "start_char": 28,
+        "end_char": 82,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه در لایحه خود توضیح داده",
+        "start_char": 316,
+        "end_char": 344,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج نفقه مرا بیش از 19 ماه است.که پرداخت ننموده است",
+        "start_char": 694,
+        "end_char": 745,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "خوانده اقای س. خ. را به عنوان وکیل به دادگاه معرفی نموده",
+        "start_char": 1105,
+        "end_char": 1161,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "کل مهریه ام را گرفته ام",
+        "start_char": 486,
+        "end_char": 509,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سکه بهار",
+      "evidence": {
+        "quote": "حاضرم 50 عدد سکه بهار ازادی مهریه ام را در قبال طلاق به زوج بذل نمایم",
+        "start_char": 746,
+        "end_char": 815,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "زوج نفقه مرا بیش از 19 ماه است.که پرداخت ننموده است",
+        "start_char": 694,
+        "end_char": 745,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه توسط زوج",
+      "evidence": {
+        "quote": "زوج نفقه مرا بیش از 19 ماه است.که پرداخت ننموده است",
+        "start_char": 694,
+        "end_char": 745,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود حکم محکومیت به پرداخت نفقه توسط شورای حل اختلاف",
+      "evidence": {
+        "quote": "زوجه تصویر دو فقره محکومیت زوج به پرداخت نفقه توسط شورای حل اختلاف را ارائه داده",
+        "start_char": 956,
+        "end_char": 1036,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم شروع زندگی مشترک",
+      "evidence": {
+        "quote": "و حتی یک ساعت با موکل زیر یک سقف زندگی نکرده است",
+        "start_char": 1224,
+        "end_char": 1272,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "25076",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "زنای با محارم",
+      "evidence": {
+        "quote": "اتهام وارده (زنای با محارم) به متهم تفهیم شد",
+        "start_char": 7062,
+        "end_char": 7106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "حکم بر برائت متهم صادر و اعلام می‌گردد",
+        "start_char": 9991,
+        "end_char": 10029,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی معترض‌عنه نقض و جهت رسیدگی به شعبه رسیدگی‌کننده ارجاع می‌گردد",
+        "start_char": 12604,
+        "end_char": 12669,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجاوز",
+      "evidence": {
+        "quote": "از پدرم م. س. به اتهام زنای غیر محصنه شکایت دارم. وقتی مادرم در منزل نبود با من اینکار را می‌کرد آلت تناسلی خود را داخل دهانم می‌کرد و از دبر و قبل به من تجاوز می‌کرد",
+        "start_char": 4564,
+        "end_char": 4730,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تهدید",
+      "evidence": {
+        "quote": "متهم ( م. س. ) همسر و فرزندانش را در اطاقی محبوس نموده و پس از کتک زدن آن‌ها منزل را به آتش کشیده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.85
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "م. س. فرزند م. 38 ساله (متهم پرونده ) مورد بازجوئی قرار گرفته",
+        "start_char": 1675,
+        "end_char": 1736,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شاکی (ی. س. ) اظهار داشت",
+        "start_char": 4539,
+        "end_char": 4563,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "آقای ه. ج. به عنوان وکیل تسخیری متهم م. س. معرفی شده است",
+        "start_char": 6015,
+        "end_char": 6071,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "گواه",
+      "evidence": {
+        "quote": "ع. خ. به عنوان مطلع و گواه اظهار داشت",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اسلحه کمری",
+      "evidence": {
+        "quote": "متهم دارای اسلحه کمری بوده",
+        "start_char": 699,
+        "end_char": 725,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گوشی تلفن همراه",
+      "evidence": {
+        "quote": "با استفاده از گوشی تلفن همراه برای من فیلم‌های مبتذل پخش نموده",
+        "start_char": 969,
+        "end_char": 1031,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پاره شدن پرده بکارت شاکی",
+      "evidence": {
+        "quote": "پرده بکارت دارای پارگی است و سالم نمی‌باشد",
+        "start_char": 2785,
+        "end_char": 2827,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود آثار کبودی در بدن دختر",
+      "evidence": {
+        "quote": "بیست عدد کبودی در ناحیه پشت کتف راست و کتف چپ و پشت قفسه سینه 3 کبودی بازوی چپ و بازوی راست و ساعد راست 3 تورم نسج نرم سمت چپ سرین ضایعات بر اثر اصابت جسم سخت حادث شده است",
+        "start_char": 2572,
+        "end_char": 2743,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محصور کردن خانواده در منزل",
+      "evidence": {
+        "quote": "م. س. همسر و فرزندانش را در اطاقی محبوس نموده",
+        "start_char": 214,
+        "end_char": 259,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

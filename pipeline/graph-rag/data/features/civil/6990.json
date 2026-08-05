@@ -1,0 +1,213 @@
+{
+  "ruling_id": "6990",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق کسب و پیشه",
+      "evidence": {
+        "quote": "حق کسب و پیشه یک باب مغازه",
+        "start_char": 113,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "مستفاد از ماده 20 قانون مدنی",
+        "start_char": 693,
+        "end_char": 721,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "آیین دادرسی مدنی",
+      "evidence": {
+        "quote": "برابر ماده 11 قانون آیین دادرسی مدنی",
+        "start_char": 755,
+        "end_char": 791,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "آیین دادرسی",
+      "evidence": {
+        "quote": "به استناد ماده 358 قانون آیین دادرسی دادگاه های عمومی و انقلاب در امور مدنی",
+        "start_char": 2282,
+        "end_char": 2357,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "صدور حکم به محکومیت خوانده",
+        "start_char": 51,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت مبلغ 000/000/190 تومان",
+        "start_char": 1140,
+        "end_char": 1169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "در قبال تخلیه مورد اجاره",
+        "start_char": 1204,
+        "end_char": 1228,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن ردّ تجدیدنظرخواهی",
+        "start_char": 2358,
+        "end_char": 2379,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته عیناً تأیید می گردد",
+        "start_char": 2380,
+        "end_char": 2423,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت م.الف. به خواسته",
+        "start_char": 25,
+        "end_char": 50,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده",
+        "start_char": 63,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "از خواهان به عنوان موجر دارند",
+        "start_char": 498,
+        "end_char": 527,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه ایراد و اعتراض موجهی",
+        "start_char": 2108,
+        "end_char": 2141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظر خوانده",
+        "start_char": 1937,
+        "end_char": 1960,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قیمت",
+      "evidence": {
+        "quote": "مابه التفاوت قیمت واریزی حق کسب و پیشه",
+        "start_char": 88,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "یک باب مغازه",
+        "start_char": 127,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به موجب دادنامه قطعی 1038",
+        "start_char": 1050,
+        "end_char": 1075,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قبض",
+      "evidence": {
+        "quote": "به موجب قبض شماره 658447",
+        "start_char": 1256,
+        "end_char": 1280,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجه معین در مهلت ۶ ماه پرداخت شده است",
+      "evidence": {
+        "quote": "تاریخ تودیع وجه در صندوق هم داخل در مهلت 6 ماه مورد ادعای خواهان است",
+        "start_char": 1436,
+        "end_char": 1504,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده قبلاً محکوم به پرداخت مبلغی شده است",
+      "evidence": {
+        "quote": "خوانده به موجب دادنامه قطعی 1038... به پرداخت مبلغ 000/000/190 تومان... محکوم شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

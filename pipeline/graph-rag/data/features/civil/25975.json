@@ -1,0 +1,183 @@
+{
+  "ruling_id": "25975",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "حکایت از وقوع عقد بیع فی مابین اطراف وکالت",
+        "start_char": 712,
+        "end_char": 754,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلح",
+      "evidence": {
+        "quote": "حکایت از صلح بلامعوض از ناحیه خواهان به خوانده مینماید",
+        "start_char": 1100,
+        "end_char": 1154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌حقی",
+      "evidence": {
+        "quote": "مبادرت بصدور حکم بر بی حقی خواهان مینماید",
+        "start_char": 1313,
+        "end_char": 1354,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه ثمن المثل",
+        "start_char": 81,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "تنظیم گردیده است",
+        "start_char": 603,
+        "end_char": 619,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "باعنایت به انتقال پلاک ثبتی",
+        "start_char": 2995,
+        "end_char": 3022,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت مبلغ",
+        "start_char": 3299,
+        "end_char": 3313,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از ناحیه خواهان",
+        "start_char": 398,
+        "end_char": 413,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از ناحیه خوانده",
+        "start_char": 1080,
+        "end_char": 1095,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی آقای م. ص.",
+        "start_char": 1479,
+        "end_char": 1510,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "وکالت تجدیدنظرخواه به تجدیدنظرخوانده خانم ر. ص.ف.",
+        "start_char": 2312,
+        "end_char": 2361,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "موضوع وکالت نامه شماره 38112 مورخ 1392/3/9",
+        "start_char": 106,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اصلی بخش",
+      "evidence": {
+        "quote": "درخصوص فروش ششدانگ یک قطعه زمین تحت پلاک ثبتی شماره....فرعی از... اصلی بخش.... تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "انتقال پلاک ثبتی",
+        "start_char": 3006,
+        "end_char": 3022,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان در خرید و فروش اتوموبیل فعالیت داشته است",
+      "evidence": {
+        "quote": "خواهان در امر خرید و فروش اتوموبیل اشتغال داشته",
+        "start_char": 929,
+        "end_char": 976,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وکالت‌نامه دارای حق توکیل به غیر و سلب حق عزل وکیل بوده است",
+      "evidence": {
+        "quote": "وکالتنامه تنظیمی باحق توکیل به غیر وسلب واسقاط حق عزل وکیل تنظیم",
+        "start_char": 1753,
+        "end_char": 1817,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زمین مذکور به مبلغ ۳۵،۳۵۹،۵۰۰ ریال منتقل شده است",
+      "evidence": {
+        "quote": "به مبلغ35/359/500 ریال دادگاه با استناد به مواد656و665 و668 قانون مدنی و مواد 198و519 قانون آئین دادرسی مدنی دادگاه تجدیدنظرخواه رامستحق دریافت ثمن معامله به مبلغ فوق الذکر راداشته",
+        "start_char": 3089,
+        "end_char": 3269,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

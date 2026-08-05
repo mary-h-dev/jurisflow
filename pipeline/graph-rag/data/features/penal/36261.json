@@ -1,0 +1,83 @@
+{
+  "ruling_id": "36261",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رد",
+      "evidence": {
+        "quote": "رد مال به 91 میلیون تومان تایید شده است",
+        "start_char": 288,
+        "end_char": 327,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اصلاح",
+      "evidence": {
+        "quote": "اصلاح گردیده",
+        "start_char": 510,
+        "end_char": 522,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "رییس شعبه",
+      "evidence": {
+        "quote": "رییس شعبه",
+        "start_char": 647,
+        "end_char": 656,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستشار شعبه",
+      "evidence": {
+        "quote": "مستشار شعبه",
+        "start_char": 658,
+        "end_char": 669,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه 4199",
+        "start_char": 243,
+        "end_char": 255,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبلغ رد مال به ۹۱ میلیون تومان اصلاح شد",
+      "evidence": {
+        "quote": "رد مال نامبرده در مرحله تجدیدنظر نود و یک میلیون تومان اصلاح گردیده",
+        "start_char": 455,
+        "end_char": 522,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبلغ جریمه کمتر از حد نصاب انتشار حکم است",
+      "evidence": {
+        "quote": "رد مال نامبرده در مرحله تجدیدنظر نود و یک میلیون تومان اصلاح گردیده در نتیجه موضوع انتشار حکم منتفی می گردد",
+        "start_char": 455,
+        "end_char": 562,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

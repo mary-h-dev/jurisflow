@@ -1,0 +1,173 @@
+{
+  "ruling_id": "755",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مال",
+      "evidence": {
+        "quote": "مبیع مال غیر بوده",
+        "start_char": 377,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غرامات",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت غرامات",
+        "start_char": 64,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "انضمام کلیه خسارات دادرسی",
+        "start_char": 123,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استحقاق",
+      "evidence": {
+        "quote": "غرامات ناشی از استحقاق للغیر",
+        "start_char": 3818,
+        "end_char": 3846,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت غرامات",
+        "start_char": 64,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مبلغ 000/000/51 ریال",
+        "start_char": 1801,
+        "end_char": 1828,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه موصوف",
+        "start_char": 3738,
+        "end_char": 3759,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "محکومیت حاصل نموده",
+        "start_char": 1644,
+        "end_char": 1662,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دعوی خواهان",
+        "start_char": 0,
+        "end_char": 18,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده",
+        "start_char": 38,
+        "end_char": 53,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "به موجب مبایعه نامه عادی 27/7/85",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "خوانده یک دستگاه آپارتمان به موکل فروخته",
+        "start_char": 266,
+        "end_char": 306,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "راجع به آپارتمان موصوف",
+        "start_char": 3221,
+        "end_char": 3243,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبیع مال غیر بوده است",
+      "evidence": {
+        "quote": "مبیع مال غیر بوده",
+        "start_char": 377,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انتقال مالکیت یا قبض و اقباض صورت نگرفته است",
+      "evidence": {
+        "quote": "هیچ قبض و اقباض صورت نگرفته و هیچ نقل و انتقال صورت نگرفته",
+        "start_char": 2280,
+        "end_char": 2338,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کلاهبرداری خوانده محرز شده است",
+      "evidence": {
+        "quote": "کلاهبرداری خوانده بدوی راجع به آپارتمان موصوف، به موجب دادنامه های کیفری مذکور محرز و مسلم گردیده است",
+        "start_char": 3198,
+        "end_char": 3299,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

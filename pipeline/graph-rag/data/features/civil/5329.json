@@ -1,0 +1,173 @@
+{
+  "ruling_id": "5329",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "به خواسته اعسار از پرداخت",
+        "start_char": 70,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقسیط",
+      "evidence": {
+        "quote": "و تقاضای تقسیط",
+        "start_char": 96,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تهاتر",
+      "evidence": {
+        "quote": "عدم تهاتر محکومٌ به",
+        "start_char": 1085,
+        "end_char": 1104,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "آقای ف.ب. دادخواستی",
+        "start_char": 19,
+        "end_char": 38,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "تقدیم این دادگاه کرده اند",
+        "start_char": 166,
+        "end_char": 191,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "استناد",
+      "evidence": {
+        "quote": "استناد شده است",
+        "start_char": 1181,
+        "end_char": 1195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "و تقاضای ردّ دعوی وی را کرده است",
+        "start_char": 1566,
+        "end_char": 1598,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ف.ب.",
+        "start_char": 3640,
+        "end_char": 3671,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مراودات مالی خواهان",
+        "start_char": 1280,
+        "end_char": 1299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت شرکت با مسئولیت محدود",
+        "start_char": 39,
+        "end_char": 69,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "به جهت سکونت تجدیدنظرخواه در خارج از کشور",
+        "start_char": 3952,
+        "end_char": 3993,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "موضوع دادنامه شماره 900908",
+        "start_char": 121,
+        "end_char": 147,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وثیقه",
+      "evidence": {
+        "quote": "با سپردن وثیقه ملکی",
+        "start_char": 3060,
+        "end_char": 3079,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "محکومیت در دادگاه خارجی",
+      "evidence": {
+        "quote": "در اجرای رأی دادگاه کشور خارجی",
+        "start_char": 223,
+        "end_char": 253,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم استطاعت مالی خواهان",
+      "evidence": {
+        "quote": "با عنایت به عدم استطاعت و توانایی مالی",
+        "start_char": 818,
+        "end_char": 856,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بیماری خواهان",
+      "evidence": {
+        "quote": "با عنایت به محکومیت و بیماری",
+        "start_char": 890,
+        "end_char": 918,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

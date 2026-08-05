@@ -1,0 +1,173 @@
+{
+  "ruling_id": "34551",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قتل عمدی",
+      "evidence": {
+        "quote": "معاونت در قتل عمدی",
+        "start_char": 45,
+        "end_char": 63,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سرقت",
+      "evidence": {
+        "quote": "بخاطر سرقت",
+        "start_char": 850,
+        "end_char": 860,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خرید",
+      "evidence": {
+        "quote": "خرید و فروش",
+        "start_char": 526,
+        "end_char": 537,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "وارد",
+      "evidence": {
+        "quote": "وارد کردن اسلحه",
+        "start_char": 540,
+        "end_char": 555,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "دادگاه اعتراض را وارد ندانسته",
+        "start_char": 1154,
+        "end_char": 1183,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "از رأی صادره تجدیدنظرخواهی شده",
+        "start_char": 1033,
+        "end_char": 1063,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجمیع",
+      "evidence": {
+        "quote": "محکوم علیه درخواست تجمیع نموده",
+        "start_char": 1224,
+        "end_char": 1254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض احکام مذکور",
+        "start_char": 2259,
+        "end_char": 2277,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "محکوم علیه درخواست تجمیع نموده",
+        "start_char": 1224,
+        "end_char": 1254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "قاضی",
+      "evidence": {
+        "quote": "قاضی اجرای احکام در اجرای ماده 510",
+        "start_char": 1258,
+        "end_char": 1292,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دیوانعالی کشور",
+      "evidence": {
+        "quote": "دادیار دیوانعالی کشور",
+        "start_char": 1530,
+        "end_char": 1551,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ممیز",
+      "evidence": {
+        "quote": "گزارش آقای رضا حاتمی عضوممیز",
+        "start_char": 1444,
+        "end_char": 1472,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اسلحه",
+      "evidence": {
+        "quote": "در اختیار گذاشتن اسلحه",
+        "start_char": 84,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "سرقت مبلغ اندکی وجه",
+        "start_char": 856,
+        "end_char": 875,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم به معاونت در قتل و خرید و فروش اسلحه محکوم شده است",
+      "evidence": {
+        "quote": "وی را به تحمل 15 سال حبس",
+        "start_char": 360,
+        "end_char": 384,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "احکام در دو حوزه قضایی مختلف صادر شده است",
+      "evidence": {
+        "quote": "احکام متعدد در دو حوزه قضائی با صلاحیتهای ذاتی مختلف دادگاه کیفری استان ایلام و شعبه اول دادگاه انقلاب اسلامی ایلام مستقر در مهران صادر گردیده",
+        "start_char": 1987,
+        "end_char": 2129,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

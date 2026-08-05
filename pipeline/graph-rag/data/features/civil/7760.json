@@ -1,0 +1,173 @@
+{
+  "ruling_id": "7760",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر",
+      "evidence": {
+        "quote": "خسارت تأخیر در تحویل مبیع",
+        "start_char": 251,
+        "end_char": 276,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "تعهد تحویل",
+        "start_char": 1368,
+        "end_char": 1378,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تحویل مبیع",
+        "start_char": 100,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "ثمن معامله را پرداخت",
+        "start_char": 726,
+        "end_char": 746,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حضور نیافته",
+      "evidence": {
+        "quote": "در جلسه دادرسی مورخه 28/2/1392 حضور نیافته",
+        "start_char": 1087,
+        "end_char": 1129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی",
+        "start_char": 2502,
+        "end_char": 2521,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اعلام شد خواهان",
+        "start_char": 531,
+        "end_char": 546,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ن.ن. فرزند ک.",
+        "start_char": 59,
+        "end_char": 86,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به تحویل مبیع",
+        "start_char": 1913,
+        "end_char": 1939,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "تحویل مبیع",
+        "start_char": 100,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه",
+        "start_char": 111,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان",
+        "start_char": 577,
+        "end_char": 595,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "قسمتی از ثمن معامله",
+        "start_char": 717,
+        "end_char": 736,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در موعد مقرر اقدام به تحویل نکرده است",
+      "evidence": {
+        "quote": "در موعد مقرر اقدامی ننموده",
+        "start_char": 850,
+        "end_char": 876,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بخشی از ثمن معامله پرداخت شده است",
+      "evidence": {
+        "quote": "فی المجلس قسمتی از ثمن معامله را پرداخت",
+        "start_char": 707,
+        "end_char": 746,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دادرسی حضور نیافته است",
+      "evidence": {
+        "quote": "خوانده با ابلاغ قانونی در جلسه دادرسی مورخه 28/2/1392 حضور نیافته",
+        "start_char": 1064,
+        "end_char": 1129,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

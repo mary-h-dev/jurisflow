@@ -1,0 +1,92 @@
+{
+  "ruling_id": "2113",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "مدارک اعاده دادرسی",
+        "start_char": 13,
+        "end_char": 31,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور رای",
+      "evidence": {
+        "quote": "پس از صدور رأی",
+        "start_char": 37,
+        "end_char": 51,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "موجبی جهت پذیرش اعاده دادرسی نبوده",
+        "start_char": 366,
+        "end_char": 400,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مدارک",
+      "evidence": {
+        "quote": "مدارک اعاده دادرسی",
+        "start_char": 13,
+        "end_char": 31,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "صدور رأی",
+        "start_char": 43,
+        "end_char": 51,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "از اسناد موضوع ماده 1287 قانون مدنی خارج بوده",
+        "start_char": 208,
+        "end_char": 253,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مدارک جدید در زمان رسیدگی در اختیار متقاضی نبوده است",
+      "evidence": {
+        "quote": "جدید باشد و در زمان رسیدگی وجود نداشته و یا در اختیار متقاضی نبوده باشد",
+        "start_char": 91,
+        "end_char": 162,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "نظر امام جمعه بابلسر مستند مدرکیه جهت اعاده دادرسی نیست",
+      "evidence": {
+        "quote": "نظر امام جمعه محترم بابلسر نیز چون از اسناد موضوع ماده 1287 قانون مدنی خارج بوده نمی‌تواند مستند مدرکیه جهت اعاده دادرسی باشد",
+        "start_char": 173,
+        "end_char": 298,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

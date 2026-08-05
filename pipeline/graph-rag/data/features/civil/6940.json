@@ -1,0 +1,193 @@
+{
+  "ruling_id": "6940",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال نقل وانتقالات",
+        "start_char": 196,
+        "end_char": 225,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "حکایت از مالکیت خواهان ها بر سهام های موصوف",
+        "start_char": 1698,
+        "end_char": 1741,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ش. و شرکت بازرگانی و سرمایه گذاری الف. (ب.)",
+        "start_char": 3122,
+        "end_char": 3179,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان ها",
+        "start_char": 4346,
+        "end_char": 4373,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "نقل",
+      "evidence": {
+        "quote": "ابطال نقل وانتقالات",
+        "start_char": 206,
+        "end_char": 225,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "الزام خواندگان به صدور تعداد 575/420 سهم",
+        "start_char": 263,
+        "end_char": 303,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "و تحویل به آن ها",
+        "start_char": 351,
+        "end_char": 367,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به انضمام مطالبه هزینه دادرسی",
+        "start_char": 368,
+        "end_char": 397,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن پذیرش درخواست تجدیدنظرخواهی و نقض دادنامه تجدیدنظر خواسته",
+        "start_char": 4283,
+        "end_char": 4344,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی خواهان ها",
+        "start_char": 0,
+        "end_char": 33,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 81,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "به میزان حصه هر یک از تجدیدنظر خواندگان",
+        "start_char": 3473,
+        "end_char": 3511,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سهام",
+      "evidence": {
+        "quote": "تعداد 575/420 سهم از سهام خواندگان",
+        "start_char": 226,
+        "end_char": 260,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اقرارنامه",
+      "evidence": {
+        "quote": "به موجب اقرارنامه های پیوست دادخواست",
+        "start_char": 475,
+        "end_char": 511,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "مطالبه هزینه دادرسی",
+        "start_char": 378,
+        "end_char": 397,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حق‌الوکاله",
+      "evidence": {
+        "quote": "و حق الوکاله وکیل",
+        "start_char": 398,
+        "end_char": 415,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مرحوم آقای م.الف سهام را برای موکلین خریداری کرده بود",
+      "evidence": {
+        "quote": "مرحوم آقای م.الف. سهام های مرقوم را از خوانده ردیف اول بنام خود و برای موکلین خریداری نموده است",
+        "start_char": 697,
+        "end_char": 792,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله سهام بدون رعایت شرایط قانونی در دفتر ثبت شرکت انجام شده است",
+      "evidence": {
+        "quote": "انتقالی که بدون رعایت شرایط مذکور صورت گیرد ازنظر شرکت و اشخاص ثالث فاقد اعتبار است",
+        "start_char": 4043,
+        "end_char": 4126,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

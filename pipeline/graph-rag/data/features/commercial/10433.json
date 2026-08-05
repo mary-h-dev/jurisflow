@@ -1,0 +1,203 @@
+{
+  "ruling_id": "10433",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "با استصحاب بقای دین و اشتغال ذمّه خوانده به استناد مقررات مواد309،307 قانون مدنی",
+        "start_char": 487,
+        "end_char": 567,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمانت",
+      "evidence": {
+        "quote": "ناظر به شخصی که ظهر سفته را به عنوان «ضامن» امضاء نموده است",
+        "start_char": 1418,
+        "end_char": 1477,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تضامن",
+      "evidence": {
+        "quote": "به نحو تضامن محکوم گردیده است",
+        "start_char": 2241,
+        "end_char": 2270,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "دلیلی که موجب برائت ذمّه خوانده و بی‌اعتباری دعوی مطروحه باشد، ابراز نشده است",
+        "start_char": 367,
+        "end_char": 444,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به‌خواسته مطالبه وجه دو فقره سفته به شماره‌های ...",
+        "start_char": 73,
+        "end_char": 123,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده به پرداخت 120/000/000 ریال",
+        "start_char": 645,
+        "end_char": 693,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواست",
+      "evidence": {
+        "quote": "سفته‌های موضوع دعوی واخواست نگردیده است",
+        "start_char": 2317,
+        "end_char": 2356,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "در خصوص دادخواست آقای م.م. با وکالت آقای س.ح.",
+        "start_char": 0,
+        "end_char": 45,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م.ح.ص.",
+        "start_char": 1929,
+        "end_char": 1962,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست آقای م.م. با وکالت آقای س.ح.",
+        "start_char": 0,
+        "end_char": 45,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به‌طرفیت آقایان 1.س.س و...",
+        "start_char": 46,
+        "end_char": 72,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "ظهرنویس",
+      "evidence": {
+        "quote": "ناظر به شخصی که ظهر سفته را به عنوان «ضامن» امضاء نموده است",
+        "start_char": 1418,
+        "end_char": 1477,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "صادرکننده",
+      "evidence": {
+        "quote": "چنین سفته‌ای مانند یک سند عادی بوده و تنها از متعهد و صادرکننده آن قابل مطالبه است",
+        "start_char": 2563,
+        "end_char": 2645,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سفته",
+      "evidence": {
+        "quote": "به‌خواسته مطالبه وجه دو فقره سفته به شماره‌های ...",
+        "start_char": 73,
+        "end_char": 123,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "مستند دعوی مطروحه انتساب به خوانده داشته",
+        "start_char": 175,
+        "end_char": 215,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "چنین سفته‌ای مانند یک سند عادی بوده",
+        "start_char": 2563,
+        "end_char": 2598,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت انجام نشده",
+      "evidence": {
+        "quote": "دلیلی که موجب برائت ذمّه خوانده و بی‌اعتباری دعوی مطروحه باشد، ابراز نشده است",
+        "start_char": 367,
+        "end_char": 444,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد امضا شده",
+      "evidence": {
+        "quote": "مستند دعوی مطروحه انتساب به خوانده داشته",
+        "start_char": 175,
+        "end_char": 215,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سفته‌های موضوع دعوی واخواست نگردیده است",
+      "evidence": {
+        "quote": "سفته‌های موضوع دعوی واخواست نگردیده است",
+        "start_char": 2317,
+        "end_char": 2356,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

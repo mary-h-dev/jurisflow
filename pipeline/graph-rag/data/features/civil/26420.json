@@ -1,0 +1,203 @@
+{
+  "ruling_id": "26420",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "تقاضای ابطال سند اقرارنامه رسمی",
+        "start_char": 162,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "دایر به افزایش مهریه",
+        "start_char": 218,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اراده",
+      "evidence": {
+        "quote": "براساس اصل آزادی و حکومت اراده",
+        "start_char": 2758,
+        "end_char": 2788,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "وفق ماده 10 قانون مدنی",
+        "start_char": 2987,
+        "end_char": 3009,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض رأی فرجام‌خواسته را مورد تقاضا قرار داده",
+        "start_char": 3697,
+        "end_char": 3741,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابرام",
+      "evidence": {
+        "quote": "نتیجتاً ابرام می‌شود",
+        "start_char": 5295,
+        "end_char": 5315,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "دادخواستی... تقدیم دادگاه نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "لایحه ای ارسال به شماره 303937-1393/8/28",
+        "start_char": 1803,
+        "end_char": 1843,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 401,
+        "end_char": 412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده خانم م. ر.",
+        "start_char": 1597,
+        "end_char": 1614,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "در تاریخ 1393/8/18 دادخواستی تحت عنوان ورود ثالث",
+        "start_char": 1336,
+        "end_char": 1384,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "مادر زوج متوفی",
+        "start_char": 999,
+        "end_char": 1013,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متوفی",
+      "evidence": {
+        "quote": "فوت نموده",
+        "start_char": 1163,
+        "end_char": 1172,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اقرارنامه",
+      "evidence": {
+        "quote": "سند اقرارنامه رسمی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "در مورد مهریه",
+        "start_char": 1966,
+        "end_char": 1979,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "به تعداد 100 سکه بهار آزادی",
+        "start_char": 803,
+        "end_char": 830,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "برابر گواهی حصر وراثت شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فوت زوج در تاریخ 1393/1/26",
+      "evidence": {
+        "quote": "در تاریخ 1393/1/26 در اقامتگاه دائمی خود فوت نموده",
+        "start_char": 1122,
+        "end_char": 1172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تنظیم اقرارنامه مبنی بر افزایش مهریه",
+      "evidence": {
+        "quote": "اقرارنامه بعدی مبنی بر افزایش مهریه",
+        "start_char": 3487,
+        "end_char": 3522,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

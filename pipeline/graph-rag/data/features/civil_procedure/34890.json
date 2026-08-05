@@ -1,0 +1,133 @@
+{
+  "ruling_id": "34890",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت ذاتی صادر شده از سوی شعبه 208 دادگاه عمومی حقوقی تهران",
+        "start_char": 875,
+        "end_char": 945,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "با تأیید صلاحیت دادگاه عمومی حقوقی تهران",
+        "start_char": 1716,
+        "end_char": 1756,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اصلاح",
+      "evidence": {
+        "quote": "به خواسته اصلاح صورت مجلس تفکیکی",
+        "start_char": 105,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استعلام",
+      "evidence": {
+        "quote": "وضعیت ثبتی پلاک ثبتی فوق از اداره ثبت اسناد و املاک تهران استعلام نشده",
+        "start_char": 496,
+        "end_char": 566,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را به دادگاه صادر کننده قرار موصوف با هدف استعلام وضعیت ثبتی آن پلاک اعاده نموده",
+        "start_char": 568,
+        "end_char": 655,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض قرار عدم صلاحیت ذاتی فوق الذکر",
+        "start_char": 1677,
+        "end_char": 1715,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوای خواهان آقای ح. د.",
+        "start_char": 42,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالکین",
+      "evidence": {
+        "quote": "محتاج به جلب رضایت مالکین پلاک های ثبتی مجاور",
+        "start_char": 1347,
+        "end_char": 1392,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی... فرعی از 342 اصلی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملکی",
+      "evidence": {
+        "quote": "هرگاه نسبت به ملکی از طرف مالک یا قائم مقام او تقاضای تفکیک شود",
+        "start_char": 1013,
+        "end_char": 1076,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وضعیت ثبتی پلاک از اداره ثبت استعلام نشده بود",
+      "evidence": {
+        "quote": "وضعیت ثبتی پلاک ثبتی فوق از اداره ثبت اسناد و املاک تهران استعلام نشده",
+        "start_char": 496,
+        "end_char": 566,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اصلاح موقعیت پارکینگ نیازمند رضایت مالکین مجاور است",
+      "evidence": {
+        "quote": "اصلاح موقعیت پارکینگ قطعه 11 به شرح منعکس در صورت مجلس تفکیکی محتاج به جلب رضایت مالکین پلاک های ثبتی مجاور پلاک ثبتی فوق الذکر است",
+        "start_char": 1285,
+        "end_char": 1416,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

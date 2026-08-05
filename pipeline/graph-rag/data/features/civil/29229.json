@@ -1,0 +1,123 @@
+{
+  "ruling_id": "29229",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "بخواسته صدور حکم به تمکین",
+        "start_char": 72,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان صادر",
+        "start_char": 313,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م. ع.",
+        "start_char": 515,
+        "end_char": 547,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 1209,
+        "end_char": 1228,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عینا تایید می نماید",
+        "start_char": 1229,
+        "end_char": 1274,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بطلان دعوی خواهان",
+        "start_char": 320,
+        "end_char": 337,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دفاعیات وکیل خوانده",
+        "start_char": 116,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "سوء رفتار زوج با موکل وی",
+        "start_char": 144,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیلی که موجبات نقض",
+        "start_char": 1007,
+        "end_char": 1039,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 9401252-94/7/14",
+        "start_char": 592,
+        "end_char": 624,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "سوء رفتار زوج نسبت به همسر",
+      "evidence": {
+        "quote": "گزارش پزشک قانونی سالهای گذشته سوء رفتار زوج را نسبت به همسرش محرز تشخیص",
+        "start_char": 207,
+        "end_char": 279,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

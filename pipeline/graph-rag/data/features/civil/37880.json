@@ -1,0 +1,163 @@
+{
+  "ruling_id": "37880",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "مبنی بر فسخ نکاح",
+        "start_char": 205,
+        "end_char": 221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "به جهت تدلیس",
+        "start_char": 265,
+        "end_char": 277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "منتهی به صدور حکم بر بطلان دعوی گردیده است",
+        "start_char": 311,
+        "end_char": 353,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "اقدام به طرح دادخواست تمکین نموده است",
+        "start_char": 905,
+        "end_char": 942,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی",
+        "start_char": 0,
+        "end_char": 21,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "طرح",
+      "evidence": {
+        "quote": "اقدام به طرح دادخواست تمکین نموده است",
+        "start_char": 905,
+        "end_char": 942,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "دادگاه اعتراض را وارد ندانسته",
+        "start_char": 2087,
+        "end_char": 2116,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "خواسته تجدیدنظرخواه",
+        "start_char": 171,
+        "end_char": 190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "[خواهان بدوی]",
+        "start_char": 191,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "ثالثا اینکه زوج بعد از طرح دادخواست",
+        "start_char": 858,
+        "end_char": 893,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در ساعد زوجه موجب فسخ نکاح نمی باشد",
+        "start_char": 603,
+        "end_char": 638,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره *در پرونده به شماره بایگانی *",
+        "start_char": 91,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم اثبات وقوع تدلیس",
+      "evidence": {
+        "quote": "دلیل و مدرکی مبنی بر وقوع ماده مورد استناد تجدیدنظرخواه [ماده 1128 از قانون مدنی] وجود ندارد",
+        "start_char": 436,
+        "end_char": 528,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سابقه درمان اختلال اضطرابی زوجه",
+      "evidence": {
+        "quote": "پزشک معالج اعلام داشته که خانم ف. خ. با تشخیص اختلال اضطرابی تحت درمان اینجانب قرار گرفته",
+        "start_char": 696,
+        "end_char": 785,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اقدام زوج به طرح دعوای تمکین پس از دعوای فسخ",
+      "evidence": {
+        "quote": "زوج بعد از طرح دادخواست فسخ نکاح ، اقدام به طرح دادخواست تمکین نموده است",
+        "start_char": 870,
+        "end_char": 942,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

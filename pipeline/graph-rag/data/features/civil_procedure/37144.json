@@ -1,0 +1,163 @@
+{
+  "ruling_id": "37144",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "دادخواست اثبات نسب",
+        "start_char": 28,
+        "end_char": 46,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفی نسب",
+      "evidence": {
+        "quote": "دادخواست نفی نسب",
+        "start_char": 1369,
+        "end_char": 1385,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "صدور قرار عدم استماع دعوا",
+        "start_char": 1313,
+        "end_char": 1338,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواست تجدیدنظر تقدیم داشته",
+        "start_char": 1545,
+        "end_char": 1574,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "خواهان نسبت به رای صادره مذکور معترض است",
+        "start_char": 1749,
+        "end_char": 1789,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقاضای",
+      "evidence": {
+        "quote": "از دیوان عالی کشور تقاضای فرجامخواهی کرده",
+        "start_char": 1792,
+        "end_char": 1833,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد فرجام",
+      "evidence": {
+        "quote": "قرار رد فرجام خواهی فرجام خواه صادر و اعلام می گردد",
+        "start_char": 2791,
+        "end_char": 2842,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست اثبات نسب به طرفیت اقای ک. ا. پ. و غیره در تاریخ 1400/9/11 تقدیم شعبه *نموده و اظهار داشته",
+        "start_char": 28,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "وکلای خواندگان در مقام دفاع اظهار داشته اند",
+        "start_char": 925,
+        "end_char": 968,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "درخصوص فرجام خواهی اقای ع. ر. خ. نسبت به دادنامه شماره *مورخ 1401/1/22 شعبه *متضمن تایید دادنامه شماره *مورخ 1400/12/3 صادره از شعبه *که بموجب ان در مورد دعوی خواهان ( فرجام خواه ) بخواسته اثبات نسب نسبت به جد پدری بنام م. خ. ا. پ. قرار عدم استماع دعوی صادر گردیده است",
+        "start_char": 2028,
+        "end_char": 2296,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "دادخواست اثبات نسب",
+        "start_char": 28,
+        "end_char": 46,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه",
+      "evidence": {
+        "quote": "با توجه به وجود شجره نامه",
+        "start_char": 1125,
+        "end_char": 1150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "جهت اخذ شناسنامه",
+        "start_char": 310,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پدر خواهان با نام دیگری شناسنامه اخذ کرده است",
+      "evidence": {
+        "quote": "و اقدام به اخذ شناسنامه با مشخصات ع. خ. و نام پدر ا. می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوی به دلیل عدم رعایت شرایط شکلی (عدم تقدیم نفی نسب و عدم حضور همه ورثه) رد شده است",
+      "evidence": {
+        "quote": "خواهان باید ابتدا دادخواست نفی نسب از ا. خ. داده و همچنین باید دادخواست به طرفیت همه ورثه مرحوم م. خ. ا. پ. تقدیم گردد",
+        "start_char": 1351,
+        "end_char": 1469,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

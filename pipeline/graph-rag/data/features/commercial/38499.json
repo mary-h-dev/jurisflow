@@ -1,0 +1,133 @@
+{
+  "ruling_id": "38499",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "بطلان دعوی ابتدایی اعلام ورشکستگی",
+        "start_char": 68,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهدات",
+      "evidence": {
+        "quote": "تادیه قروض و سایر تعهدات نقدی",
+        "start_char": 408,
+        "end_char": 437,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان دعوی ابتدایی",
+        "start_char": 68,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "اشخاصی که می تواند دعوی ورشکستگی علیه تاجر اقامه نماید",
+        "start_char": 1297,
+        "end_char": 1351,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "بنابراین طرح دعوی علیه دادستان",
+        "start_char": 1619,
+        "end_char": 1649,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه مبحوث عنه را نقض",
+        "start_char": 2002,
+        "end_char": 2026,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "لایحه اعتراضیه تجدیدنظرخواه",
+        "start_char": 243,
+        "end_char": 270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بزعم تجدیدنظرخوانده فعالیت اقتصادی نداشته",
+        "start_char": 794,
+        "end_char": 835,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "از جمله اشخاصی که می تواند دعوی ورشکستگی علیه تاجر اقامه نماید",
+        "start_char": 1289,
+        "end_char": 1351,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دعوی",
+      "evidence": {
+        "quote": "می تواند دعوی ورشکستگی علیه تاجر اقامه نماید",
+        "start_char": 1307,
+        "end_char": 1351,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شرکت فعالیت اقتصادی داشته است",
+      "evidence": {
+        "quote": "بدیع از فعالیت مثبت مشمول مالیات می گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اداره دارایی مالیات شرکت را محاسبه کرده است",
+      "evidence": {
+        "quote": "از سوی اداره دارایی میزان مالیات متعلقه در سنوات ماضی مورد بحث تعیین و محاسبه گردیده",
+        "start_char": 842,
+        "end_char": 926,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

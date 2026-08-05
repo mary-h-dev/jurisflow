@@ -1,0 +1,93 @@
+{
+  "ruling_id": "36156",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "کلاهبرداری",
+      "evidence": {
+        "quote": "کلاهبرداری رایانه ای",
+        "start_char": 217,
+        "end_char": 237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "دایر به صلاحیت رسیدگی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحصیل",
+      "evidence": {
+        "quote": "تحصیل مال یا وجه یا منفعت و یا امتیاز مالی",
+        "start_char": 130,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استفاده",
+      "evidence": {
+        "quote": "استفاده غیر مجاز از سیستم رایانه ای",
+        "start_char": 181,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حل اختلاف",
+      "evidence": {
+        "quote": "حل اختلاف می نماید",
+        "start_char": 1864,
+        "end_char": 1882,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم ج. پ.",
+        "start_char": 279,
+        "end_char": 289,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "تحصیل مال یا وجه یا منفعت و یا امتیاز مالی",
+        "start_char": 130,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شروع تعقیب در دادسرای تهران زودتر از دادسرای کلاله بوده است",
+      "evidence": {
+        "quote": "تاریخ شروع تعقیب در دادسرای شهرستان تهران ( 98/6/2 ) مقدم بر تاریخ شروع تعقیب در دادسرای شهرستان کلاله ( 98/6/14 ) می باشد",
+        "start_char": 1613,
+        "end_char": 1735,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

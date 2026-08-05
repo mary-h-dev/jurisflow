@@ -1,0 +1,213 @@
+{
+  "ruling_id": "8000",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه معوقه",
+        "start_char": 66,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "چون خواهان تمکین نمی کند",
+        "start_char": 414,
+        "end_char": 438,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "ادعای عدم تمکین مثبت نشوز زوجه نمی باشد",
+        "start_char": 584,
+        "end_char": 623,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "ضمن احراز رابطه زوجیت",
+        "start_char": 662,
+        "end_char": 683,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 1111,
+        "end_char": 1129,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه معوقه",
+        "start_char": 56,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "عدم پرداخت نفقه",
+        "start_char": 300,
+        "end_char": 315,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تکذیب",
+      "evidence": {
+        "quote": "این موضوع مورد تکذیب و ادعای زوجه قرار گرفته است",
+        "start_char": 1861,
+        "end_char": 1909,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته نقض و حکم بر بی حقی زوجه صادر می گردد",
+        "start_char": 2338,
+        "end_char": 2398,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بده توضیح که خواهان با تقدیم دادخواست",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده در پاسخ اظهار داشت",
+        "start_char": 388,
+        "end_char": 413,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تکلیف زوج بر پرداخت نفقه",
+        "start_char": 720,
+        "end_char": 744,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تکلیف زوج بر پرداخت نفقه زوجه",
+        "start_char": 720,
+        "end_char": 749,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به تأدیه مبلغ",
+        "start_char": 1365,
+        "end_char": 1391,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده محکوم شده",
+        "start_char": 1488,
+        "end_char": 1518,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه معوقه",
+        "start_char": 66,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "با احتساب هزینه دادرسی",
+        "start_char": 170,
+        "end_char": 192,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه توسط زوج",
+      "evidence": {
+        "quote": "به علت عدم پرداخت نفقه موجب عسر و حرج حقیر شده است",
+        "start_char": 293,
+        "end_char": 343,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم برگزاری مراسم عروسی به دلیل اختلاف",
+      "evidence": {
+        "quote": "در آن تاریخ نیز علی رغم تهیه مقدمات لازم در اثر اختلاف عروسی صورت نگرفته است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سکونت زوجه در منزل پدر",
+      "evidence": {
+        "quote": "بنابراین بوده که زوجه در منزل پدرش سکونت نموده",
+        "start_char": 1978,
+        "end_char": 2024,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

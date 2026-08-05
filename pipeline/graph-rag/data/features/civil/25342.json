@@ -1,0 +1,183 @@
+{
+  "ruling_id": "25342",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "معامله‌ای که به وقوع پیوسته اصل بر صحت آن است",
+        "start_char": 880,
+        "end_char": 925,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوای خواهان اعلام و صادر می‌گردد",
+        "start_char": 2445,
+        "end_char": 2491,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "این دعوی به صورت فسخ قرارداد مطرح شده است",
+        "start_char": 3242,
+        "end_char": 3283,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارات دادرسی",
+        "start_char": 101,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "درخواست ابطال معامله را",
+        "start_char": 716,
+        "end_char": 739,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ع. ک.",
+        "start_char": 2682,
+        "end_char": 2714,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان را محمول بر صحت ندانسته",
+        "start_char": 2318,
+        "end_char": 2355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده دعوی نیز طی لایحه‌ای اظهار نموده است",
+        "start_char": 591,
+        "end_char": 634,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده موظف علاوه بر استرداد ثمن معامله",
+        "start_char": 436,
+        "end_char": 476,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "معادل پنجاه میلیون ریال خسارت به خریدار بپردازد",
+        "start_char": 478,
+        "end_char": 525,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مرتهن",
+      "evidence": {
+        "quote": "مرتهن حق درخواست ابطال معامله را دارد",
+        "start_char": 707,
+        "end_char": 744,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "آپارتمان موردنظر در رهن بوده",
+        "start_char": 186,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "چون ملک در آن زمان در رهن قرار داشته",
+        "start_char": 528,
+        "end_char": 564,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "علاوه بر استرداد ثمن معامله",
+        "start_char": 449,
+        "end_char": 476,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "علاوه بر استرداد سند معامله",
+        "start_char": 1708,
+        "end_char": 1735,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک در زمان تنظیم مبایعه‌نامه در رهن بوده است",
+      "evidence": {
+        "quote": "در زمان تنظیم مبایعه‌نامه، آپارتمان موردنظر در رهن بوده",
+        "start_char": 159,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک در سال 1390 از رهن آزاد شده است",
+      "evidence": {
+        "quote": "پلاک موردنظر در سال 1390 از رهن آزاد شده است",
+        "start_char": 797,
+        "end_char": 841,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

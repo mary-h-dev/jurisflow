@@ -1,0 +1,183 @@
+{
+  "ruling_id": "7996",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته تمکین",
+        "start_char": 44,
+        "end_char": 59,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "از حق حبس خود استفاده نکرده است",
+        "start_char": 1117,
+        "end_char": 1148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "وجود علقه زوجیت فی مابین",
+        "start_char": 870,
+        "end_char": 894,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی خواهان صادر",
+        "start_char": 357,
+        "end_char": 384,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "به نظر دادگاه اعتراض وارد است",
+        "start_char": 826,
+        "end_char": 855,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه مارالذکر",
+        "start_char": 1258,
+        "end_char": 1282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "حکم الزام تجدیدنظر خوانده (زوجه) به تمکین",
+        "start_char": 1314,
+        "end_char": 1355,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت خانم الف.ح. به خواسته تمکین",
+        "start_char": 23,
+        "end_char": 59,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده دوشیزه می باشد",
+        "start_char": 144,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه و تجدیدنظر خوانده",
+        "start_char": 895,
+        "end_char": 926,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده (زوجه)",
+        "start_char": 1324,
+        "end_char": 1346,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تمکین زوجه از زوج از وظایف می باشد",
+        "start_char": 951,
+        "end_char": 985,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده (زوجه)",
+        "start_char": 1324,
+        "end_char": 1346,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 665 مورخه 29/4/93",
+        "start_char": 601,
+        "end_char": 640,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده دوشیزه است",
+      "evidence": {
+        "quote": "خوانده دوشیزه می باشد",
+        "start_char": 144,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مهر به زوجه تسلیم نشده است",
+      "evidence": {
+        "quote": "تا زمانی که مهر به او تسلیم نگردیده",
+        "start_char": 204,
+        "end_char": 239,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه در جلسه دادگاه حاضر نشد",
+      "evidence": {
+        "quote": "زوجه با وجود ابلاغ در جلسه دادگاه حاضر نشد",
+        "start_char": 1072,
+        "end_char": 1114,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

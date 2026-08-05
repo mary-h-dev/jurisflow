@@ -1,0 +1,103 @@
+{
+  "ruling_id": "25394",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اصول دادرسی",
+      "evidence": {
+        "quote": "با رعایت اصول دادرسی صادرگردیده",
+        "start_char": 1801,
+        "end_char": 1832,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی اداره ثبت‌ احوال",
+        "start_char": 1410,
+        "end_char": 1448,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عیناً تأیید",
+        "start_char": 2150,
+        "end_char": 2187,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حسب گواهی گواهان خواهان",
+        "start_char": 600,
+        "end_char": 623,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تغییر نام تجدیدنظرخوانده",
+        "start_char": 1653,
+        "end_char": 1677,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "دارنده سند سجلی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 686",
+        "start_char": 1534,
+        "end_char": 1559,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "نام فعلی فرد در اسامی ممنوع یا ناشایست نیست",
+      "evidence": {
+        "quote": "نام فعلی، نامی است که توسط والدین در زمان تولد برابر ضوابط تعیین شده و جزء اسامی ممنوع و ناشایست و نامناسب با جنس تلقی نمی‌گردد",
+        "start_char": 362,
+        "end_char": 489,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "نام مورد درخواست در اجتماع شناخته شده است",
+      "evidence": {
+        "quote": "حسب گواهی گواهان خواهان به نام مورد درخواست در اجتماع شناخته می‌شود و اشتهار دارد",
+        "start_char": 600,
+        "end_char": 681,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

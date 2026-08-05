@@ -1,0 +1,193 @@
+{
+  "ruling_id": "34894",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "معاونت در حمل",
+      "evidence": {
+        "quote": "اتهام الف. ف. مبنی بر معاونت در حمل تریاک",
+        "start_char": 2541,
+        "end_char": 2582,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظر",
+      "evidence": {
+        "quote": "می تواند نسبت به رأی صادره درخواست تجدیدنظر نماید",
+        "start_char": 4190,
+        "end_char": 4239,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "دستگیر",
+      "evidence": {
+        "quote": "من اسکورت بودم که دستگیر شدیم",
+        "start_char": 1824,
+        "end_char": 1853,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرار",
+      "evidence": {
+        "quote": "و اقدام به فرار می نماید",
+        "start_char": 1071,
+        "end_char": 1095,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "با رد اعتراض و درخواست ثالث",
+        "start_char": 2864,
+        "end_char": 2891,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام خواهی",
+      "evidence": {
+        "quote": "درخواست فرجام خواهی نموده است",
+        "start_char": 3272,
+        "end_char": 3301,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "از متهمان تحقیق",
+        "start_char": 1649,
+        "end_char": 1664,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متضرر",
+      "evidence": {
+        "quote": "متضرر از حکم دادگاه",
+        "start_char": 4120,
+        "end_char": 4139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "و درخواست ثالث",
+        "start_char": 2877,
+        "end_char": 2891,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "با توجه به عدم اعتراض دادستان",
+        "start_char": 2933,
+        "end_char": 2962,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مواد مخدر",
+      "evidence": {
+        "quote": "میزان 275 کیلوگرم مواد مخدر",
+        "start_char": 1511,
+        "end_char": 1538,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تریاک",
+      "evidence": {
+        "quote": "از نوع تریاک",
+        "start_char": 1539,
+        "end_char": 1551,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "هر دو خودرو تحت بازرسی قرار گرفته است",
+        "start_char": 1472,
+        "end_char": 1509,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اتومبیل",
+      "evidence": {
+        "quote": "اتومبیل به موجب مبایعه نامه عادی",
+        "start_char": 3454,
+        "end_char": 3486,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "به موجب مبایعه نامه عادی مورخ 94/8/17",
+        "start_char": 3462,
+        "end_char": 3499,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "راننده با سرعت زیاد به سمت مأمورین حرکت کرد",
+      "evidence": {
+        "quote": "با سرعت زیاد شاخ به شاخ به سمت مامورین حرکت می نماید",
+        "start_char": 1257,
+        "end_char": 1309,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خودرو واژگون شد",
+      "evidence": {
+        "quote": "سرانجام خودرو واژگون و راننده از آن خارج و دستگیر می گردد",
+        "start_char": 1412,
+        "end_char": 1469,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اتومبیل خریداری شده است",
+      "evidence": {
+        "quote": "اتومبیل به موجب مبایعه نامه عادی مورخ 94/8/17 خریداری کرده است",
+        "start_char": 3454,
+        "end_char": 3516,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

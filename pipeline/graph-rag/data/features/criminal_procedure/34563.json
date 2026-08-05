@@ -1,0 +1,143 @@
+{
+  "ruling_id": "34563",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "در مورد صلاحیت رسیدگی به اتهام",
+        "start_char": 283,
+        "end_char": 313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اتهام",
+      "evidence": {
+        "quote": "در مورد صلاحیت رسیدگی به اتهام",
+        "start_char": 283,
+        "end_char": 313,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را عودت داده است",
+        "start_char": 456,
+        "end_char": 479,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "رسیدگی",
+      "evidence": {
+        "quote": "نمی توانند در خصوص اتهام فوق الذکر، ورود کرده و رسیدگی ماهیتی نمایند",
+        "start_char": 625,
+        "end_char": 693,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "سن متهم در زمان ارتکاب جرم کمتر از 15 سال بوده",
+        "start_char": 348,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادرس",
+      "evidence": {
+        "quote": "دادرس علی البدل دادگستری شهرستان ش",
+        "start_char": 481,
+        "end_char": 515,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ممیز",
+      "evidence": {
+        "quote": "آقای منوچهر کاظمی عضو ممیز",
+        "start_char": 749,
+        "end_char": 775,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دیوان عالی کشور",
+      "evidence": {
+        "quote": "دادیار دیوان عالی کشور",
+        "start_char": 829,
+        "end_char": 851,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پرونده کلاسه 951032/11 تحت نظر است",
+        "start_char": 48,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به شرح دادنامه شماره 7100482",
+        "start_char": 153,
+        "end_char": 181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اوراق پرونده",
+      "evidence": {
+        "quote": "ملاحظه اوراق پرونده",
+        "start_char": 778,
+        "end_char": 797,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "سن متهم در زمان ارتکاب جرم کمتر از 15 سال بوده است",
+      "evidence": {
+        "quote": "سن متهم در زمان ارتکاب جرم کمتر از 15 سال بوده",
+        "start_char": 348,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تشکیل دادگاه ویژه اطفال در شهرستان ش",
+      "evidence": {
+        "quote": "در صورت عدم تشکیل دادگاه ویژه اطفال در شهرستان ش",
+        "start_char": 1559,
+        "end_char": 1607,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

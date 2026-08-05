@@ -1,0 +1,143 @@
+{
+  "ruling_id": "5246",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اراده",
+      "evidence": {
+        "quote": "توجهاً به اصل حاکمیت اراده",
+        "start_char": 1130,
+        "end_char": 1156,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "ایشان به لحاظ تجزیه ناپذیر بودن مبیع صرفاً حق فسخ خواهد داشت",
+        "start_char": 2823,
+        "end_char": 2883,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه موضوع خواسته از خوانده شده",
+        "start_char": 492,
+        "end_char": 525,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "ثمن معامله را در حق خوانده پرداخت کرده",
+        "start_char": 340,
+        "end_char": 378,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "مرحله بدوی تجدیدنظرخواهی نموده است",
+        "start_char": 2479,
+        "end_char": 2513,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی به طرفیت آقای م. ح. فرزند ع. به خواسته مطالبه ده میلیون تومان",
+        "start_char": 52,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "یک باب آپارتمان مسکونی به مساحت 107 مترمربع از خوانده خریداری نموده",
+        "start_char": 253,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "مدارکی که فروشنده با تمسک به آن ها خود را مالک شناخته",
+        "start_char": 1381,
+        "end_char": 1434,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قولنامه",
+      "evidence": {
+        "quote": "به موجب قولنامه عادی مورخه 22/9/1391",
+        "start_char": 216,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک باب آپارتمان مسکونی به مساحت 107 مترمربع",
+        "start_char": 253,
+        "end_char": 296,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "ثمن معامله را در حق خوانده پرداخت کرده",
+        "start_char": 340,
+        "end_char": 378,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مساحت آپارتمان کمتر از متراژ فروخته شده است",
+      "evidence": {
+        "quote": "متوجه شده مساحت آپارتمان ده متر کمتر از متراژ فروخته شده به خواهان بوده",
+        "start_char": 385,
+        "end_char": 456,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبلغ خواسته محاسبه نشده است",
+      "evidence": {
+        "quote": "مشخص نیست که مبلغ خواسته که یک صد میلیون ریال است و کسر مساحت که مدعی ده متر است به چه نحو محاسبه که به این حاصل جمع رسیده",
+        "start_char": 1005,
+        "end_char": 1127,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

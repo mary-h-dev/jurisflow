@@ -1,0 +1,123 @@
+{
+  "ruling_id": "25882",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "به خواسته اعتراض ثالث",
+        "start_char": 127,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "حکم به رد اعتراض ثالث صادر",
+        "start_char": 703,
+        "end_char": 729,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رد اعتراض معترض دادنامه معترض‌عنه را تأیید",
+        "start_char": 1937,
+        "end_char": 1979,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "استناد خواهان به یک مبایعه‌نامه عادی می‌باشد",
+        "start_char": 282,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "کاشف از ادعای معترض ثالث نمی‌باشد",
+        "start_char": 1624,
+        "end_char": 1657,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخواه نیز ایراد و اعتراض مؤثر",
+        "start_char": 1660,
+        "end_char": 1705,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخواندگان",
+        "start_char": 1129,
+        "end_char": 1154,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اتومبیل",
+      "evidence": {
+        "quote": "توقیف یک دستگاه اتومبیل",
+        "start_char": 157,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "استناد خواهان به یک مبایعه‌نامه عادی می‌باشد",
+        "start_char": 282,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت اتومبیل به نام معترض ثبت نشده است",
+      "evidence": {
+        "quote": "اتومبیل مزبور به نام معترض رسماً انتقال داده نشده",
+        "start_char": 538,
+        "end_char": 587,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله با شاهد و مبایعه‌نامه عادی اثبات نشده است",
+      "evidence": {
+        "quote": "با عنایت به اینکه خواهان دلیلی بر و قوع معامله به دادگاه ارایه ننموده یک شاهد و مبایعه‌نامه عادی دلیلی بر صحت ادعای خواهان نبوده",
+        "start_char": 329,
+        "end_char": 457,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

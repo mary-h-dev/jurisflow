@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25799",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی",
+        "start_char": 132,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "بنوان معترض ثالث طرح دعوی نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه های تجدیدنظر",
+        "start_char": 1901,
+        "end_char": 1942,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "طرح دعوی نموده",
+        "start_char": 182,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابلاغ",
+      "evidence": {
+        "quote": "ابلاغ از طریق نشر آگهی",
+        "start_char": 321,
+        "end_char": 343,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی اعتراض ثالث صادر میشود",
+        "start_char": 1829,
+        "end_char": 1864,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را تایید می نماید",
+        "start_char": 3216,
+        "end_char": 3256,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت دادستان عمومی تهران به خواسته صدور حکم ورشکستگی شرکت خواهان",
+        "start_char": 93,
+        "end_char": 161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "بنوان معترض ثالث طرح دعوی نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": 2926,
+        "end_char": 2961,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض‌عنه",
+      "evidence": {
+        "quote": "دادنامه معترض عنه موافق مقررات",
+        "start_char": 2368,
+        "end_char": 2398,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "حکم",
+      "evidence": {
+        "quote": "حکم ورشکستگی صادر",
+        "start_char": 259,
+        "end_char": 276,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "برابر دادنامه شماره 9300232",
+        "start_char": 231,
+        "end_char": 258,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دعوای اعتراض ثالث خارج از مهلت قانونی مطرح شده است",
+      "evidence": {
+        "quote": "اعتراض معترض ثالث در این پرونده با وصف مطالب پیش گفته شده خارج از مهلت است",
+        "start_char": 1735,
+        "end_char": 1809,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حکم ورشکستگی از طریق نشر آگهی ابلاغ شده است",
+      "evidence": {
+        "quote": "ابلاغ از طریق نشر آگهی در تاریخ 17-4-93 صورت گرفته",
+        "start_char": 321,
+        "end_char": 371,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "28867",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اماره قضایی",
+      "evidence": {
+        "quote": "این اقدام خواهان مطابق ماده 1324 قانون مدنی اماره قضایی بر اخذ الباقی ثمن مورد معامله می باشد",
+        "start_char": 646,
+        "end_char": 739,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قاعده",
+      "evidence": {
+        "quote": "طبق قاعده اقدام زیان ناشی از عمل خویش را باید تحمل نماید",
+        "start_char": 924,
+        "end_char": 980,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دعوی اقامه شده خواهان مبنی بر مطالبه وجه",
+        "start_char": 54,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الباقی ثمن مورد معامله که مبلغ 350/000/000 ریال می باشد هنگام تنظیم سند و انتقال قطعی / وکالتی در دفترخانه شماره 169 تهران پرداخت شود",
+        "start_char": 438,
+        "end_char": 571,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نظر به اینکه اعتراض تجدیدنظر خواه درحدی نبوده",
+        "start_char": 2005,
+        "end_char": 2050,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم تجدیدنظر استان تهران می باشد",
+        "start_char": 1570,
+        "end_char": 1632,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی اقامه شده خواهان مبنی بر مطالالبه وجه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در واقع ادعای خوانده ردیف اول را اثبات می نماید",
+        "start_char": 740,
+        "end_char": 787,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 192مورخ 94/3/12صادره از شعبه26 دادگاه عمومی حقوقی تهران که به موجب آن حکم به بطلان دعوی تجدیدنظر خواه بخواسته مطالبه ما به التفاوت یک واحد آپارتمان به قیمت روز صادر گریده است",
+        "start_char": 1775,
+        "end_char": 1971,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "تفاوت وجه یک واحد آپارتمان جزء پلاک ثبتی شماره 1009/2",
+        "start_char": 103,
+        "end_char": 156,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "برابر بند 2 ماده 3 قرارداد مستند ابرازی",
+        "start_char": 348,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "چون وکالتنامه شماره 84143 - 85/10/5 در دفترخانه 169 تهران تنظیم گردیده",
+        "start_char": 575,
+        "end_char": 645,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "باقی‌مانده ثمن معامله پرداخت نشده است",
+      "evidence": {
+        "quote": "الباقی ثمن مورد معامله که مبلغ 350/000/000 ریال می باشد هنگام تنظیم سند و انتقال قطعی / وکالتی در دفترخانه شماره 169 تهران پرداخت شود",
+        "start_char": 438,
+        "end_char": 571,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی مطرح شده است",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 192مورخ 94/3/12صادره از شعبه26 دادگاه عمومی حقوقی تهران",
+        "start_char": 1775,
+        "end_char": 1852,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

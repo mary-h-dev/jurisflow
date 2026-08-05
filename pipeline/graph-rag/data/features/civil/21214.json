@@ -1,0 +1,163 @@
+{
+  "ruling_id": "21214",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "تقاضای ابطال اقرارنامه رسمی مذکور را نموده است",
+        "start_char": 243,
+        "end_char": 289,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بی‌حقی و بطلان دعوی خواهان صادر و اعلام می‌نماید",
+        "start_char": 647,
+        "end_char": 702,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "متضمن نوعی تعهد زوج به پرداخت مبلغی بیش از میزان مهریه به زوجه می‌باشد",
+        "start_char": 468,
+        "end_char": 538,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "اقرار به امری که بر حسب قانون صحیح نیست اثری ندارد",
+        "start_char": 1670,
+        "end_char": 1720,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم بر ابطال سند رسمی",
+        "start_char": 67,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم تجدیدنظر استان تهران خواهد بود",
+        "start_char": 747,
+        "end_char": 805,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته نقض می‌شود",
+        "start_char": 2557,
+        "end_char": 2590,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان س.ع.",
+        "start_char": 0,
+        "end_char": 24,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده س.الف.",
+        "start_char": 44,
+        "end_char": 66,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه (زوج) با مراجعه به دفترخانه",
+        "start_char": 1976,
+        "end_char": 2016,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "مهریه تجدیدنظرخوانده در ضمن عقد نکاح",
+        "start_char": 1834,
+        "end_char": 1870,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "ابطال سند رسمی شماره... دفتر اسناد رسمی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اقرارنامه",
+      "evidence": {
+        "quote": "تقاضای ابطال اقرارنامه رسمی مذکور را نموده است",
+        "start_char": 243,
+        "end_char": 289,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "عدم امکان افزایش مهریه مندرج در سند ازدواج می‌باشد",
+        "start_char": 354,
+        "end_char": 404,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج با تنظیم سند رسمی تحت عنوان اقرارنامه میزان مهریه را افزایش داده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه (زوج) با مراجعه به دفترخانه شماره... حوزه ثبتی شهر ری با تنظیم سند رسمی فوق‌الذکر تحت عنوان اقرارنامه مهریه زوجه را از 1361 نیم سکه به 1361 تمام سکه تغییر داده و اصلاح نموده است",
+        "start_char": 1976,
+        "end_char": 2166,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

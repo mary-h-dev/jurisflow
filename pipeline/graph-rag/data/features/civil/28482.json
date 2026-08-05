@@ -1,0 +1,163 @@
+{
+  "ruling_id": "28482",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "با توجه به اصل لزوم قرارداد ها",
+        "start_char": 1015,
+        "end_char": 1045,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر و اعلام می نماید",
+        "start_char": 1220,
+        "end_char": 1266,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقسیم",
+      "evidence": {
+        "quote": "با احراز تقسیم",
+        "start_char": 998,
+        "end_char": 1012,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه مورد اعتراض",
+        "start_char": 2551,
+        "end_char": 2578,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "به خواسته تقاضای صدور حکم مبنی بر خلع ید مشاعی",
+        "start_char": 225,
+        "end_char": 271,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجددنظر خواهی م. ص.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ودادنامه مورد اعتراض",
+        "start_char": 1743,
+        "end_char": 1763,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "و لذا دادگاه با احراز تقسیم و با توجه به اصل لزوم قرارداد ها و نظر به اینکه تصرفات خواندگان در حصه اختصاصی خود بوده است دعوی خواهان را وارد تشخیص نداده",
+        "start_char": 985,
+        "end_char": 1136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "با توجه به دفاعیات خواندگان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "دعوی تجدیدنظرخواه بخسته خلع ید مشاعی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "و نیز محکومیت تجدیدنظر خوانده به خسارت دادرسی",
+        "start_char": 2627,
+        "end_char": 2671,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "از پلاک ثبتی... فرعی از 14 اصلی...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "مستنداً به تصویر مصدق سند مالکیت مشاعی",
+        "start_char": 412,
+        "end_char": 450,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود قرارداد شفاهی مبنی بر تقسیم ملک",
+      "evidence": {
+        "quote": "ملک مشاعی مورد تنازع بر اساس قرارداد شفاهی مورد تقسیم به نحوی که",
+        "start_char": 614,
+        "end_char": 678,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه قرارداد کتبی تقسیم",
+      "evidence": {
+        "quote": "طرفین هیچگونه قراردادی درخصوص تقسیم مال الشرکه ارائه نداده اند",
+        "start_char": 1864,
+        "end_char": 1926,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

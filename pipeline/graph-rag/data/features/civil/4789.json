@@ -1,0 +1,203 @@
+{
+  "ruling_id": "4789",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "عقد نکاح موقت",
+        "start_char": 277,
+        "end_char": 290,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد دائم",
+      "evidence": {
+        "quote": "عقد دائم",
+        "start_char": 354,
+        "end_char": 362,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "شرط ضمن عقد",
+        "start_char": 1690,
+        "end_char": 1701,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد لازم",
+      "evidence": {
+        "quote": "عقد لازم",
+        "start_char": 1737,
+        "end_char": 1745,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام خوانده به انجام تعهد",
+        "start_char": 107,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مکلف به پرداخت 500 عدد تمام بهار آزادی",
+        "start_char": 392,
+        "end_char": 430,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "در صورت امتناع از عمل به شرط ضمن عقد",
+        "start_char": 2680,
+        "end_char": 2716,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید",
+      "evidence": {
+        "quote": "ازدواج موقت را تجدید کرده است",
+        "start_char": 2181,
+        "end_char": 2210,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان را پس از یک سال",
+        "start_char": 328,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به انجام تعهد",
+        "start_char": 107,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه مفاد اسناد ابرازی را قبول دارد",
+        "start_char": 2212,
+        "end_char": 2255,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده را به مدت یک سال",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اقرارنامه",
+      "evidence": {
+        "quote": "مطابق اقرارنامه مورخه 23/8/84",
+        "start_char": 135,
+        "end_char": 164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "ملاحظه سند عادی پیوستی",
+        "start_char": 224,
+        "end_char": 246,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "پرداخت 500 عدد تمام بهار آزادی",
+        "start_char": 400,
+        "end_char": 430,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "پرداخت سی میلیون تومان",
+        "start_char": 433,
+        "end_char": 455,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملکی",
+      "evidence": {
+        "quote": "و ملکی به ارزش سی میلیون تومان",
+        "start_char": 1843,
+        "end_char": 1873,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از ازدواج دائم با تجدیدنظرخوانده خودداری کرده است",
+      "evidence": {
+        "quote": "تاکنک وی از ازدواج دائم با تجدیدنظر خوانده خودداری نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین در تاریخ 23/8/84 عقد موقت بسته‌اند",
+      "evidence": {
+        "quote": "خواهان در تاریخ 23/8/84 به عقد نکاح موقت خوانده در آمده",
+        "start_char": 250,
+        "end_char": 305,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

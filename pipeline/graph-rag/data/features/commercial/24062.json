@@ -1,0 +1,133 @@
+{
+  "ruling_id": "24062",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "با احراز اشتغال ذمه خوانده در برابر خواهان",
+        "start_char": 372,
+        "end_char": 414,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "بعلاوه خسارات دادرسی و تأخیر تأدیه",
+        "start_char": 161,
+        "end_char": 195,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق‌الوکاله",
+      "evidence": {
+        "quote": "و حق الوکاله وکیل",
+        "start_char": 196,
+        "end_char": 213,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه مبلغ 64/512/000 ریال",
+        "start_char": 49,
+        "end_char": 84,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه اعتراض موثر و موجهی",
+        "start_char": 1490,
+        "end_char": 1529,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی",
+        "start_char": 1930,
+        "end_char": 1949,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان صادر واعلام می نماید",
+        "start_char": 723,
+        "end_char": 756,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "عدم ارائه دفاعی از ناحیه خوانده",
+        "start_char": 333,
+        "end_char": 364,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 00328 مورخ 1393/5/12 شعبه 44 دادگاه عمومی حقوقی تهران که به موجب آن و در مورد دعوی آقای م. الف. مبنی بر مطالبه مبلغ شصت و چهار میلیون و پانصد و یازده هزار ریال وجه یک فقره چک به شماره..... مورخ 1386/4/15 به انضمام خسارت دادرسی و تاخیر تادیه و حق الوکاله وکیل رای به محکومیت تجدیدنظرخواه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "وجه یک فقره چک به شماره.....",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک خارج از مهلت قانونی برگشت شده است",
+      "evidence": {
+        "quote": "چک صادره خارج از مهلت قانونی موضوع ماده 318 قانون تجارت برگشت زده شده",
+        "start_char": 1785,
+        "end_char": 1854,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه در جلسه رسیدگی حاضر نشده است",
+      "evidence": {
+        "quote": "علی رغم تشکیل جلسه رسیدگی و ابلاغ اخطاریه به تجدیدنظرخواه جهت حضور و حاضر نمودن گواهان خود در جلسه رسیدگی حاضر نشده",
+        "start_char": 1583,
+        "end_char": 1698,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

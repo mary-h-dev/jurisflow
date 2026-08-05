@@ -1,0 +1,133 @@
+{
+  "ruling_id": "26389",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعیین",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت به شایستگی دادگستری تهران صادر و اعلام می نماید",
+        "start_char": 1361,
+        "end_char": 1424,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت به صلاحیت دادگاه عمومی حقوقی عباس آباد مستنداً به مقررات یاد شده صادر و اعلام می گردد",
+        "start_char": 2438,
+        "end_char": 2539,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه",
+        "start_char": 66,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسویه و تصفیه",
+      "evidence": {
+        "quote": "از بازپرداخت وجوه پرداختی موکل خودداری می نماید",
+        "start_char": 752,
+        "end_char": 799,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "مستأجر خوانده خانم ب. ف.ز. می باشد",
+        "start_char": 261,
+        "end_char": 295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم ب. ف.ز.",
+        "start_char": 44,
+        "end_char": 65,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "با خواست و اطلاع و اجازه موجر",
+        "start_char": 354,
+        "end_char": 383,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "آیا اساساً چنین هزینه هائی توسط خواهان انجام شده یا خیر",
+        "start_char": 1855,
+        "end_char": 1910,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه به مبلغ شصت میلیون تومان",
+        "start_char": 66,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "موجر باید ملک مورد اجاره را در وضعیتی تحویل نماید",
+        "start_char": 461,
+        "end_char": 510,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مستأجر برای رفع عیوب ویلا اقدام به تعمیرات کرده است",
+      "evidence": {
+        "quote": "با خواست و اطلاع و اجازه موجر اقدام به تعمیرات و بازسازی ویلای مورد اجاره نمودند",
+        "start_char": 354,
+        "end_char": 434,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موجر از پرداخت هزینه‌های تعمیرات خودداری کرده است",
+      "evidence": {
+        "quote": "موجر هر بار به دلایل واهی از بازپرداخت وجوه پرداختی موکل خودداری می نماید",
+        "start_char": 726,
+        "end_char": 799,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "ruling_id": "28823",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد دائم",
+      "evidence": {
+        "quote": "خوانده را به عقد دائم خود درآورده",
+        "start_char": 371,
+        "end_char": 404,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "با توجه به شرط ضمن عقد فیمابین زوجین",
+        "start_char": 702,
+        "end_char": 738,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام به تمکین",
+        "start_char": 156,
+        "end_char": 170,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام به تمکین",
+        "start_char": 146,
+        "end_char": 170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه خسارات",
+      "evidence": {
+        "quote": "و مطالبه خسارات دادرسی",
+        "start_char": 171,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 1799,
+        "end_char": 1825,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض عنه",
+        "start_char": 3256,
+        "end_char": 3281,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از سوی خواهان",
+        "start_char": 230,
+        "end_char": 243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده را به عقد دائم",
+        "start_char": 371,
+        "end_char": 392,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخواه",
+        "start_char": 2191,
+        "end_char": 2212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بطرفیت تجدیدنظرخوانده",
+        "start_char": 2213,
+        "end_char": 2234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج با ادامه تحصیلات",
+        "start_char": 2384,
+        "end_char": 2404,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تمکین زوجه را نموده است",
+        "start_char": 556,
+        "end_char": 579,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "بموجب سند ازدواج شماره 14109",
+        "start_char": 298,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "منضم به دادنامه شماره 8800591",
+        "start_char": 609,
+        "end_char": 638,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "با توجه به گواهی صادره به شماره 94/210/134/5",
+        "start_char": 1265,
+        "end_char": 1309,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه از سال ۱۳۸۶ منزل مشترک را ترک کرده است",
+      "evidence": {
+        "quote": "زوجه از اول تیر ماه 1386 تا کنون بدون مجوز شرعی و قانونی منزل مشترک را ترک نموده است",
+        "start_char": 462,
+        "end_char": 546,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه در تهران مشغول تحصیل پزشکی است",
+      "evidence": {
+        "quote": "چون در شهر تهران مشغول به ادامه تحصیلات پزشکی می باشد",
+        "start_char": 896,
+        "end_char": 949,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در قزوین ساکن است",
+      "evidence": {
+        "quote": "خواهان محل اقامت خود را شهر قزوین اعلام نموده",
+        "start_char": 1178,
+        "end_char": 1223,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

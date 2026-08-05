@@ -1,0 +1,163 @@
+{
+  "ruling_id": "7100",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "علقه زوجیت فی مابین طرفین",
+        "start_char": 239,
+        "end_char": 264,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "یکی از آن وظایف تمکین زوجه از زوج است",
+        "start_char": 392,
+        "end_char": 429,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ناشزه",
+      "evidence": {
+        "quote": "در غیر این صورت ناشزه تلقی",
+        "start_char": 749,
+        "end_char": 775,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "تقاضای صدور حکم به الزام خوانده",
+        "start_char": 86,
+        "end_char": 117,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظر خواسته",
+        "start_char": 1854,
+        "end_char": 1885,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی خواهان بدوی صادر",
+        "start_char": 1938,
+        "end_char": 1970,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی مطروحه خواهان را ثابت تشخیص داده",
+        "start_char": 577,
+        "end_char": 614,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده با تمکین",
+        "start_char": 105,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تمکین زوجه از زوج",
+        "start_char": 408,
+        "end_char": 425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "با وارد دانستن اعتراض تجدیدنظرخواه",
+        "start_char": 1776,
+        "end_char": 1810,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "فتوکپی مصدق سند نکاحیه",
+        "start_char": 1357,
+        "end_char": 1379,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "تهیه مسکن مناسب",
+        "start_char": 1563,
+        "end_char": 1578,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث‌البیت",
+      "evidence": {
+        "quote": "همچنین اثاث البیت",
+        "start_char": 1581,
+        "end_char": 1598,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "علقه زوجیت فی مابین طرفین برای دادگاه محرز و مسلم است",
+        "start_char": 239,
+        "end_char": 292,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج مسکن و اثاث بیت را فراهم نکرده است",
+      "evidence": {
+        "quote": "خواهان بدوی اسناد و مدارک آن را ارائه ننموده است",
+        "start_char": 1602,
+        "end_char": 1650,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

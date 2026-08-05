@@ -1,0 +1,143 @@
+{
+  "ruling_id": "28196",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بی‌اعتباری",
+      "evidence": {
+        "quote": "اعلام بی اعتباری",
+        "start_char": 1573,
+        "end_char": 1589,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقلب",
+      "evidence": {
+        "quote": "اثبات حیله و تقلب",
+        "start_char": 1616,
+        "end_char": 1633,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "اقامه دعوی علیه مدیر تصفیه",
+        "start_char": 1749,
+        "end_char": 1775,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ک. ت.ز.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نهایتا تائید می نماید",
+        "start_char": 2690,
+        "end_char": 2737,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "مدیر",
+      "evidence": {
+        "quote": "مدیر تصفیه شرکت های منحل شده",
+        "start_char": 1382,
+        "end_char": 1410,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان ایراد جعل یا انکار نسبت به آن به عمل نیاورد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دعوی اصولا متوجه خوانده موصوف نمی باشد",
+        "start_char": 2490,
+        "end_char": 2528,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه را از حیث نتیجه ای",
+        "start_char": 2555,
+        "end_char": 2586,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تعهدنامه",
+      "evidence": {
+        "quote": "تعهد نامه مورخ 3 /4/ 86",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 9409970227500269",
+        "start_char": 1422,
+        "end_char": 1460,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان در مراحل رسیدگی نسبت به تعهدنامه ادعای جعل یا انکار نکرده است",
+      "evidence": {
+        "quote": "در مراحل داد رسی متنازع فیه خواهان ایراد جعل یا انکار نسبت به آن به عمل نیاورد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرکت‌ها منحل شده‌اند",
+      "evidence": {
+        "quote": "مدیر تصفیه شرکت های منحل شده",
+        "start_char": 1382,
+        "end_char": 1410,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

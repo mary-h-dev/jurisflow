@@ -1,0 +1,143 @@
+{
+  "ruling_id": "24973",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مجازات",
+      "evidence": {
+        "quote": "مجازات قانونی حمل و نگهداری و وارد کردن مشروبات الکلی",
+        "start_char": 1054,
+        "end_char": 1107,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "با اعتراض و فرجام‌خواهی آقای وکیل مدافع",
+        "start_char": 306,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "در خصوص اعتراض و فرجام‌خواهی آقای علی ش.",
+        "start_char": 860,
+        "end_char": 900,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "در خصوص اعتراض و فرجام‌خواهی آقای علی ش.",
+        "start_char": 860,
+        "end_char": 900,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "فرمان‌خواه مشاوره نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "با اعتراض و فرجام‌خواهی آقای وکیل مدافع",
+        "start_char": 306,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "وکیل مدافع محکوم‌علیه",
+        "start_char": 335,
+        "end_char": 356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "و آقای دادستان عمومی و انقلاب الف.",
+        "start_char": 924,
+        "end_char": 958,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دیوان عالی کشور",
+      "evidence": {
+        "quote": "نظریه کتبی آقای مهرداد حبیبی دادیار دیوان عالی کشور",
+        "start_char": 576,
+        "end_char": 627,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مشروبات الکلی",
+      "evidence": {
+        "quote": "نگهداری 340 بطری مشروبات الکلی خارجی",
+        "start_char": 34,
+        "end_char": 70,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "در خصوص دادنامه شماره 933-1394/5/31",
+        "start_char": 734,
+        "end_char": 769,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "نگهداری مشروبات الکلی",
+      "evidence": {
+        "quote": "نگهداری 340 بطری مشروبات الکلی خارجی",
+        "start_char": 34,
+        "end_char": 70,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محکومیت به حبس و جزای نقدی",
+      "evidence": {
+        "quote": "به 14 ماه حبس و پرداخت یک میلیارد و چهار صد و سی و چهار میلیون ریال جزای نقدی",
+        "start_char": 125,
+        "end_char": 202,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

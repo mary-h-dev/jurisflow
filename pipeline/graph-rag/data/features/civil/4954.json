@@ -1,0 +1,133 @@
+{
+  "ruling_id": "4954",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "زوجیت دائم",
+      "evidence": {
+        "quote": "علقه زوجیت دائم بین طرفین را محرز دانسته",
+        "start_char": 113,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "مکلف به حضور در منزل زوج و تمکین نسبت به وی می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدید نظر خواهی آقای ر.م.",
+        "start_char": 440,
+        "end_char": 473,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "رأی صادره دادگاه بدوی را نقض کرده",
+        "start_char": 1326,
+        "end_char": 1359,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "حکم به تمکین صادر می نماید",
+        "start_char": 260,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "ازآنجا که زوج دارای منزل مستقل است",
+        "start_char": 156,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و خوانده هیچ گونه دفاعی ننموده است",
+        "start_char": 190,
+        "end_char": 224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه در زمان زوجیت",
+        "start_char": 829,
+        "end_char": 847,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نکاحنامه",
+      "evidence": {
+        "quote": "با توجه به نکاح نامه پیوست",
+        "start_char": 86,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "زوج دارای منزل مستقل است",
+        "start_char": 165,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج دارای منزل مستقل است",
+      "evidence": {
+        "quote": "زوج دارای منزل مستقل است",
+        "start_char": 165,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به دلیل ایراد ضرب و دیه محکوم شده است",
+      "evidence": {
+        "quote": "محکومیت زوج به ایراد ضرب و دیه نسبت به زوجه می باشد",
+        "start_char": 1063,
+        "end_char": 1114,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

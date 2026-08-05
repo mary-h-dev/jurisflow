@@ -1,0 +1,153 @@
+{
+  "ruling_id": "11148",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ یک واقعه حقوقیست",
+        "start_char": 1052,
+        "end_char": 1072,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأخیر",
+      "evidence": {
+        "quote": "خیار تأخیر ثمن به دلالت مفاد ماده 402 قانون مدنی شامل ثمن مؤجل نمی‌باشد",
+        "start_char": 253,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 394,
+        "end_char": 418,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دایر به تأیید فسخ بیع",
+        "start_char": 61,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "و استرداد مبیع",
+        "start_char": 135,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض به شرح لایحه اعتراضیه وارد نبوده",
+        "start_char": 962,
+        "end_char": 1001,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را غیرثابت تشخیص",
+        "start_char": 325,
+        "end_char": 360,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "موجد حق برای فروشنده در جهت اعمال حق فسخ نمی‌باشد",
+        "start_char": 1753,
+        "end_char": 1802,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متعاقدین",
+      "evidence": {
+        "quote": "عقودی که به طریق قانونی فی‌مابین متعاقدین تنظیم شده باشد",
+        "start_char": 1573,
+        "end_char": 1629,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "یک دستگاه خودروی آزرا مدل 2007 به شماره انتظامی...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "قسمتی از ثمن مؤجل بوده",
+        "start_char": 228,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "تأیید فسخ قرارداد عادی",
+        "start_char": 797,
+        "end_char": 819,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت بخشی از ثمن",
+      "evidence": {
+        "quote": "صرف عدم پرداخت بخشی از ثمن در مواردی که ثمن مؤجل باشد",
+        "start_char": 1699,
+        "end_char": 1752,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تعیین اجل برای پرداخت ثمن",
+      "evidence": {
+        "quote": "با توجه به تعین اجل بنا بر توافق متعاقدین",
+        "start_char": 1902,
+        "end_char": 1943,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

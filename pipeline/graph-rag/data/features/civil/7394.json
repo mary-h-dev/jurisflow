@@ -1,0 +1,223 @@
+{
+  "ruling_id": "7394",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 55,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "با غیر ثابت مشخص شدن عسر و حرج زوجه",
+        "start_char": 3583,
+        "end_char": 3618,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "از شروط ضمن عقد برای طلاق استفاده کند",
+        "start_char": 1242,
+        "end_char": 1279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "وکیل زوجه تجدیدنظرخواهی نموده است",
+        "start_char": 3671,
+        "end_char": 3704,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرمان",
+      "evidence": {
+        "quote": "نقض می‌گردد",
+        "start_char": 6911,
+        "end_char": 6922,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "نفقه من و بچه ام را پرداخت نمی کند",
+        "start_char": 1014,
+        "end_char": 1048,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "درخواست صدور گواهی عدم امکان سازش نموده است",
+        "start_char": 2417,
+        "end_char": 2460,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "وکیل زوجه تجدیدنظرخواهی نموده است",
+        "start_char": 3671,
+        "end_char": 3704,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض می‌گردد",
+        "start_char": 6911,
+        "end_char": 6922,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "داور زوج توسط وکیل او معرفی شده است",
+        "start_char": 820,
+        "end_char": 855,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "داور زوجه نیز معرفی شده است",
+        "start_char": 857,
+        "end_char": 884,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بنا به استنباط از ماده 1129 قانون مدنی استنکاف زوج از دادن نفقه ناظر بر نفقه معوقه نیست بلکه ناظر بر نفقه آینده است و زوج مدعی پرداخت نفقه است و دلیلی بر عدم امکان و الزام زوج ارائه نشده و شرایط اجرای ماده مذکور محقق نیست و با توجه به جهتی که تجدیدنظرخواه بر این مبنا خواستار طلاق گردیده",
+        "start_char": 4829,
+        "end_char": 5116,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه که زوجه در یک مقطع زمانی بابت نفقه معوقه خود اقامه دعوی نموده",
+        "start_char": 4697,
+        "end_char": 4771,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "و تجدیدنظرخوانده نیز به پرداخت نفقه معوقه محکوم گردیده",
+        "start_char": 4772,
+        "end_char": 4826,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "مستنداً به فتوکپی سند نکاحیه مـورخ 8/1/74",
+        "start_char": 155,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "تصویر دادنامه 91/508 شعبه 7 دادگاه خانواده شیراز",
+        "start_char": 2118,
+        "end_char": 2166,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بانکی",
+      "evidence": {
+        "quote": "فیش های بانکی پرداخت نفقه",
+        "start_char": 1325,
+        "end_char": 1350,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج به دلیل ترک انفاق محکوم به حبس شده است",
+      "evidence": {
+        "quote": "دلالت بر محکومیت زوج به اتهام ترک انفاق زن و فرزندش و 5 ماه حبس تعزیری دارد",
+        "start_char": 311,
+        "end_char": 386,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از سال ۸۹ به بعد نفقه پرداخت نکرده است",
+      "evidence": {
+        "quote": "از سال 89 با توجه به اینکه در طول این مدت زوج به دلخواه خودش نفقه ای به زوجه نپرداخته است",
+        "start_char": 5835,
+        "end_char": 5924,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در محل سکونت با زوجه درگیری فیزیکی داشته است",
+      "evidence": {
+        "quote": "بین زوجین درگیری ایجاد و زوج اقدام به کتک کاری زوجه نموده",
+        "start_char": 2631,
+        "end_char": 2688,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از مشروبات الکلی استفاده می‌کند",
+      "evidence": {
+        "quote": "نامبرده از مشروبات الکلی استفاده می نماید",
+        "start_char": 2798,
+        "end_char": 2839,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

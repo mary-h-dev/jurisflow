@@ -1,0 +1,153 @@
+{
+  "ruling_id": "30930",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعدی",
+      "evidence": {
+        "quote": "به لحاظ تعدی و تفریط",
+        "start_char": 212,
+        "end_char": 232,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جلب ثالث",
+      "evidence": {
+        "quote": "به خواسته جلب ثالث",
+        "start_char": 2095,
+        "end_char": 2113,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "صدور حکم به تخلیه",
+        "start_char": 99,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 707,
+        "end_char": 733,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 1750,
+        "end_char": 1765,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوا صادر",
+        "start_char": 2573,
+        "end_char": 2598,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان خانم ف. ح. م.",
+        "start_char": 0,
+        "end_char": 32,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای ح. ت.",
+        "start_char": 62,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظر خواهی خانم ف. ح. م.",
+        "start_char": 906,
+        "end_char": 941,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "حکم به تخلیه مغازه موصوف به لحاظ تعدی تجدیدنظرخوانده صادر",
+        "start_char": 1831,
+        "end_char": 1888,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "تخلیه یک باب مغازه",
+        "start_char": 111,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "موضوع قرارداد اجاره شماره 87626",
+        "start_char": 165,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تخریب بخشی از دیوار مغازه",
+      "evidence": {
+        "quote": "قسمتی از دیواره جنوبی حدودا\" به ابعاد 3*1/5 تخریب",
+        "start_char": 1403,
+        "end_char": 1452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اعاده وضع به حالت سابق انجام شده است",
+      "evidence": {
+        "quote": "سپس به حالت قبلی اعاده شده است",
+        "start_char": 1453,
+        "end_char": 1483,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

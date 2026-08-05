@@ -1,0 +1,163 @@
+{
+  "ruling_id": "4783",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "به خواسته صدور حکم به حضانت فرزندش",
+        "start_char": 81,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر",
+        "start_char": 811,
+        "end_char": 840,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق ملاقات",
+      "evidence": {
+        "quote": "با حق ملاقات مادر",
+        "start_char": 1823,
+        "end_char": 1840,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استناد",
+      "evidence": {
+        "quote": "استناد کرده",
+        "start_char": 487,
+        "end_char": 498,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "تقاضای رد دعوی خواهان را کرده است",
+        "start_char": 501,
+        "end_char": 534,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "آن را نقض",
+        "start_char": 1777,
+        "end_char": 1786,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "توضیحاً که خواهان خواسته ای به شرح مذکور مطرح کرده است",
+        "start_char": 135,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وکیل خوانده در دفاع خود",
+        "start_char": 278,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "پدر",
+      "evidence": {
+        "quote": "پدر را فاقد صلاحیت لازم برای حضانت فرزندش تشخیص داده",
+        "start_char": 756,
+        "end_char": 808,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مادر",
+      "evidence": {
+        "quote": "با حق ملاقات مادر",
+        "start_char": 1823,
+        "end_char": 1840,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "حضانت فرزندش",
+        "start_char": 103,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "برای بذل مهریه",
+        "start_char": 466,
+        "end_char": 480,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "عدم پرداخت نفقه فرزند",
+        "start_char": 1507,
+        "end_char": 1528,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرزند ۱۱ ساله است",
+      "evidence": {
+        "quote": "فرزند موکلش، 11 ساله است",
+        "start_char": 210,
+        "end_char": 234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت نفقه انجام نشده است",
+      "evidence": {
+        "quote": "دلیلی بر پرداخت نفقه از طرف پدر در طول این مدت برای فرزندش وجود ندارد",
+        "start_char": 685,
+        "end_char": 754,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

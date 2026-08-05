@@ -1,0 +1,203 @@
+{
+  "ruling_id": "34823",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "به لحاظ تخلف زوج از شرط ضمن عقد ازدواج",
+        "start_char": 310,
+        "end_char": 348,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "به خواسته صدور گواهی عدم امکان سازش",
+        "start_char": 274,
+        "end_char": 309,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "از شروط ضمن عقد",
+        "start_char": 818,
+        "end_char": 833,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حبس",
+      "evidence": {
+        "quote": "تحمل سه سال حبس تعزیری محکوم گردیده",
+        "start_char": 779,
+        "end_char": 814,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "تقدیم نموده",
+        "start_char": 378,
+        "end_char": 389,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "با ارسال شرحی به زندان مرکزی مشهد",
+        "start_char": 1476,
+        "end_char": 1509,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "با تقدیم دادخواست تجدید نظرخواهی به رأی صادره اعتراض کرده",
+        "start_char": 4092,
+        "end_char": 4149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض گردیده",
+        "start_char": 6835,
+        "end_char": 6845,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "مبادرت به صدور دادنامه",
+        "start_char": 3553,
+        "end_char": 3575,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 464,
+        "end_char": 475,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به طرفیت همسرش آقای ق. ن.",
+        "start_char": 248,
+        "end_char": 273,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "بنابر اظهارات موکله زوج دارای سوء رفتار اخلاقی می باشد",
+        "start_char": 511,
+        "end_char": 565,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "با وکالت آقای و. د.",
+        "start_char": 199,
+        "end_char": 218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمانده",
+      "evidence": {
+        "quote": "مدیر زندان مرکزی مشهد",
+        "start_char": 1750,
+        "end_char": 1771,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "تصویر سند رسمی ازدواج",
+        "start_char": 954,
+        "end_char": 975,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "تصویر سند رسمی مورخ 91/2/9",
+        "start_char": 1091,
+        "end_char": 1117,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج محکوم به حبس شده است",
+      "evidence": {
+        "quote": "محکوم گردیده که از شروط ضمن عقد تخطی نموده",
+        "start_char": 802,
+        "end_char": 844,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج متعهد به عدم آزار و کتک کاری شده است",
+      "evidence": {
+        "quote": "آقای ق. ن. متعهد گردیده همسرش را مورد آزار و کتک کاری قرارندهد",
+        "start_char": 1144,
+        "end_char": 1206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در زمان تقدیم دادخواست در زندان بوده است",
+      "evidence": {
+        "quote": "در زمان تقدیم دادخواست این محکومیت حبس درحال اجرا بوده است",
+        "start_char": 7463,
+        "end_char": 7521,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

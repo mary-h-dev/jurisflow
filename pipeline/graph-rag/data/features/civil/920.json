@@ -1,0 +1,163 @@
+{
+  "ruling_id": "920",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مسکن نیز جزئی از نفقه است",
+        "start_char": 265,
+        "end_char": 290,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "منوط به تمکین وی از زوج است",
+        "start_char": 313,
+        "end_char": 340,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی نموده است",
+        "start_char": 1015,
+        "end_char": 1038,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 538,
+        "end_char": 564,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض دادنامه مذکور",
+        "start_char": 1900,
+        "end_char": 1917,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "حکم به الزام مرحله نخستین به تهیه منزل",
+        "start_char": 1996,
+        "end_char": 2034,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان قابل اجابت نیست",
+        "start_char": 168,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "منوط به تمکین وی از زوج است",
+        "start_char": 313,
+        "end_char": 340,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه فاقد محل سکونت است",
+        "start_char": 1730,
+        "end_char": 1761,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده علی رغم ارائه مدارک",
+        "start_char": 1322,
+        "end_char": 1356,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "الزام خوانده به تهیه مسکن مناسب شأن زوجه",
+        "start_char": 113,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "الزام مرحله نخستین به تهیه منزل",
+        "start_char": 2003,
+        "end_char": 2034,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث‌البیت",
+      "evidence": {
+        "quote": "تهیه منزل و مسکن و اثاث البیت",
+        "start_char": 2025,
+        "end_char": 2054,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "منزل محل زندگی زوجه تخلیه شده است",
+      "evidence": {
+        "quote": "منزل محل زندگی ایشان تخلیه گردیده است",
+        "start_char": 1198,
+        "end_char": 1235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه در محل زندگی پدرش سکنی گزیده است",
+      "evidence": {
+        "quote": "به ناچار در محل زندگی پدرش (پدرزوجه) به اتفاق دو فرزند خویش سکنی گزیده است",
+        "start_char": 1238,
+        "end_char": 1312,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

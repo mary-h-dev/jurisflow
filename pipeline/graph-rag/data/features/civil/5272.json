@@ -1,0 +1,203 @@
+{
+  "ruling_id": "5272",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت قراردادی",
+        "start_char": 90,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "مبلغ مورد خواسته را به عنوان وجه التزام به خریدار بپردازد",
+        "start_char": 2495,
+        "end_char": 2552,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مستحق اللغیر",
+      "evidence": {
+        "quote": "در صورت مستحق للغیر درآمدن مبیع",
+        "start_char": 3843,
+        "end_char": 3874,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "معامله فضولی در ردیف معاملات باطل قرار ندارد",
+        "start_char": 2978,
+        "end_char": 3022,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خارجی",
+      "evidence": {
+        "quote": "عدم انجام تعهد به واسطه علت خارجی بوده",
+        "start_char": 1072,
+        "end_char": 1110,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه خسارت قراردادی",
+        "start_char": 80,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حاضر نشدن",
+      "evidence": {
+        "quote": "نامبرده در موعد مقرر حاضر نگردیده",
+        "start_char": 547,
+        "end_char": 580,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال رسمی",
+      "evidence": {
+        "quote": "نسبت به انتقال رسمی پلاک موصوف اقدام نماید",
+        "start_char": 500,
+        "end_char": 542,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظر خواسته",
+        "start_char": 4038,
+        "end_char": 4069,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به این شرح که خواهان به موجب مبایعه نامه",
+        "start_char": 140,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از قطعه تفکیکی210 صورت مجلس تفکیکی شماره 17094 - 18/9/31 از پلاک ثبتی 54/4476 را از خوانده خریداری نموده",
+        "start_char": 238,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "مبلغ موضوع خواسته را به عنوان خسارت قراردادی به خریدار پرداخت نماید",
+        "start_char": 717,
+        "end_char": 784,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "گواهی عدم حضور شماره 2574 صادرشده به توسط سردفتر اسناد رسمی شماره... تهران حکایت از تخلف فروشنده از مفاد بند 5-4 قرارداد داشته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به موجب مبایعه نامه شماره 003849 - 28/8/87",
+        "start_char": 161,
+        "end_char": 203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین به مساحت 480 مترمربع",
+        "start_char": 204,
+        "end_char": 237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "از پلاک ثبتی 54/4476",
+        "start_char": 295,
+        "end_char": 315,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم حضور در دفترخانه در موعد مقرر",
+      "evidence": {
+        "quote": "نامبرده در موعد مقرر حاضر نگردیده",
+        "start_char": 547,
+        "end_char": 580,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثمن معامله پرداخت شده است",
+      "evidence": {
+        "quote": "ثمن معامله را تماماً پرداخت کرده است",
+        "start_char": 345,
+        "end_char": 381,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت ملک به غیر ثبت شده است",
+      "evidence": {
+        "quote": "مالکیت ملک موصوف بنام امام جماعت مسجد ج. دولت جمهوری اسلامی ایران ثبت گردیده است",
+        "start_char": 1225,
+        "end_char": 1305,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

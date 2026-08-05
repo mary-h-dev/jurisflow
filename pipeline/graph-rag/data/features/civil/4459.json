@@ -1,0 +1,123 @@
+{
+  "ruling_id": "4459",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "امر تمکین",
+        "start_char": 190,
+        "end_char": 199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "موازین قانونی",
+      "evidence": {
+        "quote": "موافق موازین قانونی",
+        "start_char": 738,
+        "end_char": 757,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قواعد دادرسی",
+      "evidence": {
+        "quote": "با رعایت اصول و قواعد دادرسی",
+        "start_char": 760,
+        "end_char": 788,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه",
+        "start_char": 83,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "صدور حکم رد دعوی",
+        "start_char": 636,
+        "end_char": 652,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی تجدیدنظرخواسته تأیید می گردد",
+        "start_char": 937,
+        "end_char": 969,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان دلیلی متضمن بر امر تمکین ارائه نداده است",
+        "start_char": 168,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه نیز در این مرحله مطلب قابل توجهی عنوان نکرده",
+        "start_char": 833,
+        "end_char": 890,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه",
+        "start_char": 93,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "هزینه دادرسی متعلقه",
+        "start_char": 107,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل بر تمکین",
+      "evidence": {
+        "quote": "خواهان دلیلی متضمن بر امر تمکین ارائه نداده است",
+        "start_char": 168,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

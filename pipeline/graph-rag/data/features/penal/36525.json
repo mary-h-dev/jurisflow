@@ -1,0 +1,193 @@
+{
+  "ruling_id": "36525",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قتل عمدی",
+      "evidence": {
+        "quote": "دایر بر قتل عمدی",
+        "start_char": 31,
+        "end_char": 47,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جرم",
+      "evidence": {
+        "quote": "تحت عنوان معاونت جرم",
+        "start_char": 241,
+        "end_char": 261,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دیه",
+      "evidence": {
+        "quote": "تقاضای دیه مقتولین و تغلیظ ان",
+        "start_char": 720,
+        "end_char": 749,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حرام",
+      "evidence": {
+        "quote": "تغلیظ دیه در مواردی که عاقله یا بیت المال پرداخت کننده دیه باشد",
+        "start_char": 2604,
+        "end_char": 2667,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تعقیب",
+      "evidence": {
+        "quote": "قرار موقوفی و منع تعقیب انان را صادر می نماید",
+        "start_char": 377,
+        "end_char": 422,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "درخواست فرجام خواهی نموده اند",
+        "start_char": 1620,
+        "end_char": 1649,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض دادنامه فرجام خواسته",
+        "start_char": 2825,
+        "end_char": 2849,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابرام",
+      "evidence": {
+        "quote": "ابرام دادنامه فرجام خواسته",
+        "start_char": 2352,
+        "end_char": 2378,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهمین",
+      "evidence": {
+        "quote": "در مورد اتهام تمامی متهمین",
+        "start_char": 319,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مقتولین",
+      "evidence": {
+        "quote": "دیه مقتولین",
+        "start_char": 477,
+        "end_char": 488,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ورثه",
+      "evidence": {
+        "quote": "در حق ورثه حین الفوت",
+        "start_char": 1197,
+        "end_char": 1217,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اولای دم",
+      "evidence": {
+        "quote": "اولیای دم مرحوم ی. ر.",
+        "start_char": 2422,
+        "end_char": 2443,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "سازمان",
+      "evidence": {
+        "quote": "نماینده حقوقی سازمان",
+        "start_char": 1435,
+        "end_char": 1455,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "تقاضای دیه مقتولین",
+        "start_char": 720,
+        "end_char": 738,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "در مورد اموال مرتکب قتلها",
+        "start_char": 839,
+        "end_char": 864,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مرتکب قتل در اثر درگیری با مامورین کشته شده است",
+      "evidence": {
+        "quote": "در اثر درگیری با مامورین نیروی انتظامی به قتل رسیده",
+        "start_char": 140,
+        "end_char": 191,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قتل در ماه حرام اتفاق افتاده است",
+      "evidence": {
+        "quote": "با توجه به قتل های مورد نظر که در ماه حرام اتفاق افتاده",
+        "start_char": 664,
+        "end_char": 719,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عاقله مرتکب تمکن مالی ندارند",
+      "evidence": {
+        "quote": "بدلیل عدم تمکن مالی انها",
+        "start_char": 2111,
+        "end_char": 2135,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

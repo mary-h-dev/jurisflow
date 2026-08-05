@@ -1,0 +1,163 @@
+{
+  "ruling_id": "37424",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 116,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "موظف به پرداخت",
+        "start_char": 249,
+        "end_char": 263,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با تجدیدنظر خواهی زوج",
+        "start_char": 417,
+        "end_char": 438,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "نسبت به دادنامه بدوی واخواهی نموده است",
+        "start_char": 654,
+        "end_char": 692,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "این قسمت را نقض",
+        "start_char": 588,
+        "end_char": 603,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "رد گردیده است",
+        "start_char": 1287,
+        "end_char": 1300,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "نسبت به زوج حضوری",
+        "start_char": 368,
+        "end_char": 385,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "نسبت به زوجه غیابی",
+        "start_char": 347,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با تجدیدنظر خواهی زوج ( خواهان )",
+        "start_char": 417,
+        "end_char": 449,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "زوجه ( خوانده بدوی )",
+        "start_char": 727,
+        "end_char": 747,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "فرمانخواسته مشاوره نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین 200 متری",
+        "start_char": 278,
+        "end_char": 299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بموجب دادنامه شماره *ضمن صدور گواهی عدم امکان سازش",
+        "start_char": 148,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج نسبت به بخشی از دادنامه اعتراض کرده است",
+      "evidence": {
+        "quote": "با وارد دانستن اعتراض نسبت به این قسمت از دادنامه",
+        "start_char": 538,
+        "end_char": 587,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه تجدیدنظر رسیدگی به واخواهی را صلاح نمی‌داند",
+      "evidence": {
+        "quote": "و صالح برسیدگی به واخواهی در اصل دادنامه نمی باشد",
+        "start_char": 1450,
+        "end_char": 1499,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

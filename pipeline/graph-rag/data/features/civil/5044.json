@@ -1,0 +1,163 @@
+{
+  "ruling_id": "5044",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل سنــوات زندگی مشتـرک",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "و به قصد تبرع هم نبوده است",
+        "start_char": 1126,
+        "end_char": 1152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت",
+      "evidence": {
+        "quote": "زوجین از قید زوجیت هم رها نشده",
+        "start_char": 306,
+        "end_char": 336,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر",
+        "start_char": 441,
+        "end_char": 470,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دایـر به مطالبــه اجرت المثل",
+        "start_char": 47,
+        "end_char": 75,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی می باشد",
+        "start_char": 562,
+        "end_char": 588,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأي صادره دادگاه بدوی را نقض کرده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت زوج به پرداخت اجرت المثل",
+        "start_char": 1718,
+        "end_char": 1757,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خانم ش.الف. به طرفیت آقای ر.ح.",
+        "start_char": 0,
+        "end_char": 46,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج در جلسات دادگاه حاضر نشده است",
+        "start_char": 1166,
+        "end_char": 1199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه در متن دادخواست",
+        "start_char": 996,
+        "end_char": 1016,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "حقوق مالی زوجه",
+      "evidence": {
+        "quote": "استحقاق اجرت المثل ایام زندگی مشترک",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "به مبلغ پانزده میلیون تومان",
+        "start_char": 1775,
+        "end_char": 1802,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زندگی مشترک زوجین",
+      "evidence": {
+        "quote": "سنــوات زندگی مشتـرک",
+        "start_char": 76,
+        "end_char": 96,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم حضور زوج در جلسات دادگاه",
+      "evidence": {
+        "quote": "زوج در جلسات دادگاه حاضر نشده است",
+        "start_char": 1166,
+        "end_char": 1199,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

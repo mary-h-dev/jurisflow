@@ -1,0 +1,253 @@
+{
+  "ruling_id": "25502",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "مؤید تحقق عقد بیع",
+        "start_char": 455,
+        "end_char": 472,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "اصل بر لزوم است",
+        "start_char": 687,
+        "end_char": 702,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأخیر",
+      "evidence": {
+        "quote": "خیار تأخیر ثمن",
+        "start_char": 592,
+        "end_char": 606,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "معامله را فسخ نموده باشد",
+        "start_char": 618,
+        "end_char": 642,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "به خواسته تنظیم سند رسمی",
+        "start_char": 66,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "و اخذ پایان کار",
+        "start_char": 127,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تفکیکی",
+      "evidence": {
+        "quote": "و صورت‌مجلس تفکیکی",
+        "start_char": 143,
+        "end_char": 161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحقق",
+      "evidence": {
+        "quote": "مؤید تحقق عقد بیع",
+        "start_char": 455,
+        "end_char": 472,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد آن را صادر",
+        "start_char": 1134,
+        "end_char": 1152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تجدیدنظرخواسته را... نتیجتاً تأیید می‌نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان ادعا نموده",
+        "start_char": 273,
+        "end_char": 290,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از خوانده خریداری نموده",
+        "start_char": 311,
+        "end_char": 334,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "مگر این‌که فروشنده",
+        "start_char": 573,
+        "end_char": 591,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه... تجدیدنظرخواه به اخذ",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده ملزم",
+        "start_char": 1627,
+        "end_char": 1652,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "تنظیم سند رسمی آپارتمان",
+        "start_char": 76,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پارکینگ",
+      "evidence": {
+        "quote": "به انضمام پارکینگ",
+        "start_char": 100,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "انباری",
+      "evidence": {
+        "quote": "و انباری",
+        "start_char": 118,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "به استناد سند عادی بیع",
+        "start_char": 235,
+        "end_char": 257,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "ثمن را دریافت نداشته",
+        "start_char": 390,
+        "end_char": 410,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک موضوع خواسته",
+        "start_char": 291,
+        "end_char": 307,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انتقال سند صورت نگرفته است",
+      "evidence": {
+        "quote": "تاکنک انتقال سند صورت نگرفته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثمن پرداخت نشده است",
+      "evidence": {
+        "quote": "خوانده اعلام نموده که ثمن را دریافت نداشته",
+        "start_char": 368,
+        "end_char": 410,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت ملک در استعلام ثبتی به نام خوانده است",
+      "evidence": {
+        "quote": "ملک حسب پاسخ استعلام ثبتی در مالکیت وی مستقر می‌باشد",
+        "start_char": 811,
+        "end_char": 863,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

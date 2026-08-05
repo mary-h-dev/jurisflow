@@ -1,0 +1,153 @@
+{
+  "ruling_id": "4508",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رفع مزاحمت",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به رفع مزاحمت ملکی",
+        "start_char": 52,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 718,
+        "end_char": 744,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "تقاضای رفع مزاحمت و برداشتن لوله آب و مجرای فاضلاب از سقف منزل خود را ارائه",
+        "start_char": 318,
+        "end_char": 393,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی ظ.ب.",
+        "start_char": 917,
+        "end_char": 943,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ایراد و اعتراض موجه و مدللی",
+        "start_char": 1286,
+        "end_char": 1313,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "حکم تجدیدنظرخواسته را تأیید و استوار می نماید",
+        "start_char": 1875,
+        "end_char": 1920,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصـوص دعـوی خـواهان ظ.ب.",
+        "start_char": 0,
+        "end_char": 27,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیـت خـواتـده ل.ل.",
+        "start_char": 28,
+        "end_char": 51,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخواه ایراد و اعتراض موجه",
+        "start_char": 1264,
+        "end_char": 1305,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به خواسته الزام تجدیـدنظـرخوانده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سقف",
+      "evidence": {
+        "quote": "از سقف وی می گذرد",
+        "start_char": 159,
+        "end_char": 176,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "از سقف منزل خود را",
+        "start_char": 369,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "لوله فاضلاب و لوله آب از سقف واحد خواهان عبور می‌کند و باعث چکه کردن آب شده است",
+      "evidence": {
+        "quote": "لوله فاضلاب و مجری آب واحد خوانده از سقف وی می گذرد که آب چکه می کند",
+        "start_char": 125,
+        "end_char": 193,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان لوله‌کشی جدید انجام داده که نامناسب است",
+      "evidence": {
+        "quote": "ایشان لوله کش آوردند و به شرح عکس مندرج در پرونده به شکل بسیار نامناسب لوله کشی جدید شده است",
+        "start_char": 196,
+        "end_char": 288,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

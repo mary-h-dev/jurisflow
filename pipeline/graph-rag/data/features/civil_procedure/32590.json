@@ -1,0 +1,183 @@
+{
+  "ruling_id": "32590",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال قرار داد عادی مورخ 89/10/3",
+        "start_char": 56,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "مبین وقوع عقد بیع",
+        "start_char": 282,
+        "end_char": 299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "با احتساب خسارات دادرسی",
+        "start_char": 123,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظر خواهی",
+        "start_char": 1593,
+        "end_char": 1613,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد ثمن معامله",
+        "start_char": 93,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خواهان صرفاً 450/000/000 ریال آنرا پرداخت کرده بوده است",
+        "start_char": 729,
+        "end_char": 784,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حاضر نشده",
+      "evidence": {
+        "quote": "خوانده درجلسه دادرسی حاضر نشده",
+        "start_char": 787,
+        "end_char": 817,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد واخواهی",
+      "evidence": {
+        "quote": "ضمن رد واخواهی مطروحه",
+        "start_char": 2098,
+        "end_char": 2119,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان صرفاً 450/000/000 ریال آنرا پرداخت کرده بوده است",
+        "start_char": 729,
+        "end_char": 784,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده درجلسه دادرسی حاضر نشده",
+        "start_char": 787,
+        "end_char": 817,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "واخواه بموجب دادخواست تقدیمی",
+        "start_char": 2003,
+        "end_char": 2031,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "قرار داد عادی مورخ 89/10/3",
+        "start_char": 62,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "استرداد ثمن معامله",
+        "start_char": 93,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "مبیع یکدستگاه آپارتمان",
+        "start_char": 312,
+        "end_char": 334,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی 76 و 75 /83 بخش 11 تهران",
+        "start_char": 338,
+        "end_char": 372,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "در زمین مورد معامله ساخت و سازی صورت نگرفته است",
+      "evidence": {
+        "quote": "اساساً در زمین مذکور تا کنون هیچگونه ساخت و سازی صورت نگرفته است",
+        "start_char": 617,
+        "end_char": 681,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بخشی از ثمن معامله پرداخت نشده است",
+      "evidence": {
+        "quote": "خواهان صرفاً 450/000/000 ریال آنرا پرداخت کرده بوده است",
+        "start_char": 729,
+        "end_char": 784,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

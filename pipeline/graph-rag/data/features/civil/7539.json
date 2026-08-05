@@ -1,0 +1,203 @@
+{
+  "ruling_id": "7539",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تأیید فسخ معامله",
+        "start_char": 56,
+        "end_char": 72,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال سند",
+        "start_char": 112,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "وکالت",
+      "evidence": {
+        "quote": "طی سند رسمی وکالت",
+        "start_char": 652,
+        "end_char": 669,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "عمل او فضولی خواهد بود",
+        "start_char": 2414,
+        "end_char": 2436,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "باطل",
+      "evidence": {
+        "quote": "معامله انجام شده باطل است",
+        "start_char": 2513,
+        "end_char": 2538,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تاییدفسخ",
+      "evidence": {
+        "quote": "تأیید فسخ معامله",
+        "start_char": 56,
+        "end_char": 72,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال سند",
+        "start_char": 112,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به آن اعتراض نموده",
+        "start_char": 1507,
+        "end_char": 1530,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام",
+      "evidence": {
+        "quote": "تقاضای فرجام کرده اند",
+        "start_char": 1533,
+        "end_char": 1554,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض و پرونده جهت رسیدگی کامل",
+        "start_char": 2742,
+        "end_char": 2770,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواستی به خواسته",
+        "start_char": 36,
+        "end_char": 55,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم پ.و. و غیر به دادگستری تهران",
+        "start_char": 143,
+        "end_char": 185,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "نظر نظر به اختیارات وکیل",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "سند رسمی شماره 23815ـ 27/11/87",
+        "start_char": 79,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند شماره 31418 ـ 6/6/89",
+        "start_char": 118,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "وضعیت ثبتی آپارتمان را",
+        "start_char": 297,
+        "end_char": 319,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "ارزش واقعی مبیع",
+        "start_char": 2141,
+        "end_char": 2156,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وکالت‌نامه رسمی برای فروش ملک تنظیم شده است",
+      "evidence": {
+        "quote": "طی سند رسمی وکالت خواهان ها به نسبت سهم مالکیت خود رسماً جهت فروش ملک به هرکسی و با هر مبلغ به خوانده ردیف اول تفویض وکالت نموده",
+        "start_char": 652,
+        "end_char": 780,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در پرونده نقص تحقیق در مورد مبلغ فروش وجود دارد",
+      "evidence": {
+        "quote": "این دو نقص در پرونده وجود دارد که باید مرتفع گردد",
+        "start_char": 2192,
+        "end_char": 2241,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

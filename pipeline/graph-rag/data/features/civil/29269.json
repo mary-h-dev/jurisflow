@@ -1,0 +1,153 @@
+{
+  "ruling_id": "29269",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مشارکت",
+      "evidence": {
+        "quote": "موضوع قرارداد مشارکت عادی مورخ 1387/7/25",
+        "start_char": 256,
+        "end_char": 296,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقاله",
+      "evidence": {
+        "quote": "قرار داد فی مابین منتفی گردیده است (اقاله شده است )",
+        "start_char": 847,
+        "end_char": 898,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "چون در مالکیت مشاع طرفین است",
+        "start_char": 1192,
+        "end_char": 1220,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقسیم",
+      "evidence": {
+        "quote": "تابع مقررات تقسیم اموال شرکت",
+        "start_char": 1253,
+        "end_char": 1281,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "الزام خوانده محترم به استرداد ماشین آلات",
+        "start_char": 200,
+        "end_char": 240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "قرار ردّ دعوی خواهان را صادر و اعلام می دارد",
+        "start_char": 1480,
+        "end_char": 1524,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی دادنامه موصوف را تأیید می نماید",
+        "start_char": 2144,
+        "end_char": 2196,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به وکالت از خواهان پرونده آقای م. ح.",
+        "start_char": 83,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای ع. ر.ت.",
+        "start_char": 130,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م. ح.",
+        "start_char": 1678,
+        "end_char": 1702,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ماشین",
+      "evidence": {
+        "quote": "استرداد ماشین آلات و منصوبات آنها",
+        "start_char": 222,
+        "end_char": 255,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "یک عدد دستگاه تولید کیسه زبالۀ با غلطک 120 سانتی متری",
+        "start_char": 533,
+        "end_char": 586,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "قرارد مشارکت امضا شده است",
+      "evidence": {
+        "quote": "اصالت قرارداد مشارکت مورخ 1387/7/25 فی ما بین اصحاب دعوی مصون از اعتراض باقی مانده",
+        "start_char": 363,
+        "end_char": 445,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تقسیم اموال انجام نشده است",
+      "evidence": {
+        "quote": "با وجود عدم تقسیم آنها",
+        "start_char": 2026,
+        "end_char": 2048,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

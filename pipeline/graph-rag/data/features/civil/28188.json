@@ -1,0 +1,173 @@
+{
+  "ruling_id": "28188",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مال مشترک",
+      "evidence": {
+        "quote": "بخواسته صدورحکم به تقسیم مال مشترک قهری",
+        "start_char": 87,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مشاعی",
+      "evidence": {
+        "quote": "تعین حصه مالکین مشاعی",
+        "start_char": 128,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مال مشاع",
+      "evidence": {
+        "quote": "حکم به فروش مال مشاع",
+        "start_char": 852,
+        "end_char": 872,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "اقدام به خلع یدکامل ازملک متنازع فیه نموده است",
+        "start_char": 402,
+        "end_char": 448,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقسیم",
+      "evidence": {
+        "quote": "حاضرم تقسیم شود",
+        "start_char": 563,
+        "end_char": 578,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "حکم به فروش مال مشاع",
+        "start_char": 852,
+        "end_char": 872,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی آقایان ع. و ف.الف.",
+        "start_char": 1152,
+        "end_char": 1191,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درحق خواهانها صادر",
+        "start_char": 992,
+        "end_char": 1010,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حالیه خوانده بموجب اجرائیه",
+        "start_char": 339,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دراین مرحله ازدادرسی",
+        "start_char": 1716,
+        "end_char": 1749,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخوانده به پرداخت",
+        "start_char": 1427,
+        "end_char": 1459,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "موضوع شش دانگ پلاک ثبتی... فرعی از34اصلی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ازملک متنازع فیه",
+        "start_char": 422,
+        "end_char": 438,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه مزبوربراساس دلایل ومدارک ابرازی صحیحا\" اصداریافته است",
+        "start_char": 1836,
+        "end_char": 1897,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک غیرقابل تقسیم و افراز است",
+      "evidence": {
+        "quote": "بااتوجه باینکه ملک راغیرقابل تقسیم وافراز دانسته است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده اقدام به خلع ید از ملک کرده است",
+      "evidence": {
+        "quote": "خوانده بموجب اجرائیه 910854صادره ازشعبه سوم حقوقی پاکدشت اقدام به خلع یدکامل ازملک متنازع فیه نموده است",
+        "start_char": 345,
+        "end_char": 448,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

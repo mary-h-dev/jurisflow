@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10931",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "به عنوان قسمتی از مهریه خود مقوم به مبلغ 21/000/000 ریال",
+        "start_char": 125,
+        "end_char": 181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "دعوی فسخ نکاح به طرفیت زوجه مطرح نموده",
+        "start_char": 674,
+        "end_char": 712,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار فسخ",
+      "evidence": {
+        "quote": "به لحاظ فوریت خیار فسخ",
+        "start_char": 4478,
+        "end_char": 4500,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "ضمن تقدیم دادخواست به طرفیت شوهرش",
+        "start_char": 31,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبة پنجاه سکه بهار آزادی",
+        "start_char": 1934,
+        "end_char": 1971,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "وکیل زوج اقدام به تجدیدنظرخواهی کرده",
+        "start_char": 3265,
+        "end_char": 3301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "فرجام‌خواهی آقای م.گ. به کیفیتی نیست",
+        "start_char": 4303,
+        "end_char": 4339,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به طرفیت شوهرش آقای م.گ.",
+        "start_char": 50,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "به طرفیت زوجه مطرح نموده",
+        "start_char": 688,
+        "end_char": 712,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان دعوی اصلی (زوجه) اظهار می‌دارد",
+        "start_char": 1178,
+        "end_char": 1215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده اظهار نموده است",
+        "start_char": 1330,
+        "end_char": 1352,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "تعداد 50 عدد سکه طلای کامل بهار آزادی",
+        "start_char": 87,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به موجب سند نکاحیه شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "با ابلاغ دادنامة صادره",
+        "start_char": 3242,
+        "end_char": 3264,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ازدواج قبلی زوجه پنهان مانده بود",
+      "evidence": {
+        "quote": "متوجه می‌شود که خانم م.الف. سابقاً به عقد شخص دیگری درآمده بوده",
+        "start_char": 844,
+        "end_char": 907,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "هنوز مراسم عروسی انجام نشده است",
+      "evidence": {
+        "quote": "ولی هنوز عروسی نکرده‌ایم",
+        "start_char": 1437,
+        "end_char": 1461,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

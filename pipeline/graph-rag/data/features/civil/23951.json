@@ -1,0 +1,203 @@
+{
+  "ruling_id": "23951",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "مطالبه وجه التزام قراردادی",
+        "start_char": 217,
+        "end_char": 243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اراده",
+      "evidence": {
+        "quote": "براساس اصل آزادی اراده",
+        "start_char": 445,
+        "end_char": 467,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "تفسیرزمان اجرای تعهدات ازمصادیق تبدیل تعهد نبوده",
+        "start_char": 732,
+        "end_char": 780,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "بر اسقاط دین حق حاصل گردد",
+        "start_char": 855,
+        "end_char": 880,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "به اصل برائت",
+        "start_char": 1000,
+        "end_char": 1012,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "ادعای فسخ",
+        "start_char": 1106,
+        "end_char": 1115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "یا انفساخ قراردادنیز",
+        "start_char": 1117,
+        "end_char": 1137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت دادرسی",
+      "evidence": {
+        "quote": "وخسارت دادرسی",
+        "start_char": 2072,
+        "end_char": 2085,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعزیر",
+      "evidence": {
+        "quote": "حق الوکاله وکیل برابر تعرفه",
+        "start_char": 2105,
+        "end_char": 2132,
+        "confidence": 0.7
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "درخواسته مطالبه وجه التزام قراردادی",
+        "start_char": 208,
+        "end_char": 243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محاسبه",
+      "evidence": {
+        "quote": "محاسبه وجه التزام اززمان اجرای قرارداد بعمل خواهدآمد",
+        "start_char": 1845,
+        "end_char": 1897,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت مبلغ900000000ریال",
+        "start_char": 2024,
+        "end_char": 2051,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای الف. ش.ت.",
+        "start_char": 0,
+        "end_char": 28,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "ازجانب تجدیدنظرخواندگان",
+        "start_char": 546,
+        "end_char": 569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکم به بیحقی خواهان اولیه صادر",
+        "start_char": 2270,
+        "end_char": 2300,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 494 مورخ92/7/12",
+        "start_char": 89,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ900000000ریال",
+        "start_char": 2034,
+        "end_char": 2051,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم اجرای تعهدات توسط تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "محتویات پرونده دلالت برعدم اجرای تعهدات داشته",
+        "start_char": 1246,
+        "end_char": 1291,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "افزایش زمان اجرای تعهد به تاریخ 93/10/30",
+      "evidence": {
+        "quote": "طرفین زمان اجرای تعهد رابه تاریخ93/10/30 افزایش داده اند",
+        "start_char": 1737,
+        "end_char": 1793,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

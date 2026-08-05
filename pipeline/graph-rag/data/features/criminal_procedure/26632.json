@@ -1,0 +1,163 @@
+{
+  "ruling_id": "26632",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "اصل برائت",
+        "start_char": 1394,
+        "end_char": 1403,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "قانون مسئولیت مدنی",
+        "start_char": 1428,
+        "end_char": 1446,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دایر به مطالبه",
+        "start_char": 77,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "شکایت",
+      "evidence": {
+        "quote": "اقدام خوانده به طرح شکایت",
+        "start_char": 106,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بازداشت",
+      "evidence": {
+        "quote": "بازداشت خواهان",
+        "start_char": 699,
+        "end_char": 713,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواه را نقض",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مطالبه خسارت ناشی از اقدام خوانده به طرح شکایت از خواهان",
+        "start_char": 85,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "اقدام خوانده",
+        "start_char": 106,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم به بیحقی دعوی تجدیدنظرخواه",
+        "start_char": 2363,
+        "end_char": 2393,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "آقای تجدیدنظرخوانده",
+        "start_char": 2498,
+        "end_char": 2517,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "و خسارت معنوی",
+        "start_char": 437,
+        "end_char": 450,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حق‌الوکاله",
+      "evidence": {
+        "quote": "و نیز حق الوکاله وکیل",
+        "start_char": 403,
+        "end_char": 424,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کارشناسی",
+      "evidence": {
+        "quote": "و هزینه کارشناسی",
+        "start_char": 335,
+        "end_char": 351,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "صدور حکم برائت خواهان از اتهام سرقت",
+      "evidence": {
+        "quote": "منجر به صدور حکم برائت خواهان از اتهام انتسابی سرق گردیده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بازداشت خواهان به مدت سه ماه",
+      "evidence": {
+        "quote": "بازداشت خواهان در جریان رسیدگی به اتهام وی در مرحله تحقیقات مقدماتی و شعبه 1051 دادگاه عمومی جزایی تهران",
+        "start_char": 699,
+        "end_char": 803,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

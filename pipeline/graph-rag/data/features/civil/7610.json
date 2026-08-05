@@ -1,0 +1,163 @@
+{
+  "ruling_id": "7610",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "صدور حکم بر بطلان معامله",
+        "start_char": 100,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مستحق للغیر",
+      "evidence": {
+        "quote": "مبیع مستحق للغیر درآمده است",
+        "start_char": 561,
+        "end_char": 588,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "در ارتباط با بیع فاسد به تبیین این امر می پردازد",
+        "start_char": 3147,
+        "end_char": 3195,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بر مطالبه قیمت یوم الاداء ثمن معامله اشعار دارد",
+        "start_char": 3048,
+        "end_char": 3095,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "وکیل خوانده طی لایحه ای به نظریه کارشناسی اعتراض کرده است",
+        "start_char": 1866,
+        "end_char": 1923,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه فرجام خواسته",
+        "start_char": 4147,
+        "end_char": 4175,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان مطالب دادخواست را تکرار",
+        "start_char": 885,
+        "end_char": 920,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای س.م.",
+        "start_char": 71,
+        "end_char": 89,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "لایحه اعتراضیه وکیل فرجام خواه",
+        "start_char": 2854,
+        "end_char": 2884,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "مبیع مستحق للغیر درآمده است",
+        "start_char": 561,
+        "end_char": 588,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "خرید یک قطعه زمین تحت پلاک ثبتی 4556",
+        "start_char": 260,
+        "end_char": 296,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه مورخ 17/10/80",
+        "start_char": 125,
+        "end_char": 156,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "استرداد قیمت یوم الاداء ثمن معامله",
+        "start_char": 159,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زمین موضوع معامله در مالکیت مشاع افراد متعددی است",
+      "evidence": {
+        "quote": "در حال حاضر در مالکیت مشاع افراد متعددی است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالک رسمی زمین فوت شده است",
+      "evidence": {
+        "quote": "در تاریخ 24/10/74 فوت شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

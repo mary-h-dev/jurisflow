@@ -1,0 +1,193 @@
+{
+  "ruling_id": "24105",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "به خواسته اعسار از هزینه دادرسی",
+        "start_char": 97,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر می نماید",
+        "start_char": 1433,
+        "end_char": 1471,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "قابل نقض می داند",
+        "start_char": 2603,
+        "end_char": 2619,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مابه التفاوت مهریه",
+        "start_char": 137,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "واریز نموده",
+        "start_char": 1067,
+        "end_char": 1078,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ایفاء",
+      "evidence": {
+        "quote": "دین خود را ایفاء نموده",
+        "start_char": 1219,
+        "end_char": 1241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تودیع",
+      "evidence": {
+        "quote": "آنرا در صندوق اجرا تودیع کرده است",
+        "start_char": 2237,
+        "end_char": 2270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در محاکم محترم تجدیدنظر تهران است",
+        "start_char": 1736,
+        "end_char": 1781,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ملاحظه اظهارات خواهان",
+        "start_char": 221,
+        "end_char": 242,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده با وصف ابلاغ قانونی در دادگاه حضور نیافته",
+        "start_char": 348,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "لکن زوج در سال 1391 آنرا در صندوق اجرا تودیع کرده است",
+        "start_char": 2217,
+        "end_char": 2270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه در سال 1388 از طریق اجرای ثبت مهریه خود را",
+        "start_char": 2111,
+        "end_char": 2157,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مابه التفاوت ارزش مهریه",
+        "start_char": 593,
+        "end_char": 616,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "برابر سند نکاحیه 2381 - 63/3/21",
+        "start_char": 801,
+        "end_char": 832,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای صادره ظرف بیست روز پس از ابلاغ",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در دادگاه حضور نیافته و دفاع نکرده است",
+      "evidence": {
+        "quote": "خوانده با وصف ابلاغ قانونی در دادگاه حضور نیافته و دفاع مؤثری ارائه نداده",
+        "start_char": 348,
+        "end_char": 421,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بدهی خوانده قبلاً در حساب سپرده اجرا واریز شده است",
+      "evidence": {
+        "quote": "کلیه بدهی خود را به حساب سپرده اجرای شهرستان صومعه سرا برابر فیش شماره 09118 و 25081 مورخه 91/8/30 واریز نموده",
+        "start_char": 968,
+        "end_char": 1078,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مهریه در سال 1388 از طریق اجرای ثبت مطالبه شده بود",
+      "evidence": {
+        "quote": "زوجه در سال 1388 از طریق اجرای ثبت مهریه خود را که وجه نقد بوده مطالبه کرده",
+        "start_char": 2111,
+        "end_char": 2185,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

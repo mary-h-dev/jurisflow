@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10665",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تقصیر",
+      "evidence": {
+        "quote": "مطروحه از ناحیه تجدیدنظرخواه به‬ خواسته صدور حکم ورشکستکی به تقصیر مدیران شرکت الف.",
+        "start_char": 929,
+        "end_char": 1012,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استحقاق",
+      "evidence": {
+        "quote": "استحقاق طلب خواهان در خصوص چک‬‌های موصوف در مراجع قضایی به اثبات نرسید",
+        "start_char": 338,
+        "end_char": 408,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "امانی",
+      "evidence": {
+        "quote": "احد از خواندگان مدعی امانی بودن چک‬‌های مستند دعوی گردیده است",
+        "start_char": 257,
+        "end_char": 318,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "استنکاف شرکت خوانده از پرداخت دین قطعیت یافته محرز نگردیده",
+        "start_char": 409,
+        "end_char": 467,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م.ع.",
+        "start_char": 752,
+        "end_char": 783,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "خواسته صدور حکم ورشکستکی به تقصیر مدیران شرکت الف.",
+        "start_char": 962,
+        "end_char": 1012,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "بررسی",
+      "evidence": {
+        "quote": "دادگاه در این مرحله از دادرسی پس از بررسی مندرجات پرونده تجدیدنظرخواهی به‬ عمل آمده را وارد دانسته",
+        "start_char": 1021,
+        "end_char": 1119,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "استحقاق طلب خواهان در خصوص چک‬‌های موصوف در مراجع قضایی به اثبات نرسید",
+        "start_char": 338,
+        "end_char": 408,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "استنکاف شرکت خوانده از پرداخت دین قطعیت یافته محرز نگردیده",
+        "start_char": 409,
+        "end_char": 467,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م.ع.",
+        "start_char": 752,
+        "end_char": 783,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدیر",
+      "evidence": {
+        "quote": "خواسته صدور حکم ورشکستکی به تقصیر مدیران شرکت الف.",
+        "start_char": 962,
+        "end_char": 1012,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "احد از خواندگان مدعی امانی بودن چک‬‌های مستند دعوی گردیده است",
+        "start_char": 257,
+        "end_char": 318,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "اسناد تجاری مورد استناد",
+        "start_char": 1676,
+        "end_char": 1699,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت انجام نشده",
+      "evidence": {
+        "quote": "استنکاف شرکت خوانده از پرداخت دین قطعیت یافته محرز نگردیده",
+        "start_char": 409,
+        "end_char": 467,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوی مطروحه",
+      "evidence": {
+        "quote": "دعوی مطرح شده به کیفیت فوق قابلیت استماع را ندارد",
+        "start_char": 474,
+        "end_char": 523,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی وارد",
+      "evidence": {
+        "quote": "دادگاه در این مرحله از دادرسی پس از بررسی مندرجات پرونده تجدیدنظرخواهی به‬ عمل آمده را وارد دانسته",
+        "start_char": 1021,
+        "end_char": 1119,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

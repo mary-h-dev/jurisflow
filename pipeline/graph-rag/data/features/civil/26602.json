@@ -1,0 +1,113 @@
+{
+  "ruling_id": "26602",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "عقد موقت یکساله",
+        "start_char": 89,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "تعهد به موضوع را تعهد به انجام امور در آینده دانسته",
+        "start_char": 378,
+        "end_char": 429,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه",
+        "start_char": 41,
+        "end_char": 55,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "رأي صادره مورد اعتراض زوجه واقع",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "موجب نقض از سوی فرمانخواه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مستندات خواهان",
+        "start_char": 714,
+        "end_char": 728,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "اعتراض زوجه واقع",
+        "start_char": 486,
+        "end_char": 502,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "514 عدد سکه تمام بهار آزادی",
+        "start_char": 56,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مقدار سکه تعیین شده برای عقد موقت غیر معقول است",
+      "evidence": {
+        "quote": "تعیین این مقدار از سکه جهت عقد موقت یکساله غیر معقول بنظر می رسد",
+        "start_char": 215,
+        "end_char": 279,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم احراز موضوع توسط دادگاه",
+      "evidence": {
+        "quote": "عدم احراز موضوع توسط دادگاه",
+        "start_char": 736,
+        "end_char": 763,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

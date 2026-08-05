@@ -1,0 +1,133 @@
+{
+  "ruling_id": "30081",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "کلاهبرداری",
+      "evidence": {
+        "quote": "به اتهام کلاهبرداری",
+        "start_char": 101,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مال",
+      "evidence": {
+        "quote": "احراز اتهام تحصیل مال از طریق نامشطوع",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "خواستار اعاده دادرسی گردیده است",
+        "start_char": 683,
+        "end_char": 714,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "نسبت به کلیه شکایت های مطروحه علیه موکل از جمله شکایت تحصیل مال نامشروع اعلام رضایت کرده است",
+        "start_char": 850,
+        "end_char": 942,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "ضمن پرداخت هزینه دادرسی",
+        "start_char": 578,
+        "end_char": 601,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "با ارسال لایحه به دیوان عالی کشور",
+        "start_char": 604,
+        "end_char": 637,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "نسبت به جلب رضایت شاکی محترم اقدام نموده",
+        "start_char": 746,
+        "end_char": 786,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکیان",
+      "evidence": {
+        "quote": "استرداد اموال مأخوذه از شاکیان خصوصی",
+        "start_char": 344,
+        "end_char": 380,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "استرداد اموال مأخوذه",
+        "start_char": 344,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "به موجب سند رسمی ضمیمه",
+        "start_char": 827,
+        "end_char": 849,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شاکی نسبت به شکایت خود اعلام رضایت کرده است",
+      "evidence": {
+        "quote": "شاکی در دفترخانه... حاضر و به موجب سند رسمی ضمیمه نسبت به کلیه شکایت های مطروحه علیه موکل از جمله شکایت تحصیل مال نامشروع اعلام رضایت کرده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه در حکم صادر شده هم حبس و هم جزای نقدی را تعیین کرده است",
+      "evidence": {
+        "quote": "لکن دادگاه هر دو مجازات را تعیین نموده",
+        "start_char": 1473,
+        "end_char": 1511,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

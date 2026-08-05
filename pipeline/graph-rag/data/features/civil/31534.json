@@ -1,0 +1,143 @@
+{
+  "ruling_id": "31534",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "استحقاق",
+      "evidence": {
+        "quote": "اصل بر استحقاق و ظاهر در عدم تبرع در انجام کارهایی که بعهده مشارالیها نبوده ، میباشد",
+        "start_char": 823,
+        "end_char": 907,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "اصل بر استحقاق و ظاهر در عدم تبرع در انجام کارهایی که بعهده مشارالیها نبوده ، میباشد",
+        "start_char": 823,
+        "end_char": 907,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بطرفیــــت م. ر. بخواسته مطالبه اجرت المثل ایام زوجیت",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را نقض",
+        "start_char": 1726,
+        "end_char": 1750,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده را به پرداخت اجرت المثل به مبلغ250/000/000ریال حسب نظریه کارشناسی در حق مشارالیها محکوم می نماید",
+        "start_char": 1808,
+        "end_char": 1920,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان دلیل و مستند کافی در راستای اثبات خواسته اش ارائه نداده",
+        "start_char": 118,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با توجه به دفاعیات خوانده",
+        "start_char": 183,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بنابه مراتب و توضیحات تجدیدنظرخواه درپرونده",
+        "start_char": 1620,
+        "end_char": 1663,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده را به پرداخت اجرت المثل",
+        "start_char": 1808,
+        "end_char": 1847,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجرت‌المثل ایام زوجیت",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام زوجیت",
+        "start_char": 60,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "به پرداخت اجرت المثل به مبلغ250/000/000ریال",
+        "start_char": 1827,
+        "end_char": 1870,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل و مستند کافی توسط خواهان در مرحله نخست",
+      "evidence": {
+        "quote": "خواهان دلیل و مستند کافی در راستای اثبات خواسته اش ارائه نداده",
+        "start_char": 118,
+        "end_char": 180,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "برقرار بودن زندگی مشترک در زمان مورد ادعا",
+      "evidence": {
+        "quote": "اجرت المثل کارکرد ایام و سنوات زندگی مشترک",
+        "start_char": 716,
+        "end_char": 758,
+        "confidence": 0.8
+      }
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "ruling_id": "36875",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "دادخواست طلاق",
+        "start_char": 65,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "نفقه ای به موکل پرداخت ننموده",
+        "start_char": 200,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "عجز خود را از پرداخت نفقه اعلام نموده که منجر به تقسیط گردیده",
+        "start_char": 397,
+        "end_char": 458,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "بطلان دعوی بلحاظ عدم احراز عسر و حرج زوجه",
+        "start_char": 2046,
+        "end_char": 2087,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "دادخواست طلاق به طرفیت اقای م. ک. تقدیم شعبه *نموده",
+        "start_char": 65,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "موکله طی دادخواستی مطالبه نفقه را نموده",
+        "start_char": 233,
+        "end_char": 272,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پیش قسط محکوم به به مبلغ هشت میلیون تومان پرداخت شده است",
+        "start_char": 755,
+        "end_char": 811,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "زوج نیز تصویر رای اعسار و تقسیط محکوم به نفقه را ارائه داده",
+        "start_char": 674,
+        "end_char": 733,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجامخواهی",
+      "evidence": {
+        "quote": "از دیوان عالی کشور تقاضای فرجامخواهی کرده",
+        "start_char": 2372,
+        "end_char": 2413,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با خوانده ازدواج نموده",
+        "start_char": 154,
+        "end_char": 176,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج در طول مدت پنج سال",
+        "start_char": 177,
+        "end_char": 199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه علی رغم ان حاضر به سکونت و زندگی مشترک نشده",
+        "start_char": 968,
+        "end_char": 1016,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "با وکالت اقای ح. چ.",
+        "start_char": 45,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "واحد",
+      "evidence": {
+        "quote": "مبادرت به تهیه و اجاره یک واحد اپارتمان",
+        "start_char": 867,
+        "end_char": 906,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث‌البیت",
+      "evidence": {
+        "quote": "تمامی اثاث البیت را هم فراهم کردم",
+        "start_char": 929,
+        "end_char": 962,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "مبلغ هشت میلیون تومان پیش پرداخت",
+        "start_char": 1171,
+        "end_char": 1203,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ازدواج در تاریخ 95/6/31",
+      "evidence": {
+        "quote": "موکله در تاریخ 95/6/31 با خوانده ازدواج نموده",
+        "start_char": 131,
+        "end_char": 176,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه در طول پنج سال",
+      "evidence": {
+        "quote": "زوج در طول مدت پنج سال نفقه ای به موکل پرداخت ننموده",
+        "start_char": 177,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "صدور حکم اعسار و تقسیط",
+      "evidence": {
+        "quote": "حکم اعسار و تقسیط صادر گردید",
+        "start_char": 3294,
+        "end_char": 3322,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت بخشی از نفقه",
+      "evidence": {
+        "quote": "با پرداخت جزیی از پرداخت محکوم به نفقه نمی توان مورد را از شمول ماده 1129 قانون مدنی خارج نمود",
+        "start_char": 4634,
+        "end_char": 4728,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

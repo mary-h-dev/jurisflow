@@ -1,0 +1,123 @@
+{
+  "ruling_id": "5281",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "خواهان به طریق مالکیت مورث خود نسبت به 5/1 دانگ پلاک موصوف مالکیت دارد",
+        "start_char": 490,
+        "end_char": 560,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "وصیت",
+      "evidence": {
+        "quote": "طبق وصیت نامه مورث خواهان زمین در شمال ایران به عنوان ثلث ترکه به خواهان داده شده",
+        "start_char": 733,
+        "end_char": 814,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "حکم به خلع ید خواندگان ازملک موضوع پلاک ثبتی موصوف",
+        "start_char": 1631,
+        "end_char": 1681,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "لذا اعتراض نامبرده غیرموجه تشخیص",
+        "start_char": 2625,
+        "end_char": 2657,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی س.ب.",
+        "start_char": 2157,
+        "end_char": 2183,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان به طریق مالکیت مورث خود نسبت به 5/1 دانگ پلاک موصوف مالکیت دارد",
+        "start_char": 490,
+        "end_char": 560,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "ملک موصوف در حال حاضر در تصرف همه خواندگان می باشد",
+        "start_char": 848,
+        "end_char": 898,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی شماره 221 فرعی از 67 اصلی واقع در بخش 11 تهران",
+        "start_char": 165,
+        "end_char": 221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ترکه",
+      "evidence": {
+        "quote": "زمین در شمال ایران به عنوان ثلث ترکه به خواهان داده شده",
+        "start_char": 759,
+        "end_char": 814,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک موضوع دعوا در تصرف خواندگان است",
+      "evidence": {
+        "quote": "ملک موصوف در حال حاضر در تصرف همه خواندگان می باشد",
+        "start_char": 848,
+        "end_char": 898,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ترکه هنوز تحریر نشده است",
+      "evidence": {
+        "quote": "در خصوص وصیت نامه تاکنون تحریر ترکه نشده",
+        "start_char": 987,
+        "end_char": 1027,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

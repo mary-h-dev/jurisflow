@@ -1,0 +1,153 @@
+{
+  "ruling_id": "30869",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رفع مزاحمت",
+      "evidence": {
+        "quote": "بطلان دعوای وی بخسته الزام به رفع مزاحمت",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "برداشتن حق عبور آب از ملک این جانب را ندارد",
+        "start_char": 890,
+        "end_char": 933,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق ارتفاق",
+      "evidence": {
+        "quote": "در قالب دعوای ممانعت از حق ارتفاق قرار خواهد گرفت",
+        "start_char": 3449,
+        "end_char": 3498,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام به رفع مزاحمت",
+        "start_char": 79,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ایراد و اعتراض مؤثر و مدللی",
+        "start_char": 4444,
+        "end_char": 4471,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ع.الف. ط.",
+        "start_char": 4008,
+        "end_char": 4036,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی",
+        "start_char": 4732,
+        "end_char": 4751,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "پیرامون دادخواست خواهان آقای ع.الف. ط.",
+        "start_char": 0,
+        "end_char": 38,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده خانم ط. ک.",
+        "start_char": 39,
+        "end_char": 65,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه و پاسخ آن نظر",
+        "start_char": 4365,
+        "end_char": 4391,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "مشرف به ساختمان و ملک خواهان",
+        "start_char": 127,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده پنجره ایجاد نکرده و فقط شبکه و روزنه ثابت ایجاد کرده است",
+      "evidence": {
+        "quote": "بنده هیچ گونه پنجره ای مشرف به ملک خواهان ایجاد نکرده ام و روزنه و شبکه های مشبک صرفا\" به صورت نورگیر می باشد",
+        "start_char": 649,
+        "end_char": 758,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در اطراف ساختمان خوانده باغ و درخت وجود دارد نه ساختمان",
+      "evidence": {
+        "quote": "آنچه که در اطراف ساختمان احداث شده خوانده و شبکه های ایجاد شده توسط وی نمایان است باغ و درختان می باشد و ساختمانی ایجاد نشده است",
+        "start_char": 2492,
+        "end_char": 2620,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان در جلسه دادرسی حاضر نشده است",
+      "evidence": {
+        "quote": "اما شخص خواهان در جلسه دادرسی حاضر نگردیده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

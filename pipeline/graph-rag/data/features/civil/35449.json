@@ -1,0 +1,143 @@
+{
+  "ruling_id": "35449",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه فرزندان",
+        "start_char": 101,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکلیف",
+      "evidence": {
+        "quote": "به تکلیف قانونی خود",
+        "start_char": 248,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه فرزندان",
+        "start_char": 91,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقدام",
+      "evidence": {
+        "quote": "به تکلیف قانونی خود مبنی بر پرداخت نفقه اولاد خود اقدام نمی کند",
+        "start_char": 248,
+        "end_char": 311,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م. م.ن.",
+        "start_char": 967,
+        "end_char": 1001,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه فوق الاشعار",
+        "start_char": 1785,
+        "end_char": 1812,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت همسر خود",
+        "start_char": 36,
+        "end_char": 63,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت همسر خود بنام آقای م. م.ن.",
+        "start_char": 46,
+        "end_char": 81,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "به موجب آن تجدیدنظرخواه محکوم به پرداخت",
+        "start_char": 1097,
+        "end_char": 1136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "و تجدیدنظرخوانده باتوجه به بالغ بودن فرزندان",
+        "start_char": 1511,
+        "end_char": 1555,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه فرزندان",
+        "start_char": 101,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پدر از پرداخت نفقه فرزندان خود خودداری کرده است",
+      "evidence": {
+        "quote": "خوانده بعنوان پدر بچه به تکلیف قانونی خود مبنی بر پرداخت نفقه اولاد خود اقدام نمی کند",
+        "start_char": 226,
+        "end_char": 311,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزندان مشترک بالغ هستند",
+      "evidence": {
+        "quote": "فرزندان مشترک هر دو از لحاظ شرعی و مقررات قانون مدنی بالغ و بالغه هستند",
+        "start_char": 1286,
+        "end_char": 1357,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

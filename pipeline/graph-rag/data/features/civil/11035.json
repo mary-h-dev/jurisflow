@@ -1,0 +1,173 @@
+{
+  "ruling_id": "11035",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت",
+        "start_char": 153,
+        "end_char": 170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "پرداخت نفقه فرع بر تمکین بوده",
+        "start_char": 246,
+        "end_char": 275,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "ممانعت زوجه از واگذاری حضانت فرزند مشترک",
+        "start_char": 839,
+        "end_char": 879,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه معوقه",
+        "start_char": 42,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبنی بر پرداخت نفقه",
+        "start_char": 434,
+        "end_char": 453,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادر شده دادگاه بدوی در این قسمت را نقض",
+        "start_char": 2095,
+        "end_char": 2138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "صدور حکم به رد دعوی مطالبه نفقه معوقه تأیید می‌گردد",
+        "start_char": 2428,
+        "end_char": 2479,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را وارد تشخیص نداده",
+        "start_char": 454,
+        "end_char": 492,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه موظف به پرداخت مابه‌التفاوت هزینه دادرسی خواهد بود",
+        "start_char": 3097,
+        "end_char": 3160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "حکم به محکومیت تجدیدنظرخوانده به پرداخت نفقه معوقه",
+        "start_char": 2175,
+        "end_char": 2225,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به دلالت سند نکاحیه پیوستی",
+        "start_char": 177,
+        "end_char": 203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به موجب دادنامه پیوستی شماره 1120 – 1393/7/27",
+        "start_char": 296,
+        "end_char": 341,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "مفاد لایحه شماره 938 -1393/5/21",
+        "start_char": 934,
+        "end_char": 965,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین وجود دارد",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت زوجین",
+        "start_char": 153,
+        "end_char": 176,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه به دلیل عدم تمکین محکوم شده است",
+      "evidence": {
+        "quote": "زوجه به موجب دادنامه پیوستی شماره 1120 – 1393/7/27 صادره از این شعبه، به تمکین از زوج محکوم گردیده",
+        "start_char": 291,
+        "end_char": 389,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه از تحویل حضانت فرزند خودداری کرده است",
+      "evidence": {
+        "quote": "ممانعت زوجه از واگذاری حضانت فرزند مشترک",
+        "start_char": 839,
+        "end_char": 879,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

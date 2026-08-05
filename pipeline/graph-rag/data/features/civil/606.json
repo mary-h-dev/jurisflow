@@ -1,0 +1,193 @@
+{
+  "ruling_id": "606",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ارش",
+      "evidence": {
+        "quote": "به پرداخت ارش مبیع طبق نظر کارشناس",
+        "start_char": 101,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "با احتساب خسارات دادرسی",
+        "start_char": 136,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "و حق الوکاله وکیل",
+        "start_char": 160,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عیب",
+      "evidence": {
+        "quote": "نه تخلف از عیب که مستلزم مطالبه ارش",
+        "start_char": 1434,
+        "end_char": 1469,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "حق مطالبه فسخ معامله را صرفاً دارا می باشد",
+        "start_char": 1598,
+        "end_char": 1640,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "رأي بر بطلان دعوی مطروحه صادر و اعلام می گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "به خواسته محکومیت خوانده",
+        "start_char": 76,
+        "end_char": 100,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "حق مطالبه ارش مورد معامله",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی نموده اند",
+        "start_char": 1130,
+        "end_char": 1153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه مارالذکر",
+        "start_char": 1991,
+        "end_char": 2015,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان الف.ر.",
+        "start_char": 0,
+        "end_char": 26,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده م.ش.",
+        "start_char": 41,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از سوی وکیل تجدیدنظرخواه",
+        "start_char": 1737,
+        "end_char": 1761,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده هم به صراحت اعلام کرده است",
+        "start_char": 1801,
+        "end_char": 1842,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "احراز معیوب بودن مبیع",
+        "start_char": 276,
+        "end_char": 297,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه 200296",
+        "start_char": 943,
+        "end_char": 965,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اسب تحویلی سنش چهارده سال است و قادر به شرکت در مسابقه نیست",
+      "evidence": {
+        "quote": "اسب تحویلی سنش چهارده سال است و قادر به شرکت در مسابقه نیست",
+        "start_char": 1342,
+        "end_char": 1401,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبیع دارای اوصاف مقرره فی مابین از نظر سن و شرکت در مسابقه نبوده است",
+      "evidence": {
+        "quote": "مبیع معیوب نبوده، بلکه دارای اوصاف مقرره فی مابین از نظر سن و شرکت در مسابقه نبوده است",
+        "start_char": 1843,
+        "end_char": 1929,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

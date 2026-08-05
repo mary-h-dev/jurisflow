@@ -1,0 +1,173 @@
+{
+  "ruling_id": "22924",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "تقاضای رسیدگی نموده و توضیح داده است مدتی است بدلیل ناملایماتی که در زندگی مشترک پیدا شده و موجب عدم تفاهم اخلاقی و مشکلات زندگی شده است بر اساس وکالتنامه محضری شماره 7102 - 92/6/24 درخواست طلاق دارد",
+        "start_char": 166,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "وکالت",
+      "evidence": {
+        "quote": "مطابق سطر اول ماده 683 قانون مدنی وکالت از بین رفته است",
+        "start_char": 1695,
+        "end_char": 1750,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "هر گاه متعلق وکالت از بین برود یا موکل عملی را که مورد وکالت است خود انجام دهد وکالت منفسخ می شود",
+        "start_char": 3854,
+        "end_char": 3951,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "110 سکه از 314 سکه را مطالبه نموده",
+        "start_char": 366,
+        "end_char": 400,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نمودن",
+      "evidence": {
+        "quote": "با مراجعه به مراجع قضائی جهت مطلقه نمودن خویش",
+        "start_char": 660,
+        "end_char": 705,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رجوع",
+      "evidence": {
+        "quote": "ولیکن در زمان عده رجوع نمودند",
+        "start_char": 1517,
+        "end_char": 1546,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "لذا رأی فرجامخواسته را نقض پرونده جهت رسیدگی مجدد به شعبه همعرض ارجاع",
+        "start_char": 2957,
+        "end_char": 3026,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با بذل بقیه خواستار طلاق است",
+        "start_char": 437,
+        "end_char": 465,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "رأی صادره مورد اعتراض و تجدیدنظرخواهی زوج واقع شده",
+        "start_char": 1223,
+        "end_char": 1273,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "حاکی است زوجه وکیل است",
+        "start_char": 637,
+        "end_char": 659,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل وی اعلام نموده است",
+        "start_char": 1274,
+        "end_char": 1297,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "بر اساس همین وکالتنامه گواهی عدم امکان سازش صادر شده",
+        "start_char": 1407,
+        "end_char": 1459,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "با استناد سند ازدواج...- 94/10/29 دفتر ازدواج... نور",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بذل هر میزان از مهریه",
+        "start_char": 796,
+        "end_char": 817,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین در زمان عده رجوع کرده‌اند",
+      "evidence": {
+        "quote": "زوجین در تاریخ 93/5/19 در زمان عده رجوع نموده",
+        "start_char": 2389,
+        "end_char": 2434,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طلاق با وکالت انجام شده است",
+      "evidence": {
+        "quote": "زوجه با اعمال وکالت و مطلقه کردن خویش عمل به مفاد وکالتنامه نموده",
+        "start_char": 1990,
+        "end_char": 2055,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

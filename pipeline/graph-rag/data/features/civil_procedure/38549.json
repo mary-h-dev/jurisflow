@@ -1,0 +1,153 @@
+{
+  "ruling_id": "38549",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال رای داور",
+        "start_char": 85,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "پرداخت وجه التزام قراردادی",
+        "start_char": 552,
+        "end_char": 578,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان ( ابطال) رای داوری",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تعیین",
+      "evidence": {
+        "quote": "اقای ح. ع. را به عنوان داور قرارداد مارالذکر تعیین نموده",
+        "start_char": 314,
+        "end_char": 370,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور رای",
+      "evidence": {
+        "quote": "اقدام به صدور رای نموده",
+        "start_char": 2044,
+        "end_char": 2067,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل تعیینی خواهان",
+        "start_char": 205,
+        "end_char": 223,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "موکل و خوانده محترم",
+        "start_char": 261,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "اقای ح. ع. را به عنوان داور قرارداد مارالذکر تعیین نموده",
+        "start_char": 314,
+        "end_char": 370,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "طی مبایعه نامه مورخ 1401/08/02",
+        "start_char": 281,
+        "end_char": 311,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای داوری شماره *مورخ 1402/12/01",
+        "start_char": 599,
+        "end_char": 631,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تعیین داور در مبایعه نامه",
+      "evidence": {
+        "quote": "طی مبایعه نامه مورخ 1401/08/02 ، اقای ح. ع. را به عنوان داور قرارداد مارالذکر تعیین نموده",
+        "start_char": 281,
+        "end_char": 370,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تخلف از انجام تعهدات قراردادی",
+      "evidence": {
+        "quote": "تخلف از انجام تعهدات قراردادی توسط خوانده",
+        "start_char": 402,
+        "end_char": 443,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تعیین اشتباه تاریخ احتساب وجه التزام توسط داور",
+      "evidence": {
+        "quote": "مبدا احتساب وجه التزام قراردادی را از تاریخ تشکیل اولین جلسه داوری تعیین نموده اند",
+        "start_char": 953,
+        "end_char": 1035,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم حضور خوانده در جلسه دوم دادرسی",
+      "evidence": {
+        "quote": "و در جلسه دوم دادرسی حضور نیافت",
+        "start_char": 2223,
+        "end_char": 2254,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

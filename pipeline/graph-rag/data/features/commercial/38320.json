@@ -1,0 +1,112 @@
+{
+  "ruling_id": "38320",
+  "concepts": [],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "طرح و اقامه نمایند",
+        "start_char": 650,
+        "end_char": 668,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تفویض",
+      "evidence": {
+        "quote": "تفویض اختیار",
+        "start_char": 1453,
+        "end_char": 1465,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض نموده",
+        "start_char": 3539,
+        "end_char": 3548,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "هیات",
+      "evidence": {
+        "quote": "هیات مدیره",
+        "start_char": 533,
+        "end_char": 543,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل",
+        "start_char": 508,
+        "end_char": 512,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان ابتدایی",
+        "start_char": 2150,
+        "end_char": 2164,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "دادخواست",
+        "start_char": 1348,
+        "end_char": 1356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اساسنامه",
+      "evidence": {
+        "quote": "اساسنامه شرکت",
+        "start_char": 415,
+        "end_char": 428,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "هیات مدیره اختیار طرح دعوی را به مدیرعامل تفویض نکرده است",
+      "evidence": {
+        "quote": "هیات مدیره این اختیار را به مدیرعامل در زمان تسلیم دادخواست به عامل تفویض نکرده اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تفویض اختیار به وکیل پس از تسلیم دادخواست صورت گرفته است",
+      "evidence": {
+        "quote": "تفویض اختیار بعد از عرض حال به وکیل",
+        "start_char": 2303,
+        "end_char": 2338,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

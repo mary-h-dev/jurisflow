@@ -1,0 +1,143 @@
+{
+  "ruling_id": "35461",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "دلایل کافی بر فسخ",
+        "start_char": 115,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "صدور حکم به تنفیذ",
+        "start_char": 678,
+        "end_char": 694,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "در معاملات فضولی",
+        "start_char": 800,
+        "end_char": 815,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "در خصوص واخواهی",
+        "start_char": 0,
+        "end_char": 15,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد واخواهی",
+      "evidence": {
+        "quote": "حکم به رد واخواهی",
+        "start_char": 233,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در مورد تجدیدنظرخواهی",
+        "start_char": 439,
+        "end_char": 458,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض نموده",
+        "start_char": 1061,
+        "end_char": 1095,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "از ناحیه واخواه",
+        "start_char": 166,
+        "end_char": 181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی نخستین خواهان",
+        "start_char": 1131,
+        "end_char": 1149,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1625",
+        "start_char": 64,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه عادی",
+      "evidence": {
+        "quote": "تنفیذ صلح نامه عادی",
+        "start_char": 689,
+        "end_char": 708,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل کافی برای فسخ",
+      "evidence": {
+        "quote": "دلایل کافی بر فسخ و بی اعتباری دادنامه واخواست شده از ناحیه واخواه ابراز نگردیده",
+        "start_char": 115,
+        "end_char": 195,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم صلاحیت دادگاه برای رسیدگی به تنفیذ صلحنامه",
+      "evidence": {
+        "quote": "دادگاه مرجع تنفیذ سایر معاملات وعقود نبوده",
+        "start_char": 878,
+        "end_char": 920,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

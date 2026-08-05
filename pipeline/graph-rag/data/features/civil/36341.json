@@ -1,0 +1,203 @@
+{
+  "ruling_id": "36341",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "بخواسته فسخ نکاح",
+        "start_char": 1024,
+        "end_char": 1040,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "به جهت تدلیس و فریب در ازدواج",
+        "start_char": 109,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فریب",
+      "evidence": {
+        "quote": "به جهت تدلیس و فریب در ازدواج",
+        "start_char": 109,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار فسخ",
+      "evidence": {
+        "quote": "خیار فسخ فوری بوده",
+        "start_char": 661,
+        "end_char": 679,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر",
+        "start_char": 2331,
+        "end_char": 2360,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تقاضای صدور حکم بر فسخ نکاح",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "معرفی",
+      "evidence": {
+        "quote": "خوانده در زمان ازدواج خود را کارمند معرفی کرده بود",
+        "start_char": 183,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اراده خود را در اظهارنامه اعلام نداشته است",
+        "start_char": 703,
+        "end_char": 745,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استناد",
+      "evidence": {
+        "quote": "خواهان به حکم قطعی محکومیت زوج به شش ماه حبس ( که تقلیل یافته ) به علت فریب در ازدواج استناد و ضمیمه کرده است",
+        "start_char": 2720,
+        "end_char": 2829,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "تقاضای صدور حکم به شرح خواسته را دارد",
+        "start_char": 366,
+        "end_char": 403,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده در زمان ازدواج خود را کارمند معرفی کرده بود",
+        "start_char": 183,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "فریب در ازدواج",
+        "start_char": 124,
+        "end_char": 138,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "و زوجه نیز کگاه بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به دلالت کپی مصدق سند نکاحیه",
+        "start_char": 1183,
+        "end_char": 1211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره *00/1/31 را صادر نموده",
+        "start_char": 827,
+        "end_char": 863,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اظهارنامه",
+      "evidence": {
+        "quote": "در اظهارنامه اعلام نداشته است",
+        "start_char": 716,
+        "end_char": 745,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج شغل خود را کارمند معرفی کرده است در حالی که کارمند نیست",
+      "evidence": {
+        "quote": "خوانده در زمان ازدواج خود را کارمند معرفی کرده بود که بعدا معلوم شد شغل دولتی نداشته و کارمند نبوده است",
+        "start_char": 183,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه از موضوع تدلیس اطلاع داشته اما بلافاصله اقدام به فسخ نکرده است",
+      "evidence": {
+        "quote": "در این مدت اطلاع داشته است",
+        "start_char": 1798,
+        "end_char": 1824,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به دلیل تدلیس در ازدواج محکوم به حبس شده است",
+      "evidence": {
+        "quote": "حکایت از محکومیت قطعی زوج به تدلیس در نکاح دارد",
+        "start_char": 8192,
+        "end_char": 8239,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

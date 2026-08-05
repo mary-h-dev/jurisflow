@@ -1,0 +1,153 @@
+{
+  "ruling_id": "21248",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "دادخواستی به خواسته فسخ نکاح تقدیم و",
+        "start_char": 77,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "لذا با عنایت به تدلیس خوانده",
+        "start_char": 1426,
+        "end_char": 1454,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "با مواد 1128 و 1131 قانون مدنی با فوری بودن خیار در تضاد است",
+        "start_char": 2212,
+        "end_char": 2272,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی به خواسته فسخ نکاح تقدیم و",
+        "start_char": 77,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "طلاق گرفته",
+      "evidence": {
+        "quote": "قبلاً ازدواج کرده و طلاق گرفته",
+        "start_char": 325,
+        "end_char": 355,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در متن دادخواست خواهان توضیح داده",
+        "start_char": 114,
+        "end_char": 147,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با خوانده ازدواج دائم نمودم",
+        "start_char": 171,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "در جریان اختلافات بین زوجین",
+        "start_char": 891,
+        "end_char": 918,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در جریان اختلافات بین زوجین که ناشی از نازایی زوجه بوده",
+        "start_char": 891,
+        "end_char": 946,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "در سند ازدواج تصریح گردیده",
+        "start_char": 400,
+        "end_char": 426,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "فتوکپی شناسنامه خودش",
+        "start_char": 1345,
+        "end_char": 1365,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه در زمان عقد خود را دوشیزه معرفی کرده است",
+      "evidence": {
+        "quote": "در حین عقد اظهار داشته باکره می‌باشد که در سند ازدواج تصریح گردیده",
+        "start_char": 360,
+        "end_char": 426,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه سابقه ازدواج قبلی داشته است",
+      "evidence": {
+        "quote": "متوجه ازدواج و طلاق وی با شخصی به نام ح.خ. شده‌ام",
+        "start_char": 468,
+        "end_char": 517,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از سابقه ازدواج زوجه اطلاع نداشته است",
+      "evidence": {
+        "quote": "در حالی‌که نه در شناسنامه‌اش نام شوهرش و نه در حین عقد به آن اشاره‌ای نشد",
+        "start_char": 1044,
+        "end_char": 1117,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "ruling_id": "30391",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "مرتهن دارای حق عینی مقدم نسبت به کل پلاک ثبتی است",
+        "start_char": 1273,
+        "end_char": 1322,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "با زوال عقد بیع",
+        "start_char": 1430,
+        "end_char": 1445,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رهن",
+      "evidence": {
+        "quote": "معامله خواهان و خوانده متعاقب بر عقد رهن بوده",
+        "start_char": 1325,
+        "end_char": 1370,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "صدور حکم به تحویل مورد معامله",
+        "start_char": 133,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه اعتراض موثر موجهی",
+        "start_char": 2522,
+        "end_char": 2559,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "عینا دادنامه تجدیدنظرخواسته تایید و استوار می شود",
+        "start_char": 2855,
+        "end_char": 2904,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "با رد تجدید نظرخواهی",
+        "start_char": 2803,
+        "end_char": 2823,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی علی فرهمند گرکانی با وکالت س. ح. به طرفیت",
+        "start_char": 8,
+        "end_char": 54,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از خوانده ردیف سوم خریده است",
+        "start_char": 463,
+        "end_char": 491,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدید نظرخواهی آقای علی فرهمند گرکانی",
+        "start_char": 1994,
+        "end_char": 2039,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مرتهن",
+      "evidence": {
+        "quote": "مرتهن دارای حق عینی مقدم",
+        "start_char": 1273,
+        "end_char": 1297,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "معامله",
+      "evidence": {
+        "quote": "صدور حکم به تحویل مورد معامله",
+        "start_char": 133,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتمان به مساحت 72 متر مربع",
+        "start_char": 165,
+        "end_char": 202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "موجب مبایعه نامه عادی شماره 2623",
+        "start_char": 340,
+        "end_char": 372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی ملک به نام خواندگان ردیف اول و دوم است",
+        "start_char": 556,
+        "end_char": 603,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی 88/36941",
+        "start_char": 441,
+        "end_char": 459,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک در رهن بانک پارسیان قرار دارد",
+      "evidence": {
+        "quote": "سند مالکیت رسمی پلاک 88/36941 که به نام ح. صالحی و س.الف. الف. صادر شده به موجب سند رسمی شماره 49263-85/3/2 دفترخانه 69 تهران در رهن بانک پارسیان قرار گرفته",
+        "start_char": 739,
+        "end_char": 895,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله مورد تایید بانک نیست",
+      "evidence": {
+        "quote": "معامله موصوف ( بین خواهان و خوانده ردیف سوم ) مورد تایید این بانک نمی باشد",
+        "start_char": 1081,
+        "end_char": 1155,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

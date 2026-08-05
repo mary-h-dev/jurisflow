@@ -1,0 +1,183 @@
+{
+  "ruling_id": "29402",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "این قرارداد یک عقد وانمود شده است",
+        "start_char": 2430,
+        "end_char": 2463,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "مطابق اصل صحت بگوییم",
+        "start_char": 2311,
+        "end_char": 2331,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نظم عمومی",
+      "evidence": {
+        "quote": "بنا به ملاحظات نظم عمومی",
+        "start_char": 566,
+        "end_char": 590,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام ایشان به تنظیم سند رسمی",
+        "start_char": 73,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "انتقال سرقفلی",
+        "start_char": 384,
+        "end_char": 397,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "نسبت به دادنامه ی تجدیدنظر خواه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "باعنایت به استرداد دعوا",
+        "start_char": 3216,
+        "end_char": 3239,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکم بربطلان دعوای خواهان صادر می نماید",
+        "start_char": 3142,
+        "end_char": 3180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و خوانده هم در دفاعیات خود آورده است",
+        "start_char": 842,
+        "end_char": 877,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "ازدیگرسو آقای خریدار",
+        "start_char": 1631,
+        "end_char": 1651,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "باید در پایان سه سال آن را به فروشنده منتقل کند",
+        "start_char": 1490,
+        "end_char": 1537,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "راجع به ملک واقع در پلاک ثبتی 9387",
+        "start_char": 103,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سرقفلی",
+      "evidence": {
+        "quote": "انتقال سرقفلی",
+        "start_char": 384,
+        "end_char": 397,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "در قسمت توضیحات سند عادی",
+        "start_char": 4077,
+        "end_char": 4101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به عنوان مبایعه نامه مورخ 1390/5/17",
+        "start_char": 4102,
+        "end_char": 4137,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین قصد انتقال واقعی را نداشته‌اند",
+      "evidence": {
+        "quote": "طرفین درواقع قصد انتقال نداشته اند",
+        "start_char": 878,
+        "end_char": 912,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد دارای شرط سه ساله است",
+      "evidence": {
+        "quote": "قید به «سه سال»",
+        "start_char": 4138,
+        "end_char": 4153,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

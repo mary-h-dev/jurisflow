@@ -1,0 +1,163 @@
+{
+  "ruling_id": "28563",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "صدور حکم بر فسخ معامله",
+        "start_char": 120,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "به لحاظ تدلیس در معامله",
+        "start_char": 1424,
+        "end_char": 1447,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 390,
+        "end_char": 407,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم بر فسخ معامله",
+        "start_char": 120,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد ثمن مورد معالمه",
+        "start_char": 322,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تائید فسخ قرارداد",
+        "start_char": 503,
+        "end_char": 520,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در دادگاه تجدید نظر استان",
+        "start_char": 2428,
+        "end_char": 2465,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 4013,
+        "end_char": 4043,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از سوی خوانده به خواهان دارد",
+        "start_char": 265,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از سوی خوانده به خواهان دارد",
+        "start_char": 265,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 181 مورخ 94/3/26 شعبه 207 دادگاه عمومی حقوقی تهران که بر اساس دادنامه مذکور در مورد دعوای تجدیدنظرخواه",
+        "start_char": 2603,
+        "end_char": 2727,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه عادی مورخه 4/ 3/ 93",
+        "start_char": 1271,
+        "end_char": 1308,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "استرداد ثمن مورد معامله",
+        "start_char": 1454,
+        "end_char": 1477,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اتاق خودرو دو تکه است",
+      "evidence": {
+        "quote": "متوجه شده است که اتاق خودرو دو تکه می باشد",
+        "start_char": 1761,
+        "end_char": 1803,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خودرو دارای تصادف شدید سابق بوده است",
+      "evidence": {
+        "quote": "این امر ظهور در تصادف شدید سابق دارد",
+        "start_char": 1806,
+        "end_char": 1842,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

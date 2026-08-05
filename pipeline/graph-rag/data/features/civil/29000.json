@@ -1,0 +1,153 @@
+{
+  "ruling_id": "29000",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "وجود اصول آنها در ید خواهان حکایت از اشتغال ذمه خوانده دارد",
+        "start_char": 796,
+        "end_char": 855,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه",
+        "start_char": 206,
+        "end_char": 226,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "مبلغ چهل و هفت میلیون ریال به حساب خواهان واریز نموده",
+        "start_char": 453,
+        "end_char": 506,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض وکلای تجدیدنظرخواه را وارد دانسته",
+        "start_char": 2599,
+        "end_char": 2639,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 2681,
+        "end_char": 2711,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی عینا دادنامه تجدیدنظرخواسته تایید و استوار می گردد",
+        "start_char": 2849,
+        "end_char": 2919,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان صادرو اعلام می گردد",
+        "start_char": 1277,
+        "end_char": 1309,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده به پرداخت",
+        "start_char": 1019,
+        "end_char": 1050,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم به محکومیت تجدیدنظرخواه به پرداخت",
+        "start_char": 1936,
+        "end_char": 1973,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "دفاعیات تجدیدنظرخوانده را مبنی بر اینکه",
+        "start_char": 2356,
+        "end_char": 2395,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چهار فقره چک به شماره های 420458 - 30 / 4/ 92",
+        "start_char": 655,
+        "end_char": 700,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبلغ",
+      "evidence": {
+        "quote": "مبلغ 000 / 000 / 166 ریال",
+        "start_char": 230,
+        "end_char": 255,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده بخشی از مبلغ را از طریق کارت به کارت پرداخت کرده است",
+      "evidence": {
+        "quote": "موکل وی در چند مرحله از طریق کارت به کارت جمعاً مبلغ چهل و هفت میلیون ریال به حساب خواهان واریز نموده",
+        "start_char": 405,
+        "end_char": 506,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه بخشی از بدهی را به حساب تجدیدنظرخوانده واریز کرده است",
+      "evidence": {
+        "quote": "پرداخت مبلغ سه میلیون وششصد هزار تومان از مجموع مبلغ موضوع دادنامه تجدیدنظرخواسته به حساب تجدیدنظرخوانده",
+        "start_char": 2199,
+        "end_char": 2303,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

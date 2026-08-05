@@ -1,0 +1,153 @@
+{
+  "ruling_id": "25026",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی آقای ط. ج.",
+        "start_char": 87,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مجازات",
+      "evidence": {
+        "quote": "حق تشدید مجازات را نداشته",
+        "start_char": 816,
+        "end_char": 841,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی",
+        "start_char": 975,
+        "end_char": 994,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی آقای ط. ج.",
+        "start_char": 87,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "با تقدیم لایحه‌ای به دفتر کل دیوان عالی کشور",
+        "start_char": 532,
+        "end_char": 576,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "جلب",
+      "evidence": {
+        "quote": "با جلب رضایت شاکی",
+        "start_char": 337,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی",
+        "start_char": 975,
+        "end_char": 994,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "با جلب رضایت شاکی",
+        "start_char": 337,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "درخواست تخفیف در مجازات محکوم‌علیه",
+        "start_char": 411,
+        "end_char": 445,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "تفسیر قوانین به ضرر متهم محسوب می شود",
+        "start_char": 1799,
+        "end_char": 1836,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "فقط با تجدیدنظرخواهی شاکی یا دادستان امکان‌پذیر بوده",
+        "start_char": 1558,
+        "end_char": 1610,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "جزای نقدی",
+      "evidence": {
+        "quote": "محکومیتش به پرداخت سه میلیون ریال جزای نقدی",
+        "start_char": 205,
+        "end_char": 248,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم برای تخفیف مجازات، دام‌های خود را فروخته و رضایت شاکی را جلب کرده است",
+      "evidence": {
+        "quote": "با فروختن دام‌های خویش رضایت شاکی را جلب نموده تا تخفیفی در محکومیتش داده شود",
+        "start_char": 671,
+        "end_char": 748,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه تجدیدنظر مجازات را تشدید کرده است",
+      "evidence": {
+        "quote": "کیفر حکم بدوی را به سه برابر تشدید نموده‌اند",
+        "start_char": 878,
+        "end_char": 922,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "ruling_id": "32276",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 59,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "بذل نموده",
+        "start_char": 364,
+        "end_char": 373,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "طلاق ایقاع است",
+        "start_char": 1842,
+        "end_char": 1856,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "بذل نموده",
+        "start_char": 364,
+        "end_char": 373,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه بدوی تنها در مورد نفقه و مهریه نقض",
+        "start_char": 2769,
+        "end_char": 2811,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأي فرجامخواسته بشماره 9409972315501381 شعبه پنجم دادگاه تجدیدنظر استان سمنان تأیید میگرد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "طرفیت بانو ز. خ. فرزند م.",
+        "start_char": 86,
+        "end_char": 111,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "دین و بر ذمه زوج است",
+        "start_char": 675,
+        "end_char": 695,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "آقای سیدع. م. را بعنوان داور او تعیین نموده است",
+        "start_char": 1477,
+        "end_char": 1524,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "اعتراض فرجامخواه بر رأی فرجامخواسته",
+        "start_char": 3793,
+        "end_char": 3828,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "اعتراض فرجامخواه بر رأی فرجامخواسته",
+        "start_char": 3793,
+        "end_char": 3828,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "باستند سند نکاحیه شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "با مهریه 313 عدد سکه بهار آزادی",
+        "start_char": 215,
+        "end_char": 246,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "313 عدد سکه بهار آزادی",
+        "start_char": 224,
+        "end_char": 246,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "بموجب سند اقرار نامه سند...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "بابت نفقه معوقه پرداخت نماید",
+        "start_char": 3012,
+        "end_char": 3040,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زندگی مشترک شروع نشده است",
+      "evidence": {
+        "quote": "تاکنون زیر یک سقف برای زندگی مشترک نرفته ایم",
+        "start_char": 450,
+        "end_char": 494,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه باکره است",
+      "evidence": {
+        "quote": "خوانده باکره است",
+        "start_char": 831,
+        "end_char": 847,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بذل نصف مهریه در دفتر اسناد رسمی انجام شده است",
+      "evidence": {
+        "quote": "خوانده نصف مهریه را در دفتر اسناد رسمی بذل نموده است",
+        "start_char": 901,
+        "end_char": 953,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "داوران از صلح و سازش عاقبت نداشتند",
+      "evidence": {
+        "quote": "داوران موفق بصلح سازش نشده اند",
+        "start_char": 1597,
+        "end_char": 1627,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

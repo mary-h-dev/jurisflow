@@ -1,0 +1,183 @@
+{
+  "ruling_id": "38014",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "به خواسته اعتراض ثالث به عملیات اجرایی",
+        "start_char": 85,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "دلیل مالکیت دستگاه نیست",
+        "start_char": 2656,
+        "end_char": 2679,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "موکله از این بابت هم در عسر و حرج مالی قرار گرفته است",
+        "start_char": 788,
+        "end_char": 841,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "اموال موکل اشتباها\"برابر صورتجلسه مضبوط در پرونده ، مورد توقیف واقع شده است",
+        "start_char": 267,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تقاضای رسیدگی به اعتراض و رفع توقیف اموال مورد استدعا می باشد",
+        "start_char": 1019,
+        "end_char": 1080,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان بیان داشته",
+        "start_char": 176,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در حالیکه خوانده از مورخه 98/9/30 برابر مدارک پیوستی منفک گردیده است",
+        "start_char": 437,
+        "end_char": 505,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "و موکله مستاجر مکان کلینیک یاد شده است",
+        "start_char": 3034,
+        "end_char": 3072,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "در ان اجاره نامه 98/9/30که در ان موجر ومستاجرین بیان شده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "اموال موکل اشتباها\"برابر صورتجلسه مضبوط در پرونده ، مورد توقیف واقع شده است",
+        "start_char": 267,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره‌نامه",
+      "evidence": {
+        "quote": "بنا به اجاره نامه تقدیمی که به امضا مالک اقای ا. م. رسیده است",
+        "start_char": 2972,
+        "end_char": 3033,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فاکتور",
+      "evidence": {
+        "quote": "در خصوص فاکتور مورد استناد موکله",
+        "start_char": 1193,
+        "end_char": 1225,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چک دستگاه مورد خرید از اقای ن. ، توسط اقای ب. صادر شده است",
+        "start_char": 1551,
+        "end_char": 1609,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "انچه مالکیت دستگاه ها و ابزار کلینیک مورد توقیف را ثابت می کند",
+        "start_char": 1782,
+        "end_char": 1844,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اموال کلینیک اشتباهاً توقیف شده است",
+      "evidence": {
+        "quote": "اموال موکل اشتباها\"برابر صورتجلسه مضبوط در پرونده ، مورد توقیف واقع شده است",
+        "start_char": 267,
+        "end_char": 342,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده از مورخه 98/9/30 از محل جدا شده است",
+      "evidence": {
+        "quote": "خوانده از مورخه 98/9/30 برابر مدارک پیوستی منفک گردیده است",
+        "start_char": 447,
+        "end_char": 505,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اجاره نامه صوری است",
+      "evidence": {
+        "quote": "در لایحه تقدیمی به دادگاه محترم و در جلسه اعلام داشتند که برای اخذ مجوز اجاره نامه صوری نوشته شده است",
+        "start_char": 3253,
+        "end_char": 3354,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

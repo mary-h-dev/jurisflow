@@ -1,0 +1,203 @@
+{
+  "ruling_id": "30647",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت به اعتبار شایستگی شورای حل اختلاف شهر تهران را صادر و اعلام می نماید",
+        "start_char": 3542,
+        "end_char": 3626,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض قرار معترض عنه پرونده را جهت رسیدگی ماهوی به دادگاه بدوی اعاده نموده است",
+        "start_char": 1553,
+        "end_char": 1633,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "ضمن موافقت با تجویز اعاده دادرسی",
+        "start_char": 4498,
+        "end_char": 4530,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "خسارت دادرسی را مطالبه نموده است",
+        "start_char": 546,
+        "end_char": 578,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امضاء",
+      "evidence": {
+        "quote": "امضاء ذیل سند انتقال",
+        "start_char": 255,
+        "end_char": 275,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "صدور اجازه عمران",
+        "start_char": 389,
+        "end_char": 405,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "و ابطال نظریه شماره 652 و 653",
+        "start_char": 474,
+        "end_char": 503,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "وکیل خواهان تجدیدنظرخواهی کرده",
+        "start_char": 1300,
+        "end_char": 1330,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استعلام",
+      "evidence": {
+        "quote": "از اداره ثبت اسناد و املاک کن از آخرین وضعیت و آخرین مالک پلاک ثبتی... استعلام نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "طی دادخواستی به طرفیت 1 - هیأت تصفیه شرکت تعاونی مسکن شهرک راه آهن 2",
+        "start_char": 64,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده ردیف دوم به حضور در دفترخانه",
+        "start_char": 200,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به شرح دادخواست اولیه",
+        "start_char": 3235,
+        "end_char": 3269,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "امضاء ذیل سند انتقال ششدانگ یک قطعه زمین",
+        "start_char": 255,
+        "end_char": 295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین به مساحت 549 متر مربع",
+        "start_char": 283,
+        "end_char": 317,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "با شماره 2551 از پلاک ثبتی... اصلی بخش ده تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بنا به مراتب فوق اساساً به لحاظ عدم انطباق آن با مقررات قانونی دعوی خواهان را قابل استماع ندانسته و با استناد به ماده 2 ق. آ. د. م قرار رد دعوی وی را صادر نمود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت رسمی خوانده اول احراز نشده است",
+      "evidence": {
+        "quote": "اولاً مالکیت رسمی خوانده اول احراز نشده",
+        "start_char": 629,
+        "end_char": 668,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زمین فاقد پلاک فرعی است",
+      "evidence": {
+        "quote": "ثانیاً زمین مورد نظر خواهان مشاع و مساحت زیاد و فاقد پلاک فرعی است",
+        "start_char": 671,
+        "end_char": 737,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زمین تقسیم و تفکیک ثبتی نشده است",
+      "evidence": {
+        "quote": "که تاکنون تقسیم و تفکیک ثبتی نشده",
+        "start_char": 738,
+        "end_char": 771,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

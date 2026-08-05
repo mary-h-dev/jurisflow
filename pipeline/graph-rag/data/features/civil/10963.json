@@ -1,0 +1,183 @@
+{
+  "ruling_id": "10963",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "با پذیرش خواسته زوج خواهان، حکم بر تأیید فسخ نکاح صادر گردیده است",
+        "start_char": 8105,
+        "end_char": 8170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "به استناد ماده 1128 قانون مدنی",
+        "start_char": 511,
+        "end_char": 541,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون آیین دادرسی دادگاه‌های عمومی و انقلاب در امور مدنی",
+      "evidence": {
+        "quote": "به استناد مواد 370 و 396 قانون آیین دادرسی دادگاه‌های عمومی و انقلاب در امور مدنی",
+        "start_char": 8480,
+        "end_char": 8561,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "درخواست رسیدگی و صدور حکم بر فسخ نکاح را دارم",
+        "start_char": 581,
+        "end_char": 626,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "با تقدیم دادخواستی نسبت به رأی صادره اعتراض نموده",
+        "start_char": 5462,
+        "end_char": 5511,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تکذیب",
+      "evidence": {
+        "quote": "بیماری صرع که مورد ادعای خواهان می‌باشد، قویاً تکذیب می‌شود",
+        "start_char": 1679,
+        "end_char": 1738,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "تقاضای نقض دادنامه صادره را دارم",
+        "start_char": 6614,
+        "end_char": 6646,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان آقای الف. غ.",
+        "start_char": 20,
+        "end_char": 39,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "به طرفیت زوجه خانم ن.ک.",
+        "start_char": 99,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با خوانده دعوی ازدواج کرده",
+        "start_char": 216,
+        "end_char": 242,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "بیماری‌هایی که به‌واسطه آن زوج می‌تواند تقاضای فسخ نکاح نماید",
+        "start_char": 1774,
+        "end_char": 1835,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "به استناد عقدنامه رسمی",
+        "start_char": 174,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی فرجام‌خواسته ابرام می‌گردد",
+        "start_char": 8563,
+        "end_char": 8593,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه به بیماری صرع مبتلا است",
+      "evidence": {
+        "quote": "نامبرده مبتلا به بیماری صرع (امواج مغزی غیرطبیعی) می‌باشد",
+        "start_char": 3958,
+        "end_char": 4015,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بیماری زوجه قبل از عقد وجود داشته است",
+      "evidence": {
+        "quote": "بیماری صرع زوجه قبل از عقد وجود داشته",
+        "start_char": 4377,
+        "end_char": 4414,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از بیماری زوجه مطلع نبوده است",
+      "evidence": {
+        "quote": "احراز عدم علم و اطلاع زوج از آن",
+        "start_char": 8293,
+        "end_char": 8324,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سقط جنین رخ داده است",
+      "evidence": {
+        "quote": "نهایتاً موجب سقط جنین شده است",
+        "start_char": 2213,
+        "end_char": 2242,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

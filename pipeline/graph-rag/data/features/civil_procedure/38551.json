@@ -1,0 +1,133 @@
+{
+  "ruling_id": "38551",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال رای داوری",
+        "start_char": 186,
+        "end_char": 201,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان دعوی",
+        "start_char": 158,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی",
+        "start_char": 8,
+        "end_char": 21,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم",
+        "start_char": 713,
+        "end_char": 721,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض ان",
+        "start_char": 1140,
+        "end_char": 1146,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 8,
+        "end_char": 20,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "داور",
+        "start_char": 196,
+        "end_char": 200,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "طرف",
+      "evidence": {
+        "quote": "طرف دعوی",
+        "start_char": 803,
+        "end_char": 811,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه",
+        "start_char": 110,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای داوری",
+        "start_char": 192,
+        "end_char": 201,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارجاع موضوع به کارشناس توسط داور",
+      "evidence": {
+        "quote": "ولی داور منتخب اقدامی در این خصوص به عمل نیاورده",
+        "start_char": 653,
+        "end_char": 701,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ادعای عدم دریافت رسید",
+      "evidence": {
+        "quote": "ادعای عدم دریافت رسید",
+        "start_char": 570,
+        "end_char": 591,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

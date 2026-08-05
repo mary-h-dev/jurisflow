@@ -1,0 +1,173 @@
+{
+  "ruling_id": "4666",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "به خواسته طلاق",
+        "start_char": 68,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه ی زوجیت دائم",
+        "start_char": 425,
+        "end_char": 449,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک",
+        "start_char": 1070,
+        "end_char": 1087,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تنصیف",
+      "evidence": {
+        "quote": "مربوط به تنصیف اموال",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ش.ب.",
+        "start_char": 1339,
+        "end_char": 1362,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "حقوق قانونی خود را از زوج مطالبه می نماید",
+        "start_char": 1874,
+        "end_char": 1915,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "قرار مذکور در استناد به قسمت اخیر ماده 353 از قانون آیین دادرسی مدنی نقض و پرونده به دادگاه محترم نخستین اعاده",
+        "start_char": 2412,
+        "end_char": 2522,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده به دادگاه محترم نخستین اعاده",
+        "start_char": 2487,
+        "end_char": 2522,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "انصراف زوج از طلاق",
+        "start_char": 126,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخواه",
+        "start_char": 1480,
+        "end_char": 1501,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مادر",
+      "evidence": {
+        "quote": "باعث می باشد با مادر می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "زوج باید مهریه زوجه را",
+        "start_char": 651,
+        "end_char": 673,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجرت‌المثل",
+      "evidence": {
+        "quote": "اجرت المثل ایام زندگی مشترک",
+        "start_char": 777,
+        "end_char": 804,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "نفقه ایام عده زوجه",
+        "start_char": 922,
+        "end_char": 940,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج بر طلاق اصرار دارد",
+      "evidence": {
+        "quote": "حکایت از اصرار زوج به طلاق را دارند",
+        "start_char": 368,
+        "end_char": 403,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حقوق زوجه و نفقه فرزندان در مرحله نخست به طور کامل رسیدگی نشده است",
+      "evidence": {
+        "quote": "دادنامه از حیث مزبور (تنصیف اموال و نفقه فرزندان) رسیدگی نشده",
+        "start_char": 2311,
+        "end_char": 2372,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

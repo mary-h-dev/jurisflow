@@ -1,0 +1,203 @@
+{
+  "ruling_id": "4614",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "الّا حق رجوع و مطالبه وجوه نخواهد داشت",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصل خواسته",
+      "evidence": {
+        "quote": "صدور حکم بر محکومیت خوانده به اصل خواسته",
+        "start_char": 1095,
+        "end_char": 1135,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "و خسارت تأخیر تأدیه تا زمان اجرای احکام",
+        "start_char": 213,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ 000/000/ 144 ریال",
+        "start_char": 98,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خریداری",
+      "evidence": {
+        "quote": "حقوق مربوط به سرقفلی یک واحد تجاری را از خوانده محترم خریداری نموده",
+        "start_char": 395,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ 000/000/ 36 ریال بابت مالیات نقل و انتقال پرداخت نموده",
+        "start_char": 640,
+        "end_char": 699,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد واخواهی",
+      "evidence": {
+        "quote": "ضمن رد واخواهی واخواه دادنامه معترض علیه را عینا تأیید می نماید",
+        "start_char": 3511,
+        "end_char": 3574,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد درخواست تجدیدنظرخواهی، رأی دادگاه نخستین تأیید می‌گردد",
+        "start_char": 4746,
+        "end_char": 4807,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان در دادخواست تقدیمی بیان داشته اند",
+        "start_char": 307,
+        "end_char": 353,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از خوانده محترم خریداری نموده",
+        "start_char": 433,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "با رضایت مالک به عهده فروشنده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای الف.غ. به طرفیت آقایان الف.پ. و ر.ک.",
+        "start_char": 3721,
+        "end_char": 3776,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "در حق واخواه محکوم و اعلام می دارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به موجب حکایت مبایعه نامه مورخ 9/9/1384",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سرقفلی",
+      "evidence": {
+        "quote": "حقوق مربوط به سرقفلی یک واحد تجاری",
+        "start_char": 395,
+        "end_char": 429,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رسید",
+      "evidence": {
+        "quote": "به موجب رسید مورخ 5/3/1389",
+        "start_char": 138,
+        "end_char": 164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قبض",
+      "evidence": {
+        "quote": "و قبض پرداخت مالیات مورخ 26/11/1389",
+        "start_char": 165,
+        "end_char": 200,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از پرداخت مالیات مشاغل و رضایت مالک امتناع کرده است",
+      "evidence": {
+        "quote": "خوانده محترم پس از گذشت 5 سال از قرارداد و مراجعات مکرر به تعهد خود عمل ننموده",
+        "start_char": 705,
+        "end_char": 783,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان بخشی از هزینه‌ها را پرداخت کرده است",
+      "evidence": {
+        "quote": "موکل به موجب اسناد پیوست به تعهد خود عمل نمود و مبلغ 000/000/ 36 ریال بابت مالیات نقل و انتقال پرداخت نموده",
+        "start_char": 592,
+        "end_char": 699,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

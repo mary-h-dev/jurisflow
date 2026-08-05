@@ -1,0 +1,193 @@
+{
+  "ruling_id": "807",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "با احراز رابطه زوجیت فی مابین طرفین",
+        "start_char": 177,
+        "end_char": 212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 134,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "نسبت به طلاق زوجه موصوف از نوع رجعی",
+        "start_char": 629,
+        "end_char": 664,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ف.ح.",
+        "start_char": 1325,
+        "end_char": 1348,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امکان سازش",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 134,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "زوج مکلف است همزمان با ثبت طلاق تمامی مهریه زوجه را پرداخت کند",
+        "start_char": 696,
+        "end_char": 758,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "مورد اعتراض وکلای تجدیدنظرخواه قرار گرفته است",
+        "start_char": 1600,
+        "end_char": 1645,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 2035,
+        "end_char": 2055,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه مورد اعتراض را با اصلاح در قسمت نفقه ایام عده به مبلغ یک میلیون تومان تعیین و تأیید می نماید",
+        "start_char": 2057,
+        "end_char": 2157,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "مساعی دادگاه و داوران در حصول سازش و انصراف زوج از دعوی مطروحه مؤثر نبوده",
+        "start_char": 251,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "نسبت به طلاق زوجه موصوف",
+        "start_char": 629,
+        "end_char": 652,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ف.ح.",
+        "start_char": 1325,
+        "end_char": 1348,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "برابر سند رسمی ازدواج",
+        "start_char": 213,
+        "end_char": 234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "تمامی مهریه زوجه را پرداخت کند",
+        "start_char": 728,
+        "end_char": 758,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "در قسمت نفقه ایام عده",
+        "start_char": 2089,
+        "end_char": 2110,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین حدود سه ماه زندگی مشترک داشتند",
+      "evidence": {
+        "quote": "زوجین حدود سه ماه زندگی مشترک داشتند",
+        "start_char": 759,
+        "end_char": 795,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزند مشترک ندارند",
+      "evidence": {
+        "quote": "فرزند مشترک ندارند",
+        "start_char": 978,
+        "end_char": 996,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در مورد نفقه معوقه دادخواستی ارائه نشده است",
+      "evidence": {
+        "quote": "از بابت نفقه معوقه چون دادخواست ارائه نشده است",
+        "start_char": 997,
+        "end_char": 1043,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

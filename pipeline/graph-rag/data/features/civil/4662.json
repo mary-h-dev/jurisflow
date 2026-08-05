@@ -1,0 +1,143 @@
+{
+  "ruling_id": "4662",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق انتخاب",
+      "evidence": {
+        "quote": "در سنی است که حق انتخاب با خودش بوده",
+        "start_char": 175,
+        "end_char": 211,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "از سن حضانت پدر و مادر خارج است",
+        "start_char": 990,
+        "end_char": 1021,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م.م.",
+        "start_char": 610,
+        "end_char": 641,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادره دادگاه بدوی را نقض کرده",
+        "start_char": 1270,
+        "end_char": 1303,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان",
+        "start_char": 1355,
+        "end_char": 1376,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست خانم ف.الف.",
+        "start_char": 8,
+        "end_char": 28,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "طرفیت",
+      "evidence": {
+        "quote": "به طرفیت آقای م.م.",
+        "start_char": 29,
+        "end_char": 47,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "مادر",
+      "evidence": {
+        "quote": "تمایل دارد نزد مادرش بماند",
+        "start_char": 274,
+        "end_char": 300,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "پدر",
+      "evidence": {
+        "quote": "نزد پدر زندگی کند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "به خواسته حضانت فرزند مشترک",
+        "start_char": 67,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرزند مشترک بیش از ۹ سال سن دارد",
+      "evidence": {
+        "quote": "فرزند مشترک بیشتر از 9 سال قمری سن دارد",
+        "start_char": 133,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزند تمایل به زندگی نزد مادر دارد",
+      "evidence": {
+        "quote": "تمایل دارد نزد مادرش بماند",
+        "start_char": 274,
+        "end_char": 300,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزند دختر است",
+      "evidence": {
+        "quote": "با توجه به این که دختر می باشد",
+        "start_char": 959,
+        "end_char": 989,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "31149",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 102,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "مطالبه خسارات دادرسی",
+        "start_char": 122,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "بدون قصد تبرع",
+        "start_char": 1440,
+        "end_char": 1453,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 92,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان",
+        "start_char": 678,
+        "end_char": 699,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رای صادره دادگاه بدوی را نقض کرده",
+        "start_char": 1664,
+        "end_char": 1697,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت زوج",
+        "start_char": 1744,
+        "end_char": 1762,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اظهارات وکیل خواهان",
+        "start_char": 230,
+        "end_char": 249,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با توجه به دفاعیات خوانده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "حکم به محکومیت زوج",
+        "start_char": 1744,
+        "end_char": 1762,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه کلیه کارهای متدوال",
+        "start_char": 1282,
+        "end_char": 1305,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "به مبلغ دوازده میلیون تومان",
+        "start_char": 1801,
+        "end_char": 1828,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زندگی مشترک ۱۴ ساله",
+      "evidence": {
+        "quote": "اجرت المثل 14 سال زندگی مشترک خود",
+        "start_char": 269,
+        "end_char": 302,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انجام کارهای منزل توسط زوجه",
+      "evidence": {
+        "quote": "نگهداری فرزند مشترک و نظافت منزل و پخت و پز غذا را انجام داده است",
+        "start_char": 1338,
+        "end_char": 1403,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

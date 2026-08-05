@@ -1,0 +1,173 @@
+{
+  "ruling_id": "32959",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "به خواسته اعسار از پرداخت",
+        "start_char": 75,
+        "end_char": 100,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی",
+        "start_char": 2505,
+        "end_char": 2525,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقسیط",
+      "evidence": {
+        "quote": "و عنداللزوم تقسیط",
+        "start_char": 120,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم س.س. ت.س.",
+        "start_char": 1182,
+        "end_char": 1210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "رد اعتراض معترض",
+        "start_char": 2103,
+        "end_char": 2118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد درخواست اعاده دادرسی",
+        "start_char": 3570,
+        "end_char": 3598,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مستند خواهان جهت اثبات ادعا",
+        "start_char": 248,
+        "end_char": 275,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و خوانده نیز دلیلی بر ایسار",
+        "start_char": 379,
+        "end_char": 406,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "در صورتیکه اموالی از محکوم علیه شناسایی گردد",
+        "start_char": 913,
+        "end_char": 957,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخوانده آقای ع. و.ز.ه.",
+        "start_char": 1338,
+        "end_char": 1376,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخوانده آقای ع. و.ز.ه.",
+        "start_char": 1338,
+        "end_char": 1376,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متقاضی",
+      "evidence": {
+        "quote": "متقاضی اعاده دادرسی",
+        "start_char": 2834,
+        "end_char": 2853,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "محکوم به مهریه",
+        "start_char": 1423,
+        "end_char": 1437,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "تعداد 10 عدد سکه تمام بهار آزادی",
+        "start_char": 737,
+        "end_char": 769,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شهادت شهود صحت ادعای خواهان را تایید کرده است",
+      "evidence": {
+        "quote": "شهود تعرفه شده در دادگاه من حیث المجموع صحت ادعای خواهان را مورد تائید قرار داده اند",
+        "start_char": 294,
+        "end_char": 378,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تغییر شرایط مالی محکوم علیه رخ داده است",
+      "evidence": {
+        "quote": "مدعی است در وضعیت مالی محکوم علیه تغییرات درآمدی مناسبی وجود داشته",
+        "start_char": 2891,
+        "end_char": 2957,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

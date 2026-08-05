@@ -1,0 +1,193 @@
+{
+  "ruling_id": "25752",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "دائر بر خلع ید از پلاک ثبتی",
+        "start_char": 78,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قلع و قمع",
+      "evidence": {
+        "quote": "و قلع و قمع مستحدثات",
+        "start_char": 123,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "به ع.الف. خ.م. خواهان پرونده انتقال یافته است",
+        "start_char": 549,
+        "end_char": 594,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "منعقد",
+      "evidence": {
+        "quote": "مشارکت در ساخت به شماره... و به مورخه 1387/2/24 منعقد می‌نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "سند انتقالی مذکور به موجب دادنامه... ابطال",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض نموده",
+        "start_char": 4789,
+        "end_char": 4824,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت ع.الف. خ.م. خواهان پرونده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الف. ب. (خوانده ردیف اول)",
+        "start_char": 633,
+        "end_char": 658,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ع.الف. خ.م.",
+        "start_char": 3539,
+        "end_char": 3569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت آقایان ا. الف. ب. 2. خ. الف.",
+        "start_char": 3594,
+        "end_char": 3631,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی... بخش 12 تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مستحدثات",
+      "evidence": {
+        "quote": "قلع و قمع مستحدثات",
+        "start_char": 125,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "به استناد تصویر مصدق سند مالکیت",
+        "start_char": 168,
+        "end_char": 199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "به استناد سند رسمی مالکیت",
+        "start_char": 3896,
+        "end_char": 3921,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت در ساخت",
+      "evidence": {
+        "quote": "قرار داد مشارکت در ساخت",
+        "start_char": 923,
+        "end_char": 946,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ساخت ساختمان در ۶ طبقه",
+      "evidence": {
+        "quote": "در شش طبقه ساخته شده است",
+        "start_char": 1419,
+        "end_char": 1443,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انتقال ملک از خواهان به خوانده",
+      "evidence": {
+        "quote": "به موجب سند... در مورخه مذکور به الف. ب. منتقل کرده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تغییرات فیزیکی در ملک ایجاد شده است",
+      "evidence": {
+        "quote": "در ملک مبحوث عنه تغییرات فیزیکی ماهیتی رخ داده است",
+        "start_char": 2946,
+        "end_char": 2996,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

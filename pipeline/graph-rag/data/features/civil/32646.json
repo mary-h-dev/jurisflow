@@ -1,0 +1,213 @@
+{
+  "ruling_id": "32646",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "معامله",
+      "evidence": {
+        "quote": "تتمه ثمن معامله موضوع مبایعه نامه",
+        "start_char": 87,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "و تاخیر تادیه",
+        "start_char": 172,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "مادام که فروشنده از تسلیم بیع خودداری نموده حق مطالبه ثمن را نخواهد داشت لذا در این قسمت دعوی خواهان قابلیت استماع را نداشته مستنداً به ماده 2 قانون آئین دادرسی مدنی وماده 377 قانون مدنی اقرار رد دعوی صادر و اعلام می گردد",
+        "start_char": 4628,
+        "end_char": 4849,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "و با وصف مذکور اقرار در متن سند رسمی به نظر دادگاه منطبق با واقع نبوده و اقرار فاسد است",
+        "start_char": 3494,
+        "end_char": 3581,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مبلغ 000 /000 /200 ریال",
+        "start_char": 57,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "مطالبه مبلغ 500 /586 /69 بابت ابطال تمبر",
+        "start_char": 189,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "موضوع اعتراض به رای شماره 92300368",
+        "start_char": 230,
+        "end_char": 264,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "خود اقدام به انتقال قطعی مبیع در دفتر خانه شماره 7 شهریار می نماید",
+        "start_char": 1648,
+        "end_char": 1714,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "وکیل خواهان طی لایحه شماره 94301419 دعوی خود را مسترد نموده است",
+        "start_char": 4924,
+        "end_char": 4987,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ودادنامه مالا مستلزم نقض است",
+        "start_char": 5669,
+        "end_char": 5697,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان ردیف اول",
+        "start_char": 608,
+        "end_char": 623,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 395,
+        "end_char": 412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه... خریدار",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "از فروشنده( خوانده تحصیل نموده بود",
+        "start_char": 1613,
+        "end_char": 1647,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه شماره164",
+        "start_char": 103,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "در متن سند انتقال قطعی موصوف تحت شماره 77841",
+        "start_char": 1725,
+        "end_char": 1769,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "اقدام به خرید یک قطعه زمین",
+        "start_char": 1173,
+        "end_char": 1199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بنا",
+      "evidence": {
+        "quote": "به همراه بنای احداثی در آن",
+        "start_char": 1200,
+        "end_char": 1226,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبیع تحویل نشده است",
+      "evidence": {
+        "quote": "آقای الف. ق. خود قبول دارد که ملک به آقای غ. د. تحویل نشده",
+        "start_char": 3318,
+        "end_char": 3376,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبیع در تصرف شخص ثالث است",
+      "evidence": {
+        "quote": "مبیع در تصرف فرد دیگری است",
+        "start_char": 2216,
+        "end_char": 2242,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

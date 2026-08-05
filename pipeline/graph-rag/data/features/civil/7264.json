@@ -1,0 +1,223 @@
+{
+  "ruling_id": "7264",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "ضمن العقد",
+        "start_char": 108,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "طلاق",
+        "start_char": 68,
+        "end_char": 72,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ازدواج",
+      "evidence": {
+        "quote": "ازدواج موقت",
+        "start_char": 638,
+        "end_char": 649,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ازدواج دائم",
+      "evidence": {
+        "quote": "عقد دائم",
+        "start_char": 1622,
+        "end_char": 1630,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "بذل نموده است",
+        "start_char": 2461,
+        "end_char": 2474,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "مطرح نموده است",
+        "start_char": 155,
+        "end_char": 169,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید",
+      "evidence": {
+        "quote": "اقدام به تجدید فراش نموده",
+        "start_char": 348,
+        "end_char": 373,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی نموده است",
+        "start_char": 2614,
+        "end_char": 2637,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "فرجام خواهی نموده است",
+        "start_char": 3370,
+        "end_char": 3391,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراضات به عمل آمده",
+        "start_char": 2969,
+        "end_char": 2989,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 171,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دفاع غیر مؤثر خوانده",
+        "start_char": 2123,
+        "end_char": 2143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از زوج خود",
+        "start_char": 2271,
+        "end_char": 2281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "از زوجه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "داور زوجه",
+        "start_char": 752,
+        "end_char": 761,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "سند نکاحیه",
+        "start_char": 127,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه",
+        "start_char": 1912,
+        "end_char": 1917,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "نفقه",
+        "start_char": 323,
+        "end_char": 327,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج بدون اذن زوجه اقدام به ازدواج موقت کرده است",
+      "evidence": {
+        "quote": "بدون اذن زوجه اقدام به تجدید فراش نموده",
+        "start_char": 334,
+        "end_char": 373,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج و زوجه زندگی مشترک را شروع نکرده‌اند",
+      "evidence": {
+        "quote": "تاکنک زندگی مشترک را شروع نکرده اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه باکره است",
+      "evidence": {
+        "quote": "و باکره است",
+        "start_char": 2059,
+        "end_char": 2070,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

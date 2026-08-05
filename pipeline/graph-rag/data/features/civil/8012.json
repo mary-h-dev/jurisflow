@@ -1,0 +1,203 @@
+{
+  "ruling_id": "8012",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "انعقاد عقد نکاح دائم",
+        "start_char": 505,
+        "end_char": 525,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصل",
+      "evidence": {
+        "quote": "اصل بر بقای آن است",
+        "start_char": 870,
+        "end_char": 888,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سهم الارث",
+      "evidence": {
+        "quote": "به میزان سهم الارث خود",
+        "start_char": 659,
+        "end_char": 681,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 1858,
+        "end_char": 1876,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "قابل واخواهی",
+        "start_char": 1970,
+        "end_char": 1982,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مهریۀ وی را نپرداخته اند",
+        "start_char": 345,
+        "end_char": 369,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "ضمن ردّ تجدیدنظر خواهی",
+        "start_char": 2613,
+        "end_char": 2635,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تایید می شود",
+      "evidence": {
+        "quote": "تأیید می شود",
+        "start_char": 2650,
+        "end_char": 2662,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خانم ص.غ. به طرفیت",
+        "start_char": 8,
+        "end_char": 31,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "محکومیت خواندگان",
+        "start_char": 401,
+        "end_char": 417,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مورث",
+      "evidence": {
+        "quote": "مورث خواندگان",
+        "start_char": 281,
+        "end_char": 294,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه و دیگر ورثه",
+        "start_char": 2268,
+        "end_char": 2292,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده از ترکه",
+        "start_char": 2319,
+        "end_char": 2342,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "سند رسمی شماره 50767-7/7/55",
+        "start_char": 218,
+        "end_char": 245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بابت مهریۀ خود",
+        "start_char": 171,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ماترک",
+      "evidence": {
+        "quote": "از ماترک مسلم",
+        "start_char": 682,
+        "end_char": 695,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 1304",
+        "start_char": 2183,
+        "end_char": 2201,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مهریه پرداخت نشده است",
+      "evidence": {
+        "quote": "خواندگان تاکنون مهریۀ وی را نپرداخته اند",
+        "start_char": 329,
+        "end_char": 369,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عقد نکاح در سال ۱۳۴۴ انجام شده است",
+      "evidence": {
+        "quote": "در مورخ 20/7/1344 به عقد نکاح دائم مورث خواندگان درآمده",
+        "start_char": 246,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

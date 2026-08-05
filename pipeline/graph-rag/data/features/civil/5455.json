@@ -1,0 +1,112 @@
+{
+  "ruling_id": "5455",
+  "concepts": [],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "قرار ردّ دعوای مطروحه",
+        "start_char": 357,
+        "end_char": 378,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م.ک.",
+        "start_char": 556,
+        "end_char": 587,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ضمن ردّ اعتراض معترض",
+        "start_char": 1174,
+        "end_char": 1194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه معترض⊿ٌعنه را نتیجتاً تأیید می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم ع.ک. ، فرزند م. و به خواسته عدم اشتغال خوانده",
+        "start_char": 44,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "با توجه به شغل زوج که خود فروشنده بوده",
+        "start_char": 229,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی که موجبات نقض",
+        "start_char": 962,
+        "end_char": 1003,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 9201563-18/9/92",
+        "start_char": 607,
+        "end_char": 639,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در آرایشگاه کار می‌کند",
+      "evidence": {
+        "quote": "خوانده در آرایشگاه کار می نماید",
+        "start_char": 270,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سابقه کیفری زوج ثابت نشده است",
+      "evidence": {
+        "quote": "اعلام سبق پرونده کیفری دلیلی بر اثبات امر نبوده",
+        "start_char": 304,
+        "end_char": 351,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "8013",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "با احراز رابطه زوجیت",
+        "start_char": 325,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "اثبات اشتغال ذمه خوانده",
+        "start_char": 348,
+        "end_char": 371,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "استمرار و بقاء دین بر ذمه زوج محرز می باشد",
+        "start_char": 495,
+        "end_char": 537,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "حاکی از پرداخت تمام یا قسمتی از مهریه",
+        "start_char": 429,
+        "end_char": 466,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض تجدیدنظرخواه به بخش اول دادنامه وارد نیست",
+        "start_char": 1394,
+        "end_char": 1442,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "این بخش از دادگاه نقض می شود",
+        "start_char": 1912,
+        "end_char": 1940,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ه.ع. فرزند خ. به خواسته صدور حکم به محکومیت خوانده",
+        "start_char": 38,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان را موجه تشخیص",
+        "start_char": 538,
+        "end_char": 565,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ه.ع.",
+        "start_char": 1026,
+        "end_char": 1057,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظر خوانده",
+        "start_char": 1353,
+        "end_char": 1374,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "به پرداخت مهریه مافی القباله",
+        "start_char": 103,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سکه",
+      "evidence": {
+        "quote": "به تعداد 110 عدد سکه",
+        "start_char": 132,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "فتوکپی مصدق شناسنامه",
+        "start_char": 196,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "ملاحظه سند نکاحیه شماره 63930",
+        "start_char": 271,
+        "end_char": 300,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "با وجود عقدنامه",
+        "start_char": 1449,
+        "end_char": 1464,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین ثابت شده است",
+      "evidence": {
+        "quote": "با احراز رابطه زوجیت",
+        "start_char": 325,
+        "end_char": 345,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده دلیلی مبنی بر پرداخت مهریه ارائه نکرده است",
+      "evidence": {
+        "quote": "خوانده دلیلی که حاکی از پرداخت تمام یا قسمتی از مهریه به زوجه باشد ارائه ننموده",
+        "start_char": 413,
+        "end_char": 492,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

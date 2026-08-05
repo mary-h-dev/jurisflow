@@ -1,0 +1,163 @@
+{
+  "ruling_id": "10989",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت دائم بین طرفین محرز و مسلّم است",
+        "start_char": 172,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "حقوق و تکالیف طرفین نسبت به یکدیگر برقرار می‌گردد",
+        "start_char": 322,
+        "end_char": 371,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معاشرت",
+      "evidence": {
+        "quote": "زوجین مکلف به حسن معاشرت با یکدیگر می‌باشند",
+        "start_char": 836,
+        "end_char": 879,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "بخواسته الزام به تمکین",
+        "start_char": 61,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن ردّ تجدیدنظرخواهی دادنامه مذکور تأیید می‌شود",
+        "start_char": 1485,
+        "end_char": 1533,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی آقای الف.ز. بطرفیت خانم ش.م.",
+        "start_char": 8,
+        "end_char": 41,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "طبق اعلام وکیل خوانده",
+        "start_char": 437,
+        "end_char": 458,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "متذکر می‌گردد زوجین مکلف به حسن معاشرت با یکدیگر می‌باشند",
+        "start_char": 822,
+        "end_char": 879,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "و زوجه با پدر {باید} در منزلی که شوهر اختیار می‌کند سکنی نماید",
+        "start_char": 372,
+        "end_char": 434,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1080 مورخه 1393/06/31 صادره از شعبه 273 دادگاه خانواده تهران که به موجب آن حکم به بی‌حقی دعوی تجدیدنظرخواه به خواسته تمکین صادر شده‌است",
+        "start_char": 1088,
+        "end_char": 1245,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "با توجه به رونوشت سند ازدواج به شماره....",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1080 مورخه 1393/06/31",
+        "start_char": 1088,
+        "end_char": 1131,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج در منزل مشترک سکونت دارد",
+      "evidence": {
+        "quote": "زوجه در منزل مشترک که از ناحیه زوج تعیین شده‌است، سکونت دارد",
+        "start_char": 483,
+        "end_char": 543,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه حاضر به تمکین می‌باشد",
+      "evidence": {
+        "quote": "در هر حال زوجه حاضر به تمکین می‌باشد",
+        "start_char": 589,
+        "end_char": 625,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوی خواهان ثابت نشده است",
+      "evidence": {
+        "quote": "دعوی خواهان را ثابت ندانسته",
+        "start_char": 750,
+        "end_char": 777,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

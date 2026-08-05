@@ -1,0 +1,133 @@
+{
+  "ruling_id": "38301",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "اعلان ورشکستگی",
+        "start_char": 85,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقف",
+      "evidence": {
+        "quote": "توقف ظاهری",
+        "start_char": 536,
+        "end_char": 546,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "توقیف واقعی",
+        "start_char": 577,
+        "end_char": 588,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهدات",
+      "evidence": {
+        "quote": "تادیه قروض و سایر تعهدات",
+        "start_char": 643,
+        "end_char": 667,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "اعلان ورشکستگی",
+        "start_char": 85,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه مبحوث عنه را نقض",
+        "start_char": 1610,
+        "end_char": 1634,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بطلان دعوی",
+      "evidence": {
+        "quote": "به بطلان دعوی ابتدایی",
+        "start_char": 1641,
+        "end_char": 1662,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "لایحه اعتراضیه تجدیدنظرخواه",
+        "start_char": 240,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دارایی",
+      "evidence": {
+        "quote": "دارایی های شرکت",
+        "start_char": 992,
+        "end_char": 1007,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دیون",
+      "evidence": {
+        "quote": "تادیه دیون",
+        "start_char": 934,
+        "end_char": 944,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شرکت دارای فعالیت مثبت است",
+      "evidence": {
+        "quote": "فعالیت مثبت مشمول مالیات می شود",
+        "start_char": 1413,
+        "end_char": 1444,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ادعای ورشکستگی شرکت اثبات نشده است",
+      "evidence": {
+        "quote": "عمده اظهارات وکیل تجدیدنظرخواه در ارتباط با ورشکستگی شرکت در حد ادعاست و امری اثبات شده نیست",
+        "start_char": 345,
+        "end_char": 437,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

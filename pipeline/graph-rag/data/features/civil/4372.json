@@ -1,0 +1,133 @@
+{
+  "ruling_id": "4372",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "تمکین منوط به تحقق شرط انتخاب و تعیین محل سکونت توسط زوجه می باشد",
+        "start_char": 326,
+        "end_char": 391,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی صادر و اعلام می گردد",
+        "start_char": 474,
+        "end_char": 512,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ن.خ.",
+        "start_char": 662,
+        "end_char": 685,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "آن را نقض و حکم به الزام به تمکین صادر و اعلام می دارد",
+        "start_char": 1627,
+        "end_char": 1681,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "در آن زوج حق انتخاب محل سکونت را به زوجه تفویض نموده است",
+        "start_char": 139,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "حق انتخاب محل سکونت را به زوجه تفویض نموده است",
+        "start_char": 149,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخوانده خانم س.م.",
+        "start_char": 804,
+        "end_char": 837,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخوانده خانم س.م.",
+        "start_char": 804,
+        "end_char": 837,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رونوشت",
+      "evidence": {
+        "quote": "با توجه به مفاد رونوشت ازدواج پیوست پرونده",
+        "start_char": 93,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "مطابق سند شماره 160502 تنظیمی در دفتر ازدواج 440 تهران",
+        "start_char": 933,
+        "end_char": 987,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "حق انتخاب محل سکونت به زوجه تفویض شده است",
+      "evidence": {
+        "quote": "زوج حق انتخاب محل سکونت را به زوجه تفویض نموده است",
+        "start_char": 145,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محل سکونت تعیین شده مورد قبول خوانده نیست",
+      "evidence": {
+        "quote": "منزل تعرفه شده توسط وکیل خواهان به لحاظ منطقه ای مورد قبول خوانده و وکیل ایشان نمی باشد",
+        "start_char": 204,
+        "end_char": 291,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "7902",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "شناسنامه هر شخص سند رسمی محسوب می شود",
+        "start_char": 317,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مدنی",
+      "evidence": {
+        "quote": "هر انسان متمتع از حقوق مدنی است",
+        "start_char": 1278,
+        "end_char": 1309,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "به خواسته تغییر نام کوچک",
+        "start_char": 61,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بطلان دعوی",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر و اعلام می دارد",
+        "start_char": 781,
+        "end_char": 826,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه تجدیدنظر خواسته",
+        "start_char": 1527,
+        "end_char": 1557,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "حکم به الزام تجدیدنظر خوانده",
+        "start_char": 1630,
+        "end_char": 1658,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "که خواهان توضیح داده",
+        "start_char": 96,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "به طرفیت اداره ثبت احوال",
+        "start_char": 36,
+        "end_char": 60,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم م.س.",
+        "start_char": 991,
+        "end_char": 1014,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "نام وی در شناسنامه م. می باشد",
+        "start_char": 178,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "با حفظ سایر مندرجات سند سجلی",
+        "start_char": 1705,
+        "end_char": 1733,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "نام خواهان در شناسنامه با نامی که با آن شناخته می‌شده متفاوت است",
+      "evidence": {
+        "quote": "از ابتدای تولد در بین فامیل به نام ن. شناخته می شده حال آنکه نام وی در شناسنامه م. می باشد",
+        "start_char": 117,
+        "end_char": 207,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "ruling_id": "25895",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مصلحت و غبطه موکل",
+      "evidence": {
+        "quote": "به جهت عدم رعایت غبطه و صلاح خواهان",
+        "start_char": 171,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "از مصادیق عمل فضولی قلمداد می شود",
+        "start_char": 980,
+        "end_char": 1013,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "چنین قراردادی بیع تلقی میگردد",
+        "start_char": 9214,
+        "end_char": 9243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بطلان دعوی اولیه",
+        "start_char": 11606,
+        "end_char": 11626,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "مبنی بر تقاضای ابطال معامله",
+        "start_char": 125,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی",
+        "start_char": 3557,
+        "end_char": 3580,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "باقی ثمن نیز تاکنون پرداخت نگردیده است",
+        "start_char": 2901,
+        "end_char": 2939,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مصلحت موکل را ننموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف دوم",
+        "start_char": 390,
+        "end_char": 405,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل مدنی مکلف به رعایت غبطه و صلاح موکل خویش می باشد",
+        "start_char": 1899,
+        "end_char": 1952,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "خریدار ( خوانده ردیف اول )",
+        "start_char": 769,
+        "end_char": 795,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "ازسوی خریدار به فروشنده پرداخت",
+        "start_char": 5628,
+        "end_char": 5658,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "دلالت سند رسمی ملک آپارتمان پلاک ثبتی... اصلی 28",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "مبایعه نامه عادی شماره 100249",
+        "start_char": 1201,
+        "end_char": 1230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "باقی ثمن در اقساط متعدد",
+        "start_char": 2827,
+        "end_char": 2850,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت باقی‌مانده ثمن معامله در موعد مقرر",
+      "evidence": {
+        "quote": "باقی ثمن نیز تاکنون پرداخت نگردیده است",
+        "start_char": 2901,
+        "end_char": 2939,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انعقاد قرارداد بیع در تاریخ 1391/2/21",
+      "evidence": {
+        "quote": "مورخ 91/2/21",
+        "start_char": 4351,
+        "end_char": 4363,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تحویل آپارتمان پیش از تسویه کامل ثمن",
+      "evidence": {
+        "quote": "پس از تحویل آپارتمان در تیر ماه همان سال",
+        "start_char": 2515,
+        "end_char": 2555,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

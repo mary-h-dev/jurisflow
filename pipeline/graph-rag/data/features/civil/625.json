@@ -1,0 +1,183 @@
+{
+  "ruling_id": "625",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "به خواسته خلع ید از پلاک ثبتی",
+        "start_char": 79,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "و مطالبه اجرت المثل ایام تصرف",
+        "start_char": 198,
+        "end_char": 227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "به انضمام خسارات دادرسی",
+        "start_char": 228,
+        "end_char": 251,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر",
+        "start_char": 807,
+        "end_char": 836,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "ضامن و حافظ مالکیت شرعی و قانونی شهروندان",
+        "start_char": 2091,
+        "end_char": 2132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "لو غصب ارضا فزرعها او غرسها",
+        "start_char": 3934,
+        "end_char": 3961,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "قلع و قمع",
+      "evidence": {
+        "quote": "امکان قلع و قمع و خلع ید و به دنبال آن مطالبه اجرت المثل نیست",
+        "start_char": 659,
+        "end_char": 720,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قلع",
+      "evidence": {
+        "quote": "حکم بر محکومیت خوانده شهرداری منطقه 5 تهران به قلع و نزع درختان غرس شده",
+        "start_char": 5216,
+        "end_char": 5287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "ملک یاد شده به صورت پارک عمومی و فضای سبز در تصرف شهرداری می باشد",
+        "start_char": 1623,
+        "end_char": 1688,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان ش.الف.",
+        "start_char": 0,
+        "end_char": 26,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده شهرداری منطقه 5 تهران",
+        "start_char": 41,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ش.الف.",
+        "start_char": 1015,
+        "end_char": 1040,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "و تجدیدنظرخوانده نیز به این تصرف اقرار نموده",
+        "start_char": 1689,
+        "end_char": 1733,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "خلع ید از پلاک ثبتی... بخش... تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مستحدثات",
+      "evidence": {
+        "quote": "و قلع اشجار و مستحدثات",
+        "start_char": 151,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شهرداری در پلاک مورد نظر درخت کاشته است",
+      "evidence": {
+        "quote": "لایحه شماره... ـ 29/5/90 شهردار منطقه 5 تهران که در شرح لایحه، اقرار به غرس اشجار در پلاک ثبتی مورد نزاع به توسط شهرداری شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زمین دارای کاربری فضای سبز است",
+      "evidence": {
+        "quote": "پلاک موضوع خواسته، دارای کاربری فضای سبز است",
+        "start_char": 454,
+        "end_char": 498,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

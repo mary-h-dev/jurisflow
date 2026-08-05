@@ -1,0 +1,163 @@
+{
+  "ruling_id": "26411",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ملاقات",
+      "evidence": {
+        "quote": "به خواسته ملاقات فرزند",
+        "start_char": 124,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانونی",
+      "evidence": {
+        "quote": "اقامتگاه قانونی زن شوهردار",
+        "start_char": 2041,
+        "end_char": 2067,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "تقدیم محاکم خانواده تهران نموده",
+        "start_char": 244,
+        "end_char": 275,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "صدور دستور موقت مبنی بر ملاقات فرزند مشترک",
+        "start_char": 154,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار عدم",
+      "evidence": {
+        "quote": "مبادرت به صدور قرار عدم صلاحیت",
+        "start_char": 761,
+        "end_char": 791,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "با اعتراض تجدیدنظرخواهی خواهان",
+        "start_char": 1261,
+        "end_char": 1291,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی را نقض و پرونده جهت حل اختلاف",
+        "start_char": 1685,
+        "end_char": 1718,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دلالت دارد که خواهان آقای س.",
+        "start_char": 67,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "عدم ابلاغ اوراق اخطاریه خوانده",
+        "start_char": 552,
+        "end_char": 582,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "هر چند تجدیدنظر خوانده در شیراز سکونت دارد",
+        "start_char": 1527,
+        "end_char": 1569,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "دادخواستی به خواسته ملاقات فرزند",
+        "start_char": 114,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حکم",
+      "evidence": {
+        "quote": "صدور حکم به طرفیت همسرش",
+        "start_char": 212,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی را نقض و پرونده",
+        "start_char": 1685,
+        "end_char": 1704,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در شهرستان شیراز سکونت دارد",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده در شیراز سکونت دارد",
+        "start_char": 1534,
+        "end_char": 1569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اوراق اخطاریه خوانده ابلاغ نشده است",
+      "evidence": {
+        "quote": "عدم ابلاغ اوراق اخطاریه خوانده",
+        "start_char": 552,
+        "end_char": 582,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

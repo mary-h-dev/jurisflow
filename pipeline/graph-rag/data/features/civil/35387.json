@@ -1,0 +1,163 @@
+{
+  "ruling_id": "35387",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام زوجیت",
+        "start_char": 72,
+        "end_char": 100,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استحقاق",
+      "evidence": {
+        "quote": "اصل بر استحقاق",
+        "start_char": 1017,
+        "end_char": 1031,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "منوط به عدم تبرع",
+        "start_char": 417,
+        "end_char": 433,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دائر به مطالبه اجرت المثل",
+        "start_char": 64,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "با ارائه تصویر سند ازدواج",
+        "start_char": 186,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را نقض",
+        "start_char": 1920,
+        "end_char": 1944,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده را به پرداخت اجرت المثل به مبلغ 42000/000ریال حسب نظریه کارشناسی در حق مشارالیها و خسارت دادرسی محکوم می نماید",
+        "start_char": 2002,
+        "end_char": 2128,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان با ارائه تصویر سند ازدواج",
+        "start_char": 179,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت آقای م. ک. فرزند ح.",
+        "start_char": 37,
+        "end_char": 63,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "خود را همسر شرعی و قانونی خوانده معرفی",
+        "start_char": 260,
+        "end_char": 298,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در پرونده باوارد دانستن اعتراض",
+        "start_char": 1836,
+        "end_char": 1878,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده را به پرداخت اجرت المثل",
+        "start_char": 2002,
+        "end_char": 2041,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "ارائه تصویر سند ازدواج شماره... مورخه 1387/8/20",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ازدواج طرفین در تاریخ 1387/8/20",
+      "evidence": {
+        "quote": "مورخه 1387/8/20 تنظیمی دفتر 439 تهران",
+        "start_char": 222,
+        "end_char": 259,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل بر صدور دستور از سوی زوج",
+      "evidence": {
+        "quote": "در فرض خواسته خواهان دلیلی برصدور دستور از سوی خوانده ارائه نگردید",
+        "start_char": 467,
+        "end_char": 533,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

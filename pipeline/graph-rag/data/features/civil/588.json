@@ -1,0 +1,203 @@
+{
+  "ruling_id": "588",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قائم مقامی",
+      "evidence": {
+        "quote": "الزام خواندگان به قائم مقامی مورث خود",
+        "start_char": 134,
+        "end_char": 171,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلح",
+      "evidence": {
+        "quote": "تنظیم سند رسمی صلح نامه",
+        "start_char": 205,
+        "end_char": 228,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سهم الارث",
+      "evidence": {
+        "quote": "نسبت به سهم الارث خود",
+        "start_char": 229,
+        "end_char": 250,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "امر مختومه",
+      "evidence": {
+        "quote": "ایراد و اعتبار امر مختومه",
+        "start_char": 474,
+        "end_char": 499,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض قرار تجدیدنظرخواسته",
+        "start_char": 2370,
+        "end_char": 2397,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خواندگان",
+        "start_char": 124,
+        "end_char": 148,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "و تنظیم سند رسمی",
+        "start_char": 203,
+        "end_char": 219,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی ایشان را صادر",
+        "start_char": 1107,
+        "end_char": 1133,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را جهت رسیدگی ماهوی به مرجع محترم بدوی اعاده می نماید",
+        "start_char": 2399,
+        "end_char": 2458,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان به قائم مقامی",
+        "start_char": 134,
+        "end_char": 162,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ادله ابرازی خواهان نیز",
+        "start_char": 566,
+        "end_char": 588,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "قرار رد دعوی اولیه تجدیدنظرخواهان ها",
+        "start_char": 1518,
+        "end_char": 1554,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "الزام تجدیدنظرخواندگان به قائم مقامی",
+        "start_char": 1565,
+        "end_char": 1601,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "مورث",
+      "evidence": {
+        "quote": "قائم مقامی مورث خود",
+        "start_char": 152,
+        "end_char": 171,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "یک باب مغازه پلاک ثبتی 27195",
+        "start_char": 278,
+        "end_char": 306,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه عادی",
+      "evidence": {
+        "quote": "به استناد صلح نامه عادی مورخ 28/11/82",
+        "start_char": 725,
+        "end_char": 762,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "تنظیم سند رسمی صلح نامه",
+        "start_char": 205,
+        "end_char": 228,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود صلح‌نامه عادی مورخ ۸۲/۱۱/۲۸",
+      "evidence": {
+        "quote": "به استناد صلح نامه عادی مورخ 28/11/82",
+        "start_char": 725,
+        "end_char": 762,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "صدور قرار رد دعوی در مرحله بدوی",
+      "evidence": {
+        "quote": "قرار رد دعوی اولیه تجدیدنظرخواهان ها",
+        "start_char": 1518,
+        "end_char": 1554,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

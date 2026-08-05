@@ -1,0 +1,183 @@
+{
+  "ruling_id": "7130",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد دائم",
+      "evidence": {
+        "quote": "به عقد دائم و شرعی",
+        "start_char": 249,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "تمکین زوجه از زوج",
+        "start_char": 916,
+        "end_char": 933,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "از حق حبس خود مقرر 1085 قانون مدنی",
+        "start_char": 2130,
+        "end_char": 2164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه و نفقه خویش را دریافت ننموده است",
+        "start_char": 2175,
+        "end_char": 2213,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مهریه و نفقه خویش را دریافت ننموده است",
+        "start_char": 2175,
+        "end_char": 2213,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "ردّ دعوای خواهان را نموده است",
+        "start_char": 2457,
+        "end_char": 2486,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض حکم وفق مواد 1102- 1103- 1114 قانون مدنی",
+        "start_char": 4140,
+        "end_char": 4187,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت س.ب. فرزند ش. با وکالت م.ح. به خواسته الزام خوانده به تمکین عام و خاص وکیل خواهان توضیح داده است",
+        "start_char": 76,
+        "end_char": 181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین عام و خاص",
+        "start_char": 123,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تمکین زوجه از زوج",
+        "start_char": 916,
+        "end_char": 933,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "الزام زوجه به تمکین",
+        "start_char": 2089,
+        "end_char": 2108,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "برابر عقدنامه تنظیمی دفترخانه",
+        "start_char": 188,
+        "end_char": 217,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اصل 40",
+      "evidence": {
+        "quote": "اصل قولنامه در دست خوانده محترم می باشد",
+        "start_char": 1294,
+        "end_char": 1333,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "نشانی منزل مسکونی موکل",
+        "start_char": 1156,
+        "end_char": 1178,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده خانه را رها کرده و به منزل پدر رفته است",
+      "evidence": {
+        "quote": "خوانده در تاریخ حدوداً 2/9/1382 خانه و کاشانه خود را رها کرده و به منزل پدر خود رفته",
+        "start_char": 331,
+        "end_char": 415,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرده بکارت زوجه سالم است",
+      "evidence": {
+        "quote": "پرده بکارت از نوع حلقوی و بدون پارگی است",
+        "start_char": 2905,
+        "end_char": 2945,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج منزل مستقل فراهم نکرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه مقدمات تمکین ازجمله منزل مستقل را فراهم ننموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

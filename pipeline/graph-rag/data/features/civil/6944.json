@@ -1,0 +1,183 @@
+{
+  "ruling_id": "6944",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "صدور حکم به اعتراض ثالث اجرایی",
+        "start_char": 89,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال مزایده",
+        "start_char": 122,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "ابطال سند رسمی",
+        "start_char": 153,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "اقرار تلویحی به مالکیت خود بر ملک مذکور نموده است",
+        "start_char": 2034,
+        "end_char": 2083,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "خواهان اقدام به طرح دعوی می نماید",
+        "start_char": 833,
+        "end_char": 866,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی به این شرح که",
+        "start_char": 297,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را به شرح فوق تأیید می نماید",
+        "start_char": 3402,
+        "end_char": 3454,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در این ترتیب در اجرای ماده 147 قانون اجرای احکام مدنی خواهان اقدام به طرح دعوی می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "آقای ن.ن. خوانده ردیف اول",
+        "start_char": 397,
+        "end_char": 422,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه ایراد و اعتراض مؤثر و مدللی",
+        "start_char": 2923,
+        "end_char": 2970,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک شماره 1074/12",
+        "start_char": 526,
+        "end_char": 543,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی آن بنام ن.ن. بوده است",
+        "start_char": 547,
+        "end_char": 577,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "به موجب قرارداد عادی 20/1/88",
+        "start_char": 678,
+        "end_char": 706,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "کپی مصدق مبایعه نامه",
+        "start_char": 215,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده محکوم به پرداخت مبلغ ۳۹۰ هزار ریال شده است",
+      "evidence": {
+        "quote": "آقای ن.ن. خوانده ردیف اول محکوم به پرداخت مبلغ 390 هزار ریال در حق خوانده ردیف دوم م.س. می گردد",
+        "start_char": 397,
+        "end_char": 492,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک توسط اجرای احکام توقیف شده است",
+      "evidence": {
+        "quote": "ملک معرفی شده به موجب قرارداد عادی 20/1/88 و قبل از توقیف ملک از سوی اجرای احکام به خواهان انتقال یافته بوده است",
+        "start_char": 664,
+        "end_char": 776,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان فاقد سند رسمی است",
+      "evidence": {
+        "quote": "خواهان فاقد سند رسمی می باشد",
+        "start_char": 1217,
+        "end_char": 1245,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

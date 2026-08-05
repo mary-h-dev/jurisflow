@@ -1,0 +1,203 @@
+{
+  "ruling_id": "35316",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "با توجه به اصل عدم تبرع که نتیجه اماره مدیونیت است",
+        "start_char": 751,
+        "end_char": 801,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "این اماره مقدم بر اصل برائت است",
+        "start_char": 840,
+        "end_char": 871,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "در خصوص عقد حواله که بموجب آن طلب مشخص از ذمه مدیون به ذمه شخص ثالث منتقل می شود",
+        "start_char": 874,
+        "end_char": 954,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "مقرر بوده خدمات و تعهدی انجام دهد",
+        "start_char": 230,
+        "end_char": 263,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مدیونیت",
+      "evidence": {
+        "quote": "ظاهر در عدم تبرع است وی می تواند آن را استرداد نماید مگر اینکه مراتب مدیونیت و اشتغال ذمه واریز کننده به طریق قانون به سرحد اثبات برسد",
+        "start_char": 2934,
+        "end_char": 3068,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "مبلغ 1/600/000/000 ریال به حساب خوانده واریز",
+        "start_char": 183,
+        "end_char": 227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "تقاضای استرداد آن را دارد",
+        "start_char": 324,
+        "end_char": 349,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده به پرداخت مبلغ 1/600/000/000 ریال است",
+        "start_char": 1899,
+        "end_char": 1958,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان آقای م. ف.",
+        "start_char": 30,
+        "end_char": 47,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت آقای م. س.م.ز.",
+        "start_char": 70,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی م. س.م.ز.",
+        "start_char": 2247,
+        "end_char": 2270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده م. ف. اصدار یافته",
+        "start_char": 2590,
+        "end_char": 2628,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محيل",
+      "evidence": {
+        "quote": "ظهور در مدیون بودن محیل به محتال بوده",
+        "start_char": 962,
+        "end_char": 999,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "محتال",
+      "evidence": {
+        "quote": "محیل به محتال بوده",
+        "start_char": 981,
+        "end_char": 999,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "الیه",
+      "evidence": {
+        "quote": "بنام محال الیه نیز لازم است",
+        "start_char": 3331,
+        "end_char": 3358,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بانکی",
+      "evidence": {
+        "quote": "برابر رسید حواله بانکی شماره... - 93/12/10",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ 1/600/000/000 ریال به حساب خوانده واریز",
+        "start_char": 183,
+        "end_char": 227,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واریز مبلغ از حساب خواهان به حساب خوانده",
+      "evidence": {
+        "quote": "مبلغ 1/600/000/000 ریال به حساب خوانده واریز",
+        "start_char": 183,
+        "end_char": 227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات انجام تعهد توسط خواهان",
+      "evidence": {
+        "quote": "خواهان دلیلی مبنی بر وجود تعهد و عدم انجام آن ارائه ننموده است",
+        "start_char": 419,
+        "end_char": 481,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

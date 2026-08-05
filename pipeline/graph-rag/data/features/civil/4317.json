@@ -1,0 +1,183 @@
+{
+  "ruling_id": "4317",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تهاتر",
+      "evidence": {
+        "quote": "و تهاتر محکوم به",
+        "start_char": 192,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "دین ممتازه محسوب می گردد",
+        "start_char": 1843,
+        "end_char": 1867,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "توقیف صورت گرفته مقدم به ادعای خواهان اصلی است",
+        "start_char": 1055,
+        "end_char": 1101,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه سه فقره چک",
+        "start_char": 45,
+        "end_char": 76,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده دعوی اصلی به پرداخت مبلغ",
+        "start_char": 1385,
+        "end_char": 1422,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "قابل تجدیدنظر در محاکم محترم تجدیدنظر",
+        "start_char": 2009,
+        "end_char": 2046,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با پذیرش دعوی ورود ثالث نقض می نماید",
+        "start_char": 3421,
+        "end_char": 3457,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار نموده است",
+        "start_char": 311,
+        "end_char": 338,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده به موجب سه فقره چک",
+        "start_char": 339,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "به خواهان دعوی اصلی (موجر)",
+        "start_char": 2740,
+        "end_char": 2766,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به بخشی از دادنامه شماره 378مورخ 25/5/91 صادره از شعبه محترم 150 دادگاه عمومی حقوقی تهران که بر اساس آن حکم به بطلان دعوی ورود ثالث تجدیدنظرخواه",
+        "start_char": 2192,
+        "end_char": 2341,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده ردیف دوم نزد تجدیدنظرخوانده ردیف اول",
+        "start_char": 2482,
+        "end_char": 2533,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "سه فقره چک به شماره 44/344531",
+        "start_char": 354,
+        "end_char": 383,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ودیعه",
+      "evidence": {
+        "quote": "با بخشی از ودیعه موضوع اجاره نامه",
+        "start_char": 210,
+        "end_char": 243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره‌نامه",
+      "evidence": {
+        "quote": "موضوع اجاره نامه شماره 372786- 25/10/89",
+        "start_char": 227,
+        "end_char": 266,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ودیعه نزد خواهان توقیف شده است",
+      "evidence": {
+        "quote": "و مبلغ ودیعه نزد خواهان دعوی اصلی توقیف شده است",
+        "start_char": 964,
+        "end_char": 1011,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ودیعه پیش از طرح دعوی اصلی توقیف شده بود",
+      "evidence": {
+        "quote": "ودیعه نزد تجدیدنظرخوانده ردیف اول به عنوان منبع تأمین آن پیش از طرح دعوی اصلی و معرفی شخص اخیر به موجب تصمیم قضایی توقیف شده بود",
+        "start_char": 3050,
+        "end_char": 3178,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

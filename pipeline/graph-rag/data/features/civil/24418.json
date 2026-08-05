@@ -1,0 +1,183 @@
+{
+  "ruling_id": "24418",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "به خواستۀ اعسار",
+        "start_char": 56,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان دعوی خواهان",
+        "start_char": 438,
+        "end_char": 455,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تاخیر تادیه",
+        "start_char": 1886,
+        "end_char": 1903,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدید نظرخواهی",
+        "start_char": 110,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انکار",
+      "evidence": {
+        "quote": "مورد انکار خوانده واقع شده",
+        "start_char": 335,
+        "end_char": 361,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه داین",
+        "start_char": 2574,
+        "end_char": 2585,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "درخور نقض می باشد",
+        "start_char": 2096,
+        "end_char": 2113,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ادعای خواهان",
+        "start_char": 322,
+        "end_char": 334,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مورد انکار خوانده واقع شده",
+        "start_char": 335,
+        "end_char": 361,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 649,
+        "end_char": 661,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده",
+        "start_char": 2008,
+        "end_char": 2022,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدیون",
+      "evidence": {
+        "quote": "امتناع مدیون از پرداخت",
+        "start_char": 2543,
+        "end_char": 2565,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "وجه شش فقره چک",
+        "start_char": 1811,
+        "end_char": 1825,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "صورتجلسه",
+      "evidence": {
+        "quote": "مفاد توافقنامه صورتجلسه",
+        "start_char": 2137,
+        "end_char": 2160,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان و شهود در جلسه دادرسی حاضر نشده‌اند",
+      "evidence": {
+        "quote": "خواهان و شهود وی در جلسه دادرسی حاضر نشده اند",
+        "start_char": 182,
+        "end_char": 227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "استشهادیه کتبی فاقد شرایط قانونی است",
+      "evidence": {
+        "quote": "استشهادیه کتبی منضمّ دادخواست فاقد شرایط مندرج در ماده 506 قانون آیین دادرسی مدنی می باشد",
+        "start_char": 230,
+        "end_char": 319,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرط صورتجلسه با مقررات آمره در تعارض است",
+      "evidence": {
+        "quote": "شرط مزبور که با توافق اراده طرفین وفق ماده ده قانون مدنی منعقد شده با مقررات آمره موضوع ماده 522 قانون ایین دادرسی مدنی در تعارض بوده",
+        "start_char": 2356,
+        "end_char": 2489,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

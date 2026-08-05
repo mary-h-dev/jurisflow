@@ -1,0 +1,153 @@
+{
+  "ruling_id": "28504",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت",
+        "start_char": 222,
+        "end_char": 239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "امانی",
+      "evidence": {
+        "quote": "ید زوج براجناس جهیزیه زوجه امانی تلقی می شود",
+        "start_char": 395,
+        "end_char": 439,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی آقای ف. س.",
+        "start_char": 1085,
+        "end_char": 1116,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "الزام خوانده به استرداد جهیزیه",
+        "start_char": 97,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "در صورت مطالبه مستودع",
+        "start_char": 562,
+        "end_char": 583,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "ضمن ردّ تجدیدنظرخواهی",
+        "start_char": 1721,
+        "end_char": 1742,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت آقای ف. م. فرزند ق. به خواسته الزام خوانده",
+        "start_char": 58,
+        "end_char": 109,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به استرداد جهیزیه",
+        "start_char": 97,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه به استرداد جهیزیه",
+        "start_char": 1239,
+        "end_char": 1277,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "استرداد جهیزیه",
+        "start_char": 113,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به دلالت فتوکپی مصدق سند نکاحیه",
+        "start_char": 246,
+        "end_char": 277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "طلا",
+      "evidence": {
+        "quote": "حذف پنج عدد النگوی طلا",
+        "start_char": 1348,
+        "end_char": 1370,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت",
+        "start_char": 222,
+        "end_char": 239,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اقلام جهیزیه در اختیار زوج است",
+      "evidence": {
+        "quote": "ید زوج براجناس جهیزیه زوجه امانی تلقی می شود",
+        "start_char": 395,
+        "end_char": 439,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

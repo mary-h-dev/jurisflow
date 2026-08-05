@@ -1,0 +1,203 @@
+{
+  "ruling_id": "811",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "به خواسته تنفیذ طلاق",
+        "start_char": 92,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "و ابطال اجرائیه",
+        "start_char": 113,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی آقای ب. ع. صادر می نماید",
+        "start_char": 1006,
+        "end_char": 1045,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص دادخواست تجدیدنظرخواهی ب.ع.",
+        "start_char": 1184,
+        "end_char": 1218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "موجبات نقض دادنامه تجدیدنظرخواسته را ایجاب نماید",
+        "start_char": 1530,
+        "end_char": 1578,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابرام",
+      "evidence": {
+        "quote": "و ابرام می نماید",
+        "start_char": 1821,
+        "end_char": 1837,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "به خواسته تنفیذ طلاق",
+        "start_char": 92,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "و ابطال اجرائیه",
+        "start_char": 113,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در محاکم تجدیدنظر",
+        "start_char": 1079,
+        "end_char": 1108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص دادخواست تجدیدنظرخواهی ب.ع.",
+        "start_char": 1184,
+        "end_char": 1218,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مدارک و مستندات ابرازی خواهان",
+        "start_char": 160,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "لایحه تقدیمی از طرف خوانده",
+        "start_char": 240,
+        "end_char": 266,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجه",
+        "start_char": 1487,
+        "end_char": 1511,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجرائیه",
+      "evidence": {
+        "quote": "و ابطال اجرائیه",
+        "start_char": 113,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأیی که از طرف دادگاه عالی کالیفرنیا",
+        "start_char": 663,
+        "end_char": 699,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 9009970216100210-25/2/90",
+        "start_char": 1238,
+        "end_char": 1284,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رأی صادره از دادگاه کالیفرنیا قابلیت تنفیذ ندارد",
+      "evidence": {
+        "quote": "پس قابلیت تنفیذ ندارد",
+        "start_char": 767,
+        "end_char": 788,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجین هر دو ایرانی هستند",
+      "evidence": {
+        "quote": "با توجه به اینکه زوجین هر دو ایرانی هستند",
+        "start_char": 519,
+        "end_char": 560,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ردیف اول در جلسه دادرسی حضور نیافته است",
+      "evidence": {
+        "quote": "خوانده ردیف اول در جلسه دادرسی حضور نیافته",
+        "start_char": 284,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "ruling_id": "37106",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 103,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت دائم",
+      "evidence": {
+        "quote": "احراز وجود علقه زوجیت دائم",
+        "start_char": 2516,
+        "end_char": 2542,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "ادعای اعسار او از پرداخت مهریه",
+        "start_char": 4801,
+        "end_char": 4831,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی نموده",
+        "start_char": 3760,
+        "end_char": 3779,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "فرجام خواهی نموده",
+        "start_char": 4166,
+        "end_char": 4183,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "نصف اموال را مطالبه دارم",
+        "start_char": 1348,
+        "end_char": 1372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض تجدیدنظرخواه را غیروارد تشخیص",
+        "start_char": 3923,
+        "end_char": 3959,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد فرجام خواهی فرجام خواه صادر و اعلام می گردد",
+        "start_char": 6010,
+        "end_char": 6061,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار داشت",
+        "start_char": 327,
+        "end_char": 349,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "سوی رفتار خوانده",
+        "start_char": 171,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به درخواست زوج ( فرجام خواه )",
+        "start_char": 4594,
+        "end_char": 4623,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در خصوص نفقه ایام گذشته با توجه به اظهارات زوجه",
+        "start_char": 3187,
+        "end_char": 3233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "فرجام خواهی نموده",
+        "start_char": 4166,
+        "end_char": 4183,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "باید مهریه مرا به طور کامل پرداخت نماید",
+        "start_char": 1055,
+        "end_char": 1094,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "نفقه ایام عده را می خواهم",
+        "start_char": 1393,
+        "end_char": 1418,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "دارای لیست جهیزیه هستم",
+        "start_char": 1307,
+        "end_char": 1329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "تمام اموال و دارایی موکل",
+        "start_char": 687,
+        "end_char": 711,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم امکان سازش بین طرفین",
+      "evidence": {
+        "quote": "حاکی از عدم حصول سازش بین طرفین بوده",
+        "start_char": 1860,
+        "end_char": 1896,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم وجود املاک یا خودرو به نام زوج",
+      "evidence": {
+        "quote": "در بانک اطلاعات املاک سازمان ثبت هیچ مالکیتی به نام اقای ع. م. و همچنین در سامانه شماره گذاری وسیله نقلیه ای به نام اقای ع. م. مشاهده نشده",
+        "start_char": 2256,
+        "end_char": 2394,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

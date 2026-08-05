@@ -1,0 +1,233 @@
+{
+  "ruling_id": "34772",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "دادخواستی به خواسته طلاق",
+        "start_char": 267,
+        "end_char": 291,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم پرداخت",
+      "evidence": {
+        "quote": "عدم پرداخت نفقه بیش از شش ماه",
+        "start_char": 326,
+        "end_char": 355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "بلحاظ تحقق شرط ضمن عقد",
+        "start_char": 460,
+        "end_char": 482,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفاق",
+      "evidence": {
+        "quote": "موضوع اتهام ترک انفاق",
+        "start_char": 2207,
+        "end_char": 2228,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "رفع عسر و حرج در شرایط موجود",
+        "start_char": 3558,
+        "end_char": 3586,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلع",
+      "evidence": {
+        "quote": "از قسم خلع می باشد",
+        "start_char": 4715,
+        "end_char": 4733,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه پرونده استنادی خواهان",
+        "start_char": 3160,
+        "end_char": 3188,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی وکلای او تقلیل یافته است",
+        "start_char": 2553,
+        "end_char": 2591,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "رأی فرجام خواسته نقض و پرونده جهت رسیدگی مجدد",
+        "start_char": 10027,
+        "end_char": 10072,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "عقد زوجیت بین آنان",
+        "start_char": 607,
+        "end_char": 625,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "ولی زوجه",
+        "start_char": 653,
+        "end_char": 661,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در جلسه رسیدگی که خوانده حضور نیافته است",
+        "start_char": 748,
+        "end_char": 788,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان بشرح دادخواست",
+        "start_char": 789,
+        "end_char": 809,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "با معرفی داور از طرف زوجه",
+        "start_char": 1118,
+        "end_char": 1143,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "مستنداً به بند ب و بند 1 عقدنامه",
+        "start_char": 292,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "مندرج در سند نکاحیه",
+        "start_char": 437,
+        "end_char": 456,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بابت مهریه جلب گرفته ام",
+        "start_char": 972,
+        "end_char": 995,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "زوجه جهیزیه خویش را تحویل گرفته",
+        "start_char": 4485,
+        "end_char": 4516,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ سی میلیون ریال به واسطه وکلای خود",
+        "start_char": 5554,
+        "end_char": 5592,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج از تاریخ 92/12/28 زوجه را به منزل پدرش فرستاده است",
+      "evidence": {
+        "quote": "زوج از تاریخ 92/12/28 مرا بمنزل پدرم فرستاده است",
+        "start_char": 675,
+        "end_char": 723,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به جرم ترک انفاق به حبس محکوم شده است",
+      "evidence": {
+        "quote": "زوج با تهام ترک انفاق در حق زوجه دائم خویش به محکومیت قطعی چهارماه حبس تعزیری محکوم گردیده است",
+        "start_char": 3265,
+        "end_char": 3359,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج و زوجه فرزند مشترک ندارند",
+      "evidence": {
+        "quote": "زوجین فاقد فرزند مشترک می باشند",
+        "start_char": 4539,
+        "end_char": 4570,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "699",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین از زوج",
+        "start_char": 70,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به بی حقی و رد دعوی مطروحه صادر",
+        "start_char": 643,
+        "end_char": 678,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای غ.ف.",
+        "start_char": 859,
+        "end_char": 882,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "حکم تجدیدنظرخواسته را تأیید می نماید",
+        "start_char": 1409,
+        "end_char": 1445,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 70,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تمکین از زوج",
+        "start_char": 86,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "برای زوجه محرز نمی گردد",
+        "start_char": 362,
+        "end_char": 385,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت خانم گ.الف. به خواسته",
+        "start_char": 27,
+        "end_char": 57,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "رد دعوای تجدیدنظرخواه",
+        "start_char": 1000,
+        "end_char": 1021,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 992",
+        "start_char": 904,
+        "end_char": 924,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم اثبات تمکین توسط خواهان",
+      "evidence": {
+        "quote": "خواهان جهت اثبات موارد ادعایی خود در اثبات عدم تمکین خوانده، دلیل موجه و قانع کننده ای که موجبات اقناع وجدانی را فراهم آورد، ابراز ننموده",
+        "start_char": 402,
+        "end_char": 539,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تحقق امنیت روحی و روانی برای زوجه",
+      "evidence": {
+        "quote": "این امنیت در حال حاضر برای دادگاه از ناحیه زوج برای زوجه محرز نمی گردد",
+        "start_char": 315,
+        "end_char": 385,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

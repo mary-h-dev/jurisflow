@@ -1,0 +1,163 @@
+{
+  "ruling_id": "10513",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "نظر به اینکه تنظیم قرارداد اجاره بین خواندگان توسط خواهان به عنوان متصدی مشاور املاک، محرز است",
+        "start_char": 727,
+        "end_char": 821,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توافق",
+      "evidence": {
+        "quote": "ادعای حصول توافق طرفین به هزینه کمتر",
+        "start_char": 3005,
+        "end_char": 3041,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "ادعای فسخ آن قرارداد نیز ثابت نیست",
+        "start_char": 3260,
+        "end_char": 3294,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "نظر به اینکه تنظیم قرارداد اجاره بین خواندگان توسط خواهان به عنوان متصدی مشاور املاک، محرز است",
+        "start_char": 727,
+        "end_char": 821,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "که خواندگان از پرداخت حق‌العمل خودداری کرده‌اند",
+        "start_char": 412,
+        "end_char": 459,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "دفاع",
+      "evidence": {
+        "quote": "خواندگان ضمن لایحه‌ی جداگانه و نیز در جلسه‌ی رسیدگی دفاع کرده‌اند",
+        "start_char": 461,
+        "end_char": 526,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "لذا نسبت به مازاد، مستحق مطالبه نمی‌باشد",
+        "start_char": 2342,
+        "end_char": 2382,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای ر.م. به طرفیت آقایان م.الف. و ن.الف. و ج.م.",
+        "start_char": 0,
+        "end_char": 61,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای ر.م. به طرفیت آقایان م.الف. و ن.الف. و ج.م.",
+        "start_char": 0,
+        "end_char": 61,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشاور",
+      "evidence": {
+        "quote": "به عنوان متصدی مشاور املاک برای خواندگان اقدام به تنظیم سند اجاره نموده",
+        "start_char": 168,
+        "end_char": 239,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجاره",
+      "evidence": {
+        "quote": "به عنوان متصدی مشاور املاک برای خواندگان اقدام به تنظیم سند اجاره نموده",
+        "start_char": 168,
+        "end_char": 239,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "نظر به اینکه تنظیم قرارداد اجاره بین خواندگان توسط خواهان به عنوان متصدی مشاور املاک، محرز است",
+        "start_char": 727,
+        "end_char": 821,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت انجام نشده",
+      "evidence": {
+        "quote": "که خواندگان از پرداخت حق‌العمل خودداری کرده‌اند",
+        "start_char": 412,
+        "end_char": 459,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد امضا شده",
+      "evidence": {
+        "quote": "نظر به اینکه تنظیم قرارداد اجاره بین خواندگان توسط خواهان به عنوان متصدی مشاور املاک، محرز است",
+        "start_char": 727,
+        "end_char": 821,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دفاع انجام شده",
+      "evidence": {
+        "quote": "خواندگان ضمن لایحه‌ی جداگانه و نیز در جلسه‌ی رسیدگی دفاع کرده‌اند",
+        "start_char": 461,
+        "end_char": 526,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

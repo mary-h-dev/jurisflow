@@ -1,0 +1,143 @@
+{
+  "ruling_id": "28979",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "جعل",
+      "evidence": {
+        "quote": "دائر بر جعل",
+        "start_char": 74,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استفاده از سند مجعول",
+      "evidence": {
+        "quote": "استفاده از سند مجعول",
+        "start_char": 87,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 242,
+        "end_char": 257,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "صلاحیت دادسرای مرکز استان",
+        "start_char": 1087,
+        "end_char": 1112,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض از سوی متهم خواهد بود",
+        "start_char": 413,
+        "end_char": 446,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار عدم",
+      "evidence": {
+        "quote": "صدور قرار عدم صلاحیت",
+        "start_char": 942,
+        "end_char": 962,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حل اختلاف",
+      "evidence": {
+        "quote": "جهت حل اختلاف به دادگاه محترم تجدید نظر استان تهران ارسال شود",
+        "start_char": 1698,
+        "end_char": 1759,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "از سوی متهم خواهد بود",
+        "start_char": 425,
+        "end_char": 446,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "رئیس",
+      "evidence": {
+        "quote": "متهم ردیف رئیس بانک",
+        "start_char": 885,
+        "end_char": 904,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "موضوع شکایت آقای الف. م.",
+        "start_char": 787,
+        "end_char": 811,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "استفاده از سند مجعول",
+        "start_char": 87,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "محل وقوع احتمالی بزه در حوزه قضایی شهرستان قدس است",
+      "evidence": {
+        "quote": "محل وقوع احتمالی بزه معنونه در حوزه قضایی دادسرای شهرستان قدس می باشد",
+        "start_char": 2154,
+        "end_char": 2223,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بانک مذکور غیر دولتی محسوب می‌شود",
+      "evidence": {
+        "quote": "بانک... از سال 1388 تا کنون غیر دولتی نیز محسوب می شود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

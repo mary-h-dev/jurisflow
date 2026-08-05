@@ -1,0 +1,133 @@
+{
+  "ruling_id": "30929",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تقاضای صدور قرار استماع شهادت شهود موکل و سپس صدور حکم به اعلام فسخ",
+        "start_char": 151,
+        "end_char": 218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "تقاضای موکل اعلام انفساخ قرارداد می باشد",
+        "start_char": 3828,
+        "end_char": 3867,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهدات",
+      "evidence": {
+        "quote": "ولذا اصل لزوم و پای بندی به قراردادها و تعهدات",
+        "start_char": 17580,
+        "end_char": 17623,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "تقاضای صدور قرار استماع شهادت شهود موکل و سپس صدور حکم به اعلام فسخ",
+        "start_char": 151,
+        "end_char": 218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به طرح دعوایی علیه موکل به خواسته تعیین و پرداخت سود مشارکت مبادرت می نماید",
+        "start_char": 2252,
+        "end_char": 2327,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "موکل اینجانب به موجب شراکت نامه عادی مورخه 1374/6/15 باخوانده",
+        "start_char": 796,
+        "end_char": 857,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "باخوانده ( که ازقبل راننده کارگاه موکل بوده )",
+        "start_char": 849,
+        "end_char": 894,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاهد",
+      "evidence": {
+        "quote": "آقای غ. ق. به عنوان شهود خوانده در جلسه رسیدگی چنین اظهار می نماید",
+        "start_char": 15052,
+        "end_char": 15116,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت",
+      "evidence": {
+        "quote": "اعلام فسخ قرارداد مشارکت عادی مورخه 74/6/15",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه عادی",
+      "evidence": {
+        "quote": "به موجب شراکت نامه عادی مورخه 1374/6/15",
+        "start_char": 809,
+        "end_char": 848,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "کارگاه به دلیل عدم رعایت موازین زیست محیطی پلمپ شده است",
+      "evidence": {
+        "quote": "برابر با عرف جامعه پلمپ شرکت به جهت عدم رعایت مسائل زیست محیطی ملازمه ای با تلف مال مشترک ندارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان در کارگاه جدید به صورت شخصی فعالیت می‌کند",
+      "evidence": {
+        "quote": "خواهان در نزد شهود مذکور اقرار به وجود شراکت فی مابین خواهان و خوانده بدین گونه که 35% آقای م.ن. و 65% آقای ف.الف. می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.8
+      }
+    }
+  ]
+}

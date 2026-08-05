@@ -1,0 +1,173 @@
+{
+  "ruling_id": "499",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "امر مختومه",
+      "evidence": {
+        "quote": "اعتبار امر مختومه",
+        "start_char": 1341,
+        "end_char": 1358,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصل",
+      "evidence": {
+        "quote": "اصل بر بقاء آن",
+        "start_char": 2139,
+        "end_char": 2153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لاضرر",
+      "evidence": {
+        "quote": "قاعده لاضرر",
+        "start_char": 2393,
+        "end_char": 2404,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ یک صد میلیون ریال",
+        "start_char": 84,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبادرت به پرداخت مبلغ خواسته",
+        "start_char": 853,
+        "end_char": 881,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان ردیف دوم را صادر می نماید",
+        "start_char": 1446,
+        "end_char": 1491,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را تأیید",
+        "start_char": 3852,
+        "end_char": 3883,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان ردیف اول",
+        "start_char": 2700,
+        "end_char": 2721,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده",
+        "start_char": 1045,
+        "end_char": 1059,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه محکوم به پرداخت",
+        "start_char": 3203,
+        "end_char": 3231,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت مدنی",
+      "evidence": {
+        "quote": "برابر قرارداد مشارکت مدنی مورخ 19/2/80",
+        "start_char": 262,
+        "end_char": 300,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "ساخت و تکمیل و تحویل 12 واحد آپارتمان مسکونی",
+        "start_char": 456,
+        "end_char": 500,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبلغ یک",
+      "evidence": {
+        "quote": "مبلغ یک صد میلیون ریال",
+        "start_char": 101,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قبض",
+      "evidence": {
+        "quote": "طی قبض شماره 1619",
+        "start_char": 914,
+        "end_char": 931,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تأخیر در تسویه حساب‌ها",
+      "evidence": {
+        "quote": "این امر چندین سال به تأخیر افتاده است",
+        "start_char": 744,
+        "end_char": 781,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت بخشی از اقساط وام توسط خواهان",
+      "evidence": {
+        "quote": "حکایت از پرداخت مبلغ یک صد میلیون ریال به عنوان قسمتی از اقساط وام توسط خواهان داشته",
+        "start_char": 1764,
+        "end_char": 1848,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "21237",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته فسخ قرارداد",
+        "start_char": 58,
+        "end_char": 79,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غبن",
+      "evidence": {
+        "quote": "به علت غبن",
+        "start_char": 136,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "به استناد خیار غبن",
+        "start_char": 752,
+        "end_char": 770,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "و استرداد مبیع",
+        "start_char": 147,
+        "end_char": 161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض",
+        "start_char": 1710,
+        "end_char": 1721,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه الباقی ثمن",
+        "start_char": 2704,
+        "end_char": 2721,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه فرجام‌خواسته نقض",
+        "start_char": 4021,
+        "end_char": 4045,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "پس از استماع اظهارات خواهان",
+        "start_char": 921,
+        "end_char": 948,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به خواندگان فروخته",
+        "start_char": 395,
+        "end_char": 413,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "فرجام‌خواه مدعی است",
+        "start_char": 2970,
+        "end_char": 2989,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "فسخ قرارداد",
+        "start_char": 68,
+        "end_char": 79,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سرقفلی",
+      "evidence": {
+        "quote": "سرقفلی مغازه تجاری",
+        "start_char": 350,
+        "end_char": 368,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "اقدام به تنظیم سند رسمی",
+        "start_char": 640,
+        "end_char": 663,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فروش سرقفلی مغازه با قیمت کمتر از قیمت واقعی",
+      "evidence": {
+        "quote": "متوجه شده سرقفلی ملک را بسیار کمتر از قیمت واقعی فروخته",
+        "start_char": 437,
+        "end_char": 492,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تأخیر در اعلام غبن",
+      "evidence": {
+        "quote": "حدود یکسال و نیم پس از اطلاع از غبن مبادرت به تقدیم دادخواست نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

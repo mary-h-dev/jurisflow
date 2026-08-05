@@ -1,0 +1,143 @@
+{
+  "ruling_id": "25275",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "کلاهبرداری",
+      "evidence": {
+        "quote": "شکایت کلاهبرداری مطرح نموده",
+        "start_char": 849,
+        "end_char": 876,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 334,
+        "end_char": 351,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه تجدیدنظر استان تهران است",
+        "start_char": 4357,
+        "end_char": 4410,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خواندگان به نحو تضامنی به پرداخت وجه",
+        "start_char": 154,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "شکایت",
+      "evidence": {
+        "quote": "شکایت کلاهبرداری مطرح نموده",
+        "start_char": 849,
+        "end_char": 876,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "برگشت",
+      "evidence": {
+        "quote": "از طریق بانک مربوطه برگشت شده‌اند",
+        "start_char": 1257,
+        "end_char": 1290,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بیان داشته در سال 1391 در ازاء فروش و تحویل مقادیر زیادی ضایعات پلاستیک به خواندگان اول و دوم",
+        "start_char": 417,
+        "end_char": 510,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان به اسامی",
+        "start_char": 61,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ظهرنویس",
+      "evidence": {
+        "quote": "مسئولیت ظهر نویس باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چک‌های مذکور بعضاً سرقتی و جعلی هستند",
+        "start_char": 750,
+        "end_char": 787,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک‌ها جعلی و سرقتی هستند",
+      "evidence": {
+        "quote": "محرز شده که 21 فقره از آن چک‌ها جعلی و سرقتی است",
+        "start_char": 1024,
+        "end_char": 1072,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک‌ها از بانک برگشت خورده‌اند",
+      "evidence": {
+        "quote": "چک‌های موضوع این پرونده نیز از جمله چک‌های اصیل مذکور هستند که چک شمارۀ 564417 در سال 1391 برگشت شده است",
+        "start_char": 1303,
+        "end_char": 1407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواندگان در مورد چک‌های جعلی محکوم به حبس شده‌اند",
+      "evidence": {
+        "quote": "خواندگان اول و دوم در مورد چک‌های جعلی و سرقتی به جرم کلاهبرداری به حبس و جزای نقدی و رد مال محکوم شده‌اند",
+        "start_char": 1075,
+        "end_char": 1181,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

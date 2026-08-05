@@ -1,0 +1,183 @@
+{
+  "ruling_id": "31141",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مالکیت رسمی",
+      "evidence": {
+        "quote": "عدم مالکیت رسمی خوانده",
+        "start_char": 583,
+        "end_char": 605,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "مطالبه وجه التزام",
+        "start_char": 749,
+        "end_char": 766,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "دلیلی برفسخ یا اقامه آن اقامه نشده است",
+        "start_char": 1807,
+        "end_char": 1845,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی",
+        "start_char": 62,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارات",
+        "start_char": 129,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 1555,
+        "end_char": 1575,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دانامه تجدیدنظرخواسته رانقض",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "درحق تجدیدنظرخواه محکوم می نماید",
+        "start_char": 2223,
+        "end_char": 2255,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان ع.الف. ج.",
+        "start_char": 8,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده م. س.",
+        "start_char": 30,
+        "end_char": 51,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اقای ع.الف. ج.",
+        "start_char": 1051,
+        "end_char": 1079,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده رابه پرداخت",
+        "start_char": 2126,
+        "end_char": 2152,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "تنظیم سند رسمی",
+        "start_char": 71,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "مالکرسمی ملک",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "پرداخت مبلغ 743/000/000 ریال",
+        "start_char": 2146,
+        "end_char": 2174,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده مالک رسمی ملک نیست",
+      "evidence": {
+        "quote": "حسب پاسخ اسعلام ثبتی خوانده مالک رسمی نیست",
+        "start_char": 257,
+        "end_char": 299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم توانایی بر تنظیم سند از پیش قابل پیش بینی بوده است",
+      "evidence": {
+        "quote": "عدم توانایی برتنظیم سند که قابل پیش بینی بوده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

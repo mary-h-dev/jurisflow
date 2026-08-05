@@ -1,0 +1,183 @@
+{
+  "ruling_id": "28240",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "ماده 10 قانون مدنی",
+        "start_char": 451,
+        "end_char": 469,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نسبی",
+      "evidence": {
+        "quote": "اصل نسبی بودن قراردادها",
+        "start_char": 1873,
+        "end_char": 1896,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "قاعده تسبیب",
+        "start_char": 976,
+        "end_char": 987,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "انتقال امتیاز مسکن مهر",
+        "start_char": 114,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه هزینه دادرسی",
+        "start_char": 151,
+        "end_char": 170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض حکم",
+        "start_char": 2414,
+        "end_char": 2425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی اولیه",
+        "start_char": 2441,
+        "end_char": 2459,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "طرفیت خواهان خانم ز. پ.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده",
+        "start_char": 44,
+        "end_char": 59,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظرخواه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بنام تجدیدنظرخوانده",
+        "start_char": 1737,
+        "end_char": 1756,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهر",
+      "evidence": {
+        "quote": "امتیاز مسکن مهر",
+        "start_char": 121,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "صلح‌نامه",
+      "evidence": {
+        "quote": "از جمله صلح نامه",
+        "start_char": 229,
+        "end_char": 245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تعهدنامه",
+      "evidence": {
+        "quote": "تعهدنامه",
+        "start_char": 247,
+        "end_char": 255,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "وکالت نامه",
+        "start_char": 258,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انتقال امتیاز مسکن مهر از خوانده ردیف اول به خواهان",
+      "evidence": {
+        "quote": "امتیاز و حق الاشتراک مسکن مهر... با شرکت عمران... از سوی خوانده ردیف اول به خواهان منتقل شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود شرط لزوم موافقت شرکت واگذار کننده در قرارداد",
+      "evidence": {
+        "quote": "منع نقل و انتقال امتیاز مسکن مهر و لزوم موافقت شرکت واگذار کننده شرط شده بوده",
+        "start_char": 2041,
+        "end_char": 2118,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

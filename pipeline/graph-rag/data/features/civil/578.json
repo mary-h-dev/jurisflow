@@ -1,0 +1,173 @@
+{
+  "ruling_id": "578",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "به خواسته خلع ید خوانده از ملک",
+        "start_char": 79,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "ضمن صدور حکم به بطلان دعوای تقابل",
+        "start_char": 1465,
+        "end_char": 1498,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "با توجه به رابطه ی استیجاری",
+        "start_char": 3369,
+        "end_char": 3396,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی ملک فوق الذکر",
+        "start_char": 286,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واگذاری",
+      "evidence": {
+        "quote": "دستور واگذاری املاک و مستغلات ستاد",
+        "start_char": 462,
+        "end_char": 496,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره کل آموزش و پرورش شهر تهران",
+        "start_char": 1988,
+        "end_char": 2034,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 3493,
+        "end_char": 3522,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی به عمل آمده",
+        "start_char": 3915,
+        "end_char": 3946,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آموزش و پرورش تهران به خواسته خلع ید خوانده",
+        "start_char": 50,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "قبول مالکیت خواهان از سوی خوانده",
+        "start_char": 1208,
+        "end_char": 1240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "توسط مالک سابق آقای ع.و.",
+        "start_char": 2910,
+        "end_char": 2934,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "خلع ید خوانده از ملک واقع در خیابان شریعتی",
+        "start_char": 89,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره نامه",
+      "evidence": {
+        "quote": "به موجب اجاره نامه رسمی 3313",
+        "start_char": 2842,
+        "end_char": 2870,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی ملک فوق الذکر",
+        "start_char": 286,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک مورد نظر جزو املاک احصاء شده نبود",
+      "evidence": {
+        "quote": "ملک مورد نظر جزو املاک احصاء شده نبود",
+        "start_char": 3710,
+        "end_char": 3747,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالک سابق درخواست افزایش اجاره کرده بود",
+      "evidence": {
+        "quote": "نامبرده خطاب به اداره کل آموزش و پرورش به موجب اظهارنامه شماره 4653 مورخ 17/12/48 درخواست افزایش مال الاجاره ملک متنازٌ فیه را نمود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "ruling_id": "31340",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام به تمکین عام و خاص",
+        "start_char": 80,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معاشرت",
+      "evidence": {
+        "quote": "مکلف به حسن معاشرت",
+        "start_char": 580,
+        "end_char": 598,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام به تمکین عام و خاص",
+        "start_char": 80,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض وارد است",
+        "start_char": 995,
+        "end_char": 1010,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 1231,
+        "end_char": 1246,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم بر رد دعوی خواهان بدوی صادر",
+        "start_char": 1288,
+        "end_char": 1319,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "سوء رفتار زوج",
+        "start_char": 288,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "از سوی زوجه",
+        "start_char": 105,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "عوی خواهان را وارد تشخیص",
+        "start_char": 399,
+        "end_char": 423,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده را ملزم به تمکین",
+        "start_char": 480,
+        "end_char": 503,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "موضوع سند ازدواج شماره 1685-1377/7/7",
+        "start_char": 117,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "در منزل مشترک سکونت داشته",
+        "start_char": 320,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج و زوجه در یک منزل سکونت دارند",
+      "evidence": {
+        "quote": "زوجین در یک منزل و زیر یک سقف سکونت دارند",
+        "start_char": 1034,
+        "end_char": 1075,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

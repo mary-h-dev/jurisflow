@@ -1,0 +1,193 @@
+{
+  "ruling_id": "7590",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "کلاهبرداری",
+      "evidence": {
+        "quote": "به اتهام کلاهبرداری و معاونت در کلاهبرداری",
+        "start_char": 2730,
+        "end_char": 2772,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "مبایعه نامه فسخ شده",
+        "start_char": 2921,
+        "end_char": 2940,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلح",
+      "evidence": {
+        "quote": "صلح - در مورد رفع تنازع موجود یا جلوگیری از تنازع احتمالی",
+        "start_char": 16993,
+        "end_char": 17050,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقاله",
+      "evidence": {
+        "quote": "متعاقب اعمال اقاله نسبت به معامله مقدم الوقوع",
+        "start_char": 16722,
+        "end_char": 16767,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاخیر در تادیه",
+      "evidence": {
+        "quote": "تأخیر در تأدیه دیون",
+        "start_char": 19700,
+        "end_char": 19719,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه علی الحساب",
+        "start_char": 175,
+        "end_char": 202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "تقاضای محکومیت خواندگان را از محضر دادگاه خواستارم",
+        "start_char": 686,
+        "end_char": 736,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "تأخیر سه ساله در پرداخت اصل وجه",
+        "start_char": 1032,
+        "end_char": 1063,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "وصول",
+      "evidence": {
+        "quote": "در تاریخ سررسید وصول نشده",
+        "start_char": 3660,
+        "end_char": 3685,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان حضورداشته",
+        "start_char": 446,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "محکومیت خواندگان مورد استدعاست",
+        "start_char": 1147,
+        "end_char": 1177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "مرقومه ای که به امضاء فروشنده و خریدار",
+        "start_char": 3380,
+        "end_char": 3418,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "بابت فسخ مبایعه نامه به خریدار داده شده بود",
+        "start_char": 3616,
+        "end_char": 3659,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چک بانک تجارت شعبه...کد.... به شماره 214048",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه نامه فسخ شده",
+        "start_char": 2921,
+        "end_char": 2940,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "استرداد ثمن به مشتری",
+        "start_char": 17671,
+        "end_char": 17691,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک در سررسید وصول نشده است",
+      "evidence": {
+        "quote": "در تاریخ سررسید وصول نشده",
+        "start_char": 3660,
+        "end_char": 3685,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین توافق بر پرداخت خسارت روزانه کرده‌اند",
+      "evidence": {
+        "quote": "چنانچه چک فوق در تاریخ تمدیدشده وصول نشود خریدار می تواند از تاریخ صدور چک خسارت روزانه مبلغ 000/500 ریال به خریدار پرداخت نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

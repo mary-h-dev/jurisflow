@@ -1,0 +1,123 @@
+{
+  "ruling_id": "28665",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ملاقات",
+      "evidence": {
+        "quote": "به خواسته ملاقات فرزند مشترک",
+        "start_char": 63,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "یک نوع تقسیم حق حضانت است",
+        "start_char": 1606,
+        "end_char": 1631,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "دادخواستی به خواسته ملاقات فرزند مشترک بنام م.س. ک. 7 ساله بموجب تصویر شناسنامه تسلیم دادگاه نموده",
+        "start_char": 53,
+        "end_char": 151,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدید نظر خواهی آقای ع.ر. ک.",
+        "start_char": 975,
+        "end_char": 1011,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "ضمن رد تجدید نظر خواهی",
+        "start_char": 1771,
+        "end_char": 1793,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان پ. پ. فرزند ذ.",
+        "start_char": 0,
+        "end_char": 21,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده ع.ر. ک. فرزند ق.",
+        "start_char": 22,
+        "end_char": 52,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "بموجب تصویر شناسنامه",
+        "start_char": 112,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 686 - 94/5/21",
+        "start_char": 1032,
+        "end_char": 1067,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرزند مشترک توسط خوانده نگهداری می‌شود",
+      "evidence": {
+        "quote": "فرزند مشترک توسط خوانده نگهداری می شود",
+        "start_char": 224,
+        "end_char": 262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "توافق بر سر ملاقات حاصل نشده است",
+      "evidence": {
+        "quote": "در خصوص انجام ملاقات توافقی با خوانده حاصل نشده",
+        "start_char": 277,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

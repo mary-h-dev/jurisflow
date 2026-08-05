@@ -1,0 +1,153 @@
+{
+  "ruling_id": "36841",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "در خصوص درخواست اعاده دادرسی",
+        "start_char": 0,
+        "end_char": 28,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "تایید فسخ قرارداد",
+        "start_char": 188,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عذر",
+      "evidence": {
+        "quote": "مدعی وجود عذر قانونی شده است",
+        "start_char": 943,
+        "end_char": 971,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام داشته",
+      "evidence": {
+        "quote": "وکیل خواهان اعلام داشته است",
+        "start_char": 235,
+        "end_char": 262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی را خارج از مهلت مقرر قانونی در تاریخ 1400/08/20 به دادگاه تقدیم نموده",
+        "start_char": 790,
+        "end_char": 880,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "قرار رد درخواست اعاده دادرسی را صادر و اعلام می نماید",
+        "start_char": 2010,
+        "end_char": 2063,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اعلام داشته است",
+        "start_char": 235,
+        "end_char": 262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "معترض و درخواست اعاده دادرسی",
+        "start_char": 549,
+        "end_char": 577,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "با وکالت اقای ن. ش.",
+        "start_char": 49,
+        "end_char": 68,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 7217 *400",
+        "start_char": 130,
+        "end_char": 161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "فسخ قرارداد",
+        "start_char": 194,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی پزشکی",
+      "evidence": {
+        "quote": "تصویر گواهی پزشکی",
+        "start_char": 897,
+        "end_char": 914,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "درخواست اعاده دادرسی خارج از مهلت قانونی ارائه شده است",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی را خارج از مهلت مقرر قانونی در تاریخ 1400/08/20 به دادگاه تقدیم نموده",
+        "start_char": 790,
+        "end_char": 880,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "گواهی پزشکی ارائه شده به تایید پزشکی قانونی نرسیده است",
+      "evidence": {
+        "quote": "گواهی مذکور به تایید پزشکی قانونی نرسیده است",
+        "start_char": 1437,
+        "end_char": 1481,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

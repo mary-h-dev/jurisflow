@@ -1,0 +1,173 @@
+{
+  "ruling_id": "679",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "در استیفای زوجین از کار یکدیگر اصل عدم تبرع است",
+        "start_char": 409,
+        "end_char": 456,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "و از باب تسبیب به پرداخت مبلغ هفتصد هزار ریال",
+        "start_char": 1540,
+        "end_char": 1585,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 62,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "به لحاظ اعتراض خوانده نسبت به آن",
+        "start_char": 919,
+        "end_char": 951,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ی.ر.",
+        "start_char": 1914,
+        "end_char": 1937,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 2620,
+        "end_char": 2640,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه مورد اعتراض را تأیید می نماید",
+        "start_char": 2642,
+        "end_char": 2679,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "توسط خواهان",
+        "start_char": 782,
+        "end_char": 793,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "نسبت به اعتراض خوانده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "مورد اعتراض تجدیدنظرخواه قرار گرفته است",
+        "start_char": 2185,
+        "end_char": 2224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به خواسته تجدیدنظرخوانده",
+        "start_char": 2092,
+        "end_char": 2116,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "خانه",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل کارهای خانه مشترک",
+        "start_char": 72,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند رسمی ازدواج شماره 5019",
+        "start_char": 235,
+        "end_char": 261,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 9109970216900926",
+        "start_char": 1957,
+        "end_char": 1995,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین وجود دارد",
+      "evidence": {
+        "quote": "با احراز رابطه زوجیت بین طرفین",
+        "start_char": 177,
+        "end_char": 207,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت اجرت المثل انجام نشده است",
+      "evidence": {
+        "quote": "دلیل و مدرکی بر پرداخت اجرت المثل به دادگاه تقدیم نشده است",
+        "start_char": 1223,
+        "end_char": 1281,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

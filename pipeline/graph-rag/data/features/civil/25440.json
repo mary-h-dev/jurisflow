@@ -1,0 +1,203 @@
+{
+  "ruling_id": "25440",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شراکت",
+      "evidence": {
+        "quote": "شراکت و مالکیت مشاعی خواهان و خوانده ردیف اول",
+        "start_char": 2484,
+        "end_char": 2529,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "شراکت و مالکیت مشاعی خواهان و خوانده ردیف اول",
+        "start_char": 2484,
+        "end_char": 2529,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌حقی",
+      "evidence": {
+        "quote": "حکم بر بی‌حقی وی صادر",
+        "start_char": 3419,
+        "end_char": 3440,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "افراز",
+      "evidence": {
+        "quote": "افراز و تقسیم ملک مشاع",
+        "start_char": 149,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "حکم به فروش مال مشاع",
+        "start_char": 2970,
+        "end_char": 2990,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "وکیل خواهان دادخواست خود در مورد افراز و همچنین نسبت به اداره اوقاف پاکدشت را مسترد کرده است",
+        "start_char": 471,
+        "end_char": 563,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "با اعتراض خوانده موضوع به هیئت سه‌نفره کارشناسی ارجاع",
+        "start_char": 1721,
+        "end_char": 1774,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "اقامه دعوی کرده است",
+        "start_char": 1384,
+        "end_char": 1403,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "حکم بر تأیید و استواری دادنامه نخستین صادر می‌نماید",
+        "start_char": 4307,
+        "end_char": 4358,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان دادخواست خود",
+        "start_char": 471,
+        "end_char": 495,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "ولی خوانده ردیف اول امتناع می‌نماید",
+        "start_char": 415,
+        "end_char": 450,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "به عنوان وارد ثالث به طرفیت اصحاب دعوای پرونده اصلی اقامه دعوی کرده است",
+        "start_char": 1331,
+        "end_char": 1403,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملکی را به همراه خانم ف. م. مشارکتاً خریداری می‌نماید",
+        "start_char": 303,
+        "end_char": 356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "طی مبایعه‌نامه شماره 2066",
+        "start_char": 277,
+        "end_char": 302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قولنامه",
+      "evidence": {
+        "quote": "در ضمن قولنامه نزد خانم م. است",
+        "start_char": 1064,
+        "end_char": 1094,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "تقاضای ارایه اصل سند را داریم",
+        "start_char": 682,
+        "end_char": 711,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خرید ملک در سال ۱۳۸۲",
+      "evidence": {
+        "quote": "در تاریخ 1382/10/12 طی مبایعه‌نامه شماره 2066 ملکی را به همراه خانم ف. م. مشارکتاً خریداری می‌نماید",
+        "start_char": 257,
+        "end_char": 356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "غیرقابل تقسیم بودن ملک",
+      "evidence": {
+        "quote": "مشخص شد قابل تقسیم نمی‌باشد",
+        "start_char": 1627,
+        "end_char": 1654,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه مدرک مالکیت توسط خوانده",
+      "evidence": {
+        "quote": "خانم م. (خوانده) نیز هیچ مدرکی مبنی on مالکیت ارایه ننموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "32314",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "سهم الارث",
+      "evidence": {
+        "quote": "بموجب مصوبه 1387/12/21 مجلس شورای اسلامی ماده 946 قانون مدنی اصلاح وبراساس ماده مزبور به قیمت عرصه نیز سهم الارث تعلق گرفته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "تجویز اعاده دادرسی را از ناحیه ریاست معظم قوه قضائیه ورسیدگی مجدد پرونده را در مرجع قضائی صالحه پیشنهاد مینماید",
+        "start_char": 3914,
+        "end_char": 4025,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تادیه",
+      "evidence": {
+        "quote": "الزام خواندگان به تأدیه ارزش یک چهارم از سه چهارم عرصه",
+        "start_char": 73,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقسیم",
+      "evidence": {
+        "quote": "کلیه سهم الارث فیمابین ورثه کاملاً تقسیم شده",
+        "start_char": 2304,
+        "end_char": 2348,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه موصوف نقض و بجهات اشعاری",
+        "start_char": 5843,
+        "end_char": 5875,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خانم ف. الف. دادخواستی بطرفیت",
+        "start_char": 17,
+        "end_char": 46,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان به تأدیه",
+        "start_char": 73,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وارث",
+      "evidence": {
+        "quote": "سه چهارم آن بین وارث که عبارتند از اینجانبه همسر وخواندگان محترم",
+        "start_char": 410,
+        "end_char": 474,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "آقای م. م. وکیل دادگستری",
+        "start_char": 1559,
+        "end_char": 1583,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عرصه",
+      "evidence": {
+        "quote": "ارزش یک چهارم از سه چهارم عرصه ما ترک مرحوم ی. ع.",
+        "start_char": 97,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ماترک",
+      "evidence": {
+        "quote": "یک سوم کل ماترک ایشان",
+        "start_char": 347,
+        "end_char": 368,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بشرح دادنامه شماره 100355 - 90/03/22",
+        "start_char": 2882,
+        "end_char": 2918,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مرحوم ی. ع. در تاریخ 85/09/06 فوت کرده است",
+      "evidence": {
+        "quote": "مرحوم ی. ع. فرزند ی. در تاریخ 85/09/06 دار فانی را وداع گفته",
+        "start_char": 250,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ماترک قبل از تصویب قانون جدید تقسیم نشده بود",
+      "evidence": {
+        "quote": "در مورد املاک و سهم الارثی است که تقسیم نشده است",
+        "start_char": 2706,
+        "end_char": 2754,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

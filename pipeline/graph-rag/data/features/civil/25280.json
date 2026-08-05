@@ -1,0 +1,143 @@
+{
+  "ruling_id": "25280",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "تاریخ بیع موضوع مبایعه‌نامه",
+        "start_char": 344,
+        "end_char": 371,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "باطل",
+      "evidence": {
+        "quote": "هرگونه نقل‌وانتقال نسبت به مال توقیف شده باطل و بلااثر است",
+        "start_char": 570,
+        "end_char": 628,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "متعلق حق غیر قرار داشتن مورد معامله",
+        "start_char": 1616,
+        "end_char": 1651,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به الزام به تنظیم سند رسمی انتقال یک دستگاه آپارتمان",
+        "start_char": 103,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت دادرسی",
+        "start_char": 1139,
+        "end_char": 1158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم تجدیدنظر",
+        "start_char": 802,
+        "end_char": 844,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض",
+        "start_char": 1901,
+        "end_char": 1930,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "قرار ردّ دعوی نخستین را صادر",
+        "start_char": 2104,
+        "end_char": 2132,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از سوی وکیل خواهان",
+        "start_char": 390,
+        "end_char": 408,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مرتهن",
+      "evidence": {
+        "quote": "مرتهن که احتمال اضرار به ایشان",
+        "start_char": 1951,
+        "end_char": 1981,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان",
+        "start_char": 137,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "تاریخ بیع موضوع مبایعه‌نامه",
+        "start_char": 344,
+        "end_char": 371,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "موضوع معامله پیش از بیع در رهن بوده است",
+      "evidence": {
+        "quote": "تاریخ رهن 1389/9/14 و مقدّم بر بیع موصوف و عقد بیع در زمان در رهن بودن رقبه موصوفه می‌باشد",
+        "start_char": 422,
+        "end_char": 512,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

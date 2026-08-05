@@ -1,0 +1,123 @@
+{
+  "ruling_id": "490",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تغییر نام",
+      "evidence": {
+        "quote": "تغییر نام",
+        "start_char": 76,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره ثبت احوال جنوب تهران",
+        "start_char": 535,
+        "end_char": 575,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه ی تجدیدنظرخواسته",
+        "start_char": 1302,
+        "end_char": 1333,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی مطروحه را صادر و اعلام می نماید",
+        "start_char": 1392,
+        "end_char": 1436,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "تغییر نام کوچک خواهان به ف.",
+        "start_char": 355,
+        "end_char": 382,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و خوانده دفاعی در قبال آن به عمل نیاورده",
+        "start_char": 146,
+        "end_char": 186,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "به طرفیت اداره ثبت احوال شهرستان تهران",
+        "start_char": 29,
+        "end_char": 67,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه ی شماره 9109970213100446",
+        "start_char": 597,
+        "end_char": 632,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "محل صدور شناسنامه خانم ش.الف. شهرستان میانه می باشد",
+        "start_char": 1077,
+        "end_char": 1128,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دعوی در محل اقامت خواهان مطرح شده است",
+      "evidence": {
+        "quote": "رسیدگی به دعوی تغییر نام کوچک در محل اقامت خواهان به عمل می آید",
+        "start_char": 913,
+        "end_char": 976,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اداره ثبت احوال صادرکننده سند سجلی، طرف دعوا نیست",
+      "evidence": {
+        "quote": "دعوی به طرفیت اداره ثبت احوال میانه مطرح نشده است",
+        "start_char": 1132,
+        "end_char": 1181,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

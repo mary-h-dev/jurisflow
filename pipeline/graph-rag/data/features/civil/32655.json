@@ -1,0 +1,183 @@
+{
+  "ruling_id": "32655",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "بخواسته استرداد مال منقول",
+        "start_char": 40,
+        "end_char": 65,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "هبه",
+      "evidence": {
+        "quote": "مگر اینکه یا ثابت نماند بعنوان هبه بوده",
+        "start_char": 1561,
+        "end_char": 1600,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "امانت",
+      "evidence": {
+        "quote": "که اولا باید امانی بودن ثابت شود",
+        "start_char": 2073,
+        "end_char": 2105,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فروخته",
+      "evidence": {
+        "quote": "که قبلا اینها فروخته شده است",
+        "start_char": 300,
+        "end_char": 328,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "تجدید نظر خوانده بعد از صدور حکم دادگاه در لایحه تقدیمی اعلام کرده",
+        "start_char": 1967,
+        "end_char": 2033,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه مارالذکر",
+        "start_char": 2265,
+        "end_char": 2289,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار ردّ",
+      "evidence": {
+        "quote": "قرار ردّ دادخواست صادر و اعلام می نماید",
+        "start_char": 3114,
+        "end_char": 3153,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست ح. پ.ن. بطرفیت ف. ف.خ. بخواسته",
+        "start_char": 0,
+        "end_char": 47,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و اظهارات طرفین و دفاعیات خوانده",
+        "start_char": 199,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "و تجدید نظر خوانده بعد از صدور حکم دادگاه",
+        "start_char": 1965,
+        "end_char": 2006,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متقاضی",
+      "evidence": {
+        "quote": "متقاضی اعاده دادرسی از دادنامه مذکور اعلام کرده",
+        "start_char": 2578,
+        "end_char": 2625,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "طلا",
+      "evidence": {
+        "quote": "استرداد مال منقول طلا خریداری شده",
+        "start_char": 48,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فاکتور های",
+      "evidence": {
+        "quote": "طبق فاکتورهای موجود در پرونده",
+        "start_char": 82,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سکه",
+      "evidence": {
+        "quote": "گفت سکه ها را من می برم",
+        "start_char": 353,
+        "end_char": 376,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طلاها به رسم امانت به زوجه داده شده است",
+      "evidence": {
+        "quote": "اعلام کرده که طلاجات را به رسم امانت به زوجه داده",
+        "start_char": 2615,
+        "end_char": 2664,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجین سال‌ها از شروع زندگی گذشته‌اند و صاحب فرزند هستند",
+      "evidence": {
+        "quote": "و سالها از شروع زندگی آنها می گذرد و صاحب فرزند هستند",
+        "start_char": 1875,
+        "end_char": 1928,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حکم طلاق صادر شده است",
+      "evidence": {
+        "quote": "با تقاضای زوج حکم طلاق هم صادر شد",
+        "start_char": 1931,
+        "end_char": 1964,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

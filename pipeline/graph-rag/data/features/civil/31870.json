@@ -1,0 +1,143 @@
+{
+  "ruling_id": "31870",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "عطف به ماسبق نشدن قوانین و مقررات به گذشته برابر ماده 4 قانون مدنی",
+        "start_char": 697,
+        "end_char": 763,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "خواسته شاکی [اعتراض به رأی کمیسیون ماده صد شهرداری]",
+        "start_char": 1006,
+        "end_char": 1057,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظر",
+        "start_char": 2069,
+        "end_char": 2093,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "قرار رد شکایت صادر و اعلام می دارد",
+        "start_char": 2127,
+        "end_char": 2161,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "از ناحیه شاکی عدم رجوع به کارشناس",
+        "start_char": 499,
+        "end_char": 532,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شهرداری",
+      "evidence": {
+        "quote": "بی توجهی کمیسیون ماده 100 شهرداری به زمان ساخت ملک",
+        "start_char": 607,
+        "end_char": 657,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "اعلام داشته است که مالک با تقدیم لایحه",
+        "start_char": 1535,
+        "end_char": 1573,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "صدور رأی به اخذ جریمه استثنائی بر اصل بوده",
+        "start_char": 13,
+        "end_char": 55,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "اسناد ارائه شده از ناحیه شاکی",
+        "start_char": 483,
+        "end_char": 512,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "زمان ساخت ملک",
+        "start_char": 644,
+        "end_char": 657,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم استناد به نظر کارشناس احصاء در رأی کمیسیون",
+      "evidence": {
+        "quote": "حصول شرایط قانونی جهت تعیین جریمه در رأی کمیسیون به نحو مستدل و مستند و با جلب نظر کارشناس احصاء نگردیده",
+        "start_char": 253,
+        "end_char": 357,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم رعایت زمان ساخت ملک در رأی مورد اعتراض",
+      "evidence": {
+        "quote": "با توجه به اینکه در رأی مورد اعتراض با اتکاء نظر کارشناس رسمی دادگستری و لحاظ عمر ساختمان موضوع دعوی صادر نشده",
+        "start_char": 370,
+        "end_char": 480,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالک متعهد به رفع تخلف شده است",
+      "evidence": {
+        "quote": "مالک با تقدیم لایحه اظهار داشته که محل را به حالت پروانه اولیه قبول کرده و رفع تخلف می نماید",
+        "start_char": 1554,
+        "end_char": 1646,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

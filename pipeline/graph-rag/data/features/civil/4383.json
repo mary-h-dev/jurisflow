@@ -1,0 +1,183 @@
+{
+  "ruling_id": "4383",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل قدرالسهم موکل",
+        "start_char": 97,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رضایت",
+      "evidence": {
+        "quote": "صرف سکوت تجدیدنظرخوانده برابر ماده 249 قانون مدنی دلیل بر رضایت و موافقت نیست",
+        "start_char": 3827,
+        "end_char": 3904,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "مطالبه اجrent المثل فرع بر ابطال قرارداد اجاره",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل قدرالسهم موکل",
+        "start_char": 97,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "در تصرف خوانده ردیف اول است",
+        "start_char": 451,
+        "end_char": 478,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "محکومیت خواندگان به پرداخت اجرت المثل",
+        "start_char": 728,
+        "end_char": 765,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی صادر می شود",
+        "start_char": 2993,
+        "end_char": 3017,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه موصوف را تأیید می نماید",
+        "start_char": 3987,
+        "end_char": 4018,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوای خانم ش.ک. به وکالت از آقای ح.ف.",
+        "start_char": 0,
+        "end_char": 37,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم و آقایان 1ـ الف.ف. 2ـ ح.ف. 3ـ ع.ف.",
+        "start_char": 47,
+        "end_char": 95,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم الف.ف.",
+        "start_char": 3297,
+        "end_char": 3322,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "دلیلی دال بر مأذون بودن از سوی تجدیدنظرخوانده ابراز نداشته",
+        "start_char": 3766,
+        "end_char": 3824,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "در یک دستگاه ساختمان سه طبقه ای به پلاک ثبتی 12/2151 بخش ده تهران",
+        "start_char": 129,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وصیت‌نامه",
+      "evidence": {
+        "quote": "وصیت نامه موضوع دادنامه شماره 900428",
+        "start_char": 1557,
+        "end_char": 1593,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "این اجاره نامه ها مورد تأیید موکل نیست",
+        "start_char": 1781,
+        "end_char": 1819,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ماترک از مرحوم م.ف. است",
+      "evidence": {
+        "quote": "ساختمان متنازع فیه ماترک مرحوم م.ف. است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موافقت موکل برای اجاره واحده‌ها اخذ نشده است",
+      "evidence": {
+        "quote": "موافقت موکل در اجاره واحد طبقه دوم به آقای م.خ. و طبقه سوم به آقای ع.ف. أخذ نشده است",
+        "start_char": 1692,
+        "end_char": 1776,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

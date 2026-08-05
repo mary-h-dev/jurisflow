@@ -1,0 +1,183 @@
+{
+  "ruling_id": "28734",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قرض‌الحسنه",
+      "evidence": {
+        "quote": "وجه چک بعنوان قرض الحسنه به شرط بازپرداخت یک ماهه توسط خوانده دریافت شده",
+        "start_char": 319,
+        "end_char": 391,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قرض",
+      "evidence": {
+        "quote": "مبنای ظهر نویسی چک عقد قرض بوده",
+        "start_char": 1155,
+        "end_char": 1186,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "حاکی از اشتغال ذمه است",
+        "start_char": 850,
+        "end_char": 872,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دعوای به خواسته مطالبه وجه",
+        "start_char": 70,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "اقدامی نسبت به پرداخت دین خود انجام نداده است",
+        "start_char": 418,
+        "end_char": 463,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ح. ب.",
+        "start_char": 1452,
+        "end_char": 1476,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی",
+        "start_char": 2216,
+        "end_char": 2235,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت آقای ح. ت. دعوای به خواسته مطالبه وجه",
+        "start_char": 50,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با ظهرنویسی به خوانده منتقل",
+        "start_char": 253,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه ایراد و اعتراض مؤثر",
+        "start_char": 1908,
+        "end_char": 1947,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "تصویر یک فقره چک",
+        "start_char": 208,
+        "end_char": 224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "مطالبه وجه به مبلغ یکصدو هشتاد میلیون ریال",
+        "start_char": 86,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "وخسارات دادرسی وحق الوکاله",
+        "start_char": 129,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حق‌الوکاله",
+      "evidence": {
+        "quote": "وحق الوکاله وتاخیر تادیه",
+        "start_char": 144,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک با ظهرنویسی به خوانده منتقل شده است",
+      "evidence": {
+        "quote": "با ظهرنویسی به خوانده منتقل",
+        "start_char": 253,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجه چک توسط وکیل وصول شده است",
+      "evidence": {
+        "quote": "وجه آن توسط وی وصول شده",
+        "start_char": 283,
+        "end_char": 306,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دلیلی مبنی بر قرض بودن مبنای ظهرنویسی ارائه نشده است",
+      "evidence": {
+        "quote": "چون دلیلی که نشان دهد مبنای ظهر نویسی چک عقد قرض بوده ارائه نشده",
+        "start_char": 1133,
+        "end_char": 1197,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

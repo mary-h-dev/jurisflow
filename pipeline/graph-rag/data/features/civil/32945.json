@@ -1,0 +1,163 @@
+{
+  "ruling_id": "32945",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "دلالت بر مالکیت مشاعی خواهانها",
+        "start_char": 1335,
+        "end_char": 1365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "غصب حسب ماده 308 قانون مدنی اعم است",
+        "start_char": 5699,
+        "end_char": 5734,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "صدور حکم مبنی بر خلع ید خوانده",
+        "start_char": 132,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "مبادرت به تصرف غیر قانونی و من غیر حق ملک خواهانها نموده",
+        "start_char": 1015,
+        "end_char": 1071,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض خوانده به آن نظر دادگاه موثر نیست",
+        "start_char": 3398,
+        "end_char": 3438,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دعوی خواهانها 1- خانم ف. ب. 2- ع. گ.ل.",
+        "start_char": 0,
+        "end_char": 45,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خلع ید خوانده از پلاک ثبتی",
+        "start_char": 149,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "به طرفیت اداره منابع طبیعی و آبخیزداری شهرستان شهریار",
+        "start_char": 68,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره منابع طبیعی وآبخیزداری شهرستان شهریار",
+        "start_char": 4197,
+        "end_char": 4254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "درحق تجدیدنظرخواندگان صادر شده است",
+        "start_char": 4479,
+        "end_char": 4513,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "از پلاک ثبتی..... فرعی از...... اصلی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد مالکیت",
+      "evidence": {
+        "quote": "به موجب اسناد مالکیت قطعی صادره از اداره ثبت اسناد و املاک شهریار",
+        "start_char": 363,
+        "end_char": 428,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اراضی",
+      "evidence": {
+        "quote": "اراضی مورد اختلاف",
+        "start_char": 4708,
+        "end_char": 4725,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده بدون سند مالکیت در ملک خواهان‌ها تصرف کرده است",
+      "evidence": {
+        "quote": "خوانده به استناد نامه شماره 98 /47 /93 مورخ 17 /2 /1393 و مدلول آن بر خلاف ضوابط ومقررات قانونی خصوصاً مفاد ماده22 قانون ثبت مبادرت به تصرف غیر قانونی و من غیر حق ملک خواهانها نموده",
+        "start_char": 890,
+        "end_char": 1071,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت خواهان‌ها در اداره ثبت ثبت شده است",
+      "evidence": {
+        "quote": "همین که ملکی مطابق قانون در دفتر املاک به ثبت رسید دولت فقط کسی را که ملک به اسم او ثبت شده است",
+        "start_char": 1528,
+        "end_char": 1623,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

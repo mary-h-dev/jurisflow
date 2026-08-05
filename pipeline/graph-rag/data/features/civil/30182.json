@@ -1,0 +1,183 @@
+{
+  "ruling_id": "30182",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "هم حق فسخ را دارد",
+        "start_char": 1682,
+        "end_char": 1699,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "هم حق تادیه ثمن به مقدار موجود را دارد",
+        "start_char": 1702,
+        "end_char": 1740,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "با خواسته مطالبه وجه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "ثمن معامله را پرداخت نکرد",
+        "start_char": 654,
+        "end_char": 679,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی است",
+        "start_char": 2402,
+        "end_char": 2424,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در این پرونده خواهان آقای ع. ش.",
+        "start_char": 0,
+        "end_char": 31,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای م. ج.",
+        "start_char": 181,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "خریدار ( خواهان)",
+        "start_char": 736,
+        "end_char": 752,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "مشتری حق دارد",
+        "start_char": 1764,
+        "end_char": 1777,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه",
+        "start_char": 2802,
+        "end_char": 2822,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده صادر گردیده است",
+        "start_char": 2890,
+        "end_char": 2926,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "خواهان یک واحد آپارتمان",
+        "start_char": 264,
+        "end_char": 287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "در قرارداد ( مبایعه نامه)",
+        "start_char": 321,
+        "end_char": 346,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "انتقال رسمی سند",
+        "start_char": 469,
+        "end_char": 484,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "از مبلغ ثمن کسر نماید",
+        "start_char": 846,
+        "end_char": 867,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مساحت آپارتمان پس از انتقال رسمی کمتر از قرارداد بود",
+      "evidence": {
+        "quote": "پس از اخذ صورتمجلس تفکیکی مساحت آپارتمان هفتادو هفت متر وچهل نه سانتی متر مربع می گردد",
+        "start_char": 485,
+        "end_char": 571,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین برای پرداخت هزینه‌های انتقال سند توافق کردند",
+      "evidence": {
+        "quote": "طی قراردادی عادی طرفین توافق می نمایند که خریدار ( خواهان) مبادرت به پرداخت هزینه های شهرداری و مالیات و سایر هزینه ها جهت انتقال سند را پرداخت نماید",
+        "start_char": 694,
+        "end_char": 843,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

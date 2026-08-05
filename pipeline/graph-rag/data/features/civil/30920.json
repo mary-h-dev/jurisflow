@@ -1,0 +1,163 @@
+{
+  "ruling_id": "30920",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اصل استصحاب",
+      "evidence": {
+        "quote": "بااستفاده ازاصل استصحاب",
+        "start_char": 700,
+        "end_char": 723,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "موارد مسئولیت تضامنی",
+        "start_char": 2701,
+        "end_char": 2721,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بربطلان دعوی صادر واعلام میدارد",
+        "start_char": 1466,
+        "end_char": 1501,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه مبلغ 209/000/000ریال",
+        "start_char": 68,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خوانده ردیف دوم را پرداخت مبلغ 104/500/000 ریال",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ح. ع.",
+        "start_char": 4398,
+        "end_char": 4422,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ازناحیه خواهان",
+        "start_char": 300,
+        "end_char": 314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "برعهده خوانده ردیف دوم",
+        "start_char": 350,
+        "end_char": 372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه",
+        "start_char": 5077,
+        "end_char": 5096,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظرخوانده ردیف اول",
+        "start_char": 4853,
+        "end_char": 4884,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "استناد به یکفقره چک شماره 404267",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حق‌الوکاله",
+      "evidence": {
+        "quote": "مطالبه حق الوکاله وکیل",
+        "start_char": 3808,
+        "end_char": 3830,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم حضور خوانده در جلسه دادرسی",
+      "evidence": {
+        "quote": "خوانده درجلسه دادرسی حاضر نگشته",
+        "start_char": 504,
+        "end_char": 535,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دفاع یا ایراد از سوی خوانده",
+      "evidence": {
+        "quote": "ازدعوی مطروحه ومستند منسوب بخویش هیچگونه ایراد ودفاعی بعمل نیاورده",
+        "start_char": 537,
+        "end_char": 603,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت وجه چک توسط خوانده ردیف اول",
+      "evidence": {
+        "quote": "دلیلی برانتساب بدهی به خوانده ردیف اول ارائه نگردید",
+        "start_char": 1935,
+        "end_char": 1986,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

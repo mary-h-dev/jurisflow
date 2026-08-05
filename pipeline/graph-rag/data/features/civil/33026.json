@@ -1,0 +1,173 @@
+{
+  "ruling_id": "33026",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قرض‌الحسنه",
+      "evidence": {
+        "quote": "تحت عنوان قرض الحسنه",
+        "start_char": 341,
+        "end_char": 361,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "ظاهر در عدم تبرع است",
+        "start_char": 797,
+        "end_char": 817,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدید نظر خواهی م. ف. با وکالت ح. خ.ز.",
+        "start_char": 1941,
+        "end_char": 1979,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "بده باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "از استرداد وجه امتناع می نماید",
+        "start_char": 417,
+        "end_char": 447,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "تقاضای رد دعوی مطروحه را کرده است",
+        "start_char": 660,
+        "end_char": 693,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "حکم به تأیید دادنامه تجدیدنظرخواسته صادر واعلام می کند",
+        "start_char": 2843,
+        "end_char": 2897,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان آقای ع.الف. م.",
+        "start_char": 9,
+        "end_char": 35,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای م. ف. فرزند م.",
+        "start_char": 83,
+        "end_char": 111,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه",
+        "start_char": 2488,
+        "end_char": 2507,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ 290/000/000 ریال",
+        "start_char": 199,
+        "end_char": 220,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "استرداد آن وجه",
+        "start_char": 1028,
+        "end_char": 1042,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "با احتساب کلیه خسارات دادرسی",
+        "start_char": 227,
+        "end_char": 255,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "و تاخیر تادیه دین",
+        "start_char": 256,
+        "end_char": 273,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واریز وجه تحت عنوان قرض الحسنه به حساب خوانده",
+      "evidence": {
+        "quote": "موکلش تحت عنوان قرض الحسنه مبلغ خواسته را به حساب خوانده واریز کرده است",
+        "start_char": 335,
+        "end_char": 406,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "امتناع خوانده از استرداد وجه",
+      "evidence": {
+        "quote": "نامبرده از استرداد وجه امتناع می نماید",
+        "start_char": 409,
+        "end_char": 447,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

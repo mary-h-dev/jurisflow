@@ -1,0 +1,173 @@
+{
+  "ruling_id": "30743",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "و خسارت تاخیر تادیه",
+        "start_char": 267,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "با توجه بر عدم وجود هرگونه رابطه مالی و مدیونیت فی ما بین موکل و خواندگان",
+        "start_char": 765,
+        "end_char": 838,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حد",
+      "evidence": {
+        "quote": "اماره حد مدیونیت",
+        "start_char": 2008,
+        "end_char": 2024,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "بار اثبات ادعای استرداد وجوه به عهده تجدیدنظرخواه می باشد",
+        "start_char": 3231,
+        "end_char": 3288,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "واریز می نماید",
+        "start_char": 533,
+        "end_char": 547,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "دعوی خویش را نسبت به نامبرده پیش از پایان دادرسی استرداد نموده است",
+        "start_char": 1351,
+        "end_char": 1417,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان را نسبت به خوانده ردیف سوم صادر می نماید",
+        "start_char": 1468,
+        "end_char": 1528,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تایید واستوار می نماید",
+        "start_char": 3872,
+        "end_char": 3894,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ادعای وکیل محترم خواهان",
+        "start_char": 295,
+        "end_char": 318,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "نسبت به خوانده ردیف سوم",
+        "start_char": 1491,
+        "end_char": 1514,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی آقای ن.الف. د.",
+        "start_char": 2664,
+        "end_char": 2693,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظرخوانده ردیف اول",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ 13000000000 ریال",
+        "start_char": 192,
+        "end_char": 213,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "بازپرداخت وجه",
+        "start_char": 646,
+        "end_char": 659,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واریز مبلغ یک میلیارد و سیصد میلیون تومان به حساب خوانده ردیف اول",
+      "evidence": {
+        "quote": "تعداد یک میلیارد و سیصد میلیون تومان طی دو نوبت به حساب خوانده ردیف اول... واریز می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت وجه توسط خواندگان در مدت دو سال",
+      "evidence": {
+        "quote": "علیرغم گذشت دو سال از تاریخ پرداخت سال یاد شده و قولهای متعدد ، خواندگان ردیف دوم و سوم نسبت به بازپرداخت وجه تا کنون اقدامی انجام نداده اند",
+        "start_char": 550,
+        "end_char": 690,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "ruling_id": "496",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "صدور حکم به ابطال مبایعه نامه عادی سال 1371",
+        "start_char": 106,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمان",
+      "evidence": {
+        "quote": "از باب ضمان درک مستنداً به ماده 391 قانون مدنی",
+        "start_char": 862,
+        "end_char": 908,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مستحق للغیر",
+      "evidence": {
+        "quote": "مبیع مستحق للغیر است",
+        "start_char": 839,
+        "end_char": 859,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معامله",
+      "evidence": {
+        "quote": "با احراز فساد معامله ضامن و مسئول جبران خسارات وارده گردیده",
+        "start_char": 3072,
+        "end_char": 3131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان مبایعه نامه عادی سال1371",
+        "start_char": 3524,
+        "end_char": 3561,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه ثمن معامله به نرخ روز",
+        "start_char": 173,
+        "end_char": 203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروخته",
+      "evidence": {
+        "quote": "فروخته که النهایت مالکان اصلی",
+        "start_char": 657,
+        "end_char": 686,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ولک‌های خواهان هیچ اعتراضی به این نظریه نداشته‌اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ی.ف.",
+        "start_char": 4169,
+        "end_char": 4192,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان ها",
+        "start_char": 0,
+        "end_char": 22,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 54,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده اولیه آقای ب.خ.",
+        "start_char": 968,
+        "end_char": 991,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "و بایع فضولی ملزم به پرداخت آن",
+        "start_char": 4841,
+        "end_char": 4871,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "مبایعه نامه عادی سال 1371",
+        "start_char": 124,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "و مطالبه ثمن معامله به نرخ روز",
+        "start_char": 173,
+        "end_char": 203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قطعه",
+      "evidence": {
+        "quote": "قطعه زمینی که از طریق صنایع هواپیمایی اخذ نموده",
+        "start_char": 465,
+        "end_char": 512,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ارزش روز تمامی 6 دانگ ملک را",
+        "start_char": 1937,
+        "end_char": 1965,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبیع مستحق‌الغیر است",
+      "evidence": {
+        "quote": "مبیع مستحق للغیر است",
+        "start_char": 839,
+        "end_char": 859,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله با فساد همراه بوده است",
+      "evidence": {
+        "quote": "با احراز فساد معامله ضامن و مسئول جبران خسارات وارده گردیده",
+        "start_char": 3072,
+        "end_char": 3131,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "38523",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "صدور صدور حکم لغوحضانت فرزند مشترک",
+        "start_char": 71,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "به انضمام کلیه خسارات دادرسی",
+        "start_char": 160,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواسته صدور صدور حکم لغوحضانت",
+        "start_char": 61,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "و تحویل حضانت به خواهان",
+        "start_char": 136,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "به محکومیت خوانده در مورد رابطه نا مشروع",
+        "start_char": 1059,
+        "end_char": 1099,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت مبلغ نود و نه هزار تومان",
+        "start_char": 1335,
+        "end_char": 1384,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت خانم خ. ا. فرزند ع. به خواسته",
+        "start_char": 32,
+        "end_char": 70,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم خ. ا. فرزند ع.",
+        "start_char": 32,
+        "end_char": 60,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "لغوحضانت فرزند مشترک",
+        "start_char": 85,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "پرداخت مبلغ نود و نه هزار تومان",
+        "start_char": 1353,
+        "end_char": 1384,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده به رابطه نا مشروع محکوم شده است",
+      "evidence": {
+        "quote": "به رابطه نا مشروع محکوم شده است",
+        "start_char": 308,
+        "end_char": 339,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده صلاحیت حضانت ندارد",
+      "evidence": {
+        "quote": "ایشان صلاحیت حضانت ندارد",
+        "start_char": 282,
+        "end_char": 306,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

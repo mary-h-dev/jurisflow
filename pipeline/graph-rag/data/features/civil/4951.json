@@ -1,0 +1,183 @@
+{
+  "ruling_id": "4951",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 63,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "گواهی عدم امکان سازش زوجین را جهت اجرای صیغه طلاق خلع",
+        "start_char": 1116,
+        "end_char": 1169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجین",
+      "evidence": {
+        "quote": "رأی بر اساس قواعد جاری و تشریفات ساری و اصول حاکم و مقررات صـادرشده",
+        "start_char": 1819,
+        "end_char": 1886,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "الباقی مهر را در آینده مطالبه خواهد کرد",
+        "start_char": 505,
+        "end_char": 544,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "زوجه حاضر است نصف مهر خود را در قبال طلاق به زوج بذل می کند",
+        "start_char": 445,
+        "end_char": 504,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "دادگاه تجدید نظر خواهی را وارد نمی داند",
+        "start_char": 1774,
+        "end_char": 1813,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "با رد تجدید نظر خواهی به عمل آمده دادنامه معترض مریض عنه را تأیید می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان م.ت. فرزند م.",
+        "start_char": 0,
+        "end_char": 20,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده ذ.ز. فرزند ع.",
+        "start_char": 21,
+        "end_char": 50,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به موجب تصویر سند نکاحیه پیوستی زوجه به عقد دائمی زوج درآمده است",
+        "start_char": 169,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "به موجب تصویر سند نکاحیه پیوستی زوجه به عقد دائمی زوج درآمده است",
+        "start_char": 169,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به موجب تصویر سند نکاحیه پیوستی",
+        "start_char": 169,
+        "end_char": 200,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهر",
+      "evidence": {
+        "quote": "نصف مهر خود را در قبال طلاق به زوج بذل می کند",
+        "start_char": 459,
+        "end_char": 504,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی عدم",
+      "evidence": {
+        "quote": "گواهی عدم امکان سازش زوجین را",
+        "start_char": 1116,
+        "end_char": 1145,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج و زوجه در طول هفت سال صاحب فرزند نشده‌اند",
+      "evidence": {
+        "quote": "در طول زندگی مشترک به مدت هفت سال صاحب فرزند نشده ایم",
+        "start_char": 306,
+        "end_char": 359,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج ضرب و شتم می‌کند",
+      "evidence": {
+        "quote": "بنا به دلایل اینکه زوج ضرب و شتم می کند",
+        "start_char": 236,
+        "end_char": 275,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج نفقه پرداخت نمی‌کند",
+      "evidence": {
+        "quote": "نفقه پرداخت نمی کند",
+        "start_char": 385,
+        "end_char": 404,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "4665",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت اجرت المثل",
+        "start_char": 95,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "بدون قصد تبرع",
+        "start_char": 556,
+        "end_char": 569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "از باب قاعده فقهی تسبیب",
+        "start_char": 251,
+        "end_char": 274,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت اجرت المثل",
+        "start_char": 95,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "تقاضای رد دعوی خواهان را نموده اند",
+        "start_char": 904,
+        "end_char": 938,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را در محدوده تجدیدنظرخواهی تأیید می نماید",
+        "start_char": 2255,
+        "end_char": 2319,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ما حصل دعوی خواهان اینست",
+        "start_char": 276,
+        "end_char": 300,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت",
+        "start_char": 95,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به دستور زوج",
+        "start_char": 541,
+        "end_char": 553,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به حکایت سند نکاحیه شماره 36992",
+        "start_char": 304,
+        "end_char": 335,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 747",
+        "start_char": 1410,
+        "end_char": 1435,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ازدواج طرفین با عقد دائم صورت گرفته است",
+      "evidence": {
+        "quote": "به عقد دائم خوانده محترم درآمدم",
+        "start_char": 388,
+        "end_char": 419,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین فرزند ندارند",
+      "evidence": {
+        "quote": "و اولادی نیز نداریم",
+        "start_char": 463,
+        "end_char": 482,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طلاق به درخواست زوج نبوده است",
+      "evidence": {
+        "quote": "با توجه به این که طلاق به درخواست زوج نبوده",
+        "start_char": 982,
+        "end_char": 1025,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

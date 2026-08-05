@@ -1,0 +1,163 @@
+{
+  "ruling_id": "918",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ضمنی",
+      "evidence": {
+        "quote": "مؤید موافقت ضمنی زوج با امر اشتغال زوجه بوده",
+        "start_char": 219,
+        "end_char": 263,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "اشتغال زوجه موجب عدم تمکین خاص گردیده",
+        "start_char": 480,
+        "end_char": 517,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "منع اشتغال",
+      "evidence": {
+        "quote": "به خواسته منع اشتغال",
+        "start_char": 80,
+        "end_char": 100,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دادخواست",
+      "evidence": {
+        "quote": "رأي به رد دادخواست خواهان صادر",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقـای ع.ر.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در محاکم محترم تجدیدنظر",
+        "start_char": 728,
+        "end_char": 763,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "موافقت ضمنی زوج با امر اشتغال زوجه بوده",
+        "start_char": 224,
+        "end_char": 263,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "اشتغال زوجه پرستاری در بیمارستان است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "رأي به رد دادخواست خواهان صادر",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 1485,
+        "end_char": 1504,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "در سند ازدواج طرفین مورخ 24/2/1371",
+        "start_char": 134,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه 9109970216601549",
+        "start_char": 863,
+        "end_char": 890,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه در سند ازدواج به عنوان کارمند قید شده است",
+      "evidence": {
+        "quote": "در سند ازدواج طرفین مورخ 24/2/1371 پرسنلی زوجه به عنوان کارمند قید گردیده",
+        "start_char": 134,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شغل زوجه پرستاری است",
+      "evidence": {
+        "quote": "شغل زوجه پرستاری در بیمارستان است",
+        "start_char": 274,
+        "end_char": 307,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج نسبت به اشتغال زوجه اعتراضی نداشته است",
+      "evidence": {
+        "quote": "عدم طرح هرگونه ادعا و یا اعتراضی از طرف زوج نسبت به اشتغال زوجه",
+        "start_char": 366,
+        "end_char": 429,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

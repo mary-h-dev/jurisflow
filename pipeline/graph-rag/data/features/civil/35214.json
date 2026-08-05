@@ -1,0 +1,133 @@
+{
+  "ruling_id": "35214",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مدنی",
+      "evidence": {
+        "quote": "حق درخواست تغییر نام از حقوق مدنی است",
+        "start_char": 354,
+        "end_char": 391,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اهلیت",
+      "evidence": {
+        "quote": "خواهان اهلیت اعمال این حق را دارا میباشد",
+        "start_char": 573,
+        "end_char": 613,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "بخواسته تغییر نام از ش. به لیلی یاس",
+        "start_char": 97,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "جهت ابطال ادعای خود به استشهادیه استناد نموده",
+        "start_char": 202,
+        "end_char": 247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد تجدیدنظر",
+      "evidence": {
+        "quote": "با رد تجدیدنظر خواهی دادنامه تجدیدنظر خواسته تائید می شود",
+        "start_char": 1552,
+        "end_char": 1609,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان ش. گ.ف.",
+        "start_char": 0,
+        "end_char": 31,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده اداره ثبت احوال شهرستان تهران مرکزی",
+        "start_char": 47,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی اداره ثبت احوال منطقه مرکزی تهران",
+        "start_char": 932,
+        "end_char": 980,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "در سند سجلی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 9300921",
+        "start_char": 1006,
+        "end_char": 1035,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان درخواست تغییر نام در سند سجلی را دارد",
+      "evidence": {
+        "quote": "بخواسته تغییر نام از ش. به لیلی یاس در سند سجلی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظر خواهی اداره ثبت احوال وارد و موجه نیست",
+      "evidence": {
+        "quote": "وارد و موجه نمی باشد",
+        "start_char": 1206,
+        "end_char": 1226,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

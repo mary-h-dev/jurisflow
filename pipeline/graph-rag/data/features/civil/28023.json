@@ -1,0 +1,193 @@
+{
+  "ruling_id": "28023",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "با توجه به احراز بیع",
+        "start_char": 1558,
+        "end_char": 1578,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهدات",
+      "evidence": {
+        "quote": "به اعتبار تعهدات عرفی",
+        "start_char": 3039,
+        "end_char": 3060,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "پس تحویل آپارتمان محقق و محرزاست",
+        "start_char": 770,
+        "end_char": 802,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "تنظیم سند انتقال",
+        "start_char": 139,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فک رهن",
+      "evidence": {
+        "quote": "فک رهن",
+        "start_char": 231,
+        "end_char": 237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "اخذ پایان کار",
+        "start_char": 240,
+        "end_char": 253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه خسارات",
+      "evidence": {
+        "quote": "دیگر مطالبه خسارات",
+        "start_char": 1097,
+        "end_char": 1115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده جهت رسیدگی به مرجع محترم بدوی اعاده می شود",
+        "start_char": 3654,
+        "end_char": 3703,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مستندات خواهان",
+        "start_char": 411,
+        "end_char": 425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده",
+        "start_char": 18,
+        "end_char": 31,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه مدعی است",
+        "start_char": 3374,
+        "end_char": 3396,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "تحویل مبیع",
+        "start_char": 125,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "تنظیم سند انتقال یک واحد آپارتمان",
+        "start_char": 139,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "و ملک نیز در رهن است",
+        "start_char": 894,
+        "end_char": 914,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وام",
+      "evidence": {
+        "quote": "با احتساب وام بانکی",
+        "start_char": 863,
+        "end_char": 882,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت مبلغ ده میلیون تومان بابت تحویل آپارتمان",
+      "evidence": {
+        "quote": "مبلغ ده میلیون تومان بابت تحویل آپارتمان بوده است قبلا پرداخت نموده است",
+        "start_char": 553,
+        "end_char": 624,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "نصب کابینت توسط خواهان در آپارتمان",
+      "evidence": {
+        "quote": "نصب کابینت بتوسط خواهان در آپارتمان مورد نظر",
+        "start_char": 668,
+        "end_char": 712,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وام از ثمن کسر شده است",
+      "evidence": {
+        "quote": "وام مذکور از ثمن کسر شده باشد",
+        "start_char": 3446,
+        "end_char": 3475,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

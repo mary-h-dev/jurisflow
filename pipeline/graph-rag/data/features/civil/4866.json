@@ -1,0 +1,183 @@
+{
+  "ruling_id": "4866",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت دائم بین طرفین محرز و مسلم است",
+        "start_char": 151,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شروط ضمن عقد",
+      "evidence": {
+        "quote": "شروط ضمن عقد مندرج در سند ازدواج",
+        "start_char": 209,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "وکالت",
+      "evidence": {
+        "quote": "مبنی بر وکالت زوج به زوجه در طلاق",
+        "start_char": 242,
+        "end_char": 275,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلع",
+      "evidence": {
+        "quote": "نوع طلاق با بذل هر میزان از مهریه به انتخاب زوجه خلع است",
+        "start_char": 1175,
+        "end_char": 1231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل اعتراض و رسیدگی در دادگاه تجدیدنظر",
+        "start_char": 1397,
+        "end_char": 1436,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "قابل فرجام خواهی در دیوان عالی کشور",
+        "start_char": 1466,
+        "end_char": 1501,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم طلاق",
+        "start_char": 100,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض",
+        "start_char": 1397,
+        "end_char": 1408,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان دعوی صادر و اعلام می نماید",
+        "start_char": 2701,
+        "end_char": 2749,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه به بند ب شروط ضمن عقد",
+        "start_char": 195,
+        "end_char": 221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "مبنی بر وکالت زوج به زوجه",
+        "start_char": 242,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان را وارد دانسته",
+        "start_char": 560,
+        "end_char": 586,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "مندرج در سند ازدواج",
+        "start_char": 222,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "مندرج در سند نکاحیه",
+        "start_char": 521,
+        "end_char": 540,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بذل هر میزان از مهریه",
+        "start_char": 1187,
+        "end_char": 1208,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین برای اهدای جنین اقدام کرده‌اند",
+      "evidence": {
+        "quote": "حکایت دارد زوجین جهت تلقیح مجوز اهدای جنین اقدام نمودند",
+        "start_char": 1803,
+        "end_char": 1858,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مساعی داوران برای صلح و سازش مفید واقع نشد",
+      "evidence": {
+        "quote": "با عدم توفیق قرار ارجاع به داوری صادر و اعلام نمود که مساعی داوران منتخب نیز مفید واقع نشد",
+        "start_char": 702,
+        "end_char": 792,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

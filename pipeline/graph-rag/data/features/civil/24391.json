@@ -1,0 +1,183 @@
+{
+  "ruling_id": "24391",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "علیرغم تعهد، خوانده ردیف اول ، مبالغ ارزی مذکوررابه حساب شرکت چینی واریزنمی کند",
+        "start_char": 429,
+        "end_char": 508,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "خوانده رامسئول می داند",
+        "start_char": 2423,
+        "end_char": 2445,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقصیر",
+      "evidence": {
+        "quote": "خودرامرتکب تقصیرنمی داند",
+        "start_char": 2068,
+        "end_char": 2092,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "محکومیت خواندگان به پرداخت مبلغ 2/875/066/000 ریال",
+        "start_char": 101,
+        "end_char": 151,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "مبالغ ارزی مذکوررابه حساب شرکت چینی واریزنمی کند",
+        "start_char": 460,
+        "end_char": 508,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض به شرح لایحه اعتراضیه وارد نبوده",
+        "start_char": 4184,
+        "end_char": 4223,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "محکومیت خواندگان به پرداخت مبلغ",
+        "start_char": 101,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان مدعی است",
+        "start_char": 203,
+        "end_char": 218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف اول چنین دفاع کرده است",
+        "start_char": 553,
+        "end_char": 587,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه س.ع. م.خ.",
+        "start_char": 3894,
+        "end_char": 3924,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در راستای رد و بدل وجوه با شرکت فروشنده طرف قرارداد خود با مراجعه به تجدیدنظرخواه از وی درخواست می نماید",
+        "start_char": 4863,
+        "end_char": 4967,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "واسطه",
+      "evidence": {
+        "quote": "نقش تجدیدنظرخواه در این فرآیند صرفاً بعنوان واسطه بوده",
+        "start_char": 5791,
+        "end_char": 5845,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "محکومیت خواندگان به پرداخت مبلغ 2/875/066/000 ریال",
+        "start_char": 101,
+        "end_char": 151,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبلغ",
+      "evidence": {
+        "quote": "مبلغ 82425 دلاررابه حساب شرکت مذکورحواله نماید",
+        "start_char": 284,
+        "end_char": 330,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حواله",
+      "evidence": {
+        "quote": "مبادرت به ارسال حواله ارزی می نماید",
+        "start_char": 5309,
+        "end_char": 5344,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ارسال حواله به حساب اشتباه به دلیل هک شدن ایمیل",
+      "evidence": {
+        "quote": "مشخصات دریافت کننده و آدرس و مشخصات آن از آدرس ایمیلی تجدیدنظرخوانده واصل شده است",
+        "start_char": 6226,
+        "end_char": 6307,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تغییر مشخصات حساب در ایمیل ارسالی توسط هکر",
+      "evidence": {
+        "quote": "مشخصات دریافت کننده حواله و شماره حساب مندرج در آن با مشخصات و شماره حساب مندرج در ایمیل اولیه متفاوت می باشد",
+        "start_char": 5569,
+        "end_char": 5678,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "ruling_id": "4921",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت قراردادی",
+        "start_char": 124,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "عقد بیع در تاریخ 31/2/88",
+        "start_char": 1908,
+        "end_char": 1932,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خارجی",
+      "evidence": {
+        "quote": "عدم انجام تعهد مربوطه علّت خارجی موضوع دادنامه های مرقوم بوده",
+        "start_char": 1314,
+        "end_char": 1375,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه خسارت قراردادی",
+        "start_char": 114,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "عدم تنظیم سند رسمی",
+        "start_char": 257,
+        "end_char": 275,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امضاء",
+      "evidence": {
+        "quote": "مبایعه نامه را امضاء نموده است",
+        "start_char": 2820,
+        "end_char": 2850,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظر",
+        "start_char": 2356,
+        "end_char": 2380,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان اصلی",
+        "start_char": 2993,
+        "end_char": 3017,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان غیر وارد تشخیص",
+        "start_char": 1414,
+        "end_char": 1440,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده اول",
+        "start_char": 1958,
+        "end_char": 1977,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "تعهدات اعطایی بایع به وکیل مشتری",
+        "start_char": 2092,
+        "end_char": 2124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "بایع به وکیل مشتری",
+        "start_char": 2106,
+        "end_char": 2124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "به وکالت از خانم پ.ر",
+        "start_char": 32,
+        "end_char": 52,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "تنظیم سند رسمی آپارتمان",
+        "start_char": 261,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موضوع بند 7-6مبایعه نامه شماره74304-31/2/88",
+        "start_char": 357,
+        "end_char": 400,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "تصویر سند مالکیت رسمی خوانده دوم",
+        "start_char": 589,
+        "end_char": 621,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تنظیم سند رسمی ملک",
+      "evidence": {
+        "quote": "عدم حضور در دفترخانه و عدم تنظیم سند رسمی",
+        "start_char": 234,
+        "end_char": 275,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود دعوای وارثان مالک سابق",
+      "evidence": {
+        "quote": "به جهت طرح دعوی فی مابین ورثه مالک سابق",
+        "start_char": 799,
+        "end_char": 838,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "امضای مبایعه نامه توسط وکیل",
+      "evidence": {
+        "quote": "مشارٌالیه به عنوان وکیل به وکالت از موکل (تجدیدنظر خوانده دوم) مبایعه نامه را امضاء نموده است",
+        "start_char": 2757,
+        "end_char": 2850,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

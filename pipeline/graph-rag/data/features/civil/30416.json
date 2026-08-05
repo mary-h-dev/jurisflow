@@ -1,0 +1,203 @@
+{
+  "ruling_id": "30416",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "مطالبه خسارات وارده در نتیجه عدم ایفاء تعهدات قراردادی",
+        "start_char": 87,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 2678,
+        "end_char": 2695,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تضامن",
+      "evidence": {
+        "quote": "حکم به محکومیت خواندگان به طور تضامنی",
+        "start_char": 2552,
+        "end_char": 2589,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اراده",
+      "evidence": {
+        "quote": "اصل آزادی اراده",
+        "start_char": 4368,
+        "end_char": 4383,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "با اصدار حکم ورشکستگی",
+        "start_char": 3968,
+        "end_char": 3989,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارات وارده",
+        "start_char": 87,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت شده",
+        "start_char": 752,
+        "end_char": 762,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض از سوی ایشان وارد نشده است",
+        "start_char": 1817,
+        "end_char": 1850,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض عنه",
+        "start_char": 8800,
+        "end_char": 8825,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان نخستین را صادر",
+        "start_char": 8908,
+        "end_char": 8942,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مطالبات خواهان را",
+        "start_char": 1660,
+        "end_char": 1677,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "بین ایشان با خواندگان دعوا",
+        "start_char": 291,
+        "end_char": 317,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "پیمانکار",
+      "evidence": {
+        "quote": "به عنوان پیمانکار قرارداد را امضاء نموده اند",
+        "start_char": 2042,
+        "end_char": 2086,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "کارفرما",
+      "evidence": {
+        "quote": "به عنوان کارفرما",
+        "start_char": 1957,
+        "end_char": 1973,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدیر",
+      "evidence": {
+        "quote": "بایستی دعوی خود را در جهت مطالبه آن بطرفیت مدیر تصفیه اقامه نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "مندرجات قرارداد پیمانکاری شماره 312/14- 1279",
+        "start_char": 233,
+        "end_char": 277,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت صورت وضعیت‌ها با تأخیر انجام شده است",
+      "evidence": {
+        "quote": "صورت وضعیت های قطعی با ماهها تأخیر پرداخت شده",
+        "start_char": 717,
+        "end_char": 762,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرکت ت. ورشکسته اعلام شده است",
+      "evidence": {
+        "quote": "شرکت ت.در تاریخ 1388/3/16 برابر با دادنامه شماره 8800630000500260 صادره از شعبه 110 دادگاه عمومی حقوقی تهران ورشکسته اعلام",
+        "start_char": 7795,
+        "end_char": 7917,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوی در تاریخ پس از اعلام توقف شرکت مطرح شده است",
+      "evidence": {
+        "quote": "در اینحالیست که خواهان نخستین در تاریخ 1391/3/1 مبادرت به طرح دعوی نموده و دعوی خود را بطرفیت شرکت ت. که در آن مقطع زمانی ورشکسته بوده است اقامه کرده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

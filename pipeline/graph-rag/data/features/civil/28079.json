@@ -1,0 +1,183 @@
+{
+  "ruling_id": "28079",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مالکیت مورث خواندگان بر ملک پلاک ثبتی مورد دعوی",
+        "start_char": 407,
+        "end_char": 454,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصالت",
+      "evidence": {
+        "quote": "با احراز اصالت و صحت آن",
+        "start_char": 2006,
+        "end_char": 2029,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "تنظیم سند رسمی 2 دانگ از شش دانگ یک واحد مسکونی",
+        "start_char": 257,
+        "end_char": 304,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال سند",
+      "evidence": {
+        "quote": "تنظیم و انتقال سند رسمی دو دانگ از ششدانگ یک واحد مسکونی",
+        "start_char": 2089,
+        "end_char": 2145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 3036,
+        "end_char": 3056,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان آقای الف. ح. ح.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان 1- ح. ح.الف.",
+        "start_char": 47,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان‌ها",
+      "evidence": {
+        "quote": "تجدیدنظرخواهانها به عنوان وراث مرحوم حاج ح. ح.الف.",
+        "start_char": 1861,
+        "end_char": 1911,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به نام تجدیدنظرخوانده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مورث",
+      "evidence": {
+        "quote": "مالکیت مورث خواندگان",
+        "start_char": 407,
+        "end_char": 427,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "واحد",
+      "evidence": {
+        "quote": "یک واحد مسکونی به پلاک ثبتی",
+        "start_char": 290,
+        "end_char": 317,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وصیت‌نامه",
+      "evidence": {
+        "quote": "در ذیل وصیت نامه مستند دعوی",
+        "start_char": 710,
+        "end_char": 737,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه رسمی",
+      "evidence": {
+        "quote": "در راستای وصیت نامه رسمی شماره",
+        "start_char": 1912,
+        "end_char": 1942,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "تنظیم سند رسمی",
+        "start_char": 257,
+        "end_char": 271,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت ملک متعلق به مورث خواندگان است",
+      "evidence": {
+        "quote": "مالکیت مورث خواندگان بر ملک پلاک ثبتی مورد دعوی حسب پاسخ استعلام واصل شده از اداره ثبت شمیران به شماره.......-1391/3/10 که تحت شماره.....مورخ 1394/4/29 ثبت دفتر دادگاه شده است محرز می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اثر انگشت مورث به وصیت نامه متعلق است",
+      "evidence": {
+        "quote": "اثر انگشت انتسابی به مورث خواندگان در ذیل وصیت نامه مستند دعوی متعلق به وی می باشد",
+        "start_char": 675,
+        "end_char": 757,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وصیت نامه موخر دارای وصف تملیکی است",
+      "evidence": {
+        "quote": "وصیت نامه موخر که وصف تملیکی دارد",
+        "start_char": 2515,
+        "end_char": 2548,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

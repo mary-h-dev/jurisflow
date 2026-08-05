@@ -1,0 +1,193 @@
+{
+  "ruling_id": "29521",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "صدور حکم بر تایید فسخ",
+        "start_char": 183,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "بلحاظ انتقال به غیر",
+        "start_char": 374,
+        "end_char": 393,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق کسب و پیشه",
+      "evidence": {
+        "quote": "تعیین حق کسب و پیشه و تجارت",
+        "start_char": 1441,
+        "end_char": 1468,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انقضای مدت",
+      "evidence": {
+        "quote": "بلحاظ انقضای مدت",
+        "start_char": 1786,
+        "end_char": 1802,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "حکم به تخلیه",
+        "start_char": 2298,
+        "end_char": 2310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "با انضمام مطالبه خسارات دادرسی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوای",
+      "evidence": {
+        "quote": "قرار رد دعوای خواهان",
+        "start_char": 936,
+        "end_char": 956,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "مبنی بر اعاده دادرسی",
+        "start_char": 4195,
+        "end_char": 4215,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "فیمابین خواهان و خوانده ردیف اول",
+        "start_char": 254,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "فیمابین خواهان و خوانده ردیف اول",
+        "start_char": 254,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "حق انتقال به غیر از مستاجر سلب",
+        "start_char": 1085,
+        "end_char": 1115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "بدون اذن و رضایت موجر",
+        "start_char": 394,
+        "end_char": 415,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متصرف",
+      "evidence": {
+        "quote": "باعنوان متصرف",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "قرار داد اجاره شماره 36064",
+        "start_char": 205,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "تخلیه یک باب مغازه",
+        "start_char": 3233,
+        "end_char": 3251,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "جزء پلاک ثبتی... بخش 2 تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مستأجر بدون اذن مالک، مورد اجاره را به غیر منتقل کرده است",
+      "evidence": {
+        "quote": "انتقال غیر ماذون و رضایت مورد اجاره به خوانده ردیف سوم محرز است",
+        "start_char": 1327,
+        "end_char": 1390,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مستأجر اول، مستأجر سوم را به عنوان کارگر معرفی نکرده است",
+      "evidence": {
+        "quote": "دلیلی بر حقوق بگیر بودن تجدیدنظرخواه که حکایت از رابطه کارگر و کارفرمایی باشد نیز از ناحیه مشارالیه ارائه نگردیده است",
+        "start_char": 3742,
+        "end_char": 3859,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

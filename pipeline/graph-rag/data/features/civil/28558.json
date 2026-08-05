@@ -1,0 +1,163 @@
+{
+  "ruling_id": "28558",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "لیکن این امر مانع مسئولیت مدنی نمی باشد",
+        "start_char": 3443,
+        "end_char": 3482,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استصحاب",
+      "evidence": {
+        "quote": "مسئولیت همچنان استصحاب می گردد",
+        "start_char": 3746,
+        "end_char": 3776,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "رابطه سببیت مستقیم بوده",
+        "start_char": 4228,
+        "end_char": 4251,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مراجعه",
+      "evidence": {
+        "quote": "مراجعه ومبلغ فوق از حساب خواهان دریافت می نماید",
+        "start_char": 245,
+        "end_char": 292,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "وجه راپرداخت نموده است",
+        "start_char": 805,
+        "end_char": 827,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "عمده اعتراض بانک م. این بوده",
+        "start_char": 2557,
+        "end_char": 2585,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بخواسته مبلغ 89/000/000 ریال",
+        "start_char": 97,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "لذا محکومیت خواندگان",
+        "start_char": 399,
+        "end_char": 419,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بانک",
+      "evidence": {
+        "quote": "بی احتیاطی متصدی بانک بوده",
+        "start_char": 1017,
+        "end_char": 1043,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی بانک م. جمهوری اسلامی ایران",
+        "start_char": 1992,
+        "end_char": 2033,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده صادر گردیده است",
+        "start_char": 2519,
+        "end_char": 2555,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "شخصی با در دست داشتن یک برگ چک مجعول",
+        "start_char": 188,
+        "end_char": 224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "بخواسته مبلغ 89/000/000 ریال",
+        "start_char": 97,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شخصی با چک جعلی از حساب خواهان وجه برداشت کرد",
+      "evidence": {
+        "quote": "شخصی با در دست داشتن یک برگ چک مجعول به بانک م. شعبه... مراجعه ومبلغ فوق از حساب خواهان دریافت می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "نام صاحب حساب با نام درج شده در چک مطابقت نداشت",
+      "evidence": {
+        "quote": "نام صاحب حساب مطابقت نداشته",
+        "start_char": 1171,
+        "end_char": 1198,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

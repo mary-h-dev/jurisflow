@@ -1,0 +1,153 @@
+{
+  "ruling_id": "4310",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بلوغ",
+      "evidence": {
+        "quote": "متولد 23/9/82 می باشد و در تاریخ تقدیم دادخواست به سن بلوغ رسیده اند",
+        "start_char": 1340,
+        "end_char": 1408,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رشد",
+      "evidence": {
+        "quote": "رشد قرار داده است",
+        "start_char": 1544,
+        "end_char": 1561,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "تغییر نام از الف. به غ.",
+        "start_char": 133,
+        "end_char": 156,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "تقاضای رد دعوی خواهان را دارد",
+        "start_char": 598,
+        "end_char": 627,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 1892,
+        "end_char": 1922,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت اداره ثبت احوال به خواسته تقاضای الزام خوانده",
+        "start_char": 75,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت اداره ثبت احوال به خواسته تقاضای الزام خوانده",
+        "start_char": 75,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "به طرفیت اداره ثبت احوال",
+        "start_char": 75,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "صغیر",
+      "evidence": {
+        "quote": "به ولایت از فرزند صغیر خود",
+        "start_char": 36,
+        "end_char": 62,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ولی",
+      "evidence": {
+        "quote": "با ولی قهری است",
+        "start_char": 1727,
+        "end_char": 1742,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "اسم فرزند وی در شناسنامه الف. می باشد",
+        "start_char": 182,
+        "end_char": 219,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "در سند سجلی شماره 1-633089-002",
+        "start_char": 1253,
+        "end_char": 1283,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرزند در بین اقوام و دوستان به نام غ. مشهور است",
+      "evidence": {
+        "quote": "فرزندش در بین اقوام و دوستان به غ. مشهور است",
+        "start_char": 266,
+        "end_char": 310,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزند در تاریخ تقدیم دادخواست به سن بلوغ رسیده است",
+      "evidence": {
+        "quote": "در تاریخ تقدیم دادخواست به سن بلوغ رسیده اند",
+        "start_char": 1364,
+        "end_char": 1408,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

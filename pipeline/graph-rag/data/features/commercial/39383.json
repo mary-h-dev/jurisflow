@@ -1,0 +1,163 @@
+{
+  "ruling_id": "39383",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تأمین خواسته",
+      "evidence": {
+        "quote": "خواهان درخواست تامین خواسته نموده است",
+        "start_char": 298,
+        "end_char": 335,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مرور زمان",
+      "evidence": {
+        "quote": "مشمول مرور زمان 5 ساله اسناد تجاری شده",
+        "start_char": 3486,
+        "end_char": 3524,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "به علاوه خسارت دادرسی و خسارت تاخیر تادیه",
+        "start_char": 2128,
+        "end_char": 2169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوای خواهان صادر و اعلام می دارد",
+        "start_char": 3840,
+        "end_char": 3886,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه وجه چک",
+        "start_char": 158,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تودیع",
+      "evidence": {
+        "quote": "طی فیش منضم صفحه ی 26 پرونده تودیع نموده است",
+        "start_char": 877,
+        "end_char": 921,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده",
+        "start_char": 2949,
+        "end_char": 2970,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با پذیرش اعتراض دادنامه معترض عنه را در این قسمت نقض",
+        "start_char": 5140,
+        "end_char": 5192,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان: اقای ب. ر. فرزند ع.",
+        "start_char": 34,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده: خانم س. س. م. ن. فرزند س.",
+        "start_char": 105,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "در خصوص چک شماره *مورخه 98/02/01",
+        "start_char": 653,
+        "end_char": 685,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "توقیف اموال خوانده",
+        "start_char": 1125,
+        "end_char": 1143,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت چک توسط بانک",
+      "evidence": {
+        "quote": "با توجه به گواهی عدم پرداخت بانک محال علیه",
+        "start_char": 2469,
+        "end_char": 2511,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم حضور خوانده در دادگاه",
+      "evidence": {
+        "quote": "خوانده در این دادگاه حضور نیافته",
+        "start_char": 2655,
+        "end_char": 2687,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل پرداخت توسط خوانده",
+      "evidence": {
+        "quote": "دلیلی بر پرداخت مافی الذمه خود ارائه نکرده است",
+        "start_char": 2690,
+        "end_char": 2736,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

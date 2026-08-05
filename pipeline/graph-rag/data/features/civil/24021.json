@@ -1,0 +1,183 @@
+{
+  "ruling_id": "24021",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام به تمکین",
+        "start_char": 91,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت",
+      "evidence": {
+        "quote": "ناشی از زوجیت",
+        "start_char": 132,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان",
+        "start_char": 756,
+        "end_char": 780,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام به تمکین",
+        "start_char": 91,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "به نظر دادگاه اعتراض وارد است",
+        "start_char": 1197,
+        "end_char": 1226,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه مارالذکر",
+        "start_char": 1606,
+        "end_char": 1630,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست خواهان آقای م. ح.م.",
+        "start_char": 7,
+        "end_char": 35,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده خانم الف. ن.ف.",
+        "start_char": 45,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "وجوب تمکین زوجه از زوج",
+        "start_char": 159,
+        "end_char": 181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "وجوب تمکین زوجه از زوج",
+        "start_char": 159,
+        "end_char": 181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بطلان دعوی تجدیدنظرخواه",
+        "start_char": 1122,
+        "end_char": 1145,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "تهیه مسکن مستقل",
+        "start_char": 1741,
+        "end_char": 1756,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث‌البیت",
+      "evidence": {
+        "quote": "اثاث البیت تهیه شده",
+        "start_char": 409,
+        "end_char": 428,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "در عقدنامه در رابطه با مسکن شرطی قید نشد",
+        "start_char": 1489,
+        "end_char": 1528,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج مسکن را در خارج از شهر کرج تهیه کرده است",
+      "evidence": {
+        "quote": "زوج اقدام به تهیه یک واحد منزل مسکونی در بیرون از شهر کرج به سمت قزوین اقدام نموده",
+        "start_char": 324,
+        "end_char": 406,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اثاث البیت تهیه شده با شئون زوجه متناسب نیست",
+      "evidence": {
+        "quote": "این اثاث البیت در شأن زوجه نبوده و مکفی جهت ادامه زندگی مشترک نمی باشد",
+        "start_char": 548,
+        "end_char": 618,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در عقدنامه شرطی در مورد مسکن قید نشده است",
+      "evidence": {
+        "quote": "در عقدنامه در رابطه با مسکن شرطی قید نشد",
+        "start_char": 1489,
+        "end_char": 1528,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

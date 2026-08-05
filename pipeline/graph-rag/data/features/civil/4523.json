@@ -1,0 +1,173 @@
+{
+  "ruling_id": "4523",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "به خواسته اعلام بطلان مطالبات بانک",
+        "start_char": 77,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "متعهد دریافت تسهیلات",
+        "start_char": 960,
+        "end_char": 980,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "انتقال مسئولیت از خواهان بـه خواندگان اول و دوم",
+        "start_char": 1379,
+        "end_char": 1426,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "از اجرای تعهد استنکاف ورزیده",
+        "start_char": 563,
+        "end_char": 591,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأدیه",
+      "evidence": {
+        "quote": "نتیجه آن تأدیه دین است",
+        "start_char": 2424,
+        "end_char": 2446,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "با رد اعتراض مستنـداً به ماده 358 قانون آیین دادرسی مدنی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای غ.ر. با وکالت آقای ب.و. به طرفیت خانم ط.پ.، م.م. و بانک ب.",
+        "start_char": 0,
+        "end_char": 76,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بانک خوانده، طی لایحه ای اظهار داشته",
+        "start_char": 920,
+        "end_char": 956,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متعهد",
+      "evidence": {
+        "quote": "متعهد دریافت تسهیلات",
+        "start_char": 960,
+        "end_char": 980,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "داین",
+      "evidence": {
+        "quote": "نه این که داین متعهد به مطالبه وجه در زمان مورد توافق باشد",
+        "start_char": 1646,
+        "end_char": 1704,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت",
+      "evidence": {
+        "quote": "به استناد قرارداد مشارکت",
+        "start_char": 215,
+        "end_char": 239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اوراق",
+      "evidence": {
+        "quote": "و اوراق بازجویی",
+        "start_char": 240,
+        "end_char": 255,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "خواهان قرارداد تسهیلات دریافت وام با بانک خوانده را صادر",
+        "start_char": 270,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "بازپرداخت ملک خوانده ردیف اول معرفی می گردد",
+        "start_char": 351,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواندگان ردیف اول و دوم از پرداخت اقساط امتناع کرده‌اند",
+      "evidence": {
+        "quote": "از اجرای تعهد استنکاف ورزیده",
+        "start_char": 563,
+        "end_char": 591,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بانک در مطالبه دین تعلل کرده است",
+      "evidence": {
+        "quote": "بانک راساً تعلل در مطالبه دین علی رغم حضور خواهان داشته",
+        "start_char": 822,
+        "end_char": 877,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

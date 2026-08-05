@@ -1,0 +1,183 @@
+{
+  "ruling_id": "34785",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "زنای به عنف",
+      "evidence": {
+        "quote": "به اتهام زنای به عنف تحت تعقیب قرار گرفته است",
+        "start_char": 6,
+        "end_char": 51,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقلب",
+      "evidence": {
+        "quote": "با حیله و تقلب و قول ازدواج",
+        "start_char": 90,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظر",
+      "evidence": {
+        "quote": "تقاضای تجدیدنظر کرده است",
+        "start_char": 952,
+        "end_char": 976,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "شکایت",
+      "evidence": {
+        "quote": "خانم م. الف.پ. شکایت کرده است",
+        "start_char": 54,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "معرفی",
+      "evidence": {
+        "quote": "به پزشکی قانونی معرفی شده",
+        "start_char": 185,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تشکیل جلسه",
+      "evidence": {
+        "quote": "مرقوم در تاریخ 95/6/7 تشکیل جلسه داده",
+        "start_char": 357,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اظهار",
+      "evidence": {
+        "quote": "شاکی اظهار نموده",
+        "start_char": 395,
+        "end_char": 411,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "دادگاه قرار منع پیگرد مشتکی عنه را صادر کرده",
+        "start_char": 877,
+        "end_char": 921,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابلاغ",
+      "evidence": {
+        "quote": "دادنامه به شاکی ابلاغ شده",
+        "start_char": 924,
+        "end_char": 949,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مشاوره",
+      "evidence": {
+        "quote": "فرجام خواسته مشاوره نموده",
+        "start_char": 1276,
+        "end_char": 1301,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شاکی که متولد 1374 است",
+        "start_char": 162,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم می خواسته او را دکتر ببرد",
+        "start_char": 846,
+        "end_char": 876,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "رئیس شعبه",
+      "evidence": {
+        "quote": "رئیس شعبه سی و دوم دیوان عالی کشور",
+        "start_char": 1526,
+        "end_char": 1560,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستشار",
+      "evidence": {
+        "quote": "مستشار : محمدصادق مهدوی راد",
+        "start_char": 1592,
+        "end_char": 1619,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه به شاکی ابلاغ شده",
+        "start_char": 924,
+        "end_char": 949,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه جنسی با وعده ازدواج انجام شده است",
+      "evidence": {
+        "quote": "با حیله و تقلب و قول ازدواج با وی عمل منافی عفت انجام داده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بررسی پزشکی قانونی نشان‌دهنده آسیب در پرده بکارت است",
+      "evidence": {
+        "quote": "در معاینه از پرده بکارت ، از نوع حلقوی و دارای محو شدگی وسائیدگی قدیمی توأم بانسج التیامی در نواحی تحتانی اعلام شده است",
+        "start_char": 211,
+        "end_char": 330,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

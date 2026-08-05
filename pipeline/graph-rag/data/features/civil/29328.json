@@ -1,0 +1,173 @@
+{
+  "ruling_id": "29328",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "حق فسخ به عنوان ضمانت اجرای تخلف از قرارداد",
+        "start_char": 1426,
+        "end_char": 1469,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "اصل لزوم و صحت قراردادها بوده",
+        "start_char": 1479,
+        "end_char": 1508,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "اصل بر صحت و لزوم معاملات بوده",
+        "start_char": 5880,
+        "end_char": 5910,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تایید فسخ قرارداد",
+        "start_char": 174,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت قراردادی",
+        "start_char": 195,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "تسلیم مبیع",
+        "start_char": 267,
+        "end_char": 277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "عدم پرداخت مربوطه",
+        "start_char": 748,
+        "end_char": 765,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهانها 1- خانم ن. 2- آقای ک. 3- آقای س.",
+        "start_char": 18,
+        "end_char": 59,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به خوانده اعلام می نمایند",
+        "start_char": 597,
+        "end_char": 622,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی 1- ن. پیر بابائی 2- ک. پیر بابائی 3- س. پیر بابائی",
+        "start_char": 4330,
+        "end_char": 4394,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "برابر مبایعه نامه مورخ 91/10/3",
+        "start_char": 404,
+        "end_char": 434,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "املاک و مستغلات",
+      "evidence": {
+        "quote": "فروش تمامی ششدانگ یک باب مغازه تجاری",
+        "start_char": 444,
+        "end_char": 480,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "27 فقره چک دریافت می گردد",
+        "start_char": 642,
+        "end_char": 667,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت سه قسط آخر چک‌ها",
+      "evidence": {
+        "quote": "سه قسط آخر بموجب چکهای 396713 و 396714 و 396715 و گواهینامه ای عدم پرداخت مربوطه پرداخت نمی گردد",
+        "start_char": 685,
+        "end_char": 781,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت حدود ۹۰ درصد ثمن معامله",
+      "evidence": {
+        "quote": "با لحاظ پرداخت حدود 90 درصد ثمن",
+        "start_char": 2372,
+        "end_char": 2403,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "آمادگی خریدار برای پرداخت نقدی وجه چک‌ها",
+      "evidence": {
+        "quote": "خریدار آمادگی خود را برای پرداخت نقدی مبلغ چک به فروشنده اعلام داشته",
+        "start_char": 5316,
+        "end_char": 5384,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

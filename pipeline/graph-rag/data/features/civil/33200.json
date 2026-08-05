@@ -1,0 +1,183 @@
+{
+  "ruling_id": "33200",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تائید فسخ مبایعه نامه",
+        "start_char": 151,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "دلالت بر تحقق عقد بیع شرعی و قانونی دارد",
+        "start_char": 601,
+        "end_char": 641,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "به جهت خیارتدلیس بلحاظ فقد دلیل مردوداعلام شده",
+        "start_char": 1379,
+        "end_char": 1425,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "بخواسته تائید فسخ مبایعه نامه",
+        "start_char": 143,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "و الزام خواندگان به ایفاء تعهد",
+        "start_char": 226,
+        "end_char": 256,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "و استرداد ثمن مورد معامله",
+        "start_char": 344,
+        "end_char": 369,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم بر رد دعوی خواها ن راصادر",
+        "start_char": 995,
+        "end_char": 1024,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض آن حکم",
+        "start_char": 3468,
+        "end_char": 3482,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان بنام الف. ص.ج.الف.",
+        "start_char": 0,
+        "end_char": 42,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "بطرفیت خواندگان بنامهای ع.و.ح. جملگی ت.الف.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده با مسطح کردن زمین",
+        "start_char": 2831,
+        "end_char": 2856,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "موجبات خدعه وفریب خریدار",
+        "start_char": 2857,
+        "end_char": 2881,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مفاد و مندرجات مبایعه نامه مورخه 1393/4/22",
+        "start_char": 441,
+        "end_char": 483,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "به لحاظ مسکونی نبودن ملک مورد معامله",
+        "start_char": 189,
+        "end_char": 225,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "و استرداد ثمن مورد معامله",
+        "start_char": 344,
+        "end_char": 369,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک مورد معامله دارای کاربری زراعی است",
+      "evidence": {
+        "quote": "مکاتبات بعدی دوایر دولتی موید کاربری زراعی مبیع میباشد",
+        "start_char": 3118,
+        "end_char": 3172,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین در قرارداد کاربری مسکونی را قید کرده‌اند",
+      "evidence": {
+        "quote": "طرفین در متن عقد نیز قید کاربری مسکونی راقید کرده اند",
+        "start_char": 3061,
+        "end_char": 3113,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

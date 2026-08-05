@@ -1,0 +1,173 @@
+{
+  "ruling_id": "691",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "زوجیت دائم",
+      "evidence": {
+        "quote": "وجود علقه زوجت دائم فی مابین طرفین",
+        "start_char": 116,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "به سبب عقد نکاح دائم",
+        "start_char": 151,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "تکلیف زوجه، تمکین از زوج",
+        "start_char": 401,
+        "end_char": 425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "اثبات نشوز زن نمی باشد",
+        "start_char": 1647,
+        "end_char": 1669,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "می تواند از دادگاه مطالبه نماید",
+        "start_char": 1880,
+        "end_char": 1911,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم م.پ.",
+        "start_char": 1202,
+        "end_char": 1225,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تکلیف زوجه، تمکین از زوج",
+        "start_char": 401,
+        "end_char": 425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تکلیف زوجه، تمکین از زوج",
+        "start_char": 401,
+        "end_char": 425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و خوانده با حضور در دادگاه",
+        "start_char": 624,
+        "end_char": 650,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "لذا دادگاه دعوی خواهان را",
+        "start_char": 812,
+        "end_char": 837,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه نیز در این مرحله",
+        "start_char": 1491,
+        "end_char": 1520,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "کپی سند نکاحیه",
+        "start_char": 100,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی صادره حضوری محسوب",
+        "start_char": 982,
+        "end_char": 1003,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "وجود علقه زوجیت دائم فی مابین طرفین به سبب عقد نکاح دائم محرز و مسلم می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل برای عدم تمکین توسط خوانده",
+      "evidence": {
+        "quote": "خوانده با حضور در دادگاه، دلیل و بینه کافی و مؤثر که موجب عدم تمکین وی از خواهان باشد به دادگاه ارائه نکرده",
+        "start_char": 626,
+        "end_char": 733,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تأیید رأی دادگاه بدوی در مرحله تجدیدنظر",
+      "evidence": {
+        "quote": "رأی تجدیدنظرخواسته تأیید می گردد",
+        "start_char": 1595,
+        "end_char": 1627,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

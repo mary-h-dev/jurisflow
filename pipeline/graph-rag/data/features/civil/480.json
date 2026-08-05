@@ -1,0 +1,183 @@
+{
+  "ruling_id": "480",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "انقضاء",
+      "evidence": {
+        "quote": "به لحاظ انقضاء مدت اجاره",
+        "start_char": 195,
+        "end_char": 219,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "قانون مدنی",
+        "start_char": 1356,
+        "end_char": 1366,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "وحدت رویه",
+      "evidence": {
+        "quote": "وحدت رویه",
+        "start_char": 539,
+        "end_char": 548,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "به خواسته تخلیه",
+        "start_char": 99,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "و تحویل عین مستأجره",
+        "start_char": 115,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه ی هزینه دادرسی",
+        "start_char": 220,
+        "end_char": 243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تأیید می گردد",
+        "start_char": 3042,
+        "end_char": 3055,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "احراز مالکیت رسمی خواهان",
+        "start_char": 742,
+        "end_char": 766,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مورث خوانده",
+        "start_char": 391,
+        "end_char": 402,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ع.الف.",
+        "start_char": 1901,
+        "end_char": 1934,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده",
+        "start_char": 2288,
+        "end_char": 2308,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجاره نامه",
+      "evidence": {
+        "quote": "اجاره نامه رسمی شماره 12137-1/4/48 دفترخانه 279 تهران",
+        "start_char": 141,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "فتوکپی مصدق سند مالکیت",
+        "start_char": 272,
+        "end_char": 294,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عین مستأجره",
+      "evidence": {
+        "quote": "تخلیه عین مستأجره",
+        "start_char": 1572,
+        "end_char": 1589,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مورث خوانده ملک را برای شغل پزشکی اجاره کرده است",
+      "evidence": {
+        "quote": "مورث خوانده به موجب اجاره نامه مورد استناد ملک متنازعٌ فیه را برای شغل پزشکی اجاره نموده",
+        "start_char": 391,
+        "end_char": 479,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مدت اجاره منقضی شده است",
+      "evidence": {
+        "quote": "علی رغم انقضای مدت اجاره",
+        "start_char": 480,
+        "end_char": 504,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده از تخلیه و تحویل ملک خودداری می‌کند",
+      "evidence": {
+        "quote": "از تخلیه و تحویل آن خودداری می نماید",
+        "start_char": 618,
+        "end_char": 654,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

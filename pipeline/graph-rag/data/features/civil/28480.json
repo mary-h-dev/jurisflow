@@ -1,0 +1,173 @@
+{
+  "ruling_id": "28480",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اراده",
+      "evidence": {
+        "quote": "مبنای تلاقی دو اراده",
+        "start_char": 1006,
+        "end_char": 1026,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "مشتری فقط حق فسخ دارد",
+        "start_char": 1591,
+        "end_char": 1612,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه الباقی ثمن معامله",
+        "start_char": 110,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ خواسته را که الباقی ثمن معامله می باشد پرداخت ننموده",
+        "start_char": 654,
+        "end_char": 711,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطرح",
+      "evidence": {
+        "quote": "دعوای تقابل با خواسته فوق الاشاره را در جلسه اول دادرسی مطرح نموده",
+        "start_char": 780,
+        "end_char": 846,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "دعوی متقابل محکوم به رد",
+        "start_char": 1787,
+        "end_char": 1810,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی دادنامه تجدیدنظرخواسته تأیید می شود",
+        "start_char": 3249,
+        "end_char": 3304,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان دعوای اصلی",
+        "start_char": 539,
+        "end_char": 556,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقایان 1- م. پ. فرزند ح. 2- ح. ن.پ. فرزند ع.",
+        "start_char": 56,
+        "end_char": 109,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "و خریدار مبلغ خواسته را که الباقی ثمن معامله می باشد پرداخت ننموده",
+        "start_char": 645,
+        "end_char": 711,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "مطالبه الباقی ثمن معامله",
+        "start_char": 120,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "حیاط خلوت قسمتی از مبیع تلقی نمی گردد",
+        "start_char": 1193,
+        "end_char": 1230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "مندرج در مبایعه نامه شماره 1871600",
+        "start_char": 490,
+        "end_char": 524,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان را به خوانده ردیف دوم",
+        "start_char": 557,
+        "end_char": 597,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مساحت آپارتمان کمتر از مورد توافق است",
+      "evidence": {
+        "quote": "بعد معلوم شود که مساحت آپارتمان کمتر است",
+        "start_char": 1519,
+        "end_char": 1559,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبلغ ثمن معامله پرداخت نشده است",
+      "evidence": {
+        "quote": "مبلغ خواسته را که الباقی ثمن معامله می باشد پرداخت ننموده",
+        "start_char": 654,
+        "end_char": 711,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

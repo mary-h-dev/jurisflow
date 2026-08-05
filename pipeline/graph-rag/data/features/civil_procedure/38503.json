@@ -1,0 +1,113 @@
+{
+  "ruling_id": "38503",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "در دعوی بطلان رای داوری",
+        "start_char": 865,
+        "end_char": 888,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نسبی",
+      "evidence": {
+        "quote": "واصل نسبی بودن احکام",
+        "start_char": 1276,
+        "end_char": 1296,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "نمی تواند ابطال رای داوری را درخواست نماید",
+        "start_char": 1297,
+        "end_char": 1339,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به رای داوران برابر مقررات قانونی اعتراض نماید",
+        "start_char": 671,
+        "end_char": 722,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه مبحوث عنه را نقض نموده",
+        "start_char": 1661,
+        "end_char": 1691,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شخص ثالث",
+      "evidence": {
+        "quote": "این شخص ثالث است",
+        "start_char": 605,
+        "end_char": 621,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان ابتدایی از اطراف رای داوری نبوده",
+        "start_char": 1222,
+        "end_char": 1261,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای داور را فقط در صورت احراز شرایط",
+        "start_char": 307,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره*1403/02/09",
+        "start_char": 71,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان دعوا از اطراف رای داوری نبوده است",
+      "evidence": {
+        "quote": "خواهان ابتدایی از اطراف رای داوری نبوده",
+        "start_char": 1222,
+        "end_char": 1261,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

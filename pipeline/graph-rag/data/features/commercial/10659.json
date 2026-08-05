@@ -1,0 +1,163 @@
+{
+  "ruling_id": "10659",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "خواسته ابطال مصوبات مجامع شرکت م.ب.",
+        "start_char": 55,
+        "end_char": 90,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانونی",
+      "evidence": {
+        "quote": "و عدم رعایت تشریفات قانونی",
+        "start_char": 220,
+        "end_char": 246,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان",
+        "start_char": 775,
+        "end_char": 799,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "خواسته ابطال مصوبات مجامع شرکت م.ب.",
+        "start_char": 55,
+        "end_char": 90,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "جلب نظر",
+      "evidence": {
+        "quote": "جلب نظر کارشناس را ضروری دانسته",
+        "start_char": 338,
+        "end_char": 369,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ن.پ.",
+        "start_char": 962,
+        "end_char": 985,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی ن.پ. با وکالت ب.ک. به‬ طرفیت شرکت م.ب.",
+        "start_char": 8,
+        "end_char": 51,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به‬ طرفیت شرکت م.ب.",
+        "start_char": 32,
+        "end_char": 51,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "با وکالت ب.ک.",
+        "start_char": 18,
+        "end_char": 31,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "کارشناس",
+      "evidence": {
+        "quote": "جلب نظر کارشناس را ضروری دانسته",
+        "start_char": 338,
+        "end_char": 369,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "مستندات ابرازی",
+        "start_char": 299,
+        "end_char": 313,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "جعل امضاءهای اعضاء",
+      "evidence": {
+        "quote": "به دلیل جعل امضاءهای اعضاء",
+        "start_char": 192,
+        "end_char": 219,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم رعایت تشریفات قانونی",
+      "evidence": {
+        "quote": "و عدم رعایت تشریفات قانونی",
+        "start_char": 220,
+        "end_char": 246,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ابطال دعوی",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان",
+        "start_char": 775,
+        "end_char": 799,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رد تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "رد تجدیدنظرخواهی",
+        "start_char": 1361,
+        "end_char": 1377,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

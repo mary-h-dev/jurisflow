@@ -1,0 +1,213 @@
+{
+  "ruling_id": "7918",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "اعلام فسخ مبایعه نامه",
+        "start_char": 78,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "بر اساس شرط ضمن عقد",
+        "start_char": 511,
+        "end_char": 530,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "خواهان حق فسخ معامله دارد",
+        "start_char": 592,
+        "end_char": 617,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوای ابتدایی",
+        "start_char": 3626,
+        "end_char": 3652,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعلام فسخ مبایعه نامه",
+        "start_char": 78,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تحویل مبیع",
+        "start_char": 216,
+        "end_char": 226,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "از پرداخت ثمن معامله",
+        "start_char": 421,
+        "end_char": 441,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "از پرداخت ثمن معامله به موجب گواهی عدم پرداخت صادره از سوی بانک محال علیه استنکاف نموده",
+        "start_char": 421,
+        "end_char": 508,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "ضمن ردّ واخواهی ایشان",
+        "start_char": 2284,
+        "end_char": 2305,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه معترض عنه",
+        "start_char": 3560,
+        "end_char": 3584,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ملخص خواسته وکیل خواهان این است",
+        "start_char": 269,
+        "end_char": 300,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "پلاک ثبتی 64004/4476 واقع در بخش 7 تهران را به خوانده واگذار نموده",
+        "start_char": 350,
+        "end_char": 416,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "واخواه هیچ گونه دلیلی که موجب فسخ و نسخ دادنامه صادره گردد به دادگاه ارائه و ابراز نداشته اند",
+        "start_char": 1917,
+        "end_char": 2010,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "مبایعه نامه شماره 20936",
+        "start_char": 88,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "وکالت نامه شماره 209826",
+        "start_char": 143,
+        "end_char": 166,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "تحویل مبیع",
+        "start_char": 216,
+        "end_char": 226,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چک شماره 754895",
+        "start_char": 2840,
+        "end_char": 2855,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی عدم",
+      "evidence": {
+        "quote": "گواهی عدم پرداخت مربوط به تاریخ 1390/3/30 می باشد",
+        "start_char": 2931,
+        "end_char": 2980,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت ثمن معامله",
+      "evidence": {
+        "quote": "از پرداخت ثمن معامله به موجب گواهی عدم پرداخت صادره از سوی بانک محال علیه استنکاف نموده",
+        "start_char": 421,
+        "end_char": 508,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم مطالبه چک در موعد مقرر",
+      "evidence": {
+        "quote": "چک مذکور مورد مطالبه در تاریخ مقرر واقع نگردیده و حدود یک دهه مورد مطالبه واقع نگردیده",
+        "start_char": 3028,
+        "end_char": 3114,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

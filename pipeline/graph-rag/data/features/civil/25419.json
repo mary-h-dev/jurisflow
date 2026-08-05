@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25419",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین عام و خاص",
+        "start_char": 68,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان صادر گردیده",
+        "start_char": 283,
+        "end_char": 307,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ناشزه",
+      "evidence": {
+        "quote": "ناشزه محسوب و مستحق نفقه نخواهد شد",
+        "start_char": 2310,
+        "end_char": 2344,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین عام و خاص",
+        "start_char": 58,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بازگشت",
+      "evidence": {
+        "quote": "و بازگشت به منزل مشترک",
+        "start_char": 100,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی و بطلان آن صادر و اعلام می‌نماید",
+        "start_char": 588,
+        "end_char": 635,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نیز نقض دادنامه شماره صدر الاشعار",
+        "start_char": 1897,
+        "end_char": 1930,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت ر. م. به خواسته الزام خوانده",
+        "start_char": 43,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در مورد تجدیدنظرخواهی آقای ح. م.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "عدم تمکین زوجه از زوج",
+        "start_char": 1346,
+        "end_char": 1367,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "عدم تمکین زوجه از زوج",
+        "start_char": 1346,
+        "end_char": 1367,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "و بازگشت به منزل مشترک",
+        "start_char": 100,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "منوط به تهیه مسکن مستقل",
+        "start_char": 2083,
+        "end_char": 2106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث‌البیت",
+      "evidence": {
+        "quote": "با کلیه اثاث البیت",
+        "start_char": 2122,
+        "end_char": 2140,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "سابقه محکومیت زوج به ضرب و جرح",
+      "evidence": {
+        "quote": "پرونده ایراد ضرب و جرح آقای ح. م. و محکومیت وی",
+        "start_char": 339,
+        "end_char": 385,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم وجود زندگی مشترک به دلیل خوف ضرر",
+      "evidence": {
+        "quote": "با عنایت به اینکه عدم تمکین زوجه از زوج به لحاظ خوف ضرر جانی و مالی بوده پس از صدور دادنامه شماره موصوف (920207) هیچگونه زندگی مشترکی تاکنون نداشته‌اند",
+        "start_char": 1328,
+        "end_char": 1479,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

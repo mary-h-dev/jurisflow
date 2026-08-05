@@ -1,0 +1,173 @@
+{
+  "ruling_id": "6804",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "صدور حکم حضانت فرزند دختر",
+        "start_char": 91,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "به واسطه طلاق",
+        "start_char": 175,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ازدواج",
+      "evidence": {
+        "quote": "ازدواج خوانده",
+        "start_char": 191,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 867,
+        "end_char": 885,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطرح",
+      "evidence": {
+        "quote": "موضوع صوری بودن آن را مطرح نموده",
+        "start_char": 385,
+        "end_char": 417,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "لذا اعتراض تجدیدنظرخواه وارد نمی باشد",
+        "start_char": 1405,
+        "end_char": 1442,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را عیناً تأیید می نماید",
+        "start_char": 2029,
+        "end_char": 2076,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "توضیحات خواهان",
+        "start_char": 234,
+        "end_char": 248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم ب.م.",
+        "start_char": 34,
+        "end_char": 52,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "لایحه تجدیدنظرخواه",
+        "start_char": 1200,
+        "end_char": 1218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "عدم صلاحیت تجدیدنظر خوانده",
+        "start_char": 1237,
+        "end_char": 1263,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "فرزند دختر بنام پ.",
+        "start_char": 106,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 2075",
+        "start_char": 1037,
+        "end_char": 1063,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زن و شوهر از یکدیگر جدا شده‌اند",
+      "evidence": {
+        "quote": "به دلیل جدایی زن و شوهر از یکدیگر",
+        "start_char": 141,
+        "end_char": 174,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزند بالای هفت سالگی است",
+      "evidence": {
+        "quote": "در حال حاضر فرزند بالای سن هفت سالگی است",
+        "start_char": 441,
+        "end_char": 481,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ازدواج دائم کرده است",
+      "evidence": {
+        "quote": "وی ازدواج دائم نموده",
+        "start_char": 341,
+        "end_char": 361,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

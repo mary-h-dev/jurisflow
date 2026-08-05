@@ -1,0 +1,203 @@
+{
+  "ruling_id": "922",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "به خواسته طلاق",
+        "start_char": 72,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نکاح دائم",
+      "evidence": {
+        "quote": "وقوع نکاح دائم",
+        "start_char": 670,
+        "end_char": 684,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان عقد رسمی",
+        "start_char": 747,
+        "end_char": 761,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال سند ازدواج",
+        "start_char": 807,
+        "end_char": 823,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "تأیید و تنفیذ وقوع نکاح دائم",
+        "start_char": 656,
+        "end_char": 684,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بموجب مطالبه مهریه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ثبت",
+      "evidence": {
+        "quote": "مکلف به ثبت نکاح عادی",
+        "start_char": 1952,
+        "end_char": 1973,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم م.ف.",
+        "start_char": 2193,
+        "end_char": 2216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "این قسمت از دادنامه نقض می گردد",
+        "start_char": 3116,
+        "end_char": 3147,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از ناحیه زوجه را به عنوان وکیل بلاعزل زوج",
+        "start_char": 1775,
+        "end_char": 1816,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در قبال زوجه",
+        "start_char": 228,
+        "end_char": 240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه نیز در این مرحله",
+        "start_char": 2582,
+        "end_char": 2611,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بین تجدیدنظرخواه و تجدیدنظرخوانده",
+        "start_char": 2373,
+        "end_char": 2406,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "مبتنی بر اخذ وکالت بلاعزل از زوج در امر طلاق",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مطالبه مهریه به تعداد 1343 عدد سکه بهار آزادی",
+        "start_char": 370,
+        "end_char": 415,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "1343 عدد سکه بهار آزادی",
+        "start_char": 392,
+        "end_char": 415,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "ابطال سند ازدواج شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وقوع نکاح دائم غیر رسمی پیش از عقد رسمی",
+      "evidence": {
+        "quote": "انعقاد و وقوع نکاح دائم غیر رسمی فی مابین در مورخه 18/2/88",
+        "start_char": 1008,
+        "end_char": 1066,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اعتبار سند ازدواج رسمی به دلیل وجود نکاح قبلی",
+      "evidence": {
+        "quote": "انعقاد صیغه نکاح دائم موضوع سند نکاحیه شماره... فاقد موضوعیت و وجاهت قانونی بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

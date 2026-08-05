@@ -1,0 +1,203 @@
+{
+  "ruling_id": "23048",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مشارکت",
+      "evidence": {
+        "quote": "اتهام مشارکت در نگهداری 1120/450 کیلوگرم تریاک به صورت زنجیره ای",
+        "start_char": 12381,
+        "end_char": 12445,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نگهداری",
+      "evidence": {
+        "quote": "ارتکاب بزه به صورت زنجیره ای مصداق ندارد",
+        "start_char": 15968,
+        "end_char": 16008,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "گروه مجرمانه",
+      "evidence": {
+        "quote": "نظر به اینکه استفهام از عنوان مذکور در واقع مصداقی از گروه مجرمانه می باشد",
+        "start_char": 16482,
+        "end_char": 16556,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "دستگیر",
+      "evidence": {
+        "quote": "نامبرده دستگیر",
+        "start_char": 1298,
+        "end_char": 1312,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرار",
+      "evidence": {
+        "quote": "با افزایش سرعت اقدام به فرار می‌نماید",
+        "start_char": 1806,
+        "end_char": 1843,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "شلیک",
+      "evidence": {
+        "quote": "بدواً اقدام به شلیک چند تیر هوائی",
+        "start_char": 1932,
+        "end_char": 1965,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ضبط",
+      "evidence": {
+        "quote": "تعداد 35 بسته بزرگ و کوچک حاوی تریاک جمعاً به وزن 348 کیلوگرم با لفاف مربوطه کشف و ضبط گردید",
+        "start_char": 1498,
+        "end_char": 1590,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بازرسی",
+      "evidence": {
+        "quote": "لذا خودرو مذکور بازرسی و تفتیش از داخل صندوق عقب و صندلی‌های عقب",
+        "start_char": 1433,
+        "end_char": 1497,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "باعنایت به وضعیت خاص موکل صدور حکم حبس موجب فروپروزی خانواده می گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "موکل",
+      "evidence": {
+        "quote": "تقاضای برائت موکل دارم",
+        "start_char": 13726,
+        "end_char": 13748,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اصلی",
+      "evidence": {
+        "quote": "مالک اصلی مواد فردی به نام ا. یا ی. است",
+        "start_char": 3370,
+        "end_char": 3409,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "راننده",
+      "evidence": {
+        "quote": "راننده خودرو به هویت م. پور الف. متوجه حضور مأمورین در محل گردیده",
+        "start_char": 1740,
+        "end_char": 1805,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مواد مخدر",
+      "evidence": {
+        "quote": "حصول اطمینان از وجود مواد مخدر در منزل یاد شده",
+        "start_char": 766,
+        "end_char": 812,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تریاک",
+      "evidence": {
+        "quote": "تعداد 35 بسته بزرگ و کوچک حاوی تریاک",
+        "start_char": 1498,
+        "end_char": 1534,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وافور",
+      "evidence": {
+        "quote": "یک دستگاه وافور از نامبرده کشف و ضبط گردید",
+        "start_char": 1313,
+        "end_char": 1355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "یک دستگاه خودرو پژو پارس به شماره انتظامی...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "راننده خودرو در اثر تیراندازی زخمی شد",
+      "evidence": {
+        "quote": "و راننده ناچاراً توقف و نامبرده نیز دستگیر می‌شود و از ناحیه انگشت پا دچار جراحت می‌شود",
+        "start_char": 2085,
+        "end_char": 2172,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مواد مخدر در منزل استیجاری کشف شد",
+      "evidence": {
+        "quote": "با تحقیقات مجدد و حصول اطمینان از وجود مواد مخدر در منزل یاد شده",
+        "start_char": 748,
+        "end_char": 812,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم با افزایش سرعت اقدام به فرار کرد",
+      "evidence": {
+        "quote": "با افزایش سرعت اقدام به فرار می‌نماید",
+        "start_char": 1806,
+        "end_char": 1843,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

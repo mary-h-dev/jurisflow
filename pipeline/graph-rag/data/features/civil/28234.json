@@ -1,0 +1,203 @@
+{
+  "ruling_id": "28234",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "خسارات دادرسی",
+        "start_char": 104,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "تاخیر تادیه",
+        "start_char": 120,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "اجرت المثل",
+        "start_char": 1198,
+        "end_char": 1208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدد نظر خواهی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه وجه ودیعه مسکن",
+        "start_char": 80,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "حاضر به تخلیه عین مستاجره نمی باشد",
+        "start_char": 1442,
+        "end_char": 1476,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم بر بی حقی خواهان",
+        "start_char": 3383,
+        "end_char": 3403,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته عیناً تایید می گردد",
+        "start_char": 4452,
+        "end_char": 4494,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت خانم الف",
+        "start_char": 40,
+        "end_char": 57,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده حاضر به تخلیه عین مستاجره نمی باشد",
+        "start_char": 1435,
+        "end_char": 1476,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "موجر آمادگی جهت تادیه ودیعه را نداشته است",
+        "start_char": 2044,
+        "end_char": 2085,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "اقدامات مستاجر در تقدیم دادخواست",
+        "start_char": 2159,
+        "end_char": 2191,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "مطالبه وجه ودیعه مسکن",
+        "start_char": 80,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "متمم قرارداد اجاره",
+        "start_char": 305,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بانکی",
+      "evidence": {
+        "quote": "طبق چک بانکی پ. (90040757891)",
+        "start_char": 1520,
+        "end_char": 1549,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک دیگری را با پرداخت بیعانه اجاره می نماید",
+        "start_char": 882,
+        "end_char": 926,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت ودیعه مسکن در موعد مقرر",
+      "evidence": {
+        "quote": "عدم پرداخت ودیعه مسکن در موعد مقرر",
+        "start_char": 1837,
+        "end_char": 1871,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تخلیه ملک در زمان انقضاء اجاره نامه",
+      "evidence": {
+        "quote": "عدم تخلیه مال الاجاره در زمان انقضاء اجاره نامه",
+        "start_char": 1874,
+        "end_char": 1921,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موجر در خارج از کشور مسافرت نموده است",
+      "evidence": {
+        "quote": "به علت عدم حضور وی در کشور",
+        "start_char": 2094,
+        "end_char": 2120,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

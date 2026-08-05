@@ -1,0 +1,153 @@
+{
+  "ruling_id": "295",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه شماره 809433",
+        "start_char": 144,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "به عنوان خسارت قراردادی",
+        "start_char": 684,
+        "end_char": 707,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انجام تعهد",
+      "evidence": {
+        "quote": "بابت خسارت تأخیر در انجام تعهد",
+        "start_char": 1450,
+        "end_char": 1480,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال رسمی",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم و انتقال رسمی سند قطعی",
+        "start_char": 54,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خوانده را به پرداخت مبلغ 000/300/75 ریال",
+        "start_char": 643,
+        "end_char": 683,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ع.گ.",
+        "start_char": 1159,
+        "end_char": 1190,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مدارک ابرازی خواهان",
+        "start_char": 221,
+        "end_char": 240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای الف.ر. به خواسته الزام خوانده",
+        "start_char": 23,
+        "end_char": 66,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "متضمن محکومیت تجدیدنظرخواه",
+        "start_char": 1347,
+        "end_char": 1373,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتمان مسکونی به شماره 121376/2395",
+        "start_char": 99,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه شماره 809433",
+        "start_char": 144,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "تنظیم سند رسمی انتقال آپارتمان",
+        "start_char": 1377,
+        "end_char": 1407,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم حضور خوانده در دفترخانه در تاریخ مقرر",
+      "evidence": {
+        "quote": "با توجه به عدم حضور در دفترخانه در تاریخ مقرر",
+        "start_char": 574,
+        "end_char": 619,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تأخیر در انجام تعهد به دلیل مشکلات ثبتی و اخذ پایان کار",
+      "evidence": {
+        "quote": "از حیث مشکلات ثبتی و اخذ پایان کار عذر موجه جهت تأخیر انجام تعهد محسوب نمی گردد",
+        "start_char": 1575,
+        "end_char": 1654,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

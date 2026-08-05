@@ -1,0 +1,213 @@
+{
+  "ruling_id": "22344",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "و اعسار از پرداخت هزینه دادرسی",
+        "start_char": 177,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان آن صادر نموده",
+        "start_char": 462,
+        "end_char": 488,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مابه التفاوت",
+      "evidence": {
+        "quote": "مابه التفاوت مهریه طبق شاخص سال 90",
+        "start_char": 97,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نرخ روز",
+      "evidence": {
+        "quote": "محاسبه آن به نرخ روز",
+        "start_char": 5478,
+        "end_char": 5498,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ",
+        "start_char": 58,
+        "end_char": 79,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت آن توسط خوانده",
+        "start_char": 944,
+        "end_char": 965,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "اقدام به توقیف مال غیرمنقول",
+        "start_char": 3433,
+        "end_char": 3460,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "نسبت به آن فرجام خواهی نموده",
+        "start_char": 4683,
+        "end_char": 4711,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اعسار خواهان را غیر وارد تشخیص",
+        "start_char": 429,
+        "end_char": 459,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده حضور نیافته",
+        "start_char": 633,
+        "end_char": 651,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "آقای الف.ح. وکیل پایه یک",
+        "start_char": 2095,
+        "end_char": 2119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1283-92 مورخ 20/9/92 شعبه سوم دادگاه حقوقی شهرستان ش و م متضمن محکومیت فرجام خواه",
+        "start_char": 5085,
+        "end_char": 5188,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بابت مهریه که به نرخ روز تعدیل شده",
+        "start_char": 1314,
+        "end_char": 1348,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "به استناد سند ازدواج پیوستی",
+        "start_char": 132,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "پرداخت هزینه دادرسی",
+        "start_char": 188,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مال غیرمنقول",
+      "evidence": {
+        "quote": "توقیف مال غیرمنقول دیگری",
+        "start_char": 3442,
+        "end_char": 3466,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک",
+      "evidence": {
+        "quote": "دو پلاک ملکی فرجام خواه",
+        "start_char": 7030,
+        "end_char": 7053,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده بخشی از مهریه را با تهاتر پرداخت کرده است",
+      "evidence": {
+        "quote": "قسمتی از آن در تاریخ 20/7/89 با انجام تهاتر تسویه گردیده",
+        "start_char": 6858,
+        "end_char": 6914,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دادرسی حضور نیافته است",
+      "evidence": {
+        "quote": "خوانده حضور نیافته",
+        "start_char": 633,
+        "end_char": 651,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "باقیمانده مهریه در سال 91 پرداخت شده است",
+      "evidence": {
+        "quote": "مابقی آنکه در تاریخ 2/3/91 از طرف فرجام خواه نقداً پرداخت شده است",
+        "start_char": 6917,
+        "end_char": 6982,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

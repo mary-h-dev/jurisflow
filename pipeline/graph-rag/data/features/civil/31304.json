@@ -1,0 +1,173 @@
+{
+  "ruling_id": "31304",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت به دلالت فتوکوری مصدق سند ازدواج مضبوط در پرونده محرز می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "درعقد ازدواج دائم نفقه زن به عهده شوهر می باشد",
+        "start_char": 311,
+        "end_char": 357,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی یادشده صادرو اعلام می نماید",
+        "start_char": 2107,
+        "end_char": 2152,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه نفقه",
+        "start_char": 110,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "دلیلی نیز بر پرداخت نفقه به دادگاه ارائه نداده است",
+        "start_char": 430,
+        "end_char": 480,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ح. صلح میزرائی میرزائی",
+        "start_char": 827,
+        "end_char": 876,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رای صادره از دادگاه محترم بدوی وفق موازین شرعی و قانونی اصدار نیافته ودر خور نقض است",
+        "start_char": 1891,
+        "end_char": 1975,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "باعنایت به اظهارات خواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دفاعیات وکیل خوانده",
+        "start_char": 408,
+        "end_char": 427,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه به پرداخت آن",
+        "start_char": 1129,
+        "end_char": 1162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "توسط تجدیدنظرخوانده ماهیانه مبلغ پنجاه و یک میلیون ریال محکومیت",
+        "start_char": 1073,
+        "end_char": 1136,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "فتوکپی مصدق سند ازدواج مضبوط در پرونده محرز می باشد",
+        "start_char": 241,
+        "end_char": 292,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه به مبلغ پنجاه و پنج میلیون ریال",
+        "start_char": 118,
+        "end_char": 161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "و هزینه دادرسی",
+        "start_char": 190,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین در یک منزل مشترک زندگی می‌کنند",
+      "evidence": {
+        "quote": "طرفین در ظرف فوق و در حال حاضر در یک منزل مشترک زندگی می کنند",
+        "start_char": 1283,
+        "end_char": 1344,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه در مدت مورد ادعا",
+      "evidence": {
+        "quote": "چنانچه خوانده دعوی در این مدت نفقه خواهان بدوی را تامین وتادیه نمی کرده است",
+        "start_char": 1627,
+        "end_char": 1702,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

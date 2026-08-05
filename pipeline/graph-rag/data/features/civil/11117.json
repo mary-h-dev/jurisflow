@@ -1,0 +1,213 @@
+{
+  "ruling_id": "11117",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "اجرت‌المثل ایام زوجیت",
+        "start_char": 58,
+        "end_char": 79,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استحقاق",
+      "evidence": {
+        "quote": "استحقاق زوجه در اخذ اجرت‌المثل",
+        "start_char": 575,
+        "end_char": 605,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "تبصره الحاقی به ماده 336 قانون مدنی",
+        "start_char": 402,
+        "end_char": 437,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "اصل عدم تبرع است",
+        "start_char": 1150,
+        "end_char": 1166,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عرف",
+      "evidence": {
+        "quote": "عرفاً اجرت‌المثل باشد",
+        "start_char": 780,
+        "end_char": 801,
+        "confidence": 0.85
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجرت‌المثل ایام زوجیت",
+        "start_char": 51,
+        "end_char": 79,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت اجرت‌المثل",
+        "start_char": 641,
+        "end_char": 658,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "اقامه دعوا کرد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی از دادنامه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان خانم ز.س.",
+        "start_char": 14,
+        "end_char": 30,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای ح.ج.",
+        "start_char": 96,
+        "end_char": 121,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه را مستحق دریافت اجرت‌المثل",
+        "start_char": 438,
+        "end_char": 469,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "دستور زوج",
+        "start_char": 878,
+        "end_char": 887,
+        "confidence": 0.85
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "سند نکاحیه شماره ... مورخ 1366/1/13",
+        "start_char": 3898,
+        "end_char": 3933,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "دادخواستی به خواسته مطالبه اجرت‌المثل",
+        "start_char": 31,
+        "end_char": 68,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره 9309970217100502",
+        "start_char": 2598,
+        "end_char": 2628,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه و زوج 26 سال زندگی مشترک داشته‌اند",
+      "evidence": {
+        "quote": "26 سال زندگی مشترک فی‌مابین زوجین",
+        "start_char": 3978,
+        "end_char": 4011,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان دادخواستی برای مطالبه اجرت‌المثل اقامه کرده است",
+      "evidence": {
+        "quote": "خواهان دادخواستی به خواسته مطالبه اجرت‌المثل اقامه کرده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه بدوی حکم به برائت ذمه خوانده داده است",
+      "evidence": {
+        "quote": "حکم به برائت ذمه خوانده در پرداخت اجرت‌المثل",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی وارد شناخته شده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ز.س. از دادنامه وارد است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

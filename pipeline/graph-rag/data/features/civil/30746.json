@@ -1,0 +1,163 @@
+{
+  "ruling_id": "30746",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "موجب بطلان آن می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اکراه",
+      "evidence": {
+        "quote": "که شامل اکراه و اشتباه می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفوذ",
+      "evidence": {
+        "quote": "موجب عدم نفوذ قرارداد شده",
+        "start_char": 4965,
+        "end_char": 4990,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "الزام خوانده به استرداد مبلغ 23/942/000/000 ریال",
+        "start_char": 238,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "و پرداخت خسارت تاخیر تادیه",
+        "start_char": 287,
+        "end_char": 313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "شرکت موکل در دو مرحله مبلغ 23/942/000/000 ریال را در وجه خوانده واریز نموده",
+        "start_char": 745,
+        "end_char": 820,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی خواهان شرکت تاسیسات ت.ب.الف",
+        "start_char": 0,
+        "end_char": 51,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده به نام شرکت برق منطقه ای تهران",
+        "start_char": 99,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "از طرفی خواهان در ملک مزبور به عنوان مستاجر متصرف بوده",
+        "start_char": 1233,
+        "end_char": 1287,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "بطلان و بی اعتباری مزائده شماره 90/11",
+        "start_char": 179,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "استرداد مبلغ 23/942/000/000 ریال",
+        "start_char": 254,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "سه قطعه زمین از پلاک ثبتی...... اصلی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آگهی",
+      "evidence": {
+        "quote": "مطابق کپی مصدق آگهی مزایده ارائه نموده",
+        "start_char": 1628,
+        "end_char": 1666,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "کاربری زمین در آگهی تجهیزات شهری اعلام شده بود اما در واقعیت فضای سبز بود",
+      "evidence": {
+        "quote": "در آگهی منتشره مشخصات اراضی مورد فروش را با کاربری تجهیزات شهری با موقعیت مسکونی -تجاری -اداری و خدمات با غلبه فرهنگی تعرفه و توصیف می نماید که پیرو آگهی منتشره شرکت تجدیدنظر خوانده با توجه به توصیف بعمل آمده مبادرت به شرکت در مزایده می نماید ودر مزایده برنده می شود",
+        "start_char": 5902,
+        "end_char": 6168,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تغییر کاربری زمین پیش از مزایده انجام شده بود",
+      "evidence": {
+        "quote": "تاریخ تغییر کاربری در مورخ 91/1/1 میباشد",
+        "start_char": 1970,
+        "end_char": 2010,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

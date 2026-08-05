@@ -1,0 +1,273 @@
+{
+  "ruling_id": "7341",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "به خواسته طلاق تقدیم دادگستری همدان نموده",
+        "start_char": 75,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش را دارد",
+        "start_char": 487,
+        "end_char": 520,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "عسر و حرج زوجه را محرز عنوان",
+        "start_char": 2697,
+        "end_char": 2725,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلعی",
+      "evidence": {
+        "quote": "نوع طلاق خلعی است",
+        "start_char": 3041,
+        "end_char": 3058,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "نسبت به رأی صادره تجدیدنظرخواهی به عمل می آورد",
+        "start_char": 3094,
+        "end_char": 3140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرمان",
+      "evidence": {
+        "quote": "بطلان دعوی زوجه صادر می کند",
+        "start_char": 4258,
+        "end_char": 4285,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت آقای الف.ر. به خواسته طلاق تقدیم دادگستری همدان نموده",
+        "start_char": 44,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "زوج از انجام آزمایشات ژنتیکی امتناع می کند",
+        "start_char": 1099,
+        "end_char": 1141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "مباقی مهریه در قبال طلاق بذل می کند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "نسبت به رأی صادره تجدیدنظرخواهی به عمل می آورد",
+        "start_char": 3094,
+        "end_char": 3140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی تجدیدنظر خواسته را نقض",
+        "start_char": 4222,
+        "end_char": 4248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان",
+      "evidence": {
+        "quote": "فرمان خواه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان توضیح داده است",
+        "start_char": 119,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "موکله همسر شرعی و دایمی خوانده می باشد",
+        "start_char": 149,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج از انجام آزمایشات ژنتیکی امتناع می کند",
+        "start_char": 1099,
+        "end_char": 1141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "عسر و حرج زوجه را محرز",
+        "start_char": 2697,
+        "end_char": 2719,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "ادعای تجدیدنظرخوانده با قانون و مقررات مغایرت آشکار دارد",
+        "start_char": 3197,
+        "end_char": 3253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده به تمکین نیز محکوم گردیده",
+        "start_char": 3556,
+        "end_char": 3596,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه خود را نیز به صورت قسطی دریافت می کند",
+        "start_char": 1265,
+        "end_char": 1308,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "مؤکله منزل را ترک کرده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "در مورد نفقه معوقه و جهیزیه ادعایی ندارد",
+        "start_char": 2959,
+        "end_char": 2999,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین به دلیل رابطه نسبی صاحب فرزند نمی‌شوند",
+      "evidence": {
+        "quote": "به دلیل رابطه نسبی که بین موکله و خوانده وجود دارد صاحب فرزند نمی شوند",
+        "start_char": 222,
+        "end_char": 292,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزند اول ناقص به دنیا آمده است",
+      "evidence": {
+        "quote": "فرزند آنها ناقص به دنیا می آید",
+        "start_char": 843,
+        "end_char": 873,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از انجام آزمایش ژنتیکی امتناع کرده است",
+      "evidence": {
+        "quote": "زوج از انجام آزمایشات ژنتیکی امتناع می کند",
+        "start_char": 1099,
+        "end_char": 1141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "نوزدادی که متولد شده فوت کرده است",
+      "evidence": {
+        "quote": "نوزاد فوت کرده است",
+        "start_char": 2399,
+        "end_char": 2417,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "احتمال تکرار بیماری در بارداری بعدی ۲۵ درصد است",
+      "evidence": {
+        "quote": "خطر تکرار در هر بارداری 25% می باشد",
+        "start_char": 2456,
+        "end_char": 2491,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

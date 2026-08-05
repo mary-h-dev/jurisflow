@@ -1,0 +1,193 @@
+{
+  "ruling_id": "25586",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور حکم بر عدم امکان سازش",
+        "start_char": 75,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "رابطه علقه و زوجیت",
+        "start_char": 184,
+        "end_char": 202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "اجرای صیغه طلاق شرعی از نوع خلعی",
+        "start_char": 1115,
+        "end_char": 1147,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "حضانت دائم فرزند مشترک",
+        "start_char": 647,
+        "end_char": 669,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "به زوج بذل می‌نماید",
+        "start_char": 517,
+        "end_char": 536,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "گذشت",
+      "evidence": {
+        "quote": "از 314 عدد سکه مهریه خود 14 سکه تمام بهار آزادی از مهریه خود گذشت نموده",
+        "start_char": 443,
+        "end_char": 514,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض موجه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجه و مدلل و مؤثری",
+        "start_char": 2094,
+        "end_char": 2133,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی",
+        "start_char": 2557,
+        "end_char": 2577,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج به زوجه وکالت در طلاق اعطاء نموده",
+        "start_char": 307,
+        "end_char": 344,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه در قبال اخذ طلاق",
+        "start_char": 421,
+        "end_char": 442,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجه",
+        "start_char": 2094,
+        "end_char": 2118,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "314 عدد سکه مهریه خود",
+        "start_char": 446,
+        "end_char": 467,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "رونوشت مصدق سند نکاحیه",
+        "start_char": 145,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "سند وکالت شماره 182",
+        "start_char": 238,
+        "end_char": 257,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "جهیزیه‌اش نزد خودش می‌باشد",
+        "start_char": 620,
+        "end_char": 646,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین با هم توافق کرده‌اند",
+      "evidence": {
+        "quote": "طرفین به شرح صورت‌جلسه مضبوط در پرونده توافق و تراضی نموده‌اند",
+        "start_char": 346,
+        "end_char": 408,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزند مشترک باردار نیست",
+      "evidence": {
+        "quote": "زوجه حسب گواهی پزشکی قانونی باردار نمی‌باشد",
+        "start_char": 1271,
+        "end_char": 1314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وکالت نامه شامل موضوع حضانت نمی‌شود",
+      "evidence": {
+        "quote": "در زمان تنظیم وکالت فرزند مشترک بدنیا نیامده",
+        "start_char": 3444,
+        "end_char": 3488,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

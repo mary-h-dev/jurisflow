@@ -1,0 +1,143 @@
+{
+  "ruling_id": "30639",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "کلاهبرداری",
+      "evidence": {
+        "quote": "کلاهبرداری رایانه ای",
+        "start_char": 47,
+        "end_char": 67,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "اختلاف در صلاحیت",
+        "start_char": 941,
+        "end_char": 957,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "شکایتی علیه افرادی ناشناس مبنی بر کلاهبرداری رایه ای تقدیم دادسرای مشهد کرده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "برداشت",
+      "evidence": {
+        "quote": "وجه از حساب شاکی در مشهد برداشت",
+        "start_char": 184,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "به حساب دو نفر تبعه خارجی واریز شده است",
+        "start_char": 218,
+        "end_char": 257,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نفی",
+      "evidence": {
+        "quote": "با نفی صلاحیت خویش",
+        "start_char": 305,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "با اعلام صلاحیت دادسرای تهران",
+        "start_char": 1461,
+        "end_char": 1490,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "وجه از حساب شاکی در مشهد برداشت",
+        "start_char": 184,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تبعه",
+      "evidence": {
+        "quote": "به حساب دو نفر تبعه خارجی واریز شده است",
+        "start_char": 218,
+        "end_char": 257,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "تبعه بیگانه بودن متهم",
+        "start_char": 498,
+        "end_char": 519,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "وجه از حساب شاکی در مشهد برداشت",
+        "start_char": 184,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال و دارایی",
+      "evidence": {
+        "quote": "وجه از حساب شاکی در مشهد برداشت",
+        "start_char": 184,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پول از حساب شاکی در مشهد برداشت و به حساب اتباع بیگانه واریز شده است",
+      "evidence": {
+        "quote": "مبالغی از حساب شاکی در مشهد برداشت و به حساب دو نفر از اتباع بیگانه واریز شده است",
+        "start_char": 1206,
+        "end_char": 1287,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "30346",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان معامله",
+      "evidence": {
+        "quote": "صدور حکم بر اعلان بطلان معامله صوری",
+        "start_char": 202,
+        "end_char": 237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اراده",
+      "evidence": {
+        "quote": "طرفین معامله هیچ گونه قصد و اراده بر تملیک مبیع نداشته",
+        "start_char": 319,
+        "end_char": 373,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "هر معامله که واقع شده باشد محمول بر صحت است",
+        "start_char": 959,
+        "end_char": 1002,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعلام بطلان معامله موضوع خواسته",
+        "start_char": 5424,
+        "end_char": 5455,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "ثمن هم مبادله نگردیده",
+        "start_char": 380,
+        "end_char": 401,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "انتقال مالکیت از مهمترین عوامل صوری بودن معامله اعلام نموده",
+        "start_char": 524,
+        "end_char": 583,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "طرفیت خانم ط. س. به خواسته",
+        "start_char": 175,
+        "end_char": 201,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و خوانده مدعی می باشد",
+        "start_char": 1325,
+        "end_char": 1346,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 510- 1393/5/26 شعبه ششم دادگاه عمومی حقوقی اسلامشهر",
+        "start_char": 3324,
+        "end_char": 3397,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "مبایعه نامه 563 مورخ 1391/02/14",
+        "start_char": 287,
+        "end_char": 318,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "ثمن هم مبادله نگردیده",
+        "start_char": 380,
+        "end_char": 401,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "مبیع در ید موکله می باشد",
+        "start_char": 1986,
+        "end_char": 2010,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ثمن معامله پرداخت نشده است",
+      "evidence": {
+        "quote": "ثمن هم مبادله نگردیده",
+        "start_char": 380,
+        "end_char": 401,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبیع در اختیار خوانده قرار گرفته است",
+      "evidence": {
+        "quote": "مبیع در ید موکله می باشد",
+        "start_char": 1986,
+        "end_char": 2010,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

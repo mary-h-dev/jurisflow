@@ -1,0 +1,143 @@
+{
+  "ruling_id": "32934",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "بخواسته اعسار از پرداخت هزینه دادرسی",
+        "start_char": 100,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بی حقی و بطلان دعوی صادر و اعلام می نماید",
+        "start_char": 539,
+        "end_char": 587,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی است",
+        "start_char": 678,
+        "end_char": 700,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قابلیت استماع",
+      "evidence": {
+        "quote": "به لحاظ عدم قابلیت استماع دعوی مورد اقتضای صدور حکم را نداشته",
+        "start_char": 1492,
+        "end_char": 1550,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "ادله اثباتی مدارک و مستندات ابراز و اقامه ننموده است",
+        "start_char": 176,
+        "end_char": 228,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 1697,
+        "end_char": 1727,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حسب دادخواست تقدیمی خواهان دعوی آقای ح. م.ن.الف.ف.",
+        "start_char": 0,
+        "end_char": 50,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده دعوی م. م.ث.",
+        "start_char": 60,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 194 مورخ 95/2/26شعبه 47دادگاه عمومی حقوقی تهران مبنی برصدورحکم بربطلان دعوی اعسارتجدیدنظرخواه",
+        "start_char": 820,
+        "end_char": 935,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "اعسار از پرداخت هزینه دادرسی",
+        "start_char": 108,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "استشهادیه",
+      "evidence": {
+        "quote": "شرایطی رابرای استشهادیه پیوست دادخواست مقررداشته",
+        "start_char": 1272,
+        "end_char": 1320,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه ادله اثباتی و مستندات برای اثبات اعسار",
+      "evidence": {
+        "quote": "دلیل و مدرکی دال بر احراز و اثبات اعسار از هزینه دادرسی ابراز و اقامه ننموده است",
+        "start_char": 248,
+        "end_char": 328,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم رعایت شرایط قانونی در استشهادیه پیوست دادخواست",
+      "evidence": {
+        "quote": "استشهادیه پیوست دادخواست نخستین فاقدشرایط مذکور باشد",
+        "start_char": 1403,
+        "end_char": 1455,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

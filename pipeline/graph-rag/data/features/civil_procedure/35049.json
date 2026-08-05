@@ -1,0 +1,143 @@
+{
+  "ruling_id": "35049",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 51,
+        "end_char": 76,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "به اعتبار صلاحیت دادگاه عمومی شهر قم",
+        "start_char": 642,
+        "end_char": 678,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "تقاضای صدور قرار عدم صلاحیت نموده",
+        "start_char": 494,
+        "end_char": 527,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی... به دادگاه خانواده تهران تقدیم نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "داوری",
+      "evidence": {
+        "quote": "صدور قرار ارجاع به داوری",
+        "start_char": 317,
+        "end_char": 341,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "معرفی",
+      "evidence": {
+        "quote": "معرفی داور هر یک از زوجین",
+        "start_char": 371,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعلام نشانی جدید از ناحیه خوانده",
+        "start_char": 1609,
+        "end_char": 1641,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با توجه به این امر و نظر به اینکه دادخواست خواهان",
+        "start_char": 1367,
+        "end_char": 1416,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت همسرش خانم الف. د.ب.",
+        "start_char": 77,
+        "end_char": 106,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجین",
+      "evidence": {
+        "quote": "با حضور زوجین",
+        "start_char": 301,
+        "end_char": 314,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "لایحه ای به دادگاه تقدیم",
+        "start_char": 436,
+        "end_char": 460,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده نشانی جدید خود را در شهر قم اعلام کرد",
+      "evidence": {
+        "quote": "لایحه ای به دادگاه تقدیم و نشانی خود را در شهر قم اعلام",
+        "start_char": 436,
+        "end_char": 491,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین داور خود را معرفی کردند",
+      "evidence": {
+        "quote": "طرفین داور خود را نیز معرفی کرده اند",
+        "start_char": 1568,
+        "end_char": 1604,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

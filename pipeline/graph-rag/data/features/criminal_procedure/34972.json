@@ -1,0 +1,152 @@
+{
+  "ruling_id": "34972",
+  "concepts": [],
+  "actions": [
+    {
+      "category": "action",
+      "value": "شکایت",
+      "evidence": {
+        "quote": "بطور کلی از راننده مقصر شکایت کرده",
+        "start_char": 488,
+        "end_char": 522,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "درخواست رسیدگی",
+      "evidence": {
+        "quote": "درخواست رسیدگی به پرونده را در شهرستان دولت آباد نموده",
+        "start_char": 763,
+        "end_char": 817,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "احاله",
+      "evidence": {
+        "quote": "پیشنهاد احاله پرونده به حوزه قضائی شهرستان دولت آباد را مطرح نموده",
+        "start_char": 925,
+        "end_char": 991,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست",
+      "evidence": {
+        "quote": "به رد درخواست اعلام نظر میگردد",
+        "start_char": 1582,
+        "end_char": 1612,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "راننده",
+      "evidence": {
+        "quote": "بی احتیاطی راننده سواری پژو",
+        "start_char": 381,
+        "end_char": 408,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مصدومین",
+      "evidence": {
+        "quote": "مصدومین حادثه در بازجوئیهائی که از آنان بعمل آمده",
+        "start_char": 438,
+        "end_char": 487,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "مالک وسیله نقلیه مذکور",
+        "start_char": 617,
+        "end_char": 639,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بازپرس",
+      "evidence": {
+        "quote": "بازپرس شعبه دوم دادسرای عمومی و انقلاب سمنان",
+        "start_char": 830,
+        "end_char": 874,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادیار",
+      "evidence": {
+        "quote": "دادیار اظهار نظر دادسرای عمومی و انقلاب شهرستان سمنان",
+        "start_char": 995,
+        "end_char": 1048,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اتومبیل",
+      "evidence": {
+        "quote": "یک مورد رانندگی اتومبیل پژو",
+        "start_char": 40,
+        "end_char": 67,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پزشکی قانونی",
+      "evidence": {
+        "quote": "گواهیهای پزشکی قانونی در مورد صدمات وارده به آنان پیوست پرونده شده است",
+        "start_char": 525,
+        "end_char": 595,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "ملاحظه محتویات پرونده",
+        "start_char": 1220,
+        "end_char": 1241,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تصادف اتومبیل به دلیل عدم توجه راننده",
+      "evidence": {
+        "quote": "بعلت عدم توجه راننده به جلو از سمت چپ جاده خارج و بعلت اختلاف سطح روی سمت چپ واژگون شده",
+        "start_char": 149,
+        "end_char": 236,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مصدوم شدن چهار نفر از سرنشینان",
+      "evidence": {
+        "quote": "چهار نفر از سرنشینان اتومبیل مزبور مصدوم",
+        "start_char": 240,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

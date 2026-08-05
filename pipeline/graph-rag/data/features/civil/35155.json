@@ -1,0 +1,173 @@
+{
+  "ruling_id": "35155",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "وجود علقه زوجیت",
+        "start_char": 291,
+        "end_char": 306,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "عقد نکاح دائم",
+        "start_char": 316,
+        "end_char": 329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 136,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 136,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "با نقض رأی صادره",
+        "start_char": 1687,
+        "end_char": 1703,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان بدوی",
+        "start_char": 1704,
+        "end_char": 1730,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست خواهان آقای م. ش.",
+        "start_char": 8,
+        "end_char": 34,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده خانم ن.س. ح.",
+        "start_char": 64,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از جانب خوانده دفاع موثری نسبت به دعوی خواهان بعمل نیامده است",
+        "start_char": 623,
+        "end_char": 684,
+        "confidence": 0.7
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "الزام زوجه به تمکین",
+        "start_char": 1244,
+        "end_char": 1263,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظر خواهی خانم ن.س. ح.",
+        "start_char": 1102,
+        "end_char": 1130,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "سند نکاحیه شماره 15513",
+        "start_char": 215,
+        "end_char": 237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی صادره حضوری بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود رابطه زوجیت بین طرفین",
+      "evidence": {
+        "quote": "وجود علقه زوجیت به واسطه عقد نکاح دائم بین زوجین را محرز می داند",
+        "start_char": 291,
+        "end_char": 355,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم دفاع موثر خوانده در مرحله بدوی",
+      "evidence": {
+        "quote": "از جانب خوانده دفاع موثری نسبت به دعوی خواهان بعمل نیامده است",
+        "start_char": 623,
+        "end_char": 684,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "احتمال وجود ضرر بدنی برای زن در منزل شوهر",
+      "evidence": {
+        "quote": "اگر زن با شوهر در یک منزل متضمن خوف ضرر بدنی.... برای زن باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

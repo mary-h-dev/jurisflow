@@ -1,0 +1,133 @@
+{
+  "ruling_id": "28213",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت خود را",
+        "start_char": 378,
+        "end_char": 400,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مستحق للغیر بودن",
+      "evidence": {
+        "quote": "بابت مستحق للغیر بودن",
+        "start_char": 711,
+        "end_char": 732,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه",
+        "start_char": 54,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعلام اعسار از پرداخت هزینه دادرسی",
+        "start_char": 164,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نفی",
+      "evidence": {
+        "quote": "از خود نفی صلاحیت کرده",
+        "start_char": 773,
+        "end_char": 795,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محل اقامت خوانده",
+        "start_char": 260,
+        "end_char": 276,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "مطالبه وجه",
+        "start_char": 64,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "هزینه دادرسی",
+        "start_char": 120,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "خسارت تأخیر تادیه",
+        "start_char": 135,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین",
+        "start_char": 733,
+        "end_char": 745,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلاف در صلاحیت بین دو شعبه دادگاه",
+      "evidence": {
+        "quote": "در مورد اختلاف حادث شده فی مابین شعبه دوم دادگاه عمومی پردیس ودادگاه عمومی بخش رودهن",
+        "start_char": 578,
+        "end_char": 661,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محل اقامت خوانده در شهرستان پردیس اعلام شده است",
+      "evidence": {
+        "quote": "محل اقامت خوانده شهر بومهن در شهرستان پردیس اعلام شده است",
+        "start_char": 260,
+        "end_char": 317,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

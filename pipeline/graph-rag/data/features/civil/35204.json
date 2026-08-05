@@ -1,0 +1,173 @@
+{
+  "ruling_id": "35204",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "خسارت قراردادی ناشی از عدم ایفای تعهد",
+        "start_char": 1543,
+        "end_char": 1580,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "عدم ایفای تعهد",
+        "start_char": 1566,
+        "end_char": 1580,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم شش دانگ یک واحد آپارتمان",
+        "start_char": 52,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "الزام خوانده به اخذ پایان کار",
+        "start_char": 149,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت خسارت تأخیر در تأدیه",
+        "start_char": 238,
+        "end_char": 265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تادیه",
+      "evidence": {
+        "quote": "محکومیت خوانده به تأدیه مبلغ 230000000 ریال",
+        "start_char": 1101,
+        "end_char": 1144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م. عزتی",
+        "start_char": 1445,
+        "end_char": 1471,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم",
+        "start_char": 52,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حق خواهان محکوم می نماید",
+        "start_char": 1276,
+        "end_char": 1300,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "عدم انجام تعهد منتسب به فروشنده",
+        "start_char": 1021,
+        "end_char": 1052,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتمان به انضمام پارکینگ",
+        "start_char": 82,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پایان کار",
+      "evidence": {
+        "quote": "اخذ پایان کار",
+        "start_char": 165,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "صورت‌مجلس تفکیکی",
+      "evidence": {
+        "quote": "صورت مجلس تفکیکی",
+        "start_char": 181,
+        "end_char": 197,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه نامه تنظیمی شماره 8305047",
+        "start_char": 757,
+        "end_char": 789,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت ملک متعلق به شخص ثالث است",
+      "evidence": {
+        "quote": "پلاک ثبتی مزبور دارای مالک دیگری است که طرف دعوی قرار نگرفته است",
+        "start_char": 447,
+        "end_char": 511,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فروشنده در دفترخانه حاضر نشده است",
+      "evidence": {
+        "quote": "گواهی عدم حضور فروشنده به شماره 517 مورخ 30 / 7 / 1393",
+        "start_char": 887,
+        "end_char": 941,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

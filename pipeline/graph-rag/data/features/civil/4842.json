@@ -1,0 +1,163 @@
+{
+  "ruling_id": "4842",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "مستنداً به مواد 1و2 قانون مسئولیت مدنی",
+        "start_char": 935,
+        "end_char": 973,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معامله",
+      "evidence": {
+        "quote": "با فرض جهل مشتری به وجود فساد معامله",
+        "start_char": 2159,
+        "end_char": 2195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی نخستین خواهان صادر و اعلام می نماید",
+        "start_char": 2771,
+        "end_char": 2824,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه غرامت",
+        "start_char": 88,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "دو نفر از خواندگان به نظریه کارشناسی اعتراض",
+        "start_char": 683,
+        "end_char": 726,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض نموده",
+        "start_char": 2699,
+        "end_char": 2734,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای ح.الف. به طرفیت آقایان پ. و س. و خانم ها ف. ،پ. همگی ش. و خانم ز. الف. به خواسته مطالبه غرامت",
+        "start_char": 0,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "آقای م.ش. مورث خواندگان",
+        "start_char": 165,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 83مورخ2/2/92صادره از شعبه 186دادگاه عمومی حقوقی تهران مبنی بر محکومیت تجدیدنظرخواهان",
+        "start_char": 1557,
+        "end_char": 1663,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بابت غرامات وارده به تجدیدنظر خوانده",
+        "start_char": 1696,
+        "end_char": 1732,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سرقفلی",
+      "evidence": {
+        "quote": "مطابق قول نامه پیوست سرقفلی چهار دانگ از مغازه",
+        "start_char": 216,
+        "end_char": 262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "چهار دانگ از مغازه را واقع در پاساژ ج.",
+        "start_char": 244,
+        "end_char": 282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "ثمن معامله را نیز دریافت کرده است",
+        "start_char": 393,
+        "end_char": 426,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فروش یک دانگ مغازه متعلق به پسر خوانده به خواهان",
+      "evidence": {
+        "quote": "با فروش یک دانگ مغازه پسرش به اینجانب مرتکب جرم کلاه برداری شده",
+        "start_char": 526,
+        "end_char": 589,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انجام کارشناسی توسط هیأت پنج نفره",
+      "evidence": {
+        "quote": "نظر هیأت 5 نفره کارشناسی دلالت بر ورود خسارت به خواهان دارد",
+        "start_char": 849,
+        "end_char": 908,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

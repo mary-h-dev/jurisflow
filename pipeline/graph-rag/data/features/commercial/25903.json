@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25903",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "به خواسته اعسار و معافیت از پرداخت هزینه دادرسی",
+        "start_char": 86,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "معافیت از پرداخت پنجاه درصد از هزینه دادرسی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "حکم به اعلام اعسار و معافیت نامبرده",
+        "start_char": 624,
+        "end_char": 659,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "قادر به پرداخت هزینه دادرسی نمی باشد",
+        "start_char": 367,
+        "end_char": 403,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 1741,
+        "end_char": 1771,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان بدوی صادر و اعلام می شود",
+        "start_char": 1774,
+        "end_char": 1818,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان آقای الف. م.",
+        "start_char": 0,
+        "end_char": 32,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای س. م.الف.",
+        "start_char": 33,
+        "end_char": 63,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای س. م.الف.",
+        "start_char": 1032,
+        "end_char": 1068,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در مورد دعوی تجدیدنظرخوانده",
+        "start_char": 1191,
+        "end_char": 1218,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "معافیت از پرداخت هزینه دادرسی",
+        "start_char": 104,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به بخشی از دادنامه شماره 01288",
+        "start_char": 1091,
+        "end_char": 1126,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان فاقد تمکن مالی است",
+      "evidence": {
+        "quote": "خواهان درحال کنونی فاقد تمکن مالی است",
+        "start_char": 284,
+        "end_char": 321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان مشغول کسب و کار است",
+      "evidence": {
+        "quote": "خواهان مشغول کسب و کار می باشد",
+        "start_char": 428,
+        "end_char": 458,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مدعی اعسار دارای شغل بزازی است",
+      "evidence": {
+        "quote": "مدعی اعسار اشتغال به شغل بزازی داشته",
+        "start_char": 1478,
+        "end_char": 1514,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

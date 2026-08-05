@@ -1,0 +1,123 @@
+{
+  "ruling_id": "25793",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته فسخ نکاح",
+        "start_char": 49,
+        "end_char": 67,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "موضوع اعلامی از مصادیق تدلیس نمی‌باشد",
+        "start_char": 290,
+        "end_char": 327,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 369,
+        "end_char": 395,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم",
+        "start_char": 457,
+        "end_char": 490,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "دادنامه مورد اعتراض",
+        "start_char": 1385,
+        "end_char": 1404,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "طرفیت خانم الف. ر. به خواسته فسخ نکاح بدین توضیح که خواهان اعلام می‌دارد",
+        "start_char": 30,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده به بیماری قلبی مبتلا بوده",
+        "start_char": 103,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 0098 مورخ 1394/1/19 در پرونده کلاسه 1908 صادره از شعبه 7 دادگاه عمومی حقوقی شهرری که به موجب آن حکم به رد دعوی تجدیدنظرخواه به خواسته فسخ نکاح صادر گردید",
+        "start_char": 615,
+        "end_char": 790,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 0098 مورخ 1394/1/19",
+        "start_char": 615,
+        "end_char": 656,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده به بیماری قلبی مبتلا بوده است",
+      "evidence": {
+        "quote": "خوانده به بیماری قلبی مبتلا بوده",
+        "start_char": 103,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اطلاع از وضعیت بیماری در هنگام عقد",
+      "evidence": {
+        "quote": "به هنگام عقد نکاح وی را از وضعیت بیماری قلبی مطلع ننموده‌اند",
+        "start_char": 138,
+        "end_char": 198,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

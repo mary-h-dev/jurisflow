@@ -1,0 +1,203 @@
+{
+  "ruling_id": "26571",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "موضوع سند ازدواج منقطع رسمی",
+        "start_char": 119,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "خوانده فقط باقیمانده مدت را بذل نموده",
+        "start_char": 565,
+        "end_char": 602,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "و اعسار از پرداخت هزینه دادرسی توضیح داد",
+        "start_char": 255,
+        "end_char": 295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد دائم",
+      "evidence": {
+        "quote": "قصد طرفین عقد دائم بوده",
+        "start_char": 3778,
+        "end_char": 3801,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "خواهان فقط مستحق دریافت 25 ماه مهریه عقد انقطاعی بوده باستناد مواد 2 و 197 قانون آئین دادرسی مدنی و ماده 1257 قانون مدنی خواسته خواهان وارد نبوده و محکوم به بطلان می باشد",
+        "start_char": 7774,
+        "end_char": 7944,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مینماید",
+        "start_char": 912,
+        "end_char": 926,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "خوانده فقط باقیمانده مدت را بذل نموده",
+        "start_char": 565,
+        "end_char": 602,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض فرجام خواه در این قست وجاهت قانونی ندارد",
+        "start_char": 11865,
+        "end_char": 11912,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خانم ح. م. در دادخواست تقدیمی اش بطرفیت آقای ع.الف. ن.",
+        "start_char": 20,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت آقای ع.الف. ن.",
+        "start_char": 53,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "قیم",
+      "evidence": {
+        "quote": "با قیومیت آقای ع. ن.",
+        "start_char": 75,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "بر عده زوج مستقر",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بخواسته قسمتی از مهریه موضوع سند ازدواج منقطع رسمی",
+        "start_char": 96,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "موضوع سند ازدواج منقطع رسمی شماره... مورخ 1389/3/27",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه رسمی",
+      "evidence": {
+        "quote": "بموجب اقرار نامه رسمی شماره... مورخ *** 1/1/8",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "اعسار از پرداخت هزینه دادرسی",
+        "start_char": 257,
+        "end_char": 285,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین ابتدا با عقد موقت ازدواج کردند",
+      "evidence": {
+        "quote": "در تاریخ 1389/3/27 با خوانده بصورت عقد موقت ازدواج نمودم",
+        "start_char": 2159,
+        "end_char": 2215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مدت عقد انقطاعی از ۵ سال به ۶۰ سال افزایش یافت",
+      "evidence": {
+        "quote": "مدت عقد انقطاعی از 5 سال به 60 سال ( بموجب اقرار نامه رسمی شماره... مورخ *** 1/1/8 دفتر خانه اسناد... بیرجند) با همان مهریه ماهیانه 120/000 تومان تعیین نمودند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین متعاقباً با عقد دائم ازدواج کردند",
+      "evidence": {
+        "quote": "پس از حدود 25 ماه از اولین عقد موقت به عقد دائم وارد شدند",
+        "start_char": 3922,
+        "end_char": 3979,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

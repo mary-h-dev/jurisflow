@@ -1,0 +1,173 @@
+{
+  "ruling_id": "36901",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قتل عمدی",
+      "evidence": {
+        "quote": "قتل عمدی مرد مسلمان",
+        "start_char": 368,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تخریب",
+      "evidence": {
+        "quote": "تخریب عمدی خودروی متعلق به مجنی علیه",
+        "start_char": 405,
+        "end_char": 441,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قصاص نفس",
+      "evidence": {
+        "quote": "مرجوع الیه متهم به قصاص نفس",
+        "start_char": 585,
+        "end_char": 612,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دفاع مشروع",
+      "evidence": {
+        "quote": "قتل عمدی در مقام دفاع مشروع",
+        "start_char": 1922,
+        "end_char": 1949,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خروج از حدود متعارف",
+      "evidence": {
+        "quote": "با خروج از حدود متعارف موضوع تبصره 2 ماده 302 ق.م.اسلامی",
+        "start_char": 1950,
+        "end_char": 2005,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تعقیب",
+      "evidence": {
+        "quote": "ا. پ. به همراه سرنشین دیگر وسیله نقلیه اش به تعقیب او پرداخت",
+        "start_char": 3863,
+        "end_char": 3923,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اصابت",
+      "evidence": {
+        "quote": "مورد اصابت قرار داد",
+        "start_char": 4105,
+        "end_char": 4124,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم به قصاص نفس",
+        "start_char": 596,
+        "end_char": 612,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مجنی علیه",
+      "evidence": {
+        "quote": "متعلق به مجنی علیه",
+        "start_char": 423,
+        "end_char": 441,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اولیای دم",
+      "evidence": {
+        "quote": "شکایت اولیایدم به اسامی",
+        "start_char": 2113,
+        "end_char": 2136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بزه‌دیده",
+      "evidence": {
+        "quote": "بزه دیده",
+        "start_char": 4564,
+        "end_char": 4572,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "خودروی پرادو",
+      "evidence": {
+        "quote": "پرادو ( متعلق به م. ح. ز. )",
+        "start_char": 1200,
+        "end_char": 1227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودروی اریزو",
+      "evidence": {
+        "quote": "وسیله نقلیه موسوم به \"اریزو\"",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تصادف دو خودرو در مسیر",
+      "evidence": {
+        "quote": "از ابتدای وقوع تعارض در رانندگی بین دو راننده وسایل نقلیه موسوم به اریزو",
+        "start_char": 1106,
+        "end_char": 1178,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سوار شدن مجنی علیه بر رکاب خودرو",
+      "evidence": {
+        "quote": "سوار شدن بزه دیده به قسمت جلو و سمت راننده خودرو پرادو",
+        "start_char": 5683,
+        "end_char": 5736,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مرگ بر اثر شکستگی دنده و پارگی ریه",
+      "evidence": {
+        "quote": "علت فوت در عوارض نارسایی تنفسی به دنبال شکستگی متعدد دنده ها و پارگی ریه های هر دو سمت",
+        "start_char": 3342,
+        "end_char": 3428,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "ruling_id": "30417",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد ثمن معامله",
+        "start_char": 68,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مستحق الغیر بودن",
+      "evidence": {
+        "quote": "دلالت بر مستحق الغیر بودن مبیع",
+        "start_char": 190,
+        "end_char": 220,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی مزبور",
+        "start_char": 502,
+        "end_char": 525,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "استرداد ثمن فرع بر انحلال قرارداد",
+        "start_char": 1071,
+        "end_char": 1104,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد ثمن معامله",
+        "start_char": 68,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض عنه",
+        "start_char": 1431,
+        "end_char": 1456,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان را صادر",
+        "start_char": 1457,
+        "end_char": 1484,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 154,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بطلان دعوی تجدیدنظرخواه الف. ع.پ.",
+        "start_char": 818,
+        "end_char": 851,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "مستحق الغیر بودن مبیع",
+        "start_char": 199,
+        "end_char": 220,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "مبایعه نامه 84/10/1",
+        "start_char": 230,
+        "end_char": 249,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "قرارداد عادی مورخه 1384/10/1",
+        "start_char": 878,
+        "end_char": 906,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل و مدرک برای مستحق‌الغیر بودن مبیع",
+      "evidence": {
+        "quote": "وکیل خواهان هیچگونه دلیل و مدرکی که دلالت بر مستحق الغیر بودن مبیع مندرج در مبایعه نامه 84/10/1 به دادگاه ارائه ننموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "ruling_id": "7991",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "صدور حکم طلاق می باشد",
+        "start_char": 74,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حجر",
+      "evidence": {
+        "quote": "حجر زوج با استناد به دادنامه",
+        "start_char": 239,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "در نتیجه در عسر و حرج بودن می باشد",
+        "start_char": 292,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "زوج اجرت المثل خود را بذل نمود",
+        "start_char": 1049,
+        "end_char": 1079,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم طلاق می باشد",
+        "start_char": 74,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دفاع",
+      "evidence": {
+        "quote": "دفاع مؤثر و موجهی به عمل نیاورده",
+        "start_char": 481,
+        "end_char": 513,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "بذل حق کافی نیست",
+        "start_char": 1979,
+        "end_char": 1995,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "ضمن ردّ تجدیدنظر خواهی دادنامه مذکور",
+        "start_char": 2372,
+        "end_char": 2408,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تایید می شود",
+      "evidence": {
+        "quote": "نتیجتاً تأیید می شود",
+        "start_char": 2437,
+        "end_char": 2457,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مراجعه به یکی از محاضر رسمی طلاق همسرش (خواهان)",
+        "start_char": 770,
+        "end_char": 817,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده نیز در قبال خواسته",
+        "start_char": 438,
+        "end_char": 463,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "حجر زوج با استناد به",
+        "start_char": 239,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره208 مورخه 8/2/93 صادره از شعبه هفتم دادگاه خانواده اسلامشهر که به موجب آن بادرخواست زوجه",
+        "start_char": 1540,
+        "end_char": 1649,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "قیم",
+      "evidence": {
+        "quote": "با قیومیت خانم الف.ص.",
+        "start_char": 52,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "مطابق رونوشت مصدق سند نکاحیه شماره 7897",
+        "start_char": 97,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه زوجه را به وی تحویل نماید",
+        "start_char": 1017,
+        "end_char": 1048,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سکه",
+      "evidence": {
+        "quote": "دادگاه یک سکه از مهریه زوجه",
+        "start_char": 2052,
+        "end_char": 2079,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت دائمی بین طرفین برقرار است",
+      "evidence": {
+        "quote": "رابطه زوجیت دائمی زوجین فوق محرز است",
+        "start_char": 183,
+        "end_char": 219,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه باردار نیست",
+      "evidence": {
+        "quote": "به دلیل دلالت گواهی پزشک زوجه باردار نیست",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

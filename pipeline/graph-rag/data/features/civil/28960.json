@@ -1,0 +1,163 @@
+{
+  "ruling_id": "28960",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "ضمن عقد خارج لازم",
+        "start_char": 380,
+        "end_char": 397,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "مواد مربوط به شرایط اساسی صحت معامله",
+        "start_char": 619,
+        "end_char": 655,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "این عقد وشرط آن",
+        "start_char": 553,
+        "end_char": 568,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم سند رسمی",
+        "start_char": 93,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فک رهن",
+      "evidence": {
+        "quote": "فک رهن نیز دراولین جلسه به خواسته اضافه شده است",
+        "start_char": 168,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "از انتقال آن استنکاف مینماید",
+        "start_char": 902,
+        "end_char": 930,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درمجموع تجدیدنظرخواهی آقای الف. ع.",
+        "start_char": 1578,
+        "end_char": 1612,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم سند رسمی",
+        "start_char": 93,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بنาม خواهان ( زوجه )",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بر خلاف استدلال تجدیدنظرخواه",
+        "start_char": 1921,
+        "end_char": 1949,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده",
+        "start_char": 1828,
+        "end_char": 1848,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دانگ پلاک",
+      "evidence": {
+        "quote": "دو دانگ از شش دانگ پلاک ثبتی 4476/132532",
+        "start_char": 124,
+        "end_char": 164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "سند ازدواج رسمی شماره 8179",
+        "start_char": 311,
+        "end_char": 337,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در سند ازدواج شرطی مبنی بر انتقال ملک به خواهان داشته است",
+      "evidence": {
+        "quote": "خوانده درسند ازدواج رسمی شماره 8179 مورخه 90/8/19 دفترخانه 22 شهرستان خوانسار ضمن عقد خارج لازم تعهد نموده است که هر زمان صاحب منزلی شدو خانه ای را ساخت یا خریداری نمود دو دانگ مشاع از شش دانگ آن منزل را به نحو قطعی رسمی بنام خواهان ( زوجه ) نماید",
+        "start_char": 302,
+        "end_char": 549,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده از انتقال ملک امتناع کرده است",
+      "evidence": {
+        "quote": "خوانده علیرغم تعهد رسمی در سند رسمی مبنی برانتقال قطعی دو دانگ مشاع از پلاک ثبتی خریداری شده بنام خواهان ، از انتقال آن استنکاف مینماید",
+        "start_char": 795,
+        "end_char": 930,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

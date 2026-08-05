@@ -1,0 +1,153 @@
+{
+  "ruling_id": "34567",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قصاص نفس",
+      "evidence": {
+        "quote": "به قصاص نفس محکوم گردیده",
+        "start_char": 300,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "تقاضای تجویز اعاده دادرسی نموده",
+        "start_char": 723,
+        "end_char": 754,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "قابلیت فرجام خواهی دارد",
+        "start_char": 1734,
+        "end_char": 1757,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تعقیب",
+      "evidence": {
+        "quote": "تحت تعقیب قرار گرفته",
+        "start_char": 149,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور حکم محکومیت",
+      "evidence": {
+        "quote": "محکوم گردیده",
+        "start_char": 312,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تأیید و ابرام شده",
+        "start_char": 412,
+        "end_char": 429,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تجویز اعاده دادرسی را تجویز ص 5599",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "وکلای محکومٌ علیه نیز با تقدیم لوایحی به رأی اخیر دادگاه اعتراض نمودند",
+        "start_char": 1345,
+        "end_char": 1415,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "اولیای دم",
+      "evidence": {
+        "quote": "از سوی اولیای دم",
+        "start_char": 283,
+        "end_char": 299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "قرابت شهود با متهم",
+        "start_char": 1096,
+        "end_char": 1114,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سلاح شکاری",
+      "evidence": {
+        "quote": "با استفاده از سلاح شکاری",
+        "start_char": 123,
+        "end_char": 147,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "با استناد به سند رسمی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شهادت شهود مبنی بر دیگری بودن قاتل",
+      "evidence": {
+        "quote": "حاوی اظهارات شهود دال بر اینکه قاتل مرحوم مزبور فرد دیگری بنام ب.ح. بوده است",
+        "start_char": 526,
+        "end_char": 602,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم حضور متهم در محل حادثه طبق اظهارات شاهد",
+      "evidence": {
+        "quote": "حاوی اظهارات شاهد دایر به عدم حضور محکومٌ علیه در محل واقعه",
+        "start_char": 662,
+        "end_char": 721,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "38558",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی",
+        "start_char": 111,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقف",
+      "evidence": {
+        "quote": "احراز توقف واقعی",
+        "start_char": 12966,
+        "end_char": 12982,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "قرار توقیف",
+        "start_char": 2437,
+        "end_char": 2447,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حجر",
+      "evidence": {
+        "quote": "در حالی که حجر ، دارای جنبه شخصی می باشد",
+        "start_char": 2181,
+        "end_char": 2221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شخصیت حقوقی",
+      "evidence": {
+        "quote": "مبحث ورشکستگی که به منزله موت نسبی شخصیت حقوقی تلقی می گردد",
+        "start_char": 10202,
+        "end_char": 10261,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی",
+        "start_char": 111,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "جهت پرداخت بدهی",
+        "start_char": 298,
+        "end_char": 313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعلام توقف از سوی مدیون شده است",
+        "start_char": 8540,
+        "end_char": 8571,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم تجدیدنظر",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اینجانب خواهان پرونده طلبکار از شرکت می باشم",
+        "start_char": 501,
+        "end_char": 545,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت شرکت سازمان",
+        "start_char": 225,
+        "end_char": 245,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدیر",
+      "evidence": {
+        "quote": "مدیر تصفیه قائم مقام قانونی وجود شکسته میباشد",
+        "start_char": 1863,
+        "end_char": 1908,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "دادستان در زمره ی اشخاصی است",
+        "start_char": 845,
+        "end_char": 873,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بدهی",
+      "evidence": {
+        "quote": "جهت پرداخت بدهی",
+        "start_char": 298,
+        "end_char": 313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دفاتر",
+      "evidence": {
+        "quote": "عدم ابراز دفاتر تجارتی",
+        "start_char": 9491,
+        "end_char": 9513,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم توانایی شرکت در پرداخت بدهی ناشی از اختلافات طرفین است",
+      "evidence": {
+        "quote": "عدم پرداخت وجوه موضوع اجراییه استنادی خواهان ناشی از اختلافات ایشان و نه ناشی از توقف شرکت خوانده بوده",
+        "start_char": 12537,
+        "end_char": 12639,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرکت توانایی پرداخت دیون خود را داشته است",
+      "evidence": {
+        "quote": "شرکت مزبور بنا به ادله ارائه شده توانایی پرداخت دیون خود را داشته",
+        "start_char": 12661,
+        "end_char": 12726,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "861",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صلح",
+      "evidence": {
+        "quote": "تنظیم سند صلح حقوق",
+        "start_char": 1206,
+        "end_char": 1224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجاره",
+      "evidence": {
+        "quote": "تنظیم سند اجاره",
+        "start_char": 191,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "به لحاظ انتقال به غیر",
+        "start_char": 1386,
+        "end_char": 1407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "صدور حکم به بطلان دعوای تقابل",
+        "start_char": 2279,
+        "end_char": 2308,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "تنظیم سند اجاره",
+        "start_char": 191,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "به آقای الف.الف. منتقل نموده است",
+        "start_char": 958,
+        "end_char": 990,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "مبنی بر تخلیه به لحاظ انتقال به غیر",
+        "start_char": 1372,
+        "end_char": 1407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "خواهان تقاضای الزام وی به تنظیم سند صلح حقوق منافع",
+        "start_char": 1180,
+        "end_char": 1230,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست آقای س.الف. وکیل دادگستری به وکالت از آقای م.ر. فرزند م. به طرفیت آقای س.الف. فرزند ح. و آقای الف.الف. فرزند ع. به خواسته الزام خواندگان",
+        "start_char": 0,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت آقای س.الف. فرزند ح. و آقای الف.الف. فرزند ع. به خواسته الزام خواندگان",
+        "start_char": 74,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "اگر یک مستأجر سهم خود را به شریک خود واگذر کند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "خوانده اول بدون اذن مالک نسبت به انتقال منافع اقدام نموده است",
+        "start_char": 1422,
+        "end_char": 1483,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دانگ مشاع",
+      "evidence": {
+        "quote": "نسبت به سه دانگ مشاع از شش دانگ یک باب مغازه",
+        "start_char": 238,
+        "end_char": 282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "حسب مبایعه نامه عادی 16/12/83",
+        "start_char": 1036,
+        "end_char": 1065,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "حسب سند رسمی 21170ـ 12/4/81",
+        "start_char": 676,
+        "end_char": 703,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده اول منافع را به شریک خود منتقل کرده است",
+      "evidence": {
+        "quote": "خوانده اول سه دانگ منافع متعلق به خود را حسب مبایعه نامه عادی 16/12/83 به خواهان شریک خود منتقل",
+        "start_char": 995,
+        "end_char": 1090,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده اول در جلسه دادگاه حاضر نشده است",
+      "evidence": {
+        "quote": "خوانده اول علی رغم ابلاغ واقعی در جلسه دادگاه حاضر نشده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

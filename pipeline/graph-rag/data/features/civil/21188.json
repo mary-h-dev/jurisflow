@@ -1,0 +1,153 @@
+{
+  "ruling_id": "21188",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت",
+        "start_char": 167,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 75,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 479,
+        "end_char": 505,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "به نظر دادگاه اعتراض وارد است",
+        "start_char": 924,
+        "end_char": 953,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه مارالذکر",
+        "start_char": 1237,
+        "end_char": 1261,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان را وارد تشخیص نداده",
+        "start_char": 403,
+        "end_char": 434,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 85,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم به رد دعوی تجدیدنظرخواه",
+        "start_char": 836,
+        "end_char": 863,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "حکم الزام تجدیدنظرخوانده به تمکین",
+        "start_char": 1293,
+        "end_char": 1326,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به دلالت سند نکاحیه پیوستی",
+        "start_char": 191,
+        "end_char": 217,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره1347",
+        "start_char": 742,
+        "end_char": 767,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت زوجین ثابت شده است",
+      "evidence": {
+        "quote": "ضمن احراز رابطه زوجیت زوجین",
+        "start_char": 163,
+        "end_char": 190,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده آدرس والدین خود را ارائه نکرده است",
+      "evidence": {
+        "quote": "نسبت به ارائه آدرس والدین خوانده ( که وی را مجهول ‬المکان اعلام نموده) ارائه ننموده",
+        "start_char": 307,
+        "end_char": 390,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه دفاعی در برابر ادعای تمکین نکرده است",
+      "evidence": {
+        "quote": "در این پرونده نیز زوجه هیچ دفاعی در جهت توجیه ترک منزل و عدم تمکین خود نکرده است",
+        "start_char": 1100,
+        "end_char": 1180,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

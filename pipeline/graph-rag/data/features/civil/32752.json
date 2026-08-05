@@ -1,0 +1,153 @@
+{
+  "ruling_id": "32752",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "دلالت بر انجام معامله بیع نسبت به اتومبیل مورد معامله",
+        "start_char": 1388,
+        "end_char": 1440,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "و نوعی تبدیل تعهد به اعتبار تغییر متعهد است",
+        "start_char": 1690,
+        "end_char": 1733,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امضاء",
+      "evidence": {
+        "quote": "امضاء سند انتقال قطعی",
+        "start_char": 225,
+        "end_char": 246,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده ردیف اول به پرداخت خسارت",
+        "start_char": 336,
+        "end_char": 373,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعطای",
+      "evidence": {
+        "quote": "دلالت بر اعطای وکالت از ناحیه خوانده ردیف دوم به خواهان دارد",
+        "start_char": 1629,
+        "end_char": 1689,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در مورد تجدیدنظرخواهی ح. م.",
+        "start_char": 3693,
+        "end_char": 3720,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان آقای م. ص.",
+        "start_char": 0,
+        "end_char": 24,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 68,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": 4276,
+        "end_char": 4311,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اتومبیل",
+      "evidence": {
+        "quote": "یک دستگاه اتومبیل خودروی سمند به شماره انتظامی325 س 99 ایران 22",
+        "start_char": 247,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مطابق شروط مذکور در مبایعه نامه",
+        "start_char": 397,
+        "end_char": 428,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "امضاء سند انتقال قطعی",
+        "start_char": 225,
+        "end_char": 246,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت اتومبیل به نام خوانده ردیف دوم ثبت شده است",
+      "evidence": {
+        "quote": "مالکیت اتومبیل به نام خوانده ردیف دوم ثبت می باشد",
+        "start_char": 1819,
+        "end_char": 1868,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ردیف اول مالک اتومبیل نیست",
+      "evidence": {
+        "quote": "به لحاظ عدم مالکیت خوانده ردیف اول",
+        "start_char": 3307,
+        "end_char": 3341,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

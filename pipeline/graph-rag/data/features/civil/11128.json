@@ -1,0 +1,223 @@
+{
+  "ruling_id": "11128",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ملاقات",
+      "evidence": {
+        "quote": "حکم به ملاقات مادر با طفل مشترک از قرار هر ماه سه روز را صادر و اعلام می‌دارد",
+        "start_char": 403,
+        "end_char": 480,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظر",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی م.الف. به طرفیت ز.ج.",
+        "start_char": 596,
+        "end_char": 638,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "مستنداً به ماده 1174 از قانون مدنی",
+        "start_char": 368,
+        "end_char": 402,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "آیین دادرسی",
+      "evidence": {
+        "quote": "به استناد به مواد 358 و 365 قانون آیین دادرسی دادگاه‌های عمومی و انقلاب در امور مدنی",
+        "start_char": 1231,
+        "end_char": 1315,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواست خواهان خانم ز.ج. به طرفیت آقای م.الف. به خواسته ملاقات فرزند مشترک 6 ساله به نام الف، به شرح مندرجات دادخواست تقدیمی است",
+        "start_char": 0,
+        "end_char": 129,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "حکم به ملاقات مادر با طفل مشترک از قرار هر ماه سه روز را صادر و اعلام می‌دارد",
+        "start_char": 403,
+        "end_char": 480,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "زمانی که تجدیدنظرخواه ایراد و اعتراض موجهی که موجبات نقض دادنامه اعتراض شده را فراهم آورد ابراز ننموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "این دادگاه با عنایت به‌ مراتب مذکور ضمن رد درخواست تجدیدنظرخواهی، رأی صادر شده دادگاه بدوی را به استناد به مواد 358 و 365 قانون آیین دادرسی دادگاه‌های عمومی و انقلاب در امور مدنی تأیید می‌نماید",
+        "start_char": 1137,
+        "end_char": 1330,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست خواهان خانم ز.ج. به طرفیت آقای م.الف.",
+        "start_char": 0,
+        "end_char": 46,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دادخواست خواهان خانم ز.ج. به طرفیت آقای م.الف.",
+        "start_char": 0,
+        "end_char": 46,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "مادر",
+      "evidence": {
+        "quote": "حکم به ملاقات مادر با طفل مشترک از قرار هر ماه سه روز را صادر و اعلام می‌دارد",
+        "start_char": 403,
+        "end_char": 480,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "پدر",
+      "evidence": {
+        "quote": "به طرفیت آقای م.الف.",
+        "start_char": 26,
+        "end_char": 46,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی م.الف. به طرفیت ز.ج.",
+        "start_char": 596,
+        "end_char": 638,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل خوانده در دادگاه",
+        "start_char": 191,
+        "end_char": 212,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "دادخواست خواهان خانم ز.ج. به طرفیت آقای م.الف.",
+        "start_char": 0,
+        "end_char": 46,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره01512 مورخ 1393/10/24",
+        "start_char": 639,
+        "end_char": 681,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "مفاد لایحه تجدیدنظرخواهی و لوایح دفاعیه طرفین",
+        "start_char": 866,
+        "end_char": 911,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "به خواسته ملاقات فرزند مشترک 6 ساله به نام الف",
+        "start_char": 47,
+        "end_char": 93,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مادر و فرزند از هم جدا شده‌اند",
+      "evidence": {
+        "quote": "حکم به ملاقات مادر با طفل مشترک از قرار هر ماه سه روز را صادر و اعلام می‌دارد",
+        "start_char": 403,
+        "end_char": 480,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی انجام شده است",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی م.الف. به طرفیت ز.ج.",
+        "start_char": 596,
+        "end_char": 638,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه بدوی حکم صادر کرده است",
+      "evidence": {
+        "quote": "رأی صادر شده دادگاه بدوی را به استناد به مواد 358 و 365 قانون آیین دادرسی دادگاه‌های عمومی و انقلاب در امور مدنی تأیید می‌نماید",
+        "start_char": 1203,
+        "end_char": 1330,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

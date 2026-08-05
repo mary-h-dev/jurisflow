@@ -1,0 +1,173 @@
+{
+  "ruling_id": "401",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام تصرف",
+        "start_char": 90,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "نتیجه آن تصرف خوانده از تاریخ 28/9/83 بوده",
+        "start_char": 1093,
+        "end_char": 1135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "با این وصف مدعی مالکیت آپارتمان نوعاً آن را تصرف نموده",
+        "start_char": 1247,
+        "end_char": 1301,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 80,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "خوانده دعوی الزام به تنظیم سند",
+        "start_char": 469,
+        "end_char": 499,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "خواهان دعوی خلع ید",
+        "start_char": 511,
+        "end_char": 529,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم سند آپارتمان",
+        "start_char": 481,
+        "end_char": 508,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در دادگاه محترم تجدیدنظر",
+        "start_char": 2050,
+        "end_char": 2086,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض دادنامه تجدیدنظرخواسته",
+        "start_char": 2726,
+        "end_char": 2762,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان دعوی خلع ید",
+        "start_char": 511,
+        "end_char": 529,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده دعوی الزام به تنظیم سند",
+        "start_char": 469,
+        "end_char": 499,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه به پرداخت",
+        "start_char": 2303,
+        "end_char": 2333,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "مالکیت آپارتمان نوعاً آن را تصرف نموده",
+        "start_char": 1263,
+        "end_char": 1301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "الزام به تنظیم سند آپارتمان",
+        "start_char": 481,
+        "end_char": 508,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلاف در مالکیت آپارتمان",
+      "evidence": {
+        "quote": "طرفین در مالکیت آپارتمان موصوف اختلاف داشته‌اند",
+        "start_char": 328,
+        "end_char": 375,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تصرف خوانده از سال ۱۳۸۳",
+      "evidence": {
+        "quote": "نتیجه آن تصرف خوانده از تاریخ 28/9/83 بوده",
+        "start_char": 1093,
+        "end_char": 1135,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

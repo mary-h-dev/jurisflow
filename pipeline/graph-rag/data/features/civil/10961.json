@@ -1,0 +1,213 @@
+{
+  "ruling_id": "10961",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "در نتیجه شرایط ضمن عقد محقق شد و عسر و حرج بوجود آمد",
+        "start_char": 913,
+        "end_char": 965,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "چهارده عدد سکه از مهریه را بذل می‌نمایم",
+        "start_char": 624,
+        "end_char": 663,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امکان سازش",
+      "evidence": {
+        "quote": "به خواسته صدور گواهی عدم امکان سازش جهت اجرای صیغه طلاق",
+        "start_char": 49,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "چهارده عدد سکه از مهریه را بذل می‌نمایم",
+        "start_char": 624,
+        "end_char": 663,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "وکیل زوج (س.س.) به دادنامه اعتراض",
+        "start_char": 3559,
+        "end_char": 3592,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض و حکم به بطلان دعوی بدوی صادر می‌نماید",
+        "start_char": 4342,
+        "end_char": 4410,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به خواسته صدور گواهی عدم امکان سازش",
+        "start_char": 49,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به علت اختلاف و بدرفتاری و کتک‌کاری و فحاشی خوانده",
+        "start_char": 255,
+        "end_char": 305,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج اظهار داشت که",
+        "start_char": 985,
+        "end_char": 1002,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "سپس زوجه خانم الف. م. را به‌عنوان وکیل انتخاب نموده است",
+        "start_char": 1130,
+        "end_char": 1185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "سپس زوجه خانم الف. م. را به‌عنوان وکیل انتخاب نموده است",
+        "start_char": 1130,
+        "end_char": 1185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "قرار ارجاع امر به داوری صادر",
+        "start_char": 1415,
+        "end_char": 1443,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاهد",
+      "evidence": {
+        "quote": "احدی از گواهان بنام م.ف. اظهار داشت",
+        "start_char": 1187,
+        "end_char": 1222,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "برابر سند نکاحیه به شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "چهارده عدد سکه از مهریه را بذل می‌نمایم",
+        "start_char": 624,
+        "end_char": 663,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "جهیزیه نزد زوج ندارد",
+        "start_char": 2549,
+        "end_char": 2569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "موضوع مسکن ارتباطی با زوج ندارد",
+        "start_char": 3673,
+        "end_char": 3704,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه توسط زوج",
+      "evidence": {
+        "quote": "در این مدت به من و فرزندم نفقه نداد",
+        "start_char": 345,
+        "end_char": 380,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ضرب و جرح و بدرفتاری زوج",
+      "evidence": {
+        "quote": "به علت اختلاف و بدرفتاری و کتک‌کاری و فحاشی خوانده",
+        "start_char": 255,
+        "end_char": 305,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "جدا زندگی کردن زوجین",
+      "evidence": {
+        "quote": "چند سالی است که جداگانه زندگی می‌کنم",
+        "start_char": 306,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

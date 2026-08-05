@@ -1,0 +1,143 @@
+{
+  "ruling_id": "28132",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "استفاده خوانده از حق حبس",
+        "start_char": 209,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 58,
+        "end_char": 79,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مهریه خوانده را بطور اقساط پرداخت می کند",
+        "start_char": 252,
+        "end_char": 292,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجه و مدلل و موثری",
+        "start_char": 1257,
+        "end_char": 1296,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تایید و ابرام",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عینا تایید و ابرام می نماید",
+        "start_char": 1572,
+        "end_char": 1625,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اظهارات خواهان",
+        "start_char": 132,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 58,
+        "end_char": 79,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجه",
+        "start_char": 1257,
+        "end_char": 1281,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه خوانده را بطور اقساط پرداخت می کند",
+        "start_char": 252,
+        "end_char": 292,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "ظرف یکسال آینده نیز منزل تهیه می کند",
+        "start_char": 295,
+        "end_char": 331,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عینا تایید و ابرام می نماید",
+        "start_char": 1572,
+        "end_char": 1625,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده مهریه را به‌صورت اقساط پرداخت می‌کند",
+      "evidence": {
+        "quote": "مهریه خوانده را بطور اقساط پرداخت می کند",
+        "start_char": 252,
+        "end_char": 292,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده قصد دارد منزل تهیه کند",
+      "evidence": {
+        "quote": "ظرف یکسال آینده نیز منزل تهیه می کند",
+        "start_char": 295,
+        "end_char": 331,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

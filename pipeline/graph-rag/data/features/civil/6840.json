@@ -1,0 +1,193 @@
+{
+  "ruling_id": "6840",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "صدور حکم فسخ نکاح",
+        "start_char": 126,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجین",
+      "evidence": {
+        "quote": "اصل بر صحت و سلامت زوجین بوده",
+        "start_char": 689,
+        "end_char": 718,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جنون",
+      "evidence": {
+        "quote": "ادعای وی را به جنون ثابت نماید",
+        "start_char": 910,
+        "end_char": 940,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "از قرار مذکور فرجام خواهی نموده",
+        "start_char": 2733,
+        "end_char": 2764,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت خانم ز.ر. به خواسته صدور حکم فسخ نکاح تقدیم دادگاه نموده",
+        "start_char": 87,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "موکل مؤکداً اظهارات خواهان را ردّ می نماید",
+        "start_char": 953,
+        "end_char": 995,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "مورد تجدیدنظرخواهی قرارگرفته",
+        "start_char": 1931,
+        "end_char": 1959,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابرام",
+      "evidence": {
+        "quote": "دادنامه فرجام خواسته را ابرام می نماید",
+        "start_char": 3260,
+        "end_char": 3298,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان به مضمون مطالب درج شده در دادخواست اظهاراتی نموده",
+        "start_char": 597,
+        "end_char": 658,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "موکل با خوانده در تاریخ 8/10/89",
+        "start_char": 212,
+        "end_char": 243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از زوج مخفی نموده است",
+        "start_char": 480,
+        "end_char": 501,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "رفتار زوجه",
+        "start_char": 2027,
+        "end_char": 2037,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "اعتراض فرجام خواه به کیفیتی نیست",
+        "start_char": 3045,
+        "end_char": 3077,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به موجب سند نکاحیه پیوست",
+        "start_char": 187,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "پس از تبادل لوایح پرونده",
+        "start_char": 2138,
+        "end_char": 2162,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده دچار اختلالات روانی و بیماری تیروئید بوده است",
+      "evidence": {
+        "quote": "خوانده دچار اختلالات روانی و رفتاری و بیماری تیروئید بوده",
+        "start_char": 339,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بیماری از پیش وجود داشته و از زوج مخفی شده است",
+      "evidence": {
+        "quote": "این بیماری قبلی از عقد ازدواج وجود داشته است از زوج مخفی نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوای فرجام خواهی خارج از مهلت بوده است",
+      "evidence": {
+        "quote": "با توجه به خارج از مهلت بودن تقدیم دادخواست",
+        "start_char": 2514,
+        "end_char": 2557,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "ruling_id": "32516",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "الزام به طلاق",
+        "start_char": 105,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سازش",
+      "evidence": {
+        "quote": "ایجاد سازش",
+        "start_char": 183,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "درقبال طلاق بذل",
+        "start_char": 659,
+        "end_char": 674,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلع",
+      "evidence": {
+        "quote": "نوع طلاق خلع محسوب",
+        "start_char": 678,
+        "end_char": 696,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معاشرت",
+      "evidence": {
+        "quote": "سوء معاشرت زوج",
+        "start_char": 1456,
+        "end_char": 1470,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 2635,
+        "end_char": 2659,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام به طلاق",
+        "start_char": 105,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "جهیزیه را مسترد کرده نمایندگی",
+        "start_char": 534,
+        "end_char": 563,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدید نظرخواهی آقای ف. م.",
+        "start_char": 962,
+        "end_char": 987,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "اقرار با وکالت آقای الف. الف.",
+        "start_char": 988,
+        "end_char": 1017,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدید نظرخواسته نقض",
+        "start_char": 2574,
+        "end_char": 2601,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مستندات خواهان",
+        "start_char": 335,
+        "end_char": 349,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از ناحیه خوانده",
+        "start_char": 350,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تجدید نظرخوانده (زوجه )",
+        "start_char": 1179,
+        "end_char": 1202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "مخالفت زوج با طلاق",
+        "start_char": 2474,
+        "end_char": 2492,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "در خصوص مهریه زوجه",
+        "start_char": 620,
+        "end_char": 638,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سکه",
+      "evidence": {
+        "quote": "100 سکه از مهریه",
+        "start_char": 639,
+        "end_char": 655,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "جهیزیه را مسترد کرده",
+        "start_char": 534,
+        "end_char": 554,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم وجود فرزند مشترک",
+      "evidence": {
+        "quote": "زوجین فاقد فرزند مشترک هستند",
+        "start_char": 500,
+        "end_char": 528,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حامله نبودن زوجه",
+      "evidence": {
+        "quote": "زوجه حسب گواهی پزشکی قانونی حامله نمی باشد",
+        "start_char": 455,
+        "end_char": 497,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سابقه حبس زوج بابت ترک انفاق",
+      "evidence": {
+        "quote": "زوج بابت 91 روز حبس تعزیری به خاطر ترک انفاق برائت حاصل نموده",
+        "start_char": 1653,
+        "end_char": 1714,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

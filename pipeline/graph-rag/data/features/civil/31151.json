@@ -1,0 +1,183 @@
+{
+  "ruling_id": "31151",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مطالبه مهریه 600/000 ریال",
+        "start_char": 158,
+        "end_char": 183,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "رابطه و علقه زوجیت خواهان با آقای م. ص. فرزند ح. را محرز می نماید",
+        "start_char": 649,
+        "end_char": 714,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مهریه",
+        "start_char": 148,
+        "end_char": 170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فوت",
+      "evidence": {
+        "quote": "در تاریخ 88 شوهرش فوت می نماید",
+        "start_char": 312,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مهریه وی را که عندالمطالبه نیز بوده پرداخت نکرده است",
+        "start_char": 371,
+        "end_char": 423,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قبول",
+      "evidence": {
+        "quote": "دعوی خواهان را قبول کرده است",
+        "start_char": 944,
+        "end_char": 972,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "خوانده را به پرداخت به مبلغ 19/615/178 ریال بابت مهریه (زمان فوت مرحوم) از ماترک مرحوم م. ص. فرزند ح. در حق خواهان محکوم مینماید",
+        "start_char": 1618,
+        "end_char": 1746,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دادخواست",
+      "evidence": {
+        "quote": "ضمن رد دادخواست تجدید نظر خواهی رای صادر شده دادگاه بدوی را",
+        "start_char": 2746,
+        "end_char": 2805,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان خانم ش. ز. فرزند ف.",
+        "start_char": 0,
+        "end_char": 39,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان ورثه مرحوم آقای م. ص.",
+        "start_char": 40,
+        "end_char": 79,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ورثه",
+      "evidence": {
+        "quote": "ورثه ملزم هستند که نسبت به اداء دیون",
+        "start_char": 1316,
+        "end_char": 1352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "و خواهان بعنوان همسر دائم دارد",
+        "start_char": 871,
+        "end_char": 901,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "ملاحظه سند نکاحیه صادره در دفترخانه شماره 278110",
+        "start_char": 570,
+        "end_char": 618,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "گواهی حصر وراثت شماره 1252 مورخ 2/5/91",
+        "start_char": 725,
+        "end_char": 763,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انعقاد عقد نکاح در سال ۶۸",
+      "evidence": {
+        "quote": "در تاریخ 68 به مبلغ 600/000 ریال به عقد نکاح دائم آقای م. ص. درآمده است",
+        "start_char": 238,
+        "end_char": 309,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فوت شوهر در سال ۸۸",
+      "evidence": {
+        "quote": "در تاریخ 88 شوهرش فوت می نماید",
+        "start_char": 312,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت مهریه در زمان حیات",
+      "evidence": {
+        "quote": "در زمان حیاتش مهریه وی را که عندالمطالبه نیز بوده پرداخت نکرده است",
+        "start_char": 357,
+        "end_char": 423,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

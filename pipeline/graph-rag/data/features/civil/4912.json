@@ -1,0 +1,163 @@
+{
+  "ruling_id": "4912",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تغییر نام",
+      "evidence": {
+        "quote": "حکم به تغییر نام از ف. به ع. در سند سجلی شماره 28912 صادر و اعلام می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "احوال",
+      "evidence": {
+        "quote": "خواسته خواهان معمولاً جزء احوال شخصیه محسوب",
+        "start_char": 1617,
+        "end_char": 1660,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اهلیت",
+      "evidence": {
+        "quote": "در حال حاضر که به سن قانونی اهلیت استیفا رسیده",
+        "start_char": 2317,
+        "end_char": 2363,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لاضرر",
+      "evidence": {
+        "quote": "مغایر با قاعده لاضرر خواهد بود",
+        "start_char": 2164,
+        "end_char": 2193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "بنا به مفهوم مخالف ماده 999 قانون مدنی سند رسمی محسوب نخواهد شد",
+        "start_char": 1199,
+        "end_char": 1262,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "حکم به تغییر نام از ف. به ع. در سند سجلی شماره 28912 صادر و اعلام می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی اداره ثبت احوال تهران",
+        "start_char": 3187,
+        "end_char": 3230,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خانم ف.و. با وکالت خانم ن.الف. به طرفیت الف. به خواسته تغییر نام از ف. به ع. خواهان توضیح داده است",
+        "start_char": 0,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مدافعات خوانده درخور پذیرش نیست",
+        "start_char": 607,
+        "end_char": 638,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از آنجا که از سوی تجدیدنظرخواه نسبت به گواهی گواهان تعرفه شد جرحی صورت نگرفته",
+        "start_char": 4089,
+        "end_char": 4164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاهد",
+      "evidence": {
+        "quote": "استماع اظهارات شهود خواهان",
+        "start_char": 543,
+        "end_char": 569,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "حکم به تغییر نام از ف. به ع. در سند سجلی شماره 28912 صادر و اعلام می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند سجلی مورد ابرازی خواهان",
+        "start_char": 1273,
+        "end_char": 1300,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "نام شناسنامه با نام رایج در جامعه متفاوت است",
+      "evidence": {
+        "quote": "در واقعیت نام شناسنامه من به هیچ عنوان برای نام من بکار برده نشده است",
+        "start_char": 280,
+        "end_char": 349,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ولادت در مدت قانونی اظهار نشده است",
+      "evidence": {
+        "quote": "ولادت خواهان در مدت قانونی مصرع در تبصره ذیل ماده 15 از قانون ثبت احوال اظهار نگردیده",
+        "start_char": 1113,
+        "end_char": 1198,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "ruling_id": "28687",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "بخواسته حضانت و واگذاری فرزند",
+        "start_char": 89,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت",
+      "evidence": {
+        "quote": "لذا مصلحت و غبطه طفل بر این است",
+        "start_char": 799,
+        "end_char": 830,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظر خواهی در مراجع محترم",
+        "start_char": 1154,
+        "end_char": 1189,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکم به حضانت و نگهداری فرزند در حق خواهان صادر",
+        "start_char": 1041,
+        "end_char": 1087,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "پدر",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک بنام الف. به پدر داده شده بود",
+        "start_char": 295,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مادر",
+      "evidence": {
+        "quote": "نزد مادر زندگی نماید",
+        "start_char": 834,
+        "end_char": 854,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک بنام الف. به پدر داده شده بود",
+        "start_char": 295,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "طلاق‌نامه",
+      "evidence": {
+        "quote": "حسب طلاقنامه شماره... مورخ 13/12/92",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرزند تمایلی به زندگی با پدر و نامادری ندارد",
+      "evidence": {
+        "quote": "عدم تمایل فرزند مشترک در خصوص زندگی با پدر و نامادری خود",
+        "start_char": 435,
+        "end_char": 491,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "نامادری با فرزند بدرفتاری می‌کند",
+      "evidence": {
+        "quote": "در زمان عدم حضور پدر وی، نامادری با وی بدرفتاری می نماید",
+        "start_char": 500,
+        "end_char": 556,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "جراحت فیزیکی در صورت فرزند مشاهده شده است",
+      "evidence": {
+        "quote": "مبنی بر ورود جراحت سطحی در حد حارصه در قسمت چپ صورت",
+        "start_char": 641,
+        "end_char": 692,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

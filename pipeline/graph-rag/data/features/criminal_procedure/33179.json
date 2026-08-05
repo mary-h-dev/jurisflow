@@ -1,0 +1,203 @@
+{
+  "ruling_id": "33179",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شرب خمر",
+      "evidence": {
+        "quote": "درخصوص اتهام آقای س. ح.الف. ساکن تهران دارای سابقه محکومیت کیفری دایر بر1- شرب خمر",
+        "start_char": 0,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی احتیاطی در رانندگی",
+      "evidence": {
+        "quote": "بی احتیاطی در رانندگی منتهی به دو فقره قتل غیر عمدی",
+        "start_char": 85,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قتل غیرعمدی",
+      "evidence": {
+        "quote": "بی احتیاطی در رانندگی منتهی به دو فقره قتل غیر عمدی",
+        "start_char": 85,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "در بحث شرب خمر (جرم واجد جنبه حق اللهی",
+        "start_char": 1428,
+        "end_char": 1466,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دیه",
+      "evidence": {
+        "quote": "و پرداخت دیه در حق اولیاء دم",
+        "start_char": 2182,
+        "end_char": 2210,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تصادف",
+      "evidence": {
+        "quote": "در تاریخ93/8/7 در اتوبان چمران شمال به جنوب خروجی یادگارامام یکدستگاه اتومبیل لکسوز مشکی به شماره...به رانندگی آقای س. ح.(متهم) با یکدستگاه اتومبیل اسپرتچ مشکی به شماره... با دو نفرسرنشین به هویت الف. و.ز. و خانم ی.ز. تصادف",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "و متهم نیزدرجلسه دادرسی مورخ 1394/7/7به سرعت140کیلومتری اقرارنموده",
+        "start_char": 3724,
+        "end_char": 3789,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی آقای س. ح.الف.",
+        "start_char": 2944,
+        "end_char": 2979,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض این قسمت ازدادنامه معترض عنه",
+        "start_char": 4775,
+        "end_char": 4811,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "بدل پرونده به دادگاه بدوی اعاده",
+        "start_char": 4812,
+        "end_char": 4843,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "درتاریخ93/8/7 در اتوبان چمران شمال به جنوب خروجی یادگارامام یکدستگاه اتومبیل لکسوز مشکی به شماره...به رانندگی آقای س. ح.(متهم)",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اولیاء‌دم",
+      "evidence": {
+        "quote": "شکایت آقای علی و.ز. و خانم ش.الف. بعنوان اولیاء دم مرحوم الف. و.ز.",
+        "start_char": 797,
+        "end_char": 863,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بموجب آن تجدیدنظرخواه به اتهام شرب خمربه هشتاد ضربه شلاق",
+        "start_char": 3110,
+        "end_char": 3166,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اتومبیل",
+      "evidence": {
+        "quote": "یکدستگاه اتومبیل لکسوز مشکی به شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به دادنامه شماره 900114-94مورخ1394/3/17",
+        "start_char": 3008,
+        "end_char": 3047,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تصادف در تاریخ 93/8/7 در اتوبان چمران رخ داده است",
+      "evidence": {
+        "quote": "در تاریخ93/8/7 در اتوبان چمران شمال به جنوب خروجی یادگارامام",
+        "start_char": 331,
+        "end_char": 391,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "راننده در حالت مستی رانندگی می‌کرده است",
+      "evidence": {
+        "quote": "رای در تایید وجود الکی در خون متهم ، گزارش پلیس راهنمایی و رانندگی درتایید وجود الکل در هوای بازدم متهم",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حادثه در ماه حرام رخ داده است",
+      "evidence": {
+        "quote": "چون در ماه حرام اتفاق افتاده",
+        "start_char": 2485,
+        "end_char": 2513,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم در جلسه دادرسی حضوری حضور نداشته است",
+      "evidence": {
+        "quote": "شخص متهم درجلسه دادرسی مورخ 94/3/16 دادگاه بدوی حضورنداشته",
+        "start_char": 4670,
+        "end_char": 4728,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

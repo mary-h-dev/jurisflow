@@ -1,0 +1,223 @@
+{
+  "ruling_id": "32859",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "بخواسته الزام به تمکین",
+        "start_char": 94,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "با وجود علقه زوجیت",
+        "start_char": 1111,
+        "end_char": 1129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی صادر",
+        "start_char": 608,
+        "end_char": 630,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "بخواسته الزام به تمکین",
+        "start_char": 94,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "دادگاه اعتراض وارد است",
+        "start_char": 1076,
+        "end_char": 1098,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 1486,
+        "end_char": 1501,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "که خواهان در مورد مسکن",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده آمادگی خود را",
+        "start_char": 242,
+        "end_char": 262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بطلان دعوی تجدیدنظرخواه",
+        "start_char": 993,
+        "end_char": 1016,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "حکم الزام تجدیدنظرخوانده به تمکین",
+        "start_char": 1531,
+        "end_char": 1564,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "چرا که زوج موظف است",
+        "start_char": 1281,
+        "end_char": 1300,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "متناسب با شان زوجه",
+        "start_char": 207,
+        "end_char": 225,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "مقدمات تمکین تهیه مسکن",
+        "start_char": 171,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث‌البیت",
+      "evidence": {
+        "quote": "تهیه مسکن و اثاث البیت",
+        "start_char": 184,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "به یک واحد آپارتمان",
+        "start_char": 345,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "در رابطه با منزل مسکونی",
+        "start_char": 1186,
+        "end_char": 1209,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "با تقدیم لایحه",
+        "start_char": 1341,
+        "end_char": 1355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "لایحه قرارداد اجاره منزلی",
+        "start_char": 1350,
+        "end_char": 1375,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "موضوع دعوا واحد آپارتمان مورد تنازع و شراکت است",
+      "evidence": {
+        "quote": "به یک واحد آپارتمان موضوع تنازع و شراکت با خوانده تمسک نموده است",
+        "start_char": 345,
+        "end_char": 409,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رای فروش آپارتمان صادر شده است",
+      "evidence": {
+        "quote": "که رای به فروش آن نیز صادر شده است",
+        "start_char": 410,
+        "end_char": 444,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج موظف به تهیه مسکن مستقل است",
+      "evidence": {
+        "quote": "چرا که زوج موظف است مسکن مستقل و متناسب تهیه کند",
+        "start_char": 1281,
+        "end_char": 1329,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

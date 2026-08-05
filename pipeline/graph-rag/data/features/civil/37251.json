@@ -1,0 +1,143 @@
+{
+  "ruling_id": "37251",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "استفاده از حق حبس",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "حق اعمال وکالت در طلاق",
+        "start_char": 1329,
+        "end_char": 1351,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بخواسته",
+      "evidence": {
+        "quote": "دادخواستی بخواسته طلاق",
+        "start_char": 53,
+        "end_char": 75,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حکم به بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر",
+        "start_char": 292,
+        "end_char": 321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض و تجدیدنظرخواهی خواهان",
+        "start_char": 341,
+        "end_char": 370,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه فرمانخواسته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان دعوی خود را",
+        "start_char": 150,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "شعبه *خوانده در حال پرداخت",
+        "start_char": 198,
+        "end_char": 224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تمکین زوج",
+        "start_char": 1182,
+        "end_char": 1191,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "استفاده زوجه",
+        "start_char": 1021,
+        "end_char": 1033,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "در حال پرداخت نفقه",
+        "start_char": 211,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در حال پرداخت نفقه است",
+      "evidence": {
+        "quote": "خوانده در حال پرداخت نفقه خواهان می باشد",
+        "start_char": 204,
+        "end_char": 244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به پرداخت نفقه معوقه بیش از ۶ ماه محکوم شده است",
+      "evidence": {
+        "quote": "صدور حکم محکومیت زوج به پرداخت نفقه معوقه بیش از 6 ماه",
+        "start_char": 1269,
+        "end_char": 1323,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

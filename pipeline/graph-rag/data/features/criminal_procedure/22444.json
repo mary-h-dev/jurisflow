@@ -1,0 +1,113 @@
+{
+  "ruling_id": "22444",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مجازات",
+      "evidence": {
+        "quote": "تقاضای تخفیف در مجازات را نموده‌است",
+        "start_char": 118,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حقوق مکتسب",
+      "evidence": {
+        "quote": "استحقاق تخفیف قبلاً احراز شده و از حقوق مکتسب محکومٌ‌علیه بوده است",
+        "start_char": 1332,
+        "end_char": 1398,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "نسبت به دادنامه یاد شده درخواست اعاده‌دادرسی شده",
+        "start_char": 220,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقاضای",
+      "evidence": {
+        "quote": "تقاضای تخفیف در مجازات را نموده‌است",
+        "start_char": 118,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "درخواستش را ردّ نموده‌است",
+        "start_char": 672,
+        "end_char": 697,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "به استناد اعلام گذشت شاکی",
+        "start_char": 92,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "به موجب دادنامه شماره 0717–1392/05/23",
+        "start_char": 0,
+        "end_char": 37,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "نسبت به رأی مذکور نموده",
+        "start_char": 728,
+        "end_char": 751,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم به سرقت مسلحانه متهم شده است",
+      "evidence": {
+        "quote": "اینجانب به اتهام سرقت مسلحانه مدت شش سال است در ندامتگاه مرکزی شهرستان... تحمل کیفر می‌نمایم",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست اعاده‌دادرسی قبلاً رد شده بود",
+      "evidence": {
+        "quote": "درخواستش را ردّ نموده‌است",
+        "start_char": 672,
+        "end_char": 697,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

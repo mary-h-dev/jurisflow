@@ -1,0 +1,153 @@
+{
+  "ruling_id": "25807",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قانون اساسی",
+      "evidence": {
+        "quote": "مورد از مصادیق اصل 139 قانون اساسی جمهوری اسلامی ایران نمی‌باشد",
+        "start_char": 1216,
+        "end_char": 1279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تهاتر",
+      "evidence": {
+        "quote": "هیات داوری مطالبات طرفین دعوا را مشخص و مورد تهاتر قرار داده است",
+        "start_char": 3673,
+        "end_char": 3737,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "در مقام اعتراض به رأی مورخ 1393/2/29",
+        "start_char": 46,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی کرده است",
+        "start_char": 2240,
+        "end_char": 2262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "با خواسته ابطال رأی داور",
+        "start_char": 2320,
+        "end_char": 2344,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محاسبه",
+      "evidence": {
+        "quote": "اشتباه فاحش رخ داده است در مورد نحوه محاسبه مطالبات",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "شرکت خواهان از جمله شرکت‌های تجاری است",
+        "start_char": 1006,
+        "end_char": 1044,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "شرکت تجدیدنظرخواه",
+        "start_char": 2302,
+        "end_char": 2319,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به شرکت تجدیدنظر خوانده محاسبه نموده است",
+        "start_char": 3922,
+        "end_char": 3962,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "قرارداد مهندسی تأمین تجهیزات و ساخت بوده",
+        "start_char": 162,
+        "end_char": 202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی داور برخلاف قوانین آمره صادر گردیده است",
+        "start_char": 4184,
+        "end_char": 4227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مطالبات",
+      "evidence": {
+        "quote": "در مورد نحوه محاسبه مطالبات که اشتباه فاحش رخ داده است",
+        "start_char": 3618,
+        "end_char": 3672,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "قرارداد داوری تشکیل شده است",
+      "evidence": {
+        "quote": "بنابراین صلاحیت هئیت داوری قبل از ارجاع موضوع به داوری توسط دادگاه بررسی و بر همین اساس هئیت داوری تشکیل شده است",
+        "start_char": 439,
+        "end_char": 551,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رأی داور صادر شده است",
+      "evidence": {
+        "quote": "رأی داور برخلاف قوانین آمره صادر گردیده است",
+        "start_char": 4184,
+        "end_char": 4227,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

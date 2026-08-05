@@ -1,0 +1,113 @@
+{
+  "ruling_id": "30822",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "دادخواست تقدیمی اعاده دادرسی",
+        "start_char": 59,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "یکی از ادله اثبات دعوی بوده",
+        "start_char": 1607,
+        "end_char": 1634,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "دادخواست تقدیمی اعاده دادرسی",
+        "start_char": 59,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "و خواهان نیز دلیلی در این زمینه ارائه ننموده است",
+        "start_char": 570,
+        "end_char": 618,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شخص ثالث",
+      "evidence": {
+        "quote": "بیان مطالب از ناحیه شخص ثالث است",
+        "start_char": 1761,
+        "end_char": 1793,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به قسمتی از دادنامه صادره از این شعبه",
+        "start_char": 88,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "اسناد و مدارکی به دست آید",
+        "start_char": 1117,
+        "end_char": 1142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شهادت شهود",
+      "evidence": {
+        "quote": "شهادت شهود می باشد",
+        "start_char": 1537,
+        "end_char": 1555,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ارائه شهادت شهود به عنوان سند مکتوم",
+      "evidence": {
+        "quote": "آنچه بعنوان سند مکتوم ارائه شده است شهادت شهود می باشد",
+        "start_char": 1501,
+        "end_char": 1555,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم وجود تضاد بین مواد استنادی",
+      "evidence": {
+        "quote": "مواد استنادی به هیچ وجه با یکدیگر در تضاد نبوده",
+        "start_char": 522,
+        "end_char": 569,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

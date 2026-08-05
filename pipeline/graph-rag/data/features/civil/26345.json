@@ -1,0 +1,183 @@
+{
+  "ruling_id": "26345",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "وجه التزام عدم تحویل مبیع",
+        "start_char": 278,
+        "end_char": 303,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "شرط فاسد تلقی",
+        "start_char": 2014,
+        "end_char": 2027,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "باطل",
+      "evidence": {
+        "quote": "موجب اکل مال به باطل تلقی",
+        "start_char": 2135,
+        "end_char": 2160,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رسمی انتقال",
+      "evidence": {
+        "quote": "تنظیم سند رسمی انتقال آپارتمان",
+        "start_char": 198,
+        "end_char": 228,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "عدم تحویل مدارک انتقال قطعی مبیع",
+        "start_char": 694,
+        "end_char": 726,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "فرجام خواهی نموده",
+        "start_char": 1422,
+        "end_char": 1439,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض و رسیدگی مجدد را به شعبه دیگر",
+        "start_char": 2743,
+        "end_char": 2776,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به خانم خواهان",
+        "start_char": 240,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وکیل خوانده بدوی",
+        "start_char": 463,
+        "end_char": 479,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "به حضور خریدار در دفتر خانه",
+        "start_char": 664,
+        "end_char": 691,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "از سوی فروشنده",
+        "start_char": 740,
+        "end_char": 754,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "انتقال آپارتمان موضوع دعوی",
+        "start_char": 213,
+        "end_char": 239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "عدم تحویل مدارک انتقال قطعی مبیع",
+        "start_char": 694,
+        "end_char": 726,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "متن مبایعه نامه مورخ 1390/10/27",
+        "start_char": 1661,
+        "end_char": 1692,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "چندین برابر ثمن معامله بوده",
+        "start_char": 2105,
+        "end_char": 2132,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تعیین وجه التزام در قرارداد با مبلغ ۳۳ میلیون ریال برای هر روز تأخیر",
+      "evidence": {
+        "quote": "به صورت تایپی برای تاخیر اجرای تعهد روزانه 33 میلیون ریال خسارت قید شده",
+        "start_char": 1739,
+        "end_char": 1810,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تحویل مدارک انتقال مبیع توسط فروشنده",
+      "evidence": {
+        "quote": "عدم تحویل مدارک انتقال قطعی مبیع به دفتر خانه از سوی فروشنده",
+        "start_char": 694,
+        "end_char": 754,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

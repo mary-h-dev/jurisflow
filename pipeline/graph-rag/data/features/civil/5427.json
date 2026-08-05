@@ -1,0 +1,163 @@
+{
+  "ruling_id": "5427",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ملاقات",
+      "evidence": {
+        "quote": "به خواسته کاهش زمان ملاقات",
+        "start_char": 65,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعیین",
+      "evidence": {
+        "quote": "و تعیین مکان ملاقات",
+        "start_char": 92,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "پس از ابلاغ قابل تجدیدنظرخواهی",
+        "start_char": 1170,
+        "end_char": 1200,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ملاقات",
+      "evidence": {
+        "quote": "به خواسته کاهش زمان ملاقات",
+        "start_char": 65,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تعیین",
+      "evidence": {
+        "quote": "و تعیین مکان ملاقات",
+        "start_char": 92,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی خانم الف.پ.",
+        "start_char": 1291,
+        "end_char": 1324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ضمن ردّ اعتراض معترض",
+        "start_char": 1968,
+        "end_char": 1988,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "و اظهارات خواهان",
+        "start_char": 213,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده حق ملاقات با فرزند مشترک",
+        "start_char": 284,
+        "end_char": 315,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "خواهان بدوی (تجدیدنظرخواه)",
+        "start_char": 1446,
+        "end_char": 1472,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "ضمن ردّ اعتراض معترض",
+        "start_char": 1968,
+        "end_char": 1988,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "حق ملاقات با فرزند مشترک",
+        "start_char": 291,
+        "end_char": 315,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "حسب دادنامه شماره 1473-12/9/91",
+        "start_char": 244,
+        "end_char": 274,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده محکوم به ایجاد خانه فساد شده است",
+      "evidence": {
+        "quote": "خوانده بابت رابطه نامشروع محکوم شده است",
+        "start_char": 824,
+        "end_char": 863,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده سابقه ضرب و جرح فرزند را دارد",
+      "evidence": {
+        "quote": "اتهامات خوانده دایر بر ضرب وجرح فرزندش",
+        "start_char": 686,
+        "end_char": 724,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

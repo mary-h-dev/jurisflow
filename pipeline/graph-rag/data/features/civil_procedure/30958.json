@@ -1,0 +1,153 @@
+{
+  "ruling_id": "30958",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوا صادر و اعلام می گردد",
+        "start_char": 898,
+        "end_char": 936,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مستوجب نقض آن می باشد",
+        "start_char": 1451,
+        "end_char": 1472,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "مبنی بر تخلیه",
+        "start_char": 99,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض نزد محاکم تجدید نظر",
+        "start_char": 974,
+        "end_char": 1005,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "اعاده می نماید",
+        "start_char": 2827,
+        "end_char": 2841,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان برابر اجاره نامه رسمی",
+        "start_char": 245,
+        "end_char": 273,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "خواندگان مستاجر یک باب مغازه",
+        "start_char": 216,
+        "end_char": 244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "خواندگان مستاجر یک باب مغازه",
+        "start_char": 216,
+        "end_char": 244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "نیاز شخصی امر مقطعی بوده و عدم احراز نیاز مالک",
+        "start_char": 1743,
+        "end_char": 1789,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجاره نامه",
+      "evidence": {
+        "quote": "اجاره نامه رسمی شماره 136164",
+        "start_char": 258,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند صلح شماره 95366",
+        "start_char": 302,
+        "end_char": 321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "یک باب",
+      "evidence": {
+        "quote": "تخلیه یک باب مغازه",
+        "start_char": 1244,
+        "end_char": 1262,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در پرونده اول نیاز خواهان را قبول دارد",
+      "evidence": {
+        "quote": "خوانده ردیف اول حاضر و اظهار داشته که نیاز شخصی خواهان را قبول دارد",
+        "start_char": 474,
+        "end_char": 541,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در پرونده قبلی عدم نیاز شخصی خواهان احراز شده است",
+      "evidence": {
+        "quote": "در تحقیقات انجام شده عدم نیاز شخصی وی احراز گردیده",
+        "start_char": 636,
+        "end_char": 686,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

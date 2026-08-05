@@ -1,0 +1,142 @@
+{
+  "ruling_id": "5289",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام زوجیت",
+        "start_char": 82,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "زن تبرعاً امور خانه داری را انجام می دهد",
+        "start_char": 351,
+        "end_char": 391,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "اصل هم به موجب سیاق و مفاد ماده 265 قانون مدنی بر عدم تبرع بوده",
+        "start_char": 1634,
+        "end_char": 1697,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دایر به مطالبه اجرت المثل ایام زوجیت",
+        "start_char": 74,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی خواهان صادر",
+        "start_char": 830,
+        "end_char": 857,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را نقض",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم بر محکومیت زوج به پرداخت اجرت المثل",
+        "start_char": 2245,
+        "end_char": 2284,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان قابل اجابت نیست",
+        "start_char": 125,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "با خواسته زوج و به قصد عدم تبرع باشد",
+        "start_char": 1532,
+        "end_char": 1568,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در مانحن فیه زوجه مدعی عدم تبرع شده",
+        "start_char": 1596,
+        "end_char": 1631,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "با وارد دانستن اعتراض معترض",
+        "start_char": 2135,
+        "end_char": 2162,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زن امور خانه را بدون قصد دریافت دستمزد انجام می‌دهد",
+      "evidence": {
+        "quote": "زن تبرعاً امور خانه داری را انجام می دهد و هیچ گاه قصد او دریافت دستمزد نبوده",
+        "start_char": 351,
+        "end_char": 428,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج امور منزل را از همسرش خواسته است",
+      "evidence": {
+        "quote": "یعنی اینکه زوج انجام کاری از امور منزل را از همسرش بخواهد",
+        "start_char": 1870,
+        "end_char": 1927,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

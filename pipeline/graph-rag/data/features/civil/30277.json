@@ -1,0 +1,143 @@
+{
+  "ruling_id": "30277",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تقسیم ترکه",
+      "evidence": {
+        "quote": "مبنی برخواسته تقسیم ترکه",
+        "start_char": 73,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقسیم",
+      "evidence": {
+        "quote": "می تواند درخواست تقسیم سهم خود را از دادگاه درخواست نماید",
+        "start_char": 998,
+        "end_char": 1055,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقسیم ترکه",
+      "evidence": {
+        "quote": "مبنی برخواسته تقسیم ترکه",
+        "start_char": 73,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "درخواست",
+      "evidence": {
+        "quote": "می تواند درخواست تقسیم سهم خود را از دادگاه درخواست نماید",
+        "start_char": 998,
+        "end_char": 1055,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض ان",
+        "start_char": 1342,
+        "end_char": 1352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عودت",
+      "evidence": {
+        "quote": "مراتب را جهت ادامه رسیدگی ماهوی به دادگاه بدوی عودت میدهد",
+        "start_char": 1353,
+        "end_char": 1410,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "باملاحظه دادخواست خواهان",
+        "start_char": 139,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ورثه",
+      "evidence": {
+        "quote": "اگر بین ورثه توافقی مبنی بر تقسیم ماترک نباشد",
+        "start_char": 938,
+        "end_char": 983,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ماترک",
+      "evidence": {
+        "quote": "ماترک اعم از اموال منقول ، غیرمنقول می باشد",
+        "start_char": 1234,
+        "end_char": 1277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "ماترک اعم از اموال منقول ، غیرمنقول می باشد",
+        "start_char": 1234,
+        "end_char": 1277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "غير منقول",
+      "evidence": {
+        "quote": "ماترک اعم از اموال منقول ، غیرمنقول می باشد",
+        "start_char": 1234,
+        "end_char": 1277,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم وجود توافق بین ورثه بر تقسیم ماترک",
+      "evidence": {
+        "quote": "اگر بین ورثه توافقی مبنی بر تقسیم ماترک نباشد",
+        "start_char": 938,
+        "end_char": 983,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم انجام اقدام قبلی برای اثبات یا نفی افراز",
+      "evidence": {
+        "quote": "قبلا نیز خواهان در راستای افراز نفیا یا اثباتا اقدامی ننموده",
+        "start_char": 253,
+        "end_char": 313,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "34560",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "با احراز عسر و حرج باستند 1130 قانون مدنی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "به دلیل اعمال حق حبس ادعای عسر و جرح نمود",
+        "start_char": 2164,
+        "end_char": 2205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 41,
+        "end_char": 66,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلع",
+      "evidence": {
+        "quote": "مسئله یک کتاب خلع و مبارات",
+        "start_char": 5942,
+        "end_char": 5968,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مهریه و حق حبس کرد",
+        "start_char": 3660,
+        "end_char": 3685,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "نسبت به آن از سوی زوج تجدید نظر خواهی شد",
+        "start_char": 1913,
+        "end_char": 1953,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "از طریق بذل مالی می تواند رضایت شوهر را برای طلاق جلب کند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "دارم اقساط آن را پرداخت می کنم",
+        "start_char": 2700,
+        "end_char": 2730,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "حکم به الزام زوج به مطلقه نمودن زوجه را صادر نمود",
+        "start_char": 1788,
+        "end_char": 1837,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه غیر مدخوله است",
+        "start_char": 1840,
+        "end_char": 1859,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با حضور طرفین و وکیل خواهان تشکیل",
+        "start_char": 322,
+        "end_char": 355,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "نسبت به مهریه رأی دادگاه صادر شد",
+        "start_char": 2665,
+        "end_char": 2697,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "و نفقه می دهم",
+        "start_char": 699,
+        "end_char": 712,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "طلا",
+      "evidence": {
+        "quote": "دادگاه طلاهای خریداری شده توسط اینجانب را در رأی خود اشاره نکرد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم برقراری رابطه حضوری یا غیر حضوری از سال ۹۲",
+      "evidence": {
+        "quote": "از آن تاریخ تاکنون هیچ رابطه حضوری و یا غیر حضوری با من نداشته است",
+        "start_char": 172,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود اختلاف فرهنگی و تحصیلی بین زوجین",
+      "evidence": {
+        "quote": "بعلت اختلاف فرهنگی مشکلات عدیده دارند و از نظر تحصیلی اختلاف سطح دارند",
+        "start_char": 416,
+        "end_char": 486,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت اقساط مهریه توسط زوج",
+      "evidence": {
+        "quote": "دارم اقساط آن را پرداخت می کنم",
+        "start_char": 2700,
+        "end_char": 2730,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "ruling_id": "28642",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "صدور اعسار از پرداخت دفعی مهریه",
+        "start_char": 97,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقسیط",
+      "evidence": {
+        "quote": "و تقسیط آن",
+        "start_char": 129,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم محکومیت",
+      "evidence": {
+        "quote": "به پرداخت 60 عددسکه تمام بهارازادی بابت مهریه در حق خوانده محکوم گردیده است",
+        "start_char": 209,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در دادگاه محترم تجدیدنظر استان تهران می باشد",
+        "start_char": 1130,
+        "end_char": 1185,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست تقدیمی از طرف آقای الف. ی.ش.",
+        "start_char": 0,
+        "end_char": 44,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در حق خوانده محکوم گردیده است",
+        "start_char": 255,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بابت مهریه در حق خوانده محکوم گردیده است",
+        "start_char": 244,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سکه",
+      "evidence": {
+        "quote": "60 عددسکه تمام بهارازادی",
+        "start_char": 219,
+        "end_char": 243,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تمکن مالی خواهان",
+      "evidence": {
+        "quote": "مبین عدم تمکن مالی خواهان می باشد",
+        "start_char": 401,
+        "end_char": 434,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل برای توانایی مالی زوج",
+      "evidence": {
+        "quote": "خوانده دلیل ومدرکی که موید مالداربودن زوج وتوانایی نامبرده درپرداخت یکجای مهریه باشد ارائه ننموده است",
+        "start_char": 448,
+        "end_char": 549,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

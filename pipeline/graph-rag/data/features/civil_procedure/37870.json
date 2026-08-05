@@ -1,0 +1,213 @@
+{
+  "ruling_id": "37870",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تقسیم ترکه",
+      "evidence": {
+        "quote": "به خواسته تقسیم ترکه",
+        "start_char": 283,
+        "end_char": 303,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "دادنامه عدم صلاحیت",
+        "start_char": 1444,
+        "end_char": 1462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی خواهانها را صادر و اعلام میدارد",
+        "start_char": 2665,
+        "end_char": 2717,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقاضای رسیدگی",
+      "evidence": {
+        "quote": "تقاضای رسیدگی و صدور حکم مبنی بر تقسیم ماترک مرحوم س. ب. ش.",
+        "start_char": 306,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "دستور فروش ملک مشاع",
+        "start_char": 368,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت موصی به موضوع وصیت نامه عادی",
+        "start_char": 465,
+        "end_char": 500,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحریر ترکه",
+      "evidence": {
+        "quote": "تقاضای تحریر ترکه نیز شده بود",
+        "start_char": 1271,
+        "end_char": 1300,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان ردیف سوم",
+        "start_char": 81,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "علیه همین اشخاص",
+        "start_char": 1404,
+        "end_char": 1419,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "موصی له",
+      "evidence": {
+        "quote": "به موصی له نیز در صورتیکه وصیت به جز مشاع از ترکه شده باشد",
+        "start_char": 1029,
+        "end_char": 1087,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ورثه",
+      "evidence": {
+        "quote": "تقسیم فی مابین وراث",
+        "start_char": 536,
+        "end_char": 555,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "نیاز به اجازه مالک میباشد",
+        "start_char": 2343,
+        "end_char": 2368,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مشاع",
+      "evidence": {
+        "quote": "دستور فروش ملک مشاع",
+        "start_char": 368,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه عادی",
+      "evidence": {
+        "quote": "وصیت نامه عادی مورخ 83/01/01",
+        "start_char": 486,
+        "end_char": 514,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خانه",
+      "evidence": {
+        "quote": "یک باب خانه",
+        "start_char": 1183,
+        "end_char": 1194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "اجناس و پارچه های موجود در مغازه",
+        "start_char": 1230,
+        "end_char": 1262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سرقفلی",
+      "evidence": {
+        "quote": "سرقفلی یکباب مغازه",
+        "start_char": 2277,
+        "end_char": 2295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "گواهی حصر وراثت وی",
+        "start_char": 1673,
+        "end_char": 1691,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "گواهی حصر وراثت مرحوم س. ب. ش. در پرونده ارائه نشده است",
+      "evidence": {
+        "quote": "گواهی حصر وراثت مربوط به س. ب. ش. جزی دلایل ذکر نشده و پیوسن نیز نمیباشد",
+        "start_char": 2046,
+        "end_char": 2118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرونده قبلاً در شورای حل اختلاف مطرح شده بود",
+      "evidence": {
+        "quote": "قبلا پرونده در شورای حل اختلاف با همین موضوع و علیه همین اشخاص در شورا مطرح شده بود",
+        "start_char": 1357,
+        "end_char": 1440,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

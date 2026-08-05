@@ -1,0 +1,133 @@
+{
+  "ruling_id": "4764",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "امانت",
+      "evidence": {
+        "quote": "وجوه سپرده شده درحساب ارزی را طبق توافق دوجانبه به عنوان امانت نگهداری می کند",
+        "start_char": 802,
+        "end_char": 879,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی بانک م.",
+        "start_char": 0,
+        "end_char": 28,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ایراد و اعتراض تجدیدنظرخواه",
+        "start_char": 476,
+        "end_char": 503,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض دادنامه بدوی را ایجاب نماید",
+        "start_char": 520,
+        "end_char": 551,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "با رد اعتراض، دادنامه بدوی تأیید و استوار می نماید",
+        "start_char": 1230,
+        "end_char": 1280,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "ایراد و اعتراض تجدیدنظرخواه",
+        "start_char": 476,
+        "end_char": 503,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان محکوم گردیده",
+        "start_char": 377,
+        "end_char": 402,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "امین",
+      "evidence": {
+        "quote": "امین عین مالی راکه دریافت کرده، باید رد نماید",
+        "start_char": 954,
+        "end_char": 999,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال و دارایی",
+      "evidence": {
+        "quote": "انسداد حساب های کوتاه مدت ارزی",
+        "start_char": 229,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال هزینه",
+      "evidence": {
+        "quote": "پرداخت 158/159/1 ریال هزینه دادرسی",
+        "start_char": 342,
+        "end_char": 376,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "حساب‌های ارزی بانک انسداد شده‌اند",
+      "evidence": {
+        "quote": "به انسداد حساب های کوتاه مدت ارزی با شماره...،... و حساب قرض الحسنه ارزی با شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بانک موظف به پرداخت دلار و هزینه دادرسی شده است",
+      "evidence": {
+        "quote": "به انسداد حساب های کوتاه مدت ارزی با شماره...،... و حساب قرض الحسنه ارزی با شماره... و پرداخت 4238 دلار امریکا و پرداخت 158/159/1 ریال هزینه دادرسی در حق خواهان محکوم گردیده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

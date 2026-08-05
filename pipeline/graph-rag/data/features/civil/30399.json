@@ -1,0 +1,152 @@
+{
+  "ruling_id": "30399",
+  "concepts": [],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه خسارت",
+        "start_char": 60,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده مزبور",
+        "start_char": 913,
+        "end_char": 940,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی را صادر واعلام می نماید",
+        "start_char": 1406,
+        "end_char": 1442,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شهرداری منطقه 5 تهران",
+        "start_char": 1603,
+        "end_char": 1638,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را تأیید می نماید",
+        "start_char": 2342,
+        "end_char": 2382,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دعوی خواهان الف. الف.",
+        "start_char": 0,
+        "end_char": 28,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت شهرداری منطقه 5 تهران",
+        "start_char": 29,
+        "end_char": 59,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "پیمانکار",
+      "evidence": {
+        "quote": "پیمانکار شهرداری منطقه 5",
+        "start_char": 1147,
+        "end_char": 1171,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "مالکیت خواهان بر خودرو موضوع حادثه",
+        "start_char": 273,
+        "end_char": 307,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت به مبلغ 100/000/000 ریال",
+        "start_char": 70,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "بابت هزینه دادرسی",
+        "start_char": 1004,
+        "end_char": 1021,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه",
+      "evidence": {
+        "quote": "بابت هزینه کارشناس",
+        "start_char": 1044,
+        "end_char": 1062,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شهرداری در محل حفاری تابلو نصب نکرده است",
+      "evidence": {
+        "quote": "علت تامه حادثه را بی مبالاتی بعلت عدم نصب تابلو و علائم اخباری هشدار دهنده از ناحیه شهرداری اعلام",
+        "start_char": 496,
+        "end_char": 593,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت خواهان بر خودرو ثابت شده است",
+      "evidence": {
+        "quote": "مطابق جوابیه استعلام واصله از راهور ناجا مالکیت خواهان بر خودرو موضوع حادثه محرز و مسلم می باشد",
+        "start_char": 232,
+        "end_char": 327,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

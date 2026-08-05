@@ -1,0 +1,233 @@
+{
+  "ruling_id": "24040",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "بخواسته ابطال عملیات اجرای ثبت",
+        "start_char": 197,
+        "end_char": 227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رهن",
+      "evidence": {
+        "quote": "الزام فروشنده به فک رهن",
+        "start_char": 231,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "ازعقد حاصل میشود",
+        "start_char": 2087,
+        "end_char": 2102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عرفی",
+      "evidence": {
+        "quote": "اخذ پایان کار از لوازم عرفی نتایج عقد بوده",
+        "start_char": 2140,
+        "end_char": 2180,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "بخواسته ابطال عملیات اجرای ثبت",
+        "start_char": 197,
+        "end_char": 227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فک رهن",
+      "evidence": {
+        "quote": "الزام فروشنده به فک رهن",
+        "start_char": 231,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "الزام خوانده ردیف 1 به اخذ پایان کار",
+        "start_char": 258,
+        "end_char": 294,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تفکیک",
+      "evidence": {
+        "quote": "و تفکیک مورد معامله",
+        "start_char": 298,
+        "end_char": 317,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "و تنظیم سند",
+        "start_char": 321,
+        "end_char": 332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه خسارات",
+      "evidence": {
+        "quote": "و مطالبه خسارات دادرسی",
+        "start_char": 333,
+        "end_char": 355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 2636,
+        "end_char": 2651,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوای خواهان را وارد تشخیص نداده",
+        "start_char": 615,
+        "end_char": 647,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "الزام فروشنده به فک رهن",
+        "start_char": 231,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده ردیف 1 به اخذ پایان کار",
+        "start_char": 258,
+        "end_char": 294,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مرتهن",
+      "evidence": {
+        "quote": "با حفظ حقوق مرتهن امکان پذیر میباشد",
+        "start_char": 2406,
+        "end_char": 2440,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی آقای الف. خ.الف.",
+        "start_char": 1150,
+        "end_char": 1187,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "حکم به الزام تجدیدنظرخوانده آقای الف. ف.",
+        "start_char": 2725,
+        "end_char": 2765,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "معامله",
+      "evidence": {
+        "quote": "و تفکیک مورد معامله",
+        "start_char": 298,
+        "end_char": 317,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "تنظیم سند رسمی پلاک ثبتی",
+        "start_char": 1547,
+        "end_char": 1570,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "عدم تصریح در بیعنامه مانع از انجام آن نیست",
+        "start_char": 2295,
+        "end_char": 2335,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تاریخ سند رهن مقدم بر تاریخ مبایعه نامه است",
+      "evidence": {
+        "quote": "تاریخ سند رهن 1386/7/10 و مقدم بر تاریخ مبایعه نامه استنادی می باشد",
+        "start_char": 423,
+        "end_char": 490,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مورد معامله همچنان در رهن است",
+      "evidence": {
+        "quote": "همچنان در رهن می باشد",
+        "start_char": 735,
+        "end_char": 756,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

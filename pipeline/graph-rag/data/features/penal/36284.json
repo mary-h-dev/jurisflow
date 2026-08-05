@@ -1,0 +1,153 @@
+{
+  "ruling_id": "36284",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قصاص",
+      "evidence": {
+        "quote": "تقاضای قصاص نموده اند",
+        "start_char": 3256,
+        "end_char": 3277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دیه",
+      "evidence": {
+        "quote": "ضمن مطالبه دیه جراحات",
+        "start_char": 3234,
+        "end_char": 3255,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قتل عمد",
+      "evidence": {
+        "quote": "متهم را از بابت قتل عمد",
+        "start_char": 5805,
+        "end_char": 5828,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقرار و اعتراف",
+      "evidence": {
+        "quote": "ضمن عذرخواهی از اولیای دم وطلب عفو از انان به قتل مقتول اعتراف کرده است",
+        "start_char": 3621,
+        "end_char": 3692,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرار",
+      "evidence": {
+        "quote": "و روی زمین نشست و من بعد از این کار فرار کردم",
+        "start_char": 8716,
+        "end_char": 8761,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم م. ق. به هنگان بازسازی صحنه جنایت گفته",
+        "start_char": 1928,
+        "end_char": 1971,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مقتول",
+      "evidence": {
+        "quote": "مقتول بادسته طی دنبال ما دوید",
+        "start_char": 2207,
+        "end_char": 2236,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اولیای دم",
+      "evidence": {
+        "quote": "اولیای دم ضمن مطالبه دیه جراحات تقاضای قصاص نموده اند",
+        "start_char": 3224,
+        "end_char": 3277,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چاقو",
+      "evidence": {
+        "quote": "م. ق. را دیدیم که یک قبضه چاقو دستش بود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "موتورسیکلت",
+      "evidence": {
+        "quote": "سه نفر با یک دستگاه موتور سیکلت اپاچی سفید",
+        "start_char": 241,
+        "end_char": 283,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "طی",
+      "evidence": {
+        "quote": "من سریعا یک طی ( تی ) برداشتم",
+        "start_char": 1299,
+        "end_char": 1328,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مقتول با ضربه چاقو کشته شده است",
+      "evidence": {
+        "quote": "مقتول ع. ش. ز. ط. 19 ساله با ضربه چاقو وی کشته شده",
+        "start_char": 8599,
+        "end_char": 8649,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم با چاقو به شکم مقتول ضربه زده است",
+      "evidence": {
+        "quote": "بعد از اینکه ضربه من به او خورد دستش را گذاشت روی شکمش و روی زمین نشست",
+        "start_char": 8661,
+        "end_char": 8731,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پدر مقتول با دسته طی به سر متهم ضربه زده است",
+      "evidence": {
+        "quote": "پدر مقتول با دسته طی به سر ایشان کوبیده",
+        "start_char": 7730,
+        "end_char": 7769,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

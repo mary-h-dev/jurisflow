@@ -1,0 +1,163 @@
+{
+  "ruling_id": "26444",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته فسخ نکاح رسمی",
+        "start_char": 41,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "تقاضای طلاق نموده",
+        "start_char": 240,
+        "end_char": 257,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ نکاح",
+      "evidence": {
+        "quote": "به خواسته فسخ نکاح رسمی",
+        "start_char": 41,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقاضای",
+      "evidence": {
+        "quote": "تقاضای طلاق نموده",
+        "start_char": 240,
+        "end_char": 257,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "معرفی",
+      "evidence": {
+        "quote": "تقاضای معرفی وی را به پزشکی قانونی نمایم",
+        "start_char": 406,
+        "end_char": 446,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "وکیل زوج تجدیدنظرخواهی نموده است",
+        "start_char": 4324,
+        "end_char": 4356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "وکیل زوج فرجام خواهی نموده است",
+        "start_char": 5743,
+        "end_char": 5773,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "تقاضای معرفی وی را به پزشکی قانونی نمایم",
+        "start_char": 406,
+        "end_char": 446,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "تقاضای معرفی خوانده را به پزشکی قانونی",
+        "start_char": 2321,
+        "end_char": 2359,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از جهت عدم پرداخت نفقه و اعتیاد با توجه به درخواست زوجه بخسته طلاق",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "از جهت عدم پرداخت نفقه و اعتیاد با توجه به درخواست زوجه",
+        "start_char": 6405,
+        "end_char": 6460,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "موضوع سند شماره...-...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم شروع زندگی مشترک",
+      "evidence": {
+        "quote": "و هنوز زندگی مشترک را شروع نکرده اند",
+        "start_char": 124,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود پارگی قدیمی در پرده بکارت",
+      "evidence": {
+        "quote": "و پارگی قدیمی در ساعت 3و9 در پرده بکارت آمده است",
+        "start_char": 3273,
+        "end_char": 3321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم مشاهده آثار ترمیم پرده بکارت",
+      "evidence": {
+        "quote": "و عدم مشاهده آثاری از ترمیم پرده بکارت",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

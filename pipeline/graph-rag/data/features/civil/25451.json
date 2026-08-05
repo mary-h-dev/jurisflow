@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25451",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "به خواسته تقاضای صدور حکم مبنی به سلب حضانت",
+        "start_char": 65,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "دلیلی به عدم صلاحیت اخلاقی یا روانی",
+        "start_char": 1019,
+        "end_char": 1054,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوا خواهان را صادر",
+        "start_char": 1170,
+        "end_char": 1202,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "به خواسته تقاضای صدور حکم",
+        "start_char": 65,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حضور نیافته",
+      "evidence": {
+        "quote": "خوانده علی‌رغم ابلاغ در جلسه رسیدگی حضور نیافته",
+        "start_char": 721,
+        "end_char": 768,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "خواهان لایحه ای تقدیم",
+        "start_char": 771,
+        "end_char": 792,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "در خصوص درخواست اعاده دادرسی",
+        "start_char": 2589,
+        "end_char": 2617,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت ف. ح. به خواسته تقاضای صدور حکم مبنی به سلب حضانت خوانده",
+        "start_char": 50,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت ف. ح. به خواسته تقاضای صدور حکم مبنی به سلب حضانت خوانده",
+        "start_char": 50,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مادر",
+      "evidence": {
+        "quote": "حضانت و نگهداری اطفال تا سن هفت سالگی در اولویت مادر می‌باشد",
+        "start_char": 949,
+        "end_char": 1009,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "مطابق عقدنامه پیوستی",
+        "start_char": 171,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "در خصوص فرزند مشترک",
+        "start_char": 127,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "خواهان لایحه ای تقدیم",
+        "start_char": 771,
+        "end_char": 792,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در دادگاه تجدیدنظر تبرئه شده است",
+      "evidence": {
+        "quote": "خوانده بابت اتهام نامشروع در دادگاه تجدیدنظر استان تهران برائت حاصل نموده است",
+        "start_char": 829,
+        "end_char": 906,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در دادگاه تجدیدنظر به پنجاه ضربه شلاق محکوم شده است",
+      "evidence": {
+        "quote": "در دادگاه تجدیدنظر به پنجاه ضربه شلاق تعزیری محکوم گردیده",
+        "start_char": 2940,
+        "end_char": 2997,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

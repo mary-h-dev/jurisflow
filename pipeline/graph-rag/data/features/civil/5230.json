@@ -1,0 +1,163 @@
+{
+  "ruling_id": "5230",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "وراثت",
+      "evidence": {
+        "quote": "تغییر و اصلاح گواهی انحصار وراثت",
+        "start_char": 128,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سهم الارث",
+      "evidence": {
+        "quote": "در این گواهی سهم الارث همسر متوفی",
+        "start_char": 651,
+        "end_char": 684,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ض.م",
+        "start_char": 3278,
+        "end_char": 3308,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اصلاح",
+      "evidence": {
+        "quote": "به خواسته تغییر و اصلاح گواهی انحصار وراثت",
+        "start_char": 118,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه اعتراض مؤثر و موجهی",
+        "start_char": 3969,
+        "end_char": 4008,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "با ردّ تجدیدنظرخواهی",
+        "start_char": 4251,
+        "end_char": 4271,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "عیناً دادنامه تجدیدنظر خواسته تأیید و استوار می شود",
+        "start_char": 4303,
+        "end_char": 4354,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 252,
+        "end_char": 263,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان آقایان ض.م",
+        "start_char": 57,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متوفی",
+      "evidence": {
+        "quote": "از فرزندان آن متوفی",
+        "start_char": 368,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظرخواه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "گواهی انحصار وراثت شماره 550 مورخ 8/8/82",
+        "start_char": 142,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "یک هشتم از اموال منقول",
+        "start_char": 526,
+        "end_char": 548,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فوت آقای ن.م در تاریخ 18/1/82",
+      "evidence": {
+        "quote": "آقای ن.م. در تاریخ 18/1/82 در اقامتگاه دائمی خود تهران فوت شده",
+        "start_char": 278,
+        "end_char": 340,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ترکه متوفی تقسیم نشده است",
+      "evidence": {
+        "quote": "تا زمان تصویب قانون اصلاح قسمت عهده ترکه عین ورثه تقسیم نشده است",
+        "start_char": 1355,
+        "end_char": 1419,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

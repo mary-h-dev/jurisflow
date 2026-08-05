@@ -1,0 +1,133 @@
+{
+  "ruling_id": "32258",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "از باب تسبیب",
+        "start_char": 128,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رعایت",
+      "evidence": {
+        "quote": "عدم رعایت نظامات",
+        "start_char": 45,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "متهم را به پرداخت نصف دیه کامل انسان",
+        "start_char": 239,
+        "end_char": 275,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "این رأی مورد اعتراض آقا م. ف.",
+        "start_char": 512,
+        "end_char": 541,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "کارفرما",
+      "evidence": {
+        "quote": "باعنوان کارفرما",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم را به پرداخت",
+        "start_char": 239,
+        "end_char": 256,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "در حق شاکی آقای ر. الف.",
+        "start_char": 411,
+        "end_char": 434,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مرجع",
+      "evidence": {
+        "quote": "لذا مرجع تجدیدنظر خواهی ، دادگاه تجدیدنظر استان می باشد",
+        "start_char": 1187,
+        "end_char": 1242,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "نصف دیه کامل انسان",
+        "start_char": 257,
+        "end_char": 275,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جزای نقدی",
+      "evidence": {
+        "quote": "دو میلیون تومان جزای نقدی",
+        "start_char": 471,
+        "end_char": 496,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "حادثه در حین کار منجر به قطع پای چپ شده است",
+      "evidence": {
+        "quote": "عدم رعایت نظامات منجر به قطع پای چپ",
+        "start_char": 45,
+        "end_char": 80,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اتهام از نوع غیر عمدی است",
+      "evidence": {
+        "quote": "چون ایراد صدمه بدنی غیر عمدی بوده",
+        "start_char": 1096,
+        "end_char": 1129,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

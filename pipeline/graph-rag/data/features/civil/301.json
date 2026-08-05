@@ -1,0 +1,133 @@
+{
+  "ruling_id": "301",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال معامله",
+        "start_char": 76,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان سند رسمی",
+        "start_char": 714,
+        "end_char": 735,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شرکت تعاونی ورزشی خ.",
+        "start_char": 1092,
+        "end_char": 1126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی دادگــاه نخستین عیناً تأیید می گردد",
+        "start_char": 2077,
+        "end_char": 2116,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان الف.",
+        "start_char": 0,
+        "end_char": 24,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده شرکت تعاونی ورزشی خ.",
+        "start_char": 25,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "دلیلی مبنی بر انجام این شرایط از سوی تجدیدنظرخواه اقامه نشده است",
+        "start_char": 1744,
+        "end_char": 1808,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "خواسته تجدیدنظرخوانده ثابت تشخیص",
+        "start_char": 1260,
+        "end_char": 1292,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "موضوع سند رسمی 17909-25/3/75 انتقال شماره دفترخانه 201 تهران",
+        "start_char": 99,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "حکم به ابطال سند شماره 17909- 25/3/79",
+        "start_char": 1295,
+        "end_char": 1332,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رعایت مقررات مواد ۷۹ و ۱۱۵ قانون محاسبات عمومی در تنظیم سند صلح انجام نشده است",
+      "evidence": {
+        "quote": "مقررات مادتین 79 و 115 قانون محاسبات عمومی کشور مصوب سال 1366 در تنظیم سند صلح موضوع خواسته رعایت نگردیده",
+        "start_char": 173,
+        "end_char": 278,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اموال دولتی بدون مزایده به فروش رسیده است",
+      "evidence": {
+        "quote": "اموال دولتی الزاماً باید از طریق مزایده به فروش برسد موجه نیست",
+        "start_char": 497,
+        "end_char": 559,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

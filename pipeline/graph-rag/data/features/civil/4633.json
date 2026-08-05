@@ -1,0 +1,163 @@
+{
+  "ruling_id": "4633",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "صدور حکم به محکومیت خواندگان به 1ـ خلع ید",
+        "start_char": 137,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مالکیت مشاع خواهان و خواندگان قرار گرفته است",
+        "start_char": 502,
+        "end_char": 546,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "با اسقاط اذن ادامه تصرفات متصرف در حکم غصب است",
+        "start_char": 2529,
+        "end_char": 2575,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "خواندگان اقدام به تصرف غیرقانونی ملک کرده اند",
+        "start_char": 552,
+        "end_char": 597,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ایراد و اعتراض تجدیدنظرخواه",
+        "start_char": 1710,
+        "end_char": 1737,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "قابل واخواهی نزد این مرجع",
+        "start_char": 1134,
+        "end_char": 1159,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مالکیت مشاع خواهان و خواندگان قرار گرفته است",
+        "start_char": 502,
+        "end_char": 546,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "محکومیت خواندگان به 1ـ خلع ید",
+        "start_char": 149,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "ایراد و اعتراض تجدیدنظرخواه",
+        "start_char": 1710,
+        "end_char": 1737,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دانگ مشاع",
+      "evidence": {
+        "quote": "خلع ید از شش دانگ مشاع پلاک ثبتی شماره 15681/3104",
+        "start_char": 172,
+        "end_char": 221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان به پلاک ثبتی فوق بوده است",
+        "start_char": 426,
+        "end_char": 470,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "به حکایت گواهی حصر وراثت",
+        "start_char": 474,
+        "end_char": 498,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه شماره",
+      "evidence": {
+        "quote": "به حکایت نامه شماره 70788 مورخ 28/9/90 اداره ثبت اسناد و املاک",
+        "start_char": 732,
+        "end_char": 794,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواندگان در دادگاه حاضر نشده و دفاعی ارائه نداده اند",
+      "evidence": {
+        "quote": "خواندگان در دادگاه حاضر نشده و دفاعی ارائه نداده اند",
+        "start_char": 609,
+        "end_char": 661,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت مشاع خواهان بر بخشی از ملک محرز است",
+      "evidence": {
+        "quote": "مالکیت مشاعی خواهان نسبت به سه دانگ از شش دانگ پلاک ثبتی یاد شده محرز و مسلم است",
+        "start_char": 2351,
+        "end_char": 2431,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

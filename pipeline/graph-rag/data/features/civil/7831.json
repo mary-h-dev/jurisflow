@@ -1,0 +1,173 @@
+{
+  "ruling_id": "7831",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت دائمی",
+        "start_char": 200,
+        "end_char": 217,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "نشوز زوجه",
+        "start_char": 310,
+        "end_char": 319,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی است",
+        "start_char": 893,
+        "end_char": 915,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به الزام آقای ر.ر.",
+        "start_char": 18,
+        "end_char": 36,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت نفقه",
+        "start_char": 37,
+        "end_char": 51,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه نداده",
+      "evidence": {
+        "quote": "دفاع مؤثر و موجهی در قبال ادعای خواهان ارائه نداده",
+        "start_char": 387,
+        "end_char": 437,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "مدرکی مبنی بر ناشزه بودن خواهان نیز تقدیم ننموده",
+        "start_char": 451,
+        "end_char": 499,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 1493,
+        "end_char": 1513,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در قبال ادعای خواهان",
+        "start_char": 405,
+        "end_char": 425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده",
+        "start_char": 621,
+        "end_char": 635,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به تأدیه نفقه",
+        "start_char": 1120,
+        "end_char": 1146,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "رونوشت مصدق سند نکاحیه شماره 454889",
+        "start_char": 114,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "به پرداخت نفقه",
+        "start_char": 37,
+        "end_char": 51,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "به عنوان خسارات دادرسی",
+        "start_char": 792,
+        "end_char": 814,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین محرز است",
+      "evidence": {
+        "quote": "رابطه زوجیت دائمی زوجیت محرز است",
+        "start_char": 200,
+        "end_char": 232,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده از پرداخت نفقه معوقه محکوم شده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به تأدیه نفقه معوقه همسرش از تاریخ 1/3/92 تا 17/12/92 از قرار ماهیانه 250000 تومان به اضافه هزینه دادرسی محکوم شده است",
+        "start_char": 1120,
+        "end_char": 1251,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

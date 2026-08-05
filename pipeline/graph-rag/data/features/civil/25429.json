@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25429",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "پس ازپرداخت دین مدیون هنگامی امکان رجوع به مدیون وجود دارد",
+        "start_char": 1763,
+        "end_char": 1821,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأدیه",
+      "evidence": {
+        "quote": "خوانده به پرداخت حقوق مالی همسرش محکوم گردیده است",
+        "start_char": 1653,
+        "end_char": 1702,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ 315000000ریال",
+        "start_char": 89,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "خوانده ازانجام تشریفات قانونی برای تنظیم سندرسمی استنکاف می نماید",
+        "start_char": 323,
+        "end_char": 388,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبادرت به پرداخت حقوق مالی زوجه خوانده نموده",
+        "start_char": 634,
+        "end_char": 678,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته نقض و حکم بر بیحقی خواهان بدوی",
+        "start_char": 3898,
+        "end_char": 3952,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست تقدیمی خواهان آقای س. ع.ن.",
+        "start_char": 0,
+        "end_char": 42,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای ن. ن",
+        "start_char": 63,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 304-1393/4/24 صادره از شعبه 104 دادگاه عمومی تهران وارد و موجه است",
+        "start_char": 2733,
+        "end_char": 2821,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 304-1393/4/24 صادره از شعبه 104 دادگاه عمومی تهران وارد و موجه است",
+        "start_char": 2733,
+        "end_char": 2821,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ 315000000ریال",
+        "start_char": 89,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "وفق مبایعه نامه شماره 459106",
+        "start_char": 167,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "مالکیت شش دانگ یک دستگاه آپارتمان",
+        "start_char": 210,
+        "end_char": 243,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "توقیف ملک توسط همسر خوانده",
+      "evidence": {
+        "quote": "ملک ازسوی همسرخوانده به نام خانم ش. ن. بابت مهریه و اجرت المثل توقیف شده",
+        "start_char": 466,
+        "end_char": 538,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت بدهی خوانده توسط خواهان جهت رفع توقیف",
+      "evidence": {
+        "quote": "مبادرت به پرداخت حقوق مالی زوجه خوانده نموده تا امکان رسیدگی به ادعایش فراهم گردد",
+        "start_char": 634,
+        "end_char": 715,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت بدون اذن و اجازه",
+      "evidence": {
+        "quote": "بدون اذن و اجازه او لذا برابر ذیل ماده 267 قانون مدنی حق رجوع به تجدیدنظر خواه را ندارد",
+        "start_char": 3750,
+        "end_char": 3837,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

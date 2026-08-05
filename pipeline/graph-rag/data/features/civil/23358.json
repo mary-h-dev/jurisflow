@@ -1,0 +1,243 @@
+{
+  "ruling_id": "23358",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تأیید فسخ قرارداد",
+        "start_char": 87,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "تأیید انفساخ عقد بیع",
+        "start_char": 193,
+        "end_char": 213,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "به دلیل تحقق شرط فاسخ",
+        "start_char": 214,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اراده",
+      "evidence": {
+        "quote": "تبعییت از اصل آزادی اراده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تأیید فسخ قرارداد",
+        "start_char": 87,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه خسارات",
+      "evidence": {
+        "quote": "مطالبه خسارات دادرسی",
+        "start_char": 107,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "اراده خود را مبنی بر علل حقوقی ابطال",
+        "start_char": 929,
+        "end_char": 965,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "مبالغ دریافت شده را به خریدار مسترد نماید",
+        "start_char": 743,
+        "end_char": 784,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی م. الف.",
+        "start_char": 1818,
+        "end_char": 1846,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن پذیرش درخواست تجدیدنظرخواهی و نقض دادنامه",
+        "start_char": 3716,
+        "end_char": 3761,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان در جلسه دادرسی",
+        "start_char": 299,
+        "end_char": 325,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وکیل خوانده آقای الف. ط.",
+        "start_char": 332,
+        "end_char": 356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی م. الف.",
+        "start_char": 1818,
+        "end_char": 1846,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به تجدیدنظرخوانده فروخته",
+        "start_char": 2423,
+        "end_char": 2447,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده متعهد شده است",
+        "start_char": 687,
+        "end_char": 708,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "از سوی خریدار",
+        "start_char": 595,
+        "end_char": 608,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "متمم مبایعه‌نامه فروش ملک",
+        "start_char": 446,
+        "end_char": 471,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "مبایعه‌نامه فروش ملک",
+        "start_char": 451,
+        "end_char": 471,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "عدم پرداخت وجه چک‌های تحویلی",
+        "start_char": 566,
+        "end_char": 594,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان",
+        "start_char": 2341,
+        "end_char": 2359,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت وجه چک",
+      "evidence": {
+        "quote": "عدم پرداخت وجه آن",
+        "start_char": 2810,
+        "end_char": 2827,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "صدور گواهی عدم پرداخت",
+      "evidence": {
+        "quote": "منتهی به صدور گواهی عدم پرداخت گردیده",
+        "start_char": 2881,
+        "end_char": 2918,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اعلام فسخ توسط خواهان",
+      "evidence": {
+        "quote": "خواهان به شرط مزبور عمل ننموده و به خوانده فسخ قرارداد را ابلاغ ننموده",
+        "start_char": 1230,
+        "end_char": 1300,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

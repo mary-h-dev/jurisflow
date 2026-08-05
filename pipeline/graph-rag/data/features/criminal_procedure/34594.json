@@ -1,0 +1,203 @@
+{
+  "ruling_id": "34594",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "معاونت در حمل",
+      "evidence": {
+        "quote": "معاونت در حمل مواد مخدر مورد استدعاست",
+        "start_char": 5363,
+        "end_char": 5400,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نگهداری",
+      "evidence": {
+        "quote": "دایر بر حمل و نگهداری دو کیلو و دویست و پنجاه گرم شیشه",
+        "start_char": 5554,
+        "end_char": 5608,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فرار",
+      "evidence": {
+        "quote": "فرار نمود",
+        "start_char": 1875,
+        "end_char": 1884,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تیراندازی",
+      "evidence": {
+        "quote": "علیرغم تیراندازی مأمورین متواری می شود",
+        "start_char": 554,
+        "end_char": 592,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "دستگیر",
+      "evidence": {
+        "quote": "دستگیر نموده اند",
+        "start_char": 1500,
+        "end_char": 1516,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "تقاضای نقض دادنامه را دارم",
+        "start_char": 7001,
+        "end_char": 7027,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم الف.س.",
+        "start_char": 1446,
+        "end_char": 1457,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مأمورین",
+      "evidence": {
+        "quote": "مأمورین پس از تلاش فراوان",
+        "start_char": 1420,
+        "end_char": 1445,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل متهم دفاع نموده",
+        "start_char": 5208,
+        "end_char": 5228,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "نماینده دادستان تشکیل داده",
+        "start_char": 4747,
+        "end_char": 4773,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "بازپرس",
+      "evidence": {
+        "quote": "در حضور بازپرس تحقیق",
+        "start_char": 1035,
+        "end_char": 1055,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مواد",
+      "evidence": {
+        "quote": "تهیه و توزیع مواد روانگردان (شیشه)",
+        "start_char": 155,
+        "end_char": 189,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "متهم با خودرو سمند",
+        "start_char": 246,
+        "end_char": 264,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "پایه یک",
+      "evidence": {
+        "quote": "گواهینامه پایه یک الف.س.ب.",
+        "start_char": 762,
+        "end_char": 788,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه",
+      "evidence": {
+        "quote": "بیمه نامه شخص ثالث بنام مشارالیها",
+        "start_char": 850,
+        "end_char": 883,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم با سرعت از صحنه فرار کرد",
+      "evidence": {
+        "quote": "با سرعت به خودرو پراید برخورد و آن را از سر راه برداشته و علیرغم تیراندازی مأمورین متواری می شود",
+        "start_char": 496,
+        "end_char": 592,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مقدار مواد شیشه کشف شد",
+      "evidence": {
+        "quote": "مقدار دو کیلو و دویست و پنجاه گرم مواد شیشه روانگردان کشف",
+        "start_char": 686,
+        "end_char": 743,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم به کشور عراق رفته است",
+      "evidence": {
+        "quote": "منابع خبری اعلام داشته اند به کشور عراق رفته اند",
+        "start_char": 1288,
+        "end_char": 1336,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مواد کشف شده متامفتامین است",
+      "evidence": {
+        "quote": "آزمایشگاه با بررسی نمونه ارسالی آن را متامفتامین یافت نموده است",
+        "start_char": 1351,
+        "end_char": 1414,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

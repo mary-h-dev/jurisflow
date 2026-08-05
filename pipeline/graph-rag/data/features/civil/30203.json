@@ -1,0 +1,173 @@
+{
+  "ruling_id": "30203",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان معامله",
+      "evidence": {
+        "quote": "بطلان معامله",
+        "start_char": 885,
+        "end_char": 897,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمان",
+      "evidence": {
+        "quote": "ضمان درک مبیع",
+        "start_char": 2357,
+        "end_char": 2370,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه ثمن",
+      "evidence": {
+        "quote": "بخواسته مطالبه ثمن معامله",
+        "start_char": 54,
+        "end_char": 79,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد واخواهی",
+      "evidence": {
+        "quote": "با رد واخواهی",
+        "start_char": 1740,
+        "end_char": 1753,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه",
+        "start_char": 2942,
+        "end_char": 2956,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "توسط خوانده به خواهانها وارد",
+        "start_char": 295,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را وارد",
+        "start_char": 748,
+        "end_char": 774,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "ازسوی واخواه",
+        "start_char": 1646,
+        "end_char": 1658,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخوانده",
+      "evidence": {
+        "quote": "پاسخ ازناحیه واخوانده",
+        "start_char": 1541,
+        "end_char": 1562,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه",
+        "start_char": 2232,
+        "end_char": 2252,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قولنامه",
+      "evidence": {
+        "quote": "یک فقره قولنامه مضبوط درپرونده",
+        "start_char": 236,
+        "end_char": 266,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "فروش ملک متنازع فیه",
+        "start_char": 275,
+        "end_char": 294,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بیعنامه عادی",
+      "evidence": {
+        "quote": "مفاد بیع نامه عادی",
+        "start_char": 2598,
+        "end_char": 2616,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فروش ملک توسط خوانده به خواهان انجام شده است",
+      "evidence": {
+        "quote": "دلالت برفروش ملک متنازع فیه توسط خوانده به خواهانها وارد",
+        "start_char": 267,
+        "end_char": 323,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در جلسات حضور نیافته است",
+      "evidence": {
+        "quote": "خوانده درهیچیک ازجلسات حضورنیافته",
+        "start_char": 495,
+        "end_char": 528,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت مشتری بر مبیع مستقر نشده است",
+      "evidence": {
+        "quote": "درفرض ضمان درک مبیع مالکیت مشتری برمبیع مستقر نگردیده",
+        "start_char": 2772,
+        "end_char": 2825,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

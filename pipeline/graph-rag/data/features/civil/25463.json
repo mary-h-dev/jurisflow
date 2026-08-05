@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25463",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت‌المثل ایام زندگی مشترک",
+        "start_char": 50,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت دایم فیمابین طرفین پرونده را احراز نموده",
+        "start_char": 158,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "وجود عدم قصد تبرع نزد زوجه",
+        "start_char": 755,
+        "end_char": 781,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت‌المثل ایام زندگی مشترک",
+        "start_char": 50,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "احراز",
+      "evidence": {
+        "quote": "رابطه زوجیت دایم فیمابین طرفین پرونده را احراز نموده",
+        "start_char": 158,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترض‌عنه را نقض و حکم بر محکومیت زوج",
+        "start_char": 2263,
+        "end_char": 2308,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم بر محکومیت زوج به پرداخت اجرت‌المثل",
+        "start_char": 2290,
+        "end_char": 2329,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان در جلسه دادگاه اعلام داشته",
+        "start_char": 229,
+        "end_char": 262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده اظهار داشته خود ایشان هم کار می­‌کرده",
+        "start_char": 417,
+        "end_char": 461,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "چون زوج از تامین مایحتاج زندگی مشترکشان عاجز بوده",
+        "start_char": 263,
+        "end_char": 312,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "چنانچه زوجه کارهایی که شرعاً به عهده وی نبوده",
+        "start_char": 1454,
+        "end_char": 1499,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "با ملاحظه سند نکاحی ابرازی",
+        "start_char": 102,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "به مبلغ هفده میلیون و دویست هزار تومان",
+        "start_char": 2336,
+        "end_char": 2374,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار بوده است",
+      "evidence": {
+        "quote": "رابطه زوجیت دایم فیمابین طرفین پرونده را احراز نموده",
+        "start_char": 158,
+        "end_char": 210,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در کشور قبرس فعالیت و کسب درآمد کرده است",
+      "evidence": {
+        "quote": "حتی حدود 18 ماه در کشور قبرس فعالیت و کسب درآمد نموده است",
+        "start_char": 358,
+        "end_char": 415,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "ruling_id": "11183",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مدنی",
+      "evidence": {
+        "quote": "حق درخواست تغییر نام از حقوق مدنی است",
+        "start_char": 323,
+        "end_char": 360,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اهلیت",
+      "evidence": {
+        "quote": "خواهان اهلیت اعمال این حق را دارا می‌باشد",
+        "start_char": 553,
+        "end_char": 594,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "به خواسته تغییر نام از م. به ک.",
+        "start_char": 73,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره ثبت احوال",
+        "start_char": 905,
+        "end_char": 934,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد درخواست تجدیدنظرخواهی",
+        "start_char": 1897,
+        "end_char": 1925,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست آقای م.ن. به طرفیت خوانده",
+        "start_char": 0,
+        "end_char": 42,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده اداره ثبت احوال شهرستان تهران",
+        "start_char": 27,
+        "end_char": 72,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه مکلف به تغییر نام",
+        "start_char": 1138,
+        "end_char": 1168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "خواسته تجدیدنظرخوانده موجه تشخیص",
+        "start_char": 1058,
+        "end_char": 1090,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "در سند سجلی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان درخواست تغییر نام از م. به ک. را دارد",
+      "evidence": {
+        "quote": "به خواسته تغییر نام از م. به ک.",
+        "start_char": 73,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه بدوی حکم به تغییر نام داد",
+      "evidence": {
+        "quote": "حکم به الزام اداره خوانده به تغییر نام از م. به ک. در سند سجلی شماره... صادر و اعلام می‌دارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اداره ثبت احوال درخواست تجدیدنظر کرد",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره ثبت احوال به طرفیت آقای م.ن.",
+        "start_char": 905,
+        "end_char": 953,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

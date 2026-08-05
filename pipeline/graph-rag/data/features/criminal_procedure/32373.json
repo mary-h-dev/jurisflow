@@ -1,0 +1,173 @@
+{
+  "ruling_id": "32373",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "جرم",
+      "evidence": {
+        "quote": "اعمال مقررات تعدد جرم",
+        "start_char": 1263,
+        "end_char": 1284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سوابق",
+      "evidence": {
+        "quote": "درخواست ادغام سوابق",
+        "start_char": 1508,
+        "end_char": 1527,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "حاصل",
+      "evidence": {
+        "quote": "نامبرده محکومیت های متعدد حاصل نموده است",
+        "start_char": 54,
+        "end_char": 94,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور حکم محکومیت",
+      "evidence": {
+        "quote": "به شش ماه حبس محکوم گردیده",
+        "start_char": 222,
+        "end_char": 248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعمال",
+      "evidence": {
+        "quote": "تقاضای اعمال بند پ ماده 510 قانون آئین دادرسی کیفری را جهت نقض آراء به منظور رسیدگی و صدور حکم واحد را نموده است",
+        "start_char": 530,
+        "end_char": 642,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "درخواست ادغام سوابق رد می گردد",
+        "start_char": 1508,
+        "end_char": 1538,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "دادیار",
+      "evidence": {
+        "quote": "دادیار محترم اجرای احکام",
+        "start_char": 505,
+        "end_char": 529,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "رئیس",
+      "evidence": {
+        "quote": "رئیس و عضو معاون و عضو معاون",
+        "start_char": 1571,
+        "end_char": 1599,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مواد مخدر",
+      "evidence": {
+        "quote": "مواد مخدر از نوع شیشه و هروئین",
+        "start_char": 387,
+        "end_char": 417,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شیشه",
+      "evidence": {
+        "quote": "شیشه",
+        "start_char": 404,
+        "end_char": 408,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هروئین",
+      "evidence": {
+        "quote": "هروئین",
+        "start_char": 411,
+        "end_char": 417,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پایپ",
+      "evidence": {
+        "quote": "نگهداری پایپ",
+        "start_char": 438,
+        "end_char": 450,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "آقای ج. ف. دارای محکومیت‌های متعدد است",
+      "evidence": {
+        "quote": "نامبرده محکومیت های متعدد حاصل نموده است",
+        "start_char": 54,
+        "end_char": 94,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "آقای ج. ف. به اتهام غیبت به شش ماه حبس محکوم شده است",
+      "evidence": {
+        "quote": "به اتهام غیبت پس از مرخصی از زندان به شش ماه حبس محکوم گردیده",
+        "start_char": 187,
+        "end_char": 248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "آقای ج. ف. به اتهام نگهداری مواد مخدر به حبس ابد محکوم شده است",
+      "evidence": {
+        "quote": "به اتهام نگهداری و در معرض فروش قرار دادن مواد مخدر از نوع شیشه و هروئین به حبس ابد",
+        "start_char": 345,
+        "end_char": 428,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "آقای ج. ف. به اتهام نگهداری پایپ به پرداخت جزای نقدی محکوم شده است",
+      "evidence": {
+        "quote": "از جهت نگهداری پایپ به پرداخت دویست هزار ریال جزای نقدی محکوم گردیده است",
+        "start_char": 431,
+        "end_char": 503,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

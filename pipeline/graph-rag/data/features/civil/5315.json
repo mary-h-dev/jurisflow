@@ -1,0 +1,123 @@
+{
+  "ruling_id": "5315",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "منع اشتغال",
+      "evidence": {
+        "quote": "به خواسته منع اشتغال زوجه",
+        "start_char": 85,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "مورد از شمول ماده 1117 قانون مدنی خارج",
+        "start_char": 284,
+        "end_char": 322,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم به ردّ خواسته خواهان صادر",
+        "start_char": 408,
+        "end_char": 437,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای غ.ج.",
+        "start_char": 593,
+        "end_char": 624,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه معترض‌عنه را عیناً تأیید می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان",
+        "start_char": 221,
+        "end_char": 234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وکیل خوانده",
+        "start_char": 146,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی",
+        "start_char": 1036,
+        "end_char": 1063,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده",
+        "start_char": 795,
+        "end_char": 810,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 9201371-25/8/92",
+        "start_char": 646,
+        "end_char": 678,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پزشک بودن و کشیک شب بودن از مصادیق اشتغال است",
+      "evidence": {
+        "quote": "اشتغال به حرفه طبابت و اینکه صورت ادواری پزشک کشیک شب می باشد",
+        "start_char": 331,
+        "end_char": 392,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

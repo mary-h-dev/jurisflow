@@ -1,0 +1,173 @@
+{
+  "ruling_id": "4745",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "بیع یا هر عمل حقوقی دیگری",
+        "start_char": 1355,
+        "end_char": 1380,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "امکان تحقق عقد بیع",
+        "start_char": 2388,
+        "end_char": 2406,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خریداری",
+      "evidence": {
+        "quote": "از خواندگان خریداری",
+        "start_char": 366,
+        "end_char": 385,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ ـ /000/850/32 تومان طی یک فقره چک رمزدار و وجه نقد طی قبض شماره 943 پرداخت شده است",
+        "start_char": 388,
+        "end_char": 475,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "صورت جلسه فروش نیز به درخواست اینجانبان تنظیم می گردد",
+        "start_char": 564,
+        "end_char": 617,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "خواندگان اقرار به فروش خودرو می نمایند",
+        "start_char": 620,
+        "end_char": 658,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "خودرو از جانب آقای ص.ن. توقیف",
+        "start_char": 777,
+        "end_char": 806,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دعوای خواهان ها آقایان م.م. فرزند ش. و ف.م. فرزند ش.",
+        "start_char": 0,
+        "end_char": 59,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت آقایان م.ش. و ر.الف.",
+        "start_char": 79,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "معامله یک دستگاه کامیون ولوو به شماره انتظامی...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "طی یک فقره چک رمزدار",
+        "start_char": 413,
+        "end_char": 433,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "و مبایعه نامه در نمایشگاه ح. تنظیم و سه برگ آن در نمایشگاه می ماند",
+        "start_char": 476,
+        "end_char": 542,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خرید یک دستگاه کامیون ولوو در سال ۱۳۸۸",
+      "evidence": {
+        "quote": "در تاریخ 15/7/88 یک دستگاه کامیون ولوو 12f مدل 70 کشنده از خواندگان خریداری",
+        "start_char": 310,
+        "end_char": 385,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت وجه نقد و چک برای خرید خودرو",
+      "evidence": {
+        "quote": "مبلغ ـ /000/850/32 تومان طی یک فقره چک رمزدار و وجه نقد طی قبض شماره 943 پرداخت شده است",
+        "start_char": 388,
+        "end_char": 475,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تنظیم صورت جلسه فروش",
+      "evidence": {
+        "quote": "در تاریخ 26/8/1388 صورت جلسه فروش نیز به درخواست اینجانبان تنظیم می گردد",
+        "start_char": 545,
+        "end_char": 617,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "توقیف خودرو توسط شخص ثالث",
+      "evidence": {
+        "quote": "پس خودرو از جانب آقای ص.ن. توقیف",
+        "start_char": 774,
+        "end_char": 806,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

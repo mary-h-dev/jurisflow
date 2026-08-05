@@ -1,0 +1,163 @@
+{
+  "ruling_id": "7937",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال مبایعه نامه",
+        "start_char": 62,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی صادر می نماید",
+        "start_char": 988,
+        "end_char": 1019,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه خسارات دادرسی",
+        "start_char": 90,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انعقاد",
+      "evidence": {
+        "quote": "مبادرت به انعقاد مبایعه نامه عادی",
+        "start_char": 158,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه محترم تجدیدنظر",
+        "start_char": 1067,
+        "end_char": 1110,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده دعوی در تاریخ 9/3/90",
+        "start_char": 130,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مرتهن",
+      "evidence": {
+        "quote": "مرتهن و ذینفع در این خصوص بانک الف. می باشد",
+        "start_char": 716,
+        "end_char": 759,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان ها ملکف اند",
+        "start_char": 798,
+        "end_char": 816,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "خوانده دعوی آقای ع.ج. و آقای خ.الف. را به عنوان وکیل خود معرفی نموده اند",
+        "start_char": 605,
+        "end_char": 677,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبادرت به انعقاد مبایعه نامه عادی",
+        "start_char": 158,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "برای یک دستگاه آپارتمان موضوع سند مالکیت شماره 29776 /74",
+        "start_char": 192,
+        "end_char": 248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "موضوع سند مالکیت شماره 29776 /74",
+        "start_char": 216,
+        "end_char": 248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "به موجب سند رسمی مورخه 18/12/88",
+        "start_char": 290,
+        "end_char": 321,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک در رهن بانک است",
+      "evidence": {
+        "quote": "ملک موصوف به موجب سند رسمی مورخه 18/12/88 در رهن بانک الف. قرار دارد",
+        "start_char": 280,
+        "end_char": 348,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله انجام شده اما غیرنافذ است",
+      "evidence": {
+        "quote": "چون آپارتمان موصوف قبل از انعقاد قرارداد در رهن بانک بوده، لذا معامله غیرنافذ می باشد",
+        "start_char": 467,
+        "end_char": 552,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

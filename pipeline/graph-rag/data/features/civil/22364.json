@@ -1,0 +1,133 @@
+{
+  "ruling_id": "22364",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 1649,
+        "end_char": 1666,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "حسب اقرار خوانده",
+        "start_char": 1793,
+        "end_char": 1809,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ ده میلیون تومان را بپردازد",
+        "start_char": 472,
+        "end_char": 503,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "تقاضای رسیدگی دارد",
+        "start_char": 649,
+        "end_char": 667,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "تقاضای ردّ دعوی را",
+        "start_char": 1711,
+        "end_char": 1729,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ع.خ.",
+        "start_char": 73,
+        "end_char": 91,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "آقای م.ح. دادخواستی",
+        "start_char": 53,
+        "end_char": 72,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "یک فقره چک شماره ؟؟-18/5/90",
+        "start_char": 143,
+        "end_char": 170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سفته",
+      "evidence": {
+        "quote": "دو فقره سفته به شماره های 763؟ و 284؟",
+        "start_char": 173,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "توافق‌نامه",
+      "evidence": {
+        "quote": "توافقنامه مورخ 18/12/90",
+        "start_char": 344,
+        "end_char": 367,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک برگشت شده است",
+      "evidence": {
+        "quote": "در موعد مقرر چک منتهی به برگشت شده",
+        "start_char": 596,
+        "end_char": 630,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده بخشی از طلب را قبول دارد",
+      "evidence": {
+        "quote": "بدهی خود را به مبلغ وجه خواسته این دعوی قبول دارد",
+        "start_char": 1938,
+        "end_char": 1987,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "7207",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "تقاضای اثبات نسب موکل خود را نسبت به ک.ش. به عنوان پدر نموده است",
+        "start_char": 361,
+        "end_char": 425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تغییر نام",
+      "evidence": {
+        "quote": "تقاضای تغییر نام خانوادگی از خ. به ش. را نموده است",
+        "start_char": 432,
+        "end_char": 482,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غیرقابل",
+      "evidence": {
+        "quote": "اصل بر غیرقابل فرجام خواهی بودن آراء است",
+        "start_char": 3241,
+        "end_char": 3281,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت اداره ثبت احوال شهرستان صومعه سرا تسلیم دادگاه نموده است",
+        "start_char": 52,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "اداره ثبت احوال با تقدیم لایحه جوابیه",
+        "start_char": 1644,
+        "end_char": 1681,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "اداره ثبت احوال با نماینده حقوقی خود نسبت به این رأی تجدیدنظر خواهی می کند",
+        "start_char": 985,
+        "end_char": 1059,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "تقاضای نقض رأی به شرح مندرج در لایحه نموده است",
+        "start_char": 1129,
+        "end_char": 1175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "خانم ر.ق. به وکالت از خواهان نسبت به این رأی فرجام خواهی نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده به دادگاه محترم صادرکننده رأی قطعی اعاده می شود",
+        "start_char": 3475,
+        "end_char": 3529,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اداره ثبت احوال صومعه سرا با تقدیم لایحه جوابیه دلایل خواهان را کافی ندانسته",
+        "start_char": 554,
+        "end_char": 630,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "فرجام خواه توسط وکیل خود دادخواستی به طرفیت فرجام خوانده تسلیم دادگاه نموده است",
+        "start_char": 1820,
+        "end_char": 1899,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وارث",
+      "evidence": {
+        "quote": "دعوی باید به طرفیت وراث آقای ک.ش. اقامه می شد",
+        "start_char": 1310,
+        "end_char": 1355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "حاکم",
+      "evidence": {
+        "quote": "327 و 328 قانون امور حسبی حاکم (دادستان) باید طرف دعوی قرار گیرد",
+        "start_char": 2974,
+        "end_char": 3038,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "در شناسنامه وی نام خانوادگی مادرش (خ.ن.) قید شده است",
+        "start_char": 170,
+        "end_char": 222,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "نسبت به این رأی تجدیدنظر خواهی می نماید",
+        "start_char": 2396,
+        "end_char": 2434,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "نام خانوادگی مادر در شناسنامه فرزند درج شده است",
+      "evidence": {
+        "quote": "در شناسنامه وی نام خانوادگی مادرش (خ.ن.) قید شده است",
+        "start_char": 170,
+        "end_char": 222,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوی باید به طرفیت وراث اقامه می‌شد",
+      "evidence": {
+        "quote": "دعوی باید به طرفیت وراث آقای ک.ش. اقامه می شد",
+        "start_char": 1310,
+        "end_char": 1355,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

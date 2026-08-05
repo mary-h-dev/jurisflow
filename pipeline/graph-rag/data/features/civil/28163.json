@@ -1,0 +1,153 @@
+{
+  "ruling_id": "28163",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "حکم به خلع ید مشاعی خوانده از پلاک مورد ترافع صادر و اعلام می گردد",
+        "start_char": 627,
+        "end_char": 693,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "در حیطه مالکیت مشاعی خواهان به نسبت 5/3 دانگ و خوانده به نسبت 5/2 دانگ بوده",
+        "start_char": 442,
+        "end_char": 517,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اذن",
+      "evidence": {
+        "quote": "هیچگونه اذنی از مالک مشاعی درخصوص مورد نداشته است",
+        "start_char": 789,
+        "end_char": 838,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "به خواسته اعاده دادرسی نسبت به دادنامه شماره 1059",
+        "start_char": 2116,
+        "end_char": 2165,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مبنی بر مطالبه هزینه باز سازی",
+        "start_char": 133,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدید نظر خواهی خانم ص. ک.ک.",
+        "start_char": 1076,
+        "end_char": 1104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض",
+        "start_char": 1919,
+        "end_char": 1932,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان (ع. م. با وکالت آقای ع. ر.ن. )",
+        "start_char": 0,
+        "end_char": 50,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده ( ص. ک.ک.ک )",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "ششدانگ آپارتمان موضوع پلاک ثبتی",
+        "start_char": 315,
+        "end_char": 346,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "با استناد به یک برگ سند عادی استشهادیه",
+        "start_char": 2285,
+        "end_char": 2323,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت مشاعی بر اساس گواهی ثبت اسناد املاک است",
+      "evidence": {
+        "quote": "مطابق مفاد گواهی شماره 566555-12/9/92 ثبت اسناد املاک منطقه شمالغرب تهران",
+        "start_char": 240,
+        "end_char": 313,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تصرف خوانده در ملک محرز است",
+      "evidence": {
+        "quote": "تصرفات خوانده نیز محرز است",
+        "start_char": 520,
+        "end_char": 546,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "هزینه بازسازی بدون اذن مالک انجام شده است",
+      "evidence": {
+        "quote": "هیچگونه اذنی از مالک مشاعی درخصوص مورد نداشته است",
+        "start_char": 789,
+        "end_char": 838,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

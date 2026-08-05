@@ -1,0 +1,183 @@
+{
+  "ruling_id": "6930",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد هبه",
+      "evidence": {
+        "quote": "ابطال عقد هبه",
+        "start_char": 123,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "هبه",
+      "evidence": {
+        "quote": "ابطال عقد هبه (هبه نامه)",
+        "start_char": 123,
+        "end_char": 147,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "مستنداً به ماده 830 قانون مدنی",
+        "start_char": 369,
+        "end_char": 399,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "آیین دادرسی",
+      "evidence": {
+        "quote": "با استناد ماده 370 قانون آیین دادرسی دادگاه های عمومی و انقلاب در امور مدنی",
+        "start_char": 2423,
+        "end_char": 2498,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "صدور حکم بر ابطال عقد هبه",
+        "start_char": 111,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "مجدداً اعتراض کرده",
+        "start_char": 1080,
+        "end_char": 1098,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابرام",
+      "evidence": {
+        "quote": "دادنامه فرجام خواسته را با استناد ماده 370 قانون آیین دادرسی دادگاه های عمومی و انقلاب در امور مدنی ابرام می نماید",
+        "start_char": 2399,
+        "end_char": 2513,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "دادگستری",
+      "evidence": {
+        "quote": "آقای ح.ع. وکیل دادگستری",
+        "start_char": 16,
+        "end_char": 39,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "به طرفیت اداره امور عشایری",
+        "start_char": 74,
+        "end_char": 100,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 563,
+        "end_char": 574,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "نماینده خوانده پاسخ داده",
+        "start_char": 633,
+        "end_char": 657,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واهب",
+      "evidence": {
+        "quote": "عدم وجود حقی رجوع برای واهب",
+        "start_char": 1772,
+        "end_char": 1799,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین واقع در روستای ر.",
+        "start_char": 222,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک مورد ادعای خواهان",
+        "start_char": 1186,
+        "end_char": 1207,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زمین به صورت معوض هبه شده است",
+      "evidence": {
+        "quote": "یک قطعه زمین واقع در روستای ر. را به اداره خوانده به صورت معوض هبه نموده است",
+        "start_char": 222,
+        "end_char": 298,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اداره خوانده معوض را پرداخت نکرده است",
+      "evidence": {
+        "quote": "اداره خوانده هیچ اقدامی در جهت پرداخت معوض و انجام آن ننموده",
+        "start_char": 304,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در زمین مورد ادعا ساخت و ساز انجام شده است",
+      "evidence": {
+        "quote": "اداره امور عشایر پس از تحویل زمین و بر اساس هبه نامه اقدام به ساخت وساز و احداث تأسیساتی در آن نمود",
+        "start_char": 875,
+        "end_char": 974,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

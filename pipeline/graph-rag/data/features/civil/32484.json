@@ -1,0 +1,143 @@
+{
+  "ruling_id": "32484",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تایید فسخ",
+        "start_char": 194,
+        "end_char": 203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "مدت خیار 48 ساعت",
+        "start_char": 393,
+        "end_char": 409,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تایید فسخ",
+        "start_char": 194,
+        "end_char": 203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارایه",
+      "evidence": {
+        "quote": "به بانک جهت وصول ارایه نگردید",
+        "start_char": 578,
+        "end_char": 607,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدید نظر خواه اعتراض موجهی که نقض آن را ایجاب نماید طرح ننموده",
+        "start_char": 1662,
+        "end_char": 1725,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد تجدیدنظر",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظر خواهی",
+        "start_char": 1803,
+        "end_char": 1824,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "برای خواهان منظور گردیده می باشد",
+        "start_char": 807,
+        "end_char": 839,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظر خواه اعتراض موجهی",
+        "start_char": 1662,
+        "end_char": 1689,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "مبایعه نامه شماره 6094143 مورخ 91/12/21",
+        "start_char": 204,
+        "end_char": 243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "چک شماره 340564 مورخ 92/02/02",
+        "start_char": 530,
+        "end_char": 559,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه مورخ",
+      "evidence": {
+        "quote": "توافق نامه مورخ 91/12/29",
+        "start_char": 342,
+        "end_char": 366,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک در سررسید به بانک ارائه نشده است",
+      "evidence": {
+        "quote": "چک شماره 340564 مورخ 92/02/02 نه تنها در سررسید به بانک جهت وصول ارایه نگردید",
+        "start_char": 530,
+        "end_char": 607,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک با تأخیر یک ساله به بانک ارائه شده است",
+      "evidence": {
+        "quote": "پس از حدود یکسال یعنی در تاریخ 93/03/11 به بانک ارایه گردیده",
+        "start_char": 682,
+        "end_char": 742,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

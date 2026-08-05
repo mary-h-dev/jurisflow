@@ -1,0 +1,133 @@
+{
+  "ruling_id": "31253",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتبار",
+      "evidence": {
+        "quote": "نسبت به اشخاص دیگر اعتبار ندارد",
+        "start_char": 541,
+        "end_char": 572,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "بخواسته ی اعتراض به توقیف",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 657,
+        "end_char": 683,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را عیناً تأیید می نماید",
+        "start_char": 1542,
+        "end_char": 1583,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مدعی مالکیت خودرو می باشد",
+        "start_char": 387,
+        "end_char": 412,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص دعوی تجدیدنظرخواه",
+        "start_char": 1016,
+        "end_char": 1041,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "رد اعتراض معترض",
+        "start_char": 1526,
+        "end_char": 1541,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "توقیف یک دستگاه خودروهیوندا",
+        "start_char": 130,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی خودروبه نام آقای اصغر د. می باشد",
+        "start_char": 312,
+        "end_char": 353,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "سند عادی بوده",
+        "start_char": 415,
+        "end_char": 428,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خودرو به نام شخص دیگری است",
+      "evidence": {
+        "quote": "سند رسمی خودروبه نام آقای اصغر د. می باشد",
+        "start_char": 312,
+        "end_char": 353,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند مالکیت ارائه شده عادی است",
+      "evidence": {
+        "quote": "سندی که بر اساس آن خواهان مدعی مالکیت خودرو می باشد ، سند عادی بوده",
+        "start_char": 361,
+        "end_char": 428,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

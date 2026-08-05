@@ -1,0 +1,203 @@
+{
+  "ruling_id": "21226",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "اصل لزوم قراردادها",
+        "start_char": 877,
+        "end_char": 895,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مالکیت رسمی تجدیدنظرخواه",
+        "start_char": 1592,
+        "end_char": 1616,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "به تخلیه و تحویل",
+        "start_char": 62,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "به تخلیه و تحویل",
+        "start_char": 62,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه خسارات دادرسی",
+        "start_char": 246,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی، صادر می‌گردد",
+        "start_char": 461,
+        "end_char": 487,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "رأی صادره قابل تجدیدنظرخواهی",
+        "start_char": 933,
+        "end_char": 961,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخواست و دعوی خواهان",
+        "start_char": 787,
+        "end_char": 808,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با لحاظ مدافعات خوانده",
+        "start_char": 570,
+        "end_char": 592,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "قانون روابط موجر و مستأجر",
+        "start_char": 515,
+        "end_char": 540,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "مادامی که مدت اجاره منقضی نگردد موجر حق تخلیه",
+        "start_char": 2563,
+        "end_char": 2608,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عین مستأجره",
+      "evidence": {
+        "quote": "تخلیه عین مستأجره",
+        "start_char": 1264,
+        "end_char": 1281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "یک باب",
+      "evidence": {
+        "quote": "یک باب مغازه",
+        "start_char": 94,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سرقفلی",
+      "evidence": {
+        "quote": "سرقفلی و حقّ کسب و پیشه آن محل راخریداری نموده است",
+        "start_char": 705,
+        "end_char": 755,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی قطعی غیرمنقول",
+        "start_char": 1646,
+        "end_char": 1668,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "در قرارداد اجاره تنظیمی",
+        "start_char": 2335,
+        "end_char": 2358,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مستأجر سرقفلی و حق کسب و پیشه را خریداری کرده است",
+      "evidence": {
+        "quote": "خوانده ضمن اجاره محلّ مورد تنازع برای مدّت یکصد سال شمسی از تاریخ 1391/5/4، سرقفلی و حقّ کسب و پیشه آن محل راخریداری نموده است",
+        "start_char": 629,
+        "end_char": 755,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مدت اجاره هنوز منقضی نشده است",
+      "evidence": {
+        "quote": "مدت مذکور تاکنون منقضی نشده است",
+        "start_char": 2529,
+        "end_char": 2560,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت منافع عین مستأجره استثناء شده است",
+      "evidence": {
+        "quote": "منافع عین مستأجره استثناء گردیده و کماکان در مالکیت مالک اولیه قرار داشته است",
+        "start_char": 1835,
+        "end_char": 1912,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

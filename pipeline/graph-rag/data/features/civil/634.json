@@ -1,0 +1,183 @@
+{
+  "ruling_id": "634",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال قرارداد پیش خرید",
+        "start_char": 96,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه ثمن مورد معامله",
+        "start_char": 136,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قصد",
+      "evidence": {
+        "quote": "احراز قصد و نیت طرفین",
+        "start_char": 349,
+        "end_char": 370,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "منصرف از عقد بیع بوده",
+        "start_char": 3358,
+        "end_char": 3379,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان دعوی خواهان",
+        "start_char": 2650,
+        "end_char": 2667,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ع.ر.",
+        "start_char": 2876,
+        "end_char": 2907,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امضای",
+      "evidence": {
+        "quote": "اقدام به امضای آن نموده اند",
+        "start_char": 628,
+        "end_char": 655,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "انشاء",
+      "evidence": {
+        "quote": "به بطلان دعوی خواهان انشاء حکم می شود",
+        "start_char": 2647,
+        "end_char": 2684,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تایید و ابرام",
+      "evidence": {
+        "quote": "رأی معترضٌ عنه را تأیید و ابرام می نماید",
+        "start_char": 3582,
+        "end_char": 3622,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 71,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "قصد خواندگان از انعقاد قرارداد فروش یک واحد آپارتمان بوده",
+        "start_char": 492,
+        "end_char": 549,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "ماهیت قرارداد به شرح توضیحات اعلامی تجدیدنظرخواه",
+        "start_char": 3309,
+        "end_char": 3357,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "ابطال قرارداد پیش خرید",
+        "start_char": 96,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "مطالبه ثمن مورد معامله",
+        "start_char": 136,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "فروش یک واحد آپارتمان",
+        "start_char": 523,
+        "end_char": 544,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین قرارداد را امضا کرده‌اند",
+      "evidence": {
+        "quote": "اقدام به امضای آن نموده اند",
+        "start_char": 628,
+        "end_char": 655,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد در سال ۱۳۷۹ منعقد شده است",
+      "evidence": {
+        "quote": "مورخ 8/9/1379",
+        "start_char": 119,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

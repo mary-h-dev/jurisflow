@@ -1,0 +1,122 @@
+{
+  "ruling_id": "23873",
+  "concepts": [],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "تقاضای صدور حکم",
+        "start_char": 102,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "تنظیم و انتقال",
+        "start_char": 180,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 1870,
+        "end_char": 1890,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان",
+        "start_char": 126,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مرتهن",
+      "evidence": {
+        "quote": "حقوق مرتهن",
+        "start_char": 658,
+        "end_char": 668,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اصلی بخش",
+      "evidence": {
+        "quote": "سه دانگ ملکیت مغازه پلاک ثبتی شماره... فرعی از... اصلی بخش 3 تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پایان کار",
+      "evidence": {
+        "quote": "اخذ پایان کار",
+        "start_char": 144,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "صورت‌مجلس تفکیکی",
+      "evidence": {
+        "quote": "صورت‌ مجلس تفکیکی",
+        "start_char": 160,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی",
+        "start_char": 453,
+        "end_char": 461,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک در رهن بانک است",
+      "evidence": {
+        "quote": "در رهن بانک س. می‌باشد",
+        "start_char": 589,
+        "end_char": 611,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوی با کیفیت طرح شده قابلیت اجابت ندارد",
+      "evidence": {
+        "quote": "دعوی مطروحه با کیفیت طرح شده قابلیت اجابت نداشته",
+        "start_char": 822,
+        "end_char": 870,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

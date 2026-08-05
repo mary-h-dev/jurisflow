@@ -1,0 +1,133 @@
+{
+  "ruling_id": "34520",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت به شایستگی دادگاه کیفری دو زابل صادر نموده",
+        "start_char": 330,
+        "end_char": 388,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "تایید صلاحیت شعبه اول دادگاه انقلاب زابل",
+        "start_char": 676,
+        "end_char": 716,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "متهمان نسبت به قرار صادره اعتراض کرده اند",
+        "start_char": 131,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "پرونده را جهت حل اختلاف به دیوان عالی کشور ارسال کرده است",
+        "start_char": 471,
+        "end_char": 528,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مشاوره",
+      "evidence": {
+        "quote": "مشاوره نموده",
+        "start_char": 717,
+        "end_char": 729,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهمان",
+      "evidence": {
+        "quote": "متهمان نسبت به قرار صادره اعتراض کرده اند",
+        "start_char": 131,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "قاضی",
+      "evidence": {
+        "quote": "مقید به یک قاضی یا تعدد قاضی نیست",
+        "start_char": 814,
+        "end_char": 847,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ممیز",
+      "evidence": {
+        "quote": "پس از قرائت گزارش آقای عضو ممیز",
+        "start_char": 565,
+        "end_char": 596,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دیوان عالی کشور",
+      "evidence": {
+        "quote": "نظریه کتبی آقای دادیار دیوان عالی کشور",
+        "start_char": 621,
+        "end_char": 659,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اوراق پرونده",
+      "evidence": {
+        "quote": "ملاحظه اوراق پرونده",
+        "start_char": 599,
+        "end_char": 618,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهمان در حال حمل مواد مخدر بوده‌اند",
+      "evidence": {
+        "quote": "به اتهام مشارکت در حمل 5/200 کیلوگرم کراک",
+        "start_char": 57,
+        "end_char": 98,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اختلافjurisdictional بین دو شعبه وجود دارد",
+      "evidence": {
+        "quote": "اختلاف حاصله بین شعبه اول دادگاه انقلاب زابل و شعبه 101 دادگاه کیفری دو آن شهرستان",
+        "start_char": 860,
+        "end_char": 942,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

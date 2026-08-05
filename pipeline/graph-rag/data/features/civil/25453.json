@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25453",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "علقه زوجیت دایم فیما بین زوجین",
+        "start_char": 258,
+        "end_char": 288,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "یکی از این وظایف پرداخت نفقه زوجه از سوی زوج بوده",
+        "start_char": 459,
+        "end_char": 508,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "با احراز اشتغال ذمه خوانده نسبت به نفقه خواهان",
+        "start_char": 749,
+        "end_char": 795,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در مورد تجدیدنظرخواهی آقای س. خ.م.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه معوقه",
+        "start_char": 93,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارایه",
+      "evidence": {
+        "quote": "از سوی زوج دلائل و مدارکی که دال بر پرداخت نفقه زوجه باشد ارایه نگردیده",
+        "start_char": 521,
+        "end_char": 592,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 2168,
+        "end_char": 2188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه مذکور تأیید می‌شود",
+        "start_char": 2189,
+        "end_char": 2215,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خانم ن. ش. ساکن تهران با وکالت آقای م. الف. ز. به طرفیت آقای س. خ.م. ساکن تهران",
+        "start_char": 0,
+        "end_char": 92,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای س. خ.م. ساکن تهران",
+        "start_char": 60,
+        "end_char": 92,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1959 مورخه 1393/11/28 صادره از شعبه 281 خانواده تهران که به موجب آن حکم به محکومیت تجدیدنظرخواه",
+        "start_char": 1754,
+        "end_char": 1871,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به پرداخت نفقه معوقه در حق تجدیدنظرخوانده",
+        "start_char": 1872,
+        "end_char": 1913,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "حسب تصویر مصدق عقدنامه تنظیمی در دفتر رسمی ازدواج",
+        "start_char": 289,
+        "end_char": 338,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1959 مورخه 1393/11/28",
+        "start_char": 1754,
+        "end_char": 1797,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "علقه زوجیت دایم فیما بین زوجین حسب تصویر مصدق عقدنامه تنظیمی در دفتر رسمی ازدواج برای دادگاه محرز و مسلم است",
+        "start_char": 258,
+        "end_char": 366,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت نفقه توسط زوج انجام نشده است",
+      "evidence": {
+        "quote": "از سوی زوج دلائل و مدارکی که دال بر پرداخت نفقه زوجه باشد ارایه نگردیده",
+        "start_char": 521,
+        "end_char": 592,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

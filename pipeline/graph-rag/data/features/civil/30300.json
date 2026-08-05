@@ -1,0 +1,223 @@
+{
+  "ruling_id": "30300",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "لزوم قراردادها",
+        "start_char": 2551,
+        "end_char": 2565,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حقوقی",
+      "evidence": {
+        "quote": "اثر حقوقی بر آن مترتب نمی باشد",
+        "start_char": 833,
+        "end_char": 863,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم مبنی بر فک رهن",
+        "start_char": 105,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تحویل و تنظیم سند رسمی",
+        "start_char": 131,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "تنظیم سند رسمی",
+        "start_char": 139,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارت دیرکرد",
+        "start_char": 256,
+        "end_char": 275,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 2802,
+        "end_char": 2817,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فک رهن",
+      "evidence": {
+        "quote": "فک رهن",
+        "start_char": 122,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مدارک ابرازی خواهان",
+        "start_char": 387,
+        "end_char": 406,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 1219,
+        "end_char": 1231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "تجدیدنظرخواندگان",
+        "start_char": 1512,
+        "end_char": 1528,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مرتهن",
+      "evidence": {
+        "quote": "با حفظ حقوق مرتهن",
+        "start_char": 2368,
+        "end_char": 2385,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده ردیف نخست",
+        "start_char": 2840,
+        "end_char": 2864,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "یک ملک مسکونی",
+        "start_char": 154,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه نامه تنظیمی 88/12/6",
+        "start_char": 204,
+        "end_char": 230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "خسارت دیرکرد",
+        "start_char": 263,
+        "end_char": 275,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "احتساب هزینه دادرسی",
+        "start_char": 290,
+        "end_char": 309,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حق الوکاله",
+      "evidence": {
+        "quote": "حق الوکاله وکیل",
+        "start_char": 3000,
+        "end_char": 3015,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک در تاریخ 1385 در رهن بانک مسکن قرار گرفته است",
+      "evidence": {
+        "quote": "ملک مورد تنازع در مورخه 1385/7/16 در رهن بانک مسکن قرار گرفته است",
+        "start_char": 578,
+        "end_char": 643,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله در سال 1388 انجام شده است",
+      "evidence": {
+        "quote": "تاریخ وقوع معامله سال 1388 می باشد",
+        "start_char": 696,
+        "end_char": 730,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تاریخ معامله موخر بر تاریخ رهن است",
+      "evidence": {
+        "quote": "تاریخ معامله موخر بر تاریخ رهن می باشد",
+        "start_char": 755,
+        "end_char": 793,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

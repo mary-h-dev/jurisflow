@@ -1,0 +1,133 @@
+{
+  "ruling_id": "5423",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل کارهای انجام شده",
+        "start_char": 67,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "بایستی قصد عدم تبرع خویش در انجام کارها را اثبات نماید",
+        "start_char": 299,
+        "end_char": 353,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 67,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "بایستی قصد عدم تبرع خویش در انجام کارها را اثبات نماید",
+        "start_char": 299,
+        "end_char": 353,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترضٌ عنه را نقض",
+        "start_char": 1801,
+        "end_char": 1826,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "حکم بر محکومیت زوج به پرداخت اجرت المثل",
+        "start_char": 1829,
+        "end_char": 1868,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "فلذا حکم بر بطلان دعوای خواهان صادر",
+        "start_char": 417,
+        "end_char": 452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "بایستی قصد عدم تبرع خویش در انجام کارها را اثبات نماید که زوجه و وکیل وی دلیلی در این خصوص به جز ادعا ارائه نداده اند فلذا حکم بر بطلان دعوای خواهان صادر و اعلام می نماید",
+        "start_char": 299,
+        "end_char": 469,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "بایستی قصد عدم تبرع خویش در انجام کارها را اثبات نماید که زوجه و وکیل وی دلیلی در این خصوص به جز ادعا ارائه نداده اند",
+        "start_char": 299,
+        "end_char": 416,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجرت‌المثل",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل کارهای انجام شده",
+        "start_char": 67,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انجام کارهای منزل توسط زوجه",
+      "evidence": {
+        "quote": "کار در منزل نظافت و آشپزی و...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات قصد عدم تبرع در مرحله اول",
+      "evidence": {
+        "quote": "بایستی قصد عدم تبرع خویش در انجام کارها را اثبات نماید که زوجه و وکیل وی دلیلی در این خصوص به جز ادعا ارائه نداده اند",
+        "start_char": 299,
+        "end_char": 416,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

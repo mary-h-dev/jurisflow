@@ -1,0 +1,143 @@
+{
+  "ruling_id": "11042",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت‌المثل ایام زوجیت",
+        "start_char": 49,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "در صورت طلاق از سوی زوج",
+        "start_char": 365,
+        "end_char": 388,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "زوجه می‌توانست مطالبه اجرت‌المثل نماید",
+        "start_char": 390,
+        "end_char": 428,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی دادگاه بدوی را که بدون توجه به این مهم اصدار یافته است، نقض",
+        "start_char": 2529,
+        "end_char": 2592,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده را الزام به پرداخت",
+        "start_char": 2595,
+        "end_char": 2628,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه طی طلاق‌نامه",
+        "start_char": 171,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از سوی زوج",
+        "start_char": 378,
+        "end_char": 388,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "رد دعوی تجدیدنظرخواه",
+        "start_char": 956,
+        "end_char": 976,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده را الزام به پرداخت",
+        "start_char": 2595,
+        "end_char": 2628,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "طلاق‌نامه",
+      "evidence": {
+        "quote": "طی طلاق‌نامه شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "پرداخت مبلغ 186000000 ریال",
+        "start_char": 2622,
+        "end_char": 2648,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طلاق غیابی از سوی زوجه انجام شده است",
+      "evidence": {
+        "quote": "مطابق طلاق‌نامه مدرکیه طلاق غیاباً از سوی زوجه تقاضا شده‌ است",
+        "start_char": 440,
+        "end_char": 501,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج دلیلی بر پرداخت اجرت‌المثل ارائه نکرده است",
+      "evidence": {
+        "quote": "زوج دلیلی بر پرداخت آن تقدیم دادگاه ننموده است",
+        "start_char": 2466,
+        "end_char": 2512,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

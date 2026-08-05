@@ -1,0 +1,193 @@
+{
+  "ruling_id": "11034",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت دائم فیما بین متداعیین",
+        "start_char": 128,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته تمکین",
+        "start_char": 68,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "دادنامه معترضٌ‌عنه را فسخ",
+        "start_char": 1130,
+        "end_char": 1155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 1158,
+        "end_char": 1182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترضٌ‌عنه",
+        "start_char": 1914,
+        "end_char": 1940,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بازگشت",
+      "evidence": {
+        "quote": "بازگشت خوانده به منزل",
+        "start_char": 86,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "قابل واخواهی",
+        "start_char": 549,
+        "end_char": 561,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 604,
+        "end_char": 622,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت خانم پ.الف. فرزند ی. به خواسته تمکین",
+        "start_char": 38,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده در قبال دعوی یاد شده",
+        "start_char": 288,
+        "end_char": 315,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "با عنایت به محتویات پرونده و اظهارات واخواه",
+        "start_char": 871,
+        "end_char": 914,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخوانده",
+      "evidence": {
+        "quote": "اعترافات صریح واخوانده",
+        "start_char": 925,
+        "end_char": 947,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به موجب دعوی زوج",
+        "start_char": 1520,
+        "end_char": 1536,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "الزام به تمکین زوجه",
+        "start_char": 1547,
+        "end_char": 1566,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "تصاویر مصدق سند نکاحیه",
+        "start_char": 174,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 5200936",
+        "start_char": 770,
+        "end_char": 799,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده سابقه مشروب‌خواری دارد",
+      "evidence": {
+        "quote": "حکایت از محکومیت کیفری نام برده به جرم مشروب‌خواری دارد",
+        "start_char": 951,
+        "end_char": 1006,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "رابطه زوجیت دائم فیما بین متداعیین... محرز می‌باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

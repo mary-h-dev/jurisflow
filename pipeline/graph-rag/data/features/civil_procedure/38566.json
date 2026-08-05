@@ -1,0 +1,153 @@
+{
+  "ruling_id": "38566",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "حکم بر الزام خوانده داوری به استرداد 6890 یورو ، پرداخت خسارت تاخیر و پرداخت خسارات قانونی صادر کرده",
+        "start_char": 451,
+        "end_char": 551,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "با اعلان انحلال قرارداد به علت فسخ",
+        "start_char": 416,
+        "end_char": 450,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "در داوری داخلی شرط داوری از حیث بقا و زوال از عقد تبعیت می کند",
+        "start_char": 1503,
+        "end_char": 1565,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "درخواست بطلان رای را پذیرفته",
+        "start_char": 765,
+        "end_char": 793,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "به توسط وکلای خود دردو دادخواست جداگانه از دادنامه شماره 14 * صادر شده در *از شعبه *بر علیه یکدیگر تجدیدنظرخواهی کرده اند",
+        "start_char": 23,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دعوایی به خواسته ابطال رای داوری",
+        "start_char": 215,
+        "end_char": 247,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "بخش از رای که حاوی اعلان بطلان بخشی از داوری است. را فسخ و حکم بر رد شکایت در این موردها هم صادر می کند",
+        "start_char": 4824,
+        "end_char": 4927,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حکم بر الزام خوانده داوری به استرداد 6890 یورو",
+        "start_char": 451,
+        "end_char": 497,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "دادگاه محترم نخستین گفته داور اختیار اعلان انحلال قرارداد را ندارد",
+        "start_char": 553,
+        "end_char": 619,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بدین ترتیب شکایت خواهان بدوی از رای داوری بطور کلی مردود است",
+        "start_char": 4930,
+        "end_char": 4990,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "دعوایی به خواسته ابطال رای داوری",
+        "start_char": 215,
+        "end_char": 247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "مطابق ماده 19 قرارداد شماره 99 ق 152 مورخ 4/2/400",
+        "start_char": 1142,
+        "end_char": 1190,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلاف در تفسیر و اجرای قرارداد وجود دارد",
+      "evidence": {
+        "quote": "چنانچه در تفسیر و اجرای قرارداد اختلافی پیش اید",
+        "start_char": 1204,
+        "end_char": 1251,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "داور حکم به فسخ و استرداد وجه صادر کرده است",
+      "evidence": {
+        "quote": "حکم بر الزام خوانده داوری به استرداد 6890 یورو ، پرداخت خسارت تاخیر و پرداخت خسارات قانونی صادر کرده",
+        "start_char": 451,
+        "end_char": 551,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

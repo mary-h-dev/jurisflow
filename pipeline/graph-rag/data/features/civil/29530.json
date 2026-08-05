@@ -1,0 +1,193 @@
+{
+  "ruling_id": "29530",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "به لحاظ خیار غبن فاحش",
+        "start_char": 1239,
+        "end_char": 1260,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواستۀ صدور حکم بر تأئید فسخ",
+        "start_char": 1194,
+        "end_char": 1225,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانونی",
+      "evidence": {
+        "quote": "معاملۀ مذکور فاقد مشروعیت قانونی است",
+        "start_char": 1794,
+        "end_char": 1830,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "باطل",
+      "evidence": {
+        "quote": "و غیر صحیح و باطل",
+        "start_char": 1831,
+        "end_char": 1848,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حقوقی",
+      "evidence": {
+        "quote": "و فاقد اثر حقوقی است",
+        "start_char": 1849,
+        "end_char": 1869,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "الزام به تحویل مبیع",
+        "start_char": 156,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "معامله را فسخ نموده است",
+        "start_char": 1512,
+        "end_char": 1535,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای علی الف.",
+        "start_char": 2253,
+        "end_char": 2280,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد دعوای تحویل مبیع",
+        "start_char": 1553,
+        "end_char": 1576,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت خواهان دعوای اصلی",
+        "start_char": 1167,
+        "end_char": 1193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای کورش د.",
+        "start_char": 82,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخواه علل و جهات موجهی",
+        "start_char": 2634,
+        "end_char": 2672,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "شامل یک دستگاه آپارتمان مسکونی",
+        "start_char": 176,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه",
+      "evidence": {
+        "quote": "کپی برابر با اصل مبایعه نامۀ عادی",
+        "start_char": 485,
+        "end_char": 518,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اظهار",
+      "evidence": {
+        "quote": "کپی برابر با اصل اظهار نامۀ خواهان",
+        "start_char": 549,
+        "end_char": 583,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "آپارتمان دارای حکم تخریب است",
+      "evidence": {
+        "quote": "و حکم تخریب توسط کمیسیون مادۀ 100 قانون شهرداری ها نسبت به آن صادر شده است",
+        "start_char": 947,
+        "end_char": 1021,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "آپارتمان فاقد انشعاب مستقل است",
+      "evidence": {
+        "quote": "و فاقد انشعاب مستقل آب و برق و گاز است",
+        "start_char": 1022,
+        "end_char": 1060,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "آپارتمان فاقد مجوز قانونی است",
+      "evidence": {
+        "quote": "که آپارتمان مذکور فاقد مجوز قانونی است",
+        "start_char": 1677,
+        "end_char": 1715,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

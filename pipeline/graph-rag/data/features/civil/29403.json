@@ -1,0 +1,213 @@
+{
+  "ruling_id": "29403",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "منتهی به برائت خواهان ازجعل و سوء استفاده از سند مجعول",
+        "start_char": 492,
+        "end_char": 546,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "عقد بیع فی مابین خواهان با خوانده ردیف اول",
+        "start_char": 1628,
+        "end_char": 1670,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "تابع مقررات معاملات فضولی خواهد بود",
+        "start_char": 3661,
+        "end_char": 3695,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فک رهن",
+      "evidence": {
+        "quote": "بخواسته الزام به فک رهن",
+        "start_char": 54,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "و سپس تنظیم سند رسمی",
+        "start_char": 88,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل مبیع",
+      "evidence": {
+        "quote": "و تحویل مبیع موضوع معامله",
+        "start_char": 147,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "خوانده اول درجلسه دادرسی اصالت وکالتنامه محضری مذکور را تائید نموده است",
+        "start_char": 1452,
+        "end_char": 1523,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "قرار رد دعوی نخستین آقای الف. چ. بطرفیت آقای م. م. بخواسته تحویل مبیع صادر و اعلام می شود",
+        "start_char": 4043,
+        "end_char": 4128,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بررسی مستندات خواهان",
+        "start_char": 289,
+        "end_char": 309,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مطابقت دارد و از طرفی احکام متعدد قطعی... نسبت به برائت خواهان از جعل امضاء صادر شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی آقای م. م.",
+        "start_char": 2606,
+        "end_char": 2637,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بنام تجدیدنظرخوانده اشعار داشته",
+        "start_char": 3011,
+        "end_char": 3041,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موضوع معامله مبایعه نامه 1388/9/23",
+        "start_char": 159,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "و وکالتنامه شماره... مورخ 1388/9/23",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سوء استفاده از سند مجعول",
+        "start_char": 522,
+        "end_char": 546,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "سه دانگ از پلاک ثبتی....",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "واحد 207 قطعه 28 تفکیکی در حق خواهان صادرمی نماید",
+        "start_char": 2043,
+        "end_char": 2092,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "امضاء ذیل اسناد با امضاء خوانده اول مطابقت دارد",
+      "evidence": {
+        "quote": "دلالت دارد امضاء ذیل اسناد با امضاء خوانده اول مطابقت دارد",
+        "start_char": 1138,
+        "end_char": 1196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وام فروش اقساطی مسکن تسویه شده است",
+      "evidence": {
+        "quote": "خواهان بابت وام فروش اقساطی مسکن آقای م. م. مالک سه دانگ از پلاک ثبتی.... دارد مورخ 1393/6/18 تسویه نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تصرف بدون اذن سایر شرکا",
+      "evidence": {
+        "quote": "تحویل م. مشاع مورد دعوی به تجدیدنظرخوانده بدون اذن سایر شرکاء مخالف مقررات فوق الذکر بوده",
+        "start_char": 3781,
+        "end_char": 3867,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

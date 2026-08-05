@@ -1,0 +1,143 @@
+{
+  "ruling_id": "27988",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "بخواسته اعتراض ثالث",
+        "start_char": 110,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "رای ورشکستگی",
+        "start_char": 212,
+        "end_char": 224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظر خواهی",
+        "start_char": 548,
+        "end_char": 568,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "بخواسته اعتراض ثالث",
+        "start_char": 110,
+        "end_char": 129,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعتراض رد و اعلام می گردد",
+        "start_char": 499,
+        "end_char": 524,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض آن",
+      "evidence": {
+        "quote": "ضمن نقض آن",
+        "start_char": 1584,
+        "end_char": 1594,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عودت",
+      "evidence": {
+        "quote": "عودت میگردد",
+        "start_char": 1642,
+        "end_char": 1653,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه نسبت به دادنامه",
+        "start_char": 838,
+        "end_char": 866,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تاجر",
+      "evidence": {
+        "quote": "از ناحیه تاجر ورشکسته",
+        "start_char": 1056,
+        "end_char": 1077,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اشخاص",
+      "evidence": {
+        "quote": "و اشخاص ذینفع",
+        "start_char": 1089,
+        "end_char": 1102,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 368 – 920",
+        "start_char": 138,
+        "end_char": 161,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "بانک از اطراف دعوی ورشکستگی نبوده است",
+      "evidence": {
+        "quote": "بانک..... که از اطراف دعوی ورشکستگی نبوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مهلت قانونی اعتراض در قانون تجارت منقضی شده است",
+      "evidence": {
+        "quote": "در ما نحن فیه ما فرجه مقرر قانونی پیش بینی شده در قانون تجارت ما منقضی شده است",
+        "start_char": 364,
+        "end_char": 442,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "26656",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صوری",
+      "evidence": {
+        "quote": "بلحاظ صوری بودن",
+        "start_char": 309,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "حقیقت بیع احراز نمی گردد",
+        "start_char": 1478,
+        "end_char": 1502,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "تحویل مبیع از آثار عقد بیع است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اراده",
+      "evidence": {
+        "quote": "بدون اراده خواهان",
+        "start_char": 1918,
+        "end_char": 1935,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "الزام خوانده به تحویل",
+        "start_char": 70,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "صدور حکم بر ابطال",
+        "start_char": 266,
+        "end_char": 282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خودداری",
+      "evidence": {
+        "quote": "خودداری می نماید",
+        "start_char": 547,
+        "end_char": 563,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تایید و استوار می نماید",
+        "start_char": 3140,
+        "end_char": 3163,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تحویل",
+        "start_char": 70,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خانم ص. م. باوکالت خانم ل. الف. بطرفیت آقای د. الف. بخواسته",
+        "start_char": 201,
+        "end_char": 265,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده ملزم به تحویل مبیع گردد",
+        "start_char": 1514,
+        "end_char": 1545,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان",
+        "start_char": 100,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی آپارتمان نیز بنام موکل تنظیم شده است",
+        "start_char": 462,
+        "end_char": 506,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چک مندرج در متن مبایعنامه",
+        "start_char": 1141,
+        "end_char": 1165,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبایعنامه سفید امضا بوده است",
+      "evidence": {
+        "quote": "مبایعنامه سفید امضا بوده است",
+        "start_char": 726,
+        "end_char": 753,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثمن معامله وصول نشده است",
+      "evidence": {
+        "quote": "بابت ثمن معامله بدلالت پاسخ استعلام واصله از بانک محال علیه توسط خانم ص. م. وصول نگردیده است",
+        "start_char": 1166,
+        "end_char": 1257,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبایعنامه برای تضمین پرداخت وام تنظیم شده بود",
+      "evidence": {
+        "quote": "هدف از تنظیم آن تضمین پرداخت وام بوده",
+        "start_char": 1844,
+        "end_char": 1880,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

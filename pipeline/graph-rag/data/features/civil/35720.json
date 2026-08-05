@@ -1,0 +1,193 @@
+{
+  "ruling_id": "35720",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "نه بیع است و نه صلح",
+        "start_char": 16688,
+        "end_char": 16707,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلح",
+      "evidence": {
+        "quote": "نه بیع است و نه صلح",
+        "start_char": 16688,
+        "end_char": 16707,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلاف",
+      "evidence": {
+        "quote": "وقوع خلاف بین شرع",
+        "start_char": 17335,
+        "end_char": 17352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان آن صادر نموده است",
+        "start_char": 16323,
+        "end_char": 16353,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال رسمی",
+      "evidence": {
+        "quote": "انتقال رسمی دو دانگ از پلاک ثبتی",
+        "start_char": 492,
+        "end_char": 524,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "از تسلیم سند مالکیت مذکور به موکل خودداری",
+        "start_char": 1052,
+        "end_char": 1093,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تجویز اعاده دادرسی را پیشنهاد داده‌اند",
+        "start_char": 17897,
+        "end_char": 17935,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض‌عنه",
+        "start_char": 16871,
+        "end_char": 16896,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال قولنامه",
+        "start_char": 3798,
+        "end_char": 3821,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "دادخواه",
+      "evidence": {
+        "quote": "نسبت به دادخواه آقای ک. ط.ک.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مورث",
+      "evidence": {
+        "quote": "از زمان مورث خواندگان",
+        "start_char": 749,
+        "end_char": 770,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "نسبت به ادعای دیگری (ثالث)",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "دو دانگ از پلاک ثبتی شماره... بخش... تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "تسلیم سند مالکیت مذکور",
+        "start_char": 1055,
+        "end_char": 1077,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قولنامه",
+      "evidence": {
+        "quote": "ابطال قولنامه مورخ 1375/10/4",
+        "start_char": 3808,
+        "end_char": 3836,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت موکل از زمان مورث خواندگان بوده است",
+      "evidence": {
+        "quote": "را از زمان مورث خواندگان (مرحوم ک.ج. ک.) مالک بوده",
+        "start_char": 746,
+        "end_char": 796,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اقرارنامه تنظیم شده اما سند رسمی تحویل داده نشده است",
+      "evidence": {
+        "quote": "ضمن تنظیم اقرارنامه عادی مورخ 1375/10/4 موضوع تعلق و مالکیت دو دانگ از ملک مورد ترافع را به موکل اقرار و گواهی و امضاء و تأیید نموده‌اند",
+        "start_char": 891,
+        "end_char": 1027,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواندگان در جلسه دادگاه حاضر شدند",
+      "evidence": {
+        "quote": "در جلسه دادگاه از خواندگان فقط ر. و ج. و وکیل خواندگان حضور پیدا نموده‌اند",
+        "start_char": 3395,
+        "end_char": 3469,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

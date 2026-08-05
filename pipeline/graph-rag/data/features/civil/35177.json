@@ -1,0 +1,203 @@
+{
+  "ruling_id": "35177",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "بیع مذکور را فضولی تلقی می نماید",
+        "start_char": 1567,
+        "end_char": 1599,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "وکالت",
+      "evidence": {
+        "quote": "با وجود وجه رایج و دین بودن و نیز مطالبه حقوق با موضوع منطبق و آنچه را تجدیدنظرخوانده مستحق است تفاوت و تغییر شاخص وجه مذکور از زمان معامله تا پرداخت است",
+        "start_char": 8681,
+        "end_char": 8834,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "به انضمام خسارت تأخیر تأدیه",
+        "start_char": 409,
+        "end_char": 436,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "ناشی از عدم ایفاء تعهدات وکیل ( ع. ب. ) به ایشان است",
+        "start_char": 2581,
+        "end_char": 2633,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "اقدام به فروش آپارتمان متعلق به خواهان",
+        "start_char": 939,
+        "end_char": 977,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "باقیمانده به مبلغ 000/ 000/ 268 ریال موکول به پرداخت در زمان تنظیم سند رسمی انتقال می گردد",
+        "start_char": 1161,
+        "end_char": 1251,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ولیکن آنرا به ایشان رد نمی کند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "تقاضای رد ثمن دریافتی به نرخ روز را دارد",
+        "start_char": 1602,
+        "end_char": 1642,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بنابراین دادگاه دعوی خواهان را ثابت تشخیص داده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "بطرفیت آقایان و خانمها 1- ع. خ.م. با وکالت م. ف. 2- ع. خ.د. 3- ع. ب. 4- و. ب. 5- ه. ب. با وکالت آقای م. ج. 6- خ. ب. 7- ع. ب. خواندگان",
+        "start_char": 44,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "مبلغ 000/ 000/ 250/ 1 ریال از خریدار تحویل می گیرد",
+        "start_char": 1108,
+        "end_char": 1158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "به وکالت از مالک مبلغ 000/ 000/ 250/ 1 ریال را از قبل موکل خود دریافت",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "بنابراین فروشنده این پرونده که متضرر از عدم ایفاء تعهد وکیل خود در رد ثمن به تاریخ وقوع معامله می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل مکلف است آنچه را که بجای موکل دریافت کرده به او رد کند",
+        "start_char": 2112,
+        "end_char": 2171,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "ثمن یکدستگاه آپارتمان واقع در پلاک ثبتی... بخش یازده تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعنامه",
+      "evidence": {
+        "quote": "موضوع مبایعنامه عادی شماره... مورخه 8/ 9/ 85",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "باقیمانده ثمن ( 000/ 000/ 268 ریال ) از سوی ایشان پرداخت نگردیده",
+        "start_char": 1348,
+        "end_char": 1412,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "باقیمانده ثمن از سوی خریدار پرداخت نشده است",
+      "evidence": {
+        "quote": "باقیمانده ثمن ( 000/ 000/ 268 ریال ) از سوی ایشان پرداخت نگردیده",
+        "start_char": 1348,
+        "end_char": 1412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وکیل بخشی از ثمن را از موکل دریافت کرده اما به او بازگردانده است",
+      "evidence": {
+        "quote": "وکیل آقای ن. د. به نام آقای ع. ب. مبلغ 000/ 000/ 250/ 1 ریال را از قبل موکل خود دریافت و لیکن آنرا به ایشان رد نمی کند",
+        "start_char": 1434,
+        "end_char": 1552,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

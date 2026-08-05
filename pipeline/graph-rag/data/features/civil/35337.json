@@ -1,0 +1,193 @@
+{
+  "ruling_id": "35337",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "خواهانها فقط حق فسخ معامله را دارند",
+        "start_char": 1588,
+        "end_char": 1623,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "و از حیث تسبیب به پرداخت آن قسمت از هزینه دادرسی",
+        "start_char": 3199,
+        "end_char": 3247,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه بهاء کسری متراژ ملک مورد معامله",
+        "start_char": 135,
+        "end_char": 181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "ثمن معالمه را پرداخت نموده اند",
+        "start_char": 680,
+        "end_char": 710,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اصلاح",
+      "evidence": {
+        "quote": "تکمیل و اصلاح معایب مورد معامله",
+        "start_char": 184,
+        "end_char": 215,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال سند",
+      "evidence": {
+        "quote": "انتقال سند بنام خریدار صورت گرفته است",
+        "start_char": 2254,
+        "end_char": 2291,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی صادر و اعلام می دارد",
+        "start_char": 2414,
+        "end_char": 2449,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهانها به موجب قرارداد موصوف",
+        "start_char": 463,
+        "end_char": 493,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "را از خواندگان خریداری",
+        "start_char": 655,
+        "end_char": 677,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "انتقال سند بنام خریدار صورت گرفته است",
+        "start_char": 2254,
+        "end_char": 2291,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "یک باب",
+      "evidence": {
+        "quote": "یک باب ساختمان مسکونی با مساحت 113 متر و41دسی متر",
+        "start_char": 494,
+        "end_char": 543,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "مطابق پروانه ساختمان صادره از سوی شهرداری منطقه 16 مساحت ملک را 113 متر و41دسی متربوده است و در ماده 2 قرارداد نیز",
+        "start_char": 715,
+        "end_char": 829,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "پروانه",
+      "evidence": {
+        "quote": "و پروانه ساختمانی بشماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "و گواهی پایان کار شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "تنظیم سند رسمی ملک در تاریخ 92/6/16 صورت گرفته است",
+        "start_char": 2132,
+        "end_char": 2182,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "کاهش مساحت ملک به دلیل اصلاحیه مساحت",
+      "evidence": {
+        "quote": "بلعیت اصلاحیه مساحت ملک مورد معامله به 102/41 متر کاهش یافته است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود نواقص در انجام نازک کاری و تکمیل ساختمان",
+      "evidence": {
+        "quote": "اشاره به وجود نواقص در انجام نازک کاری و تکمیل ساختمان وجود دارد",
+        "start_char": 2650,
+        "end_char": 2714,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تحویل ملک در تاریخ مقرر",
+      "evidence": {
+        "quote": "بلحاظ اختلافی که طرفین درخصوص پرداخت مابقی باهم داشته اند و سعی بر این بوده که تحویل مبیع باتعیین تکلیف وضعیت پرداختی ها بوده",
+        "start_char": 4841,
+        "end_char": 4965,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

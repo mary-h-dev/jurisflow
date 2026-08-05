@@ -1,0 +1,163 @@
+{
+  "ruling_id": "1825",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مشاعی",
+      "evidence": {
+        "quote": "با توجه به اینکه مشارالیه، مالک مشاعی می باشد",
+        "start_char": 790,
+        "end_char": 835,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مال مشاع",
+      "evidence": {
+        "quote": "در مال مشاع، احد از شرکاء حق دخل و تصرف در ملک ندارد",
+        "start_char": 3459,
+        "end_char": 3511,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "شکایت",
+      "evidence": {
+        "quote": "شکایت نموده",
+        "start_char": 268,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "نسبت به دادنامه 49-28/1/91 فوق الاشعار تجدیدنظرخواهی نموده است",
+        "start_char": 3084,
+        "end_char": 3146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی کرده است",
+        "start_char": 4399,
+        "end_char": 4428,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادره نقض",
+        "start_char": 4072,
+        "end_char": 4085,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شاکی که محل امنیت و آسایش و زندگی است",
+        "start_char": 400,
+        "end_char": 437,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم را تخفیفاً به پرداخت سه میلیون ریال جزای نقدی",
+        "start_char": 2919,
+        "end_char": 2969,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاهد",
+      "evidence": {
+        "quote": "آقای م.خ. به عنوان شاهد اظهار داشته",
+        "start_char": 1031,
+        "end_char": 1066,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم",
+      "evidence": {
+        "quote": "به نفع صندوق دولت محکوم",
+        "start_char": 2970,
+        "end_char": 2993,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "لذا درخواست محکوم علیه از رأی شماره",
+        "start_char": 4804,
+        "end_char": 4839,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "به منزل مسکونی شاکی",
+        "start_char": 385,
+        "end_char": 404,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "تخریب عمدی ملک",
+        "start_char": 2264,
+        "end_char": 2278,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم دیوار حیاط را تخریب کرده است",
+      "evidence": {
+        "quote": "دیوار حیاط را تخریب و از بین برده",
+        "start_char": 528,
+        "end_char": 561,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم قصد فروش ملک را دارد",
+      "evidence": {
+        "quote": "بنده عمداً این کار را انجام می دهم تا ایشان وادار به شکایت از بنده شود تا بتوانم با این کار این منزل را که شریک آن هستم، به فروش برسانم",
+        "start_char": 1216,
+        "end_char": 1351,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

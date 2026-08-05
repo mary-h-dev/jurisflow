@@ -1,0 +1,123 @@
+{
+  "ruling_id": "35221",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "احوال",
+      "evidence": {
+        "quote": "از حقوق راجع به احوال شخصیه محسوب میگردد",
+        "start_char": 1423,
+        "end_char": 1463,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتبار",
+      "evidence": {
+        "quote": "ضرورت حفظ اعتبار اسناد سجلی",
+        "start_char": 693,
+        "end_char": 720,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض",
+        "start_char": 1773,
+        "end_char": 1802,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "عدم حضورخواهان",
+        "start_char": 293,
+        "end_char": 307,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "نحوه دفاعیات اداره خوانده",
+        "start_char": 362,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه با شناسنامه فوق الاشعار",
+        "start_char": 1870,
+        "end_char": 1906,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "طفل",
+      "evidence": {
+        "quote": "مطلوب طفل صاحب نام و خانواده او بوده",
+        "start_char": 1386,
+        "end_char": 1421,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "سند سجلی شماره 987354",
+        "start_char": 131,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "با شناسنامه فوق الاشعار",
+        "start_char": 1883,
+        "end_char": 1906,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم علاقه پدر به نام فعلی فرزند",
+      "evidence": {
+        "quote": "عدم علاقه خواهان به نام دیگری جز آنچه در سند سجلی فرزندش مندرج است",
+        "start_char": 457,
+        "end_char": 523,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "نام فعلی فرزند نام متداول و مناسب است",
+      "evidence": {
+        "quote": "نام فعلی وی نام غیر متداول و از اسامی زننده و مستهجن و نا مناسب با جنس فرزندش نمی باشد",
+        "start_char": 559,
+        "end_char": 645,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

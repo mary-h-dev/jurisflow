@@ -1,0 +1,123 @@
+{
+  "ruling_id": "23988",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تقسیم ترکه",
+      "evidence": {
+        "quote": "به خواسته تقسیم ترکه",
+        "start_char": 105,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ارث",
+      "evidence": {
+        "quote": "تقسیم ترکه ناشی از ارث",
+        "start_char": 183,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "موت",
+      "evidence": {
+        "quote": "منوط به موت حقیقی یا فرضی مورث می باشد",
+        "start_char": 207,
+        "end_char": 245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی خواهان ها را صادر و اعلام می دارد",
+        "start_char": 687,
+        "end_char": 741,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی با هیچیک از شقوق ماده 348 قانون آئین دادرسی مدنی مطابقت ندارد",
+        "start_char": 1570,
+        "end_char": 1645,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دادخواست",
+      "evidence": {
+        "quote": "ضمن رد دادخواست تجدیدنظرخواهی",
+        "start_char": 1813,
+        "end_char": 1842,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی خواهان ها را صادر و اعلام می دارد",
+        "start_char": 687,
+        "end_char": 741,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی دلیل یا مدرک قانع کننده",
+        "start_char": 1392,
+        "end_char": 1451,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "اموال غائب در ید امین قرار داده می می‌شود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه مورد اعتراض را منطبق با مقررات و اصول دادرسی میداند",
+        "start_char": 1711,
+        "end_char": 1770,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "حکم موت فرضی برای غایب صادر نشده است",
+      "evidence": {
+        "quote": "تا کنون حکم موت فرضی برای غایب مفقود الاثر صادر نشده است",
+        "start_char": 337,
+        "end_char": 393,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

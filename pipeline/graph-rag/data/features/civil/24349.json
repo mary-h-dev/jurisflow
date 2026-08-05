@@ -1,0 +1,173 @@
+{
+  "ruling_id": "24349",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "زوجیت دائم",
+      "evidence": {
+        "quote": "وجود علقه زوجیت دائم فیمابین طرفین",
+        "start_char": 182,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "به سبب عقد نکاح دائم",
+        "start_char": 217,
+        "end_char": 237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بطلان دعوی خواهان",
+        "start_char": 561,
+        "end_char": 582,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "تکالیفی نسبت به یکدیگر دارند از جمله تمکین زوجه از زوج",
+        "start_char": 1144,
+        "end_char": 1196,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "بنظر دادگاه اعتراض وارد است",
+        "start_char": 1079,
+        "end_char": 1105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه مارالذکر",
+        "start_char": 1842,
+        "end_char": 1866,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "حکم به الزام تجدیدنظرخوانده به تمکین",
+        "start_char": 1895,
+        "end_char": 1931,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را با وکیل وارد نمی داند",
+        "start_char": 482,
+        "end_char": 525,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 209 مورخه 1394/2/29 صادره از شعبه 268 دادگاه خانواده تهران که بموجب آن حکم بطلان دعوی تجدیدنظرخواه بخواسته تمکین صادر شده است",
+        "start_char": 911,
+        "end_char": 1053,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "حکم به الزام تجدیدنظرخوانده به تمکین",
+        "start_char": 1895,
+        "end_char": 1931,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "وکپی سند نکاحیه",
+        "start_char": 166,
+        "end_char": 181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "به حکایت صفحه 16 عقدنامه",
+        "start_char": 1266,
+        "end_char": 1288,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "حق تعیین مسکن به زوجه داده شده است",
+        "start_char": 413,
+        "end_char": 447,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "در منزل مشترکی که سابقاً پذیرفته بود زندگی مشترک داشتند",
+        "start_char": 1947,
+        "end_char": 2000,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "حق انتخاب مسکن به زوجه داده شده است",
+      "evidence": {
+        "quote": "به موجب شروط ضمن العقد حق تعیین مسکن به زوجه داده شده است",
+        "start_char": 390,
+        "end_char": 447,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج و زوجه مدت زیادی در محل سکونت اعلام شده توسط زوج زندگی مشترک داشته‌اند",
+      "evidence": {
+        "quote": "در محل سکونتی که زوج اعلام کرده در سازمان برنامه مدت زیادی زندگی مشترک داشته",
+        "start_char": 1358,
+        "end_char": 1432,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

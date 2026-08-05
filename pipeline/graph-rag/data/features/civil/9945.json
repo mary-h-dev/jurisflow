@@ -1,0 +1,163 @@
+{
+  "ruling_id": "9945",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "لازم الاجراست",
+      "evidence": {
+        "quote": "قوانین پانزده روز پس از انتشار در سراسر کشور لازم‌الاجراست",
+        "start_char": 234,
+        "end_char": 292,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "موجبات فسخ رأی معترض به [را] فراهم آورد",
+        "start_char": 1221,
+        "end_char": 1260,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "شکایت",
+      "evidence": {
+        "quote": "حکم به ورود شکایت",
+        "start_char": 581,
+        "end_char": 598,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام طرف شکایت [اداره کل آموزش و پرورش و اداره اموزش و پرورش] به تمدید مرخصی زایمان",
+        "start_char": 601,
+        "end_char": 685,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی از دادنامه معترض‌به غیروارد [بوده]",
+        "start_char": 1297,
+        "end_char": 1345,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "شعبه ضمن تأیید دادنامه مذکور",
+        "start_char": 1351,
+        "end_char": 1379,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد تجدیدنظرخواهی سازمان مذکور را صادر و اعلام می‌دارد",
+        "start_char": 1381,
+        "end_char": 1439,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "طرف",
+      "evidence": {
+        "quote": "الزام طرف شکایت [اداره کل آموزش و پرورش و اداره اموزش و پرورش]",
+        "start_char": 601,
+        "end_char": 663,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "از سوی شاکی",
+        "start_char": 1121,
+        "end_char": 1132,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه ابراز نشده است",
+        "start_char": 1261,
+        "end_char": 1295,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قانون",
+      "evidence": {
+        "quote": "ماده واحده قانون اصلاح قوانین تنظیم جمعیت و خانواده",
+        "start_char": 884,
+        "end_char": 935,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "ضمن تأیید دادنامه مذکور",
+        "start_char": 1356,
+        "end_char": 1379,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی صادره قطعی است",
+        "start_char": 1441,
+        "end_char": 1459,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مدت مرخصی زایمان بانوان کارمند از 6 ماه به 9 ماه افزایش یافته است",
+      "evidence": {
+        "quote": "مدت مرخصی زایمان بانوان کارمند از 6 (شش) ماه به 9 ماه افزایش یافته است",
+        "start_char": 119,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی سازمان رد شده است",
+      "evidence": {
+        "quote": "قرار رد تجدیدنظرخواهی سازمان مذکور را صادر و اعلام می‌دارد",
+        "start_char": 1381,
+        "end_char": 1439,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

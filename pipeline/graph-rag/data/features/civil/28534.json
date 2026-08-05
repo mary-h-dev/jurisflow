@@ -1,0 +1,93 @@
+{
+  "ruling_id": "28534",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "امانت",
+      "evidence": {
+        "quote": "هماننده عقد امانت",
+        "start_char": 512,
+        "end_char": 529,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "الزام خوانده به استرداد جهیزیه",
+        "start_char": 71,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن ردّ تجدیدنظرخواهی",
+        "start_char": 1485,
+        "end_char": 1506,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به استرداد",
+        "start_char": 71,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تصرف زوج در جهیزیه",
+        "start_char": 445,
+        "end_char": 463,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخواه صادر شده است",
+        "start_char": 1216,
+        "end_char": 1247,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "استرداد جهیزیه",
+        "start_char": 87,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ادعای مالکیتی نسبت به اقلام جهیزیه ننموده است",
+      "evidence": {
+        "quote": "خوانده ادعای مالکیتی نسبت به اقلام جهیزیه ننموده است",
+        "start_char": 189,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

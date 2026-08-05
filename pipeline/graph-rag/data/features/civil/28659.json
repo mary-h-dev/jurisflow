@@ -1,0 +1,133 @@
+{
+  "ruling_id": "28659",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت",
+        "start_char": 255,
+        "end_char": 272,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهرالمثل",
+      "evidence": {
+        "quote": "مطالبه تعیین مهرالمثل",
+        "start_char": 100,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیحقی",
+      "evidence": {
+        "quote": "حکم به بیحقی دعوی خواهان",
+        "start_char": 909,
+        "end_char": 933,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه تعیین مهرالمثل",
+        "start_char": 90,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت آن",
+        "start_char": 124,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن ردّ تجدیدنظرخواهی",
+        "start_char": 1579,
+        "end_char": 1600,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "استماع اظهارات خواهان",
+        "start_char": 314,
+        "end_char": 335,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت آن",
+        "start_char": 124,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم به بیحقی تجدیدنظرخواه",
+        "start_char": 1277,
+        "end_char": 1302,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "دلالت تصویر سند نکاحیه",
+        "start_char": 282,
+        "end_char": 304,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مهرالمثل قبلاً تعیین شده است",
+      "evidence": {
+        "quote": "سابقاً مهریه به شرح فوق تعیین و به اقرار به زوجه نیز رسیده",
+        "start_char": 673,
+        "end_char": 731,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت وجود دارد",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت زوجین",
+        "start_char": 255,
+        "end_char": 278,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

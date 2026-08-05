@@ -1,0 +1,153 @@
+{
+  "ruling_id": "4337",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مالکیت تجدیدنظرخوانده نسبت به پلاک ثبتی مختلف فیه به موجب پاسخ استعلام ثبتی مضبوط در پرونده محرز و مسلم می باشد",
+        "start_char": 1313,
+        "end_char": 1424,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "ادامه تصرفات متصرف در حکم غصب می باشد",
+        "start_char": 1821,
+        "end_char": 1858,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "به خواسته خلع ید از یک باب آپارتمان",
+        "start_char": 32,
+        "end_char": 67,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت خسارت",
+      "evidence": {
+        "quote": "و نیز پرداخت خسارت دادرسی در حق خواهان",
+        "start_char": 599,
+        "end_char": 637,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "قابل واخواهی در این دادگاه می باشد",
+        "start_char": 706,
+        "end_char": 740,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض به شرح لایحه اعتراضیه وارد نبوده",
+        "start_char": 1221,
+        "end_char": 1260,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان، مالک پلاک متنازع فیه می باشد",
+        "start_char": 273,
+        "end_char": 309,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و نسبت به دعوی و مستندات ابرازی ایراد یا تکذیبی به عمل نیاورده",
+        "start_char": 343,
+        "end_char": 405,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بر محکومیت تجدیدنظرخواه ق.ر.",
+        "start_char": 980,
+        "end_char": 1008,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "مالکیت تجدیدنظرخوانده نسبت به پلاک ثبتی مختلف فیه",
+        "start_char": 1313,
+        "end_char": 1362,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "یک باب آپارتمان پلاک ثبتی شماره 14977 فرعی از 124 و 125 اصلی مفروز از 18 و 22 فرعي از اصلی مذکور واقع در بخش یازده تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "سند صلح رسمی شماره 127769 مورخ 11/1/1377",
+        "start_char": 1544,
+        "end_char": 1584,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه رسیدگی حضور نیافته است",
+      "evidence": {
+        "quote": "و نسبت به دعوی و مستندات ابرازی ایراد یا تکذیبی به عمل نیاورده",
+        "start_char": 343,
+        "end_char": 405,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت خواهان با استعلام ثبتی محرز شده است",
+      "evidence": {
+        "quote": "حسب پاسخ استعلام ثبتی، خواهان، مالک پلاک متنازع فیه می باشد",
+        "start_char": 250,
+        "end_char": 309,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

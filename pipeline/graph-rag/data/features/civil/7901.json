@@ -1,0 +1,193 @@
+{
+  "ruling_id": "7901",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 275,
+        "end_char": 292,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "وجه التزام",
+        "start_char": 165,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "برائت ذمه",
+        "start_char": 814,
+        "end_char": 823,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجور معوقه",
+        "start_char": 52,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "تخلیه",
+        "start_char": 105,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسویه حساب",
+      "evidence": {
+        "quote": "تسویه حساب",
+        "start_char": 236,
+        "end_char": 246,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض",
+        "start_char": 2458,
+        "end_char": 2461,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان",
+        "start_char": 383,
+        "end_char": 389,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده",
+        "start_char": 667,
+        "end_char": 673,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "مستأجر",
+        "start_char": 578,
+        "end_char": 584,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "موجر",
+        "start_char": 564,
+        "end_char": 568,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 1787,
+        "end_char": 1799,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجور معوقه",
+      "evidence": {
+        "quote": "اجور معوقه",
+        "start_char": 59,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "قرارداد اجاره",
+        "start_char": 426,
+        "end_char": 439,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قبوض",
+      "evidence": {
+        "quote": "قبوض مصرفی",
+        "start_char": 247,
+        "end_char": 257,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دفاع مؤثر توسط خوانده",
+      "evidence": {
+        "quote": "خوانده در قبال دعوی مطروحه از سوی خواهان و مستند منسوب به خویش هیچ گونه ایراد و دفاع مؤثری ارائه نکرده است",
+        "start_char": 667,
+        "end_char": 773,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود توافق در قرارداد برای خسارت عدم تخلیه",
+      "evidence": {
+        "quote": "طرفین به شرح توافق حاصله در قرارداد اجاره برای عدم تخلیه روزانه دویست هزار ریال خسارت تعیین نموده اند",
+        "start_char": 2261,
+        "end_char": 2362,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه مدرک پرداخت دین",
+      "evidence": {
+        "quote": "دلیل و مدرکی که مشعر بر پرداخت دین یا برائت ذمه وی باشد اقامه نکرده است",
+        "start_char": 776,
+        "end_char": 847,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

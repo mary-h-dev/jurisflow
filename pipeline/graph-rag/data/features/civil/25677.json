@@ -1,0 +1,153 @@
+{
+  "ruling_id": "25677",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "و بیع فاسد اثری در تملک ندارد",
+        "start_char": 1224,
+        "end_char": 1253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "منتهی به صدور حکم ابطال سند",
+        "start_char": 1140,
+        "end_char": 1167,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه ثمن معامله",
+        "start_char": 149,
+        "end_char": 176,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "طبق قرارداد کل ثمن معامله را به خوانده پرداخت",
+        "start_char": 724,
+        "end_char": 769,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "مورد اعتراض خوانده واقع شد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام وکالت",
+      "evidence": {
+        "quote": "ازناحیه خوانده اعلام وکالت نمود",
+        "start_char": 2192,
+        "end_char": 2223,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دعوی خواهان",
+        "start_char": 0,
+        "end_char": 18,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده",
+        "start_char": 74,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "مستحق للغیر درآمدن مبیع",
+        "start_char": 243,
+        "end_char": 266,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "با استناد به کپی مصدق مبایعه نامه",
+        "start_char": 355,
+        "end_char": 388,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتمان به مساحت 98 متر مربع واقع درسعادت آباد خریداری می نماید",
+        "start_char": 649,
+        "end_char": 721,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند بنام موکل منتقل می گردد",
+        "start_char": 803,
+        "end_char": 830,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت آپارتمان توسط شخص ثالثی ادعا شده است",
+      "evidence": {
+        "quote": "پس از چندماه شخص ثالثی مدعی مالکیت آپارتمان گردیده",
+        "start_char": 831,
+        "end_char": 881,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند آپارتمان توسط اجرای احکام از موکل تحویل گرفته شده است",
+      "evidence": {
+        "quote": "دایره اجرای احکام آپارتمان را از موکله طبق صورت جلسه 1391/6/25 تحویل و به تصرف مالک آن می دهد",
+        "start_char": 1000,
+        "end_char": 1093,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

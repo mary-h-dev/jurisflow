@@ -1,0 +1,153 @@
+{
+  "ruling_id": "915",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "هبه",
+      "evidence": {
+        "quote": "طلاهای مذکور هبه غیرمعوض بوده",
+        "start_char": 1077,
+        "end_char": 1106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انعقاد عقد",
+      "evidence": {
+        "quote": "مبادرت به انعقاد عقد کرده اند",
+        "start_char": 2736,
+        "end_char": 2765,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "الزام خوانده به استرداد عین 16/80 گرم طلا",
+        "start_char": 58,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.گ.",
+        "start_char": 2291,
+        "end_char": 2314,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای م.گ. به طرفیت همسرش خانم م.م.",
+        "start_char": 0,
+        "end_char": 47,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به استرداد عین 16/80 گرم طلا",
+        "start_char": 58,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.گ.",
+        "start_char": 2291,
+        "end_char": 2314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "موجبات نقض رأی فراهم نمانده است... محکومیت تجدیدنظرخوانده واقع شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "طلا",
+      "evidence": {
+        "quote": "استرداد عین 16/80 گرم طلا",
+        "start_char": 74,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فاکتور",
+      "evidence": {
+        "quote": "به استناد 9 فقره فاکتور پیوست دادخواست",
+        "start_char": 215,
+        "end_char": 253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "انگشتر",
+      "evidence": {
+        "quote": "موضوع فاکتور دارای شماره... مربوط به یک حلقه انگشتر خریداری شده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طلاها به عنوان هدیه داده شده است",
+      "evidence": {
+        "quote": "طلاهای مندرج در فاکتورها را به خوانده به عنوان همسرش هدیه داده است",
+        "start_char": 272,
+        "end_char": 338,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طلاها در مرحله نامزدی خریداری شده‌اند",
+      "evidence": {
+        "quote": "مربوط به یک حلقه انگشتر خریداری شده در مرحله قبل از عقد و به عبارتی هدیه دوره نامزدی بوده",
+        "start_char": 2615,
+        "end_char": 2704,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین عقد کرده‌اند",
+      "evidence": {
+        "quote": "زوجین پس از طی مرحله نامزدی، مبادرت به انعقاد عقد کرده اند",
+        "start_char": 2707,
+        "end_char": 2765,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

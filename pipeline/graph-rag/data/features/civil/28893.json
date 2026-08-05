@@ -1,0 +1,223 @@
+{
+  "ruling_id": "28893",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "احراز وقوع عقد بیع",
+        "start_char": 1441,
+        "end_char": 1459,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "مگر این که به رضای طرفین اقاله ویا به علت قانونی فسخ شود",
+        "start_char": 2766,
+        "end_char": 2822,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقاله",
+      "evidence": {
+        "quote": "مگر این که به رضای طرفین اقاله ویا به علت قانونی فسخ شود",
+        "start_char": 2766,
+        "end_char": 2822,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "دلیلی از سوی طرفین براقاله وفسخ ویا انفساخ قرار داد به محکمه ارائه نشده است",
+        "start_char": 3017,
+        "end_char": 3092,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "این قسمت از قرارداد از نظر محکمه اقرار تجدیدنظر خوانده تلقی می گردد",
+        "start_char": 3649,
+        "end_char": 3716,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه ثمن",
+      "evidence": {
+        "quote": "به خواسته مطالبه ثمن معامله",
+        "start_char": 72,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "نسبت به پرداخت دیون خواهان اقدام نماید",
+        "start_char": 1214,
+        "end_char": 1252,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی شرکت لیزینک ش.",
+        "start_char": 1888,
+        "end_char": 1917,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن پذیرش اعتراض ونقض دادنامه تجدیدنظر",
+        "start_char": 4694,
+        "end_char": 4732,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت شرکت لیزینگ ش.",
+        "start_char": 25,
+        "end_char": 48,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در حق خواهان صادر واعلام می نمایدرای صادره حضوری",
+        "start_char": 1693,
+        "end_char": 1741,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "علیه تجدیدنظر خواه صادر شده است",
+        "start_char": 2253,
+        "end_char": 2284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده پذیرفته است",
+        "start_char": 3423,
+        "end_char": 3450,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "مطالبه ثمن معامله",
+        "start_char": 82,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "وکالتنامه شماره 46879",
+        "start_char": 197,
+        "end_char": 218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "توافق‌نامه",
+      "evidence": {
+        "quote": "ارائه توافقنامه شماره 403/9152",
+        "start_char": 404,
+        "end_char": 434,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "مقرر بوده ملک مذکور در قبال بدهی خواهان تملیک گردد",
+        "start_char": 519,
+        "end_char": 569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاکهای ثبتی",
+      "evidence": {
+        "quote": "فروش ملک پلاکهای ثبتی 4033-4035 4159-4162 فرعی از 124 اصلی",
+        "start_char": 1055,
+        "end_char": 1113,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "توافقنامه به تصویب هیئت مدیره نرسیده است",
+      "evidence": {
+        "quote": "ولی توافقنامه مذکور به تصویب هیت مدیره نرسیده است",
+        "start_char": 628,
+        "end_char": 677,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک در تحویل خوانده می‌باشد",
+      "evidence": {
+        "quote": "طبق صورتجلسه ملک در تحویل موکل {خوانده }می باشد",
+        "start_char": 691,
+        "end_char": 738,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بدهی بخشی از مبلغ تهاتر شده است",
+      "evidence": {
+        "quote": "مبلغ 186/852/335/651ریال تهاتر گردیده است",
+        "start_char": 4415,
+        "end_char": 4456,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

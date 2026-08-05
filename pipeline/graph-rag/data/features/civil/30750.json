@@ -1,0 +1,213 @@
+{
+  "ruling_id": "30750",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت اجرت المثل",
+        "start_char": 41,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد لازم",
+      "evidence": {
+        "quote": "احراز انعقاد عقد لازم اجاره",
+        "start_char": 350,
+        "end_char": 377,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم س. غ.ط.",
+        "start_char": 2138,
+        "end_char": 2164,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت اجرت المثل",
+        "start_char": 41,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "الزام به استرداد ودیعه",
+        "start_char": 264,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "امتناع مؤجر و مستأجر از وظائف خود جهت تخلیه",
+        "start_char": 627,
+        "end_char": 670,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "تسلیم کلید به مرجع قانونی",
+        "start_char": 924,
+        "end_char": 949,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم س. غ.ط.",
+        "start_char": 2138,
+        "end_char": 2164,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت اجرت المثل",
+        "start_char": 41,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "مستأجر ملزم به تأدیه مال الاجاره ماهانه",
+        "start_char": 531,
+        "end_char": 570,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مؤجر",
+      "evidence": {
+        "quote": "امتناع مؤجر و مستأجر",
+        "start_char": 627,
+        "end_char": 647,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بر محکومیت تجدیدنظرخواه به استرداد",
+        "start_char": 2292,
+        "end_char": 2326,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "6 دانگ یکدستگاه آپارتمان",
+        "start_char": 85,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره‌نامه",
+      "evidence": {
+        "quote": "به موجب یک فقره اجاره نامه عادی شماره 796230",
+        "start_char": 378,
+        "end_char": 422,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ودیعه",
+      "evidence": {
+        "quote": "الزام به استرداد ودیعه",
+        "start_char": 264,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کلید",
+      "evidence": {
+        "quote": "تسلیم کلید به مرجع قانونی",
+        "start_char": 924,
+        "end_char": 949,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه استیجاری بین طرفین برقرار بوده است",
+      "evidence": {
+        "quote": "رابطه استیجاری محرز",
+        "start_char": 475,
+        "end_char": 494,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مستأجر از تخلیه و تسلیم کلید امتناع کرده است",
+      "evidence": {
+        "quote": "مستأجر نیز از تخلیه و تنظیم صورت جلسه تحویل و به دنبال آن تسلیم کلید به مرجع قانونی امتناع داشته اند",
+        "start_char": 866,
+        "end_char": 966,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مستأجر اجاره‌بها را پرداخت کرده است",
+      "evidence": {
+        "quote": "با احراز تأدیه اجاره بهای ماهانه مرداد ماه وشهریور",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مستأجر ودیعه را به حساب شورای حل اختلاف واریز کرده است",
+      "evidence": {
+        "quote": "با احراز تأدیه ودیعه از سوی مستأجر برابر با قبض 256380 درم ورخ 10 / 4 / 1394 به حساب شورای حل اختلاف",
+        "start_char": 1038,
+        "end_char": 1138,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

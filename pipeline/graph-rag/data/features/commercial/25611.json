@@ -1,0 +1,193 @@
+{
+  "ruling_id": "25611",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "اصل بر مسئولیت متصدی حمل بوده",
+        "start_char": 1646,
+        "end_char": 1675,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قوه قاهره",
+      "evidence": {
+        "quote": "دلیلی بر وجود قوه قاهره",
+        "start_char": 1754,
+        "end_char": 1777,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "از باب تسبیب نیز مسئول جبران خسارت می‌باشد",
+        "start_char": 2181,
+        "end_char": 2223,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ 221/850/000 ریال",
+        "start_char": 134,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "ارسال می‌نماید",
+        "start_char": 495,
+        "end_char": 509,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تحویل نشده",
+        "start_char": 586,
+        "end_char": 596,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقدام",
+      "evidence": {
+        "quote": "اقدام ننموده‌اند",
+        "start_char": 774,
+        "end_char": 790,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی",
+        "start_char": 1209,
+        "end_char": 1221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "محکوم می‌نماید",
+        "start_char": 2571,
+        "end_char": 2585,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض مذکور",
+        "start_char": 3996,
+        "end_char": 4015,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار نموده",
+        "start_char": 378,
+        "end_char": 401,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وارد دادرسی شده‌اند",
+        "start_char": 340,
+        "end_char": 359,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "یک دستگاه متال آنالیزر",
+        "start_char": 437,
+        "end_char": 459,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بیمه‌نامه",
+      "evidence": {
+        "quote": "تاریخ صدور بیمه نامه",
+        "start_char": 953,
+        "end_char": 973,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "تصویر مصدق قرارداد",
+        "start_char": 1427,
+        "end_char": 1445,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "کالا در جریان حمل آسیب دیده است",
+      "evidence": {
+        "quote": "در جریان حمل دستگاه دچار آسیب شده",
+        "start_char": 607,
+        "end_char": 640,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تاریخ صدور بیمه نامه بعد از تاریخ حادثه بوده است",
+      "evidence": {
+        "quote": "تاریخ صدور بیمه نامه بعد از تاریخ حادثه بوده",
+        "start_char": 953,
+        "end_char": 997,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده اول طرف قرارداد خواهان نیست",
+      "evidence": {
+        "quote": "خوانده اول نیز طرف قراردادی خواهان نمی‌باشد",
+        "start_char": 1044,
+        "end_char": 1087,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

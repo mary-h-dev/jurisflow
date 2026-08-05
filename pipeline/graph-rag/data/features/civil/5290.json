@@ -1,0 +1,163 @@
+{
+  "ruling_id": "5290",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل کارهای انجام شده",
+        "start_char": 89,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "قصد عدم تبرع خود را اعلام نموده است",
+        "start_char": 495,
+        "end_char": 530,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مبنی بر مطالبه اجرت المثل",
+        "start_char": 81,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده",
+        "start_char": 616,
+        "end_char": 637,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت مبلغ سیزده میلیون و دویست هزار تومان",
+        "start_char": 638,
+        "end_char": 684,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی درمحاکم تجدیدنظر",
+        "start_char": 813,
+        "end_char": 848,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن ردّ دادخواست تجدیدنظرخواهی",
+        "start_char": 1983,
+        "end_char": 2013,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان صادر",
+        "start_char": 734,
+        "end_char": 751,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده",
+        "start_char": 616,
+        "end_char": 637,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه",
+        "start_char": 1101,
+        "end_char": 1121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "همسرم متوقع بوده",
+        "start_char": 1325,
+        "end_char": 1341,
+        "confidence": 0.7
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "ملاحظه تصویر سند ازدواج",
+        "start_char": 245,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "مبلغ سیزده میلیون و دویست هزار تومان",
+        "start_char": 648,
+        "end_char": 684,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انجام کارهای خانه در ایام زندگی مشترک",
+      "evidence": {
+        "quote": "انجام می داده ام",
+        "start_char": 1365,
+        "end_char": 1381,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود رابطه زوجیت",
+      "evidence": {
+        "quote": "ایام زندگی مشترک",
+        "start_char": 124,
+        "end_char": 140,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

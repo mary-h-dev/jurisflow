@@ -1,0 +1,153 @@
+{
+  "ruling_id": "38417",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "مسقط حق حضانت فرزند مشترک از وی می باشد",
+        "start_char": 519,
+        "end_char": 558,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی خانم ن. ا.",
+        "start_char": 0,
+        "end_char": 31,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ایراد و اعتراض موجهی",
+        "start_char": 319,
+        "end_char": 339,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "که موجب نقض ان گردد",
+        "start_char": 340,
+        "end_char": 359,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیلی دال بر مخدوش بودن",
+        "start_char": 382,
+        "end_char": 418,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "پدر",
+      "evidence": {
+        "quote": "اعطای حضانت وی به پدرش",
+        "start_char": 202,
+        "end_char": 224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مادر",
+      "evidence": {
+        "quote": "ازدواج مجدد مادر",
+        "start_char": 471,
+        "end_char": 487,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "ادعای زوجه دال بر ابتلای زوج",
+        "start_char": 565,
+        "end_char": 593,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "ادعای زوجه دال بر ابتلای زوج",
+        "start_char": 565,
+        "end_char": 593,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره *مورخ 1401/05/23",
+        "start_char": 68,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "سلب حضانت تجدیدنظرخواه از فرزند مشترک",
+        "start_char": 149,
+        "end_char": 186,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "گواهی ارائه شده توسط زوجه",
+        "start_char": 633,
+        "end_char": 658,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه مجدداً ازدواج کرده است",
+      "evidence": {
+        "quote": "ازدواج مجدد مادر به استناد ماده 1170 قانون مدنی مسقط حق حضانت فرزند مشترک از وی می باشد",
+        "start_char": 471,
+        "end_char": 558,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "گواهی پزشکی مربوط به ۶ سال قبل است",
+      "evidence": {
+        "quote": "گواهی ارائه شده توسط زوجه متعلق به سال 1395 یعنی 6 سال قبل است",
+        "start_char": 633,
+        "end_char": 695,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

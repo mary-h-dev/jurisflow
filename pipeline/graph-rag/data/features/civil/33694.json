@@ -1,0 +1,133 @@
+{
+  "ruling_id": "33694",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عطف",
+      "evidence": {
+        "quote": "حسب قاعده عطف به ماسبق نشدن قانون",
+        "start_char": 293,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "حق بیمه را به مبلغ.... ریال در تاریخ 91/12/27 به سازمان تأمین اجتماعی پرداخت نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "الزام مشتکی عنه به استرداد وجوه حق بیمه پرداختی",
+        "start_char": 557,
+        "end_char": 604,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم به رد شکایت صادر",
+        "start_char": 714,
+        "end_char": 734,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را تایید",
+        "start_char": 1280,
+        "end_char": 1306,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "توسط شاکی قبل از 92/4/1 بوده است",
+        "start_char": 258,
+        "end_char": 290,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتکی عنه",
+      "evidence": {
+        "quote": "الزام مشتکی عنه به استرداد",
+        "start_char": 557,
+        "end_char": 583,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "حق بیمه",
+      "evidence": {
+        "quote": "پرداخت حق بیمه واحد ساختمانی",
+        "start_char": 66,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "دلالت گواهی شماره... مشارالیه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه مورداعتراض",
+        "start_char": 994,
+        "end_char": 1012,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت حق بیمه قبل از تاریخ تغییر قانون انجام شده است",
+      "evidence": {
+        "quote": "پرداخت حق بیمه ساختمان به تأمین اجتماعی توسط شاکی قبل از 92/4/1 بوده است",
+        "start_char": 218,
+        "end_char": 290,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شکایت از رد دادنامه قبلی مطرح شده است",
+      "evidence": {
+        "quote": "دادنامه مورداعتراض وفق موازین قانونی اصدار یافته",
+        "start_char": 994,
+        "end_char": 1042,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

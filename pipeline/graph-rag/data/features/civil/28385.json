@@ -1,0 +1,143 @@
+{
+  "ruling_id": "28385",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "با توجه به اصل برائت دین",
+        "start_char": 796,
+        "end_char": 820,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه چک",
+        "start_char": 62,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "خوانده مبلغ 000/ 000/ 240 ریال به حساب آقای خواهان واریز نموده است",
+        "start_char": 523,
+        "end_char": 589,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "که پرداخت کردم",
+        "start_char": 434,
+        "end_char": 448,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی م. ت.",
+        "start_char": 1363,
+        "end_char": 1389,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت آقای ن. ن.به خواسته مطالبه وجه چک به مبلغ 000/ 000/ 210 ریال تامین خواسته و مطالبه خسارات دادرسی و تاخیر تادیه خواهان",
+        "start_char": 43,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده دفاعا عنوان داسته است",
+        "start_char": 306,
+        "end_char": 334,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "و تجدیدنظرخواه در این مرحله از رسیدگی دلیل یا مدرک قانع کننده",
+        "start_char": 1791,
+        "end_char": 1852,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "دادگاه اعتراض معترض را وارد ندانسته",
+        "start_char": 1621,
+        "end_char": 1656,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "مطالبه وجه چک به مبلغ 000/ 000/ 210 ریال",
+        "start_char": 72,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 57 مورخ 1394/2/1",
+        "start_char": 1420,
+        "end_char": 1458,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده مبلغی را به حساب خواهان واریز کرده است",
+      "evidence": {
+        "quote": "خوانده مبلغ 000/ 000/ 240 ریال به حساب آقای خواهان واریز نموده است",
+        "start_char": 523,
+        "end_char": 589,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست تامین خواسته به دلیل عدم سپرده خسارت رد شد",
+      "evidence": {
+        "quote": "علیرغم ابلاغ اخطار قانونی سپرده نشده است لذا شرط قانونی تقاضا حاصل نبوده",
+        "start_char": 1123,
+        "end_char": 1195,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

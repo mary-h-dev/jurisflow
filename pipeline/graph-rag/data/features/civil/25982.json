@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25982",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته فسخ نکاح",
+        "start_char": 60,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت دائم",
+      "evidence": {
+        "quote": "وجود علقه زوجیت دائم فیمابین طرفین",
+        "start_char": 123,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "خوانده در امر ازدواج تدلیس کرده",
+        "start_char": 387,
+        "end_char": 418,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "برای طرف مقابل حق فسخ خواهد بوده",
+        "start_char": 761,
+        "end_char": 793,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "از شمول ماده 1128 قانون مدنی خارج است است... شرط بنایی را تشریح کرده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ نکاح",
+      "evidence": {
+        "quote": "به خواسته فسخ نکاح",
+        "start_char": 60,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته نقض و حکم به رد دعوا صادر شده است",
+        "start_char": 1794,
+        "end_char": 1851,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدید نظر خواهی آقای ر. د.س.",
+        "start_char": 1333,
+        "end_char": 1369,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با عنایت به اظهارات خواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و در لایحه تقدیمی نظر به اینکه خواهان فسخ نکاح خودرا به جهت اینکه خوانده در امر ازدواج تدلیس کرده",
+        "start_char": 322,
+        "end_char": 418,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "آقای ر. د.س. ( زوج )",
+        "start_char": 1357,
+        "end_char": 1377,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "خانم م. د. ( زوجه )",
+        "start_char": 1407,
+        "end_char": 1426,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "کپی سند نکاحیه",
+        "start_char": 108,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره 09309970221400138",
+        "start_char": 467,
+        "end_char": 498,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "کتمان سابقه ازدواج قبلی توسط زوج",
+      "evidence": {
+        "quote": "کتمان ازدواج قبلی از سوی زوج از اسباب فسخ نکاح نیست",
+        "start_char": 1742,
+        "end_char": 1793,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محکومیت کیفری زوج به حبس",
+      "evidence": {
+        "quote": "زوج به اتهام فریب در ازدواج به تحمل 91 روز حبس محکوم شده است",
+        "start_char": 1954,
+        "end_char": 2014,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

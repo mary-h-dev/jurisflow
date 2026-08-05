@@ -1,0 +1,103 @@
+{
+  "ruling_id": "32536",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "قرار ابطال دادخواست خواهان صادر",
+        "start_char": 418,
+        "end_char": 449,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی آقای م. خ.",
+        "start_char": 604,
+        "end_char": 635,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته نقض",
+        "start_char": 1210,
+        "end_char": 1236,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "از این امر استنکاف ورزیده است",
+        "start_char": 254,
+        "end_char": 283,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "از بررسی محتویات پرونده اعتراض تجدیدنظرخواه وارد است",
+        "start_char": 856,
+        "end_char": 906,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ادای توضیح از ناحیه خواهان",
+        "start_char": 141,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "قرار ابطال دادخواست تجدیدنظرخواه",
+        "start_char": 762,
+        "end_char": 794,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "خسارت ناشی از عدم انتفاع از خودرو سوناتا",
+        "start_char": 71,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ابلاغ اخطاریه به وکیل خواهان",
+      "evidence": {
+        "quote": "درمانحن فیه اخطاریه ای جت اخذتوضیح به وکیل خواهان ابلاغ نشده",
+        "start_char": 1058,
+        "end_char": 1118,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

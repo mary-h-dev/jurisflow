@@ -1,0 +1,183 @@
+{
+  "ruling_id": "28676",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام تصرف",
+        "start_char": 94,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ناشی از غصب",
+        "start_char": 1200,
+        "end_char": 1229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "اصل بر عدم تبرع",
+        "start_char": 2532,
+        "end_char": 2547,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام تصرف",
+        "start_char": 94,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقل",
+      "evidence": {
+        "quote": "نقل مکان کنم",
+        "start_char": 703,
+        "end_char": 715,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظر خواهی",
+        "start_char": 1644,
+        "end_char": 1666,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض آنگاه",
+        "start_char": 3061,
+        "end_char": 3070,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "تائید میگردد",
+        "start_char": 3632,
+        "end_char": 3644,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده آقای م. ک.",
+        "start_char": 42,
+        "end_char": 66,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خانم ک. ن.م. فرزند ق.الف. بطرفیت خوانده",
+        "start_char": 16,
+        "end_char": 55,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظر خواهی خانم ک. ن.م.",
+        "start_char": 1644,
+        "end_char": 1679,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "از ایراد و اعتراض تجدیدنظرخوانده نیز مصون مانده",
+        "start_char": 2793,
+        "end_char": 2840,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "مالک سه دانگ از پلاک ثبتی.... بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "در همان ملک زندگی مشترک دارند",
+        "start_char": 316,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین در ملک مشترک زندگی می‌کنند",
+      "evidence": {
+        "quote": "در حال حاضر زوجین ( خواهان و خوانده) در همان ملک زندگی مشترک دارند",
+        "start_char": 279,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بین زوجین تفریق حاصل شده است",
+      "evidence": {
+        "quote": "از سال 1390 بین زوجین تفریق حاصل",
+        "start_char": 2318,
+        "end_char": 2350,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بین زوجین جدایی ایجاد شده است",
+      "evidence": {
+        "quote": "بلحاظ جدایی ایجاد شده از این تاریخ",
+        "start_char": 2188,
+        "end_char": 2222,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

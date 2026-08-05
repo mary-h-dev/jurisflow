@@ -1,0 +1,193 @@
+{
+  "ruling_id": "35410",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "فساد بیع",
+        "start_char": 1176,
+        "end_char": 1184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال مبایعه نامه",
+        "start_char": 552,
+        "end_char": 569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "ثمن باید به مشتری مسترد گردد",
+        "start_char": 1012,
+        "end_char": 1040,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "و تاخیر تادیه",
+        "start_char": 284,
+        "end_char": 297,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه خسارت دادرسی",
+        "start_char": 262,
+        "end_char": 283,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت گردیده",
+        "start_char": 793,
+        "end_char": 806,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی م.ر. الف.ن.",
+        "start_char": 1948,
+        "end_char": 1974,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "قرار رد دعوا",
+        "start_char": 1705,
+        "end_char": 1717,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست خواهان م.ر. ا.",
+        "start_char": 8,
+        "end_char": 31,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 47,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "خوانده ردیف اول به عنوان بایع",
+        "start_char": 809,
+        "end_char": 838,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "ثمن باید به مشتری مسترد گردد",
+        "start_char": 1012,
+        "end_char": 1040,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه",
+        "start_char": 1948,
+        "end_char": 1961,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "مبیع مستحق للغیر در آمدن",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه نامه مورخه 77/12/22",
+        "start_char": 599,
+        "end_char": 625,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "استرداد ثمن معامله",
+        "start_char": 109,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبایعه نامه ابطال شده است",
+      "evidence": {
+        "quote": "با ابطال مبایعه نامه مذکور",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثمن معامله پرداخت شده است",
+      "evidence": {
+        "quote": "حاکی از پرداخت ثمن معامله به مبلغ 5/000/000تومان",
+        "start_char": 666,
+        "end_char": 714,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

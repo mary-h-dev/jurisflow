@@ -1,0 +1,133 @@
+{
+  "ruling_id": "809",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل 12سال زندگی مشترک",
+        "start_char": 125,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "با قصد تبرع انجام می دهد",
+        "start_char": 530,
+        "end_char": 554,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "ضمن احراز رابطه زوجیت اصحاب دعوی",
+        "start_char": 279,
+        "end_char": 311,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته صدورحکم مبنی بر تعیین و مطالبه اجرت المثل",
+        "start_char": 91,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی خانم ر.ز.",
+        "start_char": 1219,
+        "end_char": 1249,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "تجدیدنظرخواه را ملزم به پرداخت آن می نماید",
+        "start_char": 2468,
+        "end_char": 2510,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه امور زندگی زناشویی را بدون قصد مطالبه اجرت و با قصد تبرع انجام می دهد",
+        "start_char": 480,
+        "end_char": 554,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه را ملزم به پرداخت آن می نماید",
+        "start_char": 2468,
+        "end_char": 2510,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "حسب دلالت مندرجات سند نکاحیه پیوست پرونده",
+        "start_char": 313,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود رابطه زوجیت بین اصحاب دعوی",
+      "evidence": {
+        "quote": "ضمن احراز رابطه زوجیت اصحاب دعوی",
+        "start_char": 279,
+        "end_char": 311,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انجام کارهای منزل توسط زوجه",
+      "evidence": {
+        "quote": "زوجه امور زندگی زناشویی را بدون قصد مطالبه اجرت و با قصد تبرع انجام می دهد",
+        "start_char": 480,
+        "end_char": 554,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تعیین میزان اجرت المثل توسط کارشناس",
+      "evidence": {
+        "quote": "کارشناس منتخب دادگاه میزان اجرت المثل زندگی مشترک را مبلغ هشت میلیون و سیصد و ده هزار تومان تعیین نموده است",
+        "start_char": 2222,
+        "end_char": 2329,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

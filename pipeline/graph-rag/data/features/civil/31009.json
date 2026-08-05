@@ -1,0 +1,123 @@
+{
+  "ruling_id": "31009",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "تعدیل نفقه فرزند مشترک",
+        "start_char": 64,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان صادر",
+        "start_char": 366,
+        "end_char": 395,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "مورد اعتراض مشارالیها واقع شده است",
+        "start_char": 777,
+        "end_char": 811,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رداعتراض معترض دادنامه معترض عنه راعینا\" تایید مینماید",
+        "start_char": 1192,
+        "end_char": 1246,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست خانم ص. الف.م. به طرفیت آقای ن. الف.",
+        "start_char": 8,
+        "end_char": 53,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "پس از احراز رابطه پدری خوانده با طفل",
+        "start_char": 117,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ص. الف.م.",
+        "start_char": 561,
+        "end_char": 589,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "رداعتراض معترض دادنامه معترض عنه راعینا\" تایید مینماید",
+        "start_char": 1192,
+        "end_char": 1246,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه 1351 مورخه 94/8/3",
+        "start_char": 612,
+        "end_char": 640,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "والدین طفل با طلاق از هم جدا شده‌اند",
+      "evidence": {
+        "quote": "جداشدن والدین طفل با طلاق",
+        "start_char": 156,
+        "end_char": 181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست افزایش نفقه فرزند رد شده است",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی تجدیدنظرخواه به خواسته افزایش نفقه فرزند مشترک صادر گردیده است",
+        "start_char": 683,
+        "end_char": 763,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

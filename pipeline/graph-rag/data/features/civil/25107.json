@@ -1,0 +1,203 @@
+{
+  "ruling_id": "25107",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شراکت",
+      "evidence": {
+        "quote": "اثبات شراکت در خرید ملک",
+        "start_char": 85,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشتراکی",
+      "evidence": {
+        "quote": "صدور حکم به تقسیم مال اشتراکی",
+        "start_char": 280,
+        "end_char": 309,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "رأي بر بطلان آن صادر کرده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "با نفی صلاحیت خود پرونده را به دیوان عالی کشور ارسال",
+        "start_char": 1525,
+        "end_char": 1577,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "به خواسته اثبات شراکت در خرید ملک",
+        "start_char": 75,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "الزام به تخلیه ملک",
+        "start_char": 111,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد اسناد مالکیت",
+        "start_char": 132,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ قرار داد",
+        "start_char": 155,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نفی",
+      "evidence": {
+        "quote": "با نفی صلاحیت خود پرونده را به دیوان عالی کشور ارسال",
+        "start_char": 1525,
+        "end_char": 1577,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "اصلی",
+      "evidence": {
+        "quote": "رأی بر اثبات شراکت متداعیین نسبت به ملک مورد بحث صادر و مضافاً خواندگان دعوای اولیه به فروش مال اشتراکی به لحاظ عدم امکان تقسیم ملزم کرده است",
+        "start_char": 586,
+        "end_char": 727,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "خواندگان دعوای اولیه به فروش مال اشتراکی به لحاظ عدم امکان تقسیم ملزم کرده است",
+        "start_char": 649,
+        "end_char": 727,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "اثبات شراکت در خرید ملک",
+        "start_char": 85,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد مالکیت",
+      "evidence": {
+        "quote": "استرداد اسناد مالکیت",
+        "start_char": 132,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قطعه",
+      "evidence": {
+        "quote": "تقسیم مال اشتراکی یک قطعه زمینی",
+        "start_char": 292,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "واحد",
+      "evidence": {
+        "quote": "و یک واحد کارواش",
+        "start_char": 347,
+        "end_char": 363,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "طرفین راجع به پلاک مورد بحث دارای سند رسمی مشاعی نمی باشند",
+        "start_char": 2173,
+        "end_char": 2231,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین فاقد سند رسمی مشاعی برای ملک مورد بحث هستند",
+      "evidence": {
+        "quote": "طرفین راجع به پلاک مورد بحث دارای سند رسمی مشاعی نمی باشند",
+        "start_char": 2173,
+        "end_char": 2231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شراکت طرفین با حکم دادگاه اثبات شده است",
+      "evidence": {
+        "quote": "شراکت آنان با حکم دادگاه به اثبات رسیده است",
+        "start_char": 2234,
+        "end_char": 2277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک دارای سابقه ثبتی مشکوک است",
+      "evidence": {
+        "quote": "ملک مذکور دارای سابقه ثبتی می باشم که عملیات آن به اتهام رسیده است",
+        "start_char": 1289,
+        "end_char": 1355,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

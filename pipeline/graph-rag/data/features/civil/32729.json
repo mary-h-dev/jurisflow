@@ -1,0 +1,203 @@
+{
+  "ruling_id": "32729",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تایید فسخ",
+        "start_char": 114,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "بلحاظ اسقاط حق فسخ",
+        "start_char": 1033,
+        "end_char": 1051,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "محکوم به بطلان گردیده",
+        "start_char": 1075,
+        "end_char": 1096,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تایید فسخ",
+        "start_char": 114,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "تسلیم مبیع",
+        "start_char": 163,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی",
+        "start_char": 687,
+        "end_char": 710,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض حکم",
+        "start_char": 2752,
+        "end_char": 2762,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید دادنامه",
+      "evidence": {
+        "quote": "تایید می گردد",
+        "start_char": 3529,
+        "end_char": 3542,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بنابر این خواهان دارای حق فسخ نبوده",
+        "start_char": 378,
+        "end_char": 413,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده دلیلی بر بی اعتباری قرار داد مستند دعوی ارائه ننموده",
+        "start_char": 935,
+        "end_char": 994,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه ردیف دوم",
+        "start_char": 1964,
+        "end_char": 1985,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده م. محمدعلیزاده",
+        "start_char": 2272,
+        "end_char": 2301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده به بهانه مزبور",
+        "start_char": 3089,
+        "end_char": 3111,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "قرار داد مستند دعوی",
+        "start_char": 294,
+        "end_char": 313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "تسلیم مبیع",
+        "start_char": 163,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "تنظیم سند رسمی",
+        "start_char": 696,
+        "end_char": 710,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اصلی بخش",
+      "evidence": {
+        "quote": "پلاک ثبتی 1168 فرعی از پلاک 116 اصلی بخش 11 تهران",
+        "start_char": 747,
+        "end_char": 796,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین در قرارداد حق فسخ را از خود ساقط کرده‌اند",
+      "evidence": {
+        "quote": "طرفین قرار داد مستند دعوی طی بند 4-6 ماده 6 قرار داد کلیه خیارات را از خود ساقط نموده اند",
+        "start_char": 288,
+        "end_char": 377,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مساحت واقعی آپارتمان با مساحت قرارداد مغایرت دارد",
+      "evidence": {
+        "quote": "مغایرت مساحت واقعی آپارتمان با مساحت مذکور در قرارداد",
+        "start_char": 2886,
+        "end_char": 2939,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

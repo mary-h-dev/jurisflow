@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25983",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "زوجیت",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین زوجیت",
+        "start_char": 57,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت دائم",
+      "evidence": {
+        "quote": "رابطه و علقه زوجیت دائم اصحاب دعوا را محرز می نماید",
+        "start_char": 184,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مانع مشروع",
+      "evidence": {
+        "quote": "دلیل و مانع مشروعی که بتواند عدم تمکین خود را موجه و قانونی و محکمه پسند تلقی و جلوه نماید ارائه نکرده است",
+        "start_char": 349,
+        "end_char": 455,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "مسقط حق حبس زوجه نخواهد بود",
+        "start_char": 1459,
+        "end_char": 1486,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین زوجیت",
+        "start_char": 57,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "دادگاه اعتراض تجدیدنظرخواه را وارد دانسته",
+        "start_char": 1236,
+        "end_char": 1277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را نقض",
+        "start_char": 1581,
+        "end_char": 1605,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان آقای ع. ع.",
+        "start_char": 0,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خانم س. و.",
+        "start_char": 31,
+        "end_char": 48,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص دادخواست تجدیدنظرخواهی خانم س. و.",
+        "start_char": 966,
+        "end_char": 1007,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "خواهان اصلی پرونده (زوج)",
+        "start_char": 1670,
+        "end_char": 1694,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه (زوجه)",
+        "start_char": 1158,
+        "end_char": 1177,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "ملاحظه فتوکپی مصدق سند نکاحیه",
+        "start_char": 151,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهر",
+      "evidence": {
+        "quote": "تا مهر به او تسلیم نشده",
+        "start_char": 1327,
+        "end_char": 1350,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین اصحاب دعوا برقرار است",
+      "evidence": {
+        "quote": "رابطه و علقه زوجیت دائم اصحاب دعوا را محرز می نماید",
+        "start_char": 184,
+        "end_char": 235,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه باکره است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه باکره است",
+        "start_char": 1283,
+        "end_char": 1305,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

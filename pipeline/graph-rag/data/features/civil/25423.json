@@ -1,0 +1,123 @@
+{
+  "ruling_id": "25423",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه فرزند",
+      "evidence": {
+        "quote": "مطالبه نفقه فرزند",
+        "start_char": 71,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه فرزند",
+        "start_char": 61,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "اقامه دعوا کرده است",
+        "start_char": 1195,
+        "end_char": 1214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه مذکور نقض می‌شود",
+        "start_char": 1464,
+        "end_char": 1488,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "قرار رد دعوا صادر می‌گردد",
+        "start_char": 1546,
+        "end_char": 1571,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 185,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج از لحاظ مالی",
+        "start_char": 294,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه که به نمایندگی از طرف وی",
+        "start_char": 1157,
+        "end_char": 1194,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1182",
+        "start_char": 759,
+        "end_char": 785,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرزند بالغ است",
+      "evidence": {
+        "quote": "دوشیزه موصوف متولد 1381/8/13 شمسی و بالغ است",
+        "start_char": 964,
+        "end_char": 1008,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "افزایش تمکن مالی زوج اثبات نشده است",
+      "evidence": {
+        "quote": "با توجه به عدم اثبات افزایش تمکن مالی زوج",
+        "start_char": 341,
+        "end_char": 382,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

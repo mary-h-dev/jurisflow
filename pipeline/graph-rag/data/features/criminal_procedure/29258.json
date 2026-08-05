@@ -1,0 +1,163 @@
+{
+  "ruling_id": "29258",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "الزام خواندگان به پرداخت خسارت مادی و معنوی",
+        "start_char": 141,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ایام",
+      "evidence": {
+        "quote": "هزینه درمان ایام آینده",
+        "start_char": 187,
+        "end_char": 209,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "احتساب خسارات دادرسی",
+        "start_char": 213,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌حقی",
+      "evidence": {
+        "quote": "حکم به بی حقی خواهان صادر",
+        "start_char": 540,
+        "end_char": 565,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد دعوا در این قسمت ها صادر می گردد",
+        "start_char": 1362,
+        "end_char": 1402,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خواندگان",
+        "start_char": 131,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به نظریه هیات 5 نفره اعتراض موجه و مدللی به عمل نیامده است",
+        "start_char": 383,
+        "end_char": 446,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض و قرار رد دعوا",
+        "start_char": 1356,
+        "end_char": 1374,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه مزبور را تایید می نماید",
+        "start_char": 1890,
+        "end_char": 1921,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بیماری خواهان را منتسب به خواندگان ندانسته اند",
+        "start_char": 334,
+        "end_char": 380,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان به پرداخت",
+        "start_char": 141,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "عرضه شده از سوی تجدیدنظرخواندگان",
+        "start_char": 1619,
+        "end_char": 1651,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره940487-94/5/28",
+        "start_char": 853,
+        "end_char": 888,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "بیماری خواهان به خون‌های آلوده منتسب نیست",
+      "evidence": {
+        "quote": "بیماری خواهان را منتسب به خواندگان ندانسته اند",
+        "start_char": 334,
+        "end_char": 380,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبتلا شدن به بیماری هپاتیت C در اثر استفاده از خون‌های آلوده",
+      "evidence": {
+        "quote": "در اثر استفاده از خونهای آلوده عرضه شده از سوی تجدیدنظرخواندگان مبتلا به بیماری هپاتیت C شده",
+        "start_char": 1588,
+        "end_char": 1680,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

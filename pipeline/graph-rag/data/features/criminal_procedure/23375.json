@@ -1,0 +1,133 @@
+{
+  "ruling_id": "23375",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "حکم به برائت متهم (خوانده )صادر گردیده",
+        "start_char": 324,
+        "end_char": 362,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مبنی بر مطالبه خسارت",
+        "start_char": 35,
+        "end_char": 55,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوای",
+      "evidence": {
+        "quote": "حکم به رد دعوای خواهان صادر",
+        "start_char": 549,
+        "end_char": 576,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را عینا\"تایید",
+        "start_char": 1424,
+        "end_char": 1455,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "حکم به برائت متهم (خوانده )صادر گردیده",
+        "start_char": 324,
+        "end_char": 362,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "متهم (خوانده )",
+        "start_char": 337,
+        "end_char": 351,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از ناحیه خواهان نیز ارایه نگردیده است",
+        "start_char": 421,
+        "end_char": 458,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه227مورخ 1394/03/02 صادرشده ازشعبه1177دادگاه عمومی جزایی تهران که به موجب آن درموردخواسته تجدیدنظرخواه",
+        "start_char": 742,
+        "end_char": 858,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "و تجدیدنظرخوانده به موجب دادنامه71مورخ1394/01/26برائت حاصل نموده است",
+        "start_char": 1064,
+        "end_char": 1132,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "عدم قطعیت دادنامه شماره 71",
+        "start_char": 202,
+        "end_char": 228,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اتهام تخریب برای متهم احراز نشده است",
+      "evidence": {
+        "quote": "اتهام تخریب منتسب به تجدیدنظرخواه احرازنشده",
+        "start_char": 1020,
+        "end_char": 1063,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خسارتی پرداخت نشده است",
+      "evidence": {
+        "quote": "دلیلی بر پرداخت خسارت یا ضرر وزیان از ناحیه خواهان نیز ارایه نگردیده است",
+        "start_char": 386,
+        "end_char": 458,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

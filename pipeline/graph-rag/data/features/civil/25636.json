@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25636",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "غبن",
+      "evidence": {
+        "quote": "هریک از متعاملین که در معامله غبن فاحش داشته باشد",
+        "start_char": 462,
+        "end_char": 511,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "می‌تواند معامله را فسخ کند",
+        "start_char": 530,
+        "end_char": 556,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "خواهان از حق فسخ خود استفاده نکرده",
+        "start_char": 558,
+        "end_char": 592,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت ارش",
+        "start_char": 129,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی ف. ط.",
+        "start_char": 929,
+        "end_char": 956,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "دادگاه اعتراض معترض را وارد ندانسته",
+        "start_char": 1194,
+        "end_char": 1229,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت 1- الف. گ. 2- اداره اوقاف پاکدشت",
+        "start_char": 28,
+        "end_char": 69,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به خواسته صدور حکم بر محکومیت خوانده",
+        "start_char": 92,
+        "end_char": 128,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "و تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": 1365,
+        "end_char": 1402,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخواندگان",
+        "start_char": 957,
+        "end_char": 982,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بیع‌نامه",
+      "evidence": {
+        "quote": "به موجب بیع نامه مورخ 1392/1/25",
+        "start_char": 153,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خانه",
+      "evidence": {
+        "quote": "یک باب خانه به پلاک ثبتی مشاعی",
+        "start_char": 185,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "در خصوص مبایعه‌نامه 1392/1/25 یک دستگاه منزل مسکونی",
+        "start_char": 1107,
+        "end_char": 1158,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "قیمت واقعی ملک بیشتر از ثمن پرداختی بوده است",
+      "evidence": {
+        "quote": "قیمت واقعی ملک متنازع‌فیه بیشتر از ثمن پرداختی توسط خوانده بوده",
+        "start_char": 320,
+        "end_char": 383,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله با تبانی متصدی املاک انجام شده است",
+      "evidence": {
+        "quote": "که ایشان با تبانی متصدی املاک به خواهان پرداخت نموده است",
+        "start_char": 384,
+        "end_char": 440,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادخواست عدم استماع دعوا رد شده است",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوا را صادر و اعلام می‌دارد",
+        "start_char": 745,
+        "end_char": 788,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

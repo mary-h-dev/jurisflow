@@ -1,0 +1,113 @@
+{
+  "ruling_id": "801",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بلوغ",
+      "evidence": {
+        "quote": "سن بلوغ در پسر 15 سال تمام قمری و در دختر 9 سال تمام قمری می باشند",
+        "start_char": 181,
+        "end_char": 247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان آن صادر و اعلام می شود",
+        "start_char": 677,
+        "end_char": 712,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "دعوی اقامه شده غیر موجه تشخیص",
+        "start_char": 623,
+        "end_char": 652,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی است",
+        "start_char": 785,
+        "end_char": 807,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 1586,
+        "end_char": 1605,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه معترض⊿ٌعنه را عیناً تأیید می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی",
+        "start_char": 1363,
+        "end_char": 1390,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "فرزند مشترک دختر 9 ساله به نام ن.ن.",
+        "start_char": 95,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "از دادنامه شماره901451",
+        "start_char": 913,
+        "end_char": 935,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرزند مشترک به سن بلوغ رسیده است",
+      "evidence": {
+        "quote": "فرزند مشترک یاد شده به سن بلوغ رسیده است",
+        "start_char": 577,
+        "end_char": 617,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

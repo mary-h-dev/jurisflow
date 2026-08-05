@@ -1,0 +1,183 @@
+{
+  "ruling_id": "916",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 128,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد دائم",
+      "evidence": {
+        "quote": "به موجب عقدنامه شرعی به عقد دائم یکدیگر درآمده اند",
+        "start_char": 236,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "نشوز زوجه برای دادگاه احراز نگردید",
+        "start_char": 1408,
+        "end_char": 1442,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "موضوع از موارد عسر و حرج زوجه محسوب می گردد",
+        "start_char": 1362,
+        "end_char": 1405,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معاشرت",
+      "evidence": {
+        "quote": "حسن معاشرت را با زوجه در زندگی مشترک داشته باشد",
+        "start_char": 2924,
+        "end_char": 2971,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خودداری",
+      "evidence": {
+        "quote": "از حضور در منزل مشترک خودداری می نماید",
+        "start_char": 359,
+        "end_char": 397,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 1548,
+        "end_char": 1574,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی دادگاه بدوی را نقض کرده",
+        "start_char": 2723,
+        "end_char": 2750,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت زوجه به مراجعه به زندگی مشترک و تمکین در حق زوج صادر می نماید",
+        "start_char": 2784,
+        "end_char": 2860,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان آقای ع.ر.",
+        "start_char": 0,
+        "end_char": 33,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده خانم ز.ل.",
+        "start_char": 62,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تمکین در حق زوج صادر می نماید",
+        "start_char": 2831,
+        "end_char": 2860,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "الزام زوجه به تمکین",
+        "start_char": 1960,
+        "end_char": 1979,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "به موجب عقدنامه شرعی",
+        "start_char": 236,
+        "end_char": 256,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "از حضور در منزل مشترک خودداری می نماید",
+        "start_char": 359,
+        "end_char": 397,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از حضور در منزل مشترک خودداری کرده است",
+      "evidence": {
+        "quote": "خوانده بدون هیچگونه عذر شرعی یا قانونی از حضور در منزل مشترک خودداری می نماید",
+        "start_char": 320,
+        "end_char": 397,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان بابت ایراد ضرب به پرداخت دیه محکوم شده است",
+      "evidence": {
+        "quote": "خواهان بابت ایراد ضرب به پرداخت دیه محکوم گردیده است",
+        "start_char": 862,
+        "end_char": 914,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

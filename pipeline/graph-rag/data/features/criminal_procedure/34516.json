@@ -1,0 +1,143 @@
+{
+  "ruling_id": "34516",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "سرقت",
+      "evidence": {
+        "quote": "به اتهام سرقت",
+        "start_char": 67,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مال",
+      "evidence": {
+        "quote": "به اتهام خرید مال مسروقه",
+        "start_char": 93,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "مبادرت بصدور قرار عدم صلاحیت",
+        "start_char": 441,
+        "end_char": 469,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اختلاف",
+      "evidence": {
+        "quote": "بدلیل حصول و حدوث اختلاف در صلاحیت",
+        "start_char": 705,
+        "end_char": 739,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام نظر",
+      "evidence": {
+        "quote": "اعلام نظر نموده",
+        "start_char": 687,
+        "end_char": 702,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "پرونده به دیوان عالی کشور ارسال و به این شعبه ارجاع شده است",
+        "start_char": 781,
+        "end_char": 840,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "مقرر می دارد دفتر پرونده به مرجع مرسل اعاده",
+        "start_char": 2017,
+        "end_char": 2060,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهمان",
+      "evidence": {
+        "quote": "نسبت به رسیدگی به اتهامات متهمان",
+        "start_char": 1353,
+        "end_char": 1385,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ممیز",
+      "evidence": {
+        "quote": "آقای سید الف. طباطبایی عضو ممیز",
+        "start_char": 897,
+        "end_char": 928,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادیار",
+      "evidence": {
+        "quote": "دادیار دادسرای دیوان عالی کشور",
+        "start_char": 975,
+        "end_char": 1005,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پرونده به شعبه دوم دادگاه کیفری یک خراسان رضوی ارجاع شده است",
+        "start_char": 534,
+        "end_char": 594,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بموجب دادنامه شماره--‌- مورخ 1395/2/28",
+        "start_char": 211,
+        "end_char": 249,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلاف در صلاحیت بین دو دادگاه کیفری بدوی در یک استان وجود دارد",
+      "evidence": {
+        "quote": "حل اختلاف بین دو دادگاه کیفری بدوی در حوزه یک استان، در دادگاه تجدیدنظر همان استان بعمل می آید",
+        "start_char": 1581,
+        "end_char": 1675,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

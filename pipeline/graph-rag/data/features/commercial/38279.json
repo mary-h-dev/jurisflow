@@ -1,0 +1,153 @@
+{
+  "ruling_id": "38279",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "صدور حکم مبنی بر اعلام ورشکستگی",
+        "start_char": 181,
+        "end_char": 212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شخصیت حقوقی",
+      "evidence": {
+        "quote": "یک شخص حقوقی دارای شخصیت حقوقی مستقل از نامبرده است",
+        "start_char": 3418,
+        "end_char": 3469,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "تقاضا به شرح فوق را مطرح ساخته است",
+        "start_char": 374,
+        "end_char": 408,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "مدارک خود و نظریه حسابداری را ارائه خواهند نمود",
+        "start_char": 702,
+        "end_char": 749,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم به رد دعوای ورشکستگی وی صادر",
+        "start_char": 1440,
+        "end_char": 1472,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "حکم تجدیدنظر خواسته را با لحاظ استدلال های سابق الذکر تایید می نماید",
+        "start_char": 3828,
+        "end_char": 3896,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی اقای ح. ب. فرزند ع.",
+        "start_char": 0,
+        "end_char": 43,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از خواندگان اقای ح. ز. در جلسه دادرسی شرکت نموده",
+        "start_char": 555,
+        "end_char": 603,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی اقای ح. ب. فرزند ع.",
+        "start_char": 2711,
+        "end_char": 2751,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدیر",
+      "evidence": {
+        "quote": "تعیین مدیر تصفیه",
+        "start_char": 215,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "کارت",
+      "evidence": {
+        "quote": "داشتن کارت بازرگانی صرفا قرینه بر ملایت محسوب است",
+        "start_char": 2157,
+        "end_char": 2206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کارشناسی",
+      "evidence": {
+        "quote": "با ضمیمه نمودن بخشی از گزارش کارشناسی",
+        "start_char": 253,
+        "end_char": 290,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان بدهکار است",
+      "evidence": {
+        "quote": "خواهان اعلام داشته در وضعیت فعلی به خانم ش. ب. پ. تقریبا 500 میلیون تومان و به خانم ش. ب. پ. نیز تقریبا به همین میزان بدهکار است",
+        "start_char": 425,
+        "end_char": 553,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مدارک کافی برای اثبات ورشکستگی ارائه نشده است",
+      "evidence": {
+        "quote": "مستندات لازم و کافی توسط خواهان مبنی بر ادعای ورشکستگی به کارشناس ارائه نگردیده است",
+        "start_char": 1164,
+        "end_char": 1247,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

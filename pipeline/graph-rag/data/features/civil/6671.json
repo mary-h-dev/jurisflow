@@ -1,0 +1,123 @@
+{
+  "ruling_id": "6671",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "اصل بر صحت و لزوم آن ها بوده",
+        "start_char": 598,
+        "end_char": 626,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رجوع",
+      "evidence": {
+        "quote": "می توانند از اذن خود رجوع کرده",
+        "start_char": 1695,
+        "end_char": 1725,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ",
+        "start_char": 55,
+        "end_char": 76,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوا صادر گردیده است",
+        "start_char": 1274,
+        "end_char": 1310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مستوجب نقض خواهد بود",
+        "start_char": 1422,
+        "end_char": 1442,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان",
+        "start_char": 253,
+        "end_char": 265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شرکا",
+      "evidence": {
+        "quote": "شرکا همه وقت می توانند",
+        "start_char": 1682,
+        "end_char": 1704,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مطالبه مبلغ 000/000/700 ریال",
+        "start_char": 65,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "به انضمام خسارت تأخیر تأدیه",
+        "start_char": 94,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه قرارداد مشارکت در ساخت وساز",
+      "evidence": {
+        "quote": "هیچ گونه قراردادی مشعر بر مشارکت در ساخت وساز تنظیمی فی مابین طرفین را به دادگاه ارائه ننموده اند",
+        "start_char": 285,
+        "end_char": 382,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "استناد به استشهادیه برای اثبات پرداخت وجه",
+      "evidence": {
+        "quote": "برای اثبات ادعای خود مبنی بر پرداخت وجه مورد خواسته برای مشارکت مدنی به شهادت شهود و مسجلین ذیل استشهادیه ابرازی استناد نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

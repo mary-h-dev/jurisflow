@@ -1,0 +1,123 @@
+{
+  "ruling_id": "36782",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "غیرمجاز",
+      "evidence": {
+        "quote": "اتهام نگهداری غیرمجاز سلاح شکاری مهمات ان",
+        "start_char": 139,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حبس تعزیری",
+      "evidence": {
+        "quote": "تحمل 91 روز حبس تعزیری",
+        "start_char": 184,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مجازات",
+      "evidence": {
+        "quote": "الزاما باید مجازات جایگزین حبسی در نظر گرفته می شد",
+        "start_char": 483,
+        "end_char": 533,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی نموده",
+        "start_char": 690,
+        "end_char": 715,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "محکومیت قطعی یافته است",
+        "start_char": 207,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی نموده",
+        "start_char": 690,
+        "end_char": 715,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "ممیز",
+      "evidence": {
+        "quote": "اقای س.ق.م. عضو ممیز",
+        "start_char": 829,
+        "end_char": 849,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دیوان عالی کشور",
+      "evidence": {
+        "quote": "دادیار دیوان عالی کشور",
+        "start_char": 899,
+        "end_char": 921,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سلاح شکاری",
+      "evidence": {
+        "quote": "نگهداری غیرمجاز سلاح شکاری مهمات ان",
+        "start_char": 145,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم به نگهداری غیرمجاز سلاح محکوم شده است",
+      "evidence": {
+        "quote": "محکومیت قطعی یافته است",
+        "start_char": 207,
+        "end_char": 229,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست اعاده دادرسی مطرح شده است",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی نموده",
+        "start_char": 690,
+        "end_char": 715,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

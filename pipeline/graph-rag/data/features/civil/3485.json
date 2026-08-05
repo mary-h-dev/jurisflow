@@ -1,0 +1,213 @@
+{
+  "ruling_id": "3485",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته فسخ نکاح تقدیم",
+        "start_char": 53,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "خوانده با تدلیس موکل را فریب داده",
+        "start_char": 206,
+        "end_char": 239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "که همان شرط بنائی است",
+        "start_char": 3127,
+        "end_char": 3148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "از رأی صادره تجدیدنظرخواهی نموده",
+        "start_char": 3993,
+        "end_char": 4025,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرمان",
+      "evidence": {
+        "quote": "فرمان خواسته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت خانم ز.خ. به خواسته فسخ نکاح تقدیم",
+        "start_char": 24,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به نظریه پزشکی قانونی که توسط وکیل خواهان ارائه شده اعتراض دارم",
+        "start_char": 1794,
+        "end_char": 1862,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "پس از وقوع عقد موکل آگاه گردیده نامبرده باکره نبوده",
+        "start_char": 280,
+        "end_char": 331,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادرشده",
+      "evidence": {
+        "quote": "حکم طلاق از نوع خلعی صادرشده",
+        "start_char": 2650,
+        "end_char": 2678,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی صادره عیناً تأیید می گردد",
+        "start_char": 4839,
+        "end_char": 4868,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت خانم ز.خ.",
+        "start_char": 24,
+        "end_char": 52,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "موکل همسر شرعی و قانونی خوانده می باشد",
+        "start_char": 111,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "موکل همسر شرعی و قانونی خوانده می باشد",
+        "start_char": 111,
+        "end_char": 149,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "نامبرده باکره نبوده",
+        "start_char": 312,
+        "end_char": 331,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از رأی صادره تجدیدنظرخواهی نموده",
+        "start_char": 3993,
+        "end_char": 4025,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "ذکر نام دوشیزه در سند نکاحیه وی",
+        "start_char": 925,
+        "end_char": 956,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پرده بکارت",
+      "evidence": {
+        "quote": "آثار جراحت قدیمی روی پرده بکارت",
+        "start_char": 2287,
+        "end_char": 2318,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زفاف صورت نگرفته است",
+      "evidence": {
+        "quote": "زفاف صورت نگرفته است",
+        "start_char": 672,
+        "end_char": 692,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه باکره نبوده است",
+      "evidence": {
+        "quote": "آثار جراحت قدیمی روی پرده بکارت مشهود است که مورد ترمیم قرارگرفته",
+        "start_char": 3626,
+        "end_char": 3691,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج و زوجه با هم ازدواج کرده‌اند",
+      "evidence": {
+        "quote": "موکل بنده در تاریخ 1/7/88 با خوانده ازدواج نموده",
+        "start_char": 2897,
+        "end_char": 2945,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

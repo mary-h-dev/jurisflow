@@ -1,0 +1,163 @@
+{
+  "ruling_id": "6520",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "دلیلی مبنی برائت ذمه خود ارائه و ابراز ننموده است",
+        "start_char": 549,
+        "end_char": 598,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 177,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ",
+        "start_char": 64,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حاضر نشده",
+      "evidence": {
+        "quote": "در جلسه دادگاه حاضر نشده",
+        "start_char": 461,
+        "end_char": 485,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه نکرده",
+      "evidence": {
+        "quote": "دلیلی بر این امر ارائه نکرده است",
+        "start_char": 1785,
+        "end_char": 1817,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای د.ر.",
+        "start_char": 1230,
+        "end_char": 1253,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اظهارات خواهان",
+        "start_char": 247,
+        "end_char": 261,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با عنایت به اینکه خوانده",
+        "start_char": 392,
+        "end_char": 416,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه",
+        "start_char": 1453,
+        "end_char": 1473,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "با تجدیدنظر خوانده تسویه نموده است",
+        "start_char": 1744,
+        "end_char": 1778,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تلویزیون",
+      "evidence": {
+        "quote": "بابت فروش میز تلویزیون و جای باندی، بوفه",
+        "start_char": 103,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فاکتور",
+      "evidence": {
+        "quote": "به استناد 27 فقره فاکتور",
+        "start_char": 195,
+        "end_char": 219,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دادگاه حاضر نشده است",
+      "evidence": {
+        "quote": "خوانده علی رغم ابلاغ اخطاریه و اطلاع از وقت دادرسی در جلسه دادگاه حاضر نشده",
+        "start_char": 410,
+        "end_char": 485,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه ادعای جعل امضاء فاکتورها را مطرح کرده است",
+      "evidence": {
+        "quote": "علاوه بر ادعای جعل امضاء موکلش در فاکتورهای استنادی",
+        "start_char": 1895,
+        "end_char": 1946,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه ادعای پرداخت وجه را مطرح کرده است",
+      "evidence": {
+        "quote": "مدعی پرداخت وجه آن ها توسط موکلش شده است",
+        "start_char": 1963,
+        "end_char": 2003,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

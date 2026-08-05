@@ -1,0 +1,203 @@
+{
+  "ruling_id": "642",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "دعاوی خلع ید خوانده از یک مغازه",
+        "start_char": 163,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام تصرف",
+        "start_char": 236,
+        "end_char": 263,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "و خسارات دادرسی را اقامه نمود",
+        "start_char": 281,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مالکیت خواهان بر 1/2 دانگ از ملک موضوع دعوا",
+        "start_char": 622,
+        "end_char": 665,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "عمل خوانده غصب محسوب",
+        "start_char": 854,
+        "end_char": 874,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "خسارات دادرسی را اقامه نمود",
+        "start_char": 283,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خریداری",
+      "evidence": {
+        "quote": "از طریق مزایده خریداری نموده است",
+        "start_char": 409,
+        "end_char": 441,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "دادگاه ضمن رد تجدیدنظرخواهی به عمل آمده",
+        "start_char": 3501,
+        "end_char": 3540,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "عیناً دادنامه تجدیدنظرخواسته را تأیید و استوار می نماید",
+        "start_char": 3576,
+        "end_char": 3631,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ه.الف. که بعداً آقایان ح.ط. و م.م. به وکالت از خوانده تحصیل سمت نمودند",
+        "start_char": 33,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "محرز شد که خواهان 1/2 دانگ مشاع",
+        "start_char": 328,
+        "end_char": 359,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ه.الف.",
+        "start_char": 1946,
+        "end_char": 1979,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به مالکیت تجدیدنظرخوانده نسبت به 1/2 دانگ مشاع",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "خلع ید خوانده از یک مغازه",
+        "start_char": 169,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اصلی بخش",
+      "evidence": {
+        "quote": "به پلاک ثبتی 4/1678 اصلی بخش هشت تهران",
+        "start_char": 195,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سرقفلی",
+      "evidence": {
+        "quote": "6 دانگ حقوق کسبی و سرقفلی مغازه",
+        "start_char": 363,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "به موجب سند رسمی صلح حقوق به شماره 12872",
+        "start_char": 666,
+        "end_char": 706,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان از طریق مزایده ملک را خریداری کرده است",
+      "evidence": {
+        "quote": "خواهان 1/2 دانگ مشاع از 6 دانگ حقوق کسبی و سرقفلی مغازه موضوع دعوا را از طریق مزایده خریداری نموده است",
+        "start_char": 339,
+        "end_char": 441,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در ملک تصرف و انتفاع داشته است",
+      "evidence": {
+        "quote": "متضمن تصرف و انتفاع خوانده از آن می باشد",
+        "start_char": 482,
+        "end_char": 522,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

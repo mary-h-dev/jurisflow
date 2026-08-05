@@ -1,0 +1,133 @@
+{
+  "ruling_id": "34582",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "کلاهبرداری",
+      "evidence": {
+        "quote": "بلحاظ کلاهبرداری صادر شده",
+        "start_char": 782,
+        "end_char": 807,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 1679,
+        "end_char": 1694,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه خسارت",
+        "start_char": 80,
+        "end_char": 100,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "پس از واریز وجه",
+        "start_char": 529,
+        "end_char": 544,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "جهت تحویل چهار قطعه زمین",
+        "start_char": 485,
+        "end_char": 509,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت آقای الف. م.ز. فرزند ف. بخواسته مطالبه خسارت ناشی از کاهش ارزش اقتصادی ثمن مبیع در اثر کلاهبرداری خوانده",
+        "start_char": 49,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "چون خواهان ارزش زمین هائی را مطالبه نموده",
+        "start_char": 1562,
+        "end_char": 1603,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "تحویل چهار قطعه زمین در شیراز",
+        "start_char": 489,
+        "end_char": 518,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "اعم از اینکه خواسته ثمن مبیع باشد",
+        "start_char": 2600,
+        "end_char": 2633,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت مبلغ چهار صد و سی میلیون ریال در سال 1386",
+      "evidence": {
+        "quote": "با توجه به پرداخت مبلغ چهار صد و سی میلیون ریال بابت چهار قطعه زمین در شیراز در سال 1386",
+        "start_char": 812,
+        "end_char": 900,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تحویل زمین پس از واریز وجه",
+      "evidence": {
+        "quote": "با واریز وجه در سال 1386 بدون تحویل زمین",
+        "start_char": 1004,
+        "end_char": 1044,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تشکیل شرکت صوری",
+      "evidence": {
+        "quote": "خوانده دعوی با تشکیل شرکت صوری م. گ.",
+        "start_char": 343,
+        "end_char": 379,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

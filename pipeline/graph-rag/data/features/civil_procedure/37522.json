@@ -1,0 +1,243 @@
+{
+  "ruling_id": "37522",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 55,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "ادعای اعسار از پرداخت مهریه",
+        "start_char": 655,
+        "end_char": 682,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقسیط",
+      "evidence": {
+        "quote": "تقاضای تقسیط مهریه",
+        "start_char": 413,
+        "end_char": 431,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "تقاضای فرجامخواهی نموده",
+        "start_char": 1584,
+        "end_char": 1607,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امکان سازش",
+      "evidence": {
+        "quote": "دادخواست صدور گواهی عدم امکان سازش تقدیم نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقاضای",
+      "evidence": {
+        "quote": "از دادگاه تقاضای طلاق دارد",
+        "start_char": 299,
+        "end_char": 325,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "داوری",
+      "evidence": {
+        "quote": "دادگاه قرار داوری صادر کرده",
+        "start_char": 748,
+        "end_char": 775,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار عدم",
+      "evidence": {
+        "quote": "دادگاه قرار عدم صلاحیت به صلاحیت دادگاه بخش * صادر نموده است",
+        "start_char": 807,
+        "end_char": 866,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحقیق",
+      "evidence": {
+        "quote": "تحقیق نموده است",
+        "start_char": 957,
+        "end_char": 972,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "دادخواست تجدیدنظرخواهی تقدیم داشته",
+        "start_char": 1193,
+        "end_char": 1227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر و اعلام",
+      "evidence": {
+        "quote": "قرار رد فرجامخواهی فرجامخواه صادر و اعلام میگردد",
+        "start_char": 2559,
+        "end_char": 2607,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با خوانده ازدواج نموده",
+        "start_char": 135,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "با توجه به اینکه موکل کارگر بوده و قادر به پرداخت مهریه بصورت نقد نمی باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "نسبت به رای صادره بشرح لایحه وکیل خود دادخواست تجدیدنظرخواهی تقدیم داشته",
+        "start_char": 1237,
+        "end_char": 1309,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "فرمانخواه ( فرجامخواه )",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "فرمانخواه ( فرجامخواه )",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه دویست میلیون تومان",
+        "start_char": 160,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره *مورخ 1400/2/9",
+        "start_char": 1914,
+        "end_char": 1942,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "نسبت به رای صادره معترض است",
+        "start_char": 1535,
+        "end_char": 1562,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین در تاریخ 96/10/4 ازدواج کرده‌اند",
+      "evidence": {
+        "quote": "موکل در تاریخ 96/10/4 با خوانده ازدواج نموده",
+        "start_char": 113,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "هنوز زندگی مشترک را شروع نکرده‌اند",
+      "evidence": {
+        "quote": "هنوز زندگی مشترک را شروع ننمودند",
+        "start_char": 242,
+        "end_char": 274,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج قادر به پرداخت نقد مهریه نیست",
+      "evidence": {
+        "quote": "موکل کارگر بوده و قادر به پرداخت مهریه بصورت نقد نمی باشد",
+        "start_char": 340,
+        "end_char": 397,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "نظریه پزشکی قانونی مبنی بر غیر باکره بودن زوجه است",
+      "evidence": {
+        "quote": "نظریه پزشکی قانونی مبنی بر غیر باکره بودن زوجه جلب گردیده است",
+        "start_char": 973,
+        "end_char": 1034,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

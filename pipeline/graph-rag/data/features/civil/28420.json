@@ -1,0 +1,143 @@
+{
+  "ruling_id": "28420",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان معامله",
+      "evidence": {
+        "quote": "صدور حکم بر اعلام بطلان معامله",
+        "start_char": 192,
+        "end_char": 222,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدید نظر خواهی آقای ن. م.",
+        "start_char": 0,
+        "end_char": 34,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارت ناشی از کاهش ارزش ثمن",
+        "start_char": 1891,
+        "end_char": 1925,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "باید دعوای خود را زیر عنوان «استرداد ثمن»; و «مطالبه خسارت ناشی از کاهش ارزش ثمن»; اقامه نماید",
+        "start_char": 1991,
+        "end_char": 2085,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه موصوف در مورد دعوای تجدیدنظرخواه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "الزام تجدیدنظرخوانده به پرداخت ثمن معامله",
+        "start_char": 255,
+        "end_char": 296,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده خریدار استحقاق اخذ ثمن",
+        "start_char": 1818,
+        "end_char": 1855,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با توجه به مراتب مذکور خواهان نخستین باید دعوای خود را",
+        "start_char": 1954,
+        "end_char": 2008,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بیع‌نامه",
+      "evidence": {
+        "quote": "موضوع بیع نامه مورخ 1382/7/22",
+        "start_char": 223,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "الزام تجدیدنظرخوانده به پرداخت ثمن معامله",
+        "start_char": 255,
+        "end_char": 296,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "بر مالکیت رسمی غیر (شخص دیگر غیر از تجدیدنظرخواه) بر ملک متنازع فیه دارد",
+        "start_char": 422,
+        "end_char": 494,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه مالکیت ملک را اثبات نکرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه مالکیتی برملک مورد ترافع ندارد و دلیلی که نشان دهد ملک موصوف از طریق ناقل قانونی به وی منتقل گردیده باشد ارائه نداده است",
+        "start_char": 957,
+        "end_char": 1090,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ارزیابی قیمت ملک توسط کارشناس انجام شده است",
+      "evidence": {
+        "quote": "حسب نظریه کارشناس رسمی دادگستری قیمت روز ملک مذکور مبلغ چهارصدوهشتاد میلیون ریال ارزیابی گردیده است",
+        "start_char": 514,
+        "end_char": 613,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "7917",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد ثمن معامله",
+        "start_char": 46,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "کسری مساحت",
+      "evidence": {
+        "quote": "نسبت به 25/37 سانتی متر مربع کسری مساحت زمین",
+        "start_char": 75,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "حکم بر محکومیت خوانده به پرداخت 39 میلیون ریال",
+        "start_char": 1088,
+        "end_char": 1134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ح.ب.",
+        "start_char": 1436,
+        "end_char": 1459,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان",
+        "start_char": 1187,
+        "end_char": 1199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حکم بر محکومیت خوانده",
+        "start_char": 1088,
+        "end_char": 1109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بر اساس آن حکم بر محکومیت تجدیدنظرخواه",
+        "start_char": 1584,
+        "end_char": 1622,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "کسری مساحت زمین",
+        "start_char": 104,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موضوع مبایعه نامهای مورخ 07/10/1381 و30/02/ 1386",
+        "start_char": 145,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملکی که از طرف آقای پ. فروخته شده است",
+        "start_char": 236,
+        "end_char": 273,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زمین فروخته شده دارای کسری مساحت است",
+      "evidence": {
+        "quote": "ملک فروخته شده به خواهان بایستی 256 مترمربع باشد که در حال حاضر 222 مترمربع بوده و34 مترمربع کسری دارد",
+        "start_char": 634,
+        "end_char": 736,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ارزش کسری زمین در زمان معامله تعیین شده است",
+      "evidence": {
+        "quote": "و ارزش زمان معامله (30/02/1386) سی و نه میلیون ریال تعیین شده است",
+        "start_char": 737,
+        "end_char": 802,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

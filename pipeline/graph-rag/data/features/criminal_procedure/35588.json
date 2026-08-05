@@ -1,0 +1,163 @@
+{
+  "ruling_id": "35588",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "زنای به عنف",
+      "evidence": {
+        "quote": "متهم به زنای به عنف",
+        "start_char": 26,
+        "end_char": 45,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "در خصوص اعتراض آقای م. ن.",
+        "start_char": 0,
+        "end_char": 25,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 477,
+        "end_char": 496,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "قرار بازداشت موقت صادره تائید می گردد",
+        "start_char": 498,
+        "end_char": 535,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "قرار صادره نقض",
+        "start_char": 1175,
+        "end_char": 1188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "به دادگاه صادرکننده قراراعاده میگردد",
+        "start_char": 1243,
+        "end_char": 1279,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم به زنای به عنف",
+        "start_char": 26,
+        "end_char": 45,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "خانم شاکی به نام ف. ج.",
+        "start_char": 829,
+        "end_char": 851,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "ازجمله (معترض )",
+        "start_char": 898,
+        "end_char": 913,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرار",
+      "evidence": {
+        "quote": "قرار بازداشت موقت",
+        "start_char": 54,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "مفاد لایحه معترض",
+        "start_char": 795,
+        "end_char": 811,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی پزشکی",
+      "evidence": {
+        "quote": "مفاد گواهی پزشکی قانونی",
+        "start_char": 947,
+        "end_char": 970,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آزمایش DNA",
+      "evidence": {
+        "quote": "نتیجه آزمایش اسپرم شناسی",
+        "start_char": 984,
+        "end_char": 1008,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شاکی از اتهام گذشت کرده است",
+      "evidence": {
+        "quote": "نسبت به متهمین پرونده ازجمله (معترض ) اعلام گذشت نموده است",
+        "start_char": 876,
+        "end_char": 934,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرایط ماده ۲۳۸ قانون آئین دادرسی ابقاء قرار بازداشت موقت رفع شده است",
+      "evidence": {
+        "quote": "رفع شرایط ماده238 قانون آئین دادرسی ابقاء قراربازداشت موقت باتوجه به مراتب مذکورفاقد مبنای قانونی است",
+        "start_char": 1028,
+        "end_char": 1129,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

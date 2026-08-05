@@ -1,0 +1,193 @@
+{
+  "ruling_id": "6643",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "بابت وجه التزام موضوع قرارداد عادی",
+        "start_char": 246,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "عدم ایفاء تعهد اولیه",
+        "start_char": 636,
+        "end_char": 656,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "با احراز اشتغال ذمه خوانده",
+        "start_char": 1543,
+        "end_char": 1569,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "در دعوی مطالبه مبلغ",
+        "start_char": 196,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "سه فقره پرداخت وجه",
+        "start_char": 708,
+        "end_char": 726,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را نقض نموده",
+        "start_char": 1726,
+        "end_char": 1762,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "آقای ع.ل. را به پرداخت مبلغ یک صد و بیست وپنج میلیون ریال به علاوه پرداخت هزینه دادرسی و حق الوکاله هردو مرحله به آقای ک.و. محکوم می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ک.و.",
+        "start_char": 0,
+        "end_char": 23,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "خریدار (تجدیدنظر خوانده)",
+        "start_char": 357,
+        "end_char": 381,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "چنانچه خریدار (تجدیدنظر خوانده)",
+        "start_char": 350,
+        "end_char": 381,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "به فروشنده (تجدیدنظرخواه)",
+        "start_char": 572,
+        "end_char": 597,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "اشتغال ذمه خوانده",
+        "start_char": 1552,
+        "end_char": 1569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بی حقی خواهان",
+        "start_char": 167,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "موضوع قرارداد عادی مورخ 20/2/91",
+        "start_char": 262,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "احداث دیوار به طول 100 متر و ارتفاع 2 متر در ملک خواهان",
+        "start_char": 439,
+        "end_char": 494,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبلغ یک",
+      "evidence": {
+        "quote": "مبلغ یک صد و بیست وپنج میلیون ریال",
+        "start_char": 211,
+        "end_char": 245,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خریدار دیوارکشی ملک را انجام نداده است",
+      "evidence": {
+        "quote": "خریدار به عدم ایفاء تعهد اولیه مبنی بر دیوارکشی ملک فروشنده اقرار داشته",
+        "start_char": 626,
+        "end_char": 697,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت‌های انجام شده مربوط به قرارداد مورد بحث نیست",
+      "evidence": {
+        "quote": "پرداخت های مذکور قبل از انعقاد قرارداد مستند دعوی صورت گرفته",
+        "start_char": 844,
+        "end_char": 904,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

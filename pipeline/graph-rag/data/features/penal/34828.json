@@ -1,0 +1,233 @@
+{
+  "ruling_id": "34828",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قانونی",
+      "evidence": {
+        "quote": "اتهام شرکت در بازداشت غیر قانونی",
+        "start_char": 106,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "آدم ربایی",
+      "evidence": {
+        "quote": "به اتهام آدم ربایی با خودرو",
+        "start_char": 153,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توهین",
+      "evidence": {
+        "quote": "بزه توهین",
+        "start_char": 1318,
+        "end_char": 1327,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضرب وجرح عمدی",
+      "evidence": {
+        "quote": "ایراد ضرب و جرح عمدی",
+        "start_char": 220,
+        "end_char": 240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سرقت",
+      "evidence": {
+        "quote": "سرقت و تهدید نسبت به شاکی",
+        "start_char": 243,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تهدید",
+      "evidence": {
+        "quote": "سرقت و تهدید نسبت به شاکی",
+        "start_char": 243,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعزیر",
+      "evidence": {
+        "quote": "با اصل کلی تعزیر دون الحد مغایر",
+        "start_char": 3730,
+        "end_char": 3761,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بازداشت",
+      "evidence": {
+        "quote": "شرکت در بازداشت غیر قانونی",
+        "start_char": 112,
+        "end_char": 138,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "ضرب و جرح",
+      "evidence": {
+        "quote": "ایراد ضرب و جرح عمدی",
+        "start_char": 220,
+        "end_char": 240,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی نموده اند",
+        "start_char": 2974,
+        "end_char": 3003,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض این قسمت از دادنامه بدوی",
+        "start_char": 1905,
+        "end_char": 1937,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "در سایر موارد دادنامه تجدیدنظرخواسته را تأیید",
+        "start_char": 1967,
+        "end_char": 2012,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "نسبت به شاکی (آقای ح.م. )",
+        "start_char": 256,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهمین",
+      "evidence": {
+        "quote": "بین متهمین",
+        "start_char": 495,
+        "end_char": 505,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم ردیف چهارم",
+        "start_char": 582,
+        "end_char": 597,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکومین",
+      "evidence": {
+        "quote": "وکلای مدافع محکومین",
+        "start_char": 1623,
+        "end_char": 1642,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "دفاعیات غیر موثر وکیل ایشان",
+        "start_char": 1067,
+        "end_char": 1094,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "پرداخت دیه در حق شاکی خصوصی",
+        "start_char": 1558,
+        "end_char": 1585,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "با تقدیم لایحه ای مفصل",
+        "start_char": 2047,
+        "end_char": 2069,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شاکی در محل حضور غیر ارادی داشته است",
+      "evidence": {
+        "quote": "این حکایت از حضور غیر ارادی شاکی در محل و عدم اراده وی در خروج از محل داشته",
+        "start_char": 947,
+        "end_char": 1022,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم ردیف چهارم به شاکی سیلی زده است",
+      "evidence": {
+        "quote": "ردیف چهارم اقرار داشته چند سیلی به صورت شاکی زده",
+        "start_char": 896,
+        "end_char": 944,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم ردیف چهارم از موقعیت و لباس خود سوء استفاده کرده است",
+      "evidence": {
+        "quote": "ردیف چهارم ( م. م. ر. یی) در این خصوص از موقعیت و لباس خویش سوء استفاده نموده",
+        "start_char": 712,
+        "end_char": 789,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "4686",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "اصل نیز بر عدم تبرع می باشد",
+        "start_char": 293,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "به خواسته اجرت المثل ایام زندگی مشترک طرفین",
+        "start_char": 86,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "حکم به محکومیت آقای ر.ش. به پرداخت مبلغ",
+        "start_char": 658,
+        "end_char": 697,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در محاکم تجدیدنظر",
+        "start_char": 927,
+        "end_char": 956,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی صادر شده است",
+        "start_char": 1429,
+        "end_char": 1454,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست خانم ش.الف. با وکالت خانم س.ر. به طرفیت آقای ر.ش.",
+        "start_char": 8,
+        "end_char": 66,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده نیز دلیلی کافی بر بی اعتباری خواسته خواهان ارائه نکرده",
+        "start_char": 321,
+        "end_char": 382,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م.ش.",
+        "start_char": 1025,
+        "end_char": 1056,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "به پرداخت مبلغ /000/700/10 تومان",
+        "start_char": 683,
+        "end_char": 715,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "بابت هزینه دادرسی در حق خواهان",
+        "start_char": 765,
+        "end_char": 795,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انجام کارهایی در منزل مشترک توسط خواهان",
+      "evidence": {
+        "quote": "خواهان در طول زندگی مشترک کارهایی را که شرعاً به عهده وی نبوده در منزل مشترک انجام داده",
+        "start_char": 184,
+        "end_char": 271,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت هزینه دادرسی توسط تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نامبرده نسبت به پرداخت هزینه دادرسی اقدامی ننموده",
+        "start_char": 1704,
+        "end_char": 1753,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "ruling_id": "25837",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تایید فسخ قرارداد",
+        "start_char": 98,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "در صورت عدم ایفای تعهد",
+        "start_char": 1082,
+        "end_char": 1104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "پرداخت وجه التزام قراردادی",
+        "start_char": 2505,
+        "end_char": 2531,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "ایراد به صلاحیت دادگاه محلی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "بخواسته تایید فسخ قرارداد",
+        "start_char": 90,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "و استرداد مال",
+        "start_char": 207,
+        "end_char": 220,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه وجه بابت",
+        "start_char": 331,
+        "end_char": 348,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظر خواهی شرکت ج.",
+        "start_char": 2222,
+        "end_char": 2252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رای را نقض و پرونده را به مرجع صالح ارسال دارد",
+        "start_char": 3925,
+        "end_char": 3971,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را موافق حق تشخیص",
+        "start_char": 1647,
+        "end_char": 1683,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به استرداد",
+        "start_char": 230,
+        "end_char": 253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه مدعی عدم صلاحیت",
+        "start_char": 2657,
+        "end_char": 2686,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده به موجب قرارداد",
+        "start_char": 2787,
+        "end_char": 2817,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "از ناحیه خریدار",
+        "start_char": 1105,
+        "end_char": 1120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده میتواند قرارداد را",
+        "start_char": 3233,
+        "end_char": 3259,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد فروش",
+      "evidence": {
+        "quote": "قرارداد فروش شماره 058-1392-اچ پی",
+        "start_char": 137,
+        "end_char": 170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "استرداد یک دستگاه کمپرسور و تجهیزات مربوط",
+        "start_char": 246,
+        "end_char": 287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "پنج فقره چک موضوع تعهد قراردادی",
+        "start_char": 1353,
+        "end_char": 1384,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک‌ها بدون موجودی در بانک محال‌علیه بوده است",
+      "evidence": {
+        "quote": "منجر به صدور گواهی عدم پرداخت از طرف بانک محال علیه شده است",
+        "start_char": 1385,
+        "end_char": 1444,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ارسال اظهارنامه فسخ برای خوانده",
+      "evidence": {
+        "quote": "این اظهارنامه به خوانده دعوی نیز ابلاغ گردیده",
+        "start_char": 1597,
+        "end_char": 1642,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "امضای قرارداد توسط نمایندگی مدیر شرکت انجام شده است",
+      "evidence": {
+        "quote": "قرارداد مستند دعوی به امضای طرفین با نمایندگی مدیر شرکت و منقوش به مهر شرکت رسیده است",
+        "start_char": 491,
+        "end_char": 576,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

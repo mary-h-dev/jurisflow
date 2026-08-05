@@ -1,0 +1,173 @@
+{
+  "ruling_id": "29043",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "بخواسته ابطال رای داوری",
+        "start_char": 83,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ایراد",
+      "evidence": {
+        "quote": "ایراد شکلی و ماهوی",
+        "start_char": 236,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق دفاع",
+      "evidence": {
+        "quote": "بهره مندی طرفین از حق دفاع",
+        "start_char": 2053,
+        "end_char": 2079,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "بخواسته ابطال رای داوری",
+        "start_char": 83,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته نقض میگردد",
+        "start_char": 2345,
+        "end_char": 2378,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخوانده به پرداخت خسارات دادرسی",
+        "start_char": 2448,
+        "end_char": 2494,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان م. ج.م.",
+        "start_char": 0,
+        "end_char": 31,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده آقای ع.الف. ف.",
+        "start_char": 54,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در مورد دعوای تجدیدنظرخواه",
+        "start_char": 1169,
+        "end_char": 1195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخوانده",
+        "start_char": 2448,
+        "end_char": 2470,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "داور تصریح نموده است",
+        "start_char": 1683,
+        "end_char": 1703,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "ابطال رای داوری",
+        "start_char": 91,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت",
+      "evidence": {
+        "quote": "موضوع قرارداد مشارکت دراحداث بنا",
+        "start_char": 107,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 546",
+        "start_char": 1080,
+        "end_char": 1105,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رای داوری فاقد تاریخ است",
+      "evidence": {
+        "quote": "رای داوری فاقدتاریخ میباشد",
+        "start_char": 1654,
+        "end_char": 1680,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "جلسه رسیدگی و استماع اظهارات طرف تجدیدنظرخواه برگزار نشده است",
+      "evidence": {
+        "quote": "دلیلی بر تشکیل جلسه رسیدگی و استماع اظهارات تجدیدنظر خواه وجود ندارد",
+        "start_char": 1808,
+        "end_char": 1876,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

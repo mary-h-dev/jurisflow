@@ -1,0 +1,203 @@
+{
+  "ruling_id": "23478",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "مطالبه خسارات دادرسی",
+        "start_char": 239,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تاخیر تادیه",
+        "start_char": 262,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوای خواهان",
+        "start_char": 893,
+        "end_char": 918,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "رای صادره قابل تجدید نظر خواهی دردادگاه تجدید نظر استان می باشد",
+        "start_char": 941,
+        "end_char": 1004,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه مبلغ /200/000/000 ریال",
+        "start_char": 199,
+        "end_char": 236,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "انکار",
+      "evidence": {
+        "quote": "با انکار ادعا",
+        "start_char": 495,
+        "end_char": 508,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حساب",
+      "evidence": {
+        "quote": "اقدام به بسته نمودن حساب خود نموده",
+        "start_char": 542,
+        "end_char": 576,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض",
+        "start_char": 2223,
+        "end_char": 2252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت مجموعاً دویست میلیون ریال",
+        "start_char": 2454,
+        "end_char": 2489,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از سوی خواهان",
+        "start_char": 334,
+        "end_char": 347,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "بطرفیت خانم ز. ع.ب. و آقای م.ع. و خانم ت. و خانم س. و آقایان ح. و ع. و م. و خانمها ز. و ف. و ف. و ف. شهرت همگی الف.ق. و خانم ص. ک. و خانم ع. ر.",
+        "start_char": 55,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه استحقاق مطالبه مبلغ مزبورداشته",
+        "start_char": 1597,
+        "end_char": 1640,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "تجدیدنظرخواندگان حضورنیافته",
+        "start_char": 1721,
+        "end_char": 1748,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مورث",
+      "evidence": {
+        "quote": "از مورث خواندگان",
+        "start_char": 431,
+        "end_char": 447,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "کپی مصدق شده چک شماره 976423",
+        "start_char": 356,
+        "end_char": 384,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ترکه",
+      "evidence": {
+        "quote": "دعوا دراصل به ترکه متوفی توجه داشته",
+        "start_char": 1826,
+        "end_char": 1861,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک بلامحل بوده است",
+      "evidence": {
+        "quote": "توجه به تصویرچک بلامحل شماره 976423 بانک تجارت",
+        "start_char": 1449,
+        "end_char": 1495,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان در جلسه اتیان سوگند حاضر نشده است",
+      "evidence": {
+        "quote": "در موعد مقرر در جلسه حاضر نشده",
+        "start_char": 760,
+        "end_char": 790,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبلغ مورد مطالبه پرداخت نشده است",
+      "evidence": {
+        "quote": "بافوت مورث این مبلغ پرداخت نگردیده",
+        "start_char": 1644,
+        "end_char": 1678,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

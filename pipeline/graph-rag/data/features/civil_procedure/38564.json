@@ -1,0 +1,153 @@
+{
+  "ruling_id": "38564",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال رای داوری",
+        "start_char": 71,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی طرفی",
+      "evidence": {
+        "quote": "بی طرفی داور محل اشکال است",
+        "start_char": 869,
+        "end_char": 895,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "باطل می داند",
+        "start_char": 545,
+        "end_char": 557,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطرح",
+      "evidence": {
+        "quote": "مطرح کرد",
+        "start_char": 159,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مراجعه",
+      "evidence": {
+        "quote": "به داوری مراجعه کرد",
+        "start_char": 1355,
+        "end_char": 1374,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "بدون پرداخت پیش پرداخت",
+        "start_char": 1310,
+        "end_char": 1332,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان به خوانده پ. مشکی می فروشد",
+        "start_char": 294,
+        "end_char": 327,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خواهان به خوانده پ. مشکی می فروشد",
+        "start_char": 294,
+        "end_char": 327,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "داور به موجب رای داوری مورد بحث",
+        "start_char": 405,
+        "end_char": 436,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "میان طرفین دو قرارداد در تاریخ های 1400/2/1 و * منعقد می شود",
+        "start_char": 218,
+        "end_char": 277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای داوری مورخ 1401/07/12",
+        "start_char": 87,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "قراردادها امضا شده‌اند",
+      "evidence": {
+        "quote": "قراردادها توسط اقای م. به نمایندگی از خوانده امضا شده",
+        "start_char": 1105,
+        "end_char": 1158,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پیش پرداخت پرداخت نشده است",
+      "evidence": {
+        "quote": "خوانده بدون پرداخت پیش پرداخت و نهایی شدن قراردادها به داوری مراجعه کرد",
+        "start_char": 1303,
+        "end_char": 1374,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوای ابطال رای داوری خارج از مهلت قانونی مطرح شده است",
+      "evidence": {
+        "quote": "یعنی دعوای ابطال رای داوری خارج از مهلت قانونی مطرح شده است",
+        "start_char": 3908,
+        "end_char": 3967,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "25918",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "تأخیر تأدیه",
+        "start_char": 157,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "خسارات دادرسی",
+        "start_char": 141,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مبلغ 60/000/000 ریال",
+        "start_char": 54,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ این چک پرداخت شده",
+        "start_char": 314,
+        "end_char": 336,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأدیه",
+      "evidence": {
+        "quote": "تأدیه نموده",
+        "start_char": 1587,
+        "end_char": 1598,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض حکم تجدیدنظرخواسته",
+        "start_char": 2102,
+        "end_char": 2128,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 16,
+        "end_char": 27,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده",
+        "start_char": 28,
+        "end_char": 43,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده",
+        "start_char": 1411,
+        "end_char": 1431,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "بابت یک فقره چک",
+        "start_char": 82,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت چک پیش از سررسید انجام شده است",
+      "evidence": {
+        "quote": "تاریخ هر دو آن اسناد قبل از صدور این چک می‌باشد",
+        "start_char": 364,
+        "end_char": 411,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه ادعای پرداخت وجه چک را مطرح کرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه وجه چک مزبور را به موجب دو فقره فیش پرداختی... تأدیه نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

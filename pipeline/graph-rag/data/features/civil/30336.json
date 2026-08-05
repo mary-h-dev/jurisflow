@@ -1,0 +1,203 @@
+{
+  "ruling_id": "30336",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "تایید و تنفیذ انفساخ مبایعنامه",
+        "start_char": 118,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "احراز وقوع عقد بیع",
+        "start_char": 341,
+        "end_char": 359,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "از حق حبس خود استفاده نموده است",
+        "start_char": 1134,
+        "end_char": 1165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "به لحاظ جاری بودن اصل صحت",
+        "start_char": 2215,
+        "end_char": 2240,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "حکم به تایید و تنفیذ انفساخ",
+        "start_char": 111,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروخته",
+      "evidence": {
+        "quote": "مال موکل را به دانشگاه آزاد خواهان ورود ثالث فروخته",
+        "start_char": 495,
+        "end_char": 546,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "از تعاونی چکی را بابت بخشی از ثمن اخذ کرده",
+        "start_char": 549,
+        "end_char": 591,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "منعقد",
+      "evidence": {
+        "quote": "همانروز موخراً قراردادی با موکل منعقد",
+        "start_char": 594,
+        "end_char": 631,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "موکل نیز از پرداخت تتمه ثمن امتناع",
+        "start_char": 1097,
+        "end_char": 1131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه ی تجدیدنظر خواسته در خور نقض تشخیص داده می شود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "اصلی",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان اصلی",
+        "start_char": 0,
+        "end_char": 24,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده",
+        "start_char": 50,
+        "end_char": 63,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "در خصوص دعوی ورود ثالث شرکت تعاونی مسکن",
+        "start_char": 215,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "بایع قادر به تسلیم مبیع نبوده",
+        "start_char": 1209,
+        "end_char": 1238,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مورخ",
+      "evidence": {
+        "quote": "مبایعنامه 110/019 مورخ 91/12/12",
+        "start_char": 139,
+        "end_char": 170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "از تعاونی چکی را بابت بخشی از ثمن اخذ کرده",
+        "start_char": 549,
+        "end_char": 591,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک از تصرف موکل خارج شده",
+        "start_char": 998,
+        "end_char": 1023,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک پرداخت نشده است",
+      "evidence": {
+        "quote": "چک پرداخت نشده",
+        "start_char": 1242,
+        "end_char": 1256,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک از تصرف موکل خارج شده است",
+      "evidence": {
+        "quote": "ملک از تصرف موکل خارج شده",
+        "start_char": 998,
+        "end_char": 1023,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

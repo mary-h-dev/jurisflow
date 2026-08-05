@@ -1,0 +1,173 @@
+{
+  "ruling_id": "30459",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "انقضاء",
+      "evidence": {
+        "quote": "به دلیل انقضاء مدت",
+        "start_char": 240,
+        "end_char": 258,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی اصلی صادر و اعلام می‌نماید",
+        "start_char": 2630,
+        "end_char": 2674,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجاره",
+      "evidence": {
+        "quote": "به صورت توافقی اقدام به تعدیل و افزایش اجاره بها نموده اند",
+        "start_char": 1650,
+        "end_char": 1708,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "به خواسته تخلیه یک باب انباری",
+        "start_char": 178,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تنظیم سند رسمی اجاره",
+        "start_char": 450,
+        "end_char": 496,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدید نظر خواهی شرکت حمل و نقل بین المللی ت.",
+        "start_char": 3437,
+        "end_char": 3481,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "با رد تجدید نظر خواهی",
+        "start_char": 3953,
+        "end_char": 3974,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "ورثه",
+      "evidence": {
+        "quote": "باعنوان وراث ن. ل.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهانهای دعوی تقابل",
+        "start_char": 1274,
+        "end_char": 1294,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم سند رسمی اجاره",
+        "start_char": 460,
+        "end_char": 496,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "انباری",
+      "evidence": {
+        "quote": "تخلیه یک باب انباری",
+        "start_char": 188,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "فتوکپی مصدق سند مالکیت",
+        "start_char": 705,
+        "end_char": 727,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "فتوکپی قرارداد اجاره منعقده فیمابین",
+        "start_char": 917,
+        "end_char": 952,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "فتوکپی مصدق گواهی حصر وراثت",
+        "start_char": 1177,
+        "end_char": 1204,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اجاره‌بها در سال 1383 تعدیل شده است",
+      "evidence": {
+        "quote": "آخرین تعدیل در تاریخ 1383/2/1 به عمل آمده و مبلغ اجاره بها ماهیانه 1/200/000 ریال تعیین و توافق شده است",
+        "start_char": 1712,
+        "end_char": 1815,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرکت ترویج صنایع در اداره ثبت شرکت‌ها ثبت نشده بود",
+      "evidence": {
+        "quote": "شرکت ترویج صنایع که متعلق به آقای ن. ل. بوده است در اداره ثبت شرکتها به ثبت نرسیده است",
+        "start_char": 1088,
+        "end_char": 1174,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

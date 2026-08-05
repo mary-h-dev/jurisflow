@@ -1,0 +1,213 @@
+{
+  "ruling_id": "28521",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت را محرز دانسته",
+        "start_char": 205,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "حقوق و تکالیف طرفین نسبت به یکدیگر برقرار می شود",
+        "start_char": 334,
+        "end_char": 382,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معاشرت",
+      "evidence": {
+        "quote": "زن و شوهر مکلف به حسن معاشرت با یکدیگر بوده",
+        "start_char": 385,
+        "end_char": 428,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "رای به بطلان دعوای خواهان صادر",
+        "start_char": 849,
+        "end_char": 879,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدید نظرخواهی آقای ز.الف.م.ک.",
+        "start_char": 1050,
+        "end_char": 1080,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام به تمکین به شرح دادخواست",
+        "start_char": 79,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدید نظرخواهی آقای ز.الف.م.ک.",
+        "start_char": 1050,
+        "end_char": 1080,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه صادره را نقض می نماید",
+        "start_char": 2078,
+        "end_char": 2107,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی آقای آقای ز.الف. م.ک. فرزند م. بطرفیت خانم ص. ج. فرزند ع. بخواسته الزام به تمکین",
+        "start_char": 8,
+        "end_char": 93,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده بیان داشت",
+        "start_char": 641,
+        "end_char": 657,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظرخواهی آقای ز.الف.م.ک.",
+        "start_char": 1050,
+        "end_char": 1080,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "الزام تجدید نظرخوانده (زوجه )به تمکین",
+        "start_char": 2164,
+        "end_char": 2201,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "دعوی زوج به خواسته الزام زوجه به تمکین",
+        "start_char": 1216,
+        "end_char": 1254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "الزام زوجه به تمکین",
+        "start_char": 1235,
+        "end_char": 1254,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "کپی مصدق سند نکاحیه مضبوط در پرونده",
+        "start_char": 163,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه",
+      "evidence": {
+        "quote": "در عقد نامه ازدواج نیز حق انتخاب مسکن برای زوجه قرار داده نشده است",
+        "start_char": 1841,
+        "end_char": 1907,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در منزلی که خواهان تهیه کرده سکونت دارد",
+      "evidence": {
+        "quote": "خوانده فعلا در منزلی که خواهان تهیه کرده سکونت دارد",
+        "start_char": 503,
+        "end_char": 554,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان خانه را ترک کرده و به شهرستان همدان رفته است",
+      "evidence": {
+        "quote": "خواهان خودش خانه را ترک کرده و به شهرستان همدان رفته",
+        "start_char": 555,
+        "end_char": 606,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دختر خوانده دارای بیماری پیوند کلیه است",
+      "evidence": {
+        "quote": "ویک دختر28ساله پیوند کلیه دارم",
+        "start_char": 682,
+        "end_char": 712,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محل زندگی زوج در شهرستان رزن است",
+      "evidence": {
+        "quote": "محل زندگی خود را در اطراف شهرستان رزن قرار داده است",
+        "start_char": 1782,
+        "end_char": 1833,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

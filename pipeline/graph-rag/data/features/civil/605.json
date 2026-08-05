@@ -1,0 +1,123 @@
+{
+  "ruling_id": "605",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "با توجه به شرط مقرر در قرارداد",
+        "start_char": 227,
+        "end_char": 257,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بی حقی آنها در مطالبه مبلغ",
+        "start_char": 140,
+        "end_char": 166,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت مبلغ مذکور",
+        "start_char": 664,
+        "end_char": 684,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض آن قسمت از دادنامه",
+        "start_char": 597,
+        "end_char": 623,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "به تجدیدنظرخواه صادر می کند",
+        "start_char": 685,
+        "end_char": 712,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخوانده ردیف اول",
+        "start_char": 632,
+        "end_char": 663,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده متعهّد شده است",
+        "start_char": 259,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "در صورت مستحقٌ للغیر درآمدن مبیع",
+        "start_char": 285,
+        "end_char": 317,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "با پرداخت ثمن به قیمت روز مبیع",
+        "start_char": 318,
+        "end_char": 348,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مطالبه مبلغ 000/000/980/1 ریال",
+        "start_char": 155,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "در قرارداد شرطی برای جبران خسارت در صورت مستحق‌الغیر شدن مبیع وجود دارد",
+      "evidence": {
+        "quote": "با توجه به شرط مقرر در قرارداد، فروشنده متعهّد شده است که در صورت مستحقٌ للغیر درآمدن مبیع با پرداخت ثمن به قیمت روز مبیع، جبران خسارت نماید",
+        "start_char": 227,
+        "end_char": 367,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

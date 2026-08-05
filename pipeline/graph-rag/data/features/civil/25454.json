@@ -1,0 +1,153 @@
+{
+  "ruling_id": "25454",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تعهد به حفظ اعتبار قرارداد و عدم فسخ آن",
+        "start_char": 368,
+        "end_char": 407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "فقط برای مشارالیه (تجدیدنظرخواه) حق فسخ محفوظ است",
+        "start_char": 1673,
+        "end_char": 1722,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه ارزش 29 مترمربع",
+        "start_char": 67,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "به خوانده انتقال داده",
+        "start_char": 301,
+        "end_char": 322,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان را صادر می‌نماید",
+        "start_char": 703,
+        "end_char": 741,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی ش. (موسسه الف.)",
+        "start_char": 895,
+        "end_char": 932,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "تعدیل حکم به قرار رد دعوا آن را نتیجتاً تأیید می‌نماید",
+        "start_char": 2167,
+        "end_char": 2221,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان ش. (موسسه الف.)",
+        "start_char": 0,
+        "end_char": 39,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای ک. م.",
+        "start_char": 40,
+        "end_char": 66,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "رد دعوای تجدیدنظرخواه (خواهان دعوای نخستین)",
+        "start_char": 1114,
+        "end_char": 1157,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "به موجب مبایعه‌نامه شماره 19435/2208/555",
+        "start_char": 180,
+        "end_char": 220,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتمان خریداری شده",
+        "start_char": 124,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مساحت آپارتمان با مساحت قرارداد متفاوت است",
+      "evidence": {
+        "quote": "مطالبه ارزش 29 مترمربع بابت اضافه مساحت",
+        "start_char": 77,
+        "end_char": 116,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در قرارداد درباره زیاده و نقصان رقبه توافقی صورت نگرفته است",
+      "evidence": {
+        "quote": "در خصوص زیاده و نقصان رقبه مورد معامله در قرارداد فروش شماره 555/2208/19435 فیمابین متعاملین هیچ‌گونه تراضی و توافقی به عمل نیامده",
+        "start_char": 1465,
+        "end_char": 1595,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

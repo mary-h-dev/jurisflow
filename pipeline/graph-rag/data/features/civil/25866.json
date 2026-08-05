@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25866",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "در صورت فسخ قرارداد",
+        "start_char": 421,
+        "end_char": 440,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "زیرا خیار فاقد مدت است",
+        "start_char": 1280,
+        "end_char": 1302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "خواهان مدعی فسخ قرارداد انحلال عقد است",
+        "start_char": 1082,
+        "end_char": 1120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظر خواهی در محاکم تجدید نظر استان تهران می باشد",
+        "start_char": 2059,
+        "end_char": 2118,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه خسارت",
+        "start_char": 163,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امضاء",
+      "evidence": {
+        "quote": "امضاء نموده است",
+        "start_char": 1523,
+        "end_char": 1538,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 3059,
+        "end_char": 3089,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان",
+        "start_char": 0,
+        "end_char": 19,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 63,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "عامل",
+      "evidence": {
+        "quote": "بنوان مدیر عامل شرکت",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد فروش",
+      "evidence": {
+        "quote": "قرارداد فروش عادی با شرکت خوانده منعقد مینماید",
+        "start_char": 316,
+        "end_char": 362,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1374-93/11/29",
+        "start_char": 2225,
+        "end_char": 2260,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شرکت ایتا فوم قرارداد فروش عادی با شرکت تعاونی مسکن منعقد کرده است",
+      "evidence": {
+        "quote": "شرکت موکل در مورخ 92.5.6 قرارداد فروش عادی با شرکت خوانده منعقد مینماید",
+        "start_char": 291,
+        "end_char": 362,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرکت خوانده اعلام فسخ قرارداد کرده است",
+      "evidence": {
+        "quote": "به موجب اعلام فسخ قرارداد از جانب شرکت خوانده در مورخ 93.6.12",
+        "start_char": 500,
+        "end_char": 561,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شخص مدیر عامل شرکت در تنظیم قرارداد سمتی نداشته است",
+      "evidence": {
+        "quote": "اصالتا سمتی در تنظیم قرارداد نداشته",
+        "start_char": 1541,
+        "end_char": 1576,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

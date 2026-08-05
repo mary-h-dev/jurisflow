@@ -1,0 +1,193 @@
+{
+  "ruling_id": "38165",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "بخاسته فسخ نکاح",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار فسخ",
+      "evidence": {
+        "quote": "خیار فسخ نامبرده ساقط گردیده است",
+        "start_char": 3295,
+        "end_char": 3327,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قاعده",
+      "evidence": {
+        "quote": "قاعده البینه و اختلاف خانوادگی",
+        "start_char": 3899,
+        "end_char": 3929,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "مبادرت به ازدواج با یکتر نموده اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.7
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "پس از گذشت یکسال مبادرت به طرح دعوی فسخ نمود",
+        "start_char": 3096,
+        "end_char": 3140,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به این رای اعتراض و تقاضای تجدیدنظرخواهی می کند",
+        "start_char": 4111,
+        "end_char": 4163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "طی لایحه شماره 838 – 88/08/26 دادخواست خود را مسترد نمود",
+        "start_char": 2986,
+        "end_char": 3042,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار داشت",
+        "start_char": 2036,
+        "end_char": 2058,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در غياب خوانده تشکیل جلسه میدهد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "ازدواج زوجین در تاریخ 86/08/21 به وقوع پیوسته",
+        "start_char": 5626,
+        "end_char": 5671,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه با استناد به اینکه در خارج از کشور تحصیلات عالیه پزشکی را طی نموده",
+        "start_char": 1226,
+        "end_char": 1297,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "بر اساس سند نکاحیه شماره 39021",
+        "start_char": 168,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "با تقدیم وکالتنامه ای خود را به عنوان وکیل خوانده معرفی می کند",
+        "start_char": 2498,
+        "end_char": 2560,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "ده هزار سکه تمام بهار ازادی به عنوان مهریه در نظر گرفته است",
+        "start_char": 461,
+        "end_char": 520,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "ده هزار سکه تمام بهار ازادی",
+        "start_char": 461,
+        "end_char": 488,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه پزشک نیست",
+      "evidence": {
+        "quote": "مشخص گردیده زوجه اساسا پزشک نیست",
+        "start_char": 603,
+        "end_char": 635,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ازدواج با وجود همسر اول",
+      "evidence": {
+        "quote": "خوانده یک بار ازدواج نموده و دارای فرزند از همسر اول خود می باشد",
+        "start_char": 348,
+        "end_char": 412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "استرداد قبلی دعوای مهریه",
+      "evidence": {
+        "quote": "پس از انکه دعوی مطالبه قسمت اعظم مهریه طرح شد مجددا پس از گذشت یکسال مبادرت به طرح دعوی فسخ نمود",
+        "start_char": 3044,
+        "end_char": 3140,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

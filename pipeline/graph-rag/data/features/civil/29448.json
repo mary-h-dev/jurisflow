@@ -1,0 +1,143 @@
+{
+  "ruling_id": "29448",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ف. الف.",
+        "start_char": 0,
+        "end_char": 26,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "حکم به رد واخواهی",
+        "start_char": 168,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "و خسارت تأخیر تأدیه",
+        "start_char": 364,
+        "end_char": 383,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "و خسارات دادرسی",
+        "start_char": 384,
+        "end_char": 399,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد واخواهی",
+      "evidence": {
+        "quote": "حکم به رد واخواهی",
+        "start_char": 168,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه به پرداخت مبلغ",
+        "start_char": 232,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عیناً تأیید",
+        "start_char": 1065,
+        "end_char": 1102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با رد درخواست تجدیدنظرخواهی مطروحه",
+        "start_char": 987,
+        "end_char": 1021,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه",
+        "start_char": 232,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بطرفیت تجدیدنظرخوانده",
+        "start_char": 27,
+        "end_char": 48,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "پرداخت مبلغ 253/599/167 ریال",
+        "start_char": 256,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 157",
+        "start_char": 76,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه مبلغ مورد حکم را پرداخت نکرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل موجه و متقنی مبنی بر پرداخت مبلغ مذکور ارایه ننموده است",
+        "start_char": 503,
+        "end_char": 576,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

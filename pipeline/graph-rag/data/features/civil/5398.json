@@ -1,0 +1,173 @@
+{
+  "ruling_id": "5398",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صوری",
+      "evidence": {
+        "quote": "ابطال معامله صوری",
+        "start_char": 109,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "قصد فرار از دین",
+        "start_char": 2034,
+        "end_char": 2049,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "اصل بر صحت معاملات است",
+        "start_char": 2260,
+        "end_char": 2282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "باطل",
+      "evidence": {
+        "quote": "باطل می باشد",
+        "start_char": 2366,
+        "end_char": 2378,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "صدور حکم بر ابطال",
+        "start_char": 97,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "انتقال پلاک ثبتی موضوع خواسته",
+        "start_char": 1337,
+        "end_char": 1366,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "تجدد نظرخواهی را ردّ",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را تأیید می نماید",
+        "start_char": 3560,
+        "end_char": 3601,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مورد ادعای خواهان",
+        "start_char": 1283,
+        "end_char": 1299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "فی مابین خواندگان",
+        "start_char": 127,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف اول",
+        "start_char": 340,
+        "end_char": 355,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "ملک دارای پلاک ثبتی شماره 1032/37",
+        "start_char": 153,
+        "end_char": 186,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "ابطال اسناد تنظیم مربوطه",
+        "start_char": 214,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند شماره 128919",
+        "start_char": 1265,
+        "end_char": 1281,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انتقال ملک قبل از صدور حکم مدیونیت انجام شده است",
+      "evidence": {
+        "quote": "انتقال سند رسمی موضوع دعوی بر روی ملک قبل از صدور حکم مبنی بر مدیون بودن خواهان انجام شده",
+        "start_char": 1607,
+        "end_char": 1696,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در زمان معامله، دین مسلم و ثابت نبوده است",
+      "evidence": {
+        "quote": "در زمان معامله دین مسلم و ثابت، محقق نبوده",
+        "start_char": 1699,
+        "end_char": 1741,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

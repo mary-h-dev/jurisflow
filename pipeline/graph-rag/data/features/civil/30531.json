@@ -1,0 +1,313 @@
+{
+  "ruling_id": "30531",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "به خواسته صدور گواهی عدم امکان سازش",
+        "start_char": 88,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "خواسته خود را به صدور حکم طلاق به لحاظ عسر و حرج",
+        "start_char": 2488,
+        "end_char": 2536,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سوء رفتار",
+      "evidence": {
+        "quote": "دلالت بر سوء رفتار و معاشرت هر دو نسبت به یکدیگر دارد",
+        "start_char": 7954,
+        "end_char": 8007,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معاشرت",
+      "evidence": {
+        "quote": "دلالت بر سوء رفتار و معاشرت هر دو نسبت به یکدیگر دارد",
+        "start_char": 7954,
+        "end_char": 8007,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "الباقی سکه های مذکور را در قبال طلاق بذل می نمایم",
+        "start_char": 9432,
+        "end_char": 9481,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر گردیده",
+        "start_char": 10926,
+        "end_char": 10962,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "زوجین به علت طلاق عاطفی قادر به ادامه زندگی مشترک در کنار یکدیگر نیستند",
+        "start_char": 4184,
+        "end_char": 4255,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "که عندالمطالبه بپردازد",
+        "start_char": 2309,
+        "end_char": 2331,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض دادنامه مذکور",
+        "start_char": 1262,
+        "end_char": 1279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "این رأی در دادگاه تجدیدنظر تأیید شده است",
+        "start_char": 1026,
+        "end_char": 1066,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "با تقدیم دادخواست تجدیدنظرخواهی به رأی صادره معترض شده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در مقام اثبات ادعا تصویر اسناد و دادنامه هایی هم ضمیمه دادخواست کرده",
+        "start_char": 808,
+        "end_char": 876,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به دلیل سوء رفتار خوانده",
+        "start_char": 324,
+        "end_char": 348,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "بذل یکصد عدد سکه طلای بهار آزادی تقدیم نموده",
+        "start_char": 198,
+        "end_char": 242,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "باعث سلب حضانت زوج از فرزند مشترک شده",
+        "start_char": 663,
+        "end_char": 700,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمانده",
+      "evidence": {
+        "quote": "مشارالیه اعتیاد به مواد مخدر داشته",
+        "start_char": 728,
+        "end_char": 762,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "بذل یکصد عدد سکه طلای بهار آزادی",
+        "start_char": 198,
+        "end_char": 230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه",
+      "evidence": {
+        "quote": "اقدام به سپردن تعهد نامه اخلاقی جهت حسن رفتار با زوجه کرده",
+        "start_char": 562,
+        "end_char": 620,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "تصویر دادنامه مورخ 1392/2/6",
+        "start_char": 893,
+        "end_char": 920,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "مطابق تصویر سند رسمی ازدواج",
+        "start_char": 2145,
+        "end_char": 2172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه زوجه سی مثقال طلای ساخته شده",
+        "start_char": 2211,
+        "end_char": 2245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "منزل مسکونی را که به نام وی انتقال یافته",
+        "start_char": 11805,
+        "end_char": 11845,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین در سال ۱۳۸۲ ازدواج کرده‌اند",
+      "evidence": {
+        "quote": "طرفین در تاریخ 1382/8/15 ازدواج نموده اند",
+        "start_char": 280,
+        "end_char": 321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به دلیل سوء رفتار هفت سال از منزل پدری دور بوده است",
+      "evidence": {
+        "quote": "موکله حدود هفت سال است که در منزل پدری به سر می برد",
+        "start_char": 399,
+        "end_char": 450,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به دلیل توهین به همسر محکوم به پرداخت جزای نقدی شده است",
+      "evidence": {
+        "quote": "زوج به لحاظ توهین به همسرش به پرداخت جزای نقدی محکوم شده",
+        "start_char": 967,
+        "end_char": 1023,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به دلیل ترک انفاق محکوم به حبس شده است",
+      "evidence": {
+        "quote": "به لحاظ ترک انفاق به تحمل چهار ماه حبس محکوم شده",
+        "start_char": 1192,
+        "end_char": 1240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به دلیل اعتیاد به مواد مخدر محکوم شده است",
+      "evidence": {
+        "quote": "مشارالیه اعتیاد به مواد مخدر داشته",
+        "start_char": 728,
+        "end_char": 762,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حکم حضانت فرزند از پدر سلب و به مادر واگذار شده است",
+      "evidence": {
+        "quote": "حکم به استرداد طفل به خواهان خانم ف. ت. جهت حضانت صادر گردیده",
+        "start_char": 1968,
+        "end_char": 2029,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به دلیل جعل چک و استفاده از سند مجعول تحت تعقیب بوده است",
+      "evidence": {
+        "quote": "دائر به جعل چک و استفاده از سند مجعول",
+        "start_char": 1508,
+        "end_char": 1545,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به دلیل معاونت در آدم ربایی محکوم شده است",
+      "evidence": {
+        "quote": "به اتهام معاونت در آدم ربایی نسبت به موکل به پرداخت جزای نقدی بدل از تحمل سه سال حبس محکوم گردیده",
+        "start_char": 4356,
+        "end_char": 4453,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "ruling_id": "36405",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قتل عمدی",
+      "evidence": {
+        "quote": "متهم به قتل عمدی",
+        "start_char": 76,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهدور الدم بودن",
+      "evidence": {
+        "quote": "با تصور مهدور الدم بودن مقتول",
+        "start_char": 146,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قصاص نفس",
+      "evidence": {
+        "quote": "سقوط قصاص نفس",
+        "start_char": 1632,
+        "end_char": 1645,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دیه",
+      "evidence": {
+        "quote": "محکومیت متهم به پرداخت دیه کامله",
+        "start_char": 886,
+        "end_char": 918,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جرم",
+      "evidence": {
+        "quote": "با رعایت مقررات تعدد جرم",
+        "start_char": 1138,
+        "end_char": 1162,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "با فرجامخواهی وکیل متهم",
+        "start_char": 57,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رای فرجامخواسته را... نقض و پرونده را... ارسال داشته بود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تبریه",
+      "evidence": {
+        "quote": "ضمن تبریه متهم از قتل عمدی",
+        "start_char": 740,
+        "end_char": 766,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت متهم",
+        "start_char": 879,
+        "end_char": 898,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "و اعتراض وکلای فرجامخواه",
+        "start_char": 1556,
+        "end_char": 1580,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابرام",
+      "evidence": {
+        "quote": "رای فرجامخواسته... ابرام می‌گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "وکیل متهم",
+        "start_char": 71,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مقتول",
+      "evidence": {
+        "quote": "مقتول بنام ف. ع. ق. ا.",
+        "start_char": 170,
+        "end_char": 192,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اولیای دم",
+      "evidence": {
+        "quote": "در حق اولیای دم مقتول",
+        "start_char": 919,
+        "end_char": 940,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دیوان عالی کشور",
+      "evidence": {
+        "quote": "دادیار دیوان عالی کشور",
+        "start_char": 2183,
+        "end_char": 2205,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سلاح غیرمجاز",
+      "evidence": {
+        "quote": "نگهداری سلاح غیرمجاز",
+        "start_char": 1083,
+        "end_char": 1103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گذرنامه",
+      "evidence": {
+        "quote": "بدون گذرنامه",
+        "start_char": 1052,
+        "end_char": 1064,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "قتل با تیراندازی مستقیم در مغازه مقتول",
+      "evidence": {
+        "quote": "به قتل با تیراندازی مستقیم به قصد قتل در مغازه مقتول",
+        "start_char": 229,
+        "end_char": 281,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ارتباط نامشروع مقتول با همسر متهم",
+      "evidence": {
+        "quote": "بعلت ارتباط نامشرم وی با همسر متهم",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خروج غیرمجاز از مرز",
+      "evidence": {
+        "quote": "بابت خروج غیرمجاز از مرز",
+        "start_char": 1027,
+        "end_char": 1051,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

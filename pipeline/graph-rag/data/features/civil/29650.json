@@ -1,0 +1,183 @@
+{
+  "ruling_id": "29650",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "چنانچه هر یک از طرفین نظر به فسخ قرارداد داشته باشند",
+        "start_char": 1250,
+        "end_char": 1302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "یعنی در واقع برای هر یک از طرفین خیار شرط پیش بینی شده است",
+        "start_char": 1402,
+        "end_char": 1460,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "اعلام بطلان قرارداد مشارکت",
+        "start_char": 542,
+        "end_char": 568,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "اصل بر صحت و لزوم عقود و قراردادها می باشد",
+        "start_char": 4694,
+        "end_char": 4736,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "مبنی بر تخلیه و تحویل دو دهنه مغازه",
+        "start_char": 175,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "و اخذ مفاصا حساب دارایی و شهرداری",
+        "start_char": 232,
+        "end_char": 265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خودداری",
+      "evidence": {
+        "quote": "خودداری نموده",
+        "start_char": 1056,
+        "end_char": 1069,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم تجدیدنظر",
+        "start_char": 3641,
+        "end_char": 3683,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلاء خواهانهای دعوی اصلی",
+        "start_char": 647,
+        "end_char": 672,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به ایفای تعهدات قراردادی",
+        "start_char": 137,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه/خواهانها",
+        "start_char": 4406,
+        "end_char": 4434,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخواندگان",
+        "start_char": 3811,
+        "end_char": 3836,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت",
+      "evidence": {
+        "quote": "بطلان قرارداد مشارکت شماره.....",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "تحویل مغازه های ملک موضوع قرارداد مشارکت",
+        "start_char": 3244,
+        "end_char": 3284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "بایستی ملک را تا مورخ 93/1/31",
+        "start_char": 909,
+        "end_char": 938,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تحویل مغازه در موعد مقرر",
+      "evidence": {
+        "quote": "بایستی ملک را تا مورخ 93/1/31 در اختیار سازندگان قرار می داد که با وصف انقضاء مهلت از تحویل دو دهنه مغازه",
+        "start_char": 909,
+        "end_char": 1014,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود قرارداد مشارکت در ساخت",
+      "evidence": {
+        "quote": "موکلین به موجب قرارداد مشارکت در ساخت مورخ 92/12/23",
+        "start_char": 711,
+        "end_char": 762,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "38553",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال رای داور",
+        "start_char": 68,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "صدور حکم بر بطلان رای داور",
+        "start_char": 105,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصل تناظر",
+      "evidence": {
+        "quote": "از جمله اصول اولیه دادرسی و داوری رعایت اصل تناظر است",
+        "start_char": 2248,
+        "end_char": 2301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "مطالبه جبران خسارات دادرسی برپایه ی دعوای تسبیب استوار می شود",
+        "start_char": 2856,
+        "end_char": 2917,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض به رای داوری",
+        "start_char": 83,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه جبران خسارات دادرسی",
+        "start_char": 2856,
+        "end_char": 2882,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "عمده جهات ادعایی خواهان این است",
+        "start_char": 432,
+        "end_char": 463,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "موکل با خوانده ردیف اول قرارداد مشارکت در ساخت",
+        "start_char": 470,
+        "end_char": 516,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "اعلان گردیده اند. پس از تنظیم قرارداد مشارکت در ساخت ، طرفین قرارداد بموجب صورتجلسه مورخ 1399/06/31 داورهای تعیینی را تغییر داده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "ابطال رای داور",
+        "start_char": 68,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت در ساخت",
+      "evidence": {
+        "quote": "موکل با خوانده ردیف اول قرارداد مشارکت در ساخت",
+        "start_char": 470,
+        "end_char": 516,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "صورتجلسه",
+      "evidence": {
+        "quote": "بموجب صورتجلسه مورخ 1399/06/31",
+        "start_char": 686,
+        "end_char": 716,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "جلسه داوری تشکیل نشده است",
+      "evidence": {
+        "quote": "حسب اظهارات موکل در مانحن فیه اصلا جلسه داوری تشکیل نشده است",
+        "start_char": 1299,
+        "end_char": 1359,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "نام در صورتجلسه به صورت جعلی قید شده است",
+      "evidence": {
+        "quote": "نام وی به صورت جعلی در صدر ان متعاقبا قید شده است",
+        "start_char": 1640,
+        "end_char": 1689,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

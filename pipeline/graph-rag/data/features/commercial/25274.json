@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25274",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "باطل",
+      "evidence": {
+        "quote": "عمل خوانده استیفای ناروا و اکل مال به باطل می باشد",
+        "start_char": 687,
+        "end_char": 737,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "تغییر تصدی و مدیر عامل سبب بطلان صدور سند تجاری نمی شود",
+        "start_char": 938,
+        "end_char": 993,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "بخواسته استرداد چک",
+        "start_char": 141,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "اقدام به صدور 20 فقره چک",
+        "start_char": 586,
+        "end_char": 610,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شرکت تعاونی م.",
+        "start_char": 2147,
+        "end_char": 2175,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در جلسه رسیدگی و در متن دادخواست اظهارداشته است شرکت تعاونی م. با خواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "شرکت تعاونی م. با خوانده",
+        "start_char": 297,
+        "end_char": 321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "پیمانکار",
+      "evidence": {
+        "quote": "و پیمانکار خوانده",
+        "start_char": 396,
+        "end_char": 413,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": 2694,
+        "end_char": 2729,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "بخواسته استرداد چک",
+        "start_char": 141,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "شرکت تعاونی م. با خوانده قرارداداحداث و واگذاری م. بین اصحاب دعوی در تاریخ 1391/8/15 منعقد شده است",
+        "start_char": 297,
+        "end_char": 395,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سبب بطلان صدور سند تجاری نمی شود",
+        "start_char": 961,
+        "end_char": 993,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "صدور ۲۰ فقره چک در یک روز توسط مدیر عامل سابق",
+      "evidence": {
+        "quote": "از هیات مدیره جدید و قدیم مدیر عامل سابق شرکت خواهان اقدام به صدور 20 فقره چک در یک روز در وجه خوانده نموده",
+        "start_char": 533,
+        "end_char": 640,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم وجود امضای اعضا یا بازرس در چک‌ها",
+      "evidence": {
+        "quote": "عدم وجود امضاء عضوناظر و بازرس",
+        "start_char": 1197,
+        "end_char": 1227,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم وجود طلب خوانده از خواهان",
+      "evidence": {
+        "quote": "پیمانکار خوانده تمام مطالبات خود را مطابق صورت وضعیت و تاییده اداره تعاون دریافت کرده و هیچ طلبی از خواهان ندارد",
+        "start_char": 398,
+        "end_char": 510,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "ruling_id": "4575",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حجر",
+      "evidence": {
+        "quote": "صدور حکم حجر",
+        "start_char": 126,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع آن صادر می گردد",
+        "start_char": 377,
+        "end_char": 408,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم حجر",
+        "start_char": 126,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ر.س.",
+        "start_char": 570,
+        "end_char": 593,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اصولا خواهان نمی تواند حکم علیه خود بخواهد",
+        "start_char": 248,
+        "end_char": 290,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه متضمن دادخواست",
+        "start_char": 768,
+        "end_char": 795,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "به طرفیت دادستان عمومی و انقلاب تهران",
+        "start_char": 66,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 27 مورخ 18/2/92",
+        "start_char": 675,
+        "end_char": 704,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان درخواست صدور حکم حجر علیه خودش را دارد",
+      "evidence": {
+        "quote": "خواهان نمی تواند حکم علیه خود بخواهد",
+        "start_char": 254,
+        "end_char": 290,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

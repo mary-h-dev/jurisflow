@@ -1,0 +1,123 @@
+{
+  "ruling_id": "28809",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام زوجه به تمکین",
+        "start_char": 71,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "وقوع عقد نکاح",
+        "start_char": 956,
+        "end_char": 969,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "صدور حکم مبنی بر الزام زوجه به تمکین",
+        "start_char": 54,
+        "end_char": 90,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان را صادر",
+        "start_char": 311,
+        "end_char": 340,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه بدوی",
+        "start_char": 910,
+        "end_char": 929,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بطرفیت خانم ف. گ. بخواسته صدور حکم مبنی بر الزام زوجه به تمکین",
+        "start_char": 28,
+        "end_char": 90,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "الزام زوجه به تمکین",
+        "start_char": 71,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "اعتیاد زوج",
+        "start_char": 678,
+        "end_char": 688,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "فتوکپی عقدنامه",
+        "start_char": 125,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج دارای اعتیاد است",
+      "evidence": {
+        "quote": "خواهان طبق گواهی پزشکی قانونی به شماره 3384 مورخ 94/5/11 دارای اعتیاد می باشد",
+        "start_char": 191,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین محرز است",
+      "evidence": {
+        "quote": "عقدنامه رابطه زوجیت بین طرفین را محرز می داند",
+        "start_char": 132,
+        "end_char": 177,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

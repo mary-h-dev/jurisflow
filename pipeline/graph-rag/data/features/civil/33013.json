@@ -1,0 +1,153 @@
+{
+  "ruling_id": "33013",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ارش",
+      "evidence": {
+        "quote": "مطالبه ارش به دلیل وجود عیب در مبیع",
+        "start_char": 154,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "منافع",
+      "evidence": {
+        "quote": "خسارت تفویت منافع",
+        "start_char": 277,
+        "end_char": 294,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه ارش به دلیل وجود عیب در مبیع",
+        "start_char": 154,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خرید",
+      "evidence": {
+        "quote": "خواهان ها اقدام به خرید یک واحد آپارتمان",
+        "start_char": 432,
+        "end_char": 472,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "منجر به تخلیه آپارتمان از ناحیه مستأجر شده",
+        "start_char": 873,
+        "end_char": 915,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته عیناً تایید می گردد",
+        "start_char": 7724,
+        "end_char": 7766,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان آقای ح. الف.",
+        "start_char": 0,
+        "end_char": 26,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای س. س.ن.",
+        "start_char": 110,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "تحت تصرف مستأجر قرار دادند",
+        "start_char": 630,
+        "end_char": 656,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "خرید یک واحد آپارتمان",
+        "start_char": 451,
+        "end_char": 472,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "وجود عیب در مبیع",
+        "start_char": 173,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "برابر مبایعه نامه شماره ی 4673",
+        "start_char": 385,
+        "end_char": 415,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پر شدن چاه فاضلاب",
+      "evidence": {
+        "quote": "به دلیل پر شدن چاه فاضلاب دچار مشکلات اساسی شده",
+        "start_char": 709,
+        "end_char": 756,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مخفی ماندن عیب",
+      "evidence": {
+        "quote": "عیب مذکور قبل از عقد بیع موجود و از دید خواهان ها مخفی مانده است",
+        "start_char": 997,
+        "end_char": 1061,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

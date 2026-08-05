@@ -1,0 +1,72 @@
+{
+  "ruling_id": "35599",
+  "concepts": [],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض آقای س. م",
+        "start_char": 0,
+        "end_char": 16,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "دسترسی به متهم متواری",
+        "start_char": 224,
+        "end_char": 245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "اعتراض تجدیدنظرخواه",
+        "start_char": 660,
+        "end_char": 679,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "دستورممنوع الخروجی شماره574 مورخ94/11/6",
+        "start_char": 39,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دستور ممنوع الخروجی صادر شده است",
+      "evidence": {
+        "quote": "دستورممنوع الخروجی شماره574 مورخ94/11/6",
+        "start_char": 39,
+        "end_char": 78,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دستور صادر شده غیرقابل اعتراض است",
+      "evidence": {
+        "quote": "این دستور قضایی غیرقابل اعتراض است",
+        "start_char": 362,
+        "end_char": 396,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

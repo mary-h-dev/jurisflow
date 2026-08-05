@@ -1,0 +1,223 @@
+{
+  "ruling_id": "34828",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قانونی",
+      "evidence": {
+        "quote": "اتهام شرکت در بازداشت غیر قانونی",
+        "start_char": 106,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "آدم ربایی",
+      "evidence": {
+        "quote": "به اتهام آدم ربایی با خودرو",
+        "start_char": 153,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توهین",
+      "evidence": {
+        "quote": "بزه توهین",
+        "start_char": 1318,
+        "end_char": 1327,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضرب وجرح عمدی",
+      "evidence": {
+        "quote": "ایراد ضرب و جرح عمدی",
+        "start_char": 220,
+        "end_char": 240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سرقت",
+      "evidence": {
+        "quote": "سرقت و تهدید نسبت به شاکی",
+        "start_char": 243,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تهدید",
+      "evidence": {
+        "quote": "سرقت و تهدید نسبت به شاکی",
+        "start_char": 243,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعزیر",
+      "evidence": {
+        "quote": "با اصل کلی تعزیر دون الحد مغایر",
+        "start_char": 3730,
+        "end_char": 3761,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض را وارد تشخیص",
+        "start_char": 1882,
+        "end_char": 1902,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض این قسمت از دادنامه بدوی",
+        "start_char": 1905,
+        "end_char": 1937,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "در سایر موارد دادنامه تجدیدنظرخواسته را تأیید",
+        "start_char": 1967,
+        "end_char": 2012,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی نموده",
+        "start_char": 2974,
+        "end_char": 2999,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارجاع",
+      "evidence": {
+        "quote": "محول و ارجاع می‌گردد",
+        "start_char": 4174,
+        "end_char": 4194,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "نسبت به شاکی",
+        "start_char": 256,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "بین متهمین",
+        "start_char": 495,
+        "end_char": 505,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "اینک محکوم علیه",
+        "start_char": 2031,
+        "end_char": 2046,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "دفاعیات غیر موثر وکیل ایشان",
+        "start_char": 1067,
+        "end_char": 1094,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "پرداخت دیه در حق شاکی خصوصی",
+        "start_char": 1558,
+        "end_char": 1585,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "با تقدیم لایحه ای مفصل",
+        "start_char": 2047,
+        "end_char": 2069,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به دلالت دادنامه شماره 900076- 94/2/2",
+        "start_char": 0,
+        "end_char": 37,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهمین به جرم آدم ربایی و توهین و ضرب و جرح محکوم شده‌اند",
+      "evidence": {
+        "quote": "به تحمل سه سال حبس و متهم ردیف چهارم به تحمل یکصد و یازده ضربه شلاق به سبب بزه توهین و تحمل چهار سال و نیم حبس به جهت شرکت در بازداشت غیر قانونی و یکسال و نیم حبس تعزیری به سبب بردن مال دیگری (سرقت) و به تحمل سه سال حبس به سبب تهدید و تحمل بیس و دو سال و نیم حبس به سبب آدم ربایی با خودرو (مجازات اشد قابل اجراء) و پرداخت دیه در حق شاکی خصوصی محکوم گردیده اند",
+        "start_char": 1243,
+        "end_char": 1602,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شاکی در محل حضور غیر ارادی داشته است",
+      "evidence": {
+        "quote": "این حکایت از حضور غیر ارادی شاکی در محل و عدم اراده وی در خروج از محل داشته",
+        "start_char": 947,
+        "end_char": 1022,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "ruling_id": "27093",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "مسئول جبران خسارت وارده به اشخاص می باشند",
+        "start_char": 629,
+        "end_char": 670,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در شعب تجدیدنظر دیوان می باشد",
+        "start_char": 1316,
+        "end_char": 1364,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "اقدام مراجع دولتی در تصرف اراضی اشخاص",
+        "start_char": 426,
+        "end_char": 463,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "خارج از مهلت بیست روزه جهت اعتراض",
+        "start_char": 1765,
+        "end_char": 1798,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد و تجدیدنظر خواهی صادر و اعلام می گردد",
+        "start_char": 2013,
+        "end_char": 2058,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی اداره راه و شهرسازی پیران شهر",
+        "start_char": 1537,
+        "end_char": 1581,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اراضی",
+      "evidence": {
+        "quote": "تملک اراضی",
+        "start_char": 364,
+        "end_char": 374,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "عرصه و اعیان",
+      "evidence": {
+        "quote": "بهای عرصه و اعیان ملک مورد تملک",
+        "start_char": 761,
+        "end_char": 792,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته شماره",
+        "start_char": 1599,
+        "end_char": 1628,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تجاوز مهلت تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "خارج از مهلت بیست روزه جهت اعتراض و تجدیدنظر خواهی می باشد",
+        "start_char": 1765,
+        "end_char": 1823,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم رعایت مهلت قانونی",
+      "evidence": {
+        "quote": "خارج از مهلت بیست روزه جهت اعتراض و تجدیدنظر خواهی می باشد",
+        "start_char": 1765,
+        "end_char": 1823,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

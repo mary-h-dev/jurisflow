@@ -1,0 +1,143 @@
+{
+  "ruling_id": "28472",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "علقه زوجیت فیمابین طرفین برای دادگاه محرز و مسلم است",
+        "start_char": 216,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "پس از برقراری رابطه زوجیت حقوق و تکالیف زوجین در قبال یکدیگر برقرار می گردد",
+        "start_char": 282,
+        "end_char": 357,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "با احراز اشتغال ذمه خوانده نسبت به نفقه خواهان",
+        "start_char": 574,
+        "end_char": 620,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه معوقه",
+        "start_char": 66,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه نگردیده",
+      "evidence": {
+        "quote": "از سوی زوج دلائل و مدارکی که دال بر پرداخت نفقه زوجه باشد ارائه نگردیده",
+        "start_char": 423,
+        "end_char": 494,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 1996,
+        "end_char": 2015,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خانم س. ف. فرزند ب. به طرفیت آقای غ. الف.ش. فرزند م.",
+        "start_char": 0,
+        "end_char": 65,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با احراز اشتغال ذمه خوانده نسبت به نفقه خواهان",
+        "start_char": 574,
+        "end_char": 620,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای غ. الف.ش.",
+        "start_char": 1178,
+        "end_char": 1206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخوانده خانم س. ف.",
+        "start_char": 1316,
+        "end_char": 1350,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه معوقه",
+        "start_char": 66,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "علقه زوجیت فیمابین طرفین برای دادگاه محرز و مسلم است",
+        "start_char": 216,
+        "end_char": 268,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت نفقه توسط زوج انجام نشده است",
+      "evidence": {
+        "quote": "از سوی زوج دلائل و مدارکی که دال بر پرداخت نفقه زوجه باشد ارائه نگردیده",
+        "start_char": 423,
+        "end_char": 494,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

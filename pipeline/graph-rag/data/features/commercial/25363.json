@@ -1,0 +1,153 @@
+{
+  "ruling_id": "25363",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "ظهور در اشتغال ذمه خوانده",
+        "start_char": 1049,
+        "end_char": 1074,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "دلیل و مدرکی برای برائت ذمه‌اش ارایه نکرده است",
+        "start_char": 1117,
+        "end_char": 1163,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأخیر تأدیه",
+      "evidence": {
+        "quote": "و تأخیر تأدیه دین می‌باشد",
+        "start_char": 282,
+        "end_char": 307,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیانت",
+      "evidence": {
+        "quote": "دائر بر خیانت‌ در امانت کرده",
+        "start_char": 625,
+        "end_char": 653,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت مبلغ",
+        "start_char": 141,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "از پرداخت دین خود امتناع کرده است",
+        "start_char": 441,
+        "end_char": 474,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض به عمل آمده غیر وارد تشخیص",
+        "start_char": 2591,
+        "end_char": 2624,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان صادر و اعلام می‌دارد",
+        "start_char": 1839,
+        "end_char": 1872,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت",
+        "start_char": 141,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 0690 مورخ 1393/08/27 شعبه 153 دادگاه عمومی حقوقی تهران که به موجب آن رأی بر محکومیت تجدیدنظرخواه",
+        "start_char": 2087,
+        "end_char": 2205,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سفته",
+      "evidence": {
+        "quote": "بابت وجوه 31 فقره سفته",
+        "start_char": 184,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "پرداخت مبلغ 155000000 (یکصد و پنجاه و پنج میلیون) ریال",
+        "start_char": 1362,
+        "end_char": 1416,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از پرداخت دین امتناع کرده است",
+      "evidence": {
+        "quote": "از پرداخت دین خود امتناع کرده است",
+        "start_char": 441,
+        "end_char": 474,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شکایت کیفری خیانت در امانت مردود شده است",
+      "evidence": {
+        "quote": "شکایت خیانت‌ در امانت وی با صدور قرار منع پیگرد آقای س.ن. مردود و رأی صادره قطعی گردیده است",
+        "start_char": 732,
+        "end_char": 823,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

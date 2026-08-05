@@ -1,0 +1,163 @@
+{
+  "ruling_id": "7096",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام زندگی مشترک",
+        "start_char": 50,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "و خسارات دادرسی",
+        "start_char": 85,
+        "end_char": 100,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ردّ دعوی",
+      "evidence": {
+        "quote": "حکم به ردّ ادعای وی صادر می گردد",
+        "start_char": 700,
+        "end_char": 732,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم تجدیدنظر",
+        "start_char": 775,
+        "end_char": 811,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مبنی بر مطالبه اجرت المثل",
+        "start_char": 42,
+        "end_char": 67,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "لذا اعتراض نامبرده قابل انطباق با جهات مقرر",
+        "start_char": 1288,
+        "end_char": 1331,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "حکم تجدیدنظر خواسته را تأیید می نماید",
+        "start_char": 1457,
+        "end_char": 1494,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "این است که زوجه به قصد دریافت دستمزد",
+        "start_char": 189,
+        "end_char": 225,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "با دستور شوهر امورخانه را انجام دهد",
+        "start_char": 228,
+        "end_char": 263,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بنا به مراتب فوق دعوی خواهان وارد نبوده",
+        "start_char": 566,
+        "end_char": 605,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "ایراد تجدیدنظرخواه در حدی نیست",
+        "start_char": 1213,
+        "end_char": 1243,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 59-25/1/93",
+        "start_char": 925,
+        "end_char": 957,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حکم",
+      "evidence": {
+        "quote": "حکم بر ردّ دعوی صادرشده است",
+        "start_char": 1081,
+        "end_char": 1108,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زن امور خانه را بدون قصد دریافت دستمزد انجام می‌دهد",
+      "evidence": {
+        "quote": "زن تبرعا امور خانه داری از قبیل شوهرداری و نگهداری بچه و غیره را انجام می دهد و هیچ گاه قصد او دریافت دستمزد نبوده",
+        "start_char": 319,
+        "end_char": 433,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات دستور شوهر به انجام امور خانه",
+      "evidence": {
+        "quote": "زوجه دلیلی بر اثبات خلاف آن من جمله اثبات دستور زوج به انجام امور ارائه ننموده است",
+        "start_char": 483,
+        "end_char": 565,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

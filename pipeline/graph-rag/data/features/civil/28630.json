@@ -1,0 +1,153 @@
+{
+  "ruling_id": "28630",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ازدواج",
+      "evidence": {
+        "quote": "الزام به ثبت ازدواج دائمی",
+        "start_char": 91,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "اذن پدر (خوانده ردیف اول ) عقد فضولی بوده",
+        "start_char": 871,
+        "end_char": 912,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "کاشف از بطلان انرا دارد",
+        "start_char": 949,
+        "end_char": 972,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام به ثبت ازدواج دائمی",
+        "start_char": 91,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ممانعت",
+      "evidence": {
+        "quote": "والدین زوجه از ثبت آن ممانعت می نمایند",
+        "start_char": 313,
+        "end_char": 351,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خودداری",
+      "evidence": {
+        "quote": "خودداری کرده است",
+        "start_char": 713,
+        "end_char": 729,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "رأی صادر شده دادگاه بدوی را... تأیید می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ادعای خواهان",
+        "start_char": 179,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف اول از موضوع هیچگونه اطلاعی نداشته",
+        "start_char": 453,
+        "end_char": 499,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه ایراد و اعتراض موجهی",
+        "start_char": 1774,
+        "end_char": 1807,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقد دائم",
+      "evidence": {
+        "quote": "صیغه عقد دائم با مهریه 5 عدد سکه تمام بهار آزادی",
+        "start_char": 213,
+        "end_char": 261,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "با مهریه 5 عدد سکه تمام بهار آزادی",
+        "start_char": 227,
+        "end_char": 261,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عقد انجام شده اما مکتوب نشده است",
+      "evidence": {
+        "quote": "جاری گردیده است ولی مکتوب نشده است",
+        "start_char": 276,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رابطه زناشویی برقرار بوده است",
+      "evidence": {
+        "quote": "بین متداعیین موصوف روابط زناشویی برقرار بوده",
+        "start_char": 404,
+        "end_char": 448,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "ruling_id": "22590",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 161,
+        "end_char": 186,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلح",
+      "evidence": {
+        "quote": "حل اختلاف",
+        "start_char": 1498,
+        "end_char": 1507,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 1203,
+        "end_char": 1218,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "دادخواستی به خواسته",
+        "start_char": 141,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "تقدیم می دهد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اظهار",
+      "evidence": {
+        "quote": "خوانده اظهار میدارد",
+        "start_char": 792,
+        "end_char": 811,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "معرفی",
+      "evidence": {
+        "quote": "وکیل زوجه معرفی میکند",
+        "start_char": 996,
+        "end_char": 1017,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "پرونده را ارسال میدارد",
+        "start_char": 1268,
+        "end_char": 1290,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تشخیص نداده",
+      "evidence": {
+        "quote": "اقامتگاه اشخاص تشخیص نداده",
+        "start_char": 1389,
+        "end_char": 1415,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مشاوره",
+      "evidence": {
+        "quote": "مشاوره نموده",
+        "start_char": 1666,
+        "end_char": 1678,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "توسط خوانده",
+        "start_char": 242,
+        "end_char": 253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "من همسر خوانده هستم",
+        "start_char": 364,
+        "end_char": 383,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل پایه یک دادگستری",
+        "start_char": 950,
+        "end_char": 971,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "قبول موضوع داوری از سوی داور",
+        "start_char": 1880,
+        "end_char": 1908,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "رئیس",
+      "evidence": {
+        "quote": "رئیس و مستشار شعبه",
+        "start_char": 2105,
+        "end_char": 2123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستشار",
+      "evidence": {
+        "quote": "رئیس و مستشار شعبه",
+        "start_char": 2105,
+        "end_char": 2123,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "سند ازدواج",
+        "start_char": 70,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پرونده را ارسال میدارد",
+        "start_char": 1268,
+        "end_char": 1290,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده به حبس ابد محکوم شده است",
+      "evidence": {
+        "quote": "خوانده باتهام حمل مواد مخدر به حبس ابد محکوم شده است",
+        "start_char": 425,
+        "end_char": 477,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده قصد طلاق ندارد",
+      "evidence": {
+        "quote": "خوانده اظهار میدارد من زنم را طلاق نمی دهم",
+        "start_char": 792,
+        "end_char": 834,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

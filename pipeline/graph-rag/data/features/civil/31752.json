@@ -1,0 +1,173 @@
+{
+  "ruling_id": "31752",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "بخواسته خلع ید",
+        "start_char": 73,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 179,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قلع و قمع",
+      "evidence": {
+        "quote": "قلع و قمع مستحدثات",
+        "start_char": 241,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "غصب استیلا بر مال غیر است",
+        "start_char": 1156,
+        "end_char": 1181,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 179,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "دادخواست مطالبه بهای زمین و قیمت عادله رد گردیده است",
+        "start_char": 676,
+        "end_char": 728,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه مالا مستلزم نقض است",
+        "start_char": 2375,
+        "end_char": 2402,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مالکیت خواهان بر پلاک متنازع فیه محرز و مسلم است",
+        "start_char": 367,
+        "end_char": 415,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده در مقام دفاع دلیل و مدرکی",
+        "start_char": 939,
+        "end_char": 971,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شهرداری",
+      "evidence": {
+        "quote": "به طرفیت شهرداری منطقه 5 تهران",
+        "start_char": 42,
+        "end_char": 72,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "نسبت به بک قطعه زمین به مساحت 220 متر مربع",
+        "start_char": 88,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی 3806 فرعی از 123 اصلی",
+        "start_char": 2027,
+        "end_char": 2058,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مستحدثات",
+      "evidence": {
+        "quote": "قلع و قمع مستحدثات",
+        "start_char": 241,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت خواهان بر ملک محرز است",
+      "evidence": {
+        "quote": "مالکیت خواهان بر پلاک متنازع فیه محرز و مسلم است",
+        "start_char": 367,
+        "end_char": 415,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شهرداری طرحی در محل اجرا نکرده است",
+      "evidence": {
+        "quote": "شهرداری منطقه 5 هیچگونه طرحی در محل متنازع فیه اجرا ننموده است",
+        "start_char": 611,
+        "end_char": 673,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تصرفات شهرداری در راستای طرح مصوب بوده است",
+      "evidence": {
+        "quote": "تصرفات شهرداری در راستای طرح مصوب بوده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

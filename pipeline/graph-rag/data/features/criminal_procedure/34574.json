@@ -1,0 +1,113 @@
+{
+  "ruling_id": "34574",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اختلاف",
+      "evidence": {
+        "quote": "به لحاظ تحقق اختلاف در صلاحیت",
+        "start_char": 607,
+        "end_char": 636,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صادر",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت به شایستگی دادگاه کیفری 2 تهران را صادر کرده است",
+        "start_char": 331,
+        "end_char": 395,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "پرونده به دیوان عالی کشور ارسال و به این شعبه ارجاع شده است",
+        "start_char": 638,
+        "end_char": 697,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مشاوره",
+      "evidence": {
+        "quote": "مشاوره نموده",
+        "start_char": 911,
+        "end_char": 923,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهمین",
+      "evidence": {
+        "quote": "متهمین فعلا دارای بیش از 18 سال سن هستند",
+        "start_char": 289,
+        "end_char": 329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادگاه",
+      "evidence": {
+        "quote": "دستور ارسال پرونده را به دادگاه اطفال صادر کرده",
+        "start_char": 172,
+        "end_char": 219,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دیوانعالی کشور",
+      "evidence": {
+        "quote": "پرونده به دیوان عالی کشور ارسال",
+        "start_char": 638,
+        "end_char": 669,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پس از قرائت گزارش آقای احمد صاحب الزمانی عضو ممیز و ملاحظه اوراق پرونده",
+        "start_char": 734,
+        "end_char": 805,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهمان در زمان وقوع جرم زیر 18 سال سن داشته‌اند",
+      "evidence": {
+        "quote": "در تاریخ وقوع جرم (92/7/24) کمتر از 18 سال سن داشته",
+        "start_char": 89,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سن متهمان در زمان رسیدگی از 18 سال تجاوز کرده است",
+      "evidence": {
+        "quote": "سن متهمان قبل از شروع رسیدگی در دادگاه اطفال از 18 سال تجاوز کرده",
+        "start_char": 1041,
+        "end_char": 1106,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

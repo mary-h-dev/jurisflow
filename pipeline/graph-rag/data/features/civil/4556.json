@@ -1,0 +1,173 @@
+{
+  "ruling_id": "4556",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تهاتر",
+      "evidence": {
+        "quote": "تقاضای تهاتر مبالغ پرداختی با تاریخ پرداخت را درخواست نمــوده است",
+        "start_char": 771,
+        "end_char": 836,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "مبین احراز رابطه زوجیت خواهان و خوانده",
+        "start_char": 288,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مهریه",
+        "start_char": 131,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلـغ 37 میلیون تومان جهت خرید یک باب آپارتمان پرداخت نموده است",
+        "start_char": 420,
+        "end_char": 483,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 2847,
+        "end_char": 2866,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "رابطه زوجیت خواهان و خوانده",
+        "start_char": 299,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "رابطه زوجیت خواهان و خوانده",
+        "start_char": 299,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای س.ر.",
+        "start_char": 1967,
+        "end_char": 1990,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "زوجه تجدیدنظر خوانده",
+        "start_char": 2384,
+        "end_char": 2404,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مطالبه مهریه به میزان 600 عدد سکه تمام بهار آزادی",
+        "start_char": 141,
+        "end_char": 190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "600 عدد سکه تمام بهار آزادی",
+        "start_char": 163,
+        "end_char": 190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "فتوکپی مصدق سند نکاحیه",
+        "start_char": 262,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "خرید یک باب آپارطمان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "طی دو فقره چک پرداخت نموده است",
+        "start_char": 547,
+        "end_char": 577,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده مبالغی را به صورت وجه نقد ادعا کرده است",
+      "evidence": {
+        "quote": "مبالغی را که خوانده ادعای پرداخت به زوجه نموده وجه نقد بوده است",
+        "start_char": 1067,
+        "end_char": 1130,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده مبالغی را بابت خرید آپارتمان پرداخت کرده است",
+      "evidence": {
+        "quote": "مبلـغ 37 میلیون تومان جهت خرید یک باب آپارتمان پرداخت نموده است",
+        "start_char": 420,
+        "end_char": 483,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

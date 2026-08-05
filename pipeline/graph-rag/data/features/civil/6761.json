@@ -1,0 +1,123 @@
+{
+  "ruling_id": "6761",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "موت",
+      "evidence": {
+        "quote": "صدور حکم موت فرضی",
+        "start_char": 108,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ردّ دعوی",
+      "evidence": {
+        "quote": "قرار ردّ دعوی",
+        "start_char": 566,
+        "end_char": 579,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم موت فرضی",
+        "start_char": 108,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی الف.م. و م.م.",
+        "start_char": 746,
+        "end_char": 781,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را تأیید می نماید",
+        "start_char": 1735,
+        "end_char": 1776,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "برای خوانده ردیف اول",
+        "start_char": 126,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان ها",
+        "start_char": 147,
+        "end_char": 161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "لایحه دفاعیه تجدیدنظرخواه",
+        "start_char": 986,
+        "end_char": 1011,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1207-920",
+        "start_char": 796,
+        "end_char": 826,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خروج غیرقانونی از مرزهای کشور",
+      "evidence": {
+        "quote": "از سال 1381 به صورت غیرقانونی از مرزهای غربی کشور خارج شده",
+        "start_char": 180,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم یافتن فرد مفقود",
+      "evidence": {
+        "quote": "تلاش خانواده وی برای یافتن به نتیجه ای نرسیده",
+        "start_char": 241,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

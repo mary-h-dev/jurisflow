@@ -1,0 +1,173 @@
+{
+  "ruling_id": "5437",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "حکایت از علقه زوجیت طرفین دعوی دارد",
+        "start_char": 152,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "حقوق طرفین نسبت به هم وظایف آنان در قبال یکدیگر محقق و منعقد می گردد که ازجمله آن ها تمکین زوجه نسبت به زوج می باشد",
+        "start_char": 258,
+        "end_char": 373,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم امنیت جانی",
+      "evidence": {
+        "quote": "مدعی عدم امنیت جانی از ناحیه زوج",
+        "start_char": 999,
+        "end_char": 1031,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 55,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص دادخواست تجدیدنظرخواهی ز.ب.",
+        "start_char": 778,
+        "end_char": 813,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض درمحاکم تجدیدنظر",
+        "start_char": 678,
+        "end_char": 706,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "ضمن ردّ دادخواست تجدیدنظرخواهی",
+        "start_char": 1800,
+        "end_char": 1830,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با عنایت به متن دادخواست خواهان",
+        "start_char": 94,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم ز.ب. به خواسته الزام خوانده به تمکین",
+        "start_char": 36,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تمکین زوجه نسبت به زوج",
+        "start_char": 343,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": 1374,
+        "end_char": 1409,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "ملاحظه عقدنامه پیوست",
+        "start_char": 128,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "به شرط تهیه مسکن",
+        "start_char": 556,
+        "end_char": 572,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث‌البیت",
+      "evidence": {
+        "quote": "و اثاث البیت",
+        "start_char": 573,
+        "end_char": 585,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود رابطه زوجیت بین طرفین",
+      "evidence": {
+        "quote": "حکایت از علقه زوجیت طرفین دعوی دارد",
+        "start_char": 152,
+        "end_char": 187,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود پرونده ضرب در دادسرا",
+      "evidence": {
+        "quote": "و پرونده ای که دادسرا در موردایراد ضرب از ناحیه زوج دارد",
+        "start_char": 1032,
+        "end_char": 1088,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

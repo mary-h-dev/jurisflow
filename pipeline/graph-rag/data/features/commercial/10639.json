@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10639",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تلف",
+      "evidence": {
+        "quote": "تلف یا کم شدن مال التجاره نیز از مواردی است که (بر فرض ثبوت) ذی‌نفع می‌تواند تقاضای قیمت آن را بنماید",
+        "start_char": 2066,
+        "end_char": 2169,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "مسئولیت نوعی را برای متصدی حمل و نقل مقرر نموده",
+        "start_char": 2018,
+        "end_char": 2065,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "نامبرده باید نسبت به استرداد عین مال مورد ادعا اقدام نماید",
+        "start_char": 1069,
+        "end_char": 1127,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شرکت ج.م. با وکالت آقایان ح.م. و م.ک.",
+        "start_char": 1622,
+        "end_char": 1673,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خواندگان به پرداخت مبلغ کسر تخلیه",
+        "start_char": 141,
+        "end_char": 180,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "در هنگام تخلیه کشتی",
+        "start_char": 760,
+        "end_char": 779,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "حمل",
+      "evidence": {
+        "quote": "حمل محموله",
+        "start_char": 749,
+        "end_char": 759,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "وکلاى خواهان در دادخواست بیان نمودند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "پس از صدور حکم و قطعیت آن در مرحله اجرا",
+        "start_char": 1130,
+        "end_char": 1169,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلاى خواهان در دادخواست بیان نمودند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت 1- شرکت م. مالک کشتی",
+        "start_char": 59,
+        "end_char": 88,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "نماینده",
+      "evidence": {
+        "quote": "به عنوان نماینده متصدی حمل",
+        "start_char": 644,
+        "end_char": 671,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "گواهی کسر تخلیه صادره ازسوی سازمان بنادر و دریانوردی",
+        "start_char": 787,
+        "end_char": 839,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "کسر 110 حلقه مفتول فولادی",
+      "evidence": {
+        "quote": "به جای 4573 مفتول فولادی صرفاً 4463 مفتول تحویل گردید و نتیجتاً 110 حلقه مفتول فولادی کسر بوده",
+        "start_char": 885,
+        "end_char": 980,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ارزش روز مفتول فولادی",
+      "evidence": {
+        "quote": "ارزش روز آن به میزان 527/253 درهم امارات مقوم به 000/273/846 ریال",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تخلیه ناقص",
+      "evidence": {
+        "quote": "در هنگام تخلیه کشتی، مطابق گواهی کسر تخلیه",
+        "start_char": 760,
+        "end_char": 802,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

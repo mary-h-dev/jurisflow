@@ -1,0 +1,173 @@
+{
+  "ruling_id": "35256",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقود",
+      "evidence": {
+        "quote": "به تبعیت از اصول صحت و لزوم عقود",
+        "start_char": 1765,
+        "end_char": 1797,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "بابت خسارت قراردادی ناشی از عدم تحویل",
+        "start_char": 2205,
+        "end_char": 2242,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "از تحویل ملک و تنظیم سند و حضور در دفتر خانه امتناع نموده",
+        "start_char": 619,
+        "end_char": 676,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "دلیلی به دادگاه اقامه نکرده",
+        "start_char": 1242,
+        "end_char": 1269,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "حاضر نشده",
+      "evidence": {
+        "quote": "جهت انتقال قطعی حاضر نشده",
+        "start_char": 1390,
+        "end_char": 1415,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مبنی بر مطالبه اجرت المثل ایام تصرف",
+        "start_char": 2519,
+        "end_char": 2554,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی آقای م. ف. به طرفیت خواندگان",
+        "start_char": 8,
+        "end_char": 41,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از آقای علی ع. خوانده شماره یک",
+        "start_char": 436,
+        "end_char": 466,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای علی ع.",
+        "start_char": 3197,
+        "end_char": 3222,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعنامه",
+      "evidence": {
+        "quote": "به موجب مبایعنامه ایی که در تاریخ 11/ 9/ 85بین طرفین انجام شد",
+        "start_char": 467,
+        "end_char": 528,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "موظف به تحویل یک دستگاه آپارتمان با شماره ثبت 2480 شد",
+        "start_char": 529,
+        "end_char": 582,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی 2480",
+        "start_char": 80,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "تنظیم سند رسمی انتقال شش دانگ یک دستگاه آپارتمان",
+        "start_char": 1969,
+        "end_char": 2017,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "امضای مبایعنامه در سال 85",
+      "evidence": {
+        "quote": "مبایعنامه ایی که در تاریخ 11/ 9/ 85بین طرفین انجام شد",
+        "start_char": 475,
+        "end_char": 528,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تحویل ملک و تنظیم سند",
+      "evidence": {
+        "quote": "از تحویل ملک و تنظیم سند و حضور در دفتر خانه امتناع نموده",
+        "start_char": 619,
+        "end_char": 676,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثبت ملک به نام خوانده ردیف اول",
+      "evidence": {
+        "quote": "پلاک ثبتی موضوع خواسته به نام خوانده ردیف اول و مورث سایر خواندگان ثبت شده است",
+        "start_char": 1606,
+        "end_char": 1684,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

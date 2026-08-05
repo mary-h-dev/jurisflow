@@ -1,0 +1,163 @@
+{
+  "ruling_id": "22799",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مدنی",
+      "evidence": {
+        "quote": "ناشی از قرارداد مشارکت مدنی",
+        "start_char": 269,
+        "end_char": 296,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأخیر تأدیه",
+      "evidence": {
+        "quote": "به انضمام خسارات تأخیر تأدیه",
+        "start_char": 297,
+        "end_char": 325,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "موجبات بطلان عقد مشارکت نیست",
+        "start_char": 4511,
+        "end_char": 4539,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی فرجام خواسته در خصوص مورد اعتراض نقض",
+        "start_char": 4980,
+        "end_char": 5020,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ",
+        "start_char": 157,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امضاء",
+      "evidence": {
+        "quote": "قرارداد را به عنوان متعهد امضاء کرده است",
+        "start_char": 759,
+        "end_char": 799,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام خواهی",
+      "evidence": {
+        "quote": "اعتراض فرجام خواهی بانک... مازندران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف اول",
+        "start_char": 666,
+        "end_char": 681,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ضامن",
+      "evidence": {
+        "quote": "سایر خواندگان به عنوان ضامن قرارداد را امضاء نموده‌اند",
+        "start_char": 801,
+        "end_char": 855,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان حضور یافته",
+        "start_char": 1325,
+        "end_char": 1347,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت مدنی",
+      "evidence": {
+        "quote": "ناشی از قرارداد مشارکت مدنی",
+        "start_char": 269,
+        "end_char": 296,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تسهیلات و وام",
+      "evidence": {
+        "quote": "از تسهیلات این بانک",
+        "start_char": 702,
+        "end_char": 721,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "تصویر قرارداد شماره 91056678360-1391/6/28",
+        "start_char": 548,
+        "end_char": 589,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "بدهی در تاریخ مقرر ایفا نشده است",
+      "evidence": {
+        "quote": "بدهی مندرج در قرارداد می بایست در تاریخ 1391/12/17 ایفاء می گردید خواندگان از ایفاء آن خودداری نموده اند",
+        "start_char": 870,
+        "end_char": 974,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بخشی از اصل تسهیلات پرداخت شده است",
+      "evidence": {
+        "quote": "مبلغی از آن داده شده",
+        "start_char": 1536,
+        "end_char": 1556,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

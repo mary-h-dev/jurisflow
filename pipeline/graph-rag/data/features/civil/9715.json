@@ -1,0 +1,123 @@
+{
+  "ruling_id": "9715",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی کرده است",
+        "start_char": 306,
+        "end_char": 335,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی کرده است",
+        "start_char": 306,
+        "end_char": 335,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "ارائه یک برگ استشهادیه",
+        "start_char": 474,
+        "end_char": 496,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "اقامه شاهد",
+        "start_char": 1011,
+        "end_char": 1021,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابراز",
+      "evidence": {
+        "quote": "ابراز شهادت",
+        "start_char": 1024,
+        "end_char": 1035,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "وکیل محکوم علیه",
+        "start_char": 685,
+        "end_char": 700,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "به لحاظ رضایت شاکی",
+        "start_char": 1320,
+        "end_char": 1338,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "صدور نه فقره چک بی محل",
+        "start_char": 165,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "استشهادیه",
+      "evidence": {
+        "quote": "ارائه یک برگ استشهudie",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شاکی از شکایت خود رضایت داده است",
+      "evidence": {
+        "quote": "به لحاظ رضایت شاکی مختومه گردیده",
+        "start_char": 1320,
+        "end_char": 1352,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک‌ها فاقد وجه هستند",
+      "evidence": {
+        "quote": "صدور نه فقره چک بی محل",
+        "start_char": 165,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

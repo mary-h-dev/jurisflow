@@ -1,0 +1,113 @@
+{
+  "ruling_id": "766",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان آن صادر و اعلام می نماید",
+        "start_char": 494,
+        "end_char": 531,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صوری",
+      "evidence": {
+        "quote": "به علت صوری بودن آن",
+        "start_char": 140,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم به بطلان",
+        "start_char": 72,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "منتهی به صدور حکم رد دعوی گردیده",
+        "start_char": 854,
+        "end_char": 886,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تایید و ابرام",
+      "evidence": {
+        "quote": "دادنامه معترضٌ عنه را مستند به ماده 358 قانون آیین دادرسی مدنی تأیید و ابرام می نماید",
+        "start_char": 1169,
+        "end_char": 1254,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دعوی آقای ح.م.",
+        "start_char": 0,
+        "end_char": 21,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم ز.م.",
+        "start_char": 53,
+        "end_char": 71,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "قرارداد اجاره شماره 104194 مورخ 26/2/91",
+        "start_char": 100,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 609 مورخ 11/7/91",
+        "start_char": 737,
+        "end_char": 767,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلایل و مدارک اثباتی برای اثبات صوری بودن سند",
+      "evidence": {
+        "quote": "دلایل و مدارک مثبته ای که دلالت برصوری بودن سند اجاره شماره 104194 مورخ 26/2/91 نماید ارائه نشده است",
+        "start_char": 290,
+        "end_char": 390,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

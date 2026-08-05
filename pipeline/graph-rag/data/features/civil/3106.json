@@ -1,0 +1,133 @@
+{
+  "ruling_id": "3106",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "تجویز استرداد شکایت",
+        "start_char": 84,
+        "end_char": 103,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سقوط",
+      "evidence": {
+        "quote": "سقوط دعوی",
+        "start_char": 157,
+        "end_char": 166,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلاف",
+      "evidence": {
+        "quote": "خلاف بیّن شرع و قانون",
+        "start_char": 233,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مسترد",
+      "evidence": {
+        "quote": "دادخواست خود را مسترد داشته",
+        "start_char": 43,
+        "end_char": 70,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعمال",
+      "evidence": {
+        "quote": "اعمال و طرح می‌گردد",
+        "start_char": 367,
+        "end_char": 386,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار رد",
+      "evidence": {
+        "quote": "قرار رد درخواست اعمال ماده 18 قانون مذکور صادر و اعلام می‌گردد",
+        "start_char": 1143,
+        "end_char": 1205,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شاکی",
+        "start_char": 17,
+        "end_char": 21,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ذی‌نفع",
+      "evidence": {
+        "quote": "ذینفع",
+        "start_char": 281,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتکی عنه",
+      "evidence": {
+        "quote": "مشتکی عنه",
+        "start_char": 567,
+        "end_char": 576,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اداری",
+      "evidence": {
+        "quote": "آرای مراجع اختصاصی اداری",
+        "start_char": 766,
+        "end_char": 790,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شاکی دادخواست خود را مسترد کرده است",
+      "evidence": {
+        "quote": "شاکی طی درخواست مورخ...، دادخواست خود را مسترد داشته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شاکی و مشتکی عنه با هم توافق کرده‌اند",
+      "evidence": {
+        "quote": "توافق شاکی و مشتکی عنه",
+        "start_char": 554,
+        "end_char": 576,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

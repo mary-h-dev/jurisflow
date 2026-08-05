@@ -1,0 +1,133 @@
+{
+  "ruling_id": "30904",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "اعطای حق فسخ به خریدار پیش بینی شده است",
+        "start_char": 1619,
+        "end_char": 1658,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "خواهان از خیار ایجاد شده جهت فسخ",
+        "start_char": 643,
+        "end_char": 675,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "اقدام خوانده مبنی بر فروش دام بیمار",
+        "start_char": 267,
+        "end_char": 302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "موجبی برای مطالبه وجه از ناحیه خواهان نسبت به خوانده متصور نمی باشد",
+        "start_char": 730,
+        "end_char": 797,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ع. ن.الف.",
+        "start_char": 1340,
+        "end_char": 1368,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم به بی حقی و رد دعوای خواهان",
+        "start_char": 1038,
+        "end_char": 1069,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از ناحیه آقای ع. ن.الف. به طرفیت آقای م. ف.",
+        "start_char": 22,
+        "end_char": 65,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت مبلغ 60.000.000ریال",
+        "start_char": 100,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "و تجدیدنظرخواه نیز می توانسته",
+        "start_char": 1659,
+        "end_char": 1688,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "پرداخت مبلغ 60.000.000ریال",
+        "start_char": 116,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فروش دام بیمار انجام شده است",
+      "evidence": {
+        "quote": "اقدام خوانده مبنی on فروش دام بیمار",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان از حق فسخ در مهلت قانونی استفاده نکرده است",
+      "evidence": {
+        "quote": "خواهان از خیار ایجاد شده جهت فسخ ظرف مهلت قانونی تعیین شده استفاده ننموده است",
+        "start_char": 643,
+        "end_char": 720,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

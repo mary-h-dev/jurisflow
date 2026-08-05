@@ -1,0 +1,173 @@
+{
+  "ruling_id": "28000",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "بخواسته اجرت المثل ایام زوجیت",
+        "start_char": 77,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "احراز علقه زو جیت",
+        "start_char": 256,
+        "end_char": 273,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد دائم",
+      "evidence": {
+        "quote": "با نوع عقد دائم",
+        "start_char": 274,
+        "end_char": 289,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "به قصد تبرع",
+        "start_char": 554,
+        "end_char": 565,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 1400,
+        "end_char": 1424,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "رد دعوی مطالبه اجرالمثل",
+        "start_char": 1810,
+        "end_char": 1833,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض",
+        "start_char": 1494,
+        "end_char": 1505,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی",
+        "start_char": 1636,
+        "end_char": 1657,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بخواسته اجرت المثل ایام زوجیت با احتساب خسارات دادرسی ، با عنایت به جامع محتویات پرونده ملاحظه تصویر مصدق سند ازدواج شماره......صادره از سوی دفتر رسمی ثبت ازدواج شماره....تهران احراز علقه زو جیت با نوع عقد دائم و نظر به اینکه یکی از شرایط تعلق اجرت المثل ایام زندگی مشترک زوجین دستور زوج می باشد و با توجه به اینکه خواهان اظهار داشته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "دستور زوج می باشد",
+        "start_char": 357,
+        "end_char": 374,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "اشتغال زوجه.دو محل درطول روز به کار",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "با عنایت به اینکه تجدیدنظرخواه ایراد و اعتراض موجهی",
+        "start_char": 2144,
+        "end_char": 2195,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "تصویر مصدق سند ازدواج",
+        "start_char": 172,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 636مورخ1394/4/24",
+        "start_char": 1696,
+        "end_char": 1734,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود رابطه زناشویی با نوع عقد دائم",
+      "evidence": {
+        "quote": "احراز علقه زو جیت با نوع عقد دائم",
+        "start_char": 256,
+        "end_char": 289,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اشتغال زوجه به دو محل در طول روز",
+      "evidence": {
+        "quote": "اشتغال زوجه.دو محل درطول روز به کار",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

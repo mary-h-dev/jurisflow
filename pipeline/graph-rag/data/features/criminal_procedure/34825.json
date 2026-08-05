@@ -1,0 +1,173 @@
+{
+  "ruling_id": "34825",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "آدم ربایی",
+      "evidence": {
+        "quote": "دایر بر آدم ربایی",
+        "start_char": 37,
+        "end_char": 54,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظر",
+      "evidence": {
+        "quote": "قابل تجدیدنظر دانسته",
+        "start_char": 1156,
+        "end_char": 1176,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرجام",
+      "evidence": {
+        "quote": "مرجع فرجام دانسته است",
+        "start_char": 1324,
+        "end_char": 1345,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "متعاقب اعتراض وکیل محترم شاکی",
+        "start_char": 144,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رسیدگی",
+      "evidence": {
+        "quote": "دادگاه کیفری یک رسیدگی کرده",
+        "start_char": 175,
+        "end_char": 202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر",
+      "evidence": {
+        "quote": "ر أی بر ابرام صادر نموده است",
+        "start_char": 214,
+        "end_char": 242,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "پرونده بدواً به دادگاه تجدیدنظر استان کرمان ارسال",
+        "start_char": 277,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده جهت رسیدگی در دادگاه تجدیدنظر استان کرمان (شعبه ی هشتم) اعاده می گردد",
+        "start_char": 1696,
+        "end_char": 1772,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "وکیل محترم شاکی",
+        "start_char": 158,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "اعتراض وکیل محترم شاکی",
+        "start_char": 151,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادیار",
+      "evidence": {
+        "quote": "دادیار محترم دیوان عالی کشور",
+        "start_char": 687,
+        "end_char": 715,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ممیز",
+      "evidence": {
+        "quote": "عضو ممیز",
+        "start_char": 653,
+        "end_char": 661,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پرونده بدواً به دادگاه تجدیدنظر استان کرمان ارسال",
+        "start_char": 277,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "ر أی بر ابرام صادر نموده است",
+        "start_char": 214,
+        "end_char": 242,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دادگاه کیفری یک رأی بر ابرام صادر کرده است",
+      "evidence": {
+        "quote": "در نهایت ر أی بر ابرام صادر نموده است",
+        "start_char": 205,
+        "end_char": 242,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه تجدیدنظر استان مرجع رسیدگی به تجدیدنظر قرار منع پیگرد است",
+      "evidence": {
+        "quote": "رسیدگی به درخواست تجدیدنظر از رأی دادگاه کیفری یک مبنی بر تأیید قرار منع پیگرد نیز در صلاحیت دادگاه تجدیدنظر استان می باشد",
+        "start_char": 1563,
+        "end_char": 1685,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

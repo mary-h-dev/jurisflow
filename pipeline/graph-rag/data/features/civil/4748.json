@@ -1,0 +1,173 @@
+{
+  "ruling_id": "4748",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال مبایعه نامه",
+        "start_char": 109,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مستحق للغیر بودن",
+      "evidence": {
+        "quote": "به جهت مستحق للغیر بودن مبیع",
+        "start_char": 262,
+        "end_char": 290,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "معامله طرفین به جهت عدم مالکیت خوانده و اعلام عدم رضایت مالک و متصرف (شاکی پرونده کیفری) باطل بوده است",
+        "start_char": 1298,
+        "end_char": 1400,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد فاسد",
+      "evidence": {
+        "quote": "فی الواقع عقدی فاسد ایجاد شده",
+        "start_char": 2960,
+        "end_char": 2989,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد ثمن",
+      "evidence": {
+        "quote": "الزام خوانده به استرداد ثمن",
+        "start_char": 196,
+        "end_char": 223,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "حکایت از فروش یک باب منزل مسکونی",
+        "start_char": 566,
+        "end_char": 598,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "لایحه اعتراضیه تجدیدنظرخواه",
+        "start_char": 2517,
+        "end_char": 2544,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به استرداد ثمن",
+        "start_char": 196,
+        "end_char": 223,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان صادر",
+        "start_char": 1754,
+        "end_char": 1771,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به محکومیت تجدیدنظرخواه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "ابطال مبایعه نامه مورخ 16/6/86",
+        "start_char": 119,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "استرداد ثمن به مبلغ هشت میلیون و دویست هزار تومان",
+        "start_char": 212,
+        "end_char": 261,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "فروش یک باب منزل مسکونی",
+        "start_char": 575,
+        "end_char": 598,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده اقدام به فروش مال غیر کرده است",
+      "evidence": {
+        "quote": "اقدام به فروش مال غیر درخصوص ملک مورد نظر نموده است",
+        "start_char": 981,
+        "end_char": 1032,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثمن معامله پرداخت شده است",
+      "evidence": {
+        "quote": "کل ثمن معامله به خوانده پرداخت شده است",
+        "start_char": 736,
+        "end_char": 774,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک از ید مستأجر خارج و به شاکی تحویل شده است",
+      "evidence": {
+        "quote": "ملک از ید مستأجر خواهان خارج و تحویل شاکی (م.) شده است",
+        "start_char": 1187,
+        "end_char": 1241,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

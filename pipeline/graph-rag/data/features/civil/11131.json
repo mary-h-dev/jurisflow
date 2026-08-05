@@ -1,0 +1,183 @@
+{
+  "ruling_id": "11131",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "زوجه را ملزم به تمکین از همسرش می‌نماید",
+        "start_char": 1059,
+        "end_char": 1098,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه بدوی وفق مقررات مواد 1102 و 1105 و 1114 قانون مدنی",
+        "start_char": 993,
+        "end_char": 1058,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عذر",
+      "evidence": {
+        "quote": "مگر اینکه عذر موجهی بر عدم تمکین خود داشته باشد",
+        "start_char": 835,
+        "end_char": 882,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "چنانچه زوجه مدعی عدم پرداخت نفقه در گذشته است",
+        "start_char": 1305,
+        "end_char": 1350,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای س.م. به طرفیت خانم م.ر.",
+        "start_char": 0,
+        "end_char": 41,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای س.م. به طرفیت م.ر.",
+        "start_char": 549,
+        "end_char": 586,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "می‌تواند از دادگاه مطالبه نماید",
+        "start_char": 1351,
+        "end_char": 1382,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه را ملزم به تمکین از همسرش می‌نماید",
+        "start_char": 1059,
+        "end_char": 1098,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوجه را ملزم به تمکین از همسرش می‌نماید",
+        "start_char": 1059,
+        "end_char": 1098,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی آقای س.م. به طرفیت خانم م.ر.",
+        "start_char": 8,
+        "end_char": 41,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دعوی آقای س.م. به طرفیت خانم م.ر.",
+        "start_char": 8,
+        "end_char": 41,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دعوا",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای س.م. به طرفیت خانم م.ر.",
+        "start_char": 0,
+        "end_char": 41,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1137- 1393/7/9",
+        "start_char": 587,
+        "end_char": 623,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "به مجرد وقوع عقد نکاح زن و شوهر در مقابل یکدیگر حقوق و تکالیفی دارند",
+        "start_char": 728,
+        "end_char": 796,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه حاضر به تمکین نشد",
+      "evidence": {
+        "quote": "خواهان هم از اینکه بدون مانع مشروع خوانده حاضر نشود دلیلی ارائه ننموده",
+        "start_char": 285,
+        "end_char": 355,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوی تمکین رد شد",
+      "evidence": {
+        "quote": "به نظر وارد است زیرا به مجرد وقوع عقد نکاح زن و شوهر در مقابل یکدیگر حقوق و تکالیفی دارند",
+        "start_char": 707,
+        "end_char": 796,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه عذر موجهی نداشت",
+      "evidence": {
+        "quote": "زوجه عذر موجهی عنوان نکرده است",
+        "start_char": 883,
+        "end_char": 913,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "ruling_id": "31793",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبۀ اجرت المثل ایام زوجیت",
+        "start_char": 93,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "زن امور خانه را تبرعاً انجام می دهد",
+        "start_char": 403,
+        "end_char": 438,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استحقاق",
+      "evidence": {
+        "quote": "اصل بر استحقاق و ظاهر در عدم تبرع در انجام کارهایی که بعهده مشارالیها نبوده ، میباشد",
+        "start_char": 1313,
+        "end_char": 1397,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 859,
+        "end_char": 885,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را نقض",
+        "start_char": 2216,
+        "end_char": 2240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده را به پرداخت اجرت المثل به مبلغ هشت میلیون تومان معادل هشتاد میلیون ریال حسب نظریه کارشناسی در حق مشارالیها بعلاوه خسارات دادرسی محکوم می نماید",
+        "start_char": 2298,
+        "end_char": 2457,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان قابل اجابت نیست",
+        "start_char": 136,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت شوهرش آقای غ. ز. با وکالت آقای م. ش. از خوانده دایر",
+        "start_char": 29,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ل. ب.",
+        "start_char": 1043,
+        "end_char": 1067,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجرت‌المثل ایام زوجیت",
+      "evidence": {
+        "quote": "مطالبۀ اجرت المثل ایام زوجیت",
+        "start_char": 93,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "به پرداخت اجرت المثل به مبلغ هشت میلیون تومان",
+        "start_char": 2317,
+        "end_char": 2362,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زن امور خانه را بدون قصد دریافت دستمزد انجام می‌دهد",
+      "evidence": {
+        "quote": "اساساً زن امور خانه را تبرعاً انجام می دهد و هیچگاه قصد او دریافت دستمزد نمی باشد",
+        "start_char": 396,
+        "end_char": 477,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در زمان عقد، شرط دریافت اجرت المثل نشده است",
+      "evidence": {
+        "quote": "عدم مطالبه اجرت المثل در زمان عقد شرط نشده است",
+        "start_char": 491,
+        "end_char": 537,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

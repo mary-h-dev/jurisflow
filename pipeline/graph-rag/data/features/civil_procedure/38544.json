@@ -1,0 +1,103 @@
+{
+  "ruling_id": "38544",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال رای داوری",
+        "start_char": 123,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "تقاضای صدورحکم بر بطلان رای داوری",
+        "start_char": 151,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطرح",
+      "evidence": {
+        "quote": "مطرح کرده است",
+        "start_char": 283,
+        "end_char": 296,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استماع",
+      "evidence": {
+        "quote": "استماع گردیده است",
+        "start_char": 511,
+        "end_char": 528,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی صادر می گردد",
+        "start_char": 1350,
+        "end_char": 1380,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ملاحظه اظهارات خواهان",
+        "start_char": 608,
+        "end_char": 629,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متداعیین",
+      "evidence": {
+        "quote": "استماع اظهارات متداعیین",
+        "start_char": 425,
+        "end_char": 448,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای داور را مورد بررسی قرار می دهد",
+        "start_char": 911,
+        "end_char": 945,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رای داوری با بندهای ماده 489 قانون آیین دادرسی مدنی مخالف نیست",
+      "evidence": {
+        "quote": "رای داوری مخالف با هیچ یک از بندهای هفت گانه ماده 489 قانون ایین دادرسی مدنی نمی باشد",
+        "start_char": 1192,
+        "end_char": 1277,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

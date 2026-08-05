@@ -1,0 +1,123 @@
+{
+  "ruling_id": "32649",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اقامتگاه",
+      "evidence": {
+        "quote": "اصل برصلاحیت محل اقامتگاه خوانده",
+        "start_char": 2007,
+        "end_char": 2039,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "منشاء آن عقد بیع باشد",
+        "start_char": 1956,
+        "end_char": 1977,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه باقیمانده ثمن",
+        "start_char": 82,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار عدم",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت به شایستگی و صلاحیت دادگستری تهران صادر واعلام می گردد",
+        "start_char": 683,
+        "end_char": 753,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 31,
+        "end_char": 48,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان مطالبه ثمن است",
+        "start_char": 517,
+        "end_char": 545,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه شماره 10287",
+        "start_char": 120,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "مطالبه باقیمانده ثمن معامله",
+        "start_char": 92,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "مربوط به یک دستگاه آپارتمان",
+        "start_char": 1124,
+        "end_char": 1151,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "محل سکونت خواندگان در تهران است",
+      "evidence": {
+        "quote": "محل سکونت خواندگان در تهران اعلام شده",
+        "start_char": 288,
+        "end_char": 325,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موضوع دعوا باقیمانده ثمن معامله است",
+      "evidence": {
+        "quote": "مطالبه باقیمانده ثمن معامله",
+        "start_char": 92,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

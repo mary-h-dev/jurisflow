@@ -1,0 +1,193 @@
+{
+  "ruling_id": "4369",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 46,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "وجود علقه زوجیت",
+        "start_char": 128,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "عدم تمکین",
+        "start_char": 238,
+        "end_char": 247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "نوع طلاق بائن یائسه می باشد",
+        "start_char": 1088,
+        "end_char": 1115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ت.ج.",
+        "start_char": 1843,
+        "end_char": 1866,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 46,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "مورد اعتراض تجدیدنظرخواه واقع شده است",
+        "start_char": 2074,
+        "end_char": 2111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه مورد اعتراض را تأیید می نماید",
+        "start_char": 2527,
+        "end_char": 2564,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 2505,
+        "end_char": 2525,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست تقدیمی و اظهارات خواهان",
+        "start_char": 183,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت ت.ج.",
+        "start_char": 22,
+        "end_char": 35,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه واقع شده است",
+        "start_char": 2086,
+        "end_char": 2111,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "سند نکاحیه ثبتی",
+        "start_char": 100,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "منزل مشترک",
+        "start_char": 268,
+        "end_char": 278,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "خوانده مهریه خویش را",
+        "start_char": 1209,
+        "end_char": 1229,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین سه سال منزل مشترک را ترک کرده‌اند",
+      "evidence": {
+        "quote": "سه سال منزل مشترک را ترک کرده است",
+        "start_char": 261,
+        "end_char": 294,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده حاضر به طلاق نیست",
+      "evidence": {
+        "quote": "حاضر به طلاق نیست",
+        "start_char": 649,
+        "end_char": 666,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین فرزند مشترک ندارند",
+      "evidence": {
+        "quote": "طرفین فرزند مشترک ندارند",
+        "start_char": 1117,
+        "end_char": 1141,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

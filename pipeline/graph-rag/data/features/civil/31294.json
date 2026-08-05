@@ -1,0 +1,133 @@
+{
+  "ruling_id": "31294",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته الزام به تمکین",
+        "start_char": 97,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم بر رد دعوی خواهان صادر",
+        "start_char": 1978,
+        "end_char": 2004,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تجدیدنظرخواسته را عینا تایید می نماید",
+        "start_char": 2954,
+        "end_char": 2991,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست آقای پ. س. فرزند ع.ر. با وکالت خانم الف. دادوی به طرفیت همسرش خانم ل. خ. فرزند ع. به خواسته الزام به تمکین. خواهان",
+        "start_char": 0,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده در پاسخ اظهار داشت",
+        "start_char": 467,
+        "end_char": 492,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه (زوج)",
+        "start_char": 2356,
+        "end_char": 2374,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظرخوانده (زوجه)",
+        "start_char": 2375,
+        "end_char": 2404,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "دیگربه منزل مشترک",
+        "start_char": 292,
+        "end_char": 309,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "حسب سند نکاحیه",
+        "start_char": 1701,
+        "end_char": 1715,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج به خارج از کشور رفته است",
+      "evidence": {
+        "quote": "همسرم مردادماه به خارج از کشور رفت",
+        "start_char": 153,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زن در منزل پرند زندگی می‌کند",
+      "evidence": {
+        "quote": "آخرین راه را در پیش گرفتند که رفتن به منزل پرند می باشد",
+        "start_char": 1223,
+        "end_char": 1277,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "منزل در تهران واقع شده است",
+      "evidence": {
+        "quote": "در تهران خیابان ظفر زندگی کردیم",
+        "start_char": 943,
+        "end_char": 974,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

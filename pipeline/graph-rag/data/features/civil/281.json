@@ -1,0 +1,123 @@
+{
+  "ruling_id": "281",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "صدور حکم به ابطال شناسنامه",
+        "start_char": 79,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره ثبت احوال شرق تهران",
+        "start_char": 869,
+        "end_char": 908,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض",
+        "start_char": 765,
+        "end_char": 776,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "رد اظهارات خوانده",
+        "start_char": 489,
+        "end_char": 506,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عیناً تأیید می نماید",
+        "start_char": 1819,
+        "end_char": 1865,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "صدور شناسنامه جدید باتاریخ تولد واقعی 15/2/1361 باحفظ سایر مندرجات آن صادر می نماید",
+        "start_char": 635,
+        "end_char": 718,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده در قبال دعوی ایراد و اعتراض موجهی معمول نداشته",
+        "start_char": 357,
+        "end_char": 410,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی دلیل یا مدرک قانع کننده",
+        "start_char": 1358,
+        "end_char": 1417,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "ابطال شناسنامه 819",
+        "start_char": 91,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "حکم به ابطال سند سجلی",
+        "start_char": 593,
+        "end_char": 614,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تاریخ تولد در شناسنامه با واقعیت مطابقت ندارد",
+      "evidence": {
+        "quote": "به لحاظ عدم تعلق شناسنامه فوق الذکر به مشارٌالیه و تعلق آن به خواهر متوفایش",
+        "start_char": 185,
+        "end_char": 260,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

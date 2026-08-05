@@ -1,0 +1,183 @@
+{
+  "ruling_id": "5439",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت اصحاب دعوی",
+        "start_char": 144,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته صدور حکم مبنی بر الزام خوانده به تمکین",
+        "start_char": 62,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان صادر و اعلام می نماید",
+        "start_char": 586,
+        "end_char": 632,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکلیف",
+      "evidence": {
+        "quote": "خود را از تکلیف تمکین مبرا داند",
+        "start_char": 1534,
+        "end_char": 1565,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استناد",
+      "evidence": {
+        "quote": "خوانده در مقام دفاع به ایراد ضرب وجرح و عدم امنیت جانی استناد نموده است",
+        "start_char": 228,
+        "end_char": 299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت دیه",
+      "evidence": {
+        "quote": "محکوم به پرداخت دیه در حق همسرش",
+        "start_char": 1311,
+        "end_char": 1342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "آن را نقض و حکم به قبولی خواسته تجدیدنظرخواه",
+        "start_char": 1935,
+        "end_char": 1979,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 89,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "اگرچه زوج به موجب دادنامه",
+        "start_char": 1231,
+        "end_char": 1256,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه می تواند وفق ماده 1115 قانون مذکور",
+        "start_char": 643,
+        "end_char": 682,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظر خوانده به تمکین",
+        "start_char": 1982,
+        "end_char": 2014,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظر خوانده به تمکین",
+        "start_char": 1982,
+        "end_char": 2014,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "حسب دلالت مندرجات سند نکاحیه پیوست پرونده",
+        "start_char": 173,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "با توجه به قطعیت دادنامه شماره 928",
+        "start_char": 301,
+        "end_char": 335,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین وجود دارد",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت اصحاب دعوی",
+        "start_char": 144,
+        "end_char": 172,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج سابقه ضرب و شتم و توهین دارد",
+      "evidence": {
+        "quote": "محکوم به پرداخت دیه در حق همسرش به جهت ضرب و شتم وی و مجازات قذف گردیده",
+        "start_char": 1311,
+        "end_char": 1382,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه در منزل مشترک امنیت جانی ندارد",
+      "evidence": {
+        "quote": "احراز خوف ضرر بدنی و جسمی و حیثیتی برای زوجه در صورت حضور در منزل مشترک با زوج",
+        "start_char": 434,
+        "end_char": 512,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

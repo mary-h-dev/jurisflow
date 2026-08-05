@@ -1,0 +1,123 @@
+{
+  "ruling_id": "35306",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت فی مابین خواهان و خوانده محرز ومسلم می باشد",
+        "start_char": 90,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "اجرت المثل طلب نماید",
+        "start_char": 336,
+        "end_char": 356,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "اجرت المثل طلب نماید",
+        "start_char": 336,
+        "end_char": 356,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان",
+        "start_char": 1564,
+        "end_char": 1585,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "فی مابین خواهان و خوانده",
+        "start_char": 102,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "فی مابین خواهان و خوانده",
+        "start_char": 102,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه",
+        "start_char": 993,
+        "end_char": 1013,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "از دادنامه شماره1639",
+        "start_char": 907,
+        "end_char": 926,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین وجود دارد",
+      "evidence": {
+        "quote": "رابطه زوجیت فی مابین خواهان و خوانده محرز ومسلم می باشد",
+        "start_char": 90,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زن کارهای خانه را بدون قصد تبرع انجام داده است",
+      "evidence": {
+        "quote": "با قصد عدم تبرع انجام شده باشد",
+        "start_char": 305,
+        "end_char": 335,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اثبات دستور زوج به کار محرز نشده است",
+      "evidence": {
+        "quote": "شرایط استحقاق اثبات دستور زوج به کارمیباشد که احرازنشده",
+        "start_char": 1302,
+        "end_char": 1357,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

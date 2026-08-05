@@ -1,0 +1,133 @@
+{
+  "ruling_id": "28701",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه فرزند مشترک",
+        "start_char": 58,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "حضانت فرزندان مشترک",
+        "start_char": 228,
+        "end_char": 247,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه نفقه فرزند",
+        "start_char": 58,
+        "end_char": 75,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رای صادره دادگاه بدوی را نقض کرده",
+        "start_char": 1442,
+        "end_char": 1475,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت تجدید نظر خوانده",
+        "start_char": 1518,
+        "end_char": 1549,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخواست خواهان",
+        "start_char": 286,
+        "end_char": 300,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت تجدید نظر خوانده",
+        "start_char": 1525,
+        "end_char": 1549,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "پدر",
+      "evidence": {
+        "quote": "به پدر آنها واگذار شده",
+        "start_char": 248,
+        "end_char": 270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مادر",
+      "evidence": {
+        "quote": "نگهداری طفل توسط مادر",
+        "start_char": 551,
+        "end_char": 572,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "نفقه فرزند مشترک",
+        "start_char": 65,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "حضانت قانونی فرزند بر عهده پدر است",
+      "evidence": {
+        "quote": "حضانت قانونی فرزند مشترک بر عهده پدر است",
+        "start_char": 1225,
+        "end_char": 1265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزند مشترک با مادر زندگی می‌کند",
+      "evidence": {
+        "quote": "فرزند مشترک با مادر زندگی می کند",
+        "start_char": 1185,
+        "end_char": 1217,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "4736",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعدی",
+      "evidence": {
+        "quote": "به لحاظ تعدی و تفریط",
+        "start_char": 214,
+        "end_char": 234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اذن",
+      "evidence": {
+        "quote": "برابر قاعده حقوقی «اذن در شیء، اذن در لوازم آن می باشد»",
+        "start_char": 7190,
+        "end_char": 7245,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "حکم به تخلیه عین مستأجره",
+        "start_char": 145,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "بانک م. نسبت به آن اعتراض نمود",
+        "start_char": 4240,
+        "end_char": 4270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "احداث",
+      "evidence": {
+        "quote": "احداث سرویس بهداشتی و آبدارخانه",
+        "start_char": 4643,
+        "end_char": 4674,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "درب چهارباب مغازه طبقه اول را از آهن پروفیل به آلومینیم تغییر داده است",
+        "start_char": 3144,
+        "end_char": 3214,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان ها",
+        "start_char": 330,
+        "end_char": 344,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "متصدیان بانک (مستأجر)",
+        "start_char": 850,
+        "end_char": 871,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجرین",
+      "evidence": {
+        "quote": "بدون کسب اجازه از موجرین",
+        "start_char": 872,
+        "end_char": 896,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت خسارات قانونی",
+        "start_char": 241,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "تا تجدیدنظرخواندگان بتوانند از دادگاه درخواست تخلیه را بنمایند",
+        "start_char": 6975,
+        "end_char": 7037,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عین مستأجره",
+      "evidence": {
+        "quote": "حکم به تخلیه عین مستأجره",
+        "start_char": 145,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره نامه",
+      "evidence": {
+        "quote": "مستنداً به اجاره نامه های رسمی",
+        "start_char": 451,
+        "end_char": 481,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "بانک به بخش‌های مشاعی تجاوز کرده است",
+      "evidence": {
+        "quote": "خوانده در این قسمت به مشاعات ساختمان تجاوز نموده است",
+        "start_char": 2258,
+        "end_char": 2310,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درب‌های آهن پروفیل به آلومینیوم تغییر یافته‌اند",
+      "evidence": {
+        "quote": "درب چهارباب مغازه طبقه اول را از آهن پروفیل به آلومینیم تغییر داده است",
+        "start_char": 3144,
+        "end_char": 3214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجهیزات سرمایشی در نمای ساختمان نصب شده است",
+      "evidence": {
+        "quote": "در نمای غربی و داخل پاساژ در طبقه همکف، سه دستگاه اسپیلت یونیت و در طبقه اول نیز سه دستگاه اسپیلت نصب نموده",
+        "start_char": 2903,
+        "end_char": 3010,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "32272",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نزاع",
+      "evidence": {
+        "quote": "به اتهام نزاع دسته جمعی",
+        "start_char": 61,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دیه",
+      "evidence": {
+        "quote": "به پرداخت دیه هم محکوم میشود",
+        "start_char": 303,
+        "end_char": 331,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "محکوم و",
+      "evidence": {
+        "quote": "به حبس محکوم میشوند",
+        "start_char": 130,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "و سایر محکوم علیهم به این رأی اعتراض میکند",
+        "start_char": 365,
+        "end_char": 407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "در مورد متهمین بغیر از معترض رأی را تأیید میکند",
+        "start_char": 479,
+        "end_char": 526,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت خود و به شایستگی دیوانعالی کشور صادر مینماید",
+        "start_char": 637,
+        "end_char": 697,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهمین",
+      "evidence": {
+        "quote": "متهمین که تعداد آنها سیزده نفر میباشند",
+        "start_char": 22,
+        "end_char": 60,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم ردیف اول آقای م. د.",
+        "start_char": 152,
+        "end_char": 176,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "جراحتهای وارده بر شاکی",
+        "start_char": 569,
+        "end_char": 591,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "در خصوص دادنامه شماره 088-93/2/30 فرمانخواسته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ممیز",
+      "evidence": {
+        "quote": "آقای علی شوشتری عضو ممیز",
+        "start_char": 838,
+        "end_char": 862,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دیوانعالی کشور",
+      "evidence": {
+        "quote": "آقای مهرداد حبیبی دادیار دیوانعالی کشور",
+        "start_char": 891,
+        "end_char": 930,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به موجب دادنامه مذکور",
+        "start_char": 0,
+        "end_char": 21,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسلحه",
+      "evidence": {
+        "quote": "تیراندازی با اسلحه",
+        "start_char": 241,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "جراحت‌های شاکی مجموعاً بیش از نصف دیه کامل مرد مسلمان است",
+      "evidence": {
+        "quote": "جراحتهای وارده بر شاکی مجموعاً بیش از نصف دیه کامل مرد مسلمان میشود",
+        "start_char": 569,
+        "end_char": 636,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملاک صلاحیت دادگاه کیفری یک نصف دیه از یک جراحت است",
+      "evidence": {
+        "quote": "چون ملاک در صلاحیت دادگاه کیفری یک نصف دیه از یک جراحت میباشد",
+        "start_char": 1138,
+        "end_char": 1199,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

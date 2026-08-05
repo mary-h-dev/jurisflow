@@ -1,0 +1,203 @@
+{
+  "ruling_id": "37240",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قتل عمدی",
+      "evidence": {
+        "quote": "باشرکت در قتل عمدی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سرقت",
+      "evidence": {
+        "quote": "سرقت مسلحانه",
+        "start_char": 2535,
+        "end_char": 2547,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قصد",
+      "evidence": {
+        "quote": "عدم وحدت قصد بین متهمین",
+        "start_char": 5118,
+        "end_char": 5141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معاونت در قتل",
+      "evidence": {
+        "quote": "معاونت در قتل عمدی",
+        "start_char": 3660,
+        "end_char": 3678,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "قتل",
+      "evidence": {
+        "quote": "به جرم خود در مورد قتل مهندس ح. پ.",
+        "start_char": 2114,
+        "end_char": 2148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی نموده است",
+        "start_char": 5057,
+        "end_char": 5086,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراف",
+      "evidence": {
+        "quote": "اعتراف کرده اند",
+        "start_char": 2469,
+        "end_char": 2484,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انکار",
+      "evidence": {
+        "quote": "انکار نموده است",
+        "start_char": 2600,
+        "end_char": 2615,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم ردیف اول",
+        "start_char": 3990,
+        "end_char": 4003,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مقتول",
+      "evidence": {
+        "quote": "مقتول م. ح. پ.",
+        "start_char": 261,
+        "end_char": 275,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مباشر",
+      "evidence": {
+        "quote": "مباشر قتل ا. ح. ع. ب.",
+        "start_char": 3174,
+        "end_char": 3195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل م. و. ن.",
+        "start_char": 4788,
+        "end_char": 4801,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "محکوم علیه ردیف سوم",
+        "start_char": 4802,
+        "end_char": 4821,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "کلید",
+      "evidence": {
+        "quote": "برداشتن و بردن کلید های منزل",
+        "start_char": 2324,
+        "end_char": 2352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "صندوق",
+      "evidence": {
+        "quote": "گاو صندوق",
+        "start_char": 1180,
+        "end_char": 1189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "ارایه 9 سند",
+        "start_char": 4863,
+        "end_char": 4874,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مقتول با متهمین اختلاف مالی داشته است",
+      "evidence": {
+        "quote": "م. و. ن. که اختلاف مالی با مقتول داشته",
+        "start_char": 2197,
+        "end_char": 2235,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهمین با چاقو تهدید کردند",
+      "evidence": {
+        "quote": "با چاقو من را تهدید کردند",
+        "start_char": 573,
+        "end_char": 598,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهمین از محل کار مقتول سرقت کردند",
+      "evidence": {
+        "quote": "متهمین برای سرقت دسته کلید و محتویات گاو صندوق وارد محل کار مقتول شده اند",
+        "start_char": 6327,
+        "end_char": 6400,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

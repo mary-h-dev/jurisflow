@@ -1,0 +1,153 @@
+{
+  "ruling_id": "42790",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تاخیر تادیه",
+        "start_char": 177,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "شرط لازم برای ایجاد حق فرجام خواهی",
+        "start_char": 1951,
+        "end_char": 1985,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "به علت انقضای مهلت تجدیدنظرخواهی",
+        "start_char": 1266,
+        "end_char": 1298,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه",
+        "start_char": 117,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با تقدیم دادخواست تجدیدنظرخواهی",
+        "start_char": 1182,
+        "end_char": 1213,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "فرمان خواهی نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی صادر",
+        "start_char": 1107,
+        "end_char": 1124,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان را",
+        "start_char": 398,
+        "end_char": 414,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "نسبت به خوانده دیگر",
+        "start_char": 847,
+        "end_char": 866,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "وکیل محکوم علیه",
+        "start_char": 739,
+        "end_char": 754,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "مطالبه وجه",
+        "start_char": 127,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بموجب دادنامه شماره 9 */12/18",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی در نسبت به رای بدوی صورت گرفته است",
+      "evidence": {
+        "quote": "نسبت به رای بدوی تجدیدنظرخواهی بعمل اید",
+        "start_char": 2045,
+        "end_char": 2084,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مهلت تجدیدنظرخواهی منقضی شده است",
+      "evidence": {
+        "quote": "به علت انقضای مهلت تجدیدنظرخواهی",
+        "start_char": 1266,
+        "end_char": 1298,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "35024",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "با توجه به اشتغال ذمه خواندگان و رعایت اصل بقاء دین",
+        "start_char": 769,
+        "end_char": 820,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرکت",
+      "evidence": {
+        "quote": "اداره انشائی منعقدین قرارداد بر تحقق عقد شرکت بوده",
+        "start_char": 3190,
+        "end_char": 3240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمان",
+      "evidence": {
+        "quote": "با بالحاظ ماهیت عقد ضمان متشکله",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأخیر تأدیه",
+      "evidence": {
+        "quote": "بابت اصل بدهی با احتساب خسارات تأخیر تأدیه",
+        "start_char": 221,
+        "end_char": 263,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بموجب دادخواستی بطرفیت آقایان ذ. ح.ز. صادقی و ب. ح.ز. صادقی بخواسته صدور حکم بپرداخت مبلغ 124 میلیون ریال",
+        "start_char": 115,
+        "end_char": 220,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "امضاء",
+      "evidence": {
+        "quote": "و تمامی مفاد قرارداد فوق الذکر را بعنوان ضامن امضاء نموده",
+        "start_char": 585,
+        "end_char": 642,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "با وصف اخطاریه های مکرر از بازپرداخت قروض متعلقه استنکاف نموده اند",
+        "start_char": 663,
+        "end_char": 729,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "مبادرت به فرجام خواهی از رأی مزبور مینماید",
+        "start_char": 6512,
+        "end_char": 6554,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف اول طی قرارداد لازم الاجرای بانکی",
+        "start_char": 410,
+        "end_char": 455,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ضامن",
+      "evidence": {
+        "quote": "و آقای ب. ح.ز. صادقی بعنوان ضامن",
+        "start_char": 1425,
+        "end_char": 1457,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از تسهیلات اعتباری بانک خواهان بهره مند شده",
+        "start_char": 473,
+        "end_char": 516,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "فرجام خواهی خانم ب. الف.م. بوکالت از بانک صادرات استان آذربایجان غربی",
+        "start_char": 8667,
+        "end_char": 8736,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بانکی",
+      "evidence": {
+        "quote": "طی قرارداد لازم الاجرای بانکی شماره...-88/8/2",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تسهیلات و وام",
+      "evidence": {
+        "quote": "از تسهیلات اعتباری بانک خواهان بهره مند شده",
+        "start_char": 473,
+        "end_char": 516,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت بدهی در موعد مقرر",
+      "evidence": {
+        "quote": "با وصف اخطاریه های مکرر از بازپرداخت قروض متعلقه استنکاف نموده اند",
+        "start_char": 663,
+        "end_char": 729,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انقضای مدت قرارداد",
+      "evidence": {
+        "quote": "و مدت قرارداد نیز باتمام رسیده است",
+        "start_char": 730,
+        "end_char": 764,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

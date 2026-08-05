@@ -1,0 +1,173 @@
+{
+  "ruling_id": "7527",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "به خواسته صدور حکم بر محکومیت خواندگان به پرداخت اجرت المثل",
+        "start_char": 223,
+        "end_char": 282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "اجرت المثل ایّام تصرف غاصبانه",
+        "start_char": 272,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "چون بیع فاسد اثری در تملک ندارد",
+        "start_char": 932,
+        "end_char": 963,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "تمام معاملات مذکور ابطال و از درجه اعتبار ساقط گردیده",
+        "start_char": 849,
+        "end_char": 902,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت اجرت المثل",
+        "start_char": 262,
+        "end_char": 282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "اقدام به فروش 5 دانگ مشاع حلقه چاه مذکور",
+        "start_char": 761,
+        "end_char": 801,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "حق رجوع به خریدار جهت مطالبه خسارت را نخواهد داشت",
+        "start_char": 3771,
+        "end_char": 3820,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "از رأی مزبور فرجام خواهی نموده",
+        "start_char": 4201,
+        "end_char": 4231,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت آقـایان و خانم ها 1ـ ج.2ـ م. م.3ـ الف. الف.4ـ ع.ع. 5 ـ ر.ف.6ـ هـ.ت.7ـ ع. ج. 8ـ ف.م.9ـ ع. ط.10ـ ص. الف.11ـ الف.ت. به خواسته صدور حکم بر محکومیت خواندگان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موکل",
+      "evidence": {
+        "quote": "حسب پروانه مورد استناد موکل مالک شش دانگ یک حلقه چاه عمیق در روستای تکلان می باشد",
+        "start_char": 640,
+        "end_char": 721,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "و خریدار ضامن عین و منافع مدت تصرف خویش در حق موکل می باشد",
+        "start_char": 964,
+        "end_char": 1022,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "در خصوص معامله باطل هر دو طرف معامله باطل را شامل می شود بدیع استی که خریداران با اثبات جهل خـود نسبت به بطلان معامله واقع شده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "ممنوعیت قانونی مبیع در انتقال بوده است",
+        "start_char": 5755,
+        "end_char": 5793,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "در قبال ثمن متعلق به خریداران",
+        "start_char": 5837,
+        "end_char": 5866,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "معامله چاه بدون زمین انجام شده است",
+      "evidence": {
+        "quote": "پروانه حق انتقال آب چاه بدون زمین را ندارد",
+        "start_char": 3521,
+        "end_char": 3563,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواندگان از چاه استفاده کرده‌اند",
+      "evidence": {
+        "quote": "خواندگان موصوف از حقاّبه ادعایی استفاده نمودند",
+        "start_char": 2620,
+        "end_char": 2666,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

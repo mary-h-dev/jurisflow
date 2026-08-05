@@ -1,0 +1,143 @@
+{
+  "ruling_id": "29277",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال شناسنامه",
+        "start_char": 65,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان صادر می نماید",
+        "start_char": 1878,
+        "end_char": 1916,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "و صدور شناسنامه جدید",
+        "start_char": 126,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره ثبت احوال شرق تهران",
+        "start_char": 865,
+        "end_char": 904,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظر خواسته",
+        "start_char": 1845,
+        "end_char": 1876,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ادعای خواهان",
+        "start_char": 355,
+        "end_char": 367,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به ابطال",
+        "start_char": 596,
+        "end_char": 617,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "به طرفیت اداره ثبت احوال شرق تهران",
+        "start_char": 30,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "ابطال شناسنامه",
+        "start_char": 75,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "سند سجلی موضوع دعوی",
+        "start_char": 1264,
+        "end_char": 1283,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شناسنامه با تاریخ تولد اشتباه ثبت شده است",
+      "evidence": {
+        "quote": "شناسنامه به شماره *** به تاریخ تولد 58/12/22",
+        "start_char": 81,
+        "end_char": 125,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان از شناسنامه مذکور استفاده کرده و عکس خود را به آن چسبانده است",
+      "evidence": {
+        "quote": "خواهان تاکنون از سند سجلی مذکور استفاده نموده و عکس خویش را به آن الصاق نموده",
+        "start_char": 1623,
+        "end_char": 1700,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان گواهی ولادت یا فوت ارائه نکرده است",
+      "evidence": {
+        "quote": "گواهی ولادت خویش یا گواهی فوت صاحب اصلی شناسنامه را تقدیم نکرده",
+        "start_char": 1385,
+        "end_char": 1448,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

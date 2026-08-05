@@ -1,0 +1,123 @@
+{
+  "ruling_id": "29213",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "مبنی بر ایفای تعهد",
+        "start_char": 81,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بدون",
+      "evidence": {
+        "quote": "اعلام بدون سمت بودن",
+        "start_char": 102,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "در اقامه دعوی شناخته می شود",
+        "start_char": 1817,
+        "end_char": 1844,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م. ش.ع.",
+        "start_char": 1363,
+        "end_char": 1397,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "دعوی از این جهت اقتضای صدور قرار رد را داشته است",
+        "start_char": 2173,
+        "end_char": 2221,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "اعلام بدون سمت بودن خواندگان ردیفهای اول تا سوم",
+        "start_char": 102,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "هیات",
+      "evidence": {
+        "quote": "در هیات مدیره شرکت",
+        "start_char": 150,
+        "end_char": 168,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سهام",
+      "evidence": {
+        "quote": "عدم صدور برگه سهام از جانب شرکت",
+        "start_char": 1991,
+        "end_char": 2022,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سهم",
+      "evidence": {
+        "quote": "عدم تودیع مادی یک سهم",
+        "start_char": 2048,
+        "end_char": 2069,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم صدور برگه سهام توسط شرکت",
+      "evidence": {
+        "quote": "عدم صدور برگه سهام از جانب شرکت",
+        "start_char": 1991,
+        "end_char": 2022,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تودیع وثیقه توسط مدیران",
+      "evidence": {
+        "quote": "عدم تودیع مادی یک سهم مقره بعنوان وثیقه در نزد شرکت",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

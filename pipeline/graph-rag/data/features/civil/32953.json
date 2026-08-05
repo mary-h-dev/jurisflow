@@ -1,0 +1,193 @@
+{
+  "ruling_id": "32953",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل اموال",
+        "start_char": 49,
+        "end_char": 72,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "به انضمام خسارات دادرسی",
+        "start_char": 73,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "با احراز برائت ذمه از سهم زوجه باشد",
+        "start_char": 1720,
+        "end_char": 1755,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل اموال",
+        "start_char": 49,
+        "end_char": 72,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "از تاریخ 1383/3/2 کل ملک را تصرف دارد",
+        "start_char": 350,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "سه دانگ آنرا به نام خواهان انتقال داده",
+        "start_char": 502,
+        "end_char": 540,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "هیچ اعتراضی نسبت به ن. یه کارشناسی مطرح نکرده",
+        "start_char": 749,
+        "end_char": 794,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید",
+      "evidence": {
+        "quote": "تجدید ن. خواهی آقای ح. س. بطرفیت خانم پ. ب.",
+        "start_char": 1375,
+        "end_char": 1418,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در شرح دادخواست بیان شده خواهان مالک سه دانگ مشاع",
+        "start_char": 155,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده نیز مالک سه دانگ دیگر ملک متنازع فیه است",
+        "start_char": 300,
+        "end_char": 347,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "لزوم تامین مسکن توسط زوج",
+        "start_char": 1642,
+        "end_char": 1666,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "از سهم زوجه باشد",
+        "start_char": 1739,
+        "end_char": 1755,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل اموال",
+        "start_char": 49,
+        "end_char": 72,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "مالک سه دانگ مشاع آپارتمان",
+        "start_char": 187,
+        "end_char": 213,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "کل ملک را تصرف دارد",
+        "start_char": 368,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از سال ۱۳۸۳ ملک را در تصرف دارد",
+      "evidence": {
+        "quote": "از تاریخ 1383/3/2 کل ملک را تصرف دارد",
+        "start_char": 350,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده اقدامی برای پرداخت اجاره نکرده است",
+      "evidence": {
+        "quote": "و اقدامی در جهت پرداخت اجاره انجام نداده است",
+        "start_char": 388,
+        "end_char": 432,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده به پرداخت اجرت المثل محکوم شده است",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده به پرداخت مبلغ 814/015/660 ریال بابت اجرت المثل",
+        "start_char": 905,
+        "end_char": 974,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

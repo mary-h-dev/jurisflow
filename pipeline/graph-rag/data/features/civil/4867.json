@@ -1,0 +1,153 @@
+{
+  "ruling_id": "4867",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "زوجیت دائم",
+      "evidence": {
+        "quote": "وجود علقه زوجیت دائم بین طرفین محرز است",
+        "start_char": 149,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسروحرج شدید",
+      "evidence": {
+        "quote": "لذا تقاضای صدور حکم طلاق، جهت عسروحرج شدید است",
+        "start_char": 629,
+        "end_char": 675,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "زوجین به جهت مشکلات موجود جهت طلاق توافقی به دادگاه مراجعه",
+        "start_char": 232,
+        "end_char": 290,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "عدم رجوع از بذل در ایام عده",
+        "start_char": 411,
+        "end_char": 438,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مراجعه",
+      "evidence": {
+        "quote": "زوج جهت اجرای حکم به دفترخانه مراجعه نکرد",
+        "start_char": 528,
+        "end_char": 569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "لذا اعتراض نام برده قابل انطباق با جهات مقرر",
+        "start_char": 2302,
+        "end_char": 2346,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "حکم تجدیدنظرخواسته را تأیید می نماید",
+        "start_char": 2471,
+        "end_char": 2507,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در مورد خواسته وکیل خواهان",
+        "start_char": 189,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده در مقام دفاع اظهار داشته",
+        "start_char": 676,
+        "end_char": 707,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی آقای م.م.ی.هـ.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رونوشت",
+      "evidence": {
+        "quote": "با توجه به رونوشت مصدق نکاح نامه",
+        "start_char": 116,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حکم طلاق",
+      "evidence": {
+        "quote": "لذا تقاضای صدور حکم طلاق",
+        "start_char": 629,
+        "end_char": 653,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج با فریب از زوجه خواسته تا حقوق قانونی خود را بذل کند",
+      "evidence": {
+        "quote": "زوج طی ترفندی از زوجه خواسته تا در جهت اطمینان نسبت به زوج و عدم رجوع از بذل در ایام عده کل حقوق قانونی خود را به زوج بذل نماید",
+        "start_char": 350,
+        "end_char": 477,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج پس از بذل حقوق از سوی زوجه، برای اجرای حکم به دفترخانه مراجعه نکرد",
+      "evidence": {
+        "quote": "با مراجعه به دفترخانه بذل تمامی حقوق از سوی زوجه، زوج جهت اجرای حکم به دفترخانه مراجعه نکرد",
+        "start_char": 478,
+        "end_char": 569,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

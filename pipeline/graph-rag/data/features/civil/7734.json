@@ -1,0 +1,153 @@
+{
+  "ruling_id": "7734",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد اجاره",
+      "evidence": {
+        "quote": "عقد اجاره، به واسطه تلف شدن عین مستأجره، از تاریخ تلف؛ باطل می باشد",
+        "start_char": 1060,
+        "end_char": 1127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "باطل",
+      "evidence": {
+        "quote": "عقد اجاره، به واسطه تلف شدن عین مستأجره، از تاریخ تلف؛ باطل می باشد",
+        "start_char": 1060,
+        "end_char": 1127,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه عین مورد اجاره",
+        "start_char": 73,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واگذار",
+      "evidence": {
+        "quote": "به مدت یک سال، به خوانده، به اجاره واگذار کرده است",
+        "start_char": 237,
+        "end_char": 287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخریب",
+      "evidence": {
+        "quote": "و دکه را کاملاً تخریب کرده است",
+        "start_char": 365,
+        "end_char": 395,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خوانده هیچ اقدامی در پرداخت اجور معوقه نکرده است",
+        "start_char": 412,
+        "end_char": 460,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه محترم تجدیدنظر استان تهران می باشد",
+        "start_char": 1617,
+        "end_char": 1680,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به مدت یک سال، به خوانده، به اجاره واگذار کرده است",
+        "start_char": 237,
+        "end_char": 287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان را مستحق دریافت اجور معوقه",
+        "start_char": 1289,
+        "end_char": 1322,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 920479-28/5/92 صادره از شعبه سوم دادگاه عمومی حقوقی پاکدشت مشتمل بر صدور حکم بر بی حقی تجدیدنظرخواه",
+        "start_char": 1781,
+        "end_char": 1902,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجور معوقه",
+      "evidence": {
+        "quote": "مطالبه عین مورد اجاره، و اجور معوقه",
+        "start_char": 73,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تخریب کیوسک بر اثر تصادف کامیون",
+      "evidence": {
+        "quote": "به علت تصادف دو دستگاه کامیون؛ یکی از آن ها منحرف شده و دکه را کاملاً تخریب کرده است",
+        "start_char": 311,
+        "end_char": 395,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت اجور توسط خوانده",
+      "evidence": {
+        "quote": "خوانده هیچ اقدامی در پرداخت اجور معوقه نکرده است",
+        "start_char": 412,
+        "end_char": 460,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تخریب دکه توسط شهرداری",
+      "evidence": {
+        "quote": "دو روز پس از تاریخ تصادف؛ شهرداری، دکه تخریب شده را منتقل کرده است",
+        "start_char": 747,
+        "end_char": 813,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

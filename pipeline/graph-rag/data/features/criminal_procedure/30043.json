@@ -1,0 +1,123 @@
+{
+  "ruling_id": "30043",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نشر اکاذیب",
+      "evidence": {
+        "quote": "نشر اکاذیب",
+        "start_char": 42,
+        "end_char": 52,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توهین وافترا",
+      "evidence": {
+        "quote": "توهین و افترا",
+        "start_char": 55,
+        "end_char": 68,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 278,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "حل اختلاف",
+      "evidence": {
+        "quote": "حل اختلاف می گردد",
+        "start_char": 1553,
+        "end_char": 1570,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم دارای ابلاغ قضایی بوده",
+        "start_char": 194,
+        "end_char": 221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتکی عنه",
+      "evidence": {
+        "quote": "طبق گفته مشتکی عنه ایشان",
+        "start_char": 606,
+        "end_char": 630,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "قضات",
+      "evidence": {
+        "quote": "رابطه قضات جانباز",
+        "start_char": 1165,
+        "end_char": 1182,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قانون آیین",
+      "evidence": {
+        "quote": "ماده 307 قانون آیین دادرسی کیفری",
+        "start_char": 235,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قانون",
+      "evidence": {
+        "quote": "ماده 2 قانون نظارت بر رفتار قضات",
+        "start_char": 1293,
+        "end_char": 1325,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم دارای ابلاغ قضایی بوده است",
+      "evidence": {
+        "quote": "متهم دارای ابلاغ قضایی بوده",
+        "start_char": 194,
+        "end_char": 221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم در حالت اشتغال و وکالت بوده است",
+      "evidence": {
+        "quote": "به لحاظ جانبازی در حالت اشتغال بوده و مشغول امر وکالت می باشد",
+        "start_char": 631,
+        "end_char": 692,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

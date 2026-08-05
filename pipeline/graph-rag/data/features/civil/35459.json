@@ -1,0 +1,163 @@
+{
+  "ruling_id": "35459",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نکاح",
+      "evidence": {
+        "quote": "پس از وقوع نکاح",
+        "start_char": 291,
+        "end_char": 306,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "حقوق و تکالیف زوجین در مقابل یکدیگر برقرار می گردد",
+        "start_char": 323,
+        "end_char": 373,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "دلیلی بر نشوز زوجه در گذشته نمی باشد",
+        "start_char": 1170,
+        "end_char": 1206,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 226,
+        "end_char": 247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجه و مدلل و موثری",
+        "start_char": 1867,
+        "end_char": 1906,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تایید و ابرام",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عینا تایید و ابرام می نماید",
+        "start_char": 2182,
+        "end_char": 2235,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان « م. ص. فرزند ح. با وکالت ف. ب.ش. »",
+        "start_char": 103,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده « الف. گ.ت. فزند ف. با وکالت م. الف. »",
+        "start_char": 152,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "الزام تجدیدنظرخواه (زوجه) به تمکین",
+        "start_char": 1705,
+        "end_char": 1739,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تمکین از زوج",
+        "start_char": 1734,
+        "end_char": 1746,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تمکین از زوج با فراهم نمودن مسکن و اثاث البیت توسط زوج متناسب با شان زوجه",
+        "start_char": 1734,
+        "end_char": 1807,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "فراهم نمودن مسکن و اثاث البیت",
+        "start_char": 1750,
+        "end_char": 1779,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث‌البیت",
+      "evidence": {
+        "quote": "فراهم نمودن مسکن و اثاث البیت",
+        "start_char": 1750,
+        "end_char": 1779,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وقوع نکاح بین طرفین",
+      "evidence": {
+        "quote": "پس از وقوع نکاح",
+        "start_char": 291,
+        "end_char": 306,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه به حکم تمکین اعتراض کرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجه و مدلل و موثری که موجبات نقض دادنامه تجدیدنظرخواسته را ایجاب نماید بعمل نیاورده است",
+        "start_char": 1867,
+        "end_char": 1975,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

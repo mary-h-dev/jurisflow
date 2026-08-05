@@ -1,0 +1,163 @@
+{
+  "ruling_id": "7389",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 71,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "حق اقدام و اجازه وکالت تفویض نشده",
+        "start_char": 1606,
+        "end_char": 1639,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی به خواسته صدور گواهی عدم امکان سازش جهت اجرای صیغه طلاق به لحاظ اختلافات فی مابین تقدیم نموده",
+        "start_char": 51,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "نسبت به آن تجدیدنظرخواهی نموده",
+        "start_char": 575,
+        "end_char": 605,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام خواهی",
+      "evidence": {
+        "quote": "با تقدیم دادخـواست و لایحه فـرجامی نسـبت به دادنامه اخیرالذکر فرجام خواهی نموده اند",
+        "start_char": 905,
+        "end_char": 988,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست",
+      "evidence": {
+        "quote": "قرار رد درخواست فرجامی وکلای فرجام خواه صادر و اعلام می گردد",
+        "start_char": 2742,
+        "end_char": 2802,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "استماع توضیحات خواهان",
+        "start_char": 256,
+        "end_char": 277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به خـواسته زوج فـرجام خوانده",
+        "start_char": 1290,
+        "end_char": 1318,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "از طرف زوجه",
+        "start_char": 563,
+        "end_char": 574,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "کارآموز",
+      "evidence": {
+        "quote": "آقای ک.پ. احد از وکلای انتخابی فرجام خواه به صراحت مندرجات وکالت نامه ابرازی کارآموز وکالت بوده",
+        "start_char": 1896,
+        "end_char": 1991,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل پایه",
+      "evidence": {
+        "quote": "آقای ع.ق. علی رغم این که وکیل پایه یک دادگستری",
+        "start_char": 2280,
+        "end_char": 2326,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بموج دادنامه شماره 1219 ــ 25/7/91",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "مندرجات وکالت نامه پیوست دادخواست فرجامی",
+        "start_char": 1414,
+        "end_char": 1454,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج و زوجه در مرحله فرجامی فاقد سمت قانونی برای وکالت بودند",
+      "evidence": {
+        "quote": "وکلای انتخابی زوج فرجام خواه با لحاظ ماده 669 قانون مدنی و ماده 44 قانون آیین دادرسی مدنی مجتمعاً از جانب فرجام خواه حق اقدام داشته و اقدام انفرادی و مستقل هر یک از آنان بدون دخالت دیگری در خصوص موضوع وکالت فاقد اعتبار قانونی خواهد بود",
+        "start_char": 1644,
+        "end_char": 1879,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کارآموز وکالت مجاز به وکالت در دیوان عالی کشور نبوده است",
+      "evidence": {
+        "quote": "حسب مفاد تبصره 3 ماده 6 قانون کیفیت أخذ پروانه وکالت دادگستری مصوب سال 1376 حق اقدام در مرحله فرجامی را نداشته و مجاز به وکالت در دیوان عالی کشور نبوده",
+        "start_char": 1994,
+        "end_char": 2145,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

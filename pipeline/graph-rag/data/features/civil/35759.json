@@ -1,0 +1,103 @@
+{
+  "ruling_id": "35759",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "الزام بایع به تسلیم مبیع از آثار بیع صحیح است",
+        "start_char": 1176,
+        "end_char": 1221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مال غیر منقول",
+      "evidence": {
+        "quote": "چون مبیع مال غیرمنقول است",
+        "start_char": 1322,
+        "end_char": 1347,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تحویل مبیع",
+        "start_char": 61,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت آقای ح. م.",
+        "start_char": 31,
+        "end_char": 60,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تحویل مبیع",
+        "start_char": 61,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "الزام بایع به تسلیم مبیع",
+        "start_char": 1176,
+        "end_char": 1200,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "الزام خوانده به تحویل مبیع",
+        "start_char": 71,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین ویلایی واقع در شهرستان محمود آباد",
+        "start_char": 99,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلاف در صلاحیت بین دادگاه‌های عمومی حقوقی محمودآباد و شاهرود",
+      "evidence": {
+        "quote": "درخصوص اختلاف حاصل در صلاحیت بین دادگاه های عمومی حقوقی محمودآباد و شاهرود",
+        "start_char": 1046,
+        "end_char": 1120,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

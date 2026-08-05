@@ -1,0 +1,173 @@
+{
+  "ruling_id": "5265",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "احراز رابطه استیجاری فی مابین اصحاب دعوی",
+        "start_char": 631,
+        "end_char": 671,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "تعهد مدنی سابق ناشی از عقد اجاره",
+        "start_char": 3072,
+        "end_char": 3104,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجاری",
+      "evidence": {
+        "quote": "تبدیل به تعهد ناشی از سند تجاری گردیده",
+        "start_char": 3137,
+        "end_char": 3175,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "صدور حکم مبنی بر تخلیه",
+        "start_char": 81,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت اجور معوقه",
+        "start_char": 210,
+        "end_char": 227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "از پرداخت اجاره بهاء در طول 27 ماه اخیر امتناع نموده است",
+        "start_char": 487,
+        "end_char": 543,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 2366,
+        "end_char": 2381,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "ردّ دعوی نخستین تجدیدنظر خوانده را صادر",
+        "start_char": 2426,
+        "end_char": 2465,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "انتزاع ید خوانده",
+        "start_char": 106,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را ثابت تشخیص",
+        "start_char": 879,
+        "end_char": 911,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خواسته در این قسمت",
+        "start_char": 3248,
+        "end_char": 3275,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "یک باب مغازه",
+        "start_char": 134,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره نامه",
+      "evidence": {
+        "quote": "اجاره نامه عادی مورخ 1/1/1370",
+        "start_char": 419,
+        "end_char": 448,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "صدور دو فقره چک",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از پرداخت اجاره امتناع کرده است",
+      "evidence": {
+        "quote": "از پرداخت اجاره بهاء در طول 27 ماه اخیر امتناع نموده است",
+        "start_char": 487,
+        "end_char": 543,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک‌ها برای پرداخت اجاره صادر شده‌اند",
+      "evidence": {
+        "quote": "با صدور چک های مذکور از ناحیه تجدیدنظرخواه",
+        "start_char": 2991,
+        "end_char": 3033,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "35392",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حجر",
+      "evidence": {
+        "quote": "حکم حجر آن ضمیمه پرونده نبوده",
+        "start_char": 572,
+        "end_char": 601,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قیمومیت",
+      "evidence": {
+        "quote": "با قیمومیت خانم م.ث.",
+        "start_char": 115,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "نتیجه آن تحقق عقد بیع است",
+        "start_char": 1006,
+        "end_char": 1031,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی",
+        "start_char": 146,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه خسارات",
+      "evidence": {
+        "quote": "بعلاوه مطالبه خسارات دادرسی",
+        "start_char": 292,
+        "end_char": 319,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقایان ف. و ف. هردو ح.ح.ن.",
+        "start_char": 1449,
+        "end_char": 1489,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه معترض عنه راعینا\" تأیید مینماید",
+        "start_char": 2145,
+        "end_char": 2184,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دعوی خواهانها آقایان ف. و ف. ح.ح.ن.",
+        "start_char": 0,
+        "end_char": 42,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده دعوی آقای ب. ح.ح.ن.",
+        "start_char": 79,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "قیم",
+      "evidence": {
+        "quote": "وظیفه قیم بوده",
+        "start_char": 735,
+        "end_char": 749,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محجور",
+      "evidence": {
+        "quote": "خوانده دعوی محجور بوده",
+        "start_char": 543,
+        "end_char": 565,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی ملک",
+        "start_char": 146,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "مستند به سند صلح مورخه 18 آذر 91",
+        "start_char": 259,
+        "end_char": 291,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "قیم نمی تواند اموال غیرمنقول اموال مولی علیه خودرابفروشد",
+        "start_char": 833,
+        "end_char": 889,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده دعوی محجور بوده است",
+      "evidence": {
+        "quote": "خوانده دعوی محجور بوده",
+        "start_char": 543,
+        "end_char": 565,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حکم حجر ارائه نشده است",
+      "evidence": {
+        "quote": "حکم حجر آن ضمیمه پرونده نبوده",
+        "start_char": 572,
+        "end_char": 601,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوای جلب ثالث مطرح نشده است",
+      "evidence": {
+        "quote": "عدم اقدام آن تاکنون صرف نظر از ضرروت طرح دعوای مذکور",
+        "start_char": 407,
+        "end_char": 459,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

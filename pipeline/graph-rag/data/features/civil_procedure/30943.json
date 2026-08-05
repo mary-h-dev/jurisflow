@@ -1,0 +1,183 @@
+{
+  "ruling_id": "30943",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال رای داوری",
+        "start_char": 67,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "باطل و بلااثر می باشد",
+        "start_char": 1679,
+        "end_char": 1700,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال آن را خواسته است",
+        "start_char": 1701,
+        "end_char": 1723,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور رای",
+      "evidence": {
+        "quote": "صدور رای توسط هیات صورت گیرد",
+        "start_char": 1263,
+        "end_char": 1291,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "تسلیم آن که به موجب درخواست ابلاغ رای توسط سرداور",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "در خور نقض تشخیص",
+        "start_char": 8644,
+        "end_char": 8660,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "داور اختصاصی خواهان",
+        "start_char": 977,
+        "end_char": 996,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وکیل خوانده دفاعیات شکلی و ماهوی را مطرح",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "داوران کل مبلغ پرداختی آقای ن.",
+        "start_char": 591,
+        "end_char": 621,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه تجدیدنظرخواسته وارد است",
+        "start_char": 7870,
+        "end_char": 7909,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای داوری از سوی داور مرضی الطرفین",
+        "start_char": 1473,
+        "end_char": 1507,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "قرارداد داوری از تاریخ 1391/12/25 به مدت 4 ماه بوده",
+        "start_char": 847,
+        "end_char": 898,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "صورتجلسه",
+      "evidence": {
+        "quote": "مفاد این صورت جلسه که مستند خواهان نیز بوده",
+        "start_char": 2538,
+        "end_char": 2581,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "در خصوص ملک فرمانیه",
+        "start_char": 371,
+        "end_char": 390,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رای داوری خارج از مهلت تسلیم شده است",
+      "evidence": {
+        "quote": "تسلیم آن که... در 92/7/27 به وقوع پیوسته که خارج از مدت داوری است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رای داوری به صورت غیابی ابلاغ شده است",
+      "evidence": {
+        "quote": "به صورت غیابی مطابق ماده 70 قانون آیین دادرسی مدنی ابلاغ و الصاق گردیده است",
+        "start_char": 179,
+        "end_char": 254,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "داور اختصاصی از امضای رای امتناع کرده است",
+      "evidence": {
+        "quote": "داور اختصاصی خواهان نیز در جلسه منتهی به رای و رای مزبور حاضر لاکن امضای آنان خودداری نموده است",
+        "start_char": 4291,
+        "end_char": 4386,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

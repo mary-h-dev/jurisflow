@@ -1,0 +1,122 @@
+{
+  "ruling_id": "919",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "با احراز رابطه زوجیت",
+        "start_char": 1989,
+        "end_char": 2009,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقات معوقه",
+        "start_char": 100,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقات معوقه",
+        "start_char": 90,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر می نماید",
+        "start_char": 3261,
+        "end_char": 3296,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "عیناً تأیید می نماید",
+        "start_char": 4250,
+        "end_char": 4270,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان خانم م.ق.",
+        "start_char": 0,
+        "end_char": 33,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوجین در تاریخ 18/3/89 به عقد یکدیگر درآمده",
+        "start_char": 321,
+        "end_char": 364,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "حسب اظهارات زوجه",
+        "start_char": 367,
+        "end_char": 383,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "از تاریخ عقد تا 5/5/89 زندگی مشترک داشته‌اند",
+      "evidence": {
+        "quote": "از تاریخ عقد لغایت 5/5/89 که زوجین رسماً زندگی مشترک را شروع می کنند به منزل یکدیگر رفت و آمد داشته",
+        "start_char": 2067,
+        "end_char": 2166,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه منزل مشترک را ترک کرده است",
+      "evidence": {
+        "quote": "زوجه به اختیار منزل مشترک را ترک نموده",
+        "start_char": 2712,
+        "end_char": 2750,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج قفل منزل را عوض کرده است",
+      "evidence": {
+        "quote": "زوج قفل منزل را عوض نمود",
+        "start_char": 2945,
+        "end_char": 2969,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

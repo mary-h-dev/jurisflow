@@ -1,0 +1,173 @@
+{
+  "ruling_id": "28278",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "رابطه سببیت بین علت و موضوع خسارت",
+        "start_char": 353,
+        "end_char": 386,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "قانون مسئولیت مدنی",
+        "start_char": 576,
+        "end_char": 594,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 629,
+        "end_char": 653,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقلب",
+      "evidence": {
+        "quote": "طرف مقابل درخواست کننده اعاده دادرسی حیله وتقلبی بکار برده باشد",
+        "start_char": 2816,
+        "end_char": 2879,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه خسارت",
+      "evidence": {
+        "quote": "به خواسته مطالبه خسارت",
+        "start_char": 86,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه خسارات",
+      "evidence": {
+        "quote": "و مطالبه خسارات دادرسی",
+        "start_char": 134,
+        "end_char": 156,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مستوجب نقض میباشد",
+        "start_char": 1261,
+        "end_char": 1278,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "درخصوص درخواست اعاده دادرسی",
+        "start_char": 2422,
+        "end_char": 2449,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان آقای ع. م.پ.",
+        "start_char": 0,
+        "end_char": 32,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای ع.الف. ر.",
+        "start_char": 55,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظرخوانده آقای ع.الف. ر.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظرخوانده آقای ع.الف. ر.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "دررابطه با خودرو لندکروز مدل2012",
+        "start_char": 1658,
+        "end_char": 1690,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ دویست میلیون ریال",
+        "start_char": 1080,
+        "end_char": 1102,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم انجام تعهد به پلاک کردن خودرو",
+      "evidence": {
+        "quote": "پس ازفروش خودرو تعهدنمودند که ظرف 10روزآینده آنرا پلاک نمایند وچون به تعهدخود عمل نکردند",
+        "start_char": 1706,
+        "end_char": 1794,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم حضور خوانده در جلسه",
+      "evidence": {
+        "quote": "خوانده در جلسه حضور نیافته و لایحه ای ارسال ننموده است",
+        "start_char": 233,
+        "end_char": 287,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

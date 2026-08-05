@@ -1,0 +1,123 @@
+{
+  "ruling_id": "28510",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "امانی",
+      "evidence": {
+        "quote": "ید زوج بر جهیزیه امانی تلقی می شود",
+        "start_char": 359,
+        "end_char": 393,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد جهیزیه",
+        "start_char": 77,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "در صورت مطالبه مستودع عین اموال امانی را",
+        "start_char": 594,
+        "end_char": 634,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 1956,
+        "end_char": 1975,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عینا تایید می نماید",
+        "start_char": 1976,
+        "end_char": 2021,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نسبت به دعوی خواهان",
+        "start_char": 236,
+        "end_char": 255,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از سوی خوانده هیچگونه ایراد و اعتراضی",
+        "start_char": 198,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت خوانده بدوی (تجدیدنظرخواه)",
+        "start_char": 1369,
+        "end_char": 1403,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "استرداد جهیزیه",
+        "start_char": 87,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل برای استرداد جهیزیه توسط خوانده",
+      "evidence": {
+        "quote": "دلیلی بر استرداد جهیزیه مورد مطالبه نیز اقامه و ابراز ننموده",
+        "start_char": 292,
+        "end_char": 352,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اعتراض خوانده در جلسه رسیدگی",
+      "evidence": {
+        "quote": "طرفین در جلسه رسیدگی حاضر و از سوی خوانده هیچگونه ایراد و اعتراضی نسبت به دعوی خواهان نسبت به دعوی خواهان به عمل نیامده",
+        "start_char": 170,
+        "end_char": 289,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

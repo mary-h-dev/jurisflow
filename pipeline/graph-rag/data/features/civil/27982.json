@@ -1,0 +1,163 @@
+{
+  "ruling_id": "27982",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "صدور حکم محکومیت به پرداخت اجرت المثل",
+        "start_char": 76,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت",
+        "start_char": 344,
+        "end_char": 361,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظر خواهی",
+        "start_char": 1002,
+        "end_char": 1022,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "صدور حکم محکومیت به پرداخت اجرت المثل",
+        "start_char": 76,
+        "end_char": 113,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 1898,
+        "end_char": 1917,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را عیناً تائید مینماید",
+        "start_char": 1918,
+        "end_char": 1958,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خانم به عنوان وارثین حین الفوت همسر خواهان",
+        "start_char": 8,
+        "end_char": 55,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مورث خوانده گان",
+        "start_char": 135,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه وارد نمیباشد",
+        "start_char": 1495,
+        "end_char": 1521,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ترکه",
+      "evidence": {
+        "quote": "از ترکه بقدر السهم",
+        "start_char": 181,
+        "end_char": 199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "ملاحظه تصویر مصدق سند ازدواج",
+        "start_char": 312,
+        "end_char": 340,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "ملاحظه تصویر گواهی حصرو وراثت",
+        "start_char": 391,
+        "end_char": 420,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه از دادنامه 652",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین خواهان و مورث خواندگان احراز شده است",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت بین خواهان و مورث خواندگان",
+        "start_char": 344,
+        "end_char": 388,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مورث فوت کرده است",
+      "evidence": {
+        "quote": "تاریخ فوت متوفی",
+        "start_char": 449,
+        "end_char": 464,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

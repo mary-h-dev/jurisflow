@@ -1,0 +1,153 @@
+{
+  "ruling_id": "31725",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان صادر",
+        "start_char": 983,
+        "end_char": 1011,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "معامله به قصد فرار از دین که به صورت صوری انجام شده باشد باطل است",
+        "start_char": 395,
+        "end_char": 458,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صوری",
+      "evidence": {
+        "quote": "معامله به قصد فرار از دین که به صورت صوری انجام شده باشد باطل است",
+        "start_char": 395,
+        "end_char": 458,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "به خواسته اعلام بطلان معامله خودروی سواری ام وی ام",
+        "start_char": 87,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "خودروی موضوع خواسته ازسوی خوانده ردیف اول به خوانده ردیف دوم انتقال یافته است",
+        "start_char": 781,
+        "end_char": 858,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم الف. ش.ب.",
+        "start_char": 1183,
+        "end_char": 1211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض دادنامه",
+        "start_char": 1796,
+        "end_char": 1823,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "استماع اظهارات وکیل محترم خواهان",
+        "start_char": 289,
+        "end_char": 321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "ودفاعیات خوانده ردیف اول",
+        "start_char": 322,
+        "end_char": 346,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض دادنامه",
+        "start_char": 1796,
+        "end_char": 1823,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "خودروی",
+      "evidence": {
+        "quote": "معامله خودروی سواری ام وی ام",
+        "start_char": 109,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "به موجب سند عادی مورخ 1394/1/18",
+        "start_char": 749,
+        "end_char": 780,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خودرو با سند عادی از خوانده اول به خوانده دوم منتقل شده است",
+      "evidence": {
+        "quote": "به موجب سند عادی مورخ 1394/1/18،خودروی موضوع خواسته ازسوی خوانده ردیف اول به خوانده ردیف دوم انتقال یافته است",
+        "start_char": 749,
+        "end_char": 858,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرار تأمین خواسته پیش از انتقال خودرو صادر شده است",
+      "evidence": {
+        "quote": "وقرارتامین خواسته درتاریخ1394/1/17صادرشده است",
+        "start_char": 859,
+        "end_char": 904,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

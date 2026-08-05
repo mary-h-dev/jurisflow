@@ -1,0 +1,173 @@
+{
+  "ruling_id": "6570",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "احراز وجود علقه زوجیت بین طرفین متداعیین",
+        "start_char": 225,
+        "end_char": 265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "به سبب عقد نکاح",
+        "start_char": 266,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "در عقد دائم نفقه زن به عهده شوهر است",
+        "start_char": 607,
+        "end_char": 643,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت نفقه معوقه",
+        "start_char": 83,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رجوع",
+      "evidence": {
+        "quote": "زن می تواند در صورت استنکاف شوهر از دادن نفقه به محکمه رجوع کند",
+        "start_char": 679,
+        "end_char": 742,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ضمن ردّ اعتراض معترض",
+        "start_char": 2163,
+        "end_char": 2183,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت نفقه معوقه",
+        "start_char": 83,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را ثابت تشخیص داده",
+        "start_char": 1004,
+        "end_char": 1041,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "در عقد دائم نفقه زن به عهده شوهر است",
+        "start_char": 607,
+        "end_char": 643,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در عقد دائم نفقه زن به عهده شوهر است",
+        "start_char": 607,
+        "end_char": 643,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم به محکومیت تجدیدنظرخواه",
+        "start_char": 1659,
+        "end_char": 1686,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "فتوکپی مصدق نکاح نامه رسمی شماره 9588",
+        "start_char": 185,
+        "end_char": 222,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه",
+      "evidence": {
+        "quote": "000/450 هزار تومان هزینه بیمارستان",
+        "start_char": 2312,
+        "end_char": 2346,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود رابطه زوجیت بین طرفین",
+      "evidence": {
+        "quote": "احراز وجود علقه زوجیت بین طرفین متداعیین",
+        "start_char": 225,
+        "end_char": 265,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه در دوره‌های مشخص",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت نفقه معوقه",
+        "start_char": 83,
+        "end_char": 116,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "واریز بخشی از مبلغ به حساب زوجه",
+      "evidence": {
+        "quote": "مبلغ 000/100/1 تومان که به حساب زوجه واریزشده",
+        "start_char": 2388,
+        "end_char": 2433,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

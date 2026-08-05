@@ -1,0 +1,133 @@
+{
+  "ruling_id": "313",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تهاتر",
+      "evidence": {
+        "quote": "تهاتر آن با وجوه موضوع پرونده گردیده است",
+        "start_char": 637,
+        "end_char": 677,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "با احتساب خسارات تأخیر تأدیه و دادرسی",
+        "start_char": 144,
+        "end_char": 181,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "مبادرت به اقامه دعوی",
+        "start_char": 41,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ 920/263/968 ریال",
+        "start_char": 79,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شرکت بازرگانی و تولیدی پ.",
+        "start_char": 2397,
+        "end_char": 2436,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست خواهان",
+        "start_char": 228,
+        "end_char": 243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت شرکت.پ.",
+        "start_char": 62,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "ادعای شرکت تجدیدنظرخواه",
+        "start_char": 2736,
+        "end_char": 2759,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در قبال معاملات فی مابین در سال 88 و 89 در خصوص گرانول های رنگی مستلزم اثبات می باشد",
+        "start_char": 2790,
+        "end_char": 2874,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فاکتور",
+      "evidence": {
+        "quote": "وجه فاکتور تاریخ 3/8/1390",
+        "start_char": 118,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فروش و تحویل یک صد تن گرانول سفید انجام شده است",
+      "evidence": {
+        "quote": "دلالت بر فروش و تحویل یک صد تن گرانول سفید از سوی شرکت خواهان به شرکت خوانده می نماید",
+        "start_char": 326,
+        "end_char": 411,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ادعای معیوب بودن گرانول های رنگی سال 1389 را دارد",
+      "evidence": {
+        "quote": "مدعی گردیده است تعداد یک صد تن گرانول رنگی مورد معامله در سال 1389 معیوب و غیر قابل استفاده می باشد",
+        "start_char": 517,
+        "end_char": 616,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "4333",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "دریافت وجه التزام موضوع ماده 230 قانون مدنی",
+        "start_char": 393,
+        "end_char": 436,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأخیر",
+      "evidence": {
+        "quote": "مطالبه خسارت تأخیر در پرداخت دین",
+        "start_char": 1529,
+        "end_char": 1561,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی نخستین خواهان",
+        "start_char": 2163,
+        "end_char": 2194,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "در خصوص واخواهی آقای ف.ف.",
+        "start_char": 0,
+        "end_char": 25,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.ه.",
+        "start_char": 1032,
+        "end_char": 1055,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته نقض گردیده",
+        "start_char": 1936,
+        "end_char": 1969,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد واخواهی",
+      "evidence": {
+        "quote": "ضمن رد واخواهی وی",
+        "start_char": 809,
+        "end_char": 826,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "با عنایت به مفاد دادخواست واخواهی واخواه فوق",
+        "start_char": 158,
+        "end_char": 202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "ازجهت محکومیت تجدیدنظرخواه به پرداخت",
+        "start_char": 1195,
+        "end_char": 1231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بطلان دعوی نخستین خواهان",
+        "start_char": 2170,
+        "end_char": 2194,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 147",
+        "start_char": 99,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سفته",
+      "evidence": {
+        "quote": "دو فقره سفته به شماره های 639875-639876",
+        "start_char": 1314,
+        "end_char": 1353,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "به پرداخت مبلغ شصت میلیون ریال",
+        "start_char": 1222,
+        "end_char": 1252,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تعهد در مورد پرداخت وجه نقد بوده است",
+      "evidence": {
+        "quote": "در تعهداتی که موضوع آن پرداخت وجه نقد می باشد",
+        "start_char": 346,
+        "end_char": 391,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در دادخواست واخواهی دلیلی ارائه نشده است",
+      "evidence": {
+        "quote": "نامبرده دلیل یا مدرکی که موجبات گسیخته شدن دادنامه واخواسته را فراهم نماید، به دادگاه ارایه ننموده",
+        "start_char": 218,
+        "end_char": 316,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

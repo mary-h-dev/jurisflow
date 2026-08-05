@@ -1,0 +1,193 @@
+{
+  "ruling_id": "31672",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "بخواسته ابطال سند",
+        "start_char": 192,
+        "end_char": 209,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "موجب بطلان سند مالکیت نمی گردد",
+        "start_char": 1046,
+        "end_char": 1075,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتبار",
+      "evidence": {
+        "quote": "با فوت موکل وکالت نامه اعطایی به وکیل از درجه اعتبار خارج است",
+        "start_char": 2572,
+        "end_char": 2633,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "تقاضای ابطال سند",
+        "start_char": 1200,
+        "end_char": 1216,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی",
+        "start_char": 1768,
+        "end_char": 1780,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 3029,
+        "end_char": 3044,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده جهت رسیدگی ماهیتی به دادگاه بدوی اعاده می شود",
+        "start_char": 3060,
+        "end_char": 3112,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان حاضرشده است",
+        "start_char": 561,
+        "end_char": 579,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده بشرح خواسته دارم",
+        "start_char": 639,
+        "end_char": 670,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حسب ادعای تجدیدنظرخواه",
+        "start_char": 2158,
+        "end_char": 2180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مورث",
+      "evidence": {
+        "quote": "به وکالت از مورث تجدیدنظرخواه",
+        "start_char": 2362,
+        "end_char": 2391,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "ابطال سند مالکیت",
+        "start_char": 840,
+        "end_char": 856,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی انتقال",
+        "start_char": 2181,
+        "end_char": 2196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "با استفاده از وکالتنامه شماره 113582",
+        "start_char": 2270,
+        "end_char": 2306,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک در بازداشت مراجع قضائی میباشد",
+        "start_char": 717,
+        "end_char": 750,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "موکل فوت شده است",
+      "evidence": {
+        "quote": "بلحاظ فوت موکل",
+        "start_char": 284,
+        "end_char": 298,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند در بازداشت است",
+      "evidence": {
+        "quote": "ملک در بازداشت مراجع قضائی میباشد",
+        "start_char": 717,
+        "end_char": 750,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند در رهن است",
+      "evidence": {
+        "quote": "حسب پاسخ ثبتی ملک دررهن است",
+        "start_char": 1318,
+        "end_char": 1345,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "24059",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "به خواسته استرداد جهیزیه",
+        "start_char": 67,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "هبه",
+      "evidence": {
+        "quote": "شیربها هبه محسوب می گردد",
+        "start_char": 3157,
+        "end_char": 3181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معوض",
+      "evidence": {
+        "quote": "اینگونه هبه معوض به شرط ضمنی فعل نکاح است",
+        "start_char": 3189,
+        "end_char": 3230,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "ولی از استرداد آنها امتناع می نماید",
+        "start_char": 294,
+        "end_char": 329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه محترم تجدید نظر استان تهران می باشد",
+        "start_char": 2009,
+        "end_char": 2073,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رای صادر شده دادگاه بدوی را... نقض و با استناد به مواد 801 و 803 قانون مدنی حکم به استرداد... صادر و اعلام می کند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مدعی شده است که خواهان با تقدیم دادخواست",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده همسر دائمی موکل است",
+        "start_char": 224,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "لذا زوج نیز اقلامی را متعهد شده برای کمک به زندگی زوجه تهیه نماید",
+        "start_char": 1192,
+        "end_char": 1257,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "جهیزیه زوجه وقتی به منزل زوج آورده می شود",
+        "start_char": 1354,
+        "end_char": 1395,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "استرداد جهیزیه",
+        "start_char": 77,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ماشین",
+      "evidence": {
+        "quote": "ماشین لباس شویی",
+        "start_char": 414,
+        "end_char": 429,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وسایل",
+      "evidence": {
+        "quote": "و وسایل چوبی",
+        "start_char": 441,
+        "end_char": 453,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اقلام جهیزیه توسط خوانده تحویل داده نشده است",
+      "evidence": {
+        "quote": "اقلام مزبور داده شده و به امضاء زوج نیز رسیده است",
+        "start_char": 757,
+        "end_char": 806,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "برخی اقلام جهیزیه در اجرای قرار تامین تحویل گرفته شده است",
+      "evidence": {
+        "quote": "بخش از در اجرای قرار تامین خواسته تحویل گرفتیم",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

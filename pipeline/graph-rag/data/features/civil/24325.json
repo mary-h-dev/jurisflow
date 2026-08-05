@@ -1,0 +1,132 @@
+{
+  "ruling_id": "24325",
+  "concepts": [],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "بر ورود دعوی خواهان دلالت داشته",
+        "start_char": 123,
+        "end_char": 154,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی اقای غ. ح.",
+        "start_char": 502,
+        "end_char": 534,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "از ناحیه خوانده دلیلی بر رد ادعا ارائه نشده است",
+        "start_char": 157,
+        "end_char": 204,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را تائید واستوار می نماید",
+        "start_char": 1006,
+        "end_char": 1055,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مردود اعلام",
+      "evidence": {
+        "quote": "لذا تجدیدنظر خواهی را مردود اعلام",
+        "start_char": 929,
+        "end_char": 962,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بر ورود دعوی خواهان دلالت داشته",
+        "start_char": 123,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از ناحیه خوانده دلیلی بر رد ادعا ارائه نشده است",
+        "start_char": 157,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 332/94 که بموجب آن حکم به رفع مزاحمت از ملک تجدیدنظرخوانده صادر واعلام شده است",
+        "start_char": 555,
+        "end_char": 655,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "رفع مزاحمت از ملک تجدیدنظرخوانده صادر واعلام شده است",
+        "start_char": 603,
+        "end_char": 655,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "حکم به رفع مزاحمت خوانده نسبت به ملک خواهان صادر",
+        "start_char": 264,
+        "end_char": 312,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ایجاد و نصب پنجره مغایر با نقشه مصوب است",
+      "evidence": {
+        "quote": "ایجاد ونصب پنجره را مغایر با دستور نقشه مصوب در ملک موصوف اعلام دانسته",
+        "start_char": 736,
+        "end_char": 806,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شهرداری اخطاری مبنی بر مغایرت با نقشه صادر کرده است",
+      "evidence": {
+        "quote": "اخطار شهرداری که بر ورود دعوی خواهان دلالت داشته",
+        "start_char": 106,
+        "end_char": 154,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

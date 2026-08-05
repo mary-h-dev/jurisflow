@@ -1,0 +1,153 @@
+{
+  "ruling_id": "30564",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مالک 33 و 7 سهم",
+        "start_char": 336,
+        "end_char": 351,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "حق حضور در جلسات مجمع و حق رأی ندارند",
+        "start_char": 20175,
+        "end_char": 20212,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "از تاریخ انتقال سهام تاکنون بابت سود سهام پرداخت نکرده",
+        "start_char": 905,
+        "end_char": 959,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "ناگزیر به طرح دعوی به شرح دادخواست نمودم",
+        "start_char": 2048,
+        "end_char": 2088,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دعوت",
+      "evidence": {
+        "quote": "اقدام به دعوت سهامداران مجمع عمومی نموده",
+        "start_char": 1519,
+        "end_char": 1559,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "تقاضای نقض رأی فرجام خواسته را دارم",
+        "start_char": 18919,
+        "end_char": 18954,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان ها به ترتیب رئیس و نایب رئیس هیئت مدیره می باشد",
+        "start_char": 2222,
+        "end_char": 2276,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت سود سهام",
+        "start_char": 173,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سهم",
+      "evidence": {
+        "quote": "مالک 33 و 7 سهم از 100 سهم شرکت خوانده",
+        "start_char": 336,
+        "end_char": 374,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اساسنامه",
+      "evidence": {
+        "quote": "مطابق ماده 9 اساسنامه شرکت",
+        "start_char": 1091,
+        "end_char": 1117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "دفاعیاتم به شرح لایحه است",
+        "start_char": 2107,
+        "end_char": 2132,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت سود سهام از تاریخ انتقال سهام",
+      "evidence": {
+        "quote": "از تاریخ انتقال سهام تاکنون بابت سود سهام پرداخت نکرده",
+        "start_char": 905,
+        "end_char": 959,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تشکیل مجمع عمومی با حد نصاب",
+      "evidence": {
+        "quote": "به حد نصاب مذکور در ماده 15 تشکیل نگردیده",
+        "start_char": 1620,
+        "end_char": 1661,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه مدارک و گزارش توسط مدیرعامل",
+      "evidence": {
+        "quote": "از ارائه مدارک و گزارش خودداری نموده است",
+        "start_char": 19167,
+        "end_char": 19207,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

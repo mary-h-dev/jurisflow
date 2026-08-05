@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25976",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت بانضمام هزینه دادرسی",
+        "start_char": 57,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "و از حیث تسبیب بپرداخت مبلغ 1/180/000ریال",
+        "start_char": 1069,
+        "end_char": 1110,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه خسارت",
+        "start_char": 49,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "ثمن معامله را پرداخت نموده است",
+        "start_char": 288,
+        "end_char": 318,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد تجدیدنظر",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظر خواهی",
+        "start_char": 2071,
+        "end_char": 2092,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "دادنامه صادره را عیناً تائید",
+        "start_char": 2136,
+        "end_char": 2164,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با این توضیح که خواهان بموجب قرارداد",
+        "start_char": 146,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از خوانده بمبلغ 1/380/000/000ریال خریداری",
+        "start_char": 244,
+        "end_char": 285,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 9309970210601109... که بموجب آن تجدیدنظر خواه به پرداخت",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "ادله کافی در مورد اطلاع تجدیدنظر خوانده از معیوب بودن مبیع",
+        "start_char": 1799,
+        "end_char": 1857,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "بموجب قرارداد مذکور",
+        "start_char": 169,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "ثمن معامله را پرداخت نموده است",
+        "start_char": 288,
+        "end_char": 318,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "اطلاع تجدیدنظر خوانده از معیوب بودن مبیع",
+        "start_char": 1817,
+        "end_char": 1857,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خودرو به دلیل واژگونی دچار خسارت و افت قیمت شده است",
+      "evidence": {
+        "quote": "خودرو بدلیل اینکه قبلا واژگون شده است دچار خسارت شدید و افت قیمت گردیده است",
+        "start_char": 383,
+        "end_char": 458,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبیع دارای عیب (چپی بودن) بوده است",
+      "evidence": {
+        "quote": "معیوب بودن مبیع در حین معامله (چپی بودن اتومبیل)",
+        "start_char": 1842,
+        "end_char": 1890,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده به انجام معامله و اخذ ثمن اقرار کرده است",
+      "evidence": {
+        "quote": "اقرار خوانده به انجام معامله و اخذ ثمن معامله",
+        "start_char": 763,
+        "end_char": 808,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "1723",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حجر",
+      "evidence": {
+        "quote": "صدور حکم حجر",
+        "start_char": 102,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "صدور حکم بر ابطال نوشته عادی و قرارداد عادی",
+        "start_char": 118,
+        "end_char": 161,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم حجر",
+        "start_char": 102,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "قرار ابطال دادخواست صادر می نماید",
+        "start_char": 3392,
+        "end_char": 3425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "به خواسته واخواهی از دادنامه",
+        "start_char": 3489,
+        "end_char": 3517,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "از این رأی تجدیدنظرخواهی کرده",
+        "start_char": 4702,
+        "end_char": 4731,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام",
+      "evidence": {
+        "quote": "اعتراض فرجام خواهان وارد تشخیص",
+        "start_char": 6216,
+        "end_char": 6246,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض آن قرار رد دعوی خواهان های بدوی را صادر",
+        "start_char": 5185,
+        "end_char": 5231,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان ها",
+        "start_char": 255,
+        "end_char": 269,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "نام برده طرف دعوا قرار نگرفته است",
+        "start_char": 5022,
+        "end_char": 5055,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نوشته",
+      "evidence": {
+        "quote": "ابطال نوشته عادی",
+        "start_char": 130,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "و قرارداد عادی",
+        "start_char": 147,
+        "end_char": 161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "صورتجلسه",
+      "evidence": {
+        "quote": "و صورت جلسه مورخ 7/9/82",
+        "start_char": 3769,
+        "end_char": 3792,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بیع‌نامه",
+      "evidence": {
+        "quote": "تصویر بیع نامه ی پیوست لایحه",
+        "start_char": 4827,
+        "end_char": 4855,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مورث دچار سکته مغزی و جراحی مغزی شده است",
+      "evidence": {
+        "quote": "در سه نوبت سکته مغزی و سه نوبت جراحی مغزی که منجر به فوت او گردید",
+        "start_char": 416,
+        "end_char": 481,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مورث دچار اختلال حواس و حافظه شده است",
+      "evidence": {
+        "quote": "پس از عارضه مغزی دچار اختلال در حافظه و اعمال عالیه مغزی می گردد",
+        "start_char": 499,
+        "end_char": 563,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مورث در زمان حیات دارای ضعف قوای عقلانی بوده است",
+      "evidence": {
+        "quote": "دچار ضعف قوای عقلانی و مغزی به گونه ای بوده که توانایی اداره امور مالی و حقوقی خود را نداشته است",
+        "start_char": 2871,
+        "end_char": 2967,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

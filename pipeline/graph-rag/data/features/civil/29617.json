@@ -1,0 +1,183 @@
+{
+  "ruling_id": "29617",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مستحق نفقه نخواهد بود",
+        "start_char": 572,
+        "end_char": 593,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خانوادگی",
+      "evidence": {
+        "quote": "شغل مدنظر منافی با مصالح خانوادگی نبوده",
+        "start_char": 1615,
+        "end_char": 1654,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "منع اشتغال",
+      "evidence": {
+        "quote": "بخواسته منع اشتغال به کار زوجه",
+        "start_char": 67,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "با رد اعتراض واخواهی",
+        "start_char": 973,
+        "end_char": 993,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض عنه",
+        "start_char": 1852,
+        "end_char": 1877,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رای معترض عنه را عینا تایید می نماید",
+        "start_char": 996,
+        "end_char": 1032,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست خواهان آقای ک. الف.",
+        "start_char": 0,
+        "end_char": 28,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم م. ق.",
+        "start_char": 38,
+        "end_char": 57,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "مغایر با شئون خانوادگی زوج نبوده",
+        "start_char": 1904,
+        "end_char": 1936,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "منع اشتغال به کار زوجه",
+        "start_char": 75,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "واخواه اعتراض موثر و موجهی",
+        "start_char": 855,
+        "end_char": 881,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخوانده آقای ک. الف.",
+        "start_char": 1278,
+        "end_char": 1314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم م. ق.",
+        "start_char": 1144,
+        "end_char": 1168,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 929",
+        "start_char": 790,
+        "end_char": 815,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای مذکور مطابق موازین قانونی",
+        "start_char": 927,
+        "end_char": 956,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم حضور خوانده در جلسات دادگاه",
+      "evidence": {
+        "quote": "عدم حضور خوانده علیرغم ابلاغ قانونی به وی",
+        "start_char": 204,
+        "end_char": 245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شغل زوجه با مصالح خانوادگی مغایر نیست",
+      "evidence": {
+        "quote": "شغل زوجه مغایر با شئون خانوادگی زوج نبوده",
+        "start_char": 1895,
+        "end_char": 1936,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

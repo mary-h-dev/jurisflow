@@ -1,0 +1,163 @@
+{
+  "ruling_id": "7985",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "حق حضانت با پدر (زوج) می باشد",
+        "start_char": 647,
+        "end_char": 676,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی می باشد",
+        "start_char": 935,
+        "end_char": 961,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی به خواسته تحویل فرزند به طرفیت خوانده خانم م.ج. با وکالت آقای الف.ص. تقدیم داشته است",
+        "start_char": 64,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "ضمن ردّ تجدیدنظر خواهی دادنامه مذکور تأیید می شود",
+        "start_char": 1569,
+        "end_char": 1618,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در این پرونده خواهان آقای ع.س.",
+        "start_char": 0,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده خانم م.ج.",
+        "start_char": 96,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج خواهان حضانت فرزند مشترک",
+        "start_char": 495,
+        "end_char": 523,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "حق حضانت فرزند مشترک را دارد و پس از پایان هفت سالگی حق حضانت با پدر (زوج) می باشد هرچند که در طلاق توافقی حق حضانت به مادر سپرده شده باشد",
+        "start_char": 594,
+        "end_char": 732,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "مادر",
+      "evidence": {
+        "quote": "حق حضانت فرزند مشترک را دارد و پس از پایان هفت سالگی حق حضانت با پدر (زوج) می باشد هرچند که در طلاق توافقی حق حضانت به مادر سپرده شده باشد",
+        "start_char": 594,
+        "end_char": 732,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "پدر",
+      "evidence": {
+        "quote": "حق حضانت با پدر (زوج) می باشد",
+        "start_char": 647,
+        "end_char": 676,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "دادخواستی به خواسته تحویل فرزند",
+        "start_char": 64,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به موجب دادنامه 1337 مورخه 10/9/1391",
+        "start_char": 178,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین با توافق از یکدیگر طلاق گرفته‌اند",
+      "evidence": {
+        "quote": "زوجین به موجب دادنامه 1337 مورخه 10/9/1391 با توافق از یکدیگر به طلاق جداشده اند",
+        "start_char": 172,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در طلاق توافقی حضانت فرزندان به مادر سپرده شده است",
+      "evidence": {
+        "quote": "در طلاق توافقی حضانت فرزندان به مادر سپرده شده است",
+        "start_char": 339,
+        "end_char": 389,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزند به سن هفت سالگی رسیده است",
+      "evidence": {
+        "quote": "فرزند مشترک دانیال از سن هفت سالگی عبور نموده است",
+        "start_char": 445,
+        "end_char": 494,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "398",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مالکیت خواهان نسبت به ملک موصوف",
+        "start_char": 197,
+        "end_char": 228,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "به دلیل رابطه استیجاری با واخوانده",
+        "start_char": 993,
+        "end_char": 1027,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "در حکم غصب تشخیص",
+        "start_char": 1341,
+        "end_char": 1357,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "به خواسته خلع ید از ملک مسکونی",
+        "start_char": 55,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت یک میلیون و بیست هزار ریال هزینه دادرسی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی صادره عیناً تأیید می گردد",
+        "start_char": 1378,
+        "end_char": 1407,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مالکیت خواهان نسبت به ملک موصوف",
+        "start_char": 197,
+        "end_char": 228,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "تصرفات خوانده در ملک موصوف ثابت می باشد",
+        "start_char": 310,
+        "end_char": 349,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "استمرار تصرف مستأجر سابق",
+        "start_char": 2633,
+        "end_char": 2657,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "مالک مبلغ سی و شش میلیون ریال را تصدیق نموده",
+        "start_char": 2226,
+        "end_char": 2270,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "خلع ید از ملک مسکونی به پلاک ثبتی 5595/6974",
+        "start_char": 65,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ودیعه",
+      "evidence": {
+        "quote": "پرداخت یک صد میلیون ریال ودیعه",
+        "start_char": 1030,
+        "end_char": 1060,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مال",
+      "evidence": {
+        "quote": "سیصد هزار تومان مال الاجاره",
+        "start_char": 1151,
+        "end_char": 1178,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انقضای مدت قرارداد",
+      "evidence": {
+        "quote": "نظر به انقضاء مدت قرارداد",
+        "start_char": 1286,
+        "end_char": 1311,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل پرداخت اجاره بهاء",
+      "evidence": {
+        "quote": "چون واخواه دلیلی بر پرداخت اجاره بهاء ارائه نداد",
+        "start_char": 1235,
+        "end_char": 1283,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

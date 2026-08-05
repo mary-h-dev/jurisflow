@@ -1,0 +1,183 @@
+{
+  "ruling_id": "29353",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجازه",
+      "evidence": {
+        "quote": "به خواسته اجازه ازدواج مجدد",
+        "start_char": 65,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "اعمال حق حبس",
+        "start_char": 121,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "رد خواسته تمکین",
+        "start_char": 136,
+        "end_char": 151,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مسقط حق نفقه نخواهد بود",
+        "start_char": 1054,
+        "end_char": 1077,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "رد خواسته تمکین",
+        "start_char": 136,
+        "end_char": 151,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی خانم ف. طهماسبی",
+        "start_char": 461,
+        "end_char": 498,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "طرح",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده با طرح دادخواست تمکین",
+        "start_char": 1232,
+        "end_char": 1268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم اجازه ازدواج مجدد",
+        "start_char": 2339,
+        "end_char": 2365,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با توجه به اظهارات خوانده",
+        "start_char": 93,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "تمکین خواهان",
+        "start_char": 146,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "لایحه اعتراضیه تجدیدنظرخواه",
+        "start_char": 804,
+        "end_char": 831,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "دفاعیه تجدیدنظرخوانده",
+        "start_char": 834,
+        "end_char": 855,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "دعوی وی (زوج)",
+        "start_char": 1282,
+        "end_char": 1295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "از آنجاییکه اولا زوجه در اجرای ماده 1085 قانون مدنی",
+        "start_char": 856,
+        "end_char": 907,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهر",
+      "evidence": {
+        "quote": "تا مهر به او تسلیم نشده",
+        "start_char": 937,
+        "end_char": 960,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زن از انجام وظایف زوجیت امتناع کرده است",
+      "evidence": {
+        "quote": "زن می تواند تا مهر به او تسلیم نشده از ایفاء وظایفی که در مقابل شوهر دارد امتناع کند",
+        "start_char": 925,
+        "end_char": 1009,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج توان اداره زندگی با دو همسر را ندارد",
+      "evidence": {
+        "quote": "صرفنظر از اینکه آیا استطاعت مالی در جهت اداره کردن دو همسر را زوج داشته یا خیر",
+        "start_char": 1909,
+        "end_char": 1987,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

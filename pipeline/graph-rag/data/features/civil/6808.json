@@ -1,0 +1,143 @@
+{
+  "ruling_id": "6808",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت اجرت المثل",
+        "start_char": 79,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "به قصد عدم تبرع انجام داده است",
+        "start_char": 387,
+        "end_char": 417,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "عدم نشوز زوجه",
+        "start_char": 1628,
+        "end_char": 1641,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت اجرت المثل",
+        "start_char": 79,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "عدم استحقاق خواهان در مطالبه",
+        "start_char": 455,
+        "end_char": 483,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه تجدیدنظر",
+        "start_char": 2135,
+        "end_char": 2158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "با لحاظ جهات مذکور به دادگاه بدوی اعاده می نماید",
+        "start_char": 2194,
+        "end_char": 2242,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی ش.ن. فرزند ش. به طرفیت الف.خ. فرزند م. به خواسته صدور حکم مبنی بر محکومیت خوانده",
+        "start_char": 0,
+        "end_char": 93,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت اجرت المثل",
+        "start_char": 79,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 939 مورخ 17/5/1392 شعبه دوم دادگاه عمومی حقوقی شهرستان قدس مآلاً وارد و درخور اجابت است چراکه ادعا تجدیدنظر خوانده",
+        "start_char": 1053,
+        "end_char": 1189,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجرت‌المثل ایام زوجیت",
+      "evidence": {
+        "quote": "پرداخت اجرت المثل ایام زوجیت در زندگی مشترک",
+        "start_char": 97,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انجام کارهای خارج از وظایف شرعی توسط زوجه",
+      "evidence": {
+        "quote": "در مدت زندگی مشترک کارهایی که شرعاً به عهده وی نبوده است",
+        "start_char": 305,
+        "end_char": 361,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود زندگی مشترک بین طرفین",
+      "evidence": {
+        "quote": "در مدت زندگی مشترک متداعیین",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

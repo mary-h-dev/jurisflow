@@ -1,0 +1,102 @@
+{
+  "ruling_id": "22311",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شخص حقوقی",
+      "evidence": {
+        "quote": "طرف مقابل هم شخصیت حقوقی است",
+        "start_char": 532,
+        "end_char": 560,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "قرار ابطال دادخواست خواهان را صادر",
+        "start_char": 2046,
+        "end_char": 2080,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تودیع",
+      "evidence": {
+        "quote": "دستمزد کارشناس را تودیع نکرده",
+        "start_char": 1253,
+        "end_char": 1282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "پس از نقض دادنامه",
+        "start_char": 57,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ادعای خواهان نگردیده",
+        "start_char": 643,
+        "end_char": 663,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "سوگند خواندگان جزء دلایل اولیه خواهان نبوده",
+        "start_char": 1432,
+        "end_char": 1475,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "وکیل فرجام خواه",
+        "start_char": 267,
+        "end_char": 282,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت دستمزد کارشناس",
+      "evidence": {
+        "quote": "دستمزد کارشناس را تودیع نکرده",
+        "start_char": 1253,
+        "end_char": 1282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اختلاف بر سر قیمت برش سنگ",
+      "evidence": {
+        "quote": "راجع به قیمت برش سنگ های یادشده بین طرفین اختلاف است",
+        "start_char": 963,
+        "end_char": 1015,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

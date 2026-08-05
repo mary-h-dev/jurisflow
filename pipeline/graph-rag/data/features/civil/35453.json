@@ -1,0 +1,183 @@
+{
+  "ruling_id": "35453",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مصلحت و غبطه موکل",
+      "evidence": {
+        "quote": "بعلت رعایت غبطه و مصلحت موکل",
+        "start_char": 545,
+        "end_char": 573,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت",
+      "evidence": {
+        "quote": "بعلت رعایت غبطه و مصلحت موکل",
+        "start_char": 545,
+        "end_char": 573,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "وکالت",
+      "evidence": {
+        "quote": "عقد وکالت امانی بوده",
+        "start_char": 2495,
+        "end_char": 2515,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "نقل و انتقال",
+      "evidence": {
+        "quote": "اقدام به نقل و انتقال ملک بنام خود می نماید",
+        "start_char": 452,
+        "end_char": 495,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "تقاضای تعیین ارزش آپارتمان و پرداخت ثمن",
+        "start_char": 574,
+        "end_char": 613,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درتار یخ 93/7/19 خواهان آقای س. غ.ث.",
+        "start_char": 0,
+        "end_char": 36,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطر فیت خوانده خانم م. ش.",
+        "start_char": 71,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل باید در تصرفات و اقدامات خود مصلحت موکل را مراعات نماید",
+        "start_char": 2115,
+        "end_char": 2172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موکل",
+      "evidence": {
+        "quote": "مصلحت موکل را مراعات نماید",
+        "start_char": 2147,
+        "end_char": 2172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای س. غ.ث.",
+        "start_char": 1734,
+        "end_char": 1760,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده صادرمی نماید",
+        "start_char": 3635,
+        "end_char": 3667,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "بخواسته ارزش روز آپارتمان",
+        "start_char": 99,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "اقدام به نقل و انتقال ملک بنام خود می نماید",
+        "start_char": 452,
+        "end_char": 495,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "طی وکالتنامه رسمی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "ثمن معامله 38/339/040 ریال اعلام گردیده",
+        "start_char": 1162,
+        "end_char": 1201,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ملک را به نام خود منتقل کرده است",
+      "evidence": {
+        "quote": "اقدام به نقل و انتقال ملک بنام خود می نماید",
+        "start_char": 452,
+        "end_char": 495,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده همسر خواهان است",
+      "evidence": {
+        "quote": "خوانده که همسر خواهان می باشد",
+        "start_char": 393,
+        "end_char": 422,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

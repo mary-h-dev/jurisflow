@@ -1,0 +1,253 @@
+{
+  "ruling_id": "5318",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "صدور حکم مبنی بر فسخ نکاح",
+        "start_char": 128,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جنون ادواری",
+      "evidence": {
+        "quote": "به لحاظ جنون ادواری",
+        "start_char": 154,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت دادرسی",
+      "evidence": {
+        "quote": "و خسارت دادرسی",
+        "start_char": 174,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "و حق الوکاله وکیل",
+        "start_char": 189,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "محجوریت",
+      "evidence": {
+        "quote": "باملاحظه دادنامه محجوریت خوانده",
+        "start_char": 731,
+        "end_char": 762,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اختلاف",
+      "evidence": {
+        "quote": "سوابقی از ابتلا به اختلاف روانی",
+        "start_char": 923,
+        "end_char": 954,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جنون",
+      "evidence": {
+        "quote": "مدعی گردیده تجدیدنظرخواه جنون ادواری دارد",
+        "start_char": 1790,
+        "end_char": 1831,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مجنون",
+      "evidence": {
+        "quote": "طرح دعوی علیه مجنون فاقد وجاهت قانونی است",
+        "start_char": 1836,
+        "end_char": 1877,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم مبنی بر فسخ نکاح",
+        "start_char": 128,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "لذا طرح دعوی علیه مجنون فاقد وجاهت قانونی است",
+        "start_char": 1832,
+        "end_char": 1877,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "لذا ضمن نقض دادنامه فوق الذکر",
+        "start_char": 2117,
+        "end_char": 2146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "قرار ردّ دعوی",
+        "start_char": 2220,
+        "end_char": 2233,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان خانم ز.س.",
+        "start_char": 0,
+        "end_char": 33,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای ح.ن.",
+        "start_char": 62,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص دادخواست تجدیدنظرخواهی آقای ح.ن.",
+        "start_char": 1544,
+        "end_char": 1584,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده مدعی گردیده",
+        "start_char": 1774,
+        "end_char": 1801,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ولی",
+      "evidence": {
+        "quote": "مگر با اجازه ولی و قیم",
+        "start_char": 1954,
+        "end_char": 1976,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "قیم",
+      "evidence": {
+        "quote": "مگر با اجازه ولی و قیم",
+        "start_char": 1954,
+        "end_char": 1976,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "خواهان و خوانده موجب عقدنامه در مورخ 13/6/88",
+        "start_char": 276,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "باملاحظه دادنامه محجوریت خوانده",
+        "start_char": 731,
+        "end_char": 762,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی پزشکی",
+      "evidence": {
+        "quote": "و گواهی پزشکی قانونی به شماره 4600/31/1-23/4/92",
+        "start_char": 838,
+        "end_char": 885,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ازدواج طرفین در سال ۱۳۸۸",
+      "evidence": {
+        "quote": "خواهان و خوانده موجب عقدنامه در مورخ 13/6/88 به عقد دائم یکدیگر درآمده اند",
+        "start_char": 276,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پنهان کردن سابقه بیماری هنگام ازدواج",
+      "evidence": {
+        "quote": "متأسفانه با توجه به داشتن سابقه بیماری هنگام ازدواج موضوع را از موکل پوشیده داشته",
+        "start_char": 351,
+        "end_char": 432,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دارا بودن سابقه ابتلا به اختلاف روانی از سال ۸۶",
+      "evidence": {
+        "quote": "سوابقی از ابتلا به اختلاف روانی از نو جنون ادواری واجد علائم خلقی دارد",
+        "start_char": 923,
+        "end_char": 993,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

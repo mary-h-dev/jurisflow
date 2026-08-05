@@ -1,0 +1,233 @@
+{
+  "ruling_id": "7672",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "به خواسته صدور حکم طلاق",
+        "start_char": 59,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "هبه",
+      "evidence": {
+        "quote": "نوع سند هبه نامه می باشد",
+        "start_char": 9516,
+        "end_char": 9540,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "طرح ابطال هبه نامه",
+        "start_char": 1898,
+        "end_char": 1916,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اکراه",
+      "evidence": {
+        "quote": "مبنی بر اکراه و اجبار در اخذ سند مذکور",
+        "start_char": 3841,
+        "end_char": 3879,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجبار",
+      "evidence": {
+        "quote": "مبنی بر اکراه و اجبار در اخذ سند مذکور",
+        "start_char": 3841,
+        "end_char": 3879,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "مهریه را به من بخشیده است",
+        "start_char": 2206,
+        "end_char": 2231,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابراء",
+      "evidence": {
+        "quote": "هبه و ابراء دو نهاد حقوقی مستقل با احکام خاص هستند",
+        "start_char": 9935,
+        "end_char": 9985,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم طلاق",
+        "start_char": 59,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "پرونده استنادی کلاسه 90/619 از شعبه هفتم دادگاه حقوقی اخذ و جهت رسیدگی توأمان به شعبه 9 دادگاه حقوقی ساری ارجاع گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "رجوع",
+      "evidence": {
+        "quote": "وازهب می تواند با بقاء عین موهوبه از هبه رجوع نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان توضیح داده است",
+        "start_char": 175,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده در خصوص مهریه خویش",
+        "start_char": 466,
+        "end_char": 491,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تمکین از زوج (خواهان)",
+        "start_char": 1099,
+        "end_char": 1120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "حقوق مالی زوجه",
+        "start_char": 1734,
+        "end_char": 1748,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "خود را وکیل خوانده معرفی نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "به استناد سند ازدواج شماره 5746",
+        "start_char": 212,
+        "end_char": 243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "در خصوص مهریه خویش",
+        "start_char": 473,
+        "end_char": 491,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند مذکور سند رسمی است",
+        "start_char": 4048,
+        "end_char": 4070,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سکه",
+      "evidence": {
+        "quote": "مهریه که 313 عدد سکه بوده",
+        "start_char": 11981,
+        "end_char": 12006,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم امکان سازش بین طرفین",
+      "evidence": {
+        "quote": "به علت عدم امکان سازش بین طرفین",
+        "start_char": 646,
+        "end_char": 677,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم برگزاری مراسم عروسی",
+      "evidence": {
+        "quote": "عقد ازدواج منعقد کردیم ولی عروسی نکردیم",
+        "start_char": 2046,
+        "end_char": 2085,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تهدید و ضرب و شتم توسط زوج",
+      "evidence": {
+        "quote": "موضوع تهدید و ضرب و شتم و محکومیت کیفری زوج می باشد",
+        "start_char": 4366,
+        "end_char": 4417,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

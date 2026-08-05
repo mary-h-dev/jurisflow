@@ -1,0 +1,173 @@
+{
+  "ruling_id": "26031",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "بابت نقض تعهد و تلف کالا",
+        "start_char": 119,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تلف",
+      "evidence": {
+        "quote": "بابت نقض تعهد و تلف کالا",
+        "start_char": 119,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "و خسارت تاخیر تادیه",
+        "start_char": 144,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "امانت",
+      "evidence": {
+        "quote": "بدون رعایت وصف امانت داری",
+        "start_char": 475,
+        "end_char": 500,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ 350000000 ریال",
+        "start_char": 82,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استماع دعوی",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی خواهان را صادر",
+        "start_char": 1517,
+        "end_char": 1552,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شرکت ارتباطات م.",
+        "start_char": 1705,
+        "end_char": 1735,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "با رد اعتراض دادنامه",
+        "start_char": 2514,
+        "end_char": 2534,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان : شرکت ارتباطات م.",
+        "start_char": 258,
+        "end_char": 289,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "طبق رسید موقت کالا که توسط خوانده صادر شده",
+        "start_char": 361,
+        "end_char": 403,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه مطابق ماده 379 قانون مرقوم عمل ننموده",
+        "start_char": 2369,
+        "end_char": 2419,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده به عنوان یک شرکت مسافربری بوده",
+        "start_char": 2267,
+        "end_char": 2313,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "کالا",
+      "evidence": {
+        "quote": "تلف کالا",
+        "start_char": 135,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مطالبه مبلغ 350000000 ریال",
+        "start_char": 92,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تحویل کالا به فردی مجهول",
+      "evidence": {
+        "quote": "تحویل کالا به فردی مجهول الهویه و فاقد سمت تحویل می دهد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل بر تلف کالا",
+      "evidence": {
+        "quote": "خواهان دلیلی بر تلف کالاها به دادگاه ارائه نکرده است",
+        "start_char": 703,
+        "end_char": 755,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

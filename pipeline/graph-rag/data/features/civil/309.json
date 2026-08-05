@@ -1,0 +1,153 @@
+{
+  "ruling_id": "309",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تابعیت",
+      "evidence": {
+        "quote": "ترک تابعیت ایرانی نموده اند",
+        "start_char": 352,
+        "end_char": 379,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "از توابع این حق بنیادین دارا بودن مدارک هویتی است",
+        "start_char": 627,
+        "end_char": 676,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم سند سجلی",
+        "start_char": 82,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تحویل شناسنامه",
+        "start_char": 107,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره ثبت احوال",
+        "start_char": 1061,
+        "end_char": 1090,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت اداره ثبت احوال به خواسته الزام به تنظیم سند سجلی",
+        "start_char": 47,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حکم به الزام اداره خوانده",
+        "start_char": 821,
+        "end_char": 846,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم به الزام تجدیدنظرخواه به تنظیم سند سجلی",
+        "start_char": 1227,
+        "end_char": 1270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تحویل شناسنامه به تجدیدنظرخوانده",
+        "start_char": 1273,
+        "end_char": 1305,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "تنظیم سند سجلی",
+        "start_char": 91,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "تحویل شناسنامه",
+        "start_char": 107,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "ملاحظه گواهی ثبت موالید",
+        "start_char": 161,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "والدین خواهان در سال 1354 ترک تابعیت ایرانی کرده‌اند",
+      "evidence": {
+        "quote": "نامبردگان اخیرالذکر در سال 1354 ترک تابعیت ایرانی نموده اند",
+        "start_char": 320,
+        "end_char": 379,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان در زمان ترک تابعیت والدین، طفل بوده است",
+      "evidence": {
+        "quote": "و خواهان، آن زمان طفل بوده",
+        "start_char": 380,
+        "end_char": 406,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

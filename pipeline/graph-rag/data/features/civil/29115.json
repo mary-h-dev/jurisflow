@@ -1,0 +1,193 @@
+{
+  "ruling_id": "29115",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "وکالت",
+      "evidence": {
+        "quote": "اعطاء وکالت و نمایندگی",
+        "start_char": 1617,
+        "end_char": 1638,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تراضی",
+      "evidence": {
+        "quote": "امکان توافق و تراضی",
+        "start_char": 1310,
+        "end_char": 1329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نظم عمومی",
+      "evidence": {
+        "quote": "برخلاف نظم عمومی",
+        "start_char": 2021,
+        "end_char": 2037,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه خسارت",
+        "start_char": 207,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "مبادرت به فروش آن",
+        "start_char": 580,
+        "end_char": 597,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "انتقال رسمی به نام تجدیدنظرخوانده",
+        "start_char": 4181,
+        "end_char": 4214,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعاخواست تقدیمی خواهان آقای ک. خ.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده خانم الف. ر.",
+        "start_char": 156,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "با وکالت آقای ف.ن.",
+        "start_char": 137,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای س. م.",
+        "start_char": 2932,
+        "end_char": 2956,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده به پرداخت",
+        "start_char": 3314,
+        "end_char": 3338,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دانگ پلاک",
+      "evidence": {
+        "quote": "درخصوص سه دانگ پلاک ثبتی 982 فرعی از 5 اصلی",
+        "start_char": 299,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "ووکالتنامه شماره 7058 -92/5/6",
+        "start_char": 269,
+        "end_char": 298,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "به موجب سند رسمی شماره 7118-92/6/3",
+        "start_char": 545,
+        "end_char": 579,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "به مبلغ 42632701ریال",
+        "start_char": 598,
+        "end_char": 618,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ملک را به نام خود منتقل کرده است",
+      "evidence": {
+        "quote": "خوانده ملک مزبوررا درقبال مبلغ 42/632/701ریال به خود منتقل نمود ه است",
+        "start_char": 2110,
+        "end_char": 2179,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بین طرفین رابطه زوجیت برقرار است",
+      "evidence": {
+        "quote": "با وصف رابطه زوجیت بین تجدیدنظرخواه وتجدیدنظرخوانده",
+        "start_char": 3674,
+        "end_char": 3724,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وکیل قبلی عزل شده و وکالتنامه جدید تنظیم شده است",
+      "evidence": {
+        "quote": "موکل درتاریخ1392/4/29وکیل را عزل کرده است و به فاصله چندروز وکالتنامه بلاعزل به شماره 7058 به تاریخ 1392/5/6 با همان اختیارات وکالتنامه قبلی تنظیم شده است",
+        "start_char": 4005,
+        "end_char": 4156,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

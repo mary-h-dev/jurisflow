@@ -1,0 +1,223 @@
+{
+  "ruling_id": "24974",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "صدور حکم طلاق",
+        "start_char": 53,
+        "end_char": 66,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "وکالت",
+      "evidence": {
+        "quote": "وکالت عقدی است",
+        "start_char": 4110,
+        "end_char": 4124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عزل",
+      "evidence": {
+        "quote": "موکل می‌تواند هر وقت بخواهد وکیل را عزل کند",
+        "start_char": 4231,
+        "end_char": 4274,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلح",
+      "evidence": {
+        "quote": "مساعی خود را در ایجاد صلح و سازش زوجین به عمل آورده",
+        "start_char": 5004,
+        "end_char": 5055,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت آقای غ. ع.",
+        "start_char": 11,
+        "end_char": 40,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "تقدیم کرده",
+        "start_char": 243,
+        "end_char": 253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "نسبت به دادنامه فوق‌الذکر تجدیدنظرخواهی به عمل آورده است",
+        "start_char": 3299,
+        "end_char": 3355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی فرجام‌خواسته را نقض و رسیدگی مجدد به پرونده",
+        "start_char": 5274,
+        "end_char": 5321,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با حضور خواهان و در غیاب خوانده",
+        "start_char": 1818,
+        "end_char": 1849,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در غیاب خوانده",
+        "start_char": 1835,
+        "end_char": 1849,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "در خصوص زوجین غ. ع. و ز. م.",
+        "start_char": 1200,
+        "end_char": 1227,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در مورد عدم توفیق در صلح و سازش زوجین اعلام کرده‌اند",
+        "start_char": 2341,
+        "end_char": 2393,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل حق توکیل به غیر را دارد",
+        "start_char": 851,
+        "end_char": 879,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "داور زوجه داور زوج نظریه خود را",
+        "start_char": 2309,
+        "end_char": 2340,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "وکالتنامه شماره...-1393/3/25",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "کپی مصدق سند ازدواج",
+        "start_char": 2790,
+        "end_char": 2809,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "از مهریه را به دادگاه",
+        "start_char": 205,
+        "end_char": 226,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پول",
+      "evidence": {
+        "quote": "دو میلیون تومان پول نقد",
+        "start_char": 2024,
+        "end_char": 2047,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج از زوجه رها شده است",
+      "evidence": {
+        "quote": "مدت سه سال است که زوج ایشان را رها کرده و زندگی مشترک ندارند",
+        "start_char": 1577,
+        "end_char": 1637,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وکالت در طلاق بلاعزل است",
+      "evidence": {
+        "quote": "این وکالتنامه بلاعزل معتبر و لازم الاجراست",
+        "start_char": 4509,
+        "end_char": 4551,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج با طلاق مخالفت کرده است",
+      "evidence": {
+        "quote": "زوج طی لایحه تقدیمی پیوست مخالفت خود را با طلاق اعلام کرده",
+        "start_char": 3101,
+        "end_char": 3159,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

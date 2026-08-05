@@ -1,0 +1,173 @@
+{
+  "ruling_id": "34630",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "بلحاظ عدم کفایت دلیل برائت حاصل نموده",
+        "start_char": 190,
+        "end_char": 227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "درخواست تجویز اعاده دادرسی نموده",
+        "start_char": 1212,
+        "end_char": 1244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مجازات",
+      "evidence": {
+        "quote": "به جای حبس به مجازات جایگزین حبس محکوم می گردند",
+        "start_char": 1990,
+        "end_char": 2037,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "رأی مزبور مورد اعتراض و تجدیدنظرخواهی شکات قرار گرفته",
+        "start_char": 231,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "رأی مزبور مورد اعتراض و تجدیدنظرخواهی شکات قرار گرفته",
+        "start_char": 231,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "با تقدیم لایحه ای که حین مشاوره قرائت می شود",
+        "start_char": 596,
+        "end_char": 640,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "طرفین به وجود رابطه مالی و آشنایی چندین ساله اقرار دارند",
+        "start_char": 691,
+        "end_char": 747,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "مجموع اقدامات انجام شده توسط متهم را مزاحمت تلفنی دانسته",
+        "start_char": 365,
+        "end_char": 421,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شکات",
+      "evidence": {
+        "quote": "رأی مزبور مورد اعتراض و تجدیدنظرخواهی شکات قرار گرفته",
+        "start_char": 231,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موکل",
+      "evidence": {
+        "quote": "اما مزاحمت تلفنی با عمل ارتکابی موکل تطابق ندارد",
+        "start_char": 801,
+        "end_char": 849,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متقاضی",
+      "evidence": {
+        "quote": "میتبایست متقاضی به مجازات جایگزین حبس که خفیف تر و مساعدتر از مجازات مورد حکم باشد محکوم می گردید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بر اساس دادنامه شماره 1675- 1393/12/24",
+        "start_char": 10,
+        "end_char": 48,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "با تقدیم لایحه ای که حین مشاوره قرائت می شود",
+        "start_char": 596,
+        "end_char": 640,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اوراق پرونده",
+      "evidence": {
+        "quote": "پس از قرائت گزارش عضو ممیز و ملاحظه اوراق پرونده",
+        "start_char": 1358,
+        "end_char": 1406,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود رابطه مالی و آشنایی چندین ساله بین طرفین",
+      "evidence": {
+        "quote": "طرفین به وجود رابطه مالی و آشنایی چندین ساله اقرار دارند",
+        "start_char": 691,
+        "end_char": 747,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ارائه مدارک جدید مبنی بر وجود اختلاف طرفین",
+      "evidence": {
+        "quote": "دلالت به وجود رابطه مالی و اختلاف طرفین دارد و بعنوان مدارک جدید تقدیم می گردد",
+        "start_char": 1101,
+        "end_char": 1179,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

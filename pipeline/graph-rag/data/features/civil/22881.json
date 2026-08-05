@@ -1,0 +1,183 @@
+{
+  "ruling_id": "22881",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان معامله",
+      "evidence": {
+        "quote": "به خواسته اعلان بطلان معامله",
+        "start_char": 114,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مستحق للغیر بودن",
+      "evidence": {
+        "quote": "ناشی از مستحق‌للغیر بودن",
+        "start_char": 730,
+        "end_char": 754,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "حکم به بطلان عقد بیع",
+        "start_char": 4102,
+        "end_char": 4122,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد ثمن",
+      "evidence": {
+        "quote": "استرداد ثمن و غرامات وارده",
+        "start_char": 145,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مشتری را مستحق مطالبه غرامات وارده",
+        "start_char": 5312,
+        "end_char": 5346,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "در نهایت رد دعوی را خواسته",
+        "start_char": 3976,
+        "end_char": 4002,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مخدوش تشخیص و مستنداً به بند 2 و 3 و قسمت آخر بند 5 ماده 371 قانون آئین دادرسی دادگاه‌های عمومی و انقلاب در امور مدنی نقض می‌شود",
+        "start_char": 5884,
+        "end_char": 6012,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان‌های پرونده دو نفر به نام م. ق. و ج. پ. هستند",
+        "start_char": 1812,
+        "end_char": 1863,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "و محکومیت خواندگان به استرداد ثمن",
+        "start_char": 681,
+        "end_char": 714,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "مشتری را مستحق مطالبه غرامات وارده",
+        "start_char": 5312,
+        "end_char": 5346,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "بایع را به استرداد ثمن دریافتی ملزم",
+        "start_char": 5274,
+        "end_char": 5309,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به موجب مبایعه‌نامه مورخ 1384/7/6",
+        "start_char": 248,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "و قرارداد 1384/8/20",
+        "start_char": 282,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "بیست هکتار زمین کشاورزی",
+        "start_char": 657,
+        "end_char": 680,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "استرداد ثمن و غرامات وارده",
+        "start_char": 145,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فروشندگان مالکیت اراضی موضوع قرارداد را با دولت داشته‌اند",
+      "evidence": {
+        "quote": "مالکیت اراضی موصوف متعلق به دولت می‌باشد",
+        "start_char": 559,
+        "end_char": 599,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله نسبت به بخشی از زمین‌ها باطل است",
+      "evidence": {
+        "quote": "معامله نسبت به اراضی مذکور باطل است",
+        "start_char": 1410,
+        "end_char": 1445,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

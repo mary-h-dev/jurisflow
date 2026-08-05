@@ -1,0 +1,163 @@
+{
+  "ruling_id": "24334",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "مسقط حق فسخ خواهان نیست",
+        "start_char": 1704,
+        "end_char": 1727,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "استنباط عمومی از حق فسخ به عنوان استثنایی بر اصل صحت و لزوم قراردادها",
+        "start_char": 2395,
+        "end_char": 2464,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعدی",
+      "evidence": {
+        "quote": "باعث نقض مفاد قرارداد و تعدی و تفریط در عین مستاجره شده",
+        "start_char": 513,
+        "end_char": 567,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "بخواسته تخلیه تقدیم می نماید",
+        "start_char": 113,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "خواهان با اضافه نمودن خواسته اعاده به وضع سابق",
+        "start_char": 611,
+        "end_char": 657,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "لذا دادگاه حکم به رددعوی خواهان صادر",
+        "start_char": 2704,
+        "end_char": 2740,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی شرکت ن. سهامی خاص",
+        "start_char": 2898,
+        "end_char": 2936,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان شرکت ن. ( سهامی خاص)",
+        "start_char": 17,
+        "end_char": 44,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده آقای ن. ع.پ.",
+        "start_char": 84,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "لکن مستاجر با احداث نیم طبقه",
+        "start_char": 451,
+        "end_char": 479,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "مورد موافقت موجر با مدیریت قبلی قرار گرفته",
+        "start_char": 1244,
+        "end_char": 1286,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجاره نامه",
+      "evidence": {
+        "quote": "بموجب اجاره نامه رسمی شماره....مورخ 1363/12/8",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "طبق سند مالکیت شماره....-..",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مستاجر تغییراتی در ملک ایجاد کرده است",
+      "evidence": {
+        "quote": "مستاجر با احداث نیم طبقه و ایجاد پلکان و ساخت سالن و اتاق باعث نقض مفاد قرارداد و تعدی و تفریط در عین مستاجره شده",
+        "start_char": 455,
+        "end_char": 567,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالک از تغییرات مطلع بوده است",
+      "evidence": {
+        "quote": "تغییرات مورد بحث در ملک موضوع اجاره از مدتها قبل وجود آمده و مالک نیز مطلع از آن بوده",
+        "start_char": 2000,
+        "end_char": 2085,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

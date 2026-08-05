@@ -1,0 +1,143 @@
+{
+  "ruling_id": "33434",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مدنی",
+      "evidence": {
+        "quote": "حق درخواست تغییرنام از حقوق مدنی است",
+        "start_char": 356,
+        "end_char": 391,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اهلیت",
+      "evidence": {
+        "quote": "خواهان اهلیت اعمال این حق را دارا می باشد",
+        "start_char": 545,
+        "end_char": 586,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رسمی",
+      "evidence": {
+        "quote": "سند سجلی جزو اسناد رسمی است",
+        "start_char": 1196,
+        "end_char": 1223,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "به خواسته تغییر نام از ز. به نازلی",
+        "start_char": 97,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره ثبت احوال مرکزی تهران",
+        "start_char": 917,
+        "end_char": 958,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "بنا به جهاتی قابلیت نقض دارد",
+        "start_char": 1161,
+        "end_char": 1189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه حکم به رد دعوی حاضر صادر واعلام می گردد",
+        "start_char": 3288,
+        "end_char": 3343,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان ز. م.",
+        "start_char": 0,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده اداره ثبت احوال شهرستان تهران",
+        "start_char": 53,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده مبنی بر تغییر نام",
+        "start_char": 1057,
+        "end_char": 1089,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "در سند سجلی شماره **********",
+        "start_char": 132,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "دعوی اصلاح شناسنامه می باشد",
+        "start_char": 2593,
+        "end_char": 2620,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان از نام فعلی خود 17 سال استفاده کرده است",
+      "evidence": {
+        "quote": "مشارالیها قریب 17 سال از سند سجلی استفاده کرده است",
+        "start_char": 2858,
+        "end_char": 2908,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25646",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "غیر صحیح بودن عقد بیع انجام شده",
+        "start_char": 1345,
+        "end_char": 1376,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان آن صادر و اعلام می‌گردد",
+        "start_char": 1395,
+        "end_char": 1431,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم تجدیدنظر",
+        "start_char": 1466,
+        "end_char": 1508,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال رسمی",
+      "evidence": {
+        "quote": "الزام به انتقال رسمی یک قطعه زمین",
+        "start_char": 165,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ پانصدمیلیون ریال ثمن معامله پرداخت نمود",
+        "start_char": 544,
+        "end_char": 588,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض به عمل آمده غیر وارد تشخیص",
+        "start_char": 2149,
+        "end_char": 2182,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان به شرح دادخواست اعلام کرد",
+        "start_char": 336,
+        "end_char": 373,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "از خواندگان که ورثه آقای ع.الف. الف. هستند",
+        "start_char": 485,
+        "end_char": 527,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه ایرادی مؤثر بر نقض و بی‌اعتباری دادنامه ارایه نگردیده است",
+        "start_char": 1939,
+        "end_char": 2016,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "الزام تجدیدنظر خواندگان به انتقال رسمی",
+        "start_char": 1828,
+        "end_char": 1866,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین به مساحت تقریبی 500 مترمربع",
+        "start_char": 420,
+        "end_char": 460,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به موجب مبایعه‌نامه مورخ 1386/12/6",
+        "start_char": 385,
+        "end_char": 419,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "مبلغ پانصدمیلیون ریال ثمن معامله",
+        "start_char": 544,
+        "end_char": 576,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "نسبت به تنظیم سند رسمی اقدامی ننمودند",
+        "start_char": 593,
+        "end_char": 630,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبلغ ثمن معامله پرداخت شده است",
+      "evidence": {
+        "quote": "مبلغ پانصدمیلیون ریال ثمن معامله پرداخت نمود",
+        "start_char": 544,
+        "end_char": 588,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موضوع معامله به دلیل ابهام و جهل در مبیع مشخص نیست",
+      "evidence": {
+        "quote": "مبنی بر معلوم نبودن حدود و مشخصات مورد معامله و ابهام و جهل در مبیع",
+        "start_char": 998,
+        "end_char": 1065,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

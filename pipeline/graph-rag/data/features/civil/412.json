@@ -1,0 +1,173 @@
+{
+  "ruling_id": "412",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهدات",
+      "evidence": {
+        "quote": "الزام خواندگان به ایفاء تعهدات",
+        "start_char": 98,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "رافع مسئولیتشان در قبال خواهان نمی باشد",
+        "start_char": 787,
+        "end_char": 826,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "مبنی بر الزام خواندگان",
+        "start_char": 90,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت مبلغ 000/127/4 ریال",
+        "start_char": 1094,
+        "end_char": 1120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم تجدیدنظر",
+        "start_char": 1414,
+        "end_char": 1456,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 3229,
+        "end_char": 3258,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان بدوی صادر",
+        "start_char": 3284,
+        "end_char": 3313,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی وکیل خواهان ها",
+        "start_char": 70,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان به ایفاء تعهدات",
+        "start_char": 98,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "تجدیدنظرخواهان به ایفاء تعهد قراردادی",
+        "start_char": 2570,
+        "end_char": 2607,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "مندرج در قرارداد شماره 6897",
+        "start_char": 129,
+        "end_char": 156,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جواز",
+      "evidence": {
+        "quote": "اخذ جواز کسب جهت شغل اغذیه فروشی کبابی",
+        "start_char": 173,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "با احتساب خسارات دادرسی",
+        "start_char": 213,
+        "end_char": 236,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواندگان نسبت به اخذ جواز کسب تعهد کرده‌اند",
+      "evidence": {
+        "quote": "خواندگان برابر قرارداد پیوست عرض حال تسلیمی تعهد نموده اند که نسبت به اخذ جواز کسب جهت شغل اغذیه فروشی مورد اجاره اقدام نمایند",
+        "start_char": 282,
+        "end_char": 408,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواندگان دلیلی بر انجام تعهد خود ارائه نکرده‌اند",
+      "evidence": {
+        "quote": "مشارٌالیها هیچ گونه دلیلی مبنی بر ایفاء تعهدات قراردادی اقامه و ارائه نکرده‌اند",
+        "start_char": 583,
+        "end_char": 662,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موضوع تعهد از امور حاکمیتی است",
+      "evidence": {
+        "quote": "موضوع تعهد از جمله اموری است که با رعایت شرایط و ضوابط قانونی از سوی مراجع حاکمیتی بایستی اعمال و اجرا گردد",
+        "start_char": 2822,
+        "end_char": 2929,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

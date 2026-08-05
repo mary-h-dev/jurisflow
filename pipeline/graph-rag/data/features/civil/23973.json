@@ -1,0 +1,193 @@
+{
+  "ruling_id": "23973",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "دایر بر اعلام ابطال قرار داد عادی",
+        "start_char": 112,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رهن",
+      "evidence": {
+        "quote": "ملک در رهن و در بازداشت می باشد",
+        "start_char": 379,
+        "end_char": 410,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "با توجه به حق عینی مرتهن نسبت به مبیع",
+        "start_char": 1366,
+        "end_char": 1403,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "معامله فضولی همواره از ناحیه معامل نافذ و لازم الاجرا و صحیح است",
+        "start_char": 2900,
+        "end_char": 2964,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "امکان تنظیم سند رسمی وجود نداشته",
+        "start_char": 415,
+        "end_char": 447,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "تقاضای رد دعوی را دارد",
+        "start_char": 927,
+        "end_char": 949,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "مرتهن به صراحت آن را تنفیذ یا رد ننماید",
+        "start_char": 1488,
+        "end_char": 1527,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "ضمن نقض رای تجدیدنظر خواسته قرا رد دعوی خواهان ها را صادر",
+        "start_char": 4564,
+        "end_char": 4621,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "یکباب مغازه را از پلاک ثبتی..../....بخش.....تهران به خوانده فروخته اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مرتهن",
+      "evidence": {
+        "quote": "با توجه به حق عینی مرتهن نسبت به مبیع",
+        "start_char": 1366,
+        "end_char": 1403,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "و خواه از باب وجوب مقدمه واجب تعهد به فک رهن داده است",
+        "start_char": 4135,
+        "end_char": 4188,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "پذیرش دعوی از ناحیه خواهان هایی که عقد نسبت به آنان نافذ و معتبر است",
+        "start_char": 3080,
+        "end_char": 3148,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "ابطال قرار داد عادی مورخ 1390/11/5",
+        "start_char": 126,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک موصوف در تاریخ 1386/1/22 در رهن بانک...... قرار گرفته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "از سوی مرتهن سند اجرایی صادر گردیده است",
+        "start_char": 1222,
+        "end_char": 1261,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک در رهن بانک است",
+      "evidence": {
+        "quote": "ملک موصوف در تاریخ 1386/1/22 در رهن بانک...... قرار گرفته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تنظیم سند رسمی به دلیل رهن ملک امکان‌پذیر نیست",
+      "evidence": {
+        "quote": "بعلت اینکه ملک در رهن و در بازداشت می باشد لذا امکان تنظیم سند رسمی وجود نداشته",
+        "start_char": 368,
+        "end_char": 447,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مرتهن معامله را تنفیذ نکرده است",
+      "evidence": {
+        "quote": "بانک...... صراحتاً معامله فوق الاشاره را تنفیذ ننموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

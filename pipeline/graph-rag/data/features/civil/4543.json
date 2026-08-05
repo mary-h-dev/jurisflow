@@ -1,0 +1,143 @@
+{
+  "ruling_id": "4543",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مختوم",
+      "evidence": {
+        "quote": "به اعتبار امر مختوم و قضاوت شده قرار رد دعوا صادر شده است",
+        "start_char": 806,
+        "end_char": 863,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "موجب مشقت و عسر و حرج تجدیدنظرخواه باشد",
+        "start_char": 1269,
+        "end_char": 1308,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ز.ش.",
+        "start_char": 0,
+        "end_char": 23,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده محکوم به رد اعلام شده",
+        "start_char": 272,
+        "end_char": 309,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی دادگاه تأیید می گردد",
+        "start_char": 482,
+        "end_char": 506,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "قرار معترض عنه نقض می شود",
+        "start_char": 1536,
+        "end_char": 1561,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عودت",
+      "evidence": {
+        "quote": "به دادگاه بدوی عودت داده می شود",
+        "start_char": 1632,
+        "end_char": 1663,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ز.ش.",
+        "start_char": 0,
+        "end_char": 23,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده محکوم به رد اعلام شده",
+        "start_char": 272,
+        "end_char": 309,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به آن بخش از دادنامه شماره 968ـ969",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "ملاقات او با فرزند مشترک بنام ز.",
+        "start_char": 180,
+        "end_char": 212,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرزند به دلیل بالغه بودن از تحت حضانت خارج شده است",
+      "evidence": {
+        "quote": "به دلیل بالغه بودن وی و خروج او از تحت حضانت تجدیدنظر خوانده",
+        "start_char": 227,
+        "end_char": 287,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه فرزند را از اصفهان به قم آورده است",
+      "evidence": {
+        "quote": "مطابق رأی صادره قبلی توسط تجدیدنظرخواه جهت ملاقات تجدیدنظر خوانده به شهر قم آورده است",
+        "start_char": 719,
+        "end_char": 804,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

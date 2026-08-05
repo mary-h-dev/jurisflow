@@ -1,0 +1,163 @@
+{
+  "ruling_id": "4962",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "نفقه با عقد ثابت می شود",
+        "start_char": 707,
+        "end_char": 730,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "و تا نشوز، نفقه ساقط نمی گردد",
+        "start_char": 731,
+        "end_char": 760,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "باید تمکین را اثبات کند",
+        "start_char": 803,
+        "end_char": 826,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "چنانچه زوجه مطالبه نفقه را بنماید",
+        "start_char": 769,
+        "end_char": 802,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "باید تمکین را اثبات کند",
+        "start_char": 803,
+        "end_char": 826,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 1435,
+        "end_char": 1461,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظرخواهی در دادگاه محترم تجدیدنظر استان تهران می باشد",
+        "start_char": 1519,
+        "end_char": 1583,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان خانم م.ع.",
+        "start_char": 0,
+        "end_char": 33,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ص.ط. فرزند الف.",
+        "start_char": 43,
+        "end_char": 72,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "مبنی بر الزام تجدیدنظر خوانده به پرداخت نفقه",
+        "start_char": 1811,
+        "end_char": 1855,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "بابت اجازه منزل در بلوار ابوذر",
+        "start_char": 219,
+        "end_char": 249,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره",
+      "evidence": {
+        "quote": "بنده مبلغ 000/300 تومان اجاره بها دریافت می کند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ودیعه",
+      "evidence": {
+        "quote": "مبلغ رهن ودیعه نیز در اختیار زوجه است",
+        "start_char": 602,
+        "end_char": 639,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده حقوق بازنشستگی دریافت می‌کند",
+      "evidence": {
+        "quote": "بازنشستگی ایشان 170 هزار تومان",
+        "start_char": 281,
+        "end_char": 311,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده دارای ملک مشترک است",
+      "evidence": {
+        "quote": "چهار دانگ از منزل مشترک متعلق به موکل است",
+        "start_char": 491,
+        "end_char": 532,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

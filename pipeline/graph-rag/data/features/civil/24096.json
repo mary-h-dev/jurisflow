@@ -1,0 +1,163 @@
+{
+  "ruling_id": "24096",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقود",
+      "evidence": {
+        "quote": "اصل بر لزوم عقود ومعاملات می باشد",
+        "start_char": 1446,
+        "end_char": 1479,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "اعطای حق فسخ",
+        "start_char": 1534,
+        "end_char": 1546,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "تبدیل تعهد",
+        "start_char": 2040,
+        "end_char": 2050,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تنفیذ فسخ",
+        "start_char": 2267,
+        "end_char": 2276,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تودیع",
+      "evidence": {
+        "quote": "تودیع گردیده است",
+        "start_char": 778,
+        "end_char": 794,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل محترم خواهان",
+        "start_char": 57,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به خوانده ردیف اول",
+        "start_char": 220,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "خوانده ردیف دوم به عنوان خریدار بعدی",
+        "start_char": 584,
+        "end_char": 620,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متصرف",
+      "evidence": {
+        "quote": "متصرف فعلی آپارتمان",
+        "start_char": 622,
+        "end_char": 641,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتمان",
+        "start_char": 154,
+        "end_char": 170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "حسب مبایعه نامه",
+        "start_char": 185,
+        "end_char": 200,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "برگشت چک شماره....-7/ 6/ 1390",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک برگشت خورده است",
+      "evidence": {
+        "quote": "برگشت چک شماره....-7/ 6/ 1390",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "امضاء سفید از خواهان گرفته شده است",
+      "evidence": {
+        "quote": "به صورت سفید امضاء از وی اخذ گردیده است",
+        "start_char": 1021,
+        "end_char": 1060,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبلغ چک در مبایعه نامه قید نشده است",
+      "evidence": {
+        "quote": "چک مذکور در مبایعه نامه قید نشده است",
+        "start_char": 1774,
+        "end_char": 1810,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

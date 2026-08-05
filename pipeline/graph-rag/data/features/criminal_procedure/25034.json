@@ -1,0 +1,153 @@
+{
+  "ruling_id": "25034",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "با توجه به حاکمیت اصل برائت صدور حکم مبنی بر برائت موکل را استدعا دارم",
+        "start_char": 9470,
+        "end_char": 9540,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجاوز",
+      "evidence": {
+        "quote": "اتهام متهمان دایر به ورود به عنف و تهدید و اتهام دیگر متهم م ح. ر. دایر به تجاوز به عنف نسبت به شاکیه تفهیم گردیده است",
+        "start_char": 8346,
+        "end_char": 8464,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تهدید",
+      "evidence": {
+        "quote": "از هر دو نامبردگان به خاطر تهدید و تجاوز شاکی می‌باشم",
+        "start_char": 749,
+        "end_char": 802,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض، فرجام‌خواهی و تقاضای نقض آن را نموده‌اند",
+        "start_char": 12790,
+        "end_char": 12838,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "فرجام‌خواهی آقای م ح. ر. با وکالت آقای ع. ح. نسبت به آن قسمت از دادنامه",
+        "start_char": 13146,
+        "end_char": 13217,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با استناد به بند الف ماده 469 قانون آئین دادرسی کیفری ابرام می‌گردد",
+        "start_char": 13883,
+        "end_char": 13950,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شاکی بیان کرده است همه کاره آقای م ح. ر. است",
+        "start_char": 660,
+        "end_char": 704,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "خطاب به متهم: س: شما متهم به ورود به عنف و تهدید و تهیه فیلم مبتذل و تجاوز به خانم ش. پ. هستید",
+        "start_char": 1981,
+        "end_char": 2075,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل متهم م ح. ر. اظهار داشته است",
+        "start_char": 9257,
+        "end_char": 9290,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "اخذ نظر نماینده محترم دادستان",
+        "start_char": 9652,
+        "end_char": 9681,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "گوشی",
+      "evidence": {
+        "quote": "با گوشی بنده تماس گرفت",
+        "start_char": 1661,
+        "end_char": 1683,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم به تجاوز و تهدید متهم شده است",
+      "evidence": {
+        "quote": "اتهام شما دایر به ورود به عنف و تهدید و تهیه فیلم مبتذل و تجاوز به خانم ش. پ. هستید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فیلم از محل حادثه تهیه شده است",
+      "evidence": {
+        "quote": "فیلمی مشاهده شد که در آن فردی در حال فیلم گرفتن از داخل حیاطی",
+        "start_char": 3202,
+        "end_char": 3263,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم به زنای عادی محکوم شده است",
+      "evidence": {
+        "quote": "هریک از متهمان را به تحمل یک سال حبس بابت ارتکاب بزه ورود به عنف به منزل شاکیه و علاوه بر آن متهم ردیف اول آقای م ح.ر. را به تحمل یک صد ضربه شلاق حدی محکوم کرده است",
+        "start_char": 12330,
+        "end_char": 12494,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "ruling_id": "38695",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "به خواسته اعسار از پرداخت هزینه دادرسی",
+        "start_char": 1789,
+        "end_char": 1827,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأمین خواسته",
+      "evidence": {
+        "quote": "قرار تامین خواسته به مبلغ 3770355000 ریال",
+        "start_char": 1034,
+        "end_char": 1075,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اکراه",
+      "evidence": {
+        "quote": "این سند در حال اجبار و اکراه اخذ شده است",
+        "start_char": 11262,
+        "end_char": 11302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "در حق اینجانب بذل نموده است",
+        "start_char": 10355,
+        "end_char": 10382,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مهریه",
+        "start_char": 181,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی",
+        "start_char": 8706,
+        "end_char": 8725,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظر خواهی",
+        "start_char": 5922,
+        "end_char": 5941,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اصلاح",
+      "evidence": {
+        "quote": "تصحیح و اصلاح می نماید",
+        "start_char": 6708,
+        "end_char": 6730,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان: خانم م. س. فرزند ف. ا.",
+        "start_char": 34,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده: اقای م. ن. فرزند ح.",
+        "start_char": 105,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه: اقای م. ن. فرزند ح.",
+        "start_char": 8167,
+        "end_char": 8200,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده: خانم م. س. فرزند ف. ا.",
+        "start_char": 8241,
+        "end_char": 8279,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مطالبه مهریه",
+        "start_char": 181,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "هزینه دادرسی",
+        "start_char": 421,
+        "end_char": 433,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "سند عادی مورد ادعای خواهان",
+        "start_char": 5593,
+        "end_char": 5619,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "استناد به عقدنامه 655402",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج مدعی بذل مهریه شده است",
+      "evidence": {
+        "quote": "زوج اقای م. ن. مدعی می شود. که زوجه در سال 92 طی یک سند عادی مهریه خویش را در حق اینجانب بذل نموده است",
+        "start_char": 10280,
+        "end_char": 10382,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان درخواست خود را تقلیل داده است",
+      "evidence": {
+        "quote": "بعدا متوجه می شود. که زوجه خواسته اش را تقلیل داده است",
+        "start_char": 10792,
+        "end_char": 10846,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند عادی در سال ۹۲ ارائه شده است",
+      "evidence": {
+        "quote": "سند عادی در مورخ یکشنبه 92/9 ارائه می نماید",
+        "start_char": 11149,
+        "end_char": 11192,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

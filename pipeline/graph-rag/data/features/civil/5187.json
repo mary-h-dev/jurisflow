@@ -1,0 +1,203 @@
+{
+  "ruling_id": "5187",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام زوجیت",
+        "start_char": 162,
+        "end_char": 190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت دادرسی",
+      "evidence": {
+        "quote": "و خسارت دادرسی",
+        "start_char": 225,
+        "end_char": 239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت برقرار بوده",
+        "start_char": 431,
+        "end_char": 454,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عرف",
+      "evidence": {
+        "quote": "باید با رعایت عرف مطالبه گردد",
+        "start_char": 2021,
+        "end_char": 2050,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل ایام زوجیت",
+        "start_char": 152,
+        "end_char": 190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "تسلیم دادگاه نموده",
+        "start_char": 343,
+        "end_char": 361,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "خواندگان را به پرداخت 000/250/11 تومان و پرداخت مبلغ 500/208 ریال بابت خسارت دادرسی در حق خواهان محکوم می نماید",
+        "start_char": 1063,
+        "end_char": 1174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض وارد",
+      "evidence": {
+        "quote": "اعتراض وارد است",
+        "start_char": 1768,
+        "end_char": 1783,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه صادره",
+        "start_char": 2302,
+        "end_char": 2323,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان خانم ک.ک.",
+        "start_char": 0,
+        "end_char": 16,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 26,
+        "end_char": 43,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "در مورد تجدیدنظرخواهان",
+        "start_char": 2324,
+        "end_char": 2346,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "به موجب تصویر سند نکاح نامه",
+        "start_char": 376,
+        "end_char": 403,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "و شناسنامه پیوستی",
+        "start_char": 404,
+        "end_char": 421,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ماترک",
+      "evidence": {
+        "quote": "از ماترک مرحوم هستم",
+        "start_char": 691,
+        "end_char": 710,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین خواهان و متوفی برقرار بوده است",
+      "evidence": {
+        "quote": "رابطه زوجیت برقرار بوده",
+        "start_char": 431,
+        "end_char": 454,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان کارهای شرعی و قانونی را در زندگی مشترک انجام داده است",
+      "evidence": {
+        "quote": "کارهای که شرعاً و قانون در تکلیف من نبوده و قصد تبرع هم نداشته ام در زندگی مشترک انجام داده ام",
+        "start_char": 471,
+        "end_char": 565,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در سال ۹۰ فوت شده است",
+      "evidence": {
+        "quote": "و زوج در سال 90 فوت نموده",
+        "start_char": 1924,
+        "end_char": 1949,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه در حضور فرزندان مبنی بر عدم ادعای حقوقی انگشت خورده است",
+      "evidence": {
+        "quote": "حسب نوشته ای که زوجه در حضور دو فرزندش انگشت زده است صراحتاً اعلام کرده هیچ حق وحقوقی طلب کار نبوده",
+        "start_char": 2096,
+        "end_char": 2195,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

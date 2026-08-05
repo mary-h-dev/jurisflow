@@ -1,0 +1,153 @@
+{
+  "ruling_id": "23297",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان معامله",
+      "evidence": {
+        "quote": "بطلان معامله فی مابین تجدید نظرخواندگان",
+        "start_char": 270,
+        "end_char": 309,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "بمنظور فرار از دین",
+        "start_char": 1011,
+        "end_char": 1029,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صوری",
+      "evidence": {
+        "quote": "با تشخیص صوری بودن معامله",
+        "start_char": 1458,
+        "end_char": 1483,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدید نظرخواهی خانم ز. میرزایی",
+        "start_char": 0,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "و ابطال سند رسمی شماره 129668-93/8/24",
+        "start_char": 1678,
+        "end_char": 1715,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "حکم به نقض دادنامه تجدید نظرخواسته",
+        "start_char": 1608,
+        "end_char": 1642,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظرخواه به خواسته",
+        "start_char": 246,
+        "end_char": 269,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "بطلان معامله فی مابین تجدید نظرخواندگان",
+        "start_char": 270,
+        "end_char": 309,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "یک باب",
+      "evidence": {
+        "quote": "در مورد یک باب مغازه",
+        "start_char": 310,
+        "end_char": 330,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند شماره 129668-93/8/24",
+        "start_char": 363,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "به پلاک ثبتی شماره 53495",
+        "start_char": 331,
+        "end_char": 355,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تاریخ انتقال سند پس از تاریخ صدور اجرائیه است",
+      "evidence": {
+        "quote": "انتقال آن در تاریخ 93/8/24 صورت گرفته و موخر بر تاریخ اجرائیه است",
+        "start_char": 744,
+        "end_char": 809,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین معامله پدر و فرزند هستند",
+      "evidence": {
+        "quote": "ظرفین معامله پدر و فرزند می باشند",
+        "start_char": 812,
+        "end_char": 845,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کاربری ملک در سند تجاری است",
+      "evidence": {
+        "quote": "تجاری بودن ملک در سند مالکیت قید گردیده",
+        "start_char": 1249,
+        "end_char": 1288,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

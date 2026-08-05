@@ -1,0 +1,153 @@
+{
+  "ruling_id": "28306",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "درقبال حضانت فرزندان",
+        "start_char": 309,
+        "end_char": 329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "مهریه رادرقبال طلاق بذل نموده است",
+        "start_char": 333,
+        "end_char": 366,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 624,
+        "end_char": 648,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "بخواسته استرداد فرزندان مشترک",
+        "start_char": 55,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ساقط",
+      "evidence": {
+        "quote": "حق حضانت وی ساقط شده",
+        "start_char": 1444,
+        "end_char": 1464,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته نقض",
+        "start_char": 2008,
+        "end_char": 2035,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بخواسته استرداد فرزندان مشترک جهت محتویات پرونده نظربه اینکه وکیل خواهان",
+        "start_char": 55,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه ( به خواسته صدور حکم به استرداد فرزندان مشترک )",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده با مرد دیگری ازدواج کرده است",
+        "start_char": 1368,
+        "end_char": 1412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "پدر",
+      "evidence": {
+        "quote": "حق حضانت با پدر ( تجدیدنظر خواه ) می باشد",
+        "start_char": 1467,
+        "end_char": 1508,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "کل مهریه رادرقبال طلاق بذل نموده است",
+        "start_char": 330,
+        "end_char": 366,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حکم طلاق",
+      "evidence": {
+        "quote": "عبارات مندرج درحکم طلاق",
+        "start_char": 149,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرزندان بالای هفت سال سن دارند",
+      "evidence": {
+        "quote": "هر دو فرزند بالای هفت سال سن دارند",
+        "start_char": 1233,
+        "end_char": 1267,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظر خوانده با شخص دیگری ازدواج کرده است",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده با مرد دیگری ازدواج کرده است",
+        "start_char": 1368,
+        "end_char": 1412,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "ruling_id": "22884",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "جرم",
+      "evidence": {
+        "quote": "با توجه به تکرار جرم",
+        "start_char": 275,
+        "end_char": 295,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به دادنامه صادره اعتراض",
+        "start_char": 392,
+        "end_char": 420,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم و",
+      "evidence": {
+        "quote": "به اعدام و مصادره اموال ناشی از همین جرم محکوم شده است",
+        "start_char": 296,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "به وکالت از محکوم‌علیه",
+        "start_char": 369,
+        "end_char": 391,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ممیز",
+      "evidence": {
+        "quote": "عضو ممیز",
+        "start_char": 548,
+        "end_char": 556,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دیوان عالی کشور",
+      "evidence": {
+        "quote": "دادیار دیوان عالی کشور",
+        "start_char": 610,
+        "end_char": 632,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به موجب دادنامه صادره از دادگاه انقلاب",
+        "start_char": 170,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "مصادره اموال ناشی از همین جرم",
+        "start_char": 307,
+        "end_char": 336,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مواد مخدر",
+      "evidence": {
+        "quote": "حمل مواد مخدر",
+        "start_char": 84,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم به حمل مواد مخدر محکوم شده است",
+      "evidence": {
+        "quote": "به اعدام و مصادره اموال ناشی از همین جرم محکوم شده است",
+        "start_char": 296,
+        "end_char": 350,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اعتراض به دادنامه بدون رعایت مواد قانونی انجام شده است",
+      "evidence": {
+        "quote": "بدون رعایت مواد 439 و 340 قانون آئین دادرسی کیفری",
+        "start_char": 828,
+        "end_char": 877,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

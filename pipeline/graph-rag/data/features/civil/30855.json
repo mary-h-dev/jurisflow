@@ -1,0 +1,143 @@
+{
+  "ruling_id": "30855",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال تقسیم نامه عادی",
+        "start_char": 112,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقسیم",
+      "evidence": {
+        "quote": "تقسیم نامه عادی",
+        "start_char": 128,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقود",
+      "evidence": {
+        "quote": "تقسیم از جمله عقود لازم می باشد",
+        "start_char": 1534,
+        "end_char": 1565,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "موجب بطلان آن خواهد بود",
+        "start_char": 1273,
+        "end_char": 1296,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم بر رد دعوی صادر",
+        "start_char": 1718,
+        "end_char": 1737,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بر خلاف ادعای وکلای خواهانها",
+        "start_char": 375,
+        "end_char": 403,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "خواندگان هیچگونه تعهدی به شهرداری مربوطه",
+        "start_char": 405,
+        "end_char": 445,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل قانونی در جهت نقض دادنامه ارائه نداده",
+        "start_char": 2314,
+        "end_char": 2369,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نامه عادی",
+      "evidence": {
+        "quote": "ابطال تقسیم نامه عادی",
+        "start_char": 122,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت",
+      "evidence": {
+        "quote": "ضمن قرارداد مشارکت عادی",
+        "start_char": 151,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "در ملک پلاک ثبتی 7056 و 7057",
+        "start_char": 230,
+        "end_char": 258,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم وجود پارکینگ پنجم در ملک",
+      "evidence": {
+        "quote": "عملاً امکان تامین پارکینگ پنجم وجود ندارد",
+        "start_char": 845,
+        "end_char": 886,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود رضایت‌نامه مبنی بر احداث طبقه پنجم مسکونی",
+      "evidence": {
+        "quote": "به موجب رضایت نامه ای که تصویر آن در جلسه دادرسی مورخ 94/10/27 ارائه شده، مشارالیهما صرفاً رضایت خود را با احداث طبقه پنجم مسکونی اعلام نموده اند",
+        "start_char": 484,
+        "end_char": 629,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

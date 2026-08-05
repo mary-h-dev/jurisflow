@@ -1,0 +1,193 @@
+{
+  "ruling_id": "21216",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت متداعیین محرز است",
+        "start_char": 183,
+        "end_char": 212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "به محض وقوع عقد نکاح",
+        "start_char": 230,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "دلیلی بر برائت ذمه خویش ارائه نداده است",
+        "start_char": 455,
+        "end_char": 494,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "عدم احراز نشوز زوجه",
+        "start_char": 1400,
+        "end_char": 1419,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "تقاضای مطالبه نفقه",
+        "start_char": 65,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ایراد",
+      "evidence": {
+        "quote": "ایراد و دفاعی به عمل نیاورده است",
+        "start_char": 400,
+        "end_char": 432,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تکذیب",
+      "evidence": {
+        "quote": "آن را تکذیب نکرده",
+        "start_char": 435,
+        "end_char": 452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م.و.",
+        "start_char": 1070,
+        "end_char": 1101,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان صادر",
+        "start_char": 873,
+        "end_char": 890,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده",
+        "start_char": 733,
+        "end_char": 754,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به تأدیه نفقه",
+        "start_char": 1216,
+        "end_char": 1242,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده محکوم شده است",
+        "start_char": 1282,
+        "end_char": 1316,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "کپی مصدق سند رسمی ازدواج",
+        "start_char": 158,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "تقاضای مطالبه نفقه",
+        "start_char": 65,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حق‌الوکاله",
+      "evidence": {
+        "quote": "20 هزار تومان بابت حق‌الوکاله",
+        "start_char": 843,
+        "end_char": 872,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "رابطه زوجیت متداعیین محرز است",
+        "start_char": 183,
+        "end_char": 212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده به پرداخت نفقه محکوم شده است",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده به مبلغ دو میلیون و صد هزار تومان بابت اصل خواسته",
+        "start_char": 733,
+        "end_char": 804,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی رد شد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی دادنامه مذکور تأیید می‌شود",
+        "start_char": 1657,
+        "end_char": 1704,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

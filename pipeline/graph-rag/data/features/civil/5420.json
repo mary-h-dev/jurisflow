@@ -1,0 +1,113 @@
+{
+  "ruling_id": "5420",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام زوجیت",
+        "start_char": 180,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی خانم الف.ق.",
+        "start_char": 0,
+        "end_char": 33,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی خواهان بدوی",
+        "start_char": 130,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ردّ اعتراض معترض",
+        "start_char": 650,
+        "end_char": 666,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "خواهان بدوی (تجدیدنظرخواه)",
+        "start_char": 146,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی خواهان بدوی",
+        "start_char": 130,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "ردّ اعتراض معترض",
+        "start_char": 650,
+        "end_char": 666,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 9201763-6/11/92",
+        "start_char": 53,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "درخواست اجرت‌المثل ایام زوجیت مطرح شده است",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام زوجیت",
+        "start_char": 180,
+        "end_char": 208,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه بدوی حکم به رد دعوی داده است",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی خواهان بدوی",
+        "start_char": 130,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

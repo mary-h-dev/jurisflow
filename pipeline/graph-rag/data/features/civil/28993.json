@@ -1,0 +1,163 @@
+{
+  "ruling_id": "28993",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه معوقه",
+        "start_char": 94,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت",
+        "start_char": 803,
+        "end_char": 820,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "عدم ارائه دلیل از سوی زوج بر برائت ذمه خویش",
+        "start_char": 892,
+        "end_char": 935,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه معوقه",
+        "start_char": 84,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "نفقه پرداخت کردم",
+        "start_char": 472,
+        "end_char": 488,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدید نظر خواهی آقای ی. ش.ن.الف.",
+        "start_char": 1454,
+        "end_char": 1486,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دادخواست",
+      "evidence": {
+        "quote": "ضمن رد دادخواست تجدید نظر خواهی",
+        "start_char": 2059,
+        "end_char": 2090,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت آقای ی. ش.ن.الف. به خواسته مطالبه نفقه معوقه",
+        "start_char": 58,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده در پاسخ اظهار داشت",
+        "start_char": 423,
+        "end_char": 448,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "عدم ارائه دلیل از سوی زوج بر برائت ذمه خویش",
+        "start_char": 892,
+        "end_char": 935,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تکلیف زوج بر پرداخت نفقه زوجه دائمی",
+        "start_char": 855,
+        "end_char": 890,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه معوقه",
+        "start_char": 94,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال منقول و طلا",
+      "evidence": {
+        "quote": "طلاجات و لباس انیها خریده ام",
+        "start_char": 538,
+        "end_char": 566,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت میان طرفین برقرار است",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت و استقرار کنونی آن میان مشارالیها",
+        "start_char": 803,
+        "end_char": 853,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "هزینه دادرسی پرداخت نشده",
+      "evidence": {
+        "quote": "بپرداخت مبلغ 000 /000 /9 ریال به عنوان هزینه دادرسی",
+        "start_char": 1117,
+        "end_char": 1168,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

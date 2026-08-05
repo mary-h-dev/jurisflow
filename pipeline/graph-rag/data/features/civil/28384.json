@@ -1,0 +1,213 @@
+{
+  "ruling_id": "28384",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تاخیرتادیه",
+        "start_char": 936,
+        "end_char": 952,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "اصل بر عدم تبرع است",
+        "start_char": 1181,
+        "end_char": 1199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "وفاء",
+      "evidence": {
+        "quote": "اماره وفاء بعهد",
+        "start_char": 334,
+        "end_char": 349,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اماره",
+      "evidence": {
+        "quote": "اماره مدیونیت",
+        "start_char": 1218,
+        "end_char": 1231,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مبلغ 528/000/000 ریال",
+        "start_char": 97,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "مبلغ خواسته را به حساب تجدیدنظرخوانده واریز کرده است",
+        "start_char": 1034,
+        "end_char": 1086,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "از بازگرداندن آن به تجدیدنظرخواه امتناع کرده است",
+        "start_char": 1097,
+        "end_char": 1144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رای تجدیدنظرخواسته را که بدون رعایت اصول وقواعد دادرسی وموازین قانونی صادرشده است را عینا نقض نموده",
+        "start_char": 1860,
+        "end_char": 1958,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم برمحکومیت تجدیدنظرخوانده به پرداخت",
+        "start_char": 2019,
+        "end_char": 2057,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 629,
+        "end_char": 641,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده",
+        "start_char": 1057,
+        "end_char": 1071,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "رد دعوای خواهان",
+        "start_char": 862,
+        "end_char": 877,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به حساب خوانده دعوی",
+        "start_char": 226,
+        "end_char": 245,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ 528/000/000 ریال",
+        "start_char": 104,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بانکی",
+      "evidence": {
+        "quote": "سه فقره رسید بانکی",
+        "start_char": 175,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "خرید اقلامی همچون خودرو",
+        "start_char": 1627,
+        "end_char": 1650,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اداری",
+      "evidence": {
+        "quote": "لوازم اداری",
+        "start_char": 1652,
+        "end_char": 1663,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبلغ خواسته به حساب خوانده واریز شده است",
+      "evidence": {
+        "quote": "مبلغ خواسته را به حساب تجدیدنظرخوانده واریز کرده است",
+        "start_char": 1034,
+        "end_char": 1086,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخوانده از بازگرداندن وجه امتناع کرده است",
+      "evidence": {
+        "quote": "از بازگرداندن آن به تجدیدنظرخواه امتناع کرده است",
+        "start_char": 1097,
+        "end_char": 1144,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه مستندات کافی برای اثبات ادعا ارائه نداده است",
+      "evidence": {
+        "quote": "ایشان جهت اثبات ادعایشان سند ومدرک کافی ارائه نداده است",
+        "start_char": 1763,
+        "end_char": 1818,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

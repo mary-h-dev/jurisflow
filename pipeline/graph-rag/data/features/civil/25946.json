@@ -1,0 +1,123 @@
+{
+  "ruling_id": "25946",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "به خواسته لغوحضانت فرزند مشترک",
+        "start_char": 34,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "احراز رابطه ابوینی میان طرفین و فرزند مشترک",
+        "start_char": 106,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی خانم ف. پ.",
+        "start_char": 855,
+        "end_char": 887,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نظر به اظهارات خواهان",
+        "start_char": 150,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از ناحیه خوانده دعوی خواهان را وارد تشخیص داده",
+        "start_char": 409,
+        "end_char": 455,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ف. پ.",
+        "start_char": 863,
+        "end_char": 887,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک به پدر طفل (تجدیدنظرخوانده) واگذار شده است",
+        "start_char": 1034,
+        "end_char": 1094,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "لغوحضانت فرزند مشترک",
+        "start_char": 44,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 500066",
+        "start_char": 908,
+        "end_char": 936,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مادر توانایی نگهداری از فرزند را ندارد",
+      "evidence": {
+        "quote": "و توانایی نگهداری اش را ندارم",
+        "start_char": 271,
+        "end_char": 300,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پدر مخارج فرزند را پرداخت نمی‌کند",
+      "evidence": {
+        "quote": "و پدرش خرج و مخارج نمی دهد",
+        "start_char": 244,
+        "end_char": 270,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "24144",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "تقاضای اعسار",
+        "start_char": 98,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقاضای",
+      "evidence": {
+        "quote": "تقاضای اعسار",
+        "start_char": 98,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ایراد و اعتراض تجدید نظر",
+        "start_char": 1664,
+        "end_char": 1688,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مستلزم نقض است",
+        "start_char": 1727,
+        "end_char": 1741,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "به دادگاه محترم بدوی اعاده می‌گردد",
+        "start_char": 2203,
+        "end_char": 2237,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اظهارات خواهان محترم",
+        "start_char": 194,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وکلای محترم خوانده",
+        "start_char": 217,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدعی",
+      "evidence": {
+        "quote": "مدعی را مستغنی",
+        "start_char": 573,
+        "end_char": 587,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "هزینه",
+      "evidence": {
+        "quote": "هزینه رسیدگی در مرحله تجدیدنظر",
+        "start_char": 130,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "اعسار از پرداخت هزینه دادرسی",
+        "start_char": 1482,
+        "end_char": 1510,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان در مغازه لوازم تراکتور خرید و فروش می‌کند",
+      "evidence": {
+        "quote": "در مغازه هستم و لوازم تراکتور خرید و فروش می‌کنم",
+        "start_char": 312,
+        "end_char": 360,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان دارای پروانه کسب از اتحادیه است",
+      "evidence": {
+        "quote": "پراونه کسب از اتحادیه مربوط دارند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

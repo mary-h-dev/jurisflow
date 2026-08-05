@@ -1,0 +1,173 @@
+{
+  "ruling_id": "22709",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ازدواج",
+      "evidence": {
+        "quote": "بذل بقیه مدت ازدواج انقطاعی",
+        "start_char": 57,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقابل",
+      "evidence": {
+        "quote": "دعوی تقابل",
+        "start_char": 632,
+        "end_char": 642,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بابت مهریه",
+        "start_char": 688,
+        "end_char": 698,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "تقاضای اعسار دارم",
+        "start_char": 1665,
+        "end_char": 1682,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اکراه",
+      "evidence": {
+        "quote": "دلیل قانع‌کننده‌ای بر تهدید و اکراه اقامه نکرده است",
+        "start_char": 3235,
+        "end_char": 3286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نکاح",
+      "evidence": {
+        "quote": "حکم به انحلال نکاح موقت",
+        "start_char": 2798,
+        "end_char": 2821,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "بقیه مدت را بذل کرده‌ام",
+        "start_char": 1270,
+        "end_char": 1293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه پنجاه عدد سکه طلای بهار آزادی",
+        "start_char": 651,
+        "end_char": 687,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "آقای ح. آ. از رأی صادره تجدیدنظرخواهی کرده است",
+        "start_char": 3546,
+        "end_char": 3592,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "اصلی",
+      "evidence": {
+        "quote": "حضور طرفین (خواهان اصلی و خواهان تقابل)",
+        "start_char": 1104,
+        "end_char": 1143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان تقابل اظهار داشته",
+        "start_char": 1683,
+        "end_char": 1707,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "باقی مانده از مهریه اینجانب بر ذمه خوانده باقی مانده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "پنجاه عدد سکه طلای بهار آزادی",
+        "start_char": 658,
+        "end_char": 687,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عقد انقطاعی برای مدت 70 سال انجام شده است",
+      "evidence": {
+        "quote": "برای مدت 70 سال عقد انقطاعی نمودم",
+        "start_char": 283,
+        "end_char": 316,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بذل 30 سکه از مهریه صورت گرفته است",
+      "evidence": {
+        "quote": "تعداد 30 عدد سکه از مهریه را به من بذل کرده است",
+        "start_char": 1539,
+        "end_char": 1586,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده دارای منبع درآمد ماهیانه هشتصد و پنجاه هزار تومانی است",
+      "evidence": {
+        "quote": "خودش گفت مبلغ هشتصد و پنجاه هزار ماهیانه دریافت می‌کند",
+        "start_char": 2020,
+        "end_char": 2074,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

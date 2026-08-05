@@ -1,0 +1,223 @@
+{
+  "ruling_id": "42607",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "به خواسته طلاق",
+        "start_char": 55,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "به لحاظ عسروحرج",
+        "start_char": 70,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "کراهت",
+      "evidence": {
+        "quote": "باعش کراهت شدید شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی زوجه صادر نموده است",
+        "start_char": 929,
+        "end_char": 966,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "زوجه محکوم به تمکین شده است",
+        "start_char": 1081,
+        "end_char": 1108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سازش",
+      "evidence": {
+        "quote": "داوران نیز موفق به سازش نشده اند",
+        "start_char": 3825,
+        "end_char": 3857,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "طرح دعوی نموده",
+        "start_char": 183,
+        "end_char": 197,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "زوجه نسبت به دادنامه اعتراض نموده",
+        "start_char": 967,
+        "end_char": 1000,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "حاضرم کل مهریه را بذل کنم",
+        "start_char": 544,
+        "end_char": 569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه فرجامخواسته را نقض و پرونده را",
+        "start_char": 4034,
+        "end_char": 4072,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان گفته زوج بیماری صرع دارد",
+        "start_char": 480,
+        "end_char": 511,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با خوانده ازدواج نموده",
+        "start_char": 223,
+        "end_char": 245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "رفتار زوج باعث کراهت شدید شده است",
+        "start_char": 268,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه نسبت به دادنامه اعتراض نموده",
+        "start_char": 967,
+        "end_char": 1000,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "داور زوج اعلام کرده",
+        "start_char": 676,
+        "end_char": 695,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "حاضرم کل مهریه را بذل کنم",
+        "start_char": 544,
+        "end_char": 569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "جهیزیه وی توسط زوج به خانه پدرش منتقل شده",
+        "start_char": 1132,
+        "end_char": 1173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سکه",
+      "evidence": {
+        "quote": "مهریه 414 سکه است",
+        "start_char": 1491,
+        "end_char": 1508,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج دارای بیماری صرع است",
+      "evidence": {
+        "quote": "خواهان گفته زوج بیماری صرع دارد",
+        "start_char": 480,
+        "end_char": 511,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج سابقه محکومیت کیفری به ضرب و جرح و توهین دارد",
+      "evidence": {
+        "quote": "زوج به اتهامات توهین و ضرب و جرح عمدی زوجه به جریمه نقدی و پرداخت دیه محکوم شده است",
+        "start_char": 333,
+        "end_char": 416,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج و زوجه از یکدیگر جدا زندگی می‌کنند",
+      "evidence": {
+        "quote": "از 99/3/15 جدا زندگی می کنیم",
+        "start_char": 1303,
+        "end_char": 1331,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

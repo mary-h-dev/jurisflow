@@ -1,0 +1,153 @@
+{
+  "ruling_id": "7103",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام زوجه به تمکین",
+        "start_char": 93,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "ادعای فسخ نکاح",
+        "start_char": 274,
+        "end_char": 288,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان ادعای ایشان",
+        "start_char": 711,
+        "end_char": 735,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "مجدداً زوج به حکم مذکور اعتراض نموده",
+        "start_char": 328,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادره دادگاه بدوی را نقض کرده",
+        "start_char": 1535,
+        "end_char": 1568,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مفاد دادخواست خواهان",
+        "start_char": 124,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دفاعیات مؤثر خوانده",
+        "start_char": 178,
+        "end_char": 197,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "مجدداً زوج به حکم مذکور اعتراض نموده",
+        "start_char": 328,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه در معیت دو نفر از مأمورین",
+        "start_char": 1653,
+        "end_char": 1683,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "در منزل شوهر خود بوده",
+        "start_char": 1273,
+        "end_char": 1294,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاثیه",
+      "evidence": {
+        "quote": "منزل و اثاثیه مناسب تهیه ننموده است",
+        "start_char": 589,
+        "end_char": 624,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تهیه منزل و اثاثیه مناسب توسط خواهان",
+      "evidence": {
+        "quote": "چون منزل و اثاثیه مناسب تهیه ننموده است",
+        "start_char": 585,
+        "end_char": 624,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رد شدن قبلی ادعای فسخ نکاح",
+      "evidence": {
+        "quote": "چون خواهان قبلاً ادعای فسخ نکاح نموده که حکم بر ردّ ادعای او صادرشده",
+        "start_char": 257,
+        "end_char": 325,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رد شدن دادخواست طلاق",
+      "evidence": {
+        "quote": "دادخواست طلاق (گواهی عدم امکان سازش) نیز داده است که دادگاه ردّ کرده است",
+        "start_char": 414,
+        "end_char": 486,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

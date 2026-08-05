@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25504",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مبنی بر مطالبه اجرت‌المثل کارهای انجام شده",
+        "start_char": 68,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "عدم قصدتبرع زوجه",
+        "start_char": 344,
+        "end_char": 360,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "با توجه به وجود اصل عدم تبرع",
+        "start_char": 430,
+        "end_char": 458,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر",
+        "start_char": 835,
+        "end_char": 864,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مبنی بر مطالبه اجرت‌المثل",
+        "start_char": 68,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادره را نقص نموده است",
+        "start_char": 1446,
+        "end_char": 1472,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "خوانده اصلی پرونده (زوج) را... محکوم می‌نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از جانب خواهان دارد",
+        "start_char": 609,
+        "end_char": 628,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و خوانده منکر دستور دادن",
+        "start_char": 629,
+        "end_char": 653,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "دستور زوج جهت انجام کارهای منزل",
+        "start_char": 363,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "بایستی دو شرط عدم قصدتبرع زوجه",
+        "start_char": 330,
+        "end_char": 360,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "ملاحظه تصویر سند ازدواج",
+        "start_char": 210,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "مبنی بر صدور دادنامه 9201585",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انجام کارهای منزل در طول زندگی مشترک",
+      "evidence": {
+        "quote": "کارهای انجام شده در طول زندگی مشترک",
+        "start_char": 94,
+        "end_char": 129,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات دستور زوج برای انجام امور منزل",
+      "evidence": {
+        "quote": "خوانده منکر دستور دادن به زوجه جهت امورات منزل می‌باشد",
+        "start_char": 631,
+        "end_char": 685,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

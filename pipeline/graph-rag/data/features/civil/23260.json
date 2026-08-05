@@ -1,0 +1,133 @@
+{
+  "ruling_id": "23260",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شرکت",
+      "evidence": {
+        "quote": "اثبات رجوع خوانده از شرکت",
+        "start_char": 101,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مدنی",
+      "evidence": {
+        "quote": "انعقاد قرارداد مشارکت مدنی",
+        "start_char": 199,
+        "end_char": 225,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 962,
+        "end_char": 986,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "مبادرت به اخذ تسهیلات از بانک",
+        "start_char": 1743,
+        "end_char": 1772,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان آقای ح. الف.",
+        "start_char": 0,
+        "end_char": 36,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت بانک پ.",
+        "start_char": 68,
+        "end_char": 82,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ح. الف.",
+        "start_char": 1130,
+        "end_char": 1156,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده از شرکت مدنی",
+        "start_char": 1377,
+        "end_char": 1404,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت مدنی",
+      "evidence": {
+        "quote": "انعقاد قرارداد مشارکت مدنی",
+        "start_char": 199,
+        "end_char": 225,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال و دارایی",
+      "evidence": {
+        "quote": "برداشت از حساب مورد ادعای خواهان",
+        "start_char": 656,
+        "end_char": 688,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "برداشت فوری وجه از حساب مشترک بلافاصله پس از واریز",
+      "evidence": {
+        "quote": "برداشت از حساب مورد ادعای خواهان هر چند به نحو فوری بعد ازواریز آن دلالت بر تصریح ندارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "برداشت وجه جهت وصول مطالبات معوق بانک",
+      "evidence": {
+        "quote": "برداشت از حساب مورد ادعای خواهان درراستای وصول مطالبات معوق شرکت خواهان",
+        "start_char": 656,
+        "end_char": 727,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

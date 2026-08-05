@@ -1,0 +1,143 @@
+{
+  "ruling_id": "5271",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "بنا به قواعد لزوم و صحت برای طرفین متبع و لازم الرعایه است",
+        "start_char": 1579,
+        "end_char": 1637,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصل آزادی",
+      "evidence": {
+        "quote": "طرفین مکلف هستند تعهداتی که به تبعیت از اصل آزادی اراده قبول نموده تحمل و تقبل نمایند",
+        "start_char": 1640,
+        "end_char": 1725,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت خسارت",
+        "start_char": 87,
+        "end_char": 117,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "خرید",
+      "evidence": {
+        "quote": "موکل به موجب مبایعه نامه مستند دعوی یک واحد مسکونی از خوانده پیش خرید نموده است",
+        "start_char": 321,
+        "end_char": 400,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای و.ب. به طرفیت آقای م.ن.",
+        "start_char": 2359,
+        "end_char": 2401,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت خسارت",
+        "start_char": 87,
+        "end_char": 117,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خلاصه اظهارات خواهان",
+        "start_char": 280,
+        "end_char": 300,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بر اساس آن تجدیدنظرخواه به پرداخت مبلغ 450 میلیون ریال",
+        "start_char": 2489,
+        "end_char": 2543,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موکل به موجب مبایعه نامه مستند دعوی",
+        "start_char": 321,
+        "end_char": 356,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "واحد",
+      "evidence": {
+        "quote": "یک واحد مسکونی از خوانده پیش خرید نموده است",
+        "start_char": 357,
+        "end_char": 400,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "بند 9-6 قرارداد",
+        "start_char": 409,
+        "end_char": 424,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "توقف عملیات اجرایی ساختمان به دلیل ورود خسارت به املاک مجاور",
+      "evidence": {
+        "quote": "به جهت ورود خسارت به املاک مجاور در اثر گودبرداری عملیات ساختمانی متوقف شده است",
+        "start_char": 738,
+        "end_char": 817,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تحویل مبیع و تنظیم سند رسمی",
+      "evidence": {
+        "quote": "خوانده به انجام موضوع تعهد (تحویل مبیع و تنظیم سند رسمی) اقدامی ننموده است",
+        "start_char": 522,
+        "end_char": 596,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "ruling_id": "32456",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بخواسته اعلام بطلان قرارداد عادی انتقال سرقفلی",
+        "start_char": 95,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "معامله مال فضولی خواهد بود",
+        "start_char": 684,
+        "end_char": 710,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ از جمله ایقاعاتی می باشد",
+        "start_char": 2892,
+        "end_char": 2920,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "بخواسته اعلام بطلان قرارداد عادی انتقال سرقفلی",
+        "start_char": 95,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه سرقفلی از خوانده ردیف دوم",
+        "start_char": 186,
+        "end_char": 218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واگذار",
+      "evidence": {
+        "quote": "سرقفلی ملک را به خوانده ردیف اول واگذار نموده است",
+        "start_char": 345,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "درخواست تخلیه مورد اجاره شده است",
+        "start_char": 971,
+        "end_char": 1003,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوای آقای م. ج. بوکالت از آقای روح ا... نور م. ی بطرفیت آقای مؤمن قجرایی زندی و م. ک.",
+        "start_char": 8,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت آقای مؤمن قجرایی زندی و م. ک.",
+        "start_char": 58,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "مستأجر می تواند در اثناء مدت اجاره",
+        "start_char": 1649,
+        "end_char": 1683,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "مبلغی را از موجر یا مستأجر دیگری",
+        "start_char": 1704,
+        "end_char": 1736,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "بدون رضایت مالک مال معامله ای نسبت به آن صورت گیرد",
+        "start_char": 633,
+        "end_char": 683,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "بخواسته اعلام بطلان قرارداد عادی انتقال سرقفلی",
+        "start_char": 95,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سرقفلی",
+      "evidence": {
+        "quote": "مطالبه سرقفلی از خوانده ردیف دوم",
+        "start_char": 186,
+        "end_char": 218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "بطلان قرارداد اجاره میان خواهان وخوانده ردیف اول",
+        "start_char": 561,
+        "end_char": 609,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "سرقفلی ملک را به خوانده ردیف اول واگذار نموده است",
+        "start_char": 345,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انتقال سرقفلی بدون رضایت مالک انجام شده است",
+      "evidence": {
+        "quote": "با توجه به اینکه موکل وی حق انتقال سرقفلی به غیر را نداشته است علیرغم آن سرقفلی ملک را به خوانده ردیف اول واگذار نموده است",
+        "start_char": 272,
+        "end_char": 394,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالک در مدت اجاره درخواست تخلیه نکرده است",
+      "evidence": {
+        "quote": "دلیلی به عدم رضایت مالک در خصوص انتقال مورد اجاره بدون اجازه وی وجودندارد",
+        "start_char": 1006,
+        "end_char": 1079,
+        "confidence": 0.8
+      }
+    }
+  ]
+}

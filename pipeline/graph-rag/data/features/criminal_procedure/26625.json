@@ -1,0 +1,143 @@
+{
+  "ruling_id": "26625",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "خود را صالح به رسیدگی ندیده",
+        "start_char": 539,
+        "end_char": 566,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "متهم نسبت به ابقاء قرار اعتراض نموده",
+        "start_char": 263,
+        "end_char": 299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "پرونده به محاکم تجدید نظر استان جهت رسیدگی به اعتراض ارسال شده است",
+        "start_char": 324,
+        "end_char": 390,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت خود به اعتبار و شایستگی دیوان عالی کشور را صادر",
+        "start_char": 641,
+        "end_char": 704,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خواسته مشاوره",
+      "evidence": {
+        "quote": "تجدید نظر خواسته مشاوره نموده",
+        "start_char": 1065,
+        "end_char": 1094,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابرام",
+      "evidence": {
+        "quote": "قرار تجدید نظر خواسته ابرام می‌گردد",
+        "start_char": 1309,
+        "end_char": 1344,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم به لواط و ایراد ضرب و جرح",
+        "start_char": 89,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ممیز",
+      "evidence": {
+        "quote": "عضو ممیز",
+        "start_char": 832,
+        "end_char": 840,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادیار",
+      "evidence": {
+        "quote": "دادیار دیوان عالی کشور",
+        "start_char": 891,
+        "end_char": 913,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "ملاحظه اوراق پرونده",
+        "start_char": 842,
+        "end_char": 861,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرار",
+      "evidence": {
+        "quote": "قرار تجدید نظر خواسته ابرام می‌گردد",
+        "start_char": 1309,
+        "end_char": 1344,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم نسبت به ابقاء قرار اعتراض کرده است",
+      "evidence": {
+        "quote": "متهم نسبت به ابقاء قرار اعتراض نموده",
+        "start_char": 263,
+        "end_char": 299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه تجدید نظر خود را صالح به رسیدگی ندیده است",
+      "evidence": {
+        "quote": "خود را صالح به رسیدگی ندیده",
+        "start_char": 539,
+        "end_char": 566,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

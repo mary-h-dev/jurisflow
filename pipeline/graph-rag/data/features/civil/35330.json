@@ -1,0 +1,163 @@
+{
+  "ruling_id": "35330",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "بخواسته نفقه معوقه",
+        "start_char": 83,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "با احراز رابطه زوجیت",
+        "start_char": 671,
+        "end_char": 691,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لاضرر",
+      "evidence": {
+        "quote": "و قاعده لاضرر",
+        "start_char": 1263,
+        "end_char": 1276,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خوانده هیچگونه نفقه ای از ابتدای زندگی مشترک پرداخت ننموده",
+        "start_char": 149,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه نفقه معوقه",
+        "start_char": 2470,
+        "end_char": 2495,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "آن را نقض و حکم به رد دعوی خواهان",
+        "start_char": 2436,
+        "end_char": 2469,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت آقای م. ف.ش. فرزند ع. بخواسته",
+        "start_char": 54,
+        "end_char": 90,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بخواسته نفقه معوقه از تاریخ 90/10/5 لغایت تاریخ طلاق",
+        "start_char": 83,
+        "end_char": 135,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه آقای م. ف.ش.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "و تجدیدنظر خوانده بشرح صورت جلسه",
+        "start_char": 1976,
+        "end_char": 2008,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اقرارنامه",
+      "evidence": {
+        "quote": "اقرار نامه ابرازی واقعیت نداشته",
+        "start_char": 208,
+        "end_char": 239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "ملاحظه فتوکپی مصدق شناسنامه و سند نکاحیه",
+        "start_char": 594,
+        "end_char": 634,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه از ابتدای زندگی مشترک",
+      "evidence": {
+        "quote": "خوانده هیچگونه نفقه ای از ابتدای زندگی مشترک پرداخت ننموده",
+        "start_char": 149,
+        "end_char": 207,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "گرفتن اقرار نامه با تهدید و اجبار",
+      "evidence": {
+        "quote": "اقرار نامه ابرازی واقعیت نداشته و با تهدید و اجبار از موکله گرفته شد",
+        "start_char": 208,
+        "end_char": 276,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زندگی مشترک در یک منزل",
+      "evidence": {
+        "quote": "در زیر یک سقف زندگی می کردند",
+        "start_char": 2124,
+        "end_char": 2152,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

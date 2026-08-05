@@ -1,0 +1,193 @@
+{
+  "ruling_id": "23445",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "بخواسته 1- ابطال سند رسمی",
+        "start_char": 73,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت و غبطه موکل",
+      "evidence": {
+        "quote": "به دلیل عدم رعایت غبطه ومصلحت موکل",
+        "start_char": 198,
+        "end_char": 232,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی صادر مینماید",
+        "start_char": 1030,
+        "end_char": 1060,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اختیارات",
+      "evidence": {
+        "quote": "مبادرت به تفویض اختیارات وکالت نامه فوق الاشاره",
+        "start_char": 2416,
+        "end_char": 2463,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "بخواسته 1- ابطال سند رسمی",
+        "start_char": 73,
+        "end_char": 98,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی آقای الف. ی.",
+        "start_char": 1219,
+        "end_char": 1252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را... تایید مینماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصو ص دعوی خواهان الف. ی.",
+        "start_char": 0,
+        "end_char": 27,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت م. ق.",
+        "start_char": 60,
+        "end_char": 72,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "خوانده را بعنوان وکیل بلاعزل انتخاب مینماید",
+        "start_char": 533,
+        "end_char": 576,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه باتوجه به علقه ای که با تجدیدنظرخوانده داشته",
+        "start_char": 2336,
+        "end_char": 2393,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخواه باتوجه به علقه ای که با تجدیدنظرخوانده داشته",
+        "start_char": 2336,
+        "end_char": 2393,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دفترخانه شماره",
+      "evidence": {
+        "quote": "ابطال سند رسمی شماره..... مورخ 1392/7/14 دفترخانه شماره....تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "ابطال سند رسمی مالکیت..../ج مورخ 1392/8/11",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دفترخانه اسناد رسمی",
+      "evidence": {
+        "quote": "درزمان زوجیت وکالتنامه ای بشماره.......مورخ 1392/5/14 دفترخانه...اسناد رسمی تنظیم و",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "ازدادنامه شماره1032 مورخه1393/12/6",
+        "start_char": 1290,
+        "end_char": 1324,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان و خوانده رابطه زوجیت داشته‌اند",
+      "evidence": {
+        "quote": "خواهان با خوانده دعوی رابطه زوجیت داشته است",
+        "start_char": 403,
+        "end_char": 446,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دادرسی حضور نیافته است",
+      "evidence": {
+        "quote": "عدم حضور خوانده علیرgal ابلاغ قانونی در جلسه دادرسی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

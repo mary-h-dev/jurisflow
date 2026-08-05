@@ -1,0 +1,153 @@
+{
+  "ruling_id": "30951",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال مبایعه نامه رسمی",
+        "start_char": 115,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اراده",
+      "evidence": {
+        "quote": "حاکمیت آزادی اراده در تنظیم قراردادها می باشد",
+        "start_char": 2098,
+        "end_char": 2143,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "مبادرت به انتقال ملک بنام خود نموده",
+        "start_char": 2244,
+        "end_char": 2279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعطای",
+      "evidence": {
+        "quote": "موکل با اعطای وکالت اعلام می دارد",
+        "start_char": 1860,
+        "end_char": 1893,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ع. م. د",
+        "start_char": 2768,
+        "end_char": 2789,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان آقای ع. م. د",
+        "start_char": 0,
+        "end_char": 32,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 53,
+        "end_char": 70,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "با وکالت آقای ط. ط.",
+        "start_char": 33,
+        "end_char": 52,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "ابطال مبایعه نامه رسمی مورخ 92/4/29",
+        "start_char": 115,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "ابطال سند رسمی انتقال شماره 28649",
+        "start_char": 177,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "تصویر برابر با اصل وکالتنامه",
+        "start_char": 800,
+        "end_char": 828,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "انتقال ملک بنام خود نموده",
+        "start_char": 2254,
+        "end_char": 2279,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وکیل ملک را به ثمن ناچیز به خوانده منتقل کرده است",
+      "evidence": {
+        "quote": "پلاک ثبتی را به ثمن ناچیز بصورت رسمی به ایشان منتقل می نماید",
+        "start_char": 593,
+        "end_char": 653,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وکیل در وکالت‌نامه اختیار مطلق برای معامله با خود را داشته است",
+      "evidence": {
+        "quote": "مفاد وکالت موید اختیار مطلق وکیل در انتقال مال موضوع وکالت به هر طریق و به هر شخصی حتی خود وکیل می باشد",
+        "start_char": 1664,
+        "end_char": 1767,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

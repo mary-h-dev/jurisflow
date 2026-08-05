@@ -1,0 +1,163 @@
+{
+  "ruling_id": "29182",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تضمین",
+      "evidence": {
+        "quote": "بوجود دو فقره چک مستند دعوی بعنوان تضمین دیون خواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دارا",
+      "evidence": {
+        "quote": "از مصادیف دارا شدن ناعادلانه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شروط",
+      "evidence": {
+        "quote": "از مصادیف شروط غیرمنصفانه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "بخواسته استرداد لاشه چک",
+        "start_char": 116,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "اقرار نموده",
+        "start_char": 300,
+        "end_char": 311,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی بانک اقتصاد نوین",
+        "start_char": 1417,
+        "end_char": 1447,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عینا تائید مینماید",
+        "start_char": 2264,
+        "end_char": 2308,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "طرفیت بانک اقتصاد نوین",
+        "start_char": 71,
+        "end_char": 93,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بوجود دو فقره چک مستند دعوی بعنوان تضمین دیون خواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "و تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": 1777,
+        "end_char": 1814,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "استرداد لاشه چک",
+        "start_char": 124,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اصلی بخش",
+      "evidence": {
+        "quote": "تملک اجرایی ششدانگ پلاک ثبتی 13177 فرعی از 74 اصلی بخش 11 تهران",
+        "start_char": 463,
+        "end_char": 526,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره 522 مورخ 1394/06/22",
+        "start_char": 1494,
+        "end_char": 1527,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "بانک به وجود دو فقره چک اقرار کرده است",
+      "evidence": {
+        "quote": "بانک خوانده با تقدیم لایحه وارده به شماره 874-94/3/3 به وجود دو فقره چک مستند دعوی بعنوان تضمین دیون خواهان اقرار نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اقدام به مزایده و تملک اجرایی ملک شده است",
+      "evidence": {
+        "quote": "نسبت به انجام مزایده و تملک اجرایی ششدانگ پلاک ثبتی 13177 فرعی از 74 اصلی بخش 11 تهران اقدام شده است",
+        "start_char": 440,
+        "end_char": 540,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

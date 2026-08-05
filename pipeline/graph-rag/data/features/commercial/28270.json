@@ -1,0 +1,203 @@
+{
+  "ruling_id": "28270",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "حاکمیت قاعده مسوولیت تضامنی",
+        "start_char": 3962,
+        "end_char": 3989,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "حکایت از اشتغال ذمه خوانده دارد",
+        "start_char": 582,
+        "end_char": 613,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ 130000000 ریال",
+        "start_char": 69,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "مبادرت به طرح و اقامه دعوی",
+        "start_char": 3919,
+        "end_char": 3945,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد واخواهی",
+      "evidence": {
+        "quote": "ضمن ردواخواهی",
+        "start_char": 1732,
+        "end_char": 1745,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "ضمن رد تجدید نظر خواهی",
+        "start_char": 4298,
+        "end_char": 4320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "حکم به تائید دادنامه واخواسته صادر",
+        "start_char": 1791,
+        "end_char": 1825,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از ناحیه خواهان",
+        "start_char": 430,
+        "end_char": 445,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده",
+        "start_char": 38,
+        "end_char": 53,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از ناحیه تجدید نظر خواه",
+        "start_char": 2018,
+        "end_char": 2041,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق خواهان بدوی ( تجدید نظر خوانده )",
+        "start_char": 2501,
+        "end_char": 2539,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "بطرفیت ر. ر.ل. بخواسته واخواهی",
+        "start_char": 1422,
+        "end_char": 1452,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "یک فقره چک به شماره 226006",
+        "start_char": 168,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ 130000000 ریال",
+        "start_char": 86,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "و خسارت تاخیر تادیه",
+        "start_char": 129,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "بابت هزینه دادرسی",
+        "start_char": 943,
+        "end_char": 960,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک ظهرنویسی شده است",
+      "evidence": {
+        "quote": "به استناد ظهرنویسی یک فقره چک",
+        "start_char": 149,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت وجه چک",
+      "evidence": {
+        "quote": "گواهی نامه عدم پرداخت وجه آن",
+        "start_char": 304,
+        "end_char": 332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در دادگاه حضور نیافته است",
+      "evidence": {
+        "quote": "خوانده با وجود اطلاع قانونی وقت رسیدگی مورخ 27 / 2 / 94 در دادگاه حضور نیافته",
+        "start_char": 454,
+        "end_char": 531,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

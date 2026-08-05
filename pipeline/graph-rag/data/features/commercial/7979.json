@@ -1,0 +1,133 @@
+{
+  "ruling_id": "7979",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته صدور حکم به ابطال اوراق مشارکت",
+        "start_char": 126,
+        "end_char": 166,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خریداری",
+      "evidence": {
+        "quote": "خریداری و",
+        "start_char": 449,
+        "end_char": 458,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "با توجه به استنکاف بانک از پرداخت اصل وجه اوراق مشارکت",
+        "start_char": 521,
+        "end_char": 575,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ب. به‌طرفیت غ. و ل.الف.",
+        "start_char": 1412,
+        "end_char": 1449,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان اعلام داشته",
+        "start_char": 296,
+        "end_char": 314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 75,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مورث",
+      "evidence": {
+        "quote": "مورث موکلین",
+        "start_char": 318,
+        "end_char": 329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": 1831,
+        "end_char": 1866,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اوراق",
+      "evidence": {
+        "quote": "اوراق مشارکت طرح 01- 1288",
+        "start_char": 154,
+        "end_char": 179,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "کلیه خسارات دادرسی",
+        "start_char": 261,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اوراق مشارکت مفقود شده است",
+      "evidence": {
+        "quote": "متأسفانه اوراق مذکور توسط مورث موکلین مفقود گردیده",
+        "start_char": 462,
+        "end_char": 512,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بانک از پرداخت وجه امتناع کرده است",
+      "evidence": {
+        "quote": "با توجه به استنکاف بانک از پرداخت اصل وجه اوراق مشارکت",
+        "start_char": 521,
+        "end_char": 575,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

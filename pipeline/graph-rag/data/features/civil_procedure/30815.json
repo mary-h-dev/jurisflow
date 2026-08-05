@@ -1,0 +1,123 @@
+{
+  "ruling_id": "30815",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مهلت",
+      "evidence": {
+        "quote": "مهلت اعتراض به آراء کمسیون ، سه ماه از تاریخ نشر آگهی تعیین شده است",
+        "start_char": 337,
+        "end_char": 404,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی صادر و اعلام میدارد",
+        "start_char": 773,
+        "end_char": 810,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "بخواسته ابطال رأی کمسیون ماده 12 قانون زمین شهری و ابطال سند مالکیت",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "خواهان دعوی در مهلت مقرر به رأی کمیسون اعتراض ننموده است",
+        "start_char": 503,
+        "end_char": 559,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان دعوی در مهلت مقرر به رأی کمیسون اعتراض ننموده است",
+        "start_char": 503,
+        "end_char": 559,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بطلان دعوای تجدیدنظرخواه",
+        "start_char": 1164,
+        "end_char": 1188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دولت",
+      "evidence": {
+        "quote": "ابطال سند صادره به نام دولت",
+        "start_char": 624,
+        "end_char": 651,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "ابطال رأی کمسیون ماده 12 قانون زمین شهری",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "ابطال سند مالکیت صادره",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "ابطال سند مالکیت دولت بر یک قطعه زمین",
+        "start_char": 1243,
+        "end_char": 1280,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اعتراض در مهلت قانونی انجام نشده است",
+      "evidence": {
+        "quote": "خواهان دعوی در مهلت مقرر به رأی کمیسون اعتراض ننموده است",
+        "start_char": 503,
+        "end_char": 559,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

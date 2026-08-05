@@ -1,0 +1,123 @@
+{
+  "ruling_id": "32099",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "استیفای ناروا",
+      "evidence": {
+        "quote": "مصداق اخذ من غیر حق مال و استیفای ناروا دانسته",
+        "start_char": 310,
+        "end_char": 356,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم به الزام مشتکی عنه به رد و بازپرداخت وجه دریافتی در حق شاکی صادر",
+        "start_char": 449,
+        "end_char": 517,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رای معترض به عینا تایید و استوار می گردد",
+        "start_char": 1011,
+        "end_char": 1051,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با رد تقاضای تجدیدنظرخواهی",
+        "start_char": 917,
+        "end_char": 943,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "برابر مستندات ابرازی شاکی نامبرده",
+        "start_char": 13,
+        "end_char": 46,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتکی عنه",
+      "evidence": {
+        "quote": "حکم به الزام مشتکی عنه به رد و بازپرداخت",
+        "start_char": 449,
+        "end_char": 489,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نظر به اینکه اعتراض تجدیدنظرخواه به کیفیتی نیست",
+        "start_char": 637,
+        "end_char": 684,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "رد و بازپرداخت وجه دریافتی",
+        "start_char": 475,
+        "end_char": 501,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای صادره قطعی است",
+        "start_char": 1053,
+        "end_char": 1071,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شاکی دارای سابقه اشتغال و بیمه پردازی قبل و بعد از خدمت وظیفه عمومی بوده است",
+      "evidence": {
+        "quote": "شاکی نامبرده قبل و بعد از انجام خدمت وظیفه عمومی دارای سابقه اشتغال و بیمه پردازی بوده",
+        "start_char": 34,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مشتکی عنه وجهی را بابت حق بیمه مدت خدمت وظیفه عمومی دریافت کرده است",
+      "evidence": {
+        "quote": "دیوان دریافت وجه بابت حق بیمه مدت خدمت وظیفه عمومی شاکی را فاقد مبنای قانونی",
+        "start_char": 231,
+        "end_char": 307,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

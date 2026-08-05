@@ -1,0 +1,163 @@
+{
+  "ruling_id": "4878",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "در استیفای زوجین از کار یکدیگر اصل عدم تبرع است",
+        "start_char": 409,
+        "end_char": 456,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "و از باب تسبیب به پرداخت مبلغ دو میلیون ریال بابت حق الوکاله وکیل",
+        "start_char": 1587,
+        "end_char": 1652,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 90,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "طرفین در مهلت مقرر اعتراض موجه و مدلل نسبت به آن به عمل نیاورده اند",
+        "start_char": 1175,
+        "end_char": 1242,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم الف.ص.",
+        "start_char": 2010,
+        "end_char": 2035,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "حکم تجدیدنظر خواسته را تأیید می نماید",
+        "start_char": 2544,
+        "end_char": 2581,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان اعلام داشتند",
+        "start_char": 744,
+        "end_char": 769,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حکم بر محکومیت خوانده به پرداخت",
+        "start_char": 1512,
+        "end_char": 1543,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "در زمره تکلیف شوهر قرار دارد",
+        "start_char": 589,
+        "end_char": 617,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "چنانچه بنا به دستور زوج و با قصد عدم تبرع کاری را که در زمره تکلیف شوهر قرار دارد انجام دهد",
+        "start_char": 536,
+        "end_char": 627,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجرت‌المثل",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 90,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "به دلالت تصویر مصدق سند رسمی ازدواج شماره 565 ـ 10/2/1333",
+        "start_char": 246,
+        "end_char": 303,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین وجود دارد",
+      "evidence": {
+        "quote": "با احراز رابطه زوجیت بین طرفین",
+        "start_char": 215,
+        "end_char": 245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج دستور انجام کارهای خانه را به زوجه داده است",
+      "evidence": {
+        "quote": "مشعر بر دستور زوج به زوجه در انجام کارهای خانه مشترک می باشد",
+        "start_char": 885,
+        "end_char": 945,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت اجرت المثل انجام نشده است",
+      "evidence": {
+        "quote": "و دلیل و مدرکی بر پرداخت اجرت المثل به دادگاه ارائه نشده است",
+        "start_char": 1286,
+        "end_char": 1346,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

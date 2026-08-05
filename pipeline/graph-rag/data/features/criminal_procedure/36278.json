@@ -1,0 +1,123 @@
+{
+  "ruling_id": "36278",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قتل عمدی",
+      "evidence": {
+        "quote": "بزه قتل عمدی بوده",
+        "start_char": 1885,
+        "end_char": 1902,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قصاص نفس",
+      "evidence": {
+        "quote": "اصولا قصاص نفس می باشد",
+        "start_char": 1929,
+        "end_char": 1951,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "مورد اعتراض متهم قرار گرفته",
+        "start_char": 903,
+        "end_char": 930,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 2219,
+        "end_char": 2238,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بازداشت",
+      "evidence": {
+        "quote": "صدور قرار بازداشت موقت",
+        "start_char": 710,
+        "end_char": 732,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شاکی: اقای ب. ق. د. چ.",
+        "start_char": 0,
+        "end_char": 22,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهمین",
+      "evidence": {
+        "quote": "متهمین: 1. خانم ب. ج. فرزند ص. ا. با وکالت اقای م. م. فرزند ی. به نشانی * و خانم ش. پ. فرزند ا. به نشانی * ط3 2. اقای س. ج. فرزند س. به نشانی * - قطعه 8- منزل شخصی 3. خانم ی. ف. ج. فرزند س. به نشانی * قطعه 8",
+        "start_char": 81,
+        "end_char": 288,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "مورد اعتراض متهم قرار گرفته",
+        "start_char": 903,
+        "end_char": 930,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پرونده کلاسه 9909988606400446",
+        "start_char": 449,
+        "end_char": 478,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اعتراض به قرار خارج از مهلت مقرر ده روز تقدیم شده است",
+      "evidence": {
+        "quote": "اعتراض به قرار خارج از مهلت مقرر ده روز مندرج در ماده 242 قانون فوق الاشاره تقدیم گردیده",
+        "start_char": 1537,
+        "end_char": 1625,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرونده با تأخیر فراوان به شعبه ارجاع شده است",
+      "evidence": {
+        "quote": "پرونده با تاخیر فراوان یعنی به تاریخ 1/ 3/ 1401 به این شعبه ارجاع شده است",
+        "start_char": 1640,
+        "end_char": 1713,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

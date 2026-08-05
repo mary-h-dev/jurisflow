@@ -1,0 +1,213 @@
+{
+  "ruling_id": "32358",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "آدم ربایی",
+      "evidence": {
+        "quote": "مرتکب جرم آدم ربایی و حبس غیر قانونی شده اند",
+        "start_char": 853,
+        "end_char": 897,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حبس",
+      "evidence": {
+        "quote": "مرتکب جرم آدم ربایی و حبس غیر قانونی شده اند",
+        "start_char": 853,
+        "end_char": 897,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "منع تعقیب",
+      "evidence": {
+        "quote": "قرار منع تعقیب صادر نمود",
+        "start_char": 2885,
+        "end_char": 2909,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظر",
+      "evidence": {
+        "quote": "قابل تجدید نظر است",
+        "start_char": 4394,
+        "end_char": 4412,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "شکایت",
+      "evidence": {
+        "quote": "به دادسرای عمومی و انقلاب شهرستان قم شکایت کرده",
+        "start_char": 36,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تهدید",
+      "evidence": {
+        "quote": "موکل را تهدید جانی می نمایند",
+        "start_char": 415,
+        "end_char": 443,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "و از ایشان نوشته اخذ می کنند",
+        "start_char": 444,
+        "end_char": 472,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امضاء",
+      "evidence": {
+        "quote": "موکل از ترس جانش آن را نوشته و امضاء کرده",
+        "start_char": 514,
+        "end_char": 555,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "به قرار صادره اعتراض نموده است",
+        "start_char": 3036,
+        "end_char": 3066,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام خواهی",
+      "evidence": {
+        "quote": "فرجام خواهی نموده است",
+        "start_char": 3547,
+        "end_char": 3568,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "از تحقیقاتی از شاکی و گواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهمین",
+      "evidence": {
+        "quote": "متهمان در کلانتری حاضر",
+        "start_char": 2438,
+        "end_char": 2459,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "تمام اسناد و شناسنامه و کارت پایان خدمت",
+        "start_char": 286,
+        "end_char": 325,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "تمام اسناد و شناسنامه و کارت پایان خدمت",
+        "start_char": 286,
+        "end_char": 325,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کارت",
+      "evidence": {
+        "quote": "تمام اسناد و شناسنامه و کارت پایان خدمت",
+        "start_char": 286,
+        "end_char": 325,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گوشی",
+      "evidence": {
+        "quote": "گوشی موبایل موکل را میگیرند",
+        "start_char": 328,
+        "end_char": 355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نوشته",
+      "evidence": {
+        "quote": "و از ایشان نوشته اخذ می کنند",
+        "start_char": 444,
+        "end_char": 472,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "موتور سیکلت با حیله و فریب به منزل برده شده است",
+      "evidence": {
+        "quote": "اما ایشان با حیله و فریب موکل را به منزل پدرش واقع در نیروگاه می برد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موکل به مدت سه روز در زیر زمین حبس شده است",
+      "evidence": {
+        "quote": "موکل را به مدت سه روز در زیر زمین منزل حبس می کنند",
+        "start_char": 362,
+        "end_char": 412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شاکی از حضور در کلانتری امتناع کرده است",
+      "evidence": {
+        "quote": "نامبرده از حضور در کلانتری امتناع می کند",
+        "start_char": 1215,
+        "end_char": 1255,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

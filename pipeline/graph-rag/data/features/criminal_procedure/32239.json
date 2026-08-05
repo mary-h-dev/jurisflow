@@ -1,0 +1,133 @@
+{
+  "ruling_id": "32239",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابرام",
+      "evidence": {
+        "quote": "دیوان عالی کشور مرجع نقض و ابرام می باشد",
+        "start_char": 707,
+        "end_char": 747,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مجازات",
+      "evidence": {
+        "quote": "در رابطه با تخفیف مجازات تکلیفی برعهده ندارد",
+        "start_char": 752,
+        "end_char": 796,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "گذشت",
+      "evidence": {
+        "quote": "شکات گذشت خود را از متهمین اعلام کرده اند",
+        "start_char": 390,
+        "end_char": 431,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "درخواست کند که در میزان مجازات او تجدید نظرکند",
+        "start_char": 1157,
+        "end_char": 1203,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهمین",
+      "evidence": {
+        "quote": "شکات گذشت خود را از متهمین اعلام کرده اند",
+        "start_char": 390,
+        "end_char": 431,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "هرگاه شاکی یا مدعی خصوصی در جرائم غیر قابل گذشت",
+        "start_char": 1008,
+        "end_char": 1055,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدعی",
+      "evidence": {
+        "quote": "هرگاه شاکی یا مدعی خصوصی در جرائم غیر قابل گذشت",
+        "start_char": 1008,
+        "end_char": 1055,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "محکوم علیه میتواند از دادگاه صادر کننده حکم قطعی درخواست کند",
+        "start_char": 1108,
+        "end_char": 1168,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی شماره 032-94/9/28",
+        "start_char": 70,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "درخصوص دادنامه شماره 268-95/5/3",
+        "start_char": 831,
+        "end_char": 862,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شاکی از شکایت خود صرف نظر کرده است",
+      "evidence": {
+        "quote": "شکات گذشت خود را از متهمین اعلام کرده اند",
+        "start_char": 390,
+        "end_char": 431,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رأی شعبه سوم دادگاه کیفری یک قطعی شده است",
+      "evidence": {
+        "quote": "پس از قطعی شدن رأی صادره از شکایت خود صرف نظر نماید",
+        "start_char": 1056,
+        "end_char": 1107,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

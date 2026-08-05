@@ -1,0 +1,143 @@
+{
+  "ruling_id": "10406",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "توقف",
+      "evidence": {
+        "quote": "به خواسته صدور حکم بر توقف و اعلان ورشکستگی به تقلب",
+        "start_char": 154,
+        "end_char": 205,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شخصیت حقوقی",
+      "evidence": {
+        "quote": "به واسطه استقلال شخصیت حقوقی آنان از شرکت",
+        "start_char": 346,
+        "end_char": 388,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی آقای ر.ع.",
+        "start_char": 0,
+        "end_char": 33,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض ر.ع. با وکالت م.ی.",
+        "start_char": 1102,
+        "end_char": 1127,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم بر توقف و اعلان ورشکستگی به تقلب",
+        "start_char": 164,
+        "end_char": 205,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی آقای ر.ع.",
+        "start_char": 0,
+        "end_char": 33,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت شرکت س. و آقایان ب.ب. و...",
+        "start_char": 53,
+        "end_char": 88,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "با وکالت آقای م.ی.",
+        "start_char": 34,
+        "end_char": 52,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدیر",
+      "evidence": {
+        "quote": "با مدیریت ب.ب.",
+        "start_char": 1145,
+        "end_char": 1159,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی آقای ر.ع.",
+        "start_char": 0,
+        "end_char": 33,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 200071",
+        "start_char": 1174,
+        "end_char": 1202,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دعوی رد شد",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان را صادر می‌نماید",
+        "start_char": 544,
+        "end_char": 580,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اعتراض رد شد",
+      "evidence": {
+        "quote": "با رد اعتراض دادنامه بدوی تأیید می‬گردد",
+        "start_char": 1599,
+        "end_char": 1638,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

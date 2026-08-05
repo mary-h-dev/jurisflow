@@ -1,0 +1,203 @@
+{
+  "ruling_id": "277",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل ایام تصرف",
+        "start_char": 114,
+        "end_char": 151,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دعوای تخلیه",
+      "evidence": {
+        "quote": "حکم تخلیه علیه مستأجر اجرا شده است",
+        "start_char": 784,
+        "end_char": 818,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "به خواسته اعاده دادرسی",
+        "start_char": 3257,
+        "end_char": 3279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقلب",
+      "evidence": {
+        "quote": "با وصف وضع هزینه مال الااجاره در حساب های شرکت و واریز آن به حساب آنان به نحو متقلبانه و با حیله",
+        "start_char": 3576,
+        "end_char": 3672,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 114,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "مستأجر از تخلیه عین مستأجره امتناع نموده است",
+        "start_char": 698,
+        "end_char": 742,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به نظریه کارشناس اعتراض به عمل آمده",
+        "start_char": 1222,
+        "end_char": 1262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی دادنامه تجدیدنظرخواسته تأیید می شود",
+        "start_char": 3014,
+        "end_char": 3069,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان ها 1- م. 2- الف. هر دو د.",
+        "start_char": 0,
+        "end_char": 45,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "درخواست محکومیت خوانده را",
+        "start_char": 929,
+        "end_char": 954,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "مستأجر از تخلیه عین مستأجره امتناع نموده است",
+        "start_char": 698,
+        "end_char": 742,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 857 مورخ 30/8/90 صادره از شعبه 80 دادگاه عمومی حقوقی تهران که براساس آن حکم بر محکومیت تجدیدنظرخواه",
+        "start_char": 2382,
+        "end_char": 2503,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "در پلاک ثبتی به شماره 54114/6933 بخش دو تهران",
+        "start_char": 281,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک",
+      "evidence": {
+        "quote": "و شماره 39128/6933",
+        "start_char": 327,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره نامه",
+      "evidence": {
+        "quote": "طی اجاره نامه عادی مورخ 1/9/79",
+        "start_char": 530,
+        "end_char": 560,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عین مستأجره",
+      "evidence": {
+        "quote": "مستأجر از تخلیه عین مستأجره امتناع نموده است",
+        "start_char": 698,
+        "end_char": 742,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انقضای مدت قرارداد اجاره",
+      "evidence": {
+        "quote": "پس از انقضاء مدت قرارداد",
+        "start_char": 648,
+        "end_char": 672,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تخلیه ملک پس از پایان قرارداد",
+      "evidence": {
+        "quote": "مستأجر از تخلیه عین مستأجره امتناع نموده است",
+        "start_char": 698,
+        "end_char": 742,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ارائه حکم تخلیه",
+      "evidence": {
+        "quote": "حکم تخلیه علیه مستأجر اجرا شده است",
+        "start_char": 784,
+        "end_char": 818,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

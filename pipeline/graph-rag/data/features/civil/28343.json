@@ -1,0 +1,153 @@
+{
+  "ruling_id": "28343",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تسلیط",
+      "evidence": {
+        "quote": "مطابق ماده 30 قانون مدنی که متضمن اصل تسلیط می باشد",
+        "start_char": 705,
+        "end_char": 756,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لاضرر",
+      "evidence": {
+        "quote": "براساس اصل لاضرر تدوین یافته",
+        "start_char": 900,
+        "end_char": 928,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "هر مالکی نسبت به مایملک خود حق همه گونه تصرف وانتفاع دارد",
+        "start_char": 759,
+        "end_char": 816,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "احداث",
+      "evidence": {
+        "quote": "با احداث پل مورد دعوی برروی رودخانه دربند",
+        "start_char": 538,
+        "end_char": 579,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخریب",
+      "evidence": {
+        "quote": "صدور حکم برتخریب پل مورد دعوی",
+        "start_char": 1268,
+        "end_char": 1297,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ادعای تجدیدنظر خواه قابل انطباق با شقوق ذیل ماده 348قانون آئین دادرسی مدنی مصوب سال 1379نمی باشد",
+        "start_char": 3048,
+        "end_char": 3143,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض دادنامه تجدیدنظرخواسته تائید می گردد",
+        "start_char": 3208,
+        "end_char": 3258,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان ها اظهار داشت",
+        "start_char": 145,
+        "end_char": 170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و خوانده درپرونده امر؛خوانده دلیلی بر تصرفات بقدر رفع حاجت یا دفع ضرر از خود ارائه نکرده است",
+        "start_char": 1871,
+        "end_char": 1962,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شهرداری",
+      "evidence": {
+        "quote": "به طرفیت شهرداری منطقه یک تهران",
+        "start_char": 66,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک",
+      "evidence": {
+        "quote": "پلاک های ملکی موکلان را از حیز انتفاع ساقط کرده است",
+        "start_char": 580,
+        "end_char": 631,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "املاک و پلاک ثبتی",
+      "evidence": {
+        "quote": "موسسه جمعیت ت. به موجب سند مالکیت شماره 114 دفتر 1/1 صفحه 683 شش دادنگ پلاک 2 فرعی از 3619و3666و3667 اصلی",
+        "start_char": 174,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "احداث پل باعث قطع شدن راه ورود ماشین به ملک شده است",
+      "evidence": {
+        "quote": "ا مکان ورود ماشین به داخل ملک از درب مزبور قطع گردیده است",
+        "start_char": 1548,
+        "end_char": 1605,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ارتفاع کف اسفالته خیابان بالا آمده است",
+      "evidence": {
+        "quote": "ترفیع خط پروژه قبلی خیابان شهیدباهنر تهران کف اسفالته خیابان در ورودی حیاط مدرسه بمیزان 1/3 متر بالا آمده",
+        "start_char": 1440,
+        "end_char": 1545,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

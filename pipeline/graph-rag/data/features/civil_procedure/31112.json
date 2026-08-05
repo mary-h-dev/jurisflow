@@ -1,0 +1,153 @@
+{
+  "ruling_id": "31112",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "حکایت از اشتغال ذمه خواندگان در حق موسسه قرض ال ح. ه م.(ب.) دارد",
+        "start_char": 472,
+        "end_char": 536,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه صد و چهل میلیون ریال وجه چک",
+        "start_char": 134,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان را صادر و اعلام می نماید",
+        "start_char": 727,
+        "end_char": 771,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رای تجدیدنظرخواه را تجدیدنظرٌ تایید مینماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "نمایندگی",
+      "evidence": {
+        "quote": "با نمایندگی آقای م. ب",
+        "start_char": 25,
+        "end_char": 46,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "حکایت از اشتغال ذمه خواندگان",
+        "start_char": 472,
+        "end_char": 500,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دلیلی از ناحیه خواهان",
+        "start_char": 539,
+        "end_char": 560,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "رای تجدیدنظرخواه را تجدیدنظرٌ تایید مینماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اشخاص حقوقی",
+      "evidence": {
+        "quote": "بانک م. ازجمله اشخاص حقوقی خصوصی است",
+        "start_char": 1202,
+        "end_char": 1238,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "وجه چک",
+        "start_char": 172,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت تأخیر تأدیه",
+        "start_char": 181,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی عدم",
+      "evidence": {
+        "quote": "گواهی عدم پرداخت",
+        "start_char": 310,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان ثابت نکرد که نماینده بانک است",
+      "evidence": {
+        "quote": "دلیلی از ناحیه خواهان مبنی بر قائم مقام بودن یا داشتن سمت دیگر از موسسه مذکور ارائه نگردیده",
+        "start_char": 539,
+        "end_char": 630,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بانک از اشخاص حقوقی خصوصی است",
+      "evidence": {
+        "quote": "بانک م. ازجمله اشخاص حقوقی خصوصی است",
+        "start_char": 1202,
+        "end_char": 1238,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

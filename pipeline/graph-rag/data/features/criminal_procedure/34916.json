@@ -1,0 +1,123 @@
+{
+  "ruling_id": "34916",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی نموده",
+        "start_char": 327,
+        "end_char": 352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شخص",
+      "evidence": {
+        "quote": "مبنی بر قائم به شخص بودن اختیار",
+        "start_char": 516,
+        "end_char": 547,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم محکومیت",
+      "evidence": {
+        "quote": "به دو مجازات علیحده محکوم گردیده",
+        "start_char": 199,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی نموده",
+        "start_char": 327,
+        "end_char": 352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تشخیص",
+      "evidence": {
+        "quote": "غیر قابل طرح در دیوان عالی کشور تشخیص داده می شود",
+        "start_char": 1278,
+        "end_char": 1327,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "آقای معاون محترم دادستان تهران",
+        "start_char": 0,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دیوان عالی کشور",
+      "evidence": {
+        "quote": "دادیار دیوان عالی کشور",
+        "start_char": 783,
+        "end_char": 805,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بموجب دو دادنامه اصداری",
+        "start_char": 104,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 9309970261700578- مورخ 93/6/10",
+        "start_char": 872,
+        "end_char": 916,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تقاضای اعاده دادرسی توسط معاون دادستان مطرح شده است",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی آقای معاون محترم دادستان و سرپرست دادسرای ناحیه بیست (20) تهران نسبت به دادنامه های مارالذکر",
+        "start_char": 1157,
+        "end_char": 1269,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تقاضای اعاده دادرسی غیر قابل طرح در دیوان عالی کشور است",
+      "evidence": {
+        "quote": "کماکان غیر قابل طرح در دیوان عالی کشور تشخیص داده می شود",
+        "start_char": 1271,
+        "end_char": 1327,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

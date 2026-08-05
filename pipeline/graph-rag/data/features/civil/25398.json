@@ -1,0 +1,183 @@
+{
+  "ruling_id": "25398",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "خواسته 1-طلاق",
+        "start_char": 107,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "اجرت‌المثل دوران زندگی مشترک",
+        "start_char": 123,
+        "end_char": 151,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه معوقه",
+        "start_char": 154,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "عدم احراز عسر و حرج",
+        "start_char": 546,
+        "end_char": 565,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "شرط وجوب نفقه زوجه، تمکین وی از شوهرش می‌باشد",
+        "start_char": 1269,
+        "end_char": 1314,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه نفقه معوقه",
+        "start_char": 154,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "خواهان به صراحت اقرار نموده",
+        "start_char": 1139,
+        "end_char": 1166,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارایه",
+      "evidence": {
+        "quote": "دلیل کافی برای اثبات شرایط مندرج در سند نکاحیه ارایه ننموده",
+        "start_char": 809,
+        "end_char": 868,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "رأی صادر شده دادگاه بدوی را با استناد به مواد 358 و 365 قانون آیین دادرسی دادگاه‌های عمومی و انقلاب در امور مدنی تأیید می‌نماید",
+        "start_char": 2738,
+        "end_char": 2865,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان خانم س. ج.ب.",
+        "start_char": 0,
+        "end_char": 36,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای م. ص.",
+        "start_char": 48,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "نسبت به زوج امری حادث است",
+        "start_char": 1334,
+        "end_char": 1359,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "وضعیت زوجه در حدی نیست",
+        "start_char": 724,
+        "end_char": 746,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "با عنایت به اینکه تجدیدنظرخواه ایراد و اعتراض موجهی",
+        "start_char": 2552,
+        "end_char": 2603,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "شرایط مندرج در سند نکاحیه",
+        "start_char": 448,
+        "end_char": 473,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج و زوجه از تاریخ مفارقت طولانی با یکدیگر زندگی نکرده‌اند",
+      "evidence": {
+        "quote": "از تاریخ مفارقت طولانی با زوج، اقدامی برای بازگشت به زندگی مشترک از جمله الزام زوج به تهیه مسکن مستقل را تقاضا ننموده",
+        "start_char": 1481,
+        "end_char": 1598,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان قصد دریافت مزد در منزل شوهر را نداشته است",
+      "evidence": {
+        "quote": "خواهان به صراحت اقرار نموده به قصد و نیت دریافت اجرت و مزد در منزل شوهرش کار نکرده است",
+        "start_char": 1139,
+        "end_char": 1225,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

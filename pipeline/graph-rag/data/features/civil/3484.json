@@ -1,0 +1,173 @@
+{
+  "ruling_id": "3484",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تقاضای فسخ نکاح نموده است",
+        "start_char": 204,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار فسخ",
+      "evidence": {
+        "quote": "با اینکه خیار فسخ فوری است",
+        "start_char": 1486,
+        "end_char": 1512,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "خوانده در دادگاه بابل مهریه خود را مطالبه",
+        "start_char": 593,
+        "end_char": 634,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "مورد اعتراض و طی دادخواست تجدیدنظر تقدیمی تقاضای تجدیدنظر نموده است",
+        "start_char": 2504,
+        "end_char": 2571,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام خواهی",
+      "evidence": {
+        "quote": "نسبت به دادنامه دادگاه تجدیدنظر اعتراض و طی دادخواست فرجامی و لایحه پیوست فرجام خواهی نموده است",
+        "start_char": 2793,
+        "end_char": 2888,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان زوج آقای م.الف.",
+        "start_char": 0,
+        "end_char": 22,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده همسرش خانم س.ن.",
+        "start_char": 134,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج متوجه شده زوجه دارای قرن می باشد",
+        "start_char": 497,
+        "end_char": 533,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "عیب قرن زوجه قبل از عقد نکاح محرز و مسلم است",
+        "start_char": 1997,
+        "end_char": 2041,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "فرمان خواه برای ادعای خودش مبنی بر اینکه زوج با اطلاع از وجود قرن زوجه اقدام به ازدواج نموده است هیچ گونه دلیلی اقامه نکرده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمانخوانده",
+      "evidence": {
+        "quote": "زوج فرجام خوانده در حد نازا بودن زوجه اطلاع حاصل نموده است",
+        "start_char": 3703,
+        "end_char": 3761,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "پیوست سند ازدواج به طرفیت خوانده",
+        "start_char": 117,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "خوانده در دادگاه بابل مهریه خود را مطالبه",
+        "start_char": 593,
+        "end_char": 634,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه دارای بیماری قرن است",
+      "evidence": {
+        "quote": "عیب قرن زوجه قبل از عقد نکاح محرز و مسلم است",
+        "start_char": 1997,
+        "end_char": 2041,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از وجود بیماری قرن مطلع نبوده است",
+      "evidence": {
+        "quote": "ولیکن اطلاع وی از قرن محرز نیست",
+        "start_char": 2142,
+        "end_char": 2173,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "هنوز زندگی مشترک آغاز نشده است",
+      "evidence": {
+        "quote": "با این که تاکنون عملاً زندگی مشترک آغاز نشده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "28589",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "زوجیت دائم",
+      "evidence": {
+        "quote": "ضمن احراز علقه زوجیت دائم بین طرفین",
+        "start_char": 448,
+        "end_char": 483,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "یکی از شروط ضمن العقد مندرج در سند نکاحیه",
+        "start_char": 694,
+        "end_char": 735,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "به خواسته طلاق",
+        "start_char": 92,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "نمودن",
+      "evidence": {
+        "quote": "خوانده را به مطلقه نمودن خواهان ملزم ومحکوم می نماید",
+        "start_char": 1320,
+        "end_char": 1372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای د. د.",
+        "start_char": 2189,
+        "end_char": 2221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "رأی صادر شده دادگاه بدوی را... تأیید می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ماحصل خواسته خواهان بدین شرح است",
+        "start_char": 109,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای د. د. فرزند ع.",
+        "start_char": 63,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "وزوج در مقابل شرط مذکور را پذیرفته",
+        "start_char": 818,
+        "end_char": 852,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه شرط نمود که حق طلاق با ایشان باشد",
+        "start_char": 779,
+        "end_char": 817,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "مفاد سند نکاحیه به شماره.... صادره از دفتر رسمی ازدواج شماره 21 تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "با مهریه چهارده عدد گل رز",
+        "start_char": 144,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "حق طلاق در سند نکاحیه به نفع زوجه شرط شده است",
+      "evidence": {
+        "quote": "حق طلاق با ایشان باشد",
+        "start_char": 796,
+        "end_char": 817,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین فرزند مشترک ندارند",
+      "evidence": {
+        "quote": "وفاقد فرزند مشترک می باشند",
+        "start_char": 414,
+        "end_char": 440,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه باکره است",
+      "evidence": {
+        "quote": "زوجه اظهار داشته است باکره می باشد",
+        "start_char": 1564,
+        "end_char": 1598,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

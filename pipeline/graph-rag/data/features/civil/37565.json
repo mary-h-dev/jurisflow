@@ -1,0 +1,233 @@
+{
+  "ruling_id": "37565",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 101,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "از قبیل مهریه",
+        "start_char": 491,
+        "end_char": 504,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "و نفقه ایام عده",
+        "start_char": 505,
+        "end_char": 520,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "و اجرت المثل ایام زندگی مشترک",
+        "start_char": 528,
+        "end_char": 557,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "واگذاری حضانت دو فرزند مشترک",
+        "start_char": 2353,
+        "end_char": 2381,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت",
+      "evidence": {
+        "quote": "ملاک قانونی رعایت غبطه و مصلحت فرزند بوده",
+        "start_char": 4301,
+        "end_char": 4342,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی به خواسته صدور گواهی عدم امکان سازش جهت اجرای صیغه طلاق بلحاظ بروز اختلاف فیما بین زوجین تقدیم نموده",
+        "start_char": 81,
+        "end_char": 191,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "مدافعات",
+      "evidence": {
+        "quote": "خوانده با ارسال لایحه دفاعیه مدافعات خود را بیان نموده",
+        "start_char": 274,
+        "end_char": 328,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "زوج پس از ابلاغ رای صادره نسبت به ان تجدید نظر خواهی نموده",
+        "start_char": 2269,
+        "end_char": 2327,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "با تقدیم دادخواست و لایحه فرجامی نسبت به ان فرجام خواهی نموده",
+        "start_char": 2989,
+        "end_char": 3050,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده با ارسال لایحه دفاعیه مدافعات خود را بیان نموده",
+        "start_char": 274,
+        "end_char": 328,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان در دادگاه حضور یافته",
+        "start_char": 618,
+        "end_char": 650,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "با توجه به درخواست زوج خواهان",
+        "start_char": 1564,
+        "end_char": 1593,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "توضیح داده که زوجه مدخوله و غیر باردار می باشد",
+        "start_char": 1773,
+        "end_char": 1819,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "فرمان خواهی نموده و اساس اعتراض نامبرده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "فرجام خواهی نموده و اساس اعتراض نامبرده",
+        "start_char": 3671,
+        "end_char": 3710,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجام‌خوانده",
+      "evidence": {
+        "quote": "نسخه ثانی دادخواست و ضمایم ان به زوجه فرجام خوانده ابلاغ شد",
+        "start_char": 3054,
+        "end_char": 3113,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "با مهریه چهارصد عدد سکه بهار آزادی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "واگذاری حضانت دو فرزند مشترک به مادر می باشد",
+        "start_char": 2353,
+        "end_char": 2397,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلاف بین زوجین وجود دارد",
+      "evidence": {
+        "quote": "بلحاظ بروز اختلاف فیما بین زوجین",
+        "start_char": 147,
+        "end_char": 179,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "نتیجه آزمایش بارداری زوجه منفی است",
+      "evidence": {
+        "quote": "نتیجه ازمایش بارداری زوجه را منفی اعلام نموده است",
+        "start_char": 1438,
+        "end_char": 1487,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزند اول کمتر از هفت سال سن دارد",
+      "evidence": {
+        "quote": "فرزند ا. مشترک به نام ا. متولد 1394/6/15 کمتر از هفت سال سن داشته",
+        "start_char": 3881,
+        "end_char": 3946,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "32377",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "مطالبه خسارت تأخیر تأدیه",
+        "start_char": 88,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ معامله",
+        "start_char": 692,
+        "end_char": 702,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معامله",
+      "evidence": {
+        "quote": "ثمن معامله",
+        "start_char": 662,
+        "end_char": 672,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه خسارت تأخیر تأدیه",
+        "start_char": 78,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ معامله",
+        "start_char": 692,
+        "end_char": 702,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "تأخیر خوانده در استرداد ثمن",
+        "start_char": 719,
+        "end_char": 746,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه فرجامخواسته",
+        "start_char": 1712,
+        "end_char": 1738,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکم به بیحقی خواهانها صادر",
+        "start_char": 867,
+        "end_char": 893,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "تأخیر خوانده در استرداد ثمن",
+        "start_char": 719,
+        "end_char": 746,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریداران",
+      "evidence": {
+        "quote": "خریداران مالک ثمن",
+        "start_char": 1421,
+        "end_char": 1438,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "و فروشنده نیز مالک مبیع است",
+        "start_char": 1439,
+        "end_char": 1466,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "مالک ثمن",
+        "start_char": 1430,
+        "end_char": 1438,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "مالک مبیع است",
+        "start_char": 1453,
+        "end_char": 1466,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "صدور حکم فسخ معامله با درخواست خوانده",
+      "evidence": {
+        "quote": "صدور حکم فسخ معامله با درخواست خوانده (آقای ح. ت. ف.) به عمل آمده",
+        "start_char": 1302,
+        "end_char": 1367,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

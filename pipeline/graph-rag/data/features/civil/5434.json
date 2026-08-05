@@ -1,0 +1,163 @@
+{
+  "ruling_id": "5434",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "وجود علقه زوجیت بین طرفین",
+        "start_char": 328,
+        "end_char": 353,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "به سبب عقد نکاح دائم محرز می باشد",
+        "start_char": 354,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 124,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "دلیلی بر نشوز زوجه به گذشته نمی باشد",
+        "start_char": 1487,
+        "end_char": 1523,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 114,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض حکم صادره",
+        "start_char": 2328,
+        "end_char": 2345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی خواهان بدوی صادر و اعلام می نماید",
+        "start_char": 2376,
+        "end_char": 2425,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی خواهان آقای ت.م.",
+        "start_char": 0,
+        "end_char": 40,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده خانم م.پ.",
+        "start_char": 69,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از سوی زوج خواسته شده است",
+        "start_char": 600,
+        "end_char": 625,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "الزام زوجه به تمکین",
+        "start_char": 1195,
+        "end_char": 1214,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نامه رسمی",
+      "evidence": {
+        "quote": "تصویر مصدق سند نکاح نامه رسمی به شماره 3056",
+        "start_char": 235,
+        "end_char": 278,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "از جمله مسکن مناسب",
+        "start_char": 1035,
+        "end_char": 1052,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود عقد نکاح دائم بین طرفین",
+      "evidence": {
+        "quote": "وجود علقه زوجیت بین طرفین به سبب عقد نکاح دائم محرز می باشد",
+        "start_char": 328,
+        "end_char": 387,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تهیه مقدمات تمکین (مسکن) توسط زوج",
+      "evidence": {
+        "quote": "حکم تمکین مشروط به تهیه مسکن می باشد",
+        "start_char": 1960,
+        "end_char": 1996,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

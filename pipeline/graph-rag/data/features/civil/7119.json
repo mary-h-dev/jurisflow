@@ -1,0 +1,203 @@
+{
+  "ruling_id": "7119",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت و پدر فرزندی حسب محتویات پرونده محرز و مسلم می باشد",
+        "start_char": 99,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "در عقد دائم نفقه زن به عهده شوهر می باشد",
+        "start_char": 199,
+        "end_char": 239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "نظری به اینکه نفقه فرع بر تمکین است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه خود و فرزند مشترک",
+        "start_char": 46,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده به پرداخت نفقه",
+        "start_char": 413,
+        "end_char": 449,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده به پرداخت نفقه",
+        "start_char": 413,
+        "end_char": 449,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه نقض و حکم بر بی حقی زوجه صادر و اعلام می گردد",
+        "start_char": 1808,
+        "end_char": 1861,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی صادره در این قسمت تأیید می گردد",
+        "start_char": 1988,
+        "end_char": 2023,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مطالبه نفقه خود و فرزند مشترک",
+        "start_char": 56,
+        "end_char": 85,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده به پرداخت نفقه",
+        "start_char": 413,
+        "end_char": 449,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به موجب آن زوج به پرداخت نفقه معوقه همسرش",
+        "start_char": 1055,
+        "end_char": 1096,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "به موجب آن زوجه ملزم به تمکین از همسرش گردیده",
+        "start_char": 1274,
+        "end_char": 1319,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه خود و فرزند مشترک",
+        "start_char": 56,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1578- 18/7/92",
+        "start_char": 965,
+        "end_char": 1000,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "که در سند نکاحیه چنین حقی به زوجه داده نشده است",
+        "start_char": 1476,
+        "end_char": 1523,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت و پدر فرزندی محرز است",
+      "evidence": {
+        "quote": "رابطه زوجیت و پدر فرزندی حسب محتویات پرونده محرز و مسلم می باشد",
+        "start_char": 99,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده دفاع مؤثری ارائه نکرده است",
+      "evidence": {
+        "quote": "خوانده دفاع مؤثری به عمل نیاورده است",
+        "start_char": 311,
+        "end_char": 347,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه حاضر به تمکین در شمال نیست",
+      "evidence": {
+        "quote": "زوجه صراحتاً اعلام نموده حاضر به تمکین از شوهرش در شمال نمی باشد",
+        "start_char": 1322,
+        "end_char": 1386,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه اعلام کرده نفقه نمی‌خواهد",
+      "evidence": {
+        "quote": "صراحتاً اعلام داشته نفقه نمی خواهم",
+        "start_char": 1622,
+        "end_char": 1656,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

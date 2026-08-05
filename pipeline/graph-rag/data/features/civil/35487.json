@@ -1,0 +1,153 @@
+{
+  "ruling_id": "35487",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام به تمکین",
+        "start_char": 88,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌حقی",
+      "evidence": {
+        "quote": "حکم بر بی حقی خواهان",
+        "start_char": 649,
+        "end_char": 669,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجه و مدلل",
+        "start_char": 1228,
+        "end_char": 1259,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عینا تایید",
+        "start_char": 1506,
+        "end_char": 1542,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابرام",
+      "evidence": {
+        "quote": "و ابرام می نماید",
+        "start_char": 1543,
+        "end_char": 1559,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان را",
+        "start_char": 506,
+        "end_char": 520,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مستندات ارائه شده از سوی خوانده",
+        "start_char": 239,
+        "end_char": 270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "ضرب و جرح از سوی زوج",
+        "start_char": 296,
+        "end_char": 316,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "نسبت به زوجه",
+        "start_char": 317,
+        "end_char": 329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجه",
+        "start_char": 1228,
+        "end_char": 1252,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "موضوع سند ازدواج شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 9409970200401883",
+        "start_char": 1008,
+        "end_char": 1046,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ضرب و جرح توسط زوج نسبت به زوجه رخ داده است",
+      "evidence": {
+        "quote": "حکایت از ایراد ضرب و جرح از سوی زوج نسبت به زوجه",
+        "start_char": 281,
+        "end_char": 329,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به دلیل ضرب و جرح محکوم شده است",
+      "evidence": {
+        "quote": "و محکومیت زوج در این خصوص دارد",
+        "start_char": 330,
+        "end_char": 360,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

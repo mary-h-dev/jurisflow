@@ -1,0 +1,223 @@
+{
+  "ruling_id": "27908",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مال",
+      "evidence": {
+        "quote": "تحصیل مال از طریق نامشروع",
+        "start_char": 74,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "کلاهبرداری",
+      "evidence": {
+        "quote": "کلاهبرداری",
+        "start_char": 102,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "بیع نبوده",
+        "start_char": 968,
+        "end_char": 977,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "در قالب ماده 10 قانون مدنی بوده",
+        "start_char": 980,
+        "end_char": 1011,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "گرفت",
+      "evidence": {
+        "quote": "یکصد و چهل میلیون تومان از بنده پول گرفت",
+        "start_char": 375,
+        "end_char": 415,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "یک دستگاه ولوو به شماره پلاک منطقه ویژه به بنده تحویل",
+        "start_char": 426,
+        "end_char": 479,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خودداری",
+      "evidence": {
+        "quote": "از انتقال سند وتنظیم قرارداد خودداری کرده",
+        "start_char": 484,
+        "end_char": 525,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "ماشین را توقیف",
+        "start_char": 579,
+        "end_char": 593,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "این قرار مورد اعتراض آقای م.پ.",
+        "start_char": 1335,
+        "end_char": 1365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "مأمورین گارد منطقه ویژه ماشین را توقیف و اعلام کردند",
+        "start_char": 555,
+        "end_char": 607,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شاکی از تاریخ تحویل خودرو",
+        "start_char": 1065,
+        "end_char": 1090,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "قرار منع تعقیب متهمان را صادر کرده است",
+        "start_char": 1240,
+        "end_char": 1278,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ویژه",
+      "evidence": {
+        "quote": "مأمورین گارد منطقه ویژه ماشین را توقیف",
+        "start_char": 555,
+        "end_char": 593,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پول",
+      "evidence": {
+        "quote": "بنده را ترغیب نمود تا به این شرکت پول بدهم",
+        "start_char": 290,
+        "end_char": 332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ماشین",
+      "evidence": {
+        "quote": "ماشین را توقیف",
+        "start_char": 579,
+        "end_char": 593,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "از انتقال سند",
+        "start_char": 484,
+        "end_char": 497,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "تنظیم قرارداد",
+        "start_char": 499,
+        "end_char": 512,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "یک دستگاه ولوو به شماره پلاک منطقه ویژه",
+        "start_char": 426,
+        "end_char": 465,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شرکت از انتقال سند و تنظیم قرارداد خودداری کرده است",
+      "evidence": {
+        "quote": "از انتقال سند وتنظیم قرارداد خودداری کرده",
+        "start_char": 484,
+        "end_char": 525,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ماشین توسط مأمورین گارد توقیف شده است",
+      "evidence": {
+        "quote": "مأمورین گارد منطقه ویژه ماشین را توقیف",
+        "start_char": 555,
+        "end_char": 593,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرکت حق فروش ماشین را نداشته است",
+      "evidence": {
+        "quote": "شرکت حق فروش ماشین را نداشته",
+        "start_char": 608,
+        "end_char": 636,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

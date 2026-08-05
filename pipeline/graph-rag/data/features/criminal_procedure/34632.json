@@ -1,0 +1,163 @@
+{
+  "ruling_id": "34632",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "سرقت",
+      "evidence": {
+        "quote": "دائر بر سرقت کابل برق",
+        "start_char": 72,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "و جبران خسارت صادر کرده است",
+        "start_char": 463,
+        "end_char": 490,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "با پیشنهاد اعاده دادرسی به دیوان عالی کشور ارسال داشته است",
+        "start_char": 1808,
+        "end_char": 1866,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "با توجه به اقرار متهم",
+        "start_char": 113,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابراز",
+      "evidence": {
+        "quote": "اقرار به جرم و ابراز ندامت کرده است",
+        "start_char": 289,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت متهم",
+        "start_char": 417,
+        "end_char": 436,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "آنرا تأئید کرده است",
+        "start_char": 730,
+        "end_char": 749,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "با شکایت نماینده اداره برق شهرستان ز.",
+        "start_char": 17,
+        "end_char": 54,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "علیه آقای م.ع.پ. دائر بر سرقت کابل برق",
+        "start_char": 55,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "و در مورد شاکی، مالباخته، ردمال",
+        "start_char": 1362,
+        "end_char": 1393,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "با تصور اینکه ماده 88 قانون آئین دادرسی کیفری شامل طرق فوق العاده شکایت از آرای قطعی نیز می شود",
+        "start_char": 1523,
+        "end_char": 1618,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "قاضی",
+      "evidence": {
+        "quote": "نهایتاً قاضی محترم اجرای احکام",
+        "start_char": 1460,
+        "end_char": 1490,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "برق",
+      "evidence": {
+        "quote": "دائر بر سرقت کابل برق",
+        "start_char": 72,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم به جرم سرقت اقرار کرده است",
+      "evidence": {
+        "quote": "با توجه به اقرار متهم",
+        "start_char": 113,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در حکم قبلی میزان جبران خسارت تعیین نشده بود",
+      "evidence": {
+        "quote": "در شرح مجازات موضوع حکم در حالیکه تعیین نشده است",
+        "start_char": 643,
+        "end_char": 691,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

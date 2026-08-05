@@ -1,0 +1,203 @@
+{
+  "ruling_id": "7204",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "درخواست رسیدگی و صدور حکم بر ابطال شرط",
+        "start_char": 68,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انقضاء",
+      "evidence": {
+        "quote": "به علت انقضاء مدت",
+        "start_char": 224,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "امر مختومه",
+      "evidence": {
+        "quote": "قضیه امر مختومه می باشد",
+        "start_char": 1364,
+        "end_char": 1387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نیت واقف",
+      "evidence": {
+        "quote": "مخالف نیت واقف و وقف است",
+        "start_char": 653,
+        "end_char": 677,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "ماده 82 قانون مدنی به لزوم رعایت آن از سوی متولی اشاره نموده",
+        "start_char": 2619,
+        "end_char": 2679,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "اقامه دعوی",
+        "start_char": 55,
+        "end_char": 65,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "و تخلیه مورد اجاره",
+        "start_char": 205,
+        "end_char": 223,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت گردید",
+        "start_char": 1868,
+        "end_char": 1880,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "درخواست نقض دادنامه صادره را کرده است",
+        "start_char": 4243,
+        "end_char": 4280,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "به نفع مستأجر",
+        "start_char": 139,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متولی",
+      "evidence": {
+        "quote": "متولی طبق وقف نامه حق اجاره بیش از پنج سال را ندارد",
+        "start_char": 588,
+        "end_char": 639,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان حضور یافته",
+        "start_char": 877,
+        "end_char": 899,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به وکالت از خوانده در دادگاه حضور یافته",
+        "start_char": 988,
+        "end_char": 1027,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "فرمان خواه به استناد وقف نامه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجاره",
+      "evidence": {
+        "quote": "سند اجاره مورخه 6/6/75",
+        "start_char": 116,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وقف‌نامه",
+      "evidence": {
+        "quote": "متولی طبق وقف نامه حق اجاره بیش از پنج سال را ندارد",
+        "start_char": 588,
+        "end_char": 639,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مستأجر بیش از ۱۵ سال در تصرف بوده است",
+      "evidence": {
+        "quote": "بیش از 16 سال است که در تصرف مستأجر است",
+        "start_char": 680,
+        "end_char": 719,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در قرارداد مدت اجاره صریحاً ذکر نشده است",
+      "evidence": {
+        "quote": "هر چند ذکر صریح مدت نشده است",
+        "start_char": 2271,
+        "end_char": 2299,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبلغ پذیره پرداخت شده است",
+      "evidence": {
+        "quote": "مبلغ ده میلیون ریال بابت پذیره (تحت عنوان سرقفلی) طبق نظر کارشناس مورخ 6/5/75 آقای م.خ. پرداخت گردید",
+        "start_char": 1780,
+        "end_char": 1880,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

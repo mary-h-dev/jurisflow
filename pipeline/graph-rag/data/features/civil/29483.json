@@ -1,0 +1,173 @@
+{
+  "ruling_id": "29483",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تائید فسخ قرارداد",
+        "start_char": 101,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انجام تعهد",
+      "evidence": {
+        "quote": "بدلیل عدم انجام تعهد",
+        "start_char": 149,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "با وصف مذکور حق فسخ برای خواهانها ایجاد شده",
+        "start_char": 1075,
+        "end_char": 1118,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "تائید فسخ قرارداد",
+        "start_char": 101,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "خلع ید خوانده",
+        "start_char": 1368,
+        "end_char": 1381,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قلع و قمع",
+      "evidence": {
+        "quote": "قلع و قمع مستحدثات",
+        "start_char": 1383,
+        "end_char": 1401,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "اقامه دعوی شده",
+        "start_char": 514,
+        "end_char": 528,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شهرداری صباشهر",
+        "start_char": 1701,
+        "end_char": 1729,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حق فسخ برای خواهانها ایجاد شده",
+        "start_char": 1088,
+        "end_char": 1118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با خوانده تنظیم نموده",
+        "start_char": 424,
+        "end_char": 445,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "برای تجدیدنظرخوانده گردیده",
+        "start_char": 2512,
+        "end_char": 2538,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شهرداری صباشهر",
+        "start_char": 1701,
+        "end_char": 1729,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "فسخ قرارداد شماره 21098",
+        "start_char": 107,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "در پلاک ثبتی 375 و376 فرعی از 67 اصلی",
+        "start_char": 201,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از انجام تعهد خود استنکاف کرده است",
+      "evidence": {
+        "quote": "خوانده از انجام تعهد استنکاف نموده",
+        "start_char": 975,
+        "end_char": 1009,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شهرداری توانایی انجام تعهد را به دلیل صلاحیت کمیسیون ندارد",
+      "evidence": {
+        "quote": "تعهداتی که شهرداری در قرارداد مذکور متقبل گردیده باتوجه به حیطه صلاحیت همینطور لوایح دفاعیه خود قابل انجام توسط شهرداری نبوده",
+        "start_char": 2055,
+        "end_char": 2180,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

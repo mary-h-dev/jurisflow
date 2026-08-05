@@ -1,0 +1,223 @@
+{
+  "ruling_id": "25634",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته صدور حکم بر الزام خواندگان",
+        "start_char": 117,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "مطالبه وجه التزام قراردادی روزانه",
+        "start_char": 286,
+        "end_char": 319,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی خواهان را صادر و اعلام می دارد",
+        "start_char": 935,
+        "end_char": 986,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام خواندگان به تنظیم سند رسمی",
+        "start_char": 139,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "اخذ پایان کار",
+        "start_char": 253,
+        "end_char": 266,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تفکیکی",
+      "evidence": {
+        "quote": "وصورت مجلس تفکیکی",
+        "start_char": 267,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "ومطالبه وجه التزام قراردادی",
+        "start_char": 285,
+        "end_char": 312,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خریداری",
+      "evidence": {
+        "quote": "واحد آپارتمان... را خریداری نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "قرار صادره را نقض نموده",
+        "start_char": 1944,
+        "end_char": 1967,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را جهت اظهارنظر ماهوی به دادگاه محترم بدوی اعاده می نماید",
+        "start_char": 1968,
+        "end_char": 2032,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان به تنظیم سند رسمی",
+        "start_char": 139,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان با این کیفیت قابلیت استماع نبوده",
+        "start_char": 803,
+        "end_char": 847,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای الف. م.ق.",
+        "start_char": 1154,
+        "end_char": 1182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "الزام تجدیدنظرخواندگان به تنظیم سند رسمی",
+        "start_char": 1346,
+        "end_char": 1386,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "تنظیم سند رسمی",
+        "start_char": 157,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "تنظیم سند رسمی ملک",
+        "start_char": 157,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتمان با پلاک ثبتی",
+        "start_char": 178,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به موجب مبایعه نامه شماره 51975",
+        "start_char": 423,
+        "end_char": 454,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان ملک را خریداری کرده است",
+      "evidence": {
+        "quote": "خواهان به موجب مبایعه نامه شماره 51975 مورخ 1389/2/21 یک واحد آپارتمان... را خریداری نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پلاک‌های ثبتی تجمیع شده‌اند",
+      "evidence": {
+        "quote": "با عنایت به مشاعی بودن پلاکهای مذکور ( به لحاظ تجمیع وتبدیل آنها به پلاک جدید )",
+        "start_char": 723,
+        "end_char": 802,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه پلاک ثبتی جدید را اعلام نکرده است",
+      "evidence": {
+        "quote": "هر چند تجدیدنظرخواه پلاک ثبتی جدید ملک تجمیع شده را اعلام نکرده",
+        "start_char": 1462,
+        "end_char": 1525,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

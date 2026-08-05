@@ -1,0 +1,203 @@
+{
+  "ruling_id": "30529",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "تقاضای صدور حکم طلاق (گواهی عدم امکان سازش)",
+        "start_char": 108,
+        "end_char": 151,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقسیط",
+      "evidence": {
+        "quote": "صدور حکم بر تقسیط 600 سکه بهار آزادی",
+        "start_char": 154,
+        "end_char": 190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "صدور حکم قطعی دایر بر اعسار زوج",
+        "start_char": 4444,
+        "end_char": 4475,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مدیونیت",
+      "evidence": {
+        "quote": "ضمن اقرار بر مدیونیت خود نسبت به مهریه",
+        "start_char": 685,
+        "end_char": 723,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "به خواسته تقاضای صدور حکم طلاق",
+        "start_char": 98,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقاضای",
+      "evidence": {
+        "quote": "تقاضای تقسیط 600 سکه بهار آزادی طرح قدیم مورد استدعا است",
+        "start_char": 789,
+        "end_char": 845,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "نسبت به رأی مذکور تجدیدنظرخواهی نموده",
+        "start_char": 2838,
+        "end_char": 2875,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "نسبت به آن تقاضای رسیدگی فرجامی نموده",
+        "start_char": 3248,
+        "end_char": 3285,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج و زوجه به موجب عقد نامه",
+        "start_char": 255,
+        "end_char": 282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوج و زوجه به موجب عقد نامه",
+        "start_char": 255,
+        "end_char": 282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان ضمن طرح دعوی",
+        "start_char": 1027,
+        "end_char": 1051,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "جهیزیه در اختیار خوانده بوده",
+        "start_char": 1071,
+        "end_char": 1099,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "تقسیط 600 سکه بهار آزادی به دادگستری کرمانشاه تقدیم نموده",
+        "start_char": 166,
+        "end_char": 223,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "به موجب عقد نامه شماره....مورخ 1384/6/14",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه زوجه 600 سکه بهار آزادی طرح قدیم است",
+        "start_char": 459,
+        "end_char": 501,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "نفقه زوجه از ناحیه موکل پرداخت شده",
+        "start_char": 1102,
+        "end_char": 1136,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین با هم ازدواج کرده‌اند",
+      "evidence": {
+        "quote": "به عقد ازدواج دائم در آمده اند",
+        "start_char": 351,
+        "end_char": 381,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "یک فرزند پسر دارند",
+      "evidence": {
+        "quote": "حاصل ازدواج و زندگی مشترک یک فرزند پسر 2 ساله به نام ب. ب. می باشد",
+        "start_char": 387,
+        "end_char": 453,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج فاقد اموال منقول و غیرمنقول است",
+      "evidence": {
+        "quote": "موکل فاقد هر گونه اموال منقول و یا غیر منقول بوده و می باشد",
+        "start_char": 1347,
+        "end_char": 1406,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

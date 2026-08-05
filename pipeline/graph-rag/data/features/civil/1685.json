@@ -1,0 +1,113 @@
+{
+  "ruling_id": "1685",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 699,
+        "end_char": 714,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دادخواست مطالبه غرامت",
+        "start_char": 53,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 274,
+        "end_char": 285,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "هیچ گونه مالکیتی برای فروشنده نبوده است",
+        "start_char": 494,
+        "end_char": 533,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "بایع ضامن درک مبیع می باشد",
+        "start_char": 560,
+        "end_char": 586,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه های تنظیمی",
+        "start_char": 97,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک متعلق به غیر بوده",
+        "start_char": 536,
+        "end_char": 557,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فرعی",
+      "evidence": {
+        "quote": "مقدار 1200 متر مربع از پلاک های 54/158 اصلی و 51 باقیمانده از 158 اصلی و 6 فرعی از 159 اصلی خ را خریداری نموده",
+        "start_char": 333,
+        "end_char": 443,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فروشنده مالک ملک نبوده است",
+      "evidence": {
+        "quote": "هیچ گونه مالکیتی برای فروشنده نبوده است",
+        "start_char": 494,
+        "end_char": 533,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک متعلق به شخص ثالث بوده است",
+      "evidence": {
+        "quote": "ملک متعلق به غیر بوده",
+        "start_char": 536,
+        "end_char": 557,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

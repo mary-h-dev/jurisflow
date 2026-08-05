@@ -1,0 +1,122 @@
+{
+  "ruling_id": "36061",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "صدور حکم به بطلان دعوی",
+        "start_char": 593,
+        "end_char": 615,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 1191,
+        "end_char": 1206,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی",
+        "start_char": 138,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال مزایده",
+        "start_char": 629,
+        "end_char": 651,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "پرونده جهت حل اختلاف به دیوان عالی کشور ارسال می گردد",
+        "start_char": 1243,
+        "end_char": 1296,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده به شعبه صادرکننده قرار اعاده تا طبق مقررات قانونی اقدام نماید",
+        "start_char": 2039,
+        "end_char": 2107,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بطلان دعوی تجدیدنظرخواه",
+        "start_char": 605,
+        "end_char": 628,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "سازمان",
+      "evidence": {
+        "quote": "سازمان جمع اوری و فروش اموال تملیکی",
+        "start_char": 768,
+        "end_char": 803,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مزایده توسط سازمان جمع‌آوری و فروش اموال تملیکی انجام شده است",
+      "evidence": {
+        "quote": "عملیات مزایده موضوع خواسته، توسط سازمان جمع اوری و فروش اموال تملیکی صورت گرفته است",
+        "start_char": 735,
+        "end_char": 818,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه نخستین صلاحیت رسیدگی به پرونده را نداشته است",
+      "evidence": {
+        "quote": "محکمه نخستین صالح به رسیدگی نبوده",
+        "start_char": 1039,
+        "end_char": 1072,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرونده به جای دیوان عدالت اداری مستقیماً به دیوان عالی ارسال شده است",
+      "evidence": {
+        "quote": "بر خلاف مواد 27 و 28 قانون ایین دادرسی مدنی با ارسال مستقیم پرونده به دیوان عالی کشور",
+        "start_char": 1754,
+        "end_char": 1839,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "ruling_id": "23374",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "اعلام انفساخ قرارداد شماره",
+        "start_char": 171,
+        "end_char": 197,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "با وجود شرط داوری",
+        "start_char": 1577,
+        "end_char": 1594,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اراده",
+      "evidence": {
+        "quote": "برخلاف تراضی و اصل حاکمیت اراده",
+        "start_char": 1685,
+        "end_char": 1716,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "به خواسته اعلام انفساخ قرارداد",
+        "start_char": 161,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "و الزام به استرداد یک دانگ پلاک ثبتی",
+        "start_char": 2388,
+        "end_char": 2424,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه خسارات دادرسی",
+        "start_char": 284,
+        "end_char": 306,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "تاکنون تخلیه و تحویل سازندگان نشده",
+        "start_char": 875,
+        "end_char": 909,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظر خواهی خانم م. ب.",
+        "start_char": 2039,
+        "end_char": 2071,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "ضمن رد تجدید نظرخواهی",
+        "start_char": 2872,
+        "end_char": 2893,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست تقدیمی خواهان",
+        "start_char": 0,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 79,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "داور معین استعفا نموده است",
+        "start_char": 1300,
+        "end_char": 1326,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "قرارداد شماره........",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دانگ پلاک",
+      "evidence": {
+        "quote": "الزام به استرداد یک دانگ پلاک ثبتی",
+        "start_char": 2390,
+        "end_char": 2424,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک تحویل و تخریب شده",
+        "start_char": 402,
+        "end_char": 423,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک تحویل و تخریب شده است",
+      "evidence": {
+        "quote": "ملک تحویل و تخریب شده",
+        "start_char": 402,
+        "end_char": 423,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک ساخته نشده است",
+      "evidence": {
+        "quote": "تاکنون و علی رغم توافق در سال 1390 ملک ساخته نشده",
+        "start_char": 428,
+        "end_char": 475,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "داور استعفا داده است",
+      "evidence": {
+        "quote": "داور معین استعفا نموده است",
+        "start_char": 1300,
+        "end_char": 1326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مغازه تخلیه نشده است",
+      "evidence": {
+        "quote": "تاکنون تخلیه و تحویل سازندگان نشده",
+        "start_char": 875,
+        "end_char": 909,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

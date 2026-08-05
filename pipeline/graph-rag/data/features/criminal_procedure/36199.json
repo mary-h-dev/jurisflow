@@ -1,0 +1,153 @@
+{
+  "ruling_id": "36199",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "حاکمیت اصل برائت",
+        "start_char": 793,
+        "end_char": 809,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قصاص نفس",
+      "evidence": {
+        "quote": "حکم به قصاص متهمین ردیف های اول و سوم به قصاص نفس",
+        "start_char": 329,
+        "end_char": 378,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "نسبت به دادنامه در تاریخ 1400/10/6 فرجام خواهی نموده",
+        "start_char": 647,
+        "end_char": 699,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "تقاضای رسیدگی و نقض دادنامه را نموده است",
+        "start_char": 810,
+        "end_char": 850,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "به تحمل ده سال حبس تعزیری محکومیت یافته اند",
+        "start_char": 1630,
+        "end_char": 1673,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "حکم به قصاص متهمین ردیف های اول و سوم",
+        "start_char": 329,
+        "end_char": 366,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "فرجام خواه و محکوم علیه متواری",
+        "start_char": 1857,
+        "end_char": 1887,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "فرجام خواه و محکوم علیه متواری",
+        "start_char": 1857,
+        "end_char": 1887,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مقتول",
+      "evidence": {
+        "quote": "خود متعلق به مقتول",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "سرقت مقرون به ازار خودرو متعلق به وی",
+        "start_char": 290,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه در تاریخ 1400/10/6 فرجام خواهی نموده",
+        "start_char": 647,
+        "end_char": 699,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم متواری است",
+      "evidence": {
+        "quote": "متواری می باشد",
+        "start_char": 1464,
+        "end_char": 1478,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادرسی بدون حضور متهم انجام شده است",
+      "evidence": {
+        "quote": "بدون حضور وی دادرسی صورت گرفته است",
+        "start_char": 1482,
+        "end_char": 1516,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مدرکی مبنی بر ابلاغ دادنامه وجود ندارد",
+      "evidence": {
+        "quote": "مدرکی که دال بر ابلاغ دادنامه به طرفین باشد، در پرونده ملاحظه نمی شود",
+        "start_char": 542,
+        "end_char": 611,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "744",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 204,
+        "end_char": 221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "ظهور بر اشتغال ذمه خوانده",
+        "start_char": 447,
+        "end_char": 472,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دایر بر مطالبه مبلغ",
+        "start_char": 108,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "دلالت بر دین پرداخت کننده دارد",
+        "start_char": 810,
+        "end_char": 840,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شرکت",
+        "start_char": 1568,
+        "end_char": 1586,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان",
+        "start_char": 7,
+        "end_char": 18,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده",
+        "start_char": 66,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه",
+        "start_char": 1726,
+        "end_char": 1746,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "سه فقره چک",
+        "start_char": 155,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبلغ",
+      "evidence": {
+        "quote": "مبلغ /000/000/550 ریال",
+        "start_char": 1086,
+        "end_char": 1108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "با احتساب هزینه دادرسی",
+        "start_char": 166,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک‌ها توسط خوانده پذیرفته شده است",
+      "evidence": {
+        "quote": "انتساب آن به موکل را پذیرفته",
+        "start_char": 605,
+        "end_char": 633,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی مردود شناخته شد",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی دادنامه تجدیدنظرخواسته تأیید می شود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

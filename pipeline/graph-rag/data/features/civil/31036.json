@@ -1,0 +1,143 @@
+{
+  "ruling_id": "31036",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام زوجیت",
+        "start_char": 64,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مفهوم مخالف",
+      "evidence": {
+        "quote": "باستناد مفهوم مخالف ماده فوق الذکر",
+        "start_char": 761,
+        "end_char": 795,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه اجرت المثل",
+        "start_char": 56,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم به رد خواسته خواهان را صادر",
+        "start_char": 796,
+        "end_char": 827,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تجدیدنظرخواسته را عینا تایید",
+        "start_char": 1744,
+        "end_char": 1772,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اظهارات خواهان",
+        "start_char": 182,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بارها به خوانده گفته است",
+        "start_char": 338,
+        "end_char": 362,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی خانم م. خ.",
+        "start_char": 993,
+        "end_char": 1025,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "با تجدیدنظرخوانده",
+        "start_char": 1204,
+        "end_char": 1221,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "با توجه به محتویات پرونده و دادخواست تقدیمی",
+        "start_char": 136,
+        "end_char": 179,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 941148-94/7/28",
+        "start_char": 1046,
+        "end_char": 1077,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین در جلسه دادگاه حضور نیافته‌اند",
+      "evidence": {
+        "quote": "طرفین پرونده در جلسه مورخ 95/2/7 این دادگاه حضور نیافته",
+        "start_char": 1356,
+        "end_char": 1411,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه دفاع موثری ارائه نکرده است",
+      "evidence": {
+        "quote": "در دادخواست تجدیدنظرخواهی نیز دفاع موثری بعمل نیاورده است",
+        "start_char": 1454,
+        "end_char": 1511,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

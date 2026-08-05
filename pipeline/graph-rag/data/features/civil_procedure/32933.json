@@ -1,0 +1,143 @@
+{
+  "ruling_id": "32933",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "شرط داوری وجود دارد",
+        "start_char": 559,
+        "end_char": 578,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی را صادر و اعلام مینماید",
+        "start_char": 885,
+        "end_char": 929,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظر خواهی در محاکم تجدیدنظر استان تهران خواهد بود",
+        "start_char": 972,
+        "end_char": 1031,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن پذیرش تجدیدنظر خواهی و نقض دادنامه صادره",
+        "start_char": 1779,
+        "end_char": 1823,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام به پرداخت اقساط وام",
+        "start_char": 177,
+        "end_char": 212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده ار جهت رسیدگی ماهیتی به مرجع محترم بدوی اعاده می نماید",
+        "start_char": 1824,
+        "end_char": 1885,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان شرکت فنی مهندسی س.",
+        "start_char": 0,
+        "end_char": 38,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "دفاعیات احداز خواندگان دعوی",
+        "start_char": 481,
+        "end_char": 508,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "آقای رسول باغداران بعنوان داور",
+        "start_char": 632,
+        "end_char": 662,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "مستند ادعای خواهان قرارداد فاقد تاریخ ممهور به مهر شرکت فنی مهندسی س. بوده است",
+        "start_char": 373,
+        "end_char": 451,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وام",
+      "evidence": {
+        "quote": "الزام به پرداخت اقساط وام",
+        "start_char": 187,
+        "end_char": 212,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فوت یکی از طرفین قرارداد",
+      "evidence": {
+        "quote": "از آنجا که احدی از طرفین قرارداد آقای س. حسب گواهی حصر وراثت پیوست دادخواتس دار فانی را وداع گفته",
+        "start_char": 1518,
+        "end_char": 1615,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد فاقد تاریخ است",
+      "evidence": {
+        "quote": "قرارداد فاقد تاریخ ممهور به مهر شرکت فنی مهندسی س. بوده است",
+        "start_char": 392,
+        "end_char": 451,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

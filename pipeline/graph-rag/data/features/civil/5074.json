@@ -1,0 +1,183 @@
+{
+  "ruling_id": "5074",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ معامله بوده",
+        "start_char": 719,
+        "end_char": 734,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اسقاط",
+      "evidence": {
+        "quote": "اسقاط نموده",
+        "start_char": 738,
+        "end_char": 749,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تراضی",
+      "evidence": {
+        "quote": "تراضی نشده است",
+        "start_char": 2330,
+        "end_char": 2344,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "می تواند مطالبه عوض زیاده را بنماید",
+        "start_char": 2041,
+        "end_char": 2076,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "ساقط",
+      "evidence": {
+        "quote": "ساقط نموده است",
+        "start_char": 3831,
+        "end_char": 3845,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را تأیید می نماید",
+        "start_char": 4070,
+        "end_char": 4111,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان در تبیین خواسته اظهار داشت",
+        "start_char": 270,
+        "end_char": 303,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان به پرداخت",
+        "start_char": 98,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریداران",
+      "evidence": {
+        "quote": "خواندگان محترم به عنوان خریداران",
+        "start_char": 1268,
+        "end_char": 1300,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده می تواند مطالبه عوض زیاده را بنماید",
+        "start_char": 2033,
+        "end_char": 2076,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به موجب مبایعه نامه 1282/555",
+        "start_char": 305,
+        "end_char": 333,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان موضوع خواسته",
+        "start_char": 157,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "انباری",
+      "evidence": {
+        "quote": "و انباری و پارکینگ مربوطه",
+        "start_char": 189,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پارکینگ",
+      "evidence": {
+        "quote": "و پارکینگ مربوطه",
+        "start_char": 198,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مساحت دقیق واحدهای آپارتمانی در زمان تنظیم قرارداد معین نبوده است",
+      "evidence": {
+        "quote": "در زمان تنظیم قرارداد فروش، مساحت دقیق هرکدام از واحدهای آپارتمانی معین نبوده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اضافه مساحت آپارتمان و انباری و پارکینگ مشخص شده است",
+      "evidence": {
+        "quote": "مشخص گردیده که آپارتمان 16 متر مربع و انباری 51/2 متر مربع و پارکینگ نیم متر مربع مجموعاً 19 متر مربع اضافه مساحت داشته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ارزش اضافه مساحت پرداخت نشده است",
+      "evidence": {
+        "quote": "ارزش آن پرداخت نگردیده",
+        "start_char": 1243,
+        "end_char": 1265,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

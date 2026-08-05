@@ -1,0 +1,163 @@
+{
+  "ruling_id": "38541",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "تقاضای ابطال رای داور",
+        "start_char": 116,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصل تناظر",
+      "evidence": {
+        "quote": "اصل تناظر",
+        "start_char": 3932,
+        "end_char": 3941,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی طرفی",
+      "evidence": {
+        "quote": "بی طرفی داور",
+        "start_char": 2339,
+        "end_char": 2351,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تعیین",
+      "evidence": {
+        "quote": "تقاضای تعیین داور",
+        "start_char": 397,
+        "end_char": 414,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استعفا",
+      "evidence": {
+        "quote": "از داوری استعفا داده",
+        "start_char": 1432,
+        "end_char": 1452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "به ان اعتراض نکردم",
+        "start_char": 578,
+        "end_char": 596,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور رای",
+      "evidence": {
+        "quote": "صدور رای",
+        "start_char": 2364,
+        "end_char": 2372,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده محترم",
+        "start_char": 309,
+        "end_char": 321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "به عنوان داور معرفی شدند",
+        "start_char": 503,
+        "end_char": 527,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از طرف داور ، و ایراد خواهان",
+        "start_char": 3682,
+        "end_char": 3710,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "در خصوص یک قرارداد پیمانکاری",
+        "start_char": 322,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "ابطال رای داور",
+        "start_char": 72,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "داور جدید به خواهان ابلاغ نشده است",
+      "evidence": {
+        "quote": "این موضوع به طرفین ابلاغ نشده است",
+        "start_char": 3216,
+        "end_char": 3249,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "داور دارای قرابت سببی با یکی از طرفین است",
+      "evidence": {
+        "quote": "اقرب نسبی داور از طریق اقرب سببی خود با یکی از طرفین نسبت دارد",
+        "start_char": 3506,
+        "end_char": 3568,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "جلسه رسیدگی تشکیل نشده است",
+      "evidence": {
+        "quote": "عدم تشکیل جلسه رسیدگی",
+        "start_char": 3714,
+        "end_char": 3735,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "ruling_id": "28305",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی",
+        "start_char": 182,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌حقی",
+      "evidence": {
+        "quote": "حکم به بیحقی خواهان",
+        "start_char": 876,
+        "end_char": 895,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "وقوع بیع بین اصحاب دعوا",
+        "start_char": 971,
+        "end_char": 994,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "عدم ایفای تعهد قراردادی",
+        "start_char": 1927,
+        "end_char": 1950,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه التزام",
+        "start_char": 58,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی",
+        "start_char": 182,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فک رهن",
+      "evidence": {
+        "quote": "و فک رهن به انضمام خسارات دادرسی",
+        "start_char": 285,
+        "end_char": 317,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رای تجدیدنظرخواسته را مستنداً به ماده 358 قانون آیین دادرسی مدنی نقض می نماید",
+        "start_char": 2687,
+        "end_char": 2764,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته عیناً تایید می گردد",
+        "start_char": 3182,
+        "end_char": 3224,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان م. الف.",
+        "start_char": 0,
+        "end_char": 27,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با توجه به دفاعیات خوانده",
+        "start_char": 520,
+        "end_char": 545,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی م. الف.",
+        "start_char": 1718,
+        "end_char": 1747,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "منوط به طرح دادخواست از سوی تجدیدنظرخوانده",
+        "start_char": 2500,
+        "end_char": 2542,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وجه التزام",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه التزام",
+        "start_char": 58,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی",
+        "start_char": 182,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "تعهد تنظیم سند رسمی در مقابل پرداخت الباقی ثمن معامله بوده",
+        "start_char": 554,
+        "end_char": 612,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "به تنظیم سند رسمی یک دستگاه آپارتمان",
+        "start_char": 1287,
+        "end_char": 1323,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک در رهن قرار ندارد",
+      "evidence": {
+        "quote": "حسب پاسخ استعلام ثبتی پلاک در رهن قرار ندارد",
+        "start_char": 366,
+        "end_char": 410,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت ثمن معامله توسط خواهان",
+      "evidence": {
+        "quote": "حسب گواهی عدم حضور آمادگی خواهان به پرداخت ثمن تایید نشده",
+        "start_char": 616,
+        "end_char": 673,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

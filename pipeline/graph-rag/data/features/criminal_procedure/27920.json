@@ -1,0 +1,173 @@
+{
+  "ruling_id": "27920",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فروش",
+      "evidence": {
+        "quote": "فروش مال غیر",
+        "start_char": 443,
+        "end_char": 455,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ",
+        "start_char": 1119,
+        "end_char": 1122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی کرده است",
+        "start_char": 1203,
+        "end_char": 1231,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فروخته",
+      "evidence": {
+        "quote": "فروخته",
+        "start_char": 323,
+        "end_char": 329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم و",
+      "evidence": {
+        "quote": "محکوم شده است",
+        "start_char": 632,
+        "end_char": 645,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی کرده است",
+        "start_char": 1203,
+        "end_char": 1231,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم به تحمل دو سال و نیم حبس",
+        "start_char": 538,
+        "end_char": 567,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "از شاکی",
+        "start_char": 605,
+        "end_char": 612,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل محکوم علیه",
+        "start_char": 989,
+        "end_char": 1004,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "مجازات محکوم علیه",
+        "start_char": 788,
+        "end_char": 805,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "با قرارداد عادی مورخ 1391/2/4",
+        "start_char": 172,
+        "end_char": 201,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ساختمان",
+      "evidence": {
+        "quote": "واحد طبقه دوم سمت ساختمان ی",
+        "start_char": 202,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه غیابی شماره 2500988-1393/9/13",
+        "start_char": 500,
+        "end_char": 537,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فروش یک واحد آپارتمان با قرارداد عادی",
+      "evidence": {
+        "quote": "واحد طبقه دوم سمت ساختمان ی... را با قرارداد عادی... فروخته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اعلام گذشت شاکی از شکایت",
+      "evidence": {
+        "quote": "با اعلام گذشت شاکی",
+        "start_char": 721,
+        "end_char": 739,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه حکم فسخ معامله",
+      "evidence": {
+        "quote": "هیچگونه حکمی از محاکم صالحه مبنی بر فسخ معامله بین طرفین قرارداد اول مورخ 1391/2/4 یا قرارداد دوم مورخ 1391/8/15 ارائه نشده است",
+        "start_char": 1844,
+        "end_char": 1971,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

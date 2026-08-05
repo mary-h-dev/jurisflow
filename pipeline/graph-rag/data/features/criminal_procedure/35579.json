@@ -1,0 +1,193 @@
+{
+  "ruling_id": "35579",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بزه",
+      "evidence": {
+        "quote": "بزه انتسابی به متهم برای دادگاه محرز ومسجل گردید",
+        "start_char": 907,
+        "end_char": 955,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقصیر",
+      "evidence": {
+        "quote": "به میزان 70 درصد تقصیر",
+        "start_char": 169,
+        "end_char": 191,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دیه",
+      "evidence": {
+        "quote": "متهم را در مورد دیه قطع یک دوم انتهایی بند انتهای انگشت سوم دست چپ",
+        "start_char": 1303,
+        "end_char": 1369,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ارش",
+      "evidence": {
+        "quote": "بایستی به میزان 70 درصد از دیه و ارش فوق الذکر از متهم اخذ گردد",
+        "start_char": 1792,
+        "end_char": 1855,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "متهم را بپرداخت مبلغ 9000000 ریال جزای نقدی بدل از 91 روز حبس تعزیری درجه 7 محکوم می نماید",
+        "start_char": 1156,
+        "end_char": 1246,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اصلاح",
+      "evidence": {
+        "quote": "میزان دیه قطع یک دوم انتهایی بند انگشت سوم دست چپ را به هفتاد درصد از یک دوم از یک سی ام اصلاح می نماید",
+        "start_char": 4488,
+        "end_char": 4591,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی کرده است",
+        "start_char": 3573,
+        "end_char": 3595,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "خانم پ. ز متهم است",
+        "start_char": 61,
+        "end_char": 79,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "با توجه به شکایت خانم م. ش.",
+        "start_char": 199,
+        "end_char": 226,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "کارفرما",
+      "evidence": {
+        "quote": "متهم پرونده بعنوان کارفرمای تهیه غذای...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "کارگر",
+      "evidence": {
+        "quote": "عدم نظارت موثر بر نحوه عملکرد کارگر حادثه دیده",
+        "start_char": 404,
+        "end_char": 450,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "متضمن محکومیت تجدیدنظرخواه به پرداخت دیه صدمات",
+        "start_char": 3316,
+        "end_char": 3362,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "ازناحیه واخواه ایراد و اعتراض موثر و مدللی",
+        "start_char": 2214,
+        "end_char": 2256,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه غیابی صادره به شماره 00966 مورخ 93/10/27",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه دفاعیه",
+      "evidence": {
+        "quote": "عدم ارسال لایحه دفاعیه علیرغم ابلاغ واقعی احضاریه به وی",
+        "start_char": 800,
+        "end_char": 855,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "حادثه در محیط کار رخ داده است",
+      "evidence": {
+        "quote": "عدم رعایت نظامات دولتی در محیط کار منجر به ایراد صدمه بدنی غیرعمدی",
+        "start_char": 83,
+        "end_char": 149,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم در جلسه دادگاه حضور نیافته است",
+      "evidence": {
+        "quote": "عدم حضور متهم در جلسه مقرر دادگاه",
+        "start_char": 764,
+        "end_char": 797,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در تایپ رای اشتباهی صورت گرفته است",
+      "evidence": {
+        "quote": "اشتباه صورت گرفته درحنگ تایپ رای معترض عنه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

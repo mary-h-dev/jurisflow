@@ -1,0 +1,123 @@
+{
+  "ruling_id": "38410",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تقاضای فسخ نکاح",
+        "start_char": 194,
+        "end_char": 209,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "بنابراین حق فسخ برای زوج ایجاد نمی کند",
+        "start_char": 588,
+        "end_char": 626,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی",
+        "start_char": 0,
+        "end_char": 20,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به این دادنامه اعتراض",
+        "start_char": 351,
+        "end_char": 385,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را تایید می نماید",
+        "start_char": 971,
+        "end_char": 1011,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تقاضای فسخ نکاح تجدیدنظرخواه",
+        "start_char": 194,
+        "end_char": 222,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخوانده",
+        "start_char": 223,
+        "end_char": 246,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بطلان دعوی تجدیدنظرخواه ( خواهان بدوی )",
+        "start_char": 295,
+        "end_char": 334,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره *– 1401/4/23",
+        "start_char": 113,
+        "end_char": 147,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه به دلیل بیماری صرع تقاضای فسخ نکاح کرده است",
+      "evidence": {
+        "quote": "دلیل تجدیدنظرخواه برای فسخ نکاح وجود یک بیماری در تجدیدنظرخوانده می باشد",
+        "start_char": 437,
+        "end_char": 509,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه تقاضای فسخ را نپذیرفته و حکم به بطلان دعوی داده است",
+      "evidence": {
+        "quote": "که به موجب ان تقاضای فسخ نکاح تجدیدنظرخواه به طرفیت تجدیدنظرخوانده مورد پذیرش دادگاه واقع نشده است",
+        "start_char": 180,
+        "end_char": 278,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

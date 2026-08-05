@@ -1,0 +1,173 @@
+{
+  "ruling_id": "7012",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "به پرداخت اجرت المثل ایام تصرف",
+        "start_char": 142,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "نظر به اینکه اصل بر عدم تبرع است",
+        "start_char": 680,
+        "end_char": 712,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "احراز مالکیت مشارالیها",
+        "start_char": 1383,
+        "end_char": 1405,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "دلالت بر آن دارد که متداعیین رابطه زوجیت داشته",
+        "start_char": 2699,
+        "end_char": 2745,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت اجرت المثل ایام تصرف",
+        "start_char": 142,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استفاده",
+      "evidence": {
+        "quote": "از 3 دانگ سهم ایشان استفاده می نماید",
+        "start_char": 643,
+        "end_char": 679,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "خوانده اعتراض کرده",
+        "start_char": 1124,
+        "end_char": 1142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "سه دانگ قدرالسهم خود از آپارتمان مذکور را به ع.ک. منتقل نموده",
+        "start_char": 3811,
+        "end_char": 3872,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان خانم ص.د.",
+        "start_char": 0,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای ع.ک.",
+        "start_char": 71,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ع.ک. نسبت به آن بخش",
+        "start_char": 2190,
+        "end_char": 2223,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "یک باب",
+      "evidence": {
+        "quote": "یک باب منزل مسکونی دارای پلاک ثبتی 310416060",
+        "start_char": 510,
+        "end_char": 554,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "آپارتمان موصوف",
+        "start_char": 1803,
+        "end_char": 1817,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "با استناد به تصویر مصدق سند مالکیت",
+        "start_char": 337,
+        "end_char": 371,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین دارای رابطه زوجیت بوده‌اند",
+      "evidence": {
+        "quote": "دلالت بر آن دارد که متداعیین رابطه زوجیت داشته",
+        "start_char": 2699,
+        "end_char": 2745,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت سه دانگ آپارتمان به ع.ک منتقل شده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در تاریخ 1/12/90 سه دانگ قدرالسهم خود از آپارتمان مذکور را به ع.ک. منتقل نموده",
+        "start_char": 3781,
+        "end_char": 3872,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

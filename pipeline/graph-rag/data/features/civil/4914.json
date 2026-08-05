@@ -1,0 +1,183 @@
+{
+  "ruling_id": "4914",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تقسیم ترکه",
+      "evidence": {
+        "quote": "به خواسته تقسیم ترکه مرحومه خانم ر.ع.",
+        "start_char": 85,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بابت مهریه",
+        "start_char": 277,
+        "end_char": 287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع آن صادر",
+        "start_char": 409,
+        "end_char": 432,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت",
+      "evidence": {
+        "quote": "برخلاف مصلحت صغیر بوده",
+        "start_char": 1747,
+        "end_char": 1769,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقسیم ترکه",
+      "evidence": {
+        "quote": "به خواسته تقسیم ترکه",
+        "start_char": 85,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض",
+        "start_char": 484,
+        "end_char": 495,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را جهت رسیدگی ماهوی نسبت به تقسیم ترکه به شعبه محترم بدوی اعاده می نماید",
+        "start_char": 2087,
+        "end_char": 2166,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از سوی وکیل خواهان",
+        "start_char": 201,
+        "end_char": 219,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بدهی مورث خواهان به خوانده ردیف یکم",
+        "start_char": 241,
+        "end_char": 276,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "از ناحیه مشارٌالیها به طرفیت تجدیدنظر خواندگان",
+        "start_char": 727,
+        "end_char": 773,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "و اداره سرپرستی",
+        "start_char": 69,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ترکه",
+      "evidence": {
+        "quote": "تقسیم ترکه",
+        "start_char": 95,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "اموال به معترض به صورت امانی تحویل گردیده",
+        "start_char": 1199,
+        "end_char": 1240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منقول",
+      "evidence": {
+        "quote": "با توجه به میزان دارایی منقول و غیرمنقول متوفی",
+        "start_char": 1380,
+        "end_char": 1426,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "بدهی مهریه مورث پرداخت نشده است",
+      "evidence": {
+        "quote": "بابت مهریه تا هم اکنون اقدامی صورت نگرفته",
+        "start_char": 277,
+        "end_char": 318,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اموال به صورت امانی تحویل شده است",
+      "evidence": {
+        "quote": "اموال به معترض به صورت امانی تحویل گردیده",
+        "start_char": 1199,
+        "end_char": 1240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظر خواندگان نسبت به رد ترکه اقدامی نکرده‌اند",
+      "evidence": {
+        "quote": "نسبت به رد ترکه، چه به صورت صریح و یا ضمنی اقدامی مشاهده نگردیده است",
+        "start_char": 1301,
+        "end_char": 1369,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

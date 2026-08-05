@@ -1,0 +1,193 @@
+{
+  "ruling_id": "7477",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته فسخ بیع نامه عادی",
+        "start_char": 41,
+        "end_char": 68,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "باعث حق فسخ یک جانبه ای برای اینجانب دانسته",
+        "start_char": 757,
+        "end_char": 800,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه خسارت",
+        "start_char": 96,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "باعث حق فسخ یک جانبه ای برای اینجانب دانسته و نیز معادل 20% ارزش ثمن را باید پرداخت نماید",
+        "start_char": 757,
+        "end_char": 846,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "نسبت به رأی مرقوم واخواهی کرده است",
+        "start_char": 1947,
+        "end_char": 1981,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "نسبت به دادنامه مرقوم فرجام خواهی کرده است",
+        "start_char": 3034,
+        "end_char": 3076,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "در نهایت نقض دادنامه را درخواست کرده است",
+        "start_char": 3669,
+        "end_char": 3709,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با حضور خواهان و وکیل وی",
+        "start_char": 929,
+        "end_char": 953,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در غیاب خوانده تشکیل شده است",
+        "start_char": 956,
+        "end_char": 984,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "در این جلسه که واخواه حضور نداشته",
+        "start_char": 2052,
+        "end_char": 2085,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "لایحه اعتراضیه فرجام خواه",
+        "start_char": 3188,
+        "end_char": 3213,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمانده",
+      "evidence": {
+        "quote": "فرمان خواه برخلاف توافقات",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بیعنامه عادی",
+      "evidence": {
+        "quote": "فسخ بیع نامه عادی مورخ 2/3/90",
+        "start_char": 51,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "باعث حق فسخ یک جانبه ای برای اینجانب دانسته و نیز معادل 20% ارزش ثمن را باید پرداخت نماید",
+        "start_char": 757,
+        "end_char": 846,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "طی یک فقره چک بانک تجارت",
+        "start_char": 584,
+        "end_char": 608,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین فرد پلاک ثبتی 169/31667",
+        "start_char": 304,
+        "end_char": 340,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت ثمن معامله",
+      "evidence": {
+        "quote": "علی رغم آمادگی و مراجعات مکرر به مشارٌالیه جهت تحویل و تنظیم سند رسمی وی از پرداخت ثمن (الباقی) به تاریخ های 10/4/90 و 5/8/90 با مبلغ و یک میلیارد و پانصد و نود میلیون تومان که طی یک فقره چک بانک تجارت بابت قسمتی از ثمن معامله تحویل داده بود و در سررسید منجر به گواهی عدم پرداخت گردیده",
+        "start_char": 407,
+        "end_char": 692,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم وصول چک‌ها",
+      "evidence": {
+        "quote": "عدم وصول چک های ثمن را باعث حق فسخ یک جانبه ای برای اینجانب دانسته",
+        "start_char": 734,
+        "end_char": 800,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

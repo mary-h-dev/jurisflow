@@ -1,0 +1,213 @@
+{
+  "ruling_id": "28574",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "تعهد خوانده دعوی",
+        "start_char": 410,
+        "end_char": 426,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معامله",
+      "evidence": {
+        "quote": "معامله بین مشارالیها",
+        "start_char": 557,
+        "end_char": 577,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "حکایت از مالکیت خوانده",
+        "start_char": 710,
+        "end_char": 732,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اکراه",
+      "evidence": {
+        "quote": "با اکراه واجبار تحریر نموده بود",
+        "start_char": 2205,
+        "end_char": 2236,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "عقد بیع در دادگاه وقوع عقد",
+        "start_char": 2590,
+        "end_char": 2616,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم سند رسمی",
+        "start_char": 93,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "انتقال پنج دانگ مشاع",
+        "start_char": 130,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض وارد می باشد",
+        "start_char": 1667,
+        "end_char": 1686,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده طی سه فقره اقرار نامه کتبی اعلام",
+        "start_char": 1703,
+        "end_char": 1751,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مستندات خواهان",
+        "start_char": 277,
+        "end_char": 291,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "تعهد خوانده",
+        "start_char": 410,
+        "end_char": 421,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده طی سه فقره اقرار نامه کتبی",
+        "start_char": 1703,
+        "end_char": 1745,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "تنظیم سند رسمی ملک",
+        "start_char": 109,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "موضوع پلاک ثبتی 4663/68",
+        "start_char": 172,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "دو فقره سند عادی",
+        "start_char": 430,
+        "end_char": 446,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه نامه عادی",
+        "start_char": 511,
+        "end_char": 527,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه",
+      "evidence": {
+        "quote": "اقرار نامه کتبی",
+        "start_char": 1730,
+        "end_char": 1745,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در اسناد عادی تعهد به تنظیم سند رسمی ندارد",
+      "evidence": {
+        "quote": "تعهد خوانده دعوی طی دو فقره سند عادی بدون تاریخ دلالتی بر تعهد بر تنظیم سند رسمی ندارد",
+        "start_char": 410,
+        "end_char": 496,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت ملک در استعلام ثبتی به نام شخص دیگری ثبت شده است",
+      "evidence": {
+        "quote": "استعلام ثبتی نیز حکایت از مالکیت خوانده نسبت به پنج دانگ مشاع از شش دانگ پلاک موصوف و نیز یک دانگ دیگر آن به نام شخص دیگری ثبت گردیده است",
+        "start_char": 693,
+        "end_char": 830,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در اقرارنامه به مالکیت خواهان اعتراف کرده است",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده طی سه فقره اقرار نامه کتبی اعلام ((کرده است مالکیت ملک منحصرا با سرمایه و پرداخت های آقای ر. ح.ر. خریداری شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

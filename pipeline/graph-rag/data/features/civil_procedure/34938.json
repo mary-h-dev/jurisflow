@@ -1,0 +1,72 @@
+{
+  "ruling_id": "34938",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "در صلاحیت هیأت حل اختلاف مستقر در اداره ثبت اسناد و املاک محل دانسته",
+        "start_char": 207,
+        "end_char": 275,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی را به شرح دادخواست تقاضا کرده اند",
+        "start_char": 62,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را برای ادامه دادرسی به شعبه صادر کننده قرار اعاده می دهد",
+        "start_char": 863,
+        "end_char": 927,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "مستندآن مبایعه نامه عادی است",
+        "start_char": 646,
+        "end_char": 674,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مستند دعوا مبایعه‌نامه عادی است",
+      "evidence": {
+        "quote": "مستندآن مبایعه نامه عادی است",
+        "start_char": 646,
+        "end_char": 674,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه صلاحیت رسیدگی به پرونده را نفی کرده است",
+      "evidence": {
+        "quote": "با نفی صلاحیت از خود پرونده را",
+        "start_char": 276,
+        "end_char": 306,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

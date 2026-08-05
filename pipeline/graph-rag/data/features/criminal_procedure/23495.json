@@ -1,0 +1,163 @@
+{
+  "ruling_id": "23495",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مجازات",
+      "evidence": {
+        "quote": "اعمال تخفیف نسبت به مجازات",
+        "start_char": 65,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رد",
+      "evidence": {
+        "quote": "متقاضیان موصوف به رد مال",
+        "start_char": 238,
+        "end_char": 262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رضایت",
+      "evidence": {
+        "quote": "رضایت آنان جلب گردیده",
+        "start_char": 448,
+        "end_char": 469,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعمال",
+      "evidence": {
+        "quote": "اعمال تخفیف نسبت به مجازات",
+        "start_char": 65,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم گردیده‌اند",
+      "evidence": {
+        "quote": "متقاضیان موصوف به رد مال به حدود 27 نفر شاکی محکوم گردیده‌اند",
+        "start_char": 238,
+        "end_char": 299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "دادنامه موصوف نیز عیناً در این دادگاه تائید گردیده",
+        "start_char": 303,
+        "end_char": 353,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "جلب",
+      "evidence": {
+        "quote": "رضایت آنان جلب گردیده",
+        "start_char": 448,
+        "end_char": 469,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متقاضیان",
+      "evidence": {
+        "quote": "متقاضیان موصوف",
+        "start_char": 238,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "27 نفر شاکی",
+        "start_char": 271,
+        "end_char": 282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "قاضی",
+      "evidence": {
+        "quote": "قاضی محترم اجرای احکام",
+        "start_char": 389,
+        "end_char": 411,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 556 مورخ 1392/4/30",
+        "start_char": 101,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه بدوی",
+      "evidence": {
+        "quote": "دادنامه بدوی به شماره 410 مورخ 1391/6/12 شعبه 1154 دادگاه عمومی جزایی تهران",
+        "start_char": 161,
+        "end_char": 236,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "احکام",
+      "evidence": {
+        "quote": "مرقومه مورخ 1394/9/8 قاضی محترم اجرای احکام",
+        "start_char": 368,
+        "end_char": 411,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رضایت تنها ۱۵ نفر از ۲۷ نفر شاکی جلب شده است",
+      "evidence": {
+        "quote": "اسامی تنها 15 نفر شاکی اعلام شده که رضایت آنان جلب گردیده",
+        "start_char": 412,
+        "end_char": 469,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ارکان قانونی برای اعمال تخفیف فراهم نیست",
+      "evidence": {
+        "quote": "ارکان قانونی تقاضای معموله فراهم نمی‌باشد",
+        "start_char": 576,
+        "end_char": 617,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

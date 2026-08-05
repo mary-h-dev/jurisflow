@@ -1,0 +1,103 @@
+{
+  "ruling_id": "1034",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "کلاهبرداری",
+      "evidence": {
+        "quote": "وکلاهبرداری",
+        "start_char": 79,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ع.",
+        "start_char": 685,
+        "end_char": 706,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض دادنامه موصوف",
+        "start_char": 1390,
+        "end_char": 1417,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم را به تحمل",
+        "start_char": 340,
+        "end_char": 355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "متضمن محکومیت تجدیدنظرخوانده",
+        "start_char": 829,
+        "end_char": 857,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "استفاده از سند مجعول",
+        "start_char": 58,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "به مبلغ چهل و هشت میلیون تومان",
+        "start_char": 91,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم به جعل و کلاهبرداری محکوم شده است",
+      "evidence": {
+        "quote": "متهم را به تحمل دو فقره شش ماه حبس تعزیری و یک فقره یک سال حبس تعزیری و رد مال به مبلغ چهل و هشت میلیون تومان و جزای نقدی معادل آن محکوم می نماید",
+        "start_char": 340,
+        "end_char": 485,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست رسیدگی به اتهام جدید وارد نیست",
+      "evidence": {
+        "quote": "علیه وی کیفرخواست صادر نشده و دادگاه فراتر از کیفرخواست رسیدگی نمی کند",
+        "start_char": 1100,
+        "end_char": 1170,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "32372",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "جرم",
+      "evidence": {
+        "quote": "مشمول تکرار جرم شده",
+        "start_char": 3969,
+        "end_char": 3988,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "فرمان خواهی نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم و",
+      "evidence": {
+        "quote": "محکوم شده است",
+        "start_char": 233,
+        "end_char": 246,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "اقرار نموده",
+        "start_char": 3899,
+        "end_char": 3910,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم در دادگاه اظهار داشته",
+        "start_char": 2540,
+        "end_char": 2566,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "آقای ج.م. بعنوان وکیل تسخیری وی معرفی شده است",
+        "start_char": 2178,
+        "end_char": 2223,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "آقای عیسی محمدی زاده نماینده دادستان عمومی انقلاب شیراز",
+        "start_char": 3403,
+        "end_char": 3458,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "هروئین",
+      "evidence": {
+        "quote": "از نوع هروئین متعلق به ف.ی. می باشد",
+        "start_char": 361,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مواد مخدر",
+      "evidence": {
+        "quote": "در خصوص کشف مواد از بنده",
+        "start_char": 2300,
+        "end_char": 2323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "با تقدیم 1 برگ لایحه",
+        "start_char": 3494,
+        "end_char": 3514,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "کشف مواد از داخل فاضلاب",
+      "evidence": {
+        "quote": "مواد از داخل فاضلاب کشف شده",
+        "start_char": 1311,
+        "end_char": 1338,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم به حمل مواد به داخل زندان متهم شده است",
+      "evidence": {
+        "quote": "به اتهام وارد نمودن 46 گرم موادمخدر هروئین به درون زندان",
+        "start_char": 69,
+        "end_char": 125,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

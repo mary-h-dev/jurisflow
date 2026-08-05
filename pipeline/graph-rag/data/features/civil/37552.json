@@ -1,0 +1,233 @@
+{
+  "ruling_id": "37552",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 92,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صیغه طلاق",
+      "evidence": {
+        "quote": "جهت اجرای صیغه طلاق",
+        "start_char": 118,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دارایی",
+      "evidence": {
+        "quote": "در خصوص شرط تنصیف دارایی",
+        "start_char": 897,
+        "end_char": 921,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "و اجرت المثل ده سال زندگی مشترک",
+        "start_char": 1023,
+        "end_char": 1054,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "و نفقه ایام معوقه وجود ندارد",
+        "start_char": 1120,
+        "end_char": 1148,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بخواسته",
+      "evidence": {
+        "quote": "دادخواستی بخواسته صدور گواهی عدم امکان سازش",
+        "start_char": 74,
+        "end_char": 117,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام وکالت",
+      "evidence": {
+        "quote": "اعلام وکالت نموده",
+        "start_char": 302,
+        "end_char": 319,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به دادنامه مزبور اعتراض نموده",
+        "start_char": 2111,
+        "end_char": 2145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "نسبت به ان فرجامخواهی نموده",
+        "start_char": 2755,
+        "end_char": 2782,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض تجدید نظر خواه",
+        "start_char": 2410,
+        "end_char": 2438,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار داشت",
+        "start_char": 399,
+        "end_char": 421,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از جانب خوانده ( زوجه )",
+        "start_char": 278,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از جانب زوج ( فرجامخوانده )",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "فرجامخواهی خانم س. ک.",
+        "start_char": 3137,
+        "end_char": 3158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجام‌خوانده",
+      "evidence": {
+        "quote": "زوج فرجامخوانده",
+        "start_char": 2819,
+        "end_char": 2834,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اتومبیل",
+      "evidence": {
+        "quote": "یک اتومبیل پژو مدل 88 دارد",
+        "start_char": 938,
+        "end_char": 964,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه پرداخت شده است",
+        "start_char": 1700,
+        "end_char": 1720,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "جهیزیه مسترد شده است",
+        "start_char": 1723,
+        "end_char": 1743,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مهریه پرداخت شده است",
+      "evidence": {
+        "quote": "مهریه پرداخت شده است",
+        "start_char": 1700,
+        "end_char": 1720,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "جهیزیه مسترد شده است",
+      "evidence": {
+        "quote": "جهیزیه مسترد شده است",
+        "start_char": 1723,
+        "end_char": 1743,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزند مشترک ندارند",
+      "evidence": {
+        "quote": "و فرزند مشترک ندارند",
+        "start_char": 837,
+        "end_char": 857,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زن یایسه است",
+      "evidence": {
+        "quote": "و زوجه اقرار نموده که یایسه می باشد",
+        "start_char": 858,
+        "end_char": 893,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

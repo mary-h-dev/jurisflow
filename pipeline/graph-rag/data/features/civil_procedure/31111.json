@@ -1,0 +1,183 @@
+{
+  "ruling_id": "31111",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "انقضاء",
+      "evidence": {
+        "quote": "تخلیه بلحاظ انقضاءمدت",
+        "start_char": 175,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم پرداخت",
+      "evidence": {
+        "quote": "عدم پرداخت اجاره بها",
+        "start_char": 198,
+        "end_char": 218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق کسب و پیشه",
+      "evidence": {
+        "quote": "حق کسب و پیشه",
+        "start_char": 847,
+        "end_char": 860,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "بخواسته تخلیه",
+        "start_char": 167,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "ازتاریخ 1388/9/30 اجاره بها را پرداخت ننموده است",
+        "start_char": 411,
+        "end_char": 459,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خودداری",
+      "evidence": {
+        "quote": "ازپرداخت اجاره بها خودداری می نماید",
+        "start_char": 551,
+        "end_char": 586,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض آن",
+      "evidence": {
+        "quote": "ضمن نقض آن",
+        "start_char": 2503,
+        "end_char": 2513,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهانها",
+        "start_char": 112,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت آقای ع. م. ر.",
+        "start_char": 146,
+        "end_char": 166,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "خوانده ازتاریخ 73/4/1 مستاجر خواهانها بوده",
+        "start_char": 354,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالکین",
+      "evidence": {
+        "quote": "خواهانها مالکین قهری",
+        "start_char": 247,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "یک باب",
+      "evidence": {
+        "quote": "یک باب مغازه تحت پلاک ثبتی",
+        "start_char": 275,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عین مستأجره",
+      "evidence": {
+        "quote": "تقاضای تخلیه عین مستاجره",
+        "start_char": 591,
+        "end_char": 615,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره",
+      "evidence": {
+        "quote": "اجاره بها را پرداخت ننموده است",
+        "start_char": 429,
+        "end_char": 459,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از سال ۱۳۸۸ اجاره بها را پرداخت نکرده است",
+      "evidence": {
+        "quote": "خوانده ازتاریخ 1388/9/30 اجاره بها را پرداخت ننموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سه بار اظهارنامه برای خوانده ارسال شده است",
+      "evidence": {
+        "quote": "طی سه نوبت اظهار نامه به تاریخهای 94/4/2 و94/3/10 و94/4/30 که به خوانده ارسال و ابلاغ شده",
+        "start_char": 461,
+        "end_char": 550,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اظهارنامه مربوط به عدم پرداخت اجاره در دعوای نخستین ابراز نشده بود",
+      "evidence": {
+        "quote": "اظهارنامه ابلاغ شده راجع به عدم پرداخت اجور به مستأجر ضمن دادخواست نخستین ابراز نشده است",
+        "start_char": 2018,
+        "end_char": 2106,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

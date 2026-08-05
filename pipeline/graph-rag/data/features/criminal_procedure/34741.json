@@ -1,0 +1,133 @@
+{
+  "ruling_id": "34741",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "پس از تجویز اعاده دادرسی مورد تقاضای آقای م. ب.چ.",
+        "start_char": 0,
+        "end_char": 49,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "با توجه به منتفی شدن حبس تعلیقی و برائت در این خصوص",
+        "start_char": 1272,
+        "end_char": 1323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مجازات",
+      "evidence": {
+        "quote": "با احراز استحقاق تخفیف یا تعلیق در مجازات",
+        "start_char": 1326,
+        "end_char": 1367,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "محکوم علیه مجدداً با تقدیم لایحه ای به دفتر کل دیوان عالی کشور",
+        "start_char": 417,
+        "end_char": 479,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "در اجرای ماده474 قانون آئین دادرسی کیفری درخواست اعاده دادرسی نسبت به دادنامه اخیرالذکر نموده",
+        "start_char": 793,
+        "end_char": 886,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "که محکوم علیه مجدداً با تقدیم لایحه ای",
+        "start_char": 414,
+        "end_char": 452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکیه",
+      "evidence": {
+        "quote": "متضمن محکومیت شاکیه باتهام تخریب گوشی تلفن همراه",
+        "start_char": 527,
+        "end_char": 575,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متقاضی",
+      "evidence": {
+        "quote": "نسبت به متقاضی اعاده دادرسی آقای م. ب.چ.",
+        "start_char": 1538,
+        "end_char": 1578,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "گوشی تلفن همراه",
+      "evidence": {
+        "quote": "باتهام تخریب گوشی تلفن همراه متعلق به نامبرده",
+        "start_char": 547,
+        "end_char": 592,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 9509971314500647- 95/5/25",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "درخواست اعاده دادرسی مطرح شده است",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی نسبت به دادنامه اخیرالذکر نموده",
+        "start_char": 834,
+        "end_char": 886,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مجازات شلاق در دادنامه قبلی با تخفیف اعمال شده است",
+      "evidence": {
+        "quote": "با تقلیل هفتاد و چهار ضربه شلاق به چهل ضربه",
+        "start_char": 276,
+        "end_char": 319,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

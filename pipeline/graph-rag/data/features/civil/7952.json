@@ -1,0 +1,183 @@
+{
+  "ruling_id": "7952",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تأیید فسخ قرارداد",
+        "start_char": 67,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "حاکمیت اصل لزوم",
+        "start_char": 509,
+        "end_char": 524,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "امکان حق فسخ برای فروشنده مقررشده",
+        "start_char": 2551,
+        "end_char": 2584,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تاییدفسخ",
+      "evidence": {
+        "quote": "تأیید فسخ قرارداد",
+        "start_char": 67,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد بیع",
+        "start_char": 111,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت اجرت المثل",
+        "start_char": 125,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعمال حق",
+      "evidence": {
+        "quote": "مبادرت به اعمال حق فسخ",
+        "start_char": 3253,
+        "end_char": 3275,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از ناحیه خوانده ارائه شده",
+        "start_char": 214,
+        "end_char": 239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظر خواه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظر خوانده",
+        "start_char": 808,
+        "end_char": 832,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "باقی مانده ثمن معامله را خریدار",
+        "start_char": 2179,
+        "end_char": 2210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "به فروشنده (تجدیدنظر خواه) پرداخت نماید",
+        "start_char": 2283,
+        "end_char": 2322,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "تأیید فسخ قرارداد",
+        "start_char": 67,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "باقی مانده ثمن معامله",
+        "start_char": 2179,
+        "end_char": 2200,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "استرداد مبیع",
+        "start_char": 1079,
+        "end_char": 1091,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت اقساط ثمن معامله",
+      "evidence": {
+        "quote": "از آن به بعد یا اقساطی پرداخت نشده",
+        "start_char": 2756,
+        "end_char": 2790,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تأخیر در اعلام فسخ",
+      "evidence": {
+        "quote": "با تأخیر طولانی 19 ماهه مبادرت به اعمال حق فسخ خود",
+        "start_char": 3229,
+        "end_char": 3279,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

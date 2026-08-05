@@ -1,0 +1,123 @@
+{
+  "ruling_id": "22819",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان معامله",
+      "evidence": {
+        "quote": "صدور حکم به بطلان معامله",
+        "start_char": 69,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقود",
+      "evidence": {
+        "quote": "بین دعاوی مربوط به عقود و قراردادها",
+        "start_char": 1821,
+        "end_char": 1856,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم به بطلان معامله",
+        "start_char": 69,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد ثمن",
+        "start_char": 141,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار عدم",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت به شایستگی رسیدگی محاکم عمومی حقوقی تهران صادر می نماید",
+        "start_char": 744,
+        "end_char": 815,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "آقای ع. ز. دادخواستی به خواسته",
+        "start_char": 38,
+        "end_char": 68,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای ع.ق. ز.",
+        "start_char": 201,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "مربوط به یک دستگاه ساختمان مسکونی",
+        "start_char": 105,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "استرداد ثمن به میزان نود میلیون ریال",
+        "start_char": 141,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "معامله مورخ 91/1/9 انجام شده است",
+      "evidence": {
+        "quote": "معامله مورخ 91/1/9",
+        "start_char": 87,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین در وقت تعیین شده در دادگاه حاضر نشده‌اند",
+      "evidence": {
+        "quote": "در وقت تعیین شده به تاریخ 93/7/29 حاضر نشده اند",
+        "start_char": 385,
+        "end_char": 432,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

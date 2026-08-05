@@ -1,0 +1,133 @@
+{
+  "ruling_id": "10612",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "خواسته اعسار از پرداخت هزینه رسیدگی دادگاه",
+        "start_char": 67,
+        "end_char": 109,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی خواهان آقای ه.ح.",
+        "start_char": 0,
+        "end_char": 40,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "دادگاه با توجه به اینکه از سوی تاجر دادخواست اعسار نسبت به هزینه دادرسی پذیرفته نمی‌گردد به استناد ماده 512 قانون آئین دادرسی در امور مدنی قرار رد دعوی خواهان را صادر و اعلام می‌نماید.",
+        "start_char": 252,
+        "end_char": 436,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "رأی صادره حضوری و ظرف بیست روز پس از ابلاغ قابل تجدیدنظرخواهی در مرجع محترم تجدیدنظر استان تهران می‌باشد.",
+        "start_char": 437,
+        "end_char": 542,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی خواهان آقای ه.ح.",
+        "start_char": 0,
+        "end_char": 40,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده ف.ط.",
+        "start_char": 41,
+        "end_char": 62,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "عامل",
+      "evidence": {
+        "quote": "مدیر عامل شرکت و کارخانه ف. واقع در شهرک صنعتی ... می‌باشد",
+        "start_char": 184,
+        "end_char": 242,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ه.ح.",
+        "start_char": 597,
+        "end_char": 628,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی خواهان آقای ه.ح.",
+        "start_char": 0,
+        "end_char": 40,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "از سوی تاجر دادخواست اعسار نسبت به هزینه دادرسی پذیرفته نمی‌گردد",
+        "start_char": 276,
+        "end_char": 340,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت هزینه دادرسی انجام نشده",
+      "evidence": {
+        "quote": "خواسته اعسار از پرداخت هزینه رسیدگی دادگاه",
+        "start_char": 67,
+        "end_char": 109,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادخواست اعسار پذیرفته نشده",
+      "evidence": {
+        "quote": "از سوی تاجر دادخواست اعسار نسبت به هزینه دادرسی پذیرفته نمی‌گردد",
+        "start_char": 276,
+        "end_char": 340,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

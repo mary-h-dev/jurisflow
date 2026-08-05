@@ -1,0 +1,183 @@
+{
+  "ruling_id": "4923",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مرور زمان",
+      "evidence": {
+        "quote": "پس از گذشت 6 سال از حصول علّت قانونی (القرارد 24/3/79) اقامه دعوی بلا وجه می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "اصل دین وجود داشته اما مرور زمان ممنوع و مثبت حق طرح دعوی شده است",
+        "start_char": 3055,
+        "end_char": 3120,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهدات",
+      "evidence": {
+        "quote": "تعهدات ناشی از عقود تابع محل وقوع عقد",
+        "start_char": 4530,
+        "end_char": 4567,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "اصل مسئولیت حاصل می گردد",
+        "start_char": 2543,
+        "end_char": 2567,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "در حقیقت با این تبدیل تعهد",
+        "start_char": 5119,
+        "end_char": 5145,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "از بازپرداخت بدهی خود استنکاف ورزیده اند",
+        "start_char": 666,
+        "end_char": 706,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "دین مذکور را به آقای الف. منتقل نموده است",
+        "start_char": 795,
+        "end_char": 836,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه وجه مورداشاره را از آقای الف.ز. در دادگاه ایران می نماید",
+        "start_char": 5183,
+        "end_char": 5246,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان آقای ک.الف.",
+        "start_char": 0,
+        "end_char": 31,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "متن درخواست محکومیت خوانده",
+        "start_char": 112,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدیون",
+      "evidence": {
+        "quote": "دلالت بر مدیونیت خوانده",
+        "start_char": 1520,
+        "end_char": 1543,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وام‌دهنده",
+      "evidence": {
+        "quote": "به عنوان وام دهنده",
+        "start_char": 4758,
+        "end_char": 4776,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "گیرنده",
+      "evidence": {
+        "quote": "به عنوان وام گیرنده",
+        "start_char": 4791,
+        "end_char": 4810,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارد",
+      "evidence": {
+        "quote": "به موجب قراردادی که فتوکوبی مصدق اصل و ترجمه رسمی آن به پیوست می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "این سند مورد توافق خوانده نیز بوده",
+        "start_char": 1594,
+        "end_char": 1627,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از بازپرداخت بدهی خود خودداری کرده است",
+      "evidence": {
+        "quote": "با خودداری از این امر علی رغم مطالبه دائن، از بازپرداخت بدهی خود استنکاف ورزیده اند",
+        "start_char": 623,
+        "end_char": 706,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دین از دائن به خواهان منتقل شده است",
+      "evidence": {
+        "quote": "دین مذکور را به آقای الف. منتقل نموده است",
+        "start_char": 795,
+        "end_char": 836,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

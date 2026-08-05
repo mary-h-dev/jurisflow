@@ -1,0 +1,153 @@
+{
+  "ruling_id": "769",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "انحلال",
+      "evidence": {
+        "quote": "تأیید انحلال و انفساخ توافق نامه های مورخ 30/5/89 و 24/2/90",
+        "start_char": 193,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "تأیید انحلال و انفساخ توافق نامه های مورخ 30/5/89 و 24/2/90",
+        "start_char": 193,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ به هر لفظ یا فعلی که دلالت بر آن نماید حاصل می شود",
+        "start_char": 638,
+        "end_char": 692,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان مبنی بر",
+        "start_char": 162,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "درخواست اعلام انحلال و انفساخ قرارداد بر حسب قانون بوده",
+        "start_char": 473,
+        "end_char": 528,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه موصوف را نقض و پرونده را جهت رسیدگی ماهوی به دادگاه محترم بدوی ارسال می نماید",
+        "start_char": 849,
+        "end_char": 934,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان مبنی بر",
+        "start_char": 162,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "طرف",
+      "evidence": {
+        "quote": "طرف قرارداد شهرداری می باشد",
+        "start_char": 348,
+        "end_char": 375,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شهرداری",
+      "evidence": {
+        "quote": "طرف قرارداد شهرداری می باشد",
+        "start_char": 348,
+        "end_char": 375,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نامه های",
+      "evidence": {
+        "quote": "توافق نامه های مورخ 30/5/89 و 24/2/90",
+        "start_char": 215,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "مقدار 54/1740 متر زمین",
+        "start_char": 279,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 535 مورخ 21/8/91",
+        "start_char": 75,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان درخواست انحلال و انفساخ قرارداد را مطرح کرده است",
+      "evidence": {
+        "quote": "درخواست اعلام انحلال و انفساخ قرارداد بر حسب قانون بوده",
+        "start_char": 473,
+        "end_char": 528,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه بدوی درخواست خواهان را رد کرده بود",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان مبنی بر",
+        "start_char": 162,
+        "end_char": 189,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

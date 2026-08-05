@@ -1,0 +1,143 @@
+{
+  "ruling_id": "37685",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی",
+        "start_char": 221,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "دعوای اعسار",
+        "start_char": 883,
+        "end_char": 894,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "یعنی اقرار نمود",
+        "start_char": 1086,
+        "end_char": 1101,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دعوایی علیه اقای پ. ب. ن. به خواسته صدور حکم ورشکستگی خواهان مطرح کرد",
+        "start_char": 434,
+        "end_char": 503,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "دفاع",
+      "evidence": {
+        "quote": "و دفاعی نکرد",
+        "start_char": 691,
+        "end_char": 703,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوا صادر می شود",
+        "start_char": 1934,
+        "end_char": 1966,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان: اقای ح. ش. ن.",
+        "start_char": 34,
+        "end_char": 55,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "خواندگان: 1. دادسرای عمومی و انقلاب ناحیه 22",
+        "start_char": 105,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده حاضر نشد",
+        "start_char": 675,
+        "end_char": 690,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "حکم",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی",
+        "start_char": 221,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان در پرونده‌های دیگر دعوای اعسار مطرح کرده است",
+      "evidence": {
+        "quote": "خواهان دست کم در پرونده های کلاسه *شعبه *دعوای اعسار مطرح کرده است",
+        "start_char": 842,
+        "end_char": 908,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تاجر نبودن خواهان توسط دادگاه پذیرفته شده است",
+      "evidence": {
+        "quote": "تاجر نبودن خواهان توسط دادگاه پذیرفته شده است",
+        "start_char": 1360,
+        "end_char": 1405,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "از تاریخ‌های صدور رای قبلی تا کنون فعالیتی از سوی خواهان صورت نگرفته است",
+      "evidence": {
+        "quote": "از این تاریخ ها تاکنون فعالیتی از سوی خواهان صورت نگرفته",
+        "start_char": 1604,
+        "end_char": 1660,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

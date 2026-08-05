@@ -1,0 +1,203 @@
+{
+  "ruling_id": "27845",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مجرمیت",
+      "evidence": {
+        "quote": "صدور قرار مجرمیت",
+        "start_char": 407,
+        "end_char": 423,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حبس",
+      "evidence": {
+        "quote": "به تحمل حبس ابد محکوم می نماید",
+        "start_char": 1259,
+        "end_char": 1289,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصادره اموال",
+      "evidence": {
+        "quote": "مصادره اموال",
+        "start_char": 1187,
+        "end_char": 1199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "درخواست واخواهی را مطرح می نماید",
+        "start_char": 1550,
+        "end_char": 1582,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خریداری",
+      "evidence": {
+        "quote": "تریاک را از فردی بنام ن. خریداری نموده",
+        "start_char": 179,
+        "end_char": 217,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تعیین",
+      "evidence": {
+        "quote": "یک نفر از وکلای دادگستری را به عنوان وکیل تسخیری تعیین و",
+        "start_char": 728,
+        "end_char": 784,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به رأی صادره اعتراض",
+        "start_char": 1523,
+        "end_char": 1547,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "درخواست واخواهی را مطرح می نماید",
+        "start_char": 1550,
+        "end_char": 1582,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهمان",
+      "evidence": {
+        "quote": "صدور قرار مجرمیت متهمان",
+        "start_char": 407,
+        "end_char": 430,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "به عنوان وکیل تسخیری تعیین",
+        "start_char": 756,
+        "end_char": 782,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل پایه",
+      "evidence": {
+        "quote": "شخصی بنام آقای س. م. وکیل پایه یک دادگستری",
+        "start_char": 1315,
+        "end_char": 1357,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادیار",
+      "evidence": {
+        "quote": "باید دادیار اجرای احکام باشند",
+        "start_char": 1648,
+        "end_char": 1677,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تریاک",
+      "evidence": {
+        "quote": "کشف 9/805 کیلوگرم تریاک",
+        "start_char": 100,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "ارائه فرم وکالتنامه ناقص",
+        "start_char": 1376,
+        "end_char": 1400,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "با تقدیم لایحه ای",
+        "start_char": 1505,
+        "end_char": 1522,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "نسبت به رأی صادره",
+        "start_char": 1523,
+        "end_char": 1540,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "هویت متهمین احراز نشده است",
+      "evidence": {
+        "quote": "هویت کامل ( ن. - گ.) محکوم علیهما احراز و ثابت نگردیده",
+        "start_char": 3017,
+        "end_char": 3071,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حکم به صورت غیابی صادر شده است",
+      "evidence": {
+        "quote": "با توجه به اینکه واخواهی از رأی صادره در صلاحیت دیوان نمی باشد",
+        "start_char": 2060,
+        "end_char": 2122,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وکالتنامه ناقص ارائه شده است",
+      "evidence": {
+        "quote": "با ارائه فرم وکالتنامه ناقص",
+        "start_char": 1373,
+        "end_char": 1400,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

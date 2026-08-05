@@ -1,0 +1,163 @@
+{
+  "ruling_id": "33166",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حبس تعزیری",
+      "evidence": {
+        "quote": "حبس تعزیری",
+        "start_char": 235,
+        "end_char": 245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جزای نقدی",
+      "evidence": {
+        "quote": "جزای نقدی",
+        "start_char": 278,
+        "end_char": 287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رد",
+      "evidence": {
+        "quote": "رد مال",
+        "start_char": 381,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "کلاهبرداری",
+      "evidence": {
+        "quote": "کلاهبرداری",
+        "start_char": 405,
+        "end_char": 415,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیانت",
+      "evidence": {
+        "quote": "خیانت در امانت",
+        "start_char": 448,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جرم",
+      "evidence": {
+        "quote": "تعدد جرم و مجازات",
+        "start_char": 1307,
+        "end_char": 1324,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "محکومیت به تحمل 5 سال حبس تعزیری",
+        "start_char": 213,
+        "end_char": 245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه های موضوع بزه کلاهبرداری",
+        "start_char": 1597,
+        "end_char": 1637,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "محکوم علیه آقای ح. ز.ر.",
+        "start_char": 148,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دولت",
+      "evidence": {
+        "quote": "در حق دولت",
+        "start_char": 1724,
+        "end_char": 1734,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "مبلغ 345/500/000 تومان",
+        "start_char": 255,
+        "end_char": 277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "یکصد میلیون ریال",
+        "start_char": 789,
+        "end_char": 805,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "محکوم علیه دارای چندین محکومیت قطعی است",
+      "evidence": {
+        "quote": "دارای 5 فقره محکومیت قطعی",
+        "start_char": 173,
+        "end_char": 198,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محکومیت‌های قبلی در خصوص کلاهبرداری نقض شده است",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه های موضوع بزه کلاهبرداری",
+        "start_char": 1597,
+        "end_char": 1637,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محکومیت خیانت در امانت به قوت خود باقی است",
+      "evidence": {
+        "quote": "در خصوص بزه خیانت در امانت دادنامه سابق الصدور به قوت خود باقی می باشد",
+        "start_char": 1808,
+        "end_char": 1878,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

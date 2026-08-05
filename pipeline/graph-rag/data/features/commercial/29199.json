@@ -1,0 +1,113 @@
+{
+  "ruling_id": "29199",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "مبنی بر ابطال نام تجاری",
+        "start_char": 69,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "حکم بر ابطال نام تجاری",
+        "start_char": 1570,
+        "end_char": 1592,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "جبران",
+      "evidence": {
+        "quote": "و جبران خسارات دادرسی",
+        "start_char": 1608,
+        "end_char": 1629,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با شرکت موصوف با شرکت خواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت شرکت الف. مبنی بر ابطال نام تجاری شرکت خوانده",
+        "start_char": 50,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "جبران خسارات دادرسی تجدیدنظرخواه",
+        "start_char": 1610,
+        "end_char": 1642,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 940033-1394/1/25 شعبه سوم دادگاه عمومی حقوقی تهران مشعر بر بطلان دعوای ابطال نام تجارتی تجدیدنظرخوانده",
+        "start_char": 884,
+        "end_char": 1008,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نام",
+      "evidence": {
+        "quote": "ابطال نام تجاری شرکت خوانده",
+        "start_char": 77,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "نام شرکت‌ها دارای شباهت است",
+      "evidence": {
+        "quote": "نوع فعالیت و نام آنها جز درکلمات نفت و الوند مشابه است",
+        "start_char": 1066,
+        "end_char": 1120,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات گمراهی مشتریان در مرحله اول",
+      "evidence": {
+        "quote": "دلیلی که مبین ومثبت وقوع اشتباه و گمراهی مشتریان گردد از سوی خواهان ارائه نشده",
+        "start_char": 396,
+        "end_char": 474,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "ruling_id": "28246",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "با احتساب خسارات دادرسی و تاخیر تادیه",
+        "start_char": 121,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "معامله منشاء صدور چک نیز به لحاظ وجود عیب در بیع فسخ شده است",
+        "start_char": 1773,
+        "end_char": 1833,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان یا فسخ و به طور کلی انحلال عقد",
+        "start_char": 1922,
+        "end_char": 1958,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "بطلان یا فسخ و به طور کلی انحلال عقد",
+        "start_char": 1922,
+        "end_char": 1958,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دایر بر مطالبه مبلغ / 250/000/000 ریال",
+        "start_char": 82,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "صدور چک فوق",
+        "start_char": 1691,
+        "end_char": 1702,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "سپس به خواهان انتقال یافته",
+        "start_char": 333,
+        "end_char": 359,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی آقای ع. م.ز.",
+        "start_char": 1249,
+        "end_char": 1276,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظر خواهی",
+        "start_char": 2410,
+        "end_char": 2431,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "عینا تائید می نماید",
+        "start_char": 2500,
+        "end_char": 2519,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان",
+        "start_char": 0,
+        "end_char": 19,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده",
+        "start_char": 56,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه مدعی است",
+        "start_char": 1665,
+        "end_char": 1687,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "در حق خواهان محکوم می نماید",
+        "start_char": 832,
+        "end_char": 859,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌له",
+      "evidence": {
+        "quote": "و به محکوم له ایصال دارد",
+        "start_char": 1047,
+        "end_char": 1071,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "مستند دعوی خواهان یک فقره چک بشماره",
+        "start_char": 173,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مطالبه مبلغ / 250/000/000 ریال",
+        "start_char": 90,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای صادره غیابی",
+        "start_char": 1126,
+        "end_char": 1141,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک به خواهان انتقال یافته است",
+      "evidence": {
+        "quote": "سپس به خواهان انتقال یافته است",
+        "start_char": 333,
+        "end_char": 363,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در دادگاه حضور نیافته است",
+      "evidence": {
+        "quote": "خوانده با وصف ابلاغ قانونی و استحضار از آن در دادگاه حضور نیافته",
+        "start_char": 471,
+        "end_char": 535,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رای به صورت غیابی صادر شده است",
+      "evidence": {
+        "quote": "رای صادره غیابی",
+        "start_char": 1126,
+        "end_char": 1141,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

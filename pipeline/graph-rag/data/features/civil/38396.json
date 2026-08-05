@@ -1,0 +1,173 @@
+{
+  "ruling_id": "38396",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "تا اصل عدم تبرع حاکم باشد",
+        "start_char": 1570,
+        "end_char": 1595,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نظم عمومی",
+      "evidence": {
+        "quote": "در غیراینصورت نظم عمومی دریافت و پرداخت ها در جامعه مختل شده",
+        "start_char": 1723,
+        "end_char": 1783,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه 435میلیون ریال وجه",
+        "start_char": 198,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با توصیف اجمالی پرونده مشتمل است.بر تجدیدنظرخواهی خانم ل. ج. ک.",
+        "start_char": 0,
+        "end_char": 63,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "در موضوع دادنامه مورد اعتراض به شماره 5086-1401",
+        "start_char": 113,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "به حساب تجدیدنظرخوانده واریز شده است",
+        "start_char": 997,
+        "end_char": 1033,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادگاه تجدیدنظرخواسته و استنتاج محکمه نخستین مبتنی بر روند صحیح دادرسی در پرونده و با وضعیت بی نقصی ناظر به موازین قانونی می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ل. ج. ک.",
+        "start_char": 36,
+        "end_char": 63,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت اقای ح. ب.",
+        "start_char": 93,
+        "end_char": 112,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "به مثابه وصول ثمن توسط فروشنده {تجدیدنظرخواه} است",
+        "start_char": 1406,
+        "end_char": 1455,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "به خواسته مطالبه 435میلیون ریال وجه",
+        "start_char": 198,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "خواسته استرداد وجه چکی است",
+        "start_char": 941,
+        "end_char": 967,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "بابت خرید قبلی خودرو",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت بخشی از وجه خرید خودرو توسط تجدیدنظرخوانده وجود داشته است",
+      "evidence": {
+        "quote": "ادعای پرداخت بخشی از وجه خرید قبلی خودرو توسط تجدیدنظرخوانده وجود داشته و این موضوع صحت دارد",
+        "start_char": 585,
+        "end_char": 677,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخوانده برای فرار از دین اموال را به نام همسر دوم خود کرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده برای فرار از دین همسر اولش اموال را به نام همسر دوم خود {تجدیدنظرخواه} نموده",
+        "start_char": 723,
+        "end_char": 814,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "جعل امضای ظهر چک در پرونده کیفری محرز نشده است",
+      "evidence": {
+        "quote": "دادنامه کیفری00717-99 شعبه 41 دادگاه تجدیدنظر استان تهران بر محرز نشدن اتهام جعل امضای ظهرچک دلالت دارد",
+        "start_char": 1054,
+        "end_char": 1157,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

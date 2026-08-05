@@ -1,0 +1,163 @@
+{
+  "ruling_id": "10442",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال 4 فقره اوراق مشارکت",
+        "start_char": 72,
+        "end_char": 97,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "دارنده آن مالک تلقی می‌شود",
+        "start_char": 438,
+        "end_char": 464,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان اوراق مشارکت",
+        "start_char": 569,
+        "end_char": 587,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "خواهان می‌تواند نسبت به شخص یا اشخاص دارنده آن اوراق جهت مطالبه حق اقامه دعوی نماید",
+        "start_char": 807,
+        "end_char": 890,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال 4 فقره اوراق مشارکت",
+        "start_char": 72,
+        "end_char": 97,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم بطلان آن اوراق",
+        "start_char": 302,
+        "end_char": 325,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "آقای الف.الف. فرزند م. به طرفیت بانک م.",
+        "start_char": 13,
+        "end_char": 52,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت بانک م.",
+        "start_char": 36,
+        "end_char": 52,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "دارنده",
+      "evidence": {
+        "quote": "دارنده آن مالک تلقی می‌شود",
+        "start_char": 438,
+        "end_char": 464,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "مرجع",
+      "evidence": {
+        "quote": "مرجع قضایی",
+        "start_char": 518,
+        "end_char": 528,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اوراق",
+      "evidence": {
+        "quote": "4 فقره اوراق مشارکت",
+        "start_char": 78,
+        "end_char": 97,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "اسناد در وجه حامل",
+        "start_char": 1542,
+        "end_char": 1559,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اوراق مشارکت مفقود شده است",
+      "evidence": {
+        "quote": "به علت آنکه مفقود گردیده است",
+        "start_char": 265,
+        "end_char": 293,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان دعوا را اقامه کرده است",
+      "evidence": {
+        "quote": "آقای الف.الف. فرزند م. به طرفیت بانک م.",
+        "start_char": 13,
+        "end_char": 52,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه نخستین به دعوا رسیدگی نکرده است",
+      "evidence": {
+        "quote": "در دوسیه مطمح نظر دادگاه نخستین هیچگونه اقدامی انجام نداده است",
+        "start_char": 2278,
+        "end_char": 2340,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

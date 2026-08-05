@@ -1,0 +1,173 @@
+{
+  "ruling_id": "9587",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تخلف",
+      "evidence": {
+        "quote": "نامی از تخلف ارتفاع اضافی برده نشده",
+        "start_char": 62,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لاضرر",
+      "evidence": {
+        "quote": "قاعده فقهی لاضرر و لاضرار فی الاسلام",
+        "start_char": 315,
+        "end_char": 351,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اضرار",
+      "evidence": {
+        "quote": "به لحاظ اضرار به غیر",
+        "start_char": 560,
+        "end_char": 580,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "منافع عمومی",
+      "evidence": {
+        "quote": "تجاوز به منافع عمومی",
+        "start_char": 583,
+        "end_char": 603,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انقضاء",
+      "evidence": {
+        "quote": "به لحاظ انقضاء مدت بیست روز",
+        "start_char": 1338,
+        "end_char": 1365,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "مورد اعتراض قرار گیرد",
+        "start_char": 251,
+        "end_char": 272,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شده است",
+        "start_char": 1308,
+        "end_char": 1329,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "از ناحیه مالک مجاور",
+        "start_char": 231,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شکایت شاکی",
+        "start_char": 659,
+        "end_char": 669,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه نسبت به دادنامه",
+        "start_char": 1027,
+        "end_char": 1055,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مربوطه",
+      "evidence": {
+        "quote": "به مشمول مربوطه در شهرداری",
+        "start_char": 1160,
+        "end_char": 1186,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شهرداری",
+      "evidence": {
+        "quote": "شهرداری بندر انزلی",
+        "start_char": 528,
+        "end_char": 546,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی کمیسیون تجدیدنظر شهرداری بندر انزلی",
+        "start_char": 507,
+        "end_char": 546,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1537",
+        "start_char": 1040,
+        "end_char": 1066,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تجاوز به ارتفاع مجاز صورت گرفته است",
+      "evidence": {
+        "quote": "تخلف ارتفاع اضافی",
+        "start_char": 70,
+        "end_char": 87,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی پس از انقضای مهلت بیست روز انجام شده است",
+      "evidence": {
+        "quote": "به لحاظ انقضاء مدت بیست روز مقرر",
+        "start_char": 1338,
+        "end_char": 1370,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

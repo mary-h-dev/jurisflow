@@ -1,0 +1,133 @@
+{
+  "ruling_id": "5291",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "به خواسته اجرت المثل به شرح دادخواست تقدیمی",
+        "start_char": 120,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "مؤید رابطه زوجیت دائم بین طرفین می باشد",
+        "start_char": 209,
+        "end_char": 248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "بدون قصد تبرع بر انجام آن ها قیام کرده",
+        "start_char": 531,
+        "end_char": 569,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به نظریه کارشناسی اعتراضی از سوی طرفین واصل نگردیده",
+        "start_char": 584,
+        "end_char": 640,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی درمحاکم محترم تجدیدنظر استان تهران نمی باشد",
+        "start_char": 946,
+        "end_char": 1008,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان خانم الف.الف.",
+        "start_char": 0,
+        "end_char": 37,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای م.ف.",
+        "start_char": 66,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از این حیث مورد اعتراض وکیل تجدیدنظرخواه واقع شده است",
+        "start_char": 1283,
+        "end_char": 1336,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "و سند نکاحیه به شماره 43993 مورخ 17/5/83",
+        "start_char": 165,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "حکم بر محکومیت خوانده به پرداخت مبلغ 000/000/54 ریال",
+        "start_char": 761,
+        "end_char": 813,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجیت طرفین با وجود سند نکاحیه ثابت شده است",
+      "evidence": {
+        "quote": "سند نکاحیه به شماره 43993 مورخ 17/5/83 که مؤید رابطه زوجیت دائم بین طرفین می باشد",
+        "start_char": 167,
+        "end_char": 248,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زن کارهای روزمره منزل را بدون قصد تبرع انجام داده است",
+      "evidence": {
+        "quote": "زوجه علی رغم آنکه وظیفه ای در قبال کارهای روزمره و جاری منزل همسرش نداشته بدون قصد تبرع بر انجام آن ها قیام کرده",
+        "start_char": 457,
+        "end_char": 569,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

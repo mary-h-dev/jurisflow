@@ -1,0 +1,183 @@
+{
+  "ruling_id": "29541",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "به خواسته محکومیت تضامنی خواندگان",
+        "start_char": 264,
+        "end_char": 297,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمانت",
+      "evidence": {
+        "quote": "ملاحظه ضمانت و تعهد مورث",
+        "start_char": 848,
+        "end_char": 872,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمان",
+      "evidence": {
+        "quote": "تعلیق در ضمان مثل اینکه ضامن قید کند اگر مدیون نداد من ضامنم باطل است",
+        "start_char": 2898,
+        "end_char": 2967,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "سیصد عدد سکه تمام طلای بهار آزادی را مطالبه نموده است",
+        "start_char": 653,
+        "end_char": 706,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "چنانچه زوج از پرداخت مهریه استنکاف نموده است",
+        "start_char": 2550,
+        "end_char": 2594,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "بر رد دعوی خواهان اصلی را صادر و اعلام می گردد",
+        "start_char": 3237,
+        "end_char": 3283,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بنام خانم 2) س. ن. فرزند ع. و 3)آقای الف. الف. ی 4)خانم م. الف.الف. فرزند م. 5)خانم س. الف.الف. فرزند م. 6)خانم پ. الف. فرزند م. 7)خانم ف. الف. فرزند م. به خواسته محکومیت تضامنی خواندگان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به خواسته محکومیت تضامنی خواندگان",
+        "start_char": 264,
+        "end_char": 297,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ورثه",
+      "evidence": {
+        "quote": "سایر خواندگان ورثه مرحوم م. الف.",
+        "start_char": 500,
+        "end_char": 532,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مورث",
+      "evidence": {
+        "quote": "ملاحظه ضمانت و تعهد مورث خواندگان",
+        "start_char": 848,
+        "end_char": 881,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "چنانچه زوج از پرداخت مهরিه استنکاف نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "600 عدد سکه تمام طلای بهار آزادی",
+        "start_char": 308,
+        "end_char": 340,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "طبق سند رسمی ازدواج همسر شرعی و قانونی خوانده ردیف اول می باشد",
+        "start_char": 435,
+        "end_char": 497,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "با ملاحظه عقدنامه که صراحتا قید شده است",
+        "start_char": 2508,
+        "end_char": 2547,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ماترک",
+      "evidence": {
+        "quote": "از ماترک مورث خود بر له خواهان",
+        "start_char": 1289,
+        "end_char": 1319,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود ازدواج شرعی و قانونی",
+      "evidence": {
+        "quote": "طبق سند رسمی ازدواج همسر شرعی و قانونی خوانده ردیف اول می باشد",
+        "start_char": 435,
+        "end_char": 497,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل پرداخت از سوی خواندگان",
+      "evidence": {
+        "quote": "عدم ارائه ادله از سوی خواندگان بر پرداخت دلیل",
+        "start_char": 933,
+        "end_char": 978,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

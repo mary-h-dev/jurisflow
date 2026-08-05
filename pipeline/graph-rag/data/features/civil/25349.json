@@ -1,0 +1,103 @@
+{
+  "ruling_id": "25349",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت‌المثل اموال",
+        "start_char": 54,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مال مشاع",
+      "evidence": {
+        "quote": "تصرف شریک مال مشاع کافی برای مطالبه اجرت‌المثل از ناحیه شریک نیست",
+        "start_char": 529,
+        "end_char": 594,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت‌المثل اموال",
+        "start_char": 44,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "آن را تائید و استوار می‌نماید",
+        "start_char": 1678,
+        "end_char": 1707,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "استماع اظهارات خواهان",
+        "start_char": 221,
+        "end_char": 242,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "تصرف قبلی خوانده دعوی",
+        "start_char": 1429,
+        "end_char": 1450,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "یک دستگاه خودروی کامیون به شماره شهربانی... و شماره کشنده...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت خواهان از مسیر قانونی اثبات شده است",
+      "evidence": {
+        "quote": "اساس مالکیت وی از مسیر قانونی به اثبات رسیده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین در مال مشاع با هم شرکت دارند",
+      "evidence": {
+        "quote": "با توجه به شرکت طرفین در مال مشاع",
+        "start_char": 1486,
+        "end_char": 1519,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

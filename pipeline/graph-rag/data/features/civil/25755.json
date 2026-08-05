@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25755",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نظم عمومی",
+      "evidence": {
+        "quote": "و موجبات بر هم خوردن نظم عمومی و توافق خلاف نظم عمومی و متعارف جامعه می گردد",
+        "start_char": 1508,
+        "end_char": 1584,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "ضمن عقد مذکور (عقد قرض)",
+        "start_char": 3179,
+        "end_char": 3202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خواهان حق مطالبه خسارت تأخیر تأدیه دارد",
+        "start_char": 1676,
+        "end_char": 1715,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مبلغ یازده میلیون تومان",
+        "start_char": 235,
+        "end_char": 265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به انضمام الزام خوانده به پرداخت وجه التزام",
+        "start_char": 286,
+        "end_char": 329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی کرده است",
+        "start_char": 2371,
+        "end_char": 2393,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته نقض می گردد",
+        "start_char": 3718,
+        "end_char": 3753,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان آقای الف.م.",
+        "start_char": 168,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای الف.ب.",
+        "start_char": 213,
+        "end_char": 233,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه مبلغ یازده میلیون تومان",
+        "start_char": 3104,
+        "end_char": 3140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به تجدیدنظر خوانده داده است",
+        "start_char": 3149,
+        "end_char": 3176,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رسید",
+      "evidence": {
+        "quote": "ذیل مستند ابرازی خواهان",
+        "start_char": 520,
+        "end_char": 543,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "مطالبه مبلغ یازده میلیون تومان",
+        "start_char": 235,
+        "end_char": 265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه التزام",
+      "evidence": {
+        "quote": "به پرداخت وجه التزام در رسید عادی",
+        "start_char": 309,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده امضای خود را زیر سند انکار کرد",
+      "evidence": {
+        "quote": "ضمن قبول امضای خود ذیل مستند ابرازی خواهان اعلام کردند که ذیل سند را در حالت هوشیاری کامل امضاء نکرده اند",
+        "start_char": 501,
+        "end_char": 606,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده مبلغ یازده میلیون تومان را به تجدیدنظرخواه پرداخت کرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه مبلغ یازده میلیون تومان وجه نقد به تجدیدنظر خوانده داده است",
+        "start_char": 3104,
+        "end_char": 3176,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

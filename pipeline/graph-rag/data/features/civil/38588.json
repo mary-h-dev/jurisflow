@@ -1,0 +1,183 @@
+{
+  "ruling_id": "38588",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی تجدیدنظرخواه",
+        "start_char": 129,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام به تمکین عام و خاص",
+        "start_char": 170,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اقای ا. ع.",
+        "start_char": 0,
+        "end_char": 24,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "مطب پزشکی خود را به *انتقال داده است",
+        "start_char": 430,
+        "end_char": 466,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تهیه",
+      "evidence": {
+        "quote": "منزل جهت ادامه زندگی مشترک با همسرش تهیه نموده است",
+        "start_char": 569,
+        "end_char": 619,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 1064,
+        "end_char": 1094,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "دعوی تجدیدنظرخواه",
+        "start_char": 142,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "حق انتخاب مسکن برای زوجه شرط نشده است",
+        "start_char": 244,
+        "end_char": 281,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "حق انتخاب مسکن برای زوجه شرط نشده است",
+        "start_char": 244,
+        "end_char": 281,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "در سند نکاحیه زوجین",
+        "start_char": 224,
+        "end_char": 243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پروانه",
+      "evidence": {
+        "quote": "حسب کپی پروانه طبابت",
+        "start_char": 387,
+        "end_char": 407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره‌نامه",
+      "evidence": {
+        "quote": "حسب کپی اجاره نامه",
+        "start_char": 540,
+        "end_char": 558,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره *مورخ 1401/12/24",
+        "start_char": 61,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "در سند نکاحیه حق انتخاب مسکن برای زوجه شرط نشده است",
+      "evidence": {
+        "quote": "در سند نکاحیه زوجین حق انتخاب مسکن برای زوجه شرط نشده است",
+        "start_char": 224,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه پزشک است",
+      "evidence": {
+        "quote": "شغل تجدیدنظرخواه پزشک است",
+        "start_char": 359,
+        "end_char": 384,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مطب پزشکی به شخص دیگری انتقال یافته است",
+      "evidence": {
+        "quote": "مطب پزشکی خود را به *انتقال داده است",
+        "start_char": 430,
+        "end_char": 466,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محل سکونت مشترک تهیه شده است",
+      "evidence": {
+        "quote": "منزل جهت ادامه زندگی مشترک با همسرش تهیه نموده است",
+        "start_char": 569,
+        "end_char": 619,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

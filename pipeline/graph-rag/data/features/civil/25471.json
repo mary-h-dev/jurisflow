@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25471",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "وجود رابطه زوجیت فیمابین طرفین محرز است",
+        "start_char": 221,
+        "end_char": 260,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مظنه",
+      "evidence": {
+        "quote": "در صورت ثبوت مظنه ضرر بدنی زوجه",
+        "start_char": 590,
+        "end_char": 621,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر",
+        "start_char": 783,
+        "end_char": 812,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام به تمکین",
+        "start_char": 66,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در دادگاه تجدیدنظر",
+        "start_char": 872,
+        "end_char": 902,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای و. ص.",
+        "start_char": 992,
+        "end_char": 1016,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی آقای و. ص. با وکالت آقای ع. ب. به طرفیت خانم ل. ص.پ.",
+        "start_char": 8,
+        "end_char": 65,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مؤید ادعای خوانده در مورد عدم امنیت جانی می‌باشد",
+        "start_char": 499,
+        "end_char": 547,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج به لحاظ ثبوت مظنه ضرر بدنی زوجه",
+        "start_char": 1234,
+        "end_char": 1269,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "مظنه ضرر بدنی زوجه",
+        "start_char": 603,
+        "end_char": 621,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "رونوشت سند نکاحیه شماره 8329",
+        "start_char": 135,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره 1101",
+        "start_char": 372,
+        "end_char": 390,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین ثابت شده است",
+      "evidence": {
+        "quote": "وجود رابطه زوجیت فیمابین طرفین محرز است",
+        "start_char": 221,
+        "end_char": 260,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه در منزل زوج امنیت جانی ندارد",
+      "evidence": {
+        "quote": "زوجه اظهار داشته در سکونت با زوج در یک منزل، امنیت جانی ندارد",
+        "start_char": 291,
+        "end_char": 352,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به دلیل причиبی جانی محکوم به پرداخت دیه شده است",
+      "evidence": {
+        "quote": "متضمن محکومیت خواهان به پرداخت دیه در حق خوانده بوده",
+        "start_char": 444,
+        "end_char": 496,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

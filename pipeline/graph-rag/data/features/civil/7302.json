@@ -1,0 +1,153 @@
+{
+  "ruling_id": "7302",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "صدور حکم بر خلع ید خوانده",
+        "start_char": 76,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "حق عمری را قبول نداریم",
+        "start_char": 1883,
+        "end_char": 1905,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "موجب بطلان حق انتفاع نمی شود",
+        "start_char": 4382,
+        "end_char": 4410,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق انتفاع",
+      "evidence": {
+        "quote": "بطلان حق انتفاع نمی شود",
+        "start_char": 4387,
+        "end_char": 4410,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "به دادگستری بجنورد تسلیم کرده",
+        "start_char": 128,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مخدوش تشخیص و مستنداً به بند 2 و قسمت آخر بند 5 ماده 371 قانون آیین دادرسی دادگاه های عمومی و انقلاب در امور مدنی نقض می شود",
+        "start_char": 4923,
+        "end_char": 5047,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم ت.ش. به خواسته صدور حکم بر خلع ید خوانده",
+        "start_char": 47,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان ها با تکرار مندرجات دادخواست",
+        "start_char": 758,
+        "end_char": 793,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موصی",
+      "evidence": {
+        "quote": "اقدام موصی به فروش ملک",
+        "start_char": 4520,
+        "end_char": 4542,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "یک باب",
+      "evidence": {
+        "quote": "خلع ید خوانده از یک باب منزل",
+        "start_char": 88,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وصیت‌نامه",
+      "evidence": {
+        "quote": "وصیت نامه مورخ 18/10/82",
+        "start_char": 1429,
+        "end_char": 1452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "در مبایعه نامه ای که سال ها پس از آن وصیت نامه",
+        "start_char": 2507,
+        "end_char": 2553,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مورث طرفین وصیت کرده است",
+      "evidence": {
+        "quote": "مقرر داشته یک باب اطاق 4×3 و یک آشپزخانه 5/1 در 3 و یک حمام به اضافه دستشویی در اختیار خانم ت.ش. همسرش قرار گیرد",
+        "start_char": 4105,
+        "end_char": 4217,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت ملک توسط خواهان‌ها خریداری شده است",
+      "evidence": {
+        "quote": "مالکیت خواهان ها حسب قول نامه عادی مورخ 13/8/88 و اظهارات شهود و رونوشن دادنامه پیوست دادخواست بر ملک مورد ترافع محرز است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

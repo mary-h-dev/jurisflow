@@ -1,0 +1,183 @@
+{
+  "ruling_id": "30892",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "شرط داوری در قرارداد تنظیمی به شماره 1575/5/ی مورخ 23/7/90 وجود ندارد",
+        "start_char": 633,
+        "end_char": 702,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "حکم به ابطال رای داوری صادر و اعلام می دارد",
+        "start_char": 997,
+        "end_char": 1040,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "املاک ی. فاقد صلاحیت برای رسیدگی به اختلاف بوده است",
+        "start_char": 491,
+        "end_char": 542,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "قابل واخواهی",
+        "start_char": 1264,
+        "end_char": 1276,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظر",
+      "evidence": {
+        "quote": "قابل تجدیدنظر",
+        "start_char": 1294,
+        "end_char": 1307,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "حکم به ابطال رای داوری صادر و اعلام می دارد",
+        "start_char": 997,
+        "end_char": 1040,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد واخواهی",
+      "evidence": {
+        "quote": "ضمن رد واخواهی حکم بر ابرام و تایید رای صادره صادر و اعلام میدارد",
+        "start_char": 2135,
+        "end_char": 2200,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادره",
+      "evidence": {
+        "quote": "ضمن رد واخواهی بر ابطال رای داوری فاقد تاریخ اشعار داشته و مورد تجدیدنظر خواهی ع. ل. واقع شده است در اساس موافق قانون ومقررات موضوعه ومدارک ابرازی بوده و اعتراض به شرح لایحه اعترازیه وارد نبوده و متضمن جهت موجه در نقض آن نمی باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل محترم خواهان",
+        "start_char": 112,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در خصوص خوانده ردیف اول",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "بموجب بند 2 قرارداد متمم، آقایان ع. و ت. بعنوان حکم معرفی شده اند",
+        "start_char": 285,
+        "end_char": 350,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت",
+      "evidence": {
+        "quote": "قرارداد مشارکت ساخت به شماره 1575/5/ی مورخ 23/7/90",
+        "start_char": 180,
+        "end_char": 230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "بموجب قرارداد متمم تنظیمی",
+        "start_char": 733,
+        "end_char": 758,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای داوری توسط املاک ی. که فاقد صلاحیت جهت رسیدگی به امر می باشد، صادر گردیده است",
+        "start_char": 760,
+        "end_char": 841,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "قرارداد اصلی فاقد شرط داوری بوده است",
+      "evidence": {
+        "quote": "قرارداد مشارکت ساخت به شماره 1575/5/ی مورخ 23/7/90 تنظیمی فیمابین طرفین فاقد شرط داوری بوده",
+        "start_char": 180,
+        "end_char": 271,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در قرارداد متمم، اشخاص دیگری به عنوان حکم تعیین شده‌اند",
+      "evidence": {
+        "quote": "بموجب بند 2 قرارداد متمم، آقایان ع. و ت. بعنوان حکم معرفی شده اند",
+        "start_char": 285,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رای داوری توسط شخصی صادر شده که فاقد صلاحیت بوده است",
+      "evidence": {
+        "quote": "رای داوری توسط املاک ی. که فاقد صلاحیت جهت رسیدگی به امر می باشد، صادر گردیده است",
+        "start_char": 760,
+        "end_char": 841,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

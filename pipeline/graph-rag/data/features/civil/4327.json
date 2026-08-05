@@ -1,0 +1,193 @@
+{
+  "ruling_id": "4327",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "الزام خوانده به ایفای تعهد",
+        "start_char": 79,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "خوانده دلیلی بر فسخ",
+        "start_char": 510,
+        "end_char": 529,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌اعتباری",
+      "evidence": {
+        "quote": "بی اعتباری و ابطال آن",
+        "start_char": 533,
+        "end_char": 554,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "اصل لزوم قراردادها",
+        "start_char": 1256,
+        "end_char": 1274,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "طبق اصل صحت و اصل لزوم",
+        "start_char": 2680,
+        "end_char": 2702,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تکمیل و تحویل آپارتمان",
+        "start_char": 114,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "درخواست ابطال جریمه",
+        "start_char": 227,
+        "end_char": 246,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در محاکم تجدیدنظر",
+        "start_char": 2272,
+        "end_char": 2301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض دادنامه",
+        "start_char": 2884,
+        "end_char": 2905,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خانم م.ن. با وکالت آقای ن.ز. به طرفیت شرکت و. سهامی خاص به خواسته الزام خوانده",
+        "start_char": 8,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به ایفای تعهد",
+        "start_char": 79,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "تکمیل و تحویل آپارتمان",
+        "start_char": 114,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "مقرر در بند ج از ماده 3 قرارداد",
+        "start_char": 247,
+        "end_char": 278,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جریمه",
+      "evidence": {
+        "quote": "ابطال جریمه مقرر در بند ج",
+        "start_char": 235,
+        "end_char": 260,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "واحد",
+      "evidence": {
+        "quote": "تکمیل و ساخت واحد مورد نزاع",
+        "start_char": 1798,
+        "end_char": 1825,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه حقوقی طرفین بر اساس قرارداد مورخه 25/11/83 است",
+      "evidence": {
+        "quote": "رابطه حقوقی طرفین دعوی، مطابق مفاد قرار داد مورخه 25/11/83 به شماره 2012 مفروغ عنه از اختلاف بوده",
+        "start_char": 410,
+        "end_char": 507,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده به دلیل فسخ یا ابطال قرارداد دلیلی ارائه نکرده است",
+      "evidence": {
+        "quote": "خوانده دلیلی بر فسخ یا بی اعتباری و ابطال آن اقامه ننموده اند",
+        "start_char": 510,
+        "end_char": 571,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده متعهد به تحویل آپارتمان در مدت 36 ماهه بوده است",
+      "evidence": {
+        "quote": "خوانده متعهد بودند 36 ماهه با تنظیم صورت مجلس آپارتمان مورد تعهد خود را که در قالب پیش فروش به خواهان انتقال داده بودند را، تحویل دهند",
+        "start_char": 621,
+        "end_char": 755,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

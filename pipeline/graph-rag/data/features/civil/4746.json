@@ -1,0 +1,213 @@
+{
+  "ruling_id": "4746",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "عقدبیع، بایع را به تسلیم مبیع ملزم می نماید",
+        "start_char": 2475,
+        "end_char": 2518,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "تحویل ملک که از جمله تعهدات قراردادی و آثار بیع مندرج در ماده 362 قانون مدنی است",
+        "start_char": 480,
+        "end_char": 560,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "الزام خوانده ردیف اول به تحویل مبیع",
+        "start_char": 101,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "الزام خوانده ردیف دوم به استرداد مبایعه نامه شماره 25328",
+        "start_char": 139,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوای خواهان صادر",
+        "start_char": 789,
+        "end_char": 819,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه متعرض عنه به استناد ماده 353 قانون آیین دادرسی مدنی در این قسمت نیز نقض",
+        "start_char": 3118,
+        "end_char": 3197,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بطلان دعوای خواهان صادر",
+        "start_char": 796,
+        "end_char": 819,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده ردیف اول به تحویل مبیع",
+        "start_char": 101,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "بایع را به تسلیم مبیع ملزم می نماید",
+        "start_char": 2483,
+        "end_char": 2518,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "به مجرد وقوع بیع، مشتری مالک مبیع و بایع ملک ثمن می شود",
+        "start_char": 2386,
+        "end_char": 2441,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "بایستی نسخه ای نزد فروشنده و خریدار و دیگری در دفتر مشاور املاک باشد",
+        "start_char": 3044,
+        "end_char": 3112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "بایستی نسخه ای نزد فروشنده و خریدار و دیگری در دفتر مشاور املاک باشد",
+        "start_char": 3044,
+        "end_char": 3112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "درخصوص خواسته اول تجدیدنظرخواه مبنی بر تحویل مبیع",
+        "start_char": 2099,
+        "end_char": 2148,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "الزام خوانده ردیف اول به تحویل مبیع",
+        "start_char": 101,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه شماره",
+      "evidence": {
+        "quote": "استرداد مبایعه نامه شماره 25328",
+        "start_char": 164,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "مبنی بر اینکه ملک تحویل موکل ایشان شده است",
+        "start_char": 335,
+        "end_char": 377,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "از تحویل بیع نامه به موکل خودداری نموده است",
+        "start_char": 933,
+        "end_char": 976,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک قبلاً تحویل شده است",
+      "evidence": {
+        "quote": "مبنی بر اینکه ملک تحویل موکل ایشان شده است",
+        "start_char": 335,
+        "end_char": 377,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قفل ملک توسط خوانده تعویض شده است",
+      "evidence": {
+        "quote": "بعداً قفل آن توسط خوانده ردیف اول تعویض شده است",
+        "start_char": 384,
+        "end_char": 431,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده از تحویل بیع‌نامه خودداری کرده است",
+      "evidence": {
+        "quote": "خوانده ردیف دوم از تحویل بیع نامه به موکل خودداری نموده است",
+        "start_char": 917,
+        "end_char": 976,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "29538",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "انجام تعهد",
+      "evidence": {
+        "quote": "به خواسته الزام به انجام تعهد به خرید یک واحد آپارتمان",
+        "start_char": 123,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی مطروحه",
+        "start_char": 1772,
+        "end_char": 1796,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خریداری",
+      "evidence": {
+        "quote": "خریداری نماید",
+        "start_char": 982,
+        "end_char": 995,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واگذار",
+      "evidence": {
+        "quote": "کلیه حق و حقوقات آن را به م. ق. واگذار نماید",
+        "start_char": 1028,
+        "end_char": 1072,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض عنه",
+        "start_char": 3383,
+        "end_char": 3408,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "ونیزپرداخت هزینه دادرسی و حق الوکاله خواهان",
+        "start_char": 3601,
+        "end_char": 3643,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست تقدیمی خواهان خانم م. ق.ع.",
+        "start_char": 18,
+        "end_char": 53,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای م. ش.ع.",
+        "start_char": 75,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به تعهد خود",
+        "start_char": 2779,
+        "end_char": 2802,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده به تعهد خویش",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "به موجب سندعادی مورخ 90/9/20",
+        "start_char": 295,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "خرید یک واحد آپارتمان",
+        "start_char": 156,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "سند ملک را به نام ایشان زده",
+        "start_char": 998,
+        "end_char": 1025,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "امضای خوانده در سند وجود دارد",
+      "evidence": {
+        "quote": "متضمن امضاءواثر انگشت خوانده و دست خط اوست",
+        "start_char": 327,
+        "end_char": 369,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تعهد خرید آپارتمان انجام نشده است",
+      "evidence": {
+        "quote": "به رغم اخطارهای شفاهی و کتبی ازانجام تعهد خودداری کرده",
+        "start_char": 546,
+        "end_char": 600,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "ruling_id": "27792",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "بعلت عسر و حرج و عدم اطلاع به بیماری تشنج",
+        "start_char": 96,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی مشارالیها صادر",
+        "start_char": 5820,
+        "end_char": 5852,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "بخواسته صدور حکم طلاق",
+        "start_char": 72,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مادامیکه زوجه نفقه استحقاقی خود را مطالبه نکرده",
+        "start_char": 8116,
+        "end_char": 8163,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تکذیب",
+      "evidence": {
+        "quote": "شهود مورد تعرفه خوانده را موکله اش تکذیب می نماید",
+        "start_char": 6263,
+        "end_char": 6311,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد تجدیدنظر",
+      "evidence": {
+        "quote": "و رد تجدیدنظر خواهی بعمل آمده",
+        "start_char": 6595,
+        "end_char": 6624,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "پس از اینکه خواهان اظهار داشت",
+        "start_char": 650,
+        "end_char": 679,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده پاسخ داد حاضر به طلاق نمیباشد",
+        "start_char": 716,
+        "end_char": 752,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج ادامه داد برای زوجه طلا خریده",
+        "start_char": 1800,
+        "end_char": 1833,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "مادامیکه زوجه نفقه استحقاقی خود را مطالبه نکرده",
+        "start_char": 8116,
+        "end_char": 8163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "خانم م. ا.دارای پروانه وکالت",
+        "start_char": 3010,
+        "end_char": 3038,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاهد",
+      "evidence": {
+        "quote": "شهود دارم در مورد مهریه جداگانه اقدام کردم",
+        "start_char": 1283,
+        "end_char": 1325,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "معرفی داور توسط هر یک از طرفین",
+        "start_char": 2924,
+        "end_char": 2954,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "طبق سند نکاحیه ( بشماره...مورخ 1392/4/3 دفتر ازدواج...قلید)",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "از موقع عقد تا کنون نفقه به او نپرداخته",
+        "start_char": 447,
+        "end_char": 486,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "مبلغ 90 هزار تومان به کارت عابر بانک همسرش بعنوان قرض",
+        "start_char": 1891,
+        "end_char": 1944,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "بانک",
+      "evidence": {
+        "quote": "شناسنامه وکارت ملی و کارت عابر بانک ملی زوجه دست او بود",
+        "start_char": 1642,
+        "end_char": 1697,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج به بیماری تشنج مبتلا است",
+      "evidence": {
+        "quote": "خود فرد به داشتن بیماری صرع ( تشنج مزمن ) و استفاده از داروهای مورد نظر از اوان کودکی اقرار دارد",
+        "start_char": 2228,
+        "end_char": 2324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از بیماری خود به زوجه اطلاع نداده است",
+      "evidence": {
+        "quote": "در دوران خواستگاری و نامزدی خوانده وخانواده اش بیماری تشنج زوج را به او اطلاع ندادند",
+        "start_char": 267,
+        "end_char": 351,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج نفقه را پرداخت نکرده است",
+      "evidence": {
+        "quote": "از موقع عقد تا کنون نفقه به او نپرداخته",
+        "start_char": 447,
+        "end_char": 486,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج و زوجه هنوز زندگی مشترک در یک خانه را آغاز نکرده‌اند",
+      "evidence": {
+        "quote": "زوجین هنوز در دوران نامزدی و عقد بسر برده و زندگی مشترک خود را در زیر یک سقف را آغاز ننموده اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

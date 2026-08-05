@@ -1,0 +1,143 @@
+{
+  "ruling_id": "5293",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت اجرت المثل",
+        "start_char": 74,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت",
+        "start_char": 224,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "لهذا قصد تبرع ایشان محرز گردیده",
+        "start_char": 476,
+        "end_char": 507,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت اجرت المثل",
+        "start_char": 74,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی خواهان صادر می نماید",
+        "start_char": 629,
+        "end_char": 665,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض و نهایتاً پرونده جهت رسیدگی ماهوی",
+        "start_char": 1815,
+        "end_char": 1852,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی خواهان صادر می نماید",
+        "start_char": 629,
+        "end_char": 665,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت",
+        "start_char": 74,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "استحقاق اجرت المثل زوجه احراز دستور زوج را لازم دانسته است",
+        "start_char": 1372,
+        "end_char": 1430,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "استحقاق اجrent المثل زوجه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "برابر سند نکاحیه شماره ترتیب 3365",
+        "start_char": 242,
+        "end_char": 275,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین وجود دارد",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت برابر سند نکاحیه",
+        "start_char": 224,
+        "end_char": 258,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انجام کارهای منزل بدون قصد دریافت دستمزد بوده است",
+      "evidence": {
+        "quote": "بدون اینکه قصد دریافت دستمزد از همسرش را داشته باشد انجام می داده",
+        "start_char": 410,
+        "end_char": 475,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

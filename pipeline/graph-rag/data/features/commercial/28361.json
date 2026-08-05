@@ -1,0 +1,133 @@
+{
+  "ruling_id": "28361",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی",
+        "start_char": 116,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "عدم پذیرش دعاوی اعسار",
+        "start_char": 785,
+        "end_char": 806,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نظم عمومی",
+      "evidence": {
+        "quote": "با نظم عمومی ارتباط دارد",
+        "start_char": 2258,
+        "end_char": 2282,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی",
+        "start_char": 116,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در مجموع تجدیدنظرخواهی آقای م. ث.",
+        "start_char": 1395,
+        "end_char": 1428,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان آقای م. ث.",
+        "start_char": 0,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "به طرفیت دادستان محترم عمومی و انقلاب تهران",
+        "start_char": 62,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تاجر",
+      "evidence": {
+        "quote": "واصف تاجر بودن",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دعوی",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان",
+        "start_char": 0,
+        "end_char": 19,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به دلالت دادنامه های استنادی",
+        "start_char": 816,
+        "end_char": 844,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان هیچ یک از طلبکاران را مخاطب دعوی قرار نداده است",
+      "evidence": {
+        "quote": "که هیچ یک از طلبکاران را مخاطب دعوی قرار نداده است",
+        "start_char": 175,
+        "end_char": 224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم احراز وصف تاجر بودن برای خواهان",
+      "evidence": {
+        "quote": "عدم احراز وصف تاجر بودن خواهان",
+        "start_char": 999,
+        "end_char": 1029,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

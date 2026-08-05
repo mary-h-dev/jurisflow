@@ -1,0 +1,93 @@
+{
+  "ruling_id": "30614",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی",
+        "start_char": 83,
+        "end_char": 100,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اختلاف",
+      "evidence": {
+        "quote": "اختلاف در صلاحیت",
+        "start_char": 587,
+        "end_char": 603,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "نفی",
+      "evidence": {
+        "quote": "از خود نفی صلاحیت کرده است",
+        "start_char": 185,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حل اختلاف",
+      "evidence": {
+        "quote": "حل اختلاف می شود",
+        "start_char": 910,
+        "end_char": 926,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "عامل",
+      "evidence": {
+        "quote": "عامل فروش محصولات ا.است",
+        "start_char": 133,
+        "end_char": 156,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "ملاحظه اوراق پرونده",
+        "start_char": 560,
+        "end_char": 579,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دادگاه عمومی تهران صلاحیت خود را برای رسیدگی به درخواست ورشکستگی اعلام کرده است",
+      "evidence": {
+        "quote": "با اعلام صلاحیت دادگاه عمومی تهران حل اختلاف می شود",
+        "start_char": 875,
+        "end_char": 926,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه عمومی ساری صلاحیت خود را برای رسیدگی به پرونده نپذیرفته است",
+      "evidence": {
+        "quote": "شعبه 5 دادگاه عمومی ساری نیز برابر با قرار شماره 01113 - 1394/10/14 به اعتبار محل اقامت متوقف صلاحیت خود را نپذیرفته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

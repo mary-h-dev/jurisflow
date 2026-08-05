@@ -1,0 +1,173 @@
+{
+  "ruling_id": "23969",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "به پرداخت نفقه خواهان (زوجه)",
+        "start_char": 1687,
+        "end_char": 1715,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "تقاضای الزام خوانده به تمکین خاص وعام",
+        "start_char": 282,
+        "end_char": 319,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت طرفین محرز ومسلم میباشد",
+        "start_char": 481,
+        "end_char": 516,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوا وی صادر",
+        "start_char": 2192,
+        "end_char": 2217,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم به الزام خوانده",
+        "start_char": 105,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "نفقه زوجه را پرداخت نموده",
+        "start_char": 870,
+        "end_char": 895,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض تجدیدنظرخواه به بخش اول دادنامه وارد نیست",
+        "start_char": 2761,
+        "end_char": 2809,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه در این بخش",
+        "start_char": 3190,
+        "end_char": 3216,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اصل توضیح داده است",
+        "start_char": 517,
+        "end_char": 547,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت ع. ع. فرزند ض. به خواسته",
+        "start_char": 81,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی آقای ع. ع.",
+        "start_char": 2389,
+        "end_char": 2420,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده صادر شده است",
+        "start_char": 2656,
+        "end_char": 2689,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "از جمله فتوکپی سند نکاحیه بشماره../...صادره از دفتر خانه ازدواج",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "از طرفی مسکن را که معرفی نموده است متعلق به پدرش میباشد",
+        "start_char": 1219,
+        "end_char": 1274,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت طرفین ثابت شده است",
+      "evidence": {
+        "quote": "رابطه زوجیت طرفین محرز ومسلم میباشد",
+        "start_char": 481,
+        "end_char": 516,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده مسکن مستقل فراهم نکرده است",
+      "evidence": {
+        "quote": "خوانده هیچ مسکن واسباب تمکین جهت تمکین موکل ندارد",
+        "start_char": 744,
+        "end_char": 793,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

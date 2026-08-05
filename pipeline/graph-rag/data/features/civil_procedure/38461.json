@@ -1,0 +1,143 @@
+{
+  "ruling_id": "38461",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهدات",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به انجام تعهدات مقرر در بیمه نامه شخص ثالث",
+        "start_char": 215,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت به اعتبار و شایستگی رسیدگی موضوع در محاکم محترم عمومی حقوقی صادر و اعلام می گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به انجام تعهدات مقرر در بیمه نامه شخص ثالث",
+        "start_char": 215,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "و پرداخت دیه جراحات وارده به موکل",
+        "start_char": 281,
+        "end_char": 314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "دعوی می بایست در دادگاهی اقامه شود",
+        "start_char": 489,
+        "end_char": 523,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "پرونده برای رفع اختلاف به دیوان عالی کشور ارسال شود",
+        "start_char": 1642,
+        "end_char": 1693,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان خانم ف. ر. پ. ه",
+        "start_char": 115,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده بیمه الف",
+        "start_char": 190,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نامه",
+      "evidence": {
+        "quote": "تعهدات مقرر در بیمه نامه شخص ثالث",
+        "start_char": 247,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "پرداخت دیه جراحات وارده به موکل",
+        "start_char": 283,
+        "end_char": 314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "و پرداخت هزینه ها و خسارات دادرسی",
+        "start_char": 347,
+        "end_char": 380,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلاف در صلاحیت موضوعی دادگاه‌ها وجود دارد",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت به اعتبار و شایستگی رسیدگی موضوع در محاکم محترم عمومی حقوقی صادر و اعلام می گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرونده از شعبه اول به شعبه ۱۵ ارجاع شده بود",
+      "evidence": {
+        "quote": "در مورد قرار عدم صلاحیت شماره 140049390001907995 صادر ه از شعبه اول دادگاه عمومی بخش امیراباد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

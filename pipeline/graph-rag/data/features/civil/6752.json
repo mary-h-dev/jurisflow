@@ -1,0 +1,133 @@
+{
+  "ruling_id": "6752",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق شفعه",
+      "evidence": {
+        "quote": "تقاضای اعمال حق شفعه",
+        "start_char": 707,
+        "end_char": 727,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال تصمیم ثبتی",
+        "start_char": 495,
+        "end_char": 511,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "به خواسته اخذ به شفعه",
+        "start_char": 84,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروخته",
+      "evidence": {
+        "quote": "از سهم خود را به خوانده ردیف دوم فروخته",
+        "start_char": 325,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "پس از خرید علیه من دادخواست خلع ید داده",
+        "start_char": 380,
+        "end_char": 419,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دفاع",
+      "evidence": {
+        "quote": "در دادگاه دفاع کردم",
+        "start_char": 443,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "با ردّ اعتراض دادنامه",
+        "start_char": 1879,
+        "end_char": 1900,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان بیان داشته",
+        "start_char": 174,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف اول",
+        "start_char": 243,
+        "end_char": 258,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "نسبت به ملک به پلاک ثبتی 1479/42",
+        "start_char": 106,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم استفاده از حق شفعه پس از اطلاع از آن",
+      "evidence": {
+        "quote": "عدم استفاده وی از حق شفعه پس از اطلاع از آن",
+        "start_char": 882,
+        "end_char": 925,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله انجام شده بین خواندگان",
+      "evidence": {
+        "quote": "معامله واقع شده فی مابین خواندگان",
+        "start_char": 736,
+        "end_char": 769,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

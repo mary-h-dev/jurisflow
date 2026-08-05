@@ -1,0 +1,173 @@
+{
+  "ruling_id": "481",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "به خواسته مطالبه خسارت",
+        "start_char": 135,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجاره",
+      "evidence": {
+        "quote": "و تقلیل نسبی اجاره بها",
+        "start_char": 190,
+        "end_char": 212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار فسخ",
+      "evidence": {
+        "quote": "تنها خیار فسخ برای مستأجر ایجاد می شود",
+        "start_char": 2639,
+        "end_char": 2677,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه خسارت",
+        "start_char": 135,
+        "end_char": 157,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ000/000/200 تومان به عنوان ودیعه به وی پرداخت می گردد",
+        "start_char": 346,
+        "end_char": 403,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "خواهان طی لایحه ای به نظریه مزبور اعتراض می نماید",
+        "start_char": 2203,
+        "end_char": 2252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "خوانده تقابل را به پرداخت مبلغ000/000/20 ریال... محکوم می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از سوی خواهان مطرح شده است",
+        "start_char": 732,
+        "end_char": 758,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده در دفاع اظهارداشت",
+        "start_char": 760,
+        "end_char": 784,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "موجر تعهد نموده",
+        "start_char": 512,
+        "end_char": 527,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "استیفای منافع مستأجر را تهدید و تحدید نماید",
+        "start_char": 546,
+        "end_char": 589,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "طی قرارداد شماره 3750/630-18/11/86",
+        "start_char": 274,
+        "end_char": 308,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ودیعه",
+      "evidence": {
+        "quote": "مبلغ000/000/200 تومان به عنوان ودیعه",
+        "start_char": 346,
+        "end_char": 382,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عین مستأجره",
+      "evidence": {
+        "quote": "بروز عیب در عین مستأجره",
+        "start_char": 2537,
+        "end_char": 2560,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "بخش از زیرزمین فروشگاه توسط شهرداری پلمپ شده بود",
+      "evidence": {
+        "quote": "تنها قسمتی از زیرزمین فروشگاه در ایام محدودی توسط شهرداری پلمپ گردیده بود",
+        "start_char": 995,
+        "end_char": 1068,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مساحت عین مستأجره فاقد مجوز تجاری بوده است",
+      "evidence": {
+        "quote": "نیمی از مساحت عین مستأجره فاقد مجوز تجاری بوده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "ruling_id": "10434",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "مستنداً به ماده 198 پیش گفته، موضوع اصل برائت، حکم به بی‌حقی خواهان در این اراتباط صادر و اعلام می‌نماید.",
+        "start_char": 1475,
+        "end_char": 1580,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمانت",
+      "evidence": {
+        "quote": "ضمانت پرداخت وجه سفته‌ها را نموده",
+        "start_char": 2859,
+        "end_char": 2892,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تضامن",
+      "evidence": {
+        "quote": "ظهور در ضمانت امضاء کننده دارد و در ‌این‌صورت برابر مقررات ماده 249 قانون تجارت، ظهرنویس با متعهد سفته، در مقابل دارنده سفته، مسئولیت تضامنی دارند.",
+        "start_char": 2258,
+        "end_char": 2405,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "خواهان با ارائه لاشه چهار فقره سفته به شماره های ... خزانه‌داری کل مجموعاً یک میلیارد ریال ممضی به امضای خوانده، ادعای مطالبه وجوه آنها را نموده است.",
+        "start_char": 183,
+        "end_char": 332,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "از تاریخ تقدیم دادخواست لغایت وصول آن",
+        "start_char": 822,
+        "end_char": 859,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده به پرداخت مبلغ یک میلیارد ریال",
+        "start_char": 692,
+        "end_char": 744,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "این رأی غیابی بوده و ظرف بیست روز پس از ابلاغ واقعی، قابل واخواهی در این مرجع",
+        "start_char": 1081,
+        "end_char": 1158,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "و پس از انقضای مدت فوق، ظرف بیست روز قابل اعتراض در محاکم محترم تجدید‌نظر‌ استان تهران می‌باشد.",
+        "start_char": 1159,
+        "end_char": 1254,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان با ارائه لاشه چهار فقره سفته به شماره های ... خزانه‌داری کل مجموعاً یک میلیارد ریال ممضی به امضای خوانده، ادعای مطالبه وجوه آنها را نموده است.",
+        "start_char": 183,
+        "end_char": 332,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ع.ر.",
+        "start_char": 23,
+        "end_char": 41,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ح.س به طرفیت الف.گ.",
+        "start_char": 1732,
+        "end_char": 1765,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ح.س به طرفیت الف.گ.",
+        "start_char": 1732,
+        "end_char": 1765,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "متعهد",
+      "evidence": {
+        "quote": "ظهرنویس با متعهد سفته، در مقابل دارنده سفته، مسئولیت تضامنی دارند.",
+        "start_char": 2339,
+        "end_char": 2405,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "دارنده",
+      "evidence": {
+        "quote": "ظهرنویس با متعهد سفته، در مقابل دارنده سفته، مسئولیت تضامنی دارند.",
+        "start_char": 2339,
+        "end_char": 2405,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سفته",
+      "evidence": {
+        "quote": "لاشه چهار فقره سفته به شماره های ... خزانه‌داری کل مجموعاً یک میلیارد ریال ممضی به امضای خوانده",
+        "start_char": 199,
+        "end_char": 294,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "از تاریخ تقدیم دادخواست لغایت وصول آن",
+        "start_char": 822,
+        "end_char": 859,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند مدرکیه",
+        "start_char": 340,
+        "end_char": 350,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت انجام نشده",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده به پرداخت مبلغ یک میلیارد ریال",
+        "start_char": 692,
+        "end_char": 744,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تضامن بین متعهد و ظهرنویس",
+      "evidence": {
+        "quote": "ظهور در ضمانت امضاء کننده دارد و در ‌این‌صورت برابر مقررات ماده 249 قانون تجارت، ظهرنویس با متعهد سفته، در مقابل دارنده سفته، مسئولیت تضامنی دارند.",
+        "start_char": 2258,
+        "end_char": 2405,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "28241",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "به خواسته صدور حکم اعسار از پرداخت هزینه دادرسی",
+        "start_char": 66,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "تاجر مدعی اعسار نسبت به هزینه دادرسی باید برابر مقررات قانون تجارت دادخواست ورشکستگی تقدیم نماید",
+        "start_char": 917,
+        "end_char": 1013,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجاری",
+      "evidence": {
+        "quote": "با عنایت به فعالیت خواهان اعسار که از نوع تجاری میباشد",
+        "start_char": 782,
+        "end_char": 836,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تأسیس",
+      "evidence": {
+        "quote": "اقدام به تاسیس یک کارخانه تولیدی قطعات بدنه خودرو",
+        "start_char": 334,
+        "end_char": 383,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خرید",
+      "evidence": {
+        "quote": "اقدام به باز خرید از ادامه فعالیت در بانک کرده است",
+        "start_char": 585,
+        "end_char": 635,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ف. ج. بطرفیت آقای م. ر.",
+        "start_char": 1279,
+        "end_char": 1321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست",
+      "evidence": {
+        "quote": "ضمن رد درخواست تجدیدنظرخواهی",
+        "start_char": 2298,
+        "end_char": 2326,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نظر به اینکه خواهان اعسار در جلسه مورخ 94/2/30 دادگاه اعلام کرده است",
+        "start_char": 128,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه خود را کارخانه دار معرفی نموده",
+        "start_char": 1599,
+        "end_char": 1642,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تاجر",
+      "evidence": {
+        "quote": "تاجر مدعی اعسار نسبت به هزینه دادرسی باید برابر مقررات قانون تجارت دادخواست ورشکستگی تقدیم نماید",
+        "start_char": 917,
+        "end_char": 1013,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "به خواسته صدور حکم اعسار از پرداخت هزینه دادرسی",
+        "start_char": 66,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کارخانه",
+      "evidence": {
+        "quote": "اقدام به تاسیس یک کارخانه تولیدی قطعات بدنه خودرو",
+        "start_char": 334,
+        "end_char": 383,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان کارخانه دار بوده و ورشکسته شده است",
+      "evidence": {
+        "quote": "کارخانه دار بوده ، مدیر عامل و رئیس هیئت مدیره شرکت بوده ورشکسته شده است",
+        "start_char": 199,
+        "end_char": 271,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه در مرحله تجدیدنظر دلیل یا مدرک جدیدی ارائه نکرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی دلیل یا مدرک قانع کننده و محکمه پسندی که نقض و بی اعتباری دادنامه معترض عنه را ایجاب نماید ابراز ننموده",
+        "start_char": 1876,
+        "end_char": 2015,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

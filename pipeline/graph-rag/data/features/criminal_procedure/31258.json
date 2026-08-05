@@ -1,0 +1,123 @@
+{
+  "ruling_id": "31258",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بدون",
+      "evidence": {
+        "quote": "اتهام خانم م. ط. س. ، دایر بر بهره برداری از یک حلقه چاه بدون مجوز",
+        "start_char": 36,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مجازات",
+      "evidence": {
+        "quote": "مجازات وی به مجازات جایگزین حبس به پرداخت مبلغ 18/000/000 ریال جزای نقدی تبدیل میگردد",
+        "start_char": 827,
+        "end_char": 912,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم تجدیدنظر استان تهران میباشد",
+        "start_char": 1057,
+        "end_char": 1112,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "محکوم و",
+      "evidence": {
+        "quote": "متهمه به دو ماه حبس محکوم میگردد",
+        "start_char": 702,
+        "end_char": 734,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر و اعلام",
+      "evidence": {
+        "quote": "دادگاه قرار رد تجدیدنظرخواهی صادر و اعلام می نماید",
+        "start_char": 1823,
+        "end_char": 1873,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهمه",
+      "evidence": {
+        "quote": "بزهکاری متهم محرز و مسلم است",
+        "start_char": 568,
+        "end_char": 596,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "با عنایت به شکایت اداره شاکی",
+        "start_char": 243,
+        "end_char": 271,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادرس",
+      "evidence": {
+        "quote": "دادرس شعبه 1059 دادگاه کیفری دو تهران",
+        "start_char": 1115,
+        "end_char": 1152,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "لایحه دفاعیه",
+      "evidence": {
+        "quote": "ملاحظه لایحه دفاعیه متهمه",
+        "start_char": 482,
+        "end_char": 507,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "استفاده از چاه برای باغچه بوده است",
+      "evidence": {
+        "quote": "اظهارات متهمه در دادسرا مبنی بر اینکه چاه برای استفاده از باغچه بوده است",
+        "start_char": 407,
+        "end_char": 479,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهمه سابقه کیفایی ندارد",
+      "evidence": {
+        "quote": "فقدان سابقه",
+        "start_char": 775,
+        "end_char": 786,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

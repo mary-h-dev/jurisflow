@@ -1,0 +1,163 @@
+{
+  "ruling_id": "31238",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "صدور حکم به اعسار",
+        "start_char": 51,
+        "end_char": 68,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ملائت",
+      "evidence": {
+        "quote": "ارزیابی وضعیت ملائت یا اعسار",
+        "start_char": 197,
+        "end_char": 225,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقسیط",
+      "evidence": {
+        "quote": "مانع از پذیرش تقاضای اعسار و یا تقسیط نیست",
+        "start_char": 1337,
+        "end_char": 1379,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "تقدیم دادخواست وی در باب اعسار",
+        "start_char": 1775,
+        "end_char": 1805,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی مطروحه را صادر می نماید",
+        "start_char": 402,
+        "end_char": 438,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 2088,
+        "end_char": 2118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را برای رسیدگی ماهوی به دادگاه صادرکننده قرار منقوض اعاده می نماید",
+        "start_char": 2120,
+        "end_char": 2193,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست تقدیمی خواهان آقای م. ب.",
+        "start_char": 7,
+        "end_char": 40,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم",
+      "evidence": {
+        "quote": "محکوم به (بمیزان پنج درصد دیه کامل",
+        "start_char": 782,
+        "end_char": 816,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "دعوی تجدیدنظرخواه آقای م. ب.",
+        "start_char": 711,
+        "end_char": 739,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "محکوم علیه می تواند پیش از اتمام مدت های معین شده",
+        "start_char": 1391,
+        "end_char": 1440,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "زمان تکلیف وی به پرداخت دیه",
+        "start_char": 261,
+        "end_char": 288,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بر دادنامه تجدیدنظرخواسته",
+        "start_char": 595,
+        "end_char": 620,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وقوع ایراد صدمه در سال ۱۳۹۴",
+      "evidence": {
+        "quote": "تاریخ وقوع ایراد صدمه 1394/7/18 بوده",
+        "start_char": 150,
+        "end_char": 186,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محکومیت به پرداخت دیه در پرونده قبلی",
+      "evidence": {
+        "quote": "موضوع دادنامه شماره 9409972187201436 مورخ 1394.11.20",
+        "start_char": 876,
+        "end_char": 928,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

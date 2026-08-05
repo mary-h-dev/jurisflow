@@ -1,0 +1,163 @@
+{
+  "ruling_id": "30940",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "مطالبه خسارت وجه التزام قراردادی",
+        "start_char": 138,
+        "end_char": 170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تقاضای فسخ قراردادشده",
+        "start_char": 884,
+        "end_char": 905,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ف. ف.ن.",
+        "start_char": 3300,
+        "end_char": 3321,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه خسارت وجه التزام قراردادی",
+        "start_char": 128,
+        "end_char": 170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "حکم به تایید فسخ صادر شده است",
+        "start_char": 909,
+        "end_char": 938,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "تقاضای ابطال دادخواست را دارند",
+        "start_char": 972,
+        "end_char": 1002,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با رد درخواست تجدیدنظرخواهی",
+        "start_char": 4093,
+        "end_char": 4120,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست تقدیمی خواهان ها",
+        "start_char": 0,
+        "end_char": 32,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای ف. ف.ن.",
+        "start_char": 99,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": 3723,
+        "end_char": 3758,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "موضوع پلاک ثبتی 571-1863",
+        "start_char": 305,
+        "end_char": 329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "حسب دادنامه شماره 1051-93/12/30",
+        "start_char": 823,
+        "end_char": 854,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "قرارداد مدیریت پیمان منعقد شده است",
+      "evidence": {
+        "quote": "به موجب قراردادمدیریت پیمان مورخ 89/12/1",
+        "start_char": 264,
+        "end_char": 304,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد توسط خواهان‌ها فسخ شده است",
+      "evidence": {
+        "quote": "قرارداد مزبور به خواست خواهان ها فسخ",
+        "start_char": 1728,
+        "end_char": 1764,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در انجام تعهدات قراردادی تخلف کرده است",
+      "evidence": {
+        "quote": "خوانده با تخلف از انجام تعهدات قراردادی تکلیف به عهده وی مستقر گردیده",
+        "start_char": 2353,
+        "end_char": 2421,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

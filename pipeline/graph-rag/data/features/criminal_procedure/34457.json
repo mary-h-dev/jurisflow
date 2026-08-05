@@ -1,0 +1,143 @@
+{
+  "ruling_id": "34457",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "آدم ربایی",
+      "evidence": {
+        "quote": "دائر بر آدم ربایی",
+        "start_char": 253,
+        "end_char": 270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "تلقی قرار عدم صلاحیت می شود",
+        "start_char": 475,
+        "end_char": 502,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "شاکی در خصوص برائت متهم از اتهام آدم ربایی",
+        "start_char": 3271,
+        "end_char": 3313,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "پس از نقض دادنامه",
+        "start_char": 274,
+        "end_char": 291,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محول",
+      "evidence": {
+        "quote": "به آن شعبه بعنوان شعبه هم عرض محول و ارجاع شده بود",
+        "start_char": 356,
+        "end_char": 406,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "پرونده را به این شعبه ارسال نموده اند",
+        "start_char": 503,
+        "end_char": 540,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استناد",
+      "evidence": {
+        "quote": "بر خلاف استناد دادنامه",
+        "start_char": 727,
+        "end_char": 749,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "اتهام آقای الف. ر.خ.",
+        "start_char": 232,
+        "end_char": 252,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی شاکی",
+        "start_char": 3256,
+        "end_char": 3275,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "قسمتی از دادنامه شماره 00236 ــ 94/12/1",
+        "start_char": 164,
+        "end_char": 203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پرونده کلاسه 950076",
+        "start_char": 58,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دادنامه قبلی توسط دیوان عالی کشور نقض شده است",
+      "evidence": {
+        "quote": "پس از نقض دادنامه شماره 00764 ــ 94/6/11",
+        "start_char": 274,
+        "end_char": 314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه کیفری یک جیرفت پرونده را به دلیل عدم صلاحیت ارسال کرده است",
+      "evidence": {
+        "quote": "پرونده را به این شعبه ارسال نموده اند",
+        "start_char": 503,
+        "end_char": 540,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

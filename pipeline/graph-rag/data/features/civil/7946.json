@@ -1,0 +1,183 @@
+{
+  "ruling_id": "7946",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "معامله خواندگان به لحاظ خیار شرط بودن یک معامله باطل بوده",
+        "start_char": 518,
+        "end_char": 575,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "اصل بر صحت و لزوم قراردادهاست",
+        "start_char": 1953,
+        "end_char": 1982,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "به خواسته اعتراض ثالث",
+        "start_char": 77,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "حکم به ابطال مبایعه نامه",
+        "start_char": 187,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ه.الف.",
+        "start_char": 846,
+        "end_char": 871,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الغاء",
+      "evidence": {
+        "quote": "حکم بر الغاء دادنامه",
+        "start_char": 2513,
+        "end_char": 2533,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "بیان داشته که خوانده ردیف دوم در تاریخ 8/12/1380 سه دانگ مغازه موضوع مبایعه نامه مورخ 28/3/92 را به موکل فروخته است و علی رغم اطلاع خواهان دادنامه معترض نیز از این موضوع موکل را به دعوی فرا نخوانده است",
+        "start_char": 267,
+        "end_char": 468,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف دوم",
+        "start_char": 281,
+        "end_char": 296,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "علی رغم اطلاع خواهان",
+        "start_char": 385,
+        "end_char": 405,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به عنوان ثالث",
+        "start_char": 1773,
+        "end_char": 1799,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه مورخ 28/3/92",
+        "start_char": 330,
+        "end_char": 360,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "سه دانگ مغازه موضوع مبایعه نامه",
+        "start_char": 316,
+        "end_char": 347,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بیعنامه عادی",
+      "evidence": {
+        "quote": "طی بیع نامه عادی مورخ 1380/10/18",
+        "start_char": 1201,
+        "end_char": 1233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "ثمن معامله هم نقداً تأدیه شده است",
+        "start_char": 1298,
+        "end_char": 1331,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "موضوع معامله به دلیل وجود شرط پشیمانی باطل تشخیص داده شده بود",
+      "evidence": {
+        "quote": "معامله خواندگان به لحاظ خیار شرط بودن یک معامله باطل بوده",
+        "start_char": 518,
+        "end_char": 575,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبلغ سه میلیون تومان به عنوان شرط پشیمانی تعیین شده بود",
+      "evidence": {
+        "quote": "بایستی طرف پشیمان سه میلیون تومان به طرف دیگر بپردازد",
+        "start_char": 1392,
+        "end_char": 1445,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محل معامله به تصرف خریدار داده شده است",
+      "evidence": {
+        "quote": "محل را به تصرف او داده است",
+        "start_char": 1527,
+        "end_char": 1553,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

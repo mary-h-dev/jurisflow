@@ -1,0 +1,153 @@
+{
+  "ruling_id": "33603",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رسمی",
+      "evidence": {
+        "quote": "سند دو قسم است یا رسمی است که نزد مأمورین دولت تنظیم شده یا عادی است",
+        "start_char": 371,
+        "end_char": 439,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حجیت",
+      "evidence": {
+        "quote": "فاقد حجیت است",
+        "start_char": 591,
+        "end_char": 604,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "به خواسته اعتراض به رأی هیأت حل اختلاف",
+        "start_char": 72,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور رای",
+      "evidence": {
+        "quote": "مبادرت به صدور رأی",
+        "start_char": 270,
+        "end_char": 288,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "نقض رأی معترض عنه",
+        "start_char": 768,
+        "end_char": 785,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رای معترض به عینا تایید",
+        "start_char": 1352,
+        "end_char": 1375,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "با رد تقاضای تجدید نظرخواهی",
+        "start_char": 1257,
+        "end_char": 1284,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "از جمله شکایت شاکی",
+        "start_char": 149,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتکی عنه",
+      "evidence": {
+        "quote": "دفاعیات مشتکی عنه",
+        "start_char": 170,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "اعتراضات تجدیدنظرخواه",
+        "start_char": 988,
+        "end_char": 1009,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نامه عادی",
+      "evidence": {
+        "quote": "فتوکپی یک قرار داد نامه عادی است",
+        "start_char": 311,
+        "end_char": 343,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "صدور رأی",
+        "start_char": 280,
+        "end_char": 288,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه مورد اعتراض",
+        "start_char": 1127,
+        "end_char": 1146,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مستند مورد استناد فتوکپی است و فاقد حجیت می‌باشد",
+      "evidence": {
+        "quote": "فتوکپی صرف اصولاً سند نسبت تا مبنای حکم و رأی واقع شود و در ما نحن فیه یک برگ فتوکپی مستند رأی قرار گرفته است که فاقد حجیت است",
+        "start_char": 478,
+        "end_char": 604,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

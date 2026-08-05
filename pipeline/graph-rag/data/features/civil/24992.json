@@ -1,0 +1,183 @@
+{
+  "ruling_id": "24992",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش و طلاق",
+        "start_char": 79,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفاق",
+      "evidence": {
+        "quote": "بعلت ترک انفاق",
+        "start_char": 298,
+        "end_char": 312,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شروط ضمن",
+      "evidence": {
+        "quote": "تخلف از شروط ضمن العقد",
+        "start_char": 344,
+        "end_char": 366,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "لذا عسر و حرج زوجه فرمانده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امکان سازش",
+      "evidence": {
+        "quote": "بخواسته صدور گواهی عدم امکان سازش و طلاق",
+        "start_char": 71,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "تا کنون پرداخت نشد",
+        "start_char": 856,
+        "end_char": 874,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "بذل یک سکه از مهریه خود را",
+        "start_char": 3029,
+        "end_char": 3055,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد فرجام",
+      "evidence": {
+        "quote": "ضمن رد فرجام خواهی",
+        "start_char": 9807,
+        "end_char": 9825,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "زوجه خواهان حاضر گردید",
+        "start_char": 725,
+        "end_char": 747,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت آقای م. ع.خ.",
+        "start_char": 51,
+        "end_char": 70,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تخلف زوج از شروط ضمن العقد",
+        "start_char": 1036,
+        "end_char": 1062,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج فرجام",
+      "evidence": {
+        "quote": "زوج فرجام خواه بعد از انعقاد عقد نکاح",
+        "start_char": 8967,
+        "end_char": 9004,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "برابر سند رسمی نکاح بشماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه اش چهارده سکه است",
+        "start_char": 832,
+        "end_char": 855,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم شروع زندگی مشترک",
+      "evidence": {
+        "quote": "عدم شروع زندگی مشترک بین طرفین ثابت و محرز نبوده باشد",
+        "start_char": 7918,
+        "end_char": 7971,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه از زمان عقد",
+      "evidence": {
+        "quote": "عدم پرداخت نفقه از طرف زوج از تاریخ عقد نکاح",
+        "start_char": 7541,
+        "end_char": 7585,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رابطه زناشویی برقرار شده است",
+      "evidence": {
+        "quote": "با قرار آنان مواقعه انجام و زفاف صورت گرفته",
+        "start_char": 8051,
+        "end_char": 8094,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

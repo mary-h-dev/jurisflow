@@ -1,0 +1,193 @@
+{
+  "ruling_id": "35501",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "ظهور و دلالت به اشتغال ذمه خوانده",
+        "start_char": 434,
+        "end_char": 467,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "با استصحاب بقای دین",
+        "start_char": 869,
+        "end_char": 888,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "حصول برائت ذمه خویش",
+        "start_char": 758,
+        "end_char": 777,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "مفید انتقال هرنوع چک به صرف امضاء می باشد",
+        "start_char": 1987,
+        "end_char": 2028,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه وجه چک",
+        "start_char": 69,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عدم حضور",
+      "evidence": {
+        "quote": "ضمن عدم حضور در جلسه رسیدگی",
+        "start_char": 562,
+        "end_char": 589,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه نداده",
+      "evidence": {
+        "quote": "هیچ دلیل و مدرکی که حاکی از پرداخت دین و حصول برائت ذمه خویش باشد به دادگاه ارائه نداده",
+        "start_char": 717,
+        "end_char": 804,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "لذا اعتراض نامبرده غیرموجه تشخیص",
+        "start_char": 2505,
+        "end_char": 2537,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد اعتراض دادنامه تجدیدنظرخواسته تاییدمیگردد",
+        "start_char": 2568,
+        "end_char": 2616,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان آقای ع. ک.",
+        "start_char": 0,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت آقای ک. چ.",
+        "start_char": 51,
+        "end_char": 68,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظر خواهی آقای ک. چ.",
+        "start_char": 1541,
+        "end_char": 1573,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "فتوکپی های مصدق چک به شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "توافق‌نامه",
+      "evidence": {
+        "quote": "چه اینکه ماده 312قانون ت. مفید انتقال هرنوع چک به صرف امضاء می باشد وقلم خوردگی عبارت حواله کرد مانع واگذاری آن از طریق ظهرنویسی نمی باشد مضافاً اینکه توافق ارباب تفاعل وبین الاثنین می باشد",
+        "start_char": 1961,
+        "end_char": 2150,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک در عهده بانک است",
+      "evidence": {
+        "quote": "در عهده بانک سامان شعبه ش.",
+        "start_char": 321,
+        "end_char": 347,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "گواهی عدم پرداخت ارائه شده است",
+      "evidence": {
+        "quote": "و گواهی‌نامه عدم پرداختی بانک محال علیه",
+        "start_char": 348,
+        "end_char": 386,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه رسیدگی حضور نیافته است",
+      "evidence": {
+        "quote": "ضمن عدم حضور در جلسه رسیدگی",
+        "start_char": 562,
+        "end_char": 589,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "امضای توافق‌نامه توسط یک نفر انجام شده است",
+      "evidence": {
+        "quote": "درذیل توافق نامه که تصویر آن درص 26آمده فقط امضاء یک نفر وجود دارد",
+        "start_char": 2183,
+        "end_char": 2249,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

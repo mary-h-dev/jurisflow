@@ -1,0 +1,223 @@
+{
+  "ruling_id": "28560",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "مبنی بر ابطال رای داوری",
+        "start_char": 83,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "اعلام بطلان شرط داوری",
+        "start_char": 109,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت و غبطه موکل",
+      "evidence": {
+        "quote": "تکلیف وکیل به رعایت غبطه مصلحت موکل",
+        "start_char": 506,
+        "end_char": 541,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصل عدم",
+      "evidence": {
+        "quote": "باید به اصل عدم اختیار استناد نمود",
+        "start_char": 1650,
+        "end_char": 1684,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "اثر حقوقی که می توان بر آن عمل قائل شد فض و. بودن عمل وکیل است",
+        "start_char": 2825,
+        "end_char": 2887,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال رای داوری",
+        "start_char": 91,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعلام بطلان شرط داوری",
+        "start_char": 109,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انعقاد",
+      "evidence": {
+        "quote": "نسبت به انعقاد قرارداد",
+        "start_char": 2477,
+        "end_char": 2499,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "داوری",
+      "evidence": {
+        "quote": "موضوع اختلاف را به داوری مرضی الطرفین ارجاع نموده",
+        "start_char": 2541,
+        "end_char": 2590,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "تکلیف وکیل به رعایت غبطه مصلحت موکل",
+        "start_char": 506,
+        "end_char": 541,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موکل",
+      "evidence": {
+        "quote": "مصلحت موکل",
+        "start_char": 531,
+        "end_char": 541,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهانها",
+        "start_char": 69,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقایان",
+        "start_char": 3451,
+        "end_char": 3478,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "در مورد دعوای تجدیدنظرخواندگان",
+        "start_char": 3724,
+        "end_char": 3753,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "مبایعه نامه و صلح حقوق مورخ 1390/12/17",
+        "start_char": 140,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شرط",
+      "evidence": {
+        "quote": "بطلان شرط داوری",
+        "start_char": 115,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "ابطال رای داوری",
+        "start_char": 91,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "در وکالتنامه شماره...- 1390/11/17",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "با فروش ملک موضوع قرارداد",
+        "start_char": 2242,
+        "end_char": 2267,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وکیل بدون داشتن اختیار صریح، شرط داوری در قرارداد گنجانده است",
+      "evidence": {
+        "quote": "وکیل با وکالتنامه تفویضی نسبت به انعقاد قرارداد به وکالت از خواهانها قیام نموده لیکن چون موضوع اختلاف را به داوری مرضی الطرفین ارجاع نموده این عمل مشارالیه با توجه به حدود اختیارات اعطایی خارج از اختیارات مندرج در وکالت نامه مورد بحث بوده",
+        "start_char": 2452,
+        "end_char": 2690,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین قرارداد صلح و مبایعه‌نامه امضا کرده‌اند",
+      "evidence": {
+        "quote": "مبایعه نامه و صلح حقوق مورخ 1390/12/17",
+        "start_char": 140,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

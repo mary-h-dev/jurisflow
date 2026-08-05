@@ -1,0 +1,173 @@
+{
+  "ruling_id": "28067",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "صدور حکم به اعلام بطلان معامله",
+        "start_char": 94,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق شفعه",
+      "evidence": {
+        "quote": "بلحاظ اعمال حق شفعه",
+        "start_char": 209,
+        "end_char": 228,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌اعتباری",
+      "evidence": {
+        "quote": "مبنی بر بی اعتباری و بطلان مبایعه نامه",
+        "start_char": 152,
+        "end_char": 190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مال غیر منقول",
+      "evidence": {
+        "quote": "با توجه به اینکه ملک موصوف غیر منقول بوده",
+        "start_char": 688,
+        "end_char": 728,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "ومطالبه خسارات دادرسی",
+        "start_char": 231,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابلاغ",
+      "evidence": {
+        "quote": "اعلام و ابلاغ شده است",
+        "start_char": 894,
+        "end_char": 915,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض رای تجدیدنظرخواسته",
+        "start_char": 3625,
+        "end_char": 3651,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان آقای ج. م.",
+        "start_char": 0,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خواندگان خانمها س. ش. و م. م.",
+        "start_char": 31,
+        "end_char": 67,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی م. م. و س. ش.",
+        "start_char": 2321,
+        "end_char": 2356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "حق شفعه شریک مشاع (تجدیدنظرخوانده)",
+        "start_char": 2734,
+        "end_char": 2768,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه نامه شماره........مورخ 1390/5/9",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان مسکونی پلاک ثبتی",
+        "start_char": 305,
+        "end_char": 340,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "مطالبه خسارات دادرسی",
+        "start_char": 232,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده بدون اطلاع خواهان سهم خود را به شخص ثالث واگذار کرده است",
+      "evidence": {
+        "quote": "خوانده ردیف اول بدون اطلاع خواهان و با عقد بیع آنرا به خوانده ردیف دوم واگذار نموده است",
+        "start_char": 730,
+        "end_char": 817,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موضوع دعوا آپارتمانی است که قابلیت تقسیم ندارد",
+      "evidence": {
+        "quote": "مال مورد نزاع و ادعای تقسیم آپارتمان به مساحت 88 مترمربع است که عملاً قابلیت تقسیم بین دو شریک مشاع و استفاده از آن با رعایت کاربری مسکونی ندارد",
+        "start_char": 2963,
+        "end_char": 3107,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

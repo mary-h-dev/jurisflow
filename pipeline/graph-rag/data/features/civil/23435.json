@@ -1,0 +1,153 @@
+{
+  "ruling_id": "23435",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "به قصد فرار از دین",
+        "start_char": 312,
+        "end_char": 330,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان سند رسمی",
+        "start_char": 892,
+        "end_char": 913,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "بیع پس از انشاء محقق میگردد",
+        "start_char": 1602,
+        "end_char": 1629,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "منتقل نموده",
+        "start_char": 1498,
+        "end_char": 1509,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض حکم مورد اشاره",
+        "start_char": 2025,
+        "end_char": 2047,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "رد دعوای تجدیدنظرخوانده را",
+        "start_char": 2053,
+        "end_char": 2079,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان خانم ل. خ.",
+        "start_char": 8,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "بطرفیت خواندگان آقای ر.ز. و خانم ز. ط.د.ل.",
+        "start_char": 55,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ر. ز.",
+        "start_char": 1186,
+        "end_char": 1210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "رد دعوای تجدیدنظرخوانده",
+        "start_char": 2053,
+        "end_char": 2076,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "از سوی فروشنده",
+        "start_char": 1663,
+        "end_char": 1677,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی شماره.....-1392/2/5",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی.........بخش هفت تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده با قصد فرار از دین، سهم الارث خود را به خوانده ردیف دوم منتقل کرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به قصد فرار از پرداخت دین سهم الارث خود از پلاک ثبتی...... بخش هفت تهران رابه خانم ز. ط.د.ل. منتقل نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

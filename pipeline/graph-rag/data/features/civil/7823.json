@@ -1,0 +1,133 @@
+{
+  "ruling_id": "7823",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوای خواهان صادر و اعلام می نماید",
+        "start_char": 768,
+        "end_char": 815,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "موجب نشوز زوجه گردیده",
+        "start_char": 1581,
+        "end_char": 1602,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استحقاق",
+      "evidence": {
+        "quote": "استحقاق نفقه را نخواهد داشت",
+        "start_char": 1616,
+        "end_char": 1643,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم مبنی بر عدم اشتغال خوانده",
+        "start_char": 45,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی دادنامه مذکور تأیید می شود",
+        "start_char": 1446,
+        "end_char": 1493,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت خانم ن.پ. به خواسته صدور حکم مبنی بر عدم اشتغال خوانده دادخواستی تقدیم این دادگاه کرده است",
+        "start_char": 26,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم ن.پ. به خواسته صدور حکم مبنی بر عدم اشتغال خوانده",
+        "start_char": 26,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "موجب نشوز زوجه گردیده",
+        "start_char": 1581,
+        "end_char": 1602,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "موجب نشوز زوجه گردیده",
+        "start_char": 1581,
+        "end_char": 1602,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 334 مورخه 18/3/93",
+        "start_char": 1001,
+        "end_char": 1040,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زن در آژانس هواپیمایی کار می‌کند",
+      "evidence": {
+        "quote": "زوجه در یک آژانس هواپیمایی کار می کند",
+        "start_char": 147,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شغل زوجه با مصالح خانوادگی یا حیثیات زوجین منافی نیست",
+      "evidence": {
+        "quote": "شغل خوانده منافی با مصالح خانوادگی و یا حیثیات زوجین باشد ارائه نکرده است",
+        "start_char": 615,
+        "end_char": 688,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

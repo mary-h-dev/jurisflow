@@ -1,0 +1,143 @@
+{
+  "ruling_id": "34481",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "جرم",
+      "evidence": {
+        "quote": "فلذا از موارد تکرار جرم می باشد",
+        "start_char": 1011,
+        "end_char": 1042,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم محکومیت",
+      "evidence": {
+        "quote": "محکوم گردیده",
+        "start_char": 220,
+        "end_char": 232,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "مورد واخواهی قرار گرفته",
+        "start_char": 254,
+        "end_char": 277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "به دیوان عالی کشور ارسال داشته اند",
+        "start_char": 1081,
+        "end_char": 1115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اجرا",
+      "evidence": {
+        "quote": "مجازات مندرج در هر دو دادنامه با یکدیگر جمع و هر دو اجرا می گردد",
+        "start_char": 2897,
+        "end_char": 2961,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "محکوم علیه ح. الف.",
+        "start_char": 822,
+        "end_char": 840,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم دارای دادنامه قطعی دیگری بوده است",
+        "start_char": 1335,
+        "end_char": 1373,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "دادستان محترم شهرستان شبستر",
+        "start_char": 706,
+        "end_char": 733,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "قاضی",
+      "evidence": {
+        "quote": "اقدامات قاضی محترم اجرای احکام تبریز",
+        "start_char": 1903,
+        "end_char": 1939,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "طی دادنامه شماره 16901085-1390/1/26",
+        "start_char": 77,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مواد مخدر",
+      "evidence": {
+        "quote": "باتهام موادمخدر",
+        "start_char": 682,
+        "end_char": 697,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم دارای محکومیت قبلی در حال اجرا دارد",
+      "evidence": {
+        "quote": "نامبرده تاریخ تا 98/1/9 محکومیت قبلی در حال اجرا دارد",
+        "start_char": 498,
+        "end_char": 551,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تاریخ وقوع پرونده دوم بعد از تاریخ قطعیت دادنامه اول است",
+      "evidence": {
+        "quote": "تاریخ وقوع پرونده دوم (شهرستان شبستر) بعد از تاریخ قطعیت دادنامه اول می باشد",
+        "start_char": 934,
+        "end_char": 1010,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

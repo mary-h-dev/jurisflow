@@ -1,0 +1,213 @@
+{
+  "ruling_id": "6839",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "دادخواستی مبنی بر فسخ نکاح",
+        "start_char": 27,
+        "end_char": 53,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "از این رأی توسط زوجه تجدیدنظرخواهی شد",
+        "start_char": 643,
+        "end_char": 680,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرمان",
+      "evidence": {
+        "quote": "از این رأی توسط وکیل زوج فرجام خواهی شد",
+        "start_char": 1805,
+        "end_char": 1844,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "وی تدلیس کرده است",
+        "start_char": 1273,
+        "end_char": 1290,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ نکاح",
+      "evidence": {
+        "quote": "دادخواستی مبنی بر فسخ نکاح",
+        "start_char": 27,
+        "end_char": 53,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تکرار",
+      "evidence": {
+        "quote": "زوج خواسته را تکرار نموده است",
+        "start_char": 367,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "از این رأی توسط زوجه تجدیدنظرخواهی شد",
+        "start_char": 643,
+        "end_char": 680,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام خواهی",
+      "evidence": {
+        "quote": "از این رأی توسط وکیل زوج فرجام خواهی شد",
+        "start_char": 1805,
+        "end_char": 1844,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "تقاضای نقض رأی",
+        "start_char": 1163,
+        "end_char": 1177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "ردّ ادعای خواهان",
+        "start_char": 1180,
+        "end_char": 1196,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج توضیح داده",
+        "start_char": 184,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در جلسه تعیین شده زوجه حاضر نشده است",
+        "start_char": 328,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ردّ ادعای خواهان",
+        "start_char": 1180,
+        "end_char": 1196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "سابقه ازدواج خوانده",
+        "start_char": 61,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "در سند ازدواج باکره بودن",
+        "start_char": 1071,
+        "end_char": 1095,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "در شناسنامه زوجه سابقه ازدواج نیامده است",
+        "start_char": 1932,
+        "end_char": 1972,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه را به اجرا گذاشتم",
+        "start_char": 997,
+        "end_char": 1020,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه سابقه ازدواج داشته است",
+      "evidence": {
+        "quote": "زوجه سابقه ازدواج داشته و طلاق گرفته",
+        "start_char": 444,
+        "end_char": 480,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرط عدم سابقه ازدواج در عقد گنجانده شده بود",
+      "evidence": {
+        "quote": "من با شرط عدم سابقه ازدواج با زوجه ازدواج کردم",
+        "start_char": 199,
+        "end_char": 245,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه در جلسه دادگاه حاضر نشده است",
+      "evidence": {
+        "quote": "در جلسه تعیین شده زوجه حاضر نشده است",
+        "start_char": 328,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

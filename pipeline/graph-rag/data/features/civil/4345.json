@@ -1,0 +1,173 @@
+{
+  "ruling_id": "4345",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "تسبیب خوانده در وقوع تصادف با خواهان بوده",
+        "start_char": 280,
+        "end_char": 321,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لاضرر",
+      "evidence": {
+        "quote": "مستنداً به قاعده لاضرر",
+        "start_char": 896,
+        "end_char": 918,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "مواد 1 و 2 قانون مسئولیت مدنی",
+        "start_char": 966,
+        "end_char": 995,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "به خواسته محکومیت خوانده",
+        "start_char": 50,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خوانده را به پرداخت",
+        "start_char": 996,
+        "end_char": 1015,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 2486,
+        "end_char": 2506,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "حکم تجدیدنظر خواسته را تأیید",
+        "start_char": 2519,
+        "end_char": 2547,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان ث.ی.",
+        "start_char": 0,
+        "end_char": 28,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده ع.ز.",
+        "start_char": 29,
+        "end_char": 49,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی خانم ع.ز.",
+        "start_char": 1466,
+        "end_char": 1497,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بابت هزینه و مخارج تجدیدنظرخوانده",
+        "start_char": 1655,
+        "end_char": 1688,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "میزان دیه پرداختی",
+        "start_char": 532,
+        "end_char": 549,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "به انضمام خسارات دادرسی",
+        "start_char": 99,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به موجب دادنامه شماره 865",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وقوع تصادف",
+      "evidence": {
+        "quote": "وقوع تصادف با خواهان بوده",
+        "start_char": 296,
+        "end_char": 321,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت بخشی از دیه",
+      "evidence": {
+        "quote": "دیه پرداختی را به مبلغ 000/775/35 ریال اعلام نموده",
+        "start_char": 589,
+        "end_char": 639,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

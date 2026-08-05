@@ -1,0 +1,93 @@
+{
+  "ruling_id": "29476",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 456,
+        "end_char": 471,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غیرمنقول",
+      "evidence": {
+        "quote": "کنتور برق جزء اموال غیرمنقول اکتسابی",
+        "start_char": 840,
+        "end_char": 876,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه خسارت",
+        "start_char": 39,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مطالبه خسارت خواهان",
+        "start_char": 223,
+        "end_char": 242,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بطرفیت",
+      "evidence": {
+        "quote": "بطرفیت آقای ن. الف.",
+        "start_char": 19,
+        "end_char": 38,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت ضرروزیان",
+        "start_char": 49,
+        "end_char": 70,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "کنتور برق برچیده شده است",
+      "evidence": {
+        "quote": "ناشی از قطع برق ( برچیدن کنتور برق )",
+        "start_char": 790,
+        "end_char": 826,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کنتور برق نصب نشده است",
+      "evidence": {
+        "quote": "عدم نصب کنتور برق",
+        "start_char": 78,
+        "end_char": 95,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25447",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "با خواسته مطالبه نفقه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "اما نشوز زن مانع وجوب انفاق است",
+        "start_char": 1288,
+        "end_char": 1319,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "با احراز رابطه زوجیت بین طرفین",
+        "start_char": 1050,
+        "end_char": 1080,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته الزام به تمکین",
+        "start_char": 3015,
+        "end_char": 3039,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه",
+        "start_char": 110,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "اقامه دعوی نموده",
+        "start_char": 238,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص دادخواست تجدیدنظرخواهی",
+        "start_char": 3770,
+        "end_char": 3800,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت خواهان ( الف.الف.)",
+        "start_char": 314,
+        "end_char": 341,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده (ه. ه.)",
+        "start_char": 300,
+        "end_char": 314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "محکومیت زوج به پرداخت نفقه",
+        "start_char": 4000,
+        "end_char": 4026,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه مستحق نفقه می‌باشد",
+        "start_char": 4260,
+        "end_char": 4283,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند رسمی ازدواج شماره 2939-20/8/57",
+        "start_char": 1101,
+        "end_char": 1135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "در دادنامه امر زوجه محکوم به تمکین از زوج گردیده",
+        "start_char": 4288,
+        "end_char": 4336,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین وجود دارد",
+      "evidence": {
+        "quote": "با احراز رابطه زوجیت بین طرفین",
+        "start_char": 1050,
+        "end_char": 1080,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دلیل و مدرکی مبنی بر نشوز یا پرداخت نفقه ارائه نشده است",
+      "evidence": {
+        "quote": "دلیل و مدرکی که نشوز خوانده و یا پرداخت نفقه در مدت مورد مطالبه و یا بطلان دعوی را اثبات نماید به دادگاه ارائه نگردیده است",
+        "start_char": 1433,
+        "end_char": 1555,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "411",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تابعیت",
+      "evidence": {
+        "quote": "در خصوص تابعیت تجدیدنظرخوانده",
+        "start_char": 1782,
+        "end_char": 1811,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "الزام به صدور شناسنامه",
+        "start_char": 125,
+        "end_char": 147,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترضٌ عنه را نقض نموده",
+        "start_char": 2148,
+        "end_char": 2179,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "استماع دعوی",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی",
+        "start_char": 2180,
+        "end_char": 2200,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به خواسته الزام به صدور شناسنامه برای خواهان اول",
+        "start_char": 115,
+        "end_char": 163,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده لایحه ای تقدیم",
+        "start_char": 728,
+        "end_char": 749,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در خصوص تابعیت",
+        "start_char": 1769,
+        "end_char": 1796,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "محکوم به صدور شناسنامه برای تجدیدنظرخوانده شده است",
+        "start_char": 1558,
+        "end_char": 1608,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "به طرفیت اداره ثبت احوال منطقه 11 تهران",
+        "start_char": 75,
+        "end_char": 114,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "دارای سند نکاحیه رسمی به شماره 3390-14/9/1360",
+        "start_char": 586,
+        "end_char": 631,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "استشهادیه",
+      "evidence": {
+        "quote": "پایان نامه‌های تحصیلی خواهان اول در مقاطع متوسطه و دانشگاهی و استشهادیه",
+        "start_char": 886,
+        "end_char": 957,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "پروانه",
+      "evidence": {
+        "quote": "پروانه ازدواج والدین خواهان 2 و 3",
+        "start_char": 960,
+        "end_char": 993,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "گواهی ولادت خواهان اول",
+        "start_char": 1016,
+        "end_char": 1038,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان فاقد شناسنامه است",
+      "evidence": {
+        "quote": "خواهان اول فاقد شناسنامه است",
+        "start_char": 676,
+        "end_char": 704,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "والدین خواهان ازدواج رسمی داشته‌اند",
+      "evidence": {
+        "quote": "ازدواج خواهان دوم و سوم نیز با مجوز وزارت کشور بوده و دارای سند نکاحیه رسمی",
+        "start_char": 532,
+        "end_char": 607,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان در ایران متولد شده است",
+      "evidence": {
+        "quote": "فرزندشان در ایران بیمارستان الف. متولد گردید",
+        "start_char": 458,
+        "end_char": 502,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

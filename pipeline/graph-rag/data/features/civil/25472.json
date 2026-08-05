@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25472",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "احراز علقه زوجیت",
+        "start_char": 248,
+        "end_char": 264,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد دائم",
+      "evidence": {
+        "quote": "با نوع عقد دائم",
+        "start_char": 265,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "بخواسته اعاده دادرسی",
+        "start_char": 744,
+        "end_char": 764,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "بخواسته الزام خوانده به تمکین",
+        "start_char": 88,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض",
+        "start_char": 577,
+        "end_char": 588,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی م. ب.",
+        "start_char": 1437,
+        "end_char": 1457,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست",
+      "evidence": {
+        "quote": "قرار رد درخواست اعاده دادرسی",
+        "start_char": 1278,
+        "end_char": 1306,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "تائید می نماید",
+        "start_char": 2262,
+        "end_char": 2276,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 96,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان را محرز",
+        "start_char": 394,
+        "end_char": 415,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "محکومیت زوج",
+        "start_char": 969,
+        "end_char": 980,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه ایراد و اعتراض موجهی",
+        "start_char": 1987,
+        "end_char": 2020,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "تصویر مصدق رونوشت سند ازدواج",
+        "start_char": 157,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1739",
+        "start_char": 1505,
+        "end_char": 1531,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل برای عدم تمکین توسط خوانده",
+      "evidence": {
+        "quote": "خوانده دلیلی که عدم تمکین وی را از تاریخ 1393/09/24 توجیه نماید به دادگاه ارائه ننموده",
+        "start_char": 296,
+        "end_char": 382,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وقوع ایراد ضرب در حد حارضه",
+      "evidence": {
+        "quote": "مصادیق ایراد ضرب بوده که در حد حارضه بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

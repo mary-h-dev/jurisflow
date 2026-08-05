@@ -1,0 +1,143 @@
+{
+  "ruling_id": "10990",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت دائم فی‌ما‌بین متداعیین",
+        "start_char": 352,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "صدور حکم تمکین",
+        "start_char": 60,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه‌ نفقه‌ خود",
+        "start_char": 135,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواسته‌ی صدور حکم تمکین",
+        "start_char": 48,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته‌ مطالبه‌ نفقه‌ خود",
+        "start_char": 124,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در مرجع محترم استان تهران می‌باشد",
+        "start_char": 768,
+        "end_char": 820,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را موجه تشخیص",
+        "start_char": 578,
+        "end_char": 610,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و خوانده در قبال دعوی یاد شده ایراد و دفاع موثری به عمل نیاورده",
+        "start_char": 513,
+        "end_char": 576,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اول به پرداخت نفقه",
+        "start_char": 1899,
+        "end_char": 1930,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "با توجه به تصویر مصدق سند نکاحیه",
+        "start_char": 388,
+        "end_char": 420,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 2003 مورخه 1393/08/25",
+        "start_char": 1700,
+        "end_char": 1743,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین محرز است",
+      "evidence": {
+        "quote": "رابطه زوجیت و وجود فرزند مشترک محرز می‌باشد",
+        "start_char": 893,
+        "end_char": 936,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده دفاع موثری ارائه نکرده است",
+      "evidence": {
+        "quote": "خوانده در قبال دعوی یاد شده ایراد و دفاع موثری به عمل نیاورده",
+        "start_char": 515,
+        "end_char": 576,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

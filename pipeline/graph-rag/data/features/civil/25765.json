@@ -1,0 +1,183 @@
+{
+  "ruling_id": "25765",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "حکایت از وجود علقه زوجیت بین طرفین",
+        "start_char": 160,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "نوع طلاق رجعی است",
+        "start_char": 828,
+        "end_char": 845,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "حضانت دختر زوجین (نرگس) 7 ساله با خواهان است",
+        "start_char": 958,
+        "end_char": 1002,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "خواهان موظف به پرداخت نفقه فرزندش",
+        "start_char": 1972,
+        "end_char": 2005,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امکان سازش",
+      "evidence": {
+        "quote": "گواهی عدم امکان سازش را صادر و اعلام می نماید",
+        "start_char": 782,
+        "end_char": 827,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظر خواهی در محاکم تجدیدنظر استان تهران می باشد",
+        "start_char": 2450,
+        "end_char": 2507,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "قابل فرجامخواهی در دیوان محترم عالی کشور است",
+        "start_char": 3908,
+        "end_char": 3952,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجه و مدلل و موثری",
+        "start_char": 3465,
+        "end_char": 3504,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بخواسته صدور گواهی عدم امکان سازش",
+        "start_char": 79,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و اظهارات خوانده که حاضر به طلاق نمی باشد",
+        "start_char": 354,
+        "end_char": 395,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نظر به اینکه تجدیدنظرخواه اعتراض موجه",
+        "start_char": 3452,
+        "end_char": 3489,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "سند نکاحیه ثبتی که حکایت از وجود علقه زوجیت",
+        "start_char": 141,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "در خصوص مهریه خوانده اظهار داشت",
+        "start_char": 1374,
+        "end_char": 1405,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "در خصوص جهیزیه گرچه خوانده اظهار داشت",
+        "start_char": 2106,
+        "end_char": 2143,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تفاهم اخلاقی بین طرفین",
+      "evidence": {
+        "quote": "بدلیل عدم تفاهم اخلاقی بین طرفین ادامه زندگی مشترک برای موکل وی مقدور نمی باشد",
+        "start_char": 275,
+        "end_char": 353,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم امکان سازش",
+      "evidence": {
+        "quote": "تلاش دادگاه و داوران جهت سازش منتهی به مصالحه نشده است",
+        "start_char": 593,
+        "end_char": 647,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه وضعیت بارداری",
+      "evidence": {
+        "quote": "عدم ارائه آن مانع از اجرای صیغه طلاق نمی باشد",
+        "start_char": 912,
+        "end_char": 957,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

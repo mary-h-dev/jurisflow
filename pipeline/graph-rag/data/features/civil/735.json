@@ -1,0 +1,213 @@
+{
+  "ruling_id": "735",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 89,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "پس از وقوع عقد نکاح",
+        "start_char": 762,
+        "end_char": 781,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "حقوق و تکالیف زوجین در مقابل یکدیگر برقرار می گردد",
+        "start_char": 808,
+        "end_char": 858,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معاشرت",
+      "evidence": {
+        "quote": "زن و مرد مکلف به حسن معاشرت با یکدیگر می باشند",
+        "start_char": 935,
+        "end_char": 981,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ترک نموده",
+      "evidence": {
+        "quote": "منزل مشترک را ترک نموده",
+        "start_char": 274,
+        "end_char": 297,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "حاضر به تمکین نشده است",
+        "start_char": 344,
+        "end_char": 366,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابراز",
+      "evidence": {
+        "quote": "ایراد شکلی نسبت به صلاحیت دادگاه ابراز نموده است",
+        "start_char": 489,
+        "end_char": 537,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم س.م.",
+        "start_char": 1501,
+        "end_char": 1524,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عیناً تأیید می نماید",
+        "start_char": 2137,
+        "end_char": 2182,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست خواهان آقای م.الف.",
+        "start_char": 0,
+        "end_char": 34,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده خانم س.م.",
+        "start_char": 44,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل و یا دلایلی",
+        "start_char": 1834,
+        "end_char": 1863,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده آقای م.الف.",
+        "start_char": 1635,
+        "end_char": 1661,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "طبق عقدنامه ازدواج نمودم",
+        "start_char": 192,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "منزل مشترک را ترک نموده",
+        "start_char": 274,
+        "end_char": 297,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "رونوشت گواهی سند نکاحیه",
+        "start_char": 592,
+        "end_char": 615,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم س.م. از دادنامه9101500",
+        "start_char": 1501,
+        "end_char": 1541,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده منزل مشترک را ترک کرده است",
+      "evidence": {
+        "quote": "از مورخ 4/7/91 منزل مشترک را ترک نموده",
+        "start_char": 259,
+        "end_char": 297,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دادگاه حضور ندارد",
+      "evidence": {
+        "quote": "خوانده حضور ندارد",
+        "start_char": 449,
+        "end_char": 466,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "سند سجلی وجود رابطه و علقه زوجیت محرز می باشد",
+        "start_char": 690,
+        "end_char": 735,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

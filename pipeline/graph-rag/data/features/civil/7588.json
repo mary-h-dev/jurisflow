@@ -1,0 +1,223 @@
+{
+  "ruling_id": "7588",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "خواستار صدور حکم به فسخ معامله",
+        "start_char": 83,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "به لحاظ خیار غبن",
+        "start_char": 127,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غبن",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای ح.ل. با وکالت آقای الف.ث. به طرفیت آقای ن. ر.با وکالت ش.م. به خواسته صدور حکم به فسخ معامله مورخ 22/4/91 به لحاظ خیار غبن",
+        "start_char": 4073,
+        "end_char": 4212,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "خواستار صدور حکم به فسخ معامله",
+        "start_char": 83,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروخته",
+      "evidence": {
+        "quote": "به مبلغ 000/000/300/2 تومان به خوانده فروخته",
+        "start_char": 343,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "چک های بانکی معوض چک های موصوف به موکل اعاده شده است",
+        "start_char": 2794,
+        "end_char": 2846,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "نسبت به دادنامه یادشده مبادرت به فرجام خواهی نموده",
+        "start_char": 4686,
+        "end_char": 4736,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه فرجام خواسته نقض پرونده جهت رسیدگی به دادگاه صادرکننده رأی منقوض ارجاع می نماید",
+        "start_char": 6290,
+        "end_char": 6377,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "طی دادخواستی خواستار صدور حکم به فسخ معامله",
+        "start_char": 70,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ن.ر.",
+        "start_char": 51,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "با عنایت به اینکه خوانده به عنوان خریدار در مبایعه نامه عادی صرفاً یک نفر می باشد",
+        "start_char": 1078,
+        "end_char": 1159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "به نحو فاحش به افحش از فروشنده ساقط گردیده است",
+        "start_char": 2119,
+        "end_char": 2165,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "معامله",
+      "evidence": {
+        "quote": "فسخ معامله مورخ 22/4/91",
+        "start_char": 103,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بیع‌نامه",
+      "evidence": {
+        "quote": "به موجب بیع نامه مورخ 22/4/91",
+        "start_char": 254,
+        "end_char": 283,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "از زمین های پلاک ثبتی شماره 38/398",
+        "start_char": 284,
+        "end_char": 318,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "۳ فقره چک یک میلیارد در بیع نامه تحویل فروشنده شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "تصویر اسناد را به ضمیمه تقدیم می نمایم",
+        "start_char": 3902,
+        "end_char": 3940,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ارزش زمین با قیمت معامله اختلاف فاحش دارد",
+      "evidence": {
+        "quote": "متوجه شده است که ارزش زمین موصوف مبلغ 000/000/000/7 تومان بوده",
+        "start_char": 418,
+        "end_char": 480,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده نسبت به مابه‌التفاوت قیمت اقدامی نکرده است",
+      "evidence": {
+        "quote": "خوانده تاکنون نسبت به جبران مابه التفاوت نسبت قیمت اقدامی ننموده",
+        "start_char": 484,
+        "end_char": 548,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین در مبایعه نامه خیارات را اسقاط کرده‌اند",
+      "evidence": {
+        "quote": "کلیه خیارات من جمله خیار غبن به جز خیار تدلیس با قرار طرفین اسقاط گردیده است",
+        "start_char": 1961,
+        "end_char": 2037,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت فروشنده در سند رسمی مورد تردید است",
+      "evidence": {
+        "quote": "تعداد خواهان ها غیر سند رسمی آقایان ن.ر. و ر.ر. می باشد",
+        "start_char": 938,
+        "end_char": 993,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

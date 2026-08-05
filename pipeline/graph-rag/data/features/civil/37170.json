@@ -1,0 +1,263 @@
+{
+  "ruling_id": "37170",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش جهت اجرای صیغه طلاق",
+        "start_char": 82,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صیغه طلاق",
+      "evidence": {
+        "quote": "جهت اجرای صیغه طلاق",
+        "start_char": 108,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "از بابت شرط تنصیف حقوقی",
+        "start_char": 6839,
+        "end_char": 6862,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی به خواسته صدور گواهی عدم امکان سازش جهت اجرای صیغه طلاق تقدیم نموده",
+        "start_char": 62,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام وکالت",
+      "evidence": {
+        "quote": "با تقدیم وکالتنامه از جانب خواهان اعلام وکالت نموده",
+        "start_char": 236,
+        "end_char": 287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "تمکین نکرده است",
+        "start_char": 556,
+        "end_char": 571,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "وکیل خواهان به نظریه کارشناس اعتراض",
+        "start_char": 3519,
+        "end_char": 3554,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با تقدیم دادخواست نسبت به ان تجدیدنظرخواهی نموده",
+        "start_char": 5065,
+        "end_char": 5113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام خواهی",
+      "evidence": {
+        "quote": "با تقدیم دادخواست نسبت به ان فرجام خواهی نموده",
+        "start_char": 5612,
+        "end_char": 5658,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از جانب خواهان اعلام وکالت نموده",
+        "start_char": 255,
+        "end_char": 287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "از جانب زوجه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ( زوجه )",
+        "start_char": 905,
+        "end_char": 920,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "داور منتخب خواهان",
+        "start_char": 812,
+        "end_char": 829,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "فرمان خواهی خانم س. ف. م. ی.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمانخوانده",
+      "evidence": {
+        "quote": "زوج ( فرجام خوانده )",
+        "start_char": 6078,
+        "end_char": 6098,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "در سند نکاحیه شرایط توسط زوجین امضا نشده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه مبلغ پانصد هزار تومان بوده",
+        "start_char": 618,
+        "end_char": 650,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "طبق سند عادی مهریه اش را گرفته است",
+        "start_char": 1830,
+        "end_char": 1864,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "زوجه جهیزیه ندارد",
+        "start_char": 1809,
+        "end_char": 1826,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "نفقه معوقه از تاریخ 1400/4/24",
+        "start_char": 2100,
+        "end_char": 2129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجرت‌المثل",
+      "evidence": {
+        "quote": "اجرت المثل ایام زوجیت را هم می خواهم",
+        "start_char": 2160,
+        "end_char": 2196,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلاف سنی بین زوجین وجود دارد",
+      "evidence": {
+        "quote": "با توجه به اختلاف سنی سوی معاشرت دارد",
+        "start_char": 517,
+        "end_char": 554,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرایط در سند نکاحیه امضا نشده است",
+      "evidence": {
+        "quote": "در سند نکاحیه شرایط توسط زوجین امضا نشده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجین فرزند مشترک ندارند",
+      "evidence": {
+        "quote": "زوجین فرزند مشترک ندارند",
+        "start_char": 4484,
+        "end_char": 4508,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجین سابقه ازدواج و طلاق قبلی دارند",
+      "evidence": {
+        "quote": "زوجین سابقه ازدواج داشته اند و در سال 1391 طلاق گرفته اند",
+        "start_char": 1626,
+        "end_char": 1683,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

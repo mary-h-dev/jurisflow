@@ -1,0 +1,163 @@
+{
+  "ruling_id": "24232",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال شناسنامه",
+        "start_char": 65,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند سجلی سند رسمی است",
+        "start_char": 502,
+        "end_char": 523,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "ادعای بطلان آن",
+        "start_char": 721,
+        "end_char": 735,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "صدور شناسنامه جدید",
+        "start_char": 102,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "در خواست رددعوی مطروحه",
+        "start_char": 572,
+        "end_char": 594,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره ثبت احوال تهران",
+        "start_char": 1260,
+        "end_char": 1295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 2605,
+        "end_char": 2620,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در مقاطع مختلف مورد استفاده خواهان قرار گرفته",
+        "start_char": 526,
+        "end_char": 571,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از سوی خوانده",
+        "start_char": 671,
+        "end_char": 684,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخوانده",
+        "start_char": 1434,
+        "end_char": 1456,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بنام تجدیدنظرخواه",
+        "start_char": 1500,
+        "end_char": 1517,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "ابطال شناسنامه شماره",
+        "start_char": 75,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "حکم به ابطال سند سجلی",
+        "start_char": 985,
+        "end_char": 1006,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "والدین به دلیل علاقه به فرزند متوفی، شناسنامه فرزند متوفی را برای فرزند دیگر در نظر گرفته‌اند",
+      "evidence": {
+        "quote": "والدین به سبب علاقه به فرزند متوفی شناسنامه وی را باطل ننموده وهمان را برای موکل در نظر گرفته",
+        "start_char": 251,
+        "end_char": 344,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخوانده مدارک مربوط به تحصیلات ابتدایی و شناسنامه والدین را ارائه نکرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده می بایست گواهی فوت خواهر مورد ادعای خود و مدارک مربوط به تحصیلات ابتدایی و شناسنامه والدین را به عنوان دلیل ارائه و مورد استناد قرار می داد که به این امر مهم اقدام نکرده",
+        "start_char": 1788,
+        "end_char": 1972,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

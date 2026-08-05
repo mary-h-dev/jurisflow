@@ -1,0 +1,173 @@
+{
+  "ruling_id": "35622",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "صدور حکم بر تمکین",
+        "start_char": 106,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت بین طرفین محرز بوده",
+        "start_char": 654,
+        "end_char": 685,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "به منزله اثبات نشوز وی",
+        "start_char": 2266,
+        "end_char": 2288,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "و عدم آمادگی زوجه برای تمکین مستمر و نه صوری به منزله اثبات نشوز وی و تعلق نگرفتن نفقه خواهد بود",
+        "start_char": 2221,
+        "end_char": 2317,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بازگشت",
+      "evidence": {
+        "quote": "الزام به بازگشت خوانده به زندگی مشترک",
+        "start_char": 125,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجه و مدلل و موثری",
+        "start_char": 2892,
+        "end_char": 2931,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عینا تایید و ابرام می نماید",
+        "start_char": 3207,
+        "end_char": 3260,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با این تبیان که خواهان اظهار می دارد",
+        "start_char": 165,
+        "end_char": 201,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده برابر سند رسمی ازدواج همسر قانونی وی بوده",
+        "start_char": 203,
+        "end_char": 251,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه (زوجه)",
+        "start_char": 2797,
+        "end_char": 2816,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "الزام تجدیدنظرخواه (زوجه) به تمکین از زوج",
+        "start_char": 2791,
+        "end_char": 2832,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "برابر سند رسمی ازدواج همسر قانونی وی بوده",
+        "start_char": 210,
+        "end_char": 251,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "نظر به سند رسمی نکاحیه به شماره... دفتر... تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "مسکن در... واثاث البیت جهت تمکین مشار الیها مهیا می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رها کردن زندگی مشترک توسط خوانده",
+      "evidence": {
+        "quote": "بی جهت زندگی مشترک را از مهرماه جاری رها کرده است",
+        "start_char": 253,
+        "end_char": 302,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "برقراری رابطه زوجیت بین طرفین",
+      "evidence": {
+        "quote": "رابطه زوجیت بین طرفین محرز بوده",
+        "start_char": 654,
+        "end_char": 685,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

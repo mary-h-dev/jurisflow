@@ -1,0 +1,183 @@
+{
+  "ruling_id": "35200",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "ظاهر در عدم تبرع است",
+        "start_char": 1016,
+        "end_char": 1036,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دارا",
+      "evidence": {
+        "quote": "دارا شدن ناعادلانه است",
+        "start_char": 3607,
+        "end_char": 3629,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "با فقدان علت تعهد به استرداد",
+        "start_char": 4134,
+        "end_char": 4162,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت گردیده",
+        "start_char": 300,
+        "end_char": 313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "واریز گردیده",
+        "start_char": 575,
+        "end_char": 587,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه وجه مذکور",
+        "start_char": 2563,
+        "end_char": 2579,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 5195,
+        "end_char": 5210,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از جمله خواهان",
+        "start_char": 369,
+        "end_char": 383,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده",
+        "start_char": 100,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 1808,
+        "end_char": 1820,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده",
+        "start_char": 3504,
+        "end_char": 3518,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "در جریان جلب نامبرده بعنوان ثالث",
+        "start_char": 3179,
+        "end_char": 3211,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ 378000000ریال",
+        "start_char": 124,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قبض رسید",
+      "evidence": {
+        "quote": "طی قبض(رسید نقدی)",
+        "start_char": 231,
+        "end_char": 248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فیش",
+      "evidence": {
+        "quote": "در فیش",
+        "start_char": 2863,
+        "end_char": 2869,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واریز وجه به حساب خوانده توسط شخص ثالث",
+      "evidence": {
+        "quote": "وجه مزبور به حساب خوانده واریز گردیده",
+        "start_char": 550,
+        "end_char": 587,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت وجه در مقابل خرید دلار",
+      "evidence": {
+        "quote": "با واریز وجه در تاریخ مقرر در فیش در ساعت یک و دوازعه دقیقه و بیست و هفت ثانیه 93/5/6 به حساب تجدیدنظرخواه ، شش دقیقه بعد به دلالت سند عادی تأدیه صادره از صرافی معادل وجه واریزی مبلغ یازده هزار دلار امریکا و مابقی وجه رایج به آقای م. ک.الف. مراجعه کننده و اعلام کننده پرداخت وجه در محل پرداخت و رسید و تصویر مدارک شناسایی وی اخذ گردیده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

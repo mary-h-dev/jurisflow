@@ -1,0 +1,133 @@
+{
+  "ruling_id": "28662",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شخصیت حقوقی",
+      "evidence": {
+        "quote": "شرکت که دارای شخصیت حقوقی مستقل از شرکاء است",
+        "start_char": 2199,
+        "end_char": 2243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سهم",
+      "evidence": {
+        "quote": "دارنده 25 درصد سهم الشرکه شرکت موصوف است",
+        "start_char": 455,
+        "end_char": 495,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "برداشت",
+      "evidence": {
+        "quote": "اموال و منافع شرکت را به نفع خود و بستگان برداشت نموده است",
+        "start_char": 538,
+        "end_char": 596,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "مبادرت به طرح دعوی علیه مدیرعامل یا هیئت مدیره نمایند",
+        "start_char": 1939,
+        "end_char": 1992,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "قرار رد دعوا صادر و اعلام می شود",
+        "start_char": 1034,
+        "end_char": 1066,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه تجدیدنظراستان تهران است",
+        "start_char": 1106,
+        "end_char": 1158,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 312,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت خسارت",
+        "start_char": 123,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "اموال و منافع شرکت را به نفع خود و بستگان برداشت نموده است",
+        "start_char": 538,
+        "end_char": 596,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سوء استفاده از سند مجعول",
+        "start_char": 667,
+        "end_char": 691,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مدیرعامل از جایگاه خود سوء استفاده کرده است",
+      "evidence": {
+        "quote": "از مقام و جایگاه خود سوء استفاده کرده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در پرونده کیفری محکوم شده است",
+      "evidence": {
+        "quote": "دادنامه محکومیت کیفری خوانده به اتهام خیانت در امانت و جعل و سوء استفاده از سند مجعول موید صحت ادعای وکیل خواهان است",
+        "start_char": 606,
+        "end_char": 722,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

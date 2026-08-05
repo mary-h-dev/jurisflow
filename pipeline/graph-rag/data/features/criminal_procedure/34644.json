@@ -1,0 +1,153 @@
+{
+  "ruling_id": "34644",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "زنای غیرمحصنه",
+      "evidence": {
+        "quote": "به اتهام زنای غیرمحصنه",
+        "start_char": 126,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ارش",
+      "evidence": {
+        "quote": "مطالبه ارش البکاره",
+        "start_char": 462,
+        "end_char": 480,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "خود را صالح به رسیدگی ندانسته قرارعدم صلاحیت",
+        "start_char": 1210,
+        "end_char": 1254,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "صالح به رسیدگی تشخیص",
+        "start_char": 1871,
+        "end_char": 1891,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم محکومیت",
+      "evidence": {
+        "quote": "محکوم گردیده",
+        "start_char": 330,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه صادره را از این حیث نقض",
+        "start_char": 668,
+        "end_char": 699,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به قرارعدم صلاحیت صادره اعتراض کرده",
+        "start_char": 1321,
+        "end_char": 1361,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نفی",
+      "evidence": {
+        "quote": "ازخود نفی صلاحیت کرده",
+        "start_char": 1808,
+        "end_char": 1829,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکیه",
+      "evidence": {
+        "quote": "وکیل شاکیه",
+        "start_char": 431,
+        "end_char": 441,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "نماینده دادستان",
+        "start_char": 1305,
+        "end_char": 1320,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "مربوط به دادنامه شماره 168",
+        "start_char": 67,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "آقای ج.ر به اتهام زنای غیرمحصنه محکوم شده است",
+      "evidence": {
+        "quote": "آقای ج.ر. به اتهام زنای غیرمحصنه... محکوم گردیده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست ارش البکاره مطرح شده است",
+      "evidence": {
+        "quote": "مبنی بر مطالبه ارش البکاره",
+        "start_char": 454,
+        "end_char": 480,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بین دادگاه کیفری یک و شعبه پنجم دادگاه تجدیدنظر اختلاف صلاحیت وجود دارد",
+      "evidence": {
+        "quote": "در خصوص حدوث اختلاف فیمابین دادگاه کیفری یک استان خراسان رضوی و شعبه پنجم دادگاه تجدیدنظر استان خراسان رضوی",
+        "start_char": 2237,
+        "end_char": 2344,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

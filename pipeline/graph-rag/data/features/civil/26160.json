@@ -1,0 +1,113 @@
+{
+  "ruling_id": "26160",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 235,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقسیم",
+      "evidence": {
+        "quote": "رسیدگی به درخواست تقسیم",
+        "start_char": 730,
+        "end_char": 753,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "احراز مالکیت",
+        "start_char": 684,
+        "end_char": 696,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "افراز",
+      "evidence": {
+        "quote": "بخواسته افراز و تقسیم",
+        "start_char": 97,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض قرار عدم صلاحیت",
+        "start_char": 976,
+        "end_char": 999,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده به این دادگاه برای ادامه رسیدگی اعاده شود",
+        "start_char": 1057,
+        "end_char": 1105,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهانها",
+        "start_char": 67,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "بطرفیت خواندگان",
+        "start_char": 81,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "افراز و تقسیم یک قطعه زمین مشاعی",
+        "start_char": 105,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "صدور قرار عدم صلاحیت ذاتی توسط دادگاه عمومی حقوقی میناب",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت ذاتی صادر شده از دادگاه عمومی حقوقی میناب",
+        "start_char": 984,
+        "end_char": 1041,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

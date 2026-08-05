@@ -1,0 +1,193 @@
+{
+  "ruling_id": "22635",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "به خواسته صدور حکم طلاق",
+        "start_char": 78,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تخلف",
+      "evidence": {
+        "quote": "به لحاظ تخلف زوج از اجرای شرط مقرر در بند یک از بند ب سند ازدواج",
+        "start_char": 102,
+        "end_char": 166,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "بدین نحو موکله دچار عسروحرج گردیده است",
+        "start_char": 566,
+        "end_char": 604,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "وجود علقه زوجیت... محرز می‌باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "خواسته حکم به بطلان دعوی طلاق خواهان بدوی صادر نموده",
+        "start_char": 4362,
+        "end_char": 4414,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "از همان تاریخ عقد نفقه همسرش را نپرداخته است",
+        "start_char": 258,
+        "end_char": 302,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "علیرغم انقضاء موعد ده روز محکوم‌علیه از پرداخت نفقه همسر خویش امتناع نموده است",
+        "start_char": 2709,
+        "end_char": 2787,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "در مهلت مقرر قانونی به رأی صادره اعتراض",
+        "start_char": 3581,
+        "end_char": 3620,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی را وارد تشخیص داده و با نقض دادنامه",
+        "start_char": 4303,
+        "end_char": 4352,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت ب. ی. به خواسته صدور حکم طلاق",
+        "start_char": 63,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تخلف زوج از اجرای شرط مقرر",
+        "start_char": 110,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "محکوم به پرداخت نفقه در حق زوجه",
+        "start_char": 5645,
+        "end_char": 5676,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "از انتخاب داوری (علیرغم ابلاغ) خودداری نموده",
+        "start_char": 2200,
+        "end_char": 2244,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "بند یک از بند ب سند ازدواج",
+        "start_char": 140,
+        "end_char": 166,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "به پرداخت بیست میلیون ریال به‌عنوان نفقه معوقه",
+        "start_char": 807,
+        "end_char": 853,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجرائیه",
+      "evidence": {
+        "quote": "فتوکپی اجرائیه صادره در خصوص محکومیت زوج",
+        "start_char": 977,
+        "end_char": 1017,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین در تاریخ 1390/1/16 عقد کرده‌اند",
+      "evidence": {
+        "quote": "موکله در تاریخ 1390/1/16 به زوجیت دائم خوانده درآمده",
+        "start_char": 203,
+        "end_char": 255,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از پرداخت نفقه امتناع کرده است",
+      "evidence": {
+        "quote": "از پرداخت نفقه همسر خویش امتناع نموده",
+        "start_char": 2746,
+        "end_char": 2783,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

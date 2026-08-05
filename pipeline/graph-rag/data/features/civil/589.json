@@ -1,0 +1,153 @@
+{
+  "ruling_id": "589",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حجر",
+      "evidence": {
+        "quote": "حکم حجر م.پ.",
+        "start_char": 301,
+        "end_char": 313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانونی",
+      "evidence": {
+        "quote": "در حال حاضر مالک قانونی می باشد",
+        "start_char": 1457,
+        "end_char": 1488,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "به خواسته خلع ید",
+        "start_char": 20,
+        "end_char": 36,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "و رفع تصرف",
+        "start_char": 37,
+        "end_char": 47,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال سند",
+      "evidence": {
+        "quote": "تقاضای ابطال سند انتقال به نام خواهان نیز مطرح شده است",
+        "start_char": 522,
+        "end_char": 576,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض نموده",
+        "start_char": 1696,
+        "end_char": 1731,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به نام خواهان الف.ع.",
+        "start_char": 368,
+        "end_char": 388,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه برابر مقررات آمره قانون ثبت",
+        "start_char": 1416,
+        "end_char": 1456,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده را به استناد مواد 308 و 311",
+        "start_char": 1732,
+        "end_char": 1774,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "از یک باب منزل مسکونی",
+        "start_char": 48,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "تنظیم سند رسمی ملک موصوف",
+        "start_char": 343,
+        "end_char": 367,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "ملاحظه سند مالکیت تجدیدنظرخواه",
+        "start_char": 1334,
+        "end_char": 1364,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "صدور حکم حجر برای م.پ.",
+      "evidence": {
+        "quote": "حکم حجر م.پ. در زمان وقوع معامله",
+        "start_char": 301,
+        "end_char": 333,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انتقال ملک به نام خواهان",
+      "evidence": {
+        "quote": "انتقال ملک رسمی م.پ. به نام خواهان",
+        "start_char": 426,
+        "end_char": 460,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

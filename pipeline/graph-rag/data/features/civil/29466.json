@@ -1,0 +1,153 @@
+{
+  "ruling_id": "29466",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "شهرداری نیز این امر را پذیرفته لذا بر مبانی استدلال و استنباط محکمه بدوی خدشه ای مترتب نمی باشد",
+        "start_char": 1994,
+        "end_char": 2089,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقصیر",
+      "evidence": {
+        "quote": "با احراز تقصیر خوانده",
+        "start_char": 930,
+        "end_char": 951,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ 280/000/000 ریال",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "خوانده را به مبلغ 280/000/000 ریال بابت اصل خواسته مبلغ 8/645/000 ریال بابت هزینه دادرسی و دستمزد کارشناس در حق خواهان محکوم می نماید",
+        "start_char": 1114,
+        "end_char": 1247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظر خواهی در محاکم محترم تجدید نظر استان تهران می باشد",
+        "start_char": 1300,
+        "end_char": 1365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "دادنامه تجدید نظر خواسته را عیناً تائید و استوار می نماید",
+        "start_char": 2425,
+        "end_char": 2482,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت شهرداری منطقه 6 تهران به خواسته مطالبه مبلغ 280/000/000 ریال با احتسلب خسارات دادرسی به شرح متن دادخواست تقدیمی و با این توضیح که خواهان اظهار نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بنابراین خوانده مبنی بر عدم توجه دعوی موجه نمی باشد",
+        "start_char": 800,
+        "end_char": 851,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره940372مورخ94/4/31صادره از شعبه 32دادگاه عمومی حقوقی تهران که به موجب آن حکم به محکومیت تجدیدنظرخواه بپرداخت",
+        "start_char": 1486,
+        "end_char": 1614,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بابت خسارت وارده به اتومبیل متعلق به تجدیدنظرخوانده به شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اتومبیل",
+      "evidence": {
+        "quote": "اتومبیل اینجانب با شماره انتظامی... در بلوار... تهران پارک بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مطالبه مبلغ 280/000/000 ریال",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "سقوط درخت بر روی اتومبیل در اثر وزش باد",
+      "evidence": {
+        "quote": "با وزش باد سنگین درختی پوسیده در روی اتومبیل اینجانب سقوط کرده",
+        "start_char": 291,
+        "end_char": 353,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وقوع خسارت به اتومبیل",
+      "evidence": {
+        "quote": "به موجب ورود خسارت سنگین به اتومبیل اینجانب شده",
+        "start_char": 356,
+        "end_char": 403,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

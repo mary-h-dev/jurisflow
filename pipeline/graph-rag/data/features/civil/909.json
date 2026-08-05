@@ -1,0 +1,173 @@
+{
+  "ruling_id": "909",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 84,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرعی",
+      "evidence": {
+        "quote": "عدم قصد تبرعی بودن",
+        "start_char": 1179,
+        "end_char": 1197,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 74,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "سه دانگ منزل به نام زوجه انتقال داده",
+        "start_char": 535,
+        "end_char": 571,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه بدوی",
+        "start_char": 1803,
+        "end_char": 1822,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "زوج را مکلف به پرداخت آن",
+        "start_char": 1824,
+        "end_char": 1848,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت آقای ع.م. به خواسته مطالبه اجرت المثل ، به این توضیح که خواهان اعلام نموده است",
+        "start_char": 55,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "همسر دائمی و شرعی خوانده می باشم",
+        "start_char": 204,
+        "end_char": 236,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "باعتبار زوج",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در حق زوجه می نماید",
+        "start_char": 1849,
+        "end_char": 1868,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به موجب سند نکاحیه",
+        "start_char": 144,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "سه دانگ منزل",
+        "start_char": 535,
+        "end_char": 547,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجرت المثل سنوات زندگی مشترک",
+      "evidence": {
+        "quote": "مبلغ سیزده میلیون و ششصد هزار تومان تعیین و نظریه کارشناس منتخب دادگاه با اوضاع و احوال حاکم بر قضیه مغایرتی ندارد، لذا این مبلغ را به عنوان اجرت المثل سنوات زندگی مشترک تعیین",
+        "start_char": 1625,
+        "end_char": 1800,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج و زوجه همسر دائمی و شرعی یکدیگر هستند",
+      "evidence": {
+        "quote": "همسر دائمی و شرعی خوانده می باشم",
+        "start_char": 204,
+        "end_char": 236,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج سه دانگ منزل را به نام زوجه انتقال داده است",
+      "evidence": {
+        "quote": "زوج بابت حقوق زوجه سه دانگ منزل به نام زوجه انتقال داده",
+        "start_char": 516,
+        "end_char": 571,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کارشناس میزان اجرت المثل را سیزده میلیون و ششصد هزار تومان تعیین کرده است",
+      "evidence": {
+        "quote": "کارشناس منتخب دادگاه میزان اجرت المثل را مبلغ سیزده میلیون و ششصد هزار تومان تعیین",
+        "start_char": 1584,
+        "end_char": 1666,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

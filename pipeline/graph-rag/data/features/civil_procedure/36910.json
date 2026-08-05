@@ -1,0 +1,93 @@
+{
+  "ruling_id": "36910",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "به لحاظ فضولی بودن",
+        "start_char": 373,
+        "end_char": 391,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال",
+        "start_char": 104,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "قسمت اعظم خواندگان ساکن *می باشند",
+        "start_char": 1072,
+        "end_char": 1105,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "سند مجعول وکالت نامه شماره 26124 مورخ 1375/06/12",
+        "start_char": 160,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "ابطال مبایعه نامه",
+        "start_char": 271,
+        "end_char": 288,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ارزش منطقه ای ملک",
+        "start_char": 235,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "موضوع دعوا ابطال بخشی از سند و مبایعه نامه است",
+      "evidence": {
+        "quote": "به خواسته ابطال ( موضوع سند مالی است ) ( ابطال قسمتی از سند مجعول وکالت نامه شماره 26124 مورخ 1375/06/12 ) مقوم به 68/000/000 ریال ارزش منطقه ای ملک 68/000/000 ریال ، ابطال مبایعه نامه",
+        "start_char": 104,
+        "end_char": 288,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اختلاف صلاحیت محلی بین شعب",
+      "evidence": {
+        "quote": "به جهت اختلاف ایجادشده در صلاحیت پرونده را به دیوان عالی کشور ارسال",
+        "start_char": 1627,
+        "end_char": 1694,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

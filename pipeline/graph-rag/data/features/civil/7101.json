@@ -1,0 +1,183 @@
+{
+  "ruling_id": "7101",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "وقوع عقد زوجین",
+        "start_char": 544,
+        "end_char": 558,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام به تمکین",
+        "start_char": 94,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مستحق دریافت نفقه نخواهد بود",
+        "start_char": 768,
+        "end_char": 796,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "دادخواست اعاده دادرسی",
+        "start_char": 2020,
+        "end_char": 2041,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض وارد است",
+        "start_char": 1436,
+        "end_char": 1451,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض عنه",
+        "start_char": 1819,
+        "end_char": 1844,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "رأی به ردّ دعوی خواهان",
+        "start_char": 1877,
+        "end_char": 1899,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان آقای ص.ن.",
+        "start_char": 0,
+        "end_char": 33,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده خانم ف.غ.",
+        "start_char": 58,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "لازمه تمکین تهیه وسایل مقدمات تمکین ازجمله منزل مستقل در محل سکونت زوج است",
+        "start_char": 1457,
+        "end_char": 1531,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تقاضای الزام به تمکین زوجه را در شهرستان نموده",
+        "start_char": 2399,
+        "end_char": 2445,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1010 - 20/5/92 اصداری از شعبه اول دادگاه حقوقی (خانواده) قدس که به موجب آن تجدیدنظرخواه ملزم به تمکین از همسرش شده است",
+        "start_char": 1295,
+        "end_char": 1435,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به موجب سند نکاحیه شماره ترتیب 210586- 6/7/90",
+        "start_char": 132,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "منزل مورد اجاره در شهرستان نیز به علت اتمام مدت اجاره باطل شده است",
+        "start_char": 1664,
+        "end_char": 1730,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده محل زندگی مشترک را ترک کرده است",
+      "evidence": {
+        "quote": "مدت 2 ماه است محل زندگی مشترک را بدون دلیل مشروع و قانونی ترک و حاضر به بازگشت نیست",
+        "start_char": 248,
+        "end_char": 331,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در تهران مشغول کار است",
+      "evidence": {
+        "quote": "حسب اظهارات زوج نامبرده شاغل در تهران است",
+        "start_char": 1535,
+        "end_char": 1576,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "منزل مورد اجاره باطل شده است",
+      "evidence": {
+        "quote": "منزل مورد اجاره در شهرستان نیز به علت اتمام مدت اجاره باطل شده است",
+        "start_char": 1664,
+        "end_char": 1730,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

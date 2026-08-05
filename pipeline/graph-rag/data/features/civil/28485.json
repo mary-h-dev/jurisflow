@@ -1,0 +1,183 @@
+{
+  "ruling_id": "28485",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "بخواسته اعتراض به عملیات اجرایی",
+        "start_char": 124,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت دادرسی",
+      "evidence": {
+        "quote": "و مطالبه خسارت دادرسی",
+        "start_char": 216,
+        "end_char": 237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "اموال در تصرف مالکانه خواهان می باشد",
+        "start_char": 730,
+        "end_char": 766,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "خواسته دعوای خواهان اولیه محکوم به بطلان می باشد",
+        "start_char": 2150,
+        "end_char": 2198,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خریداری",
+      "evidence": {
+        "quote": "را خریداری نموده است",
+        "start_char": 510,
+        "end_char": 530,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "دلیلی بر رد ادعای خواهان اقامه و ارائه نداشته است",
+        "start_char": 859,
+        "end_char": 908,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "حکم به رفع توقیف از اموال",
+        "start_char": 1034,
+        "end_char": 1059,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظر",
+        "start_char": 2125,
+        "end_char": 2149,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بموجب مبایعه نامه عادی مورخ93/2/15و93/2/16و وکالتنامه رسمی شماره … مورخ 93/2/21تنظیمی در دفتر اسناد رسمی شماره 231تهران کلیه امتیازات و دستگاهها و ماشین آلات موجود مربوط به شرکت چاپ و. را خریداری نموده است",
+        "start_char": 325,
+        "end_char": 530,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "بطرفیت خواندگان آقای ع. م.ش. فرزند ع. و فروشگاه زنجیره ای ر.",
+        "start_char": 63,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "از سوی تجدید نظر خوانده ثابت نیست",
+        "start_char": 1832,
+        "end_char": 1865,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "بموجب مبایعه نامه عادی مورخ93/2/15و93/2/16",
+        "start_char": 325,
+        "end_char": 367,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه رسمی",
+      "evidence": {
+        "quote": "وکالتنامه رسمی شماره … مورخ 93/2/21",
+        "start_char": 369,
+        "end_char": 404,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "آخرین مالک دستگاه چاپ است",
+        "start_char": 618,
+        "end_char": 643,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان امتیازات و ماشین‌آلات شرکت را خریداری کرده است",
+      "evidence": {
+        "quote": "کلیه امتیازات و دستگاهها و ماشین آلات موجود مربوط به شرکت چاپ و. را خریداری نموده است",
+        "start_char": 445,
+        "end_char": 530,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت وجه معامله توسط تجدیدنظر خوانده ثابت نشده است",
+      "evidence": {
+        "quote": "پرداخت وجهی بابت معامله مذکور از سوی تجدید نظر خوانده ثابت نیست",
+        "start_char": 1802,
+        "end_char": 1865,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک‌های شرکت برگشت خورده است",
+      "evidence": {
+        "quote": "تمام اقدامات انجام گرفته پس از برگشت چگهای شرکت تجدیدنظر خواه بوده",
+        "start_char": 1870,
+        "end_char": 1936,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "11167",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مدنی",
+      "evidence": {
+        "quote": "حق درخواست تغییر نام از حقوق مدنی است",
+        "start_char": 343,
+        "end_char": 380,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اهلیت",
+      "evidence": {
+        "quote": "خواهان اهلیت اعمال این حق را دارا می‌باشد",
+        "start_char": 526,
+        "end_char": 567,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "به خواسته تغییر نام از ن. به ع.",
+        "start_char": 91,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره ثبت احوال شهرستان تهران",
+        "start_char": 880,
+        "end_char": 923,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در دادگاه تجدیدنظر",
+        "start_char": 776,
+        "end_char": 806,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را تائید",
+        "start_char": 1855,
+        "end_char": 1886,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان ن.س.",
+        "start_char": 0,
+        "end_char": 28,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده اداره ثبت احوال شهرستان تهران",
+        "start_char": 45,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "الزام اداره تجدیدنظرخواه",
+        "start_char": 1097,
+        "end_char": 1121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "مفاد لایحه دفاعیه تجدیدنظرخوانده",
+        "start_char": 1297,
+        "end_char": 1329,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "در سند سجلی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 0832",
+        "start_char": 962,
+        "end_char": 988,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان درخواست تغییر نام در سند سجلی را دارد",
+      "evidence": {
+        "quote": "به خواسته تغییر نام از ن. به ع. در سند سجلی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اداره ثبت احوال نسبت به حکم تغییر نام اعتراض کرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره ثبت احوال شهرستان تهران",
+        "start_char": 880,
+        "end_char": 923,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

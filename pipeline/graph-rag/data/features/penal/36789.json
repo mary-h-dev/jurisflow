@@ -1,0 +1,113 @@
+{
+  "ruling_id": "36789",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حبس",
+      "evidence": {
+        "quote": "تحمل پنج ماه حبس",
+        "start_char": 46,
+        "end_char": 62,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معافیت",
+      "evidence": {
+        "quote": "جهات معافیت از کیفر",
+        "start_char": 433,
+        "end_char": 452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی نموده",
+        "start_char": 719,
+        "end_char": 744,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی نموده",
+        "start_char": 719,
+        "end_char": 744,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "اعاده خواسته مشاوره نموده",
+        "start_char": 1051,
+        "end_char": 1076,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متقاضی",
+      "evidence": {
+        "quote": "مفاد درخواست متقاضی",
+        "start_char": 934,
+        "end_char": 953,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سلاح شکاری",
+      "evidence": {
+        "quote": "نگهداری سلاح شکاری",
+        "start_char": 72,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بموجب دادنامه شماره **00/8/25",
+        "start_char": 136,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم فاقد سابقه کیفری بوده است",
+      "evidence": {
+        "quote": "فاقد سابقه کیفری بوده",
+        "start_char": 288,
+        "end_char": 309,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مجازات صادر شده با قانون مغایرت دارد",
+      "evidence": {
+        "quote": "مجازات مورد حکم را خلاف نص صریح قانون اعلام",
+        "start_char": 627,
+        "end_char": 670,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "38450",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ نکاح",
+        "start_char": 244,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "موجب حق فسخ برای مرد می شود",
+        "start_char": 565,
+        "end_char": 592,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "دادخواست تجدید نظر خواهی",
+        "start_char": 7,
+        "end_char": 31,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "ضمن رد تجدید نظر خواهی",
+        "start_char": 980,
+        "end_char": 1002,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده بدوی",
+        "start_char": 95,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان",
+        "start_char": 227,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "مرد",
+        "start_char": 582,
+        "end_char": 585,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه",
+        "start_char": 273,
+        "end_char": 277,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقد ازدواج",
+      "evidence": {
+        "quote": "عقد و ازدواج نموده اند",
+        "start_char": 801,
+        "end_char": 823,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره * مورخه 1400/10/20",
+        "start_char": 147,
+        "end_char": 179,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین در سال 1388 عقد و ازدواج کرده‌اند",
+      "evidence": {
+        "quote": "طرفین در سال 1388 عقد و ازدواج نموده اند",
+        "start_char": 783,
+        "end_char": 823,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست فسخ نکاح به دلیل نازایی زوجه مطرح شده است",
+      "evidence": {
+        "quote": "در مورد دادخواست خواهان به خواسته فسخ نکاح به لحاظ مشکل نازایی زوجه",
+        "start_char": 210,
+        "end_char": 277,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

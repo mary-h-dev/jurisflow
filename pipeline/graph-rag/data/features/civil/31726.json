@@ -1,0 +1,133 @@
+{
+  "ruling_id": "31726",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تملک",
+      "evidence": {
+        "quote": "تملک صرفاً با احیاء اراضی موات ، حیازت اشیاء مباحه ، عقود وتعهدات ، اخذ به شفعه وارث حاصل می شود",
+        "start_char": 1401,
+        "end_char": 1497,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "بعد از وقوع عقد بیع ، خریدار ملزم به تأدیه ثمن می باشد",
+        "start_char": 1686,
+        "end_char": 1740,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی وی را صادر واعلام می نماید",
+        "start_char": 2099,
+        "end_char": 2146,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدورحکم به پرداخت قیمت روز زمین",
+        "start_char": 127,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "تقاضای محکومیت خواندگان به پرداخت قیمت روز زمین طبق نظر کارشناس را دارد",
+        "start_char": 515,
+        "end_char": 586,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدید نظر خواهی آقای ح. رضایی",
+        "start_char": 2310,
+        "end_char": 2347,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان ، ح. ر. فرزند س.الف.",
+        "start_char": 0,
+        "end_char": 27,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت 1- شرکت برق منطقه ای تهران 2- اداره برق پیشوا",
+        "start_char": 267,
+        "end_char": 321,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "خریدار ملزم به تأدیه ثمن می باشد",
+        "start_char": 1708,
+        "end_char": 1740,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "قیمت روز زمین درپلاک ثبتی... فرعی از 6 اصلی بخش ب. پ.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواندگان بدون اجازه از زمین عبور کرده‌اند",
+      "evidence": {
+        "quote": "خواندگان بدون اجازه از زمین متعلق به او دکل برق عبور داده اند",
+        "start_char": 963,
+        "end_char": 1024,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت زمین هنوز به خواندگان منتقل نشده است",
+      "evidence": {
+        "quote": "خواهان زمانی مستحق قیمت زمین می شود که زمین مورد ادعای او به خواندگان منتقل شده باشد",
+        "start_char": 759,
+        "end_char": 843,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

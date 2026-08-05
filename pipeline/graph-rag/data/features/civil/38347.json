@@ -1,0 +1,133 @@
+{
+  "ruling_id": "38347",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "وجود رابطه زوجیت میان خواهان و مورث خواندگان",
+        "start_char": 287,
+        "end_char": 331,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عرفی",
+      "evidence": {
+        "quote": "زندگی مشترک زوجین به نحو مذکور ظهور عرفی در پرداخت نفقه دارد",
+        "start_char": 561,
+        "end_char": 621,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "عبارتست از مطالبه نفقه",
+        "start_char": 177,
+        "end_char": 199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "اقامه نموده",
+        "start_char": 165,
+        "end_char": 176,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 851,
+        "end_char": 869,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان خانم ف. م.",
+        "start_char": 0,
+        "end_char": 24,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "علیه خواندگان خانم ل. ب.",
+        "start_char": 47,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مورث",
+      "evidence": {
+        "quote": "مورث خواندگان",
+        "start_char": 318,
+        "end_char": 331,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه",
+        "start_char": 188,
+        "end_char": 199,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین خواهان و مورث ثابت شده است",
+      "evidence": {
+        "quote": "وجود رابطه زوجیت میان خواهان و مورث خواندگان م. ب. برابر روگرفت قباله نکاحیه پیوست دادخواست مسلم است",
+        "start_char": 287,
+        "end_char": 387,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجین در منزل مشترک سکونت داشته‌اند",
+      "evidence": {
+        "quote": "خواهان و شوهرش تا زمان فوت و در منزل مشترک متعلق به مشارالیه سکونت داشته اند",
+        "start_char": 474,
+        "end_char": 550,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ادعای پرداخت شدن نفقه مورد پذیرش است",
+      "evidence": {
+        "quote": "ادعای وکیل خواندگان در پرداخت شدن نفقه با ظاهر موافقت دارد",
+        "start_char": 700,
+        "end_char": 758,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

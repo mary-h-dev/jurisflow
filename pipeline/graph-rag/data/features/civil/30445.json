@@ -1,0 +1,203 @@
+{
+  "ruling_id": "30445",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مرور زمان",
+      "evidence": {
+        "quote": "به لحاظ شمول مرور زمان دعوی خواهان رد می گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "به لحاظ شرط داوری موضوع بدوا",
+        "start_char": 873,
+        "end_char": 901,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لاضرر",
+      "evidence": {
+        "quote": "نظر به قاعده لاضرر",
+        "start_char": 4810,
+        "end_char": 4828,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "متصدی حمل و نقل مسئول حوادث و تقصیراتی است",
+        "start_char": 3255,
+        "end_char": 3297,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه خسارت",
+      "evidence": {
+        "quote": "به خواسته مطالبه خسارت",
+        "start_char": 116,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی صادر و اعلام می گردد",
+        "start_char": 1652,
+        "end_char": 1685,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شرکت پایاکلاج",
+        "start_char": 6015,
+        "end_char": 6042,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "جلب ثالث",
+      "evidence": {
+        "quote": "دعوای جلب ثالث",
+        "start_char": 4198,
+        "end_char": 4212,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار داشته",
+        "start_char": 270,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت شرکت حمل و نقل بین المللی ره انجام",
+        "start_char": 72,
+        "end_char": 115,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به پرداخت مبلغ 166320 دلار آمریکا",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده ردیف اول",
+        "start_char": 4784,
+        "end_char": 4807,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "مجلوب ثالث به عنوان شرکت کریر مسئول مستقیم خسارت وارده به کالای موضوع حمل و قرارداد می باشد",
+        "start_char": 5310,
+        "end_char": 5401,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "برابر قرارداد شماره 87/29889",
+        "start_char": 294,
+        "end_char": 322,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "تعداد 44 پالت مشتمل بر 4752 عدد دیسک و صفحه کلاچ خودرو ال 90",
+        "start_char": 356,
+        "end_char": 416,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کالا",
+      "evidence": {
+        "quote": "به دلیل کشف کالای قاچاق",
+        "start_char": 623,
+        "end_char": 646,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "کالا در مرز ترکیه به دلیل کشف کالای قاچاق متوقف شده است",
+      "evidence": {
+        "quote": "کامیون حامل کالا در مرز ترکیه به دلیل کشف کالای قاچاق از راننده متوقف",
+        "start_char": 2447,
+        "end_char": 2516,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کالا دچار صدمات فنی و فیزیکی شده است",
+      "evidence": {
+        "quote": "به دلیل صدمات فنی و فیزیکی وارده به کالا",
+        "start_char": 671,
+        "end_char": 711,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کالا به ایران بازگشت داده شده است",
+      "evidence": {
+        "quote": "کامیون مربوطه به ایران باز می گردد",
+        "start_char": 2680,
+        "end_char": 2714,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

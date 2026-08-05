@@ -1,0 +1,163 @@
+{
+  "ruling_id": "4679",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مابه التفاوت",
+      "evidence": {
+        "quote": "مطالبه مابه التفاوت مهریه",
+        "start_char": 74,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتبار",
+      "evidence": {
+        "quote": "به لحاظ اعتبار امر محکوم",
+        "start_char": 1250,
+        "end_char": 1274,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مابه التفاوت مهریه",
+        "start_char": 64,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان را صادر می نماید",
+        "start_char": 523,
+        "end_char": 559,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض عنه",
+        "start_char": 1905,
+        "end_char": 1930,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را جهت رسیدگی ماهوی به شعبه محترم بدوی اعاده می نماید",
+        "start_char": 1931,
+        "end_char": 1991,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان را صادر می نماید",
+        "start_char": 523,
+        "end_char": 559,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده محکوم به پرداخت",
+        "start_char": 160,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ن.ش.",
+        "start_char": 730,
+        "end_char": 753,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخوانده آقای م.ص.",
+        "start_char": 871,
+        "end_char": 904,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "تحت عنوان مهریه",
+        "start_char": 200,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به موجب دادنامه شماره 1855",
+        "start_char": 123,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پرونده اجرایی به شماره کلاسه 252/90082 تشکیل گردیده است",
+        "start_char": 262,
+        "end_char": 317,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده قبلاً محکوم به پرداخت مهریه شده است",
+      "evidence": {
+        "quote": "خوانده محکوم به پرداخت 810/899/191 ریال تحت عنوان مهریه",
+        "start_char": 160,
+        "end_char": 215,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه بدوی دعوی را رد کرده بود",
+      "evidence": {
+        "quote": "قرار رد دعوی تصدیر گردیده",
+        "start_char": 1006,
+        "end_char": 1031,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

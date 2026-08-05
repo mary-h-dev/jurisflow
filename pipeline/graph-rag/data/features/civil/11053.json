@@ -1,0 +1,133 @@
+{
+  "ruling_id": "11053",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مستحق للغیر بودن",
+      "evidence": {
+        "quote": "به جهت مستحق‌للغیر بودن ملک موصوف",
+        "start_char": 209,
+        "end_char": 242,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "بیع فاسد اثری در تملک ندارد",
+        "start_char": 987,
+        "end_char": 1014,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأخیر",
+      "evidence": {
+        "quote": "خسارت ناشی از تأخیر در تأدیه",
+        "start_char": 1306,
+        "end_char": 1334,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "صدور حکم مبنی بر ابطال قولنامه",
+        "start_char": 63,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خرید",
+      "evidence": {
+        "quote": "اقدام به خرید یک قطعه زمین",
+        "start_char": 419,
+        "end_char": 445,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد ثمن",
+        "start_char": 2129,
+        "end_char": 2140,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای ش.ک. به طرفیت د.ع.",
+        "start_char": 0,
+        "end_char": 36,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از خوانده نموده‌ام",
+        "start_char": 490,
+        "end_char": 508,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قولنامه",
+      "evidence": {
+        "quote": "ابطال قولنامه شماره... به تاریخ 1375/5/10",
+        "start_char": 80,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "بایع باید ثمن را مسترد نماید",
+        "start_char": 2495,
+        "end_char": 2523,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ملک را به شخص دیگری فروخته است",
+      "evidence": {
+        "quote": "آقای م.ن. همین ملک را به دیگران فروخته است",
+        "start_char": 712,
+        "end_char": 754,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبیع مستحق‌للغیر است",
+      "evidence": {
+        "quote": "مستحق‌للغیر بودن مبیع",
+        "start_char": 2018,
+        "end_char": 2039,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

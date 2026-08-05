@@ -1,0 +1,173 @@
+{
+  "ruling_id": "11061",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "کلاهبرداری",
+      "evidence": {
+        "quote": "ناشی از جرم کلاهبرداری",
+        "start_char": 108,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "تأخیر تأدیه",
+        "start_char": 176,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان را صادر و اعلام می‌نماید",
+        "start_char": 1272,
+        "end_char": 1321,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه خسارت",
+        "start_char": 72,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "اقدام به فروش ملک",
+        "start_char": 244,
+        "end_char": 261,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دریافت",
+      "evidence": {
+        "quote": "ثمن آن را دریافت داشته است",
+        "start_char": 302,
+        "end_char": 328,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض به این رسیدگی",
+        "start_char": 767,
+        "end_char": 787,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ع.و.",
+        "start_char": 1466,
+        "end_char": 1489,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "با رد اعتراض",
+        "start_char": 2235,
+        "end_char": 2247,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهارداشته است",
+        "start_char": 205,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده اقدام به فروش ملک",
+        "start_char": 237,
+        "end_char": 261,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "مشتری را مستحق غرامات",
+        "start_char": 1976,
+        "end_char": 1997,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "اقدام به فروش ملک",
+        "start_char": 244,
+        "end_char": 261,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "ثمن آن را دریافت داشته است",
+        "start_char": 302,
+        "end_char": 328,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فروش ملک متعلق به غیر",
+      "evidence": {
+        "quote": "مشخص گردیده که ملک مذکور متعلق به غیر بوده",
+        "start_char": 345,
+        "end_char": 387,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "استرداد ملک به مالک اصلی مقرر شده است",
+      "evidence": {
+        "quote": "استرداد ملک به مالک اصلی مورد لحوق حکم قطعی دادگاه جزایی قرارگرفته",
+        "start_char": 391,
+        "end_char": 457,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "23439",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "دلیلی بر برائت ذمه خود نسبت به آنها نیاورده است",
+        "start_char": 2025,
+        "end_char": 2072,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأدیه",
+      "evidence": {
+        "quote": "نسبت به تادیه وجه آنها اقرار داشته",
+        "start_char": 1926,
+        "end_char": 1960,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ چهارصد و سی دو میلیون ریال",
+        "start_char": 82,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امضاء",
+      "evidence": {
+        "quote": "خوانده به عنوان ضامن ظهر چک را امضاء نموده",
+        "start_char": 296,
+        "end_char": 338,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انکار",
+      "evidence": {
+        "quote": "مندرجات ظهر چک در این مورد را انکار یا...ننموده است",
+        "start_char": 1963,
+        "end_char": 2014,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدید نظر خواهی آقای م. الف.",
+        "start_char": 1351,
+        "end_char": 1379,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "ضمن رد تجدید نظرخواهی",
+        "start_char": 2385,
+        "end_char": 2406,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دعوای خواهان خانم ف. خ.",
+        "start_char": 0,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده خانم ش. ک.و.",
+        "start_char": 31,
+        "end_char": 59,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظرخواه به ضمانت خود",
+        "start_char": 1899,
+        "end_char": 1925,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "وجه دو فقره چک",
+        "start_char": 131,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک‌ها",
+      "evidence": {
+        "quote": "مندرجات ظهر چک ها",
+        "start_char": 1745,
+        "end_char": 1762,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبلغ چک پرداخت نشده است",
+      "evidence": {
+        "quote": "با توجه به اینکه مبلغ چک پرداخت نگردیده",
+        "start_char": 621,
+        "end_char": 660,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک‌ها از دارنده اولیه به فرد دیگری و سپس به تجدید نظرخوانده منتقل شده‌اند",
+      "evidence": {
+        "quote": "چک ها ازناحیه دارنده اولیه به فرد دیگری و از ناحیه وی به تجدید نظرخوانده منتقل شده",
+        "start_char": 2128,
+        "end_char": 2210,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

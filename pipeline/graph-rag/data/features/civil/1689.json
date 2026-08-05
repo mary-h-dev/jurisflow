@@ -1,0 +1,153 @@
+{
+  "ruling_id": "1689",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 62,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زندگی مشترک",
+      "evidence": {
+        "quote": "فرض بر زندگی مشترک زوجین",
+        "start_char": 1116,
+        "end_char": 1140,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اختلاف",
+      "evidence": {
+        "quote": "پس از وصول جهت حل اختلاف به این شعبه ارجاع گردیده است",
+        "start_char": 1598,
+        "end_char": 1651,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی به خواسته الزام خوانده به تمکین تقدیم",
+        "start_char": 52,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار عدم",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت خود را به اعتبار و شایستگی محاکم شهرستان تهران صادر نموده",
+        "start_char": 823,
+        "end_char": 896,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "و نقض رأی شماره 1456 مورخ 15/7/91 شعبه 26 دادگاه عمومی خانواده ک",
+        "start_char": 3263,
+        "end_char": 3327,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "و تأیید صلاحیت این دادگاه در رسیدگی به دعوی مطروحه",
+        "start_char": 3328,
+        "end_char": 3378,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "آقای ر.چ. به طرفیت همسرش خانم م.ج. دادخواستی",
+        "start_char": 17,
+        "end_char": 61,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 72,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "اقامتگاه زوج خواهد بود",
+        "start_char": 402,
+        "end_char": 424,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "سکونت زوجه در منزل پدری",
+        "start_char": 348,
+        "end_char": 371,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پس از وصول پرونده به دادگستری تهران",
+        "start_char": 899,
+        "end_char": 934,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین از هم جدا زندگی می‌کنند",
+      "evidence": {
+        "quote": "زوجین در حال حاضر فاقد زندگی مشترک می باشند",
+        "start_char": 1934,
+        "end_char": 1977,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه زندگی مشترک را ترک کرده است",
+      "evidence": {
+        "quote": "مبین آن است که زوجه زندگی مشترک را ترک نموده",
+        "start_char": 1887,
+        "end_char": 1931,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "28855",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "امانی",
+      "evidence": {
+        "quote": "ید زوج بر جهیزیه امانی تلقی می شود",
+        "start_char": 382,
+        "end_char": 416,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد جهیزیه",
+        "start_char": 102,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض وارد نمیباشد",
+        "start_char": 1465,
+        "end_char": 1484,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظر خواهی",
+        "start_char": 1089,
+        "end_char": 1109,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نسبت به دعوی خواهان",
+        "start_char": 259,
+        "end_char": 278,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از سوی خوانده",
+        "start_char": 221,
+        "end_char": 234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "ید زوج بر جهیزیه امانی تلقی می شود",
+        "start_char": 382,
+        "end_char": 416,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه آقای الف. ح.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "استرداد جهیزیه",
+        "start_char": 112,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه رسیدگی حاضر بوده است",
+      "evidence": {
+        "quote": "طرفین در جلسه رسیدگی حاضر و",
+        "start_char": 193,
+        "end_char": 220,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده به ادعای خواهان اعتراض نکرده است",
+      "evidence": {
+        "quote": "از سوی خوانده هیچگونه ایراد و اعتراضی نسبت به دعوی خواهان نسبت به دعوی خواهان به عمل نیامده",
+        "start_char": 221,
+        "end_char": 312,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رأی دادگاه بدوی غیابی بوده است",
+      "evidence": {
+        "quote": "رای صادره غیابی محسوم",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

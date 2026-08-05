@@ -1,0 +1,123 @@
+{
+  "ruling_id": "32316",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد هبه",
+      "evidence": {
+        "quote": "به سبب عقد هبه",
+        "start_char": 314,
+        "end_char": 328,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "هبه",
+      "evidence": {
+        "quote": "مبنی بر رجوع از هبه",
+        "start_char": 434,
+        "end_char": 453,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد طلاجات",
+        "start_char": 65,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "می توانند در صورت بهم خوردن وصلت منظور هدایایی را که طرف دیگر یا ابوین او برای وصلت منظور داده است مطالبه کند",
+        "start_char": 980,
+        "end_char": 1089,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد فرجام",
+      "evidence": {
+        "quote": "با رد فرجام خواهی",
+        "start_char": 1789,
+        "end_char": 1806,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 629,
+        "end_char": 640,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به خوانده تملیک نموده است",
+        "start_char": 329,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال منقول و طلا",
+      "evidence": {
+        "quote": "استرداد طلاجات اهدایی",
+        "start_char": 75,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "به دلالت لیست جهیزیه",
+        "start_char": 163,
+        "end_char": 183,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین زن و شوهر هستند اما جدا زندگی می‌کنند",
+      "evidence": {
+        "quote": "زن و شوهر شرعی و قانونی بوده لیکن به سبب اختلافات جدا زندگی می نمایند",
+        "start_char": 774,
+        "end_char": 843,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "هدایا در دوران نامزدی داده شده است",
+      "evidence": {
+        "quote": "طلاجات اهدایی به ادعای خواهان مربوط به دوران نامزدی می باشد",
+        "start_char": 857,
+        "end_char": 916,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "29300",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "به خواسته خلع ید از یک باب مغازه",
+        "start_char": 66,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت رسمی",
+      "evidence": {
+        "quote": "مالکیت رسمی خواهان بر ششدانگ مغازه مورد ادعا",
+        "start_char": 306,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "با عنایت به حاکمیت اصل صحت و لزوم بر قرادها",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "طرح دعوای خلع به لحاظ فقدان رکن غصب صحیح نبوده",
+        "start_char": 2873,
+        "end_char": 2919,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه خسارات دادرسی",
+        "start_char": 178,
+        "end_char": 200,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تصرفات",
+      "evidence": {
+        "quote": "ادامه تصرفات خوانده",
+        "start_char": 698,
+        "end_char": 717,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدید نظر خواهی آقای ش. ه.ن.",
+        "start_char": 1884,
+        "end_char": 1912,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه معترض عنه",
+        "start_char": 3139,
+        "end_char": 3163,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مالکیت رسمی خواهان بر ششدانگ مغازه",
+        "start_char": 306,
+        "end_char": 340,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "استناد خوانده و وکیل ایشان",
+        "start_char": 419,
+        "end_char": 445,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظر خواهی آقای ش. ه.ن.",
+        "start_char": 1884,
+        "end_char": 1912,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "یک باب",
+      "evidence": {
+        "quote": "خلع ید از یک باب مغازه",
+        "start_char": 76,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "حسب مبایعه نامه عادی 10- 1374/7/2",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "به دلالت سند مالکیت رسمی شماره 461839",
+        "start_char": 351,
+        "end_char": 388,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده بر مغازه تصرف کرده است",
+      "evidence": {
+        "quote": "ادامه تصرفات خوانده من غیر حق و بلامجوز بوده",
+        "start_char": 1266,
+        "end_char": 1310,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده بر اساس مبایعه نامه عادی تصرف می‌کند",
+      "evidence": {
+        "quote": "تصرف تجدید نظر خواه مبتنی بر مبایعه نامه مذکور بوده",
+        "start_char": 2674,
+        "end_char": 2725,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

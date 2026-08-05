@@ -1,0 +1,193 @@
+{
+  "ruling_id": "30349",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "صدور حکم مبنی برخلع ید خوانده از عین مستاجره",
+        "start_char": 119,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه وجوه حاصل از فروش تولیدات ریخته گری و اجرت المثل ایام غصب",
+        "start_char": 166,
+        "end_char": 230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتبار",
+      "evidence": {
+        "quote": "ضمن عدم پذیرش ایراد اعتبار امر قضاوت شده",
+        "start_char": 1403,
+        "end_char": 1443,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیانت",
+      "evidence": {
+        "quote": "شکایت خواهان مبنی بر خیانت در امانت نسبت به اموال موجود در کارگاه",
+        "start_char": 1893,
+        "end_char": 1958,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظر خواهی در محاکم محترم تجدید نظر استان می باشد",
+        "start_char": 2818,
+        "end_char": 2877,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه وجوه حاصل از فروش تولیدات ریخته گری",
+        "start_char": 166,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "خوانده اقدام به تصرف وجوه حاصل از فروش نموده است",
+        "start_char": 660,
+        "end_char": 708,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ورود",
+      "evidence": {
+        "quote": "مانع ورود موکل به کارگاه شده است",
+        "start_char": 733,
+        "end_char": 765,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر و اعلام",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوای خواهان صادر و اعلام می نماید",
+        "start_char": 1669,
+        "end_char": 1716,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی صادر و اعلام می‌گردد",
+        "start_char": 2293,
+        "end_char": 2326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "حکم به تأیید دادنامه تجدیدنظرخواسته صادر واعلام می کند",
+        "start_char": 3749,
+        "end_char": 3803,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از ناحیه آقای م. ح به وکالت از آقای ن. ی. به طرفیت آقای ه. ک.",
+        "start_char": 23,
+        "end_char": 84,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ه. ک. با وکالت خانم م. ص.پ.ک",
+        "start_char": 65,
+        "end_char": 107,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه ایراد و اعتراض مؤثر",
+        "start_char": 3394,
+        "end_char": 3433,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عین مستأجره",
+      "evidence": {
+        "quote": "خلع ید خوانده از عین مستاجره",
+        "start_char": 135,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده اقدام به تصرف وجوه فروش کرده است",
+      "evidence": {
+        "quote": "خوانده اقدام به تصرف وجوه حاصل از فروش نموده است",
+        "start_char": 660,
+        "end_char": 708,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده مانع ورود خواهان به کارگاه شده است",
+      "evidence": {
+        "quote": "مانع ورود موکل به کارگاه شده است",
+        "start_char": 733,
+        "end_char": 765,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد اجاره منقضی شده است",
+      "evidence": {
+        "quote": "با توجه به انقضای مدت قرارداد اجاره خواهان با مالک",
+        "start_char": 1452,
+        "end_char": 1502,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

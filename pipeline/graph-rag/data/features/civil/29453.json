@@ -1,0 +1,223 @@
+{
+  "ruling_id": "29453",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "معامله",
+      "evidence": {
+        "quote": "بخسته مطالبه نهصدوپنجاه میلیون ریال بخشی ازثمن معامله",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تاخیر",
+      "evidence": {
+        "quote": "خسارت تاخیر در اجرای تعهد در وجه طرف مقابل پرداخت نماید",
+        "start_char": 1701,
+        "end_char": 1756,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت دادرسی",
+      "evidence": {
+        "quote": "و نیز خسارت دادرسی(هزینه دادرسی-حق الوکاله وکیل)",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فورس ماژور",
+      "evidence": {
+        "quote": "به دلایل فورس ماژور",
+        "start_char": 743,
+        "end_char": 762,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "اصولا\"عدم اجرای تعهد شامل تمام تعهدات می شود",
+        "start_char": 5904,
+        "end_char": 5948,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخسته مطالبه نهصدوپنجاه میلیون ریال",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خواندگان از ثمن معامله مبلغ 6.000.000.000 ریال را پرداخت",
+        "start_char": 485,
+        "end_char": 541,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "خواهان جهت تنظیم سند واخذ چک بانکی تتمه ثمن امتناع ورزیده است",
+        "start_char": 2971,
+        "end_char": 3032,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خودداری",
+      "evidence": {
+        "quote": "از پرداخت الباقی ثمن مورد معامله خودداری نموده اند",
+        "start_char": 1336,
+        "end_char": 1386,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست آقای م. ب.ک.",
+        "start_char": 0,
+        "end_char": 29,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت الف. ک. فرزند ر.الف. و خانم س.ن. الف. فرزند س.ی.",
+        "start_char": 55,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "واگرفروشنده تاخیرکند یا انجام ندهد",
+        "start_char": 5492,
+        "end_char": 5526,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "در صورتی که ممتنع از انجام تعهدات مندرج در این قرارداد خریدار باشد",
+        "start_char": 1578,
+        "end_char": 1644,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "براساس مبایعه نامه",
+        "start_char": 169,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "اضافه مساحت مبیع براساس سند مالکیت تک برگی",
+        "start_char": 190,
+        "end_char": 232,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "شش دانگ یکدستگاه آپارتمان",
+        "start_char": 292,
+        "end_char": 317,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک موصوف در تصرف و ید خواندگان میباشد",
+        "start_char": 1404,
+        "end_char": 1442,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بانکی",
+      "evidence": {
+        "quote": "واخذ چک بانکی تتمه ثمن",
+        "start_char": 2992,
+        "end_char": 3014,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبلغ بخشی از ثمن معامله پرداخت نشده است",
+      "evidence": {
+        "quote": "تقاضای رسیدگی و صدور حکم بر محکومیت خواندگان به پرداخت مبلغ 950.000.000.ریال بابت الباقی ثمن معامله",
+        "start_char": 1778,
+        "end_char": 1877,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متراژ ملک پس از تفکیک افزایش یافته است",
+      "evidence": {
+        "quote": "پس از اخذ صورت مجلس تفکیکی متراژ ملک 138.22 رسیده است",
+        "start_char": 2419,
+        "end_char": 2472,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواندگان در دفترخانه حاضر نشده‌اند",
+      "evidence": {
+        "quote": "گواهی عدم حضور آنها به شماره 62103 مورخه 1393.12.14 اخذ گردیده است",
+        "start_char": 1472,
+        "end_char": 1538,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

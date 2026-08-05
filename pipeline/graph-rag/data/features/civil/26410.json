@@ -1,0 +1,253 @@
+{
+  "ruling_id": "26410",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "بخواسته طلاق بواسطه ترک زوجیت",
+        "start_char": 98,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت",
+      "evidence": {
+        "quote": "بواسطه ترک زوجیت",
+        "start_char": 111,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم پرداخت",
+      "evidence": {
+        "quote": "عدم پرداخت نفقه زوجه",
+        "start_char": 130,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "موکله در عسر و حرج می باشد",
+        "start_char": 770,
+        "end_char": 796,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نکاح دائم",
+      "evidence": {
+        "quote": "استنادی به نکاح دائم",
+        "start_char": 345,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "سایر حقوق قانونی و شرعی شامل نفقات معوقه و عده و نحله و اجرت المثل و سایر حقوق مالی ناشی از زوجیت را به زوج بذل می کند",
+        "start_char": 2824,
+        "end_char": 2942,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "با ارائه دادخواست",
+        "start_char": 62,
+        "end_char": 79,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "هیچ نفقه ای به زوجه پرداخت نمی نماید",
+        "start_char": 683,
+        "end_char": 719,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مهریه اش... مطالبه می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "مبلغ دو میلیون تومان وجه نقد باضافه یارانه سه نفره را به آنان داده است",
+        "start_char": 7793,
+        "end_char": 7863,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "برگشت",
+      "evidence": {
+        "quote": "و دو میلیون تومان را دخترشان قبول نکرد و برگشت داد",
+        "start_char": 8086,
+        "end_char": 8136,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بواسطه مشکلات عدیده ای که درطول زندگی مشترک از سوی خوانده برای موکله ایجاد شده موکله اش رغبتی به ادامه زندگی مشترک با خوانده ندارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بواسطه مشکلات عدیده ای که درطول زندگی مشترک از سوی خوانده برای موکله ایجاد شده",
+        "start_char": 441,
+        "end_char": 519,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "در نظریه مشترکشان که به امضای زوجین نیز رسیده",
+        "start_char": 2134,
+        "end_char": 2179,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه کلیه حقوق مالی خویش را مطالبه می کند",
+        "start_char": 3841,
+        "end_char": 3882,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "داور منصوب شد",
+        "start_char": 2089,
+        "end_char": 2102,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "تصویر مصدق رونوشت سند ازدواج طرفین",
+        "start_char": 177,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه اش (که مبلغ دو میلیون ریال وجه نقد عندالمطالبه برذمه زوج می باشد)",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "منزل مشترک را رها و ادعا کرده",
+        "start_char": 619,
+        "end_char": 648,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "خانه",
+      "evidence": {
+        "quote": "خانه ای که زوج با کمک پدرش تهیه کرده بود",
+        "start_char": 2387,
+        "end_char": 2427,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج منزل مشترک را رها کرده است",
+      "evidence": {
+        "quote": "بیش از یکسال خوانده به بهانه کار و کسب در آمد منزل مشترک را رها و ادعا کرده",
+        "start_char": 573,
+        "end_char": 648,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در کرج مشغول به کار شده است",
+      "evidence": {
+        "quote": "به کرج رفت در نزدیکی از دوستانش کار میکرد",
+        "start_char": 2515,
+        "end_char": 2556,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در زندان بوده است",
+      "evidence": {
+        "quote": "و مدت 28 ماه در حبس بود",
+        "start_char": 2442,
+        "end_char": 2465,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج مبلغی را به حساب دختر واریز کرده است",
+      "evidence": {
+        "quote": "مبلغ دو میلیون تومان را به حساب دخترشان واریز کرد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

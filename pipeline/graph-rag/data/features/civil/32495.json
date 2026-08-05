@@ -1,0 +1,233 @@
+{
+  "ruling_id": "32495",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "صدور حکم طلاق",
+        "start_char": 88,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "تخلف از بند 1 شروط ضمن عقد سند نکاحیه",
+        "start_char": 109,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم پرداخت",
+      "evidence": {
+        "quote": "عدم پرداخت نفقه",
+        "start_char": 155,
+        "end_char": 170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد ازدواج",
+      "evidence": {
+        "quote": "طرفین عقد ازدواج",
+        "start_char": 217,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد لازم",
+      "evidence": {
+        "quote": "عقد لازم دیگر",
+        "start_char": 306,
+        "end_char": 319,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت",
+        "start_char": 1058,
+        "end_char": 1075,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 3602,
+        "end_char": 3626,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم طلاق",
+        "start_char": 88,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "ارائه ننموده",
+        "start_char": 918,
+        "end_char": 930,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "درحق زوج بذل می نماید",
+        "start_char": 1580,
+        "end_char": 1601,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدید نظرخواسته مغایر با قانون ودلائل موجود در پرونده صادر شده و در خور نقض است",
+        "start_char": 2585,
+        "end_char": 2672,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "حقوق زوجه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تخلف زوج محرز و مسلم می باشد",
+        "start_char": 826,
+        "end_char": 854,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان صحیح تشخیص",
+        "start_char": 1183,
+        "end_char": 1205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظرخواهی آقای ب. ب.",
+        "start_char": 2138,
+        "end_char": 2163,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "سند نکاحیه",
+        "start_char": 136,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "تعداد 200عدد سکه بهار آزادی",
+        "start_char": 1419,
+        "end_char": 1446,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مابقی مهریه خویش",
+        "start_char": 1493,
+        "end_char": 1509,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "زوجه جهیزیه را ادعایی ندارد",
+        "start_char": 1605,
+        "end_char": 1632,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه به مدت ۶ ماه",
+      "evidence": {
+        "quote": "عدم پرداخت نفقه زن به مدت 6ماه",
+        "start_char": 495,
+        "end_char": 525,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "صدور حکم پرداخت نفقه",
+      "evidence": {
+        "quote": "صدور حکم به پرداخت نفقه",
+        "start_char": 2789,
+        "end_char": 2812,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "باکره بودن زوجه",
+      "evidence": {
+        "quote": "باکره می باشد",
+        "start_char": 1682,
+        "end_char": 1695,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

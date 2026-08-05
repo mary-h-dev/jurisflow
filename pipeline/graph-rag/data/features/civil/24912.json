@@ -1,0 +1,193 @@
+{
+  "ruling_id": "24912",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان مبایعه نامه مورخ 83/3/26 صادر گردیده است",
+        "start_char": 448,
+        "end_char": 501,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "چک موضوع دعوا به عنوان شرط ضمن عقد و تضمین در همان مبایعه نامه گنجانیده شده است",
+        "start_char": 504,
+        "end_char": 583,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتبار",
+      "evidence": {
+        "quote": "خواهان مشمول اعتبار امر مختومه ( محکوم بها ) بوده",
+        "start_char": 4236,
+        "end_char": 4285,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "در قالب مواد 10 و 230 قانون مدنی شرط مستقل از عقد محسوم گردیده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد لاشه چک",
+        "start_char": 92,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "صدور حکم بر بطلان دستور اجرای ثبت",
+        "start_char": 133,
+        "end_char": 166,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "در فرصت تجدیدنظرخواهی در تاریخ 94/4/11 نسبت به قسمت دیگر دادنامه صادره از شعبه دوم دادگاه حقوقی قزوین فرجام خواهی نموده است",
+        "start_char": 5594,
+        "end_char": 5717,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "از طرف فروشنده ( ق. آ. )",
+        "start_char": 1021,
+        "end_char": 1045,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "واگذاری به خریدار در موعد مقرر",
+        "start_char": 1129,
+        "end_char": 1159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از ناحیه خواهان به عنوان فروشنده صادر گردیده",
+        "start_char": 3742,
+        "end_char": 3786,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "برای خوانده و دعوت از طرفین را صادر نموده است",
+        "start_char": 1273,
+        "end_char": 1318,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "از جانب فرجام خواه به عمل نیامده",
+        "start_char": 6321,
+        "end_char": 6353,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "استرداد لاشه چک به شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "بطلان مبایعه نامه مورخ 83/3/26",
+        "start_char": 455,
+        "end_char": 485,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستور",
+      "evidence": {
+        "quote": "صدور حکم بر بطلان دستور اجرای ثبت",
+        "start_char": 133,
+        "end_char": 166,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "و واگذاری به خریدار در موعد مقرر",
+        "start_char": 1127,
+        "end_char": 1159,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک در رهن بانک بوده است",
+      "evidence": {
+        "quote": "مبیع در رهن بانک صادرات بوده",
+        "start_char": 1603,
+        "end_char": 1631,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله باطل اعلام شده است",
+      "evidence": {
+        "quote": "با بطلان معامله می بایست چک مذکور مسترد گرددد",
+        "start_char": 793,
+        "end_char": 838,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

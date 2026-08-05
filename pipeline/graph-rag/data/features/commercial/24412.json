@@ -1,0 +1,193 @@
+{
+  "ruling_id": "24412",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی",
+        "start_char": 72,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقف",
+      "evidence": {
+        "quote": "دستور موقت بر صدور حکم توقف",
+        "start_char": 108,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجاری",
+      "evidence": {
+        "quote": "جزو معاملات تجاری محسوب گردیده",
+        "start_char": 1512,
+        "end_char": 1542,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی",
+        "start_char": 72,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "قادر به پرداخت بدهی ها نگردیده",
+        "start_char": 487,
+        "end_char": 517,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "مجبور شدیم مغازه موجود در بازار را از بابت پرداخت بدهی بفروش برسانیم",
+        "start_char": 605,
+        "end_char": 673,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ح. گ.",
+        "start_char": 2791,
+        "end_char": 2815,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 4110,
+        "end_char": 4140,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اینجانبان خواهانها در بازار تهران",
+        "start_char": 169,
+        "end_char": 202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بانک",
+      "evidence": {
+        "quote": "بطرفیت بانک.....",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تاجر",
+      "evidence": {
+        "quote": "حکایت از تاجر بودن خواهان ردیف اول دارد",
+        "start_char": 2128,
+        "end_char": 2167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بدهکار",
+      "evidence": {
+        "quote": "خود را بدهکار افراد دیگر نیز دانسته",
+        "start_char": 3793,
+        "end_char": 3828,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "مغازه موجود در بازار را",
+        "start_char": 616,
+        "end_char": 639,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "برگشت چند فقره چک",
+        "start_char": 1735,
+        "end_char": 1752,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وام",
+      "evidence": {
+        "quote": "یک میلیارد ریال وام از بانک دریافت کردیم",
+        "start_char": 270,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "محموله مواد اولیه مورد کلاهبرداری قرار گرفته است",
+      "evidence": {
+        "quote": "محموله مورد کلاهبرداری قرار گرفت",
+        "start_char": 314,
+        "end_char": 346,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وام دریافت شده برای خرید مواد اولیه بوده است",
+      "evidence": {
+        "quote": "برای ورود مواد اولیه یک میلیارد ریال وام از بانک دریافت کردیم",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان توانایی پرداخت بدهی‌ها را از دست داده است",
+      "evidence": {
+        "quote": "قادر به پرداخت بدهی ها نگردیده",
+        "start_char": 487,
+        "end_char": 517,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

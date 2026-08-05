@@ -1,0 +1,183 @@
+{
+  "ruling_id": "7158",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "اصل بر صلاحیت دادگاه محل اقامت خوانده است",
+        "start_char": 523,
+        "end_char": 564,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تنفیذ فسخ",
+        "start_char": 113,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "صدور حکم به تنفیذ فسخ",
+        "start_char": 101,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت مبلغ معامله",
+        "start_char": 183,
+        "end_char": 201,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "دعوا باید در دادگاهی اقامه شود",
+        "start_char": 449,
+        "end_char": 479,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار عدم",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 896,
+        "end_char": 911,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حل اختلاف",
+      "evidence": {
+        "quote": "حل اختلاف در صلاحیت می گردد",
+        "start_char": 1771,
+        "end_char": 1798,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض قرار عدم صلاحیت",
+        "start_char": 1633,
+        "end_char": 1652,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "تأخیر خوانده",
+        "start_char": 167,
+        "end_char": 179,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان",
+        "start_char": 1485,
+        "end_char": 1491,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "مبایعه نامه شماره 161",
+        "start_char": 123,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبلغ",
+      "evidence": {
+        "quote": "مبلغ معامله",
+        "start_char": 190,
+        "end_char": 201,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین",
+        "start_char": 1119,
+        "end_char": 1131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مال غیرمنقول",
+      "evidence": {
+        "quote": "مال غیر منقول",
+        "start_char": 1501,
+        "end_char": 1514,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در پرداخت مبلغ معامله تأخیر داشته است",
+      "evidence": {
+        "quote": "تأخیر خوانده در پرداخت مبلغ معامله دادخواست",
+        "start_char": 167,
+        "end_char": 210,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اقامتگاه خوانده در شهرستان تهران است",
+      "evidence": {
+        "quote": "اقامتگاه خوانده شهرستان تهران اعلام گردیده",
+        "start_char": 585,
+        "end_char": 627,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موضوع قرارداد، یک قطعه زمین در تاکستان است",
+      "evidence": {
+        "quote": "موضوع قرارداد بیع یک قطعه زمین واقع در تاکستان می باشد",
+        "start_char": 1101,
+        "end_char": 1155,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

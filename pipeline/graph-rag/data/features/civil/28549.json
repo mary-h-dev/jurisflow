@@ -1,0 +1,153 @@
+{
+  "ruling_id": "28549",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "انقضاء",
+      "evidence": {
+        "quote": "به دلیل انقضاء مهلت اجاره",
+        "start_char": 124,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر",
+      "evidence": {
+        "quote": "خسارت تأخیر در تأدیه",
+        "start_char": 1342,
+        "end_char": 1362,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "اعسار از پرداخت هزینه دادرسی",
+        "start_char": 299,
+        "end_char": 327,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 995,
+        "end_char": 1010,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد وجه الرهن",
+        "start_char": 69,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه و استرداد وجه الرهن",
+        "start_char": 2718,
+        "end_char": 2752,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان در واقع مطالبه وجه مربوط به غیر منقول ناشی از قرارداداجاره می باشد",
+        "start_char": 565,
+        "end_char": 645,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دادگاه محل اقامت خوانده صالح به رسیدگی می باشد",
+        "start_char": 810,
+        "end_char": 856,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "اطلاع رسانی به موجر در خصوص تخلیه ملک",
+        "start_char": 411,
+        "end_char": 448,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "استرداد وجه الرهن",
+        "start_char": 79,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "موضوع قرارداد اجاره",
+        "start_char": 2753,
+        "end_char": 2772,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "تخلیه ملک",
+        "start_char": 439,
+        "end_char": 448,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انقضای مهلت اجاره",
+      "evidence": {
+        "quote": "به دلیل انقضاء مهلت اجاره",
+        "start_char": 124,
+        "end_char": 149,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اختلاف در صلاحیت بین دو شعبه",
+      "evidence": {
+        "quote": "با توجه به حدوث اختلاف در صلاحیت میان دو مرجع از یک استان",
+        "start_char": 2398,
+        "end_char": 2455,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

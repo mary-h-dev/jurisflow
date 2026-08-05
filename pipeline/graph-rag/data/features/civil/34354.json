@@ -1,0 +1,123 @@
+{
+  "ruling_id": "34354",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "تصدیق خسارت ناشی از طرح خیابان",
+        "start_char": 83,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه بهاء و میزان خسارت",
+        "start_char": 1658,
+        "end_char": 1683,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "رد دادخواست تجدید نظرخواهی",
+        "start_char": 2069,
+        "end_char": 2095,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شهرداری",
+      "evidence": {
+        "quote": "به طرفیت شهرداری لردگان",
+        "start_char": 35,
+        "end_char": 58,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شکات",
+      "evidence": {
+        "quote": "احراز مالکیت شکات",
+        "start_char": 1293,
+        "end_char": 1310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظرخواه با وجود ابلاغ",
+        "start_char": 1869,
+        "end_char": 1896,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "تملک ملک اشخاص",
+        "start_char": 311,
+        "end_char": 325,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عرصه و اعیان",
+      "evidence": {
+        "quote": "لزوم پرداخت بهاء عرصه و اعیان ملک",
+        "start_char": 618,
+        "end_char": 651,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شهرداری بدون پرداخت بهاء ملک اقدام به تملک کرده است",
+      "evidence": {
+        "quote": "بدون جلب رضایت آنها و قبل از پرداخت بهاء ملک مورد تملک من غیر حق بوده",
+        "start_char": 326,
+        "end_char": 395,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک در طرح قرار گرفته است",
+      "evidence": {
+        "quote": "مبنی بر در طرح قرار گرفتن ملک شکات",
+        "start_char": 1415,
+        "end_char": 1449,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدید نظرخواه در مهلت قانونی اقدام به تکمیل پرونده نکرده است",
+      "evidence": {
+        "quote": "با وجود ابلاغ اخطاریه رفع نقص نسبت به تکمیل پرونده در مهلت قانونی اقدام ننموده است",
+        "start_char": 1883,
+        "end_char": 1965,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "29594",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته اعلام ابطال قرارداد عادی",
+        "start_char": 83,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "دارای ماهیت حقوقی شرط صحیح ضمن عقد داشته",
+        "start_char": 613,
+        "end_char": 653,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "بلکه عقد قرض بوده",
+        "start_char": 1922,
+        "end_char": 1939,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوا صادر",
+        "start_char": 931,
+        "end_char": 953,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "باید دعوی خود را تحت این عنوان اقامه نماید",
+        "start_char": 2119,
+        "end_char": 2161,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "درنتیجه ضمن رد اعتراض دادنامه تجدیدنظرخواسته",
+        "start_char": 2292,
+        "end_char": 2336,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان متعهد به پرداخت مبلغی",
+        "start_char": 221,
+        "end_char": 249,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به خوانده به عنوان شخص داین گردیده است",
+        "start_char": 267,
+        "end_char": 305,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی آقای الف. ب.ن.",
+        "start_char": 1120,
+        "end_char": 1155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "واقرارتجدیدنظرخوانده به دریافت اصل بدهی",
+        "start_char": 1729,
+        "end_char": 1768,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "اعلام ابطال قرارداد عادی",
+        "start_char": 93,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "از این سند عادی استنباط می گردد",
+        "start_char": 396,
+        "end_char": 427,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بدهی",
+      "evidence": {
+        "quote": "باید مبلغ فوق را در تاریخ 91/9/15 به ایشان بپردازم",
+        "start_char": 1418,
+        "end_char": 1464,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین قرارداد بر پرداخت خسارت روزانه در صورت عدم ایفای تعهد توافق کرده‌اند",
+      "evidence": {
+        "quote": "در صورت عدم انجام تعهد به ازای هر روز تاخیر مبلغی به عنوان خسارت تعیین گردیده است",
+        "start_char": 308,
+        "end_char": 389,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبلغ بدهی در قرارداد ذکر شده است",
+      "evidence": {
+        "quote": "مبلغ یازده میلیون تومان معادل یکصدوده میلیون ریال",
+        "start_char": 1343,
+        "end_char": 1392,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "ruling_id": "31607",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "هبه",
+      "evidence": {
+        "quote": "قانونا هبه و تملیک مجانی مال به دیگری قابلیت رجوع نداشته",
+        "start_char": 664,
+        "end_char": 720,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معوض",
+      "evidence": {
+        "quote": "بصورت متقابل و معوض بوده",
+        "start_char": 529,
+        "end_char": 553,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی صادر می نماید",
+        "start_char": 1140,
+        "end_char": 1171,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "بخواسته استرداد طلاجات و جواهر",
+        "start_char": 31,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "خواهان به اخذ و گرفتن عین طلاجات و جواهر مورد ادعای خود از خوانده اقرار",
+        "start_char": 208,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم تجدیدنظر استان تهران می باشد",
+        "start_char": 1220,
+        "end_char": 1282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عینا\" تأیید می نماید",
+        "start_char": 2400,
+        "end_char": 2446,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان به اخذ و گرفتن عین طلاجات و جواهر مورد ادعای خود از خوانده اقرار",
+        "start_char": 208,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از ناحیه زوجین نسبت به هم رد و بدل می گردد",
+        "start_char": 486,
+        "end_char": 528,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی دلیل یا مدرک قانع کننده",
+        "start_char": 1947,
+        "end_char": 2006,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال منقول و طلا",
+      "evidence": {
+        "quote": "استرداد طلاجات و جواهر",
+        "start_char": 39,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل مبنی بر تحویل ثانوی طلاجات به خوانده",
+      "evidence": {
+        "quote": "دلیل و مدرکی که حاکی از تحویل ثانونی طلاجات موصوف به خوانده باشد به دادگاه ارائه ننموده اند",
+        "start_char": 285,
+        "end_char": 376,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موجود نبودن عین طلاجات",
+      "evidence": {
+        "quote": "لکن عین موجود نیست",
+        "start_char": 1736,
+        "end_char": 1754,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

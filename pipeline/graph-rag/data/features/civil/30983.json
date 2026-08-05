@@ -1,0 +1,173 @@
+{
+  "ruling_id": "30983",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته فسخ قرارداد",
+        "start_char": 104,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مستحق للغیر درآمدن مبیع",
+      "evidence": {
+        "quote": "به لحاظ مستحق للغیر درآمدن مبیع",
+        "start_char": 516,
+        "end_char": 547,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "ایجاد حق فسخ",
+        "start_char": 1225,
+        "end_char": 1237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 237,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "حکم به فسخ مبایعه نامه",
+        "start_char": 2376,
+        "end_char": 2398,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد ثمن",
+        "start_char": 154,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض نامبرده غیرموجه تشخیص",
+        "start_char": 2663,
+        "end_char": 2691,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 304,
+        "end_char": 315,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده",
+        "start_char": 1422,
+        "end_char": 1443,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "از طرف مشتری",
+        "start_char": 1250,
+        "end_char": 1262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "ثمن پرداختی به بایع",
+        "start_char": 1809,
+        "end_char": 1828,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه نامه مورخه 19/6/87",
+        "start_char": 126,
+        "end_char": 151,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "قطعه زمین واقع در دماوند",
+        "start_char": 379,
+        "end_char": 403,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "استرداد ثمن",
+        "start_char": 154,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اراضی",
+      "evidence": {
+        "quote": "واقع در محدوده برگ تشخیص و اراضی ملی بوده",
+        "start_char": 921,
+        "end_char": 962,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "موضوع معامله متعلق به منابع طبیعی است",
+      "evidence": {
+        "quote": "محدوده مورد معامله واقع در محدوده برگ تشخیص و اراضی ملی بوده",
+        "start_char": 902,
+        "end_char": 962,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

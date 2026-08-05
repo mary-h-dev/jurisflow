@@ -1,0 +1,213 @@
+{
+  "ruling_id": "36980",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "صدور حکم به بطلان انتقال سند",
+        "start_char": 130,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "بعلت فضولی بودن معامله",
+        "start_char": 176,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجازه",
+      "evidence": {
+        "quote": "عدم اجازه مالک",
+        "start_char": 201,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "طرح دعوی",
+        "start_char": 102,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "درخواست رسیدگی",
+      "evidence": {
+        "quote": "درخواست رسیدگی و صدور حکم",
+        "start_char": 113,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم سند",
+        "start_char": 245,
+        "end_char": 263,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "اقدام به فروش ان",
+        "start_char": 426,
+        "end_char": 442,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار رد",
+      "evidence": {
+        "quote": "قرار رد صادر می نماید",
+        "start_char": 609,
+        "end_char": 630,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار عدم",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت صادر می کند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض قرار صادره",
+        "start_char": 1796,
+        "end_char": 1814,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان هم انها را طرف دعوی قرار داده",
+        "start_char": 1304,
+        "end_char": 1340,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "خواندگان یک دستگاه شماره ی 319 ج 79 تحویل نداده",
+        "start_char": 376,
+        "end_char": 423,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "بطلان انتقال سند",
+        "start_char": 142,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "سند نیسان شماره ی * ب",
+        "start_char": 155,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "خودرو شماره ی *مقوم بمبلغ بیست و یکم میلیون ریال",
+        "start_char": 264,
+        "end_char": 312,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "دستگاه شماره ی 319 ج 79",
+        "start_char": 388,
+        "end_char": 411,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قراردادها",
+      "evidence": {
+        "quote": "قراردادها که بین طرفین امضا شده",
+        "start_char": 1224,
+        "end_char": 1255,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ثمن پرداخت شده است",
+      "evidence": {
+        "quote": "ثمن پرداخت شده",
+        "start_char": 361,
+        "end_char": 375,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خودرو تحویل داده نشده است",
+      "evidence": {
+        "quote": "خواندگان یک دستگاه شماره ی 319 ج 79 تحویل نداده",
+        "start_char": 376,
+        "end_char": 423,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله توسط نماینده شرکت انجام شده است",
+      "evidence": {
+        "quote": "شرکت و نماینده اش دخالت داشته اند",
+        "start_char": 1268,
+        "end_char": 1301,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

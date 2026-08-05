@@ -1,0 +1,123 @@
+{
+  "ruling_id": "24010",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "موت",
+      "evidence": {
+        "quote": "صدورحکم موت فرضی",
+        "start_char": 62,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدورحکم موت فرضی",
+        "start_char": 62,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوای خواهان را صادر و اعلام می نماید",
+        "start_char": 450,
+        "end_char": 503,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ز.ت. ق.پ.ز.",
+        "start_char": 653,
+        "end_char": 678,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه موصوف",
+        "start_char": 1061,
+        "end_char": 1082,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عودت",
+      "evidence": {
+        "quote": "پرونده جهت رسیدگی به دادگاه محترم بدوی عودت می گردد",
+        "start_char": 1083,
+        "end_char": 1134,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوای خواهان را به کیفیت حاضر مسموع ندانسته",
+        "start_char": 364,
+        "end_char": 407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "قرارعدم استماع دعوی تجدیدنظرخواه",
+        "start_char": 785,
+        "end_char": 817,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "موت فرضی تجدیدنظرخوانده",
+        "start_char": 833,
+        "end_char": 856,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 837",
+        "start_char": 702,
+        "end_char": 719,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "سن غایب ۷۵ سال نشده است",
+      "evidence": {
+        "quote": "درحال حاضر سن غایب75سال نشده است",
+        "start_char": 302,
+        "end_char": 334,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

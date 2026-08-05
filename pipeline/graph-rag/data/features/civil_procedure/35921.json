@@ -1,0 +1,153 @@
+{
+  "ruling_id": "35921",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "اصل اولیه اقامه دعوا در دادگاهی است.که خواندگان در حوزه ان اقامت دارند",
+        "start_char": 3027,
+        "end_char": 3097,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "با فرض عدم سوی استفاده در اجرای حق پذیرفت",
+        "start_char": 1627,
+        "end_char": 1668,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتبار",
+      "evidence": {
+        "quote": "قرار رد دعوای دادگاه تجدیدنظر که از اعتبار امر قضاوت شده برخوردار نیست",
+        "start_char": 9347,
+        "end_char": 9417,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "صدور حکم بر محکومیت تضامنی خواندگان",
+        "start_char": 253,
+        "end_char": 288,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه خسارات",
+      "evidence": {
+        "quote": "بانضمام مطالبه خسارات دادرسی",
+        "start_char": 596,
+        "end_char": 624,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار عدم",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت این مرجع را به اعتبار صلاحیت و شایستگی محاکم حقوقی *صادر و اعلام میدارد",
+        "start_char": 6884,
+        "end_char": 6971,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با عنایت به شرح دادخواست تقدیمی",
+        "start_char": 661,
+        "end_char": 692,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت سازمان* 2 ) اقای س. ا. 3 ) ف. ن.",
+        "start_char": 197,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بدهی",
+      "evidence": {
+        "quote": "بابت بدهی های قبلی",
+        "start_char": 304,
+        "end_char": 322,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "بابت کرایه دو دستگاه خودرو کشنده",
+        "start_char": 512,
+        "end_char": 544,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "موکلین دو دستگاه کامیون کشنده به شماره انتظامی 17ع255 *15 متعلق به خواهان ردیف اول و 86ع972 *25 متعلق به خواهان ردیف دوم",
+        "start_char": 7368,
+        "end_char": 7488,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ردیف سوم مجهول المکان است",
+      "evidence": {
+        "quote": "خوانده ردیف سوم مجهول المکان می باشد",
+        "start_char": 5899,
+        "end_char": 5935,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ردیف اول در دعوای قبلی محکوم شده است",
+      "evidence": {
+        "quote": "که خوانده ردیف اول محکوم به پرداخت خواسته شده",
+        "start_char": 7832,
+        "end_char": 7877,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ردیف اول در مرحله تجدیدنظر به دلیل عدم توجه دعوا قرار رد دعوا دریافت کرده است",
+      "evidence": {
+        "quote": "به لحاظ عدم توجه دعوی به خوانده اول به لحاظ نمایندگی خوانده دوم منجر به قرار رد دعوی موکلین شده",
+        "start_char": 7961,
+        "end_char": 8056,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

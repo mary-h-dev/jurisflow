@@ -1,0 +1,153 @@
+{
+  "ruling_id": "5200",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دیه",
+      "evidence": {
+        "quote": "بابت مازاد دیه مرحوم ع.ض.",
+        "start_char": 237,
+        "end_char": 262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "قرار ابطال دادخواست صادر",
+        "start_char": 701,
+        "end_char": 725,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تردید",
+      "evidence": {
+        "quote": "سند مذکور مورد انکار و تردید قرارگرفته است",
+        "start_char": 605,
+        "end_char": 647,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را درخور نقض می داند",
+        "start_char": 1843,
+        "end_char": 1887,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم بر محکومیت خوانده",
+        "start_char": 160,
+        "end_char": 186,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده جهت رسیدگی در ماهیت دعوی به دادگاه نخستین اعاده می گردد",
+        "start_char": 1978,
+        "end_char": 2040,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده ردیف اول",
+        "start_char": 172,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مستند دعوی خواهان",
+        "start_char": 410,
+        "end_char": 427,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای الف.ع.",
+        "start_char": 880,
+        "end_char": 913,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "صورتجلسه",
+      "evidence": {
+        "quote": "کپی صورت جلسه",
+        "start_char": 451,
+        "end_char": 464,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "کپی گواهی فوت",
+        "start_char": 467,
+        "end_char": 480,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بیمه‌نامه",
+      "evidence": {
+        "quote": "کپی بیمه نامه بیمه الف.",
+        "start_char": 483,
+        "end_char": 506,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اصل سند در جلسه اول ارائه نشده است",
+      "evidence": {
+        "quote": "خواهان اصل سند مذکور جهت ملاحظه دادگاه در جلسه اول حاضر ننموده است",
+        "start_char": 518,
+        "end_char": 584,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اسناد ارائه شده از نوع اسناد رسمی هستند",
+      "evidence": {
+        "quote": "گواهی فوت، کروکی تصادف فوتی، صورت جلسه و بیمه نامه از اسنادی می باشند که... سند رسمی محسوب می شود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

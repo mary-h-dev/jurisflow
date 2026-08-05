@@ -1,0 +1,203 @@
+{
+  "ruling_id": "30224",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال سند انتقال",
+        "start_char": 107,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "به قصد فرار از دین",
+        "start_char": 873,
+        "end_char": 891,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلح",
+      "evidence": {
+        "quote": "به صورت صلح عمری",
+        "start_char": 1007,
+        "end_char": 1023,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سازش",
+      "evidence": {
+        "quote": "گواهی عدم امکان سازش",
+        "start_char": 1910,
+        "end_char": 1930,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "انتقال می کند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "وکالتنامه کاری تنظیم می نماید",
+        "start_char": 557,
+        "end_char": 586,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را جهت رسیدگی در ماهیت دعوی به این دادگاه اعاده نموده است",
+        "start_char": 1361,
+        "end_char": 1425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 930806 مورخ 1393/9/4 صادره از شعبه 107 دادگاه عمومی حقوقی تهران که به موجب آن حکم برابطال اسنادرسمی مندرج دررای وپرداخت هزینه دادسی و حق الوکاله وکیل صادرشده است ، دادگاه قبل ازورود درجهت اظهارنظر پیرامان ماهیت دعوی تجدیدنظر خواهی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خانم م. ف. فرزند ح. بطرفیت آقای پ. محمود یار",
+        "start_char": 0,
+        "end_char": 57,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با مهریه 300 عدد سکه تمام بهار آزادی به زوجیت خوانده ردیف اول در آمده است",
+        "start_char": 352,
+        "end_char": 425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "را بعنوان وکیل خویش تعیین می نماید",
+        "start_char": 753,
+        "end_char": 787,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند انتقال شماره 41028 مورخ 4/12/90",
+        "start_char": 123,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "موضوع پلاک ثبتی 7855/67",
+        "start_char": 159,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "متعهد می شود آپارتمان به پلاک ثبتی فوق الذکر را به خواهان منتقل نماید",
+        "start_char": 471,
+        "end_char": 540,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "وکالتنامه کاری تنظیم می نماید",
+        "start_char": 557,
+        "end_char": 586,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه رسمی",
+      "evidence": {
+        "quote": "اقرار نامه رسمی به نفع خوانده ردیف اول می نماید",
+        "start_char": 2132,
+        "end_char": 2179,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم وجود اذن در انتقال در وکالتنامه",
+      "evidence": {
+        "quote": "چون در وکالتنامه اذن در انتقال وجود نداشته است",
+        "start_char": 589,
+        "end_char": 635,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود اختلاف بین زوجین",
+      "evidence": {
+        "quote": "به لحاظ اختلاف ایجاد شده",
+        "start_char": 430,
+        "end_char": 454,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انتقال اموال با تقارن زمانی با اختلافات",
+      "evidence": {
+        "quote": "با عنایت به تقارن زمانی عرفی ان با امور فوق الذکر ادعای خواهان پرونده در خصوص انجام معامله به قصد فرار از دین را تقویت و تائید می نماید",
+        "start_char": 2517,
+        "end_char": 2652,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

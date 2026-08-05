@@ -1,0 +1,213 @@
+{
+  "ruling_id": "33553",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "الزام به ایفای تعهد",
+        "start_char": 140,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "الزام به تحویل و تسلیم از آثار بیع محسوب می گردد",
+        "start_char": 1033,
+        "end_char": 1081,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "مطالعه خسارت قراردادی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "به مجرد وقوع عقد بیع",
+        "start_char": 2519,
+        "end_char": 2539,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "در ماده 367 قانون مرقوم نیز در تعریف تسلیم آمده",
+        "start_char": 2626,
+        "end_char": 2673,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ایفای تعهد",
+      "evidence": {
+        "quote": "الزام به ایفای تعهد",
+        "start_char": 140,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه وجه الضمان",
+        "start_char": 193,
+        "end_char": 212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابتیاع",
+      "evidence": {
+        "quote": "مبادرت به ابتیاع یک واحد آپارتمان",
+        "start_char": 446,
+        "end_char": 479,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تسلیم و تحویل مبیع صورت نگرفته است",
+        "start_char": 508,
+        "end_char": 542,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده به پرداخت خسارت قراردادی",
+        "start_char": 1706,
+        "end_char": 1752,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان خانم ز. ن.",
+        "start_char": 95,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده آقای ع. ک.م.",
+        "start_char": 342,
+        "end_char": 368,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "مشتری مالک مبیع و بایع مالک ثمن میشود",
+        "start_char": 2540,
+        "end_char": 2577,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "مشتری مالک مبیع و بایع مالک ثمن میشود",
+        "start_char": 2540,
+        "end_char": 2577,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "تحویل یک دستگاه آپارطمان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "تحویل مبیع مقوم به 51/000/000 ریال",
+        "start_char": 307,
+        "end_char": 341,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "مبادرت به ابتیاع یک واحد آپارتمان",
+        "start_char": 446,
+        "end_char": 479,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک متنازعٌ فیه",
+        "start_char": 752,
+        "end_char": 767,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبیع تا کنون تحویل نشده است",
+      "evidence": {
+        "quote": "ولی تا کنون تسلیم و تحویل مبیع صورت نگرفته است",
+        "start_char": 496,
+        "end_char": 542,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده به تکلیف قراردادی خود عمل نکرده است",
+      "evidence": {
+        "quote": "خوانده به تکلیف قراردادی خویش جامه عمل نپوشانده",
+        "start_char": 1389,
+        "end_char": 1436,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "520",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "وقف",
+      "evidence": {
+        "quote": "مادامی که موقوفه به تصرف وقف قرار نگیرد وقف محقق نمی شود",
+        "start_char": 925,
+        "end_char": 981,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قبض",
+      "evidence": {
+        "quote": "قبض یکی از ارکان اصلی و اساسی جهت تثبیت و به عبارتی اثبات موجودیت وقف است",
+        "start_char": 990,
+        "end_char": 1063,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "به خواسته صدور حکم مبنی بر خلع ید",
+        "start_char": 145,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت اجرت",
+      "evidence": {
+        "quote": "و محکومیت بپرداخت اجرت المثل",
+        "start_char": 202,
+        "end_char": 230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان را صادر",
+        "start_char": 1690,
+        "end_char": 1717,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه موصوف را از حیث نتیجه تأیید",
+        "start_char": 2909,
+        "end_char": 2944,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تولیت",
+      "evidence": {
+        "quote": "با تولیت الف.ح.",
+        "start_char": 48,
+        "end_char": 63,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت 1- س.س. 2- ز.س. فرزندان ب.",
+        "start_char": 109,
+        "end_char": 144,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "متولی",
+      "evidence": {
+        "quote": "با معرفی آقای الف.ح. فرزند ع. به عنوان متولی منصوص",
+        "start_char": 719,
+        "end_char": 769,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واقف",
+      "evidence": {
+        "quote": "واقف شرط قبض موقوفه را موکول به فوت واقف نموده است",
+        "start_char": 853,
+        "end_char": 903,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "در این مرحله از رسیدگی از ناحیه تجدیدنظرخواهان ایراد و اعتراض مؤثر",
+        "start_char": 2264,
+        "end_char": 2330,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "خلع ید خواندگان از ملک موقوفه",
+        "start_char": 172,
+        "end_char": 201,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "تنظیم وقف شش دانگ یک قطعه زمین",
+        "start_char": 490,
+        "end_char": 520,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وقف‌نامه",
+      "evidence": {
+        "quote": "به موجب وقف نامه رسمی",
+        "start_char": 406,
+        "end_char": 427,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک مورد ادعای وقف به قبض متولی قرار نگرفته است",
+      "evidence": {
+        "quote": "تاکنک ملک مورد ادعای وقف به قبض متولی قرار نگرفته است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرط قبض در وقف نامه به فوت واقف موکول شده است",
+      "evidence": {
+        "quote": "واقف شرط قبض موقوفه را موکول به فوت واقف نموده است",
+        "start_char": 853,
+        "end_char": 903,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

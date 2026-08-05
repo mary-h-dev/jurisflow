@@ -1,0 +1,223 @@
+{
+  "ruling_id": "32326",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ شود",
+        "start_char": 1780,
+        "end_char": 1787,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأخیر",
+      "evidence": {
+        "quote": "خیار تأخیر ثمن",
+        "start_char": 5812,
+        "end_char": 5826,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "حق فسخ",
+        "start_char": 3913,
+        "end_char": 3919,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تحویل یکباب آپارتمان",
+        "start_char": 104,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "تنظیم سند رسمی",
+        "start_char": 134,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه اجرت",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 150,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "ثمن معامله را به آنها پرداخت نموده ام",
+        "start_char": 381,
+        "end_char": 418,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تکذیب",
+      "evidence": {
+        "quote": "تکذیب می شود",
+        "start_char": 1869,
+        "end_char": 1881,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض می کنند",
+        "start_char": 3265,
+        "end_char": 3279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض وحکم",
+        "start_char": 2508,
+        "end_char": 2516,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت آقای ب. ز.پ. وخانم م. م. به خواسته الزام خواندگان",
+        "start_char": 42,
+        "end_char": 100,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان حضور پیدا می کند",
+        "start_char": 651,
+        "end_char": 674,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشندگان",
+      "evidence": {
+        "quote": "فروشندگان که بلحاظ نیاز به پول نقد اقدام به فروش آپارتمان نموده اند",
+        "start_char": 3715,
+        "end_char": 3782,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "خریدار آمادگی پرداخت مابقی ثمن معامله را نداشته",
+        "start_char": 2311,
+        "end_char": 2358,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متبایعین",
+      "evidence": {
+        "quote": "بین متبایعین اجلی معین نشده باشد",
+        "start_char": 5898,
+        "end_char": 5930,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "تحویل یکباب آپارتمان",
+        "start_char": 104,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "طبق مبایعه نامه مورخ 89/07/19",
+        "start_char": 294,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "باقیمانده ثمن معامله را پرداخت نکرده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "بخش از ثمن معامله پرداخت شده است",
+      "evidence": {
+        "quote": "بخشی از ثمن معامله را به آنها پرداخت نموده ام",
+        "start_char": 373,
+        "end_char": 418,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواندگان از تحویل مبیع خودداری می‌کنند",
+      "evidence": {
+        "quote": "اما آنان از تحویل مبیع خودداری می کنند",
+        "start_char": 419,
+        "end_char": 457,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مابقی ثمن پرداخت نشده است",
+      "evidence": {
+        "quote": "مابقی ثمن معامله را پرداخت نکرده است",
+        "start_char": 1639,
+        "end_char": 1675,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

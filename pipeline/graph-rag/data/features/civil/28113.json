@@ -1,0 +1,203 @@
+{
+  "ruling_id": "28113",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارات تأخیر تأدیه",
+        "start_char": 138,
+        "end_char": 156,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "حق فسخ دارد",
+        "start_char": 2389,
+        "end_char": 2400,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ",
+        "start_char": 40,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مراجعه",
+      "evidence": {
+        "quote": "به محکمه مراجعه نکرده است",
+        "start_char": 480,
+        "end_char": 505,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مخدوش و درخور نقض می باشد",
+        "start_char": 2469,
+        "end_char": 2494,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 3545,
+        "end_char": 3565,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان مدعی است",
+        "start_char": 174,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از خوانده خریداری کرده است",
+        "start_char": 314,
+        "end_char": 340,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "بایع می بایستی",
+        "start_char": 751,
+        "end_char": 765,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "تحویل مشتری دهد",
+        "start_char": 798,
+        "end_char": 813,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "لذا خریدار صرفاً",
+        "start_char": 2343,
+        "end_char": 2359,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "به طرفیت واخواه",
+        "start_char": 1754,
+        "end_char": 1769,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخوانده",
+      "evidence": {
+        "quote": "در قبال ادعای مطروحه ایراد و تکذیبی به عمل نیاورده است",
+        "start_char": 986,
+        "end_char": 1040,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتابن",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قولنامه",
+      "evidence": {
+        "quote": "طبق قولنامه مورخ 91/4/11",
+        "start_char": 207,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "موقع اخذ سند رسمی مالکیت",
+        "start_char": 345,
+        "end_char": 369,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "در خصوص مبیعی که غیرقابل تجزیه است",
+        "start_char": 3124,
+        "end_char": 3158,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متراژ واقعی ملک کمتر از متراژ قولنامه است",
+      "evidence": {
+        "quote": "متراژ واقعی ملک به مقدار قابل توجهی کمتر از متراژ ابتیاعی می باشد",
+        "start_char": 831,
+        "end_char": 896,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین در قرارداد در مورد کسری متراژ توافق نکرده‌اند",
+      "evidence": {
+        "quote": "در قرارداد 91/4/11 طرفین چنین توافقی نکرده اند",
+        "start_char": 3281,
+        "end_char": 3327,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

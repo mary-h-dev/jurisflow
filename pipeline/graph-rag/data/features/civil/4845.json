@@ -1,0 +1,173 @@
+{
+  "ruling_id": "4845",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تهاتر",
+      "evidence": {
+        "quote": "تهاتر فقط در مورد دو دینی حاصل می شود که موضوع آن ها از یک جنس باشد",
+        "start_char": 1759,
+        "end_char": 1826,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "از بدو تصرف تا به حال هیچ اجاره ای نپرداخته است",
+        "start_char": 598,
+        "end_char": 645,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجور معوقه",
+        "start_char": 1662,
+        "end_char": 1689,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "یک خودرو به خواهان دعوی تحویل داده است",
+        "start_char": 786,
+        "end_char": 824,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه بدوی",
+        "start_char": 2477,
+        "end_char": 2497,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده م. ب. فرزند ع.",
+        "start_char": 55,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "الزام خوانده (مستأجر)",
+        "start_char": 96,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خانم ر.ج. فرزند ح. به وکالت از آقای د.ک. فرزند غ.",
+        "start_char": 0,
+        "end_char": 54,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای د.ک.",
+        "start_char": 1482,
+        "end_char": 1505,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "یک بابت منزل مسکونی واقع در خیابان عارف جنوبی",
+        "start_char": 270,
+        "end_char": 315,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ودیعه",
+      "evidence": {
+        "quote": "مبلغ یک میلیون تومان به عنوان ودیعه تعیین می گردد",
+        "start_char": 385,
+        "end_char": 434,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "یک خودرو به خواهان دعوی تحویل داده است",
+        "start_char": 786,
+        "end_char": 824,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره",
+      "evidence": {
+        "quote": "اجاره بهای ماهیانه 180 هزار تومان",
+        "start_char": 1911,
+        "end_char": 1944,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اجاره بهاء منزل با خودرو تهاتر نشده است",
+      "evidence": {
+        "quote": "به لحاظ عدم تجانس، نمی تواند مؤثر در مقام باشد",
+        "start_char": 2294,
+        "end_char": 2340,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده اجاره بهاء معوقه را پرداخت نکرده است",
+      "evidence": {
+        "quote": "از بدو تصرف تا به حال هیچ اجاره ای نپرداخته است",
+        "start_char": 598,
+        "end_char": 645,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ودیعه در سال اول پرداخت نشده است",
+      "evidence": {
+        "quote": "حتی مبلغ ودیعه در سال اول را نیز نپرداخته است",
+        "start_char": 648,
+        "end_char": 693,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

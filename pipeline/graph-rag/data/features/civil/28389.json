@@ -1,0 +1,173 @@
+{
+  "ruling_id": "28389",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته تمکین و ایفای وظایف زوجیت",
+        "start_char": 57,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت",
+      "evidence": {
+        "quote": "دادگاه نظر به اینکه زوجیت طرفین را",
+        "start_char": 287,
+        "end_char": 321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قواعد دادرسی",
+      "evidence": {
+        "quote": "با رعایت اصول و قواعد دادرسی صادر گردید",
+        "start_char": 1261,
+        "end_char": 1300,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خودداری",
+      "evidence": {
+        "quote": "از تمکین نسبت به مشارالیه خودداری نموده",
+        "start_char": 247,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "می تواند از دادگاه مطالبه نمایداین",
+        "start_char": 1706,
+        "end_char": 1740,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "همسر شرعی و قانونی خواهان میباشد",
+        "start_char": 187,
+        "end_char": 219,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وفق سند نکاحیه 16941 مورخ 16/ 8/ 1390 صادره از دفتر خانه شماره 217 تهران همسر شرعی و قانونی خواهان میباشد حال بدون عذر شرعی و قانونی از تمکین نسبت به مشارالیه خودداری نموده",
+        "start_char": 114,
+        "end_char": 286,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "بلکه زوج باید نسبت به این حکم اجرائیه صادر",
+        "start_char": 1509,
+        "end_char": 1551,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "بلکه زوج باید نسبت به این حکم اجرائیه صادر تا عملا\" معلوم گردد زوجه تمکین خواهد نمود یا خیر؟",
+        "start_char": 1509,
+        "end_char": 1601,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه نیز در این مرحله مطلب قابل توجهی عنوان نکرده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "وفق سند نکاحیه 16941 مورخ 16/ 8/ 1390",
+        "start_char": 114,
+        "end_char": 151,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "به دلالت فتوکپی مصدق سند ازدواج مضبوط در پرونده",
+        "start_char": 322,
+        "end_char": 369,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "متعاقب درگیری منزل مشترک را ترک کردم",
+        "start_char": 482,
+        "end_char": 518,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از تمکین خودداری کرده است",
+      "evidence": {
+        "quote": "از تمکین نسبت به مشارالیه خودداری نموده",
+        "start_char": 247,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده منزل مشترک را ترک کرده است",
+      "evidence": {
+        "quote": "متعاقب درگیری منزل مشترک را ترک کردم",
+        "start_char": 482,
+        "end_char": 518,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در بازگشت به منزل، درب قفل بوده است",
+      "evidence": {
+        "quote": "ولی زمانی که برگشته درب منزل قفل بود",
+        "start_char": 519,
+        "end_char": 555,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

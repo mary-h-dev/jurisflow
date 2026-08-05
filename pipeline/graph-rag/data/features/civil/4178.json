@@ -1,0 +1,103 @@
+{
+  "ruling_id": "4178",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "اتهام معامله به قصد فرار از دین",
+        "start_char": 176,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.الف.",
+        "start_char": 0,
+        "end_char": 25,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "وکیل تجدیدنظرخواه به رأی دادگاه بدوی اعتراض داشته",
+        "start_char": 232,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استعلام",
+      "evidence": {
+        "quote": "تقاضای استعلام از بانک های بستانکار را داشته اند",
+        "start_char": 539,
+        "end_char": 587,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با رد درخواست تجدیدنظرخواهی دادنامه معترضٌ عنه عیناً تأیید و استوار می گردد",
+        "start_char": 987,
+        "end_char": 1062,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "وکیل تجدیدنظرخواه",
+        "start_char": 232,
+        "end_char": 249,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده آقای ه.ک.",
+        "start_char": 139,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 1196ـ16/8/91",
+        "start_char": 65,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "بدهی و وام دریافتی در بانک‌ها وجود دارد",
+      "evidence": {
+        "quote": "پاسخ استعلام و اصل و میزان بدهی و توقیف بودن و اصل وام دریافتی و فرع آن را بیان کرده اند",
+        "start_char": 660,
+        "end_char": 748,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

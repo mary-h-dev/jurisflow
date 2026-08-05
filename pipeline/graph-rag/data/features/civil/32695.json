@@ -1,0 +1,223 @@
+{
+  "ruling_id": "32695",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "با عنایت به اصل لزوم قرار دادها",
+        "start_char": 3216,
+        "end_char": 3247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "دلیلی بر فسخ یا اقاله یا سلب اعتبار آن به دادگاه ارائه نشده",
+        "start_char": 7943,
+        "end_char": 8002,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان ان صادر و اعلام می نماید",
+        "start_char": 3366,
+        "end_char": 3403,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌اعتباری",
+      "evidence": {
+        "quote": "اعلام بی اعتباری و بطلان قرارداد",
+        "start_char": 2449,
+        "end_char": 2481,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "در خصوص خواسته دیگر دعوی تقابل خواهان مبنی بر صدور حکم خلع ید",
+        "start_char": 4803,
+        "end_char": 4864,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "الزام خوانده اول به تحویل مبیع",
+        "start_char": 145,
+        "end_char": 175,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال رسمی",
+      "evidence": {
+        "quote": "تنظیم و انتقال رسمی شش دانگ",
+        "start_char": 215,
+        "end_char": 242,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "قابل واخواهی در این دادگاه",
+        "start_char": 1687,
+        "end_char": 1713,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظر خواهی در محاکم تجدید نظر استان تهران می باشد",
+        "start_char": 1729,
+        "end_char": 1788,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ورود",
+      "evidence": {
+        "quote": "به خواسته ورود ثالث در پرونده",
+        "start_char": 2404,
+        "end_char": 2433,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به خواهان منتقل نموده است",
+        "start_char": 836,
+        "end_char": 861,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 52,
+        "end_char": 69,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالکین",
+      "evidence": {
+        "quote": "خواندگان ردیف دوم الی ششم ( مالکین رسمی )",
+        "start_char": 1163,
+        "end_char": 1204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مورث",
+      "evidence": {
+        "quote": "نسبت به مورث خود م. ن.پ.",
+        "start_char": 908,
+        "end_char": 932,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "واحد",
+      "evidence": {
+        "quote": "یک واحد اپارتمان طبقه سوم غربی",
+        "start_char": 243,
+        "end_char": 273,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "الزام خوانده اول به تحویل مبیع",
+        "start_char": 145,
+        "end_char": 175,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "طی مبایعه نامه شماره....",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "ابطال سند عادی شماره....",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده اول مالک رسمی نیست",
+      "evidence": {
+        "quote": "نظر به اینکه خوانده اول مالک رسمی نیستند",
+        "start_char": 1444,
+        "end_char": 1484,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواندگان در جلسه دادرسی حاضر نشده‌اند",
+      "evidence": {
+        "quote": "خواندگان علی رغم ابلاغ قانونی در جلسه دادرسی حاضر نشده",
+        "start_char": 941,
+        "end_char": 995,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبایعه نامه صوری بوده است",
+      "evidence": {
+        "quote": "گواهانیکه مراتب صوری بودن مبایعه نامه را تاییدکرده اند",
+        "start_char": 8302,
+        "end_char": 8356,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

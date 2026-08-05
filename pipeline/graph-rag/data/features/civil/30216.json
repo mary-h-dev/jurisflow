@@ -1,0 +1,173 @@
+{
+  "ruling_id": "30216",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته الزام به تمکین زوجه",
+        "start_char": 86,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احرازرابطه زوجیت بین طرفین",
+        "start_char": 175,
+        "end_char": 201,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زناشویی",
+      "evidence": {
+        "quote": "الزام زوجه به انجام وظایف زناشویی",
+        "start_char": 925,
+        "end_char": 958,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی درمحاکم تجدیدنظراستان تهران",
+        "start_char": 1123,
+        "end_char": 1164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دادنامه معترض عنه را عینا تایید می نماید",
+        "start_char": 1835,
+        "end_char": 1888,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی تجدیدنظرخواه",
+        "start_char": 1814,
+        "end_char": 1847,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست تقدیمی خواهان م. ک.ز.",
+        "start_char": 0,
+        "end_char": 37,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده الف. الف.و. فرزند کریم",
+        "start_char": 47,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم الف. ورزقانی",
+        "start_char": 1245,
+        "end_char": 1276,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده آقای م. ک.ز.",
+        "start_char": 1387,
+        "end_char": 1414,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "باملاحظه سندنکاحیه شماره 4207",
+        "start_char": 202,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "موقوف به تهیه مسکن",
+        "start_char": 996,
+        "end_char": 1014,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث‌البیت",
+      "evidence": {
+        "quote": "و اثاث البیت",
+        "start_char": 1015,
+        "end_char": 1027,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین ثابت شده است",
+      "evidence": {
+        "quote": "احرازرابطه زوجیت بین طرفین",
+        "start_char": 175,
+        "end_char": 201,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده با شرایط جدید حاضر به تمکین شده است",
+      "evidence": {
+        "quote": "خوانده با شرایط جدید حاضر به تمکین از خواهان گردیده",
+        "start_char": 453,
+        "end_char": 504,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه دلیلی برای ترک تمکین ارائه نکرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی که موجبات جواز ترک تمکین وی را ایجاب نماید ارائه نکرده است",
+        "start_char": 1555,
+        "end_char": 1641,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

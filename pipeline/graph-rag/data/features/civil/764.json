@@ -1,0 +1,193 @@
+{
+  "ruling_id": "764",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شفعه",
+      "evidence": {
+        "quote": "دایر بر اعمال اخذ به شفعه",
+        "start_char": 79,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق شفعه",
+      "evidence": {
+        "quote": "اعمال حق شفعه پس از اطلاع شریک، فوری می باشد",
+        "start_char": 1543,
+        "end_char": 1587,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی صادر و اعلام می گردد",
+        "start_char": 2095,
+        "end_char": 2133,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "دایر بر اعمال اخذ به شفعه",
+        "start_char": 79,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "دو دانگ سهمی خود رابه خوانده ردیف دوم منتقل نموده است",
+        "start_char": 481,
+        "end_char": 534,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواست خود را مبنی براعمال اخذ به شفعه تقدیم نموده است",
+        "start_char": 592,
+        "end_char": 648,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "قابل واخواهی در همین دادگاه",
+        "start_char": 1112,
+        "end_char": 1139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم تجدیدنظر استان تهران می باشد",
+        "start_char": 1171,
+        "end_char": 1227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترضٌ عنه",
+        "start_char": 2068,
+        "end_char": 2094,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "متعلق به خواهان و خوانده ردیف اول بوده",
+        "start_char": 360,
+        "end_char": 398,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "متعلق به خواهان و خوانده ردیف اول بوده",
+        "start_char": 360,
+        "end_char": 398,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از ناحیه آقای وکیل تجدیدنظرخواه",
+        "start_char": 2671,
+        "end_char": 2702,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "مالکیت رسمی ملک متنازعٌ فیه",
+        "start_char": 318,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "به موجب سند قطعی بیع به شماره 5439- 25/3/90",
+        "start_char": 418,
+        "end_char": 461,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره437-20/4/91",
+        "start_char": 1356,
+        "end_char": 1388,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت ملک به صورت مشاعی بوده است",
+      "evidence": {
+        "quote": "مالکیت رسمی ملک متنازعٌ فیه به صورت مشاعی متعلق به خواهان و خوانده ردیف اول بوده",
+        "start_char": 318,
+        "end_char": 398,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثمن معامله در سند رسمی پنج میلیون ریال بوده است",
+      "evidence": {
+        "quote": "میزان ثمن معامله مذکور در سند رسمی انتقال به موجب رونوشت مصدق دفترچه مالکیت ملک به میزان پنج میلیون ریال بوده است",
+        "start_char": 739,
+        "end_char": 852,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان پس از گذشت چندین ماه اقدام به طرح دعوی کرده است",
+      "evidence": {
+        "quote": "پس ازگذشت چندین ماه اقدام به طرح دعوی نموده است",
+        "start_char": 1959,
+        "end_char": 2006,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "10959",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "به خواسته الزام خواندگان به انجام تعهد قانونی",
+        "start_char": 79,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "یعنی ملک مورد دعوی با شرط صفت فروخته شده",
+        "start_char": 1132,
+        "end_char": 1172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "حق فسخ دارد",
+        "start_char": 1834,
+        "end_char": 1845,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "دایر بر استرداد بخشی از ثمن معامله",
+        "start_char": 125,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "و تمامی ثمن آن را پرداخت کرده‌ایم",
+        "start_char": 446,
+        "end_char": 479,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "بانوان ف.ص. و م.ش. به رأی دادگاه اعتراض",
+        "start_char": 3720,
+        "end_char": 3759,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت بانوان م.ش. و ف.ص.",
+        "start_char": 51,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از آنجا که خواهان مهندس ناظر در سازمان نظام مهندسی است",
+        "start_char": 1290,
+        "end_char": 1344,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به‌موجب مبایعه‌نامه مورخه 1391/10/19",
+        "start_char": 301,
+        "end_char": 337,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "آپارتمانی را به مساحت 170/2 متر مربع",
+        "start_char": 338,
+        "end_char": 374,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "و سند مالکیت هریک به میزان سه دانگ به نام اینجانبان صادر و مسلم شده",
+        "start_char": 480,
+        "end_char": 547,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "بابت کسری مساحت آپارتمان با جلب نظر کارشناس به انضمام مطلق خسارات قانونی به دادگاه عمومی اراک تسلیم و توضیح داده‌اند: «اینجانبان در سال 1391 به‌موجب مبایعه‌نامه مورخه 1391/10/19 آپارتمانی را به مساحت 170/2 متر مربع به انضمام پارکینگ و انباری به بیع صحیح شرعی و قانونی از خواندگان خریده و تمامی ثمن آن را پرداخت کرده‌ایم",
+        "start_char": 160,
+        "end_char": 479,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود کسری مساحت در آپارتمان",
+      "evidence": {
+        "quote": "آپارتمان به میزان 8/4 متر مربع از میزان تراضی شده کسر مساحت دارد",
+        "start_char": 548,
+        "end_char": 612,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت کامل ثمن معامله",
+      "evidence": {
+        "quote": "و تمامی ثمن آن را پرداخت کرده‌ایم",
+        "start_char": 446,
+        "end_char": 479,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

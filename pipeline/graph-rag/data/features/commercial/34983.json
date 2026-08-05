@@ -1,0 +1,173 @@
+{
+  "ruling_id": "34983",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قرض",
+      "evidence": {
+        "quote": "موکل بر مبنای قرض از بانو ح. م. یک فقره چک در مورخه 92/9/30 به شماره... ایشان واگذار می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "بنویس در جهت عقد مضاربه صادر نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "از باب انتقال طلب مطابق مقررات قانون مدنی فاقد ایراد می باشد",
+        "start_char": 4722,
+        "end_char": 4782,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خواسته را مطالبه وجه چهار فقره چک فوق و خسارت تأخیر تأدیه و خسارت دادرسی عنوان نموده",
+        "start_char": 2396,
+        "end_char": 2480,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "چک ها در وجه همسرم صادر شده بود که به طور شفاهی به من منتقل نموده است",
+        "start_char": 333,
+        "end_char": 402,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بایستی با اثبات سود تقاضای مطالبه آن را نماید",
+        "start_char": 1998,
+        "end_char": 2043,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "در تاریخ 95/4/1 از رأی مذکور فرجام خواهی نموده",
+        "start_char": 3619,
+        "end_char": 3665,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "تقاضای نقض رأی فرجام خواسته را نموده",
+        "start_char": 3846,
+        "end_char": 3882,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در این جلسه خواهان آقای الف.الف. اظهار داشت",
+        "start_char": 256,
+        "end_char": 299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وکیل خوانده اظهار داشت",
+        "start_char": 770,
+        "end_char": 792,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شخص ثالث",
+      "evidence": {
+        "quote": "سه فقره چک تضمینی را از تاریخ 93/5/30 تا 93/9/30 به شخص ثالث بدون هیچ امضاء پشت نویسی و... غیر قانونی و بدون ح. نیت واگذار نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چک ها در وجه همسرم صادر شده بود",
+        "start_char": 333,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "عرایض به شرح لایحه تقدیمی است",
+        "start_char": 793,
+        "end_char": 822,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "انتقال اسناد تجاری به وسیله ظهرنویسی به عمل می آید",
+        "start_char": 1711,
+        "end_char": 1761,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انتقال چک به صورت شفاهی انجام شده است",
+      "evidence": {
+        "quote": "چک ها در وجه همسرم صادر شده بود که به طور شفاهی به من منتقل نموده است",
+        "start_char": 333,
+        "end_char": 402,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک‌ها فاقد امضای پشت‌نویس هستند",
+      "evidence": {
+        "quote": "سه فقره چک تضمینی را از تاریخ 93/5/30 تا 93/9/30 به شخص ثالث بدون هیچ امضاء پشت نویسی و... غیر قانونی و بدون ح. نیت واگذار نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

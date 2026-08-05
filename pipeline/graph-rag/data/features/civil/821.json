@@ -1,0 +1,163 @@
+{
+  "ruling_id": "821",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "وجود علقه زوجیت بین خواهان و خوانده محرز و مسلم است",
+        "start_char": 305,
+        "end_char": 356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "حقوق و تکالیف زوجین در مقابل یکدیگر برقرار می شود",
+        "start_char": 368,
+        "end_char": 417,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "تمکین منوط و مشروط به پرداخت نفقه از سوی زوج به زوجه است",
+        "start_char": 859,
+        "end_char": 915,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "اثبات امر عدمی رأساً و به طور مستقیم مقدور نیست",
+        "start_char": 926,
+        "end_char": 973,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "حکم به الزام خوانده به تمکین از خواهان و انجام وظایف زناشویی صادر و اعلام می نماید",
+        "start_char": 1516,
+        "end_char": 1598,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم تجدیدنظر استان تهران خواهد بود",
+        "start_char": 1725,
+        "end_char": 1783,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد درخواست تجدیدنظرخواهی",
+        "start_char": 2416,
+        "end_char": 2444,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "رأی صادر شده دادگاه بدوی را استناد به مواد 358 و 365 قانون آئین دادرسی دادگاه های عمومی و انقلاب در امور مدنی، تأیید می نماید",
+        "start_char": 2446,
+        "end_char": 2571,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست تقدیمی خواهان ن.ع. فرزند م.",
+        "start_char": 0,
+        "end_char": 43,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت ن.ن. فرزند م.",
+        "start_char": 44,
+        "end_char": 66,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "با عنایت به اینکه تجدیدنظرخواه ایراد و اعتراض موجهی",
+        "start_char": 2258,
+        "end_char": 2309,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "تصویر مصدق رونوشت سند نکاحیه",
+        "start_char": 219,
+        "end_char": 247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "منزل مشترک را ترک نموده است",
+        "start_char": 1182,
+        "end_char": 1209,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود رابطه زوجیت بین طرفین",
+      "evidence": {
+        "quote": "وجود علقه زوجیت بین خواهان و خوانده محرز و مسلم است",
+        "start_char": 305,
+        "end_char": 356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ترک منزل مشترک توسط زوجه بدون اذن",
+      "evidence": {
+        "quote": "زوجه به اختیار خود و بدون اذن زوج و عاری از هرگونه عذر موجه منزل مشترک را ترک نموده است",
+        "start_char": 1122,
+        "end_char": 1209,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25585",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "وجود رابطه زوجیت فیمابین طرفین محرز است",
+        "start_char": 215,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "به محض وقوع عقد نکاح",
+        "start_char": 290,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "حقوق و تکالیف طرفین در مقابل همدیگر برقرار می‌شود",
+        "start_char": 312,
+        "end_char": 361,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام به تمکین",
+        "start_char": 71,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در دادگاه تجدیدنظر",
+        "start_char": 886,
+        "end_char": 915,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عیناً تأیید و ابرام می‌نماید",
+        "start_char": 1684,
+        "end_char": 1738,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را وارد دانسته",
+        "start_char": 528,
+        "end_char": 561,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده به تمکین",
+        "start_char": 609,
+        "end_char": 632,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه... متضمن حکم به الزام تجدیدنظرخواه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "الزام تجدیدنظرخواه (زوجه) به تمکین از زوج",
+        "start_char": 1221,
+        "end_char": 1262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "الزام تجدیدنظرخواه (زوجه)",
+        "start_char": 1221,
+        "end_char": 1246,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "رونوشت سند نکاحیه شماره 18473",
+        "start_char": 139,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "تهیه مسکن و اثاث البیت",
+        "start_char": 743,
+        "end_char": 765,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث‌البیت",
+      "evidence": {
+        "quote": "تهیه مسکن و اثاث البیت",
+        "start_char": 743,
+        "end_char": 765,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "وجود رابطه زوجیت فیمابین طرفین محرز است",
+        "start_char": 215,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده دلیلی برای عدم تمکین ارائه نکرده است",
+      "evidence": {
+        "quote": "خوانده هیچ گونه دلیلی که عدم تمکین وی را توجیه نماید ارایه ننموده است",
+        "start_char": 444,
+        "end_char": 513,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "25829",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "حق دارد تا مهریه را دریافت نکرده از حق حبس استفاده نماید",
+        "start_char": 927,
+        "end_char": 983,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "به خواسته نفقه معوقه",
+        "start_char": 667,
+        "end_char": 687,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه",
+        "start_char": 48,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "از تمکین خودداری می‌نماید",
+        "start_char": 865,
+        "end_char": 890,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض وارد",
+      "evidence": {
+        "quote": "اعتراض وارد است",
+        "start_char": 752,
+        "end_char": 767,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض‌عنه",
+        "start_char": 1126,
+        "end_char": 1151,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "آقای الف. ح.ش. را به پرداخت نفقه معوقه... محکوم می‌نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 294,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "علاقه‌ای به خوانده ندارد",
+        "start_char": 133,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در خصوص دعوی زوجه",
+        "start_char": 649,
+        "end_char": 666,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "تا مهریه را دریافت نکند",
+        "start_char": 841,
+        "end_char": 864,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1091-1393/8/4",
+        "start_char": 551,
+        "end_char": 586,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تمکین زوجه به دلیل عدم دریافت مهریه",
+      "evidence": {
+        "quote": "تا مهریه را دریافت نکند از تمکین خودداری می‌نماید",
+        "start_char": 841,
+        "end_char": 890,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "باکره بودن زوجه",
+      "evidence": {
+        "quote": "باکره بودن نامبرده",
+        "start_char": 231,
+        "end_char": 249,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

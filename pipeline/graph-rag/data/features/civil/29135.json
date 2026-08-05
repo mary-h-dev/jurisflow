@@ -1,0 +1,133 @@
+{
+  "ruling_id": "29135",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مالکیت ایجاد نمی کند",
+        "start_char": 499,
+        "end_char": 519,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "بخواسته استرداد",
+        "start_char": 43,
+        "end_char": 58,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی خانم ز. ص.ج.",
+        "start_char": 972,
+        "end_char": 999,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد تجدیدنظر",
+      "evidence": {
+        "quote": "با رد تجدیدنظر خواهی دادنامه تجدیدنظر خواسته تائید می شود",
+        "start_char": 1523,
+        "end_char": 1580,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خانم ز. ص.ج.",
+        "start_char": 23,
+        "end_char": 42,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان را محمول بر صحت تشخیص",
+        "start_char": 691,
+        "end_char": 724,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظر خواه",
+        "start_char": 1273,
+        "end_char": 1295,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فاکتور خرید",
+      "evidence": {
+        "quote": "به موجب فاکتور خرید شماره0874-1392/10/11",
+        "start_char": 72,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "طلا",
+      "evidence": {
+        "quote": "6 حلقه طلا بلحاظ حفظ کیان خانواده",
+        "start_char": 165,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 940195",
+        "start_char": 1013,
+        "end_char": 1041,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خرید طلا توسط زوج برای همسرش",
+      "evidence": {
+        "quote": "طلای خریداری شده ازناحیه زوج برای زوجه",
+        "start_char": 380,
+        "end_char": 418,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم حضور خوانده در شعبه",
+      "evidence": {
+        "quote": "خوانده درشعبه حاضرنشده",
+        "start_char": 522,
+        "end_char": 544,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

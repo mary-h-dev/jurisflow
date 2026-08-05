@@ -1,0 +1,133 @@
+{
+  "ruling_id": "35446",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "امانی",
+      "evidence": {
+        "quote": "ید زوج برجهیزیه امانی تلقی میشود",
+        "start_char": 307,
+        "end_char": 339,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استردادجهیزیه",
+        "start_char": 90,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دلیلی براستردادجهیزیه موردمطالبه اقامه ننموده",
+        "start_char": 259,
+        "end_char": 304,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "رد اعتراض معترض",
+        "start_char": 1805,
+        "end_char": 1820,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست تقدیمی خواهان",
+        "start_char": 7,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده",
+        "start_char": 59,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اقای الف. ب.",
+        "start_char": 1015,
+        "end_char": 1041,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخوانده",
+        "start_char": 1152,
+        "end_char": 1175,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "استردادجهیزیه",
+        "start_char": 100,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سیاهه عادی",
+      "evidence": {
+        "quote": "به شرح سیاهه عادی",
+        "start_char": 114,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده دلیلی برای استرداد جهیزیه ارائه نکرده است",
+      "evidence": {
+        "quote": "خوانده دلیلی براستردادجهیزیه موردمطالبه اقامه ننموده",
+        "start_char": 252,
+        "end_char": 304,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان از ادامه زوجیت رضایت ندارد",
+      "evidence": {
+        "quote": "عدم رضایت خودرابه استمراریدزوج براقلام جهیزیه اعلام نموده",
+        "start_char": 444,
+        "end_char": 501,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

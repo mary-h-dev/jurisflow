@@ -1,0 +1,243 @@
+{
+  "ruling_id": "31649",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تأیید فسخ",
+      "evidence": {
+        "quote": "به خواسته تاییدفسخ قرارداد",
+        "start_char": 242,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "و ابطال سند رسمی",
+        "start_char": 518,
+        "end_char": 534,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "با قصد بیع تعلیقی",
+        "start_char": 991,
+        "end_char": 1008,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "و ایجاد سبب انفساخ قهری و انفساخ بیع نامه عادی و رسمی",
+        "start_char": 1962,
+        "end_char": 2015,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "با تحقق آن شرط فاسخ مورد اشاره نیز",
+        "start_char": 7235,
+        "end_char": 7269,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "و ابطال سند رسمی",
+        "start_char": 518,
+        "end_char": 534,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "و تسلیم مبیع",
+        "start_char": 656,
+        "end_char": 668,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "ومطالبه خسارات دادرسی",
+        "start_char": 697,
+        "end_char": 718,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واگذاری",
+      "evidence": {
+        "quote": "اقدام به واگذاری ملک مذکور",
+        "start_char": 3090,
+        "end_char": 3116,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "اقدام به انتقال رسمی ملک",
+        "start_char": 4529,
+        "end_char": 4553,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "برگشت",
+      "evidence": {
+        "quote": "و برخی دیگر در سال 90 برگشت خورده اند",
+        "start_char": 3363,
+        "end_char": 3399,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست تقدیمی خواهان ها",
+        "start_char": 0,
+        "end_char": 32,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 127,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "باعتبار قرارداد 88/6/5 استناد کرده اند و قرارداد رسمی 88/6/5 تعلیقی نبوده و انتقال قطعی واقع شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "مبایعه نامه عادی مورخ 88/4/28",
+        "start_char": 271,
+        "end_char": 300,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "سند رسمی شماره 20962",
+        "start_char": 389,
+        "end_char": 409,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "و تسلیم مبیع",
+        "start_char": 656,
+        "end_char": 668,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "به موجب 14 فقره چک",
+        "start_char": 1451,
+        "end_char": 1469,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک متنازع فیه",
+        "start_char": 1291,
+        "end_char": 1305,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی 1062 فرعی از یک اصلی",
+        "start_char": 877,
+        "end_char": 907,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک های اقساط ثمن معامله برگشت خورده است",
+      "evidence": {
+        "quote": "و با تحقق آن شرط فاسخ مورد اشاره نیز که نیازی به اعلام اراده طرفین یا احد از آنان ندارد نیز محقق شده است",
+        "start_char": 7233,
+        "end_char": 7337,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک در رهن بوده است",
+      "evidence": {
+        "quote": "با مراجعه به خواندگان متوجه گردیدند که ملک دررهن بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انتقال ملک به غیر صورت گرفته است",
+      "evidence": {
+        "quote": "اقدام به انتقال رسمی ملک مزبور به آقای ع.الف. هدایتی نموده اند",
+        "start_char": 4529,
+        "end_char": 4590,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

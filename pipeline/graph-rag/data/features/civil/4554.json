@@ -1,0 +1,153 @@
+{
+  "ruling_id": "4554",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته محکومیت خوانده به استرداد جهیزیه",
+        "start_char": 50,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "خواهان نتوانسته مالکیت خود را نسبت به آن ها اثبات کند",
+        "start_char": 1469,
+        "end_char": 1522,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به یازده قلم آن اعتراض کرده",
+        "start_char": 203,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه نداده",
+      "evidence": {
+        "quote": "هیچ مدرکی دال بر اینکه اقلام فوق را از کدام مغازه خریده است ارائه نداده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته در این قسمت که مورد تجدیدنظرخواه است نقض می شود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به خواسته محکومیت خوانده",
+        "start_char": 50,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصـوص دعـوی خــانـم پ.ق. به طـرفیـت آقـای ی.ق. به خواسته محکومیت خوانده",
+        "start_char": 0,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانـم پ.ق.",
+        "start_char": 1792,
+        "end_char": 1816,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده صدور آن و امضای خود را قبول دارد",
+        "start_char": 2283,
+        "end_char": 2331,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به امضاء عده ای ازجمله زوج (تجدیدنظر خوانده)",
+        "start_char": 2212,
+        "end_char": 2256,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "به استرداد جهیزیه طبق لیست سیاه",
+        "start_char": 75,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فاکتور",
+      "evidence": {
+        "quote": "به دلیل تعارض با اظهارات اولیه و قابل ترتیب اثر نیست با عنایت به مراتب دادگاه دعـوی خواهــان را نسبــت به استرداد جهیزه طبق لیست سیاهه به استثناء اقلام یازده گانه به شرح فاکتور شماره 2552472",
+        "start_char": 866,
+        "end_char": 1056,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "یازده قلم از اقلام جهیزیه در رأی بدوی استثنا شده بود",
+      "evidence": {
+        "quote": "که به موجب آن یازده قلم از جهیزیه استنادی است exception شده و حکم به استرداد آن داده نشده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سیاهه جهیزیه به امضای زوج و پدر زوجه رسیده است",
+      "evidence": {
+        "quote": "سیاهه مذکور به امضاء عده ای ازجمله زوج (تجدیدنظر خوانده) و پدر او ج.ق. رسیده است",
+        "start_char": 2200,
+        "end_char": 2280,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

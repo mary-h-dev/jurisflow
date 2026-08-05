@@ -1,0 +1,143 @@
+{
+  "ruling_id": "32784",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعدی",
+      "evidence": {
+        "quote": "حکایت از تعدی و تفریط دارد",
+        "start_char": 901,
+        "end_char": 927,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "مفهوم مخالف ماده 1 قانون مسئولیت مدنی",
+        "start_char": 1250,
+        "end_char": 1287,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه وجه آنها بابت خسارات وارده",
+        "start_char": 653,
+        "end_char": 686,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "استماع دعوی",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی خواهان صادر",
+        "start_char": 1288,
+        "end_char": 1320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را عینا\" تأیید مینماید",
+        "start_char": 2159,
+        "end_char": 2198,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حسب اظهارات خواهان",
+        "start_char": 332,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت",
+        "start_char": 84,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "کارمند",
+      "evidence": {
+        "quote": "خوانده به موجب قرارداد عادی مورخه 31/ 4/ 92 کارمند خواهان در مجموعه متین تایم بوده است",
+        "start_char": 487,
+        "end_char": 573,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سفته",
+      "evidence": {
+        "quote": "به استناد چهل فقره سفته",
+        "start_char": 133,
+        "end_char": 156,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "به موجب قرارداد عادی مورخه 31/ 4/ 92",
+        "start_char": 424,
+        "end_char": 460,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "به انضمام پرداخت خسارت تاخیر تادیه",
+        "start_char": 251,
+        "end_char": 285,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "سفته‌ها بابت حسن انجام کار اخذ شده اما در قرارداد ذکر نشده است",
+      "evidence": {
+        "quote": "سفته های مستند دعوی بابت حسن انجام کار اخذ شده ولی در قرارداد ذکر نگردیده",
+        "start_char": 577,
+        "end_char": 650,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان نتوانست دلیل ورود خسارت را اثبات کند",
+      "evidence": {
+        "quote": "خواهان دلایل و مدارک مثبت ورود خسارت را ارائه نکرده",
+        "start_char": 967,
+        "end_char": 1018,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

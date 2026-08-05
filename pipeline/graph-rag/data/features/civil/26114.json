@@ -1,0 +1,173 @@
+{
+  "ruling_id": "26114",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تملیک",
+      "evidence": {
+        "quote": "مشتمل بر قرارداد اجاره به شرط تملیک",
+        "start_char": 2209,
+        "end_char": 2244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "خواهان می‌توانسته قرارداد اجاره را فسخ کند",
+        "start_char": 2790,
+        "end_char": 2832,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "مسئولیت مدنی",
+        "start_char": 4818,
+        "end_char": 4830,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "جبران خسارت",
+      "evidence": {
+        "quote": "الزام خواندگان به جبران خسارت",
+        "start_char": 98,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت غرامت",
+        "start_char": 130,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ایفاء",
+      "evidence": {
+        "quote": "الزام خواندگان به ایفاء تعهدات",
+        "start_char": 177,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم بر بی حقی خواهان صادر",
+        "start_char": 3035,
+        "end_char": 3060,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته نقض",
+        "start_char": 5027,
+        "end_char": 5053,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی... دادنامه تجدیدنظرخواسته را تأیید می‌نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان",
+        "start_char": 143,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان",
+        "start_char": 98,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 3630,
+        "end_char": 3642,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده ردیف اول",
+        "start_char": 4159,
+        "end_char": 4182,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "موضوع قرارداد",
+        "start_char": 208,
+        "end_char": 221,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "نقص فنی خودروها",
+      "evidence": {
+        "quote": "به دلیل نقص فنی خودروهای مزبور متوقف شده",
+        "start_char": 1055,
+        "end_char": 1095,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم مطابقت با استانداردها",
+      "evidence": {
+        "quote": "عدم مطابقت مورد اجاره با استانداردها موجود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

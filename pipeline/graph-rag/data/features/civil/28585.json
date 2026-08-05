@@ -1,0 +1,163 @@
+{
+  "ruling_id": "28585",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تائید فسخ قرارداد فروش",
+        "start_char": 56,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "ازمقررات ومصادیق خیارتاخیر ثمن محسوب میگردد",
+        "start_char": 584,
+        "end_char": 627,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان آن صادرمیگردد",
+        "start_char": 1283,
+        "end_char": 1309,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "تائید فسخ قرارداد فروش",
+        "start_char": 56,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "تا مورخه 92/12/2 ثمن آن پرداخت گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "عدم مطالبه خواهان فسخ (بایع)میباشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض دردادگاه تجدیدنظراستان تهران است",
+        "start_char": 1342,
+        "end_char": 1386,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظر خواهی آقای ح. ر. یی",
+        "start_char": 1437,
+        "end_char": 1473,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "باعدم پرداخت خواستار تائید فسخ آن می باشند",
+        "start_char": 265,
+        "end_char": 307,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به ادعای خوانده به حساب خواهان پرداخت کرده",
+        "start_char": 421,
+        "end_char": 463,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "عدم مطالبه خواهان فسخ (بایع)میباشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد فروش",
+      "evidence": {
+        "quote": "فسخ قرارداد فروش یکدستگاه اتومبیل اسپورتیج",
+        "start_char": 62,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "تا مورخه 92/12/2 ثمن آن پرداخت گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت ثمن در موعد مقرر",
+      "evidence": {
+        "quote": "باعدم پرداخت خواستار تائید فسخ آن می باشند",
+        "start_char": 265,
+        "end_char": 307,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت بدهی توسط خوانده",
+      "evidence": {
+        "quote": "خوانده علیرغم مراجعات مکرر وتماس های متعدد از پرداخت بدهی خود طفره رفته وخودداری نموده",
+        "start_char": 1067,
+        "end_char": 1153,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

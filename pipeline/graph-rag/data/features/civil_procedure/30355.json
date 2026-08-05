@@ -1,0 +1,153 @@
+{
+  "ruling_id": "30355",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "با استصحاب بقای دین مستندا به مواد 10،219،223،1284و1301 از قانون مدنی",
+        "start_char": 960,
+        "end_char": 1029,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "و همچنین حق الوکاله و خسارت تاخیر در تادیه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه طلب",
+        "start_char": 93,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "از پرداخت مطالبات وی استنکاف نموده",
+        "start_char": 385,
+        "end_char": 419,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظر خواهی در محاکم تجدید نظر استان تهران می باشد",
+        "start_char": 1737,
+        "end_char": 1796,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اصلاح",
+      "evidence": {
+        "quote": "تقاضای اصلاح دادنامه",
+        "start_char": 4284,
+        "end_char": 4304,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان خانم م. آقا",
+        "start_char": 0,
+        "end_char": 31,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم ن. ط. ب. به خواسته مطالبه طلب",
+        "start_char": 70,
+        "end_char": 113,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "دفاع و ایراد موثری که باعث بی اعتباری دادنامه تجدیدنظر خواسته را فراهم نماید",
+        "start_char": 2209,
+        "end_char": 2285,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت",
+      "evidence": {
+        "quote": "برابر قرارداد مشارکت بعنوان میکاپ",
+        "start_char": 235,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "مطابق سند عادی مورخه 1391/3/10",
+        "start_char": 2514,
+        "end_char": 2544,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رسید",
+      "evidence": {
+        "quote": "رسیدهایی ارائه می کند",
+        "start_char": 2871,
+        "end_char": 2892,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "همکاری طرفین با استعفا خاتمه یافته است",
+      "evidence": {
+        "quote": "با توجه به استعفای موکله همکاری فی مابین خاتمه یافته",
+        "start_char": 301,
+        "end_char": 353,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده بخشی از مطالبات را پرداخت کرده است",
+      "evidence": {
+        "quote": "تجدیدنظر خواه مدعی پرداخت بخشی از مطالبات تجدیدنظر خوانده را می نماید",
+        "start_char": 2779,
+        "end_char": 2848,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

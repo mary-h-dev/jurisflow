@@ -1,0 +1,183 @@
+{
+  "ruling_id": "29592",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "وجود علقه زوجیت بین طرفین متداعیین",
+        "start_char": 268,
+        "end_char": 302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "به سبب عقد نکاح دائم محرز است",
+        "start_char": 303,
+        "end_char": 332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "دلیلی که مؤید برائت ذمه وی",
+        "start_char": 457,
+        "end_char": 483,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "مانع تمکین و نیز ایفاء تکلیف تمکین باشد",
+        "start_char": 1567,
+        "end_char": 1606,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "مگر آنکه نشوزش را ثابت نماید",
+        "start_char": 3339,
+        "end_char": 3367,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت نفقه",
+        "start_char": 81,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "در پی اعتراض خوانده",
+        "start_char": 556,
+        "end_char": 575,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم",
+        "start_char": 1824,
+        "end_char": 1857,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه در این بخش",
+        "start_char": 3404,
+        "end_char": 3430,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خانم ز. ق.الف. فرزند گ. به طرفیت آقای الف. ح. فرزند م. به خواسته الزام خوانده",
+        "start_char": 0,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت نفقه",
+        "start_char": 81,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اول به پرداخت نفقه",
+        "start_char": 2176,
+        "end_char": 2207,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت نفقه",
+        "start_char": 81,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "فتوکپی مصدق نکاحنامه رسمی شماره 8934",
+        "start_char": 192,
+        "end_char": 228,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود رابطه زوجیت بین طرفین",
+      "evidence": {
+        "quote": "وجود علقه زوجیت بین طرفین متداعیین به سبب عقد نکاح دائم محرز است",
+        "start_char": 268,
+        "end_char": 332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "برقراری زندگی مشترک در تاریخ 91/2/21",
+      "evidence": {
+        "quote": "دوران عقد با شروع زندگی در تاریخ 92/2/21 منقطع شد",
+        "start_char": 2475,
+        "end_char": 2524,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه در بخش مورد اعتراض زوج",
+      "evidence": {
+        "quote": "دلیلی بر عدم پرداخت ارائه نشد",
+        "start_char": 2645,
+        "end_char": 2674,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

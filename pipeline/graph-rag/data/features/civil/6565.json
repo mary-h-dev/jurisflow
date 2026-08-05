@@ -1,0 +1,173 @@
+{
+  "ruling_id": "6565",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع",
+      "evidence": {
+        "quote": "طرفین با طلاق از نوع خلع متارکه کردند",
+        "start_char": 135,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "خوانده از بابت طلاق 85 سکه بهار آزادی از مهریه اش را بذل کرد",
+        "start_char": 175,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رجوع",
+      "evidence": {
+        "quote": "صدور حکم به ثبت رجوع",
+        "start_char": 86,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ایام عده",
+      "evidence": {
+        "quote": "ایام عده منقضی شده است",
+        "start_char": 429,
+        "end_char": 451,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ثبت",
+      "evidence": {
+        "quote": "صدور حکم به ثبت رجوع",
+        "start_char": 86,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "پس از ثبت طلاق در دادگاه مطالبه نموده",
+        "start_char": 562,
+        "end_char": 599,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی مطروحه صادر",
+        "start_char": 693,
+        "end_char": 720,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ق.ف.",
+        "start_char": 880,
+        "end_char": 903,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم ز.ب. از خوانده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان قابل اجابت نیست",
+        "start_char": 298,
+        "end_char": 327,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "حقی برای زوج برای رجوع به زوجیت متصور نخواهد بود",
+        "start_char": 460,
+        "end_char": 508,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی",
+        "start_char": 1345,
+        "end_char": 1372,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "85 سکه بهار آزادی",
+        "start_char": 195,
+        "end_char": 212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "از بابت مهریه",
+        "start_char": 548,
+        "end_char": 561,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طلاق در سال ۱۳۹۲ در دفتر رسمی ثبت شده است",
+      "evidence": {
+        "quote": "طلاق در تاریخ 2/7/92 در دفتر رسمی طلاق ثبت شد",
+        "start_char": 238,
+        "end_char": 283,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ایام عده منقضی شده است",
+      "evidence": {
+        "quote": "ایام عده منقضی شده است",
+        "start_char": 429,
+        "end_char": 451,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

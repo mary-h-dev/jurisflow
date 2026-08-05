@@ -1,0 +1,143 @@
+{
+  "ruling_id": "26139",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "صدور حکم بر ورشگستگی",
+        "start_char": 124,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقف",
+      "evidence": {
+        "quote": "توقف در تادیه دیون",
+        "start_char": 151,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوای",
+      "evidence": {
+        "quote": "حکم به رد دعوای خواهان صادر",
+        "start_char": 451,
+        "end_char": 478,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 536,
+        "end_char": 554,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "خواست تایید می گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نظر به اینکه خواهان به تکالیف مقرر",
+        "start_char": 308,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دفاعیات ارایه شده از سوی خوانده",
+        "start_char": 249,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تاجر",
+      "evidence": {
+        "quote": "تاجر ملکف است",
+        "start_char": 1002,
+        "end_char": 1015,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دفاتر",
+      "evidence": {
+        "quote": "کلیه دفاتر قانونی",
+        "start_char": 1016,
+        "end_char": 1033,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دارایی",
+      "evidence": {
+        "quote": "صورت حساب دارایی ها",
+        "start_char": 1043,
+        "end_char": 1062,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه 0039 - 1394/1/2",
+        "start_char": 732,
+        "end_char": 763,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم رعایت مقررات مواد 413 و 414 قانون تجارت",
+      "evidence": {
+        "quote": "به لحاظ عدم رعایت مقررات مواد 413 و 414 قانون تجارت مراتب اصدار یافته است",
+        "start_char": 852,
+        "end_char": 925,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم استناد به دفاتر قانونی در دادخواست",
+      "evidence": {
+        "quote": "در دادخواست خود نیز در ستون دلایل و منضمات به دفاتر قانونی استناد نکرده",
+        "start_char": 1203,
+        "end_char": 1274,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "11074",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ضمان",
+      "evidence": {
+        "quote": "ضمان عقدی است لازم",
+        "start_char": 1685,
+        "end_char": 1703,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "نمی‌توانند آنرا فسخ کنند",
+        "start_char": 1726,
+        "end_char": 1750,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فک رهن",
+      "evidence": {
+        "quote": "الزام به فک رهن",
+        "start_char": 113,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "بابت اخذ تسهیلات",
+        "start_char": 386,
+        "end_char": 402,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ایفای تعهد",
+      "evidence": {
+        "quote": "از ایفای تعهد",
+        "start_char": 521,
+        "end_char": 534,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی می‌باشد",
+        "start_char": 1148,
+        "end_char": 1174,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 313,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "طرفیت خوانده",
+        "start_char": 727,
+        "end_char": 739,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخواندگان",
+        "start_char": 1230,
+        "end_char": 1255,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "تصویر مصدق سند مالکیت",
+        "start_char": 210,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند رهنی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "ازپلاک ثبتی",
+        "start_char": 129,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انقضای مدت قرارداد",
+      "evidence": {
+        "quote": "برغم انقضای مدت سه سال",
+        "start_char": 461,
+        "end_char": 483,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عقد ضمان برقرار است",
+      "evidence": {
+        "quote": "مادامیکه عقد ضمان به قوت خویش باقی است",
+        "start_char": 1952,
+        "end_char": 1990,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

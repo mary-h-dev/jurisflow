@@ -1,0 +1,173 @@
+{
+  "ruling_id": "28622",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "عقد بیعی که صحیحا واقع شده باشد",
+        "start_char": 1454,
+        "end_char": 1485,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "عدم نفوذ بیع مذکور می باشد",
+        "start_char": 2010,
+        "end_char": 2036,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل مبیع",
+      "evidence": {
+        "quote": "بخواسته تحویل مبیع",
+        "start_char": 55,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی",
+        "start_char": 1125,
+        "end_char": 1148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسویه حساب",
+      "evidence": {
+        "quote": "تسویه حساب اعلام نموده اند",
+        "start_char": 2154,
+        "end_char": 2180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض تجدیدنظر خواه به دلایل ذیل وارد است",
+        "start_char": 1373,
+        "end_char": 1415,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "قرار رد دعوای خواهان را",
+        "start_char": 494,
+        "end_char": 515,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی آقای ج. ح.",
+        "start_char": 800,
+        "end_char": 825,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "تجدیدنظر خواندگان به شرح لایحه دفاعیه ارائه شده",
+        "start_char": 2044,
+        "end_char": 2091,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "بایع را به تسلیم مبیع ملزم می نماید",
+        "start_char": 1486,
+        "end_char": 1521,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "بخواسته تحویل مبیع",
+        "start_char": 55,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ساختمان",
+      "evidence": {
+        "quote": "یک باب ساختمان 3طبقه",
+        "start_char": 81,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "با توجه به مبایعه نامه عادی منعقده بین طرفین",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "دارای سند مالکیت رسمی است",
+        "start_char": 1077,
+        "end_char": 1102,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین دارای مبایعه نامه عادی هستند",
+      "evidence": {
+        "quote": "با توجه به مبایعه نامه عادی منعقده بین طرفین",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موضوع دعوا ملک دارای سند مالکیت رسمی است",
+      "evidence": {
+        "quote": "در موضوع املاکی که به ثبت رسیده دارای سند مالکیت رسمی است",
+        "start_char": 1045,
+        "end_char": 1102,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

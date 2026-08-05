@@ -1,0 +1,153 @@
+{
+  "ruling_id": "26089",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "عقد بیع در اجرای همان وکالت‌نامه تحقق یافته",
+        "start_char": 1995,
+        "end_char": 2038,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد وکالت",
+      "evidence": {
+        "quote": "بلکه عقد وکالت منعقد گردیده",
+        "start_char": 2241,
+        "end_char": 2268,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه ثمن حاصل از فروش ملک",
+        "start_char": 72,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "نسبت به پرداخت ثمن المعامله",
+        "start_char": 513,
+        "end_char": 540,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 2484,
+        "end_char": 2514,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از جمله خواهان مالک پلاک ثبتی مذکور بوده",
+        "start_char": 246,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای م. ق.ز.س. به خواسته مطالبه ثمن",
+        "start_char": 48,
+        "end_char": 92,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1190 مورخه 1392/12/12 صادره از شعبه 216 دادگاه عمومی حقوقی تهران که به موجب آن حکم به محکومیت تجدیدنظرخواه",
+        "start_char": 1607,
+        "end_char": 1735,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "فی‌مابین تجدیدنظرخواه و تجدیدنظرخوانده مستقیماً عقد بیعی تحقق نیافته است",
+        "start_char": 2168,
+        "end_char": 2240,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ثمن حاصل از فروش ملک",
+        "start_char": 89,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "مطالبه ثمن حاصل از فروش ملک",
+        "start_char": 82,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "به موجب وکالت‌نامه رسمی",
+        "start_char": 369,
+        "end_char": 392,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فروش ملک با وکالت‌نامه انجام شده است",
+      "evidence": {
+        "quote": "به موجب وکالت‌نامه رسمی به خوانده وکالت در فروش داده است",
+        "start_char": 369,
+        "end_char": 425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثمن معامله پرداخت نشده است",
+      "evidence": {
+        "quote": "تاکنک علی‌رغم مراجعات مکرر نسبت به پرداخت ثمن المعامله یک واحد آپارتمان به مساحت 98/20 متر مربع با پارکینگ و انباری اقدام ننموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "35283",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "برای خریدار این تعهد را ایجاد تا بستر قانونی برای تنظیم سند رسمی را فراهم آورد",
+        "start_char": 1687,
+        "end_char": 1763,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مالکیت رسمی خریدار در درپی ندارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم سندرسمی",
+        "start_char": 94,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فک رهن",
+      "evidence": {
+        "quote": "الزام به فک رهن",
+        "start_char": 220,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه خسارات",
+      "evidence": {
+        "quote": "مطالبه ی خسارات دادرسی",
+        "start_char": 237,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت نموده",
+        "start_char": 415,
+        "end_char": 427,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از خوانده ی نخست خریداری",
+        "start_char": 346,
+        "end_char": 369,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به خواسته ی",
+        "start_char": 80,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده متعهد به فک رهن",
+        "start_char": 488,
+        "end_char": 511,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مرتهن",
+      "evidence": {
+        "quote": "پرداخت تمامی مطالبات مرتهن می باشد",
+        "start_char": 1785,
+        "end_char": 1819,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان به انضمام کلیه متعلقات شرعیه و عرضی به پلاک... بخش...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "بیش از 1392/12/28 برای تسویه حساب وفک رهن و پرداخت بقیه ی ثمن اقدام نماید",
+        "start_char": 854,
+        "end_char": 925,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک در رهن بانک است",
+      "evidence": {
+        "quote": "این ملک دررهن بانک ک. بوده",
+        "start_char": 436,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "باقی‌مانده ثمن معامله پرداخت نشده است",
+      "evidence": {
+        "quote": "تنها بخشی از ثمن معامله به مبلغ 1/525/000/000را پرداخت نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

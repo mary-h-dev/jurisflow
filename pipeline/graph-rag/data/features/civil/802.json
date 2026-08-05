@@ -1,0 +1,122 @@
+{
+  "ruling_id": "802",
+  "concepts": [],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "اقامع دعوی نموده است",
+        "start_char": 228,
+        "end_char": 248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در دادگاه محترم تجدیدنظر می باشد",
+        "start_char": 1008,
+        "end_char": 1052,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "حکم تجدیدنظرخواسته را تأیید می نماید",
+        "start_char": 1864,
+        "end_char": 1900,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم بر بی حقی و رد دعوی مطروحه صادر",
+        "start_char": 912,
+        "end_char": 947,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در این پرونده خواهان خانم م.ک.",
+        "start_char": 0,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای س.الف.",
+        "start_char": 71,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی خانم م.ک.",
+        "start_char": 1146,
+        "end_char": 1176,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "به خواسته حضانت دو فرزند مشترک",
+        "start_char": 133,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فرزندان مشترک",
+      "evidence": {
+        "quote": "دو فرزند مشترک",
+        "start_char": 149,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرزندان از سن طفولیت خارج شده و بالغ هستند",
+      "evidence": {
+        "quote": "خارج از سن طفولیت بوده و هر دو بالغ محسوب می گردند",
+        "start_char": 592,
+        "end_char": 642,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات ادعای خواهان",
+      "evidence": {
+        "quote": "چون خواهان دلیل موجهی بر اثبات ادعایش ارائه ننموده",
+        "start_char": 444,
+        "end_char": 494,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "8002",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه فرزند مشترک",
+        "start_char": 49,
+        "end_char": 72,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکلیف",
+      "evidence": {
+        "quote": "پرداخت نفقه فرزند توسط پدر یک تکلیف شرعی و قانونی است",
+        "start_char": 2266,
+        "end_char": 2319,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اسقاط",
+      "evidence": {
+        "quote": "به واسطه قرارداد فی ما بین قابلیت اسقاط ندارد",
+        "start_char": 2322,
+        "end_char": 2367,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه فرزند مشترک",
+        "start_char": 39,
+        "end_char": 72,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "مشارالیه از پرداخت نفقه فرزند امتناع می نماید",
+        "start_char": 284,
+        "end_char": 329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امضاء",
+      "evidence": {
+        "quote": "صرفاً خودش امضاء نموده است",
+        "start_char": 674,
+        "end_char": 700,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادره دادگاه بدوی را... نقض کرده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "عیناً با استناد ماده 358 قانون آیین دادرسی تأیید می نماید",
+        "start_char": 2943,
+        "end_char": 3000,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی ف.س. به طرفیت آقای الف.د.",
+        "start_char": 0,
+        "end_char": 38,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای الف.د.",
+        "start_char": 18,
+        "end_char": 38,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظر خواهی آقای الف.د.",
+        "start_char": 1967,
+        "end_char": 2001,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "طلاق‌نامه",
+      "evidence": {
+        "quote": "طی طلاق نامه مدرکیه طلاق گرفتم",
+        "start_char": 230,
+        "end_char": 260,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "طی سند رسمی وکالت شماره 18303-6/12/92",
+        "start_char": 401,
+        "end_char": 438,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی صادره ظرف بیست روز",
+        "start_char": 1815,
+        "end_char": 1837,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از پرداخت نفقه امتناع کرده است",
+      "evidence": {
+        "quote": "مشارالیه از پرداخت نفقه فرزند امتناع می نماید",
+        "start_char": 284,
+        "end_char": 329,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ادعا کرده است که نفقه را قبلاً پرداخت کرده است",
+      "evidence": {
+        "quote": "ولی قبل از وکالت نفقه را پرداخت کردم",
+        "start_char": 531,
+        "end_char": 567,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده امضای سند وکالت را انکار کرده است",
+      "evidence": {
+        "quote": "خیر وکالت را من امضاء نکردم",
+        "start_char": 644,
+        "end_char": 671,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

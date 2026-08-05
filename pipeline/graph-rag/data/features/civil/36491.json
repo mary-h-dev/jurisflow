@@ -1,0 +1,223 @@
+{
+  "ruling_id": "36491",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "دادخواست بخواسته فسخ نکاح تقدیم دادگاه می نماید",
+        "start_char": 87,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان ان صادر می گردد",
+        "start_char": 1887,
+        "end_char": 1915,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "و تجدیدنظرخواهی در شعبه *رسیدگی شده",
+        "start_char": 1954,
+        "end_char": 1989,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "تقاضای نقض دادنامه را نموده است",
+        "start_char": 2394,
+        "end_char": 2425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابرام",
+      "evidence": {
+        "quote": "تقاضای ابرام دادنامه را کرده است",
+        "start_char": 2547,
+        "end_char": 2579,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ نکاح",
+      "evidence": {
+        "quote": "دادخواست بخواسته فسخ نکاح تقدیم دادگاه می نماید",
+        "start_char": 87,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "وکیل خواهان به نظریه پزشکی قانونی اعتراض می کند",
+        "start_char": 1641,
+        "end_char": 1688,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بعمل",
+      "evidence": {
+        "quote": "وکیل محترم زوج از دادنامه صادره از دادگاه تجدیدنظر ، فرجامخواهی بعمل اورده",
+        "start_char": 2317,
+        "end_char": 2391,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقاضای نقض",
+      "evidence": {
+        "quote": "تقاضای نقض دادنامه را نموده است",
+        "start_char": 2394,
+        "end_char": 2425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پاسخ",
+      "evidence": {
+        "quote": "وکیل زوجه پاسخ داده",
+        "start_char": 2500,
+        "end_char": 2519,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقاضای",
+      "evidence": {
+        "quote": "تقاضای ابرام دادنامه را کرده است",
+        "start_char": 2547,
+        "end_char": 2579,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان بیان می دارد",
+        "start_char": 402,
+        "end_char": 426,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وکیل خوانده بیان می دارد",
+        "start_char": 461,
+        "end_char": 485,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "وکیل زوج به این رای اعتراض می نماید",
+        "start_char": 1917,
+        "end_char": 1952,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "وکیل زوجه پاسخ داده",
+        "start_char": 2500,
+        "end_char": 2519,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "در خصوص دادنامه شماره *01/4/28 فرجامخواسته مشاوره نموده",
+        "start_char": 2751,
+        "end_char": 2806,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمانخواسته",
+      "evidence": {
+        "quote": "ضمن رد فرمانخواهی و مستندا به ماده 396",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "مطابق دادنامه شماره *01/2/21",
+        "start_char": 1824,
+        "end_char": 1852,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "مشروح لایحه فرجامخواهی",
+        "start_char": 2429,
+        "end_char": 2451,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه به بیماری زگیل تناسلی مبتلا است",
+      "evidence": {
+        "quote": "نامبرده ( زوجه ) در تاریخ 1400/1/10 مبتلا به زگیل تناسلی نبوده است.و لیکن در حال حاضر مبتلا می باشد",
+        "start_char": 921,
+        "end_char": 1020,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بیماری زگیل تناسلی قابل انتقال از طریق رابطه جنسی است",
+      "evidence": {
+        "quote": "این ویروس می تواند در بدن بصورت نهفته باقی بماند و در زمان ضعف سیستم ایمنی پدیدار گردد. همچنین مسری بوده و از طریق رابطه جنسی منتقل می گردد",
+        "start_char": 1066,
+        "end_char": 1205,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

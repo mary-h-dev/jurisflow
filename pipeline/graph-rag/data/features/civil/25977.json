@@ -1,0 +1,153 @@
+{
+  "ruling_id": "25977",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام زوج به تهیه مسکن علیحده",
+        "start_char": 100,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "دعوی تمکین",
+        "start_char": 1221,
+        "end_char": 1231,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "رد گردیده است",
+        "start_char": 345,
+        "end_char": 358,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ردّ تجدیدنظرخواهی",
+        "start_char": 1626,
+        "end_char": 1643,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مظنه خطر برای خواهان بوده",
+        "start_char": 319,
+        "end_char": 344,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده به اتهام توهین وافترا",
+        "start_char": 524,
+        "end_char": 552,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "الزام زوج به تهیه مسکن علیحده",
+        "start_char": 100,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به تهیه مسکن علیحده برای زوجه ملزم شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "برای زوجه صادر و اعلام می نماید",
+        "start_char": 809,
+        "end_char": 840,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "تهیه مسکن علیحده",
+        "start_char": 113,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "فتوکپی مصدق دادنامه شماره 912",
+        "start_char": 179,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج به اتهام ضرب وجرح عمدی محکوم شده است",
+      "evidence": {
+        "quote": "محکومیت زوج به اتهام ایراد ضرب وجرح عمدی نسبت به زوجه می باشد",
+        "start_char": 446,
+        "end_char": 507,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به اتهام توهین و افترا محکوم شده است",
+      "evidence": {
+        "quote": "محکومیت خوانده به اتهام توهین وافترا",
+        "start_char": 516,
+        "end_char": 552,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوی تمکین قبلاً رد شده است",
+      "evidence": {
+        "quote": "دعوی تمکین به استناد دادنامه 912 مورخه 1393/06/29 با در نظر گرفتن محکومیتهای کیفری تجدید نظرخواه رد شده است",
+        "start_char": 1221,
+        "end_char": 1328,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "30370",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "بخواسته خلع ید خواندگان",
+        "start_char": 69,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "ما از حق حبس استفاده کرده ام",
+        "start_char": 714,
+        "end_char": 742,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انجام تعهد",
+      "evidence": {
+        "quote": "بابت خسارت عدم انجام تعهد",
+        "start_char": 253,
+        "end_char": 278,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت دادرسی",
+      "evidence": {
+        "quote": "بانضمام خسارت دادرسی",
+        "start_char": 279,
+        "end_char": 299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تاخیر",
+      "evidence": {
+        "quote": "بابت خسارت تاخیر در تحویل مبیع",
+        "start_char": 1231,
+        "end_char": 1261,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خسارت تاخیر در تحویل مبیع صادر اعلام می شود",
+        "start_char": 2901,
+        "end_char": 2959,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه مبلغ یکصد و چهل و شش میلیون ریال",
+        "start_char": 211,
+        "end_char": 252,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض نموده",
+        "start_char": 2761,
+        "end_char": 2795,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مالکیت خواهان را نسبت به شش دانگ اپارتمان موضوع خواسته تایید نموده است",
+        "start_char": 487,
+        "end_char": 557,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "بخواسته خلع ید خواندگان",
+        "start_char": 69,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "واحد",
+      "evidence": {
+        "quote": "یک واحد اپارتمان تحت پلاک ثبتی 1376",
+        "start_char": 103,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "خسارت تاخیر در تحویل مبیع",
+        "start_char": 1236,
+        "end_char": 1261,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "مبتنی بر رابطه قراردادی و مبایعه نامه عادی می باشد",
+        "start_char": 2041,
+        "end_char": 2089,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت خواهان بر ملک تایید شده است",
+      "evidence": {
+        "quote": "مالکیت خواهان نسبت به ملک موضوع خواسته و تصرف خواندگان برای دادگاه محرز بوده",
+        "start_char": 916,
+        "end_char": 992,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوی خلع ید فاقد منشاء قراردادی نیست",
+      "evidence": {
+        "quote": "در دعوی مطرحه که مبتنی بر رابطه قراردادی و مبایعه نامه عادی می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "29305",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "داوری",
+      "evidence": {
+        "quote": "از طریق داوری رفع گردد",
+        "start_char": 448,
+        "end_char": 470,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "حکم به ابطال رای داوری",
+        "start_char": 2164,
+        "end_char": 2186,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه خسارت دادرسی",
+        "start_char": 209,
+        "end_char": 230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تعیین",
+      "evidence": {
+        "quote": "اقدام به تعیین داور نموده",
+        "start_char": 619,
+        "end_char": 644,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه معترض عنه",
+        "start_char": 3140,
+        "end_char": 3164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد دادخواست ابطال رای داوری",
+        "start_char": 3206,
+        "end_char": 3238,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان مدعی است",
+        "start_char": 270,
+        "end_char": 290,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و خوانده اقدام به انقعاد قراردادمشارکت",
+        "start_char": 304,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "مشاور املاک به عنوان داور مرضی الطرفین انتخاب گردد",
+        "start_char": 526,
+        "end_char": 576,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت در ساخت",
+      "evidence": {
+        "quote": "موضوع قرارداد مشارکت در ساخت",
+        "start_char": 91,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "ابطال رای داور",
+        "start_char": 76,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 940098",
+        "start_char": 2410,
+        "end_char": 2438,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "داور خارج از حدود اختیارات عمل کرده است",
+      "evidence": {
+        "quote": "داور خارج از حدود اختیارات و موارد تعیین شده از ناحیه متعاقدین اقدام به اظهار نظر و داوری نموده",
+        "start_char": 1070,
+        "end_char": 1165,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادخواست ابطال رای داوری خارج از مهلت قانونی تقدیم شده است",
+      "evidence": {
+        "quote": "دادخواست ابطال رای داوری خارج از مهلت موضوع ماده 490 قانون سابق الذکر می باشد",
+        "start_char": 3014,
+        "end_char": 3091,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

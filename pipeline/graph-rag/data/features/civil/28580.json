@@ -1,0 +1,193 @@
+{
+  "ruling_id": "28580",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تقسیم ترکه",
+      "evidence": {
+        "quote": "به خواسته تقسیم ترکه",
+        "start_char": 115,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مالکیت متوفیه نسبت به پلاک ثبتی موصوف",
+        "start_char": 455,
+        "end_char": 492,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلح",
+      "evidence": {
+        "quote": "اقدام به صلح قطعی 55 سهم از یکصد سهم ششدانگ",
+        "start_char": 2357,
+        "end_char": 2400,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "درخواست فروش آن",
+        "start_char": 205,
+        "end_char": 220,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقسیم",
+      "evidence": {
+        "quote": "تقسیم بهای آن بین ورثه",
+        "start_char": 952,
+        "end_char": 974,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "قابل واخواهی در این دادگاه می باشد",
+        "start_char": 1061,
+        "end_char": 1095,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "دعوی فروش را مسترد ننمودند",
+        "start_char": 1567,
+        "end_char": 1593,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواه را نقض",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "ورثه",
+      "evidence": {
+        "quote": "همگی ورثه مرحومه خ. م.الف",
+        "start_char": 89,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخواست خواهان ها",
+        "start_char": 570,
+        "end_char": 587,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خواندگان با ابلاغ قانونی",
+        "start_char": 663,
+        "end_char": 687,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه را وارد تشخیص",
+        "start_char": 5282,
+        "end_char": 5308,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "حکم به فروش ملک موصوف",
+        "start_char": 873,
+        "end_char": 894,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی... بخش 10 تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "صلح‌نامه",
+      "evidence": {
+        "quote": "به صلحنامه ( صورت جلسه صلحنامه عادی مورخه 1391/10/4 )",
+        "start_char": 2239,
+        "end_char": 2292,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فوت مرحومه و انحصاری بودن وراثت",
+      "evidence": {
+        "quote": "فوت مرحومه مذکور و اینکه طرفین دعوا ورثه انحصاری وی هستند",
+        "start_char": 291,
+        "end_char": 348,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم حضور خواندگان در جلسه رسیدگی",
+      "evidence": {
+        "quote": "خواندگان با ابلاغ قانونی در جلسه رسیدگی مذکور حضور نیافتند",
+        "start_char": 663,
+        "end_char": 721,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تغییر خواسته از تقسیم به فروش",
+      "evidence": {
+        "quote": "در اولین جلسه رسیدگی خواسته را تغییر داده و اعلام نمودند که خواسته آنان حکم به فروش... است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

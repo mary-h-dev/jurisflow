@@ -1,0 +1,133 @@
+{
+  "ruling_id": "30423",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "تدلیس از ناحیه فروشنده",
+        "start_char": 527,
+        "end_char": 549,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تنها اختیار فسخ معامله را دارد",
+        "start_char": 591,
+        "end_char": 621,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م. م.",
+        "start_char": 928,
+        "end_char": 952,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "تائید می نماید",
+        "start_char": 1561,
+        "end_char": 1575,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خلاصه اظهارات خواهان این است",
+        "start_char": 213,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده به تحویل",
+        "start_char": 63,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی تجدیدنظرخواه",
+        "start_char": 1064,
+        "end_char": 1097,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخوانده به تعدیل",
+        "start_char": 1123,
+        "end_char": 1154,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "مبایعه نامه شماره 1071010274101",
+        "start_char": 106,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "تحویل ثمن معامله",
+        "start_char": 81,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "خوانده یک واحد آپارتمان با قدمیت 14 سال به من فروخته است",
+        "start_char": 242,
+        "end_char": 298,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "سال ساخت ملک با آنچه در قرارداد ذکر شده متفاوت است",
+      "evidence": {
+        "quote": "بعدا کاشف به عمل آمده سال ملک مورد معامله 21 سال ساخت است",
+        "start_char": 334,
+        "end_char": 391,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

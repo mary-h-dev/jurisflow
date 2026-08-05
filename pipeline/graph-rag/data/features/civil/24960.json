@@ -1,0 +1,183 @@
+{
+  "ruling_id": "24960",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان قرارداد",
+      "evidence": {
+        "quote": "به لحاظ عقیم بودن زوج",
+        "start_char": 68,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "تحقق شرایط ضمن عقد",
+        "start_char": 302,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی صادر گردیده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امکان سازش",
+      "evidence": {
+        "quote": "تقاضای صدور گواهی عدم امکان سازش",
+        "start_char": 35,
+        "end_char": 67,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "وکیل زوج به این رأی اعتراض می نماید",
+        "start_char": 2363,
+        "end_char": 2398,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "تقاضای نقض رأی را دارم",
+        "start_char": 2533,
+        "end_char": 2555,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "تقاضای صدور گواهی عدم امکان سازش به لحاظ عقیم بودن زوج تقدیم که در تاریخ 93/6/24 به شعبه یازدهم عمومی خانواده کرج ارجاع می گردد. خواهان اظهار داشته",
+        "start_char": 35,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به عقد نکاح دائم خوانده محترم درآمده",
+        "start_char": 200,
+        "end_char": 236,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "وکیل زوج در لایحه دفاعی خود آورده است",
+        "start_char": 390,
+        "end_char": 427,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه در این مدت مشغول تحصیل بوده است",
+        "start_char": 596,
+        "end_char": 632,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "آقای ف.الف. ن. داور زوجه در نظریه کتبی خود نوشته است",
+        "start_char": 1282,
+        "end_char": 1334,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "زوجه چهار ده سکه از مهریه خود",
+        "start_char": 1757,
+        "end_char": 1786,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "و نفقه معوقه را در قبال طلاق بذل می نماید",
+        "start_char": 1787,
+        "end_char": 1828,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "ملاک تحقق شرط عدم توانائی در فرزند دار شدن زوج بوده که در نظریه پزشکی قانونی این توانائی منتفی اعلام نگردیده است و اختصاص یافتن شرط مذکور با اطلاق شرط و مفاد آن مبانیت دارد",
+        "start_char": 3197,
+        "end_char": 3369,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تولد فرزند پس از هشت سال ازدواج",
+      "evidence": {
+        "quote": "با وصف گذشت هشت سال صاحب فرزندی نشده است",
+        "start_char": 239,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "توافق زوجین برای عدم بارداری",
+      "evidence": {
+        "quote": "با توافق هم بچه دار نشده اند",
+        "start_char": 566,
+        "end_char": 594,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "امکان باروری به روش آزمایشگاهی وجود دارد",
+      "evidence": {
+        "quote": "امکان باروری به روش های آزمایشگاهی وجود دارد",
+        "start_char": 1173,
+        "end_char": 1217,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

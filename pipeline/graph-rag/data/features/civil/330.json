@@ -1,0 +1,163 @@
+{
+  "ruling_id": "330",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "صدور حکم به خلع ید",
+        "start_char": 107,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "تماماً در تصرف عدوانی خواندگان است",
+        "start_char": 438,
+        "end_char": 472,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "دلیلی بر غصب مغازه ارائه نشده",
+        "start_char": 1971,
+        "end_char": 2000,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم",
+        "start_char": 97,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل شده است",
+        "start_char": 1860,
+        "end_char": 1885,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترضٌ عنه نقض",
+        "start_char": 2205,
+        "end_char": 2227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی نخستین صادر می گردد",
+        "start_char": 2230,
+        "end_char": 2264,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "صدور حکم به خلع ید خواندگان",
+        "start_char": 107,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مورث",
+      "evidence": {
+        "quote": "مورث طرفین مرحوم الف.ع.",
+        "start_char": 276,
+        "end_char": 299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "حکم به خلع ید معترض و الف.ع.",
+        "start_char": 1520,
+        "end_char": 1548,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "یک باب",
+      "evidence": {
+        "quote": "سرقفلی یک باب مغازه تجاری با زیر زمین آن جزء پلاک ثبتی 1605 بخش 8 تهران",
+        "start_char": 138,
+        "end_char": 209,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره نامه",
+      "evidence": {
+        "quote": "موضوع سند اجاره نامه رسمی به شماره 49206-27/4/37 دفترخانه شماره 63 اسناد رسمی تهران",
+        "start_char": 340,
+        "end_char": 423,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سرقفلی",
+      "evidence": {
+        "quote": "حق سرقفلی فاقد خصیصه مذکور است",
+        "start_char": 2113,
+        "end_char": 2143,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مرور مرحوم الف.ع. در سال ۷۹",
+      "evidence": {
+        "quote": "مورث طرفین مرحوم الف.ع. در تاریخ 24/2/79 فوت نموده",
+        "start_char": 276,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مغازه در اختیار معترض بوده است",
+      "evidence": {
+        "quote": "حداقل از زمان فوت مرحوم الف.م. (24/2/1379) تا زمان طرح دادخواست مغازه در اختیار معترض بوده",
+        "start_char": 1725,
+        "end_char": 1815,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

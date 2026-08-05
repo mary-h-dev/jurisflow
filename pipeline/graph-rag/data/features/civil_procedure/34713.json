@@ -1,0 +1,102 @@
+{
+  "ruling_id": "34713",
+  "concepts": [],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "دادخواست اعتراض به رأی کمیسیون ماده 12 قانون زمین شهری تقدیم نموده",
+        "start_char": 72,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "وکیل خواهان نسبت به این رأی فرجامخواهی نموده",
+        "start_char": 585,
+        "end_char": 629,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "رد می شود",
+        "start_char": 1422,
+        "end_char": 1431,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکم بر بی حقی خواهان صادر نموده",
+        "start_char": 543,
+        "end_char": 574,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "به طرفیت اداره راه و شهرسازی بندرلنگه",
+        "start_char": 34,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "اعتراض به رأی کمیسیون ماده 12 قانون زمین شهری",
+        "start_char": 81,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "زمین مورد دعوی راموات اعلام کرده است",
+        "start_char": 380,
+        "end_char": 416,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رأی کمیسیون ماده 12 موضوع اعتراض است",
+      "evidence": {
+        "quote": "اعتراض به آنها و اصولاً هر نوع تصمیمات کمیسیونهای شبه قضائی و آراء محاکم عمومی درخصوص اعتراض به آنها قابلیت فرجامخواهی ندارد",
+        "start_char": 1248,
+        "end_char": 1372,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زمین مورد دعوی مساحت 309/37 مترمربع است",
+      "evidence": {
+        "quote": "زمین مورد دعوی راموات اعلام کرده است (مساحت 309/37 مترمربع )",
+        "start_char": 380,
+        "end_char": 440,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "ruling_id": "35765",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بزهکاری",
+      "evidence": {
+        "quote": "بزهکاری آنان را احراز کرده",
+        "start_char": 2315,
+        "end_char": 2341,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "اقراری که طبق ماده 16 قانون مجازات اسلامی موضوعیت دارد",
+        "start_char": 3608,
+        "end_char": 3662,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خرید",
+      "evidence": {
+        "quote": "به اتهام خرید تعداد 20 قبضه سلاح شکاری",
+        "start_char": 18,
+        "end_char": 56,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "در امر خرید و فروش سلاح به صورت انبوه فعالیت دارند",
+        "start_char": 183,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دستگیر",
+      "evidence": {
+        "quote": "متهم ردیف دوم دستگیر",
+        "start_char": 336,
+        "end_char": 356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرار",
+      "evidence": {
+        "quote": "ردیف اول از صحنه فرار می کند",
+        "start_char": 359,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "معرفی",
+      "evidence": {
+        "quote": "خود را به ستاد خبری سپاه... معرفی کرده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "طبق بند پ ماده 433 قانون آئین دادرسی کیفری به علت تعلیق کل یا بعض مجازات متهمان به دادنامه اعتراض کرده است",
+        "start_char": 2817,
+        "end_char": 2923,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "لذا دادنامه فرجام خواسته را به استناد بند ب ماده 469قانون آئین دادرسی کیفری نقض و رسیدگی به شعبه دیگر دادگاه کیفری یک... محول می شود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم ردیف اول",
+        "start_char": 617,
+        "end_char": 630,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واسطه",
+      "evidence": {
+        "quote": "من واسطه شدم",
+        "start_char": 530,
+        "end_char": 542,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "ر. و س. خریدار اسلحه بودند",
+        "start_char": 503,
+        "end_char": 529,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل مدافع از وی دفاع کرده",
+        "start_char": 2167,
+        "end_char": 2193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "با حضور نماینده دادستان",
+        "start_char": 1274,
+        "end_char": 1297,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سلاح شکاری",
+      "evidence": {
+        "quote": "تعداد 20 قبضه سلاح شکاری تک لول",
+        "start_char": 416,
+        "end_char": 447,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "از داخل خودروی پرشیا",
+        "start_char": 391,
+        "end_char": 411,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به دادنامه اعتراض کرده است",
+        "start_char": 2897,
+        "end_char": 2923,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "کشف سلاح از خودروی پرشیا",
+      "evidence": {
+        "quote": "از داخل خودروی پرشیا... تعداد 20 قبضه سلاح شکاری تک لول با مارک federal usa کشف می شود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم ردیف اول متواری شده بود",
+      "evidence": {
+        "quote": "متهم ردیف اول که در تاریخ 94/4/12 متواری شده بود",
+        "start_char": 617,
+        "end_char": 665,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

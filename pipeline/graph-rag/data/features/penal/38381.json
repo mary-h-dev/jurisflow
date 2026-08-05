@@ -1,0 +1,123 @@
+{
+  "ruling_id": "38381",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی",
+        "start_char": 238,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زیان",
+      "evidence": {
+        "quote": "مطالبه ضرر و زیان",
+        "start_char": 251,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارات و غرامات",
+        "start_char": 733,
+        "end_char": 755,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی",
+        "start_char": 0,
+        "end_char": 21,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "قابل مطالبه اعلام کرده است",
+        "start_char": 940,
+        "end_char": 966,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "این قسمت از رای نقض می شود",
+        "start_char": 1041,
+        "end_char": 1067,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "به طرفیت تجدید نظر خواندگان",
+        "start_char": 281,
+        "end_char": 308,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "و محکوم علیه دادنامه شماره 228",
+        "start_char": 580,
+        "end_char": 610,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 0607",
+        "start_char": 146,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "محتویات پرونده و مفاد لایحه تجدیدنظرخواهی",
+        "start_char": 449,
+        "end_char": 490,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "درخواست رد دعوی در مرحله نخست",
+      "evidence": {
+        "quote": "قرار رد دعوی مطالبه ضرر و زیان ناشی از جرم",
+        "start_char": 238,
+        "end_char": 280,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

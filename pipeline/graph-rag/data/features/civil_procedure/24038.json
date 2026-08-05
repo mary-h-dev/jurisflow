@@ -1,0 +1,103 @@
+{
+  "ruling_id": "24038",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "احرازوقوع عقد بیع",
+        "start_char": 212,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بربطلان دعوی",
+        "start_char": 175,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی",
+        "start_char": 0,
+        "end_char": 20,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رامستحق نقض دانسته",
+        "start_char": 451,
+        "end_char": 469,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر",
+      "evidence": {
+        "quote": "قراررد دعوی خواهان بدوی راصادر واعلام می نماید",
+        "start_char": 541,
+        "end_char": 587,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "دعوی تجدیدنظرخواه",
+        "start_char": 187,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان بدوی",
+        "start_char": 350,
+        "end_char": 366,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین",
+        "start_char": 230,
+        "end_char": 242,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دعوی خواهان اصولاً غیرترافعی و غیرقابل استماع است",
+      "evidence": {
+        "quote": "دعوی خواهان بدوی به شرح مذکور را اصولاً غیرترافعی وغیرقابل استماع تشخیص می دهد",
+        "start_char": 350,
+        "end_char": 428,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

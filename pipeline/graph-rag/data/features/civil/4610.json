@@ -1,0 +1,133 @@
+{
+  "ruling_id": "4610",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "صدور حکم بر ابطال شناسنامه",
+        "start_char": 72,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم تجدیدنظر استان می باشد",
+        "start_char": 1028,
+        "end_char": 1084,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "صدور شناسنامه جدید",
+        "start_char": 122,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحقیق",
+      "evidence": {
+        "quote": "تحقیق از گواهان",
+        "start_char": 251,
+        "end_char": 266,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "رد اعتراض دادنامه تجدیدنظرخواه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "استماع اظهارات خواهان",
+        "start_char": 227,
+        "end_char": 248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "لایحه ابرازی اداره محترم خوانده",
+        "start_char": 289,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی اداره ثبت احوال منطقه مرکز تهران",
+        "start_char": 1143,
+        "end_char": 1189,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "ابطال شناسنامه شماره 695515 ـ اف 78",
+        "start_char": 84,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "صدور شناسنامه جدید",
+        "start_char": 122,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تاریخ تولد واقعی خواهان با گواهان اثبات شده است",
+      "evidence": {
+        "quote": "مؤدای گواهی گواهان مورد تعرفه خواهان که با رعایت مقررات قانونی آیین دادرسی مدنی از آنان تحقیق شده است، بر صحت ادعای خواهان و تارخ تولد واقعی وی دلالت دارد",
+        "start_char": 361,
+        "end_char": 515,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پدر خواهان در سال 1349 اقدام به تغییر تاریخ تولد کرده بود",
+      "evidence": {
+        "quote": "اقدام پدر خواهان درتغییر تاریخ تولد وی در سال 1349",
+        "start_char": 668,
+        "end_char": 718,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

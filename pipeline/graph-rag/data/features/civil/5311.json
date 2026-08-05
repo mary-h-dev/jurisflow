@@ -1,0 +1,163 @@
+{
+  "ruling_id": "5311",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "علقه زوجیت فی مابین طرفین برای دادگاه محرز و مسلم است",
+        "start_char": 215,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "یکی از آن وظایف تمکین زوجه از زوج است",
+        "start_char": 368,
+        "end_char": 405,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ناشزه",
+      "evidence": {
+        "quote": "در غیر این صورت ناشزه تلقی",
+        "start_char": 836,
+        "end_char": 862,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "مدت 5 ماه که از زوج تمکین خاص ندارد",
+        "start_char": 598,
+        "end_char": 633,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دانستن اعتراض",
+      "evidence": {
+        "quote": "دادگاه ضمن وارد دانستن اعتراض معترض",
+        "start_char": 1449,
+        "end_char": 1484,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "آن را نقض",
+        "start_char": 1641,
+        "end_char": 1650,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی زوج صادر",
+        "start_char": 1653,
+        "end_char": 1677,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 84,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از زوج تمکین خاص ندارد",
+        "start_char": 611,
+        "end_char": 633,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تمکین زوجه از زوج است",
+        "start_char": 384,
+        "end_char": 405,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم م.ش.",
+        "start_char": 1069,
+        "end_char": 1092,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "اعتراض معترض",
+        "start_char": 1472,
+        "end_char": 1484,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 1156",
+        "start_char": 1093,
+        "end_char": 1114,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "علقه زوجیت فی مابین طرفین برای دادگاه محرز و مسلم است",
+        "start_char": 215,
+        "end_char": 268,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه ۵ ماه است که تمکین نکرده است",
+      "evidence": {
+        "quote": "مدت 5 ماه که از زوج تمکین خاص ندارد",
+        "start_char": 598,
+        "end_char": 633,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

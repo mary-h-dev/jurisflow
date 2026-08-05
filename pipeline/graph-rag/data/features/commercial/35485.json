@@ -1,0 +1,173 @@
+{
+  "ruling_id": "35485",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "صدورحکم ورشکستگی",
+        "start_char": 71,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظر خواهی",
+        "start_char": 462,
+        "end_char": 481,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدورحکم ورشکستگی",
+        "start_char": 71,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قراررد دعوای ور شکستگی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدید نظر خواهی ع. ن.",
+        "start_char": 589,
+        "end_char": 610,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "تائید می نماید",
+        "start_char": 1482,
+        "end_char": 1496,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "بطرفیت دادستان دادگاههای عمومی وانقلاب تهران",
+        "start_char": 18,
+        "end_char": 62,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تاجر",
+      "evidence": {
+        "quote": "تاجر مکلف است",
+        "start_char": 132,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخواست خواهان",
+        "start_char": 259,
+        "end_char": 273,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "دادگاه اعتراض معترض را وارد ندانسته",
+        "start_char": 803,
+        "end_char": 838,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظر خواه در این مرحله",
+        "start_char": 978,
+        "end_char": 1005,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال و دارایی",
+      "evidence": {
+        "quote": "وقفه صورتحساب دارائی",
+        "start_char": 165,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دفاتر",
+      "evidence": {
+        "quote": "کلیه دفاتر تجارتی",
+        "start_char": 222,
+        "end_char": 239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره 123",
+        "start_char": 665,
+        "end_char": 682,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "درخواست خواهان فاقد شرایط قانونی برای صدور حکم ورشکستگی است",
+      "evidence": {
+        "quote": "درخواست خواهان فاقد شرایط صورتحساب دارائی ماده 414 قانون تجارت میباشد",
+        "start_char": 259,
+        "end_char": 328,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدید نظر خواه مدرک یا دلیلی برای نقض دادنامه ارائه نکرده است",
+      "evidence": {
+        "quote": "تجدید نظر خواه در این مرحله از رسیدگی دلیل یا مدرک قانع کننده و محکمه پسندی که نقض و بی اعتباری دادنامه معترض عنه را ایجاب نماید ابراز ننموده",
+        "start_char": 978,
+        "end_char": 1119,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

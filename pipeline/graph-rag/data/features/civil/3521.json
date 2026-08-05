@@ -1,0 +1,213 @@
+{
+  "ruling_id": "3521",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "حق طلاق برای زوج در نظر گرفته شده است",
+        "start_char": 2286,
+        "end_char": 2323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "و اینکه شرطی در سایر شرایط آمده است",
+        "start_char": 2036,
+        "end_char": 2071,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نحله",
+      "evidence": {
+        "quote": "میزان نحله تعیین شده مناسب با زمان زندگی زن و شوهر نمی باشد",
+        "start_char": 2971,
+        "end_char": 3030,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "تسلیم دادگستری مشهد نموده",
+        "start_char": 117,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دعوت",
+      "evidence": {
+        "quote": "دادگاه طرفین را دعوت نموده است",
+        "start_char": 190,
+        "end_char": 220,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عزل",
+      "evidence": {
+        "quote": "زوجه یکی از وکلای خود را عزل کرد",
+        "start_char": 1407,
+        "end_char": 1439,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "از این رأی توسط وکیل زوجه تجدیدنظرخواهی شد",
+        "start_char": 2134,
+        "end_char": 2176,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "طی دادخواست های جداگانه فرجام خواهی شد",
+        "start_char": 3418,
+        "end_char": 3456,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأي فرجام خواسته را نقض و رسیدگی به شعبه دیگر محول می‌گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان و وکیل وی حاضر شدند",
+        "start_char": 289,
+        "end_char": 315,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "ولی خوانده و وکیل وی حاضر نشده اند",
+        "start_char": 316,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به علت سوء رفتار و اخلاق زوجه، زوج قصد دارد او را مطلقه کند",
+        "start_char": 445,
+        "end_char": 504,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه حاضر به طلاق نیست",
+        "start_char": 695,
+        "end_char": 717,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "طرفین داور معرفی کردند",
+        "start_char": 790,
+        "end_char": 812,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه زوجه 14 شاخه گل نرگس و یک سفر زیارتی حج می باشد",
+        "start_char": 506,
+        "end_char": 559,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "در مانحن فیه تجدیدنظر خوانده این حق را در سند ازدواج محدود نموده است",
+        "start_char": 2417,
+        "end_char": 2485,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "اموال غیرمنقول را خریداری شده قبل از ازدواج اعلام نموده",
+        "start_char": 1166,
+        "end_char": 1221,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین یک سال است از هم جدا زندگی می‌کنند",
+      "evidence": {
+        "quote": "مدت یک سال است جدا از هم زندگی می کنند",
+        "start_char": 406,
+        "end_char": 444,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "یک بار اجازه طلاق توافقی را گرفتند ولی عمل نکردند",
+      "evidence": {
+        "quote": "یک بار اجازه طلاق توافقی را گرفتند ولی عمل نکردند",
+        "start_char": 588,
+        "end_char": 637,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج اموال را به صورت صوری به نام مادرش کرده است",
+      "evidence": {
+        "quote": "آپارتمان تهران که وجوه آن را زوج پرداخته به صورت صوری بنام دیگری برای فرار از دین بنام مادرش شده است",
+        "start_char": 2792,
+        "end_char": 2892,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "ruling_id": "4915",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "موت",
+      "evidence": {
+        "quote": "صدور حکم موت فرضی",
+        "start_char": 127,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع آن صادر می‌گردد",
+        "start_char": 508,
+        "end_char": 539,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ها م. و ف. و آقای ر.",
+        "start_char": 703,
+        "end_char": 742,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته تأیید می‌گردد",
+        "start_char": 1623,
+        "end_char": 1660,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "تجدیدنظر خواهان ها",
+        "start_char": 1361,
+        "end_char": 1379,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده ردیف اول",
+        "start_char": 941,
+        "end_char": 965,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 86-14/2/92 شعبه 49 دادگاه عمومی تهران",
+        "start_char": 827,
+        "end_char": 878,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "سن غائب کمتر از 75 سال است",
+      "evidence": {
+        "quote": "سن مشارٌالیه کمتر از 75 سال است",
+        "start_char": 188,
+        "end_char": 219,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "غیبت 26 ساله",
+      "evidence": {
+        "quote": "صرف غیبت 26 ساله",
+        "start_char": 1456,
+        "end_char": 1472,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

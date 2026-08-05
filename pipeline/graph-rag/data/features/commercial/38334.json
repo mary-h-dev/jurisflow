@@ -1,0 +1,123 @@
+{
+  "ruling_id": "38334",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "اعلان ورشکستگی",
+        "start_char": 84,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض به حکم ورشکستگی",
+        "start_char": 862,
+        "end_char": 884,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "اعتراض ثالث",
+        "start_char": 1422,
+        "end_char": 1433,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه مبحوث عنه را نقض نموده",
+        "start_char": 1906,
+        "end_char": 1936,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر",
+      "evidence": {
+        "quote": "قرار عدم استماع اعتراض ثالث صادر",
+        "start_char": 1979,
+        "end_char": 2011,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تاجر",
+      "evidence": {
+        "quote": "با تاجر ورشکسته معاملات تجاری داشته اند",
+        "start_char": 1034,
+        "end_char": 1073,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره",
+        "start_char": 21,
+        "end_char": 42,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حکم",
+      "evidence": {
+        "quote": "صدور این حکم",
+        "start_char": 910,
+        "end_char": 922,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "معاملات",
+      "evidence": {
+        "quote": "معاملات تجاری داشته اند",
+        "start_char": 1050,
+        "end_char": 1073,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مهلت اعتراض سپری شده است",
+      "evidence": {
+        "quote": "پس از انقضای مهلت اعتراض",
+        "start_char": 1282,
+        "end_char": 1306,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اعتراض ثالث مطرح شده است",
+      "evidence": {
+        "quote": "طرح دعوی تحت عنوان اعتراض ثالث",
+        "start_char": 1403,
+        "end_char": 1433,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

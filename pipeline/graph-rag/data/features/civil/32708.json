@@ -1,0 +1,143 @@
+{
+  "ruling_id": "32708",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "ثالثاً اصل بر برائت است",
+        "start_char": 604,
+        "end_char": 627,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "ظاهر عدم تبرع است",
+        "start_char": 1109,
+        "end_char": 1126,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مرور زمان",
+      "evidence": {
+        "quote": "مشمول مرور زمان نمی گردد",
+        "start_char": 1644,
+        "end_char": 1668,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "اکنون الباقی طلبم را خواستارم",
+        "start_char": 378,
+        "end_char": 407,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "بموجب یک فقره چک بین بانکی مبلغ یکصد میلیون ریال به حساب خوانده واریز نمودم",
+        "start_char": 249,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مسترد",
+      "evidence": {
+        "quote": "مبلغ 50 میلیون ریال آنرا به من مسترد نموده",
+        "start_char": 333,
+        "end_char": 375,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه معترض عنه راعینا\" تأیید مینماید",
+        "start_char": 3035,
+        "end_char": 3074,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بموجب پرینت حساب ارائه شده از سوی خواهان",
+        "start_char": 954,
+        "end_char": 994,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مبلغ یکصد میلیون ریال به حساب خوانده واریز نمودم",
+        "start_char": 276,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "بموجب یک فقره چک بین بانکی",
+        "start_char": 249,
+        "end_char": 275,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "بموجب یک فقره چک بین بانکی مبلغ یکصد میلیون ریال به حساب خوانده واریز نمودم و ایشان مبلغ 50 میلیون ریال آنرا به من مسترد نموده و اکنون الباقی طلبم را خواستارم",
+        "start_char": 249,
+        "end_char": 407,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واریز مبلغ یکصد میلیون ریال به حساب خوانده در سال ۱۳۸۸",
+      "evidence": {
+        "quote": "مبلغ یکصد میلیون ریال به حساب خوانده در تاریخ 88/8/9 توسط چک بین بانکی واریز شده است",
+        "start_char": 995,
+        "end_char": 1079,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "استرداد بخشی از مبلغ توسط خوانده",
+      "evidence": {
+        "quote": "ایشان مبلغ 50 میلیون ریال آنرا به من مسترد نموده",
+        "start_char": 327,
+        "end_char": 375,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

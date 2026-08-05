@@ -1,0 +1,253 @@
+{
+  "ruling_id": "36431",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "سرقت",
+      "evidence": {
+        "quote": "تحت عنوان ادم ربایی و ضرب و جرح و سرقت و شروع به قتل",
+        "start_char": 1416,
+        "end_char": 1468,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قتل",
+      "evidence": {
+        "quote": "تحت عنوان ادم ربایی و ضرب و جرح و سرقت و شروع به قتل",
+        "start_char": 1416,
+        "end_char": 1468,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانونی",
+      "evidence": {
+        "quote": "به اتهام توقیف غیر قانونی",
+        "start_char": 1910,
+        "end_char": 1935,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "منع تعقیب",
+      "evidence": {
+        "quote": "پس از رسیدگی در شعبه 3 بازپرسی منع تعقیب صادر کرده است",
+        "start_char": 1509,
+        "end_char": 1563,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت خویش را به اعتبار و شایستگی محاکم محترم تجدیدنظر صادر و اعلام می دارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "شکایت",
+      "evidence": {
+        "quote": "اقای ق. ح. ا. شکایت کرده است",
+        "start_char": 21,
+        "end_char": 49,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "سرقت",
+      "evidence": {
+        "quote": "صد و پنجاه هزار تومان پول نقد و گوشی و دفترچه تلفن و ماشین اردی که از خریداری کرده بودیم به سرقت بردند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اقای ق. ح. ا. با ارسال لایحه ای از زندان به قرار منع تعقیب اعتراض کرده است",
+        "start_char": 1581,
+        "end_char": 1655,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم و",
+      "evidence": {
+        "quote": "اقای س. س. را به تحمل 6 ماه حبس تعزیری و اقایان م. ش. و م. ش. را هر یک به پرداخت 5 میلیون ریال جزای نقدی به شرح دادنامه شماره *– 97/12/8 محکوم کرده است",
+        "start_char": 1986,
+        "end_char": 2137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تعقیب",
+      "evidence": {
+        "quote": "پس از رسیدگی در شعبه 3 بازپرسی منع تعقیب صادر کرده است",
+        "start_char": 1509,
+        "end_char": 1563,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام خواهی",
+      "evidence": {
+        "quote": "اقای ق. ح. ا. نسبت به دادنامه شماره *– 98/7/24 شعبه *فرمان خواهی کرده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "اقای ق. ح. ا. شکایت کرده است",
+        "start_char": 21,
+        "end_char": 49,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهمین",
+      "evidence": {
+        "quote": "اقدام به سرقت دستگاه فاکس و پرینتر و اسکنر و کپی سه کاره و دستگاه تلفن بی سیم و غیره کرده اند",
+        "start_char": 1002,
+        "end_char": 1095,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "علیه متهم گفته است",
+        "start_char": 920,
+        "end_char": 938,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پول",
+      "evidence": {
+        "quote": "صد و پنجاه هزار تومان پول نقد",
+        "start_char": 241,
+        "end_char": 270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گوشی",
+      "evidence": {
+        "quote": "گوشی و دفترچه تلفن و ماشین اردی",
+        "start_char": 273,
+        "end_char": 304,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ماشین",
+      "evidence": {
+        "quote": "گوشی و دفترچه تلفن و ماشین اردی",
+        "start_char": 273,
+        "end_char": 304,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چک بانک صادرات گرفتم",
+        "start_char": 802,
+        "end_char": 822,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "اقدام به سرقت دستگاه فاکس و پرینتر و اسکنر و کپی سه کاره",
+        "start_char": 1002,
+        "end_char": 1058,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کپی",
+      "evidence": {
+        "quote": "اقدام به سرقت دستگاه فاکس و پرینتر و اسکنر و کپی سه کاره",
+        "start_char": 1002,
+        "end_char": 1058,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بی سیم",
+      "evidence": {
+        "quote": "و دستگاه تلفن بی سیم و غیره کرده اند",
+        "start_char": 1059,
+        "end_char": 1095,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شاکی مورد ضرب و جرح و سرقت قرار گرفته است",
+      "evidence": {
+        "quote": "ضمن کتک کاری ما صد و پنجاه هزار تومان پول نقد و گوشی و دفترچه تلفن و ماشین اردی که از خریداری کرده بودیم به سرقت بردند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک با امضای جعلی صادر شده است",
+      "evidence": {
+        "quote": "بعد معلوم شد چک با امضای جعلی صاحب حساب بوده",
+        "start_char": 823,
+        "end_char": 867,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک فاقد موجودی بوده است",
+      "evidence": {
+        "quote": "و فاقد موجودی است",
+        "start_char": 868,
+        "end_char": 885,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

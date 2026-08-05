@@ -1,0 +1,173 @@
+{
+  "ruling_id": "31301",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان ان صادر می شود",
+        "start_char": 598,
+        "end_char": 625,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جلب ثالث",
+      "evidence": {
+        "quote": "دعوی جلب ثالث",
+        "start_char": 635,
+        "end_char": 648,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی است",
+        "start_char": 2359,
+        "end_char": 2381,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعواجلب ثالث صادر می شود",
+        "start_char": 2243,
+        "end_char": 2283,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه یکصدو هشتاد میلیون ریال",
+        "start_char": 45,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "مستند اصلی خواهان بر طرح دعوی علیه خوانده",
+        "start_char": 154,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تائید گردیده",
+        "start_char": 3225,
+        "end_char": 3237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض ان مراتب را جهت ادامه رسیدگی ماهوی به دادگاه بدوی عودت میدهد",
+        "start_char": 4338,
+        "end_char": 4406,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مستند اصلی خواهان",
+        "start_char": 154,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "علیه خوانده",
+        "start_char": 184,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی بانک م.",
+        "start_char": 2448,
+        "end_char": 2469,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "بطرفیت تجدیدنظرخواندگان ردیف اول و سوم",
+        "start_char": 2909,
+        "end_char": 2947,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نامه",
+      "evidence": {
+        "quote": "نامه ای به شماره 22475",
+        "start_char": 196,
+        "end_char": 218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "مطابق محتوی دادنامه شماره 90",
+        "start_char": 319,
+        "end_char": 347,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مهر و امضای مدیرعامل جعل شده است",
+      "evidence": {
+        "quote": "مهر کانون تبلیغاتی نقش هنر و نیز امضاء مدیرعامل توسط آقایان ح. خ.ی و الف. ن. جعل گردیده",
+        "start_char": 3238,
+        "end_char": 3325,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "نامه مربوطه مجعول اعلام شده است",
+      "evidence": {
+        "quote": "نامه شماره 438-90/9/7 منتسب به کانون مزبور متضمن اذعان به جمع اوری تابلو بانک حسب نظریه کارشناسی مجعول اعلام گردیده است",
+        "start_char": 3328,
+        "end_char": 3447,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

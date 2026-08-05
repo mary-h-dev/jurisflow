@@ -1,0 +1,143 @@
+{
+  "ruling_id": "29531",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مرور زمان",
+      "evidence": {
+        "quote": "مقنن به شرح ماده 84 قانون آیین دادرسی مدنی مرور زمان را یکی از موانع دادرسی دانسته",
+        "start_char": 2222,
+        "end_char": 2304,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "مرور زمان را یکی از موانع دادرسی دانسته",
+        "start_char": 2265,
+        "end_char": 2304,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته و مطالبه مبلغ 89/200/000 ریال خسارت",
+        "start_char": 135,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد آن صادر و اعلام می گردد",
+        "start_char": 824,
+        "end_char": 855,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "مبادرت به تقدیم دادخواست نموده",
+        "start_char": 1908,
+        "end_char": 1938,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حسب اعلام نماینده ی خواهان",
+        "start_char": 338,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "ایراد وکیل خوانده اول",
+        "start_char": 698,
+        "end_char": 719,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بر قرار رد دعوی تجدیدنظرخواه",
+        "start_char": 1122,
+        "end_char": 1150,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نامه",
+      "evidence": {
+        "quote": "موضوع بیمه نامه باربری به شماره 86/4/148/107590/9999/25017",
+        "start_char": 216,
+        "end_char": 274,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کالا",
+      "evidence": {
+        "quote": "تاریخ تخلیه و تحویل کالا",
+        "start_char": 421,
+        "end_char": 445,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خروج از مهلت قانونی برای طرح دعوا",
+      "evidence": {
+        "quote": "که خارج از مهلت مقرر در ماده 393 قانون تجارت و بند 6 ماده 54 قانون دریایی می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تحویل کالا در تاریخ 1387/1/15",
+      "evidence": {
+        "quote": "تاریخ تخلیه و تحویل کالا 87/1/15 بوده",
+        "start_char": 421,
+        "end_char": 458,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تقدیم دادخواست در تاریخ 91/10/20",
+      "evidence": {
+        "quote": "اما دادخواست در تاریخ 91/10/20 تقدیم شده",
+        "start_char": 459,
+        "end_char": 499,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

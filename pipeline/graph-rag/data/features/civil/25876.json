@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25876",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "بموج صدور حکم طلاق به لحاظ عسر و حرج",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلع",
+      "evidence": {
+        "quote": "به صورت خلع نوبت اول",
+        "start_char": 2311,
+        "end_char": 2331,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "مبنی بر صدور حکم طلاق",
+        "start_char": 75,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 753,
+        "end_char": 771,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادر شده دادگاه بدوی را نقض",
+        "start_char": 2182,
+        "end_char": 2213,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از توجه به محتویات پرونده با عنایت به اینکه عمده دلیل استنادی خواهان",
+        "start_char": 164,
+        "end_char": 232,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "محکومیت زوج به 5 سال حبس",
+        "start_char": 233,
+        "end_char": 257,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "بذل کلیه مهریه و نفقه خویش به زوج",
+        "start_char": 2277,
+        "end_char": 2310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "پدر",
+      "evidence": {
+        "quote": "پرداخت نفقه فرزند مشترک بر عهده پدر است",
+        "start_char": 2611,
+        "end_char": 2650,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دفتر ازدواج",
+      "evidence": {
+        "quote": "به استناد نکاحنامه رسمی شماره 14977 دفتر ازدواج",
+        "start_char": 115,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بذل کلیه مهریه",
+        "start_char": 2277,
+        "end_char": 2291,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "بذل کلیه مهریه و نفقه خویش",
+        "start_char": 2277,
+        "end_char": 2303,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج به اتهام نگهداری مواد مخدر محکوم شده است",
+      "evidence": {
+        "quote": "محکومیت زوج به 5 سال حبس به اتهام نگهداری مواد مخدر روانگردان می‌باشد",
+        "start_char": 233,
+        "end_char": 302,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بخشی از حکم حبس زوج معلق شده است",
+      "evidence": {
+        "quote": "سه سال از محکومیت مزبور معلق گردیده",
+        "start_char": 362,
+        "end_char": 397,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در حال اجرای حکم حبس است",
+      "evidence": {
+        "quote": "و در حال اجرای حکم می‌باشد",
+        "start_char": 1915,
+        "end_char": 1941,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "26629",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "واقعی نگردد تا موجب آن بتوان از آثار وقوع بیع",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تملک",
+      "evidence": {
+        "quote": "فرع بر یکی از اسباب تملک است",
+        "start_char": 1027,
+        "end_char": 1055,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "جهت انشاء عقد بیع و انتقال مالکیت مال استفاده ننماید",
+        "start_char": 1515,
+        "end_char": 1567,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی",
+        "start_char": 73,
+        "end_char": 96,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل مبیع",
+      "evidence": {
+        "quote": "تحویل مبیع",
+        "start_char": 99,
+        "end_char": 109,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض",
+        "start_char": 1821,
+        "end_char": 1850,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دلالت داشته و از ناحیه خوانده",
+        "start_char": 207,
+        "end_char": 236,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از ناحیه خوانده ایرادی نسبت به صحت",
+        "start_char": 221,
+        "end_char": 255,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل بموجب مفاد وکالتنامه ابرازی",
+        "start_char": 1399,
+        "end_char": 1431,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "ماذون از سوی مالک ( موکل )",
+        "start_char": 1432,
+        "end_char": 1458,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه را وارد تشخیص",
+        "start_char": 1728,
+        "end_char": 1754,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "به استناد سند رسمی وکالت بلا عزل",
+        "start_char": 110,
+        "end_char": 142,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "استشهادیه",
+      "evidence": {
+        "quote": "و استشهادیه محلی",
+        "start_char": 143,
+        "end_char": 159,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "تنظیم سند خودرو",
+        "start_char": 401,
+        "end_char": 416,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "ارائه ورقه وکالتنامه نیز",
+        "start_char": 1338,
+        "end_char": 1362,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ارائه وکالتنامه مبنی بر فروش خودرو",
+      "evidence": {
+        "quote": "وکیل بموجب مفاد وکالتنامه ابرازی ماذون از سوی مالک ( موکل ) در فروش اتومبیل می باشد",
+        "start_char": 1399,
+        "end_char": 1482,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات وقوع عقد بیع",
+      "evidence": {
+        "quote": "ارائه ورقه وکالتنامه نیز دلالتی بر وقوع عقد بیع ندارد",
+        "start_char": 1338,
+        "end_char": 1391,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

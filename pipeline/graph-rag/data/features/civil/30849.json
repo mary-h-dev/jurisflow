@@ -1,0 +1,173 @@
+{
+  "ruling_id": "30849",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "برقراری و استمرار رابطه زوجیت بین طرفین",
+        "start_char": 310,
+        "end_char": 349,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "به محض انعقاد عقد نکاح",
+        "start_char": 435,
+        "end_char": 457,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "مبنی بر برائت ذمه خویش",
+        "start_char": 731,
+        "end_char": 753,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه معوقه",
+        "start_char": 89,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "از جانب خوانده نسبت به پرداخت نفقه خوانده اقدام نموده است",
+        "start_char": 1453,
+        "end_char": 1510,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "مورد اعتراض طرفین قرار نگرفته است",
+        "start_char": 952,
+        "end_char": 985,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی خانم ز. ح.",
+        "start_char": 2268,
+        "end_char": 2299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "ضمن ردّ تجدیدنظرخواهی",
+        "start_char": 2945,
+        "end_char": 2966,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از ناحیه خواهان محرز و مسلم است",
+        "start_char": 388,
+        "end_char": 419,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از جانب خوانده دلیل و یا مدرکی",
+        "start_char": 644,
+        "end_char": 674,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجین",
+      "evidence": {
+        "quote": "زوجین بعد از عقد زندگی مشترک خود را شروع کردند",
+        "start_char": 2655,
+        "end_char": 2701,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به موجب روگرفت مصدق سند نکاحیه ابرازی",
+        "start_char": 350,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "پرداخت نفقه به زوجه",
+        "start_char": 587,
+        "end_char": 606,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1223",
+        "start_char": 2343,
+        "end_char": 2369,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "برقراری و استمرار رابطه زوجیت بین طرفین به موجب روگرفت مصدق سند نکاحیه ابرازی از ناحیه خواهان محرز و مسلم است",
+        "start_char": 310,
+        "end_char": 419,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در منزل مشترک سکونت داشته است",
+      "evidence": {
+        "quote": "حضور و سکونت خوانده در منزل مشترک",
+        "start_char": 1526,
+        "end_char": 1559,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

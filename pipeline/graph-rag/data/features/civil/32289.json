@@ -1,0 +1,163 @@
+{
+  "ruling_id": "32289",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صلح",
+      "evidence": {
+        "quote": "بوسیله عقد لازم صلح معوض",
+        "start_char": 920,
+        "end_char": 944,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "اثبات مالکیت نسبت به مغازه فوق الذکر",
+        "start_char": 314,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "خلع ید خوانده ردیف سوم از مغازه فوق الذکر",
+        "start_char": 377,
+        "end_char": 418,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "به خواسته 1- اثبات صحت وقوع صلح",
+        "start_char": 85,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام خواندگان اول و دوم به تنظیم سند",
+        "start_char": 240,
+        "end_char": 277,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام خواندگان ردیف اول و دوم به تنظیم سند مالکیت مذکور",
+        "start_char": 3093,
+        "end_char": 3148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "فرمان خواهی خانم ز. الف. و غیره",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خواندگان اول و دوم",
+        "start_char": 240,
+        "end_char": 264,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در پاسخ به اصرار خوانده محترم مبنی بر باطل شدن وکالت نامه مستند صلح نامه توجه دادگاه محترم را به سطور ابتدایی صفحه دوم دادنامه 200922 _ 920 شعبه دوم دادگاه عمومی زابل معطوف می دارم آن جاکه به صراحت خواسته ابطال وکالت نامه را با صدور حکم به رد دعوا مواجه ساخته است",
+        "start_char": 2190,
+        "end_char": 2453,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "آقای ی. الف. وکیل خواهان",
+        "start_char": 1790,
+        "end_char": 1814,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "یک باب مغازه به مساحت 34/64 مترمربع",
+        "start_char": 125,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "براساس اختیار حاصله از وکالتنامه رسمی شماره..._ 91/1/28 دفترخانه شماره... زابل",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "الزام خواندگان ردیف اول و دوم به تنظیم سند مالکیت مذکور",
+        "start_char": 3093,
+        "end_char": 3148,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلاف در مورد صحت صلح و وکالتنامه وجود دارد",
+      "evidence": {
+        "quote": "خوانده اظهار داشته : قبول ندارم صلح انجام نشده یک برگ تایپی است که معلوم نیست چه کسی آن را امضاء کرده است وکالت نامه نیز باطل اعلام شده است",
+        "start_char": 1352,
+        "end_char": 1491,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ردیف دوم اقدام به انتقال ملک به همسر خود کرده است",
+      "evidence": {
+        "quote": "خوانده ردیف دوم اگرچه به ظاهر تحت عنوان صلح معوض به انتقال ملک به همسر خود اقدام نموده",
+        "start_char": 3878,
+        "end_char": 3964,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

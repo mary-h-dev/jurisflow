@@ -1,0 +1,183 @@
+{
+  "ruling_id": "408",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "صدور حکم بر ابطال سند سجلی",
+        "start_char": 62,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مورد بینه",
+      "evidence": {
+        "quote": "معتبر دانستن بینه شرعیه در برابر سند رسمی",
+        "start_char": 537,
+        "end_char": 578,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جعلیت",
+      "evidence": {
+        "quote": "تا قبل از اثبات جعلیت معتبر بوده",
+        "start_char": 1399,
+        "end_char": 1431,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم بر ابطال سند سجلی",
+        "start_char": 62,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "ازحضور در دادگاه امتناع نموده است",
+        "start_char": 1654,
+        "end_char": 1687,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 1784,
+        "end_char": 1814,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی نخستین را صادر",
+        "start_char": 1815,
+        "end_char": 1844,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "شهادت شهود تعرفه خواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده وارد",
+        "start_char": 373,
+        "end_char": 393,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی اداره ثبت احوال",
+        "start_char": 1020,
+        "end_char": 1057,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "علی رغم دعوت از تجدیدنظرخوانده",
+        "start_char": 1541,
+        "end_char": 1571,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "سند سجلی شماره 2934-26/3/1360",
+        "start_char": 80,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "صدور شناسنامه جدید",
+        "start_char": 748,
+        "end_char": 766,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد رسمی",
+      "evidence": {
+        "quote": "جز اسناد رسمی بوده",
+        "start_char": 1327,
+        "end_char": 1345,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شهود بر صدق ادعای خواهان گواهی دادند",
+      "evidence": {
+        "quote": "شهود تعرفه خواهان متفقاً بر صدق ادعای ایشان اداء گواهی نموده اند",
+        "start_char": 219,
+        "end_char": 283,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کارشناس پزشکی قانونی سن خواهان را ۲۵ سال اعلام کرده است",
+      "evidence": {
+        "quote": "قدر متیقن سن خواهان را 25 سال اعلام نموده است",
+        "start_char": 632,
+        "end_char": 677,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخوانده در دادگاه حاضر نشد",
+      "evidence": {
+        "quote": "ازحضور در دادگاه امتناع نموده است",
+        "start_char": 1654,
+        "end_char": 1687,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

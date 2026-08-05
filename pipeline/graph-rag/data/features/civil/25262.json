@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25262",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت زوجین را محرز می‌داند",
+        "start_char": 224,
+        "end_char": 257,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "یکی از وظایف زوجه تمکین از زوج است",
+        "start_char": 316,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم مبنی بر الزام خوانده به تمکین",
+        "start_char": 53,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بازگشت",
+      "evidence": {
+        "quote": "بازگشت به منزل مشترک می‌باشد",
+        "start_char": 94,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص دادخواست تجدیدنظرخواهی",
+        "start_char": 881,
+        "end_char": 911,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دادخواست",
+      "evidence": {
+        "quote": "ضمن رد دادخواست تجدیدنظرخواهی",
+        "start_char": 1870,
+        "end_char": 1899,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در قبال خواسته و مستندات خواهان",
+        "start_char": 526,
+        "end_char": 557,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 70,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "با توجه به لایحه تجدیدنظرخواه",
+        "start_char": 1099,
+        "end_char": 1128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تمکین زوجه از زوج صادر گردید",
+        "start_char": 1070,
+        "end_char": 1098,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "یکی از وظایف زوجه تمکین از زوج است",
+        "start_char": 316,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "رونوشت مصدق سند نکاحیه",
+        "start_char": 143,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "بازگشت به منزل مشترک",
+        "start_char": 94,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "رابطه زوجیت زوجین را محرز می‌داند",
+        "start_char": 224,
+        "end_char": 257,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به اتهام انفاق محکوم به حبس شده است",
+      "evidence": {
+        "quote": "زوج بر دادنامه 00797 محکوم به چهار ماه حبس تعزیری گردید به اتهام انفاق",
+        "start_char": 1142,
+        "end_char": 1212,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

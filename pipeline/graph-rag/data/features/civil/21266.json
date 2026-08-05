@@ -1,0 +1,203 @@
+{
+  "ruling_id": "21266",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "صدور حکم بر فسخ نکاح",
+        "start_char": 159,
+        "end_char": 179,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "به لحاظ تدلیس در ازدواج",
+        "start_char": 180,
+        "end_char": 203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "امور بنائی یا شروط بنائی عنوان مقرر شرط قراردادی مغایر",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبانی",
+      "evidence": {
+        "quote": "زمره شروط تبانی در عقد است",
+        "start_char": 18796,
+        "end_char": 18822,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "صدور حکم بر فسخ نکاح",
+        "start_char": 159,
+        "end_char": 179,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "تقاضای صدور حکم بر فسخ نکاح",
+        "start_char": 638,
+        "end_char": 665,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام وکالت",
+      "evidence": {
+        "quote": "اعلام وکالت نموده‌اند",
+        "start_char": 1212,
+        "end_char": 1233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "در مقام اعتراض از رأی بدوی",
+        "start_char": 3860,
+        "end_char": 3886,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض دادنامه بدوی",
+        "start_char": 3986,
+        "end_char": 4002,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت خانم ع.ر.... وکلای خواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با خوانده ازدواج نموده‌اند",
+        "start_char": 372,
+        "end_char": 398,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از هرگونه امراض مسری و حیاتی و همین‌طور سلامت در کالا که لزوم ندارد شرط معیب نبودن و یا سالم بودن در قرارداد مصرح شود زیرا این امر شرط مبنی‌علیه کلیه عقود و تعهدات است و جزو شروط عرفی است",
+        "start_char": 19739,
+        "end_char": 19926,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاهد",
+      "evidence": {
+        "quote": "اظهارات شاهد آقای الف. ن.",
+        "start_char": 7239,
+        "end_char": 7264,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "با مهریه پنجاه عدد سکه بهار آزادی",
+        "start_char": 319,
+        "end_char": 352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "آیا بر اساس سند عادی ازدواج کردید؟",
+        "start_char": 3267,
+        "end_char": 3301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "طی دادنامه شماره 00341-1391",
+        "start_char": 3440,
+        "end_char": 3467,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده موی مصنوعی استفاده کرده است",
+      "evidence": {
+        "quote": "موهای سر خوانده طبیعی نبوده بلکه مصنوعی می‌باشد",
+        "start_char": 426,
+        "end_char": 473,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ازدواج بدون ثبت رسمی بوده است",
+      "evidence": {
+        "quote": "ثبت نکاح دائمی صورت نگرفته و علقه زوجیت به‌صورت عادی ثبت و صیغه جاری شده است",
+        "start_char": 3531,
+        "end_char": 3607,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده زندگی مشترک را ترک کرده است",
+      "evidence": {
+        "quote": "پس از حدود دو هفته زندگی مشترک بدون علت و بدون هیچ‌گونه عذر و بهانه زندگی مشترک را ترک نموده است",
+        "start_char": 2548,
+        "end_char": 2644,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

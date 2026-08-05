@@ -1,0 +1,143 @@
+{
+  "ruling_id": "35351",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی",
+        "start_char": 84,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقف",
+      "evidence": {
+        "quote": "توقف خوانده",
+        "start_char": 104,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "عدم اقدام درپرداخت محکوم به توقف در تادیه دین حاصل شده است",
+        "start_char": 1691,
+        "end_char": 1749,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "به جهت امتناع از پرداخت",
+        "start_char": 116,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی صادر",
+        "start_char": 592,
+        "end_char": 611,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی طرح شده",
+        "start_char": 784,
+        "end_char": 805,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض کرده",
+        "start_char": 1843,
+        "end_char": 1876,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "توقف خوانده",
+        "start_char": 104,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده",
+        "start_char": 1038,
+        "end_char": 1052,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 784,
+        "end_char": 796,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دارایی",
+      "evidence": {
+        "quote": "جمع دارایی های شرکت ده میلیون ریال میباشد",
+        "start_char": 439,
+        "end_char": 480,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت محکوم‌به",
+      "evidence": {
+        "quote": "دلیلی برپرداخت محکوم به اقامه نشده است",
+        "start_char": 1508,
+        "end_char": 1546,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم دسترسی به دفاتر قانونی",
+      "evidence": {
+        "quote": "بلحاظ عدم دسترسی به دفاتر قانونی",
+        "start_char": 1150,
+        "end_char": 1181,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "28046",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تائید فسخ قرارداد معاوضه",
+        "start_char": 675,
+        "end_char": 699,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "خواهان تقابل به لحاظ خیار تاخیر ثمن حق فسخ داشته است",
+        "start_char": 1827,
+        "end_char": 1879,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "دلیلی مبنی بر وجود حق فسخ برای خواهان تقابل ارائه نگردیده است",
+        "start_char": 2274,
+        "end_char": 2335,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم سند رسمی",
+        "start_char": 100,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "دو دستگاه آپارتمان... را به خواهان تقابل انتقال دهند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظر خواهی در دادگاههای تجدیدنظراستان تهران می باشد",
+        "start_char": 3512,
+        "end_char": 3573,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بدین شرح که خواهان اعلام نموده است",
+        "start_char": 156,
+        "end_char": 190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم سند رسمی",
+        "start_char": 100,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "خواندگان تقابل دو دستگاه آپارتمان متعلق به آقای م. م.پ. را با یک قطعه زمین متعلق به خواهان تقابل... معاوضه نموده اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظر خواهی آقای ح. خ.د.",
+        "start_char": 3625,
+        "end_char": 3660,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "به موجب قرارداد شماره 100824",
+        "start_char": 194,
+        "end_char": 222,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین به پلاک ثبتی... فرعی از 116 اصلی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "خواندگان تقابل دو دستگاه آپارتمان متعلق به آقای م. م.پ. را",
+        "start_char": 914,
+        "end_char": 972,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "نسبت به تنظیم سند رسمی ملک اقدام نماید",
+        "start_char": 397,
+        "end_char": 435,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده نسبت به تنظیم سند رسمی اقدام نکرده است",
+      "evidence": {
+        "quote": "ولی خواندگان تقابل نسبت به انجام تعهدات خویش اقدام نکرده اند",
+        "start_char": 1470,
+        "end_char": 1530,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "آپارتمان‌ها در رهن بانک هستند",
+      "evidence": {
+        "quote": "آپارتمانها در قبال مبلغ 4369000000 ریال در قید رهن بانک ص. می باشد",
+        "start_char": 1718,
+        "end_char": 1784,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد عادی به امضای خوانده رسیده است",
+      "evidence": {
+        "quote": "فتوکپی مصدق قرارداد عادی مورخ 91/5/3 که به امضای خوانده دعوی رسیده است",
+        "start_char": 2884,
+        "end_char": 2954,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "ruling_id": "25621",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تخلف",
+      "evidence": {
+        "quote": "با تخلف از شرایط قرارداد اجاره",
+        "start_char": 657,
+        "end_char": 687,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "خواستار فسخ قرارداد اجاره",
+        "start_char": 688,
+        "end_char": 713,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دعوای تخلیه",
+      "evidence": {
+        "quote": "بخواسته تخلیه یکباب مغازه",
+        "start_char": 104,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "با مطالبه خسارت دادرسی",
+        "start_char": 130,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "خواستار فسخ قرارداد اجاره",
+        "start_char": 688,
+        "end_char": 713,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "خواستار فسخ قرارداد اجاره و تخلیه مغازه گردیدند",
+        "start_char": 688,
+        "end_char": 735,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض به شرح لایحه اعتراضیه وارد",
+        "start_char": 1922,
+        "end_char": 1955,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض عنه",
+        "start_char": 3222,
+        "end_char": 3247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را جهت ادامه رسیدگی و اظهار نظر ماهیتی به دادگاه نخستین اعاده می نماید",
+        "start_char": 3248,
+        "end_char": 3325,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان غ. ح.",
+        "start_char": 0,
+        "end_char": 25,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "بطرفیت خواندگان",
+        "start_char": 53,
+        "end_char": 68,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "باعنوان موجر به ع. ک.ع.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "باعنوان مستاجر جهت شغل نفت فروشی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ورثه",
+      "evidence": {
+        "quote": "خواهان جزء ورثه ع.الف. ح. می باشد",
+        "start_char": 532,
+        "end_char": 565,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجاره نامه",
+      "evidence": {
+        "quote": "بموجب اجاره نامه رسمی شماره 15803",
+        "start_char": 189,
+        "end_char": 222,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه اعتراضیه",
+      "evidence": {
+        "quote": "اعتراض به شرح لایحه اعتراضیه وارد",
+        "start_char": 1922,
+        "end_char": 1955,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تغییر شغل از نفت فروشی به لباس فروشی",
+      "evidence": {
+        "quote": "صورت گرفته از شغل معین نفت فروشی به لباس فروشی تغییر شغل دادند",
+        "start_char": 594,
+        "end_char": 656,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مرگ موجر اولیه",
+      "evidence": {
+        "quote": "با فوت موجر اولیه بنام حاجی ع. ح.",
+        "start_char": 423,
+        "end_char": 456,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مرگ مالک بعدی",
+      "evidence": {
+        "quote": "سپس ع.الف. ح. هم فوت نمود",
+        "start_char": 504,
+        "end_char": 529,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

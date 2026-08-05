@@ -1,0 +1,183 @@
+{
+  "ruling_id": "29250",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم توجه",
+      "evidence": {
+        "quote": "اصل عدم توجه ایرادات بر ان حاکم است",
+        "start_char": 639,
+        "end_char": 674,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجاری",
+      "evidence": {
+        "quote": "اصل تجریدی اسناد تجاری",
+        "start_char": 1657,
+        "end_char": 1679,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "وجود اصل چکها در ید دارنده دلالت بر اشتغال ذمه صادر کننده ان دارد",
+        "start_char": 429,
+        "end_char": 494,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه چک",
+        "start_char": 131,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض و تجدیدنظر",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی کرده است",
+        "start_char": 2311,
+        "end_char": 2333,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "متضمن جهات موجه در نقض است",
+        "start_char": 2426,
+        "end_char": 2452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "صراحتا اقرار نموده است",
+        "start_char": 2928,
+        "end_char": 2950,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان دارنده با حسن نیت تلقی می شود",
+        "start_char": 752,
+        "end_char": 788,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دفاعیات وکیل خوانده را موجه و موثر در مقام نمی داند",
+        "start_char": 853,
+        "end_char": 904,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "مجلوب ثالث آقای ف. ج. مدیر عامل شرکت پ.الف",
+        "start_char": 2885,
+        "end_char": 2927,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه وجوه چک را پرداخت نموده",
+        "start_char": 3251,
+        "end_char": 3287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده دارنده با حسن نیت تلقی میشود",
+        "start_char": 3119,
+        "end_char": 3162,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "وجود اصل چکها در ید دارنده",
+        "start_char": 429,
+        "end_char": 455,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "به موجب سند رسمی شماره 38379",
+        "start_char": 2801,
+        "end_char": 2829,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "به موجب سند عادی برگ 83 پرونده",
+        "start_char": 3862,
+        "end_char": 3892,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مجلوب ثالث مسئولیت‌های چک را پذیرفته است",
+      "evidence": {
+        "quote": "خوانده مجلوب ثالث تعهدات ناشی از چک را تقبل و مسئولیت های آن را پذیرفته است",
+        "start_char": 3932,
+        "end_char": 4007,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک‌ها در اختیار دارنده است",
+      "evidence": {
+        "quote": "با احراز وجود چک در ید دارنده",
+        "start_char": 4009,
+        "end_char": 4038,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

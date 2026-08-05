@@ -1,0 +1,113 @@
+{
+  "ruling_id": "35484",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به تقاضای ابطال رای داوری",
+        "start_char": 84,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی مطروحه را صادر و اعلام می دارد",
+        "start_char": 556,
+        "end_char": 607,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظر خواهی در محاکم محترم تجدیدنظر استان تهران می باشد",
+        "start_char": 650,
+        "end_char": 713,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخواه اعتراض مدللی",
+        "start_char": 1497,
+        "end_char": 1531,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "و خواندگان حاضر به همراه آقای م. ا. به عنوان مدیران تصفیه انتخاب شده اند",
+        "start_char": 282,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخواه اعتراض مدللی",
+        "start_char": 1497,
+        "end_char": 1531,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "ابطال رای داوری",
+        "start_char": 94,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1058",
+        "start_char": 903,
+        "end_char": 929,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شرکت منحل شده است",
+      "evidence": {
+        "quote": "حسب پاسخ استعلام واصله از ثبت ش. شرکت مذکور منحل شده",
+        "start_char": 229,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مدیران تصفیه انتخاب شده‌اند",
+      "evidence": {
+        "quote": "خواندگان حاضر به همراه آقای م. ا. به عنوان مدیران تصفیه انتخاب شده اند",
+        "start_char": 284,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "ruling_id": "31395",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تائید فسخ قرارداد",
+        "start_char": 111,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "و ابطال سند انتقال",
+        "start_char": 223,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "اسقاط حق حاصل از شرط",
+        "start_char": 3115,
+        "end_char": 3135,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "تائید فسخ قرارداد",
+        "start_char": 111,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "و ابطال سند انتقال",
+        "start_char": 223,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "تقاضای رد دعوی خواهان را نموده است",
+        "start_char": 896,
+        "end_char": 930,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد واخواهی",
+      "evidence": {
+        "quote": "ضمن رد واخواهی",
+        "start_char": 2126,
+        "end_char": 2140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "وارد و موجه بوده و در خور نقض است",
+        "start_char": 3047,
+        "end_char": 3080,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بطلان دعوی",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان بدوی صادر و اعلام می نماید",
+        "start_char": 3668,
+        "end_char": 3719,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دعوی خواهان الف. ن.س.",
+        "start_char": 0,
+        "end_char": 28,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خواندگان 1 - ن. ح.",
+        "start_char": 65,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "درخصوص واخواهی واخواه ن. ح.",
+        "start_char": 1836,
+        "end_char": 1863,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخوانده",
+      "evidence": {
+        "quote": "بطرفیت واخوانده الف. نوری سوا",
+        "start_char": 1880,
+        "end_char": 1909,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه عادی شماره 571768 مورخ 89/3/25",
+        "start_char": 129,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند انتقال پلاک مذکور",
+        "start_char": 231,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "یک فقره چک به شماره 732342 مورخ 29 /3 /89",
+        "start_char": 494,
+        "end_char": 535,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 9309970232100549",
+        "start_char": 1910,
+        "end_char": 1948,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک موضوع قرارداد برگشت خورده است",
+      "evidence": {
+        "quote": "چکی که موضوع فسخ در دعوی حاضر قرار گرفته است برگشت خورده",
+        "start_char": 3208,
+        "end_char": 3264,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک به خوانده مسترد شده است",
+      "evidence": {
+        "quote": "پس از آن به آقای ن. ح. مسترد شده است",
+        "start_char": 3267,
+        "end_char": 3303,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارسال اظهارنامه فسخ",
+      "evidence": {
+        "quote": "نامبرده فسخ موضوع اختیارخویش را با ارسال اظهارنامه انشاء ننموده",
+        "start_char": 786,
+        "end_char": 849,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

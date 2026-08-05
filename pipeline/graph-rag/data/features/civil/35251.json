@@ -1,0 +1,173 @@
+{
+  "ruling_id": "35251",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "هبه",
+      "evidence": {
+        "quote": "تائید رجوع از هبه",
+        "start_char": 97,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد هبه",
+      "evidence": {
+        "quote": "در قالب عقد هبه",
+        "start_char": 574,
+        "end_char": 589,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی صادر می گردد",
+        "start_char": 1025,
+        "end_char": 1055,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی نخستین تجدیدنظر خواه را صادر و اعلام می دارد",
+        "start_char": 2158,
+        "end_char": 2215,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "تائید رجوع از هبه",
+        "start_char": 97,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارت دادرسی",
+        "start_char": 301,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "اثبات هبه",
+        "start_char": 117,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه ی تجدیدنظر خواسته را در خور نقض تشخیص می دهد",
+        "start_char": 1966,
+        "end_char": 2018,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اولین خواسته خواهان است",
+        "start_char": 401,
+        "end_char": 424,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بنام خوانده",
+        "start_char": 562,
+        "end_char": 573,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی",
+        "start_char": 1586,
+        "end_char": 1600,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "دستگاه آپارتمان دو خوابه تیپ دی",
+        "start_char": 149,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "انتقال ثانوی ملک",
+        "start_char": 545,
+        "end_char": 561,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "تادیه اقساط ثمن معامله",
+        "start_char": 668,
+        "end_char": 690,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه سند مالکیت اولیه یا سند انتقال ملک",
+      "evidence": {
+        "quote": "سند و یا مدرکی دال بر مالکیت اولیه خواهان و انتقال ثانوی ملک بنام خوانده در قالب عقد هبه ارائه نگردیده",
+        "start_char": 501,
+        "end_char": 603,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت اقساط توسط خواهان و خوانده به صورت مشترک",
+      "evidence": {
+        "quote": "تادیه اقساط ثمن معامله در وجه شرکت آ. می باشد که آن هم مطابق تصاویر قبوض پرداختی بنام خواهان و خوانده مشترکا بوده",
+        "start_char": 668,
+        "end_char": 781,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

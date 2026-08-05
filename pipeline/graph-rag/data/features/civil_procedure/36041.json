@@ -1,0 +1,153 @@
+{
+  "ruling_id": "36041",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ قرارداد",
+        "start_char": 237,
+        "end_char": 248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "به دلیل خیار عیب",
+        "start_char": 307,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "اصول کلی صلاحیت",
+        "start_char": 1422,
+        "end_char": 1437,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "تنفیذ فسخ قرارداد",
+        "start_char": 231,
+        "end_char": 248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد یک دستگاه نساجی بافندگی هنجی",
+        "start_char": 325,
+        "end_char": 361,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارات دادرسی",
+        "start_char": 364,
+        "end_char": 384,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نفی",
+      "evidence": {
+        "quote": "اقدام به نفی صلاحیت از خود",
+        "start_char": 3230,
+        "end_char": 3256,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "با اعلام صلاحیت شعبه 28 دادگاه عمومی حقوقی شهرستان قم",
+        "start_char": 3734,
+        "end_char": 3787,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان اقای ح. گ. پ.",
+        "start_char": 144,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده اقای د. و. س.",
+        "start_char": 179,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "فسخ قرارداد مورخه 1400٫10٫19",
+        "start_char": 237,
+        "end_char": 265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "با موضوع دستگاه ماشین بافندگی",
+        "start_char": 266,
+        "end_char": 295,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین دارای قرارداد هستند",
+      "evidence": {
+        "quote": "مستند دعوی طرفین وجود قرارداد بوده",
+        "start_char": 1263,
+        "end_char": 1297,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محل اقامت خوانده در حوزه قضایی قم است",
+      "evidence": {
+        "quote": "خوانده در حوزه قضایی ان اقامتگاه دارد",
+        "start_char": 491,
+        "end_char": 528,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

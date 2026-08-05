@@ -1,0 +1,93 @@
+{
+  "ruling_id": "2745",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "قاعده عطف به ماسبق نشدن قوانین موضوع ماده 4 قانون مدنی",
+        "start_char": 130,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ورود",
+      "evidence": {
+        "quote": "ورود شعبه تشخیص به اعمال ماده 16 قانون دیوان عدالت اداری",
+        "start_char": 296,
+        "end_char": 352,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعمال",
+      "evidence": {
+        "quote": "اعمال ماده 16 قانون دیوان عدالت اداری",
+        "start_char": 315,
+        "end_char": 352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر",
+      "evidence": {
+        "quote": "قرار رد درخواست اعمال ماده مذکور صادر و اعلام می‌گردد",
+        "start_char": 468,
+        "end_char": 521,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شعبه",
+      "evidence": {
+        "quote": "ورود شعبه تشخیص به اعمال ماده 16 قانون دیوان عدالت اداری",
+        "start_char": 296,
+        "end_char": 352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "رئیس شعبه",
+      "evidence": {
+        "quote": "رئیس شعبه 1",
+        "start_char": 543,
+        "end_char": 554,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "درخواست",
+      "evidence": {
+        "quote": "قرار رد درخواست اعمال ماده مذکور صادر و اعلام می‌گردد",
+        "start_char": 468,
+        "end_char": 521,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "آرای مورد نظر قبل از اصلاح قانون دیوان عدالت اداری صادر شده‌اند",
+      "evidence": {
+        "quote": "آرایی که قبل از حاکمیت قانون دیوان عدالت اداری اصدار یافته",
+        "start_char": 34,
+        "end_char": 92,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

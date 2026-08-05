@@ -1,0 +1,153 @@
+{
+  "ruling_id": "5383",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "عقد بیع نبوده",
+        "start_char": 3803,
+        "end_char": 3816,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "با عنایت به اصل صحت",
+        "start_char": 4100,
+        "end_char": 4119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "عدم ایفای تعهد از ناحیه یکی از طرفین عقد",
+        "start_char": 3968,
+        "end_char": 4008,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "موجبات قانونی ابطال یا بطلان عقد نمی باشد",
+        "start_char": 4051,
+        "end_char": 4092,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تسویه و تصفیه",
+      "evidence": {
+        "quote": "به خواسته بازپرداخت وجوه پرداختی",
+        "start_char": 117,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه حق الوکاله",
+        "start_char": 239,
+        "end_char": 256,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 354,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "خواندگان، انجام تبلیغات گسترده",
+        "start_char": 381,
+        "end_char": 411,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "عدم قدرت بایع بر تسلیم مبیع",
+        "start_char": 2993,
+        "end_char": 3020,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "آپارتمان های شماره... تیپ آ",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "از طریق چک های متعدد",
+        "start_char": 635,
+        "end_char": 655,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم انجام عملیات ساختمانی",
+      "evidence": {
+        "quote": "عدم هرگونه عملیات ساختمانی",
+        "start_char": 707,
+        "end_char": 733,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم وجود قرارداد کتبی",
+      "evidence": {
+        "quote": "میان موکله و خواندگان قرارداد کتبی تنظیم نگردیده",
+        "start_char": 1329,
+        "end_char": 1377,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت اقساط",
+      "evidence": {
+        "quote": "با توقف پرداخت اقساط",
+        "start_char": 881,
+        "end_char": 901,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

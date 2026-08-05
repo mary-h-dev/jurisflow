@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25988",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل سالهای زندگی مشترک",
+        "start_char": 54,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "با احتساب خسارات دادرسی",
+        "start_char": 91,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "قصد تبرع نداشتن",
+        "start_char": 406,
+        "end_char": 421,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عرف",
+      "evidence": {
+        "quote": "مجانیت اعمال خانه داری در سنت و عرف کنونی ایرانی",
+        "start_char": 833,
+        "end_char": 881,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه اجرت المثل",
+        "start_char": 46,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم بر رد دعوی خواهان را صادر",
+        "start_char": 1484,
+        "end_char": 1513,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رای صادر شده دادگاه بدوی را با استناد به مواد 358و365 قانون ایین دادرسی دادگاههای عمومی و انقلاب در امور مدنی تایید می نماید",
+        "start_char": 2318,
+        "end_char": 2442,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در دادگاههای محترم تجدیدنظر",
+        "start_char": 1572,
+        "end_char": 1611,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با عنایت به مفاد دادخواست تقدیمی، ماحصل ادعای زوجه برانجام کار وفعالیت برای شوهر در امور زندگی مشترک دلالت دارد",
+        "start_char": 116,
+        "end_char": 227,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "و درخواست زوج را در زمان اقدام به اثبات نرسانده",
+        "start_char": 422,
+        "end_char": 468,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "ماحصل ادعای زوجه برانجام کار وفعالیت برای شوهر",
+        "start_char": 150,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظر خواهی آ. ن. بطرفیت الف.ر. پ.خ.",
+        "start_char": 1697,
+        "end_char": 1737,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه هزار سکه ایی",
+        "start_char": 262,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "و نفقه وی به ادعای خودش در حال اجراست",
+        "start_char": 281,
+        "end_char": 318,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انجام کار و فعالیت در امور زندگی مشترک",
+      "evidence": {
+        "quote": "ماحصل ادعای زوجه برانجام کار وفعالیت برای شوهر در امور زندگی مشترک دلالت دارد",
+        "start_char": 150,
+        "end_char": 227,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طلاق با سند",
+      "evidence": {
+        "quote": "زوجه طلاق بر اساس سند.... گرفته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

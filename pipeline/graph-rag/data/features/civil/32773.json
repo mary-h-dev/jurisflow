@@ -1,0 +1,123 @@
+{
+  "ruling_id": "32773",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تغییر نام",
+      "evidence": {
+        "quote": "بخواسته تغییرنام از ز. به مهشید",
+        "start_char": 78,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "وارد تشخیص نداده",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را وارد تشخیص نداده",
+        "start_char": 364,
+        "end_char": 402,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ز. م. د.",
+        "start_char": 656,
+        "end_char": 678,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را عیناً تایید می نماید",
+        "start_char": 1496,
+        "end_char": 1543,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "استماع اظهارات خواهان",
+        "start_char": 174,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "مدافعات کتبی نماینده حقوقی اداره خوانده",
+        "start_char": 198,
+        "end_char": 237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "در اسناد سجلی مربوطه",
+        "start_char": 110,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 109",
+        "start_char": 678,
+        "end_char": 703,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "نام خواهان دارای ویژگی زشت و ناپسند نیست",
+      "evidence": {
+        "quote": "نام خواهان دادرای چنین خصوصیتی نمی باشد",
+        "start_char": 315,
+        "end_char": 354,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه دلیل یا مدرک جدیدی ارائه نکرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی دلیل یا مدرک قانع کننده و محکمه پسندی که نقض و بی اعتباری دادنامه معترض عنه را ایجاب کند ابراز ننموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10930",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "صدور حکم بر ابطال عقد بیع",
+        "start_char": 133,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت",
+      "evidence": {
+        "quote": "عدم رعایت مصلحت",
+        "start_char": 238,
+        "end_char": 253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت و غبطه موکل",
+      "evidence": {
+        "quote": "عدم رعایت مصلحت و غبطه",
+        "start_char": 6519,
+        "end_char": 6541,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "وکالت",
+      "evidence": {
+        "quote": "وکالت محضری",
+        "start_char": 569,
+        "end_char": 580,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان صادر می‌نماید",
+        "start_char": 5576,
+        "end_char": 5614,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "به خودش منتقل نموده",
+        "start_char": 715,
+        "end_char": 734,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "از رأی مذکور فرجام‌خواهی نموده",
+        "start_char": 5700,
+        "end_char": 5730,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "تقاضای نقض رأی فرجام‌خواسته را نموده",
+        "start_char": 5788,
+        "end_char": 5824,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای م.ف. و اداره ثبت‌اسناد و املاک",
+        "start_char": 78,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خانم ک.ف. دادخواستی",
+        "start_char": 58,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "آقای ن.ک. وکیل دادگستری",
+        "start_char": 1152,
+        "end_char": 1175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "فرجام‌خواه به اختیار فروش و انتقال قطعی",
+        "start_char": 6858,
+        "end_char": 6897,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "املاک و پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک... فرعی از... اصلی بخش یک بلوچستان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "سند مالکیت پلاک مذکور",
+        "start_char": 283,
+        "end_char": 304,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "وکالت‌نامه 63894 - 1372/10/21",
+        "start_char": 6791,
+        "end_char": 6820,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انتقال ملک با قیمت بسیار پایین",
+      "evidence": {
+        "quote": "به قیمت ناچیز یعنی سیصد هزار تومان به خودش منتقل نموده",
+        "start_char": 680,
+        "end_char": 734,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود وکالت تام‌الاختیار برای فروش",
+      "evidence": {
+        "quote": "به اختیار فروش و انتقال قطعی شش دانگ ملک مذکور",
+        "start_char": 6869,
+        "end_char": 6915,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "صوری بودن قرارداد",
+      "evidence": {
+        "quote": "این قولنامه صوری است",
+        "start_char": 4008,
+        "end_char": 4028,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

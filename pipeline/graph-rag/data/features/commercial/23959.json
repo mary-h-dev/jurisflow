@@ -1,0 +1,153 @@
+{
+  "ruling_id": "23959",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ضمانت",
+      "evidence": {
+        "quote": "لذا اساساً ضمانت موکل از بین رفته است",
+        "start_char": 761,
+        "end_char": 798,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "باعث تبدیل تعهد اولیه به تعهدی جدید گردیده",
+        "start_char": 1372,
+        "end_char": 1414,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دایر بر مطالبه وجه چهار فقره چک",
+        "start_char": 108,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امضاء",
+      "evidence": {
+        "quote": "خوانده ردیف اول نیز ظهر آنها را بعنوان ضامن امضاء نموده است",
+        "start_char": 544,
+        "end_char": 603,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی با هیچک از شقوق ماده 348 قانون آئین دادرسی مدنی مطابقت ندارد",
+        "start_char": 3286,
+        "end_char": 3360,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار داشته",
+        "start_char": 391,
+        "end_char": 414,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "درراستای روابط معاملی فی ما بین موکل و خوانده ردیف دوم",
+        "start_char": 415,
+        "end_char": 469,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "و تجدیدنظرخواه مدعی است که چک های متنازع فیه در راستای عقد بیع خودرو صادر گردیده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "و تجدیدنظر خوانده اسناد آن را انتقال نداده است",
+        "start_char": 2909,
+        "end_char": 2955,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چند فقره چک از سوی خوانده ردیف دوم صادر ودر اختیار موکل قرار می گیرد",
+        "start_char": 470,
+        "end_char": 538,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "صورتجلسه",
+      "evidence": {
+        "quote": "در اینخصوص صورتجلسه ای نیز تنظیم شده است",
+        "start_char": 720,
+        "end_char": 760,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "مدعی است که چک های متنازع فیه در راستای عقد بیع خودرو صادر گردیده",
+        "start_char": 2843,
+        "end_char": 2908,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تغییر تاریخ و رقم چک‌ها",
+      "evidence": {
+        "quote": "مشخص می گردد که تاریخ و رقم چکهای فوق الاشاره تغییر پیدا نموده",
+        "start_char": 1099,
+        "end_char": 1161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تنظیم صورتجلسه بین طرفین",
+      "evidence": {
+        "quote": "تنظیم صورتجلسه مورخ 1390/2/20 فی ما بین خواهان و خوانده ردیف دوم",
+        "start_char": 1307,
+        "end_char": 1371,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

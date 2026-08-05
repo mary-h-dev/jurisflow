@@ -1,0 +1,143 @@
+{
+  "ruling_id": "27033",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق بیمه",
+      "evidence": {
+        "quote": "کارفرما را مکلف به پرداخت حق بیمه",
+        "start_char": 1654,
+        "end_char": 1687,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رسمی",
+      "evidence": {
+        "quote": "از جمله اسناد رسمی و لازم الرعایه بوده",
+        "start_char": 4150,
+        "end_char": 4188,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "می تواند برابر ماده 42 قانون تامین اجتماعی ظرف 30 روز از تاریخ ابلاغ کتباً اعتراض خود را به سازمان اعلام نماید",
+        "start_char": 2444,
+        "end_char": 2554,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "احراز",
+      "evidence": {
+        "quote": "هیات تشخیص اداره کار به موجب دادنامه شماره... سابقه کار مرحوم ن.ص ج. در لواشپزی... را احراز نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض قرار معترض عنه",
+        "start_char": 4495,
+        "end_char": 4517,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "حکم به اعاده پرونده به شعبه بدوی",
+        "start_char": 4590,
+        "end_char": 4622,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "در خصوص خواسته و شکایت شاکی بطرفیت تامین اجتماعی آذربایجان شرقی",
+        "start_char": 566,
+        "end_char": 629,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "کارفرما",
+      "evidence": {
+        "quote": "کارفرما را مکلف به پرداخت حق بیمه",
+        "start_char": 1654,
+        "end_char": 1687,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مورث",
+      "evidence": {
+        "quote": "با توجه به اوراق پرونده مورث نامبرده مرحوم ن. ص",
+        "start_char": 49,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "سازمان",
+      "evidence": {
+        "quote": "بطرفیت تامین اجتماعی آذربایجان شرقی",
+        "start_char": 594,
+        "end_char": 629,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اشتغال",
+      "evidence": {
+        "quote": "دارای سابقه اشتغال از تاریخ.... در کارگاه لواشی پزی است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مرحوم ن.ص فوت نمود",
+      "evidence": {
+        "quote": "و در تاریخ... فوت نمود",
+        "start_char": 145,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کارفرما به تکلیف پرداخت حق بیمه عمل ننموده است",
+      "evidence": {
+        "quote": "مطابق ماده مذکور به این تکلیف عمل ننموده است",
+        "start_char": 1767,
+        "end_char": 1811,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

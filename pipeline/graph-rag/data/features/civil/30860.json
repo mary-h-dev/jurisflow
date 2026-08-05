@@ -1,0 +1,213 @@
+{
+  "ruling_id": "30860",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "تقاضای ابطال سند رهنی",
+        "start_char": 134,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد رهن",
+      "evidence": {
+        "quote": "ابطال عقد رهن مندرج در سند رهنی",
+        "start_char": 283,
+        "end_char": 314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "عقد بیع به ایجاب وقبول واقع می شود",
+        "start_char": 2343,
+        "end_char": 2377,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "عقد رهن واقع شده بین خواندگان فضولی بوده",
+        "start_char": 2473,
+        "end_char": 2513,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "انتقال مالکیت پلاک ثبتی 7047 فرعی از 111 اصلی",
+        "start_char": 771,
+        "end_char": 816,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "تقاضای ابطال سند رهنی",
+        "start_char": 134,
+        "end_char": 155,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "خریداری",
+      "evidence": {
+        "quote": "ملک پلاک ثبتی 7047 / 111 را از خوانده ، پ.ن. خریداری کرده است",
+        "start_char": 501,
+        "end_char": 562,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "علیه او اقامه دعوی الزام به تنظیم سند رسمی نموده است",
+        "start_char": 618,
+        "end_char": 670,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "گذاشته",
+      "evidence": {
+        "quote": "خوانده این ملک فروخته شده را به رهن خوانده ردیف دوم داده است",
+        "start_char": 850,
+        "end_char": 910,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حاضر نشده",
+      "evidence": {
+        "quote": "حاضر نشده",
+        "start_char": 1133,
+        "end_char": 1142,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان ، الف. ت. فرزند الف.",
+        "start_char": 0,
+        "end_char": 27,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت 1- ف. پ.ن. فرزند ع.الف.",
+        "start_char": 360,
+        "end_char": 392,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل مشاور حقوقی قوه قضائیه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند رهنی 3172",
+        "start_char": 147,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک پلاک ثبتی 7047 / 111",
+        "start_char": 501,
+        "end_char": 525,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "طبق مبایعه نامه مورخ 89/10/12",
+        "start_char": 471,
+        "end_char": 500,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "طبق سند رسمی مالک یک باب منزل بوده است",
+        "start_char": 1244,
+        "end_char": 1282,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ملک را به رهن بانک گذاشته است",
+      "evidence": {
+        "quote": "خوانده این ملک فروخته شده را به رهن خوانده ردیف دوم داده است",
+        "start_char": 850,
+        "end_char": 910,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در دفترخانه حاضر نشده است",
+      "evidence": {
+        "quote": "حاضر نشده",
+        "start_char": 1133,
+        "end_char": 1142,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده حکم تنظیم سند رسمی را اجرا نکرده است",
+      "evidence": {
+        "quote": "اجرای حکم مورد اشاره با مانع مواجه گردیده است",
+        "start_char": 4930,
+        "end_char": 4975,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

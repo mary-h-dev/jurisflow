@@ -1,0 +1,133 @@
+{
+  "ruling_id": "242",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "به خواسته اعسار",
+        "start_char": 99,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "از پرداخت هزینه دادرسی",
+        "start_char": 115,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 660,
+        "end_char": 686,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 1325,
+        "end_char": 1355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی خواهان اصلی را صادر",
+        "start_char": 1356,
+        "end_char": 1396,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شهرداری",
+      "evidence": {
+        "quote": "در خصوص دعوی شهرداری",
+        "start_char": 0,
+        "end_char": 20,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مبلغ هزینه دادرسی به نسبت توان مالی خواهان مبلغ ناچیزی است",
+        "start_char": 375,
+        "end_char": 433,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اصلی",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی خواهان اصلی را صادر",
+        "start_char": 1356,
+        "end_char": 1396,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "از پرداخت هزینه دادرسی",
+        "start_char": 115,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 92",
+        "start_char": 191,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شهرداری توانایی پرداخت هزینه دادرسی را ندارد",
+      "evidence": {
+        "quote": "شهرداری اعلام نموده است توانایی پرداخت هزینه دادرسی مذکور را ندارد",
+        "start_char": 273,
+        "end_char": 339,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شهرداری دارای ردیف بودجه مشخص و مصوب است",
+      "evidence": {
+        "quote": "شهرداری تهران از نهادهای عمومی و دارای ردیف بودجه مشخص و مصوب می باشد",
+        "start_char": 1143,
+        "end_char": 1212,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

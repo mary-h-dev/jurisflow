@@ -1,0 +1,143 @@
+{
+  "ruling_id": "4831",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حقوق",
+      "evidence": {
+        "quote": "اجابت درخواست خواهان را مصداق عملی برخورداری وی از حقوق شهروندی تشخیص می دهد",
+        "start_char": 430,
+        "end_char": 506,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اصلاح",
+      "evidence": {
+        "quote": "الزام خوانده به اصلاح شناسنامه",
+        "start_char": 104,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "الزام خوانده به تغییر نام خواهان از الف. به آ.",
+        "start_char": 546,
+        "end_char": 592,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض آن به جهت مذکور",
+        "start_char": 1369,
+        "end_char": 1392,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی نخستین صادر و اعلام می شود",
+        "start_char": 1393,
+        "end_char": 1432,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با استماع اظهارات خواهان",
+        "start_char": 203,
+        "end_char": 227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به اصلاح شناسنامه",
+        "start_char": 104,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به تغییر نام تجدیدنظر خوانده",
+        "start_char": 945,
+        "end_char": 986,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به تغییر نام تجدیدنظر خوانده از الف. به آ. ملزم شده است",
+        "start_char": 945,
+        "end_char": 1013,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "الزام خوانده به اصلاح شناسنامه",
+        "start_char": 104,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "در سند سجلی اش درج شده است",
+        "start_char": 321,
+        "end_char": 347,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "نام فعلی با نام پیشنهادی از نظر متعارف اجتماعی ارجحیت ندارد",
+      "evidence": {
+        "quote": "باید نام پیشنهادی به نام فعلی با توجه به متعارف اجتماعی ارجح باشد",
+        "start_char": 1149,
+        "end_char": 1214,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "گواهان بر صحت ادعای خواهان شهادت داده‌اند",
+      "evidence": {
+        "quote": "گواهان خواهان بر صحت ادعای خواهان شهادت دادند",
+        "start_char": 236,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

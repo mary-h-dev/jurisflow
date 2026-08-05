@@ -1,0 +1,113 @@
+{
+  "ruling_id": "7273",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فرزند مشترک",
+      "evidence": {
+        "quote": "به خواسته صدور حکم به ملاقات فرزند مشترک",
+        "start_char": 110,
+        "end_char": 150,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقامتگاه",
+      "evidence": {
+        "quote": "اقامتگاه زن شوهردار را همان محل اقامت شوهر مقرر نموده است",
+        "start_char": 1088,
+        "end_char": 1145,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم به ملاقات فرزند مشترک",
+        "start_char": 110,
+        "end_char": 150,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "و طرح دعوی انتخاب کرده است",
+        "start_char": 1542,
+        "end_char": 1568,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "حل اختلاف",
+      "evidence": {
+        "quote": "به جهت حل اختلاف به دیوان عالی کشور ارسال داشته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت خانم ش.ج. به خواسته صدور حکم به ملاقات فرزند مشترک به نام س. که نشانی خوانده در دادخواست تقدیمی خرمشهر آرش نبش ف.... قیدشده را به جهت اینکه خواهان ساکن اسلام آباد غرب... می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم ش.ج. به خواسته صدور حکم به ملاقات فرزند مشترک به نام س. که نشانی خوانده در دادخواست تقدیمی خرمشهر آرش نبش ف.... قیدشده",
+        "start_char": 91,
+        "end_char": 223,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پرونده کلاسه 910854 یا 823 ـ /91",
+        "start_char": 35,
+        "end_char": 67,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در مسکن دیگری غیر از محل اقامت شوهر سکونت دارد",
+      "evidence": {
+        "quote": "خوانده موصوف خوانده یادشده در مسکن دیگری غیر از محل اقامت او سکونت دارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده مسکن مستقلی را بدون اذن شوهر اختیار کرده است",
+      "evidence": {
+        "quote": "مسکن مستقلی ولو بدون اذن دادگاه و یا بدون اذن شوهرش اختیار کرده است",
+        "start_char": 1426,
+        "end_char": 1493,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "3501",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شرکت",
+      "evidence": {
+        "quote": "عقد شرکت بین متداعیین نیست",
+        "start_char": 1486,
+        "end_char": 1512,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "طبق ماده 265 قانون مدنی ظاهر عدم تبرع است",
+        "start_char": 2523,
+        "end_char": 2564,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "با احتساب خسارات ازجمله تأخیر تأدیه",
+        "start_char": 166,
+        "end_char": 201,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ خواسته را (000/600/101 تومان) برای احداث کارخانه و شراکت با خوانده پرداخت نموده",
+        "start_char": 1008,
+        "end_char": 1092,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه نخستین",
+        "start_char": 1658,
+        "end_char": 1680,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته صدور حکم به محکومیت خوانده به پرداخت",
+        "start_char": 82,
+        "end_char": 128,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ب.م. فرزند ح.",
+        "start_char": 54,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "باقی ماندن وجه پرداختی از آن زمان در دست خوانده موجبی نداشته استرداد آن با احتساب خسارات ازجمله خسارت تأخیر تأدیه مورد استدعاست وکیل خواهان",
+        "start_char": 477,
+        "end_char": 616,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "وکیل آقای م.غ. (فرمان خواه)",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "رونوشت سند عادی مورخه 4/12/82",
+        "start_char": 3123,
+        "end_char": 3152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "به صورت وجه نقد به خوانده پرداخت کرده است",
+        "start_char": 378,
+        "end_char": 419,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کارخانه",
+      "evidence": {
+        "quote": "واگذاری سه دانگ از شش دانگ کارخانه هادی نور",
+        "start_char": 924,
+        "end_char": 967,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده به دریافت وجه اقرار کرده است",
+      "evidence": {
+        "quote": "حکایت از اقرار خوانده به دریافت یک صد و یک میلیون و شصت هزار تومان از خواهان دارد",
+        "start_char": 3156,
+        "end_char": 3237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شراکت در کارخانه به حکم دادگاه پذیرفته نشد",
+      "evidence": {
+        "quote": "چون شراکت ایشان در کارخانه به حکم دادگاه پذیرفته نشد",
+        "start_char": 420,
+        "end_char": 472,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

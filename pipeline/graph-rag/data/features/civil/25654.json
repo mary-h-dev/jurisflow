@@ -1,0 +1,133 @@
+{
+  "ruling_id": "25654",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته فسخ نکاح تقدیم نموده است",
+        "start_char": 74,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت برابر سند نکاحیه شماره 19345-1392/8/3 دفتر ازدواج تهران محرز است",
+        "start_char": 410,
+        "end_char": 486,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت خانم الف. ب. با وکالت آقای م. د. به خواسته فسخ نکاح تقدیم نموده است",
+        "start_char": 22,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی دادنامه مذکور تأیید می‌شود",
+        "start_char": 2366,
+        "end_char": 2413,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "مدعی آگاهی و اشراف زوج به وضعیت زوجه شده است",
+        "start_char": 365,
+        "end_char": 409,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "اعلام نموده زوجه افکارش در حد بچه 9 ساله است",
+        "start_char": 111,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی خانم الف. ب.",
+        "start_char": 1671,
+        "end_char": 1705,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "با تقاضای تجدیدنظرخوانده به استناد ماده 1128 قانون مدنی",
+        "start_char": 1842,
+        "end_char": 1897,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دفتر ازدواج",
+      "evidence": {
+        "quote": "رابطه زوجیت برابر سند نکاحیه شماره 19345-1392/8/3 دفتر ازدواج تهران محرز است",
+        "start_char": 410,
+        "end_char": 486,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1293 مورخه 1393/8/28 صادره از شعبه 267 دادگاه خانواده تهران",
+        "start_char": 1746,
+        "end_char": 1827,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم توانایی زوجه در انجام وظایف مادری و اداره امور زندگی",
+      "evidence": {
+        "quote": "با توجه به نظریه پزشکی قانونی زوجه از انجام آن عاجز است",
+        "start_char": 904,
+        "end_char": 959,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم وقوع مواقعه بین زوجین",
+      "evidence": {
+        "quote": "عدم مواقعه فیمابین زوجین که مؤید عدم ارتباط نزدیک زوجین به صورت مستمر با یکدیگر می‌باشد",
+        "start_char": 1183,
+        "end_char": 1270,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

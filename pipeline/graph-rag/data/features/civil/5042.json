@@ -1,0 +1,143 @@
+{
+  "ruling_id": "5042",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "موکل از حق حبس خود استفاده می کند",
+        "start_char": 269,
+        "end_char": 302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "مبنی بر تمکین",
+        "start_char": 48,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "از ایفای وظایفی که در مقابل شوهر دارد امتناع نماید",
+        "start_char": 174,
+        "end_char": 224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دفاع",
+      "evidence": {
+        "quote": "وکیل خوانده دفاع نموده",
+        "start_char": 246,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأي صادره دادگاه بدوی را نقض کرده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان را غیروارد تشخیص",
+        "start_char": 348,
+        "end_char": 376,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وکیل خوانده دفاع نموده",
+        "start_char": 246,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "در حق زوج صادر می نماید",
+        "start_char": 1348,
+        "end_char": 1371,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "محکومیت زوجه به زندگی مشترک",
+        "start_char": 1312,
+        "end_char": 1339,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه زوجه در عقدنامه استنادی",
+        "start_char": 929,
+        "end_char": 958,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "مهریه زوجه در عقدنامه استنادی",
+        "start_char": 929,
+        "end_char": 958,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مهریه در عقدنامه عندالاسطاعت شرط شده است",
+      "evidence": {
+        "quote": "مهریه زوجه در عقدنامه استنادی عندالاسطاعت شرط گردیده است",
+        "start_char": 929,
+        "end_char": 985,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مهریه هنوز تسلیم نشده است",
+      "evidence": {
+        "quote": "تا مهر به او تسلیم نشده",
+        "start_char": 150,
+        "end_char": 173,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

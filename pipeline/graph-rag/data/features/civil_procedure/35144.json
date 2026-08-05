@@ -1,0 +1,143 @@
+{
+  "ruling_id": "35144",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "به خواسته بطلان رأی داوری",
+        "start_char": 123,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهلت مقرر",
+      "evidence": {
+        "quote": "خارج از مهلت مقرر",
+        "start_char": 323,
+        "end_char": 340,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ذینفع بودن",
+      "evidence": {
+        "quote": "ذی نفع بودن وی مفروغ عنه میباشد",
+        "start_char": 1015,
+        "end_char": 1046,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طرح",
+      "evidence": {
+        "quote": "دادخواست بطلان آن در تاریخ 1392/6/17 طرح گردیده است",
+        "start_char": 268,
+        "end_char": 319,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "به رای داوری اعتراض نموده است",
+        "start_char": 1448,
+        "end_char": 1477,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی می باشد",
+        "start_char": 562,
+        "end_char": 588,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "طرفیت",
+      "evidence": {
+        "quote": "به طرفیت آقایان 1- الف. ق.  2- ع. پ.ن.",
+        "start_char": 84,
+        "end_char": 122,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "اعتراض به رای داور بوده است",
+        "start_char": 1816,
+        "end_char": 1843,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "بطلان رأی داوری",
+        "start_char": 133,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 940284",
+        "start_char": 761,
+        "end_char": 789,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دادخواست خارج از مهلت قانونی ارائه شده است",
+      "evidence": {
+        "quote": "خارج از مهلت مقرر و پیش بینی شده در ماده 490 قانون آیین دادرسی مدنی می باشد",
+        "start_char": 323,
+        "end_char": 398,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رأی داوری ابلاغ شده است",
+      "evidence": {
+        "quote": "رأی داوری مذکور در تاریخ 1392/4/5 ابلاغ گردیده است",
+        "start_char": 215,
+        "end_char": 265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اعتراض در مهلت قانونی بوده است",
+      "evidence": {
+        "quote": "لایحه اعتراض بر رای داوری در مهلت قانونی بوده",
+        "start_char": 2053,
+        "end_char": 2098,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

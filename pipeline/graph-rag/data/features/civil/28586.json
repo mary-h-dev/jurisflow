@@ -1,0 +1,203 @@
+{
+  "ruling_id": "28586",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه فرزند مشترک",
+        "start_char": 103,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رشید",
+      "evidence": {
+        "quote": "رشید محسوب میگردد",
+        "start_char": 2146,
+        "end_char": 2163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اهلیت",
+      "evidence": {
+        "quote": "اهلیت انتخاب وکیل و اقامه دعوا دارد",
+        "start_char": 2172,
+        "end_char": 2206,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه نفقه فرزند مشترک",
+        "start_char": 95,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "خواهان به نظریه مذکور اعتراض نموده",
+        "start_char": 851,
+        "end_char": 885,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "اقدام به اقامه دعوا نموده",
+        "start_char": 2249,
+        "end_char": 2274,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته نقض میگردد",
+        "start_char": 2635,
+        "end_char": 2668,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "قرار رد دعوا صادر میگردد",
+        "start_char": 2731,
+        "end_char": 2755,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از خواهان خانم ن. ف.م.",
+        "start_char": 34,
+        "end_char": 56,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده آقای م.م. ق.",
+        "start_char": 68,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظرخواه به پرداخت نفقه",
+        "start_char": 1771,
+        "end_char": 1799,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدید نظرخوانده محکوم شده است",
+        "start_char": 1863,
+        "end_char": 1898,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "لایحه تقدیمی وکیل خواهان",
+        "start_char": 1079,
+        "end_char": 1103,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "به موجب سند رسمی شماره ترتیب",
+        "start_char": 216,
+        "end_char": 244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "واحد",
+      "evidence": {
+        "quote": "و یک واحد مسکونی در جمالزاده داشته",
+        "start_char": 614,
+        "end_char": 648,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "و یک خودروی 206 نیز دارد",
+        "start_char": 690,
+        "end_char": 714,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طلاق طرفین با صدور حکم رسمی انجام شده است",
+      "evidence": {
+        "quote": "حکم طلاق آنها صادر شد",
+        "start_char": 303,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزند به سن بلوغ رسیده است",
+      "evidence": {
+        "quote": "فرزند مشترک طرفین دختر و در حال حاضر 13 ساله می باشد",
+        "start_char": 1999,
+        "end_char": 2051,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادخواست فرزند امضا نشده است",
+      "evidence": {
+        "quote": "دادخواست مزبور به امضاء وی نرسیده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

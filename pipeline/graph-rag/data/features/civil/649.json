@@ -1,0 +1,183 @@
+{
+  "ruling_id": "649",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته صدور حکم بر اعلام فسخ",
+        "start_char": 123,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "ضمن عقد خارج لازم حق عزل وکیل (خوانده) را از خود اسقاط نموده اند",
+        "start_char": 772,
+        "end_char": 836,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عزل",
+      "evidence": {
+        "quote": "وکالت فقط با عزل موکل",
+        "start_char": 972,
+        "end_char": 993,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم بر اعلام فسخ",
+        "start_char": 123,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "نسبت به انتقال ملک موضوع وکالت نامه",
+        "start_char": 610,
+        "end_char": 645,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اسقاط",
+      "evidence": {
+        "quote": "حق عزل وکیل (خوانده) را از خود اسقاط نموده اند",
+        "start_char": 790,
+        "end_char": 836,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم بر رد آن صادر می نماید",
+        "start_char": 1199,
+        "end_char": 1225,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته تأیید می شود",
+        "start_char": 2148,
+        "end_char": 2183,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با توجه به اینکه خواهان ها به شرح انتهای وکالت نامه",
+        "start_char": 708,
+        "end_char": 759,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده با استفاده از وکالت نامه موضوع دعوی",
+        "start_char": 567,
+        "end_char": 609,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "حق عزل وکیل (خوانده) را از خود اسقاط نموده اند",
+        "start_char": 790,
+        "end_char": 836,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 00588 مورخ 10/7/91 صادره از شعبه 36 دادگاه عمومی حقوقی تهران، که براساس آن حکم به رد دعوی تجدیدنظرخواهان",
+        "start_char": 1499,
+        "end_char": 1625,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "وکالت نامه رسمی شماره و تاریخ 54415 ـ 1/9/1389 دفترخانه 143 تهران",
+        "start_char": 155,
+        "end_char": 220,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "نسبت به انتقال ملک موضوع وکالت نامه",
+        "start_char": 610,
+        "end_char": 645,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 00588 مورخ 10/7/91",
+        "start_char": 1499,
+        "end_char": 1539,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده با استفاده از وکالت نامه ملک را به بانک منتقل کرده است",
+      "evidence": {
+        "quote": "خوانده با استفاده از وکالت نامه موضوع دعوی نسبت به انتقال ملک موضوع وکالت نامه به بانک گردشگری و بانک مذکور نیز به شخص ثالث دیگری نموده است",
+        "start_char": 567,
+        "end_char": 706,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین حق عزل وکیل را اسقاط کرده‌اند",
+      "evidence": {
+        "quote": "خواهان ها به شرح انتهای وکالت نامه مستند دعوی، ضمن عقد خارج لازم حق عزل وکیل (خوانده) را از خود اسقاط نموده اند",
+        "start_char": 725,
+        "end_char": 836,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

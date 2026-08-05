@@ -1,0 +1,143 @@
+{
+  "ruling_id": "4689",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "احراز رابطه پدر و فرزندی",
+        "start_char": 260,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بلوغ",
+      "evidence": {
+        "quote": "در سن بلوغ می باشند",
+        "start_char": 1376,
+        "end_char": 1395,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه فرزند",
+        "start_char": 115,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حاضر نشد",
+      "evidence": {
+        "quote": "خوانده علی رغم ابلاغ قانونی حاضر نشد",
+        "start_char": 460,
+        "end_char": 496,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "آن را نقض کرده",
+        "start_char": 1889,
+        "end_char": 1903,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان نفقه صادر می گردد",
+        "start_char": 1954,
+        "end_char": 1991,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خانم ش.ن.",
+        "start_char": 0,
+        "end_char": 22,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای الف.ع.",
+        "start_char": 74,
+        "end_char": 94,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخوانده",
+        "start_char": 1188,
+        "end_char": 1210,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه فرزند",
+        "start_char": 125,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "حسب دلالت مندرجات سند سجلی",
+        "start_char": 285,
+        "end_char": 311,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرزندان در سن بلوغ هستند",
+      "evidence": {
+        "quote": "دو فرزند مشترک در سن بلوغ می باشند",
+        "start_char": 1361,
+        "end_char": 1395,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مادر نمی‌تواند قائم‌مقام فرزندان باشد",
+      "evidence": {
+        "quote": "مادرآنان از طرف دو فرزند مشترک... نمی تواند قائم مقام آنان محسئ شود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

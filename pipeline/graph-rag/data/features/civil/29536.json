@@ -1,0 +1,173 @@
+{
+  "ruling_id": "29536",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تائید فسخ",
+        "start_char": 64,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غبن",
+      "evidence": {
+        "quote": "به علت غبن فاحش",
+        "start_char": 162,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "خواهان با ارسال اظهار نامه خیار خود را اعمال",
+        "start_char": 472,
+        "end_char": 516,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "تائید فسخ",
+        "start_char": 64,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "اقامه دعوی کرده",
+        "start_char": 519,
+        "end_char": 534,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "تقدیم لایحه",
+        "start_char": 561,
+        "end_char": 572,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد تجدیدنظر",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظر خواهی",
+        "start_char": 2749,
+        "end_char": 2770,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان داود م.غ.",
+        "start_char": 8,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده ن. الف.",
+        "start_char": 30,
+        "end_char": 53,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخواه",
+        "start_char": 1891,
+        "end_char": 1911,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده",
+        "start_char": 1956,
+        "end_char": 1976,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اتومبیل",
+      "evidence": {
+        "quote": "معامله یک دستگاه اتومبیل پراید به شماره انتظامی 865 ب27 ایران 66",
+        "start_char": 97,
+        "end_char": 161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "به انضمام خسارات دادرسی",
+        "start_char": 194,
+        "end_char": 217,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خودرو دو تکه و جوش خورده است",
+      "evidence": {
+        "quote": "اطلاق خودرو به علت دو تکه بودن جوش خورده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله در اسفند ماه 1393 انجام شده است",
+      "evidence": {
+        "quote": "تاریخ معامله اسفند ماه 1393 بوده",
+        "start_char": 2086,
+        "end_char": 2118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان سه ماه پس از معامله تقاضای فسخ کرده است",
+      "evidence": {
+        "quote": "وقریب سه ماه پس از معامله خواهان بدوی تقاضای فسخ کرده است",
+        "start_char": 2187,
+        "end_char": 2244,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

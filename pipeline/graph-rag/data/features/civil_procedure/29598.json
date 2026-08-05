@@ -1,0 +1,193 @@
+{
+  "ruling_id": "29598",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال رأی داور",
+        "start_char": 88,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "شرط داوری شامل وی نمی شود",
+        "start_char": 1608,
+        "end_char": 1633,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "انتقال قرارداد را شامل داور هم می داند",
+        "start_char": 568,
+        "end_char": 606,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تراضی",
+      "evidence": {
+        "quote": "طرفین تراضی کرده اند",
+        "start_char": 2528,
+        "end_char": 2548,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تسویه حساب",
+      "evidence": {
+        "quote": "تسویه حساب برعهده موکل نبوده",
+        "start_char": 319,
+        "end_char": 347,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدید نظر خواهی آقای م. الف.",
+        "start_char": 1287,
+        "end_char": 1323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 3211,
+        "end_char": 3241,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "تعهد خواهان به انجام کلیه تعهدات",
+        "start_char": 700,
+        "end_char": 732,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مابین خوانده وآقای م. الف. می باشد",
+        "start_char": 276,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه قائم مقام آقای م. م. می باشد",
+        "start_char": 2254,
+        "end_char": 2295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "از ناحیه شرکت تجدیدنظرخوانده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "از طریق فرآیند قضایی تعیین گردیده است و چنین داوری فاقد ویژگی مرضی الطرفین است",
+        "start_char": 2981,
+        "end_char": 3059,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "قرارداد شماره 880702",
+        "start_char": 224,
+        "end_char": 244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه",
+      "evidence": {
+        "quote": "توافق نامه 89/1/29",
+        "start_char": 670,
+        "end_char": 688,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "ابطال رأی داور",
+        "start_char": 88,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره شماره 510",
+        "start_char": 1402,
+        "end_char": 1425,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "داور از طریق فرآیند قضایی تعیین شده است",
+      "evidence": {
+        "quote": "داور با درخواست شرکت تجدیدنظرخوانده و از طریق فرآیند قضایی تعیین گردیده است",
+        "start_char": 2943,
+        "end_char": 3018,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرط داوری در قرارداد وجود دارد",
+      "evidence": {
+        "quote": "بند 10 قرارداد مذکور تصریح شده به اینکه اختلافات ناشی از تغبیر و یا تفسیر این قرارداد از طریق داور مرضی الطرفین با حق صلح و سازش حل و فصل خواهد شد",
+        "start_char": 2370,
+        "end_char": 2516,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

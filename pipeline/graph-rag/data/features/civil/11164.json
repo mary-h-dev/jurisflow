@@ -1,0 +1,123 @@
+{
+  "ruling_id": "11164",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اراده",
+      "evidence": {
+        "quote": "برخلاف اراده موجر پیش‌بینی شده است",
+        "start_char": 226,
+        "end_char": 260,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "به خواسته تجویز تغییر شغل",
+        "start_char": 61,
+        "end_char": 86,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ج.ک.",
+        "start_char": 946,
+        "end_char": 977,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را عیناً تأیید",
+        "start_char": 1796,
+        "end_char": 1834,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "برخلاف اراده موجر پیش‌بینی شده است",
+        "start_char": 226,
+        "end_char": 260,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "قانون روابط موجر و مستأجر",
+        "start_char": 173,
+        "end_char": 198,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را وارد ندانسته",
+        "start_char": 625,
+        "end_char": 659,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم به بطلان دعوای تجدیدنظرخواه",
+        "start_char": 1111,
+        "end_char": 1142,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 638-930",
+        "start_char": 1016,
+        "end_char": 1040,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تغییر شغل بدون رضایت موجر رخ داده است",
+      "evidence": {
+        "quote": "تغییر شغل بدون رضایت موجر بر خلاف اصول و قواعد حقوقی می‌باشد",
+        "start_char": 1295,
+        "end_char": 1355,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در قانون نص صریح برای تغییر شغل وجود ندارد",
+      "evidence": {
+        "quote": "عمل به چنین موضوعی نیازمند نص صریح قانون می‌باشد که در مانحن‌فیع این نص وجود ندارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "30792",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد ثمن معامله",
+        "start_char": 87,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "حسب مورد خیار فسخ تولید خواهد شد",
+        "start_char": 2421,
+        "end_char": 2452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "حسب مورد خیار فسخ تولید خواهد شد",
+        "start_char": 2421,
+        "end_char": 2452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقایان",
+        "start_char": 2879,
+        "end_char": 2899,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوای",
+      "evidence": {
+        "quote": "قرار رد دعوای خواهان صادر و اعلام می نماید",
+        "start_char": 2686,
+        "end_char": 2728,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نتیجتاً تایید",
+        "start_char": 4205,
+        "end_char": 4243,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان به شرح دادخواست تقدیمی مدعیست",
+        "start_char": 179,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از قرار متری نود و هشت میلیون ریال و جمعاً به مبلغ سه میلیارد و یکصد و شصت میلیون و پانصد هزار تومان از خوانده آقای ک. الف. خریداری می نمایند",
+        "start_char": 345,
+        "end_char": 486,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "ادعاء تجدیدنظرخواه دال بر نقصان",
+        "start_char": 3851,
+        "end_char": 3880,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بطرفیت تجدیدنظرخوانده آقای ک. الف.",
+        "start_char": 2959,
+        "end_char": 2993,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "شش دانگ یک قطعه زمین مسکونی",
+        "start_char": 242,
+        "end_char": 269,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "با اخذ سند تک برگ خود",
+        "start_char": 538,
+        "end_char": 559,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "وسند مبایعه نامه عادی",
+        "start_char": 1523,
+        "end_char": 1544,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "مبنای محاسبه است و نظریه کارشناس رسمی در پرونده تامین در مقابل آن فاقد اعتبار است",
+        "start_char": 1656,
+        "end_char": 1737,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مساحت واقعی ملک کمتر از مساحت مندرج در سند است",
+      "evidence": {
+        "quote": "متراژ واقعی ملک از متراژ مورد ادعا فروشنده و مندرج سند کمتر است",
+        "start_char": 678,
+        "end_char": 741,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موضوع معامله زمین مسکونی با پلاک ثبتی است",
+      "evidence": {
+        "quote": "یک قطعه زمین مسکونی به پلاک ثبتی...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

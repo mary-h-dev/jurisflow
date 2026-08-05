@@ -1,0 +1,203 @@
+{
+  "ruling_id": "37016",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "لذا عسرو حرج محقق نبوده",
+        "start_char": 2545,
+        "end_char": 2568,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم سازش",
+      "evidence": {
+        "quote": "نظریه داوران نیز بر عدم سازش می باشد",
+        "start_char": 2088,
+        "end_char": 2123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان بدوی صادر نمود",
+        "start_char": 2591,
+        "end_char": 2630,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "طرح دعوی نموده",
+        "start_char": 89,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "از تهیه منزل استنکاف نموده",
+        "start_char": 163,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به دادنامه اعتراض نموده",
+        "start_char": 2200,
+        "end_char": 2228,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "زوجه از دادنامه فرجامخواهی نموده",
+        "start_char": 2636,
+        "end_char": 2668,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه بدوی را نقض",
+        "start_char": 2569,
+        "end_char": 2588,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "باتقدیم دادخواست به خواسته طلاق به طرفیت ا. ا. ی. طرح دعوی نموده",
+        "start_char": 39,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با خوانده ازدواج نموده",
+        "start_char": 128,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از ناحیه زوج منجربه بطلان گردیده",
+        "start_char": 310,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "علیه زوجه از ناحیه زوج",
+        "start_char": 300,
+        "end_char": 322,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "داور زوجه نظر به عدم سازش داده است",
+        "start_char": 975,
+        "end_char": 1009,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاهد",
+      "evidence": {
+        "quote": "از شهود استماع شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "واحد",
+      "evidence": {
+        "quote": "بابت انتقال یک واحد اپارتمان",
+        "start_char": 271,
+        "end_char": 299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "از تهیه منزل استنکاف نموده",
+        "start_char": 163,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مفارقت جسمانی و عدم رابطه جنسی بین زوجین",
+      "evidence": {
+        "quote": "زوجین مفارقت جسمانی دارند و رابطه جنسی ندارند",
+        "start_char": 450,
+        "end_char": 495,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ترک زندگی مشترک توسط زوج",
+      "evidence": {
+        "quote": "با توجه به ترک زندگی از سوی زوج در یکسال گذشته",
+        "start_char": 1861,
+        "end_char": 1906,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه توسط زوج",
+      "evidence": {
+        "quote": "و نفقه نداده است",
+        "start_char": 534,
+        "end_char": 550,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

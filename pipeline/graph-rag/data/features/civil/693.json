@@ -1,0 +1,153 @@
+{
+  "ruling_id": "693",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته تمکین",
+        "start_char": 46,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "موانع مشروع",
+      "evidence": {
+        "quote": "از موانع مشروع مذکور در ماده 1108 قانون مدنی نیست",
+        "start_char": 998,
+        "end_char": 1047,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 330,
+        "end_char": 356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم تجدیدنظر",
+        "start_char": 417,
+        "end_char": 453,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض",
+        "start_char": 1435,
+        "end_char": 1464,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست آقای ح.س. به طرفیت خانم ف.ج.",
+        "start_char": 0,
+        "end_char": 45,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم ف.ج.",
+        "start_char": 27,
+        "end_char": 45,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "دادگاه اعتراض تجدیدنظرخواه را وارد دانسته است",
+        "start_char": 742,
+        "end_char": 787,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده (زوجه) دلیلی ارائه ننموده است",
+        "start_char": 884,
+        "end_char": 928,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اصلی",
+      "evidence": {
+        "quote": "حکم به تمکین خوانده اصلی (زوجه) نسبت به زوج صادر",
+        "start_char": 1532,
+        "end_char": 1580,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "نسبت به زوج صادر",
+        "start_char": 1564,
+        "end_char": 1580,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "منزلی که خواهان برای حضور خوانده",
+        "start_char": 79,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "منزل معرفی شده توسط خواهان مناسب نیست",
+      "evidence": {
+        "quote": "منزلی که خواهان برای حضور خوانده و گذراندن زندگی مشترک معرفی نموده، حسب گزارش واصله از واحد مددکاری مناسب نمی باشد",
+        "start_char": 79,
+        "end_char": 193,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه حاضر به سکونت در خانه پدر و مادر شوهر نیست",
+      "evidence": {
+        "quote": "زن به بهانه اینکه در خانه پدر و مادرشوهر حاضر به سکونت نیست",
+        "start_char": 937,
+        "end_char": 996,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "ruling_id": "28303",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "تعیین ومطالبه نفقه فرزندان مشترک",
+        "start_char": 60,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "بلحاظ سن کودکان واولویت حضانت فرزندان",
+        "start_char": 388,
+        "end_char": 425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظر",
+      "evidence": {
+        "quote": "قابل تجدید نظر در محاکم تجدید نظر استان تهران میباشد",
+        "start_char": 1568,
+        "end_char": 1619,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تعیین",
+      "evidence": {
+        "quote": "بخواسته تعیین ومطالبه نفقه فرزندان مشترک",
+        "start_char": 52,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "که مورد اعتراض خوانده قرارگرفته",
+        "start_char": 853,
+        "end_char": 884,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست تقدیمی خواهان",
+        "start_char": 158,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ن. ن. ی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظر خواهی آقای ن. ن.ق.ق.",
+        "start_char": 1689,
+        "end_char": 1719,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "تصویر سند رسمی نکاح",
+        "start_char": 212,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "به شرح لایحه تقدیمی وی",
+        "start_char": 347,
+        "end_char": 369,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی صادره حضوری بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرزندان مشترک نزد خواهان هستند",
+      "evidence": {
+        "quote": "فعلا نزد خواهان میباشند",
+        "start_char": 736,
+        "end_char": 759,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین خواهان و خوانده وجود دارد",
+      "evidence": {
+        "quote": "گویای تولد فرزندان مورد ادعا از رابطه زوجیت خواهان وخوانده میباشد",
+        "start_char": 255,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

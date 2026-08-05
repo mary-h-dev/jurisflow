@@ -1,0 +1,213 @@
+{
+  "ruling_id": "7800",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "دلالت بر اشتغال ذمه خوانده",
+        "start_char": 555,
+        "end_char": 581,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "تحصیل برائت ذمه",
+        "start_char": 847,
+        "end_char": 862,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "استصحاب بقاء دین",
+        "start_char": 957,
+        "end_char": 973,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 1365,
+        "end_char": 1382,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه",
+        "start_char": 104,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "در حق خواهان محکوم می نماید",
+        "start_char": 1482,
+        "end_char": 1509,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای س.الف.",
+        "start_char": 1666,
+        "end_char": 1691,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "رأی مزبور نیست چه اینکه چک ها مطابق مقررات به آقای ع.ج. منتقل شده و بانک گواهی های عدم پرداخت مربوطه را بنام وی صادر کرده است و خط گرفتگی کلمه از حواله کرد در متن چک تأثیری در مراتب ندارد علاوه بر این در قرارداد فی مابین طرفین شرطی مبنی بر اینکه تجدیدنظرخواه به عنوان صادرکننده چک ها حق دارد در صورت تخلف طرف قرارداد از پرداخت وجه چک ها امتناع کند وجود ندارد و راجع به شرط داوری نیز قبلاً طی دادنامه شماره 920101 مورخ 15/2/1392 این دادگاه تصمیم مقتضی اتخاذشده است فلذا مستنداً به ماده 358 از همان قانون ضمن رد تجدیدنظرخواهی دادنامه تجدیدنظر خواسته را تأیید می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان آقای ع.ج.",
+        "start_char": 0,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دلالت بر اشتغال ذمه خوانده",
+        "start_char": 555,
+        "end_char": 581,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "متضمن محکومیت تجدیدنظرخواه",
+        "start_char": 1835,
+        "end_char": 1861,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "چون وی به عنوان وکیل تجدیدنظر خوانده دیگر در مرحله رسیدگی بدوی دخالت داشته",
+        "start_char": 2748,
+        "end_char": 2822,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "صادرکننده",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به عنوان صادرکننده چک ها",
+        "start_char": 2373,
+        "end_char": 2410,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "6 فقره چک",
+        "start_char": 125,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "مطالبه وجه",
+        "start_char": 114,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "وجود اصل مستند در ید خواهان",
+        "start_char": 527,
+        "end_char": 554,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "در قرارداد فی مابین طرفین",
+        "start_char": 2328,
+        "end_char": 2353,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک‌ها پرداخت نشده‌اند",
+      "evidence": {
+        "quote": "بانک گواهی های عدم پرداخت مربوطه را بنام وی صادر کرده است",
+        "start_char": 2199,
+        "end_char": 2256,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در متن چک کلمه حواله کرد خط خورده است",
+      "evidence": {
+        "quote": "خط گرفتگی کلمه از حواله کرد در متن چک تأثیری در مراتب ندارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در قرارداد شرط امتناع از پرداخت در صورت تخلف وجود ندارد",
+      "evidence": {
+        "quote": "در قرارداد فی مابین طرفین شرطی مبنی بر اینکه تجدیدنظرخواه به عنوان صادرکننده چک ها حق دارد در صورت تخلف طرف قرارداد از پرداخت وجه چک ها امتناع کند وجود ندارد",
+        "start_char": 2328,
+        "end_char": 2485,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

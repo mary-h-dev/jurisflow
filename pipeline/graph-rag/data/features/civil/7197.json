@@ -1,0 +1,283 @@
+{
+  "ruling_id": "7197",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 108,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "صدور حکم طلاق",
+        "start_char": 569,
+        "end_char": 582,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ازدواج دائم",
+      "evidence": {
+        "quote": "با خوانده ازدواج دائم و رسمی نموده",
+        "start_char": 318,
+        "end_char": 352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه ـ نفقه ـ نحله ـ اجرت المثل",
+        "start_char": 2086,
+        "end_char": 2118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مهریه ـ نفقه ـ نحله ـ اجرت المثل",
+        "start_char": 2086,
+        "end_char": 2118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مهریه ـ نفقه ـ نحله ـ اجرت المثل",
+        "start_char": 2086,
+        "end_char": 2118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "حضانت منتفی است",
+        "start_char": 3628,
+        "end_char": 3643,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت خانم ک.ح. فرزند ح. به خواسته صدور گواهی عدم امکان سازش (طلاق) به دادگاه های شهرستان نوشهر تقدیم داشته",
+        "start_char": 60,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عزل",
+      "evidence": {
+        "quote": "وکیل خود آقای ع.ش. را از وکالت عزل نموده است",
+        "start_char": 794,
+        "end_char": 838,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "معرفی",
+      "evidence": {
+        "quote": "آقای ع.م. به عنوان داور خود معرفی می نماید",
+        "start_char": 2192,
+        "end_char": 2234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به دادنامه صادره اعتراض نمودند",
+        "start_char": 3914,
+        "end_char": 3949,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "با وکالت خانم ها ر.ن. و الف.خ. از مرکز امور مشاوران قوه قضاییه طی دادخواست نسبت به دادنامه صادره فرجام خواهی کردند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابلاغ",
+      "evidence": {
+        "quote": "با ابلاغ دادنامه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده اعاده می‌گردد",
+        "start_char": 5270,
+        "end_char": 5290,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت خانم ک.ح. فرزند ح.",
+        "start_char": 60,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با خوانده ازدواج دائم و رسمی نموده",
+        "start_char": 318,
+        "end_char": 352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل پایه یک دادگستری",
+        "start_char": 38,
+        "end_char": 59,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "آقای ع.م. به عنوان داور خود معرفی می نماید",
+        "start_char": 2192,
+        "end_char": 2234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "مشارالیها( تجدیدنظرخواه)",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "طبق رونوشت عقدنامه پیوست دادخواست",
+        "start_char": 236,
+        "end_char": 269,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به شرح دادنامه شماره 275ـ27/4/90",
+        "start_char": 2761,
+        "end_char": 2793,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "طی لایحه که به شماره 3419ـ29/10/89 ثبت شده",
+        "start_char": 750,
+        "end_char": 792,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "با پیوست نمودن وکالت نامه خود را",
+        "start_char": 2544,
+        "end_char": 2576,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ازدواج طرفین در سال ۵۷ انجام شده است",
+      "evidence": {
+        "quote": "طبق رونوشت عقدنامه پیوست دادخواست موکل به تاریخ 15/11/57",
+        "start_char": 236,
+        "end_char": 292,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین دارای ۵ فرزند هستند که اکثر آن‌ها بالغ هستند",
+      "evidence": {
+        "quote": "حاصل زندگی مشترک پنج فرزند می باشد یکی از آنها فوت نموده و همگی بالغ هستند",
+        "start_char": 356,
+        "end_char": 430,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اختلاف و سوء رفتار در زندگی مشترک وجود دارد",
+      "evidence": {
+        "quote": "با توجه به اختلاف و ناراحتی های پیش آمده و عدم امکان ادامه زندگی مشترک و سوء رفتار خوانده",
+        "start_char": 431,
+        "end_char": 520,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجین در مرحله داوری قرار گرفته‌اند",
+      "evidence": {
+        "quote": "دادگاه قرار ارجاع امر به داوری صادر می نماید",
+        "start_char": 2130,
+        "end_char": 2174,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

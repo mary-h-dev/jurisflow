@@ -1,0 +1,173 @@
+{
+  "ruling_id": "4794",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "منع اشتغال",
+      "evidence": {
+        "quote": "صدور حکم بر منع اشتغال",
+        "start_char": 71,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "به استناد ماده 1117 قانون مدنی",
+        "start_char": 652,
+        "end_char": 682,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "آیین دادرسی",
+      "evidence": {
+        "quote": "مستنداً به قسمت اول ماده 358 از قانون آیین دادرسی محاکم عمومی و انقلاب در امور مدنی",
+        "start_char": 1781,
+        "end_char": 1864,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه یادشده",
+        "start_char": 1757,
+        "end_char": 1779,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان بدوی",
+        "start_char": 1884,
+        "end_char": 1910,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "علی هذا خواهان را محمول به صحت قانونی تشخیص",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده را از اشتغال به هرگونه شغل تمام وقت خارج از منزل منع می نماید",
+        "start_char": 684,
+        "end_char": 752,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "لایحه اعتراضیه تجدیدنظرخواه",
+        "start_char": 1228,
+        "end_char": 1255,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "دفاعیه تجدیدنظرخوانده",
+        "start_char": 1258,
+        "end_char": 1279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "رضایت زوج (تجدیدنظرخوانده)",
+        "start_char": 1575,
+        "end_char": 1601,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "اشتغال زوجه",
+        "start_char": 1514,
+        "end_char": 1525,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "رونوشت سند ازدواج شماره 3553",
+        "start_char": 129,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 9209970216700412",
+        "start_char": 938,
+        "end_char": 976,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین با هم ازدواج کرده‌اند",
+      "evidence": {
+        "quote": "زوجیت طرفین محرز است",
+        "start_char": 206,
+        "end_char": 226,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین فرزندی ندارند",
+      "evidence": {
+        "quote": "پس از قریب 10 سال از شروع زندگی مشترک، فرزندی ندارند",
+        "start_char": 519,
+        "end_char": 571,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه در یک مؤسسه مالی و اعتباری مشغول به کار است",
+      "evidence": {
+        "quote": "اشتغال در مؤسسه مالی و اعتباری ک. در شعبه مرکزی و آن هم زوجه به عنوان معاون شعبه، مشغول به کار می باشد",
+        "start_char": 1294,
+        "end_char": 1396,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

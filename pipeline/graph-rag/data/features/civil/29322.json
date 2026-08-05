@@ -1,0 +1,163 @@
+{
+  "ruling_id": "29322",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "معامله فضولی بوده",
+        "start_char": 335,
+        "end_char": 352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تقاضای تنفیذ فسخ قرارداد را نموده است",
+        "start_char": 529,
+        "end_char": 566,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر",
+        "start_char": 680,
+        "end_char": 709,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجازه",
+      "evidence": {
+        "quote": "عدم اذن و اجازه وی",
+        "start_char": 1101,
+        "end_char": 1119,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "بخواسته تسلیم مبیع",
+        "start_char": 77,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعلام بطلان معامله",
+        "start_char": 129,
+        "end_char": 147,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی خانم ع. گ.",
+        "start_char": 892,
+        "end_char": 917,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر",
+        "start_char": 680,
+        "end_char": 709,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه با بررسی اوراق پرونده خواهان ادعا دارد",
+        "start_char": 252,
+        "end_char": 297,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ر. ک. بخواسته",
+        "start_char": 57,
+        "end_char": 84,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "تسلیم مبیع",
+        "start_char": 85,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "معامله",
+      "evidence": {
+        "quote": "اعلام بطلان معامله",
+        "start_char": 129,
+        "end_char": 147,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "فسخ قرارداد",
+        "start_char": 542,
+        "end_char": 553,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان ادعا دارد معامله توسط همسرش انجام شده است",
+      "evidence": {
+        "quote": "خواهان ادعا دارد که معامله واقع شده توسط همسرش بوده",
+        "start_char": 281,
+        "end_char": 332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان پیش‌تر درخواست فسخ قرارداد را داشته که به معنای تایید ضمنی معامله است",
+      "evidence": {
+        "quote": "تقاضای تنفیذ فسخ قرارداد را نموده است و ادعای فسخ قرارداد به منزله تایید ضمنی قرارداد و معامله فضولی می باشد",
+        "start_char": 529,
+        "end_char": 637,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

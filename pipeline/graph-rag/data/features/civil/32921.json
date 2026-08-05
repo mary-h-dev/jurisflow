@@ -1,0 +1,163 @@
+{
+  "ruling_id": "32921",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه طلب",
+        "start_char": 334,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تاخیر تادیه",
+        "start_char": 465,
+        "end_char": 482,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اهلیت",
+      "evidence": {
+        "quote": "واجد اهلیت",
+        "start_char": 26149,
+        "end_char": 26159,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "واگذار",
+      "evidence": {
+        "quote": "کلیه حقوق ناشی از قرارداد خود با خوانده را به خواهان ردیف اول واگذار نمود",
+        "start_char": 867,
+        "end_char": 940,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "نسبت به خواهان ردیف دوم قرار رد دعوا صادر می گردد",
+        "start_char": 1054,
+        "end_char": 1103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انعقاد",
+      "evidence": {
+        "quote": "انعقاد قرارداد",
+        "start_char": 8549,
+        "end_char": 8563,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان ها شرکت مهندسی و تجهیز آزمون قشم",
+        "start_char": 0,
+        "end_char": 39,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت شرکت آنالیتیک جنا",
+        "start_char": 236,
+        "end_char": 262,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "به وکالت از تجدیدنظر خواه",
+        "start_char": 3015,
+        "end_char": 3040,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظر خوانده ی ردیف دوم",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "کلیه حقوق ناشی از قرارداد خود با خوانده",
+        "start_char": 867,
+        "end_char": 906,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ایمیل",
+      "evidence": {
+        "quote": "در ایمیل مورخ 29 اکتبر 2007",
+        "start_char": 1481,
+        "end_char": 1508,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انتقال حقوق از خواهان دوم به خواهان اول",
+      "evidence": {
+        "quote": "کلیه حقوق ناشی از قرارداد خود با خوانده را به خواهان ردیف اول واگذار نمود",
+        "start_char": 867,
+        "end_char": 940,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "توافق از طریق پست الکترونیک انجام شده است",
+      "evidence": {
+        "quote": "توافق طرفین از طریق اینترنت و به صورت داده پیام از طریق پست الکترونیک انجام پذیرفته است",
+        "start_char": 1379,
+        "end_char": 1466,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم صلاحیت محلی مرجع بدوی",
+      "evidence": {
+        "quote": "دلیلی بر صلاحیت محلّی مرجع بدوی، تقدیم وارائه نشده",
+        "start_char": 26958,
+        "end_char": 27007,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

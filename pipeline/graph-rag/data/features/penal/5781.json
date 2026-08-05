@@ -1,0 +1,173 @@
+{
+  "ruling_id": "5781",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خیانت",
+      "evidence": {
+        "quote": "مبنی بر خیانت در امانت",
+        "start_char": 63,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جرم",
+      "evidence": {
+        "quote": "واجد وصف تعدد جرم بوده",
+        "start_char": 643,
+        "end_char": 665,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه تجدیدنظر استان تهران می‌باشد",
+        "start_char": 992,
+        "end_char": 1049,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "به نحو امانت به متهم تحویل می‌نماید",
+        "start_char": 219,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دستگیر",
+      "evidence": {
+        "quote": "دستگیر و پس از رسیدگی‌های قضایی",
+        "start_char": 434,
+        "end_char": 465,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم به مجازات مجدد فاقد محل قانونی می‌باشد",
+        "start_char": 683,
+        "end_char": 730,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تعقیب",
+      "evidence": {
+        "quote": "قرار موقوفی تعقیب متهم صادر و اعلام می‌نماید",
+        "start_char": 912,
+        "end_char": 956,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض و پرونده را به دادگاه بدوی اعاده می‌نماید",
+        "start_char": 1897,
+        "end_char": 1968,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را به دادگاه بدوی اعاده می‌نماید",
+        "start_char": 1929,
+        "end_char": 1968,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شکات",
+      "evidence": {
+        "quote": "از م.پ. مبنی بر خیانت در امانت",
+        "start_char": 55,
+        "end_char": 85,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "به نحو امانت به متهم تحویل می‌نماید",
+        "start_char": 219,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادرس",
+      "evidence": {
+        "quote": "دادرس دادگاه عمومی جزایی بخش فشافویه",
+        "start_char": 1051,
+        "end_char": 1087,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "یک دستگاه کامیون کشنده اسکانیا به شماره شهربانی...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 00081 صادر شده",
+        "start_char": 1172,
+        "end_char": 1208,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم در اتاقک کامیون سیگار جاسازی کرده است",
+      "evidence": {
+        "quote": "مبادرت به جاسازی مقادیری سیگار در اتاقک کامیون می‌نماید",
+        "start_char": 340,
+        "end_char": 395,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم به جرم قاچاق دستگیر شده است",
+      "evidence": {
+        "quote": "به جرم قاچاق دستگیر و پس از رسیدگی‌های قضایی",
+        "start_char": 421,
+        "end_char": 465,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

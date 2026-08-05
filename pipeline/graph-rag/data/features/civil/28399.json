@@ -1,0 +1,183 @@
+{
+  "ruling_id": "28399",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "وقوع بیع کالابین طرفین محرز است",
+        "start_char": 240,
+        "end_char": 271,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خواندگان به پرداخت مبلغ 360/000/000 ریال",
+        "start_char": 65,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "خوانده دلیل برپرداخت ثمن مبیع اقامه نکرده است",
+        "start_char": 364,
+        "end_char": 409,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواه ایراد و اعتراض موجهی",
+        "start_char": 1786,
+        "end_char": 1819,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان به پرداخت",
+        "start_char": 65,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "بیع صحیح خریدار را ملزم به پرداخت ثمن می کند",
+        "start_char": 307,
+        "end_char": 351,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده دلیل برپرداخت ثمن مبیع اقامه نکرده است",
+        "start_char": 364,
+        "end_char": 409,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را ضمن رد دفاعیات خوانده محمول به صحت تشخیص داده",
+        "start_char": 561,
+        "end_char": 628,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه ایراد و اعتراض موجهی",
+        "start_char": 1786,
+        "end_char": 1819,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده صادر شد",
+        "start_char": 1719,
+        "end_char": 1747,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "نماینده",
+      "evidence": {
+        "quote": "خوانده ردیف دوم در تحویل اجناس از خواهان نماینده وکارمند خوانده ردیف اول می باشد",
+        "start_char": 1112,
+        "end_char": 1191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "کارمند",
+      "evidence": {
+        "quote": "خوانده ردیف دوم در تحویل اجناس از خواهان نماینده وکارمند خوانده ردیف اول می باشد",
+        "start_char": 1112,
+        "end_char": 1191,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "الزام خواندگان به پرداخت مبلغ 360/000/000 ریال",
+        "start_char": 65,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "خوانده دلیل برپرداخت ثمن مبیع اقامه نکرده است",
+        "start_char": 364,
+        "end_char": 409,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کالا",
+      "evidence": {
+        "quote": "وقوع بیع کالابین طرفین محرز است",
+        "start_char": 240,
+        "end_char": 271,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وقوع معامله بیع بین طرفین",
+      "evidence": {
+        "quote": "وقوع بیع کالابین طرفین محرز است",
+        "start_char": 240,
+        "end_char": 271,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت ثمن توسط خوانده",
+      "evidence": {
+        "quote": "خوانده دلیل برپرداخت ثمن مبیع اقامه نکرده است",
+        "start_char": 364,
+        "end_char": 409,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "29433",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "احراز رابطه دینی میان خواهان و خوانده",
+        "start_char": 333,
+        "end_char": 370,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "به انضمام خسارت تأخیر تأدیه",
+        "start_char": 168,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه مبلغ 1/542/115/726 ریال",
+        "start_char": 91,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظر خواهی شرکت پ.",
+        "start_char": 1615,
+        "end_char": 1645,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض و حکم بر بی حقی خواهان نخستین صادر و اعلام می گردد",
+        "start_char": 3354,
+        "end_char": 3408,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "با تصحیح مبلغ مندرج در دادنامه تجدیدنظر خواسته به مبلغ 1/473/885/132 ریال ( یک میلیارد و چهارصد و هفتاد و سه میلیون و هشتصد و هشتاد و پنج هزار و صد و سی و دو ریال ) تائید می گردد",
+        "start_char": 2937,
+        "end_char": 3115,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست تقدیمی خواهان بانک صنعت و معدن",
+        "start_char": 0,
+        "end_char": 46,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده شرکت پ.",
+        "start_char": 47,
+        "end_char": 70,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه 01035 مورخ 93/9/11 صادره از شعبه بیست و سوم دادگاه عمومی تهران که براساس آن حکم بر پرداخت مبالغ مندرج در دادنامه مذکور به شرح آن توسط تجدیدنظر خواه صادر شده است",
+        "start_char": 1702,
+        "end_char": 1878,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "و تجدیدنظر خوانده است",
+        "start_char": 2277,
+        "end_char": 2298,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مطالبه مبلغ 1/542/115/726 ریال",
+        "start_char": 99,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه",
+      "evidence": {
+        "quote": "موضوع نامه به شماره 58641-92/7/29",
+        "start_char": 134,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دفاتر",
+      "evidence": {
+        "quote": "به تعارض دفاتر تجاری موجود در شرکت تجدیدنظر خواه و تجدیدنظر خوانده استناد کرده اند",
+        "start_char": 2228,
+        "end_char": 2310,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود بدهکاری شرکت خوانده به میزان خواسته",
+      "evidence": {
+        "quote": "قدر متیقن به بدهکاری شرکت خوانده به میزان خواسته را اعلام نموده",
+        "start_char": 504,
+        "end_char": 567,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تعارض دفاتر تجاری شرکت‌ها",
+      "evidence": {
+        "quote": "به تعارض دفاتر تجاری موجود در شرکت تجدیدنظر خواه و تجدیدنظر خوانده استناد کرده اند",
+        "start_char": 2228,
+        "end_char": 2310,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

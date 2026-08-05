@@ -1,0 +1,143 @@
+{
+  "ruling_id": "35417",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام زندگی مشترک",
+        "start_char": 175,
+        "end_char": 209,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "با عدم قصد تبرع انجام داده باشد",
+        "start_char": 587,
+        "end_char": 618,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌حقی",
+      "evidence": {
+        "quote": "حکم بر بیحقی خواهان صادر و اعلام می نماید",
+        "start_char": 948,
+        "end_char": 989,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 165,
+        "end_char": 192,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را نقض",
+        "start_char": 2137,
+        "end_char": 2161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "و نیز خسارت دادرسی محکوم می نماید",
+        "start_char": 2465,
+        "end_char": 2498,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از ابتدا قصد گرفتن اجرت را نداشته",
+        "start_char": 778,
+        "end_char": 811,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اصلی",
+      "evidence": {
+        "quote": "خوانده اصلی پرونده زوج",
+        "start_char": 2288,
+        "end_char": 2310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "با گذاشتن این شرط استحقاق اجرت المثل ایام زندگی مشترک زوجه احراز دستور زوج دانسته",
+        "start_char": 1657,
+        "end_char": 1738,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "چنانچه زوجه کارهایی را که شرعاً بعهده وی نبوده",
+        "start_char": 485,
+        "end_char": 531,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "به پرداخت مبلغ شانزده میلیون و دویست هزار تومان",
+        "start_char": 2314,
+        "end_char": 2361,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انجام کارهای خانه در ایام زندگی مشترک",
+      "evidence": {
+        "quote": "انگیزه انجام کار خانه بوده",
+        "start_char": 1932,
+        "end_char": 1958,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات قصد تبرع در مرحله اول",
+      "evidence": {
+        "quote": "از ابتدا قصد گرفتن اجرت را نداشته",
+        "start_char": 778,
+        "end_char": 811,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

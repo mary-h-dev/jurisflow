@@ -1,0 +1,163 @@
+{
+  "ruling_id": "7968",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مصلحت",
+      "evidence": {
+        "quote": "در خصوص رعایت مصلحت و غبطه موکل توسط وکیل",
+        "start_char": 1836,
+        "end_char": 1877,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد وکالت",
+      "evidence": {
+        "quote": "زیرا که عقد وکالت امانی می باشد",
+        "start_char": 4826,
+        "end_char": 4857,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجاوز",
+      "evidence": {
+        "quote": "درصورت تجاوز از حدود توافق صریح یا متعارف مصلحت موکل رعایت نشده",
+        "start_char": 2452,
+        "end_char": 2515,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "حساب",
+      "evidence": {
+        "quote": "الزام خوانده به تصفیه حساب",
+        "start_char": 123,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال ملک",
+      "evidence": {
+        "quote": "خوانده نیز 5 روز قبل از فوت وکیل ملک را به خود منتقل می نماید",
+        "start_char": 561,
+        "end_char": 622,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "باعث پرداخت مبلغ 46906905 ریال",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی خواهان خانم ر.ر.",
+        "start_char": 0,
+        "end_char": 40,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خواندگان به اسامی م.ر.",
+        "start_char": 62,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "با وکالت آقای الف.ک.",
+        "start_char": 41,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مورث",
+      "evidence": {
+        "quote": "متعلق به مورث موکل مرحوم ج.ر.",
+        "start_char": 390,
+        "end_char": 419,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "6 دانگ پلاک ثبتی شماره 16794 فرعی از124 اصلی",
+        "start_char": 345,
+        "end_char": 389,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "به موجب وکالت نامه شماره 53446",
+        "start_char": 437,
+        "end_char": 467,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "به موجب سند رسمی نموده",
+        "start_char": 915,
+        "end_char": 937,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انتقال ملک توسط وکیل به خودش پیش از فوت موکل",
+      "evidence": {
+        "quote": "خوانده نیز 5 روز قبل از فوت وکیل ملک را به خود منتقل می نماید",
+        "start_char": 561,
+        "end_char": 622,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تفاوت قیمت ذکر شده در سند رسمی با قیمت کارشناسی",
+      "evidence": {
+        "quote": "با توجه به اینکه مبلغ مقیده در سند رسمی با قیمت متعارف املاک تفاوت فاحشی دارد",
+        "start_char": 5308,
+        "end_char": 5385,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

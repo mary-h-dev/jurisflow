@@ -1,0 +1,183 @@
+{
+  "ruling_id": "29601",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت را محرز دانسته",
+        "start_char": 216,
+        "end_char": 242,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "عقد نکاح به صورت صحیح واقع شد",
+        "start_char": 295,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "حقوق و تکالیف طرفین نسبت به یکدیگر برقرار می شود",
+        "start_char": 345,
+        "end_char": 393,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "بخواسته الزام به تمکین",
+        "start_char": 125,
+        "end_char": 147,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض",
+        "start_char": 840,
+        "end_char": 851,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی در دادگاه محترم تجدیدنظر است",
+        "start_char": 854,
+        "end_char": 896,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه بدوی",
+        "start_char": 1847,
+        "end_char": 1866,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان بدوی",
+        "start_char": 1867,
+        "end_char": 1893,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان را موجه دانسته",
+        "start_char": 616,
+        "end_char": 637,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده و دلیل و مدرکی که امتناع وی را مشروع نماید ارائه نکرده است",
+        "start_char": 514,
+        "end_char": 579,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "الزام زوجه به تمکین از زوج",
+        "start_char": 1543,
+        "end_char": 1569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "الزام زوجه به تمکین",
+        "start_char": 1129,
+        "end_char": 1148,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "منوط به تهیه مسکن",
+        "start_char": 771,
+        "end_char": 788,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وسایل",
+      "evidence": {
+        "quote": "ووسایل زندگی مناسب است",
+        "start_char": 789,
+        "end_char": 811,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث‌البیت",
+      "evidence": {
+        "quote": "با اثاث البیت",
+        "start_char": 1951,
+        "end_char": 1964,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "رابطه زوجیت را محرز دانسته",
+        "start_char": 216,
+        "end_char": 242,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج مسکن مناسبی برای همسرش ندارد",
+      "evidence": {
+        "quote": "که زوج حداقل تا زمان صدور حکم مسکن مناسب جهت سکونت همسرش نداشته است",
+        "start_char": 1360,
+        "end_char": 1427,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "4502",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ارث",
+      "evidence": {
+        "quote": "موانع ارث در تحریرالوسیله",
+        "start_char": 775,
+        "end_char": 800,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حجب",
+      "evidence": {
+        "quote": "قاتل محجوب از دیه مقتول است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شخص ثالث",
+      "evidence": {
+        "quote": "منظور از شخص ثالث هر شخصی است که به سبب حوادث وسیله نقلیه موضوع این قانون دچار زیان های بدنی و یا مالی شود",
+        "start_char": 2639,
+        "end_char": 2745,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه دیه فوت همسر نامبرده",
+        "start_char": 1736,
+        "end_char": 1773,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت سهم الارث وی از دیه",
+        "start_char": 62,
+        "end_char": 91,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 3404,
+        "end_char": 3434,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت ش. به خواسته الزام خوانده",
+        "start_char": 27,
+        "end_char": 61,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "که خواهان به عنوان مسبب حادثه جزو شخص ثالث نیست",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ر.ع.",
+        "start_char": 1573,
+        "end_char": 1596,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "بیمه‌گر",
+      "evidence": {
+        "quote": "بیمه گر حق کاهش در پرداخت ندارد",
+        "start_char": 1438,
+        "end_char": 1469,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "سهم الارث وی از دیه همسر متوفیه خود",
+        "start_char": 72,
+        "end_char": 107,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "به موجب قرارداد بیمه مصون از تعرض باقیمانده برای نامبرده متصور است",
+        "start_char": 2295,
+        "end_char": 2361,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "راننده مسبب حادثه رانندگی منجر به قتل همسر خود شده است",
+      "evidence": {
+        "quote": "خواهان حسب مقررات و دادنامه کیفری مقصر حادثه رانندگی منتهی به قتل همسر خود شده",
+        "start_char": 580,
+        "end_char": 658,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حادثه تصادف منجر به فوت شده است",
+      "evidence": {
+        "quote": "دیه همسر متوفیه خود در حادثه تصـادف",
+        "start_char": 88,
+        "end_char": 123,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

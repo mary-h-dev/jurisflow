@@ -1,0 +1,163 @@
+{
+  "ruling_id": "4521",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان معامله",
+      "evidence": {
+        "quote": "صدور حکم به بطلان معامله",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "مشمول فروش مال به خاطر فرار از دین نخواهد بود",
+        "start_char": 841,
+        "end_char": 886,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "محکوم به پرداخت اجرت المثل",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواستـه صـدور حـکــم",
+        "start_char": 83,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارت دادرسی",
+        "start_char": 279,
+        "end_char": 298,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقل و انتقال",
+      "evidence": {
+        "quote": "جلوگیری از نقل و انتقال",
+        "start_char": 201,
+        "end_char": 224,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروخته",
+      "evidence": {
+        "quote": "مال دیگری نداشته که آن را به خوانده ردیف اول فروخته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ها ز.ت. و ش.س. و ص.س. و آقای الف.س.",
+        "start_char": 1153,
+        "end_char": 1207,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "بطلان معامله بین خواندگان",
+        "start_char": 110,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف دوم محکـوم به پرداخت",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان ها را غیرثابت تشخیص",
+        "start_char": 898,
+        "end_char": 936,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی صادره در دفترخانه 697 تهران",
+        "start_char": 138,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک",
+      "evidence": {
+        "quote": "پلاک های 1563/2397 و 1577/2397",
+        "start_char": 246,
+        "end_char": 276,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "معامله قبل از قطعیت رأی اجرت المثل انجام شده است",
+      "evidence": {
+        "quote": "انجام معامله قبل از قطعیت رأی صادره در خصوص مطالبه اجرت المثل انجام یافته",
+        "start_char": 576,
+        "end_char": 649,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دین مورد ادعا تا صدور حکم قطعی ثابت نشده بود",
+      "evidence": {
+        "quote": "دین مذکور تا صدور دادنامه قطعی یعنی دادنامه شماره 1477 ـ30/10/91 شعبه 25 تجدیدنظر استان تهران ثابت نبوده",
+        "start_char": 1771,
+        "end_char": 1875,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

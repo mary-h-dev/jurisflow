@@ -1,0 +1,183 @@
+{
+  "ruling_id": "34663",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم احراز",
+      "evidence": {
+        "quote": "عدم احراز تخلف از ناحیه متعهد س. س.م.",
+        "start_char": 380,
+        "end_char": 417,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انقضاء",
+      "evidence": {
+        "quote": "با انقضاء مدت عقد",
+        "start_char": 3361,
+        "end_char": 3378,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "عدم اثبات تخلف دانشجوی بورسیه از ایفای تعهدات",
+        "start_char": 3277,
+        "end_char": 3322,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان اجرائیه ثبتی",
+        "start_char": 3331,
+        "end_char": 3349,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال برگ اجراء",
+        "start_char": 209,
+        "end_char": 234,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "با رد اعتراض وزارت علوم تأیید و قطعی شده است",
+        "start_char": 769,
+        "end_char": 813,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام به فک سند رهنی",
+        "start_char": 1341,
+        "end_char": 1361,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه حق الوکاله و خسارات",
+        "start_char": 1601,
+        "end_char": 1627,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تجویز اعاده دادرسی را پیشنهاد و",
+        "start_char": 3953,
+        "end_char": 3984,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بموجب دادنامه شمارۀ 9000187-1390/2/31 صادره از شعبه هفتم دادگاه تجدیدنظر استان گیلان با رد اعتراض وزارت علوم تأیید و قطعی شده است",
+        "start_char": 684,
+        "end_char": 813,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به وکالت از موکلین موصوف به طرفیت خواندگان یاد شده در صدر گزارش",
+        "start_char": 1263,
+        "end_char": 1326,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "و اداره ثبت اسناد و املاک رشت",
+        "start_char": 179,
+        "end_char": 208,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "موضوع سند رهنی 67682-72/4/7",
+        "start_char": 253,
+        "end_char": 280,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "راجع به ملک 1307 ناحیه سه رشت",
+        "start_char": 281,
+        "end_char": 310,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "گواهی حصر وراثت به شرح صفحه 253",
+        "start_char": 4963,
+        "end_char": 4994,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "برگ اجرائیه با متن سند رهنی مخالفت دارد",
+      "evidence": {
+        "quote": "مخالفت برگ اجرائیه با متن سند رهنی",
+        "start_char": 460,
+        "end_char": 494,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دانشجو هزینه‌های ارزی و ریالی دریافت کرده است",
+      "evidence": {
+        "quote": "شش برگ صورت ریز هزینه های ارزی و ریالی پرداخت شده به دانشجو",
+        "start_char": 1865,
+        "end_char": 1924,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

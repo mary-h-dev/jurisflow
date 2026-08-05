@@ -1,0 +1,203 @@
+{
+  "ruling_id": "37457",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "تقاضای صدور حکم بر الزام به طلاق بعلت عسر و حرج شدید",
+        "start_char": 114,
+        "end_char": 166,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "کراهت",
+      "evidence": {
+        "quote": "از زوج کراهت دارد",
+        "start_char": 3120,
+        "end_char": 3137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیماری صعب‌العلاج",
+      "evidence": {
+        "quote": "بیماری صعب العلاج",
+        "start_char": 185,
+        "end_char": 202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "در قبال کراهت مهریه و سایر حقوق مالی خود را بذل نموده است",
+        "start_char": 3178,
+        "end_char": 3235,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "دادخواستی به خواسته تقاضای صدور حکم بر الزام به طلاق",
+        "start_char": 94,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور حکم محکومیت",
+      "evidence": {
+        "quote": "محکوم شده ام",
+        "start_char": 1078,
+        "end_char": 1090,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم به رد ان صادر و اعلام نموده است",
+        "start_char": 2102,
+        "end_char": 2137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه فرجامخواسته را نقض",
+        "start_char": 3674,
+        "end_char": 3700,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان توضیح داده است",
+        "start_char": 295,
+        "end_char": 321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و موکل و خوانده محترم",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از سوی زوجین داور زوجه اعلام کرده است",
+        "start_char": 1255,
+        "end_char": 1292,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "از سوی زوجه اعلام شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "از سوی زوجین داور زوجه اعلام کرده است",
+        "start_char": 1255,
+        "end_char": 1292,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "طبق سند ازدواج پیوستی",
+        "start_char": 345,
+        "end_char": 366,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سکه بهار",
+      "evidence": {
+        "quote": "با مهریه 114 سکه بهار ازادی",
+        "start_char": 386,
+        "end_char": 413,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بر اساس تصویر دادنامه مورخ 1398/10/15",
+        "start_char": 653,
+        "end_char": 690,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج مبتلا به بیماری کلیوی و تحت درمان دیالیز است",
+      "evidence": {
+        "quote": "نامبرده مبتلا به بیماری کلیوی بوده و تحت درمان دیالیز می باشد",
+        "start_char": 3923,
+        "end_char": 3984,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به اتهام توهین محکوم شده است",
+      "evidence": {
+        "quote": "زوج به اتهام توهین به زوجه محکوم گردیده",
+        "start_char": 3510,
+        "end_char": 3549,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین قصد ادامه زندگی مشترک را ندارند",
+      "evidence": {
+        "quote": "طرفین به هیچ عنوان قصد ادامه زندگی مشترک را نداشته اند",
+        "start_char": 1447,
+        "end_char": 1501,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "30898",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تاخیرتادیه",
+        "start_char": 709,
+        "end_char": 725,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مدنی",
+      "evidence": {
+        "quote": "قانون مسؤولیت مدنی",
+        "start_char": 1586,
+        "end_char": 1604,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "رابطه سببیت",
+        "start_char": 1432,
+        "end_char": 1443,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقصیر",
+      "evidence": {
+        "quote": "مثبت تقصیر",
+        "start_char": 1406,
+        "end_char": 1416,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه وجه",
+        "start_char": 69,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "رد ادعای خواهان",
+        "start_char": 449,
+        "end_char": 464,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "خوانده را به پرداخت مبلغ 1/300/000 تومان بابت خسارت وارده و فاکتورهای ارائه شده توسط خواهان بانضمام خسارت و هزینه کارشناسی در حق خواهان محکوم می نماید",
+        "start_char": 548,
+        "end_char": 698,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شهرداری منطقه 4 تهران",
+        "start_char": 987,
+        "end_char": 1022,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ادعای خواهان",
+        "start_char": 452,
+        "end_char": 464,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده را به پرداخت",
+        "start_char": 548,
+        "end_char": 567,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 987,
+        "end_char": 999,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده",
+        "start_char": 1387,
+        "end_char": 1401,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "مطالبه وجه",
+        "start_char": 77,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فاکتور",
+      "evidence": {
+        "quote": "فاکتور با احتساب هزینه دادرسی",
+        "start_char": 135,
+        "end_char": 164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "خسارت وارده به خودرو",
+        "start_char": 1159,
+        "end_char": 1179,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "نشت آب در کنار خیابان باعث لغزندگی جاده شده است",
+      "evidence": {
+        "quote": "علت تصادف را نشت آب در کناری زمین عبور کرده و سطح خیابان جاری، لذا حکایت از وجود آب که باعث تصادف و لغزندگی جاده شده است",
+        "start_char": 289,
+        "end_char": 409,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شهرداری وظیفه تنظیف و پاکسازی خیابان‌ها از آب‌های سطحی را انجام نداده است",
+      "evidence": {
+        "quote": "عدم انجام وظیفه قانونی که سبب لغزندگی معبر و تصادف خودرو تجدیدنظرخوانده شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "ruling_id": "29175",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "اعلام تنفیذ فسخ قرارداد",
+        "start_char": 81,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انجام تعهد",
+      "evidence": {
+        "quote": "عدم انجام تعهد",
+        "start_char": 240,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "برای فروشنده حق فسخ ایجاد گردیده است",
+        "start_char": 1081,
+        "end_char": 1117,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "به خواسته اعلام تنفیذ فسخ قرارداد",
+        "start_char": 71,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "ومطالبه خسارات",
+        "start_char": 217,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "واسترداد اسناد مالکیت",
+        "start_char": 277,
+        "end_char": 298,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "معامله را فسخ کردم",
+        "start_char": 727,
+        "end_char": 745,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "بقیه ثمن معامله به هرتوجهی توسط وی به پرداخت نگردیده است",
+        "start_char": 1023,
+        "end_char": 1079,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "فی مابین خواهان وخوانده ردیف اول",
+        "start_char": 121,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 25,
+        "end_char": 42,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "بقیه ثمن معامله توسط خریدار (خوانده ردیف اول )",
+        "start_char": 429,
+        "end_char": 475,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "به فروشنده خواهان پرداخت گردد",
+        "start_char": 475,
+        "end_char": 504,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "اپارتمان متصرف ثالثی داشته",
+        "start_char": 520,
+        "end_char": 546,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نظر به اینکه تجدیدنظرخواه فسخ قرارداد را اختیار نموده است",
+        "start_char": 2276,
+        "end_char": 2333,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "فسخ قرارداد مورخ 1393/08/15",
+        "start_char": 93,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد مالکیت",
+      "evidence": {
+        "quote": "استرداد اسناد مالکیت",
+        "start_char": 278,
+        "end_char": 298,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "بقیه ثمن معامله",
+        "start_char": 429,
+        "end_char": 444,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اپارتمان تخلیه نشده است",
+      "evidence": {
+        "quote": "که اپارتمان تخلیه نمی گردد",
+        "start_char": 608,
+        "end_char": 634,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بقیه ثمن معامله پرداخت نشده است",
+      "evidence": {
+        "quote": "بقیه ثمن معامله به هرتوجهی توسط وی به پرداخت نگردیده است",
+        "start_char": 1023,
+        "end_char": 1079,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

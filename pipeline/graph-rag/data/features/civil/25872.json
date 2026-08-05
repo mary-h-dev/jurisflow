@@ -1,0 +1,143 @@
+{
+  "ruling_id": "25872",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "صدور حکم طلاق",
+        "start_char": 76,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شروط ضمن",
+      "evidence": {
+        "quote": "اثبات تحقق شروط ضمن العقد",
+        "start_char": 208,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "عسر و حرج زوجه",
+        "start_char": 251,
+        "end_char": 265,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم طلاق",
+        "start_char": 76,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی صادر",
+        "start_char": 853,
+        "end_char": 872,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ب. م.",
+        "start_char": 1025,
+        "end_char": 1049,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "رأی صادر شده دادگاه بدوی را با استناد به مواد 358 و 365 قانون آیین دادرسی دادگاه‌های عمومی و انقلاب در امور مدنی تأیید می‌نماید",
+        "start_char": 1654,
+        "end_char": 1781,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 291,
+        "end_char": 302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه ایراد و اعتراض موجهی",
+        "start_char": 1486,
+        "end_char": 1519,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه استنادی",
+        "start_char": 560,
+        "end_char": 575,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "مفاد لایحه تجدیدنظر خواهی",
+        "start_char": 1315,
+        "end_char": 1340,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم اثبات ترک زندگی مشترک و اعتیاد",
+      "evidence": {
+        "quote": "عدم اطلاع همسایگان محل سکونت مشترک از ترک زندگی از جانب زوج داشته",
+        "start_char": 422,
+        "end_char": 487,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه مدرک برای اثبات ادعاها",
+      "evidence": {
+        "quote": "وکیل خواهان مدرک و دلیل موجهی در جهت اثبات ادعاهای مطروحه به دادگاه ارایه ننموده است",
+        "start_char": 291,
+        "end_char": 375,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

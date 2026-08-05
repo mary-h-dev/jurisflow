@@ -1,0 +1,143 @@
+{
+  "ruling_id": "23308",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "ماده 349 قانون مدنی صراحت دارد بیع مال وقف صحیح نیست",
+        "start_char": 1527,
+        "end_char": 1579,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان بدوی صادر",
+        "start_char": 2649,
+        "end_char": 2683,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم و تنسیق سند اجاره",
+        "start_char": 131,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ایراد و اعتراض موثر نسبت به دعوی و مستندات مذبور از ناحیه خواندگان به عمل نیامده",
+        "start_char": 377,
+        "end_char": 457,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترض عنه باشقوق ذیل ماده 348قانون آئین دادرسی مدنی انطباق دارد فلذا به استناد ماده 358 قانون مرقوم دادنامه معترض عنه نقض",
+        "start_char": 2518,
+        "end_char": 2647,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حقوق مکتسبه ایادی سابق خواهان نسبت به رقبه موصوف محرز و مسلم می باشد",
+        "start_char": 306,
+        "end_char": 374,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "ایراد و اعتراض موثر نسبت به دعوی و مستندات مذبور از ناحیه خواندگان به عمل نیامده",
+        "start_char": 377,
+        "end_char": 457,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 889/93شعبه دوم دادگاه عمومی حقوقی شهرقدس که بموجب آن حکم به الزام تجدیدنظرخواهان به تنظیم سنداجاره نسبت به یک قطعه زمین به مساحت732 مترمربع درقطعه 4 ازنقشه تفکیکی صادرشده است",
+        "start_char": 1114,
+        "end_char": 1310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "خواهان دعوی واردثالث مدعی است حقوق وی دردادنامه شماره 889/93صادره ازشعبه دوم دادگاه عمومی حقوقی شهرقدس تضییع شده است",
+        "start_char": 2950,
+        "end_char": 3066,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "نسبت به یک قطعه زمین به مساحت 736 متر مربع",
+        "start_char": 164,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رقبه",
+      "evidence": {
+        "quote": "حقوق مکتسبه ایادی سابق خواهان نسبت به رقبه موصوف محرز و مسلم می باشد",
+        "start_char": 306,
+        "end_char": 374,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فروش مال وقف انجام شده است",
+      "evidence": {
+        "quote": "زمین مورد نظررابه خواهان فروخته ام",
+        "start_char": 1483,
+        "end_char": 1517,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان از اتهام تصرف عدوانی برائت حاصل کرده است",
+      "evidence": {
+        "quote": "آقای م. ب. ازتحمل دوسال حبس به اتهام تصرف عدوانی برائت حاصل کرده",
+        "start_char": 2324,
+        "end_char": 2388,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

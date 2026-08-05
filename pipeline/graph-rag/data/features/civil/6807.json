@@ -1,0 +1,153 @@
+{
+  "ruling_id": "6807",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "احراز رابطه پدر و فرزندی",
+        "start_char": 153,
+        "end_char": 177,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "پرداخت نفقه فرزند بر عهده پدر می باشد",
+        "start_char": 225,
+        "end_char": 262,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه فرزند",
+        "start_char": 39,
+        "end_char": 66,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حاضر نشد",
+      "evidence": {
+        "quote": "خوانده علی رغم ابلاغ قانونی حاضر نشد",
+        "start_char": 331,
+        "end_char": 367,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه تجدیدنظر استان می باشد",
+        "start_char": 709,
+        "end_char": 760,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "با عنایت به اعتراض تجدیدنظرخواه",
+        "start_char": 1115,
+        "end_char": 1146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "ضمن ردّ دادخواست تجدیدنظرخواهی",
+        "start_char": 2012,
+        "end_char": 2042,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خانم پ.الف. به طرفیت ح.م.",
+        "start_char": 0,
+        "end_char": 38,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده علی رغم ابلاغ قانونی حاضر نشد",
+        "start_char": 331,
+        "end_char": 367,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "با عنایت به اعتراض تجدیدنظرخواه",
+        "start_char": 1115,
+        "end_char": 1146,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند سجلی",
+      "evidence": {
+        "quote": "حسب دلالت مندرجات سند سجلی خواهان",
+        "start_char": 178,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه 2017 مورخه 29/11/1392",
+        "start_char": 863,
+        "end_char": 900,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه پدر و فرزندی احراز شده است",
+      "evidence": {
+        "quote": "احراز رابطه پدر و فرزندی",
+        "start_char": 153,
+        "end_char": 177,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دادرسی حاضر نشده است",
+      "evidence": {
+        "quote": "خوانده علی رغم ابلاغ قانونی حاضر نشد",
+        "start_char": 331,
+        "end_char": 367,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

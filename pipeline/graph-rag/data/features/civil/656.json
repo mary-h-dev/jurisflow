@@ -1,0 +1,143 @@
+{
+  "ruling_id": "656",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "حق رجوع به مضمونٌ عنه را دارد",
+        "start_char": 476,
+        "end_char": 505,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "اداء دین کرده باشد",
+        "start_char": 509,
+        "end_char": 527,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ",
+        "start_char": 87,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ح.الف.",
+        "start_char": 845,
+        "end_char": 865,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 1687,
+        "end_char": 1707,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عیناً تأیید",
+        "start_char": 1745,
+        "end_char": 1782,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از سوی خواهان",
+        "start_char": 224,
+        "end_char": 237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه مستند و مدرکی",
+        "start_char": 1184,
+        "end_char": 1210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ضامن",
+      "evidence": {
+        "quote": "خواهان به عنوان ضامن",
+        "start_char": 449,
+        "end_char": 469,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سفته",
+      "evidence": {
+        "quote": "ده فقره سفته",
+        "start_char": 312,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مطالبه مبلغ 478/560/117 ریال",
+        "start_char": 97,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت وجه انجام نشده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه مستند و مدرکی دائر بر پرداخت وجه مزبور به عنوان ظهرنویس سفته ها را ارائه ننموده",
+        "start_char": 1184,
+        "end_char": 1276,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوای خواهان رد شده است",
+      "evidence": {
+        "quote": "صدور قرار رد عدم استماع دعوای مطالبه طلب",
+        "start_char": 1036,
+        "end_char": 1076,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

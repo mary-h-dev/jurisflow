@@ -1,0 +1,163 @@
+{
+  "ruling_id": "5309",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "احراز علقه زوجیت",
+        "start_char": 238,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد دائم",
+      "evidence": {
+        "quote": "نوع عقد دائم",
+        "start_char": 258,
+        "end_char": 270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان صادر گردیده",
+        "start_char": 487,
+        "end_char": 511,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 74,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م.س.",
+        "start_char": 857,
+        "end_char": 888,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ضمن ردّ اعتراض معترض",
+        "start_char": 1517,
+        "end_char": 1537,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه معترض‌عنه را عیناً تأیید می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم ف.ن. با وکالت آقای ح.م. به خواسته الزام خوانده",
+        "start_char": 36,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "علت عدم تمکین موکله خود را ایراد ضرب جرح عمدی خواهان",
+        "start_char": 298,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی که موجبات نقض",
+        "start_char": 1304,
+        "end_char": 1345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده از وی به شرح توضیحات",
+        "start_char": 1058,
+        "end_char": 1094,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "تصویر مصدق رونوشت سند ازدواج شماره 11902",
+        "start_char": 145,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "صدور دادنامه شماره1621",
+        "start_char": 384,
+        "end_char": 406,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود رابطه زوجیت با نوع عقد دائم",
+      "evidence": {
+        "quote": "احراز علقه زوجیت با نوع عقد دائم",
+        "start_char": 238,
+        "end_char": 270,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ادعای ضرب و جرح و عدم امنیت جانی توسط خوانده",
+      "evidence": {
+        "quote": "علت عدم تمکین موکله خود را ایراد ضرب جرح عمدی خواهان وعدم امنیت جانی وی اعلام نموده",
+        "start_char": 298,
+        "end_char": 381,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

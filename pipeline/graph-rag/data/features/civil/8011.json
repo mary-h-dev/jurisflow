@@ -1,0 +1,203 @@
+{
+  "ruling_id": "8011",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال سند وکالت نامه",
+        "start_char": 109,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "وکالت بلاعزل",
+      "evidence": {
+        "quote": "مبین وکالت بلاعزل به زوجه",
+        "start_char": 225,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "که در ضمن عقد خارج لازم تنظیم",
+        "start_char": 341,
+        "end_char": 370,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "و حق عزل وکیل سلب گردیده است",
+        "start_char": 371,
+        "end_char": 399,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "ادعای وی برای بطلان وکالت نامه",
+        "start_char": 2413,
+        "end_char": 2443,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "در حالی که مطالبه مهریه از ناحیه زوجه با تنظیم چنین وکالت نامه ای منع نداشته و ندارد",
+        "start_char": 2497,
+        "end_char": 2580,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در دادگاه محترم تجدیدنظر",
+        "start_char": 1475,
+        "end_char": 1511,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "لهذا دادگاه دعوی خواهان را وارد تشخیص داده",
+        "start_char": 1225,
+        "end_char": 1267,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی خانم ز.ج.",
+        "start_char": 1584,
+        "end_char": 1615,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در وکالت نامه مذکور تجدیدنظر خوانده (زوج) به تجدیدنظرخواه وکالت در طلاق داده",
+        "start_char": 1939,
+        "end_char": 2015,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از طرف زوج به من تحمیل شد",
+        "start_char": 537,
+        "end_char": 562,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "مبین وکالت بلاعزل به زوجه",
+        "start_char": 225,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "ابطال سند وکالت نامه",
+        "start_char": 119,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "به شرط بذل کلیه مهریه",
+        "start_char": 272,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجرت‌المثل",
+      "evidence": {
+        "quote": "و اجرت المثل و نفقه گذشته و آینده",
+        "start_char": 307,
+        "end_char": 340,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "و اجرت المثل و نفقه گذشته و آینده",
+        "start_char": 307,
+        "end_char": 340,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وکالت نامه با اجبار امضا شده است",
+      "evidence": {
+        "quote": "وکالت نامه طلاق به زور به من داده اند",
+        "start_char": 441,
+        "end_char": 478,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حق عزل وکیل در وکالت نامه سلب شده است",
+      "evidence": {
+        "quote": "حق عزل وکیل (یعنی خانم ز.ج.)وکلای توکیلی را ازخود سلب و ساقط نمود",
+        "start_char": 2264,
+        "end_char": 2329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه قصد جدایی ندارد",
+      "evidence": {
+        "quote": "هنوز قصد جدایی آن دارم",
+        "start_char": 651,
+        "end_char": 673,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

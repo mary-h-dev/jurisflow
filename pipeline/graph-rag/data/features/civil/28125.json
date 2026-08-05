@@ -1,0 +1,123 @@
+{
+  "ruling_id": "28125",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "صدور حکم بر اعسار",
+        "start_char": 85,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "تقاضای افزایش نفقه",
+        "start_char": 181,
+        "end_char": 199,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "مبنی بر تقاضای صدور حکم",
+        "start_char": 70,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی تقابل صادر می گردد",
+        "start_char": 771,
+        "end_char": 804,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "رای صادر شده دادگاه بدوی را با استناد به مواد 358و365 قانون ایین دادرسی دادگاههای عمومی و انقلاب در امور مدنی تایید می نماید",
+        "start_char": 1601,
+        "end_char": 1725,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اموال قابل دسترسی از خواهان معرفی ننموده است",
+        "start_char": 276,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و اینکه خوانده اموال قابل دسترسی از خواهان معرفی ننموده است",
+        "start_char": 261,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "صدور حکم بر اعسار از پرداخت نفقه",
+        "start_char": 85,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "موضوع دادنامه 902853",
+        "start_char": 124,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان در زندان است",
+      "evidence": {
+        "quote": "خواهان به لحاظ عجز از پرداخت در زندان به سر می برد",
+        "start_char": 322,
+        "end_char": 372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده اموال خود را معرفی نکرده است",
+      "evidence": {
+        "quote": "خوانده اموال قابل دسترسی از خواهان معرفی ننموده است",
+        "start_char": 269,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

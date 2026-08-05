@@ -1,0 +1,133 @@
+{
+  "ruling_id": "11191",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "دعوی فسخ پذیرفته نگردیده",
+        "start_char": 232,
+        "end_char": 256,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "اقرار به صحت عقد شده است",
+        "start_char": 275,
+        "end_char": 299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "با ایجاد حق فسخ",
+        "start_char": 1043,
+        "end_char": 1058,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "عدم ذکر مدت اعمال خیار",
+        "start_char": 1061,
+        "end_char": 1083,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "خواسته خواهان به طرفیت خوانده به خواسته ابطال سند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقایان ع. و ج.",
+        "start_char": 559,
+        "end_char": 587,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی",
+        "start_char": 1559,
+        "end_char": 1578,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان",
+        "start_char": 0,
+        "end_char": 23,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده",
+        "start_char": 24,
+        "end_char": 39,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "ابطال سند قرارداد شماره...- 1391/10/13",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ذکر مدت برای حق فسخ در قرارداد",
+      "evidence": {
+        "quote": "عدم ذکر مدت اعمال خیار",
+        "start_char": 1061,
+        "end_char": 1083,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "برگشت خوردن چک‌ها",
+      "evidence": {
+        "quote": "برگشت خوردن چک‌ها",
+        "start_char": 1169,
+        "end_char": 1186,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

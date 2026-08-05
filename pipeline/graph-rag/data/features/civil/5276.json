@@ -1,0 +1,123 @@
+{
+  "ruling_id": "5276",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "بابت کلیه خسارات وارده به اتومبیل",
+        "start_char": 119,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارت",
+        "start_char": 583,
+        "end_char": 595,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.ب.",
+        "start_char": 1717,
+        "end_char": 1740,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای م.ب. فرزند م. به خواسته محکومیت خوانده",
+        "start_char": 34,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اینک خواهان با استناد به نظریه کارشناس",
+        "start_char": 528,
+        "end_char": 566,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 237 مورخ 31/5/92 صادره از شعبه سوم دادگاه عمومی حقوقی دماوند که بر اساس آن حکم بر محکومیت تجدیدنظرخواه",
+        "start_char": 1760,
+        "end_char": 1884,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اتومبیل",
+      "evidence": {
+        "quote": "بابت کلیه خسارات وارده به اتومبیل",
+        "start_char": 119,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه های",
+      "evidence": {
+        "quote": "و هزینه های دادرسی و کارشناسی",
+        "start_char": 153,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "به پرداخت مبلغ 000/000/107 ریال",
+        "start_char": 87,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده نسبت به تأدیه حق الزحمه کارشناس اقدامی ننموده است",
+      "evidence": {
+        "quote": "نامبرده نسبت به تأدیه حق الزحمه کارشناس اقدامی ننموده",
+        "start_char": 960,
+        "end_char": 1013,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده قبلاً به دلیل تخریب اتومبیل به حبس محکوم شده بود",
+      "evidence": {
+        "quote": "خوانده برابر دادنامه شماره 700614 مورخ 31/4/1391 از بابت تخریب اتومبیل سواری هیوندا تیپ آز را به شماره انتظامی... به تحمل شش ماه حبس تعزیری محکوم گردید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

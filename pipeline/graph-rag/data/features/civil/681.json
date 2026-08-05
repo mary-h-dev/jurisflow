@@ -1,0 +1,133 @@
+{
+  "ruling_id": "681",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 67,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرعاً",
+      "evidence": {
+        "quote": "زن تبرعاً امورخانه داری",
+        "start_char": 324,
+        "end_char": 347,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 67,
+        "end_char": 84,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد ادعای وی صادر می گردد",
+        "start_char": 710,
+        "end_char": 741,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم م.ن.",
+        "start_char": 894,
+        "end_char": 917,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه معترضٌ عنه را عیناً تأیید می نماید",
+        "start_char": 1541,
+        "end_char": 1583,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان وارد نبوده",
+        "start_char": 593,
+        "end_char": 614,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "اثبات دستور زوج به انجام امور",
+        "start_char": 527,
+        "end_char": 556,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی",
+        "start_char": 1297,
+        "end_char": 1324,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم م.ن. از دادنامه 91/824",
+        "start_char": 894,
+        "end_char": 935,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زن امور خانه را بدون قصد دریافت دستمزد انجام داده است",
+      "evidence": {
+        "quote": "زن تبرعاً امورخانه داری از قبیل شوهرداری و نگه داری بچه و غیره را انجام می دهد و هیچ گاه قصد او دریافت دستمزد نبوده",
+        "start_char": 324,
+        "end_char": 439,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست اجرت المثل مطرح شده است",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام زندگی مشترک",
+        "start_char": 67,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

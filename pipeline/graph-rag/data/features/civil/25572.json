@@ -1,0 +1,213 @@
+{
+  "ruling_id": "25572",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته تأیید و اعلام فسخ",
+        "start_char": 116,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عزل",
+      "evidence": {
+        "quote": "عزل وکالت‌نامه شماره 129239",
+        "start_char": 146,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "و بطلان شرط",
+        "start_char": 215,
+        "end_char": 226,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "ضمن عقد خارج لازم",
+        "start_char": 228,
+        "end_char": 245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خانواده",
+      "evidence": {
+        "quote": "و اجرای آن و انحلال خانواده گردیده",
+        "start_char": 862,
+        "end_char": 896,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "به خواسته تأیید",
+        "start_char": 116,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "و اعلام فسخ",
+        "start_char": 132,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عزل",
+      "evidence": {
+        "quote": "عزل وکالت‌نامه",
+        "start_char": 146,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعمال",
+      "evidence": {
+        "quote": "در اعمال وکالت",
+        "start_char": 2328,
+        "end_char": 2342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "مبادرت به تنظیم وکالت‌نامه طلاق نموده است",
+        "start_char": 653,
+        "end_char": 694,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "خواستار رد دعوی مطروح شدند",
+        "start_char": 1569,
+        "end_char": 1595,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان آقای م. س.",
+        "start_char": 0,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده خانم ن. ق.ز.ج.",
+        "start_char": 63,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل خواهان برابر دادخواست",
+        "start_char": 375,
+        "end_char": 401,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موکل",
+      "evidence": {
+        "quote": "اعلام داشت موکل برابر سند ازدواج",
+        "start_char": 434,
+        "end_char": 466,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دفترخانه اسناد رسمی",
+      "evidence": {
+        "quote": "وکالت‌نامه شماره 129239 مورخ 1389/12/1 دفترخانه اسناد رسمی تهران",
+        "start_char": 150,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "موکل برابر سند ازدواج",
+        "start_char": 445,
+        "end_char": 466,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تنظیم وکالت‌نامه طلاق بدون حضور خوانده",
+      "evidence": {
+        "quote": "بنا به تدبیر شخصی شخصاً به دفترخانه اسناد رسمی شماره... تهران هبه و بدون حضور خوانده مبادرت به تنظیم وکالت‌نامه طلاق نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تداوم زندگی مشترک زوجین پس از تنظیم وکالت‌نامه",
+      "evidence": {
+        "quote": "و پس از 1389/12/1 نیز ادامه زندگی داده‌اند",
+        "start_char": 732,
+        "end_char": 774,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم انعقاد عقد خارج لازم بین طرفین",
+      "evidence": {
+        "quote": "حسب اقرار طرفین موقع تنظیم وکالت‌نامه رسمی مزبور و قبل از آن در دفترخانه یا خارج از دفترخانه عقد خارج لازمی بین طرفین منعقد نشده است",
+        "start_char": 3685,
+        "end_char": 3817,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

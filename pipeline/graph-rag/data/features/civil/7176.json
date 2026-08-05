@@ -1,0 +1,153 @@
+{
+  "ruling_id": "7176",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 65,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "تحقق شرط ضمن العقد",
+        "start_char": 337,
+        "end_char": 355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "با نفی صلاحیت خویش",
+        "start_char": 634,
+        "end_char": 652,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقامتگاه",
+      "evidence": {
+        "quote": "زندان را اقامتگاه ندانسته",
+        "start_char": 789,
+        "end_char": 814,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی... تقدیم دادگستری شهرستان کرمانشاه کرده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "موکله حاضر است که کلیه حقوق خود را بذل نماید",
+        "start_char": 278,
+        "end_char": 322,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار عدم",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت به صلاحیت محاکم عمومی شهرستان کرمانشاه صادر کرده است",
+        "start_char": 898,
+        "end_char": 966,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض قرار",
+      "evidence": {
+        "quote": "با نقض قرار صادره از دادگاه عمومی کرمانشاه",
+        "start_char": 1366,
+        "end_char": 1408,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده مدت یک سال است که ترک انفاق کرده",
+        "start_char": 164,
+        "end_char": 203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موکله",
+      "evidence": {
+        "quote": "موکله حاضر است که کلیه حقوق خود را بذل نماید",
+        "start_char": 278,
+        "end_char": 322,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "و محکوم علیه مسلوب الاراده است",
+        "start_char": 1152,
+        "end_char": 1182,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پرونده به شعبه 24 دادگاه عمومی ارجاع",
+        "start_char": 482,
+        "end_char": 518,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده به دلیل مواد مخدر زندانی است",
+      "evidence": {
+        "quote": "خوانده در شهرستان کرج به دلیل داشتن مواد مخدر دستگیر شده و زندانی است",
+        "start_char": 411,
+        "end_char": 480,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده مورد اهانت، تهدید و فحاشی قرار گرفته است",
+      "evidence": {
+        "quote": "او را در گذشته مورد اهانت، تهدید و فحاشی قرار داده",
+        "start_char": 227,
+        "end_char": 277,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

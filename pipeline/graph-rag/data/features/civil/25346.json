@@ -1,0 +1,143 @@
+{
+  "ruling_id": "25346",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین عام و خاص",
+        "start_char": 64,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر",
+        "start_char": 390,
+        "end_char": 419,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین عام و خاص",
+        "start_char": 64,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی تجدیدنظرخواه",
+        "start_char": 739,
+        "end_char": 766,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه معترض‌عنه را عیناً تأیید می‌نماید",
+        "start_char": 1286,
+        "end_char": 1327,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در محاکم محترم تجدیدنظر",
+        "start_char": 481,
+        "end_char": 516,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بطلان دعوی خواهان",
+        "start_char": 397,
+        "end_char": 414,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین عام و خاص",
+        "start_char": 64,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م. و.س.",
+        "start_char": 586,
+        "end_char": 612,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "رد اعتراض معترض",
+        "start_char": 1270,
+        "end_char": 1285,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 2236",
+        "start_char": 637,
+        "end_char": 658,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "منزل معرفی شده فاقد اثاث البیت است",
+      "evidence": {
+        "quote": "منزل معرفی شده جهت تمکین, فاقد اثاث البیت است",
+        "start_char": 139,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرط تمکین، تهیه مقدمات از سوی خواهان است",
+      "evidence": {
+        "quote": "شرط الزام به تمکین خوانده، تهیه مقدمات آن از سوی خواهان می‌باشد",
+        "start_char": 187,
+        "end_char": 250,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

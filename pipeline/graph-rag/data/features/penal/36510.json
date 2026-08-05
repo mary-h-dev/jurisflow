@@ -1,0 +1,193 @@
+{
+  "ruling_id": "36510",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "محاربه",
+      "evidence": {
+        "quote": "عمل متهمان با تعریف قانونی ماده 279 قانون مجازات اسلامی انطباق داشته",
+        "start_char": 4203,
+        "end_char": 4271,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سرقت",
+      "evidence": {
+        "quote": "شمول سرقت مسلحانه بر عمل انان کاملا مشخص و روشن است",
+        "start_char": 7622,
+        "end_char": 7673,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قتل عمدی",
+      "evidence": {
+        "quote": "قصاص مربوط به عملیات مادی قتل عمدی بوده",
+        "start_char": 5456,
+        "end_char": 5495,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "مشارکت در تغییر ارقام پلاک خودرو",
+        "start_char": 436,
+        "end_char": 468,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تیراندازی",
+      "evidence": {
+        "quote": "ضمن تیراندازی مرحوم ج. د. را بقتل رسانده اند",
+        "start_char": 3243,
+        "end_char": 3287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "پس از ابلاغ دادنامه و درخواست فرجامخواهی وکلای متهمین",
+        "start_char": 1383,
+        "end_char": 1436,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه فرجامخواسته پرونده جهت رسیدگی",
+        "start_char": 8053,
+        "end_char": 8098,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهمین",
+      "evidence": {
+        "quote": "م. غ. و م. ج. و م. ع. ا. به مجازات قانونی اعدام",
+        "start_char": 5186,
+        "end_char": 5233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ورثه",
+      "evidence": {
+        "quote": "رد مال ده کیلوگرم طلای مسروقه به وراث مقتول",
+        "start_char": 6831,
+        "end_char": 6874,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مقتول",
+      "evidence": {
+        "quote": "ورثه مقتول ج. د.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکلای",
+      "evidence": {
+        "quote": "درخواست فرجامخواهی وکلای متهمین",
+        "start_char": 1405,
+        "end_char": 1436,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "بدون حضور دادستان و یا نماینده وی",
+        "start_char": 1575,
+        "end_char": 1608,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سلاح جنگی",
+      "evidence": {
+        "quote": "از طریق کشیدن سلاح جنگی",
+        "start_char": 946,
+        "end_char": 969,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال منقول و طلا",
+      "evidence": {
+        "quote": "6/16 کیلوگرم از محل زرگری",
+        "start_char": 371,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "تغییر ارقام پلاک خودرو",
+        "start_char": 446,
+        "end_char": 468,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهمین در صحنه جرم با نقاب حضور داشتند",
+      "evidence": {
+        "quote": "با نقاب صورت از خودرو پیاده",
+        "start_char": 3118,
+        "end_char": 3145,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تیراندازی در بیرون از مغازه انجام نشده است",
+      "evidence": {
+        "quote": "حتی پس از ارتکاب جرم، در بیرون مغازه و حین فرار تیراندازی ننموده اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تیراندازی در معابر عمومی انجام نشده است",
+      "evidence": {
+        "quote": "و به روی مردم سلاح نکشیده اند",
+        "start_char": 7201,
+        "end_char": 7230,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

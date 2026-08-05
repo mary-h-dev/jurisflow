@@ -1,0 +1,133 @@
+{
+  "ruling_id": "29741",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "با موضوع اعتراض ثالث",
+        "start_char": 193,
+        "end_char": 213,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی",
+        "start_char": 0,
+        "end_char": 21,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته نقض",
+        "start_char": 738,
+        "end_char": 764,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده به شعبه بدوی اعاده",
+        "start_char": 767,
+        "end_char": 792,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم به رد اعتراض صادر",
+        "start_char": 2182,
+        "end_char": 2203,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "تجدیدنظرخواهان",
+        "start_char": 178,
+        "end_char": 192,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "علیه محکوم علیه آقای م. پ.",
+        "start_char": 1520,
+        "end_char": 1546,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "علیه خوانده آقای م. پروده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک مورد ادعا",
+        "start_char": 368,
+        "end_char": 381,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 940576",
+        "start_char": 56,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک مورد ادعا از تصرف تجدیدنظرخواهان خارج نشده است",
+      "evidence": {
+        "quote": "ملک مورد ادعا از تصرف تجدیدنظرخواهان خارج نگردیده است",
+        "start_char": 368,
+        "end_char": 421,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مرجع اعتراض نسبت به تصمیم دادگاه بدوی، دادگاه تجدیدنظر اعلام شده است",
+      "evidence": {
+        "quote": "مرجع اعتراض نسبت به تصمیم دادگاه بدوی دادگاه تجدیدنظر اعلام گردیده است",
+        "start_char": 582,
+        "end_char": 652,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

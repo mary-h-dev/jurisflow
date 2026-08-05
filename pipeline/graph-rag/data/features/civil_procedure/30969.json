@@ -1,0 +1,163 @@
+{
+  "ruling_id": "30969",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "الزام",
+      "evidence": {
+        "quote": "بخواسته الزام به ایفاء تعهد",
+        "start_char": 72,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تاخیر تادیه",
+        "start_char": 172,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "مادام که قرارداد اقاله ویا فسخ نگردیده",
+        "start_char": 977,
+        "end_char": 1015,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 1111,
+        "end_char": 1135,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارت تاخیر تادیه",
+        "start_char": 889,
+        "end_char": 913,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "به عدم تحویل دستگاه موصوف",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت مبلغ یکصد وپنج هزار ریال",
+        "start_char": 808,
+        "end_char": 839,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با پذیرش دعوی خواهان",
+        "start_char": 672,
+        "end_char": 692,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در ید خوانده میباشد",
+        "start_char": 235,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه سازمان آموزش فنی وحرفه ای کشور",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "الزام تجدیدنظرخوانده به ایفاء تعهد",
+        "start_char": 1721,
+        "end_char": 1755,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "تحویل یکدستگاه تراش سی ان سی",
+        "start_char": 138,
+        "end_char": 166,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "ثمن معامله که در ید خوانده میباشد",
+        "start_char": 221,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تحویل دستگاه موضوع قرارداد",
+      "evidence": {
+        "quote": "به عدم تحویل دستگاه موصوف عنوان گردید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت ثمن معامله توسط فروشنده",
+      "evidence": {
+        "quote": "موضوع ثمن معامله پرداخت شده به فروشنده",
+        "start_char": 938,
+        "end_char": 976,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

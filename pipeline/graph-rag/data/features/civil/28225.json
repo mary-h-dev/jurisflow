@@ -1,0 +1,203 @@
+{
+  "ruling_id": "28225",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "با احراز رابطه زوجیت فی مابین خواهان و خوانده",
+        "start_char": 243,
+        "end_char": 288,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "حقوق و تکالیف زوجین در مقابل یکدیگر برقرار می شود",
+        "start_char": 315,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "در روابط فیمابین زوجین اصل بر تمکین است",
+        "start_char": 2721,
+        "end_char": 2760,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین از خواهان",
+        "start_char": 101,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "زوج نفقه مقرر قانونی را در حق زوجه پرداخت ننموده",
+        "start_char": 1529,
+        "end_char": 1577,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم به رد خواسته و دعوی خواهان صادر",
+        "start_char": 2187,
+        "end_char": 2222,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را نقض",
+        "start_char": 3283,
+        "end_char": 3307,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی خواهان م. الف.",
+        "start_char": 0,
+        "end_char": 38,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت م. گ. فرزند الف.",
+        "start_char": 50,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج (خواهان) به تکالیف قانونی خویش",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در حق زوجه می باشد",
+        "start_char": 1483,
+        "end_char": 1501,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص دادخواست تجدیدنظرخواهی آقای م. الف.",
+        "start_char": 2416,
+        "end_char": 2459,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "از اینکه تجدیدنظرخوانده (زوجه)",
+        "start_char": 2795,
+        "end_char": 2825,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به دلالت منطوق سند نکاحیه",
+        "start_char": 289,
+        "end_char": 314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "پرداخت نفقه و غیره میباشد",
+        "start_char": 959,
+        "end_char": 984,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "زن باید در منزلی که شوهر تعیین می کند سکنی نماید",
+        "start_char": 1719,
+        "end_char": 1767,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین فاقد محل سکونت مشترک بوده",
+      "evidence": {
+        "quote": "در ما نحن فیه طرفین فاقد محل سکونت مشترک بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج نفقه را پرداخت نکرده است",
+      "evidence": {
+        "quote": "زوج نفقه مقرر قانونی را در حق زوجه پرداخت ننموده",
+        "start_char": 1529,
+        "end_char": 1577,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه حاضر به سکونت در منزل پدر شوهر نیست",
+      "evidence": {
+        "quote": "حاضر به سکونت در منزل پدر تجدیدنظرخواه نمی باشد",
+        "start_char": 2884,
+        "end_char": 2931,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

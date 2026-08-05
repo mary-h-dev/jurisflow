@@ -1,0 +1,173 @@
+{
+  "ruling_id": "28849",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "مطالبه خسارت تاخیر تادیه",
+        "start_char": 317,
+        "end_char": 341,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه وجه",
+        "start_char": 90,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "انتقال سند آپارتمان",
+        "start_char": 2909,
+        "end_char": 2928,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "ازپرداخت ثمن آن درحق تجدیدنظرخوانده امتناع میکند",
+        "start_char": 2313,
+        "end_char": 2361,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی نموده",
+        "start_char": 2472,
+        "end_char": 2491,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اعتراض وکیل خوانده به دادخواست خواهان وارد نمی باشد",
+        "start_char": 633,
+        "end_char": 684,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده باوصف ابلاغ قانونی درجلسه دادرسی حضور نیافته",
+        "start_char": 899,
+        "end_char": 950,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به پرداخت مبلغ",
+        "start_char": 1854,
+        "end_char": 1881,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "درحق تجدیدنظرخوانده محکوم گردیده است",
+        "start_char": 1948,
+        "end_char": 1984,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "ارزش واقعی و روز یک دستگاه آپارتمان",
+        "start_char": 133,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "باستناد سند رسمی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "سند عادی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "وکالت نامه به شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "برای فروش یک باب آپارتمان مسکونی",
+        "start_char": 2047,
+        "end_char": 2079,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دادرسی حضور نیافته است",
+      "evidence": {
+        "quote": "خوانده باوصف ابلاغ قانونی درجلسه دادرسی حضور نیافته",
+        "start_char": 899,
+        "end_char": 950,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده از پرداخت ثمن آپارتمان امتناع کرده است",
+      "evidence": {
+        "quote": "ازپرداخت ثمن آن درحق تجدیدنظرخوانده امتناع میکند",
+        "start_char": 2313,
+        "end_char": 2361,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

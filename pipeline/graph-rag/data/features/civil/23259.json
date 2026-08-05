@@ -1,0 +1,143 @@
+{
+  "ruling_id": "23259",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "اصل بر عدم تبرع است",
+        "start_char": 254,
+        "end_char": 273,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 78,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 68,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "خوانده را به پرداخت مبلغ 87000000 ریال در حق خواهان بابت اجرت المثل مورد مطالبه, محکوم مینماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "ضمن رد تجدید نظر خواهی دادنامه مذکور تائید می شود",
+        "start_char": 1457,
+        "end_char": 1506,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان اعلام نموده",
+        "start_char": 127,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده دلیلی بر تبرعی بودن آن ارائه ننموده است",
+        "start_char": 276,
+        "end_char": 322,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "به موجب آن حکم به محکومیت تجدیدنظرخواه",
+        "start_char": 887,
+        "end_char": 925,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده صادر شده است",
+        "start_char": 1035,
+        "end_char": 1068,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "به پرداخت مبلغ 87000000 ریال",
+        "start_char": 452,
+        "end_char": 480,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "به پرداخت مبلغ هشت میلیون و هفتصد هزار تومان",
+        "start_char": 926,
+        "end_char": 970,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انجام کارهای خانه داری در منزل",
+      "evidence": {
+        "quote": "در انجام کارهائی که در منزل بعنوان امور خانه داری مبادرت کرده ام",
+        "start_char": 150,
+        "end_char": 214,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود زندگی مشترک",
+      "evidence": {
+        "quote": "ایام زندگی مشترک",
+        "start_char": 96,
+        "end_char": 112,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

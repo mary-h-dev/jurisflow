@@ -1,0 +1,133 @@
+{
+  "ruling_id": "30231",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "دائر به اثبات نسب",
+        "start_char": 91,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قاعده",
+      "evidence": {
+        "quote": "احراز موضوع قاعده فراش",
+        "start_char": 1466,
+        "end_char": 1488,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت والدین مورد ادعا",
+        "start_char": 1423,
+        "end_char": 1457,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "صدور شناسنامه",
+        "start_char": 110,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "رد دعوی خواهان",
+        "start_char": 1933,
+        "end_char": 1947,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادره",
+      "evidence": {
+        "quote": "رای صادره دادگاه بدوی رانقض کرده",
+        "start_char": 1850,
+        "end_char": 1882,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دائر به اثبات نسب وصدور شناسنامه بشرح دادخواست تقدیمی با این توضیح که خواهان اظهارداشته",
+        "start_char": 91,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "نسبت به خوانده ردیف اول",
+        "start_char": 322,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "2- اداره ثبت احوال غرب تهران",
+        "start_char": 62,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "صدور شناسنامه",
+        "start_char": 110,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تولد در بیمارستان شهید اکبر آبادی تهران",
+      "evidence": {
+        "quote": "درتاریخ 31/5/1373 دربیمارستان شهید اکبر آبادی تهران به دنیا آمده",
+        "start_char": 179,
+        "end_char": 243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فوت مادر خواهان",
+      "evidence": {
+        "quote": "مادرش نسترن فوت کرده است",
+        "start_char": 274,
+        "end_char": 298,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

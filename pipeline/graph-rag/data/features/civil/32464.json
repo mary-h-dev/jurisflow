@@ -1,0 +1,163 @@
+{
+  "ruling_id": "32464",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ضمان قهری",
+      "evidence": {
+        "quote": "دعوی خواهان را از باب مقررات ضمان قهری بنظر ثابت تشخیص داده",
+        "start_char": 992,
+        "end_char": 1051,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "و رابطه علیت بین آندو محقق و مدلل می باشد",
+        "start_char": 948,
+        "end_char": 989,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "از حیث قاعده لاضرر و تسبیب",
+        "start_char": 1321,
+        "end_char": 1347,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظر خواهی در دادگاه محترم تجدیدنظر استان تهران می باشد",
+        "start_char": 2321,
+        "end_char": 2385,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه خسارات وارده به خودرو",
+        "start_char": 74,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم بر محکومیت خوانده",
+        "start_char": 1216,
+        "end_char": 1237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد تجدیدنظر",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظر خواهی",
+        "start_char": 3056,
+        "end_char": 3077,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته راتایید مینماید",
+        "start_char": 3078,
+        "end_char": 3117,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان را از باب مقررات ضمان قهری بنظر ثابت تشخیص داده",
+        "start_char": 992,
+        "end_char": 1051,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با عنایت به مفاد دادخواست تقدیمی و استماع مدافعات خوانده",
+        "start_char": 320,
+        "end_char": 376,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "که به موجب آن حکم برمحکومیت تجدیدنظر خواه بپرداخت",
+        "start_char": 2589,
+        "end_char": 2638,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "مطالبه خسارات وارده به خودرو",
+        "start_char": 82,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به قسمتی ازدادنامه شماره 281",
+        "start_char": 2501,
+        "end_char": 2534,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تصادف خودرو به دلیل تغییر مسیر ناگهانی",
+      "evidence": {
+        "quote": "حسب نظریه کارشناس تصادفات بعلت تغییر مسیر ناگهانی ، مقصر شناخته شده است",
+        "start_char": 414,
+        "end_char": 485,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه مستندات هزینه های کارشناسی و پارکینگ در دادخواست",
+      "evidence": {
+        "quote": "با توجه به اینکه خواهان به این الزام قانونی عمل ننموده است",
+        "start_char": 2063,
+        "end_char": 2121,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

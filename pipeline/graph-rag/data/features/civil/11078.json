@@ -1,0 +1,273 @@
+{
+  "ruling_id": "11078",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "خواسته ابطال مبایعه‌نامه",
+        "start_char": 64,
+        "end_char": 88,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "الزام خوانده به ایفای تعهدات قراردادی",
+        "start_char": 135,
+        "end_char": 172,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "شرط مندرج در ماده 4 و 5 قرارداد",
+        "start_char": 571,
+        "end_char": 602,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "خیار شرط مندرج در بند 4 مبایعه‌نامه",
+        "start_char": 5003,
+        "end_char": 5038,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غرر",
+      "evidence": {
+        "quote": "جهل طرفین به عوضین",
+        "start_char": 1580,
+        "end_char": 1598,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "اصل دلیل ارائه شود",
+        "start_char": 3154,
+        "end_char": 3172,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "اصل لزوم و صحت",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "خواسته ابطال مبایعه‌نامه",
+        "start_char": 64,
+        "end_char": 88,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "ایفای",
+      "evidence": {
+        "quote": "الزام خوانده به ایفای تعهدات قراردادی",
+        "start_char": 135,
+        "end_char": 172,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "شرط فسخ",
+        "start_char": 634,
+        "end_char": 641,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای ق.م.",
+        "start_char": 0,
+        "end_char": 22,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ق.م.",
+        "start_char": 4706,
+        "end_char": 4737,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "آقای ق.م. با وکالت آقای غ.س. به طرفیت آقای م.س.",
+        "start_char": 13,
+        "end_char": 60,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "آقای م.س.",
+        "start_char": 51,
+        "end_char": 60,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "موکل، یک ساختمان رستوران با متفرعات به مبلغ 707/000/000 تومان به خوانده فروخته است",
+        "start_char": 392,
+        "end_char": 474,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "موکل، یک ساختمان رستوران با متفرعات به مبلغ 707/000/000 تومان به خوانده فروخته است",
+        "start_char": 392,
+        "end_char": 474,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "آقای ق.م. با وکالت آقای غ.س.",
+        "start_char": 13,
+        "end_char": 41,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه‌نامه‌ای که در تاریخ 1387/6/30 بین موکل و خوانده در مشاور املاک شماره ... صورت گرفته است",
+        "start_char": 284,
+        "end_char": 378,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی موضوع مورد معامله به نام تجدیدنظرخوانده تنظیم گردیده‌ است",
+        "start_char": 5233,
+        "end_char": 5299,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "قرارداد کلیه خیارات را به جز تدلیس از خود ساقط کرده‌اند",
+        "start_char": 3201,
+        "end_char": 3256,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "یک ساختمان رستوران با متفرعات به مبلغ 707/000/000 تومان",
+        "start_char": 398,
+        "end_char": 453,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "پول",
+      "evidence": {
+        "quote": "به مبلغ 707/000/000 تومان",
+        "start_char": 428,
+        "end_char": 453,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت انجام نشده",
+      "evidence": {
+        "quote": "به دلیل عدم ایفای تعهدات قراردادی از سوی خوانده",
+        "start_char": 476,
+        "end_char": 523,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد امضا شده",
+      "evidence": {
+        "quote": "مبایعه‌نامه‌ای که در تاریخ 1387/6/30 بین موکل و خوانده در مشاور املاک شماره ... صورت گرفته است",
+        "start_char": 284,
+        "end_char": 378,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند جعلی ارائه نشده",
+      "evidence": {
+        "quote": "سند رسمی موضوع مورد معامله به نام تجدیدنظرخوانده تنظیم گردیده‌ است",
+        "start_char": 5233,
+        "end_char": 5299,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی انجام شده",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ق.م.",
+        "start_char": 4706,
+        "end_char": 4737,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

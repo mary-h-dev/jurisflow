@@ -1,0 +1,143 @@
+{
+  "ruling_id": "36572",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواه ها",
+        "start_char": 0,
+        "end_char": 15,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جزای نقدی",
+      "evidence": {
+        "quote": "جزای نقدی",
+        "start_char": 502,
+        "end_char": 511,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مجازات",
+      "evidence": {
+        "quote": "مجازات های تکمیلی",
+        "start_char": 1150,
+        "end_char": 1167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "توقیف محل ارتکاب بزه",
+        "start_char": 751,
+        "end_char": 771,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواه ها",
+        "start_char": 0,
+        "end_char": 15,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور حکم محکومیت",
+      "evidence": {
+        "quote": "محکوم گردیده اند",
+        "start_char": 785,
+        "end_char": 801,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض اصل دادنامه",
+        "start_char": 899,
+        "end_char": 914,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "رفع توقیف به عمل اید",
+        "start_char": 2044,
+        "end_char": 2064,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه ها",
+        "start_char": 0,
+        "end_char": 15,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "پزشک",
+      "evidence": {
+        "quote": "تجدیدنظرخواه پزشک می باشد",
+        "start_char": 1742,
+        "end_char": 1767,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "دستگاه لیزر",
+        "start_char": 1356,
+        "end_char": 1367,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهان فاقد سابقه کیفری موثر هستند",
+      "evidence": {
+        "quote": "فقدان سابقه کیفری موثر تجدیدنظرخواهان",
+        "start_char": 1085,
+        "end_char": 1122,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهان پزشک هستند",
+      "evidence": {
+        "quote": "تجدیدنظرخواه پزشک می باشد",
+        "start_char": 1742,
+        "end_char": 1767,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "908",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل سنوات زندگی مشترک",
+        "start_char": 76,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "به قصد عدم تبرع",
+        "start_char": 1416,
+        "end_char": 1431,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 572,
+        "end_char": 596,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 66,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انکار",
+      "evidence": {
+        "quote": "انکار زوج (خوانده پرونده)",
+        "start_char": 390,
+        "end_char": 415,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترضٌ عنه",
+        "start_char": 2344,
+        "end_char": 2370,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت تجدیدنظرخوانده",
+        "start_char": 2468,
+        "end_char": 2497,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با عنایت به جامع محتویات پرونده و با توجه به اینکه خواهان اظهار داشته",
+        "start_char": 146,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به دستور همسرم بوده و دلیلی و مدرکی از جمله شهادت شهود در خصوص دستور زوج ندارم",
+        "start_char": 309,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "انکار زوج (خوانده پرونده)",
+        "start_char": 390,
+        "end_char": 415,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم الف.غ.",
+        "start_char": 782,
+        "end_char": 807,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "حکم به محکومیت تجدیدنظرخوانده",
+        "start_char": 2468,
+        "end_char": 2497,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجرت المثل سنوات زندگی مشترک",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل سنوات زندگی مشترک",
+        "start_char": 76,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ 000/201500 ریال از بابت اجرت المثل",
+        "start_char": 2508,
+        "end_char": 2547,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انجام کارهای خانه در زندگی مشترک",
+      "evidence": {
+        "quote": "انجام امورات مذکور ناشی از همین روابط بوده",
+        "start_char": 1758,
+        "end_char": 1800,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم احراز دستور زوج برای انجام کارها",
+      "evidence": {
+        "quote": "دلیلی و مدرکی از جمله شهادت شهود در خصوص دستور زوج ندارم",
+        "start_char": 331,
+        "end_char": 387,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

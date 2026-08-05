@@ -1,0 +1,183 @@
+{
+  "ruling_id": "35023",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 53,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "نوع طلاق رجعی است",
+        "start_char": 1542,
+        "end_char": 1559,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سقوط",
+      "evidence": {
+        "quote": "صدور قرار سقوط دعوی خواهان",
+        "start_char": 2057,
+        "end_char": 2083,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دعوی",
+      "evidence": {
+        "quote": "صدور قرار رد دعوی",
+        "start_char": 2461,
+        "end_char": 2478,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطرح نموده",
+        "start_char": 189,
+        "end_char": 199,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "ترک زندگی",
+      "evidence": {
+        "quote": "مبادرت به ترک زندگی مشترک نموده",
+        "start_char": 363,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خودداری",
+      "evidence": {
+        "quote": "از تمکین و متابعت خودداری نموده است",
+        "start_char": 397,
+        "end_char": 432,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی کرده اند",
+        "start_char": 1677,
+        "end_char": 1699,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد دعوی طلاق",
+        "start_char": 1936,
+        "end_char": 1953,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در متن دادخواست خواهان گفته است",
+        "start_char": 241,
+        "end_char": 272,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از جانب زوج مطرح می گردد",
+        "start_char": 3045,
+        "end_char": 3069,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "از جانب زوجه",
+        "start_char": 724,
+        "end_char": 736,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "با استناد به سند ازدواج شماره 5086",
+        "start_char": 141,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "لایحه ای تقدیم نموده اند",
+        "start_char": 595,
+        "end_char": 619,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "ضمن صدور دادنامه 946/94",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین در کشور استرالیا اقامت داشته اند",
+      "evidence": {
+        "quote": "زوجین در کشور استرالیا اقامت داشته اند",
+        "start_char": 666,
+        "end_char": 704,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه سه سال است که زندگی مشترک را ترک کرده است",
+      "evidence": {
+        "quote": "زوجه حدود سه سال است که مبادرت به ترک زندگی مشترک نموده",
+        "start_char": 339,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

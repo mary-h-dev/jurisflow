@@ -1,0 +1,193 @@
+{
+  "ruling_id": "26152",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رشد",
+      "evidence": {
+        "quote": "بعد از رسیدن به سن رشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان تقسیم نامه صادر و اعلام می نماید",
+        "start_char": 2264,
+        "end_char": 2309,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "پرداخت مبلغ 1/180/000/000 ریال وجه التزام",
+        "start_char": 451,
+        "end_char": 492,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "بعد از سن رشد معامله را رد نموده اند",
+        "start_char": 1069,
+        "end_char": 1105,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "امضاء",
+      "evidence": {
+        "quote": "مبایعه نامه های عادی را امضاء وکل ثمن یا بعض ثمن را دریافت نموده اند",
+        "start_char": 1208,
+        "end_char": 1276,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دعوی خواهانها آقایان ب. ع. فرزند م. و م. الف.ش.الف.",
+        "start_char": 0,
+        "end_char": 58,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان 1- ع. 2- م. 3- ز. 4- م. 5- ف. 6- ص.7- م. ج.ن. فرزندان ا. 8- ط. ح.ز. فرزند ح.",
+        "start_char": 83,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ورثه",
+      "evidence": {
+        "quote": "3 نفر از ورثه به اسامی ص. و م. و ف. در زمان تنظیم تقسیم نامه و مبایعه نامه صغیر بوده اند",
+        "start_char": 843,
+        "end_char": 931,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "در این پرونده تجدیدنظرخواهی آقایان ک. ق. و الف. ص.",
+        "start_char": 3474,
+        "end_char": 3523,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "فرجام دادرسی مربوط به دعاوی تجدیدنظرخواندگان",
+        "start_char": 3810,
+        "end_char": 3854,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نامه عادی",
+      "evidence": {
+        "quote": "ابطال تقسیم نامه عادی ارائه شده در پرونده اجرائی",
+        "start_char": 592,
+        "end_char": 640,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "3 فقره مبایعه نامه به شماره های.....و....... و......",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "تنظیم سند رسمی ملک مذکور",
+        "start_char": 1659,
+        "end_char": 1683,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "صورت‌مجلس تفکیکی",
+      "evidence": {
+        "quote": "اخذ صورت مجلس تفکیکی",
+        "start_char": 250,
+        "end_char": 270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال و دارایی",
+      "evidence": {
+        "quote": "مفاصا حساب دارایی و شهرداری",
+        "start_char": 273,
+        "end_char": 300,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "برخی از ورثه در زمان تنظیم اسناد صغیر بوده‌اند",
+      "evidence": {
+        "quote": "3 نفر از ورثه به اسامی ص. و م. و ف. در زمان تنظیم تقسیم نامه و مبایعه نامه صغیر بوده اند",
+        "start_char": 843,
+        "end_char": 931,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تقسیم نامه بدون حضور نماینده دادستان تنظیم شده است",
+      "evidence": {
+        "quote": "و تقسیم نامه نیز بدون حضور نماینده دادستان تنظیم گردیده",
+        "start_char": 932,
+        "end_char": 987,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "یکی از خواهان‌ها پیش از تقدیم دادخواست فوت کرده است",
+      "evidence": {
+        "quote": "قبل از تقدیم دادخواست نامبرده فوت گردیده است",
+        "start_char": 3074,
+        "end_char": 3118,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

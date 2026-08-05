@@ -1,0 +1,153 @@
+{
+  "ruling_id": "30877",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اصل عدم",
+      "evidence": {
+        "quote": "از جمله استثنائات اصل عدم استناد به ایرادات مطروحه است",
+        "start_char": 933,
+        "end_char": 987,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشتغال ذمه",
+      "evidence": {
+        "quote": "به علت عدم اشتغال ذمه خوانده",
+        "start_char": 1425,
+        "end_char": 1453,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ 200/000/000 ریال",
+        "start_char": 79,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور چک",
+      "evidence": {
+        "quote": "اعلام صدور چک موصوف",
+        "start_char": 339,
+        "end_char": 358,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "لذا با رد تجدیدنظرخواهی",
+        "start_char": 2481,
+        "end_char": 2504,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید دادنامه",
+      "evidence": {
+        "quote": "حکم به تأیید دادنامه تجدیدنظرخواسته صادر و اعلام می کند",
+        "start_char": 2545,
+        "end_char": 2600,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دعوی خواهان م. ج.",
+        "start_char": 0,
+        "end_char": 24,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده س. ی.م.",
+        "start_char": 40,
+        "end_char": 63,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م. ج.",
+        "start_char": 1654,
+        "end_char": 1678,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "وجه یک فقره چک به شماره 117915/2369",
+        "start_char": 118,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "ارائه تصویر مصدق سند عادی",
+        "start_char": 462,
+        "end_char": 487,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه",
+      "evidence": {
+        "quote": "شرط مندرج در امانت نامه",
+        "start_char": 744,
+        "end_char": 767,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک به صورت امانت در تصرف خواهان بوده است",
+      "evidence": {
+        "quote": "چک به صورت امانت در تصرف خواهان بوده",
+        "start_char": 512,
+        "end_char": 548,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرط اعطای وکالت محقق نشده است",
+      "evidence": {
+        "quote": "به این شرط عمل نکرده",
+        "start_char": 618,
+        "end_char": 638,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

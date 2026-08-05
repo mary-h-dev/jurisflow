@@ -1,0 +1,163 @@
+{
+  "ruling_id": "30826",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "اصل بر صحت و لزوم آن است",
+        "start_char": 689,
+        "end_char": 713,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "در واقع معامله فضولی تلقی شود",
+        "start_char": 1257,
+        "end_char": 1286,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فک رهن",
+      "evidence": {
+        "quote": "الزام خواندگان 1- به فک رهن",
+        "start_char": 90,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "سپس تنظیم سند رسمی",
+        "start_char": 121,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "سه دانگ پلاک ثبتی مذکور را بنام خواهان منتقل نمایند",
+        "start_char": 449,
+        "end_char": 500,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان ف. ز.س.",
+        "start_char": 0,
+        "end_char": 27,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "بطرفیت خواندگان 1- م. ک. 2- ق. ک.",
+        "start_char": 28,
+        "end_char": 61,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی آقای م. ع. از سوی تجدیدنظر خواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بطرفیت تجدیدنظرخوانده",
+        "start_char": 2119,
+        "end_char": 2140,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "توافق‌نامه",
+      "evidence": {
+        "quote": "یک توافق نامه با خوانده اول و خوانده دوم نیز منعقد شده است",
+        "start_char": 387,
+        "end_char": 445,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند رسمی ازدواج",
+        "start_char": 911,
+        "end_char": 926,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دانگ مشاع",
+      "evidence": {
+        "quote": "سه دانگ مشاع از ششدانگ پلاک فرعی 956 از 204 واقع در بخش 12 تهران",
+        "start_char": 140,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان همسر قانونی خوانده ردیف اول بوده است",
+      "evidence": {
+        "quote": "چنین است که خواهان همسر قانونی خوانده ردیف اول بوده است",
+        "start_char": 245,
+        "end_char": 300,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت خوانده دوم محرز است",
+      "evidence": {
+        "quote": "حسب استعلام ثبتی مالکیت خوانده دوم محرز و مسجل می باشد",
+        "start_char": 791,
+        "end_char": 845,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تاریخ توافق نامه با تاریخ سند ازدواج اختلاف دارد",
+      "evidence": {
+        "quote": "اگر چه تاریخ سند ازدواج 91/2/7 می باشد و در ذیل توافق نامه تاریخ 91/2/6 قید شده است",
+        "start_char": 943,
+        "end_char": 1026,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

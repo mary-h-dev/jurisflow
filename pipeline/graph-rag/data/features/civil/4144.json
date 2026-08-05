@@ -1,0 +1,103 @@
+{
+  "ruling_id": "4144",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خیانت",
+      "evidence": {
+        "quote": "اتهام خیانت در امانت",
+        "start_char": 149,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی",
+        "start_char": 0,
+        "end_char": 21,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تبرئه",
+      "evidence": {
+        "quote": "متضمن تبرئه",
+        "start_char": 122,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مردود اعلام",
+      "evidence": {
+        "quote": "آن را مردود اعلام",
+        "start_char": 393,
+        "end_char": 410,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تأیید و استوار می نماید",
+        "start_char": 470,
+        "end_char": 493,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شاکی بدوی آقای م.پ.",
+        "start_char": 22,
+        "end_char": 41,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 1054",
+        "start_char": 50,
+        "end_char": 68,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "آقای الف.ح از اتهام خیانت در امانت تبرئه شده است",
+      "evidence": {
+        "quote": "متضمن تبرئه آقای الف.ح. از اتهام خیانت در امانت می باشد",
+        "start_char": 122,
+        "end_char": 177,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی با شقوق ماده 240 قانون آیین دادرسی دادگاه های عمومی و انقلاب در امور کیفری انطباق ندارد",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی واصله با هیچ یک از شقوق ماده 240 قانون آیین دادرسی دادگاه های عمومی و انقلاب در امور کیفری انطباق ندارد",
+        "start_char": 259,
+        "end_char": 376,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

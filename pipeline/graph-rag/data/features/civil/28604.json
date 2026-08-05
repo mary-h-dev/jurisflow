@@ -1,0 +1,123 @@
+{
+  "ruling_id": "28604",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "به خواسته تنفیذ طلاق صادره از دادگاه کانادا",
+        "start_char": 76,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جمهوری اسلامی ایران",
+      "evidence": {
+        "quote": "عدم رعایت قوانین و مقررات حقوقی و شرعی جمهوری اسلامی ایران",
+        "start_char": 209,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم رعایت",
+      "evidence": {
+        "quote": "عدم رعایت شرط معامله",
+        "start_char": 303,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان را صادر",
+        "start_char": 527,
+        "end_char": 556,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظر خواهی در محاکم تجدیدنظر",
+        "start_char": 598,
+        "end_char": 635,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "رد دعوی خواهان",
+        "start_char": 534,
+        "end_char": 548,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظر خواه نیز در این مرحله",
+        "start_char": 1154,
+        "end_char": 1185,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "حکم",
+      "evidence": {
+        "quote": "حکم صادره طلاق",
+        "start_char": 186,
+        "end_char": 200,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی موضوع دادنامه شماره 631",
+        "start_char": 800,
+        "end_char": 827,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "صدور حکم طلاق در دادگاه کانادا",
+      "evidence": {
+        "quote": "طلاق صادره از دادگاه کانادا",
+        "start_char": 92,
+        "end_char": 119,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تطبیق حکم طلاق با شقوق ماده ۱۶۹ قانون اجرای احکام مدنی",
+      "evidence": {
+        "quote": "با هیچ یک از شقوق موجود در خصوص ماده 169 از قانون اجرای احکام مدنی نیز تطبیق ندارد",
+        "start_char": 364,
+        "end_char": 446,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "ruling_id": "38071",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قصاص نفس",
+      "evidence": {
+        "quote": "محکومیت نامبرده به کیفر قصاص نفس",
+        "start_char": 206,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قتل عمدی",
+      "evidence": {
+        "quote": "از جهت اتهام قتل عمدی",
+        "start_char": 239,
+        "end_char": 260,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قسامه",
+      "evidence": {
+        "quote": "مستند به قسامه",
+        "start_char": 902,
+        "end_char": 916,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی نموده است",
+        "start_char": 403,
+        "end_char": 433,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "اگر پس از صدور حکم بطلان همه یا برخی از سوگندها ثابت شود",
+        "start_char": 1217,
+        "end_char": 1273,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی نموده است",
+        "start_char": 403,
+        "end_char": 433,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عدول",
+      "evidence": {
+        "quote": "از سوگندشان عدول نموده اند",
+        "start_char": 1137,
+        "end_char": 1163,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متقاضی",
+      "evidence": {
+        "quote": "با قبول درخواست اعاده دادرسی متقاضی",
+        "start_char": 1589,
+        "end_char": 1624,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "قاتل",
+      "evidence": {
+        "quote": "فرد دیگری را قاتل مرحوم مذکور میدانستند",
+        "start_char": 315,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "پس از دریافت سهم دیه سه فرزند مقتول",
+        "start_char": 276,
+        "end_char": 311,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد رسمی",
+      "evidence": {
+        "quote": "اسناد رسمی که قسم خورندگان به موجب ان از سوگند خود عدول کرده اند",
+        "start_char": 1809,
+        "end_char": 1873,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "قسم خورندگان از سوگند خود عدول کرده‌اند",
+      "evidence": {
+        "quote": "از سوگندشان عدول نموده اند",
+        "start_char": 1137,
+        "end_char": 1163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست اعاده دادرسی ارائه شده است",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی نموده است",
+        "start_char": 403,
+        "end_char": 433,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

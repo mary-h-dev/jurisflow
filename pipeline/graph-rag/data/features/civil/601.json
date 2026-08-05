@@ -1,0 +1,163 @@
+{
+  "ruling_id": "601",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "مبایعه نامه شماره 271756 مورخ 10/4/88",
+        "start_char": 306,
+        "end_char": 343,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی صادر و اعلام می نماید",
+        "start_char": 953,
+        "end_char": 992,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "تنظیم سند رسمی یک باب پارکینگ",
+        "start_char": 148,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه نشده",
+      "evidence": {
+        "quote": "ابراز و اقامه نشده است",
+        "start_char": 1713,
+        "end_char": 1735,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تایید می شود",
+      "evidence": {
+        "quote": "تأیید می شود",
+        "start_char": 1933,
+        "end_char": 1945,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی",
+        "start_char": 1890,
+        "end_char": 1909,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "فی مابین خواهان به عنوان خریدار",
+        "start_char": 516,
+        "end_char": 547,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "فی مابین خواهان به عنوان خریدار",
+        "start_char": 516,
+        "end_char": 547,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان به حضور",
+        "start_char": 100,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخواهان ها",
+        "start_char": 1603,
+        "end_char": 1629,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پارکینگ",
+      "evidence": {
+        "quote": "تنظیم سند رسمی یک باب پارکینگ",
+        "start_char": 148,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "موضوع آن یک واحد آپارتمان است",
+        "start_char": 573,
+        "end_char": 602,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "مبایعه نامه شماره 271756 مورخ 10/4/88",
+        "start_char": 306,
+        "end_char": 343,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "موضوع قرارداد مبایعه نامه واحد آپارتمان است نه پارکینگ",
+      "evidence": {
+        "quote": "موضوع آن یک واحد آپارتمان است و پارکینگ در مبایعه نامه قید نگردیده",
+        "start_char": 573,
+        "end_char": 639,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم وجود قرارداد یا مدرک برای واگذاری پارکینگ",
+      "evidence": {
+        "quote": "هیچ گونه قراردادی و یا مدرکی که مبین واگذاری پارکینگ به خواهان باشد منعقد نگردیده و ارائه نشده است",
+        "start_char": 721,
+        "end_char": 819,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

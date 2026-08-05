@@ -1,0 +1,163 @@
+{
+  "ruling_id": "7056",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان ظهر مبایعه نامه عادی شماره 108",
+        "start_char": 119,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مستحق للغیر بودن",
+      "evidence": {
+        "quote": "به لحاظ مستحق للغیر بودن مبیع",
+        "start_char": 218,
+        "end_char": 247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "فرع بر اثبات مالکیت می باشد",
+        "start_char": 1066,
+        "end_char": 1093,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "الزام خوانده ردیف اول به خلع ید",
+        "start_char": 250,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "دلیلی بر ابطال وکالت نامه مذکور ارائه نشده است",
+        "start_char": 992,
+        "end_char": 1038,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه تجدیدنظر استان تهران می باشد",
+        "start_char": 1349,
+        "end_char": 1406,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه تجدیدنظر خواسته",
+        "start_char": 3722,
+        "end_char": 3752,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در مورد دادخواست تقدیمی خواهان آقای ف.ن.",
+        "start_char": 0,
+        "end_char": 40,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان خانم ن.ک. و آقایان ج.ت. و ش.ک.",
+        "start_char": 60,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "تعهداتی است که علیه ثالث شده است",
+        "start_char": 535,
+        "end_char": 567,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "مبایعه نامه عادی شماره 108",
+        "start_char": 129,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "وکالت نامه رسمی شماره 7955",
+        "start_char": 191,
+        "end_char": 217,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "267 جز پلاک ثبتی 319-413 الی 291/54",
+        "start_char": 285,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مفاد ظهر بیع نامه بدون اذن ثالث است",
+      "evidence": {
+        "quote": "مفاد ظهر بیع نامه مذکور تعهداتی است که علیه ثالث شده است ولیکن هیچ گونه مجوز و اذنی از ناحیه وی نداشته اند",
+        "start_char": 511,
+        "end_char": 617,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت ملک توسط خواندگان ثابت نشده است",
+      "evidence": {
+        "quote": "سند مالکیت ملک مذکور بنام هیچ یک از خواندگان نمی باشد",
+        "start_char": 1131,
+        "end_char": 1184,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "5445",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 46,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "تهیه مسکن از مصادیف نفقه است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حقوق",
+      "evidence": {
+        "quote": "تهیه مسکن مستقل از حقوق زوجه است",
+        "start_char": 604,
+        "end_char": 636,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 46,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه یادشده",
+        "start_char": 1496,
+        "end_char": 1518,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ع.ع.",
+        "start_char": 877,
+        "end_char": 908,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم س.م. به خواسته الزام خوانده به تمکین",
+        "start_char": 27,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست آقای ع.ع. به طرفیت خانم س.م.",
+        "start_char": 0,
+        "end_char": 45,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "عقدنامه زوجیت بین طرفین",
+        "start_char": 129,
+        "end_char": 152,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "حکم تمکین منوط به تهیه مسکن مستقل در حدشان زوجه",
+        "start_char": 1635,
+        "end_char": 1682,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی که موجبات نقض",
+        "start_char": 1285,
+        "end_char": 1326,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "تصویر مصدق عقدنامه زوجیت بین طرفین",
+        "start_char": 118,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "تهیه مسکن مستقل",
+        "start_char": 483,
+        "end_char": 498,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث‌البیت",
+      "evidence": {
+        "quote": "و کلیه اثاث البیت",
+        "start_char": 1707,
+        "end_char": 1724,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود رابطه زوجیت بین طرفین",
+      "evidence": {
+        "quote": "تصویر مصدق عقدنامه زوجیت بین طرفین محرز است",
+        "start_char": 118,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تهیه مسکن مستقل توسط زوج",
+      "evidence": {
+        "quote": "عدم تهیه مسکن مناسب و مستقل",
+        "start_char": 672,
+        "end_char": 699,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

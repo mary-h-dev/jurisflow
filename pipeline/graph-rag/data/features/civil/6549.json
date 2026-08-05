@@ -1,0 +1,203 @@
+{
+  "ruling_id": "6549",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صلح",
+      "evidence": {
+        "quote": "صلح ممکن است یا در مورد رفع تنازع موجود و یا جلوگیری از تنازع احتمالی در مورد معامله و غیر آن واقع شود",
+        "start_char": 1574,
+        "end_char": 1676,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "ادعای وکلای خواهان مبنی بر اینکه صلح مذکور در مقام \" بیع \" بوده است",
+        "start_char": 2280,
+        "end_char": 2347,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غبن",
+      "evidence": {
+        "quote": "ادعای غبن در صلح به استناد ماده 761 از همان قانون قابل پذیرش نمی باشد",
+        "start_char": 2088,
+        "end_char": 2157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت",
+      "evidence": {
+        "quote": "وکیل باید در اقدامات خود مصلحت موکل را مراعات نماید",
+        "start_char": 5054,
+        "end_char": 5105,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت و غبطه موکل",
+      "evidence": {
+        "quote": "با رعایت مصلحت و غبطه را در مقطع تنظیم سند داشته",
+        "start_char": 5169,
+        "end_char": 5217,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "اقدام به فروش املاک موکل",
+        "start_char": 461,
+        "end_char": 485,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "مبادرت به انتقال آن به غیر نموده",
+        "start_char": 1300,
+        "end_char": 1332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت حاصل فروش",
+        "start_char": 113,
+        "end_char": 147,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استعفا",
+      "evidence": {
+        "quote": "استعفای خود را اعلام می کند",
+        "start_char": 1449,
+        "end_char": 1476,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به خواسته محکومیت خوانده",
+        "start_char": 103,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوای آقای الف.ک. و خانم س.خ. به وکالت از آقای م.م. به طرفیت آقای م.م.",
+        "start_char": 8,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "خوانده به عنوان وکیل مدنی موکل",
+        "start_char": 340,
+        "end_char": 370,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بر بیحقی تجدیدنظرخواه م.م.",
+        "start_char": 3865,
+        "end_char": 3891,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "لایحه اعتراضیه وکیل تجدیدنظر خوانده",
+        "start_char": 5841,
+        "end_char": 5876,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "املاک",
+      "evidence": {
+        "quote": "اقدام به فروش املاک موکل",
+        "start_char": 461,
+        "end_char": 485,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "به شرح سند انتقال شماره 49692 مورخ 4/10/61",
+        "start_char": 665,
+        "end_char": 707,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "با استفاده از وکالت نامه تفویضی شماره 182458",
+        "start_char": 371,
+        "end_char": 415,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده با استفاده از وکالت اقدام به انتقال املاک به غیر کرده است",
+      "evidence": {
+        "quote": "خوانده با استفاده از وکالت نامه تفویضی سهم مالکانه موکل نسبت به ملک مزبور را به موجب سند صلح شماره 196153 مورخ 14/12/74 ثبت شده در دفترخانه... تهران به غیر منتقل نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دادرسی سوگند یاد کرد که پولی بابت املاک دریافت نکرده است",
+      "evidence": {
+        "quote": "املاک مذکور را نفروخته ام و یک ریال پول بابت این دو قطعه از کسی نگرفته ام",
+        "start_char": 3295,
+        "end_char": 3368,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

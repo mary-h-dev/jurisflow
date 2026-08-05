@@ -1,0 +1,153 @@
+{
+  "ruling_id": "28595",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام تصرف",
+        "start_char": 92,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌حقی",
+      "evidence": {
+        "quote": "حکم به بی حقی خواهان",
+        "start_char": 926,
+        "end_char": 946,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "و برائت ذمه خوانده",
+        "start_char": 947,
+        "end_char": 965,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه اجرت المثل",
+        "start_char": 84,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی س.س. س.",
+        "start_char": 1140,
+        "end_char": 1161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه مورد اعتراض را منطبق با مقررات و اصول دادرسی می داند مستندا\" به ماده358 قانون آیین دادرسی مدنی ضمن رد درخواست تجدیدنظرخواهی دادنامه مورد تجدیدنظر خواسته را عینا\" تایید می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "و دفاعیات وکلای خواهان",
+        "start_char": 271,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و دفاعیات خوانده",
+        "start_char": 294,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تصرفات مشار الیه( تجدیدنظرخوانده )",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتمان قطعه 5 تفکیکی 4506/17",
+        "start_char": 120,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 280",
+        "start_char": 1191,
+        "end_char": 1216,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "سکونت در واحد مسکونی به صورت تبرعی و با رضایت اعضای خانواده",
+      "evidence": {
+        "quote": "با اتفاق همسر و فرزند مشترک و با رضایت و توافق خواهان سکونت داشتند و هیچ صحبتی راجع به اجرت المثل نشده بود و قصد همسر تبرعی بوده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تصرف ناشی از رابطه زوجیت",
+      "evidence": {
+        "quote": "تصرفات مشار الیه( تجدیدنظرخوانده ) ناشی از رابطه زوجیت و اذن در انتفاع مجانی بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

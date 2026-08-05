@@ -1,0 +1,203 @@
+{
+  "ruling_id": "36522",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قتل عمدی",
+      "evidence": {
+        "quote": "اتهام قتل عمدی",
+        "start_char": 4447,
+        "end_char": 4461,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قصاص",
+      "evidence": {
+        "quote": "تقاضای قصاص قاتل",
+        "start_char": 2540,
+        "end_char": 2556,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جنون",
+      "evidence": {
+        "quote": "جنون ندارم",
+        "start_char": 4767,
+        "end_char": 4777,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قصد",
+      "evidence": {
+        "quote": "اگر چه شبهه در قصد قتل متهم باشد",
+        "start_char": 10986,
+        "end_char": 11018,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحقیق",
+      "evidence": {
+        "quote": "به عنوان یکی از فرزند ان مقتوله تحقیق می نماید",
+        "start_char": 327,
+        "end_char": 373,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض نموده",
+        "start_char": 8794,
+        "end_char": 8806,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "متهم اقرار کرده است",
+        "start_char": 2395,
+        "end_char": 2414,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقاضای",
+      "evidence": {
+        "quote": "از متهم شکایت و تقاضای قصاص کرده است",
+        "start_char": 2615,
+        "end_char": 2651,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "عقیده به نقض دادنامه",
+        "start_char": 10081,
+        "end_char": 10101,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم به نام ع. غ.",
+        "start_char": 309,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مقتوله",
+      "evidence": {
+        "quote": "خانمی به قتل رسیده",
+        "start_char": 123,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "از متهم شکایت و تقاضای قصاص کرده است",
+        "start_char": 2615,
+        "end_char": 2651,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "اقای م. ن. به عنوان وکیل تسخیری تعیین شده",
+        "start_char": 2889,
+        "end_char": 2930,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اولیای دم",
+      "evidence": {
+        "quote": "در حق اولیای دم",
+        "start_char": 8058,
+        "end_char": 8073,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سیم موس",
+      "evidence": {
+        "quote": "با استفاده از سیم موس باعث خفگی مقتول شده",
+        "start_char": 7619,
+        "end_char": 7660,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال منقول و طلا",
+      "evidence": {
+        "quote": "متهم پس از قتل مرتکب سرقت طلاجات شده",
+        "start_char": 5419,
+        "end_char": 5455,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فرش",
+      "evidence": {
+        "quote": "مرتکب سرقت فرش ها شده",
+        "start_char": 5686,
+        "end_char": 5707,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم با مادرش در منزل درگیر شده است",
+      "evidence": {
+        "quote": "متهم در روز حادثه با مادرش در منزل درگیر شده",
+        "start_char": 7572,
+        "end_char": 7616,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "علت فوت خفگی بر اثر فشار بر گردن است",
+      "evidence": {
+        "quote": "علت فوت مقتوله خفگی بر اثر فشار بر عناصر حیاتی گردن به وسیله جسم قابل انعطاف تعیین شده است",
+        "start_char": 3123,
+        "end_char": 3213,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

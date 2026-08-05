@@ -1,0 +1,193 @@
+{
+  "ruling_id": "7062",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تنفیذ فسخ قرارداد",
+        "start_char": 142,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "بابت وجه التزام قراردادی",
+        "start_char": 271,
+        "end_char": 295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "ایجاد حق فسخ",
+        "start_char": 444,
+        "end_char": 456,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "وجه التزام قراردادی، برای خیار شرط مقرر شده است",
+        "start_char": 1345,
+        "end_char": 1392,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "تنفیذ فسخ قرارداد",
+        "start_char": 142,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "تخلیه یک باب مغازه",
+        "start_char": 175,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مبلغ شش صد میلیون ریال",
+        "start_char": 241,
+        "end_char": 270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اراده خود را اعلام نموده اند",
+        "start_char": 562,
+        "end_char": 590,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.ز.",
+        "start_char": 1930,
+        "end_char": 1953,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ایجاد حق فسخ برای خواهان دارد",
+        "start_char": 444,
+        "end_char": 473,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "دلالت بر تخلف خواندگان",
+        "start_char": 403,
+        "end_char": 425,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "فسخ قرارداد مورخ 25/6/90",
+        "start_char": 148,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "تخلیه یک باب مغازه",
+        "start_char": 175,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "جزء پلاک ثبتی 4089/4087",
+        "start_char": 195,
+        "end_char": 218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "چک های شماره 136880 و 136883",
+        "start_char": 346,
+        "end_char": 374,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تخلف خواندگان از مفاد قرارداد",
+      "evidence": {
+        "quote": "دلالت بر تخلف خواندگان از مفاد قرارداد",
+        "start_char": 403,
+        "end_char": 441,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت چک‌ها",
+      "evidence": {
+        "quote": "گواهینامه های عدم پرداخت",
+        "start_char": 377,
+        "end_char": 401,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ارسال اظهارنامه توسط خواهان",
+      "evidence": {
+        "quote": "با ارسال اظهارنامه، اراده خود را اعلام نموده اند",
+        "start_char": 542,
+        "end_char": 590,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

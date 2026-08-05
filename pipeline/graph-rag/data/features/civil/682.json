@@ -1,0 +1,113 @@
+{
+  "ruling_id": "682",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 50,
+        "end_char": 67,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرعاً",
+      "evidence": {
+        "quote": "زن تبرعاً امورخانه داری",
+        "start_char": 307,
+        "end_char": 330,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 50,
+        "end_char": 67,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد ادعای وی صادر می گردد",
+        "start_char": 693,
+        "end_char": 724,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "رأی صادر شده دادگاه بدوی را... تأیید می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان وارد نبوده",
+        "start_char": 575,
+        "end_char": 597,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "با عنایت به اینکه تجدیدنظرخواه ایراد و اعتراض موجهی",
+        "start_char": 1314,
+        "end_char": 1365,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره1059",
+        "start_char": 934,
+        "end_char": 959,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زن امور خانه را بدون قصد دریافت دستمزد انجام می‌دهد",
+      "evidence": {
+        "quote": "زن تبرعاً امورخانه داری از قبیل شوهرداری و نگه داری بچه و غیره را انجام می دهد و هیچ گاه قصد او دریافت دستمزد نبوده",
+        "start_char": 307,
+        "end_char": 422,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج دستور انجام امور خانه را صادر نکرده است",
+      "evidence": {
+        "quote": "زوج به انجام امور ارائه ننموده است",
+        "start_char": 521,
+        "end_char": 555,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

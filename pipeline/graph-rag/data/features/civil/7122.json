@@ -1,0 +1,173 @@
+{
+  "ruling_id": "7122",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه",
+        "start_char": 122,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفاق",
+      "evidence": {
+        "quote": "عدم قدرت او به انفاق",
+        "start_char": 1682,
+        "end_char": 1702,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه نفقه",
+        "start_char": 122,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "دفاع قابل قبولی به دادگاه ارائه ننموده است",
+        "start_char": 390,
+        "end_char": 432,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای الف.ب.",
+        "start_char": 1000,
+        "end_char": 1025,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض عنه",
+        "start_char": 2082,
+        "end_char": 2107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی تجدیدنظر خوانده را صادر",
+        "start_char": 2142,
+        "end_char": 2181,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مطالبه نفقه با این توضیح که خواهان مدعی شده",
+        "start_char": 122,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای الف.ب. فرزند ه. و جد پدری طفل",
+        "start_char": 68,
+        "end_char": 111,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "جد پدری",
+      "evidence": {
+        "quote": "به طرفیت خوانده جد پدری طفل",
+        "start_char": 267,
+        "end_char": 294,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخواه در زندان بسر می برد",
+        "start_char": 1533,
+        "end_char": 1574,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه",
+        "start_char": 122,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "مبلغ 000/269 ریال بابت هزینه دادرسی",
+        "start_char": 781,
+        "end_char": 816,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای الف.ب. از دادنامه شماره 9309970216600260",
+        "start_char": 1000,
+        "end_char": 1059,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پدر طفل در زندان است",
+      "evidence": {
+        "quote": "شوهرش فرزند خوانده در زندان در حال تحمل حبس می باشد",
+        "start_char": 166,
+        "end_char": 217,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پدر طفل در قید حیات است",
+      "evidence": {
+        "quote": "حسب محتویات پرونده پدر الف. در قید حیات بوده",
+        "start_char": 1458,
+        "end_char": 1502,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

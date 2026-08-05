@@ -1,0 +1,223 @@
+{
+  "ruling_id": "6943",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال سند انتقال",
+        "start_char": 74,
+        "end_char": 100,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "فضولی و غیر نافذ بوده",
+        "start_char": 884,
+        "end_char": 905,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "موکل نیز آن را تنفیذ ننموده است",
+        "start_char": 908,
+        "end_char": 939,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "عدم قصد طرفین بر انعقاد عقد بیع بوده است",
+        "start_char": 1579,
+        "end_char": 1619,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان صادر",
+        "start_char": 1821,
+        "end_char": 1850,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "صرفاً توسط وکیل بنام خودتنظیم گردیده است",
+        "start_char": 606,
+        "end_char": 646,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "موکل نیز آن را تنفیذ ننموده است",
+        "start_char": 908,
+        "end_char": 939,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "وکیل خواهان بابت معامله وجهی به موکل پرداخت ننموده است",
+        "start_char": 1462,
+        "end_char": 1516,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نظر به اینکه دلیل مالکیت خواهان",
+        "start_char": 496,
+        "end_char": 527,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل خواهان بابت معامله وجهی",
+        "start_char": 1462,
+        "end_char": 1490,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موکل",
+      "evidence": {
+        "quote": "وکیل خواهان بابت معامله وجهی به موکل پرداخت ننموده است",
+        "start_char": 1462,
+        "end_char": 1516,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بطلان دعوی تجدیدنظرخواه ف. ص.",
+        "start_char": 2140,
+        "end_char": 2169,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "به خواسته ابطال سند انتقال 24775-13/7/1388",
+        "start_char": 74,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "به استناد مبایعه نامه عادی مورخ 1/9/1379",
+        "start_char": 200,
+        "end_char": 240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه رسمی",
+      "evidence": {
+        "quote": "وکالت نامه رسمی 65046-29/1/1374",
+        "start_char": 253,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "و گواهی حصر وراثت 1200-12/4/1367",
+        "start_char": 359,
+        "end_char": 391,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی مختلف فیه فی مابین مالکین رسمی",
+        "start_char": 4637,
+        "end_char": 4676,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وکیل اختیار معامله با خود را نداشته است",
+      "evidence": {
+        "quote": "که در وکالت نامه نامبرده اختیار معامله با خود را نداشته",
+        "start_char": 647,
+        "end_char": 702,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تاریخ سند عادی با تاریخ واقعی تطابق ندارد",
+      "evidence": {
+        "quote": "در تاریخ 10/5/77 مندرج در مبایعه نامه مذکور زمان واقعی تنظیم آن نبوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وکیل وجه معامله را به موکل پرداخت نکرده است",
+      "evidence": {
+        "quote": "وکیل خواهان بابت معامله وجهی به موکل پرداخت ننموده است",
+        "start_char": 1462,
+        "end_char": 1516,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند عادی دارای امضای سفید است",
+      "evidence": {
+        "quote": "مراتب سفید امضاء بودن مستند مدرکیه 10/5/77",
+        "start_char": 4459,
+        "end_char": 4501,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

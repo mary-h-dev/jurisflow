@@ -1,0 +1,163 @@
+{
+  "ruling_id": "336",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "تأخیر تأدیه",
+        "start_char": 125,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "قانون مسئولیت مدنی",
+        "start_char": 821,
+        "end_char": 839,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌حقی",
+      "evidence": {
+        "quote": "حکم به بی حقی خواهان",
+        "start_char": 1058,
+        "end_char": 1078,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مبنی بر مطالبه مبلغ",
+        "start_char": 65,
+        "end_char": 84,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای غ.ع.",
+        "start_char": 1294,
+        "end_char": 1317,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد آن صادر می گردد",
+        "start_char": 1137,
+        "end_char": 1160,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان محکوم می نماید",
+        "start_char": 1009,
+        "end_char": 1036,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "ایزوگام ملک خوانده",
+        "start_char": 160,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": 1911,
+        "end_char": 1946,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ 000/000/140 ریال",
+        "start_char": 80,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "خسارت دادرسی",
+        "start_char": 110,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حق‌الوکاله",
+      "evidence": {
+        "quote": "نسبت به حق الوکاله",
+        "start_char": 1081,
+        "end_char": 1099,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "حریق در غرفه خواهان بر اثر سرایت آتش از ایزوگام ملک خوانده",
+      "evidence": {
+        "quote": "در اثر ایزوگام ملک خوانده در اثر سهل انگاری وی و شخص مباشر با سرایت آتش به غرفه خواهان اقلام موجود مورد حریق و آتش سوزی و تخریب قرار گرفته",
+        "start_char": 153,
+        "end_char": 291,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تأیید اصل حریق توسط کارشناس آتش نشانی",
+      "evidence": {
+        "quote": "نظریه کارشناس آتش نشانی که اصل حریق را با سرایت به محل کار خواهان توسط ایزوگام پشت بام خوانده تأیید نموده",
+        "start_char": 310,
+        "end_char": 415,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تعیین میزان تقصیر خوانده ۳۰ درصد",
+      "evidence": {
+        "quote": "کارشناسان منتخب هیئت پنج نفره میزان تقصیر خوانده را 30 % اعلام داشته اند",
+        "start_char": 418,
+        "end_char": 490,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

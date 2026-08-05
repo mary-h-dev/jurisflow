@@ -1,0 +1,173 @@
+{
+  "ruling_id": "4744",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دارا",
+      "evidence": {
+        "quote": "تا بتوان مورد را از مصادیق دارا شدن ناعادلانه تلقی نمود",
+        "start_char": 770,
+        "end_char": 825,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "اصل بر عدم تبرع و امکان بازیافت وجه و مال از سوی تأدیه کننده می باشد",
+        "start_char": 2348,
+        "end_char": 2416,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "با احتساب هزینه دادرسی و خسارت تأخیر تأدیه و حق الوکاله",
+        "start_char": 151,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ هشت میلیون تومان",
+        "start_char": 88,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "این پرداخت صورت گرفته",
+        "start_char": 516,
+        "end_char": 537,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "به حساب تجدیدنظرخوانده واریز شده",
+        "start_char": 2148,
+        "end_char": 2180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "ضمن نقض رأی تجدیدنظرخواسته",
+        "start_char": 2778,
+        "end_char": 2804,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت تجدیدنظرخوانده",
+        "start_char": 2806,
+        "end_char": 2835,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان آقای ک.الف.",
+        "start_char": 0,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای ح.ن.",
+        "start_char": 62,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در رابطه با تجدیدنظرخواهی ک.الف.",
+        "start_char": 1774,
+        "end_char": 1806,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظرخوانده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "مطالبه مبلغ هشت میلیون تومان",
+        "start_char": 98,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فیش",
+      "evidence": {
+        "quote": "وجه یک فقره فیش واریزی",
+        "start_char": 127,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت توسط شخص ثالث انجام شده است",
+      "evidence": {
+        "quote": "پرداخت کننده وجه موضوع قبض استنادی خواهان، شخص دیگر به نام خانم ج.م. بوده",
+        "start_char": 354,
+        "end_char": 427,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده دلیلی برای استحقاق وجه یا ثمن کالا ارائه نکرده است",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخوانده دلیلی حاکی از اینکه مستحق دریافت وجه مزبور بوده یا وجه واریزی ثمن کالا و محموله ای بوده که به واریزکننده تسلیم شده، اقامه نگردیده است",
+        "start_char": 2183,
+        "end_char": 2338,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

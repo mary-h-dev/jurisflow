@@ -1,0 +1,133 @@
+{
+  "ruling_id": "11194",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "وقوع عقد قرض ادعایی را مدلل نماید",
+        "start_char": 1190,
+        "end_char": 1223,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "از پرداخت امتناع می‌نماید",
+        "start_char": 323,
+        "end_char": 348,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دعوای مطالبه مبلغ 110000000 ریال",
+        "start_char": 1064,
+        "end_char": 1096,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.ج.",
+        "start_char": 917,
+        "end_char": 940,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان م.ج.",
+        "start_char": 0,
+        "end_char": 24,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت ص.ص. به خواسته صدور حکم بر محکومیت خوانده",
+        "start_char": 46,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از جانب تجدیدنظرخواه ارائه نگردیده است",
+        "start_char": 1224,
+        "end_char": 1262,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "به پرداخت 110000000 ریال",
+        "start_char": 97,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "به انضمام خسارات دادرسی",
+        "start_char": 122,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "و خسارت تأخیرتأدیه",
+        "start_char": 146,
+        "end_char": 164,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واریز وجه به حساب دیگری انجام شده است",
+      "evidence": {
+        "quote": "وصرف واریز وجه به حساب دیگری دلیل بر قرض نیست",
+        "start_char": 599,
+        "end_char": 644,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده منکر دریافت قرض است",
+      "evidence": {
+        "quote": "خوانده نیز منکر دریافت قرض است",
+        "start_char": 660,
+        "end_char": 690,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

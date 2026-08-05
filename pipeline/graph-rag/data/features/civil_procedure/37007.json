@@ -1,0 +1,263 @@
+{
+  "ruling_id": "37007",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "بخواسته طلاق به درخواست زوجه تقدیم نمود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "در عسر و حرج قرار دارم",
+        "start_char": 473,
+        "end_char": 495,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "با بذل سیزده سکه بهار ازادی",
+        "start_char": 499,
+        "end_char": 526,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر و اعلام میگردد",
+        "start_char": 2718,
+        "end_char": 2762,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "بخواسته طلاق به درخواست زوجه تقدیم نمود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "در توضیح خواسته خود اعلام نمود",
+        "start_char": 227,
+        "end_char": 257,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "به مجتمع خانواده شماره یک اعاده نموده",
+        "start_char": 634,
+        "end_char": 671,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "از رای صادره تجدیدنظرخواهی نمود",
+        "start_char": 2789,
+        "end_char": 2820,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجامخواهی",
+      "evidence": {
+        "quote": "از رای صادره فرجامخواهی نمود",
+        "start_char": 3212,
+        "end_char": 3240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض میگردد",
+        "start_char": 6046,
+        "end_char": 6056,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تایید و ابرام",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را عینا تایید و ابرام نمود",
+        "start_char": 3149,
+        "end_char": 3193,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان در توضیح خواسته خود اعلام نمود",
+        "start_char": 220,
+        "end_char": 257,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در سال 94 به عقد خوانده در امده",
+        "start_char": 264,
+        "end_char": 295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "طبق نظر پزشک زنان و زایمان که در صفحه 57 پرونده منعکس گردیده است",
+        "start_char": 1977,
+        "end_char": 2041,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه نتیجه نهایی را اعلام نمایند",
+        "start_char": 1691,
+        "end_char": 1723,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "داور زوج نیز اعلام نمود",
+        "start_char": 1725,
+        "end_char": 1748,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاهد",
+      "evidence": {
+        "quote": "دو نفر از شهود تعرفه شده از سوی زوجه",
+        "start_char": 1805,
+        "end_char": 1841,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره *مورخ 99/8/24 صادره از شعبه *که حسب مفاد ان با تایید دادنامه بدوی بشماره *مورخ 99/5/28 صادره از شعبه *حکم به بطلان دعوی خواهان صادر نموده است",
+        "start_char": 3761,
+        "end_char": 3924,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "بذل سیزده سکه بهار ازادی",
+        "start_char": 502,
+        "end_char": 526,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه موکل 313 عدد سکه بهار ازادی است",
+        "start_char": 1249,
+        "end_char": 1286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "عدم پرداخت نفقه",
+        "start_char": 316,
+        "end_char": 331,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "و همچنین جهیزیه را بذل نموده",
+        "start_char": 3387,
+        "end_char": 3415,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین از یکدیگر جدا زندگی می‌کنند",
+      "evidence": {
+        "quote": "بعد از دو سال بدلیل عدم پرداخت نفقه و بد رفتاری و خصوصیات اخلاقی ناپسند و غیر قابل تحمل جدای از یکدیگر زندگی می کنیم",
+        "start_char": 296,
+        "end_char": 412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مفارقت جسمانی طولانی مدت",
+      "evidence": {
+        "quote": "مفارقت جسمانی حدود سه ساله زوجین از یکدیگر",
+        "start_char": 4444,
+        "end_char": 4486,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم موفقیت در اصلاح ذات البین",
+      "evidence": {
+        "quote": "عدم موفقیت در اصلاح ذات البین پرونده را به مجتمع خانواده شماره یک اعاده نموده",
+        "start_char": 594,
+        "end_char": 671,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

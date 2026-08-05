@@ -1,0 +1,173 @@
+{
+  "ruling_id": "32981",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اکراه",
+      "evidence": {
+        "quote": "ذکر این عبارات توسط خواهان در شرائط اکراه و زائل شدن اراده وی صورت گرفته",
+        "start_char": 992,
+        "end_char": 1064,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اراده",
+      "evidence": {
+        "quote": "ذکر این عبارات توسط خواهان در شرائط اکراه و زائل شدن اراده وی صورت گرفته",
+        "start_char": 992,
+        "end_char": 1064,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه مهریه",
+        "start_char": 82,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "خوانده در قبال دعوی خواهان یک فقره سند عادی ارائه نموده",
+        "start_char": 349,
+        "end_char": 404,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض دادنامه معترض عنه را عیناً تأیید می نماید",
+        "start_char": 2487,
+        "end_char": 2548,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خانم گ. ز. با وکالت خانم الف. م.ن. و آقای الف. ر. به طرفیت آقای س. ع.",
+        "start_char": 0,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده در قبال دعوی خواهان یک فقره سند عادی ارائه نموده",
+        "start_char": 349,
+        "end_char": 404,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای س. ع.",
+        "start_char": 1837,
+        "end_char": 1861,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در خصوص دعوی تجدیدنظرخوانده",
+        "start_char": 1964,
+        "end_char": 1991,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بخواسته مطالبه مهریه به میزان 6 عدد سکه طلای پنج واحدی",
+        "start_char": 82,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سکه",
+      "evidence": {
+        "quote": "6 عدد سکه طلای پنج واحدی",
+        "start_char": 112,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "خوانده در قبال دعوی خواهان یک فقره سند عادی ارائه نموده",
+        "start_char": 349,
+        "end_char": 404,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "حسب سند نکاحیه شماره 5977",
+        "start_char": 247,
+        "end_char": 272,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت طرفین محرز بوده است",
+      "evidence": {
+        "quote": "رابطه زوجیت طرفین محرز بوده",
+        "start_char": 313,
+        "end_char": 340,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مهریه پرداخت نشده است",
+      "evidence": {
+        "quote": "هیچ پولی به موکل پرداخت نشده است",
+        "start_char": 630,
+        "end_char": 662,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند ارائه شده فاقد اثر قانونی است",
+      "evidence": {
+        "quote": "مستند وی به جهات فوق فاقد اثر و ارزش قانونی بوده",
+        "start_char": 1358,
+        "end_char": 1406,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

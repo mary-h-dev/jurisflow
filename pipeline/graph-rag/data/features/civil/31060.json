@@ -1,0 +1,183 @@
+{
+  "ruling_id": "31060",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "صدور حکم بر تأئید بطلان",
+        "start_char": 140,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عزل",
+      "evidence": {
+        "quote": "صدور حکم بر تأئید عزل",
+        "start_char": 344,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیانت",
+      "evidence": {
+        "quote": "به لحاظ خیانت",
+        "start_char": 498,
+        "end_char": 511,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد وکالت",
+      "evidence": {
+        "quote": "اولاً عقد وکالت یکی از عقودمعینه است",
+        "start_char": 5247,
+        "end_char": 5282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "ثانیاً این عقد از زمره عقودمعین جایز بوده",
+        "start_char": 5403,
+        "end_char": 5444,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد لازم",
+      "evidence": {
+        "quote": "در اینگونه موارد که آن عقد بطریق قانونی منتهی به بطلان وبی اعتباری نگردد همچنان از حمایت قانون بر خوردار می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "وصول",
+      "evidence": {
+        "quote": "مبنی بر وصول وام",
+        "start_char": 200,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تفویض",
+      "evidence": {
+        "quote": "وکالت را صرفاً جهت اخذ وام مذکور از شرکت تعاونی اعتبار میزان کارکنان دادگستری خراسان و جهت ترهین سند مالکیت به آقای غ. ل.م. (خواندۀ ردیف اول ) تفویض نموده",
+        "start_char": 2203,
+        "end_char": 2357,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض عنه",
+        "start_char": 6680,
+        "end_char": 6705,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در مورد دعوای خانم م. الف. فرزند ع.م. به طرفیت خواندگان",
+        "start_char": 0,
+        "end_char": 55,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان به اسامی 1- آقای غ. ل.م. فرزند عباس 2- آقای الف. ز. فرزند حیدر علی",
+        "start_char": 38,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "در مقابل آمر ، وکیل می باشد",
+        "start_char": 3274,
+        "end_char": 3301,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "موضوع قرارداد رهنی شمارۀ 9764",
+        "start_char": 217,
+        "end_char": 246,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "ششدانگ یک دستگاه آپارتمان مسکونی به مساحت 165/85 متر مربع",
+        "start_char": 664,
+        "end_char": 721,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "جهت ترهین سند مالکیت",
+        "start_char": 2290,
+        "end_char": 2310,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ردیف اول وام را تصاحب و متواری شده است",
+      "evidence": {
+        "quote": "آقای غ. ل.م. که وام را تصاحب کرده و متواری شده است",
+        "start_char": 3377,
+        "end_char": 3427,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وکالت از ناحیه موکل سلب و ساقط نشده است",
+      "evidence": {
+        "quote": "عدم عزل وکیل ضمن عقد خارج لازم از موکل سلب وساقط شده است",
+        "start_char": 6225,
+        "end_char": 6281,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

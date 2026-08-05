@@ -1,0 +1,193 @@
+{
+  "ruling_id": "29543",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 254,
+        "end_char": 271,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مال",
+      "evidence": {
+        "quote": "قاعدۀ منع داراشدن بلاجهت و ناعادلانۀ مال غیر",
+        "start_char": 2780,
+        "end_char": 2824,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام به پرداخت",
+        "start_char": 157,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه",
+        "start_char": 2690,
+        "end_char": 2696,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدید نظر خواهی",
+        "start_char": 3746,
+        "end_char": 3761,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست",
+      "evidence": {
+        "quote": "رد درخواست",
+        "start_char": 4692,
+        "end_char": 4702,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "خواندگان",
+        "start_char": 45,
+        "end_char": 53,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان",
+        "start_char": 300,
+        "end_char": 306,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان‌ها",
+      "evidence": {
+        "quote": "تجدیدنظرخواهانها",
+        "start_char": 3871,
+        "end_char": 3887,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده",
+        "start_char": 3914,
+        "end_char": 3928,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "مبلغ 42,324,000 تومان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک‌ها",
+      "evidence": {
+        "quote": "چکها",
+        "start_char": 696,
+        "end_char": 700,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه های",
+      "evidence": {
+        "quote": "گواهی نامه های بانکی",
+        "start_char": 703,
+        "end_char": 723,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مواد",
+      "evidence": {
+        "quote": "مواد پلاستیکی",
+        "start_char": 209,
+        "end_char": 222,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت چک‌ها به دلیل فقدان موجودی",
+      "evidence": {
+        "quote": "به لحاظ فقدان موجودی برگشت شده اند",
+        "start_char": 747,
+        "end_char": 781,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "برگشت خوردن چک‌ها به دلیل جعلی یا سرقتی بودن بخشی از آن‌ها",
+      "evidence": {
+        "quote": "25 فقره از آن چکها جعلی و سرقتی بوده",
+        "start_char": 1217,
+        "end_char": 1252,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سابقه محکومیت کیفری بابت کلاهبرداری",
+      "evidence": {
+        "quote": "بابت آن چکها به کلاهبرداری محکوم شدند",
+        "start_char": 1256,
+        "end_char": 1293,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سپری شدن مواعد قانونی برای دعاوی قبلی",
+      "evidence": {
+        "quote": "به لحاظ سپری شدن مواعد قانونی",
+        "start_char": 1438,
+        "end_char": 1467,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

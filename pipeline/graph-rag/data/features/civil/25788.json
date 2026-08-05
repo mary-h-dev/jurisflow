@@ -1,0 +1,133 @@
+{
+  "ruling_id": "25788",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "در خصوص مطالبه خسارت تاخیر تادیه",
+        "start_char": 818,
+        "end_char": 850,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه ارز خارجی تقدیم می نماید",
+        "start_char": 125,
+        "end_char": 164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر",
+      "evidence": {
+        "quote": "صادر نموده",
+        "start_char": 324,
+        "end_char": 334,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "وصول",
+      "evidence": {
+        "quote": "وصول نگردیده",
+        "start_char": 415,
+        "end_char": 427,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "ضمن نقض رای تجدید نظر",
+        "start_char": 2825,
+        "end_char": 2846,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "اعاده می دهد",
+        "start_char": 2914,
+        "end_char": 2926,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در تاریخ 93/7/24 خواهان بانک صادرات",
+        "start_char": 0,
+        "end_char": 35,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده آقای م. الف.",
+        "start_char": 87,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "مستند به یک فقره چک",
+        "start_char": 194,
+        "end_char": 213,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی عدم",
+      "evidence": {
+        "quote": "گواهی عدم پرداخت",
+        "start_char": 385,
+        "end_char": 401,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک عهده بانک صادرات ایران شعبه دبی صادر شده است",
+      "evidence": {
+        "quote": "یک فقره چک عهده بانک صادرات ایران شعبه دبی به شماره 1187513 مورخ 92/6/16 به مبلغ 120/000 درهم در وجه خواهان ( همان شعبه) صادر نموده",
+        "start_char": 203,
+        "end_char": 334,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک وصول نشده است",
+      "evidence": {
+        "quote": "از جمله اصل و ترجمه رسمی گواهی عدم پرداخت مورخ 92/6/16 وصول نگردیده",
+        "start_char": 360,
+        "end_char": 427,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

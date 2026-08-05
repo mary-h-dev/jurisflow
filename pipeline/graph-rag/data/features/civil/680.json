@@ -1,0 +1,143 @@
+{
+  "ruling_id": "680",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام زوجیت",
+        "start_char": 76,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "اساساً زن تبرعاً امور خانه داری را انجام می دهد",
+        "start_char": 349,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصل",
+      "evidence": {
+        "quote": "اصل بر این است که کارهایی که زوجه خارج از وظیفه شرع خود انجام داده بدون قصد تبرع بوده است",
+        "start_char": 1776,
+        "end_char": 1865,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دایر به مطالبه اجرت المثل ایام زوجیت",
+        "start_char": 68,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر و اعلام می شود",
+        "start_char": 814,
+        "end_char": 855,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه بدوی",
+        "start_char": 2301,
+        "end_char": 2320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "زوج را ملزم به پرداخت مبلغ یک صد و هشتاد و هشت میلیون ریال بابت اجرت المثل در حق زوجه محکوم می نماید",
+        "start_char": 2322,
+        "end_char": 2422,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به نظر دادگاه دعوی خواهان قابل اجابت نیست",
+        "start_char": 106,
+        "end_char": 147,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج را ملزم به پرداخت مبلغ یک صد و هشتاد و هشت میلیون ریال",
+        "start_char": 2322,
+        "end_char": 2380,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در حق زوجه محکوم می نماید",
+        "start_char": 2397,
+        "end_char": 2422,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبلغ یک",
+      "evidence": {
+        "quote": "میزان اجرت المثل را یکصد و هشتاد و هشت میلیون ریال تعیین نموده است",
+        "start_char": 2169,
+        "end_char": 2235,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انجام امور خانه داری توسط زوجه",
+      "evidence": {
+        "quote": "امور خانه داری را انجام می دهد",
+        "start_char": 366,
+        "end_char": 396,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تقدیم دادخواست مطالبه اجرت المثل",
+      "evidence": {
+        "quote": "تقدیم دادخواست مطالبه اجرت المثل به طور ضمنی بیانگر عدم قصد تبرعی بودن کارهای انجام گرفته توسط زوجه",
+        "start_char": 1203,
+        "end_char": 1302,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "ruling_id": "770",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته اعلام فسخ",
+        "start_char": 58,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌اعتباری",
+      "evidence": {
+        "quote": "و بی اعتباری",
+        "start_char": 78,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "به علت استنکاف خوانده",
+        "start_char": 129,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "به خواسته اعلام فسخ",
+        "start_char": 58,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوای",
+      "evidence": {
+        "quote": "حکم به رد دعوای خواهان صادر",
+        "start_char": 515,
+        "end_char": 542,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را تأیید",
+        "start_char": 1371,
+        "end_char": 1402,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه اظهارات وکیل محترم خواهان را استماع نمود",
+        "start_char": 195,
+        "end_char": 242,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به علت استنکاف خوانده",
+        "start_char": 129,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "توافق‌نامه",
+      "evidence": {
+        "quote": "بی اعتباری توافق نامه",
+        "start_char": 80,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "و مبایعه نامه مورخ 30/7/90",
+        "start_char": 102,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "در قرارداد حق فسخ پیش‌بینی نشده است",
+      "evidence": {
+        "quote": "در قرارداد برای خواهان حق فسخی در نظر گرفته نشده است",
+        "start_char": 302,
+        "end_char": 354,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

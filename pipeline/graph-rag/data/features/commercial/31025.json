@@ -1,0 +1,183 @@
+{
+  "ruling_id": "31025",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "صدور حکم به ورشکستگی",
+        "start_char": 104,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقف",
+      "evidence": {
+        "quote": "تعیین تاریخ توقف",
+        "start_char": 126,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأدیه",
+      "evidence": {
+        "quote": "وقفه در تادیه قروض و تعهدات نقدی",
+        "start_char": 270,
+        "end_char": 302,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل اعتراض و تجدید نظرخواهی",
+        "start_char": 1406,
+        "end_char": 1434,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم به ورشکستگی",
+        "start_char": 104,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تعیین",
+      "evidence": {
+        "quote": "تعیین تاریخ توقف",
+        "start_char": 126,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "باید به طرفیت طلبکاران اقامه شود",
+        "start_char": 618,
+        "end_char": 650,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوای",
+      "evidence": {
+        "quote": "قرار رد دعوای خواهان صادر",
+        "start_char": 1329,
+        "end_char": 1354,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض قرار",
+      "evidence": {
+        "quote": "با نقض قرار مورد اعتراض",
+        "start_char": 2877,
+        "end_char": 2900,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده راجهت رسیدگی ماهیتی به مرجع محترم بدوی اعاده می نماید",
+        "start_char": 2901,
+        "end_char": 2961,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "به طرفیت نماینده دادستان تهران",
+        "start_char": 47,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در دعوای مطروحه این وصف در هر دو خوانده دعوی منتفی است و طبعا بانک باید طرف دعوی قرارمی گرفت و چنین نشده است. دلیلی ندارد در حالیکه خواهان مطالبه نکرده",
+        "start_char": 753,
+        "end_char": 904,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "لایحه 3074-93/8/10 وکیل خوانده شرکت ج. نیز بدهکار است",
+        "start_char": 688,
+        "end_char": 741,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تاجر",
+      "evidence": {
+        "quote": "تاجر از بدهی فعلیت یافته خود",
+        "start_char": 305,
+        "end_char": 333,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دارایی",
+      "evidence": {
+        "quote": "با ارایه تراز سود و زیان و دارایی مثبت در سال 92",
+        "start_char": 1157,
+        "end_char": 1205,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان در سال ۹۲ دارای دارایی مثبت بوده و تسهیلات بانکی دریافت کرده است",
+      "evidence": {
+        "quote": "خواهان با ارایه تراز سود و زیان و دارایی مثبت در سال 92 موفق به اخذ تسهیلات بانکی شده است",
+        "start_char": 1150,
+        "end_char": 1239,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست ورشکستگی با عدم تعیین تاریخ توقف و عدم حضور تمامی طلبکاران مواجه شده است",
+      "evidence": {
+        "quote": "متضمن صدور قرار رد دعوای ورشکستگی بلحاظ عدم طرف دعوا قراردادن همه طلبکاران وعدم تعیین تاریخ توقف می باشد",
+        "start_char": 1660,
+        "end_char": 1764,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

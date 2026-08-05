@@ -1,0 +1,92 @@
+{
+  "ruling_id": "29795",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دیه",
+      "evidence": {
+        "quote": "محکومیت متهم به پرداخت دو درصد دیه کامل",
+        "start_char": 426,
+        "end_char": 465,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جزای نقدی",
+      "evidence": {
+        "quote": "محکومیت متهم به پرداخت دو میلیون ریال بعنوان جزای نقدی",
+        "start_char": 660,
+        "end_char": 714,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض و تجدیدنظر",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی کرده است",
+        "start_char": 1099,
+        "end_char": 1121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض موجهی",
+      "evidence": {
+        "quote": "لایحه تجدیدنظرخواهی اعتراض موجهی",
+        "start_char": 1374,
+        "end_char": 1406,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "اتهام ر. ج. دائربربی احتیاطی درامر رانندگی",
+        "start_char": 32,
+        "end_char": 74,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شرح شکایت شاکی",
+        "start_char": 179,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به اتهام بی احتیاطی در امر رانندگی",
+        "start_char": 1146,
+        "end_char": 1193,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تصادف رانندگی منجر به آسیب بدنی شده است",
+      "evidence": {
+        "quote": "بی احتیاطی در امر رانندگی منجر به ایراد صدمه بدنی غیر عمدی",
+        "start_char": 1168,
+        "end_char": 1226,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

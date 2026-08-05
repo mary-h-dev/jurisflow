@@ -1,0 +1,233 @@
+{
+  "ruling_id": "37025",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تخلف",
+      "evidence": {
+        "quote": "تخلف زوج از شروط عقد",
+        "start_char": 98,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "عسر و حرج",
+        "start_char": 325,
+        "end_char": 334,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی",
+        "start_char": 831,
+        "end_char": 848,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "بذل می نماید",
+        "start_char": 746,
+        "end_char": 758,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "جریان دادرسی از این بابت دارای نقص است",
+        "start_char": 2101,
+        "end_char": 2139,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "طرح دعوی نموده",
+        "start_char": 203,
+        "end_char": 217,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به دادنامه اعتراض نموده است",
+        "start_char": 893,
+        "end_char": 925,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "از دادنامه فرجامخواهی نموده",
+        "start_char": 1135,
+        "end_char": 1162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه فرجامخواسته را نقض و پرونده را جهت رسیدگی مجدد به دادگاه صادر کننده رای منقوض ارجاع می نماید",
+        "start_char": 4015,
+        "end_char": 4115,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به خواسته طلاق",
+        "start_char": 75,
+        "end_char": 89,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت و ح. ط. طرح دعوی نموده",
+        "start_char": 186,
+        "end_char": 217,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تخلف زوج از شروط عقد",
+        "start_char": 98,
+        "end_char": 118,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه متعهد شده",
+        "start_char": 385,
+        "end_char": 399,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "داور زوجین",
+        "start_char": 583,
+        "end_char": 593,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تعهدنامه",
+      "evidence": {
+        "quote": "تعهد نامه ( سند رسمی )",
+        "start_char": 348,
+        "end_char": 370,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "پانصد سکه مهریه",
+        "start_char": 707,
+        "end_char": 722,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "در منزل پدر زوج زندگی می کرده",
+        "start_char": 1297,
+        "end_char": 1326,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه در مدت طولانی",
+      "evidence": {
+        "quote": "عدم پرداخت نفقه در این مدت",
+        "start_char": 159,
+        "end_char": 185,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رها کردن زندگی مشترک",
+      "evidence": {
+        "quote": "رها کردن زندگی مشترک به مدت 1/5 سال",
+        "start_char": 121,
+        "end_char": 156,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "صوری بودن تعهد پرداخت هزینه تحصیل",
+      "evidence": {
+        "quote": "تعهد زوجه در ضمانت پرداخت هزینه های زوج در خارج از کشور صرفا جنبه صوری داشته",
+        "start_char": 2160,
+        "end_char": 2236,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اجاره دادن ملک توسط پدر زوج",
+      "evidence": {
+        "quote": "و ملک را به دیگری اجاره داده است",
+        "start_char": 2622,
+        "end_char": 2654,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اقامت زوج در خارج از کشور",
+      "evidence": {
+        "quote": "زوج از سال 98 در خارج از کشور اقامت دارد",
+        "start_char": 2731,
+        "end_char": 2771,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

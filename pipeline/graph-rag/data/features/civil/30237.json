@@ -1,0 +1,163 @@
+{
+  "ruling_id": "30237",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "بخواسته ابطال سندرسمی شماره 30475",
+        "start_char": 52,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "انفساخ وکالت حاصل از فوت یکی از طرفین این عقد",
+        "start_char": 1363,
+        "end_char": 1408,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اهلیت",
+      "evidence": {
+        "quote": "در اهلیت متعاقدین وکالت موثر نیست",
+        "start_char": 1604,
+        "end_char": 1637,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "بخواسته ابطال سندرسمی شماره 30475",
+        "start_char": 52,
+        "end_char": 85,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را غیر وارد تشخیص",
+        "start_char": 684,
+        "end_char": 720,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با تفویض وکیل به خوانده",
+        "start_char": 568,
+        "end_char": 591,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "مبناء ادعاءبطلان مطروحه از ناحیه تجدیدنظرخواه",
+        "start_char": 1317,
+        "end_char": 1362,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بطرفیت تجدیدنظرخوانده خانم ف. الف.",
+        "start_char": 1011,
+        "end_char": 1045,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "سندرسمی شماره 30475 مورخ 90/4/7",
+        "start_char": 66,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند صلح شماره 30475-90/4/7",
+        "start_char": 317,
+        "end_char": 343,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "استناد به وکالتنامه شماره 2738",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "مالک رسمی ملک (آقای سید محمد ضیایی)",
+        "start_char": 1691,
+        "end_char": 1726,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "در مورد یکباب آپارتمان",
+        "start_char": 1221,
+        "end_char": 1243,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وکیل و موکل در قید حیات هستند",
+      "evidence": {
+        "quote": "در حالیکه در مانحن فیه وکیل وموکل زنده ودر قید حیات هستند",
+        "start_char": 460,
+        "end_char": 517,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند رسمی با وکالت تنظیم شده است",
+      "evidence": {
+        "quote": "هر چند با وکالت تجدیدنظرخوانده تنظیم شده است",
+        "start_char": 1727,
+        "end_char": 1771,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

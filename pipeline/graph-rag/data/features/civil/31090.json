@@ -1,0 +1,203 @@
+{
+  "ruling_id": "31090",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "اعمال وکالت در طلاق",
+        "start_char": 76,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تخلف",
+      "evidence": {
+        "quote": "تخلف مشروط علیه",
+        "start_char": 175,
+        "end_char": 190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "شروط ضمن عقد نکاح",
+        "start_char": 194,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "اعمال خیار",
+        "start_char": 274,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی",
+        "start_char": 468,
+        "end_char": 485,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "احراز",
+      "evidence": {
+        "quote": "احراز شرایط اعمال وکالت",
+        "start_char": 64,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "بذل یک هزار تومان",
+        "start_char": 112,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 1681,
+        "end_char": 1700,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "نتیجتا تایید می نماید",
+        "start_char": 1722,
+        "end_char": 1743,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده",
+        "start_char": 29,
+        "end_char": 42,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدعی",
+      "evidence": {
+        "quote": "باعنوان مدعی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تخلف زوج",
+        "start_char": 263,
+        "end_char": 271,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "خواهان بدوی (تجدیدنظرخواه)",
+        "start_char": 835,
+        "end_char": 861,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "معترض دادنامه",
+        "start_char": 1695,
+        "end_char": 1708,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "از مهریه",
+        "start_char": 130,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره940870-94/12/17",
+        "start_char": 714,
+        "end_char": 745,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "پرداخت نفقه",
+        "start_char": 937,
+        "end_char": 948,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل و مستند برای تخلف از شروط",
+      "evidence": {
+        "quote": "دلیل و مستند مربوطه به تخلف زوج و اعمال خیار ایجاد وکالت در طلاق را به دادگاه تقدیم ننموده",
+        "start_char": 240,
+        "end_char": 330,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اقدام زوجه برای صدور اجرائیه نفقه",
+      "evidence": {
+        "quote": "پس از صدور حکم بر محکومیت زوج به پرداخت نفقه زوجه در اجرای ماده1129 قانون مدنی می بایست تقاضای صدور اجرائیه را می نمود و در صورت عدم امکان اجراء حکم محکمه و الزام به دادن نفقه زوجه می توانست جهت طلاق به حاکم رجوع کند که چنین چیزی اتفاق نیافته",
+        "start_char": 1276,
+        "end_char": 1518,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

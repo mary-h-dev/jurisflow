@@ -1,0 +1,133 @@
+{
+  "ruling_id": "28159",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قرض‌الحسنه",
+      "evidence": {
+        "quote": "به صورت قرض الحسنه به وی پرداخت نموده بوده",
+        "start_char": 461,
+        "end_char": 503,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استحقاق",
+      "evidence": {
+        "quote": "باید برای اثبات دعوی استرداد، ابتداء استحقاق خویش را",
+        "start_char": 3032,
+        "end_char": 3083,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "بابت پرداخت مبلغ 100000000ریال",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "از پرداخت واسترداد مبلغ مذکور امتناع نموده",
+        "start_char": 507,
+        "end_char": 549,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه موصوف",
+        "start_char": 3896,
+        "end_char": 3917,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان اقای م. س. ن.",
+        "start_char": 0,
+        "end_char": 32,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده اقای الف. ک.",
+        "start_char": 53,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم برمحکومیت تجدیدنظرخواه",
+        "start_char": 2485,
+        "end_char": 2511,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده صادر",
+        "start_char": 2676,
+        "end_char": 2700,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بانکی",
+      "evidence": {
+        "quote": "بابت یک فقره رسید عادی بانکی",
+        "start_char": 167,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انتقال وجه از طریق حساب بانکی",
+      "evidence": {
+        "quote": "مبلغ واریزی توسط خواهان به حساب موکل طبق رسید بانکی پیوست در قبال مبلغ مذکور بوده",
+        "start_char": 736,
+        "end_char": 817,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات ماهیت قرض بودن پرداخت",
+      "evidence": {
+        "quote": "خواهان دلیلی جهت اثبات امرفوق ارائه نکرده",
+        "start_char": 3703,
+        "end_char": 3744,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

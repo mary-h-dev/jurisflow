@@ -1,0 +1,233 @@
+{
+  "ruling_id": "28957",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تاخیر تادیه",
+        "start_char": 306,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق‌الوکاله",
+      "evidence": {
+        "quote": "حق الوکاله",
+        "start_char": 276,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "جرم انتقال مال غیر",
+        "start_char": 174,
+        "end_char": 192,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه قراردادی",
+      "evidence": {
+        "quote": "رابطه قراردادی",
+        "start_char": 2142,
+        "end_char": 2156,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت",
+        "start_char": 99,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "استنکاف نمودند",
+        "start_char": 1063,
+        "end_char": 1077,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "محکوم مینماید",
+        "start_char": 1972,
+        "end_char": 1985,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی",
+        "start_char": 2284,
+        "end_char": 2296,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض دادنامه",
+        "start_char": 4561,
+        "end_char": 4572,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان",
+        "start_char": 1326,
+        "end_char": 1332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده",
+        "start_char": 988,
+        "end_char": 994,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 2393,
+        "end_char": 2405,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده",
+        "start_char": 3393,
+        "end_char": 3407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده",
+        "start_char": 4339,
+        "end_char": 4346,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "خریدار",
+        "start_char": 4249,
+        "end_char": 4255,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "سند عادی",
+        "start_char": 402,
+        "end_char": 410,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه نامه",
+        "start_char": 567,
+        "end_char": 578,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک",
+        "start_char": 827,
+        "end_char": 830,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "ثمن",
+        "start_char": 4375,
+        "end_char": 4378,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از تودیع هزینه هیئت کارشناسان استنکاف کرده است",
+      "evidence": {
+        "quote": "مشارالیه از تودیع هزینه هیئت کارشناسان در مهلت قانونی استنکاف نمودند",
+        "start_char": 1009,
+        "end_char": 1077,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دادرسی حضور نیافته است",
+      "evidence": {
+        "quote": "خوانده باوصف ابلاغ قانونی درجلسه دادرسی حضور نیافته",
+        "start_char": 1419,
+        "end_char": 1470,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند ابرازی دارای امضای خوانده است",
+      "evidence": {
+        "quote": "سند ابرازی خواهان حکایت از مدیونیت خوانده ردیف دوم دارد وبه امضای وی رسیده",
+        "start_char": 1315,
+        "end_char": 1389,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

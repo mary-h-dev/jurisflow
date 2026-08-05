@@ -1,0 +1,173 @@
+{
+  "ruling_id": "6649",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "به خواسته اعلام بطلان قرارداد عادی",
+        "start_char": 83,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمان",
+      "evidence": {
+        "quote": "قواعد ضمان ید",
+        "start_char": 1080,
+        "end_char": 1093,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غرور",
+      "evidence": {
+        "quote": "و غرور",
+        "start_char": 1123,
+        "end_char": 1129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 314,
+        "end_char": 331,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "به خواسته اعلام بطلان",
+        "start_char": 83,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت",
+        "start_char": 163,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "در ارتباط با مطالبه خسارت تأخیر تأدیه",
+        "start_char": 2209,
+        "end_char": 2246,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته درخور نقض می باشد",
+        "start_char": 3688,
+        "end_char": 3729,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای ب.ب. به وکالت از آقای ر.پ. به طرفیت آقای ع.ن. با وکالت آقای م.م. به خواسته اعلام بطلان",
+        "start_char": 0,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت",
+        "start_char": 163,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظر خوانده آقای ر.پ.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "بطلان قرارداد عادی مورخ 24/3/1390",
+        "start_char": 99,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کامیون",
+      "evidence": {
+        "quote": "یک دستگاه کامیون میکسر الف.",
+        "start_char": 432,
+        "end_char": 459,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "مبیع را هزار تومان خریده بود",
+        "start_char": 1294,
+        "end_char": 1322,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده مالک اتومبیل نبوده است",
+      "evidence": {
+        "quote": "مشخص شد خوانده حین العقد مالک اتومبیل نبوده",
+        "start_char": 570,
+        "end_char": 613,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت خودرو متعلق به شخص ثالث است",
+      "evidence": {
+        "quote": "به لحاظ مالکیت شخص ثالث آقا ک.ش. نداشته است",
+        "start_char": 671,
+        "end_char": 714,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

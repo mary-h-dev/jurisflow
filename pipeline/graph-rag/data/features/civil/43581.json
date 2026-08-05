@@ -1,0 +1,173 @@
+{
+  "ruling_id": "43581",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 94,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تنصیف",
+      "evidence": {
+        "quote": "از جمله تنصیف و اجرت المثل بوده",
+        "start_char": 1653,
+        "end_char": 1684,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "موکل خواستار اجرت المثل می باشد",
+        "start_char": 993,
+        "end_char": 1024,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "تا كون تا حال اقساط مهریه را پرداخت نکرده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به رای دادگاه تجدیدنظر استان اعتراض",
+        "start_char": 1512,
+        "end_char": 1552,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در تاریخ 97/1/1 با خوانده ازدواج نموده",
+        "start_char": 210,
+        "end_char": 248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج اظهار نموده",
+        "start_char": 482,
+        "end_char": 497,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "خواستار طلاق زوجه می باشم",
+        "start_char": 524,
+        "end_char": 549,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "نسبت به رای دادنامه شماره *مورخ 1400/9/17 صادره از شعبه *متضمن صدور گواهی عدم امکان سازش از انجاییکه مطابق ماده 29 قانون حمایت خانواده دادگاه در زمان رسیدگی به پرونده ملزم به تعیین کلیه حق و حقوق ناشی از زوجیت بوده ثانیا در خصوص تنصیف نیز فرجام خواه در راستای اثبات ادعای خود به شهادت شهود استناد نموده لذا ضرورت دارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "بموج سند ازدواج که تصویر ان پیوست دادخواست تقدیم گردیده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه در حال پرداخت است",
+        "start_char": 550,
+        "end_char": 573,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "زوج اقدام به خرید یکدستگاه خودرو پراید نموده است",
+        "start_char": 783,
+        "end_char": 831,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "و اقدام به تکمیل منزل مسکونی که به صورت نیمه ساخت در زمان انعقاد عقد نکاح بوده است",
+        "start_char": 832,
+        "end_char": 914,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج قصد طلاق دارد",
+      "evidence": {
+        "quote": "طبق دادخواست تقدیمی خواستار طلاق زوجه می باشم",
+        "start_char": 504,
+        "end_char": 549,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اقساط مهریه پرداخت نشده است",
+      "evidence": {
+        "quote": "تا كون تا حال اقساط مهریه را پرداخت نکرده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خودرو به صورت قولنامه خریداری شده است",
+      "evidence": {
+        "quote": "پراید خریداری شده از ناحیه فرجام خوانده به صورت قولنامه ای بوده",
+        "start_char": 2451,
+        "end_char": 2514,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

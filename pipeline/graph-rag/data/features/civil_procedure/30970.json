@@ -1,0 +1,153 @@
+{
+  "ruling_id": "30970",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صوری",
+      "evidence": {
+        "quote": "بعلت صوری بودن",
+        "start_char": 108,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "بخواسته ابطال مبایعه نامه عادی",
+        "start_char": 70,
+        "end_char": 100,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دعوی",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی مذکور صادر و اعلام میدارد",
+        "start_char": 683,
+        "end_char": 726,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دادرسی",
+      "evidence": {
+        "quote": "بخواسته اعاده دادرسی",
+        "start_char": 2977,
+        "end_char": 2997,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "تنظیم سند رسمی",
+        "start_char": 2054,
+        "end_char": 2068,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "قرار شد که مبلغ فوق را اینجانب خواهان به خوانده پرداخت کنم",
+        "start_char": 316,
+        "end_char": 374,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه معترض عنه",
+        "start_char": 1566,
+        "end_char": 1590,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان اظهار نموده است",
+        "start_char": 173,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از ناحیه وکیل خوانده",
+        "start_char": 500,
+        "end_char": 520,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "مبایعه نامه عادی 27/3/88",
+        "start_char": 84,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "بلحاظ بازداشت بودن ملک",
+        "start_char": 3119,
+        "end_char": 3141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "نسبت به پلاک ثبتی... از 4476 اصلی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبلغ ۱۶ میلیون تومان به صورت بهره‌ای دریافت شده است",
+      "evidence": {
+        "quote": "۱۶میلیون تومان بصورت بهره ای از خوانده دریافت نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک دارای بازداشت است",
+      "evidence": {
+        "quote": "درقید باز داشت بوده",
+        "start_char": 2461,
+        "end_char": 2480,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

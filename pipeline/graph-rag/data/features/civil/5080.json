@@ -1,0 +1,183 @@
+{
+  "ruling_id": "5080",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "عقودی که بر طبق قانون واقع شده باشد بین متعاملین و قائم مقام آن ها لازم الاتباع است",
+        "start_char": 7973,
+        "end_char": 8056,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "به خواسته الزام به تحویل و تنظیم سند رسمی سه واحد آپارتمان",
+        "start_char": 173,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت خسارات",
+      "evidence": {
+        "quote": "و محکومیت به پرداخت خسارات دادرسی",
+        "start_char": 523,
+        "end_char": 556,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مخالف قانون و متضمن جهت موجه در نقض است",
+        "start_char": 7735,
+        "end_char": 7774,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "وارد تشخیص",
+      "evidence": {
+        "quote": "بنابراین دادگاه ادعای تجدیدنظرخواهان را وارد تشخیص",
+        "start_char": 8318,
+        "end_char": 8368,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان ها اظهار داشته اند",
+        "start_char": 589,
+        "end_char": 620,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "با خواندگان با شرح و شرایطی معامله می نماید",
+        "start_char": 1394,
+        "end_char": 1437,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "بنابراین دادگاه ادعای تجدیدنظرخواهان را وارد تشخیص",
+        "start_char": 8318,
+        "end_char": 8368,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "سه واحد آپارتمان به پلاک های ثبتی 11403/88 و 70676/88 و 70677/88",
+        "start_char": 5426,
+        "end_char": 5490,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به موجب مبایعه نامه مورخ 15/06/1383",
+        "start_char": 1174,
+        "end_char": 1209,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "از ثمن معامله مبلغ 000/000/500 ریال طی چک تأمین و پرداخت می گردد",
+        "start_char": 1442,
+        "end_char": 1506,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی",
+        "start_char": 3395,
+        "end_char": 3418,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "6 دانگ یک باب مغازه",
+        "start_char": 1222,
+        "end_char": 1241,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تحویل عملی آپارتمان‌ها انجام نشده است",
+      "evidence": {
+        "quote": "ولی سه واحد آپارتمان مسکونی هیچ گاه به تحویل و تصرف عملی موکلین در نیامده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "آپارتمان‌ها به اجاره داده شده‌اند",
+      "evidence": {
+        "quote": "کماکان 3 واحد آپارتمان از سوی خواندگان به اجاره غیر داده شده است",
+        "start_char": 2184,
+        "end_char": 2248,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند مالکیت آپارتمان‌ها به نام خواندگان صادر شده است",
+      "evidence": {
+        "quote": "سند مالکیت آپارتمان های فوق با پلاک های 3 و 114/88 به مساحت 31/83 متر مربع در تاریخ 17/06/1386 ذیل صفحه 386 دفتر 167 تهران پارس به نام آقای ک.الف. صادر و تحویل گردد",
+        "start_char": 2372,
+        "end_char": 2536,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وکالت‌نامه یکی از طرفین ابطال شده است",
+      "evidence": {
+        "quote": "اما با ابطال وکالت نامه مذکور که نتیجه آن عزل خواندگان از وکالت است",
+        "start_char": 6866,
+        "end_char": 6933,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

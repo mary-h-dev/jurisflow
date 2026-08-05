@@ -1,0 +1,143 @@
+{
+  "ruling_id": "25456",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "امانی",
+      "evidence": {
+        "quote": "ید خوانده‌ ید امانی بوده",
+        "start_char": 473,
+        "end_char": 497,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان را صادر",
+        "start_char": 585,
+        "end_char": 617,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه فوق‌الذکر",
+        "start_char": 1189,
+        "end_char": 1214,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد جهیزیه",
+        "start_char": 46,
+        "end_char": 70,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص دادخواست تجدیدنظرخواهی",
+        "start_char": 774,
+        "end_char": 804,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای الف. ه.",
+        "start_char": 24,
+        "end_char": 45,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خانم ف. ه. به طرفیت آقای الف. ه.",
+        "start_char": 8,
+        "end_char": 45,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی تجدیدنظرخواه صادر گردیده است",
+        "start_char": 950,
+        "end_char": 996,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "از طرف تجدیدنظرخوانده در حق تجدیدنظرخواه",
+        "start_char": 1393,
+        "end_char": 1433,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "جهیزیه را زوجه طلب نموه",
+        "start_char": 1016,
+        "end_char": 1039,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "استرداد جهیزیه",
+        "start_char": 56,
+        "end_char": 70,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اقلام جهیزیه از سال ۱۳۸۰ تا امروز باقی نمانده است",
+      "evidence": {
+        "quote": "خوانده مدعی شده است که از اقلام جهیزیه خواهان از سال 1380 تا امروز چیزی باقی نمانده است",
+        "start_char": 183,
+        "end_char": 270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان در جلسه دادگاه حضور نیافته است",
+      "evidence": {
+        "quote": "خواهان نیز در جلسه دادگاه حضور نیافته",
+        "start_char": 273,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

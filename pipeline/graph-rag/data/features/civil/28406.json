@@ -1,0 +1,163 @@
+{
+  "ruling_id": "28406",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل اموال",
+        "start_char": 137,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مالکیت رسمی تجدیدنظرخواه",
+        "start_char": 1626,
+        "end_char": 1650,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق انتفاع",
+      "evidence": {
+        "quote": "حق انتفاع دارد",
+        "start_char": 2568,
+        "end_char": 2582,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخشوده مطالبه اجرت المثل اموال",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر",
+      "evidence": {
+        "quote": "سند مالکیت نیز بنام این نهاد صادر میگردد",
+        "start_char": 427,
+        "end_char": 467,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان را صادر می نماید",
+        "start_char": 847,
+        "end_char": 883,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته نقض می شود",
+        "start_char": 2711,
+        "end_char": 2744,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "بطرفیت آقای م. ع.س. و 2- آقای ع.الف. الف.س. 3- آقای الف. س. با وکالت آقای ر. س. از خواندگان اول و دوم",
+        "start_char": 27,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی بنیاد شهید و امور ایثارگران",
+        "start_char": 1028,
+        "end_char": 1069,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "تجدیدنظرخواندگان نیز منکر تصرفات خود نشده اند",
+        "start_char": 1991,
+        "end_char": 2036,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دانگ مشاع",
+      "evidence": {
+        "quote": "دو دانگ مشاع از پلاک ثبتی....فرعی از3375 واقع در بخش 11 تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "سند مالکیت نیز بنام این نهاد صادر میگردد",
+        "start_char": 427,
+        "end_char": 467,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "مالکیت رسمی تجدیدنظرخواه به ملک مورد دعوا",
+        "start_char": 1626,
+        "end_char": 1667,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواندگان در ملک احداث بنا کرده‌اند",
+      "evidence": {
+        "quote": "رقبه مزبور در تصرف خواندگان بوده و در آن احداث بنا نمودند",
+        "start_char": 474,
+        "end_char": 531,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت بنیاد شهید با سند رسمی ثابت شده است",
+      "evidence": {
+        "quote": "مالکیت رسمی تجدیدنظرخواه به ملک مورد دعوا برابر سند رسمی ابرازی",
+        "start_char": 1626,
+        "end_char": 1689,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

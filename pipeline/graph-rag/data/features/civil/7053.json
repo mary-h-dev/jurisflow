@@ -1,0 +1,173 @@
+{
+  "ruling_id": "7053",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "صدور حکم فسخ اجاره نامه رسمی",
+        "start_char": 87,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دعوای تخلیه",
+      "evidence": {
+        "quote": "و تخلیه مورد اجاره",
+        "start_char": 116,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "محکوم به بطلان می باشد",
+        "start_char": 1731,
+        "end_char": 1753,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم تجدیدنظر",
+        "start_char": 1798,
+        "end_char": 1840,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "از سوی سایر وراث اقامه دعوی نشده",
+        "start_char": 524,
+        "end_char": 556,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "هیچ گونه اعتراض بدان به عمل نیامده است",
+        "start_char": 1386,
+        "end_char": 1424,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی س. و م. هر دو به شهرت ن. نسبت به دادنامه",
+        "start_char": 1911,
+        "end_char": 1965,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "پروانه کسب خواهان جهت تعمیرگاه و مکانیکی کامیون بوده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "همان گونه که وکیل خواندگان اعلام داشته",
+        "start_char": 1568,
+        "end_char": 1606,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "و تجدیدنظرخواه در این مرحله از رسیدگی دلیل یا مدرک قانع کننده",
+        "start_char": 2448,
+        "end_char": 2509,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجاره نامه",
+      "evidence": {
+        "quote": "اجاره نامه رسمی شماره 37255 مورخ 3/3/62 دفترخانه... تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "به استناد کپی سند مالکیت",
+        "start_char": 243,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "و گواهی حصر وراثت",
+        "start_char": 268,
+        "end_char": 285,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه رسمی",
+      "evidence": {
+        "quote": "وکالت نامه رسمی از وراث",
+        "start_char": 328,
+        "end_char": 351,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تغییر کاربری از انبار به مکانیکی",
+      "evidence": {
+        "quote": "به علت تغییر شغل از انبار به مکانیکی ماشین آلات صنعتی",
+        "start_char": 165,
+        "end_char": 218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "استعمال ملک برای تعمیرگاه",
+      "evidence": {
+        "quote": "باقیمانده که به موجب اجاره نامه عادی جهت تعمیرگاه به اجاره واگذارشده",
+        "start_char": 814,
+        "end_char": 882,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

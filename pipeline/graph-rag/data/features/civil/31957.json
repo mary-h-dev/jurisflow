@@ -1,0 +1,123 @@
+{
+  "ruling_id": "31957",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "موازین قانونی",
+      "evidence": {
+        "quote": "منطبق با موازین قانونی صادر شده است",
+        "start_char": 752,
+        "end_char": 787,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قواعد دادرسی",
+      "evidence": {
+        "quote": "از جهت رعایت اصول و قواعد دادرسی",
+        "start_char": 790,
+        "end_char": 822,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "شکایت",
+      "evidence": {
+        "quote": "خواسته شکات اجرای ماده 21",
+        "start_char": 13,
+        "end_char": 38,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظرخواهی در شعب تجدیدنظر",
+        "start_char": 489,
+        "end_char": 524,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراضات",
+      "evidence": {
+        "quote": "نظر به اینکه اعتراضات تجدیدنظرخواه",
+        "start_char": 581,
+        "end_char": 615,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رای معترض به عینا تایید",
+        "start_char": 957,
+        "end_char": 980,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "اعتراضات تجدیدنظرخواه",
+        "start_char": 594,
+        "end_char": 615,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای صادره قطعی است",
+        "start_char": 999,
+        "end_char": 1017,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه مورد اعتراض",
+        "start_char": 732,
+        "end_char": 751,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "کودک تحت سرپرستی از مزایای بیمه برخوردار بوده است",
+      "evidence": {
+        "quote": "بهرۀ مندی کودک تحت سرپرستی از حمایت مزایای بیمه و بیمه های تکمیلی برخوردار بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "آئین‌نامه تصویب و ابلاغ نشده است",
+      "evidence": {
+        "quote": "عدم تصویب و ابلاغ آئین نامه",
+        "start_char": 206,
+        "end_char": 233,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "346",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صلح",
+      "evidence": {
+        "quote": "درخواست صلح و سازش نموده",
+        "start_char": 844,
+        "end_char": 868,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت",
+      "evidence": {
+        "quote": "وکیل غبطه و مصلحت موکل را نیز رعایت ننموده",
+        "start_char": 605,
+        "end_char": 647,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام تصرف",
+        "start_char": 387,
+        "end_char": 414,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق‌الوکاله",
+      "evidence": {
+        "quote": "حکم به پرداخت حق الوکاله نماینده قضایی",
+        "start_char": 164,
+        "end_char": 202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "حکم به نقض رأی بدوی",
+        "start_char": 1797,
+        "end_char": 1816,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال تصمیم صلح بلاعوض",
+        "start_char": 80,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "موضوع مطالبه طلب و خسارت",
+        "start_char": 294,
+        "end_char": 318,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "تقاضای رسیدگی و صدور حکم مورد استدعاست",
+        "start_char": 657,
+        "end_char": 695,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در مورد تجدیدنظرخواهی سازمان جمع آوری و فروش اموال تملیکی",
+        "start_char": 1265,
+        "end_char": 1322,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان در شرح خواسته چنین بیان می کند",
+        "start_char": 204,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "نماینده شهرداری در مقام خوانده",
+        "start_char": 697,
+        "end_char": 727,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "توسط وکیل (شهرداری منطقه 8)",
+        "start_char": 134,
+        "end_char": 161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "نماینده",
+      "evidence": {
+        "quote": "حکم به پرداخت حق الوکاله نماینده قضائی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "بر اساس حدود اختیارات حاصله از وکالت نامه شماره 2667-17/7/89",
+        "start_char": 770,
+        "end_char": 830,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک",
+      "evidence": {
+        "quote": "نسبت به پلاک موضوع دعوی است",
+        "start_char": 920,
+        "end_char": 947,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وکیل بدون رعایت غبطه و مصلحت موکل اقدام به صلح و سازش کرده است",
+      "evidence": {
+        "quote": "وکیل غبطه و مصلحت موکل را نیز رعایت ننموده",
+        "start_char": 605,
+        "end_char": 647,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وکالت شامل اختیارات گسترده از جمله صلح و سازش به هر شخص بوده است",
+      "evidence": {
+        "quote": "تمام اختیارات راجع به فروش و انتقال و صلح و سازش به هر شخص ولو بنام خود به هر مبلغ و تحت هر شرایطی به وکیل تفویض شده",
+        "start_char": 950,
+        "end_char": 1066,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

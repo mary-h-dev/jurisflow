@@ -1,0 +1,103 @@
+{
+  "ruling_id": "42798",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "با خواسته اعسار از پرداخت هزینه دادرسی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اختلاف",
+      "evidence": {
+        "quote": "با توجه به حدوث اختلاف در صلاحیت",
+        "start_char": 1462,
+        "end_char": 1494,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه وجه",
+        "start_char": 83,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "در هرکدام از محل های مربوطه اقامه دعوا نماید",
+        "start_char": 886,
+        "end_char": 930,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "که خواهان مخیر است",
+        "start_char": 867,
+        "end_char": 885,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با توجه به اینکه اقامتگاه خوانده در حوزه قضایی",
+        "start_char": 279,
+        "end_char": 325,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "اعسار از پرداخت هزینه دادرسی",
+        "start_char": 54,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "و مطالبه وجه",
+        "start_char": 83,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلاف در صلاحیت بین مراجع قضایی وجود دارد",
+      "evidence": {
+        "quote": "با توجه به حدوث اختلاف در صلاحیت",
+        "start_char": 1462,
+        "end_char": 1494,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

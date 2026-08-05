@@ -1,0 +1,183 @@
+{
+  "ruling_id": "6678",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "باطل خواهد بود",
+        "start_char": 2421,
+        "end_char": 2435,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ربا و معاملات باطله",
+      "evidence": {
+        "quote": "بنا بر بند 3 ماده 232 قانون مدنی شرط مذکور به لحاظ نامشروع بودن باطل خواهد بود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "تعهد بر امری نمایند",
+        "start_char": 3687,
+        "end_char": 3706,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "در تعریف عقد بیع در ماده 338 قانون مدنی آمده است",
+        "start_char": 4020,
+        "end_char": 4068,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تلف",
+      "evidence": {
+        "quote": "در تعریف تلف در ماده 328 قانون مدنی آمده است",
+        "start_char": 5976,
+        "end_char": 6020,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "در تعریف تسبیب در ماده 331 قانون مدنی آمده است",
+        "start_char": 6056,
+        "end_char": 6102,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارت از این باب منتفی بوده است",
+        "start_char": 1102,
+        "end_char": 1140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "وارد",
+      "evidence": {
+        "quote": "وارد کردن یک دستگاه جرثقیل 25 تنی کاتر از کشور ایرلند",
+        "start_char": 7697,
+        "end_char": 7749,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "وارد و تحویل تجدیدنظر خواهان ها داده",
+        "start_char": 8011,
+        "end_char": 8047,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان ها اظهار داشته اند",
+        "start_char": 265,
+        "end_char": 296,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت خسارت",
+        "start_char": 117,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "زمانی که بایع (فروشنده) قدرت بر تسلیم نداشته باشد",
+        "start_char": 4367,
+        "end_char": 4416,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "یک دستگاه کامیون کشنده رنو مدل 2008 در حد 2012 در محور 450",
+        "start_char": 158,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "در مقابل مبلغ هشتاد میلیون تومان دریافت نماید",
+        "start_char": 415,
+        "end_char": 460,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "بر اساس قرارداد عادی توافق شده است",
+        "start_char": 297,
+        "end_char": 331,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وارد کردن خودرو با مدل مورد توافق امکان پذیر نبوده است",
+      "evidence": {
+        "quote": "واردات کالا با مدل 2008 در سال 1391 امکان پذیر نبوده است",
+        "start_char": 1355,
+        "end_char": 1411,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین قرارداد عادی امضا کرده‌اند",
+      "evidence": {
+        "quote": "مستند خواهان ها قرارداد عادی مورخ 11/9/1391 می باشد",
+        "start_char": 1437,
+        "end_char": 1488,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "ruling_id": "674",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 142,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "موجبات عسر و حرج خواهان است",
+        "start_char": 542,
+        "end_char": 569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "به اجرای طلاق خلع نوبت اول",
+        "start_char": 1341,
+        "end_char": 1367,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "خارج از حضانت",
+        "start_char": 1488,
+        "end_char": 1501,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت نشدن نفقه وی",
+        "start_char": 211,
+        "end_char": 230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دفاع",
+      "evidence": {
+        "quote": "خوانده در جلسه دادگاه دفاع مؤثری نداشته",
+        "start_char": 580,
+        "end_char": 619,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "رد اعتراض معترض",
+        "start_char": 2515,
+        "end_char": 2530,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م.الف.",
+        "start_char": 1909,
+        "end_char": 1942,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "موجبات عسر و حرج خواهان است",
+        "start_char": 542,
+        "end_char": 569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "پرداخت نشدن نفقه وی توسط خوانده",
+        "start_char": 211,
+        "end_char": 242,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجین",
+      "evidence": {
+        "quote": "مفارقت زوجین قریب چهار سال",
+        "start_char": 182,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی",
+        "start_char": 2292,
+        "end_char": 2319,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند نکاح شماره 3819",
+        "start_char": 330,
+        "end_char": 349,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "از مهریه ما فی القباله",
+        "start_char": 746,
+        "end_char": 768,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "بذل تعداد یک صد و پنجاه عدد سکه تمام بهار آزادی",
+        "start_char": 698,
+        "end_char": 745,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مفارقت زوجین به مدت چهار سال",
+      "evidence": {
+        "quote": "مفارقت زوجین قریب چهار سال",
+        "start_char": 182,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه توسط زوج",
+      "evidence": {
+        "quote": "پرداخت نشدن نفقه وی توسط خوانده",
+        "start_char": 211,
+        "end_char": 242,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم موفقیت داوران در اصلاح ذات‌البین",
+      "evidence": {
+        "quote": "داوران منتخب نیز توفیق در اصلاح ذات البین نداشته اند",
+        "start_char": 882,
+        "end_char": 934,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

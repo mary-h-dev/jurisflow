@@ -1,0 +1,153 @@
+{
+  "ruling_id": "476",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تاخیر",
+      "evidence": {
+        "quote": "در قرارداد مبلغی به عنوان خسارت تأخیر منظور شده است",
+        "start_char": 701,
+        "end_char": 752,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی و بی حقی خواهان دعوی صادر و اعلام می دارد",
+        "start_char": 2967,
+        "end_char": 3026,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال دادنامه شماره 668",
+        "start_char": 112,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "اضافه پرداختی به مبلغ 689000 ریال به حساب بانک صادرات ایران واریز شده است",
+        "start_char": 625,
+        "end_char": 698,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی شرکت الف. « سهامی عام»",
+        "start_char": 3397,
+        "end_char": 3433,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "عدم همکاری خواهان دعوی را توجه داده",
+        "start_char": 1065,
+        "end_char": 1100,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده دعوی در مقام دفاع حاضر نشده",
+        "start_char": 1373,
+        "end_char": 1407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به طرفیت تجدیدنظرخواندگان",
+        "start_char": 3626,
+        "end_char": 3664,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخواندگان",
+        "start_char": 3639,
+        "end_char": 3664,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "ابطال دادنامه شماره 668 مورخ 4/12/88",
+        "start_char": 122,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "باعش افزایش قیمت خودرو",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "در قرارداد مبلغی به عنوان خسارت تأخیر منظور شده است",
+        "start_char": 701,
+        "end_char": 752,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تحویل خودرو زودتر از موعد انجام شده است",
+      "evidence": {
+        "quote": "تحویل هم قریب هفت ماه زودتر انجام پذیرفته",
+        "start_char": 581,
+        "end_char": 622,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اضافه پرداختی به حساب بانک واریز شده است",
+      "evidence": {
+        "quote": "اضافه پرداختی به مبلغ 689000 ریال به حساب بانک صادرات ایران واریز شده است",
+        "start_char": 625,
+        "end_char": 698,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

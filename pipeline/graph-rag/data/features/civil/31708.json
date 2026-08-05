@@ -1,0 +1,153 @@
+{
+  "ruling_id": "31708",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 54,
+        "end_char": 75,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان را صادر",
+        "start_char": 291,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق انتخاب",
+      "evidence": {
+        "quote": "حق انتخاب مسکن با خوانده می باشد",
+        "start_char": 201,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 54,
+        "end_char": 75,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدید نظر",
+        "start_char": 846,
+        "end_char": 871,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "از طریق زوج محکوم می نماید",
+        "start_char": 995,
+        "end_char": 1021,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بطلان دعوی خواهان",
+        "start_char": 298,
+        "end_char": 315,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 54,
+        "end_char": 75,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م. م.",
+        "start_char": 509,
+        "end_char": 533,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "الزام تجدید نظر خوانده به تمکین",
+        "start_char": 694,
+        "end_char": 725,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از طریق زوج محکوم می نماید",
+        "start_char": 995,
+        "end_char": 1021,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه شرعا\" و قانونا\" مکلف به تمکین می باشد",
+        "start_char": 748,
+        "end_char": 790,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "در منزل مشترک",
+        "start_char": 942,
+        "end_char": 955,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل موجه توسط خواهان در جلسه رسیدگی",
+      "evidence": {
+        "quote": "خواهان در جلسه رسیدگی و جهت اثبات ادعای خود دلیل موجهی به دادگاه ارائه نداده است",
+        "start_char": 118,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

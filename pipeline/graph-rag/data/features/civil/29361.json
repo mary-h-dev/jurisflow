@@ -1,0 +1,203 @@
+{
+  "ruling_id": "29361",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "موید وقوع بیع فی مابین آقای ر. ک.ب.ن. با خواهان",
+        "start_char": 469,
+        "end_char": 516,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شروط ضمن",
+      "evidence": {
+        "quote": "با توجه به شروط ضمن العقد در صفحه سوم مبایعه نامه",
+        "start_char": 1075,
+        "end_char": 1124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "وجه التزام عدم ایفای تعهد تعیین شده",
+        "start_char": 1128,
+        "end_char": 1163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "عدم ایفای تعهد مستنداً به مواد 10 قانون مدنی",
+        "start_char": 1711,
+        "end_char": 1755,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی ملک مورد معامله",
+        "start_char": 277,
+        "end_char": 316,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "انتقال قطعی ششدانگ یک واحد آپارتمان",
+        "start_char": 1586,
+        "end_char": 1621,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت مبلغ سیصد میلیون ریال",
+        "start_char": 1825,
+        "end_char": 1853,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی صادر و اعلام مینماید",
+        "start_char": 2026,
+        "end_char": 2059,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه غیابی",
+        "start_char": 2978,
+        "end_char": 2999,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان آقای م. ک.",
+        "start_char": 0,
+        "end_char": 34,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خواندگان آقایان و خانم ها",
+        "start_char": 70,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "آقای ر. ک. بعنوان فروشنده",
+        "start_char": 3354,
+        "end_char": 3379,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظرخواه به پرداخت مبلغ",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "باعنایت به آن که تجدیدنظرخوانده چکهای موضوع عقد",
+        "start_char": 4299,
+        "end_char": 4346,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "مفاد مبایعه نامه عادی مورخ 5/11/1387",
+        "start_char": 429,
+        "end_char": 465,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "نسبت به یک واحد آپارتمان مسکونی",
+        "start_char": 517,
+        "end_char": 548,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "موضوع",
+      "evidence": {
+        "quote": "چکهای موضوع عقد که حسب ادعای تجدیدنظرخواه",
+        "start_char": 4331,
+        "end_char": 4372,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "موضوع آپارتمان واگذاری شده با موضوع خواسته متفاوت است",
+      "evidence": {
+        "quote": "موضوع آپارتمان واگذاری به واخوانده قطعه هفتم تفکیکی بوده که واخوانده ( خواهان بدوی) الزام خواندگان دعوی اولیه را جهت انتقال سند آپارتمان قطعه نهم تفکیکی موضوع خواسته خود قرار داده",
+        "start_char": 2649,
+        "end_char": 2828,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک پرداخت نشده است",
+      "evidence": {
+        "quote": "نظرخوانده نیز آن ادعا را پذیرفته پرداخت ننموده",
+        "start_char": 4399,
+        "end_char": 4444,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

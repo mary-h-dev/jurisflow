@@ -1,0 +1,112 @@
+{
+  "ruling_id": "35795",
+  "concepts": [],
+  "actions": [
+    {
+      "category": "action",
+      "value": "وصول",
+      "evidence": {
+        "quote": "به اتهام وصول وجوه اشخاص حقیقی",
+        "start_char": 97,
+        "end_char": 127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نمودن",
+      "evidence": {
+        "quote": "حیف و میل نمودن اموال و وجوه مردم",
+        "start_char": 130,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "شکایت",
+      "evidence": {
+        "quote": "دردادسرای عمومی و انقلاب شهرستان ب. شکایت نموده اند",
+        "start_char": 164,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نفی",
+      "evidence": {
+        "quote": "با اعلام نفی صلاحیت از خود",
+        "start_char": 1081,
+        "end_char": 1107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "و اعلام صلاحیت دادگاه انقلاب اسلامی مازندران",
+        "start_char": 1108,
+        "end_char": 1152,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "تعداد 275 نفر به اسامی مشخص شده در پرونده بعنوان شاکی",
+        "start_char": 14,
+        "end_char": 67,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "در مورد هر دو نفر متهم قرار جلب به دادرسی صادر",
+        "start_char": 252,
+        "end_char": 298,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "حیف و میل نمودن اموال و وجوه مردم",
+        "start_char": 130,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تعدادی از اشخاص از متهمین شکایت کرده‌اند",
+      "evidence": {
+        "quote": "تعداد 275 نفر به اسامی مشخص شده در پرونده بعنوان شاکی علیه آقایان ح. م. و ز. الف.، به اتهام وصول وجوه اشخاص حقیقی و حیف و میل نمودن اموال و وجوه مردم دردادسرای عمومی و انقلاب شهرستان ب. شکایت نموده اند",
+        "start_char": 14,
+        "end_char": 215,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اختلاف در صلاحیت رسیدگی بین دادگاه انقلاب و دادگاه کیفری یک",
+      "evidence": {
+        "quote": "با اعلام نفی صلاحیت از خود و اعلام صلاحیت دادگاه انقلاب اسلامی مازندران",
+        "start_char": 1081,
+        "end_char": 1152,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

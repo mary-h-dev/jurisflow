@@ -1,0 +1,153 @@
+{
+  "ruling_id": "7314",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تابعیت",
+      "evidence": {
+        "quote": "تابعیت از مسایلی است که در حیطه اختیار دولت هر کشور است",
+        "start_char": 1497,
+        "end_char": 1552,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "موضوع مطروحه در پرونده اعتراض به رأی کمیسیون یاد شده طبق بند 2 ماده 13 قانون قبلی و بند 2 ماده 10 قانون جدید دیوان عدالت اداری در صلاحیت دیوان عدالت اداری است",
+        "start_char": 2296,
+        "end_char": 2454,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت به اعتبار محاکم عمومی تهران",
+        "start_char": 515,
+        "end_char": 558,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به تصمیم اداره تابعیت آن وزارتخانه مبنی بر عدم پذیرش تحصیل تابعیت موکل خود اعتراض نمود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست",
+      "evidence": {
+        "quote": "حاکی از رد درخواست در مورخه 16/10/1387 است",
+        "start_char": 207,
+        "end_char": 249,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "استماع توضیحات و اظهارات وکیل خواهان (شاکی)",
+        "start_char": 370,
+        "end_char": 413,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "استماع توضیحات و اظهارات وکیل خواهان (شاکی)",
+        "start_char": 370,
+        "end_char": 413,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "نماینده",
+      "evidence": {
+        "quote": "استماع توضیحات و اظهارات وکیل خواهان (شاکی) و نماینده وزارت امور خارجه",
+        "start_char": 370,
+        "end_char": 440,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از طرف خوانده نماینده ای حضور نداشته",
+        "start_char": 838,
+        "end_char": 874,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تصمیم",
+      "evidence": {
+        "quote": "نسبت به تصمیم اداره تابعیت آن وزارتخانه مبنی on عدم پذیرش تحصیل تابعیت موکل خود اعتراض نمود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "درخواست",
+      "evidence": {
+        "quote": "متقاضی دارای شرایط قانونی ایران باشد و دولت بخواهد تابعیت کسی را قبول کند",
+        "start_char": 1748,
+        "end_char": 1821,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وزارت امور خارجه درخواست تابعیت را رد کرده است",
+      "evidence": {
+        "quote": "حاکی از رد درخواست در مورخه 16/10/1387 است",
+        "start_char": 207,
+        "end_char": 249,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه عمومی تهران قرار عدم صلاحیت صادر کرده است",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت به اعتبار محاکم عمومی تهران (محل اقامت موقت شاکی) صادر و اعلام کرده است",
+        "start_char": 515,
+        "end_char": 602,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دیوان عالی کشور پرونده را برای تعیین صلاحیت ارسال کرده است",
+      "evidence": {
+        "quote": "پرونده را به منظور تعیین صلاحیت به دیوان عالی کشور ارسال داشته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

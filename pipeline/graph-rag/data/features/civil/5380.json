@@ -1,0 +1,153 @@
+{
+  "ruling_id": "5380",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته صدور حکم بر فسخ",
+        "start_char": 87,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم پرداخت",
+      "evidence": {
+        "quote": "به علت عدم پرداخت ثمن معامله",
+        "start_char": 145,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأخیر",
+      "evidence": {
+        "quote": "تمسک به خیار تأخیر ثمن زمانی امکان پذیر است",
+        "start_char": 1138,
+        "end_char": 1181,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم بر فسخ",
+        "start_char": 97,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه وجه چک",
+        "start_char": 691,
+        "end_char": 704,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض تجدیدنظرخواه وارد نمی باشد",
+        "start_char": 2703,
+        "end_char": 2736,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "لذا درخواست رسیدگی و صدور حکم بر فسخ قرارداد را در اجرای مواد 394و395و403 قانون مدنی دارد، خوانده به رغم ابلاغ مراتب ایراد و دفاعی به عمل نیاورده است",
+        "start_char": 777,
+        "end_char": 926,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در مانحن فیع خواهان (فروشنده)",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "در مانحن فیع خواهان (فروشنده)",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "فسخ مبایعه نامه عادی مورخ 10/7/1390",
+        "start_char": 109,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "و چک 820859 مورخ 10/7/90",
+        "start_char": 269,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "خرید یک واحد آپارتمان به انضمام انباری و پارکینگ نموده",
+        "start_char": 455,
+        "end_char": 509,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک بدون موجودی بوده است",
+      "evidence": {
+        "quote": "به لحاظ نداشتن موجودی گواهی عدم پرداخت در خصوص چک موصوف صادر گردیده است",
+        "start_char": 705,
+        "end_char": 776,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در قرارداد شرط فاسخ درج نشده است",
+      "evidence": {
+        "quote": "در قرارداد استنادی از ناحیه متعاملین شرط فاسخ برای هیچ کدام از آن ها درج نگردیده است",
+        "start_char": 988,
+        "end_char": 1072,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

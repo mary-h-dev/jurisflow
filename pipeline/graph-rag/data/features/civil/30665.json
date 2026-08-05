@@ -1,0 +1,93 @@
+{
+  "ruling_id": "30665",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مستحق للغیر بودن",
+      "evidence": {
+        "quote": "به سبب مستحق للغیر بودن آن",
+        "start_char": 127,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "ضمن نفی صلاحیت خویش",
+        "start_char": 356,
+        "end_char": 375,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت بهای یک قطعه زمین",
+        "start_char": 88,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مورد مطالبه قرار گیرد",
+        "start_char": 1421,
+        "end_char": 1442,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت اقای ع. ر. و غیره به خواسته صدور بر الزام خواندگان",
+        "start_char": 28,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "بهای یک قطعه زمین",
+        "start_char": 98,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "بهای یک قطعه زمین",
+        "start_char": 98,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زمین فروخته شده مستحق‌الغیر است",
+      "evidence": {
+        "quote": "به سبب مستحق للغیر بودن آن",
+        "start_char": 127,
+        "end_char": 153,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

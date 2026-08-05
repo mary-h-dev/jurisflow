@@ -1,0 +1,163 @@
+{
+  "ruling_id": "29030",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صدمه بدنی غیر عمد",
+      "evidence": {
+        "quote": "صدمه بدنی غیر عمد نسبت به ف. ع.",
+        "start_char": 119,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جزائی",
+      "evidence": {
+        "quote": "در اثر خطای جزائی در امر رانندگی",
+        "start_char": 1428,
+        "end_char": 1460,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دیه",
+      "evidence": {
+        "quote": "به پرداخت دوصدم دیه کامله",
+        "start_char": 653,
+        "end_char": 678,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ارش",
+      "evidence": {
+        "quote": "بابت ارش آسیب نسوج نرم",
+        "start_char": 942,
+        "end_char": 964,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جزای نقدی",
+      "evidence": {
+        "quote": "به پرداخت چهار میلیون ریال جزای نقدی",
+        "start_char": 564,
+        "end_char": 600,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواه خانم ف. ع. از رای صادره تجدیدنظرخواهی کرده",
+        "start_char": 1565,
+        "end_char": 1620,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور حکم محکومیت",
+      "evidence": {
+        "quote": "به پرداخت دیه در حق شاکی خانم ع. و پرداخت مبلغ چهار میلیون ریال جزای نقدی در حق دولت محکوم گردیده است",
+        "start_char": 1461,
+        "end_char": 1562,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اصلاح",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواه را اصلاح و تایید می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "آقای م. ر.ض. بعنوان راننده اتومبیل متهم است",
+        "start_char": 42,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شکایت شاکی",
+        "start_char": 222,
+        "end_char": 232,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه خانم ف. ع.",
+        "start_char": 1565,
+        "end_char": 1588,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "دوصدم دیه کامله",
+        "start_char": 663,
+        "end_char": 678,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جزای نقدی",
+      "evidence": {
+        "quote": "چهار میلیون ریال جزای نقدی",
+        "start_char": 574,
+        "end_char": 600,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تصادف رانندگی باعث شکستگی استخوان ران شده است",
+      "evidence": {
+        "quote": "شکستگی قسمت فوقانی ران راست تجدیدنظرخواه بطور معیوب التیام یافته است",
+        "start_char": 1815,
+        "end_char": 1883,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پا پس از حادثه کوتاه شده است",
+      "evidence": {
+        "quote": "کوتاهی اندام تحتانی سمت راست کمتر از 2cm می باشد",
+        "start_char": 1981,
+        "end_char": 2029,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

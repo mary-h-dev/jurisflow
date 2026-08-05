@@ -1,0 +1,193 @@
+{
+  "ruling_id": "5292",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل سال های زندگی مشترک",
+        "start_char": 93,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "و نفقه ایام زوجیت",
+        "start_char": 131,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "اماره قصد تبرع در زمان جدایی بوده",
+        "start_char": 474,
+        "end_char": 507,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 83,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "طلاق گرفته",
+      "evidence": {
+        "quote": "زوجین به شرح دادنامه 2632 مورخ 7/12/1387 به درخواست زوجه طلاق گرفته اند",
+        "start_char": 307,
+        "end_char": 378,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم بر ردّ دعوی خواهان را صادر",
+        "start_char": 813,
+        "end_char": 843,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در دادگاه های محترم تجدیدنظر",
+        "start_char": 894,
+        "end_char": 934,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص دادخواست تجدیدنظرخواهی پ.م.",
+        "start_char": 1009,
+        "end_char": 1044,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوجین به شرح دادنامه",
+        "start_char": 307,
+        "end_char": 327,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "ماحصل ادعای زوجه",
+        "start_char": 222,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "گرچه خواهان حق خود را مطالبه می کرد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه 1344 مورخ 13/9/92 در پرونده کلاسه 0836 صادره از شعبه 275 دادگاه عمومی حقوقی تهران که به موجب آن حکم به ردّ دعوی تجدیدنظرخواه",
+        "start_char": 1080,
+        "end_char": 1220,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به شرح دادنامه 2632 مورخ 7/12/1387",
+        "start_char": 313,
+        "end_char": 347,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "به صراحت لایحه زوجه در 15/11/87",
+        "start_char": 567,
+        "end_char": 598,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "این رأی قطعی است",
+        "start_char": 2068,
+        "end_char": 2084,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طلاق با درخواست زوجه انجام شده است",
+      "evidence": {
+        "quote": "طلاق به درخواست زوجه بوده",
+        "start_char": 411,
+        "end_char": 436,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چندین سال از طلاق گذشته است",
+      "evidence": {
+        "quote": "گذشت چندین سال از طلاق",
+        "start_char": 451,
+        "end_char": 473,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه در گذشته ادعایی از نفقه نداشته است",
+      "evidence": {
+        "quote": "در نفقه گذشته ادعایی ندارم",
+        "start_char": 627,
+        "end_char": 653,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

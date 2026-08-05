@@ -1,0 +1,223 @@
+{
+  "ruling_id": "4786",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "به خواسته طلاق",
+        "start_char": 64,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "پرونده رابطه زوجیت اصحاب دعوی محرز است",
+        "start_char": 160,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معاشرت",
+      "evidence": {
+        "quote": "زوج سوء معاشرت داشته",
+        "start_char": 281,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "شرایط ضمن عقد نکاح",
+        "start_char": 830,
+        "end_char": 848,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلعی",
+      "evidence": {
+        "quote": "نوع طلاق خلعی است",
+        "start_char": 911,
+        "end_char": 928,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "به زوج بذل می نماید",
+        "start_char": 976,
+        "end_char": 995,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استناد",
+      "evidence": {
+        "quote": "استناد نموده است",
+        "start_char": 402,
+        "end_char": 418,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "مخالفت خود را با طلاق اعلام نموده است",
+        "start_char": 445,
+        "end_char": 482,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادره دادگاه بدوی را نقض کرده",
+        "start_char": 2536,
+        "end_char": 2569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان طلاق صادر می نماید",
+        "start_char": 2604,
+        "end_char": 2644,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 218,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده با حضور در دادگاه",
+        "start_char": 420,
+        "end_char": 444,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج سوء معاشرت داشته",
+        "start_char": 281,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زندگی برای زوجه قابل تحمل نیست",
+        "start_char": 304,
+        "end_char": 334,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی آقای ش.ش.",
+        "start_char": 1142,
+        "end_char": 1172,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "فتوکپی مصدق سند نکاحیه",
+        "start_char": 130,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "نسبت به مهریه رأی جداگانه صادر شده است",
+        "start_char": 667,
+        "end_char": 705,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سکه",
+      "evidence": {
+        "quote": "ربع سکه از کل مهریه خود",
+        "start_char": 936,
+        "end_char": 959,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین فاقد فرزند مشترک هستند",
+      "evidence": {
+        "quote": "زوجین فاقد فرزند مشترک هستند",
+        "start_char": 613,
+        "end_char": 641,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "جهیزیه در تصرف زوجه است",
+      "evidence": {
+        "quote": "جهیزیه در تصرف زوجه است",
+        "start_char": 643,
+        "end_char": 666,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج سابقه محکومیت به ایراد ضرب دارد",
+      "evidence": {
+        "quote": "یک مورد محکومیت زوج به ایراد ضرب نسبت به خوداعلام کرده",
+        "start_char": 1625,
+        "end_char": 1679,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

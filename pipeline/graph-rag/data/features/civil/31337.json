@@ -1,0 +1,173 @@
+{
+  "ruling_id": "31337",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "به ایفاء تعهدات قراردادی",
+        "start_char": 92,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استعفا",
+      "evidence": {
+        "quote": "با در خواست خواهان در تاریخ 93/7/30 استعفا دادم",
+        "start_char": 513,
+        "end_char": 560,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه قراردادی",
+      "evidence": {
+        "quote": "با انجام این عمل رابطه قراردادی منحل گردیده است",
+        "start_char": 1882,
+        "end_char": 1929,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقصیر",
+      "evidence": {
+        "quote": "شرط مطالبه خسارت رابطه سببیت و تقصیر ماده 331 قانون مدنی است",
+        "start_char": 1943,
+        "end_char": 2003,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ایفاء",
+      "evidence": {
+        "quote": "به ایفاء تعهدات قراردادی",
+        "start_char": 92,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "جهت ارائه صورتحساب های صحیح مالی شرکت و ترازهای مالی",
+        "start_char": 117,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت خسارت",
+      "evidence": {
+        "quote": "و پرداخت خسارت ناشی از اختلاف حساب ها",
+        "start_char": 170,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استعفا",
+      "evidence": {
+        "quote": "با در خواست خواهان در تاریخ 93/7/30 استعفا دادم",
+        "start_char": 513,
+        "end_char": 560,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظر خواهی شرکت اوج پرواز باستان",
+        "start_char": 1188,
+        "end_char": 1232,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خلاصه اظهارت خواهان این است",
+        "start_char": 227,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت ن. ح.م. به خواسته الزم خوانده",
+        "start_char": 53,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظر خواهی شرکت اوج پرواز باستان",
+        "start_char": 1188,
+        "end_char": 1232,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرار",
+      "evidence": {
+        "quote": "با خوانده قرار داد کار ی داشتیم",
+        "start_char": 283,
+        "end_char": 314,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در تاریخ 93/7/30 استعفا داده است",
+      "evidence": {
+        "quote": "با در خواست خواهان در تاریخ 93/7/30 استعفا دادم",
+        "start_char": 513,
+        "end_char": 560,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد کار یکساله بوده است",
+      "evidence": {
+        "quote": "نظر به اینکه مدت قرارداد یکساله بوده",
+        "start_char": 1756,
+        "end_char": 1792,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان در زمان استعفا اعتراضی به آن نکرده است",
+      "evidence": {
+        "quote": "خواهان نخستین هیچ ایراد و اعتراضی به استعفا نامه ن. شته",
+        "start_char": 2163,
+        "end_char": 2218,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

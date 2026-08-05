@@ -1,0 +1,193 @@
+{
+  "ruling_id": "34689",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "در مالکیت شهرداری ها است",
+        "start_char": 597,
+        "end_char": 621,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوای تجدیدنظرخواه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ثبت",
+      "evidence": {
+        "quote": "درخواست ثبت خوانده",
+        "start_char": 113,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال درخواست ثبت مزبور",
+        "start_char": 204,
+        "end_char": 227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارات دادرسی",
+        "start_char": 230,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "مبادرت به تجدیدنظرخواهی نموده",
+        "start_char": 2797,
+        "end_char": 2826,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "مبادرت به فرجام خواهی نموده",
+        "start_char": 4213,
+        "end_char": 4240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض شده است",
+        "start_char": 1766,
+        "end_char": 1780,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "درخواست ثبت خوانده",
+        "start_char": 113,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان اظهار داشته",
+        "start_char": 267,
+        "end_char": 285,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بطلان دعوای تجدیدنظرخواه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به درخواست ثبت مطروحه از سوی تجدیدنظرخوانده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "فرمان خواه از حق قانونی تجدیدنظرخواهی استفاده نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اراضی",
+      "evidence": {
+        "quote": "اراضی قبرستان عمومی واقع در ایج",
+        "start_char": 157,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک",
+      "evidence": {
+        "quote": "تحت پلاک...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "طی تسلیم دادخواستی",
+        "start_char": 86,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده درخواست ثبت اراضی قبرستان را مطرح کرده است",
+      "evidence": {
+        "quote": "خوانده مبادرت به درخواست ثبت مقدار 8545 مترمربع از اراضی قبرستان عمومی واقع در ایج پلاک... نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی خارج از مهلت قانونی انجام شده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی را خارج از مهلت تشخیص داده",
+        "start_char": 5541,
+        "end_char": 5581,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

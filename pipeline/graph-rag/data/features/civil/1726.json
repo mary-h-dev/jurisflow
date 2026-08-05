@@ -1,0 +1,223 @@
+{
+  "ruling_id": "1726",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدورگواهی عدم امکان سازش",
+        "start_char": 148,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "با توجه به احراز عسر و حرج زوجه",
+        "start_char": 2597,
+        "end_char": 2628,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "نوع طلاق خلعی",
+        "start_char": 2962,
+        "end_char": 2975,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "خواهان نسبت به خوانده تمکین نداشت",
+        "start_char": 1438,
+        "end_char": 1471,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "صدورگواهی عدم امکان سازش",
+        "start_char": 148,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "از آن درخواست تجدیدنظرخواهی می کند",
+        "start_char": 3034,
+        "end_char": 3068,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابلاغ",
+      "evidence": {
+        "quote": "پس از ابلاغ رأی",
+        "start_char": 2987,
+        "end_char": 3002,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده پس از اعاده از شورای حل اختلاف",
+        "start_char": 586,
+        "end_char": 623,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "نصف مهریه خود را به زوج بذل نموده",
+        "start_char": 2523,
+        "end_char": 2556,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار می دارد",
+        "start_char": 803,
+        "end_char": 828,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای س.ق. تقدیم می شود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج در قبال سئوال دادگاه اظهار می دارد",
+        "start_char": 1189,
+        "end_char": 1227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه باردار نمی باشد",
+        "start_char": 2335,
+        "end_char": 2355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "قرار ارجاع امر به داوری را صادرمی کند",
+        "start_char": 1791,
+        "end_char": 1828,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "با تقدیم وکالت نامه خودرا وکیل خوانده معرفی می نماید",
+        "start_char": 686,
+        "end_char": 738,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "رونوشت مصدق سند ازدواج شماره 13238-31/4/1385",
+        "start_char": 46,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "عدم پرداخت مهریه",
+        "start_char": 359,
+        "end_char": 375,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلاف شدید و جدایی طولانی مدت",
+      "evidence": {
+        "quote": "به علت اختلاف شدید نزدیک به سه سال است که جدا از هم زندگی می کنند",
+        "start_char": 283,
+        "end_char": 348,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ضرب و شتم در منزل",
+      "evidence": {
+        "quote": "در آنجا مشاهده می کنند که دخترشان مورد ضرب و شتم زوج قرارگرفته است",
+        "start_char": 994,
+        "end_char": 1060,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ازدواج مجدد زوج",
+      "evidence": {
+        "quote": "زوج در قبال سئوال دادگاه اظهار می داید ازدواج مجدد کرده ام",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم بارداری زوجه",
+      "evidence": {
+        "quote": "حسب گواهی مورخ 18/7/1390 پزشکی قانونی استان زوجه باردار نمی باشد",
+        "start_char": 2291,
+        "end_char": 2355,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

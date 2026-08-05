@@ -1,0 +1,203 @@
+{
+  "ruling_id": "35300",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "ایجاد تعهد و تکلیف برای تافراد لزوماً بایستی مبنای قانونی یا قراردادی داشته باشد",
+        "start_char": 499,
+        "end_char": 579,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "مقدمه تعویض پلاک و ثبت به نام ثالث ، انتقال مالکیت و حق فروش خودرو موضوع وکالت می باشد",
+        "start_char": 1642,
+        "end_char": 1728,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم سند خودرو",
+        "start_char": 77,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت دادرسی",
+        "start_char": 104,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تعویض",
+      "evidence": {
+        "quote": "درخواست تعویض پلاک کامیون کمپرسی بنز اکتروس",
+        "start_char": 1402,
+        "end_char": 1445,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعطای",
+      "evidence": {
+        "quote": "اعطای وکالت تعویض پلاک عرفاً اعطای حق فروش و انتقال خودرو بوده",
+        "start_char": 1896,
+        "end_char": 1958,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "اخذ بخش اعظم بهاء خودرو از ناحیه تجدیدنظرخوانده",
+        "start_char": 2025,
+        "end_char": 2072,
+        "confidence": 0.85
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بطرفیت خواندگان آقای و. و و. شهرتین ج. بخواسته الزام به تنظیم سند خودرو",
+        "start_char": 30,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "بطرفیت خواندگان آقای و. و و. شهرتین ج.",
+        "start_char": 30,
+        "end_char": 68,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "بموجب استعلام واصله مالک اتومبیل می باشد",
+        "start_char": 329,
+        "end_char": 369,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "چرا که فروشنده اجازه فروش نداشته است",
+        "start_char": 421,
+        "end_char": 457,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل بودن در معامله",
+        "start_char": 2512,
+        "end_char": 2531,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ک. ز.ر.",
+        "start_char": 1113,
+        "end_char": 1139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده به آقای و. ج. وکالت",
+        "start_char": 1367,
+        "end_char": 1401,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "الزام به تنظیم سند خودرو",
+        "start_char": 77,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کامیون",
+      "evidence": {
+        "quote": "تعویض پلاک کامیون کمپرسی بنز اکتروس",
+        "start_char": 1410,
+        "end_char": 1445,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه رسمی",
+      "evidence": {
+        "quote": "به موجب وکالتنامه رسمی شماره... دفتر 954 تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فروشنده اجازه فروش نداشته است",
+      "evidence": {
+        "quote": "چرا که فروشنده اجازه فروش نداشته است",
+        "start_char": 421,
+        "end_char": 457,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بها خودرو پرداخت شده است",
+      "evidence": {
+        "quote": "اخذ بخش اعظم بهاء خودرو از ناحیه تجدیدنظرخوانده",
+        "start_char": 2025,
+        "end_char": 2072,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

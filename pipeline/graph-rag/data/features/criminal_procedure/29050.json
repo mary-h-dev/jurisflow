@@ -1,0 +1,133 @@
+{
+  "ruling_id": "29050",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اکراه",
+      "evidence": {
+        "quote": "اتهام زنا به عنف و اکراه",
+        "start_char": 33,
+        "end_char": 57,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجاوز",
+      "evidence": {
+        "quote": "به اتهام آقای الف.ر. از اتهام تجاوز به عنف",
+        "start_char": 766,
+        "end_char": 808,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "منع تعقیب",
+      "evidence": {
+        "quote": "قرار منع تعقیب متهم صادر و اعلام می نماید",
+        "start_char": 371,
+        "end_char": 412,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "در خصوص اعتراض خانم م. ز.",
+        "start_char": 635,
+        "end_char": 660,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض دادنامه",
+        "start_char": 1067,
+        "end_char": 1088,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "تائید میگردد",
+        "start_char": 1104,
+        "end_char": 1116,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکیه",
+      "evidence": {
+        "quote": "شاکیه خانم م. ز",
+        "start_char": 0,
+        "end_char": 15,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم آقای الف.ر.",
+        "start_char": 16,
+        "end_char": 32,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "لایحه اعتراضیه",
+      "evidence": {
+        "quote": "با ملاحظه لایحه اعتراضیه",
+        "start_char": 809,
+        "end_char": 833,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 86",
+        "start_char": 661,
+        "end_char": 685,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل محکمه پسند توسط شاکیه",
+      "evidence": {
+        "quote": "عدم ارائه دلیل محکمه پسند از سوی شاکیه",
+        "start_char": 283,
+        "end_char": 321,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "لایحه اعتراضیه فاقد دلیل و مستند است",
+      "evidence": {
+        "quote": "لایحه اعتراضیه که محتوی هیچگونه دلیل و مستدی نیست",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

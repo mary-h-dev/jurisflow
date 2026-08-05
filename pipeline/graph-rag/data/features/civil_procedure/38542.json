@@ -1,0 +1,173 @@
+{
+  "ruling_id": "38542",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "صدور حکم بر اعلام بطلان رای داوری",
+        "start_char": 109,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "اعلام فسخ فوری و منجز می باشد",
+        "start_char": 657,
+        "end_char": 686,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "باطل",
+      "evidence": {
+        "quote": "معامله از اساس باطل می باشد",
+        "start_char": 1936,
+        "end_char": 1963,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم بر اعلام بطلان رای داوری",
+        "start_char": 109,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "داوری",
+      "evidence": {
+        "quote": "توقف اجرای رای داوری",
+        "start_char": 201,
+        "end_char": 221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد ثمن",
+      "evidence": {
+        "quote": "استرداد ثمن",
+        "start_char": 1866,
+        "end_char": 1877,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست خواهان اقای ا. ش. ک.",
+        "start_char": 0,
+        "end_char": 36,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خواندگان اقای و. خ. ز.",
+        "start_char": 54,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "موسسه داوری حامیان حق و عدالت جوادی و وکلای فرهیخته به عنوان داور مرضی الطرفین انتخاب",
+        "start_char": 422,
+        "end_char": 507,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "بطلان رای داوری مورخ 1402/11/29",
+        "start_char": 127,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "تحویل مبیع موضوع مبایعه نامه",
+        "start_char": 331,
+        "end_char": 359,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه شماره 17/669439",
+        "start_char": 342,
+        "end_char": 375,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "استرداد ثمن",
+        "start_char": 1866,
+        "end_char": 1877,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلاف در تحویل مبیع",
+      "evidence": {
+        "quote": "با توجه به اختلاف موکل با خوانده محترم در خصوص تحویل مبیع",
+        "start_char": 284,
+        "end_char": 341,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود اختلافات در نقشه‌های اراضی",
+      "evidence": {
+        "quote": "به دلیل وجود برخی اختلافات در نقشه های اراضی واقع در اذران",
+        "start_char": 1051,
+        "end_char": 1109,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تأخیر در تحویل قطعات",
+      "evidence": {
+        "quote": "تحویل قطعات با تاخیر مواجه شده است",
+        "start_char": 1236,
+        "end_char": 1270,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

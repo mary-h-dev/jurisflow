@@ -1,0 +1,163 @@
+{
+  "ruling_id": "1692",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مطالبه مهریه",
+        "start_char": 84,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "وراث",
+      "evidence": {
+        "quote": "خواندگان وراث حین الفوت شوهر مرحومش می باشند",
+        "start_char": 422,
+        "end_char": 466,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "دین میت محسوب بوده",
+        "start_char": 2366,
+        "end_char": 2384,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مهریه",
+        "start_char": 74,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار عدم",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت خود را",
+        "start_char": 831,
+        "end_char": 853,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "و نقض رأی شماره 0896",
+        "start_char": 3399,
+        "end_char": 3419,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "ضمن تأیید نتیجه رأی شماره 01325",
+        "start_char": 3291,
+        "end_char": 3322,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با حضور وکیل خواهان تشکیل گردیده",
+        "start_char": 616,
+        "end_char": 648,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "خواندگان وراث حین الفوت شوهر مرحومش می باشند",
+        "start_char": 422,
+        "end_char": 466,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "شوهرش در تاریخ 26/1/90 به رحلت خدا رفته است",
+        "start_char": 337,
+        "end_char": 380,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متوفی",
+      "evidence": {
+        "quote": "آخرین اقامتگاه متوفی (شوهر خواهان) در حوزه قضائی شهرستان الف بوده است",
+        "start_char": 3015,
+        "end_char": 3084,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "به استناد سند ازدواج شماره 1398",
+        "start_char": 131,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی",
+      "evidence": {
+        "quote": "مفاد گواهی حصر وراثت شماره 43- 6/2/90",
+        "start_char": 2928,
+        "end_char": 2965,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شوهر خواهان فوت شده است",
+      "evidence": {
+        "quote": "شوهرش در تاریخ 26/1/90 به رحلت خدا رفته است",
+        "start_char": 337,
+        "end_char": 380,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "آخرین اقامتگاه متوفی در شهرستان الف بوده است",
+      "evidence": {
+        "quote": "آخرین اقامتگاه متوفی (شوهر خواهان) در حوزه قضائی شهرستان الف بوده است",
+        "start_char": 3015,
+        "end_char": 3084,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

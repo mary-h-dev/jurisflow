@@ -1,0 +1,143 @@
+{
+  "ruling_id": "36747",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "سرقت",
+      "evidence": {
+        "quote": "به اتهام مشارکت در سرقت مسلحانه در شب",
+        "start_char": 121,
+        "end_char": 158,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بزهکاری",
+      "evidence": {
+        "quote": "با احراز بزهکاری",
+        "start_char": 338,
+        "end_char": 354,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با تجدیدنظرخواهی متهم",
+        "start_char": 444,
+        "end_char": 465,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رای مذکور را به لحاظ این که دادگاه کیفری دو با توجه به مجازات بزه صالح برای رسیدگی نبوده نقض و پرونده را",
+        "start_char": 490,
+        "end_char": 594,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "پرونده را برای رسیدگی به دادگاه کیفری یک استان ارسال نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم و",
+      "evidence": {
+        "quote": "او را با اعمال تخفیف به پانزده ماه حبس و هفتاد و چهار ضربه شلاق محکوم کرده است",
+        "start_char": 355,
+        "end_char": 433,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "درخواست",
+      "evidence": {
+        "quote": "از رای صادره در مهلت قانونی درخواست فرجام کرده است",
+        "start_char": 996,
+        "end_char": 1046,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "با تجدیدنظرخواهی متهم",
+        "start_char": 444,
+        "end_char": 465,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "اعتراضات وکیل فرجام خواه",
+        "start_char": 1496,
+        "end_char": 1520,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای مذکور را به لحاظ این که",
+        "start_char": 490,
+        "end_char": 517,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "لایحه فرجامی زمان شور خوانده میشود",
+        "start_char": 1124,
+        "end_char": 1158,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم حضور متهم در جلسه دادرسی",
+      "evidence": {
+        "quote": "عدم حضور متهم در جلسه",
+        "start_char": 1902,
+        "end_char": 1923,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حضور وکلای متهم در جلسه دادرسی",
+      "evidence": {
+        "quote": "وکلای متهم در جلسه دادرسی که منتهی به صدور رای فرجام خواسته گردیده حاضر بوده اند",
+        "start_char": 1817,
+        "end_char": 1897,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

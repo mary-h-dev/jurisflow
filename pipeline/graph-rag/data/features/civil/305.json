@@ -1,0 +1,163 @@
+{
+  "ruling_id": "305",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "حق حبس مقرر در ماده 377 قانون مدنی",
+        "start_char": 982,
+        "end_char": 1016,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "با احتساب خسارت تأخیر تأدیه",
+        "start_char": 288,
+        "end_char": 315,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی",
+        "start_char": 75,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت مبلغ هفتاد میلیون ریال",
+        "start_char": 200,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "ملک فوق بنام آنان منتقل نشده است",
+        "start_char": 694,
+        "end_char": 726,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته نقض",
+        "start_char": 2449,
+        "end_char": 2475,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به خواسته الزام به تنظیم سند رسمی",
+        "start_char": 65,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "خواندگان دعوی به موجب توافق انجام شده",
+        "start_char": 373,
+        "end_char": 410,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ع.د.",
+        "start_char": 1367,
+        "end_char": 1398,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "تملیک یک دستگاه آپارتمان",
+        "start_char": 414,
+        "end_char": 438,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "مالکیت ملک فوق",
+        "start_char": 727,
+        "end_char": 741,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه نامه مورخ 20/11/1382",
+        "start_char": 1776,
+        "end_char": 1803,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "مقرر در قرارداد",
+        "start_char": 241,
+        "end_char": 256,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین در زمان مقرر در دفترخانه حضور نیافتند",
+      "evidence": {
+        "quote": "اما هیچ یک از طرفین در زمان مقرر حضور نمی یابند",
+        "start_char": 621,
+        "end_char": 668,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک هنوز به نام خواندگان منتقل نشده است",
+      "evidence": {
+        "quote": "هنوز ملک فوق بنام آنان منتقل نشده است",
+        "start_char": 689,
+        "end_char": 726,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

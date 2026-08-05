@@ -1,0 +1,113 @@
+{
+  "ruling_id": "33272",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نشر اکاذیب",
+      "evidence": {
+        "quote": "دائر بر افترا و نشر اکاذیب",
+        "start_char": 80,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 448,
+        "end_char": 463,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "قرار عدم",
+      "evidence": {
+        "quote": "مبادرت به صدور قرار عدم صلاحیت",
+        "start_char": 1164,
+        "end_char": 1194,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "پرونده پس از ارسال به مرجع اخیرالذکر",
+        "start_char": 1257,
+        "end_char": 1293,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "متعلق به شاکی",
+        "start_char": 167,
+        "end_char": 180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدیر",
+      "evidence": {
+        "quote": "مدیر مسئول پایگاه خبری الکترونیکی ت.",
+        "start_char": 41,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم تعیین می گردد",
+        "start_char": 1933,
+        "end_char": 1951,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "معدن",
+      "evidence": {
+        "quote": "پیرامون معدن د.",
+        "start_char": 150,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مرکز فعالیت سایت در شهرستان دماوند است",
+      "evidence": {
+        "quote": "مرکز فعالیت سایت ت. شهرستان دماوند می باشد",
+        "start_char": 1056,
+        "end_char": 1098,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سرور سایت در شهر تهران واقع است",
+      "evidence": {
+        "quote": "سرور (IP) پایگاه خبری الکترونیکی تارود (به مدیریت آقای محمد شرافت فرزند اصغر) متعلق به شرکت پارس پروا سیستم (پارس پک) و در شهر تهران واقع است",
+        "start_char": 1972,
+        "end_char": 2113,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

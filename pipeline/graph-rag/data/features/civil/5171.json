@@ -1,0 +1,243 @@
+{
+  "ruling_id": "5171",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تأیید و تنفیذ فسخ",
+        "start_char": 156,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "به دلیل تحقق شرط مندرج در قرارداد",
+        "start_char": 215,
+        "end_char": 248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زیان",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت ضرر و زیان",
+        "start_char": 290,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "مستنداً به اصل برائت",
+        "start_char": 3416,
+        "end_char": 3436,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "اسقاط حق حاصل از شرط",
+        "start_char": 6523,
+        "end_char": 6543,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "به خواسته تأیید و تنفیذ فسخ",
+        "start_char": 146,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت ضرر و زیان",
+        "start_char": 290,
+        "end_char": 323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال رسمی",
+      "evidence": {
+        "quote": "الزام به انتقال رسمی مورد معامله",
+        "start_char": 1124,
+        "end_char": 1156,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی",
+        "start_char": 2017,
+        "end_char": 2040,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "مبیعه نامه فسخ شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعلام فسخ معامله",
+        "start_char": 7130,
+        "end_char": 7146,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "فروشندگان (خواهان)",
+        "start_char": 923,
+        "end_char": 941,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت",
+        "start_char": 290,
+        "end_char": 312,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشندگان",
+      "evidence": {
+        "quote": "فروشندگان (خواهان)",
+        "start_char": 923,
+        "end_char": 941,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "خسارت تأخیر اجرای تعهد به خریدار بپردازد",
+        "start_char": 1597,
+        "end_char": 1637,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "مبایعه نامه شماره 5921316",
+        "start_char": 174,
+        "end_char": 199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "چک شماره 650116",
+        "start_char": 466,
+        "end_char": 481,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی عدم",
+      "evidence": {
+        "quote": "گواهی عدم پرداخت شماره 743944",
+        "start_char": 546,
+        "end_char": 575,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "تنظیم سند رسمی",
+        "start_char": 2026,
+        "end_char": 2040,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی مندرج در مبایعه نامه",
+        "start_char": 2495,
+        "end_char": 2525,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک برگشت خورده است",
+      "evidence": {
+        "quote": "با گواهی عدم پرداخت روبرو شده است",
+        "start_char": 592,
+        "end_char": 625,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین در دفترخانه حاضر شدند اما سند امضا نشد",
+      "evidence": {
+        "quote": "طرفین در اولین وقت اداری پس از تعطیلی روز مقرر حسب گواهی دفتر اسناد رسمی به شرح بالا در دفترخانه حاضر شدند",
+        "start_char": 3035,
+        "end_char": 3141,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اظهارنامه فسخ ابلاغ نشده بود",
+      "evidence": {
+        "quote": "اظهارنامه ارسالی استنادی خواهان ها به خوانده اساساً به خوانده ابلاغ نشد",
+        "start_char": 1759,
+        "end_char": 1830,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

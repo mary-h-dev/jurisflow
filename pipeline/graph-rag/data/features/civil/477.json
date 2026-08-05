@@ -1,0 +1,173 @@
+{
+  "ruling_id": "477",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "صدور حکم بر محکومیت خوانده به پرداخت اجرت المثل",
+        "start_char": 88,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "لذا خوانده نیز از حق حبس استفاده نموده",
+        "start_char": 1167,
+        "end_char": 1205,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "مشارٌالیه از تخلیه عین مستأجره امتناع می نماید",
+        "start_char": 657,
+        "end_char": 703,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "عدم پرداخت و استرداد ودیعه",
+        "start_char": 988,
+        "end_char": 1014,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "استحقاق خواهان به مطالبه اجرت‌المثل",
+        "start_char": 2987,
+        "end_char": 3022,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی آقای م.ف. با وکالت الف. و م. به طرفیت آقای م.ر.",
+        "start_char": 8,
+        "end_char": 60,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "صدور حکم بر محکومیت خوانده",
+        "start_char": 88,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "عدم تحویل آن به موجر به علت عدم پرداخت",
+        "start_char": 960,
+        "end_char": 998,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "عدم تحویل ملک از ناحیه مستأجر (خوانده)",
+        "start_char": 1473,
+        "end_char": 1511,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عین مستأجره",
+      "evidence": {
+        "quote": "تخلیه عین مستأجره",
+        "start_char": 175,
+        "end_char": 192,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره نامه",
+      "evidence": {
+        "quote": "اجاره نامه عادی شماره 917203",
+        "start_char": 222,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ودیعه",
+      "evidence": {
+        "quote": "عدم پرداخت و استرداد ودیعه",
+        "start_char": 988,
+        "end_char": 1014,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "عدم تحویل ملک از ناحیه مستأجر",
+        "start_char": 1473,
+        "end_char": 1502,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مستأجر از تخلیه ملک امتناع کرده است",
+      "evidence": {
+        "quote": "مشارٌالیه از تخلیه عین مستأجره امتناع می نماید",
+        "start_char": 657,
+        "end_char": 703,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موجر توانایی پرداخت ودیعه را نداشته است",
+      "evidence": {
+        "quote": "چون موجر توانایی پرداخت ودیعه را نداشت",
+        "start_char": 1022,
+        "end_char": 1060,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مستأجر از حق حبس استفاده کرده است",
+      "evidence": {
+        "quote": "لذا خوانده نیز از حق حبس استفاده نموده",
+        "start_char": 1167,
+        "end_char": 1205,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

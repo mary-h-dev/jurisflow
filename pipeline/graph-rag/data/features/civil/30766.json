@@ -1,0 +1,193 @@
+{
+  "ruling_id": "30766",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "مگر اینکه به علت قانونی فسخ گردد",
+        "start_char": 1314,
+        "end_char": 1346,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "عدم ایفای تعهد از طرف فروشنده",
+        "start_char": 1366,
+        "end_char": 1395,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "مطالبه ده درصد از ثمن معامله بعنوان وجه التزام",
+        "start_char": 758,
+        "end_char": 804,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "مبنی بر تنفیذ فسخ معامله",
+        "start_char": 36,
+        "end_char": 60,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد مبلغ هشتادو پنج میلیون تومان",
+        "start_char": 160,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارت عدم انجام تعهد",
+        "start_char": 199,
+        "end_char": 226,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "بایستی در تاریخ 92/10/30 آپارتمان را ساخت و تحویل نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده دعوی",
+        "start_char": 353,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با عنایت به اظهارات خواهان",
+        "start_char": 1057,
+        "end_char": 1083,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "عدم ایفای تعهد از طرف فروشنده",
+        "start_char": 1366,
+        "end_char": 1395,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "عدم اشتراط حق فسخ برای خریدار",
+        "start_char": 1450,
+        "end_char": 1479,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت تجدیدنظرخوانده",
+        "start_char": 3208,
+        "end_char": 3230,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه نامه مورخ 91/11/17",
+        "start_char": 109,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتمان را در قبال مبلغ صدو ده میلیون تومان به وی فروخته",
+        "start_char": 365,
+        "end_char": 430,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "از کل ثمن معامله هشتادو پنج میلیون تومان دریافت داشته است",
+        "start_char": 432,
+        "end_char": 489,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده اقدام به ساخت واحد مورد معامله ننموده است",
+      "evidence": {
+        "quote": "خوانده دعوی تاکنون اقدام به ساخت واحد مورد معامله ننموده است",
+        "start_char": 632,
+        "end_char": 692,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد مشارکت در ساخت فیمابین آقای ف. س. و آقای سید محمد میر هاشمی بوده است",
+      "evidence": {
+        "quote": "قرارداد مشارکت در ساخت فیمابین اقایان ف. س. وآقای سید محمد میر هاشمی بوده",
+        "start_char": 3905,
+        "end_char": 3978,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد آقای س. با آقای میر هاشمی فسخ گردیده است",
+      "evidence": {
+        "quote": "حسب سند عادی ارائه شده قرار داد آقای س. با آقای میر هاشمی فسخ گردیده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

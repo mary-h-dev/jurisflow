@@ -1,0 +1,203 @@
+{
+  "ruling_id": "35244",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تأدیه",
+      "evidence": {
+        "quote": "با ادعای تادیه دیون از ناحیه وی",
+        "start_char": 2421,
+        "end_char": 2452,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "خواهان کدام دین و تعهد تضمینی را در اسناد رهنی",
+        "start_char": 3009,
+        "end_char": 3055,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ 850/191/985 ریال",
+        "start_char": 118,
+        "end_char": 156,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مجددا وجه را به بانک مربوطه پرداخت نمود",
+        "start_char": 606,
+        "end_char": 645,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دفاع",
+      "evidence": {
+        "quote": "خوانده دفاع نموده",
+        "start_char": 789,
+        "end_char": 806,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی آقای ح.الف. چ.",
+        "start_char": 1726,
+        "end_char": 1755,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "قابل نقض گردیده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "تقاضای رد دعوی خواهان را دارد",
+        "start_char": 911,
+        "end_char": 940,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان توضیح داده است",
+        "start_char": 294,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "تقاضای محکومیت خوانده را به شرح خواسته دارد",
+        "start_char": 744,
+        "end_char": 787,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدیون",
+      "evidence": {
+        "quote": "عدم بازپرداخت اقساط بانک تجارت توسط مدیون",
+        "start_char": 393,
+        "end_char": 434,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "اصلی",
+      "evidence": {
+        "quote": "خواهان نخستین مدیون اصلی را طرف دعوی قرار نداده",
+        "start_char": 2371,
+        "end_char": 2418,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مرتهن",
+      "evidence": {
+        "quote": "نه بانک مرتهن",
+        "start_char": 2687,
+        "end_char": 2700,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وام",
+      "evidence": {
+        "quote": "ضامن وام اخذ شده از سوی شرکت مهندسی تندر الکترو بوده",
+        "start_char": 330,
+        "end_char": 382,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "اسناد رهنی موکل را به اجرا",
+        "start_char": 528,
+        "end_char": 554,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "جلوگیری از مزایده ملک خود",
+        "start_char": 580,
+        "end_char": 605,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "طبق سند رسمی رهن",
+        "start_char": 4414,
+        "end_char": 4430,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت وجه برای جلوگیری از مزایده ملک",
+      "evidence": {
+        "quote": "پرداخت به لحاظ اضطرار و جلوگیری از مزایده ملک بوده",
+        "start_char": 1122,
+        "end_char": 1172,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم حضور مدیون اصلی در دعوی",
+      "evidence": {
+        "quote": "بدون حضور مدیون اصلی موضوع مشمول مقررات مواد 267 ناظر به 720 از قانون مدنی بوده",
+        "start_char": 2505,
+        "end_char": 2584,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

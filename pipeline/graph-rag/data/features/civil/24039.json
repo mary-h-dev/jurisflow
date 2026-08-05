@@ -1,0 +1,183 @@
+{
+  "ruling_id": "24039",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "رجوع از بذل مهریه",
+        "start_char": 96,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "موضوع مهریه و بخشش ان به نوعی ابراء دین می باشد",
+        "start_char": 953,
+        "end_char": 1000,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "بذل مال در قبال طلاق بخشش بلا عوض نیست",
+        "start_char": 2202,
+        "end_char": 2240,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "تقاضای مطالبه مهریه",
+        "start_char": 163,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ثبت طلاق",
+      "evidence": {
+        "quote": "اقدام به ثبت طلاق نموده اند",
+        "start_char": 339,
+        "end_char": 366,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رجوع",
+      "evidence": {
+        "quote": "رجوع زوجه را به مابذل قبول ندارد",
+        "start_char": 2325,
+        "end_char": 2357,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته نقض می شود",
+        "start_char": 2815,
+        "end_char": 2849,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار رد",
+      "evidence": {
+        "quote": "قرار رد دعوا صادر می گردد",
+        "start_char": 2884,
+        "end_char": 2909,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان خانم الف. ن.",
+        "start_char": 0,
+        "end_char": 36,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای م. ع.",
+        "start_char": 59,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "مهریه دینی است بر عهده زوج",
+        "start_char": 810,
+        "end_char": 836,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "چنانچه زوجه به هر نحو قصد گرفتن مهریه را از زوج نداشته باشد",
+        "start_char": 839,
+        "end_char": 898,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "تقاضای مطالبه مهریه مندرج در سند ازدواج",
+        "start_char": 163,
+        "end_char": 202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "در سند طلاق مورخ 1393/7/2",
+        "start_char": 114,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "مندرج در سند ازدواج شماره.....مورخ 1387/2/12",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ثبت طلاق در تاریخ 1393/7/2",
+      "evidence": {
+        "quote": "در تاریخ 1393/7/2 بابذل حقوق مالی از جمله مهریه از سوی زوجه به طلاق خلع متارکه نموده اند",
+        "start_char": 1693,
+        "end_char": 1781,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات رجوع در ایام عده",
+      "evidence": {
+        "quote": "معلوم نیست تشریفات قانونی در مورد ابلاغ به زوج رعایت شده یا نه و اساساً واقعه رجوع به نحو صحت در ایام عده صورت گرفته است یا خیر ؟",
+        "start_char": 2368,
+        "end_char": 2497,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

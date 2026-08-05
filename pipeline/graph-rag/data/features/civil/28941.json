@@ -1,0 +1,153 @@
+{
+  "ruling_id": "28941",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "توافق",
+      "evidence": {
+        "quote": "در ما نحن فیه توافق طرفین حاکم است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "حکم بر برائت خوانده صادر اعلام می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه سی و هشت میلیون ریال",
+        "start_char": 44,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "دلیلی بر پرداخت الباقی ثمن ارائه ننمود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواهان اعتراض موثر و موجهی",
+        "start_char": 3687,
+        "end_char": 3721,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "بنا بر این دادگاه بادر نظر گرفتن اینکه در ما نحن فیه توافق طرفین حاکم است خواسته را در حد توافق صحیح دانسته و مستندا به مواد 10 و 22 و 394 و 395 قانون مدنی و مواد 198 و 515 و 522 قانون آیین دادرسی مدنی خوانده را به پرداخت... محکوم می نماید و در مورد مازاد بر... با توجه به اینکه فروشندگان طبق مبایعه نامه چهار نفر بوده اند لذا سهم خواهان یک چهارم این مبلغ است... در مورد الباقی ثمن اصلی و ثمن اضافه مترآژ خواهان ذینفع نمی باشد ولذا دادگاه مستندا به مواد 84 و 89 قانون اخیر الذکر قرار رد دعوی صادر واعلام می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "سهم خواهان یک چهارم این مبلغ است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده با وجود ابلاغ قانونی حضور نیافته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه مورخ 1/6/79",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "تصویر مصدق صورتمجلس تفکیکی ملک متنازع",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "بابت اضافه مترآژ مغازه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم حضور خوانده در جلسات",
+      "evidence": {
+        "quote": "خوانده با وجود ابلاغ قانونی حضور نیافته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود اختلاف در مساحت ملک",
+      "evidence": {
+        "quote": "حال آنکه در مبایعه نامه دوا زده متر مربع قید شده لذا اضافه مساحت اعلا می صحیح است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود توافق قبلی در مورد نرخ اضافه مترآژ",
+      "evidence": {
+        "quote": "محاسبه اضافه مترآژ بر طبق بند ث مبایعه نامه فیما بین طرفین بود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

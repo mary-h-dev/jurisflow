@@ -1,0 +1,173 @@
+{
+  "ruling_id": "27636",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "به اتهام تصرف عدوانی",
+        "start_char": 209,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی داده بود",
+        "start_char": 381,
+        "end_char": 409,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم محکومیت",
+      "evidence": {
+        "quote": "محکوم گردیده است",
+        "start_char": 310,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مردود اعلام",
+      "evidence": {
+        "quote": "تقاضای مزبور مردود اعلام شده است",
+        "start_char": 474,
+        "end_char": 506,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی نموده است",
+        "start_char": 592,
+        "end_char": 621,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ملاحظه",
+      "evidence": {
+        "quote": "ملاحظه اوراق پرونده",
+        "start_char": 1617,
+        "end_char": 1636,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "مورد ادعای شاکی",
+        "start_char": 238,
+        "end_char": 253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "محکوم‌علیه قبلاً با تقدیم درخواستی",
+        "start_char": 327,
+        "end_char": 361,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شهرداری",
+      "evidence": {
+        "quote": "بابت پرداخت بهای عادله به محکومیت شهرداری صادر گردیده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "شاکی از ابتدای تشکیل پرونده شخصی دیگر را به عنوان مستأجر بنده به دادگاه برده",
+        "start_char": 1287,
+        "end_char": 1363,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قطعه",
+      "evidence": {
+        "quote": "یک قطعه مورد ادعای شاکی",
+        "start_char": 230,
+        "end_char": 253,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه",
+      "evidence": {
+        "quote": "وی نامه‌ای به رئیس دادگستری ل.",
+        "start_char": 695,
+        "end_char": 725,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی فوق که پیوست می‌باشد",
+        "start_char": 1106,
+        "end_char": 1130,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "محکوم‌علیه تقاضای اعاده دادرسی کرده است",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی نموده است",
+        "start_char": 592,
+        "end_char": 621,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رأی دادگاه حقوقی هنوز قطعی نشده است",
+      "evidence": {
+        "quote": "ولی هنوز رأی قطعی صادر نشده است",
+        "start_char": 1131,
+        "end_char": 1162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در پرونده واقعه جدیدی وجود ندارد",
+      "evidence": {
+        "quote": "هیچگونه واقعه جدیدی وجود ندارد",
+        "start_char": 1994,
+        "end_char": 2024,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "34108",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "ایفای دین از جانب غیر مدیون هم جایز است",
+        "start_char": 486,
+        "end_char": 525,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "آئین دادرسی",
+      "evidence": {
+        "quote": "به استناد مفهوم مخالف ماده 11 قانون تشکیلات و آئین دادرسی دیوان عدالت اداری",
+        "start_char": 734,
+        "end_char": 809,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد مبلغ 67294595 ریالی",
+        "start_char": 46,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "حق بیمه مزبور را از آن شرکت مطالبه نموده",
+        "start_char": 354,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "شاکی با پرداخت آن در واقع دین کارفرما را طوعا تأدیه نموده",
+        "start_char": 397,
+        "end_char": 454,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی است",
+        "start_char": 889,
+        "end_char": 911,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رای معترض به عینا تایید و استوار می گردد",
+        "start_char": 1405,
+        "end_char": 1445,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "در خصوص شکایت شاکی علیه سازمان تأمین اجتماعی",
+        "start_char": 1,
+        "end_char": 45,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تأمین اجتماعی",
+      "evidence": {
+        "quote": "علیه سازمان تأمین اجتماعی",
+        "start_char": 20,
+        "end_char": 45,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "کارفرما",
+      "evidence": {
+        "quote": "حق بیمه موضوع مشاغل سخت و زیان آور به عهده کارفرما می باشد",
+        "start_char": 206,
+        "end_char": 264,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نظر به اینکه اعتراض تجدیدنظرخواه به کیفیتی نیست",
+        "start_char": 954,
+        "end_char": 1001,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبلغ",
+      "evidence": {
+        "quote": "استرداد مبلغ 67294595 ریالی",
+        "start_char": 56,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حق بیمه",
+      "evidence": {
+        "quote": "بابت 4% حق بیمه مشاغل سخت و زیان آور",
+        "start_char": 84,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای صادره قطعی است",
+        "start_char": 1447,
+        "end_char": 1465,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شاکی حق بیمه را به جای کارفرما پرداخت کرده است",
+      "evidence": {
+        "quote": "شاکی با پرداخت آن در واقع دین کارفرما را طوعا تأدیه نموده",
+        "start_char": 397,
+        "end_char": 454,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سازمان تأمین اجتماعی اخطاریه برای کارفرما صادر کرده است",
+      "evidence": {
+        "quote": "سازمان تأمین اجتماعی نیز با صدور اخطاریه به طرفیت کارفرمای شاکی",
+        "start_char": 267,
+        "end_char": 330,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

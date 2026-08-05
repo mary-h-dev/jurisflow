@@ -1,0 +1,193 @@
+{
+  "ruling_id": "403",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حجر",
+      "evidence": {
+        "quote": "به جهت حجر خواهان",
+        "start_char": 153,
+        "end_char": 170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مجنون",
+      "evidence": {
+        "quote": "و مجنون بودن مشارٌالیه",
+        "start_char": 192,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جنون",
+      "evidence": {
+        "quote": "جنون به هر درجه که باشد موجب حجر است",
+        "start_char": 915,
+        "end_char": 951,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "افاقه",
+      "evidence": {
+        "quote": "یا افاقه داشته",
+        "start_char": 603,
+        "end_char": 617,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان مبایعه نامه",
+        "start_char": 1130,
+        "end_char": 1154,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال مبایعه نامه",
+        "start_char": 111,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.ب.",
+        "start_char": 1435,
+        "end_char": 1458,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد دادخواست",
+        "start_char": 1549,
+        "end_char": 1565,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عیناً تأیید",
+        "start_char": 1974,
+        "end_char": 2011,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان آقای ع.ع.",
+        "start_char": 0,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای م.ب.",
+        "start_char": 85,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "قیم",
+      "evidence": {
+        "quote": "قیم خواهان",
+        "start_char": 73,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "ابطال مبایعه نامه مورخه 23/9/85",
+        "start_char": 121,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حکم",
+      "evidence": {
+        "quote": "مشتمل بر حکم حجر صادره از شعبه محترم 45 دادگاه عمومی تهران",
+        "start_char": 299,
+        "end_char": 357,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 401",
+        "start_char": 1459,
+        "end_char": 1484,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان در زمان معامله دچار جنون ادواری بوده است",
+      "evidence": {
+        "quote": "اعلام شروع حجر به‌واسطه جنون ادواری از سال 1376",
+        "start_char": 419,
+        "end_char": 466,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حکم حجر صادره از شعبه 45 دادگاه عمومی تهران قطعی است",
+      "evidence": {
+        "quote": "و قطعیت آن حسب گواهی دفتر آن دادگاه",
+        "start_char": 381,
+        "end_char": 416,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی خارج از مهلت بوده است",
+      "evidence": {
+        "quote": "به لحاظ خارج از مهلت بودن دادخواست صادر شده است",
+        "start_char": 1609,
+        "end_char": 1656,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

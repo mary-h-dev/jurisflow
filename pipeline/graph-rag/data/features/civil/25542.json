@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25542",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "خسارت قراردادی ناشی از تاخیر",
+        "start_char": 1449,
+        "end_char": 1477,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "موجب سقوط تعهد دیگر ناظر به ضرورت پرداخت خسارت",
+        "start_char": 2067,
+        "end_char": 2113,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به خواسته پرداخت خسارت",
+        "start_char": 58,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "تأخیر در انتقال سند مالکیت",
+        "start_char": 93,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "سند رسمی انتقال تنظیم گردیده است",
+        "start_char": 731,
+        "end_char": 763,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه موصوف",
+        "start_char": 2262,
+        "end_char": 2283,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان اجمالاً اشعار داشته است",
+        "start_char": 180,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از آقایان خوانده",
+        "start_char": 263,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم بر بی‌حقی خواهان بدوی (تجدیدنظرخواه)",
+        "start_char": 1365,
+        "end_char": 1405,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "انتقال سند مالکیت",
+        "start_char": 102,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "واحد",
+      "evidence": {
+        "quote": "یک واحد مسکونی",
+        "start_char": 248,
+        "end_char": 262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "براساس مبایعه­ نامه شماره 4289255",
+        "start_char": 214,
+        "end_char": 247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بانکی",
+      "evidence": {
+        "quote": "با داشتن چک بانکی",
+        "start_char": 360,
+        "end_char": 377,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "طی سند رسمی شماره 52914 سند رسمی انتقال تنظیم گردیده است",
+        "start_char": 707,
+        "end_char": 763,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تأخیر در انتقال سند مالکیت",
+      "evidence": {
+        "quote": "تأخیر در انتقال سند مالکیت واحد مسکونی",
+        "start_char": 93,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انتقال رسمی مالکیت با تأخیر انجام شده است",
+      "evidence": {
+        "quote": "انجام تعهد انتقال رسمی مالکیت آن هم با تاخیر",
+        "start_char": 2022,
+        "end_char": 2066,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

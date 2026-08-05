@@ -1,0 +1,123 @@
+{
+  "ruling_id": "1679",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 432,
+        "end_char": 447,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دادخواست مطالبه مبلغ",
+        "start_char": 49,
+        "end_char": 69,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "وجوه مذکور را برای تأمین جهیزیه عروسی به حساب خوانده واریز کرده",
+        "start_char": 167,
+        "end_char": 230,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "وسایل تحویل نشده است",
+        "start_char": 235,
+        "end_char": 255,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نفی",
+      "evidence": {
+        "quote": "از خود نفی صلاحیت نموه",
+        "start_char": 670,
+        "end_char": 692,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به حساب خوانده واریز کرده",
+        "start_char": 205,
+        "end_char": 230,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مطالبه مبلغ 000/500/67 ریال",
+        "start_char": 58,
+        "end_char": 85,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجوه",
+      "evidence": {
+        "quote": "وجوه مذکور را",
+        "start_char": 167,
+        "end_char": 180,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "وسایل",
+      "evidence": {
+        "quote": "وسایل تحویل نشده است",
+        "start_char": 235,
+        "end_char": 255,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجوه برای تأمین جهیزیه واریز شده است",
+      "evidence": {
+        "quote": "وجوه مذکور را برای تأمین جهیزیه عروسی به حساب خوانده واریز کرده",
+        "start_char": 167,
+        "end_char": 230,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وسایل تحویل داده نشده است",
+      "evidence": {
+        "quote": "وسایل تحویل نشده است",
+        "start_char": 235,
+        "end_char": 255,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "ruling_id": "6571",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "وجود علقه زوجیت خواهان و خوانده",
+        "start_char": 227,
+        "end_char": 258,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "رابطه فرزند پدر و مادری",
+        "start_char": 261,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه معوقه",
+      "evidence": {
+        "quote": "چون نفقه معوقه غیر از زوجه قابل مطالبه نیست",
+        "start_char": 2109,
+        "end_char": 2152,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه فرزند مشترک",
+        "start_char": 84,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "نفقه طفل پرداخت شده است",
+        "start_char": 401,
+        "end_char": 424,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "وارد",
+      "evidence": {
+        "quote": "دعوای خواهان را از تاریخ 30/02/1391 (تقدیم دادخواست) وارد دانسته",
+        "start_char": 692,
+        "end_char": 756,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده",
+        "start_char": 902,
+        "end_char": 923,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ضمن ردّ اعتراض معترض",
+        "start_char": 2017,
+        "end_char": 2037,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی صادر و تأیید می نماید",
+        "start_char": 2153,
+        "end_char": 2192,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درباره ی دادخواست خانم م.پ. فرزند ع. به طرفیت آقای د.خ. فرزند ع. با وکالت آقای ی.ف. به خواسته مطالبه نفقه فرزند مشترک",
+        "start_char": 0,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای د.خ. فرزند ع.",
+        "start_char": 37,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای د.خ.",
+        "start_char": 1224,
+        "end_char": 1247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "ضمن ردّ اعتراض معترض",
+        "start_char": 2017,
+        "end_char": 2037,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه فرزند مشترک",
+        "start_char": 84,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "و تصویر مصدق شناسنامه خواهان",
+        "start_char": 176,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "به پرداخت مبلغ 000/205 ریال بابت هزینه دادرسی",
+        "start_char": 1004,
+        "end_char": 1049,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت‌ها به حساب خواهان واریز شده است",
+      "evidence": {
+        "quote": "پرداخت ها به حساب خانم م.پ. واریزشده است",
+        "start_char": 507,
+        "end_char": 547,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دلیلی بر ناشزه بودن خواهان ارائه نشده است",
+      "evidence": {
+        "quote": "و دلیلی بر ناشزه بودن وی ارائه نشده است",
+        "start_char": 548,
+        "end_char": 587,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبالغ پرداختی برای نفقه کافی نیست",
+      "evidence": {
+        "quote": "مبالغ پرداختی کفایت نفقه فرزند را نمی نماید",
+        "start_char": 595,
+        "end_char": 638,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

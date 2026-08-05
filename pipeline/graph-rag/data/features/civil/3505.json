@@ -1,0 +1,153 @@
+{
+  "ruling_id": "3505",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حجر",
+      "evidence": {
+        "quote": "صدور حکم به حجر موجب محرومیت فرد از استیفاء و اعمال حقوق قانونی",
+        "start_char": 2841,
+        "end_char": 2904,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جنون",
+      "evidence": {
+        "quote": "حکم به حجر الف.ن. به لحاظ ابتلاء به جنون ادواری",
+        "start_char": 969,
+        "end_char": 1016,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جنون ادواری",
+      "evidence": {
+        "quote": "لذا جنون ادواری محسوب می شود",
+        "start_char": 821,
+        "end_char": 849,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصل عدم",
+      "evidence": {
+        "quote": "طبق دستور ماده 1210 قانون مدنی اصل عدم حجر است",
+        "start_char": 3466,
+        "end_char": 3512,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "درخواست رسیدگی",
+      "evidence": {
+        "quote": "درخواست رسیدگی و صدور حکم به حجر الف.ن.",
+        "start_char": 104,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام خواهی",
+      "evidence": {
+        "quote": "پس از ابلاغ الف.ن. از آن فرجام خواهی کرده است",
+        "start_char": 2078,
+        "end_char": 2123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بعدی",
+      "evidence": {
+        "quote": "نقض و رسیدگی بعدی با لحاظ بندهای الف ماده 401 و 405 قانون مرقوم به دادگاه صادرکننده رأی یا شعبه قائم مقام قانونی آن تفویض می گردد",
+        "start_char": 4216,
+        "end_char": 4345,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه مرا خواهان تلقی کرده",
+        "start_char": 1325,
+        "end_char": 1352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "چنانکه فرجام خواه مدعی است",
+        "start_char": 3659,
+        "end_char": 3685,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "طی دادنامه شماره 9109974527000866",
+        "start_char": 892,
+        "end_char": 925,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "استشهادیه",
+      "evidence": {
+        "quote": "و یک فقره استشهادیه هم پیوست دادخواست فرجامی",
+        "start_char": 2452,
+        "end_char": 2496,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرد دچار جنون ناشی از مصرف مواد مخدر بوده است",
+      "evidence": {
+        "quote": "نامبرده جنون ناشی از مصرف مواد (شیشه و آمفتامین) دارد",
+        "start_char": 279,
+        "end_char": 332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرد مدعی بهبودی و سلامت روانی است",
+      "evidence": {
+        "quote": "پس از مراجعه به مراکز روانی و پزشک معالج درمان و اکنون از سلامت روانی و جسمی برخوردار است",
+        "start_char": 1235,
+        "end_char": 1324,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در رسیدگی دادگاه‌ها تحقیق از فرد صورت نگرفته است",
+      "evidence": {
+        "quote": "در مورد اینکه دادگاه ها هیچ گونه تحقیق از فرجام خواه به عمل نیاورده اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

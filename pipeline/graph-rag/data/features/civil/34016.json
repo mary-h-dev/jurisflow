@@ -1,0 +1,113 @@
+{
+  "ruling_id": "34016",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "عطف به ماسبق نشدن قوانین و مقررات به گذشته برابر ماده 4 قانون مدنی",
+        "start_char": 697,
+        "end_char": 763,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "دادخواست تجدیدنظرخواهی در تاریخ 95/5/31 خارج از مهلت بیست روزه قانونی تسلیم گردیده است",
+        "start_char": 1441,
+        "end_char": 1527,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار رد",
+      "evidence": {
+        "quote": "قرار رد دادخواست تجدیدنظرخواهی صادر و اعلام می گردد",
+        "start_char": 1614,
+        "end_char": 1665,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "اسناد ارائه شده از ناحیه شاکی عدم رجوع به کارشناس را به هر تقدیر ثبوت می د دارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شهرداری",
+      "evidence": {
+        "quote": "بی توجهی کمیسیون ماده 100 شهرداری به زمان ساخت ملک",
+        "start_char": 608,
+        "end_char": 658,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی مورد اعتراض با اتکاء به نظر کارشناس رسمی دادگستری و لحاظ عمر ساختمان موضوع دعوی صادر نشده",
+        "start_char": 372,
+        "end_char": 465,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "اسناد ارائه شده از ناحیه شاکی عدم رجوع به کارشناس را به هر تقدیر ثبوت می د دارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "بی توجهی کمیسیون ماده 100 شهرداری به زمان ساخت ملک",
+        "start_char": 608,
+        "end_char": 658,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی خارج از مهلت قانونی تسلیم شده است",
+      "evidence": {
+        "quote": "دادخواست تجدیدنظرخواهی در تاریخ 95/5/31 خارج از مهلت بیست روزه قانونی تسلیم گردیده است",
+        "start_char": 1441,
+        "end_char": 1527,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رأی کمیسیون بدون استناد به نظر کارشناس احصاء صادر شده است",
+      "evidence": {
+        "quote": "حصول شرایط قانونی جهت تعیین جریمه در رأی کمیسیون به نحو مستدل و مستند و با جلب نظر کارشناس احصاء نگردید",
+        "start_char": 255,
+        "end_char": 358,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

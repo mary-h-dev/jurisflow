@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25314",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه وی را نپرداخته",
+        "start_char": 231,
+        "end_char": 251,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "دینی به مشارالیها ندارند",
+        "start_char": 487,
+        "end_char": 511,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "بار اثبات برائت ذمه به عهده تجدیدنظر خوانده بوده",
+        "start_char": 2351,
+        "end_char": 2399,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مهریه وی را نپرداخته",
+        "start_char": 231,
+        "end_char": 251,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه 14 عدد سکه طلای تمام بهار آزادی",
+        "start_char": 1952,
+        "end_char": 2000,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض‌عنه",
+        "start_char": 2848,
+        "end_char": 2873,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت آقای الف. ص. به خواسته رسیدگی و صدور حکم به محکومیت خوانده",
+        "start_char": 35,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای الف. ص. به خواسته رسیدگی و صدور حکم به محکومیت خوانده",
+        "start_char": 35,
+        "end_char": 102,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ط. ذ.",
+        "start_char": 1751,
+        "end_char": 1775,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظر خوانده آقای الف. ص.",
+        "start_char": 1914,
+        "end_char": 1951,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "تعداد 14 عدد سکه تمام بهار آزادی",
+        "start_char": 113,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "با توجه به سند ازدواج",
+        "start_char": 208,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "مندرج در سند نکاحیه",
+        "start_char": 2015,
+        "end_char": 2034,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ادعا کرده است که مهریه را قبلاً پرداخت کرده است",
+      "evidence": {
+        "quote": "خوانده در مقام دفاع اظهار داشته که مهریه همسرش را حدود پنج سال قبل به صورت کامل با پرداخت دوازده میلیون تومان پرداخت",
+        "start_char": 368,
+        "end_char": 484,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان شاغل نبوده است",
+      "evidence": {
+        "quote": "خواهان شاغل نبوده‌اند",
+        "start_char": 1317,
+        "end_char": 1338,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

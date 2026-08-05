@@ -1,0 +1,173 @@
+{
+  "ruling_id": "30312",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "مستندا به ماده یک و دو قانون مسؤولیت مدنی مصوب 7/2/1339",
+        "start_char": 2129,
+        "end_char": 2184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "موضوع مشمول تسبیب باشد",
+        "start_char": 6287,
+        "end_char": 6309,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "وجود فعل زیانبار و رابطه سببیت بین فعل مذکور با ضرر وارده ضروری می باشد",
+        "start_char": 5360,
+        "end_char": 5431,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جلب ثالث",
+      "evidence": {
+        "quote": "با خواسته با احتساب خسارات دادرسی جهت رسیدگی به این دادگاه ارجاع شده است",
+        "start_char": 509,
+        "end_char": 581,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه خسارت",
+      "evidence": {
+        "quote": "عبارت است از: مطالبه خسارت با جلب نظر کارشناس",
+        "start_char": 279,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی خواهان ها از این حیث صادر و اعلام می گردد",
+        "start_char": 1307,
+        "end_char": 1361,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته درخورنقض می باشدمستندابه",
+        "start_char": 6608,
+        "end_char": 6655,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در این پرونده ابتدا خواسته خواهان های اصلی",
+        "start_char": 0,
+        "end_char": 42,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خواندگان اصلی",
+        "start_char": 93,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی خانم الف. خ.ت.",
+        "start_char": 4635,
+        "end_char": 4670,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظرخواندگان آقای ب. ب.م. وخانم الف. ق.پ.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "به طرفیت مجلوب ثالث آقای الف. الف.گ.",
+        "start_char": 6880,
+        "end_char": 6916,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "میزان خسارت وارده به ملک خواهان ها را",
+        "start_char": 1609,
+        "end_char": 1646,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "با احتساب خسارات دادرسی",
+        "start_char": 325,
+        "end_char": 348,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انجام عملیات گودبرداری",
+      "evidence": {
+        "quote": "خسارات وارده به ملک تجدیدنظرخواندگان ناشی از گودبرداری",
+        "start_char": 5059,
+        "end_char": 5112,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "استرداد دادخواست توسط وکیل",
+      "evidence": {
+        "quote": "نظر به اینکه وکیل خواهان ها دادخواست خود را به شرح لایحه شماره 4925 مورخ 10/12/92 مسترد نموده است",
+        "start_char": 1123,
+        "end_char": 1220,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

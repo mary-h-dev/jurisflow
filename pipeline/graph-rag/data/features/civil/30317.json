@@ -1,0 +1,122 @@
+{
+  "ruling_id": "30317",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حجر",
+      "evidence": {
+        "quote": "صدورحکم به رفع حجر",
+        "start_char": 93,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جنون ادواری",
+      "evidence": {
+        "quote": "به سبب جنون ادواری صادر گردیده است",
+        "start_char": 251,
+        "end_char": 285,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مجنون",
+      "evidence": {
+        "quote": "مجنون اداواری در حال جنون را ممنوع التصرف دانسته",
+        "start_char": 2554,
+        "end_char": 2602,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدورحکم به رفع حجر",
+        "start_char": 93,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رفع حجر",
+      "evidence": {
+        "quote": "تقاضای رفع حجر او را از دادگاه نموده",
+        "start_char": 2099,
+        "end_char": 2135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدید نظرخواسته را مخدوش و در خور نقض دانسته",
+        "start_char": 3129,
+        "end_char": 3181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای علی (قدرت) ش.ح.خ.",
+        "start_char": 970,
+        "end_char": 1006,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه بلادلیل و غیر وارد تشخیص",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه خواسته خوهان را غیر وارد تشخیص",
+        "start_char": 753,
+        "end_char": 790,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "نامبرده سوابقی از ابتلا به اختلال روانی شدید دارد",
+      "evidence": {
+        "quote": "نامبرده سوابقی از ابتلا ء به اختلال روانی شدید دارد",
+        "start_char": 395,
+        "end_char": 446,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وضعیت روحی و روانی نامبرده بهبود یافته است",
+      "evidence": {
+        "quote": "با ادامه معالجات پزشکی سلامت نسبی خود را بازیافته و از حیث روحی و روانی وضعیت بهتری پیدا کرده",
+        "start_char": 1710,
+        "end_char": 1803,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

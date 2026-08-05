@@ -1,0 +1,163 @@
+{
+  "ruling_id": "28804",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "ظهرنویسان مسئولیت تضامنی دارند",
+        "start_char": 965,
+        "end_char": 995,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی صادر و اعلام می شود",
+        "start_char": 1150,
+        "end_char": 1190,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ 150/000/000 ریال",
+        "start_char": 57,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "برگشت",
+      "evidence": {
+        "quote": "خواهان چک را برگشت نزده",
+        "start_char": 1058,
+        "end_char": 1081,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رای تجدیدنظرخواسته را عینانقض نموده",
+        "start_char": 2699,
+        "end_char": 2734,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را جهت ادامه رسیدگی به دادگاه نخستین اعاده می نماید",
+        "start_char": 2778,
+        "end_char": 2836,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست وکیل خواهان",
+        "start_char": 0,
+        "end_char": 27,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای ک. الف.",
+        "start_char": 28,
+        "end_char": 56,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دارنده",
+      "evidence": {
+        "quote": "دارنده شخص دیگری است",
+        "start_char": 1035,
+        "end_char": 1055,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م. ع.",
+        "start_char": 1415,
+        "end_char": 1439,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "بابت یک فقره چک به شماره 813100/48-1393/2/25",
+        "start_char": 96,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ 150/000/000 ریال بابت اصل خواسته",
+        "start_char": 567,
+        "end_char": 604,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک در شعبه حاضر حاضر نشده است",
+      "evidence": {
+        "quote": "خوانده با اخطار قانونی در شعبه حاضر نشده",
+        "start_char": 323,
+        "end_char": 363,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجه چک در تاریخ سررسید از بانک مطالبه شده است",
+      "evidence": {
+        "quote": "وجه چک دقیقا در همان تاریخ سررسید از بانک محال علیه مطالبه شده است",
+        "start_char": 2183,
+        "end_char": 2249,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "گواهی عدم پرداخت در تاریخ سررسید صادر شده است",
+      "evidence": {
+        "quote": "گواهی‌نامه عدم پرداخت نیز درهمان تاریخ صادرشده است",
+        "start_char": 2250,
+        "end_char": 2299,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

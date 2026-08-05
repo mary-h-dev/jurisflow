@@ -1,0 +1,213 @@
+{
+  "ruling_id": "30984",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "اعلام انفساخ",
+        "start_char": 62,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌اعتباری",
+      "evidence": {
+        "quote": "بی اعتباری",
+        "start_char": 77,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "ماهیتا نوعی شرط فاسخ تلقی می گردد",
+        "start_char": 1099,
+        "end_char": 1132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اراده",
+      "evidence": {
+        "quote": "اصل حاکمیت اراده",
+        "start_char": 1299,
+        "end_char": 1315,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفوذ",
+      "evidence": {
+        "quote": "اصل کلی نفوذ قراردادهای خصوص",
+        "start_char": 1556,
+        "end_char": 1584,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعلام انفساخ",
+        "start_char": 62,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "الزام خوانده به استرداد",
+        "start_char": 126,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تحویل مورد معامله",
+        "start_char": 152,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد واخواهی",
+      "evidence": {
+        "quote": "حکم به رد واخواهی",
+        "start_char": 2712,
+        "end_char": 2729,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید دادنامه",
+      "evidence": {
+        "quote": "ضمن تایید دادنامه مزبور",
+        "start_char": 2648,
+        "end_char": 2671,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان",
+        "start_char": 170,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده",
+        "start_char": 126,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ج. م.ع.",
+        "start_char": 2916,
+        "end_char": 2942,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بطرفیت تجدیدنظرخوانده آقای م. ص.ز.",
+        "start_char": 2963,
+        "end_char": 2997,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "مبایعه نامه عادی مورخ 31/1/1384",
+        "start_char": 88,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چک شماره 894669-2364",
+        "start_char": 544,
+        "end_char": 564,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "معامله",
+      "evidence": {
+        "quote": "تحویل مورد معامله",
+        "start_char": 152,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سرقفلی",
+      "evidence": {
+        "quote": "سرقفلی مغازه را به خوانده فروخته است",
+        "start_char": 422,
+        "end_char": 458,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت مبلغ چک",
+      "evidence": {
+        "quote": "گواهی عدم پرداخت ابرازی در خصوص چک",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم حضور خوانده در جلسه دادگاه",
+      "evidence": {
+        "quote": "علیرغم دعوت بعمل آمده از طریق نشرآگهی در جلسه دادگاه حضور نیافته",
+        "start_char": 869,
+        "end_char": 933,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

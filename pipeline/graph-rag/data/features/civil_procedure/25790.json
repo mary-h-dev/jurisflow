@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25790",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام به ایفای تعهد",
+        "start_char": 110,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت",
+        "start_char": 156,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "مطالبه خسارات دادرسی",
+        "start_char": 203,
+        "end_char": 223,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی",
+        "start_char": 745,
+        "end_char": 765,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی",
+        "start_char": 851,
+        "end_char": 864,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ماهوی",
+      "evidence": {
+        "quote": "رسیدگی ماهوی",
+        "start_char": 1715,
+        "end_char": 1727,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارت",
+        "start_char": 156,
+        "end_char": 168,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را جهت رسیدگی ماهوی به دادگاه نخستین اعاده می نماید",
+        "start_char": 1701,
+        "end_char": 1759,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدید نظر خواسته",
+        "start_char": 1668,
+        "end_char": 1700,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای ح. س. ز.",
+        "start_char": 59,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "مشاور املاک به عنوان داور مرضی الطرفین",
+        "start_char": 518,
+        "end_char": 556,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت در ساخت",
+      "evidence": {
+        "quote": "قرارداد مشارکت در ساخت",
+        "start_char": 415,
+        "end_char": 437,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره 556",
+        "start_char": 1018,
+        "end_char": 1035,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "داور از رسیدگی امتناع کرده است",
+      "evidence": {
+        "quote": "این امر ظهور در امتناع داور از رسیدگی می نماید",
+        "start_char": 1406,
+        "end_char": 1452,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در قرارداد شرط داوری وجود دارد",
+      "evidence": {
+        "quote": "طبق بنده هشت از شق الف ماده 6 قرارداد مشارکت در ساخت طرفین به شماره 100057 در صورت بروز اختلاف در خصوص مشخصات و مفاد و شرایط قرارداد مشاور املاک به عنوان داور مرضی الطرفین اظهار نظر خواهد کرد",
+        "start_char": 385,
+        "end_char": 576,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

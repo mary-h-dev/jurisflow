@@ -1,0 +1,73 @@
+{
+  "ruling_id": "36812",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی نموده است",
+        "start_char": 250,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "درخواست",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی نموده است",
+        "start_char": 250,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مردود اعلام",
+      "evidence": {
+        "quote": "قابل پذیرش نبوده و مردود اعلام میگردد",
+        "start_char": 626,
+        "end_char": 663,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "دادیار",
+      "evidence": {
+        "quote": "دادیار اجرای احکام دادسرای شهرستان",
+        "start_char": 0,
+        "end_char": 34,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پس از وصول و ثبت در دبیرخانه به این شعبه ارجاع گردیده است",
+        "start_char": 289,
+        "end_char": 346,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دادیار فاقد صلاحیت قانونی برای درخواست اعاده دادرسی است",
+      "evidence": {
+        "quote": "دادیار از جمله اشخاصی نیست که طبق ماده 475 قانون ایین دادرسی کیفری حق درخواست اعاده دادرسی دارند",
+        "start_char": 488,
+        "end_char": 584,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

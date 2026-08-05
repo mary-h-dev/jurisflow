@@ -1,0 +1,183 @@
+{
+  "ruling_id": "35187",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته فسخ نکاح",
+        "start_char": 96,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "به جهت تدلیس",
+        "start_char": 116,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان صادر",
+        "start_char": 1770,
+        "end_char": 1799,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ نکاح",
+      "evidence": {
+        "quote": "اقدام به فسخ نکاح نمود",
+        "start_char": 1087,
+        "end_char": 1109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه مهریه",
+      "evidence": {
+        "quote": "دادخواست مطالبه مهریه دادم",
+        "start_char": 1060,
+        "end_char": 1086,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی آقای علی خ.ف.",
+        "start_char": 1951,
+        "end_char": 1979,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "رأی دادگاه بدوی را که موافق موازین قانونی و با رعایت اصول و قواعد دادرسی صادر کرده به استناد ماده 358 قانون آئین دادرسی مدنی تایید مینماید",
+        "start_char": 2584,
+        "end_char": 2722,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار داشت",
+        "start_char": 160,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده درپاسخ اظهارداشت",
+        "start_char": 923,
+        "end_char": 946,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "موکل نی تواند فسخ نکاح کند",
+        "start_char": 531,
+        "end_char": 557,
+        "confidence": 0.7
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "سابقه ازدواج زوجه ندارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "در سند ازدواج هم قید شد",
+        "start_char": 246,
+        "end_char": 269,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "در شناسنامه زوجه هم ازدواج قبلی نوشته نشد",
+        "start_char": 295,
+        "end_char": 336,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی موضوع دادنامه شماره 104",
+        "start_char": 2030,
+        "end_char": 2057,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه سابقه ازدواج داشته است",
+      "evidence": {
+        "quote": "بعدا معلوم شد زوجه سابقه ازدواج داشته",
+        "start_char": 341,
+        "end_char": 378,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اطلاع خواهان از سابقه ازدواج زوجه در زمان عقد",
+      "evidence": {
+        "quote": "وعدم اطلاع خواهان از سابقه ازدواج زوجه در زمان عقد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم توافق بر طلاق",
+      "evidence": {
+        "quote": "پس از اینکه خوانده حاضر نشد به صورت توافقی طلاق بگیرند",
+        "start_char": 1594,
+        "end_char": 1648,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

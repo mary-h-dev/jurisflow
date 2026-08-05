@@ -1,0 +1,173 @@
+{
+  "ruling_id": "34505",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "به خواسته اعتراض ثالث",
+        "start_char": 108,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "در خصوص فرجام خواهی",
+        "start_char": 1286,
+        "end_char": 1305,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "ضمن تقدیم دادخواستی",
+        "start_char": 33,
+        "end_char": 52,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "و استرداد یک دستگاه خودور پراید",
+        "start_char": 216,
+        "end_char": 247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ضبط",
+      "evidence": {
+        "quote": "خودرو ضبط شده",
+        "start_char": 277,
+        "end_char": 290,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "و نقض آن بخش از دادنامه",
+        "start_char": 674,
+        "end_char": 697,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "جهت اقدام مقتضی اعاده فرمائید",
+        "start_char": 2014,
+        "end_char": 2043,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "حکم استرداد خودرو را به مالک",
+        "start_char": 717,
+        "end_char": 745,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "به مالک (معترض ثالث)",
+        "start_char": 738,
+        "end_char": 758,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شورای",
+      "evidence": {
+        "quote": "شورای هماهنگی مبارزه با موادمخدر استان آذربایجان غربی",
+        "start_char": 1306,
+        "end_char": 1359,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "موضوع پرونده شماره... شعبه اول دادگاه انقلاب اسلامی و استرداد یک دستگاه خودور پراید شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "استرداد یک دستگاه خودور پراید",
+        "start_char": 218,
+        "end_char": 247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "و سند مالکیت آن به نام وی میباشد",
+        "start_char": 323,
+        "end_char": 355,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خودرو به نام موکل است",
+      "evidence": {
+        "quote": "خودرو ضبط شده به شماره فوق متعلق به موکل بوده",
+        "start_char": 277,
+        "end_char": 322,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خودرو به آژانس اجاره داده شده بود",
+      "evidence": {
+        "quote": "جهت کار در آژانس تلفنی به برادر همسرش اجاره داده",
+        "start_char": 359,
+        "end_char": 407,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مواد مخدر در خودرو یافت نشده است",
+      "evidence": {
+        "quote": "از آن موادی کشف نگردیده",
+        "start_char": 454,
+        "end_char": 477,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

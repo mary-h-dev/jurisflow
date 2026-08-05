@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25287",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال رأی داوری",
+        "start_char": 103,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "اصل لزوم المعاملات",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اراده",
+      "evidence": {
+        "quote": "آزادی اراده طرفین",
+        "start_char": 3996,
+        "end_char": 4013,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال رأی داوری",
+        "start_char": 103,
+        "end_char": 128,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور رای",
+      "evidence": {
+        "quote": "مبادرت به صدور رأی داوری",
+        "start_char": 1665,
+        "end_char": 1689,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استعفا",
+      "evidence": {
+        "quote": "اعلام استعفای احد از داوران",
+        "start_char": 963,
+        "end_char": 990,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان",
+        "start_char": 638,
+        "end_char": 650,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "عدم استحقاق خوانده",
+        "start_char": 2933,
+        "end_char": 2951,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "احد از داوران",
+        "start_char": 977,
+        "end_char": 990,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه نیز در این مرحله",
+        "start_char": 5647,
+        "end_char": 5676,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی داوری مورخ 1391/11/30",
+        "start_char": 119,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "طی 32 فقره چک",
+        "start_char": 422,
+        "end_char": 435,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "وفق بند یک قرارداد منعقده",
+        "start_char": 511,
+        "end_char": 536,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رأی داوری صادر شده است",
+      "evidence": {
+        "quote": "مبادرت به صدور رأی داوری نموده‌اند",
+        "start_char": 1665,
+        "end_char": 1699,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "داور استعفا داده است",
+      "evidence": {
+        "quote": "اعلام استعفای احد از داوران",
+        "start_char": 963,
+        "end_char": 990,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رأی داوری با فاصله یکساله صادر شده است",
+      "evidence": {
+        "quote": "صدور رأی داوری با فاصله یکساله از تاریخ ارجاع به داوری",
+        "start_char": 6853,
+        "end_char": 6907,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

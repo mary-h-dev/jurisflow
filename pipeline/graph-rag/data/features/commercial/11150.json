@@ -1,0 +1,123 @@
+{
+  "ruling_id": "11150",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "موارد انحلال شرکت‌های با مسئولیت محدود در ماده 114 قانون تجارت احصاء گردیده است",
+        "start_char": 451,
+        "end_char": 530,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "در خصوص دعوی خانم الف.س. به طرفیت شرکت س.ز.",
+        "start_char": 0,
+        "end_char": 43,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "دفاع",
+      "evidence": {
+        "quote": "وکیل شرکت خوانده در مقام دفاع بیان داشته",
+        "start_char": 410,
+        "end_char": 450,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم الف.س. به طرفیت آقای ب.ه. و شرکت س.ز.",
+        "start_char": 1235,
+        "end_char": 1291,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خانم الف.س. به طرفیت شرکت س.ز.",
+        "start_char": 0,
+        "end_char": 43,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت شرکت س.ز. با مدیریت آقای ب.ه.",
+        "start_char": 25,
+        "end_char": 63,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "با وکالت آقای ع.ل.",
+        "start_char": 64,
+        "end_char": 82,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قانون",
+      "evidence": {
+        "quote": "موارد انحلال شرکت‌های با مسئولیت محدود در ماده 114 قانون تجارت احصاء گردیده است",
+        "start_char": 451,
+        "end_char": 530,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شرکت از زمان تأسیس تاکنون فعالیتی نداشته است",
+      "evidence": {
+        "quote": "شرکت تأسیس شده از سال 1387 تاکنون هیچ‌گونه فعالیتی نداشته است",
+        "start_char": 290,
+        "end_char": 351,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوی خواهان رد شد",
+      "evidence": {
+        "quote": "دادگاه دعوی مطروحه را بلادلیل تشخیص داده و مستنداً به ماده 197 قانون آیین دادرسی مدنی دادگاه‌های عمومی و انقلاب حکم بر بطلان دعوی صادر و اعلام می‌گردد",
+        "start_char": 925,
+        "end_char": 1075,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی وارد نبود",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم الف.س. به طرفیت آقای ب.ه. و شرکت س.ز. نسبت به دادنامه شماره 903 مورخ 1393/9/19 شعبه 105 دادگاه عمومی تهران که به شرح آن حکم بر بطلان دعوی تجدیدنظرخواه به خواسته انحلال شرکت تجدیدنظرخوانده صادر گردیده است وارد نمی‌باشد",
+        "start_char": 1235,
+        "end_char": 1471,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

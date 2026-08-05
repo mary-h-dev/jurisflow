@@ -1,0 +1,173 @@
+{
+  "ruling_id": "37601",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "لغو حضانت طفل 4 ساله",
+        "start_char": 66,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "خواهان نسبت به ان تجدیدنظرخواهی نموده",
+        "start_char": 571,
+        "end_char": 608,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در تاریخ 1399/12/27 با تقدیم دادخواست نسبت به ان فرجام خواهی نموده",
+        "start_char": 972,
+        "end_char": 1051,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر نموده است",
+        "start_char": 512,
+        "end_char": 548,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "لغو",
+      "evidence": {
+        "quote": "لغو حضانت طفل 4 ساله",
+        "start_char": 66,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "خواهان نسبت به ان تجدیدنظرخواهی نموده",
+        "start_char": 571,
+        "end_char": 608,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام خواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در تاریخ 1399/12/27 با تقدیم دادخواست نسبت به ان فرجام خواهی نموده",
+        "start_char": 972,
+        "end_char": 1051,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد فرجام",
+      "evidence": {
+        "quote": "قرار رد فرجام خواهی فرجام خواه صادر و اعلام می گردد",
+        "start_char": 2114,
+        "end_char": 2165,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "توسط خوانده که پدر طفل بوده",
+        "start_char": 97,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "باعث ممانعت از ملاقات خواهان با طفل",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در تاریخ 1399/12/27",
+        "start_char": 972,
+        "end_char": 1004,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "فرجام خواهی اقای م. ج. س.",
+        "start_char": 1281,
+        "end_char": 1306,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "طفل",
+      "evidence": {
+        "quote": "حضانت طفل 4 ساله به نام ب.",
+        "start_char": 70,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بموجب دادنامه شماره 1129",
+        "start_char": 416,
+        "end_char": 440,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از ملاقات نوه با پدربزرگ جلوگیری کرده است",
+      "evidence": {
+        "quote": "ممانعت از ملاقات خواهان با طفل که نوه دختری وی بوده",
+        "start_char": 133,
+        "end_char": 184,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده سابقه محکومیت کیفری دارد",
+      "evidence": {
+        "quote": "سابقه محکومیت کیفری خوانده",
+        "start_char": 191,
+        "end_char": 217,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

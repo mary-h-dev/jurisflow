@@ -1,0 +1,153 @@
+{
+  "ruling_id": "30866",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "صرفاً حق فسخ",
+        "start_char": 422,
+        "end_char": 434,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "در زمان بیع",
+        "start_char": 1327,
+        "end_char": 1338,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مابه التفاوت",
+        "start_char": 47,
+        "end_char": 76,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "مشتری حق دارد بیع را فسخ کند",
+        "start_char": 1665,
+        "end_char": 1693,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 2043,
+        "end_char": 2058,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پذیرش",
+      "evidence": {
+        "quote": "با پذیرش دعوی خواهان بدوی",
+        "start_char": 2069,
+        "end_char": 2094,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده بدوی",
+        "start_char": 2095,
+        "end_char": 2121,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ادعای خواهان",
+        "start_char": 400,
+        "end_char": 412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده بدوی",
+        "start_char": 2102,
+        "end_char": 2121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "مشتری حق دارد بیع را فسخ کند",
+        "start_char": 1665,
+        "end_char": 1693,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "یک باب منزل مسکونی",
+        "start_char": 83,
+        "end_char": 101,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "در مبایعه نامه 120 متر قید و ذکر گردیده",
+        "start_char": 1490,
+        "end_char": 1529,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "حسب سند مالکیت رسمی",
+        "start_char": 1215,
+        "end_char": 1234,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مساحت ملک تحویلی کمتر از مساحت ذکر شده در قرارداد است",
+      "evidence": {
+        "quote": "رقبه تحویلی به مساحت 19/98 متر مربع اختلاف کمتر از مساحت فروخته شده می باشد",
+        "start_char": 1790,
+        "end_char": 1865,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

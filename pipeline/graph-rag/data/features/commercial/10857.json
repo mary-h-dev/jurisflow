@@ -1,0 +1,143 @@
+{
+  "ruling_id": "10857",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "به خواسته اعسار از هزینه دادرسی",
+        "start_char": 55,
+        "end_char": 86,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه از تاریخ سررسید چک تا زمان اجرای حکم",
+        "start_char": 284,
+        "end_char": 338,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "لذا وفق ماده 11 قانون آیین دادرسی مدنی قرار عدم صلاحیت به صلاحیت دادگاه‌های عمومی و انقلاب تهران صادر",
+        "start_char": 596,
+        "end_char": 697,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "آقای ه.ک. طی دادخواستی به‌طرفیت آقای ر.ز.خ. فرزند الف. به خواسته اعسار از هزینه دادرسی بدواً و درخواست صدور قرار تأمین خواسته و مطالبه وجه یک فقره چک",
+        "start_char": 0,
+        "end_char": 149,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "لذا وفق ماده 11 قانون آیین دادرسی مدنی قرار عدم صلاحیت به صلاحیت دادگاه‌های عمومی و انقلاب تهران صادر",
+        "start_char": 596,
+        "end_char": 697,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "پرونده به شعبه 11 عمومی حقوقی ارجاع و شعبه مذکور ضمن تشکیل جلسه در تاریخ 1393/5/6 به استناد اینکه بانک محال‌علیه در شهرستان همدان واقع و آدرس خوانده تهران می‌باشد لذا وفق ماده 11 قانون آیین دادرسی مدنی قرار عدم صلاحیت به صلاحیت دادگاه‌های عمومی و انقلاب تهران صادر و پرونده به تهران ارسال می‌گردد",
+        "start_char": 433,
+        "end_char": 729,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "آقای ه.ک. طی دادخواستی به‌طرفیت آقای ر.ز.خ. فرزند الف.",
+        "start_char": 0,
+        "end_char": 54,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به‌طرفیت آقای ر.ز.خ. فرزند الف.",
+        "start_char": 23,
+        "end_char": 54,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "بانک",
+      "evidence": {
+        "quote": "بانک محال‌علیه",
+        "start_char": 531,
+        "end_char": 545,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "مطالبه وجه یک فقره چک به شماره .... مورخ 1393/4/24 به مبلغ 2500000000 ریال",
+        "start_char": 128,
+        "end_char": 202,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پرونده به شعبه 11 عمومی حقوقی ارجاع",
+        "start_char": 433,
+        "end_char": 468,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرونده به تهران ارسال شد",
+      "evidence": {
+        "quote": "پرونده به تهران ارسال می‌گردد",
+        "start_char": 700,
+        "end_char": 729,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان در تهران اقامت دارد",
+      "evidence": {
+        "quote": "آدرس خوانده تهران می‌باشد",
+        "start_char": 570,
+        "end_char": 595,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

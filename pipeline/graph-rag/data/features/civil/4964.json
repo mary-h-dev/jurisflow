@@ -1,0 +1,173 @@
+{
+  "ruling_id": "4964",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تأدیه",
+      "evidence": {
+        "quote": "تشخیص اینکه تأدیه از بابت کدام دین است با مدیون می باشد",
+        "start_char": 618,
+        "end_char": 673,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "تبدیل تعهد به وجود نمی آید",
+        "start_char": 2024,
+        "end_char": 2050,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "چک به مبلغ پانصد میلیون ریال را از بابت کل مهریه واخوانده به وی پرداخت کرده است",
+        "start_char": 255,
+        "end_char": 334,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "منکر",
+      "evidence": {
+        "quote": "تجدیدنظر خواه در مراحل مختلف دادرسی منکر ادعای تجدیدنظر خوانده",
+        "start_char": 1598,
+        "end_char": 1660,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه بدوی صادره را نقض می نماید",
+        "start_char": 797,
+        "end_char": 831,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده را به پرداخت عین پانصد و سیزده عدد سکه بهار آزادی موضوع سند رسمی طلاق نامه اسنادی محکوم می نماید",
+        "start_char": 2669,
+        "end_char": 2781,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "واخواه اظهار داشته است",
+        "start_char": 229,
+        "end_char": 251,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخوانده",
+      "evidence": {
+        "quote": "واخوانده نیز اظهار داشته است",
+        "start_char": 414,
+        "end_char": 442,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه در مراحل مختلف دادرسی منکر ادعای تجدیدنظر خوانده",
+        "start_char": 1598,
+        "end_char": 1660,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده مدعی است",
+        "start_char": 1495,
+        "end_char": 1519,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چک به مبلغ پانصد میلیون ریال",
+        "start_char": 255,
+        "end_char": 283,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "از بابت کل مهریه",
+        "start_char": 287,
+        "end_char": 303,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "پانصد و سیزده عدد سکه بهار آزادی",
+        "start_char": 1306,
+        "end_char": 1338,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی طلاق نامه استنادی می باشد",
+        "start_char": 1339,
+        "end_char": 1373,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ادعا کرده است که چک را بابت دین دیگری دریافت کرده است",
+      "evidence": {
+        "quote": "واخوانده نیز اظهار داشته است که چک مذکور را از بابت بدهی دیگر واخواه به واخوانده از وی دریافت داشته است",
+        "start_char": 414,
+        "end_char": 517,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظر خواه ادعای پرداخت مهریه با چک را منکر شده است",
+      "evidence": {
+        "quote": "تجدیدنظر خواه در مراحل مختلف دادرسی منکر ادعای تجدیدنظر خوانده در مورد اینکه چک مذکور بابت مهریه می باشد است",
+        "start_char": 1598,
+        "end_char": 1706,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

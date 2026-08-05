@@ -1,0 +1,193 @@
+{
+  "ruling_id": "28227",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ذمه",
+      "evidence": {
+        "quote": "دلالت براشتغال ذمه خوانده",
+        "start_char": 256,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استحقاق",
+      "evidence": {
+        "quote": "استحقاق خواهان در مطالبه وجه",
+        "start_char": 284,
+        "end_char": 312,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "دلیلی بر برائت ذمه خود ارائه ننموده",
+        "start_char": 2496,
+        "end_char": 2531,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه",
+        "start_char": 92,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "برگشت",
+      "evidence": {
+        "quote": "مبادرت به برگشت چکهای یاد شده نموده",
+        "start_char": 2092,
+        "end_char": 2127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه تجدید نظر",
+        "start_char": 1184,
+        "end_char": 1222,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "استحقاق خواهان در مطالبه وجه",
+        "start_char": 284,
+        "end_char": 312,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دلالت براشتغال ذمه خوانده",
+        "start_char": 256,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دارنده",
+      "evidence": {
+        "quote": "دارنده چک با اعلام تاریخ",
+        "start_char": 2067,
+        "end_char": 2091,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "صادرکننده",
+      "evidence": {
+        "quote": "از ناحیه صادر کننده",
+        "start_char": 2297,
+        "end_char": 2316,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از دلسازی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "مطالبه وجه 3 فقره چک",
+        "start_char": 102,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "مطالبه وجه 3 فقره چک",
+        "start_char": 102,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "بااحتساب خسارات دادرسی",
+        "start_char": 183,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "بابت هزینه دادرسی",
+        "start_char": 1064,
+        "end_char": 1081,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حق الوکاله",
+      "evidence": {
+        "quote": "وپرداخت حق الوکاله وکیل",
+        "start_char": 1082,
+        "end_char": 1105,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک‌ها فاقد تاریخ در لحظه صدور بوده‌اند",
+      "evidence": {
+        "quote": "اگرچه چکی در لحظه صدور واقعی فاقد تاریخ باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دارنده چک اقدام به درج تاریخ و برگشت چک کرده است",
+      "evidence": {
+        "quote": "دارنده چک با اعلام تاریخ مبادرت به برگشت چکهای یاد شده نموده",
+        "start_char": 2067,
+        "end_char": 2127,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

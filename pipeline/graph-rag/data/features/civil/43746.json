@@ -1,0 +1,353 @@
+{
+  "ruling_id": "43746",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "گواهی عدم امکان سازش جهت اجرای صیغه طلاق",
+        "start_char": 83,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "تقسیط مهریه",
+        "start_char": 188,
+        "end_char": 199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "تقاضای اعسار و تقسیط مهریه را دارم",
+        "start_char": 2178,
+        "end_char": 2212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "در باب اجرت المثل علی رغم این که بحث تبرعی است.",
+        "start_char": 1145,
+        "end_char": 1192,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "با اتهام رابطه نامشروع با یکدیگر",
+        "start_char": 1490,
+        "end_char": 1522,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "موکل تقاضای حضانت 2 فرزند دختر را دارد",
+        "start_char": 2449,
+        "end_char": 2487,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بخواسته",
+      "evidence": {
+        "quote": "دادخواستی بخواسته صدور گواهی عدم امکان سازش",
+        "start_char": 60,
+        "end_char": 103,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقسیط",
+      "evidence": {
+        "quote": "تقاضای تقسیط ان را دارم",
+        "start_char": 772,
+        "end_char": 795,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام وکالت",
+      "evidence": {
+        "quote": "اعلام وکالت نموده",
+        "start_char": 353,
+        "end_char": 370,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اظهار",
+      "evidence": {
+        "quote": "خوانده اظهار می داید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر",
+      "evidence": {
+        "quote": "دادگاه قرار اجرای امر بداوری صادر نموده است",
+        "start_char": 1353,
+        "end_char": 1396,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم و",
+      "evidence": {
+        "quote": "محکوم گردیده اند",
+        "start_char": 1728,
+        "end_char": 1744,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "با تقدیم دادخواست نسبت به ان تجدیدنظرخواهی نموده",
+        "start_char": 2971,
+        "end_char": 3019,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را به دادگاه بدوی ارسال داشته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام خواهی",
+      "evidence": {
+        "quote": "با تقدیم دادخواست نسبت به ان فرجام خواهی نموده",
+        "start_char": 5904,
+        "end_char": 5950,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابرام",
+      "evidence": {
+        "quote": "دادنامه فرجام خواسته ابرام می‌گردد",
+        "start_char": 8721,
+        "end_char": 8755,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از جانب خواهان ( زوج ) اعلام وکالت نموده است",
+        "start_char": 330,
+        "end_char": 374,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و نیز خوانده تشکیل گردیده",
+        "start_char": 430,
+        "end_char": 455,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "داوران منتخب زوج و داور منصوب زوج",
+        "start_char": 1746,
+        "end_char": 1779,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "جهیزیه در ید زوجه می باشد",
+        "start_char": 829,
+        "end_char": 854,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "و نیز متهم یاد شده به تحمل",
+        "start_char": 1640,
+        "end_char": 1665,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجام‌خوانده",
+      "evidence": {
+        "quote": "زوج ( فرجام خوانده )",
+        "start_char": 6430,
+        "end_char": 6450,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "گواهی عدم",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 78,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه من 3 هکتار زمین بوده است",
+        "start_char": 551,
+        "end_char": 581,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "مقدار 14 قطعه سکه بهار آزادی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "و جهیزیه در ید زوجه می باشد",
+        "start_char": 827,
+        "end_char": 854,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "3 هکتار زمین بوده است",
+        "start_char": 560,
+        "end_char": 581,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قولنامه",
+      "evidence": {
+        "quote": "که البته قولنامه ای از پدرشوهرم گرفته ام",
+        "start_char": 582,
+        "end_char": 622,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "چون مورد ادعا در سند نکاحیه بعنوان بخشی از مهریه ثبت و درج نگردیده",
+        "start_char": 7396,
+        "end_char": 7462,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلافات و ناراحتی‌های پیش آمده و سوی رفتار خوانده وجود داشته است",
+      "evidence": {
+        "quote": "به علت اختلافات و ناراحتی های پیش امده و سوی رفتار خوانده",
+        "start_char": 124,
+        "end_char": 181,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شروع زندگی مشترک در سال 1393 بوده است",
+      "evidence": {
+        "quote": "شروع زندگی مشترک در سال 1393 بوده",
+        "start_char": 873,
+        "end_char": 906,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "از سال 94/05/25 زوجه فرزند دوقلو به دنیا آورده است",
+      "evidence": {
+        "quote": "از مورخه 94/05/25 که زوجه فرزند ان دوقلو خود را به دنیا اورده",
+        "start_char": 909,
+        "end_char": 970,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به اتهام رابطه نامشروع محکوم به شلاق و اقامت اجباری شده است",
+      "evidence": {
+        "quote": "هریک از متهمان مرد یادشده به تحول 99 ضربه شلاق تعزیری و 2 سال اقامت اجباری در محل تعیین شده",
+        "start_char": 1548,
+        "end_char": 1639,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "داوران نظریه عدم حصول سازش داده‌اند",
+      "evidence": {
+        "quote": "داوران منتخب زوج و داور منصوب زوج هر یک نظریه کتبی خود را که حاکی از عدم حصول سازش بین طرفین بوده تقدیم داشته اند",
+        "start_char": 1746,
+        "end_char": 1859,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "4916",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "هرکس مالی به دیگری بدهد ظاهر در عدم تبرع است",
+        "start_char": 481,
+        "end_char": 525,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "محتویات پرونده به هیچ وجه حکایت از برائت ذمه خوانده ندارد",
+        "start_char": 719,
+        "end_char": 776,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 221,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظر خواهی",
+        "start_char": 1713,
+        "end_char": 1733,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "واریز وجه مورد دعوی به حساب خوانده ثابت و مفروغ‌الشأن می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مبنی بر مطالبه طلب خود",
+        "start_char": 2586,
+        "end_char": 2608,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "دلالت بر استرداد آن",
+        "start_char": 588,
+        "end_char": 607,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده",
+        "start_char": 137,
+        "end_char": 151,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان را به نظر ثابت تشخیص داده",
+        "start_char": 777,
+        "end_char": 814,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظر خواه آقای س.الف.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظر خوانده محکوم شده است",
+        "start_char": 2228,
+        "end_char": 2263,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "پرداخت 290 میلیون ریال",
+        "start_char": 155,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فیش",
+      "evidence": {
+        "quote": "بابت فیش واریزی به شماره 523223/4",
+        "start_char": 2059,
+        "end_char": 2092,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واریز وجه به حساب خوانده ثابت شده است",
+      "evidence": {
+        "quote": "واریز وجه مورد دعوی به حساب خوانده ثابت و مفروغ‌الشأن می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده دلیلی بر استرداد وجه ارائه نکرد",
+      "evidence": {
+        "quote": "از جانب وکلای خوانده دلیل کافی و مقتضی که دلالت بر استرداد آن و یا نفی استحقاق خواهان و یا اثبات احراز جهت قانونی در تملک آن و یا ایفای دین و یا اسقاط آن نماید ارائه نشده",
+        "start_char": 546,
+        "end_char": 716,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

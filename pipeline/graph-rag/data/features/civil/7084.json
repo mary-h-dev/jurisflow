@@ -1,0 +1,173 @@
+{
+  "ruling_id": "7084",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "خوانده ردیف دوم به عنوان حق العمل کار معرفی شده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "به خواسته تحویل 10(ده) دستگاه ساید بوم",
+        "start_char": 125,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "و انتقال اسناد آن ها",
+        "start_char": 164,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "قرار ابطال دادخواست خواهان را صادر و اعلام می دارد",
+        "start_char": 421,
+        "end_char": 471,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "قرار ردّ دعوی خواهان را صادر و اعلام می دارد",
+        "start_char": 1505,
+        "end_char": 1549,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی ب.ی. و م. الف. به وکالت از ب.",
+        "start_char": 1688,
+        "end_char": 1731,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را عیناً تأیید می نماید",
+        "start_char": 2724,
+        "end_char": 2771,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست شرکت س. با وکالت آقایان الف.ک. و س.ف. به طرفیت 1- ب.",
+        "start_char": 8,
+        "end_char": 69,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف دوم",
+        "start_char": 589,
+        "end_char": 604,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم بر الزام تجدیدنظرخواه به تحویل ده دستگاه سایدبوم",
+        "start_char": 1822,
+        "end_char": 1874,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "انتقال اسناد آن ها",
+        "start_char": 166,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "و قرارداد فی مابین خواهان و خوانده ردیف دوم",
+        "start_char": 561,
+        "end_char": 604,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک‌ها",
+      "evidence": {
+        "quote": "و کپی مصدق چک ها",
+        "start_char": 725,
+        "end_char": 741,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سفته",
+      "evidence": {
+        "quote": "و سفته های تحویل بابت ثمن معامله",
+        "start_char": 742,
+        "end_char": 774,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ردیف دوم به عنوان حق‌العمل‌کار فعالیت داشته است",
+      "evidence": {
+        "quote": "خوانده ردیف دوم به عمل حق العمل کار بوده است",
+        "start_char": 857,
+        "end_char": 901,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله شرکت اخیرالذکر به حساب شرکت تجدیدنظرخوانده بوده است",
+      "evidence": {
+        "quote": "معامله شرکت اخیرالذکر بنام خودش و به حساب شرکت تجدیدنظر خوانده بوده",
+        "start_char": 2007,
+        "end_char": 2074,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "ruling_id": "28992",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "برابر اصل صحت ولزوم قراردادها",
+        "start_char": 1102,
+        "end_char": 1131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "وقوع عقد بیع",
+        "start_char": 986,
+        "end_char": 998,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان عقد مذکور",
+        "start_char": 1032,
+        "end_char": 1047,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ واقاله آن",
+        "start_char": 1051,
+        "end_char": 1064,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال سندرهنی",
+        "start_char": 68,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "تنظیم سند رسمی",
+        "start_char": 290,
+        "end_char": 304,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خریداری",
+      "evidence": {
+        "quote": "خریداری نموده است",
+        "start_char": 535,
+        "end_char": 552,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "ثمن معامله راپرداخت",
+        "start_char": 557,
+        "end_char": 576,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مستوجب نقض آن می باشد",
+        "start_char": 3231,
+        "end_char": 3252,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان ی. چ.",
+        "start_char": 7,
+        "end_char": 24,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "بطرفیت خواندگان",
+        "start_char": 44,
+        "end_char": 59,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مرتهن",
+      "evidence": {
+        "quote": "اقدام بانک مرتهن",
+        "start_char": 3449,
+        "end_char": 3465,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "ابطال سندرهنی",
+        "start_char": 68,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "برابر مبایعه نامه عادی",
+        "start_char": 404,
+        "end_char": 426,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان",
+        "start_char": 313,
+        "end_char": 331,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد رسمی",
+      "evidence": {
+        "quote": "قابلیت تعارض و مقابله با اسناد رسمی نداشته",
+        "start_char": 3713,
+        "end_char": 3755,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "مستند مدرکیه تجدیدنظرخوانده یکفقره سندعادی بوده",
+        "start_char": 3662,
+        "end_char": 3709,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده پس از فروش اقدام به اخذ وام بانکی و رهن ملک کرده است",
+      "evidence": {
+        "quote": "پس از فروش اقدام به اخذ وام بانکی و به رهن گذاشتن کل ملک از جمله آپارتمان احداثی درپلاک مرقوم نموده اند",
+        "start_char": 679,
+        "end_char": 781,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در زمان تنظیم سند رهنی مالکیت آپارتمان را نداشته است",
+      "evidence": {
+        "quote": "درزمان تنظیم سند رهنی مالکیتی برآپارتمان موضوع دعوی نداشته اند",
+        "start_char": 1235,
+        "end_char": 1297,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان در زمان تنظیم سند رهنی مالکیت آپارتمان را داشته است",
+      "evidence": {
+        "quote": "بااحراز وقوع عقد بیع",
+        "start_char": 1360,
+        "end_char": 1380,
+        "confidence": 0.8
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "4644",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دیه",
+      "evidence": {
+        "quote": "مطالبه دو فقره دیه کامل",
+        "start_char": 151,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "و خسارات دادرسی",
+        "start_char": 202,
+        "end_char": 217,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": " تسبیبقاعده",
+      "evidence": {
+        "quote": "حادثه منجر به فوت ناشی از بی احتیاطی در امر رانندگی بوده",
+        "start_char": 232,
+        "end_char": 288,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه دو فقره دیه کامل",
+        "start_char": 141,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد آن صادر",
+        "start_char": 402,
+        "end_char": 417,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ها و آقایان",
+        "start_char": 905,
+        "end_char": 935,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را تأیید می نماید",
+        "start_char": 2704,
+        "end_char": 2744,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دعوی متوجه خوانده ردیف اول نیست",
+        "start_char": 293,
+        "end_char": 324,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظرخوانده ردیف اول",
+        "start_char": 1349,
+        "end_char": 1380,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به تجدیدنظرخوانده ردیف دوم",
+        "start_char": 1458,
+        "end_char": 1489,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "مطالبه دو فقره دیه کامل",
+        "start_char": 151,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "و خسارات دادرسی",
+        "start_char": 202,
+        "end_char": 217,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "حادثه منجر به فوت شده است",
+      "evidence": {
+        "quote": "حادثه منجر به فوت ناشی از بی احتیاطی در امر رانندگی بوده",
+        "start_char": 232,
+        "end_char": 288,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سابقه محکومیت کیفری صندوق وجود دارد",
+      "evidence": {
+        "quote": "قبلا در این خصوص رأی کیفری با محکومیت صندوق خوانده ردیف دوم صادر",
+        "start_char": 477,
+        "end_char": 541,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حادثه در سال ۱۳۸۷ رخ داده است",
+      "evidence": {
+        "quote": "تاریخ وقوع حادثه موضوع دعوی 20/4/87 بوده",
+        "start_char": 1858,
+        "end_char": 1898,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

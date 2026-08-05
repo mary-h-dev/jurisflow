@@ -1,0 +1,173 @@
+{
+  "ruling_id": "4323",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "ظاهر در عدم تبرع است",
+        "start_char": 1172,
+        "end_char": 1192,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استحقاق",
+      "evidence": {
+        "quote": "عدم استرداد آن منوط به احراز استحقاق دریافت کننده وجه می باشد",
+        "start_char": 1247,
+        "end_char": 1308,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته ی استرداد وجه",
+        "start_char": 64,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده",
+        "start_char": 433,
+        "end_char": 454,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت مبلغ",
+        "start_char": 440,
+        "end_char": 469,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی می باشد",
+        "start_char": 635,
+        "end_char": 661,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض به شرح لایحه اعتراضیه وارد نبوده",
+        "start_char": 1025,
+        "end_char": 1064,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "طبق فیش های پرداختی صادر و اعلام می دارد این رأی ظرف بیست روز در دادگاه تجدیدنظر استان تهران قابل تجدیدنظرخواهی می باشد. دادرس شعبه 41 دادگاه عمومی حقوقی تهران ـ منصوری",
+        "start_char": 542,
+        "end_char": 710,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مدافعات وکیل خوانده مؤثر در مقام نیست",
+        "start_char": 215,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بر محکومیت تجدیدنظرخواه شرکت",
+        "start_char": 822,
+        "end_char": 850,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "اشتغال ذمه تجدیدنظرخواندگان نسبت به مبلغ واریزی",
+        "start_char": 1407,
+        "end_char": 1454,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "به خواسته ی استرداد وجه",
+        "start_char": 64,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "به مبلغ 364586901 ریال",
+        "start_char": 88,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فیش",
+      "evidence": {
+        "quote": "طبق فیش های پرداختی صادر",
+        "start_char": 542,
+        "end_char": 566,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واریز وجه به حساب شرکت",
+      "evidence": {
+        "quote": "مبلغ واریزی به حساب شرکت باشد",
+        "start_char": 1443,
+        "end_char": 1472,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل و مدرک موجه برای استحقاق دریافت وجه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل و مدرک موجهی که حاکی از استحقاق خود در جهت دریافت مبلغ معنونه و اشتغال ذمه تجدیدنظرخواندگان نسبت به مبلغ واریزی به حساب شرکت باشد به دادگاه ارایه ننموده است",
+        "start_char": 1325,
+        "end_char": 1499,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

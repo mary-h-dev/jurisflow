@@ -1,0 +1,303 @@
+{
+  "ruling_id": "610",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تأیید فسخ فروش نامه مورخ 25/3/89",
+        "start_char": 117,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "و ابطال سند قطعی شماره... مورخ 3/4/89",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اسقاط",
+      "evidence": {
+        "quote": "با اسقاط کافه خیارات",
+        "start_char": 1431,
+        "end_char": 1451,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد وکالت",
+      "evidence": {
+        "quote": "اعلام انحلال عقد وکالت",
+        "start_char": 2442,
+        "end_char": 2464,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "موجبات انفساخ عقد بیع را فراهم کرده",
+        "start_char": 4969,
+        "end_char": 5004,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان ها صادر",
+        "start_char": 2789,
+        "end_char": 2821,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تاییدفسخ",
+      "evidence": {
+        "quote": "به خواسته تأیید فسخ فروش نامه مورخ 25/3/89",
+        "start_char": 107,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "و ابطال سند قطعی شماره... مورخ 3/4/89",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "اقدام به تنظیم سند قطعی انتقال",
+        "start_char": 1093,
+        "end_char": 1123,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "خود بفروشد",
+        "start_char": 4742,
+        "end_char": 4752,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "اقدام به تنظیم سند رسمی شماره... مورخ 3/4/89",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان ها ک.م.، ر.ش.",
+        "start_char": 0,
+        "end_char": 33,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خواندگان ب.م.، م.ق. خوانده ردیف دوم",
+        "start_char": 48,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "که به عنوان فرد ثالث، با ملاحظه اسناد صحیح، اقدام به خرید ملک نموده است",
+        "start_char": 2516,
+        "end_char": 2587,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "در صورت عدم پرداخت وجه چک از سوی خریدار",
+        "start_char": 681,
+        "end_char": 720,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "و فروشنده مجاز است ملک را به فرد دیگری بفروشد",
+        "start_char": 760,
+        "end_char": 805,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موکل",
+      "evidence": {
+        "quote": "موضوع وکالت مقدم ولو اینکه بلاعزل باشد منتفی می شود",
+        "start_char": 4464,
+        "end_char": 4515,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "با وکالت ح.ش.",
+        "start_char": 34,
+        "end_char": 47,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نامه",
+      "evidence": {
+        "quote": "فسخ فروش نامه مورخ 25/3/89",
+        "start_char": 123,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "ابطال سند قطعی شماره... مورخ 3/4/89",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "نیز مبایعه نامه مورخ 25/3/89 تنظیم گردیده است",
+        "start_char": 577,
+        "end_char": 622,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "در صورت عدم پرداخت وجه چک",
+        "start_char": 681,
+        "end_char": 706,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه رسمی",
+      "evidence": {
+        "quote": "وکالت نامه رسمی شماره... مورخ 8/2/89",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "با سپردن ملک خواهان ها به عنوان ضمانت نامه شرکتی",
+        "start_char": 396,
+        "end_char": 444,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "انتقال قطعی پلاک ثبتی... به ایشان نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت وجه چک",
+      "evidence": {
+        "quote": "در صورت عدم پرداخت وجه چک از سوی خریدار",
+        "start_char": 681,
+        "end_char": 720,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "صدور گواهی عدم پرداخت در خصوص چک",
+      "evidence": {
+        "quote": "با عنایت به صدور گواهی عدم پرداخت در خصوص چک مندرج در مبایعه نامه",
+        "start_char": 934,
+        "end_char": 999,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تنظیم سند رسمی توسط وکیل با اختیار تام",
+      "evidence": {
+        "quote": "با داشتن اختیار تام در فروش و واگذاری پلاک ثبتی مذکور با هر شرط و با اسقاط کافه خیارات، اقدام به تنظیم سند قطعی انتقال شماره... مورخ 3/4/89 دفترخانه... به موکل وی نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اجاره ملک توسط خواهان‌ها از موکل",
+      "evidence": {
+        "quote": "خواهان ها با علم به مالکیت موکل در تاریخ 30/4/89 اقدام به اجاره ملک مذکور از موکل نمود",
+        "start_char": 1617,
+        "end_char": 1703,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

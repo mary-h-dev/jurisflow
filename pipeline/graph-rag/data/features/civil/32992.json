@@ -1,0 +1,173 @@
+{
+  "ruling_id": "32992",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "خسارات دادرسی",
+        "start_char": 144,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "تاخیرتادیه",
+        "start_char": 159,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مدیونیت",
+      "evidence": {
+        "quote": "مدیونیت",
+        "start_char": 1879,
+        "end_char": 1886,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مبلغ200/000/000ریال",
+        "start_char": 108,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "درخواست رد دعوی خواهان",
+        "start_char": 596,
+        "end_char": 618,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی س.م.الف. ح.ش.الف.ح.",
+        "start_char": 1401,
+        "end_char": 1434,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض می گردد",
+        "start_char": 2675,
+        "end_char": 2686,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بابت طلب خواهان",
+        "start_char": 295,
+        "end_char": 310,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده برابراقرارنامه استنادی",
+        "start_char": 226,
+        "end_char": 255,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به پرداخت مبلغ دویست میلیون ریال",
+        "start_char": 1578,
+        "end_char": 1623,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "درحق تجدیدنظرخوانده",
+        "start_char": 1754,
+        "end_char": 1773,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اقرارنامه",
+      "evidence": {
+        "quote": "اقرارنامه استنادی",
+        "start_char": 238,
+        "end_char": 255,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "سید عادی(اقرارنامه)",
+        "start_char": 180,
+        "end_char": 199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ200/000/000ریال",
+        "start_char": 115,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده به بدهی خود اقرار کرده است",
+      "evidence": {
+        "quote": "خوانده به داشتن بدهی خود به خواهان اقرار نموده است",
+        "start_char": 680,
+        "end_char": 728,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "توافق بر پرداخت خسارت روزانه ۵ درصد وجود دارد",
+      "evidence": {
+        "quote": "بمیزان روزانه پنج درصد اصل دین",
+        "start_char": 2398,
+        "end_char": 2428,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

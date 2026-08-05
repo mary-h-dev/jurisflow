@@ -1,0 +1,143 @@
+{
+  "ruling_id": "30321",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "به خواسته خلع ید و قلع و قمع بنا",
+        "start_char": 114,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "و مطالبه اجرت المثل",
+        "start_char": 147,
+        "end_char": 166,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "احراز مالکیت",
+        "start_char": 2053,
+        "end_char": 2065,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تصرفات غاصبانه",
+      "evidence": {
+        "quote": "احراز تصرفات غاصبانه",
+        "start_char": 2080,
+        "end_char": 2100,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "این خواسته را از مورخه 1380/1/1 مطالبه نموده",
+        "start_char": 311,
+        "end_char": 355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "مقدار 4420 مترمربع از ملک موصوف را تصرف نموده است",
+        "start_char": 650,
+        "end_char": 699,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مستلزم نقض است",
+        "start_char": 1995,
+        "end_char": 2009,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نماینده خواهان در جلسه رسیدگی",
+        "start_char": 249,
+        "end_char": 278,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و خوانده بدون هیچگونه رابطه حقوقی",
+        "start_char": 595,
+        "end_char": 628,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی شماره 7 اصلی ورامین",
+        "start_char": 543,
+        "end_char": 572,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "از ملک موصوف",
+        "start_char": 669,
+        "end_char": 681,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شهرداری بدون اذن و رضایت ملک را تصرف کرده است",
+      "evidence": {
+        "quote": "خوانده بدون هیچگونه رابطه حقوقی و اذن و رضایت خواهان مقدار 4420 مترمربع از ملک موصوف را تصرف نموده است",
+        "start_char": 597,
+        "end_char": 699,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک در طرح مصوب شهرداری قرار گرفته است",
+      "evidence": {
+        "quote": "با قرار گرفتن ملک در طرح مصوب شهرداری",
+        "start_char": 2213,
+        "end_char": 2250,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

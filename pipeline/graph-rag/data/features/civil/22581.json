@@ -1,0 +1,223 @@
+{
+  "ruling_id": "22581",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "دادخواستی به خواسته طلاق",
+        "start_char": 53,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت",
+      "evidence": {
+        "quote": "دلالت دارد عقد زوجیت",
+        "start_char": 245,
+        "end_char": 265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "بابت نفقۀ معوقه",
+        "start_char": 733,
+        "end_char": 748,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "حکم تمکین",
+        "start_char": 1394,
+        "end_char": 1403,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "ادعای عسر و حرج او",
+        "start_char": 2101,
+        "end_char": 2119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "بذل یک عدد سکه بهارآزادی",
+        "start_char": 4905,
+        "end_char": 4929,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلع",
+      "evidence": {
+        "quote": "اجرای صیغه طلاق از نوع خلع",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دادخواستی به خواسته طلاق",
+        "start_char": 53,
+        "end_char": 77,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مستحق دانسته و حکم بر محکومیت زوج پرداخت آن",
+        "start_char": 1100,
+        "end_char": 1143,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "وکیل زوج آقای ی. ش. تجدیدنظرخواهی نموده است",
+        "start_char": 5274,
+        "end_char": 5317,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام خواهی",
+      "evidence": {
+        "quote": "آقای م.ر. ل.فرجام خواهی نمود",
+        "start_char": 7237,
+        "end_char": 7265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأي فرجام خواسته نقض و پرونده جهت رسیدگی مجدد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان در متن دادخواست",
+        "start_char": 141,
+        "end_char": 163,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "چون زوجین تا تاریخ 1392/6/13 زیر یک سقف بوده اند",
+        "start_char": 839,
+        "end_char": 887,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "بابت نفقۀ معوقه تا زمان تقدیم دادخواست و بعد از آن دادخواستی به آن دادگاه داده است",
+        "start_char": 733,
+        "end_char": 815,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "زوجه داور خود را معرفی کرده است",
+        "start_char": 3674,
+        "end_char": 3705,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "با استناد به سند نکاحیه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "چهارصد ( 400 ) سکه بهار آزادی",
+        "start_char": 348,
+        "end_char": 377,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین فاقد فرزند مشترک هستند",
+      "evidence": {
+        "quote": "زوجین فاقد فرزندمشترک می باشند",
+        "start_char": 6751,
+        "end_char": 6781,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در پرونده کیفری به اتهام توهین و مزاحمت محکوم شده است",
+      "evidence": {
+        "quote": "زوج به اتهام توهین به پرداخت جزای نقدی و از جهت مزاحمت تلفنی نیز پرداخت جزای نقدی",
+        "start_char": 2898,
+        "end_char": 2979,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تصویر سند نکاحیه در پرونده موجود نیست",
+      "evidence": {
+        "quote": "در اوراق موجود پرونده تصویر سند نکاحیه که متضمن شروط امضاء شده ضمن العقد باشد ملاحظه نمیشود",
+        "start_char": 7860,
+        "end_char": 7951,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

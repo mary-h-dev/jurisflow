@@ -1,0 +1,243 @@
+{
+  "ruling_id": "36325",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "با تقدیم دادخواست به خواسته فسخ نکاح",
+        "start_char": 88,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "به جهت تدلیس",
+        "start_char": 125,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان صادر نموده است",
+        "start_char": 1424,
+        "end_char": 1463,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "طرح دعوی نموده",
+        "start_char": 153,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "وکیل زوج نسبت به به دادنامه اعتراض نموده است",
+        "start_char": 1465,
+        "end_char": 1509,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه بدوی را نقض",
+        "start_char": 3216,
+        "end_char": 3235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "حکم به تایید فسخ ازدواج دائم",
+        "start_char": 3237,
+        "end_char": 3265,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابرام",
+      "evidence": {
+        "quote": "دادنامه فرجامخواسته را تایید و ابرام می نماید",
+        "start_char": 4461,
+        "end_char": 4506,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت ر. ی. طرح دعوی نموده",
+        "start_char": 138,
+        "end_char": 167,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان به مفاد دادخواست اشاره نموده",
+        "start_char": 550,
+        "end_char": 590,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "وکیل زوج نسبت به به دادنامه اعتراض نموده است",
+        "start_char": 1465,
+        "end_char": 1509,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "از زوجه سیوال کرده",
+        "start_char": 1930,
+        "end_char": 1948,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "از ناحیه فرمانخواه ارائه نگردیده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "از ناحیه فرجامخواه ارائه نگردیده است",
+        "start_char": 4352,
+        "end_char": 4388,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجام‌خوانده",
+      "evidence": {
+        "quote": "پاسخ وکیل فرجامخوانده",
+        "start_char": 3399,
+        "end_char": 3420,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "با تقدیم دادخواست",
+        "start_char": 88,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "به موجب دادنامه شماره *99/6/5",
+        "start_char": 1394,
+        "end_char": 1423,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "صیغه‌نامه",
+      "evidence": {
+        "quote": "صیغه نامه مورخه 93/7/1 ارائه شده",
+        "start_char": 1631,
+        "end_char": 1663,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "متن لایحه تقدیمی ایشان",
+        "start_char": 3374,
+        "end_char": 3396,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ازدواج در تاریخ 98/9/28",
+      "evidence": {
+        "quote": "در 98/9/28 با خوانده ازدواج نموده",
+        "start_char": 181,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه دارای سابقه ازدواج قبلی بوده است",
+      "evidence": {
+        "quote": "زوجه دو ازدواج قبلی داشته",
+        "start_char": 604,
+        "end_char": 629,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم برقراری رابطه جنسی به دلیل اختلال جسمی",
+      "evidence": {
+        "quote": "عدم رابطه به علت عدم تمایل وی و یا در صورت تمایل انقباض ماهیچه های وی بوده",
+        "start_char": 2932,
+        "end_char": 3006,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "باکره بودن زوجه",
+      "evidence": {
+        "quote": "هنوز باکره است",
+        "start_char": 635,
+        "end_char": 649,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

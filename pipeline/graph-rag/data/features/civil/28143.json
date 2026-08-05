@@ -1,0 +1,253 @@
+{
+  "ruling_id": "28143",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد دائم",
+      "evidence": {
+        "quote": "عقد دائم نکاح بین طرفین",
+        "start_char": 244,
+        "end_char": 267,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "طرح دعوی فسخ نکاح",
+        "start_char": 2365,
+        "end_char": 2382,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "بدلیل تدلیس در امر ازدواج",
+        "start_char": 2383,
+        "end_char": 2408,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان حکم مهریه",
+        "start_char": 2873,
+        "end_char": 2888,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "خواسته مطالبه قسمتی ازمهریه",
+        "start_char": 70,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خوانده را بپرداخت",
+        "start_char": 789,
+        "end_char": 806,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواه اعتراض موجه و مدلل و موثری که موجبات نقض دادنامه تجدیدنظرخواسته را ایجاب نماید بعمل نیاورده است",
+        "start_char": 1414,
+        "end_char": 1522,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عینا تایید و ابرام می نماید",
+        "start_char": 1691,
+        "end_char": 1744,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه شماره 9309970220200161",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی آقای الف. ب.",
+        "start_char": 1897,
+        "end_char": 1930,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی مطالبه مهریه از ناحیه خواهان بدوی خانم م. م. صادر و اعلام می گردد",
+        "start_char": 6956,
+        "end_char": 7036,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خانم م. م. با وکالت آقای الف. ب. بطرفیت آقای الف. ب.",
+        "start_char": 0,
+        "end_char": 69,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده در جلسه دادرسی حاضر شده است",
+        "start_char": 532,
+        "end_char": 566,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص دادخواست تجدیدنظرخواهی آقای الف. ب.",
+        "start_char": 1073,
+        "end_char": 1116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تجدیدنظرخواه (زوج)",
+        "start_char": 1263,
+        "end_char": 1281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "بمجرد عقد زن مالک مهر می شود",
+        "start_char": 377,
+        "end_char": 405,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجین",
+      "evidence": {
+        "quote": "چرا که زوجین زندگی مشترک داشته",
+        "start_char": 2969,
+        "end_char": 2999,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مطالبه قسمتی ازمهریه",
+        "start_char": 77,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "به تعداد 300 عدد سکه تمام بهار آزادی",
+        "start_char": 98,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "تصویر مصدق سند رسمی ازدواج",
+        "start_char": 192,
+        "end_char": 218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 9209970217001760",
+        "start_char": 1117,
+        "end_char": 1155,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار بوده است",
+      "evidence": {
+        "quote": "رابطه زوجیت به سبب عقد دائم نکاح بین طرفین",
+        "start_char": 225,
+        "end_char": 267,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حکم فسخ نکاح به دلیل تدلیس صادر شده است",
+      "evidence": {
+        "quote": "حکم به فسخ نکاح صادر و قطعی گردیده است",
+        "start_char": 2494,
+        "end_char": 2532,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین دارای فرزند هستند",
+      "evidence": {
+        "quote": "طی زندگی مشترک صاحب فرزند نیز گردیده است",
+        "start_char": 3002,
+        "end_char": 3042,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "ruling_id": "35175",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "بخواسته لغو حضانت فرزند",
+        "start_char": 56,
+        "end_char": 79,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظر خواهی",
+        "start_char": 725,
+        "end_char": 745,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "لغو",
+      "evidence": {
+        "quote": "بخواسته لغو حضانت",
+        "start_char": 56,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "رد و تحویل فرزند",
+        "start_char": 599,
+        "end_char": 615,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دادخواست",
+      "evidence": {
+        "quote": "ضمن رد دادخواست تجدید نظر خواهی",
+        "start_char": 1433,
+        "end_char": 1464,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بخواسته لغو حضانت فرزند بنام یاسین ن. دو سال و نه ماهه خواهان اظهار می دارد",
+        "start_char": 56,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ازدواج کرده",
+        "start_char": 132,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "بخواسته لغو حضانت فرزند بنام یاسین ن.",
+        "start_char": 56,
+        "end_char": 93,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ازدواج کرده است",
+      "evidence": {
+        "quote": "خوانده ازدواج کرده",
+        "start_char": 132,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حضانت فرزند در طلاق توافقی به خوانده واگذار شده بود",
+      "evidence": {
+        "quote": "در طلاق توافقی حضانت فرزند به وی واگذار شده",
+        "start_char": 344,
+        "end_char": 387,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "23659",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بزهکاری",
+      "evidence": {
+        "quote": "بزهکاری نامبرده مطابق بند (ج ) ماده 7 قانون صدور چک اصلاحی 1382 محرز",
+        "start_char": 551,
+        "end_char": 619,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جمهوری اسلامی ایران",
+      "evidence": {
+        "quote": "با رعایت اصل 37 قانون اساسی جمهوری اسلامی ایران",
+        "start_char": 3297,
+        "end_char": 3344,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "دایر بر صدور سه فقره چک بلامحل",
+        "start_char": 87,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه چک‌های فوق",
+        "start_char": 876,
+        "end_char": 907,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه‌های تجدیدنظر استان تهران است",
+        "start_char": 767,
+        "end_char": 824,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض این قسمت از رأی تجدیدنظر خواسته",
+        "start_char": 3223,
+        "end_char": 3262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تعقیب",
+      "evidence": {
+        "quote": "قرار موقوفی تعقیب متهم تجدیدنظر خواه آقای ح. م. را صادر و اعلام می‌نماید",
+        "start_char": 4990,
+        "end_char": 5062,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را تأیید و استوار می‌نماید",
+        "start_char": 6016,
+        "end_char": 6066,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "دفاعیات متهم و وکلای وی",
+        "start_char": 494,
+        "end_char": 517,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان",
+        "start_char": 826,
+        "end_char": 849,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده فوق‌الذکر",
+        "start_char": 850,
+        "end_char": 875,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دارنده",
+      "evidence": {
+        "quote": "واحد بودن دارنده آن‌ها",
+        "start_char": 2444,
+        "end_char": 2466,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده آقای ف. ت.",
+        "start_char": 2352,
+        "end_char": 2378,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "صدور سه فقره چک بلامحل",
+        "start_char": 95,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی عدم",
+      "evidence": {
+        "quote": "گواهی عدم پرداخت موجود در پرونده",
+        "start_char": 441,
+        "end_char": 473,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک‌ها بدون ظهرنویسی به دیگری تسلیم شده است",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده آقای ف. ت. بدون ظهر نویسی از سوی مشارالیه، آن را به بانک ارائه داده",
+        "start_char": 4572,
+        "end_char": 4655,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک‌ها دارای تاریخ مقدم بر متن هستند",
+      "evidence": {
+        "quote": "چک شماره 034... مورخ 1393/03/07 در تاریخ مقدم بر تاریخ مندرج در متن آن تحریر یافته",
+        "start_char": 2885,
+        "end_char": 2967,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

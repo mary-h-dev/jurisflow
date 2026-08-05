@@ -1,0 +1,173 @@
+{
+  "ruling_id": "5082",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "وجود شرط داوری در ماده 25 قرارداد چارتر پارتی",
+        "start_char": 5315,
+        "end_char": 5360,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی کرده است",
+        "start_char": 3794,
+        "end_char": 3816,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "درخواست ردّ آن را نموده است",
+        "start_char": 969,
+        "end_char": 996,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده دوم",
+        "start_char": 3073,
+        "end_char": 3098,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "موظف به ابطال تمبر مالیاتی",
+        "start_char": 3529,
+        "end_char": 3555,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مطالبات خواهان بابت حمل 450 واگن",
+        "start_char": 390,
+        "end_char": 422,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده ردیف اول",
+        "start_char": 89,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "شرکت تجدیدنظرخواه به پرداخت مبلغ",
+        "start_char": 3877,
+        "end_char": 3909,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "وکلای تجدیدنظر خوانده نیز",
+        "start_char": 5802,
+        "end_char": 5827,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "کارشناس",
+      "evidence": {
+        "quote": "نظر کارشناس",
+        "start_char": 194,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "مفاد قرارداد چارتر پارتی",
+        "start_char": 1094,
+        "end_char": 1118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تفاهم‌نامه",
+      "evidence": {
+        "quote": "توافق نامه مورخ 10/12/2008",
+        "start_char": 2319,
+        "end_char": 2345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کشتی",
+      "evidence": {
+        "quote": "اجاره کشتی",
+        "start_char": 571,
+        "end_char": 581,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انعقاد قرارداد چارتر پارتی بین خواهان و خوانده دوم",
+      "evidence": {
+        "quote": "بین تجدیدنظرخواه به عنوان متصدی حمل کالا و تجدیدنظر خوانده به عنوان تأمین کننده کشتی نیز قرارداد چارتر پارتی منعقد می شود",
+        "start_char": 4327,
+        "end_char": 4448,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم آماده بودن محموله در زمان ورود کشتی",
+      "evidence": {
+        "quote": "در حالی که در زمان ورود کشتی محموله آماده نبوده",
+        "start_char": 4823,
+        "end_char": 4869,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود اختلاف در محاسبه نرخ ارز",
+      "evidence": {
+        "quote": "بخش اعظم مبلغ تعیین شده بابت تسعیر نرخ ارز بود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

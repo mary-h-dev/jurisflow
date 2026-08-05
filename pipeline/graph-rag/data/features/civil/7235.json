@@ -1,0 +1,203 @@
+{
+  "ruling_id": "7235",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تقاضای صدور حکم به فسخ نکاح",
+        "start_char": 225,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "به لحاظ تدلیس خوانده (زوج)",
+        "start_char": 978,
+        "end_char": 1004,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "مقدمات خواستگاری و عقد نکاح انجام می گیرد",
+        "start_char": 569,
+        "end_char": 610,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "تقاضای صدور حکم به فسخ نکاح و پرداخت هزینه های دادرسی و حق الوکاله نموده",
+        "start_char": 225,
+        "end_char": 297,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "از ناحیه خانم الف.ک. با وکالت آقای م.س. مورد اعتراض",
+        "start_char": 3523,
+        "end_char": 3574,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام خواهی",
+      "evidence": {
+        "quote": "فرجام خواهی نموده است",
+        "start_char": 4777,
+        "end_char": 4798,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی خواهان صادر نموده است",
+        "start_char": 3482,
+        "end_char": 3519,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان خانم الف.ک.",
+        "start_char": 0,
+        "end_char": 18,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده همسرش آقای ع.ب.",
+        "start_char": 167,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "خوانده (زوج)",
+        "start_char": 992,
+        "end_char": 1004,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم الف.ک.",
+        "start_char": 3753,
+        "end_char": 3778,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخوانده آقای ع.ب.",
+        "start_char": 3798,
+        "end_char": 3831,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "فرجام خواه مدعی است",
+        "start_char": 5578,
+        "end_char": 5597,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجام‌خوانده",
+      "evidence": {
+        "quote": "زوج فرجام خوانده نیز در لایحه",
+        "start_char": 4801,
+        "end_char": 4830,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "فتوکپی مصدق سند نکاحیه و غیره",
+        "start_char": 137,
+        "end_char": 166,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه‌های دادرسی",
+      "evidence": {
+        "quote": "پرداخت هزینه های دادرسی",
+        "start_char": 255,
+        "end_char": 278,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حق‌الوکاله",
+      "evidence": {
+        "quote": "و حق الوکاله",
+        "start_char": 279,
+        "end_char": 291,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده فاقد مدرک دیپلم است",
+      "evidence": {
+        "quote": "حتی مدرک تحصیلی دیپلم را نداشته و ندارد",
+        "start_char": 850,
+        "end_char": 889,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده خود را دانشجو معرفی کرده است",
+      "evidence": {
+        "quote": "خوانده خود را دانشجوی مهندسی عمران معرفی می نماید",
+        "start_char": 611,
+        "end_char": 660,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

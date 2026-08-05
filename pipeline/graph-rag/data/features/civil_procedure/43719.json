@@ -1,0 +1,113 @@
+{
+  "ruling_id": "43719",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدید نظر خواهی",
+        "start_char": 0,
+        "end_char": 23,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی",
+        "start_char": 239,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "گزار صرفا تجدیدنظرخواهی نسبت به ارا اعلامی",
+        "start_char": 438,
+        "end_char": 480,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "به صدور قرار عدم استماع درخواست وکیل فوق الذکر اظهارنظر می نماید",
+        "start_char": 883,
+        "end_char": 947,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "خواهانهای محترم بدوی ( خاصه تجدید نظرخواه )",
+        "start_char": 630,
+        "end_char": 673,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهانهای",
+      "evidence": {
+        "quote": "خواهانهای محترم بدوی",
+        "start_char": 630,
+        "end_char": 650,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مشاع",
+      "evidence": {
+        "quote": "دستور فروش ملک مشاع",
+        "start_char": 284,
+        "end_char": 303,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1400-1974",
+        "start_char": 147,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "درخواست تجدیدنظر نسبت به دستور فروش مطرح شده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی نسبت به ارا اعلامی با مشخصات منعکس در مواد قانونی اخیرالبیان را تجویز نموده است",
+        "start_char": 448,
+        "end_char": 541,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست دستور فروش قابلیت تجدیدنظرخواهی ندارد",
+      "evidence": {
+        "quote": "درخواست دستور فروش اسناد قابلیت تجدیدنظرخواهی ندارد",
+        "start_char": 776,
+        "end_char": 827,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

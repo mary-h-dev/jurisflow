@@ -1,0 +1,203 @@
+{
+  "ruling_id": "10755",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تضامن",
+      "evidence": {
+        "quote": "بنا بر رویه حاکم بر عرف صادر کننده و ظهرنویس اسناد فوق به صورت تضامنی پرداخت وجه اسناد را متعهد می‌شوند",
+        "start_char": 564,
+        "end_char": 668,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "خوانده ردیف اول مدعی معیوب بودن کالاهای مورد معامله و فسخ آن شده است",
+        "start_char": 677,
+        "end_char": 745,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "پرداخت مبلغ 11/051/000 ریال بابت هزینه دادرسی و خسارت تأخیر تأدیه از زمان تقدیم دادخواست 91/11/23 13 تا زمان اجرای حکم",
+        "start_char": 1079,
+        "end_char": 1197,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمان",
+      "evidence": {
+        "quote": "خوانده ردیف دوم به عنوان ضامن ظهر حواله‌ها را امضا نموده است",
+        "start_char": 349,
+        "end_char": 410,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "درخصوص دعوای آقای ع.ع.م. با وکالت آقای م.پ.. به طرفیت آقایان 1- م.الف. 2- م.ک. به خواسته مطالبه مبلغ پانصد و پنجاه میلیون ریال",
+        "start_char": 0,
+        "end_char": 128,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "از زمان تقدیم دادخواست 1391/11/2 تا زمان اجرای حکم",
+        "start_char": 1698,
+        "end_char": 1748,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "ایرادی",
+      "evidence": {
+        "quote": "خواندگان در جلسه دادرسی خدشه و ایرادی به مستندات خواهان به عمل نیاورده‌اند",
+        "start_char": 413,
+        "end_char": 488,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دعوای آقای ع.ع.م. با وکالت آقای م.پ.. به طرفیت آقایان 1- م.الف. 2- م.ک.",
+        "start_char": 0,
+        "end_char": 79,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقایان 1- م.الف. 2- م.ک.",
+        "start_char": 45,
+        "end_char": 79,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "با وکالت آقای م.پ.",
+        "start_char": 25,
+        "end_char": 43,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "صادرکننده",
+      "evidence": {
+        "quote": "خوانده ردیف اول به عنوان صادر کننده و خوانده ردیف دوم به عنوان ضامن ظهر حواله‌ها را امضا نموده است",
+        "start_char": 310,
+        "end_char": 410,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "ضامن",
+      "evidence": {
+        "quote": "خوانده ردیف دوم به عنوان ضامن ظهر حواله‌ها را امضا نموده است",
+        "start_char": 349,
+        "end_char": 410,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "حواله",
+      "evidence": {
+        "quote": "5 فقره حواله و گواهی‌نامه‌های صادره از مرجع محال علیه",
+        "start_char": 247,
+        "end_char": 301,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی‌نامه",
+      "evidence": {
+        "quote": "5 فقره حواله و گواهی‌نامه‌های صادره از مرجع محال علیه",
+        "start_char": 247,
+        "end_char": 301,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "از زمان تقدیم دادخواست 1391/11/2 تا زمان اجرای حکم",
+        "start_char": 1698,
+        "end_char": 1748,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "بنا بر رویه حاکم بر عرف صادر کننده و ظهرنویس اسناد فوق به صورت تضامنی پرداخت وجه اسناد را متعهد می‌شوند",
+        "start_char": 564,
+        "end_char": 668,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت انجام نشده",
+      "evidence": {
+        "quote": "پرداخت مبلغ 11/051/000 ریال بابت هزینه دادرسی و خسارت تأخیر تأدیه از زمان تقدیم دادخواست 91/11/23 13 تا زمان اجرای حکم",
+        "start_char": 1079,
+        "end_char": 1197,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد امضا شده",
+      "evidence": {
+        "quote": "خوانده ردیف دوم به عنوان ضامن ظهر حواله‌ها را امضا نموده است",
+        "start_char": 349,
+        "end_char": 410,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تخلف از پرداخت",
+      "evidence": {
+        "quote": "بنا بر رویه حاکم بر عرف صادر کننده و ظهرنویس اسناد فوق به صورت تضامنی پرداخت وجه اسناد را متعهد می‌شوند",
+        "start_char": 564,
+        "end_char": 668,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "ruling_id": "28171",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "بخواسته ی خلع ید خواندگان",
+        "start_char": 89,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل اموال",
+        "start_char": 185,
+        "end_char": 208,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "مطالبه خسارات دادرسی",
+        "start_char": 254,
+        "end_char": 274,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "نظر به اینکه مالکیت خواهان",
+        "start_char": 275,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "ادامه تصرفات متصرف در حکم غصب است",
+        "start_char": 3991,
+        "end_char": 4023,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 185,
+        "end_char": 202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "با عنایت به اقرار وی مبرهن است",
+        "start_char": 480,
+        "end_char": 510,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "دلیلی هم بر اذن تصرفات در ملک مذکور به میزان سهم خواهان ارائه ننموده است",
+        "start_char": 599,
+        "end_char": 671,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی م. پ.",
+        "start_char": 2658,
+        "end_char": 2684,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نظر به اینکه مالکیت خواهان",
+        "start_char": 275,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "بطرفیت خواندگان",
+        "start_char": 38,
+        "end_char": 53,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "تصرفات خوانده ردیف اول",
+        "start_char": 438,
+        "end_char": 460,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "درمانحن فیه تجدیدنظرخوانده",
+        "start_char": 3476,
+        "end_char": 3502,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی...-1 قطعه 6 تفکیکی بخش 12 تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "به دلالت تصویر سند مالکیت",
+        "start_char": 326,
+        "end_char": 351,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اصل 40",
+      "evidence": {
+        "quote": "تصرفات در ملک مذکور",
+        "start_char": 615,
+        "end_char": 634,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت خواهان به میزان سه دانگ از پلاک مذکور محرز است",
+      "evidence": {
+        "quote": "مالکیت خواهان نسبت به پلاک ثبتی مذکور به دلالت تصویر سند مالکیت مستند دعوی و پاسخ استعلام ثبتی و اظهارات طرفین به میزان سه دانگ محرز و مسلم می باشد",
+        "start_char": 288,
+        "end_char": 435,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ردیف اول در ملک تصرف داشته است",
+      "evidence": {
+        "quote": "تصرفات خوانده ردیف اول هم در رقبه ی مذکور با عنایت به اقرار وی مبرهن است",
+        "start_char": 438,
+        "end_char": 510,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ردیف دوم در زمان مورد بحث تصرفی در ملک نداشته است",
+      "evidence": {
+        "quote": "نظر به اینکه نامبرده در این زمان تصرفی در پلاک نداشته",
+        "start_char": 2095,
+        "end_char": 2148,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند مالکیت خواهان در تاریخ 8-7-93 تنظیم شده است",
+      "evidence": {
+        "quote": "تاریخ تنظیم سند مذکور بنام خواهان 8-7-93 می باشد",
+        "start_char": 1261,
+        "end_char": 1309,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

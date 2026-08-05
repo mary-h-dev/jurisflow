@@ -1,0 +1,103 @@
+{
+  "ruling_id": "4881",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته فسخ نکاح",
+        "start_char": 87,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبانی",
+      "evidence": {
+        "quote": "تبانی بین طرفین",
+        "start_char": 412,
+        "end_char": 427,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "دعوای خواهان را رد می نماید",
+        "start_char": 565,
+        "end_char": 592,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی دادنامه مذکور تأیید می شود",
+        "start_char": 1253,
+        "end_char": 1293,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان دلیل کافی بر اثبات ادعای خود",
+        "start_char": 186,
+        "end_char": 221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 00487 مورخه 15/4/92 صادره از شعبه 263 دادگاه عمومی تهران که به موجب آن درخواست فسخ نکاح از سوی تجدیدنظرخواه مردود اعلام شده است",
+        "start_char": 853,
+        "end_char": 1002,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 00487 مورخه 15/4/92",
+        "start_char": 853,
+        "end_char": 894,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم اثبات ادعای فسخ نکاح",
+      "evidence": {
+        "quote": "خواهان دلیل کافی بر اثبات ادعای خود به دادگاه ارائه ننموده است",
+        "start_char": 186,
+        "end_char": 248,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رد درخواست فسخ نکاح در مرحله تجدیدنظر",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی دادنامه مذکور تأیید می شود",
+        "start_char": 1246,
+        "end_char": 1293,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "ruling_id": "4757",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اصل",
+      "evidence": {
+        "quote": "و اصل بر عدم است",
+        "start_char": 897,
+        "end_char": 913,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قبول",
+      "evidence": {
+        "quote": "به منزله قبول مشتری است",
+        "start_char": 1039,
+        "end_char": 1062,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ایجاب",
+      "evidence": {
+        "quote": "متعاقب ایجاب شرکت خوانده",
+        "start_char": 1066,
+        "end_char": 1090,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "الحاقی",
+      "evidence": {
+        "quote": "این نوع قراردادها همانند قرارداد الحاقی بوده",
+        "start_char": 1173,
+        "end_char": 1217,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "الزام به تحویل یک دستگاه خودرو 206 سفید رنگ تیپ 2",
+        "start_char": 54,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خواهان مبلغ 000/00/90 ریال ودیعه اول را پرداخت کرده است",
+        "start_char": 510,
+        "end_char": 565,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "خواهان از امضاء امتناع کرده است",
+        "start_char": 702,
+        "end_char": 733,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "خوانده را به تحویل یک دستگاه خودرو 206 تیپ 2 به رنگ سفید و پرداخت مبلغ 000/033/1 ریال بابت خسارات دادرسی در حق خواهان محکوم می نماید",
+        "start_char": 1542,
+        "end_char": 1674,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "عیناً تأیید می گردد",
+        "start_char": 2736,
+        "end_char": 2755,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دعوای خواهان م.پ.",
+        "start_char": 0,
+        "end_char": 24,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده ش.",
+        "start_char": 25,
+        "end_char": 43,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 102 مورخ 25/2/1392 صادره از شعبه محترم 215 دادگاه عمومی حقوقی تهران که به موجب آن حکم به محکومیت تجدیدنظرخواه",
+        "start_char": 1884,
+        "end_char": 2015,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "و پرداخت خسارت دادرسی در حق تجدیدنظرخوانده صادر شد",
+        "start_char": 2103,
+        "end_char": 2153,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "تحویل یک دستگاه خودرو 206 سفید رنگ تیپ 2",
+        "start_char": 63,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "به انضمام خسارات دادرسی",
+        "start_char": 105,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تصویر مصدق",
+      "evidence": {
+        "quote": "به دلالت تصویر مصدق درخواست خرید",
+        "start_char": 153,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "به موجب آن، خوانده متعهد به تحویل محصول با کد 995 به تاریخ 31/4/1391 با برنامه فروش 2943 (پیش فروش دومرحله ای) بوده است",
+        "start_char": 219,
+        "end_char": 338,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "ودیعه",
+      "evidence": {
+        "quote": "خواهان مبلغ 000/00/90 ریال ودیعه اول را پرداخت کرده است",
+        "start_char": 510,
+        "end_char": 565,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "نسخه ثانی دادخواست فاقد امضاء است",
+      "evidence": {
+        "quote": "نسخه ثانی دادخواست، فاقد امضاء خواهان می باشد",
+        "start_char": 374,
+        "end_char": 419,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ودیعه اول پرداخت شده است",
+      "evidence": {
+        "quote": "خواهان مبلغ 000/00/90 ریال ودیعه اول را پرداخت کرده است",
+        "start_char": 510,
+        "end_char": 565,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوت نامه صادر شده است",
+      "evidence": {
+        "quote": "مطابق قرارداد، برای خواهان دعوت نامه نیز صادر شده است",
+        "start_char": 736,
+        "end_char": 789,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "باقی مانده ثمن معامله پرداخت نشده است",
+      "evidence": {
+        "quote": "عدم تأدیه باقی مانده ثمن معامله",
+        "start_char": 2242,
+        "end_char": 2273,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

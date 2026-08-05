@@ -1,0 +1,173 @@
+{
+  "ruling_id": "28037",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "حق مراجعه وی به خوانده جهت مطالبه آن را نداشته باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم احراز",
+      "evidence": {
+        "quote": "به لحاظ عدم احراز تعهد و الزام خوانده",
+        "start_char": 2226,
+        "end_char": 2263,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مبلغ ده میلیون تومان",
+        "start_char": 60,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد آنرا صادر",
+        "start_char": 873,
+        "end_char": 890,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "در نقض دادنامه",
+        "start_char": 1105,
+        "end_char": 1119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده جهت رسیدگی ماهوی به دادگاه محترم نخستین اعاده می‌گردد",
+        "start_char": 3599,
+        "end_char": 3659,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را عینا\" تایید می نماید",
+        "start_char": 4762,
+        "end_char": 4809,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان ف. ن.ج.",
+        "start_char": 0,
+        "end_char": 21,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده الف. ش. بخواسته",
+        "start_char": 1239,
+        "end_char": 1268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ف. ن.ج.",
+        "start_char": 2545,
+        "end_char": 2571,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بدون اذن تجدیدنظرخوانده",
+        "start_char": 4093,
+        "end_char": 4116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ورثه",
+      "evidence": {
+        "quote": "دعوی بر میت به طرفیت ورثه صحیح است",
+        "start_char": 3042,
+        "end_char": 3076,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فاکتور های",
+      "evidence": {
+        "quote": "طبق فاکتورهای ابرازی",
+        "start_char": 129,
+        "end_char": 149,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "مطالبه مبلغ ده میلیون تومان",
+        "start_char": 60,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "هزینه کفن و دفن و مراسم انجام شده است",
+      "evidence": {
+        "quote": "بابت کفن و دفن و انجام مراسم مرحوم م. م. میباشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فاکتورها به نام تجدیدنظرخواه نیست",
+      "evidence": {
+        "quote": "فاکتورهای مستند دعوی به نام تجدیدنظرخواه نمی باشد",
+        "start_char": 4041,
+        "end_char": 4090,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

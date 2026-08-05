@@ -1,0 +1,193 @@
+{
+  "ruling_id": "9349",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "تعهد اصلی و تعهد فرعی وجود ندارد",
+        "start_char": 1602,
+        "end_char": 1634,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "متعهد[له] حق اجبار متعهد، به ایفاء تعهد را دارد",
+        "start_char": 3674,
+        "end_char": 3721,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمانت اجرا",
+      "evidence": {
+        "quote": "ضمانت اجراء و تضمین انجام تعهدات [است]",
+        "start_char": 3805,
+        "end_char": 3843,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "نمودن",
+      "evidence": {
+        "quote": "خدمت نموده",
+        "start_char": 1886,
+        "end_char": 1896,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت کنم",
+        "start_char": 1272,
+        "end_char": 1282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحصیل",
+      "evidence": {
+        "quote": "ترک تحصیل کنم",
+        "start_char": 752,
+        "end_char": 765,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اخراج",
+      "evidence": {
+        "quote": "از دانشگاه طبق ضوابط و مقررات اخراج شوم",
+        "start_char": 707,
+        "end_char": 746,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "کردن",
+      "evidence": {
+        "quote": "پس از شروع به کار محل خدمت خود را ترک کنم",
+        "start_char": 997,
+        "end_char": 1038,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "فی‌مابین شاکی و طرف شکایت",
+        "start_char": 69,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "طرف",
+      "evidence": {
+        "quote": "شاکی و طرف شکایت",
+        "start_char": 78,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متعهد",
+      "evidence": {
+        "quote": "متعهد و ملتزم می‌شوم",
+        "start_char": 441,
+        "end_char": 461,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده متعهد به خدمت",
+        "start_char": 3113,
+        "end_char": 3141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی موجه تشخیص",
+        "start_char": 4754,
+        "end_char": 4778,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تعهدنامه",
+      "evidence": {
+        "quote": "تعهدنامه به شماره... مورخه 30/5/87",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مدرک",
+      "evidence": {
+        "quote": "اعطای پیش‌نمره و تأییدیه مدرک تحصیلی",
+        "start_char": 4320,
+        "end_char": 4356,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تعهدنامه در دفترخانه تنظیم شده است",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده متعهد به خدمت به مدت دو برابر دوره آموزشی به صورت تمام وقت در مناطق مورد نیاز گردیده است",
+        "start_char": 3113,
+        "end_char": 3216,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شاکی در مناطق محروم خدمت انجام داده است",
+      "evidence": {
+        "quote": "نامبرده اذعان نموده [است] به مدت چهار سال در مناطق محروم تعیین شده توسط طرف شکایت خدمت نموده",
+        "start_char": 1804,
+        "end_char": 1896,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شاکی حاضر به انجام خدمت نیست و قصد پرداخت خسارت دارد",
+      "evidence": {
+        "quote": "حاضر نیست قسمت اول تعهد‌نامه را... اجرا نماید بلکه به لحاظ تخلف از آن حاضر به پرداخت هزینه و خسارت طبق تعهدنامه می‌باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

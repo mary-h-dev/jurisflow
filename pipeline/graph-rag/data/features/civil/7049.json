@@ -1,0 +1,183 @@
+{
+  "ruling_id": "7049",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 532,
+        "end_char": 549,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "تبدیل تعهد",
+        "start_char": 1949,
+        "end_char": 1959,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد لاشه چهار فقره چک",
+        "start_char": 71,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "خواهان نمی تواند استرداد لاشه چک ها را مطالبه نماید",
+        "start_char": 841,
+        "end_char": 892,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت مبلغ یک صد میلیون ریال",
+        "start_char": 473,
+        "end_char": 505,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض دادنامه تجدیدنظر",
+        "start_char": 2550,
+        "end_char": 2570,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اظهارات وکیل خواهان",
+        "start_char": 301,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و خوانده در جلسه دادگاه",
+        "start_char": 321,
+        "end_char": 344,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "دعوی تجدیدنظرخواه",
+        "start_char": 1321,
+        "end_char": 1338,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به تجدیدنظر خوانده پرداخت شود",
+        "start_char": 1880,
+        "end_char": 1909,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متعهد",
+      "evidence": {
+        "quote": "موضوع و متعهد علیه واقع شده است",
+        "start_char": 1970,
+        "end_char": 2001,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "متعهدله",
+      "evidence": {
+        "quote": "بقاء لاشه چک های مذکور نزد متعهدله وجود ندارد",
+        "start_char": 2056,
+        "end_char": 2101,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "لاشه چهار فقره چک",
+        "start_char": 79,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "طبق دادنامه شماره 253-25/2/91",
+        "start_char": 399,
+        "end_char": 428,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین در مورد اصل وجه چک‌ها به توافق رسیده‌اند",
+      "evidence": {
+        "quote": "در مورد پرداخت اصل وجه چک ها به توافق رسیده اند",
+        "start_char": 594,
+        "end_char": 641,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در مورد خسارت تأخیر تأدیه توافقی صورت نگرفته است",
+      "evidence": {
+        "quote": "در مورد خسارت تأخیر تأدیه و نحوه پرداخت آن توافقی صورت نگرفته است",
+        "start_char": 646,
+        "end_char": 711,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تعهد اصلی بر ذمه متعهد بری شده است",
+      "evidence": {
+        "quote": "ذمه متعهد نسبت به تعهد اصلی بری گردیده",
+        "start_char": 2004,
+        "end_char": 2042,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

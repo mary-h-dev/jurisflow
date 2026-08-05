@@ -1,0 +1,223 @@
+{
+  "ruling_id": "22349",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ نکاح",
+        "start_char": 130,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تخلف",
+      "evidence": {
+        "quote": "تخلف از شرط",
+        "start_char": 160,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "تدلیس",
+        "start_char": 178,
+        "end_char": 183,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار فسخ",
+      "evidence": {
+        "quote": "خیار فسخ",
+        "start_char": 2732,
+        "end_char": 2740,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان دعوی",
+        "start_char": 3144,
+        "end_char": 3154,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ نکاح",
+        "start_char": 130,
+        "end_char": 138,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "تقاضای رسیدگی دارد",
+        "start_char": 604,
+        "end_char": 622,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی نموده",
+        "start_char": 3251,
+        "end_char": 3270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام خواهی",
+      "evidence": {
+        "quote": "فرجام خواهی نموده",
+        "start_char": 4354,
+        "end_char": 4371,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "نقض رأی فرجام خواسته",
+        "start_char": 4435,
+        "end_char": 4455,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان",
+        "start_char": 645,
+        "end_char": 651,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده",
+        "start_char": 282,
+        "end_char": 288,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 3251,
+        "end_char": 3263,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده",
+        "start_char": 3357,
+        "end_char": 3372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "فرجام خواه",
+        "start_char": 4354,
+        "end_char": 4364,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "عقدنامه شماره؟178 الف/91",
+        "start_char": 254,
+        "end_char": 278,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "سند ازدواج",
+        "start_char": 3776,
+        "end_char": 3786,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "لایحه",
+        "start_char": 3291,
+        "end_char": 3296,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده سابقه ازدواج داشته است",
+      "evidence": {
+        "quote": "خوانده... سابقه ازدواج دارند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده خود را کارآموز وکالت معرفی کرده است",
+      "evidence": {
+        "quote": "خوانده در سند ازدواج صفحه مربوط به مشخصات زوجه خود را کارآموز دوره وکالت معرفی و در سند تصریح گردیده",
+        "start_char": 4825,
+        "end_char": 4925,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از فسخ مطلع بوده است",
+      "evidence": {
+        "quote": "به زوجه اعلام فسخ گردیده",
+        "start_char": 5499,
+        "end_char": 5523,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

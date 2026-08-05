@@ -1,0 +1,203 @@
+{
+  "ruling_id": "28883",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "غاصبانه",
+      "evidence": {
+        "quote": "اشغال غاصبانه",
+        "start_char": 152,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ",
+        "start_char": 2139,
+        "end_char": 2142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان",
+        "start_char": 2145,
+        "end_char": 2150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "ایفای دین",
+        "start_char": 5169,
+        "end_char": 5178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "حق رجوع",
+        "start_char": 2806,
+        "end_char": 2813,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه نموده",
+        "start_char": 1038,
+        "end_char": 1050,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت ننموده",
+        "start_char": 1304,
+        "end_char": 1317,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی",
+        "start_char": 4437,
+        "end_char": 4450,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "رد درخواست تجدیدنظرخواهی",
+        "start_char": 6155,
+        "end_char": 6179,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان",
+        "start_char": 620,
+        "end_char": 626,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده",
+        "start_char": 486,
+        "end_char": 492,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "مستاجر",
+        "start_char": 1959,
+        "end_char": 1965,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "موجر",
+        "start_char": 2862,
+        "end_char": 2866,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 4437,
+        "end_char": 4449,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده",
+        "start_char": 4648,
+        "end_char": 4662,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "عقد قرارداد کتبی",
+        "start_char": 545,
+        "end_char": 561,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان کارمند دولت بوده است",
+      "evidence": {
+        "quote": "با احراز که وی کارمند دولت بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در طبقه فوقانی استخر تصرف کرده است",
+      "evidence": {
+        "quote": "با استقرار چندین دستگاه میز بیلیارد در طبقه بالای استخر همچنان بر تصرفات غاصبانه خود در طول این مدت در طبقه فوقانی استخر ادامه داده است",
+        "start_char": 743,
+        "end_char": 878,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد اجاره منحل شده است",
+      "evidence": {
+        "quote": "عقد اجاره منحل گردیده است",
+        "start_char": 1989,
+        "end_char": 2014,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

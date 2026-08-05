@@ -1,0 +1,93 @@
+{
+  "ruling_id": "35747",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت",
+        "start_char": 393,
+        "end_char": 408,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اختلاف",
+      "evidence": {
+        "quote": "حدوث اختلاف",
+        "start_char": 937,
+        "end_char": 948,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رسیدگی",
+      "evidence": {
+        "quote": "رسیدگی به اتهام",
+        "start_char": 833,
+        "end_char": 848,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "حل اختلاف",
+      "evidence": {
+        "quote": "حل اختلاف می نماید",
+        "start_char": 2006,
+        "end_char": 2024,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "اتهام متهمان",
+        "start_char": 45,
+        "end_char": 57,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "کالا",
+      "evidence": {
+        "quote": "حمل کالای قاچاق",
+        "start_char": 106,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم ردیف دوم کمتر از هجده سال سن دارد",
+      "evidence": {
+        "quote": "متهم ردیف دوم کمتر از هجده سال سن دارد",
+        "start_char": 216,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اختلاف صلاحیت بین دادگاه انقلاب و دادگاه کیفری دو",
+      "evidence": {
+        "quote": "درخصوص اختلاف حاصل بین دادگاه های انقلاب زاهدان ( شعبه دوّم ) و کیفری دو ( اطفال و نوجوانان شعبه 102 )",
+        "start_char": 1180,
+        "end_char": 1282,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

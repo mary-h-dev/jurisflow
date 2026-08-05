@@ -1,0 +1,133 @@
+{
+  "ruling_id": "28391",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "حق رجوع ندارد",
+        "start_char": 1112,
+        "end_char": 1125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 1325,
+        "end_char": 1349,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته صدور حکم به محکومیت خوانده به استرداد",
+        "start_char": 69,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "از طریق دستگاههای عابر بانک و کارت به کارت به حساب خوانده واریز و پرداخت نموده است",
+        "start_char": 507,
+        "end_char": 589,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای ب. ح.پ.",
+        "start_char": 1546,
+        "end_char": 1580,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ماحصل دعوی خواهان",
+        "start_char": 220,
+        "end_char": 237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده",
+        "start_char": 91,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل موثری",
+        "start_char": 2169,
+        "end_char": 2192,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "استرداد مبلغ 89500000 ریال",
+        "start_char": 109,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده خود را بیمار معرفی کرده است",
+      "evidence": {
+        "quote": "خود را بیمار ودارای بیماری صب العلاج معرفی نموده است",
+        "start_char": 319,
+        "end_char": 371,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبلغ به صورت کارت به کارت پرداخت شده است",
+      "evidence": {
+        "quote": "از طریق دستگاههای عابر بانک و کارت به کارت به حساب خوانده واریز و پرداخت نموده است",
+        "start_char": 507,
+        "end_char": 589,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده سالم بوده و بیمار نبوده است",
+      "evidence": {
+        "quote": "بعدا معلوم شده است که خوانده سالم بوده و هیچگونه بیماری نداشته",
+        "start_char": 594,
+        "end_char": 656,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

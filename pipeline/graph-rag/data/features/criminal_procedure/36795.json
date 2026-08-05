@@ -1,0 +1,173 @@
+{
+  "ruling_id": "36795",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اختلاس",
+      "evidence": {
+        "quote": "به اتهام مشارکت در اختلاس",
+        "start_char": 572,
+        "end_char": 597,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مال",
+      "evidence": {
+        "quote": "تحصیل مال از طریق نامشروع",
+        "start_char": 600,
+        "end_char": 625,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اتهام",
+      "evidence": {
+        "quote": "اصل لزوم رسیدگی به اتهام در محل وقوع ان",
+        "start_char": 2826,
+        "end_char": 2865,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اختلاف",
+      "evidence": {
+        "quote": "ضمن اعلام اختلاف در صلاحیت",
+        "start_char": 3164,
+        "end_char": 3190,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "واریز وجوه مربوط به پتروشیمی... به حساب یک مشتری",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "نمودن",
+      "evidence": {
+        "quote": "و خرج نمودن وجوه به طرق مختلف",
+        "start_char": 746,
+        "end_char": 775,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "و عدم استرداد کل وجوه",
+        "start_char": 795,
+        "end_char": 816,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "و اعتراض شاکی",
+        "start_char": 1086,
+        "end_char": 1099,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بازداشت",
+      "evidence": {
+        "quote": "بازداشت نیز می گردند",
+        "start_char": 1780,
+        "end_char": 1800,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "رییس",
+      "evidence": {
+        "quote": "ریاست سازمان",
+        "start_char": 411,
+        "end_char": 423,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "و هر دو متهم در شعبه پولشویی",
+        "start_char": 1668,
+        "end_char": 1696,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "اعتراض شاکی ( سازمان *)",
+        "start_char": 1088,
+        "end_char": 1111,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "واریز اشتباه وجه چک شماره 1401/06/ *",
+        "start_char": 1506,
+        "end_char": 1542,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حساب بانکی",
+      "evidence": {
+        "quote": "به حساب بانکی آقای ب. گ. و",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واریز اشتباه وجه چک به حساب شخص ثالث",
+      "evidence": {
+        "quote": "واریز اشتباه وجه چک شماره 1401/06/ *به حساب بانکی آقای ب. گ. و",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم استرداد وجه توسط متهم",
+      "evidence": {
+        "quote": "و استنکاف نامبرده از استرداد وجه موصوف",
+        "start_char": 1567,
+        "end_char": 1605,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

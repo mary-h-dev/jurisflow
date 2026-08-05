@@ -1,0 +1,153 @@
+{
+  "ruling_id": "35518",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "به خواسته اعلام صحت قرارداد",
+        "start_char": 155,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "به خواسته اعلام صحت قرارداد",
+        "start_char": 155,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "و تنفیذ آن",
+        "start_char": 196,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "حقوق خود را نسبت به 78%از شش دانگ سرقفلی یک باب مغازه تجاری با مشخصات مندرج در دادخواست به مبلغ چهارصد و هشتاد وهفت میلیون و پانصد هزار تومان به موکل انتقال داده",
+        "start_char": 516,
+        "end_char": 677,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "و مغازه را نیز تحویل موکل داده است",
+        "start_char": 678,
+        "end_char": 712,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استماع دعوی",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی خواهان را صادر مینماید",
+        "start_char": 1413,
+        "end_char": 1456,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان",
+        "start_char": 221,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مطابق مواد 10 و 190 قانون مدنی حقوق خود را نسبت به 78%از شش دانگ سرقفلی یک باب مغازه تجاری با مشخصات مندرج در دادخواست به مبلغ چهارصد و هشتاد وهفت میلیون و پانصد هزار تومان به موکل انتقال داده",
+        "start_char": 488,
+        "end_char": 677,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ب. ه.",
+        "start_char": 1731,
+        "end_char": 1755,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "اعلام صحت قرارداد مورخ 86/10/24",
+        "start_char": 165,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "یک باب",
+      "evidence": {
+        "quote": "۷۸٪ از شش دانگ سرقفلی یک باب مغازه تجاری",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد رسمی",
+      "evidence": {
+        "quote": "اسناد رسمی وکالت با شماره های... -88/2/27 و... -88/8/6",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انتقال سرقفلی و تحویل مغازه انجام شده است",
+      "evidence": {
+        "quote": "حقوق خود را نسبت به 78%از شش دانگ سرقفلی یک باب مغازه تجاری با مشخصات مندرج در دادخواست به مبلغ چهارصد و هشتاد وهفت میلیون و پانصد هزار تومان به موکل انتقال داده و مغازه را نیز تحویل موکل داده است",
+        "start_char": 516,
+        "end_char": 712,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موافقت با انتقال سرقفلی و دریافت حق مالکانه و اجور معوقه",
+      "evidence": {
+        "quote": "خوانده ردیف دوم نیز باانتقال سرقفلی بااخذ حق مالکانه واجور معوقه موافقت نموده است",
+        "start_char": 715,
+        "end_char": 796,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

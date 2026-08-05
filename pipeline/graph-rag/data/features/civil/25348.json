@@ -1,0 +1,143 @@
+{
+  "ruling_id": "25348",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "قانون مسئولیت مدنی",
+        "start_char": 889,
+        "end_char": 907,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقصیر",
+      "evidence": {
+        "quote": "تقصیر خوانده روشن است",
+        "start_char": 601,
+        "end_char": 622,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "رابطه سببیت ما بین ترک فعل خوانده ورود خسارت به خواهان معلوم و موجود است",
+        "start_char": 625,
+        "end_char": 697,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه خسارت",
+        "start_char": 57,
+        "end_char": 79,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم بر محکومیت خوانده",
+        "start_char": 947,
+        "end_char": 968,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض دادنامه تجدید نظر خواسته تایید می‌گردد",
+        "start_char": 1943,
+        "end_char": 1995,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان",
+        "start_char": 988,
+        "end_char": 1000,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده",
+        "start_char": 954,
+        "end_char": 968,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظر خواه به پرداخت خسارت",
+        "start_char": 1504,
+        "end_char": 1534,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اتومبیل",
+      "evidence": {
+        "quote": "افت قیمت اتومبیل خواهان",
+        "start_char": 1073,
+        "end_char": 1096,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت",
+        "start_char": 67,
+        "end_char": 79,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اتومبیل در گودال افتاده است",
+      "evidence": {
+        "quote": "اتومبیل شخصی‌اش به گودال افتاده است",
+        "start_char": 304,
+        "end_char": 339,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ورود خسارت به خواهان",
+      "evidence": {
+        "quote": "ورود زیان به خواهان محقق است",
+        "start_char": 570,
+        "end_char": 598,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

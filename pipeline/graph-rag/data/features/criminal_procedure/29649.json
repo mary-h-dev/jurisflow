@@ -1,0 +1,173 @@
+{
+  "ruling_id": "29649",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صدمه بدنی غیرعمدی",
+      "evidence": {
+        "quote": "ایراد صدمه بدنی غیرعمدی",
+        "start_char": 34,
+        "end_char": 57,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جزائی",
+      "evidence": {
+        "quote": "خطای جزائی",
+        "start_char": 2397,
+        "end_char": 2407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دیه",
+      "evidence": {
+        "quote": "به پرداخت دیه",
+        "start_char": 2442,
+        "end_char": 2455,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جزای نقدی",
+      "evidence": {
+        "quote": "جزای نقدی",
+        "start_char": 2020,
+        "end_char": 2029,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی آقای ر. الف. خ",
+        "start_char": 2220,
+        "end_char": 2249,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اصلاح",
+      "evidence": {
+        "quote": "اصلاح رای",
+        "start_char": 3155,
+        "end_char": 3164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ایراد و اعتراض موجه و موثری",
+        "start_char": 2563,
+        "end_char": 2590,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم می‌نماید",
+      "evidence": {
+        "quote": "محکوم می نماید",
+        "start_char": 1837,
+        "end_char": 1851,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "واقرارمتهم",
+        "start_char": 216,
+        "end_char": 226,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شکایت شاکی",
+        "start_char": 164,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "محکوم علیه اقای ر. الف. خ",
+        "start_char": 3479,
+        "end_char": 3504,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وسیله",
+      "evidence": {
+        "quote": "وسیله نقلیه موتوری",
+        "start_char": 92,
+        "end_char": 110,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "دیه کامل",
+        "start_char": 509,
+        "end_char": 517,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رای صادره",
+        "start_char": 2062,
+        "end_char": 2071,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تصادف با وسیله نقلیه موتوری",
+      "evidence": {
+        "quote": "در اثر خطای جزائی در امر رانندگی وسیله نقلیه موتوری",
+        "start_char": 2390,
+        "end_char": 2441,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بروز جراحات و شکستگی در بدن شاکی",
+      "evidence": {
+        "quote": "بابت شکستگی دنده ها دادگاه بدوی چهل و پنج هزارم دیه کامله درنظرگرفته",
+        "start_char": 3832,
+        "end_char": 3900,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

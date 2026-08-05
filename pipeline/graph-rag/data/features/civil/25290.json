@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25290",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "تجویز اعمال ماده 221 و 222 قانون مدنی",
+        "start_char": 161,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه قراردادی",
+      "evidence": {
+        "quote": "وجود رابطه قراردادی طرفین",
+        "start_char": 1220,
+        "end_char": 1245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انجام تعهد",
+      "evidence": {
+        "quote": "اقدام به انجام تعهدات خویش",
+        "start_char": 1391,
+        "end_char": 1417,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت هزینه‌های ساخت‌ و ساز",
+        "start_char": 223,
+        "end_char": 251,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 1856,
+        "end_char": 1882,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 3398,
+        "end_char": 3428,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان‌ها مالک ملک",
+        "start_char": 314,
+        "end_char": 332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده دعوی",
+        "start_char": 386,
+        "end_char": 397,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "خواهان‌ها مالک ملک",
+        "start_char": 314,
+        "end_char": 332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی... و... فرعی از 135 اصلی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ساختمان",
+      "evidence": {
+        "quote": "ساختمان مجاور تخریب",
+        "start_char": 497,
+        "end_char": 516,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "توافق جهت ساخت و ساز منعقد شده است",
+      "evidence": {
+        "quote": "توافقی با خوانده دعوی جهت ساخت‌ و ساز منعقد کرده‌اند",
+        "start_char": 376,
+        "end_char": 428,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "گودبرداری غیراصولی انجام شده است",
+      "evidence": {
+        "quote": "به دلیل گودبرداری غیراصولی",
+        "start_char": 433,
+        "end_char": 459,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده عملیات ساختمانی را به صورت مخفیانه ادامه داده است",
+      "evidence": {
+        "quote": "ادامه عملیات ساختمانی به صورت مخفیانه از سوی خوانده",
+        "start_char": 707,
+        "end_char": 758,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان‌ها وجوهی را از بابت قرارداد دریافت کرده‌اند",
+      "evidence": {
+        "quote": "خواهان‌ها وجوهی را نیز از بابت قرارداد مذکور دریافت کرده‌اند",
+        "start_char": 1295,
+        "end_char": 1355,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

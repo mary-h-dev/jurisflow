@@ -1,0 +1,193 @@
+{
+  "ruling_id": "7354",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "صدور حکم بر خلع ید",
+        "start_char": 80,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 264,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "اظهار یک کارمند آستان قدس اقرار محسوب نمی شود",
+        "start_char": 6206,
+        "end_char": 6251,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان اعتبارنامه",
+        "start_char": 6538,
+        "end_char": 6561,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 264,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی نموده",
+        "start_char": 5133,
+        "end_char": 5152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "فرمان خواهی آقای م.م.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "به نظریه کارشناسی اعتراض نموده",
+        "start_char": 3498,
+        "end_char": 3528,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "رد می شود",
+        "start_char": 7563,
+        "end_char": 7572,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 889,
+        "end_char": 900,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "ارسال نسخه ثانی دادخواست و ضمایم برای خواندگان",
+        "start_char": 412,
+        "end_char": 458,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "کارشناس",
+      "evidence": {
+        "quote": "انتخاب گردیده که پرداخت دستمزد به عهده خواهان است",
+        "start_char": 1904,
+        "end_char": 1953,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "با حضور وکیل خواهان",
+        "start_char": 881,
+        "end_char": 900,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متصرفین",
+      "evidence": {
+        "quote": "به طرفیت متصرفین گاراژ جامی مطرح شده است",
+        "start_char": 3061,
+        "end_char": 3101,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اراضی",
+      "evidence": {
+        "quote": "خلع ید از اراضی موقوفه",
+        "start_char": 92,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اصلی بخش",
+      "evidence": {
+        "quote": "مزرعه قلعه خیابان پلاک 24 اصلی بخش 9 مشهد",
+        "start_char": 147,
+        "end_char": 188,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دعوی قبلاً در مورد همان ملک مطرح شده و حکم به بطلان صادر شده است",
+      "evidence": {
+        "quote": "در دعوی خلع ید نسبت به همین ملک، قبلاً حکم به بطلان دعوی صادر شده",
+        "start_char": 4303,
+        "end_char": 4368,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تفاوت در موضوع دعوی فعلی با دعوای قبلی وجود دارد",
+      "evidence": {
+        "quote": "در حالی که در مانحن فیه دعوی مطروحه فع. با دعوی طرح شده سابق متفاوتند و یکی نیستند",
+        "start_char": 6992,
+        "end_char": 7074,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

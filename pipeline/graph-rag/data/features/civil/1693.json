@@ -1,0 +1,133 @@
+{
+  "ruling_id": "1693",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 170,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تخلف",
+      "evidence": {
+        "quote": "تخلف از شرط مقرر در سند ازدواج",
+        "start_char": 224,
+        "end_char": 254,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت خود را",
+        "start_char": 698,
+        "end_char": 720,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "به صدور گواهی عدم امکان سازش",
+        "start_char": 167,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت خود را به شایستگی دادگاه عمومی حقوقی ک صادر و پرونده را ارسال می نماید",
+        "start_char": 698,
+        "end_char": 784,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "چون نشانی خوانده از سوی خواهان",
+        "start_char": 578,
+        "end_char": 608,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ب.ز. (م.)",
+        "start_char": 122,
+        "end_char": 145,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل پایه",
+      "evidence": {
+        "quote": "خانم ل.غ. وکیل پایه یک مرکز امور مشاوران قوه قضائیه",
+        "start_char": 285,
+        "end_char": 336,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "سند ازدواج شماره 13009-10/1/1387",
+        "start_char": 60,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی عدم",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 170,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در زندان بستگی دارد",
+      "evidence": {
+        "quote": "خوانده به علت زندانی شدن قهراً در زندان به سر می برد",
+        "start_char": 1038,
+        "end_char": 1090,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محل زندان اقامتگاه اختیاری خوانده نیست",
+      "evidence": {
+        "quote": "محل مذکور بر اساس اختیار وی انتخاب نشده است",
+        "start_char": 1637,
+        "end_char": 1680,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

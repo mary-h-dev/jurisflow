@@ -1,0 +1,203 @@
+{
+  "ruling_id": "29373",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "تقاضای ابطال سند رهنی",
+        "start_char": 134,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد رهن",
+      "evidence": {
+        "quote": "تغییر داده است. به طرفیت 1- ف. پ.ن. فرزند ع.الف. ، ساکن ورامین وبانک....",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "وکیل خواهان اعلام نموده است که عقد بیع به ایجاب وقبول واقع می شود",
+        "start_char": 2320,
+        "end_char": 2385,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "بنابراین عقد رهن واقع شده بین خواندگان فضولی بوده",
+        "start_char": 2472,
+        "end_char": 2521,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "موضوع پرونده شماره 701/1300/90 حوزه اول شورای حل اختلاف ورامین وی محکوم به تنظیم سند رسمی انتقال آن به نفع خریدار شده است",
+        "start_char": 4753,
+        "end_char": 4874,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "تقاضای ابطال سند رهنی",
+        "start_char": 134,
+        "end_char": 155,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "ملزم به حضور در دفترخانه اسناد رسمی وانتقال مالکیت پلاک ثبتی",
+        "start_char": 735,
+        "end_char": 795,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "گذاشته",
+      "evidence": {
+        "quote": "خوانده این ملک فروخته شده را به رهن خوانده ردیف دوم داده است",
+        "start_char": 851,
+        "end_char": 911,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خریداری",
+      "evidence": {
+        "quote": "طبق مبایعه نامه مورخ 89/10/12 ملک پلاک ثبتی..../ 111 را ازخوانده ، پ.ن. خریداری نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان ، الف. ت. فرزند الف. ، ساکن ورامین",
+        "start_char": 0,
+        "end_char": 41,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت 1- ف. پ.ن. فرزند ع.الف. ، ساکن ورامین",
+        "start_char": 361,
+        "end_char": 407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای الف. ت. باوکالت آقای الف. ف.",
+        "start_char": 4289,
+        "end_char": 4336,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "ابطال سند رهنی 3172 مورخ 1391/4/18",
+        "start_char": 141,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "طبق مبایعه نامه مورخ 89/10/12",
+        "start_char": 473,
+        "end_char": 502,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک پلاک ثبتی... / 111",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "با اعتماد به سند رسمی نسبت به انجام معامله",
+        "start_char": 2944,
+        "end_char": 2986,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ملک را به رهن بانک گذاشته است",
+      "evidence": {
+        "quote": "خوانده این ملک فروخته شده را به رهن خوانده ردیف دوم داده است",
+        "start_char": 851,
+        "end_char": 911,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده از انتقال رسمی ملک خودداری کرده است",
+      "evidence": {
+        "quote": "چون ایشان از انتقال رسمی ملک بنام او خودداری می کرد",
+        "start_char": 565,
+        "end_char": 616,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت ملک در دفتر املاک ثبت نشده است",
+      "evidence": {
+        "quote": "وایشان دراین پلاک ثبتی مالکیتی نداشته است",
+        "start_char": 1551,
+        "end_char": 1592,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

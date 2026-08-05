@@ -1,0 +1,123 @@
+{
+  "ruling_id": "21191",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 54,
+        "end_char": 75,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان صادر",
+        "start_char": 586,
+        "end_char": 615,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 44,
+        "end_char": 75,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن ردّ تجدیدنظرخواهی دادنامه مذکور تأیید می‌شود",
+        "start_char": 1234,
+        "end_char": 1282,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای ح.ص. به طرفیت خانم ن.الف.",
+        "start_char": 0,
+        "end_char": 43,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 54,
+        "end_char": 75,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم بطلان دعوی تجدیدنظرخواه",
+        "start_char": 924,
+        "end_char": 951,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در شأن زوجه جهت زندگی مشترک می‌باشد",
+        "start_char": 272,
+        "end_char": 307,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "تهیه منزل مستقل با وسایل زندگی",
+        "start_char": 241,
+        "end_char": 271,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم فراهم شدن زمینه زندگی مشترک توسط خواهان",
+      "evidence": {
+        "quote": "خواهان زمینه زندگی مشترک را در حد و شأن زوجه فراهم ننموده است",
+        "start_char": 334,
+        "end_char": 395,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "نامناسب بودن منزل تهیه شده با شأن زوجه",
+      "evidence": {
+        "quote": "منزل تهیه شده با توجه به سوابق زندگی طرفین متناسب با شأن زوجه نیست",
+        "start_char": 402,
+        "end_char": 468,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

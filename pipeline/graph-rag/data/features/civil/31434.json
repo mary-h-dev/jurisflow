@@ -1,0 +1,183 @@
+{
+  "ruling_id": "31434",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تأمین خواسته",
+      "evidence": {
+        "quote": "به خواسته تامین خواسته به میزان اقلام مندج در صورت جهیزیه",
+        "start_char": 85,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌حقی",
+      "evidence": {
+        "quote": "حکم به بی حقی صادر می نماید",
+        "start_char": 665,
+        "end_char": 692,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "دلیل بر مالکیت تحویل گیرنده نمی باشد",
+        "start_char": 1341,
+        "end_char": 1377,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی خانم ب. الف.",
+        "start_char": 840,
+        "end_char": 873,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض وارد است",
+        "start_char": 1155,
+        "end_char": 1170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد جهیزیه",
+        "start_char": 534,
+        "end_char": 558,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تحویل اقلام مندرج در قرار تامین صادره",
+        "start_char": 1303,
+        "end_char": 1340,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم بر محکومیت خوانده (زوج) به استرداد جهیزیه",
+        "start_char": 1672,
+        "end_char": 1717,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نسبت به ادعای خواهان تردید و تکذیبی به عمل نیامده",
+        "start_char": 1411,
+        "end_char": 1460,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حکم بر محکومیت خوانده (زوج)",
+        "start_char": 1672,
+        "end_char": 1699,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نظرا به این که تجدیدنظرخوانده نسبت به ادعای خواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "محکومیت خوانده (زوج)",
+        "start_char": 1679,
+        "end_char": 1699,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "درخصوص دعوی زوجه",
+        "start_char": 1027,
+        "end_char": 1043,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "به خواسته استرداد جهیزیه",
+        "start_char": 534,
+        "end_char": 558,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "ازاموال خوانده تاپایان رسیدگی",
+        "start_char": 235,
+        "end_char": 264,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اقلام جهیزیه به صورت امانی تحویل گرفته شده بود",
+      "evidence": {
+        "quote": "تحویل اقلام مندرج در قرار تامین صادره دلیل بر مالکیت تحویل گیرنده نمی باشد",
+        "start_char": 1303,
+        "end_char": 1377,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تامین خواسته در منزل متعلق به زوج انجام شده بود",
+      "evidence": {
+        "quote": "قرار تامین صادرو در منزل متعلق به زوج تامین گردیده",
+        "start_char": 1463,
+        "end_char": 1513,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

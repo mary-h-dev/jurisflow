@@ -1,0 +1,173 @@
+{
+  "ruling_id": "33210",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رهن",
+      "evidence": {
+        "quote": "دادن رهن بعنوان تضمین حسن اجرای قرارداد درست است",
+        "start_char": 1817,
+        "end_char": 1865,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "تابع احکام رهن نیست و تابع ماده 10 قانون مدنی می باشد",
+        "start_char": 1915,
+        "end_char": 1968,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فک رهن",
+      "evidence": {
+        "quote": "الزام به فک رهن از پلاک ثبتی",
+        "start_char": 118,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "خوانده دعوی از فک رهن پلاک ثبتی موضوع دعوی امتناع می نماید",
+        "start_char": 523,
+        "end_char": 581,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسویه و تصفیه",
+      "evidence": {
+        "quote": "مطالبات بانک و اقساط تسهیلات دریافتی تسویه نگردیده است",
+        "start_char": 920,
+        "end_char": 974,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی بانک ملت",
+        "start_char": 2710,
+        "end_char": 2732,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بدرستی که خواهان اعلام نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده دعوی از فک رهن پلاک ثبتی موضوع دعوی امتناع می نماید",
+        "start_char": 523,
+        "end_char": 581,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی دلیل و مدرکی",
+        "start_char": 3195,
+        "end_char": 3243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "راهن",
+      "evidence": {
+        "quote": "راهن برابر مندرجات سند رهنی شماره 10648",
+        "start_char": 3361,
+        "end_char": 3400,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "فک رهن از پلاک ثبتی... واقع در بخش 11 تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "به موجب سند رهنی شماره 10648 مورخ 86/4/31",
+        "start_char": 211,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تسهیلات و وام",
+      "evidence": {
+        "quote": "جهت اخذ تسهیلات توسط شرکت صنعتی بایسته فلز",
+        "start_char": 353,
+        "end_char": 395,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سفته",
+      "evidence": {
+        "quote": "در قبال اخذ سفته در یافت نمود است",
+        "start_char": 768,
+        "end_char": 801,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تسهیلاتی در مدت قرارداد به شرکت مذکور پرداخت نشده است",
+      "evidence": {
+        "quote": "در طول مدت قرارداد و بعد از آن تسهیلاتی به شرکت مذکور پرداخت نگردیده است",
+        "start_char": 431,
+        "end_char": 503,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مطالبات بانک و اقساط تسهیلات تسویه نشده است",
+      "evidence": {
+        "quote": "مطالبات بانک و اقساط تسهیلات دریافتی تسویه نگردیده است",
+        "start_char": 920,
+        "end_char": 974,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "ruling_id": "33140",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قوانین موجد",
+      "evidence": {
+        "quote": "مخالفت با قوانین موجد حق",
+        "start_char": 89,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اختیار",
+      "evidence": {
+        "quote": "صدور رای خارج از حدود اختیارات داور",
+        "start_char": 154,
+        "end_char": 189,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "صدور حکم اعلام فسخ قرارداد",
+        "start_char": 431,
+        "end_char": 457,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "درخواست حق فسخ با احتساب دریافت زیانهای وارده",
+        "start_char": 2584,
+        "end_char": 2629,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "محکومیت به پرداخت خسارت قراردادی",
+        "start_char": 4399,
+        "end_char": 4431,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال رای داوری",
+        "start_char": 55,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "صدور حکم اعلام فسخ قرارداد",
+        "start_char": 431,
+        "end_char": 457,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عملیات",
+      "evidence": {
+        "quote": "درخواست توقف عملیات اجرائی رای داور",
+        "start_char": 1142,
+        "end_char": 1177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 4292,
+        "end_char": 4322,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار داشته",
+        "start_char": 209,
+        "end_char": 232,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظرخواه با اتکاء به اینکه",
+        "start_char": 1770,
+        "end_char": 1809,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده را محق وصول کلیه خسارات",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "داور مرضی الطرفین اقدام به حکمیت نماید",
+        "start_char": 347,
+        "end_char": 385,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "خریدار به هر عنوان از سفارش خود منصرف گردد",
+        "start_char": 3432,
+        "end_char": 3474,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "در وجه فروشنده خواهد بود",
+        "start_char": 3638,
+        "end_char": 3662,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "نسبت به رای داوری موضوع دعوی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "مطابق ماده 7 قرارداد",
+        "start_char": 244,
+        "end_char": 264,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "از محل چک حسن انجام تعهد",
+        "start_char": 2100,
+        "end_char": 2124,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "داور حکم به فسخ قرارداد داده است",
+      "evidence": {
+        "quote": "داور در خارج از حدود اختیارش اقدام به صدور حکم اعلام فسخ قرارداد نموده است",
+        "start_char": 393,
+        "end_char": 467,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تخلف از تعهدات قراردادی در بخش نخست حکم داور احراز شده است",
+      "evidence": {
+        "quote": "با احراز تخلف تجدیدنظرخواه در عمل به تعهدات قراردادی",
+        "start_char": 1936,
+        "end_char": 1988,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بخشی از مبلغ قرارداد پرداخت شده است",
+      "evidence": {
+        "quote": "با ملاحظه مراتب پرداخت بخشی از ثمن",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

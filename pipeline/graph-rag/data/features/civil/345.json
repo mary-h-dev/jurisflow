@@ -1,0 +1,183 @@
+{
+  "ruling_id": "345",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ولایت",
+      "evidence": {
+        "quote": "به واسطه ولایت قهری از فرزند صغیرش",
+        "start_char": 759,
+        "end_char": 793,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت",
+      "evidence": {
+        "quote": "هیچ نفعی و منفعتی جهت رعایت مصلحت مالی ایشان نشده است",
+        "start_char": 861,
+        "end_char": 914,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "خرید",
+      "evidence": {
+        "quote": "اقدام به خرید سه دانگ آپارتمان",
+        "start_char": 309,
+        "end_char": 339,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امضاء",
+      "evidence": {
+        "quote": "اقرارنامه ای را به امضاء رسانده",
+        "start_char": 820,
+        "end_char": 851,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ساخت",
+      "evidence": {
+        "quote": "اقدام به ساخت و ساز و انتقال وسایل و تخریب نموده اند",
+        "start_char": 1087,
+        "end_char": 1139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "لذا درخواست رد دعوی خواهان را دارد",
+        "start_char": 1422,
+        "end_char": 1456,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تایید می شود",
+      "evidence": {
+        "quote": "با رد تجدیدنظرخواهی دادنامه تجدیدنظرخواسته تأیید می شود",
+        "start_char": 2606,
+        "end_char": 2661,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای م.ع. با وکالت خانم م.ن. به طرفیت خواندگان",
+        "start_char": 0,
+        "end_char": 59,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان 1- آقای ع.ع. 2- آقای م.ن. 3- خانم ف.ع.",
+        "start_char": 42,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشندگان",
+      "evidence": {
+        "quote": "فروشندگان (خواندگان 2 و 3)",
+        "start_char": 387,
+        "end_char": 413,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از ناحیه آقای وکیل تجدیدنظرخواه",
+        "start_char": 2315,
+        "end_char": 2346,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به نسبت حصه تجدیدنظرخوانده صادر و اعلام شده است",
+        "start_char": 2170,
+        "end_char": 2217,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "اقرارنامه رسمی شماره 60480",
+        "start_char": 127,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "خرید سه دانگ آپارتمان",
+        "start_char": 318,
+        "end_char": 339,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "طبق مبایعه نامه پیوست نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پدر خواهان بدون اطلاع از متن اقرارنامه اقدام به امضا کرده است",
+      "evidence": {
+        "quote": "از متن اقرارنامه اطلاعی نداشته و بدون اطلاع اقدام به امضاء آن نموده است",
+        "start_char": 1489,
+        "end_char": 1560,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواندگان اقدام به ساخت و ساز و تخریب کرده‌اند",
+      "evidence": {
+        "quote": "اقدام به ساخت و ساز و انتقال وسایل و تخریب نموده اند",
+        "start_char": 1087,
+        "end_char": 1139,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

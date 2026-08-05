@@ -1,0 +1,143 @@
+{
+  "ruling_id": "29295",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان عقد",
+      "evidence": {
+        "quote": "بطلان عقدبه واسطه نداشتن حداقل یکی ازشرایط صحت آن موضوع ماده 190 قانون مدنی محقق می شود",
+        "start_char": 233,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "بخواسته ابطال سند",
+        "start_char": 53,
+        "end_char": 70,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "سندرابنام خوانده که همسرش می باشدانتقال نموده است",
+        "start_char": 481,
+        "end_char": 530,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در دادگاه تجدید نظر",
+        "start_char": 868,
+        "end_char": 899,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را عینا\" تایید می نماید",
+        "start_char": 1898,
+        "end_char": 1945,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "عمده اظهارات خواهان",
+        "start_char": 333,
+        "end_char": 352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "سندرابنام خوانده",
+        "start_char": 481,
+        "end_char": 497,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی م. الف.ح.",
+        "start_char": 976,
+        "end_char": 999,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "ابطال سند",
+        "start_char": 61,
+        "end_char": 70,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان اداری",
+        "start_char": 84,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "ثمن معامله آپارتمان متنازع فیه",
+        "start_char": 379,
+        "end_char": 409,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انتقال ملک به منظور جلوگیری از توقیف توسط طلبکاران",
+      "evidence": {
+        "quote": "وجلوگیری ازتوقیف آن توسط طلبکاران سندرابنام خوانده که همسرش می باشدانتقال نموده است",
+        "start_char": 447,
+        "end_char": 530,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرط شده است که ملک پس از مدتی به خواهان بازگردد",
+      "evidence": {
+        "quote": "وشرط برآن شده که پس ازمدتی ایشان ملک رابه خواهان برگرداند",
+        "start_char": 531,
+        "end_char": 588,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

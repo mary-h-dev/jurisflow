@@ -1,0 +1,183 @@
+{
+  "ruling_id": "23971",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "به خواسته حضانت فرزند شش ماهه",
+        "start_char": 67,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت",
+      "evidence": {
+        "quote": "ملزم به رعایت غبطه ومصلحت کودکان و نوجوانان",
+        "start_char": 725,
+        "end_char": 767,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظر خواهی در محاکم محترم تجدیدنظر استان تهرانمی باشد",
+        "start_char": 1291,
+        "end_char": 1353,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طلاق گرفته",
+      "evidence": {
+        "quote": "از خوانده طلاق گرفته است",
+        "start_char": 136,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "حکم محکومیت خوانده به تحویل طفل",
+        "start_char": 976,
+        "end_char": 1007,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "با رد اعتراض واخواه",
+        "start_char": 2044,
+        "end_char": 2063,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تائید",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را که وفق موازین قانونی صادر گردیده است را عینا تائید می نماید",
+        "start_char": 2064,
+        "end_char": 2144,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ماحصل خواسته خواهان از این قرار است",
+        "start_char": 97,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ن. الف. به خواسته حضانت فرزند شش ماهه ماحصل خواسته خواهان از این قرار است که از خوانده طلاق گرفته است",
+        "start_char": 45,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "واخواه ادعای عدم صلاحیت اخلاقی و روانی واخوانده",
+        "start_char": 1682,
+        "end_char": 1729,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخوانده",
+      "evidence": {
+        "quote": "واخوانده نیز اختلال روانپزشکی موجب سلب اراده یا فقدان قوه تمیزی ندارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظر خواهی آقای ن. الف.",
+        "start_char": 2303,
+        "end_char": 2331,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک به نام م. شش ماهه",
+        "start_char": 174,
+        "end_char": 209,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "طفل",
+      "evidence": {
+        "quote": "حکم محکومیت خوانده به تحویل طفل موسوم به ماهان",
+        "start_char": 976,
+        "end_char": 1022,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 931398",
+        "start_char": 1503,
+        "end_char": 1531,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین به دلیل طلاق از یکدیگر جدا زندگی می‌کنند",
+      "evidence": {
+        "quote": "طرفین بدلیل واقعه طلاق جدا ازیکدیگر زندگی می نمایند",
+        "start_char": 350,
+        "end_char": 401,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مادر دارای اختلال روانپزشکی نیست که موجب سلب اراده شود",
+      "evidence": {
+        "quote": "واخوانده نیز اختلال روانپزشکی موجب سلب اراده یا فقدان قوه تمیزی ندارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

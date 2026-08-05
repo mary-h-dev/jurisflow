@@ -1,0 +1,173 @@
+{
+  "ruling_id": "43602",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "موضوع ماده 230 قانون مدنی را وجه التزامی دانسته",
+        "start_char": 1223,
+        "end_char": 1270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی صادر نموده است",
+        "start_char": 1510,
+        "end_char": 1542,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "باعث فساد شرط می شود",
+        "start_char": 2771,
+        "end_char": 2791,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "دعوی اعسار وی را مردود اعلام نموده",
+        "start_char": 1772,
+        "end_char": 1806,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه التزام قرار دادی",
+        "start_char": 113,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "از رای مذکور فرجامخواهی نموده است",
+        "start_char": 1655,
+        "end_char": 1688,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "لذا نقض دادنامه را تقاضا نموده است",
+        "start_char": 2228,
+        "end_char": 2262,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بیان داشته که خواهان به موجب مبایعه نامه",
+        "start_char": 318,
+        "end_char": 358,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از خوانده خریداری و تحویل گرفته",
+        "start_char": 391,
+        "end_char": 422,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "و فرمانخواه مطابق گواهی مندرج در صفحه 30 پرونده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به موجب مبایعه نامه مورخ 66/5/7",
+        "start_char": 339,
+        "end_char": 370,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "واحد",
+      "evidence": {
+        "quote": "یک واحد اپارتمان را از خوانده خریداری",
+        "start_char": 371,
+        "end_char": 408,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند رسمی ملک را بنام خواهان تنظیم نماید",
+        "start_char": 496,
+        "end_char": 535,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "خوانده شخصا مالک 25٪ از شش دانگ ملک مذکور بصورت مشاعی است",
+        "start_char": 950,
+        "end_char": 1007,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تنظیم سند رسمی انتقال ملک",
+      "evidence": {
+        "quote": "تاخیر در تنظیم سند رسمی انتقال ملک",
+        "start_char": 196,
+        "end_char": 230,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک در رهن بانک قرار دارد",
+      "evidence": {
+        "quote": "و ملک در رهن بانک قرار دارد",
+        "start_char": 1008,
+        "end_char": 1035,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

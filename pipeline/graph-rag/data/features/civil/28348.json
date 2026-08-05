@@ -1,0 +1,183 @@
+{
+  "ruling_id": "28348",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تائید فسخ قرارداد معاوضه",
+        "start_char": 679,
+        "end_char": 703,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "دلیلی مبنی بر وجود حق فسخ برای خواهان تقابل ارائه نگردیده است",
+        "start_char": 2295,
+        "end_char": 2356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "خواهان تقابل به لحاظ خیار تاخیر ثمن حق فسخ داشته است",
+        "start_char": 1848,
+        "end_char": 1900,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم سند رسمی",
+        "start_char": 100,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "به خواهان تقابل انتقال دهند",
+        "start_char": 1357,
+        "end_char": 1384,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "مبنی بر اعاده دادرسی",
+        "start_char": 5259,
+        "end_char": 5279,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان اعلام نموده است",
+        "start_char": 168,
+        "end_char": 190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم سند رسمی",
+        "start_char": 100,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "خواندگان تقابل دو دستگاه آپارتمان",
+        "start_char": 918,
+        "end_char": 951,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "به موجب قرارداد شماره 100824",
+        "start_char": 194,
+        "end_char": 222,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین به پلاک ثبتی 52007",
+        "start_char": 235,
+        "end_char": 266,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "نسبت به تنظیم سند رسمی ملک اقدام نماید",
+        "start_char": 398,
+        "end_char": 436,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "دو دستگاه آپارتمان متعلق به آقای م. م.پ.",
+        "start_char": 933,
+        "end_char": 973,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "به انضمام مبلغ دویست و شصت میلیون تومان",
+        "start_char": 1314,
+        "end_char": 1353,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "آپارتمان‌ها در رهن بانک صادرات است",
+      "evidence": {
+        "quote": "آپارتمانها در قبال مبلغ 4369000000 ریال در قید رهن بانک صادرات می باشد",
+        "start_char": 1731,
+        "end_char": 1801,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده نسبت به انجام تعهدات اقدام نکرده است",
+      "evidence": {
+        "quote": "خواندگان تقابل نسبت به انجام تعهدات خویش اقدام نکرده اند",
+        "start_char": 1487,
+        "end_char": 1543,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک به نام خوانده ثبت شده است",
+      "evidence": {
+        "quote": "دلالت بر ثبت ملک به نام خوانده دعوی دارد",
+        "start_char": 3088,
+        "end_char": 3128,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

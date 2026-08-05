@@ -1,0 +1,103 @@
+{
+  "ruling_id": "38632",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت صادره قطعی بوده",
+        "start_char": 2801,
+        "end_char": 2832,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی صادره حضوری بوده",
+        "start_char": 2835,
+        "end_char": 2872,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارت ناشی از کسر حقوق بازنشستگی",
+        "start_char": 266,
+        "end_char": 305,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت حق بیمه قابل انتقال به نرخ روز",
+        "start_char": 1340,
+        "end_char": 1380,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان مدعی شده",
+        "start_char": 425,
+        "end_char": 440,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت اداره سازمان *و سازمان سازمان",
+        "start_char": 83,
+        "end_char": 121,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "حق بیمه",
+      "evidence": {
+        "quote": "به پرداخت حق بیمه قابل انتقال",
+        "start_char": 185,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم انتقال حق بیمه به نرخ روز توسط سازمان",
+      "evidence": {
+        "quote": "برخلاف قوانین جاری فقط مبلغ 3/136/873 ریال در وجه صندوق بازنشستگی نیروهای مسلح حواله نمود",
+        "start_char": 670,
+        "end_char": 759,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود سابقه پرداخت حق بیمه",
+      "evidence": {
+        "quote": "دارای سابقه پرداخت حق بیمه در سازمان سازمان *بودم",
+        "start_char": 501,
+        "end_char": 550,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

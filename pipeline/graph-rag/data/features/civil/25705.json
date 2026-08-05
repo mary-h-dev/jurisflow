@@ -1,0 +1,193 @@
+{
+  "ruling_id": "25705",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت‌المثل ایام تصرف",
+        "start_char": 80,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "هبه",
+      "evidence": {
+        "quote": "عدول از هبه",
+        "start_char": 291,
+        "end_char": 302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "بر اساس بیع نامه",
+        "start_char": 742,
+        "end_char": 758,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت‌المثل",
+        "start_char": 70,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م. و.",
+        "start_char": 1840,
+        "end_char": 1872,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد دعوی تقابل",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "این قسمت از رأی را عیناً تأیید می‌نماید",
+        "start_char": 3331,
+        "end_char": 3370,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با قبول تجدیدنظرخواهی و نقض رأی تجدیدنظرخواسته",
+        "start_char": 4339,
+        "end_char": 4385,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان به نام م. ک.ز.ز.",
+        "start_char": 0,
+        "end_char": 40,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده به نام م. و.",
+        "start_char": 41,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به آن تجدیدنظرخواهی شده",
+        "start_char": 2015,
+        "end_char": 2043,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "و تجدیدنظر خوانده نیز به استناد ادله ابرازی",
+        "start_char": 2588,
+        "end_char": 2631,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتمان 70 متری در شهرری",
+        "start_char": 108,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بیع‌نامه",
+      "evidence": {
+        "quote": "بر اساس بیع نامه و گواهی شرکت ساختمانی ب.",
+        "start_char": 742,
+        "end_char": 783,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "به استناد سند عادی بیع شماره 2851",
+        "start_char": 2379,
+        "end_char": 2412,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت ملک توسط خواهان محرز شده است",
+      "evidence": {
+        "quote": "دال بر احراز مالکیت خواهان",
+        "start_char": 513,
+        "end_char": 539,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تصرف خوانده در ملک مسلم بوده است",
+      "evidence": {
+        "quote": "و اینکه تصرف خوانده دعوی اصلی مسلم بوده",
+        "start_char": 814,
+        "end_char": 853,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت ملک در هیچ زمان در مالکیت تجدیدنظرخواه نبوده است",
+      "evidence": {
+        "quote": "اعلام نموده ملک در هیچ زمان در مالکیت تجدیدنظرخواه نبوده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

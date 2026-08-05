@@ -1,0 +1,213 @@
+{
+  "ruling_id": "600",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "صدور حکم به ابطال عقد بیع",
+        "start_char": 93,
+        "end_char": 118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مستحق للغیر بودن",
+      "evidence": {
+        "quote": "به لحاظ مستحق للغیر بودن مبیع",
+        "start_char": 186,
+        "end_char": 215,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "موضوع از مصادیق خیار عیب بوده",
+        "start_char": 2580,
+        "end_char": 2609,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "خریدار حق دارد بیع را فسخ کند",
+        "start_char": 2776,
+        "end_char": 2805,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد وجوه پرداختی بابت ثمن مبیع",
+        "start_char": 134,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ضمن اعلام اعتراض ثالث",
+        "start_char": 441,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 589,
+        "end_char": 604,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "عدم اطلاع خواهان از این امر",
+        "start_char": 239,
+        "end_char": 266,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "ضمن دفاع از خوانده",
+        "start_char": 368,
+        "end_char": 386,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "ضمن اعلام اعتراض ثالث",
+        "start_char": 441,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "بایع هنگام تحقق عقد بیع فاقد هرگونه مالکیت بوده",
+        "start_char": 1300,
+        "end_char": 1347,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "و مشتری نیز نسبت به آن جاهل بوده",
+        "start_char": 1348,
+        "end_char": 1380,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از توجه به مستندات دعوی و اظهارات مکتوب در پرونده ایراد و اعتراض تجدیدنظرخواه وارد و موجه است",
+        "start_char": 2449,
+        "end_char": 2542,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "ابطال عقد بیع مورخ 14/4/89",
+        "start_char": 105,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "وجوه پرداختی بابت ثمن مبیع",
+        "start_char": 142,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "ابطال سند رسمی مالکیت انتقال بیع",
+        "start_char": 1621,
+        "end_char": 1653,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اعیانی",
+      "evidence": {
+        "quote": "مبیع متنازع فیه اعم از عرصه و اعیانی",
+        "start_char": 1197,
+        "end_char": 1233,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبیع متعلق به شخص ثالث بوده است",
+      "evidence": {
+        "quote": "مبیع متنازع فیه اعم از عرصه و اعیانی متعلق حق شخص ثالث بوده",
+        "start_char": 1197,
+        "end_char": 1256,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بایع در زمان عقد فاقد مالکیت بوده است",
+      "evidence": {
+        "quote": "بایع هنگام تحقق عقد بیع فاقد هرگونه مالکیت بوده",
+        "start_char": 1300,
+        "end_char": 1347,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مشتری نسبت به مالکیت واقعی جاهل بوده است",
+      "evidence": {
+        "quote": "مشتری نیز نسبت به آن جاهل بوده",
+        "start_char": 1350,
+        "end_char": 1380,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

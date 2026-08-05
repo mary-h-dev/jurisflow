@@ -1,0 +1,223 @@
+{
+  "ruling_id": "30298",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "بابت خسارت قراردادی",
+        "start_char": 174,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "وجه التزام",
+        "start_char": 194,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "انجام تعهد",
+        "start_char": 212,
+        "end_char": 222,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تهاتر",
+      "evidence": {
+        "quote": "تهاترخسارات",
+        "start_char": 3770,
+        "end_char": 3781,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه مبلغ",
+        "start_char": 126,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "از حضور در دفتر اسناد رسمی امتناع",
+        "start_char": 1454,
+        "end_char": 1487,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "استنکاف نموده است",
+        "start_char": 1490,
+        "end_char": 1507,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض آن",
+        "start_char": 7457,
+        "end_char": 7467,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان حاضرشده است",
+        "start_char": 2263,
+        "end_char": 2281,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "طرفیت خانم ص. ن.ش.",
+        "start_char": 73,
+        "end_char": 91,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "متبایعین",
+      "evidence": {
+        "quote": "طرفین جهت تنظیم سند رسمی انتقال در تاریخ 1390/02/30 در دفتر اسناد رسمی شماره 1149 حضور بهم رسانده و نسبت به انتقال قطعی و پرداخت الباقی ثمن معامله اقدام نمایند متاسفانه به دلیل تخلف و عدم آمادگی فروشنده ( خوانده )",
+        "start_char": 724,
+        "end_char": 937,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "عدم آمادگی فروشنده ( خوانده )",
+        "start_char": 908,
+        "end_char": 937,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "مبیع به نام خریدار",
+        "start_char": 235,
+        "end_char": 253,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "انتقال رسمی مبیع",
+        "start_char": 223,
+        "end_char": 239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به موجب مبایعه نامه",
+        "start_char": 384,
+        "end_char": 403,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "ابتیاع ششدانگ یک دستگاه آپارطمان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "باقی ثمن معامله",
+        "start_char": 855,
+        "end_char": 870,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "خریدار چک رمزداربانکی",
+        "start_char": 2954,
+        "end_char": 2975,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم حضور فروشنده در دفتر اسناد رسمی در موعد مقرر",
+      "evidence": {
+        "quote": "خوانده محترم که بخش اعظم از ثمن معامله را دریافت نموده ( -1/300/000/000 ریال ) علیرغم حضور موکل در روز موعود ، مجددا\" از حضور در دفتر اسناد رسمی امتناع و استنکاف نموده است",
+        "start_char": 1336,
+        "end_char": 1507,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تغییر تاریخ تنظیم سند رسمی با توافق طرفین",
+      "evidence": {
+        "quote": "در قبال کاهش هفتاد میلیون ریالی الباقی ثمن معامله ( از -1/520/000/000 به -1/450/000/000 ریال ) ، تاریخ تنظیم سند رسمی از 1390/02/30به 1390/12/25 موکول گردیده",
+        "start_char": 1100,
+        "end_char": 1257,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک در بازداشت بوده و امکان انتقال نبوده است",
+      "evidence": {
+        "quote": "ملک دربازداشت بوده امکان انتقال نبوده است",
+        "start_char": 3786,
+        "end_char": 3827,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

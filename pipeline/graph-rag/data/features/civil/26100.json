@@ -1,0 +1,183 @@
+{
+  "ruling_id": "26100",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "بیع دارای تعریف و تشریفات خاصی بوده",
+        "start_char": 2164,
+        "end_char": 2198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ایجاب و قبول",
+      "evidence": {
+        "quote": "عقد بیع به ایجاب و قبول واقع میشود",
+        "start_char": 2316,
+        "end_char": 2348,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 1964,
+        "end_char": 1988,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام خواندگان به تنظیم سند رسمی",
+        "start_char": 174,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل مبیع",
+      "evidence": {
+        "quote": "الزام خوانده به تحویل مبیع",
+        "start_char": 447,
+        "end_char": 473,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با این وصف که خواندگان ردیف اول ودوم برابرمبیعه نامه های 519مورخ1374/8/9و1385/12/24ووکالتنامه....مورخ1374/10/3دفتر....تهران ویک قطعه زمین به انضمام ابنیه مستحدثه با امتیازات اب-برق-گازوتلفن وجوازاحداث بنای صادره از شهرداری منطقه....تهران واقع درخیابان.... نبش خیابان... پلاک...و..به موکل فروخته اندنظربه اینکه عقدصحیح وقانونی انجام شده وثمن معامله پرداخت شده خواستارالزامات قانونی هستیم.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان به تنظیم سندرسمی",
+        "start_char": 174,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "پس از توافق بایع و مشتری در مبیع",
+        "start_char": 5250,
+        "end_char": 5282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "پس از توافق بایع و مشتری در مبیع",
+        "start_char": 5250,
+        "end_char": 5282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدید نظر ج. الف.",
+        "start_char": 3615,
+        "end_char": 3640,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به نیم دانگ ملک خود را به بیع عادی به تجدیدنظر خواه فروخته است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دانگ مشاع",
+      "evidence": {
+        "quote": "تنظیم سندرسمی انتقال1/5دانگ مشاع ازششدانگ یک قطعه زمین به انضمام ابنیه ومستحدثات",
+        "start_char": 192,
+        "end_char": 272,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "ازجمله سندعادی واستعلام ثبتی",
+        "start_char": 973,
+        "end_char": 1001,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "الزام خوانده به تحویل مبیع",
+        "start_char": 447,
+        "end_char": 473,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "موضوع معین مورد معامله دانسته که ازحیث بایع ثمن",
+        "start_char": 3010,
+        "end_char": 3057,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انجام معامله بیع با سند عادی",
+      "evidence": {
+        "quote": "دلالت سند عادی مورخه 1379/10/25 تجدیدنظر خوانده نیم دانگ ملک خود را به بیع عادی به تجدیدنظر خواه فروخته است",
+        "start_char": 4975,
+        "end_char": 5082,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت ثمن نقداً",
+      "evidence": {
+        "quote": "قید عبارات فروخته و ثمن را نقداً دریافت کردم",
+        "start_char": 5367,
+        "end_char": 5411,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

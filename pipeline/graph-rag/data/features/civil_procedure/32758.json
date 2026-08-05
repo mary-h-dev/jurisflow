@@ -1,0 +1,193 @@
+{
+  "ruling_id": "32758",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": " تسبیبقاعده",
+      "evidence": {
+        "quote": "بی احتیاطی در امر رانندگی",
+        "start_char": 52,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صدمه بدنی غیرعمدی",
+      "evidence": {
+        "quote": "صدمه بدنی غیر عمدی",
+        "start_char": 96,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دیه",
+      "evidence": {
+        "quote": "پرداخت دیه",
+        "start_char": 461,
+        "end_char": 471,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حبس تعزیری",
+      "evidence": {
+        "quote": "حبس تعزیری",
+        "start_char": 659,
+        "end_char": 669,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظر خواهی",
+        "start_char": 726,
+        "end_char": 746,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "قابل واخواهی",
+        "start_char": 1518,
+        "end_char": 1530,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رای مذکور نقض می گردد",
+        "start_char": 2161,
+        "end_char": 2182,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت دیه",
+        "start_char": 458,
+        "end_char": 471,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "تقاضای تجدیدنظر نموده است",
+        "start_char": 1898,
+        "end_char": 1923,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "خواسته را به شرح مذکور تایید می نماید",
+        "start_char": 2608,
+        "end_char": 2645,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "اقادیر صریح متهم",
+        "start_char": 290,
+        "end_char": 306,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "در حق شاکی",
+        "start_char": 623,
+        "end_char": 633,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادیار",
+      "evidence": {
+        "quote": "ادعای دادیار محترم تجدیدنظر",
+        "start_char": 1195,
+        "end_char": 1222,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "دیه میزان ارش شکستگی استخوان ناوی و استخوان میخی داخلی مچ پای چپ و اسیب نسوج نرم (لیگا مانهای) محل شکستگی التیام یافته و جمعا شش و نیم درصد دیه کامل انسان",
+        "start_char": 468,
+        "end_char": 622,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 816",
+        "start_char": 896,
+        "end_char": 913,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تصادف منجر به صدمه بدنی شده است",
+      "evidence": {
+        "quote": "منتهی به ایراد بر صدمه بدنی غیر عمدی",
+        "start_char": 78,
+        "end_char": 114,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "در رای اولیه مواد استنادی ذکر نشده بود",
+      "evidence": {
+        "quote": "مبنی بر اینکه مواد استنادی سهوالقلم و از قلم افتادگی رخ داده",
+        "start_char": 947,
+        "end_char": 1007,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حکم حبس با توجه به نوع جرم برخلاف قانون است",
+      "evidence": {
+        "quote": "صدور حکم حبس با توجه به ماده 3 قانون نحوه وصول برخی از در آمدهای دولت و مصرف آن در موارد معین نسبت به جرایم راهنمایی و رانندگی در صدمات بر خلاف قانون است",
+        "start_char": 2206,
+        "end_char": 2359,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

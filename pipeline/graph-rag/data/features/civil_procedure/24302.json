@@ -1,0 +1,173 @@
+{
+  "ruling_id": "24302",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "امر مختومه",
+      "evidence": {
+        "quote": "مشمول اعتبار امر مختومه می باشد",
+        "start_char": 824,
+        "end_char": 854,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "به انضمام هزینه دادرسی و خسارت تاخیر تادیه",
+        "start_char": 2359,
+        "end_char": 2401,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وتأدیه مبلغ مورد وکالت",
+        "start_char": 91,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تادیه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وتأدیه مبلغ مورد وکالت",
+        "start_char": 91,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "تقاضای رد دعوا داشته",
+        "start_char": 760,
+        "end_char": 780,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته در قسمت صدور حکم به پرداخت خسارت تاخیر تادیه را نقض می نماید",
+        "start_char": 4090,
+        "end_char": 4173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته در قسمت معنونه را تایید می نماید",
+        "start_char": 3712,
+        "end_char": 3767,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خلاصه اظهارات خواهان و وکیل وی",
+        "start_char": 209,
+        "end_char": 239,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت شرکت م. با وکالت آقای ح. ب.م. به خواسته مطالبه وتأدیه مبلغ مورد وکالت به خوانده",
+        "start_char": 52,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی دلیل یا مدرک قانع کننده",
+        "start_char": 2730,
+        "end_char": 2789,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 9301046 مورخ 93/11/30 صادره از شعبه اول دادگاه حقوقی رودهن که به موجب آن راجع به دعوی تجدیدنظرخوانده",
+        "start_char": 2054,
+        "end_char": 2176,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "اقدام به تنظیم سند وکالت شماره 997420",
+        "start_char": 318,
+        "end_char": 355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "مازاد ارزش پلاک ثبتی... فرعی از 9 اصلی رودهن",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 9301046",
+        "start_char": 2054,
+        "end_char": 2083,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تنظیم سند وکالت برای تضمین قرارداد",
+      "evidence": {
+        "quote": "به منظور تضمین قرارداد شماره 2172/ه مورخ 1380/11/21 با خوانده اقدام به تنظیم سند وکالت شماره 997420",
+        "start_char": 256,
+        "end_char": 355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود اختلاف در ارزش ملک",
+      "evidence": {
+        "quote": "مازاد ارزش پلاک ثبتی... فرعی از 9 اصلی رودهن را مسترد نداشته اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "825",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "نفقه زن به عهده شوهر است",
+        "start_char": 143,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "نفقه در مقابل تمکین است",
+        "start_char": 262,
+        "end_char": 285,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان آن صادر و اعلام می شود",
+        "start_char": 750,
+        "end_char": 785,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تهیه مسکن",
+      "evidence": {
+        "quote": "به خواسته الزام به تهیه مسکن",
+        "start_char": 69,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "امتناع کند",
+        "start_char": 333,
+        "end_char": 343,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی صادره دادگاه بدوی را تأیید می نماید",
+        "start_char": 1517,
+        "end_char": 1556,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "طرفیت همسرش آقای خ. فرزند الف. به خواسته الزام به تهیه مسکن",
+        "start_char": 38,
+        "end_char": 97,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در پرونده حاضر خوانده با ارائه دادنامه",
+        "start_char": 368,
+        "end_char": 406,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "در معیت دو نفر از مأمورین واحد مددکار اجتماعی در منزل تهیه شده توسط زوج",
+        "start_char": 1654,
+        "end_char": 1725,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "توضیحاً که زوجه به توجه به حکم تمکین",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 2060 15/12/90",
+        "start_char": 399,
+        "end_char": 426,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "برگ اجرائی شماره 105 11/5/91",
+        "start_char": 517,
+        "end_char": 545,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده حکم تمکین دارد",
+      "evidence": {
+        "quote": "متضمن الزام خواهان به تمکین از خوانده گردیده",
+        "start_char": 470,
+        "end_char": 514,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان از تمکین امتناع کرده است",
+      "evidence": {
+        "quote": "خوانده با ارائه دادنامه... که متضمن الزام خواهان به تمکین از خوانده گردیده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه در حال نشوز است",
+      "evidence": {
+        "quote": "زوجه به توجه به حکم تمکین و اجرائیه صادره در حال نشوز بسر می برد",
+        "start_char": 1264,
+        "end_char": 1328,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

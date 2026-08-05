@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25927",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده به استرداد جهیزیه",
+        "start_char": 413,
+        "end_char": 452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "سند مذکور اعتبار سند رسمی را دارد",
+        "start_char": 1355,
+        "end_char": 1388,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده به استرداد جهیزیه",
+        "start_char": 413,
+        "end_char": 452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظر خواهی خانم س. پ.",
+        "start_char": 714,
+        "end_char": 739,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انکار",
+      "evidence": {
+        "quote": "امضاء ذیل سیاهه را قبول داشته و انکار نکرده است",
+        "start_char": 1276,
+        "end_char": 1323,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "دلیلی بر مالکیت خو د اقامه نکرده است",
+        "start_char": 1414,
+        "end_char": 1450,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان صادر واعلام می نماید",
+        "start_char": 545,
+        "end_char": 578,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ف. خ. فرزند ن.",
+        "start_char": 38,
+        "end_char": 66,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه خانم س. پ.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده ( زوج )",
+        "start_char": 1252,
+        "end_char": 1275,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "امضاء ذیل سیاهه را قبول داشته و انکار نکرده است",
+        "start_char": 1276,
+        "end_char": 1323,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "استرداد جهیزیه",
+        "start_char": 438,
+        "end_char": 452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "تصویر سند ازدواج",
+        "start_char": 157,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ماشین",
+      "evidence": {
+        "quote": "ماشین لباسشویی",
+        "start_char": 1791,
+        "end_char": 1805,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "برخی وسایل جهیزیه توسط خوانده تهیه شده است",
+      "evidence": {
+        "quote": "دلالت دارد برخی وسایل جهیزیه توسط وی تهیه شده است",
+        "start_char": 277,
+        "end_char": 326,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سیاهه جهیزیه به امضای زوج و پدر او و دیگران رسیده است",
+      "evidence": {
+        "quote": "سیاهه مذکور به امضاء زوج و پدر او و دیگران رسیده است",
+        "start_char": 1197,
+        "end_char": 1249,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

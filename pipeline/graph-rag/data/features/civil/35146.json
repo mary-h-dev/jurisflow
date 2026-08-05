@@ -1,0 +1,183 @@
+{
+  "ruling_id": "35146",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام زندگی مشترک",
+        "start_char": 96,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "چرا که خواهان محترم تمکین ننموده",
+        "start_char": 1365,
+        "end_char": 1397,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "در مورد نفقه اش حکم به بی حقی ایشان صادر شده",
+        "start_char": 1400,
+        "end_char": 1444,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "از باب تسبیب در حق خواهان",
+        "start_char": 2237,
+        "end_char": 2262,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه اجرت المثل",
+        "start_char": 88,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "بایست علاوه بر اجرت المثل نیمی از اموال را به همسرش پرداخت نماید",
+        "start_char": 852,
+        "end_char": 916,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض و تجدیدنظرخواهی",
+        "start_char": 2324,
+        "end_char": 2351,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "آن را نقض و حکم به ردّ دعوی خواهان",
+        "start_char": 3222,
+        "end_char": 3256,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بخواسته مطالبه اجرت المثل",
+        "start_char": 88,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به عقددائم خوانده در آمدم",
+        "start_char": 267,
+        "end_char": 292,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به دستور زوج و با عدم قصد تبرع انجام داده باشد",
+        "start_char": 1807,
+        "end_char": 1853,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "چنانچه زوجه کارهایی را که شرعاً به عهده وی نبوده",
+        "start_char": 1708,
+        "end_char": 1756,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "باعنایت به مراتب دادگاه ضمن وارد دانستن اعتراض معترض",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "بایست علاوه بر اجرت المثل نیمی از اموال را به همسرش پرداخت نماید",
+        "start_char": 852,
+        "end_char": 916,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ازدواج طرفین در سال ۱۳۹۲",
+      "evidence": {
+        "quote": "مورخ 11 / 2 / 1392 به عقددائم خوانده در آمدم",
+        "start_char": 248,
+        "end_char": 292,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت به پایان رسیده است",
+      "evidence": {
+        "quote": "پس از گذشت هفت ماه یعنب در اردیبهشت ماه 1393 بنا به دلایلی تاکنون از هم جدا زندگی می کنند",
+        "start_char": 1206,
+        "end_char": 1295,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دارای فرزند مشترک هستند",
+      "evidence": {
+        "quote": "ثمره این ازدواج یک دختر 7 ماهه می باشد",
+        "start_char": 296,
+        "end_char": 334,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

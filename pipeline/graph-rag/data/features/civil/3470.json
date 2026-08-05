@@ -1,0 +1,163 @@
+{
+  "ruling_id": "3470",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال مبایعه نامه عادی",
+        "start_char": 77,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "تقدیم دادخواست به خواسته اعسار",
+        "start_char": 586,
+        "end_char": 616,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مستحق للغیر",
+      "evidence": {
+        "quote": "مبیع مستحق للغیر در آید",
+        "start_char": 2277,
+        "end_char": 2300,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "ردّ این موضوع که معامله فضولی نبوده",
+        "start_char": 2533,
+        "end_char": 2568,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه ثمن و کلیه خسارات وارده",
+        "start_char": 172,
+        "end_char": 202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "محکومیت خوانده به استرداد ثمن معامله",
+        "start_char": 1697,
+        "end_char": 1733,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "بنابراین با اختیار حاصل از بند ج ماده 401 قانون آیین دادرسی مدنی نقض و جهت رسیدگی به شعبه هم عرض ارجاع می شود",
+        "start_char": 3252,
+        "end_char": 3361,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بررسی اعسار خواهان",
+        "start_char": 790,
+        "end_char": 808,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "نسخه ثانی دادخواست برای خوانده",
+        "start_char": 396,
+        "end_char": 426,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمانده",
+      "evidence": {
+        "quote": "وکیل فرجام خوانده",
+        "start_char": 2471,
+        "end_char": 2488,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "مبایعه نامه عادی مورخ 13/10/85",
+        "start_char": 93,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "مطالبه ثمن و کلیه خسارات وارده",
+        "start_char": 172,
+        "end_char": 202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "امکان انتقال رسمی و تحویل مبیع به خواهان وجود ندارد",
+        "start_char": 1431,
+        "end_char": 1482,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "بایع قادر به تحویل مبیع نبوده است",
+      "evidence": {
+        "quote": "بایع قادر به تحویل مبیع نبوده",
+        "start_char": 140,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت رسمی ملک در اختیار خوانده نیست",
+      "evidence": {
+        "quote": "خوانده در بیع قرارداد موصوف مالکیت رسمی نداشته",
+        "start_char": 1340,
+        "end_char": 1386,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

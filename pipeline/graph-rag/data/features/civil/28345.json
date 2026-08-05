@@ -1,0 +1,183 @@
+{
+  "ruling_id": "28345",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "با توجه به اصل لزوم قراردادها",
+        "start_char": 647,
+        "end_char": 676,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "از آثار عقد بیع انتقال رسمی مبیع به خریدار است",
+        "start_char": 685,
+        "end_char": 731,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال رسمی",
+      "evidence": {
+        "quote": "الزام خواندگان به تنظیم و انتقال رسمی",
+        "start_char": 115,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واگذار",
+      "evidence": {
+        "quote": "قطعه مذکور را طی قرارداد عادی شماره 22220 مورخه 60/11/21 به خوانده دوم واگذار",
+        "start_char": 475,
+        "end_char": 552,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "منتقل",
+      "evidence": {
+        "quote": "خوانده دوم نیز موضوع خواسته را طی مبایعه نامه عادی مورخه 67/1/25 به خواهان منتقل نموده است",
+        "start_char": 555,
+        "end_char": 645,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را نقض",
+        "start_char": 2073,
+        "end_char": 2097,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی به طرفیت نامبرده صادر و اعلام می گردد",
+        "start_char": 1333,
+        "end_char": 1383,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان 1 - مسکن و شهرسازی تهران 2 - ش. س.ک.",
+        "start_char": 50,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "خوانده اول مالک رسمی پلاک ثبتی یاد شده می باشد",
+        "start_char": 423,
+        "end_char": 469,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به خواهان منتقل نموده است",
+        "start_char": 620,
+        "end_char": 645,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 00356/94 که بموجب آن تجدیدنظرخواه به تنظیم وانتقال رسمی",
+        "start_char": 1645,
+        "end_char": 1722,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "تنظیم و انتقال رسمی شش دانگ ملک بشماره 26254 قطعه 56 از بلوک دی پلاک ثبتی 138",
+        "start_char": 133,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "طی قرارداد عادی شماره 22220 مورخه 60/11/21",
+        "start_char": 489,
+        "end_char": 531,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "طی مبایعه نامه عادی مورخه 67/1/25",
+        "start_char": 586,
+        "end_char": 619,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده اول مالک رسمی ملک است",
+      "evidence": {
+        "quote": "خوانده اول مالک رسمی پلاک ثبتی یاد شده می باشد",
+        "start_char": 423,
+        "end_char": 469,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پایان کار اخذ نشده است",
+      "evidence": {
+        "quote": "تا زمانی که پایان کار اخذ نگردد",
+        "start_char": 1813,
+        "end_char": 1843,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مفاصا حساب محقق نشده است",
+      "evidence": {
+        "quote": "مادامی که مفاصا حساب محقق نگردد",
+        "start_char": 1846,
+        "end_char": 1877,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "35350",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "توقف",
+      "evidence": {
+        "quote": "تاریخ توقف تعیین شده است",
+        "start_char": 305,
+        "end_char": 329,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأدیه",
+      "evidence": {
+        "quote": "تادیه هرقرض اعم ازحال یاموجل",
+        "start_char": 343,
+        "end_char": 371,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "باطل",
+      "evidence": {
+        "quote": "باطل وبلااثرمی باشد",
+        "start_char": 402,
+        "end_char": 421,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه9500000000ریال",
+        "start_char": 115,
+        "end_char": 145,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "برداشت",
+      "evidence": {
+        "quote": "مبلغ 500000000ریال ازحساب شرکت مذکوربابت بدهی برداشت نموده است",
+        "start_char": 485,
+        "end_char": 547,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "حکم بر محکومیت خوانده به استرداد مبلغ500000000ریال",
+        "start_char": 682,
+        "end_char": 732,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی را مردود اعلام",
+        "start_char": 1504,
+        "end_char": 1532,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "اداره",
+      "evidence": {
+        "quote": "دعوی اداره تصفیه امورورشکستگی تهران",
+        "start_char": 8,
+        "end_char": 43,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "بانک",
+      "evidence": {
+        "quote": "به طرفیت بانک م.",
+        "start_char": 76,
+        "end_char": 92,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "ازسوی خوانده",
+        "start_char": 456,
+        "end_char": 468,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درحق خواهان",
+        "start_char": 733,
+        "end_char": 744,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ 500000000ریال",
+        "start_char": 485,
+        "end_char": 503,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شرکت ورشکسته اعلام شده است",
+      "evidence": {
+        "quote": "شرکت خواهان ورشکسته اعلام",
+        "start_char": 256,
+        "end_char": 281,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بانک مبلغی را از حساب شرکت برداشت کرده است",
+      "evidence": {
+        "quote": "مبلغ 500000000ریال ازحساب شرکت مذکوربابت بدهی برداشت نموده است",
+        "start_char": 485,
+        "end_char": 547,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

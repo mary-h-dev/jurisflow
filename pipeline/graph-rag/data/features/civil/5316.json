@@ -1,0 +1,203 @@
+{
+  "ruling_id": "5316",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "امانی",
+      "evidence": {
+        "quote": "ید زوج بر جهیزیه امانی تلقی می شود",
+        "start_char": 309,
+        "end_char": 343,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اباحه",
+      "evidence": {
+        "quote": "اذن اباحه استفاده است",
+        "start_char": 1694,
+        "end_char": 1715,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اذن",
+      "evidence": {
+        "quote": "اذن ربیع",
+        "start_char": 1718,
+        "end_char": 1726,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد جهیزیه",
+        "start_char": 108,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض وارد",
+      "evidence": {
+        "quote": "لذا اعتراض تجدیدنظرخواهی وارد نمی باشد",
+        "start_char": 1841,
+        "end_char": 1879,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی خواهان",
+        "start_char": 0,
+        "end_char": 30,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده",
+        "start_char": 71,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از رسیدگی",
+        "start_char": 2015,
+        "end_char": 2050,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "ید زوج بر جهیزیه امانی تلقی می شود",
+        "start_char": 309,
+        "end_char": 343,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه مدعی گردید",
+        "start_char": 1514,
+        "end_char": 1529,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "استرداد جهیزیه",
+        "start_char": 118,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سیاهه عادی",
+      "evidence": {
+        "quote": "به شرح سیاهه عادی",
+        "start_char": 133,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فرش",
+      "evidence": {
+        "quote": "یک تخته فرش ماشینی",
+        "start_char": 843,
+        "end_char": 861,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "یخچال",
+      "evidence": {
+        "quote": "یک دستگاه یخچال فریزر",
+        "start_char": 869,
+        "end_char": 890,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاق گاز",
+      "evidence": {
+        "quote": "یک دستگاه اجاق گاز",
+        "start_char": 891,
+        "end_char": 909,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تلویزیون",
+      "evidence": {
+        "quote": "یک دستگاه تلویزیون",
+        "start_char": 912,
+        "end_char": 930,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه‌های دادرسی",
+      "evidence": {
+        "quote": "و نیز هزینه های دادرسی",
+        "start_char": 949,
+        "end_char": 971,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده دلیلی بر استرداد جهیزیه ارائه نکرده است",
+      "evidence": {
+        "quote": "خوانده دلیلی بر استرداد جهیزیه مورد مطالبه اقامه ننموده",
+        "start_char": 251,
+        "end_char": 306,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه برخی از وسایل را فروخته است",
+      "evidence": {
+        "quote": "زوجه مدعی گردید چهار قلم از قبیل لباسشویی و ظرف شویی و چرخ خیاطی را فروخت",
+        "start_char": 1514,
+        "end_char": 1587,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

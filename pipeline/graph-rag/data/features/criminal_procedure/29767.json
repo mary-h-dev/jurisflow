@@ -1,0 +1,133 @@
+{
+  "ruling_id": "29767",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرارعدم صلاحیت به شایستگی دادگاه کیفری 2 تهران صادر کرده اند",
+        "start_char": 219,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "این دادگاه صالح به رسیدگی نمی باشد",
+        "start_char": 947,
+        "end_char": 981,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اختلاف",
+      "evidence": {
+        "quote": "حل اختلاف می نماید",
+        "start_char": 2528,
+        "end_char": 2546,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "مبادرت به صدور قرارعدم صلاحیت نموده اند",
+        "start_char": 555,
+        "end_char": 594,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "اصل پرونده را به دادگاه ذیصلاحیت ارسال فرمایید",
+        "start_char": 1697,
+        "end_char": 1743,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهمان",
+      "evidence": {
+        "quote": "درخصوص هرسه متهم صادر گردیده است",
+        "start_char": 444,
+        "end_char": 476,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل تعیینی",
+        "start_char": 543,
+        "end_char": 554,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "از طریق دفتر بنظر رسید طرفین حاضر نیستند بشرح اوراق پرونده",
+        "start_char": 79,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کیفرخواست",
+      "evidence": {
+        "quote": "وکیفرخواست نیز درتاریخ 94/6/2 درخصوص هرسه متهم صادر گردیده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهمان در زمان وقوع جرم زیر هجده سال بوده‌اند",
+      "evidence": {
+        "quote": "آقایان ع. ص. و م. ی.الف هردو در زمان وقوع جرائم وتحقیقات دادسرای ناحیه 29 تهران کمترازهجده سال تمام بوده اند",
+        "start_char": 304,
+        "end_char": 412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهمان در زمان شروع دادرسی بالغ شده‌اند",
+      "evidence": {
+        "quote": "مشارالیهم، قبل از شروع به رسیدگی ماهیتی، بزرگسال (بالای 18 سال) می باشند",
+        "start_char": 1441,
+        "end_char": 1513,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اختلاف در صلاحیت بین دو شعبه وجود دارد",
+      "evidence": {
+        "quote": "در خصوص اختلاف حادث شده بین رئیس شعبه سوم دادگاه اطفال و نوجوانان تهران و رئیس شعبه 1130 دادگاه کیفری دو تهران",
+        "start_char": 1851,
+        "end_char": 1961,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

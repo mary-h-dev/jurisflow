@@ -1,0 +1,133 @@
+{
+  "ruling_id": "28417",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "وجود تعهد قراردادی در نظر دادگاه محرز و مسلم است",
+        "start_char": 413,
+        "end_char": 461,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "امر عدمی نیازی به اثبات ندارد",
+        "start_char": 716,
+        "end_char": 745,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت",
+        "start_char": 86,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "رد اعتراض دادنامه",
+        "start_char": 1999,
+        "end_char": 2016,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "استماع اظهارات وکیل محترم خواهان",
+        "start_char": 290,
+        "end_char": 322,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت",
+        "start_char": 86,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه ملزم به پرداخت",
+        "start_char": 1580,
+        "end_char": 1608,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "بموجب قرارداد خرید سلف استنادی خواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وام",
+      "evidence": {
+        "quote": "به پرداخت وام خرید سلف",
+        "start_char": 99,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تسهیلات و وام",
+      "evidence": {
+        "quote": "مبنی بر پرداخت وجه تسهیلات",
+        "start_char": 830,
+        "end_char": 856,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده دلیلی بر ایفای تعهد ارائه نکرده است",
+      "evidence": {
+        "quote": "خوانده محترم دلیلی بر ایفای تعهد یا سقوط آن به دادگاه ارائه ننموده است",
+        "start_char": 469,
+        "end_char": 539,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بانک تسهیلات را دریافت نکرده است",
+      "evidence": {
+        "quote": "تسهیلات شماره.... دریافت ننموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

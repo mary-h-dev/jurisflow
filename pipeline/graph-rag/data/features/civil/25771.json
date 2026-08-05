@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25771",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خارجی",
+      "evidence": {
+        "quote": "به خواسته اجرای حکم دادگاه خارجی",
+        "start_char": 82,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 1581,
+        "end_char": 1598,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نظم عمومی",
+      "evidence": {
+        "quote": "با قوانین و نظم عمومی داخلی ایران مغایرت دارد",
+        "start_char": 726,
+        "end_char": 771,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "موضوع تعهد تأدیه وجه نقد می باشد",
+        "start_char": 2493,
+        "end_char": 2525,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "به این دادگاه تقدیم نموده اند",
+        "start_char": 161,
+        "end_char": 190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "ضمن صدور قرار قبولی تقاضا",
+        "start_char": 894,
+        "end_char": 919,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض قرار",
+      "evidence": {
+        "quote": "ضمن نقض قرار معترض عنه",
+        "start_char": 3096,
+        "end_char": 3118,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را جهت رسیدگی و اتخاذ تصمیم قانونی به دادگاه بدوی اعاده می نماید",
+        "start_char": 3119,
+        "end_char": 3190,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "بانک",
+      "evidence": {
+        "quote": "به وکالت از بانک ص.",
+        "start_char": 28,
+        "end_char": 47,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "علیه محکوم علیه آقای ح. ی. ش.الف.",
+        "start_char": 2038,
+        "end_char": 2071,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی بانک صادرات ایران",
+        "start_char": 1323,
+        "end_char": 1354,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "درهم",
+      "evidence": {
+        "quote": "محکوم به پرداخت مبلغ 347/489درهم و 59 فلس",
+        "start_char": 280,
+        "end_char": 321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "مطابق دادنامه صادره از دادگاه بدوی تجاری دبی",
+        "start_char": 203,
+        "end_char": 247,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تسهیلات بانکی",
+      "evidence": {
+        "quote": "اقدام به اخذ وام و تسهیلات بانکی",
+        "start_char": 2127,
+        "end_char": 2159,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "صدور حکم در دادگاه تجاری دبی",
+      "evidence": {
+        "quote": "دادنامه صادره از دادگاه بدوی تجاری دبی",
+        "start_char": 209,
+        "end_char": 247,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود قرارداد وام با شرط خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "محکوم علیه با شرایط مندرج در قرارداد اخذ وام که خسارت تأخیر تأدیه تعیین شده یکی از آن شرایط بوده موافقت نموده است",
+        "start_char": 2235,
+        "end_char": 2348,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

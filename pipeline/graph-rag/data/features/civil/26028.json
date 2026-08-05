@@ -1,0 +1,153 @@
+{
+  "ruling_id": "26028",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "بخواسته اعتراض ثالث",
+        "start_char": 119,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "هیچگونه دلالتی بر بیع ندارد",
+        "start_char": 1559,
+        "end_char": 1586,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "دلالتی بر انتقال مالکیت ندارد",
+        "start_char": 930,
+        "end_char": 958,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 1860,
+        "end_char": 1884,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "پلاک.... فرعی از.... اصلی را نسبت به سهم الارث آقای ر. غ. توقیف نموده اند",
+        "start_char": 234,
+        "end_char": 307,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مبایعه نامه ناخوانا وغیر شفاف و از نوع اسناد عادی است و صرفاً فیمابین خواهان و آقای ر. غ. تنظیم گردیده",
+        "start_char": 777,
+        "end_char": 879,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "و اعتبار نسبت به ثالث ندارد",
+        "start_char": 880,
+        "end_char": 907,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "اصلی",
+      "evidence": {
+        "quote": "صدور حکم بر بطلان دعوی معترض ثالث اصلی",
+        "start_char": 2228,
+        "end_char": 2266,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "توقیف پلاک ثبتی...فرعی از....اصلی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه عادی",
+      "evidence": {
+        "quote": "مطابق مبایعه نامه ی عادی که کپی آن پیوست می باشد",
+        "start_char": 328,
+        "end_char": 376,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "مطابق وکالت نامه شماره... به موکل وکالت نیز داده شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "رفع توقیف ازملک مذکور",
+        "start_char": 529,
+        "end_char": 550,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبیعه نامه عادی و غیر شفاف است",
+      "evidence": {
+        "quote": "مبایعه نامه ناخوانا وغیر شفاف و از نوع اسناد عادی است",
+        "start_char": 777,
+        "end_char": 830,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت ملک در دفتر املاک ثبت شده است",
+      "evidence": {
+        "quote": "ملک متنازع فیه ، سابقه ثبتی دارد",
+        "start_char": 1064,
+        "end_char": 1096,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

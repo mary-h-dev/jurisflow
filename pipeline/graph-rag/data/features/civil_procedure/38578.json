@@ -1,0 +1,203 @@
+{
+  "ruling_id": "38578",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "تقاضای صدور حکم ورشکستگی",
+        "start_char": 548,
+        "end_char": 572,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوای خواهان",
+        "start_char": 881,
+        "end_char": 906,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تاجر بودن",
+      "evidence": {
+        "quote": "حکم قطعی مبنی بر تاجر بودن تجدیدنظرخواه",
+        "start_char": 1093,
+        "end_char": 1132,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "در خصوص دادخواست اعتراض ثالث الف",
+        "start_char": 0,
+        "end_char": 32,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "پس از تجدیدنظرخواهی خواهان بدوی",
+        "start_char": 950,
+        "end_char": 981,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوای",
+      "evidence": {
+        "quote": "با رد دعوای وارد ثالث",
+        "start_char": 2146,
+        "end_char": 2167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "دادخواست خود را مسترد نموده است",
+        "start_char": 2441,
+        "end_char": 2472,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "قرار ابطال دادخواست وی صادر و اعلام میگردد",
+        "start_char": 2561,
+        "end_char": 2603,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوای اعتراض ثالث",
+        "start_char": 3071,
+        "end_char": 3104,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان بدوی",
+        "start_char": 508,
+        "end_char": 526,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "دعوای وارد ثالث سازمان *",
+        "start_char": 575,
+        "end_char": 599,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "طلیعه ی پذیرش تجدیدنظرخواه",
+        "start_char": 1925,
+        "end_char": 1951,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌له",
+      "evidence": {
+        "quote": "بطرفیت محکوم له و محکوم علیه رای مورد اعتراض باشد",
+        "start_char": 2774,
+        "end_char": 2823,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "بطرفیت محکوم له و محکوم علیه رای مورد اعتراض باشد",
+        "start_char": 2774,
+        "end_char": 2823,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه ی قطعی شماره ی*1402/05/18",
+        "start_char": 340,
+        "end_char": 381,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "ضمن لایحه ی تقدیمی مثبوت به شماره ی*",
+        "start_char": 2403,
+        "end_char": 2439,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه تاجر است",
+      "evidence": {
+        "quote": "حکم قطعی مبنی بر تاجر بودن تجدیدنظرخواه ، بنا به جهات منعکس در دادنامه ی مزبور ، صادر شده است",
+        "start_char": 1093,
+        "end_char": 1186,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بانک توسعه تعاون دادخواست خود را مسترد کرده است",
+      "evidence": {
+        "quote": "نامیرده ضمن لایحه ی تقدیمی مثبوت به شماره ی*، دادخواست خود را مسترد نموده است",
+        "start_char": 2395,
+        "end_char": 2472,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرف دعوی اعتراض ثالث، محکوم له یا محکوم علیه نیستند",
+      "evidence": {
+        "quote": "اما طرف دعوی اعتراض ثالث واقع نشدند",
+        "start_char": 2948,
+        "end_char": 2983,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

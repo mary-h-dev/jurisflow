@@ -1,0 +1,153 @@
+{
+  "ruling_id": "35328",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مستحق للغیر درآمدن مبیع",
+      "evidence": {
+        "quote": "بلحاظ مستحق للغیر درامدن مبیع",
+        "start_char": 165,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "با وصف تشخیص معامله معارض مالکیت",
+        "start_char": 1112,
+        "end_char": 1144,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "اعلام ابطال مبایعه نامه عادی",
+        "start_char": 71,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت قیمت زمین",
+        "start_char": 196,
+        "end_char": 228,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "الزام خوانده به استرداد مبلغ یکصد و بیست میلیون ریال",
+        "start_char": 1409,
+        "end_char": 1461,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 2545,
+        "end_char": 2565,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دعوی خواهان ع.س.ی.",
+        "start_char": 0,
+        "end_char": 25,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده ف. م.",
+        "start_char": 41,
+        "end_char": 60,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به مستحق للغیر درآمدن مبیع اقرار",
+        "start_char": 2163,
+        "end_char": 2208,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "مبایعه نامه عادی مورخ 10/2/84",
+        "start_char": 83,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "نسبت به یک قطعه زمین تحت پلاک ثبتی",
+        "start_char": 113,
+        "end_char": 147,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "به موجب سند قطعی... در دفتر خانه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "سند قطعی مالکیت توسط شخص ثالث ابطال شده است",
+      "evidence": {
+        "quote": "حکم به ابطال سند ایشان را صادر نموده است",
+        "start_char": 693,
+        "end_char": 733,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده به استرداد ثمن و ماب‌التفاوت قیمت محکوم شده است",
+      "evidence": {
+        "quote": "حکم به الزام خوانده به استرداد مبلغ یکصد و بیست میلیون ریال بابت استرداد ثمن و نیز پرداخت مبلغ هفتصد و بیست میلیون ریال مابه التفاوت ثمن مذکور وقیمت روز ملک مذکور",
+        "start_char": 1402,
+        "end_char": 1564,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

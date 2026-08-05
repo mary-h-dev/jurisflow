@@ -1,0 +1,123 @@
+{
+  "ruling_id": "4958",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "با ادعای استفاده از حق حبس",
+        "start_char": 274,
+        "end_char": 300,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "تمکین خاص است",
+        "start_char": 404,
+        "end_char": 417,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 98,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدید نظر خواهی خانم ب.ح.",
+        "start_char": 794,
+        "end_char": 819,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مفاد دادخواست خواهان",
+        "start_char": 138,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 98,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین از زوج",
+        "start_char": 98,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه با ادعای استفاده از حق حبس",
+        "start_char": 269,
+        "end_char": 300,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "تا مهریه به او تسلیم نشده",
+        "start_char": 1089,
+        "end_char": 1114,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تمکین زوجه با استناد به حق حبس",
+      "evidence": {
+        "quote": "زوجه با ادعای استفاده از حق حبس، حاضر به تمکین نمی گردد",
+        "start_char": 269,
+        "end_char": 324,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تسلیم مهریه",
+      "evidence": {
+        "quote": "تا مهریه به او تسلیم نشده",
+        "start_char": 1089,
+        "end_char": 1114,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "4555",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "امانی",
+      "evidence": {
+        "quote": "ید زوج بر جهیزیه امانی تلقی می گردد",
+        "start_char": 589,
+        "end_char": 624,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به خواسته استرداد جهیزیه",
+        "start_char": 83,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "منکر",
+      "evidence": {
+        "quote": "منکر وجـود عیـن چنیـن امـوالـی بـوده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رجوع",
+      "evidence": {
+        "quote": "از اذن خود رجوع کرده",
+        "start_char": 701,
+        "end_char": 721,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکوم و",
+      "evidence": {
+        "quote": "خوانده را به استرداد عین جهیزیه مندرج در سیاهه مضبوط در پرونده در حق خواهان محکوم",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه یادشده را عیناً تأیید و ابرام می گردد",
+        "start_char": 2324,
+        "end_char": 2369,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خانم ص.ک. فرزند الف. به طرفیت آقای ح.الف. فرزند م.",
+        "start_char": 0,
+        "end_char": 63,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکمه نظر به اینکه خوانده با وصف ابلاغ قانونی در جلسه دادرسی حاضر نگردیده",
+        "start_char": 254,
+        "end_char": 327,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "محکومیت خوانده بدوی (تجدیدنظـرخواه)",
+        "start_char": 1614,
+        "end_char": 1649,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق خواهان بدوی (تجدیدنظر خوانده)",
+        "start_char": 1758,
+        "end_char": 1793,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "استرداد جهیزیه",
+        "start_char": 93,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سیاهه عادی",
+      "evidence": {
+        "quote": "به شرح سیاهه عادی استنادی",
+        "start_char": 108,
+        "end_char": 133,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اساسی",
+      "evidence": {
+        "quote": "رونوشت فاکتورهای خرید برخی اقلام اساسی",
+        "start_char": 136,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دادرسی حاضر نشده است",
+      "evidence": {
+        "quote": "خوانده با وصف ابلاغ قانونی در جلسه دادرسی حاضر نگردیده",
+        "start_char": 273,
+        "end_char": 327,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج حق استفاده از جهیزیه را در زندگی مشترک داشته است",
+      "evidence": {
+        "quote": "زوج فقط حق استفاده از آن در زندگی مشترک را داشته",
+        "start_char": 627,
+        "end_char": 675,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان از اذن خود در استفاده از جهیزیه رجوع کرده است",
+      "evidence": {
+        "quote": "خواهان با طرح دادخواست از اذن خود رجوع کرده",
+        "start_char": 678,
+        "end_char": 721,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

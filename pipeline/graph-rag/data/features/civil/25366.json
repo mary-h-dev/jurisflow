@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25366",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "عبارت است از: ابطال سند با احتساب خسارات دادرسی",
+        "start_char": 135,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "موجبات بطلان آن به نظر این دادگاه فراهم نبوده",
+        "start_char": 2297,
+        "end_char": 2342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "قبیل بطلان یا فسخ یا انفساخ یا اقاله",
+        "start_char": 1254,
+        "end_char": 1290,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "قبیل بطلان یا فسخ یا انفساخ یا اقاله",
+        "start_char": 1254,
+        "end_char": 1290,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "اقرار به دین تلقی",
+        "start_char": 2349,
+        "end_char": 2366,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "عبارت است از: ابطال سند با احتساب خسارات دادرسی",
+        "start_char": 135,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم م ن. ل.م.ط.",
+        "start_char": 2015,
+        "end_char": 2045,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته",
+        "start_char": 2506,
+        "end_char": 2536,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان نخستین صادر و اعلام می‌گردد",
+        "start_char": 2537,
+        "end_char": 2589,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان آقای ع. الف. ت.",
+        "start_char": 0,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 63,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "اشتغال ذمه تجدیدنظرخوانده",
+        "start_char": 2263,
+        "end_char": 2288,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "حکم بر ابطال سند شماره 43764",
+        "start_char": 1673,
+        "end_char": 1701,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مهر در عقد نکاح معلوم بوده است",
+      "evidence": {
+        "quote": "واژه «هکذا » نیز به این معنی است که زوج عقد نکاح را بر مبنای بیان زوجه و تعیین مهر معلوم توسط او قبول می‌کند",
+        "start_char": 623,
+        "end_char": 731,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند شماره 43764 در دفتر اسناد رسمی تهران ثبت شده است",
+      "evidence": {
+        "quote": "حکم به ابطال سند شماره 43764 مورخ 1386/8/12 دفتر اسناد رسمی... تهران صادر شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند مذکور متعلق به دین است",
+      "evidence": {
+        "quote": "سند مذکور حکایت از اشتغال ذمه تجدیدنظرخوانده داشته",
+        "start_char": 2244,
+        "end_char": 2294,
+        "confidence": 0.8
+      }
+    }
+  ]
+}

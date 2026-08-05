@@ -1,0 +1,163 @@
+{
+  "ruling_id": "4834",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته 1 ـ ابطال سه دانگ رسمی شماره 4702",
+        "start_char": 102,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "الزام",
+      "evidence": {
+        "quote": "2 ـ الزام خوانده ردیف1",
+        "start_char": 172,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "در ماده 183 و339 قانون مدنی عبارت از ایجاب و قبول می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ایجاب و قبول",
+      "evidence": {
+        "quote": "عبارت از ایجاب و قبول می باشد",
+        "start_char": 1083,
+        "end_char": 1112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نظم عمومی",
+      "evidence": {
+        "quote": "موجب اخلال در نظم عمومی جامعه",
+        "start_char": 2182,
+        "end_char": 2211,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "به تنظیم سند رسمی انتقال سه دانگ",
+        "start_char": 197,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دعاوی",
+      "evidence": {
+        "quote": "قرار رد دعاوی فوق صادر",
+        "start_char": 763,
+        "end_char": 785,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه مورد اعتراض را تأیید می نماید",
+        "start_char": 3191,
+        "end_char": 3228,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده ردیف1",
+        "start_char": 176,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بطلان دعوی خواهان",
+        "start_char": 2415,
+        "end_char": 2432,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "سه دانگ رسمی شماره 4702 مورخ 17/2/91 دفتر 130 کرج",
+        "start_char": 122,
+        "end_char": 171,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "سند مالکیت به نام خوانده ردیف اول نبوده",
+        "start_char": 365,
+        "end_char": 404,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نامه عادی",
+      "evidence": {
+        "quote": "کسی که با قول نامه عادی اقدام به خرید مال غیرمنقول می نماید",
+        "start_char": 1727,
+        "end_char": 1786,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "سند مالکیت در دفتر املاک به نام خوانده ردیف اول ثبت نشده است",
+      "evidence": {
+        "quote": "سند مالکیت به نام خوانده ردیف اول نبوده و بدون انعکاس نام مشارٌالیه در دفتر املاک استماع دعوی ردیف دوم خواهان وجاهت نداشته",
+        "start_char": 365,
+        "end_char": 487,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی با شقوق ماده 348 قانون آیین دادرسی مدنی مطابقت ندارد",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی مطروحه با هیچ یک از شقوق ماده 348 قانون آیین دادرسی مدنی مطابقت نداشته",
+        "start_char": 2925,
+        "end_char": 3009,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

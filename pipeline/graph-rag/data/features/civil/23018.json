@@ -1,0 +1,153 @@
+{
+  "ruling_id": "23018",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مستحق للغیر بودن",
+      "evidence": {
+        "quote": "بلحاظ مستحق للغیر بودن مبیع موضوع مبایعه نامه عادی مورخ 1369/7/5",
+        "start_char": 121,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "باطل اعلام گردیده",
+        "start_char": 792,
+        "end_char": 809,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "چرا که بیع فاسد اثری درتملک ندارد",
+        "start_char": 899,
+        "end_char": 932,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "و تمامی ثمن ان را نیز پرداخت می کند",
+        "start_char": 427,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "تقاضای رسیدگی و صدور حکم بر محکومیت خوانده به پرداخت غرامت وارده به موکل",
+        "start_char": 1636,
+        "end_char": 1708,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت آقای س.خ. چ.گ. بخواسته صدور حکم بر محکومیت خوانده",
+        "start_char": 31,
+        "end_char": 87,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به پرداخت غرامات وارده به خواهان",
+        "start_char": 88,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "به عنوان فروشنده وفق مبایعه نامه فوق الذکر",
+        "start_char": 1315,
+        "end_char": 1357,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه عادی مورخ 1369/7/5",
+        "start_char": 149,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه عادی مورخ 1369/7/5",
+        "start_char": 149,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین در خیابان....",
+        "start_char": 381,
+        "end_char": 407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "و تمامی ثمن ان را نیز پرداخت می کند",
+        "start_char": 427,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "معامله خوانده با شخص ثالث باطل اعلام شده است",
+      "evidence": {
+        "quote": "معامله فی ما بین خوانده و آقای م.ف باطل اعلام گردیده",
+        "start_char": 757,
+        "end_char": 809,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده فاقد مالکیت در فروش زمین بوده است",
+      "evidence": {
+        "quote": "خوانده فاقد مالکیت در فروش زمین مورد معامله با موکل بوده است",
+        "start_char": 1155,
+        "end_char": 1215,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "4847",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "جلب ثالث",
+      "evidence": {
+        "quote": "به خواسته جلب ثالث",
+        "start_char": 287,
+        "end_char": 305,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استحقاق",
+      "evidence": {
+        "quote": "مبنی بر استحقاق خواهان",
+        "start_char": 901,
+        "end_char": 923,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غصب",
+      "evidence": {
+        "quote": "از باب غصب",
+        "start_char": 3165,
+        "end_char": 3175,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "محکومیت خواندگان به پرداخت",
+        "start_char": 332,
+        "end_char": 358,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "معترض و دادگاه",
+        "start_char": 1403,
+        "end_char": 1417,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدید نظر خواهی شهرداری تهران",
+        "start_char": 2489,
+        "end_char": 2525,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "با رد تجدید نظر خواهی",
+        "start_char": 3382,
+        "end_char": 3403,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدید نظرخواسته را تأیید می نماید",
+        "start_char": 3404,
+        "end_char": 3445,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست خواهان ها",
+        "start_char": 0,
+        "end_char": 25,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در دعوی اصلی خوانده شهرداری طرف دعوی قرار گرفت",
+        "start_char": 516,
+        "end_char": 562,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "مجلوبین ثالث خواهان امر واحد داشته",
+        "start_char": 447,
+        "end_char": 481,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شهرداری",
+      "evidence": {
+        "quote": "به طرفیت خواندگان شهرداری تهران",
+        "start_char": 250,
+        "end_char": 281,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرعی",
+      "evidence": {
+        "quote": "قیمت روز پلاک های 6015 و 6016 و 6017 فرعی از 70 اصلی",
+        "start_char": 359,
+        "end_char": 411,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "در زمین مورد دعوی",
+        "start_char": 3040,
+        "end_char": 3057,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "املاک",
+      "evidence": {
+        "quote": "قسمتی از املاک آن ها",
+        "start_char": 2777,
+        "end_char": 2797,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شهرداری زمین را به صورت کوچه درآورده است",
+      "evidence": {
+        "quote": "شهرداری عملاً زمین مذکور را تملک و به صورت کوچه درآورده",
+        "start_char": 3082,
+        "end_char": 3137,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت زمین به نام شخص دیگری اعلام شده است",
+      "evidence": {
+        "quote": "واحد ثبتی طی پاسخ ثبتی شماره 3886 ـ 28/10/89 مالکیت به نام و. اعلام نمود",
+        "start_char": 1000,
+        "end_char": 1072,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

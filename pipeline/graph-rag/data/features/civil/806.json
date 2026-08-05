@@ -1,0 +1,233 @@
+{
+  "ruling_id": "806",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "حق طلاق را به زوجه تفویض نموده",
+        "start_char": 299,
+        "end_char": 329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 101,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "وکالت",
+      "evidence": {
+        "quote": "به معنای وکالت زوج به زوجه جهت اجرای صیغه طلاق",
+        "start_char": 798,
+        "end_char": 844,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام به تمکین",
+        "start_char": 1932,
+        "end_char": 1946,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "پرداخت نفقه فرزند به عهده پدر است",
+        "start_char": 1583,
+        "end_char": 1616,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "حضانت وی با توجه به اولویت قانونی به عهده زوجه است",
+        "start_char": 1530,
+        "end_char": 1580,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امکان سازش",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 101,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تفویض",
+      "evidence": {
+        "quote": "حق طلاق را به زوجه تفویض نموده",
+        "start_char": 299,
+        "end_char": 329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام به تمکین",
+        "start_char": 1932,
+        "end_char": 1946,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را با توجه به اینکه مستند به دلیل موجه و قانونی نمی باشد، نقض",
+        "start_char": 3905,
+        "end_char": 3989,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی طلاق به درخواست زوجه را صادر",
+        "start_char": 4026,
+        "end_char": 4069,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "رفتارهای نامعقول زوج",
+        "start_char": 175,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "حق طلاق را به زوجه تفویض نموده",
+        "start_char": 299,
+        "end_char": 329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به خواهان اجازه می دهد",
+        "start_char": 1081,
+        "end_char": 1103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "ملاحظه لوایح تقدیمی تجدیدنظرخواه",
+        "start_char": 2974,
+        "end_char": 3006,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "ملاحظه لوایح تقدیمی تجدیدنظرخواه و تجدیدنظرخوانده",
+        "start_char": 2974,
+        "end_char": 3023,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "در سند نکاحیه شماره...-8/10/84 دفتر ازدواج شماره... کرج",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "در سند نکاح را به معنای وکالت زوج",
+        "start_char": 3210,
+        "end_char": 3243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1005 مورخ 29/6/91",
+        "start_char": 2783,
+        "end_char": 2822,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین دارای یک فرزند مشترک دختر ۵ ساله هستند",
+      "evidence": {
+        "quote": "زوجین دارای یک فرزند مشترک دختر 5 ساله به نام پ. هستند",
+        "start_char": 1472,
+        "end_char": 1526,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه باردار نیست",
+      "evidence": {
+        "quote": "زوجه برابر گواهی پزشکی قانونی باردار نیست",
+        "start_char": 1349,
+        "end_char": 1390,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه ادعای مالی در پرونده ندارد",
+      "evidence": {
+        "quote": "زوجه ادعای مالی در این پرونده ندارد",
+        "start_char": 1392,
+        "end_char": 1427,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

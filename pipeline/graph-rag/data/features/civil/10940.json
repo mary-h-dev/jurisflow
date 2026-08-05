@@ -1,0 +1,183 @@
+{
+  "ruling_id": "10940",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مستحق للغیر بودن",
+      "evidence": {
+        "quote": "به لحاظ مستحق‌للغیر بودن مبیع",
+        "start_char": 114,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته 1- ابطال معامله",
+        "start_char": 55,
+        "end_char": 80,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "به جهت تسبیب در ورود ضرر و زیان",
+        "start_char": 211,
+        "end_char": 242,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "مبنی بر ابطال معامله",
+        "start_char": 844,
+        "end_char": 864,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "الزام خوانده به استرداد ثمن",
+        "start_char": 172,
+        "end_char": 199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "اقدام به خرید و ابتیاع یک قطعه زمین به متراژ 210 مترمربع از خوانده نموده و ثمن معامله را پرداخت نموده است",
+        "start_char": 433,
+        "end_char": 538,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض و جهت رسیدگی به شعبه هم‌عرض ارجاع می‌شود",
+        "start_char": 5213,
+        "end_char": 5257,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اصلی",
+        "start_char": 1977,
+        "end_char": 1993,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به استرداد ثمن",
+        "start_char": 172,
+        "end_char": 199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "مجلوب ثالث ضمن قبول فروش زمین موصوف اظهار داشت",
+        "start_char": 2130,
+        "end_char": 2176,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "اعتراض فرجام‌خواه وارد است",
+        "start_char": 4438,
+        "end_char": 4464,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موضوع مبایعه‌نامه مورخ 1383/3/16",
+        "start_char": 81,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین به متراژ 210 مترمربع",
+        "start_char": 456,
+        "end_char": 489,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "استرداد ثمن به نرخ روز",
+        "start_char": 188,
+        "end_char": 210,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اراضی",
+      "evidence": {
+        "quote": "زمین جزو اراضی ملّی بوده",
+        "start_char": 963,
+        "end_char": 987,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زمین جزو اراضی ملی است",
+      "evidence": {
+        "quote": "اعلام نظر وی مبنی بر اینکه جزو اراضی ملی است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله به دلیل مستحق‌الغیر بودن باطل است",
+      "evidence": {
+        "quote": "زمین مورد فروش به خواهان (اصلی) به لحاظ به هم خوردن حدودوثغور دو پلاک... فرعی و... فرعی، جزو هر یک از دو پلاک موردنظر که باشد باطل و مردود اعلام گردیده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "28519",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "علقه زوجیت فیما بین طرفین برای دادگاه محرز و مسلم است",
+        "start_char": 236,
+        "end_char": 289,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "پس از برقراری رابطه زوجیت حقوق و تکالیف زوجین در قبال یکدیگر برقرار می گردد",
+        "start_char": 303,
+        "end_char": 378,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ذمه",
+      "evidence": {
+        "quote": "با احراز اشغال ذمه خوانده نسبت به نفقه خواهان",
+        "start_char": 678,
+        "end_char": 723,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه نفقه معوقه",
+        "start_char": 72,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "یکی از این وظایف پرداخت نفقه زوجه از سوی زوج بوده",
+        "start_char": 382,
+        "end_char": 431,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه نگردیده",
+      "evidence": {
+        "quote": "ضمن عدم حضور دلائل و مدارکی که دال بر پرداخت نفقه زوجه باشد ارائه نگردیده",
+        "start_char": 486,
+        "end_char": 559,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن ردّ تجدیدنظرخواهی دادنامه مذکور تایید می شود",
+        "start_char": 1965,
+        "end_char": 2013,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خانم ش. ک. فرزند م. بطرفیت آقای علی ک. فرزند ح. ساکن ملایر بخواسته",
+        "start_char": 0,
+        "end_char": 79,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با احراز اشغال ذمه خوانده نسبت به نفقه خواهان",
+        "start_char": 678,
+        "end_char": 723,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی آقای علی ک.",
+        "start_char": 1316,
+        "end_char": 1348,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده صادر شده است",
+        "start_char": 1532,
+        "end_char": 1565,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "بخواسته مطالبه نفقه معوقه",
+        "start_char": 72,
+        "end_char": 97,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "با احتساب کلیه هزینه دادرسی",
+        "start_char": 182,
+        "end_char": 209,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "علقه زوجیت فیما بین طرفین برای دادگاه محرز و مسلم است",
+        "start_char": 236,
+        "end_char": 289,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده مدارکی مبنی بر پرداخت نفقه ارائه نکرده است",
+      "evidence": {
+        "quote": "ضمن عدم حضور دلائل و مدارکی که دال بر پرداخت نفقه زوجه باشد ارائه نگردیده",
+        "start_char": 486,
+        "end_char": 559,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

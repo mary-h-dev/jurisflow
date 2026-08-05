@@ -1,0 +1,173 @@
+{
+  "ruling_id": "43722",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "صدور حکم بر تایید فسخ معامله",
+        "start_char": 191,
+        "end_char": 219,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار فسخ",
+      "evidence": {
+        "quote": "پیدایش خیار فسخ برای بایع ( فروشنده) خواهد بود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "خیار وصف دو طرف ، خیار تخلف از وصف است",
+        "start_char": 3678,
+        "end_char": 3716,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارات دادرسی",
+        "start_char": 321,
+        "end_char": 341,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "از پاسخ به ان خودداری و استنکاف نموده است",
+        "start_char": 1327,
+        "end_char": 1368,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "لذا درخواست رد دعوی خواهان را دارم",
+        "start_char": 2756,
+        "end_char": 2790,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت اقای ع. ا. فرزند ا. دادخواست",
+        "start_char": 141,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با خوانده ( اقای ع. ا. ) معامله نموده",
+        "start_char": 704,
+        "end_char": 741,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "پیدایش خیار فسخ برای بایع ( فروشنده) خواهد بود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "پیدایش خیار فسخ برای بایع ( فروشنده) خواهد بود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه شماره *مورخ 1394/9/10",
+        "start_char": 220,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "دو قطعه زمین مجموعا",
+        "start_char": 354,
+        "end_char": 373,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اراضی",
+      "evidence": {
+        "quote": "از اراضی کشاورزی بهره برداری و استیفای منفعت می نماید",
+        "start_char": 1105,
+        "end_char": 1158,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مساحت زمین بیشتر از مقدار قید شده در مبایعه نامه است",
+      "evidence": {
+        "quote": "قطعه زمین مورد معامله مساحت ان بیشتر از ان مقدار قید شده در مبایعه نامه می باشد",
+        "start_char": 770,
+        "end_char": 849,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده از زمان معامله تاکنون از زمین بهره برداری کرده است",
+      "evidence": {
+        "quote": "خوانده از زمان معامله تاکنون از اراضی کشاورزی بهره برداری و استیفای منفعت می نماید",
+        "start_char": 1076,
+        "end_char": 1158,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان شش سال پس از عقد معامله ادعای زیاده در مبیع کرده است",
+      "evidence": {
+        "quote": "خواهان بعد از شش سال از تاریخ وقوع عقد بیع مدعی زیاده در مبیع است",
+        "start_char": 4427,
+        "end_char": 4492,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

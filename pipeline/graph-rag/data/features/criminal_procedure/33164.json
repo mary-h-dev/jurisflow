@@ -1,0 +1,153 @@
+{
+  "ruling_id": "33164",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مال",
+      "evidence": {
+        "quote": "تحصیل مال از طریق نامشروع",
+        "start_char": 35,
+        "end_char": 60,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "کلاهبرداری",
+      "evidence": {
+        "quote": "فعل ارتکابی از سوی متهم با عنوان جزایی کلاهبرداری منطبق بوده",
+        "start_char": 1280,
+        "end_char": 1340,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "وجوهی نیز از آنان اخذ نموده است",
+        "start_char": 431,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "قابل واخواهی در این دادگاه",
+        "start_char": 2135,
+        "end_char": 2161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه های تجدیدنظر استان تهران میباشد",
+        "start_char": 2181,
+        "end_char": 2241,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "رد مبلغ بیست میلیون و هشتصد هزار ریال در حق شاکی",
+        "start_char": 2703,
+        "end_char": 2751,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم مذکور در زمینه روانشناسی تخصص و فعالیت داشته",
+        "start_char": 259,
+        "end_char": 308,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شکات",
+      "evidence": {
+        "quote": "شکات بشرح شکوائیه تقدیمی",
+        "start_char": 152,
+        "end_char": 176,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "واخواه اصالتاً واخواهی نموده",
+        "start_char": 2369,
+        "end_char": 2397,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم",
+      "evidence": {
+        "quote": "نامبرده را ازحیث ارتکاب بزه مذکور به تحمل یکسال حبس تعزیری",
+        "start_char": 1747,
+        "end_char": 1805,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اوراق",
+      "evidence": {
+        "quote": "کشف اشیاء و وسایلی نظیر اوراق دعا نویسی",
+        "start_char": 536,
+        "end_char": 575,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم بدون مجوز رسمی فعالیت می‌کرده است",
+      "evidence": {
+        "quote": "دلالت بر فقدان عضویت متهم در آن سازمان و غیر قانونی بودن فعالیت وی در این زمینه دارد",
+        "start_char": 837,
+        "end_char": 921,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم در مرحله تحقیق به مراجعین خود اقرار کرده است",
+      "evidence": {
+        "quote": "اقرار متهم در مرحله تحقیق به مراجعه شکات و اخذ وجوهی از آنان در ارتباط با مشاوره",
+        "start_char": 616,
+        "end_char": 696,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "یکی از شاکیان از اتهام گذشت کرده است",
+      "evidence": {
+        "quote": "اعلام گذشت احد از شکات",
+        "start_char": 3523,
+        "end_char": 3545,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

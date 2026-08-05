@@ -1,0 +1,203 @@
+{
+  "ruling_id": "6768",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اقاله",
+      "evidence": {
+        "quote": "معامله مذکور شب بعد اقاله گردیده",
+        "start_char": 899,
+        "end_char": 931,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "ادعای اقاله و فسخ نمی باشد",
+        "start_char": 1260,
+        "end_char": 1286,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام خواندگان به تنظیم سند رسمی",
+        "start_char": 113,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تحویل پلاک ثبتی 17567/4731",
+        "start_char": 148,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فک رهن",
+      "evidence": {
+        "quote": "فک رهن پلاک موصوف",
+        "start_char": 190,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ 900/361/83 ریال را به پرداخت",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "انتقال پلاک ثبتی موصوف",
+        "start_char": 1804,
+        "end_char": 1826,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان آقای م.الف.",
+        "start_char": 0,
+        "end_char": 35,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت آقای م.ق. و خانم م.گ. به خواسته الزام خواندگان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 908 - 5/12/91 شعبه 188 دادگاه حقوقی تهران که مطابق آن دعوای تجدیدنظرخواهی",
+        "start_char": 2426,
+        "end_char": 2521,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظر خوانده ادعای ملک را نموده",
+        "start_char": 3518,
+        "end_char": 3552,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "تحویل پلاک ثبتی 17567/4731 بخش شش تهران",
+        "start_char": 148,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "اصل مبایعه نامه و امضائات خود را پذیرفته اند",
+        "start_char": 838,
+        "end_char": 882,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "مبادرت به خرید یک باب مغازه",
+        "start_char": 404,
+        "end_char": 431,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "از کل مبلغ ثمن معامله 000/500/226 ریال را پرداخت",
+        "start_char": 594,
+        "end_char": 642,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خرید مغازه با قولنامه عادی",
+      "evidence": {
+        "quote": "موکل به موجب قولنامه عادی مورخه 27/5/90 مبادرت به خرید یک باب مغازه",
+        "start_char": 364,
+        "end_char": 431,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم حضور در دفترخانه برای تنظیم سند رسمی",
+      "evidence": {
+        "quote": "مدرکی دال بر حضور طرفین در وقت محضر جهت تنظیم سند رسمی در مورخ 25/8/1390 ارائه نگردیده",
+        "start_char": 3617,
+        "end_char": 3703,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت مابقی ثمن معامله",
+      "evidence": {
+        "quote": "عدم پرداخت مابقی ثمن عدم حضور در محضر رسمی جهت تنظیم سند",
+        "start_char": 4544,
+        "end_char": 4600,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "آگهی فروش ملک در روزنامه همشهری",
+      "evidence": {
+        "quote": "اقدام به آگهی برای فروش ملک در روزنامه همشهری",
+        "start_char": 4125,
+        "end_char": 4170,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

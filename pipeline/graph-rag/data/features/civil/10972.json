@@ -1,0 +1,173 @@
+{
+  "ruling_id": "10972",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "وجه التزام نقض تعهد روزانه یک میلیون ریال تعیین گردیده",
+        "start_char": 469,
+        "end_char": 523,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "صرف نقض تعهد، متعهد را ملزم به پرداخت وجه التزام قراردادی می‌نماید",
+        "start_char": 834,
+        "end_char": 900,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "متعهد می‌تواند حسب مورد، معامله را فسخ",
+        "start_char": 1445,
+        "end_char": 1483,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه روزانه 1/000/000 ریال",
+        "start_char": 55,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تعهد نموده بیع را در تاریخ 1392/4/25 به خریدار تحویل نماید",
+        "start_char": 346,
+        "end_char": 404,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای الف.ک.",
+        "start_char": 1811,
+        "end_char": 1844,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده یک دستگاه آپارتمان به انضمام پارکینگ دارای پلاک ثبتی... بخش 11 تهران را با ثمن معین به خواهان فروخته",
+        "start_char": 236,
+        "end_char": 343,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مطالبه روزانه 1/000/000 ریال از تاریخ 1392/4/25 الی صدور حکم فعلاً مقوم به 220/000/000 ریال و خسارت دادرسی به جهت عدم تحویل پارکینگ بوده",
+        "start_char": 55,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "با توجه به آن که فروشنده تاکنون قسمتی از مبیع را تحویل نداده",
+        "start_char": 406,
+        "end_char": 466,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "تعهد نموده بیع را در تاریخ 1392/4/25 به خریدار تحویل نماید",
+        "start_char": 346,
+        "end_char": 404,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 554 مورخ 1393/6/15 صادره در پرونده کلاسه شعبه 126 دادگاه عمومی (حقوقی) تهران که متضمن صدور حکم به بی‌حقی تجدیدنظرخواه",
+        "start_char": 1889,
+        "end_char": 2028,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "خوانده یک دستگاه آپارتمان به انضمام پارکینگ دارای پلاک ثبتی... بخش 11 تهران را با ثمن معین به خواهان فروخته",
+        "start_char": 236,
+        "end_char": 343,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پارکینگ",
+      "evidence": {
+        "quote": "خوانده یک دستگاه آپارتمان به انضمام پارکینگ دارای پلاک ثبتی... بخش 11 تهران را با ثمن معین به خواهان فروخته",
+        "start_char": 236,
+        "end_char": 343,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "با توجه به آن که فروشنده تاکنون قسمتی از مبیع را تحویل نداده",
+        "start_char": 406,
+        "end_char": 466,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پارکینگ تحویل داده نشده است",
+      "evidence": {
+        "quote": "با توجه به آن که فروشنده تاکنون قسمتی از مبیع را تحویل نداده",
+        "start_char": 406,
+        "end_char": 466,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دفاعی حضور نیافته است",
+      "evidence": {
+        "quote": "خوانده علی رغم ابلاغ قانونی حضور نیافته و دفاعی معمول نداشته",
+        "start_char": 551,
+        "end_char": 611,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

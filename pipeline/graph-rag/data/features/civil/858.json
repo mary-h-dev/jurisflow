@@ -1,0 +1,173 @@
+{
+  "ruling_id": "858",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد اجاره",
+      "evidence": {
+        "quote": "برای تحقق عقد اجاره و شرایط آن",
+        "start_char": 491,
+        "end_char": 521,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "مبادرت به صدور حکم بر بطلان دعوی مطروحه می نماید",
+        "start_char": 1120,
+        "end_char": 1168,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم قرارداد رسمی",
+        "start_char": 90,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی می باشد",
+        "start_char": 1211,
+        "end_char": 1237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه اعتراض مؤثر و موجهی",
+        "start_char": 1676,
+        "end_char": 1715,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "از ناحیه موجر",
+        "start_char": 607,
+        "end_char": 620,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "قانون روابط موجر و مستأجر",
+        "start_char": 669,
+        "end_char": 694,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را وارد ندانسته",
+        "start_char": 1038,
+        "end_char": 1072,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم قرارداد رسمی",
+        "start_char": 90,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه اعتراض مؤثر و موجهی",
+        "start_char": 1676,
+        "end_char": 1715,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "الزام تجدیدنظرخوانده به تنظیم قرارداد رسمی",
+        "start_char": 1507,
+        "end_char": 1549,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجاره",
+      "evidence": {
+        "quote": "موضوع سند اجاره شماره... مورخ 14/11/47 سرقفلی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "واحد",
+      "evidence": {
+        "quote": "دو باب واحد تجاری",
+        "start_char": 277,
+        "end_char": 294,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواهان درخواست تنظیم قرارداد رسمی برای تغییر کاربری/شغل را دارد",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم قرارداد رسمی در یکی از دفاتر اسناد رسمی مبنی بر تجویز شغل ازکارگاه آهنگری به فروشگاه لوازم التحریر",
+        "start_char": 90,
+        "end_char": 210,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه درخواست خواهان را وارد ندانسته و حکم به بطلان دعوی صادر کرده است",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را وارد ندانسته، از مفهوم مخالف فراز اول ماده 1257 قانون مدنی، مبادرت به صدور حکم بر بطلان دعوی مطروحه می نماید",
+        "start_char": 1038,
+        "end_char": 1168,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه تجدیدنظر حکم دادگاه بدوی را تأیید کرد",
+      "evidence": {
+        "quote": "عیناً دادنامه تجدیدنظرخواسته تأیید و استوار می شود",
+        "start_char": 2044,
+        "end_char": 2094,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

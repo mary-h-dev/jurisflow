@@ -1,0 +1,163 @@
+{
+  "ruling_id": "7486",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "به خواسته خلع و رفع تصرف",
+        "start_char": 581,
+        "end_char": 605,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "اجرت المثل ایّام تصرف",
+        "start_char": 649,
+        "end_char": 670,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "اثبات مالکیت شش دانگ",
+        "start_char": 1533,
+        "end_char": 1553,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "ابطال سند مالکیت",
+        "start_char": 1556,
+        "end_char": 1572,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "استدعای ردّ دعوی خواهان اصلی",
+        "start_char": 1467,
+        "end_char": 1495,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "صدور حکم به اثبات مالکیت شش دانگ",
+        "start_char": 1521,
+        "end_char": 1553,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "حکم به ابطال و اصلاح سند رسمی",
+        "start_char": 2018,
+        "end_char": 2047,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "تقاضای فرجام خواهی",
+        "start_char": 2674,
+        "end_char": 2692,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی خواهان صادر نموده اند",
+        "start_char": 1203,
+        "end_char": 1240,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده تقابل به پرداخت هزینه دادرسی",
+        "start_char": 1656,
+        "end_char": 1697,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متصرف",
+      "evidence": {
+        "quote": "و متصرف از ابلاغ احکام قضایی (دادنامه) است",
+        "start_char": 3707,
+        "end_char": 3749,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی 6518 خط کسری 5491/14351/1148",
+        "start_char": 609,
+        "end_char": 647,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رسمی شماره",
+      "evidence": {
+        "quote": "سند رسمی شماره مذکور 6518/5491/1435/1148",
+        "start_char": 2039,
+        "end_char": 2079,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ابلاغ در غیر محل مقرر و از طریق الصاق انجام شده است",
+      "evidence": {
+        "quote": "بلکه از طریق الصاق توسط مأمور ابلاغ عنوان شده است",
+        "start_char": 488,
+        "end_char": 537,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مهلت تجدیدنظرخواهی منقضی نشده است",
+      "evidence": {
+        "quote": "مادام که مبدأ ابلاغ بلااعتاست انقضاء مواعد مترتب بر آن نمی‌گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

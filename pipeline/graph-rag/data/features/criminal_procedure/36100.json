@@ -1,0 +1,133 @@
+{
+  "ruling_id": "36100",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "کلاهبرداری",
+      "evidence": {
+        "quote": "دایر بر کلاهبرداری ( سرقت ) رایانه ای",
+        "start_char": 158,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت به شایستگی دادسرای عمومی و انقلاب شهرستان مشهد صادر",
+        "start_char": 972,
+        "end_char": 1039,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صالح",
+      "evidence": {
+        "quote": "دادگاهی که ابتدای تعقیب در حوزه ان شروع شده است.صالح به رسیدگی است",
+        "start_char": 784,
+        "end_char": 850,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "کسر",
+      "evidence": {
+        "quote": "مبلغ چهار میلیون ( 4000000 ) ریال از حساب وی به نحو اینترنتی و غیر مجاز کسر شده است!",
+        "start_char": 229,
+        "end_char": 313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "حساب",
+      "evidence": {
+        "quote": "تاریخ مسدودی حساب متهم به تاریخ 8/4/1398",
+        "start_char": 2114,
+        "end_char": 2154,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "شاکی مدعی است",
+        "start_char": 212,
+        "end_char": 225,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "متهم مذکور با بزه مشابه",
+        "start_char": 480,
+        "end_char": 503,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بانک",
+      "evidence": {
+        "quote": "به عنوان مالک کارت عابر بانک تجارت",
+        "start_char": 87,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال و دارایی",
+      "evidence": {
+        "quote": "از حساب وی به نحو اینترنتی",
+        "start_char": 263,
+        "end_char": 289,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبلغ ۴ میلیون ریال از حساب کسر شده است",
+      "evidence": {
+        "quote": "مبلغ چهار میلیون ( 4000000 ) ریال از حساب وی به نحو اینترنتی و غیر مجاز کسر شده است!",
+        "start_char": 229,
+        "end_char": 313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم دارای سوابق کیفری مشابه در شهرستان‌های دیگر است",
+      "evidence": {
+        "quote": "متهم مذکور با بزه مشابه و یکسان در دادسراهای * ه محل وقوع بزه های ارتکابی ایشان شهرستان های مختلفی می باشد",
+        "start_char": 480,
+        "end_char": 586,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حساب متهم در تاریخ 1398/04/08 مسدود شده است",
+      "evidence": {
+        "quote": "تاریخ مسدودی حساب متهم به تاریخ 8/4/1398",
+        "start_char": 2114,
+        "end_char": 2154,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

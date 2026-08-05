@@ -1,0 +1,143 @@
+{
+  "ruling_id": "24394",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "وراثت",
+      "evidence": {
+        "quote": "ماترک متوفی بر اساس قانون ارث بوده",
+        "start_char": 679,
+        "end_char": 713,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "بخواسته صدور حکم مبنی بر ابطال اسناد مالکیت",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "موضوع انتقال بموجب اسناد فوق الذکر واقع گردیده",
+        "start_char": 2435,
+        "end_char": 2481,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "نسبت به مطالبه بهای پلاک ثبتی",
+        "start_char": 2935,
+        "end_char": 2964,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "قرار رد دعوا را صادر و اعلام می نماید",
+        "start_char": 1305,
+        "end_char": 1342,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان خانم ن. ص.ف.",
+        "start_char": 0,
+        "end_char": 32,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان ر. ، الف. ، م. ، ح.",
+        "start_char": 53,
+        "end_char": 90,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته",
+        "start_char": 1512,
+        "end_char": 1534,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اسناد مالکیت",
+      "evidence": {
+        "quote": "ابطال اسناد مالکیت",
+        "start_char": 295,
+        "end_char": 313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد رسمی",
+      "evidence": {
+        "quote": "ابطال اسناد رسمی انتقال",
+        "start_char": 1697,
+        "end_char": 1720,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "نسبت به یک سهم از چهار سهم از دو سهم از نه سهم از شش دانگ در خصوص پلاک ثبتی...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مورث در سال 1336 فوت کرده است",
+      "evidence": {
+        "quote": "بلحاظ فوت مشارالیه در تاریخ 1336/1/1",
+        "start_char": 2160,
+        "end_char": 2196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اسناد انتقال پیش از فوت مورث استقرار یافته است",
+      "evidence": {
+        "quote": "قبل از انتقال اسنادرسمی انتقال به شماره های 5235 مورخه 1345/2/5 و 32773 مورخه 1355/7/12 علاقه مالکیت مورث تجدیدنظرخواه به نحو اشاعه نسبت به پلاک ثبتی مورد ترافع استقرار داشته است",
+        "start_char": 2246,
+        "end_char": 2424,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

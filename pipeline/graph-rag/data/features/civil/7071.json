@@ -1,0 +1,173 @@
+{
+  "ruling_id": "7071",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "توجه و عدم توجه مسئولیت موضوعی است",
+        "start_char": 1772,
+        "end_char": 1806,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "مبحث تسبیب و ضمان",
+        "start_char": 3075,
+        "end_char": 3092,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "اصل لزوم و جبران خسارت",
+        "start_char": 3152,
+        "end_char": 3174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لاضرر",
+      "evidence": {
+        "quote": "لاضرر",
+        "start_char": 3193,
+        "end_char": 3198,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته ی مطالبه ی مبلغ چهارصد میلیون ریال",
+        "start_char": 75,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "با اعتراض به آن",
+        "start_char": 1254,
+        "end_char": 1269,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی مطروحه",
+        "start_char": 3923,
+        "end_char": 3943,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان دعوی صادر",
+        "start_char": 3726,
+        "end_char": 3748,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حکم بر محکومیت خوانده دعوی",
+        "start_char": 3596,
+        "end_char": 3622,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدیریت",
+      "evidence": {
+        "quote": "مسئولیت را متوجه مدیریت تعمیرگاه",
+        "start_char": 1408,
+        "end_char": 1440,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه خانم ف.ه.",
+        "start_char": 3953,
+        "end_char": 3975,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظر خوانده آقای ز.ف.",
+        "start_char": 3976,
+        "end_char": 4010,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اتومبیل",
+      "evidence": {
+        "quote": "یک دستگاه اتومبیل هیوندای",
+        "start_char": 223,
+        "end_char": 248,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ چهارصد میلیون ریال",
+        "start_char": 96,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خودرو در تعمیرگاه دچار خسارت شده است",
+      "evidence": {
+        "quote": "خودروی مذکور دچار خسارت و آسیب از ناحیه ی سیلندر و سر سیلندر و قسمت های دیگر گردیده",
+        "start_char": 425,
+        "end_char": 508,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تعمیرکار خودرو را خارج از تعمیرگاه آزمایش کرده است",
+      "evidence": {
+        "quote": "خروج اتومبیل به همراه خواهان خارج از ساعات کاری تعمیرگاه با انجام آزمایش با سرعت بالا انجام نموده",
+        "start_char": 705,
+        "end_char": 802,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

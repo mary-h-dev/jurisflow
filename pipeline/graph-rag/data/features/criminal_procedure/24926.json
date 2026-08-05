@@ -1,0 +1,143 @@
+{
+  "ruling_id": "24926",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "کاربری",
+      "evidence": {
+        "quote": "تغییر کاربری اراضی کشاورزی",
+        "start_char": 118,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی",
+        "start_char": 980,
+        "end_char": 999,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قطعیت",
+      "evidence": {
+        "quote": "با ابلاغ قانونی قطعیت نیافته",
+        "start_char": 1594,
+        "end_char": 1622,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "قلع و قمع",
+      "evidence": {
+        "quote": "قلع و قمع بنای احداثی",
+        "start_char": 223,
+        "end_char": 244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام داشته",
+      "evidence": {
+        "quote": "اعلام داشته ملک متعلق به وی بوده",
+        "start_char": 629,
+        "end_char": 661,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تصحیح",
+      "evidence": {
+        "quote": "رأي را تصحيح نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "به محکوم‌علیه (به صورت الصاق)",
+        "start_char": 303,
+        "end_char": 332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "مالک ملک به مساحت دو هزار متر مربع شخصی به نام سید ی. ع. می‌باشد",
+        "start_char": 531,
+        "end_char": 595,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اراضی",
+      "evidence": {
+        "quote": "تغییر کاربری اراضی کشاورزی",
+        "start_char": 118,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بنای احداثی",
+      "evidence": {
+        "quote": "قلع و قمع بنای احداثی",
+        "start_char": 223,
+        "end_char": 244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "مالک ملک به مساحت دو هزار متر مربع شخصی",
+        "start_char": 531,
+        "end_char": 570,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت ملک متعلق به شخص ثالث است",
+      "evidence": {
+        "quote": "مالک ملک به مساحت دو هزار متر مربع شخصی به نام سید ی. ع. می‌باشد",
+        "start_char": 531,
+        "end_char": 595,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست اعاده دادرسی به دلیل عدم قطعیت حکم پذیرفته نیست",
+      "evidence": {
+        "quote": "تقاضای مذکور به لحاظ قطعی نبودن دادنامه مارالذکر غیر قابل طرح در دیوان عالی کشور تشخیص داده می‌شود",
+        "start_char": 1815,
+        "end_char": 1913,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

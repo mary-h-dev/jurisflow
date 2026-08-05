@@ -1,0 +1,123 @@
+{
+  "ruling_id": "34827",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی",
+        "start_char": 391,
+        "end_char": 411,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "محکوم و",
+      "evidence": {
+        "quote": "محکوم نموده است",
+        "start_char": 364,
+        "end_char": 379,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارجاع",
+      "evidence": {
+        "quote": "ارجاع گردیده است",
+        "start_char": 597,
+        "end_char": 613,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تشخیص",
+      "evidence": {
+        "quote": "تشخیص داده نمیشود",
+        "start_char": 1277,
+        "end_char": 1294,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "محکوم علیه",
+        "start_char": 380,
+        "end_char": 390,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متقاضی",
+      "evidence": {
+        "quote": "متقاضی",
+        "start_char": 531,
+        "end_char": 537,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکیه",
+      "evidence": {
+        "quote": "شاکیه",
+        "start_char": 335,
+        "end_char": 340,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه 732- 93/8/4",
+        "start_char": 45,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "استرداد وجه",
+        "start_char": 320,
+        "end_char": 331,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متقاضی درخواست خود را به قوه قضائیه تقدیم کرده است",
+      "evidence": {
+        "quote": "متقاضی آقای ح. خ. تقاضای خود را به محضر ریاست محترم قوه قضائیه تقدیم",
+        "start_char": 1049,
+        "end_char": 1117,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست اعاده دادرسی در دیوان عالی کشور قابل طرح نیست",
+      "evidence": {
+        "quote": "موضوع درخواست اعاده دادرسی محکوم علیه قابل طرح در دیوان عالی کشور تشخیص داده نمیشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

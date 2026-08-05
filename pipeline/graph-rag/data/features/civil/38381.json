@@ -1,0 +1,183 @@
+{
+  "ruling_id": "38381",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی",
+        "start_char": 238,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زیان",
+      "evidence": {
+        "quote": "مطالبه ضرر و زیان",
+        "start_char": 251,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارات و غرامات",
+        "start_char": 733,
+        "end_char": 755,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جرم",
+      "evidence": {
+        "quote": "خسارت مستقیم ناشی از جرم",
+        "start_char": 812,
+        "end_char": 836,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معنوی",
+      "evidence": {
+        "quote": "تمام خسارت های مادی و معنوی",
+        "start_char": 882,
+        "end_char": 909,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم م. س. ف.",
+        "start_char": 8,
+        "end_char": 35,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه خسارات و غرامات",
+        "start_char": 733,
+        "end_char": 755,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "این قسمت از رای نقض می شود",
+        "start_char": 1041,
+        "end_char": 1067,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "به طرفیت تجدید نظر خواندگان",
+        "start_char": 281,
+        "end_char": 308,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "محکوم علیه دادنامه شماره 228",
+        "start_char": 582,
+        "end_char": 610,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تنظیم کننده قرارداد",
+      "evidence": {
+        "quote": "به عنوان تنظیم کننده قرارداد",
+        "start_char": 551,
+        "end_char": 579,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه شماره 0607",
+        "start_char": 154,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرار",
+      "evidence": {
+        "quote": "قرار رد دعوی",
+        "start_char": 238,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "مفاد لایحه تجدیدنظرخواهی",
+        "start_char": 466,
+        "end_char": 490,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "تنظیم کننده قرارداد",
+        "start_char": 560,
+        "end_char": 579,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "درخواست رد دعوی در مرحله قبل مطرح شده بود",
+      "evidence": {
+        "quote": "قرار رد دعوی مطالبه ضرر و زیان ناشی از جرم",
+        "start_char": 238,
+        "end_char": 280,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بخش بخشی از رای قبلی نقض شده است",
+      "evidence": {
+        "quote": "این قسمت از رای نقض می شود",
+        "start_char": 1041,
+        "end_char": 1067,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

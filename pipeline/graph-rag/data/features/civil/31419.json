@@ -1,0 +1,163 @@
+{
+  "ruling_id": "31419",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام تصرف",
+        "start_char": 194,
+        "end_char": 221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "به مجرد وقوع بیع مشتری مالک مبیع و بایع مالک ثمن می شود",
+        "start_char": 2067,
+        "end_char": 2122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "عدم مالکیت تجدیدنظرخواهان نسبت به پلاکهای ثبتی",
+        "start_char": 1688,
+        "end_char": 1734,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "موضوع مشمول خسارت قراردادی تاخیردرتحویل مبیع باشد",
+        "start_char": 1028,
+        "end_char": 1077,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 184,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "تاکنون تحویل نداده اند",
+        "start_char": 965,
+        "end_char": 987,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 2351,
+        "end_char": 2366,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده جهت ادامه رسیدگی ماهوی به دادگاه بدوی اعاده می گردد",
+        "start_char": 2382,
+        "end_char": 2440,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان حاضرشده است",
+        "start_char": 429,
+        "end_char": 447,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "تقاضای رسیدگی و محکومیت خوانده",
+        "start_char": 491,
+        "end_char": 521,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "لایحه اعتراضیه تجدیدنظرخواه",
+        "start_char": 1950,
+        "end_char": 1977,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "دوباب آپارتمان",
+        "start_char": 249,
+        "end_char": 263,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاکهای ثبتی",
+      "evidence": {
+        "quote": "پلاکهای ثبتی 11403 -88",
+        "start_char": 1722,
+        "end_char": 1744,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "سند رسمی صادر نشده است",
+      "evidence": {
+        "quote": "تاکنون سندرسمی بنام خواهانها صادرنشده است",
+        "start_char": 643,
+        "end_char": 684,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت ملک به شخص دیگری است",
+      "evidence": {
+        "quote": "مالک رسمی ملک ک. الف. فرزند اسکندرمی باشد",
+        "start_char": 731,
+        "end_char": 772,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

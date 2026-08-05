@@ -1,0 +1,123 @@
+{
+  "ruling_id": "24017",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "بهم زدن معامله در این ماده به مفهوم فسخ است",
+        "start_char": 2951,
+        "end_char": 2994,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد ثمن",
+      "evidence": {
+        "quote": "به خواسته استرداد ثمن معامله",
+        "start_char": 217,
+        "end_char": 245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "خواسته خود را به ابطال مبایعه نامه وابطال اسنادرسمی تغییرداده است",
+        "start_char": 375,
+        "end_char": 440,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "وکیل خواهانها در جلسه اوّل رسیدگی خواسته را از استرداد ثمن به اعلام بطلان مبایعه نامه و ابطال اسناد رسمی مربوطه نسبت به عرصه تغییر داده است",
+        "start_char": 2227,
+        "end_char": 2366,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "قرار ردّ",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظرخواسته قرار ردّ دعوای اولیه تجدیدنظرخواهان را صادر",
+        "start_char": 3450,
+        "end_char": 3524,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "درخصوص دادخواست تقدیمی خواهانها",
+        "start_char": 0,
+        "end_char": 31,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان",
+        "start_char": 117,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به موجب مبایعه نامه 1385/6/7",
+        "start_char": 1725,
+        "end_char": 1753,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد رسمی",
+      "evidence": {
+        "quote": "ابطال اسناد رسمی مربوطه",
+        "start_char": 2315,
+        "end_char": 2338,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عرصه ملک به تملک ستاد درآمده است",
+      "evidence": {
+        "quote": "عرصه آن به تملک ستاد.... درآمده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت آپارتمان متعلق به خواهان‌ها است",
+      "evidence": {
+        "quote": "جوابیه واحد ثبتی دلالت بر آن دارد که مالک رسمی آپارتمان موضوع خواسته خواهانها هستند",
+        "start_char": 2368,
+        "end_char": 2451,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

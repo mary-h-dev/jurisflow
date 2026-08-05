@@ -1,0 +1,233 @@
+{
+  "ruling_id": "5028",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارات",
+      "evidence": {
+        "quote": "به خواسته مطالبه خسارات وارده",
+        "start_char": 62,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تأخیر",
+      "evidence": {
+        "quote": "به علت تأخیر در تحویل",
+        "start_char": 356,
+        "end_char": 377,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "انکار بعد از اقرار مسموع نیست",
+        "start_char": 690,
+        "end_char": 719,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "تبدیل تعهد صورت گرفته",
+        "start_char": 1947,
+        "end_char": 1968,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "مطالبه خسارت قراردادی",
+        "start_char": 1424,
+        "end_char": 1445,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه خسارات وارده",
+        "start_char": 62,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خرید",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان را از خوانده پیش خرید نموده",
+        "start_char": 302,
+        "end_char": 348,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "مبادرت به طرح دعوی نموده",
+        "start_char": 447,
+        "end_char": 471,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "بر انجام تسویه حساب کامل اقرار نموده",
+        "start_char": 651,
+        "end_char": 687,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "چون اعتراض به عمل آمده",
+        "start_char": 2360,
+        "end_char": 2382,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.ج.",
+        "start_char": 1009,
+        "end_char": 1032,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ماحصل خواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان را از خوانده",
+        "start_char": 302,
+        "end_char": 333,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم بر بی حقی خواهان «تجدیدنظرخواه»",
+        "start_char": 1307,
+        "end_char": 1342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "ملک تحویل خریدار",
+        "start_char": 1725,
+        "end_char": 1741,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "به موجب مبایعه نامه عادی مورخ 5/5/91",
+        "start_char": 265,
+        "end_char": 301,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "یک دستگاه آپارتمان را از خوانده",
+        "start_char": 302,
+        "end_char": 333,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "کسر مبلغی از چک تحویلی",
+        "start_char": 618,
+        "end_char": 640,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "در تاریخ 3/3/92 ملک تحویل خریدار",
+        "start_char": 1709,
+        "end_char": 1741,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین در تاریخ 3/2/92 توافق جدیدی انجام داده‌اند",
+      "evidence": {
+        "quote": "حسب توافق مورخ 3/2/92 «ظهر مبایعه نامه»",
+        "start_char": 1562,
+        "end_char": 1601,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خریدار ملک را با اطلاع کامل از وضعیت آن تحویل گرفته است",
+      "evidence": {
+        "quote": "با اطلاع کامل از کم و کیف آن رسیده",
+        "start_char": 1758,
+        "end_char": 1792,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تسویه حساب کامل بین طرفین انجام شده است",
+      "evidence": {
+        "quote": "و تسویه کامل به عمل آمد",
+        "start_char": 1793,
+        "end_char": 1816,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "ruling_id": "1163",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "کلاهبرداری",
+      "evidence": {
+        "quote": "دایر بر شرکت در کلاهبرداری",
+        "start_char": 62,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استفاده از سند مجعول",
+      "evidence": {
+        "quote": "استفاده از سند مجعول",
+        "start_char": 91,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "انتقال منافع مال غیر",
+        "start_char": 114,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "شکایت",
+      "evidence": {
+        "quote": "مبادرت به طرح شکایت نموده اند",
+        "start_char": 397,
+        "end_char": 426,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراف",
+      "evidence": {
+        "quote": "در مرحله تحقیق به جرائم انتسابی اعتراف داشته اند",
+        "start_char": 1970,
+        "end_char": 2018,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقایان",
+        "start_char": 4610,
+        "end_char": 4638,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1324-20/12/90 صادره از شعبه 1175 دادگاه عمومی تهران که به موجب آن اعتراض ثالث مشارٌالیهم",
+        "start_char": 5387,
+        "end_char": 5497,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهمین",
+      "evidence": {
+        "quote": "متهمین به اسامی",
+        "start_char": 38,
+        "end_char": 53,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شکات",
+      "evidence": {
+        "quote": "شکات به اسامی و مبالغ ذیل",
+        "start_char": 371,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "لذا متهم م.س.",
+        "start_char": 2083,
+        "end_char": 2096,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقایان",
+        "start_char": 4610,
+        "end_char": 4638,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "و شکایت تجدیدنظرخوانده ها",
+        "start_char": 6054,
+        "end_char": 6079,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "استفاده از سند مجعول",
+        "start_char": 91,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "از قبیل شناسنامه",
+        "start_char": 1713,
+        "end_char": 1729,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کارت",
+      "evidence": {
+        "quote": "کارت ملی",
+        "start_char": 1731,
+        "end_char": 1739,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد مالکیت",
+      "evidence": {
+        "quote": "اسناد مالکیت جعل",
+        "start_char": 1741,
+        "end_char": 1757,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "استفاده از هویت‌های جعلی برای تنظیم قرارداد",
+      "evidence": {
+        "quote": "متهمین با هویت های مختلف مبادرت به تنظیم قرار دادهای بیع یا اجاره با شکات نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دریافت وجوه از شکات",
+      "evidence": {
+        "quote": "مطابق با رسیدهای عادی وجوهی را به شرح فوق از شکات دریافت نموده اند",
+        "start_char": 1859,
+        "end_char": 1925,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "ruling_id": "24367",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تاخیرتادیه",
+        "start_char": 168,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "نسبت به پرداخت دین خود اقدم نکرده است",
+        "start_char": 425,
+        "end_char": 462,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ 167/877/600 ریال",
+        "start_char": 112,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ شصت میلیون ریال توسط ف. ب. به خواهان پرداخت شده است",
+        "start_char": 504,
+        "end_char": 560,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض و تجدیدنظر",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی کرده است",
+        "start_char": 1681,
+        "end_char": 1703,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان محکوم می نماید",
+        "start_char": 1022,
+        "end_char": 1049,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وکیل خوانده در مقام دفاع اعلام نموده است",
+        "start_char": 463,
+        "end_char": 503,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بموجب این دادنامه شرکت تجدیدنظرخواه",
+        "start_char": 1704,
+        "end_char": 1739,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخوانده محکوم گردیده است",
+        "start_char": 1832,
+        "end_char": 1869,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ 167/877/600 ریال",
+        "start_char": 129,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده مبلغ خواسته را بابت خرید اقلام مصرفی (نوشیدنی) مدیون می باشد",
+      "evidence": {
+        "quote": "خوانده مبلغ خواسته را بابت خرید اقلام مصرفی (نوشیدنی) مدیون می باشد",
+        "start_char": 350,
+        "end_char": 417,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شصت میلیون ریال توسط ف. ب. به خواهان پرداخت شده است",
+      "evidence": {
+        "quote": "مبلغ شصت میلیون ریال توسط ف. ب. به خواهان پرداخت شده است",
+        "start_char": 504,
+        "end_char": 560,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

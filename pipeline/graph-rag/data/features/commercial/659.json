@@ -1,0 +1,163 @@
+{
+  "ruling_id": "659",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تأخیر تأدیه",
+      "evidence": {
+        "quote": "و هزینه دادرسی و خسارات تأخیر تأدیه",
+        "start_char": 146,
+        "end_char": 181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر و اعلام می نماید",
+        "start_char": 985,
+        "end_char": 1031,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مبنی بر مطالبه وجه یک فقره سفته",
+        "start_char": 82,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "وارد تشخیص",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را... وارد تشخیص",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده",
+        "start_char": 697,
+        "end_char": 718,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض این قسمت از دادنامه",
+        "start_char": 1811,
+        "end_char": 1837,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان خانم الف.ح.",
+        "start_char": 0,
+        "end_char": 35,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده آقای الف.ح.",
+        "start_char": 45,
+        "end_char": 72,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه می گردد",
+        "start_char": 1927,
+        "end_char": 1947,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده محکوم به پرداخت",
+        "start_char": 1839,
+        "end_char": 1869,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سفته",
+      "evidence": {
+        "quote": "وجود سفته مستند دعوی",
+        "start_char": 266,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "مطالبه وجه یک فقره سفته",
+        "start_char": 90,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "سفته در ید خواهان است",
+      "evidence": {
+        "quote": "در ید خواهان که دلالت بر مدیونیت خوانده",
+        "start_char": 372,
+        "end_char": 411,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دادرسی حضور نیافته است",
+      "evidence": {
+        "quote": "عدم حضور و دفاع خوانده علی رغم ابلاغ وقت دادرسی به وی",
+        "start_char": 473,
+        "end_char": 526,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبلغ نوشته شده با حروف ملاک صدور حکم است",
+      "evidence": {
+        "quote": "مبلغی که با حروف نوشته شده ملاک صدورحکم است",
+        "start_char": 1610,
+        "end_char": 1653,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

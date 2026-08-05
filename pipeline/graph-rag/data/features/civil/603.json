@@ -1,0 +1,143 @@
+{
+  "ruling_id": "603",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "صدور حکم بطلان مبایعه نامه عادی",
+        "start_char": 84,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "صدور حکم محکومیت خوانده به استرداد ثمن معامله",
+        "start_char": 171,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت خسارات دادرسی",
+        "start_char": 264,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "در مطالبه غرامات مفهوم آن را مشخص می نمود",
+        "start_char": 3473,
+        "end_char": 3514,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای ح.ن. با وکالت آقای ع.ح.",
+        "start_char": 0,
+        "end_char": 41,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "صدور حکم محکومیت خوانده",
+        "start_char": 171,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "بایع ضامن است",
+        "start_char": 1693,
+        "end_char": 1706,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "در صورت جهل مشتری به وجود فساد",
+        "start_char": 1823,
+        "end_char": 1853,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "مبایعه نامه عادی مورخ 20/3/1385",
+        "start_char": 99,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "استرداد ثمن معامله",
+        "start_char": 198,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین به شماره ثبتی",
+        "start_char": 426,
+        "end_char": 452,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده مالک زمین نبوده است",
+      "evidence": {
+        "quote": "خوانده در پلاک ثبتی متنازعٌ فیه مالکیتی نداشته",
+        "start_char": 1505,
+        "end_char": 1551,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثمن معامله پرداخت شده است",
+      "evidence": {
+        "quote": "حاکی از اخذ ثمن معامله توسط خوانده محترم می باشد",
+        "start_char": 1098,
+        "end_char": 1146,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

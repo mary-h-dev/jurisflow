@@ -1,0 +1,203 @@
+{
+  "ruling_id": "35798",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته صدور حکم به فسخ معاملات",
+        "start_char": 229,
+        "end_char": 262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "به لحاظ وجود خیار تدلیس",
+        "start_char": 365,
+        "end_char": 388,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عیب مخفی",
+      "evidence": {
+        "quote": "وجود عیب مخفی در مبیع",
+        "start_char": 391,
+        "end_char": 412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "محکوم به بطلان اعلام نموده",
+        "start_char": 1526,
+        "end_char": 1552,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته صدور حکم به فسخ معاملات",
+        "start_char": 229,
+        "end_char": 262,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تغییر",
+      "evidence": {
+        "quote": "خواسته مذکور در دادخواست نخستین را به فسخ معاملات و معاوضات به لحاظ تدلیس اعمال خیارات و عیب پنهانی تغییر داده",
+        "start_char": 530,
+        "end_char": 640,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "که مورد اعتراض و فرجام خواهی وی واقع",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان را در زمینه حدوث خیار تدلیس",
+        "start_char": 772,
+        "end_char": 811,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده را تدلیس معرفی کرده",
+        "start_char": 1196,
+        "end_char": 1222,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمانده",
+      "evidence": {
+        "quote": "فرمانده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "فرمان خواه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان خواهنده",
+      "evidence": {
+        "quote": "وکیل فرمان خواهنده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "کارشناس",
+      "evidence": {
+        "quote": "جلب نظر کارشناس",
+        "start_char": 3671,
+        "end_char": 3686,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه",
+      "evidence": {
+        "quote": "مبایعه نامه های شماره 651 به سریالهای شماره 6990 و 6989",
+        "start_char": 272,
+        "end_char": 327,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ساختمان",
+      "evidence": {
+        "quote": "ساختمان دارای شناژهای قائم و افقی می باشد",
+        "start_char": 1361,
+        "end_char": 1402,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تعهدنامه",
+      "evidence": {
+        "quote": "این تعهدنامه تحت شماره 169- 88/6/5 دفترخانه شماره 39 به ثبت رسیده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ساختمان فاقد شناژهای افقی و قائم است",
+      "evidence": {
+        "quote": "متوجه عدم وجود شناژهای افقی و قائم با مشخصات آیین نامه های لازم در آن",
+        "start_char": 17753,
+        "end_char": 17822,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اطلاع از وجود عیب در زمان معامله",
+      "evidence": {
+        "quote": "عدم اطلاع از فقدان شناژ",
+        "start_char": 1148,
+        "end_char": 1171,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود تعهدنامه‌ای در دفترخانه که به خواهان ارائه نشده است",
+      "evidence": {
+        "quote": "و این تعهدنامه به موكله ارایه نشده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

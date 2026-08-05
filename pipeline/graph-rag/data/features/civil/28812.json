@@ -1,0 +1,203 @@
+{
+  "ruling_id": "28812",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "فسخ قرارداد اجاره",
+        "start_char": 124,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعدی",
+      "evidence": {
+        "quote": "بلحاظ تعدی و تفریط",
+        "start_char": 149,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "با حق فسخ در سایر موارد از حیث نحوه اهمال متفاوت است",
+        "start_char": 3934,
+        "end_char": 3986,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه اجورمعوقه",
+        "start_char": 80,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "تخلیه بلحاظ تعدی و تفریط",
+        "start_char": 143,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ 10/158/000 تومان طی فیش های واریزی پرداخت شده است",
+        "start_char": 1110,
+        "end_char": 1164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خودداری",
+      "evidence": {
+        "quote": "خوانده ازپرداخت اجاره بها خودداری نموده است",
+        "start_char": 425,
+        "end_char": 468,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "و ازسوی وکیل محترم خواهان به نظریه کارشناسی اعتراض شده است",
+        "start_char": 695,
+        "end_char": 752,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "وارد",
+      "evidence": {
+        "quote": "وارد دعوی شده است",
+        "start_char": 809,
+        "end_char": 826,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 496,
+        "end_char": 507,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت آقای م. ب.",
+        "start_char": 52,
+        "end_char": 69,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "خوانده به عنوان مستاجر",
+        "start_char": 266,
+        "end_char": 288,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای الف. ص.",
+        "start_char": 3073,
+        "end_char": 3099,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده(مستاجر)",
+        "start_char": 6010,
+        "end_char": 6032,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد اجاره",
+      "evidence": {
+        "quote": "فسخ قرارداد اجاره",
+        "start_char": 124,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بنا",
+      "evidence": {
+        "quote": "تغییراتی دربنا ایجاد شده است",
+        "start_char": 625,
+        "end_char": 653,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تغییراتی در بنا ایجاد شده است",
+      "evidence": {
+        "quote": "اگرچه تغییراتی دربنا ایجاد شده است",
+        "start_char": 619,
+        "end_char": 653,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تغییرات لطمه‌ای به استحکام بنا وارد نکرده است",
+      "evidence": {
+        "quote": "ولی لطمه ای به استحکام بنا وارد نشده است",
+        "start_char": 654,
+        "end_char": 694,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اجاره بها بخشی از آن پرداخت شده است",
+      "evidence": {
+        "quote": "مبلغ 10/158/000 تومان طی فیش های واریزی پرداخت شده است",
+        "start_char": 1110,
+        "end_char": 1164,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

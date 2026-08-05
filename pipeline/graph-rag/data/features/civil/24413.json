@@ -1,0 +1,193 @@
+{
+  "ruling_id": "24413",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "بیع موجب انتقال مالکیت مبیع از فروشنده به خریدار می گردد",
+        "start_char": 1095,
+        "end_char": 1151,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقود",
+      "evidence": {
+        "quote": "عقد بیع خواه درفقه و خواه در قانون از جمله عقود تملیکی است",
+        "start_char": 1154,
+        "end_char": 1212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نظم عمومی",
+      "evidence": {
+        "quote": "مقررات قانون ثبت از جمله قواعد آمره و موجب نظم عمومی ثبتی است",
+        "start_char": 1568,
+        "end_char": 1629,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال سندرسمی",
+        "start_char": 132,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "و الزام به تنظیم سند رسمی ملک",
+        "start_char": 292,
+        "end_char": 321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "علی رغم تعهد به نقل و انتقال رسمی موخر بر بیع آن را به سایر خواندگان به ترتیب ایادی منتقل نموده",
+        "start_char": 493,
+        "end_char": 588,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "از سوی تجدیدنظر خواه اعتراض موثر و موجهی",
+        "start_char": 2647,
+        "end_char": 2687,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظر خواهی آقای ق. ف.",
+        "start_char": 2088,
+        "end_char": 2121,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "علی رغم تعهد به نقل و انتقال رسمی موخر بر بیع آن را به سایر خواندگان به ترتیب ایادی منتقل نموده",
+        "start_char": 493,
+        "end_char": 588,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حکم به بطلان دعاوی خواهان صادر و اعلام می دارد",
+        "start_char": 1880,
+        "end_char": 1926,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از سوی تجدیدنظر خواه اعتراض موثر و موجهی",
+        "start_char": 2647,
+        "end_char": 2687,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دفترخانه",
+      "evidence": {
+        "quote": "ابطال سندرسمی شماره......مورخ 1387/04/02 دفترخانه........",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "به استناد سند عادی بیع",
+        "start_char": 367,
+        "end_char": 389,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی ملک",
+        "start_char": 294,
+        "end_char": 321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "دوباب آپارتمان را به موجب سند عادی",
+        "start_char": 426,
+        "end_char": 460,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مرحوم س. ف. آپارتمان را به موجب سند عادی فروخته است",
+      "evidence": {
+        "quote": "مرحوم س. ف. دوباب آپارتمان را به موجب سند عادی در قبال ثمن معین به وی فروخته",
+        "start_char": 414,
+        "end_char": 490,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت ملک در زمان انتقال به خواندگان به نام فروشنده بوده است",
+      "evidence": {
+        "quote": "با لحاظ این که در زمان نقل و انتقال مالکیتی بر ملک نداشته",
+        "start_char": 591,
+        "end_char": 648,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انتقالات بعدی ملک به صورت رسمی انجام شده است",
+      "evidence": {
+        "quote": "نقل و انتقالات بعدی ملک به موجب سند رسمی صورت گرفته",
+        "start_char": 1236,
+        "end_char": 1287,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

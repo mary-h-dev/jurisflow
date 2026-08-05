@@ -1,0 +1,183 @@
+{
+  "ruling_id": "26036",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خسارات",
+      "evidence": {
+        "quote": "با لحاظ خسارات تاخیر در تادیه",
+        "start_char": 167,
+        "end_char": 196,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 1618,
+        "end_char": 1643,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قرض",
+      "evidence": {
+        "quote": "مدعی قرضی بودن آن شده است",
+        "start_char": 3134,
+        "end_char": 3159,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "مبلغ مذکور را به حساب شماره بانک م. نامبرده واریز نموده",
+        "start_char": 290,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبالغ اعلامی را به حساب تجدید نظر خوانده پرداخت نموده است",
+        "start_char": 3068,
+        "end_char": 3125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "قرار بوده آن را استرداد کند",
+        "start_char": 3193,
+        "end_char": 3220,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت خانم س.ل. ک.",
+        "start_char": 42,
+        "end_char": 63,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در مقام دفاع، خوانده با حضور در جلسه دادرسی",
+        "start_char": 405,
+        "end_char": 448,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظر خواهی آقای ح. الف.",
+        "start_char": 2688,
+        "end_char": 2723,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به حساب تجدید نظر خوانده پرداخت نموده است",
+        "start_char": 3084,
+        "end_char": 3125,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "مطالبه ی وجه",
+        "start_char": 76,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال و دارایی",
+      "evidence": {
+        "quote": "به حساب شماره بانک م. نامبرده",
+        "start_char": 304,
+        "end_char": 333,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بانکی",
+      "evidence": {
+        "quote": "استعلام به عمل آمده پرینت بانکی واصله",
+        "start_char": 1291,
+        "end_char": 1328,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبالغ",
+      "evidence": {
+        "quote": "مبالغ اعلامی را به حساب تجدید نظر خوانده پرداخت نموده است",
+        "start_char": 3068,
+        "end_char": 3125,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین در سال 1389 مبالغی را به حساب خوانده واریز کرده‌اند",
+      "evidence": {
+        "quote": "طی نیمه دوم سال 1389 مبلغ مذکور را به حساب شماره بانک م. نامبرده واریز نموده",
+        "start_char": 269,
+        "end_char": 345,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "استفاده مشترک از حساب بانکی توسط طرفین",
+      "evidence": {
+        "quote": "استفاده مشترک از حساب مذکور مؤید اختلافی از برداشت ها و پرداخت های نامبردگان بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدید نظر خواه مبالغ را به حساب خوانده پرداخت کرده است",
+      "evidence": {
+        "quote": "تجدید نظرخواه مبالغ اعلامی را به حساب تجدید نظر خوانده پرداخت نموده است",
+        "start_char": 3054,
+        "end_char": 3125,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

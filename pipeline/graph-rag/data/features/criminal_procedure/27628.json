@@ -1,0 +1,113 @@
+{
+  "ruling_id": "27628",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی نموده",
+        "start_char": 261,
+        "end_char": 287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غیرمجاز",
+      "evidence": {
+        "quote": "به اتهام نگهداری اسپری غیرمجاز",
+        "start_char": 211,
+        "end_char": 241,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی نموده",
+        "start_char": 261,
+        "end_char": 287,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "دادیار",
+      "evidence": {
+        "quote": "آقای دادیار محترم اجرای احقام دادسرای عمومی و انقلاب سنندج",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "قائم به شخص دادستان بوده",
+        "start_char": 763,
+        "end_char": 787,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ممیز",
+      "evidence": {
+        "quote": "عضو ممیز",
+        "start_char": 447,
+        "end_char": 455,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 9309978716601139- 1393/11/25",
+        "start_char": 93,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پرونده امر را به دیوان عالی کشور ارسال",
+        "start_char": 290,
+        "end_char": 328,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دادیار درخواست اعاده دادرسی کرده است",
+      "evidence": {
+        "quote": "درخواست اعاده دادرسی نموده",
+        "start_char": 261,
+        "end_char": 287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست اعاده دادرسی دادیار فاقد صلاحیت قانونی برای طرح در دیوان عالی کشور است",
+      "evidence": {
+        "quote": "با وصف فوق غیر قابل طرح در دیوان عالی کشور تشخیص داده می‌شود",
+        "start_char": 968,
+        "end_char": 1028,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

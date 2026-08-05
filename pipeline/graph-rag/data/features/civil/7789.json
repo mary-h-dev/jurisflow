@@ -1,0 +1,153 @@
+{
+  "ruling_id": "7789",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان شرط و عقد",
+        "start_char": 210,
+        "end_char": 225,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "چنین شرطی شرط خیاری است",
+        "start_char": 2157,
+        "end_char": 2180,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غرر",
+      "evidence": {
+        "quote": "موجب غرری شدن قرارداد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "باعتبار اینکه در این مورد غرری نمی بیند والآ هبه معامله غرری محسوب می شود چون در آن جواز دائمی وجود دارد. و همچنین هر معامله جایزی این گونه است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "حکم به بطلان",
+      "evidence": {
+        "quote": "صدور حکم به بطلان قرارداد مشارکت",
+        "start_char": 91,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد دفترچه های مالکیت",
+        "start_char": 254,
+        "end_char": 279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در محاکم محترم تجدیدنظر",
+        "start_char": 10822,
+        "end_char": 10864,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان اظهار داشته اند",
+        "start_char": 314,
+        "end_char": 342,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با خوانده (سازنده) منعقد نموده",
+        "start_char": 445,
+        "end_char": 475,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "از سوی تجدیدنظرخواه ایراد و اعتراض مؤثر",
+        "start_char": 11511,
+        "end_char": 11550,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت",
+      "evidence": {
+        "quote": "بطلان قرارداد مشارکت",
+        "start_char": 103,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "مربوط به پلاک ثبتی 695/86 بخش 11 تهران",
+        "start_char": 137,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تعیین مدت برای شرط خیار در قرارداد",
+      "evidence": {
+        "quote": "مدتی برای اعمال شرط خیار تعیین نشده است",
+        "start_char": 1152,
+        "end_char": 1191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اجرای مفاد قرارداد مشارکت",
+      "evidence": {
+        "quote": "خوانده با گذشت پنج سال و اندی به مفاد قرارداد عمل ننموده است",
+        "start_char": 600,
+        "end_char": 660,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

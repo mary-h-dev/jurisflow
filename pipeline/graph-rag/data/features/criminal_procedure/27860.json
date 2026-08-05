@@ -1,0 +1,82 @@
+{
+  "ruling_id": "27860",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ارتشاء",
+      "evidence": {
+        "quote": "اتهام انتسابی به متهم که ریاست شعبه تعزیرات حکومتی ویژه قاچاق کالا و ارز را عهده دار بوده است ارتشاء اعلام شده است",
+        "start_char": 1130,
+        "end_char": 1244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صلاحیت",
+      "evidence": {
+        "quote": "با نفی صلاحیت خود به صلاحیت دادسرای عمومی تهران اعلام نظر کرده است",
+        "start_char": 271,
+        "end_char": 337,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اختلاف",
+      "evidence": {
+        "quote": "مبنی بر حل اختلاف به صلاحیت دادسرای عمومی و انقلاب تهران در خصوص حل اختلاف در صلاحیت مشاوره چنین رأی می‌دهد",
+        "start_char": 845,
+        "end_char": 952,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اخذ",
+      "evidence": {
+        "quote": "به اتهام اخذ رشوه تحت پیگرد دادسرای عمومی و انقلاب رشت قرار گرفته است",
+        "start_char": 65,
+        "end_char": 134,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "رئیس شعبه",
+      "evidence": {
+        "quote": "آقای م. ت رئیس شعبه ویژه قاچاق کالا و ارز تعزیرات حکومتی لاهیجان",
+        "start_char": 0,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "اتهام انتسابی به متهم",
+        "start_char": 1130,
+        "end_char": 1151,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اختلاف در صلاحیت بین دادسراهای عمومی رشت و تهران",
+      "evidence": {
+        "quote": "در خصوص اختلاف در صلاحیت بین دادسراهای عمومی رشت و تهران",
+        "start_char": 956,
+        "end_char": 1012,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

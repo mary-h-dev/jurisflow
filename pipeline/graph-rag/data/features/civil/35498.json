@@ -1,0 +1,163 @@
+{
+  "ruling_id": "35498",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "زوجیت دائم",
+      "evidence": {
+        "quote": "وجود علقه زوجیت دائم بین طرفین محرز است",
+        "start_char": 272,
+        "end_char": 309,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "پرداخت نفقه زوجه از سوی زوج است",
+        "start_char": 418,
+        "end_char": 448,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "نفقه فرع بر تمکین است",
+        "start_char": 1871,
+        "end_char": 1892,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "بخواسته صدور حکم مبنی بر محکومیت خوانده",
+        "start_char": 129,
+        "end_char": 166,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت نفقه معوقه",
+        "start_char": 167,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدید نظر خواهی آقای خ. الف.",
+        "start_char": 1076,
+        "end_char": 1112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدید نظر",
+      "evidence": {
+        "quote": "ضمن رد تجدید نظر خواهی دادنامه مذکور",
+        "start_char": 1752,
+        "end_char": 1788,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض و به استناد ماده 1257 قانون مدنی حکم به بطلان آن صادر میگردد",
+        "start_char": 2078,
+        "end_char": 2141,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت نفقه معوقه",
+        "start_char": 152,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه از تاریخ 23/1/93 تا صدور حکم بدوی",
+        "start_char": 1211,
+        "end_char": 1256,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه همسر دیگری هم اختیار کرده است",
+        "start_char": 1412,
+        "end_char": 1454,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نکاحنامه",
+      "evidence": {
+        "quote": "رونوشت مصدق نکاح نامه",
+        "start_char": 250,
+        "end_char": 271,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود رابطه زوجیت بین طرفین",
+      "evidence": {
+        "quote": "وجود علقه زوجیت دائم بین طرفین محرز است",
+        "start_char": 272,
+        "end_char": 309,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل پرداخت نفقه توسط زوج",
+      "evidence": {
+        "quote": "دلیلی بر پرداخت نفقه زوجه یا عدم استحقاق ایشان ارائه نداده است",
+        "start_char": 483,
+        "end_char": 544,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه همسر دیگری دارد",
+      "evidence": {
+        "quote": "تجدیدنظرخواه همسر دیگری هم اختیار کرده است",
+        "start_char": 1412,
+        "end_char": 1454,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

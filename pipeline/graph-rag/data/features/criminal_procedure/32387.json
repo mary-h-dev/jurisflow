@@ -1,0 +1,103 @@
+{
+  "ruling_id": "32387",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حبس",
+      "evidence": {
+        "quote": "به حبس ابد محکوم شده اند",
+        "start_char": 210,
+        "end_char": 234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعزیری",
+      "evidence": {
+        "quote": "یکی از مصادیق مجازات تعزیری است",
+        "start_char": 1121,
+        "end_char": 1152,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "تسلیم خود به رأی",
+        "start_char": 301,
+        "end_char": 317,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اسقاط",
+      "evidence": {
+        "quote": "اسقاط حق تجدیدنظر خواهی خود را اعلام می دارند",
+        "start_char": 320,
+        "end_char": 365,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقاضای",
+      "evidence": {
+        "quote": "تقاضای تخفیف مجازات می نماید",
+        "start_char": 377,
+        "end_char": 405,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "محکومین",
+      "evidence": {
+        "quote": "در صورت تسلیم محکومین",
+        "start_char": 495,
+        "end_char": 516,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "تریاک",
+      "evidence": {
+        "quote": "حمل یکصد و شصت و هشت کیلو و دویست گرم تریاک",
+        "start_char": 135,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "محکومین درخواست تخفیف مجازات کرده‌اند",
+      "evidence": {
+        "quote": "و هردو نفر تقاضای تخفیف مجازات می نماید",
+        "start_char": 366,
+        "end_char": 405,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "محکومین حق تجدیدنظر خواهی خود را اسقاط کردند",
+      "evidence": {
+        "quote": "اسقاط حق تجدیدنظر خواهی خود را اعلام می دارند",
+        "start_char": 320,
+        "end_char": 365,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

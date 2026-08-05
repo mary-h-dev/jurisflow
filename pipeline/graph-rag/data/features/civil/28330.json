@@ -1,0 +1,213 @@
+{
+  "ruling_id": "28330",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "به خواسته طلاق",
+        "start_char": 60,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رسمی",
+      "evidence": {
+        "quote": "به عقد رسمی و دائمی",
+        "start_char": 156,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "تحقق تخلف زوج از شرط 7از شرایط ضمن عقد نکاح",
+        "start_char": 630,
+        "end_char": 673,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "دلیل بر عسر وحرج",
+        "start_char": 1992,
+        "end_char": 2008,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلعی",
+      "evidence": {
+        "quote": "نوع طلاق با توجه به بذل 14 سکه خلعی نوبت اول می باشد",
+        "start_char": 1382,
+        "end_char": 1434,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م. ب.ک.",
+        "start_char": 1597,
+        "end_char": 1623,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "14 سکه از مهریه ام را در قبال طلاق بذل می نمایم",
+        "start_char": 392,
+        "end_char": 439,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ضمن موجه دانستن تقاضای خواهان",
+        "start_char": 862,
+        "end_char": 891,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "آنرا نقض وحکم به رد دعوی خواهان صادر و اعلام میدارد",
+        "start_char": 2388,
+        "end_char": 2439,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت م. ب.ک. به خواسته طلاق وکیل خواهان",
+        "start_char": 43,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به عقد رسمی و دائمی خوانده درآمده است",
+        "start_char": 156,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تحقق تخلف زوج از شرط",
+        "start_char": 630,
+        "end_char": 650,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مطلقه",
+      "evidence": {
+        "quote": "نسبت به مطلقه نمودن خویش اقدام نماید",
+        "start_char": 1008,
+        "end_char": 1044,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم به الزام تجدیدنظرخواه به طلاق",
+        "start_char": 1729,
+        "end_char": 1762,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "ضمن موجه دانستن اعتراض معترض",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "با مهریه 114 سکه",
+        "start_char": 139,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سکه",
+      "evidence": {
+        "quote": "14 سکه از مهریه ام",
+        "start_char": 392,
+        "end_char": 410,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "همسر در کمپ بستری شده است",
+      "evidence": {
+        "quote": "به صراحت بیان داشته است در کمپ بستری شده است",
+        "start_char": 512,
+        "end_char": 556,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "همسر به مواد مخدر اعتیاد دارد",
+      "evidence": {
+        "quote": "اعتیاد همسرم به مواد مخدر می باشد",
+        "start_char": 316,
+        "end_char": 349,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زن باردار نیست",
+      "evidence": {
+        "quote": "زوجه حسب گواهی پزشکی قانونی باردار نمی باشد",
+        "start_char": 1336,
+        "end_char": 1379,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

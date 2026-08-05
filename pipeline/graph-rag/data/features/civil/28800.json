@@ -1,0 +1,123 @@
+{
+  "ruling_id": "28800",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام زندگی مشترک",
+        "start_char": 79,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه اجرت المثل",
+        "start_char": 71,
+        "end_char": 96,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوای",
+      "evidence": {
+        "quote": "حکم به رد دعوای خواهان صادر",
+        "start_char": 352,
+        "end_char": 379,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را نقض",
+        "start_char": 1365,
+        "end_char": 1389,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "قرار ابطال دادخواست صادر",
+        "start_char": 1567,
+        "end_char": 1591,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست خواهان خانم ش. س.",
+        "start_char": 0,
+        "end_char": 26,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص دادخواست تجدیدنظرخواهی خانم ش. س.",
+        "start_char": 509,
+        "end_char": 550,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "استحقاق اجرت المثل زوجه",
+        "start_char": 963,
+        "end_char": 986,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 9409970217100987",
+        "start_char": 588,
+        "end_char": 626,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم احراز دستور زوج در مرحله بدوی",
+      "evidence": {
+        "quote": "قیود مندرج در تبصره ماده 336 قانون مدنی جهت تحقق اجرت المثل به زوجه از نظر دادگاه احراز نگردیده است",
+        "start_char": 225,
+        "end_char": 324,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تودیع هزینه کارشناسی در مهلت قانونی",
+      "evidence": {
+        "quote": "تجدیدنظرخواه (زوجه) علیرغم ابلاغ از سوی دادگاه محترم بدوی هزینه کارشناسی را در مهلت مقرر قانونی تودیع ننموده است",
+        "start_char": 1454,
+        "end_char": 1566,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

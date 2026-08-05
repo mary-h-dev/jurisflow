@@ -1,0 +1,143 @@
+{
+  "ruling_id": "26129",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "مبنی بر اعلان ورشکستگی",
+        "start_char": 76,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقف",
+      "evidence": {
+        "quote": "نسبت به ارائه صورت حساب دارایی و دفاتر خود به دفتر دادگاه اقدام کند خواهان محترم نه تنها اقدامی در خصوص ارائه این مدارک نکرده بلکه تاریخ توقف را نیز به دادگاه سپرده اند",
+        "start_char": 707,
+        "end_char": 874,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "مبنی بر اعلان ورشکستگی",
+        "start_char": 76,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "نه تنها اقدامی در خصوص ارائه این مدارک نکرده",
+        "start_char": 787,
+        "end_char": 831,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظرخواهی است",
+        "start_char": 2611,
+        "end_char": 2634,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "با رد اعتراض و تجدید نظر خواهی قرار صادره تایید و استوار می گردد",
+        "start_char": 3523,
+        "end_char": 3587,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مبنی بر اعلان ورشکستگی خواهان",
+        "start_char": 76,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بدهی خواهان به خوانده ثابت شده",
+        "start_char": 170,
+        "end_char": 200,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شهرداری",
+      "evidence": {
+        "quote": "علیه شهرداری منطقه",
+        "start_char": 51,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تاجر",
+      "evidence": {
+        "quote": "مطابق حکم صریح مواد 413 و414 تجارت باید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.85
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دفاتر",
+      "evidence": {
+        "quote": "ارائه صورت حساب دارایی و دفاتر خود",
+        "start_char": 715,
+        "end_char": 748,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه صورت حساب و دفاتر توسط خواهان",
+      "evidence": {
+        "quote": "نه تنها اقدامی در خصوص ارائه این مدارک نکرده",
+        "start_char": 787,
+        "end_char": 831,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "گذشت سال‌ها از تاریخ توقف",
+      "evidence": {
+        "quote": "بعد از گذشت سالها از تاریخ توقف محمل قانونی ندارد",
+        "start_char": 3411,
+        "end_char": 3460,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

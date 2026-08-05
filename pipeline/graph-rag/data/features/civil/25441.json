@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25441",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "وجه التزام عدم انجام تعهد",
+        "start_char": 198,
+        "end_char": 223,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفساخ",
+      "evidence": {
+        "quote": "موجب انفساخ قرارداد اجاره خواهد گردید",
+        "start_char": 431,
+        "end_char": 468,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه",
+        "start_char": 279,
+        "end_char": 296,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت",
+      "evidence": {
+        "quote": "مبلغ مورد حکم از بابت خسارت قراردادی است",
+        "start_char": 1464,
+        "end_char": 1504,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ",
+        "start_char": 123,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "عدم پرداخت اقساط اجاره بهاء",
+        "start_char": 225,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقایان ح. و و. غ.ف.",
+        "start_char": 1885,
+        "end_char": 1918,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "عدم پرداخت اقساط اجاره بهاء توسط مستأجر",
+        "start_char": 391,
+        "end_char": 430,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان صادر",
+        "start_char": 1115,
+        "end_char": 1132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده",
+        "start_char": 943,
+        "end_char": 964,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "در حق خواهانهای بدوی صادر و اعلام می‌دارد",
+        "start_char": 3212,
+        "end_char": 3253,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "ملاحظه قرارداد فی‌مابین",
+        "start_char": 339,
+        "end_char": 362,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره‌نامه",
+      "evidence": {
+        "quote": "اجاره‌نامه رسمی تنظیمی در دفترخانه رسمی",
+        "start_char": 2143,
+        "end_char": 2182,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت اقساط اجاره بهاء",
+      "evidence": {
+        "quote": "عدم پرداخت اقساط اجاره بهاء توسط مستاجر",
+        "start_char": 2368,
+        "end_char": 2407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود شرط ضمن عقد مبنی بر انفساخ در صورت عدم پرداخت",
+      "evidence": {
+        "quote": "شرط ضمن عقد مبنی بر اینکه عدم پرداخت اقساط اجاره بهاء توسط مستأجر موجب انفساخ قرارداد اجاره خواهد گردید",
+        "start_char": 365,
+        "end_char": 468,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

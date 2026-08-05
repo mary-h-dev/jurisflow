@@ -1,0 +1,183 @@
+{
+  "ruling_id": "694",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "معاشرت",
+      "evidence": {
+        "quote": "حکایت از سوء معاشرت خواهان دارد",
+        "start_char": 380,
+        "end_char": 411,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "منجر به صدور برائت گردیده است",
+        "start_char": 1287,
+        "end_char": 1316,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 79,
+        "end_char": 110,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی تقدیمی صادر",
+        "start_char": 536,
+        "end_char": 562,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ر.ب.",
+        "start_char": 742,
+        "end_char": 765,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترضٌ عنه",
+        "start_char": 1646,
+        "end_char": 1672,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "حکم به الزام تمکین تجدیدنظرخوانده صادر",
+        "start_char": 1705,
+        "end_char": 1743,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان آقای ر.ب.",
+        "start_char": 0,
+        "end_char": 33,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده خانم ش.ق.",
+        "start_char": 53,
+        "end_char": 78,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ر.ب.",
+        "start_char": 742,
+        "end_char": 765,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخوانده خانم ش.ق.",
+        "start_char": 906,
+        "end_char": 939,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "در خصوص دادخواست خواهان آقای ر.ب.",
+        "start_char": 0,
+        "end_char": 33,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی پزشکی",
+      "evidence": {
+        "quote": "گواهی پزشکی قانونی به شماره 19927",
+        "start_char": 264,
+        "end_char": 297,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرار",
+      "evidence": {
+        "quote": "قرار مجرمیت صادره از شعبه اول دادسرای ناحیه 16",
+        "start_char": 314,
+        "end_char": 360,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 9101385",
+        "start_char": 785,
+        "end_char": 809,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در دادگاه بدوی به دلیل سوء معاشرت محکوم به رد دعوی شده بود",
+      "evidence": {
+        "quote": "دادگاه محترم بدوی به استناد گواهی پزشکی شماره 19927 و قرار مجرمیت دادسرای ناحیه 16 را دلیل سوء معاشرت و مبنای صدور حکم فرض نموده",
+        "start_char": 1034,
+        "end_char": 1162,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در مرحله تجدیدنظر از اتهام برائت گرفته است",
+      "evidence": {
+        "quote": "کیفرخواست صادره در دادگاه طی دادنامه شماره 9100654 طی دادگاه عمومی جزایی تهران منجر به صدور برائت گردیده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

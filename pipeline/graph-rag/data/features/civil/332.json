@@ -1,0 +1,123 @@
+{
+  "ruling_id": "332",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مشاعی",
+      "evidence": {
+        "quote": "تصرفات شریک در ملک مشاعی",
+        "start_char": 402,
+        "end_char": 426,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوای خواهان صادر",
+        "start_char": 643,
+        "end_char": 673,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم مبنی بر وضع ید",
+        "start_char": 73,
+        "end_char": 106,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای س.ط.",
+        "start_char": 820,
+        "end_char": 843,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "ضمن رد اعتراض مستنداً به مواد 351 و 353 قانون آیین دادرسی مدنی ضمن اصلاح حکم به بطلان دعوی به قرار رد دعوی دادنامه تجدیدنظرخواسته را تأیید می نماید",
+        "start_char": 1394,
+        "end_char": 1541,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوای آقای ع.ط.",
+        "start_char": 8,
+        "end_char": 23,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ب.ب.",
+        "start_char": 54,
+        "end_char": 72,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "شریک",
+      "evidence": {
+        "quote": "تصرفات شریک در ملک مشاعی",
+        "start_char": 402,
+        "end_char": 426,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "در یک باب مغازه شماره 22",
+        "start_char": 114,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "جزء پلاک ثبتی 3/596 الی 7/596",
+        "start_char": 168,
+        "end_char": 197,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تصرف شریک در ملک مشاعی بدون اذن شریک انجام شده است",
+      "evidence": {
+        "quote": "تصرفات شریک در ملک مشاعی بدون اذن شریک وجاهت قانونی نداشته",
+        "start_char": 402,
+        "end_char": 460,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

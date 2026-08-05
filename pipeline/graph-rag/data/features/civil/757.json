@@ -1,0 +1,153 @@
+{
+  "ruling_id": "757",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "صدور حکم مبنی بر فسخ بیع",
+        "start_char": 58,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "به دلیل خیار عیب",
+        "start_char": 83,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی صادر",
+        "start_char": 936,
+        "end_char": 961,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "استرداد ثمن",
+        "start_char": 126,
+        "end_char": 137,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض می باشد",
+        "start_char": 1013,
+        "end_char": 1032,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "درخصوص تجدیدنظرخواهی آقای الف.ف.",
+        "start_char": 1124,
+        "end_char": 1156,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "با رد اعتراض دادنامه",
+        "start_char": 1796,
+        "end_char": 1816,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "صرف نظر از اینکه خوانده یا فروشنده",
+        "start_char": 269,
+        "end_char": 303,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "صرف نظر از اینکه خوانده یا فروشنده",
+        "start_char": 269,
+        "end_char": 303,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی خواهان",
+        "start_char": 1274,
+        "end_char": 1301,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دستگاه",
+      "evidence": {
+        "quote": "دستگاه چاپگر دارای عیوبی بوده",
+        "start_char": 189,
+        "end_char": 218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "مبیع به صورت کلی فی الذمه",
+        "start_char": 485,
+        "end_char": 510,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "دستگاه چاپگر دارای عیب است",
+      "evidence": {
+        "quote": "دستگاه چاپگر دارای عیوبی بوده",
+        "start_char": 189,
+        "end_char": 218,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبیع به صورت کلی فی الذمه خریداری شده است",
+      "evidence": {
+        "quote": "مبیع به صورت کلی فی الذمه مورد خریداری واقع شده",
+        "start_char": 485,
+        "end_char": 532,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

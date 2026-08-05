@@ -1,0 +1,193 @@
+{
+  "ruling_id": "30756",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "وجود خیارشرط در عقد بیع",
+        "start_char": 1086,
+        "end_char": 1109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی اعتراض ثالث صادر",
+        "start_char": 1784,
+        "end_char": 1818,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "مبادرت به اعمال حق فسخ خویش نموده است",
+        "start_char": 1470,
+        "end_char": 1507,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "با این توضیح که خواهان و وکیل وی مدعی شده اند",
+        "start_char": 200,
+        "end_char": 245,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "توقیف",
+      "evidence": {
+        "quote": "به جهت بدهی محکوم علیه آقای ج. ح.ز. به محکوم له آقای ک. م. توقیف شده است",
+        "start_char": 310,
+        "end_char": 382,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض عنه",
+        "start_char": 4196,
+        "end_char": 4221,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با این توضیح که خواهان و وکیل وی مدعی شده اند",
+        "start_char": 200,
+        "end_char": 245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت خواندگان 1- ع. ح.ز. 2- ک. م. 3- ج. ح.ز.",
+        "start_char": 59,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌علیه",
+      "evidence": {
+        "quote": "به جهت بدهی محکوم علیه آقای ج. ح.ز.",
+        "start_char": 310,
+        "end_char": 345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکوم‌له",
+      "evidence": {
+        "quote": "به محکوم له آقای ک. م.",
+        "start_char": 346,
+        "end_char": 368,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "که فروشنده مدعی جعلیت آن شده است",
+        "start_char": 3301,
+        "end_char": 3333,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "با باقی ماندن خریدار بر اصالت قرارداد عادی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "رفع توقیف از پلاک ثبتی...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "به موجب مبایعه نامه عادی 20/ 12/ 1392",
+        "start_char": 383,
+        "end_char": 420,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "پلاک مزبور که به عنوان ملک آقای ع. ح.ز.",
+        "start_char": 249,
+        "end_char": 288,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پلاک ثبتی به دلیل بدهی شخص ثالث توقیف شده است",
+      "evidence": {
+        "quote": "پلاک مزبور که به عنوان ملک آقای ع. ح.ز. در پرونده اجرائی فوق به جهت بدهی محکوم علیه آقای ج. ح.ز. به محکوم له آقای ک. م. توقیف شده است",
+        "start_char": 249,
+        "end_char": 382,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مدعی جعل امضا در مبایعه نامه شده است",
+      "evidence": {
+        "quote": "مدعی جعل امضای خویش در ذیل مبایعه نامه",
+        "start_char": 776,
+        "end_char": 814,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواندگان در جلسه دادگاه حاضر نشده‌اند",
+      "evidence": {
+        "quote": "خواندگان ردیف دوم و سوم علی رغم ابلاغ در جلسه دادگاه حاضر نگردیده و لایحه ای نداده اند",
+        "start_char": 538,
+        "end_char": 624,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

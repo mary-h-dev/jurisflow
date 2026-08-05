@@ -1,0 +1,203 @@
+{
+  "ruling_id": "6067",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فروش",
+      "evidence": {
+        "quote": "متهم است به فروش مال غیر",
+        "start_char": 29,
+        "end_char": 53,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "اگر شکات راضی به معامله فضولی متهم نبوده اند",
+        "start_char": 1574,
+        "end_char": 1618,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "سرمایه گذاری",
+      "evidence": {
+        "quote": "اقدام به سرمایه گذاری در امر زمین نموده",
+        "start_char": 274,
+        "end_char": 313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "خرید",
+      "evidence": {
+        "quote": "اقدام به خرید و فروش زمین می نموده",
+        "start_char": 366,
+        "end_char": 400,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "اقدام به فروش آن نموده است",
+        "start_char": 576,
+        "end_char": 602,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ هفده میلیون تومان به شکات پرداخت",
+        "start_char": 1469,
+        "end_char": 1506,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "لایحه اعتراض تجدیدنظرخواهان",
+        "start_char": 2647,
+        "end_char": 2674,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "آقای ن.ر. متهم است",
+        "start_char": 19,
+        "end_char": 37,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شکات",
+      "evidence": {
+        "quote": "طی شکوائیه ای ادعا نـموده اند که بر اساس قرارداد مشارکت با متهم اقدام به سرمایه گذاری در امر زمین نموده",
+        "start_char": 210,
+        "end_char": 313,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقایان ر.ع. و ن.س. و ح.ر.",
+        "start_char": 2269,
+        "end_char": 2316,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در مورد شکایت تجدیدنظرخواهان از تجدیدنظرخوانده",
+        "start_char": 2420,
+        "end_char": 2466,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "یک قطعـه زمیـن کشـاورزی مشاعـی",
+        "start_char": 55,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد مشارکت",
+      "evidence": {
+        "quote": "بر اساس قرارداد مشارکت با متهم",
+        "start_char": 243,
+        "end_char": 273,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "مطابق وکالتنامه مورد استناد شکات",
+        "start_char": 1011,
+        "end_char": 1043,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مطابق مبایعه نامه ابرازی از سوی طرفین",
+        "start_char": 1174,
+        "end_char": 1211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رسید",
+      "evidence": {
+        "quote": "مطابق رسید ارائه شده از سوی متهم",
+        "start_char": 1405,
+        "end_char": 1437,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم با نمایندگی از سایرین اقدام به فروش زمین کرده است",
+      "evidence": {
+        "quote": "نوعاً متهم به نمایندگی از سایرین این امور را انجام می داده",
+        "start_char": 888,
+        "end_char": 946,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبلغ هفده میلیون تومان به شکات پرداخت شده است",
+      "evidence": {
+        "quote": "مبلغ هفده میلیون تومان به شکات پرداخت",
+        "start_char": 1469,
+        "end_char": 1506,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زمین مورد ادعا در وکالتنامه به متهم واگذار شده است",
+      "evidence": {
+        "quote": "زمین مورد ادعای شکات به مساحت 100 مترمربع کلاً به متهم واگذار گردیده است",
+        "start_char": 1059,
+        "end_char": 1131,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

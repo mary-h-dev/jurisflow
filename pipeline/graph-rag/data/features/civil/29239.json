@@ -1,0 +1,173 @@
+{
+  "ruling_id": "29239",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال اجراییه",
+        "start_char": 180,
+        "end_char": 203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ابراء",
+      "evidence": {
+        "quote": "ابراء ، عمل حقوقی تبعی است",
+        "start_char": 2346,
+        "end_char": 2372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بذل",
+      "evidence": {
+        "quote": "مدعی بذل 400 عدد سکه",
+        "start_char": 1757,
+        "end_char": 1777,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نکاح",
+      "evidence": {
+        "quote": "در تاریخ 91/2/25 دفتر خانه... تهران بوده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "می تواند به ترتیب مقر در آیین دادرسی مدنی ، اقامه دعوا نماید",
+        "start_char": 1027,
+        "end_char": 1087,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "تقاضای صدور اجراییه را نموده",
+        "start_char": 677,
+        "end_char": 705,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی صادر و اعلام مینماید",
+        "start_char": 4049,
+        "end_char": 4087,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "موکل با خوانده به موجب عقد نامه",
+        "start_char": 309,
+        "end_char": 340,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدیون",
+      "evidence": {
+        "quote": "ارسال آن به اداره اجراء و تشکیل پرونده اجرایی... در تاریخ 26-8-92 اجراییه به مدیون ابلاغ گردیده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بستانکار",
+      "evidence": {
+        "quote": "سپس بستانکار در قبال طلب خود مشارالیه را ممنوع الخروج نموده است",
+        "start_char": 1581,
+        "end_char": 1644,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "و اکنون آقای وکیل تجدیدنظرخواه با ذکر امثله ای از قانون مدنی",
+        "start_char": 5326,
+        "end_char": 5383,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "505 عدد سکه تمام بهار آزادی است",
+        "start_char": 436,
+        "end_char": 467,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "با وصف اخیر مستند عادی مورخ 90/11/18",
+        "start_char": 2048,
+        "end_char": 2084,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "به موجب عقد نامه شماره..... مورخ 91/2/25",
+        "start_char": 324,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تنظیم سند عادی پیش از عقد نکاح",
+      "evidence": {
+        "quote": "مستند عادی مورخ 90/11/18 که تاریخا\" مقدم بر عقد نکاح میان زوجین است",
+        "start_char": 2060,
+        "end_char": 2127,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "صدور اجراییه توسط اداره ثبت اسناد",
+      "evidence": {
+        "quote": "تقاضای صدور اجراییه را نموده و به تبع آن موکل را ممنوع الخروج کرده است",
+        "start_char": 677,
+        "end_char": 747,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

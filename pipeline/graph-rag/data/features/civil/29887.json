@@ -1,0 +1,163 @@
+{
+  "ruling_id": "29887",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اشاعه",
+      "evidence": {
+        "quote": "با تحلیلی که از تئوری اشاعه به عمل می آید",
+        "start_char": 888,
+        "end_char": 929,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مالکین دیگر مشاعا در آن سهیم می باشد",
+        "start_char": 117,
+        "end_char": 153,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "احداث",
+      "evidence": {
+        "quote": "احداث بناء جدید",
+        "start_char": 1534,
+        "end_char": 1549,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "انتقال مالکیت سهام متعلق به خود در قسمت مشترک",
+        "start_char": 821,
+        "end_char": 866,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظر خواهی در شعب تجدیدنظر",
+        "start_char": 1790,
+        "end_char": 1826,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم به رد شکایت صادر",
+        "start_char": 1654,
+        "end_char": 1674,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "مالکین",
+      "evidence": {
+        "quote": "مالکین دیگر مشاعا در آن سهیم می باشد",
+        "start_char": 117,
+        "end_char": 153,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "به لزاحم با مواد 2 و 3 قانون تملک آپارتمان ها طبق ماده 10 قانون مدنی نافذ نمی باشد. لذا بنا به جهات فوق نظر به اینکه هرگونه تجاوزی به قسمت های مشترک با ایجاد تغییرات یا احداث بناء جدید بنحوی که با حقوق سایر مالکین مشاعی در تضاد بر این اساس رأی معترض به عاری از خدشه و منقصت قانونی تشخیص و حکم به رد شکایت صادر و اعلام می گردد.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظر خواه",
+        "start_char": 1795,
+        "end_char": 1809,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بنای احداثی",
+      "evidence": {
+        "quote": "بنای احداثی بدون اخذ مجوز از شهرداری ساخته شده است",
+        "start_char": 17,
+        "end_char": 67,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قسمت",
+      "evidence": {
+        "quote": "تجاوز به قسمت اشتراکی",
+        "start_char": 92,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پایان کار",
+      "evidence": {
+        "quote": "بر خلاف صورتمجلس تفکیکی و برگ پایان کار",
+        "start_char": 245,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "بنای احداثی بدون مجوز شهرداری ساخته شده است",
+      "evidence": {
+        "quote": "بنای احداثی بدون اخذ مجوز از شهرداری ساخته شده است",
+        "start_char": 17,
+        "end_char": 67,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجاوز به قسمت‌های مشترک صورت گرفته است",
+      "evidence": {
+        "quote": "تجاوز به قسمت اشتراکی که مالکین دیگر مشاعا در آن سهیم می باشد را مورد تأیید و تسجیل قرار داده است",
+        "start_char": 92,
+        "end_char": 189,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سهم سایر مالکین مشاعی در پایان کار کاهش یافته است",
+      "evidence": {
+        "quote": "بر خلاف صورتمجلس تفکیکی و برگ پایان کار بناء توسعه و سهم سایر مالکین مشاعی کاهش داده شده است",
+        "start_char": 245,
+        "end_char": 337,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

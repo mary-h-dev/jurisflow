@@ -1,0 +1,163 @@
+{
+  "ruling_id": "3550",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "با این برداشت قائل به حق حبس برای خریدار شده",
+        "start_char": 3302,
+        "end_char": 3346,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خوانده به موجب یک فقره چک به شماره 899380 بانک م. مبلغ دو میلیارد ریال به موکل بدهکار می باشد که حاضر به پرداخت بدهی خود نمی باشد",
+        "start_char": 244,
+        "end_char": 373,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "تقاضای محکومیت خوانده به پرداخت وجه چک و خسارات دادرسی و تأخیر تأدیه را دارم",
+        "start_char": 374,
+        "end_char": 450,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "باید به محض وقوع معامله آن را به خریدار تسلیم و سپس باقیمانده ثمن را مطالبه نماید",
+        "start_char": 3218,
+        "end_char": 3299,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراضات فرجام خواه در این قسمت و در مطالبه خسارات دادرسی و تأخیر تأدیه وارد است",
+        "start_char": 4119,
+        "end_char": 4199,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به خواسته صدور حکم بر محکومیت خوانده به پرداخت مبلغ دو میلیارد ریال",
+        "start_char": 92,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادنامه فرجام خواسته و مبانی صدور آن و محتویات پرونده اعتراضات فرجامی وارد است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "هر یک از بایع و مشتری حق دارد از تسلیم مبیع یا ثمن خودداری کند",
+        "start_char": 3396,
+        "end_char": 3458,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "هر یک از بایع و مشتری حق دارد از تسلیم مبیع یا ثمن خودداری کند",
+        "start_char": 3396,
+        "end_char": 3458,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "با این برداشت قائل به حق حبس برای خریدار شده",
+        "start_char": 3302,
+        "end_char": 3346,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "خوانده به موجب یک فقره چک به شماره 899380 بانک م. مبلغ دو میلیارد ریال به موکل بدهکار می باشد",
+        "start_char": 244,
+        "end_char": 337,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موکل برابر مبایعه نامه مورخ 30/6/90 یک دستگاه ساختمان از خواهان خریداری نموده",
+        "start_char": 683,
+        "end_char": 760,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ساختمان",
+      "evidence": {
+        "quote": "یک دستگاه ساختمان از خواهان خریداری نموده",
+        "start_char": 719,
+        "end_char": 760,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده چک را پرداخت نکرده است",
+      "evidence": {
+        "quote": "خوانده به موجب یک فقره چک به شماره 899380 بانک م. مبلغ دو میلیارد ریال به موکل بدهکار می باشد که حاضر به پرداخت بدهی خود نمی باشد",
+        "start_char": 244,
+        "end_char": 373,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبیع هنوز در تصرف خوانده است",
+      "evidence": {
+        "quote": "و هنوز مبیع در تصرف و ید خوانده می باشد",
+        "start_char": 1241,
+        "end_char": 1280,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

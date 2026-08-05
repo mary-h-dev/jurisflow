@@ -1,0 +1,113 @@
+{
+  "ruling_id": "22040",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نسبی",
+      "evidence": {
+        "quote": "اصل نسبی بودن قراردادها",
+        "start_char": 650,
+        "end_char": 673,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "در وضعیت فعلی مالکیت",
+        "start_char": 807,
+        "end_char": 827,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد شکایت تقدیمی صادر",
+        "start_char": 949,
+        "end_char": 974,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "قرار معترض‌به را تأیید",
+        "start_char": 1404,
+        "end_char": 1426,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حقی برای خواهان",
+        "start_char": 750,
+        "end_char": 765,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده",
+        "start_char": 766,
+        "end_char": 781,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "مبایعه‌نامه عادی ارائه شده",
+        "start_char": 593,
+        "end_char": 619,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "بهاء ملک",
+        "start_char": 146,
+        "end_char": 154,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ارائه مبایعه‌نامه عادی",
+      "evidence": {
+        "quote": "مبایعه‌نامه عادی ارائه شده",
+        "start_char": 593,
+        "end_char": 619,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم احراز مالکیت یا ذینفع بودن شاکی",
+      "evidence": {
+        "quote": "در وضعیت فعلی مالکیت یا ذینفع بودن شاکی احراز نمی‌گردد",
+        "start_char": 807,
+        "end_char": 861,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

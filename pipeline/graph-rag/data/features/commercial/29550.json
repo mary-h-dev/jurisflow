@@ -1,0 +1,223 @@
+{
+  "ruling_id": "29550",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی شرکت خوانده",
+        "start_char": 199,
+        "end_char": 228,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقف",
+      "evidence": {
+        "quote": "به دلیل توقف در پرداخت بدهی",
+        "start_char": 229,
+        "end_char": 256,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دارایی",
+      "evidence": {
+        "quote": "عدم کفایت دارایی وی برای ادای دیون مسلم است",
+        "start_char": 2189,
+        "end_char": 2232,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم ورشکستگی",
+        "start_char": 189,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تعیین",
+      "evidence": {
+        "quote": "و تعیین مدیر تصویه",
+        "start_char": 277,
+        "end_char": 295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت مبلغ 280/644/625/4 ریال",
+        "start_char": 490,
+        "end_char": 523,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی مطروحه را صادر مینماید",
+        "start_char": 1440,
+        "end_char": 1475,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن پذیرش تجدیدنظرخواهی",
+        "start_char": 3469,
+        "end_char": 3492,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را نقض نموده",
+        "start_char": 3531,
+        "end_char": 3565,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را جهت رسیدگی ماهیتی بمرجع محترم بدوی اعاده مینماید",
+        "start_char": 3567,
+        "end_char": 3624,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه فوق الذکر را تایید و استوار می نماید",
+        "start_char": 4585,
+        "end_char": 4625,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان محکوم گردیده است",
+        "start_char": 559,
+        "end_char": 588,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "دفاعیات وکیل خوانده",
+        "start_char": 688,
+        "end_char": 707,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در این مرحله از دادرسی",
+        "start_char": 4228,
+        "end_char": 4261,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 661 مورخ 30/7/91 صادره از شعبه 36 دادگاه عمومی حقوقی تهران مبنی بر صدور قرار رد دعوی شرکت تجدیدنظرخواه",
+        "start_char": 3175,
+        "end_char": 3290,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "بدهی",
+      "evidence": {
+        "quote": "توقف در پرداخت بدهی",
+        "start_char": 237,
+        "end_char": 256,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چک موضوع دادنامه استنادی خواهان",
+        "start_char": 1255,
+        "end_char": 1286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "توقیف اموال محکوم علیه",
+        "start_char": 1080,
+        "end_char": 1102,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از پرداخت بدهی خودداری می‌کند",
+      "evidence": {
+        "quote": "از پرداخت بدهی خودداری مینماید",
+        "start_char": 620,
+        "end_char": 650,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین نسبت به یکدیگر بدهی و طلب دارند",
+      "evidence": {
+        "quote": "طرفین پرونده نسبت به یکدیگر بدهی و طلب دارند",
+        "start_char": 898,
+        "end_char": 942,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "هیئت کارشناسی عدم توقف خوانده را اعلام کرد",
+      "evidence": {
+        "quote": "به طور قاطع اعلام کردند که خوانده متوقف نیست",
+        "start_char": 2584,
+        "end_char": 2628,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

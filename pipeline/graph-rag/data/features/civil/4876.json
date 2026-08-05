@@ -1,0 +1,153 @@
+{
+  "ruling_id": "4876",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت",
+        "start_char": 97,
+        "end_char": 114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "وجود حق حبس",
+        "start_char": 1090,
+        "end_char": 1101,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "امتناع می نماید",
+        "start_char": 215,
+        "end_char": 230,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "قرار رد دعوی زوج",
+        "start_char": 874,
+        "end_char": 890,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "عیناً تأیید می نماید",
+        "start_char": 1537,
+        "end_char": 1557,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج از تهیه مسکن",
+        "start_char": 176,
+        "end_char": 192,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در حد شان و مقام زوجه",
+        "start_char": 193,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "رد دعوی خواهان",
+        "start_char": 544,
+        "end_char": 558,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی",
+        "start_char": 1282,
+        "end_char": 1309,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "سند نکاحیه شماره 9945 دفتر 312 تهران",
+        "start_char": 121,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "تهیه مسکن",
+        "start_char": 183,
+        "end_char": 192,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 800294",
+        "start_char": 786,
+        "end_char": 806,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج از تهیه مسکن مناسب امتناع کرده است",
+      "evidence": {
+        "quote": "زوج از تهیه مسکن در حد شان و مقام زوجه امتناع می نماید",
+        "start_char": 176,
+        "end_char": 230,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مسکن معرفی شده توسط زوج مناسب نیست",
+      "evidence": {
+        "quote": "منزلی هم که سابقاً معرفی نموده به تشخیص دادگاه جهت سکونت زوجه مناسب نمی باشد",
+        "start_char": 233,
+        "end_char": 309,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

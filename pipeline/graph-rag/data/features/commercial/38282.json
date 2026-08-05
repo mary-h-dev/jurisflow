@@ -1,0 +1,143 @@
+{
+  "ruling_id": "38282",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی",
+        "start_char": 95,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توقف",
+      "evidence": {
+        "quote": "توقف وی",
+        "start_char": 795,
+        "end_char": 802,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوای ابتدایی",
+        "start_char": 1292,
+        "end_char": 1318,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض عنه",
+        "start_char": 1704,
+        "end_char": 1729,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوای خواهان بدوی",
+        "start_char": 1732,
+        "end_char": 1765,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی خواهان",
+        "start_char": 427,
+        "end_char": 451,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "مورد اعتراض خواهان بدوی قرار گرفته است",
+        "start_char": 938,
+        "end_char": 976,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوایی به طرفیت دادستان *به خواسته صدور حکم ورشکستگی مطرح کرده است",
+        "start_char": 60,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "دادستان",
+      "evidence": {
+        "quote": "به طرفیت دادستان",
+        "start_char": 67,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوای ابتدایی تجدیدنظرخواه",
+        "start_char": 1292,
+        "end_char": 1331,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره *",
+        "start_char": 1226,
+        "end_char": 1249,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم حضور طلبکار در دعوای ورشکستگی",
+      "evidence": {
+        "quote": "در دعوای ورشکستگی حداقل باید یک یا چند نفر از طلبکاران طرف دعوا قرار بگیرند تا امکان بررسی پروسه ورشکستگی میسور گردد. که بدین نحو عمل نشده است",
+        "start_char": 1437,
+        "end_char": 1579,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل و مدرک متقن",
+      "evidence": {
+        "quote": "عدم ارائه دلیل و مدرک متقن و مثبت ادعا از جانب خواهان",
+        "start_char": 598,
+        "end_char": 651,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25698",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت‌المثل",
+        "start_char": 72,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "قصد تبرع نداشته",
+        "start_char": 806,
+        "end_char": 821,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی صادر",
+        "start_char": 207,
+        "end_char": 229,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت‌المثل",
+        "start_char": 62,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "به نظر دادگاه اعتراض وارد است",
+        "start_char": 681,
+        "end_char": 710,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه مارالذکر",
+        "start_char": 959,
+        "end_char": 983,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "حکم به محکومیت تجدیدنظرخوانده به پرداخت",
+        "start_char": 1064,
+        "end_char": 1103,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "حسب دادخواست تقدیمی خواهان ن. ن.",
+        "start_char": 0,
+        "end_char": 32,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده دعوی",
+        "start_char": 33,
+        "end_char": 53,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی خانم ن. ن.",
+        "start_char": 419,
+        "end_char": 451,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده در جلسه حاضر نشد",
+        "start_char": 863,
+        "end_char": 894,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اجرت‌المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت‌المثل",
+        "start_char": 72,
+        "end_char": 89,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "به پرداخت شصت میلیون ریال",
+        "start_char": 1094,
+        "end_char": 1119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه دادرسی",
+      "evidence": {
+        "quote": "به انضمام هزینه دادرسی",
+        "start_char": 1150,
+        "end_char": 1172,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه در جلسه دادگاه حاضر شده و قسم یاد کرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در جلسه دادگاه مورخه 1394/3/2 حاضر شد و اظهار داشت برای کارهای منزل قصد تبرع نداشته و قسم یاد کرده",
+        "start_char": 725,
+        "end_char": 836,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخوانده در جلسه حاضر نشده و دفاعی نکرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده در جلسه حاضر نشد و دفاعی نکرده",
+        "start_char": 863,
+        "end_char": 908,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

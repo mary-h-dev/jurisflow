@@ -1,0 +1,303 @@
+{
+  "ruling_id": "10920",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "تقاضای صدور حکم طلاق بائن",
+        "start_char": 120,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "ضمن عقد نکاح",
+        "start_char": 513,
+        "end_char": 525,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "موجبات عسر و حرج زوجه را فراهم می‌آورد",
+        "start_char": 5414,
+        "end_char": 5452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق ملاقات",
+      "evidence": {
+        "quote": "حق ملاقات زوج با فرزند خویش",
+        "start_char": 3226,
+        "end_char": 3253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "ضمن اقرار به ابتلا به بیماری ایدز",
+        "start_char": 955,
+        "end_char": 988,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت آقای ق.و.",
+        "start_char": 24,
+        "end_char": 52,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "تقاضای صدور حکم طلاق بائن",
+        "start_char": 120,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "کردن",
+      "evidence": {
+        "quote": "خود را به‌عنوان وکیل خواهان معرفی نمود",
+        "start_char": 1567,
+        "end_char": 1605,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "مورد اعتراض خوانده واقع",
+        "start_char": 3335,
+        "end_char": 3358,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن تجدیدنظرخواهی از آن",
+        "start_char": 3367,
+        "end_char": 3390,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "مورد فرجام‌خواهی قرار گرفته",
+        "start_char": 5066,
+        "end_char": 5093,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خود را به‌عنوان وکیل خواهان معرفی نمود",
+        "start_char": 1567,
+        "end_char": 1605,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ق.و.",
+        "start_char": 34,
+        "end_char": 52,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "طرفین در جلسه مورخ 1392/3/27 که با حضور طرفین تشکیل گردیده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "حالیه همسر وی مبتلا به بیماری صعب‌العلاج شده",
+        "start_char": 397,
+        "end_char": 441,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "خواهان برادر خویش آقای د.الف. و خوانده آقای م.ن. را به‌عنوان داور تعرفه",
+        "start_char": 1804,
+        "end_char": 1875,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "خود را به‌عنوان وکیل خواهان معرفی نمود",
+        "start_char": 1567,
+        "end_char": 1605,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "مورد اعتراض خوانده واقع و ایشان ضمن تجدیدنظرخواهی",
+        "start_char": 3335,
+        "end_char": 3384,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "وکیل تجدیدنظرخوانده هم با تقدیم لایحه‌ای",
+        "start_char": 4045,
+        "end_char": 4085,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "به انضمام تصویر سند نکاحیه",
+        "start_char": 53,
+        "end_char": 79,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "به استناد بندهای عقدنامه",
+        "start_char": 146,
+        "end_char": 170,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "حسب سند رسمی نکاحیه شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "با تقدیم وکالت‌نامه",
+        "start_char": 1546,
+        "end_char": 1565,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "با تقدیم لایحه‌ای",
+        "start_char": 3391,
+        "end_char": 3408,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه صادره به شماره 9209997510301187",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده به بیماری ایدز مبتلا است",
+      "evidence": {
+        "quote": "مبتلا به بیماری (HIV) بوده",
+        "start_char": 1412,
+        "end_char": 1438,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در سال ۱۳۸۷ مبتلا شده است",
+      "evidence": {
+        "quote": "از سال 1387 مبتلا به بیماری (HIV) بوده",
+        "start_char": 1400,
+        "end_char": 1438,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بیماری خوانده صعب‌العلاج است",
+      "evidence": {
+        "quote": "بیماری نامبرده فعلاً صعب‌العلاج بوده و درمان قطعی ندارد",
+        "start_char": 1479,
+        "end_char": 1534,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج و زوجه فرزند مشترک دارند",
+      "evidence": {
+        "quote": "حاصل آن فرزند مشترک پسری است",
+        "start_char": 335,
+        "end_char": 363,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "28333",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "تقاضای اعلام بطلان مبایعه نامه",
+        "start_char": 152,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مستحق للغیر",
+      "evidence": {
+        "quote": "در حقیقت این بخش از مبیع مستحق للغیر بوده",
+        "start_char": 870,
+        "end_char": 911,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قانون اساسی",
+      "evidence": {
+        "quote": "حاکمیت اصل 45 قانون اساسی",
+        "start_char": 1458,
+        "end_char": 1483,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "تقاضای اعلام بطلان مبایعه نامه",
+        "start_char": 152,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "جبران خسارت",
+      "evidence": {
+        "quote": "الزام خوانده به جبران خسارت",
+        "start_char": 343,
+        "end_char": 370,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد ثمن",
+      "evidence": {
+        "quote": "حکم بر استرداد ثمن",
+        "start_char": 1821,
+        "end_char": 1839,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت خسارت",
+      "evidence": {
+        "quote": "پرداخت خسارت برابر نظریه هیئت کارشناسی",
+        "start_char": 1863,
+        "end_char": 1901,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان به موجب دادخواست",
+        "start_char": 605,
+        "end_char": 633,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به جبران خسارت",
+        "start_char": 343,
+        "end_char": 370,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به استرداد ثمن وپرداخت خسارات",
+        "start_char": 2596,
+        "end_char": 2637,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواندگان",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخواندگان محکوم شده است",
+        "start_char": 2662,
+        "end_char": 2697,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه نامه شماره......... مورخه 1382/10/29",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین دارای پلاک ثبتی",
+        "start_char": 728,
+        "end_char": 756,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "کلیه ثمن معامله را پرداخت",
+        "start_char": 837,
+        "end_char": 862,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اراضی",
+      "evidence": {
+        "quote": "اراضی پلاک ثبتی شماره",
+        "start_char": 245,
+        "end_char": 266,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "بخش از زمین در بستر رودخانه قرار دارد",
+      "evidence": {
+        "quote": "حکایت از وقوع میزان 4820 مترمربع از پلاک متنازع فیه در بستر رودخانه را داشته",
+        "start_char": 1311,
+        "end_char": 1387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بخش از زمین در حریم رودخانه قرار دارد",
+      "evidence": {
+        "quote": "مقدار 91/1231 مترمربع آن در حریم رودخانه قرار گرفته",
+        "start_char": 3023,
+        "end_char": 3071,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "ruling_id": "25691",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسارات تأخیر تأدیه",
+        "start_char": 321,
+        "end_char": 339,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صحت",
+      "evidence": {
+        "quote": "نظر به اصل صحت قراردادهای منعقده",
+        "start_char": 4773,
+        "end_char": 4805,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت ننموده",
+        "start_char": 765,
+        "end_char": 778,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واگذاری",
+      "evidence": {
+        "quote": "اقدام به واگذاری آموزشگاه ع. نموده‌اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال قرار داد عادی",
+        "start_char": 414,
+        "end_char": 443,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان دعوی اصلی",
+        "start_char": 586,
+        "end_char": 602,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت خوانده",
+        "start_char": 124,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه",
+        "start_char": 3364,
+        "end_char": 3376,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد عادی",
+      "evidence": {
+        "quote": "قرارداد عادی مورخ 1391/1/28",
+        "start_char": 194,
+        "end_char": 221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چهار فقره چک بوده",
+        "start_char": 719,
+        "end_char": 736,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قطعه",
+      "evidence": {
+        "quote": "قطعه زمینی در کلاردشت",
+        "start_char": 807,
+        "end_char": 828,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده بخشی از مطالبات را پرداخت نکرده است",
+      "evidence": {
+        "quote": "خوانده قسمتی از مطالبات موکل را که به صورت چهار فقره چک بوده هرکدام ده میلیون تومان بوده پرداخت ننموده",
+        "start_char": 676,
+        "end_char": 778,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده بخشی از مبلغ را پرداخت کرده است",
+      "evidence": {
+        "quote": "موکل مجموعاً هفتاد و پنج میلیون تومان پرداخت کرده",
+        "start_char": 1028,
+        "end_char": 1077,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "موضوع معامله با مقصود موکل مطابقت ندارد",
+      "evidence": {
+        "quote": "موضوعی که مورد معامله بوده مقصود موکل نمی‌باشد",
+        "start_char": 1536,
+        "end_char": 1582,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25141",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تخریب",
+      "evidence": {
+        "quote": "مشارکت در تخریب اموال دولتی",
+        "start_char": 67,
+        "end_char": 94,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "توهین",
+      "evidence": {
+        "quote": "توهین",
+        "start_char": 96,
+        "end_char": 101,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ایراد",
+      "evidence": {
+        "quote": "ایراد صدمات بدنی عمدی",
+        "start_char": 103,
+        "end_char": 124,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تهدید",
+      "evidence": {
+        "quote": "تهدید با چاقو",
+        "start_char": 139,
+        "end_char": 152,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض نموده",
+        "start_char": 834,
+        "end_char": 846,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "درخواست رسیدگی",
+      "evidence": {
+        "quote": "درخواست رسیدگی تجدیدنظری می‌نماید",
+        "start_char": 849,
+        "end_char": 882,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارسال",
+      "evidence": {
+        "quote": "ارسال می‌گردد",
+        "start_char": 368,
+        "end_char": 381,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهمین",
+      "evidence": {
+        "quote": "متهمین",
+        "start_char": 460,
+        "end_char": 466,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "محکومین",
+      "evidence": {
+        "quote": "محکومین",
+        "start_char": 793,
+        "end_char": 800,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمانده",
+      "evidence": {
+        "quote": "فرمانده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موصوف",
+      "evidence": {
+        "quote": "موصوف",
+        "start_char": 801,
+        "end_char": 806,
+        "confidence": 0.7
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال",
+      "evidence": {
+        "quote": "اموال دولتی",
+        "start_char": 83,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه",
+        "start_char": 470,
+        "end_char": 477,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پرونده",
+        "start_char": 15,
+        "end_char": 21,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهمین به جرم تخریب اموال دولتی و توهین محکوم شده‌اند",
+      "evidence": {
+        "quote": "با حراز مجرمیت متهمین",
+        "start_char": 445,
+        "end_char": 466,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست تجدیدنظر توسط وکیل متهم ارائه شده است",
+      "evidence": {
+        "quote": "به وکالت از محکومین موصوف به محکومیت آنان و میزان آن اعتراض نموده و درخواست رسیدگی تجدیدنظری می‌نماید",
+        "start_char": 781,
+        "end_char": 882,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

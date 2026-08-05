@@ -1,0 +1,183 @@
+{
+  "ruling_id": "698",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام به تمکین",
+        "start_char": 93,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "علقه زوجیت فی مابین وجود دارد",
+        "start_char": 1208,
+        "end_char": 1237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 527,
+        "end_char": 551,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض تجدیدنظرخواه وارد است",
+        "start_char": 1099,
+        "end_char": 1127,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه مذکور",
+        "start_char": 1963,
+        "end_char": 1984,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "حکم به الزام تجدیدنظرخوانده (زوجه) به تمکین",
+        "start_char": 2017,
+        "end_char": 2060,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست تقدیمی خواهان آقای م.ل.",
+        "start_char": 8,
+        "end_char": 40,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده خانم ه.",
+        "start_char": 50,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م.ل.",
+        "start_char": 818,
+        "end_char": 849,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "الزام تجدیدنظرخوانده (زوجه)",
+        "start_char": 2024,
+        "end_char": 2051,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تمکین زوجه نسبت به زوج است",
+        "start_char": 1335,
+        "end_char": 1361,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "برای زوجه تشخیص داده",
+        "start_char": 471,
+        "end_char": 491,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 01197",
+        "start_char": 141,
+        "end_char": 160,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی پزشکی",
+      "evidence": {
+        "quote": "گواهی پزشکی متعددی",
+        "start_char": 308,
+        "end_char": 326,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "تهیه منزل",
+        "start_char": 2127,
+        "end_char": 2136,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده دچار بیماری افسردگی و اضطراب است",
+      "evidence": {
+        "quote": "گواهی پزشکی متعددی که حاکی از بیماری افسردگی و اضطراب خواهان می نماید",
+        "start_char": 308,
+        "end_char": 377,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده ضرب و جرح عمدی انجام داده است",
+      "evidence": {
+        "quote": "حکایت از ایراد ضرب و جرح عمدی منجر به شکستن دست خوانده دعوی از سوی خواهان می نماید",
+        "start_char": 216,
+        "end_char": 298,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

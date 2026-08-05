@@ -1,0 +1,123 @@
+{
+  "ruling_id": "4946",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "پس از هفت سالگی تا سن بلوغ پدر اولویت بر حضانت دارد",
+        "start_char": 244,
+        "end_char": 295,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بلوغ",
+      "evidence": {
+        "quote": "سن بلوغ در دختران 9 سال قمری می باشد",
+        "start_char": 1316,
+        "end_char": 1352,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "الزام خوانده به تحویل فرزند مشترک",
+        "start_char": 93,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظر",
+        "start_char": 1562,
+        "end_char": 1586,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان بدوی صادر و اعلام می گردد",
+        "start_char": 1624,
+        "end_char": 1671,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت خانم م.پ. فرزند ب. به خواسته الزام خوانده",
+        "start_char": 55,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خانم م.پ. فرزند ب. به خواسته الزام خوانده",
+        "start_char": 55,
+        "end_char": 105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره00164 مورخ17/2/91 در پرونده کلاسه1640 صادره از شعبه286 دادگاه عمومی حقوقی تهران که به موجب آن دادخواست بدوی تجدیدنظر خوانده به طرفیت تجدیدنظرخواه",
+        "start_char": 822,
+        "end_char": 988,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "الزام خوانده به تحویل فرزند مشترک بنام م. متولد 1/10/82",
+        "start_char": 93,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره00164 مورخ17/2/91",
+        "start_char": 822,
+        "end_char": 860,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "فرزند به سن بلوغ رسیده است",
+      "evidence": {
+        "quote": "پس از سن بلوغ فرزند شخصاً تصمیم می گیرد که با کدام یک از والدین زندگی را ادامه دهد",
+        "start_char": 1355,
+        "end_char": 1437,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "ruling_id": "36484",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "بخاسته فسخ نکاح",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "به دلیل تدلیس در ازدواج",
+        "start_char": 108,
+        "end_char": 131,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رضایت",
+      "evidence": {
+        "quote": "خواهان رضایت خودش را در پرونده کیفری اعلام نموده است",
+        "start_char": 1798,
+        "end_char": 1850,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فسخ نکاح",
+      "evidence": {
+        "quote": "بخاسته فسخ نکاح",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "پرونده کیفری مذکور مطالبه نشده",
+        "start_char": 3461,
+        "end_char": 3491,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم بر رد دعوی خواهان صادر",
+        "start_char": 2033,
+        "end_char": 2059,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه فرجام خواهته نقض و پرونده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده برای رسیدگی لازم و رفع نواقص موجود به دادگاه صادر کننده رای منقوض اعاده می شود",
+        "start_char": 4024,
+        "end_char": 4109,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "توضیح داده خوانده خود را مجرد و فردی که تا کنون ازدواج نکرده معرفی کرده",
+        "start_char": 167,
+        "end_char": 238,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موکله",
+      "evidence": {
+        "quote": "مبنای قبول ازدواج موکله که دختری باکره بوده",
+        "start_char": 241,
+        "end_char": 284,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با توجه به اظهارات وکیل خواهان",
+        "start_char": 882,
+        "end_char": 912,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "و اینکه زوج با داشتن سابقه ازدواج قبلی با وی ازدواج نموده است",
+        "start_char": 1708,
+        "end_char": 1769,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "علیه خوانده شکایت کیفری مبنی بر تدلیس در ازدواج مطرح کرده",
+        "start_char": 945,
+        "end_char": 1002,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "عقد ازدواج",
+      "evidence": {
+        "quote": "عقد ازدواج طرفین دعوی هم ظاهرا عادی است",
+        "start_char": 3549,
+        "end_char": 3588,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده سابقه ازدواج قبلی داشته است",
+      "evidence": {
+        "quote": "نامبرده تاکنون دوبار ازدواج کرده و دارای فرزند است",
+        "start_char": 321,
+        "end_char": 371,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ازدواج در محضر ازدواج بدون حضور نماینده خوانده انجام شده است",
+      "evidence": {
+        "quote": "در محضر ازدواج هم کسی از جانب خوانده حضور نداشته",
+        "start_char": 374,
+        "end_char": 422,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ازدواج در محضر ازدواج بدون ارائه مدارک هویتی انجام شده است",
+      "evidence": {
+        "quote": "مدارک هویتی و شناسنامه وی ارائه نشده",
+        "start_char": 425,
+        "end_char": 461,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ازدواج ثبت نشده است",
+      "evidence": {
+        "quote": "و تا کنون به ثبت نرسیده",
+        "start_char": 3589,
+        "end_char": 3612,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

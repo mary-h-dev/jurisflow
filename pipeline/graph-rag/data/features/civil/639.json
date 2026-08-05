@@ -1,0 +1,153 @@
+{
+  "ruling_id": "639",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "به خواسته خلع ید خواندگان از ملک",
+        "start_char": 110,
+        "end_char": 142,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "دلالت بر مالکیت مشاعی خواهان ها",
+        "start_char": 515,
+        "end_char": 546,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مسترد",
+      "evidence": {
+        "quote": "خواسته خود را نسبت به خوانده ردیف پنجم مسترد نموده",
+        "start_char": 265,
+        "end_char": 315,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی کرده اند",
+        "start_char": 1378,
+        "end_char": 1400,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض این بخش از دادنامه",
+        "start_char": 1855,
+        "end_char": 1881,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته در این بخش به استناد ماده 358 قانون مرقوم تأیید و استوار می شود",
+        "start_char": 2559,
+        "end_char": 2645,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان محکوم می نماید",
+        "start_char": 962,
+        "end_char": 989,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به خواسته خلع ید خواندگان",
+        "start_char": 110,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "تجدیدنظرخواهان به خلع ید",
+        "start_char": 1423,
+        "end_char": 1447,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "ملک پلاک ثبتی 371/2271 بخش ده تهران",
+        "start_char": 139,
+        "end_char": 174,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "هزینه‌های دادرسی",
+      "evidence": {
+        "quote": "به انضمام هزینه های دادرسی",
+        "start_char": 175,
+        "end_char": 201,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حق‌الوکاله",
+      "evidence": {
+        "quote": "و حق الوکاله",
+        "start_char": 202,
+        "end_char": 214,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مالکیت مشاعی خواهان‌ها بر ملک ثابت شده است",
+      "evidence": {
+        "quote": "دلالت بر مالکیت مشاعی خواهان ها نسبت به پلاک ثبتی مورد دعوی دارد",
+        "start_char": 515,
+        "end_char": 579,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "یکی از خوانده‌ها متصرف ملک نبوده است",
+      "evidence": {
+        "quote": "خانم ع.م. متصرف ملک مورد ترافع نبوده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

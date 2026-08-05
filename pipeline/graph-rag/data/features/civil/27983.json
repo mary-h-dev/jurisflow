@@ -1,0 +1,163 @@
+{
+  "ruling_id": "27983",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "وجود علقه زوجیت بین طرفین محرز است",
+        "start_char": 287,
+        "end_char": 321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 115,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "با بررسی اوراق پرونده و با احراز به وجود رابطه زوجیت",
+        "start_char": 1182,
+        "end_char": 1234,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 105,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رددعوی خواهان صادور اعلام می دارد",
+        "start_char": 797,
+        "end_char": 837,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه معترض عنه",
+        "start_char": 1457,
+        "end_char": 1482,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "حکم به محکومیت زوجه خانم ( س. ر. )به تمکین",
+        "start_char": 1527,
+        "end_char": 1569,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت خانم س. ر. فرزند م.ب. به خواسته الزام خوانده به تمکین از شوهرش",
+        "start_char": 74,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 115,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "توسط زوج (خواهان)مورد ایراد ضرب و جرح عمدی قرار گرفته است",
+        "start_char": 406,
+        "end_char": 463,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "الزام به تمکین زوجه که بخواسته زوج اصدار یافته است",
+        "start_char": 1124,
+        "end_char": 1174,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "تصویر مصدق رونوشت سند نکاحیه شماره ترتیب.....-1390/8/24",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه اصداری به شماره های 217-1393/4/3",
+        "start_char": 464,
+        "end_char": 504,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج در پرونده کیفری به اتهام ضرب و جرح محکوم شده است",
+      "evidence": {
+        "quote": "به اتهام ایراد ضرب و جرح عمدی نسبت به خانم س. ر. فرزند م.ب. محکوم گردید",
+        "start_char": 586,
+        "end_char": 657,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده از ترس آسیب بدنی از تمکین امتناور است",
+      "evidence": {
+        "quote": "با توجه به وجود خوف ضرر بدنی برای خوانده در تمکین از خواهان",
+        "start_char": 662,
+        "end_char": 721,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "ruling_id": "4672",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "به جهت عسر و حرج ناشی از ترک انفاق و کتک کاری",
+        "start_char": 120,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انفاق",
+      "evidence": {
+        "quote": "ناشی از ترک انفاق",
+        "start_char": 137,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سوء رفتار",
+      "evidence": {
+        "quote": "مصداق سوء رفتار زوج است",
+        "start_char": 904,
+        "end_char": 927,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "نسبت به اجرای صیغه طلاق از نوع خلع و بائن اقدام نماید",
+        "start_char": 1147,
+        "end_char": 1200,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امکان سازش",
+      "evidence": {
+        "quote": "به خواسته صدور گواهی عدم امکان سازش",
+        "start_char": 77,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "زوجه هم تعداد 34 سکه از مهریه را در قبال طلاق بذل کرده اند",
+        "start_char": 780,
+        "end_char": 838,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م.ع.",
+        "start_char": 1522,
+        "end_char": 1553,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست",
+      "evidence": {
+        "quote": "ضمن رد درخواست تجدیدنظر تأیید می شود",
+        "start_char": 2562,
+        "end_char": 2598,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "عسر و حرج زوجه به جهت ترک انفاق",
+        "start_char": 843,
+        "end_char": 874,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "مصداق سوء رفتار زوج است",
+        "start_char": 904,
+        "end_char": 927,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "از سوی معترض دلیلی که نقض یا بی اعتباری دادنامه بدوی را ایجاب نماید ابراز نشده است",
+        "start_char": 1820,
+        "end_char": 1902,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "با توجه به تصویر مصدق سند رسمی ازدواج",
+        "start_char": 174,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "تعداد 34 سکه از مهریه را در قبال طلاق بذل کرده اند",
+        "start_char": 788,
+        "end_char": 838,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "جهیزیه را در اختیار دارد",
+        "start_char": 2146,
+        "end_char": 2170,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین محرز است",
+      "evidence": {
+        "quote": "رابطه دائم زوجیت بین طرفین را محرز کرده",
+        "start_char": 235,
+        "end_char": 274,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "داوران در اصلاح ذات‌البین توفیقی نداشته‌اند",
+      "evidence": {
+        "quote": "لیکن داوران نیز در اصلاح ذات البین توفیقی نداشته اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به دلیل ضرب و جرح محکوم به پرداخت دیه شده است",
+      "evidence": {
+        "quote": "خوانده را به خاطر ایراد ضرب و جرح به پرداخت دیه محکوم کرده",
+        "start_char": 621,
+        "end_char": 679,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجین فرزند مشترک ندارند",
+      "evidence": {
+        "quote": "زوجین فرزند مشترک ندارند",
+        "start_char": 2278,
+        "end_char": 2302,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

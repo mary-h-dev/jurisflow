@@ -1,0 +1,163 @@
+{
+  "ruling_id": "4453",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "با احراز رابطه زوجیت فی مابین طرفین",
+        "start_char": 174,
+        "end_char": 209,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "امانی",
+      "evidence": {
+        "quote": "ید زوج بر اجناس جهیزیه زوجه امانی تلقی می شود",
+        "start_char": 401,
+        "end_char": 446,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "الزام خوانده به رد و تحویل اجناس و اقلام جهیزیه",
+        "start_char": 74,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "دلیلی به عدم رد و تحویل اجناس جهیزیه و اقلام سیاهه مورد مطالبه اقامه و ابراز نشده است",
+        "start_char": 309,
+        "end_char": 394,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رجوع",
+      "evidence": {
+        "quote": "با طرح دعوی و تقدیم دادخواست از اذن خود رجوع کرده است",
+        "start_char": 515,
+        "end_char": 568,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در محاکم محترم تجدیدنظر",
+        "start_char": 1064,
+        "end_char": 1099,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ح.ک.",
+        "start_char": 1165,
+        "end_char": 1188,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "مستندات ابرازی خواهان",
+        "start_char": 240,
+        "end_char": 261,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به رد و تحویل",
+        "start_char": 74,
+        "end_char": 100,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "ید زوج بر اجناس جهیزیه زوجه امانی تلقی می شود",
+        "start_char": 401,
+        "end_char": 446,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "اجناس جهیزیه زوجه",
+        "start_char": 411,
+        "end_char": 428,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "اجناس و اقلام جهیزیه متعلقه به خواهان",
+        "start_char": 101,
+        "end_char": 138,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سیاهه عادی",
+      "evidence": {
+        "quote": "موضوع سیاهه عادی مضبوط در پرونده",
+        "start_char": 141,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار است",
+      "evidence": {
+        "quote": "با احراز رابطه زوجیت فی مابین طرفین",
+        "start_char": 174,
+        "end_char": 209,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از اذن خود در رابطه زوجیت رجوع کرده است",
+      "evidence": {
+        "quote": "با طرح دعوی و تقدیم دادخواست از اذن خود رجوع کرده است",
+        "start_char": 515,
+        "end_char": 568,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

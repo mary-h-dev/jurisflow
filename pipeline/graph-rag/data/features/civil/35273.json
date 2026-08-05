@@ -1,0 +1,183 @@
+{
+  "ruling_id": "35273",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مالکیت مشاعی صحابه دعوی",
+        "start_char": 387,
+        "end_char": 410,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 107,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "رفع خلع ید",
+        "start_char": 2420,
+        "end_char": 2430,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دعوای تخلیه",
+      "evidence": {
+        "quote": "و تخلیه",
+        "start_char": 2431,
+        "end_char": 2438,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مبنی بر مطالبه اجرت المثل",
+        "start_char": 99,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "ایام تصرفات",
+        "start_char": 125,
+        "end_char": 136,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه دعوی",
+      "evidence": {
+        "quote": "دعوی اقامه شده",
+        "start_char": 54,
+        "end_char": 68,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 3269,
+        "end_char": 3287,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "درخور نقض تشخیص",
+        "start_char": 4247,
+        "end_char": 4262,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهانهای ردیف اول و دوم",
+        "start_char": 69,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و خوانده دلیلی بر مشروعیت تصرفات خود اقامه نکرده است",
+        "start_char": 683,
+        "end_char": 735,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "وکیل خواهانهای ردیف اول و دوم",
+        "start_char": 69,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به قرار رد دعوی تجدیدنظرخواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتمان به مساحت 79/127 متر مربع",
+        "start_char": 1033,
+        "end_char": 1074,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "فاکتوکپی وکالتنامه های استنادی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه فاقد سمت برای طرح دعوی اجرت المثل بوده است",
+      "evidence": {
+        "quote": "چون وکالتی در خصوص طرح دعوی اجرت المثل به وکیل مرقوم تفویض نشده",
+        "start_char": 2460,
+        "end_char": 2523,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه در مورد دعوای اجرت المثل پیروز عمل کرده است",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را درخور نقض تشخیص",
+        "start_char": 4221,
+        "end_char": 4262,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

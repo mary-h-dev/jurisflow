@@ -1,0 +1,183 @@
+{
+  "ruling_id": "24406",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "صدور حکم به اعلام و تایید فسخ عقد نکاح دائم",
+        "start_char": 79,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "عقد نکاح دائم",
+        "start_char": 109,
+        "end_char": 122,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "برخلاف اصل لزوم عقد نکاح",
+        "start_char": 2447,
+        "end_char": 2471,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان",
+        "start_char": 3010,
+        "end_char": 3034,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعلام و تایید فسخ",
+        "start_char": 91,
+        "end_char": 108,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "پرونده پزشکی وی را به پزشک ارائه داده",
+        "start_char": 506,
+        "end_char": 543,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اظهار",
+      "evidence": {
+        "quote": "وکیل خوانده در دفاع اظهار داشته است",
+        "start_char": 575,
+        "end_char": 610,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای م. ع. به طرفیت خانم ع. ق.",
+        "start_char": 0,
+        "end_char": 43,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده را به عقد نکاح دائمی خود درآورده است",
+        "start_char": 180,
+        "end_char": 223,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجین",
+      "evidence": {
+        "quote": "زوجین قبل از انعقاد عقد نکاح دائم",
+        "start_char": 614,
+        "end_char": 647,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "مادر زوجه اظهار داشته",
+        "start_char": 1057,
+        "end_char": 1078,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاهد",
+      "evidence": {
+        "quote": "دو شاهد دیگر خوانده",
+        "start_char": 1242,
+        "end_char": 1261,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پرونده پزشکی وی را به پزشک ارائه داده",
+        "start_char": 506,
+        "end_char": 543,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پزشکی قانونی",
+      "evidence": {
+        "quote": "دادگاه نظریه پزشکی قانونی را نیز اخذ نموده",
+        "start_char": 1481,
+        "end_char": 1523,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده به بیماری تشنج و اعصاب و روان مبتلا است",
+      "evidence": {
+        "quote": "ایشان بعلت بیماری شدید تشنج و اعصاب و روان دارد",
+        "start_char": 251,
+        "end_char": 298,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بیماری خوانده از خواهان پنهان شده است",
+      "evidence": {
+        "quote": "این موضوع را از وی پنهان کرده اند",
+        "start_char": 320,
+        "end_char": 353,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بیماری زوجه با دارو تحت کنترل است",
+      "evidence": {
+        "quote": "بیماری زوجه با درمان داروئی تحت کنترل است",
+        "start_char": 2654,
+        "end_char": 2695,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

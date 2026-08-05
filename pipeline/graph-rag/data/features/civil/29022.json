@@ -1,0 +1,153 @@
+{
+  "ruling_id": "29022",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "الزام به انجام تعهد مبنی بر انتقال سهام شرکت پ.ن.خودرو",
+        "start_char": 257,
+        "end_char": 311,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معامله",
+      "evidence": {
+        "quote": "مبلغ 4/620/000/000 ریال به عنوان ثمن معامله",
+        "start_char": 439,
+        "end_char": 482,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام به انجام تعهد",
+        "start_char": 247,
+        "end_char": 276,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت خسارات دادرسی",
+        "start_char": 773,
+        "end_char": 793,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "دعوی محکوم به رد می باشد",
+        "start_char": 861,
+        "end_char": 885,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را با اصلاح بعمل آمده تأیید و استوار می نماید",
+        "start_char": 3268,
+        "end_char": 3331,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را",
+        "start_char": 499,
+        "end_char": 520,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "نسبت به خوانده ردیف اول و دوم",
+        "start_char": 897,
+        "end_char": 926,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "بر محکومیت تجدیدنظرخواهان",
+        "start_char": 1387,
+        "end_char": 1412,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به تجدیدنظرخوانده و م.ف نموده اند",
+        "start_char": 2147,
+        "end_char": 2180,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "خودرو",
+      "evidence": {
+        "quote": "انتقال سهام شرکت پ.ن.خودرو",
+        "start_char": 285,
+        "end_char": 311,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "با توجه به قرارداد مورخ 90/5/12",
+        "start_char": 331,
+        "end_char": 362,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "قرارداد واگذاری سهام منعقد شده است",
+      "evidence": {
+        "quote": "به دلالت قرارداد واگذاری سهام مورخه 1390/5/12",
+        "start_char": 1771,
+        "end_char": 1816,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بهای سهام از طریق ۱۳ فقره چک پرداخت شده است",
+      "evidence": {
+        "quote": "بهای محل سهام طی 13 فقره چک به حساب فروشندگان کارسازی و پرداخت گردیده",
+        "start_char": 2398,
+        "end_char": 2467,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

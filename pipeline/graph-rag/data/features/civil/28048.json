@@ -1,0 +1,233 @@
+{
+  "ruling_id": "28048",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "صدور حکم به تنفیذ و اعتبار فسخ معامله",
+        "start_char": 82,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "حق فسخ قرارداد بیع را دارد",
+        "start_char": 1660,
+        "end_char": 1686,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مانع انتقال به دیگری از ناحیه خریدار نمی باشد",
+        "start_char": 12309,
+        "end_char": 12354,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "صدور حکم به تنفیذ و اعتبار فسخ",
+        "start_char": 82,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "الزام خوانده به استرداد عین ملک",
+        "start_char": 162,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "بابت بخشی از ثمن نیز طی دو فقره چک... پرداخت می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم وکالتنامه",
+        "start_char": 568,
+        "end_char": 592,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "موکل فسخ قرارداد بیع موضوع قراردادی را طی اظهارنامه شماره 8405-92/7/22 به خوانده محترم دعوی اعلام نموده است",
+        "start_char": 1706,
+        "end_char": 1813,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان موضوع پرونده کلاسه 920494",
+        "start_char": 969,
+        "end_char": 1007,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به استرداد عین ملک",
+        "start_char": 162,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده حق فسخ قرارداد بیع را دارد",
+        "start_char": 1652,
+        "end_char": 1686,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "خریدار از پرداخت وجه چک و تامین محل ان خودداری نمود",
+        "start_char": 2983,
+        "end_char": 3034,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ثالث",
+      "evidence": {
+        "quote": "در خصوص دعوی آقای م. ح.ش.... مبنی بر اعتراض ثالث",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "موضوع سند عادی شماره 49375",
+        "start_char": 120,
+        "end_char": 146,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "استرداد عین ملک",
+        "start_char": 178,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موضوع مبایعه نامه 92/3/31",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چک شماره...- 92/7/15",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "تنظیم وکالتنامه رسمی بلاعزل",
+        "start_char": 6660,
+        "end_char": 6687,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قطعه زمین",
+      "evidence": {
+        "quote": "قطعه زمین معین به متراژ 6044 متر مربع",
+        "start_char": 1076,
+        "end_char": 1113,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک‌ها فاقد محل بوده است",
+      "evidence": {
+        "quote": "چک به تاریخ 92/7/15 بلحاظ اینکه فروشنده به هیچ عنوان حاضر به همکاری نشد، خریدار از پرداخت وجه چک و تامین محل ان خودداری نمود",
+        "start_char": 2910,
+        "end_char": 3034,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فروشنده در دفترخانه حاضر نشده است",
+      "evidence": {
+        "quote": "با وجود اینکه در تاریخ 92/4/4 فروشنده در دفترخانه حاضر نگردید",
+        "start_char": 2727,
+        "end_char": 2787,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبایعه نامه دوم بر مبایعه نامه اول مقدم بوده است",
+      "evidence": {
+        "quote": "مبایعه نامه 92/3/22 عیناٌ از هر حیث شبیه به هم هستند که بموجب مفاد آنها خوانده ردیف اول یک قطعه زمین... را بموجب مبایعه نامه 92/3/31... در بنگاه نیز یک قولنامه دیگری تنظیم کرده اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

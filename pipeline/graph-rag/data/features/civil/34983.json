@@ -1,0 +1,163 @@
+{
+  "ruling_id": "34983",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "در جهت عقد مضاربه صادر نموده است",
+        "start_char": 1956,
+        "end_char": 1988,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "از باب انتقال طلب مطابق مقررات قانون مدنی فاقد ایراد می باشد",
+        "start_char": 4722,
+        "end_char": 4782,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ظهرنویسی",
+      "evidence": {
+        "quote": "ظهرنویسی باید با امضاء ظهر برات صورت گیرد",
+        "start_char": 4321,
+        "end_char": 4362,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "و خسارت تأخیر تأدیه و خسارت دادرسی عنوان نموده",
+        "start_char": 2434,
+        "end_char": 2480,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "مراتب انتقال شفایی چک ها را به خواهان تأیید نموده است",
+        "start_char": 2700,
+        "end_char": 2753,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بایستی با اثبات سود تقاضای مطالبه آن را نماید",
+        "start_char": 1998,
+        "end_char": 2043,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "از رأی مذکور فرجام خواهی نموده",
+        "start_char": 3635,
+        "end_char": 3665,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض رای",
+      "evidence": {
+        "quote": "تقاضای نقض رأی فرجام خواسته را نموده",
+        "start_char": 3846,
+        "end_char": 3882,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در این جلسه خواهان آقای الف.الف. اظهار داشت",
+        "start_char": 256,
+        "end_char": 299,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "و قبول دارم وکیل خوانده اظهار داشت",
+        "start_char": 758,
+        "end_char": 792,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شخص ثالث",
+      "evidence": {
+        "quote": "به شخص ثالث بدون هیچ امضاء پشت نویسی",
+        "start_char": 1213,
+        "end_char": 1249,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چک ها در وجه همسرم صادر شده بود",
+        "start_char": 333,
+        "end_char": 364,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "عرایض به شرح لایحه تقدیمی است",
+        "start_char": 793,
+        "end_char": 822,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "انتقال چک به صورت شفاهی انجام شده است",
+      "evidence": {
+        "quote": "مراتب انتقال شفایی چک ها را به خواهان تأیید نموده است",
+        "start_char": 2700,
+        "end_char": 2753,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "انتقال چک فاقد امضای پشت‌نویس است",
+      "evidence": {
+        "quote": "بدون هیچ امضاء پشت نویسی و... غیر قانونی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

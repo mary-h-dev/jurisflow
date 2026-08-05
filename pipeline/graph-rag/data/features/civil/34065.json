@@ -1,0 +1,152 @@
+{
+  "ruling_id": "34065",
+  "concepts": [],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "دایر بر استرداد حق بیمه کسر شده",
+        "start_char": 46,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض به عمل آمده",
+        "start_char": 751,
+        "end_char": 769,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "حکم به ابطال رای معترض عنه",
+        "start_char": 786,
+        "end_char": 812,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأي معترض عنه با اصلاح عبارت (شعبه هم عرض) در سطر هفتم به عبارت (همان شعبه) تایید و استوار می گردد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "با رد درخواست تجدیدنظرخواهی",
+        "start_char": 1322,
+        "end_char": 1349,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "در خصوص شکایت شاکی علیه سازمان تامین اجتماعی",
+        "start_char": 1,
+        "end_char": 45,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "سازمان",
+      "evidence": {
+        "quote": "در خصوص شکایت شاکی علیه سازمان تامین اجتماعی",
+        "start_char": 1,
+        "end_char": 45,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "پیمانکار",
+      "evidence": {
+        "quote": "برابر ماده 10 قانون مدنی نوع پیمان و موضوع آن به وسیله طرفین پیمان یعنی کارفرما و پیمانکار تعیین می شود",
+        "start_char": 293,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "کارفرما",
+      "evidence": {
+        "quote": "برابر ماده 10 قانون مدنی نوع پیمان و موضوع آن به وسیله طرفین پیمان یعنی کارفرما و پیمانکار تعیین می شود",
+        "start_char": 293,
+        "end_char": 396,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نظر به اینکه اعتراضات تجدیدنظرخواه به کیفیتی نیست",
+        "start_char": 1037,
+        "end_char": 1086,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "حق بیمه",
+      "evidence": {
+        "quote": "دایر بر استرداد حق بیمه کسر شده",
+        "start_char": 46,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قراردادهای",
+      "evidence": {
+        "quote": "لذا قراردادهای خرید تجهیزات و اقلام مصرفی که بدون وجود کارگر انجام می گیرد",
+        "start_char": 509,
+        "end_char": 583,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "حق بیمه کسر شده است",
+      "evidence": {
+        "quote": "استرداد حق بیمه کسر شده",
+        "start_char": 54,
+        "end_char": 77,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد خرید تجهیزات بدون وجود کارگر انجام می‌شود",
+      "evidence": {
+        "quote": "قراردادهای خرید تجهیزات و اقلام مصرفی که بدون وجود کارگر انجام می گیرد",
+        "start_char": 513,
+        "end_char": 583,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

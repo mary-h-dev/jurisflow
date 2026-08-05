@@ -1,0 +1,133 @@
+{
+  "ruling_id": "25868",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "به خواسته حضانت فرزند",
+        "start_char": 114,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 877,
+        "end_char": 895,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 785,
+        "end_char": 811,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "رأی صادر شده دادگاه بدوی را... تأیید می‌نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد درخواست تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد درخواست تجدیدنظرخواهی",
+        "start_char": 1581,
+        "end_char": 1609,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از سوی خواهان",
+        "start_char": 259,
+        "end_char": 272,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به سبب ازدواج خوانده",
+        "start_char": 381,
+        "end_char": 401,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "با عنایت به اینکه تجدیدنظرخواه",
+        "start_char": 1426,
+        "end_char": 1456,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "حضانت فرزند",
+        "start_char": 124,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 2157",
+        "start_char": 1061,
+        "end_char": 1087,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طفل حاضر به زندگی با خوانده نمی‌باشد",
+      "evidence": {
+        "quote": "طفل موضوع پرونده حاضر به زندگی با خوانده نمی‌باشد",
+        "start_char": 403,
+        "end_char": 452,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "گزارش کارشناس روانشناسی مبنی بر لزوم حضور طفل در کنار مادر",
+      "evidence": {
+        "quote": "با عنایت به گزارش کارشناس روانشناسی مبنی بر اینکه طفل باید در کنار مادرش باشد",
+        "start_char": 574,
+        "end_char": 651,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

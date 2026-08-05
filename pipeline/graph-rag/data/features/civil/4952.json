@@ -1,0 +1,233 @@
+{
+  "ruling_id": "4952",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "به دلیل عسر و حرج زوجه",
+        "start_char": 153,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 111,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "تقاضای طلاق نماید",
+        "start_char": 471,
+        "end_char": 488,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شروط ضمن عقد",
+      "evidence": {
+        "quote": "تخلف شوهر از شروط ضمن عقد",
+        "start_char": 331,
+        "end_char": 356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "استنکاف از پرداخت نفقه",
+        "start_char": 362,
+        "end_char": 384,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت",
+      "evidence": {
+        "quote": "دوام زوجیت",
+        "start_char": 1144,
+        "end_char": 1154,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "امکان سازش",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 111,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "صدور حکم طلاق",
+        "start_char": 139,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "نفقه گذشته را پرداخت کرده است",
+        "start_char": 802,
+        "end_char": 831,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض نامبرده",
+        "start_char": 2105,
+        "end_char": 2119,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم م.الف.",
+        "start_char": 1694,
+        "end_char": 1719,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "عسر و حرج زوجه",
+        "start_char": 161,
+        "end_char": 175,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تخلف شوهر",
+        "start_char": 331,
+        "end_char": 340,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ضمن اعلام آمادگی",
+        "start_char": 727,
+        "end_char": 750,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دوام زوجیت موجب عسر و حرج خواهان نیست",
+        "start_char": 1144,
+        "end_char": 1181,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "رد دعوای تجدیدنظرخواه",
+        "start_char": 1853,
+        "end_char": 1874,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "عدم پرداخت نفقه معوقه",
+        "start_char": 212,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "طی قبض شماره 957148",
+        "start_char": 773,
+        "end_char": 792,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "استشهادیه",
+      "evidence": {
+        "quote": "استشهادیه محلی تقدیمی",
+        "start_char": 1193,
+        "end_char": 1214,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه شماره 635",
+      "evidence": {
+        "quote": "دادنامه شماره 635",
+        "start_char": 1762,
+        "end_char": 1779,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده نفقه گذشته را پرداخت کرده است",
+      "evidence": {
+        "quote": "نفقه گذشته را پرداخت کرده است",
+        "start_char": 802,
+        "end_char": 831,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده برای ادامه تحصیلات به خارج از کشور عزیمت کرده است",
+      "evidence": {
+        "quote": "برای ادامه تحصیلات و اخذ تخصص به خارج از کشور عزیمت نموده",
+        "start_char": 890,
+        "end_char": 947,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

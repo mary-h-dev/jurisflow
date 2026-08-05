@@ -1,0 +1,123 @@
+{
+  "ruling_id": "7820",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق ملاقات",
+      "evidence": {
+        "quote": "حق ملاقات پدر نخواهد بود",
+        "start_char": 416,
+        "end_char": 440,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حقوق",
+      "evidence": {
+        "quote": "حق ملاقات فرزند از حقوق ذاتی و طبیعی والدین می باشد",
+        "start_char": 754,
+        "end_char": 805,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان صادر",
+        "start_char": 938,
+        "end_char": 967,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "سلب",
+      "evidence": {
+        "quote": "به خواسته سلب ملاقات از فرزند مشترک",
+        "start_char": 60,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی خانم ز.ب.",
+        "start_char": 1134,
+        "end_char": 1165,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "اولاً خواهان ادله رأی که اعتیاد خوانده را مدلل سازد ارائه نداده",
+        "start_char": 287,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "اعتیاد خوانده را مدلل سازد",
+        "start_char": 312,
+        "end_char": 338,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی تجدیدنظرخواه",
+        "start_char": 1280,
+        "end_char": 1310,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "سلب ملاقات از فرزند مشترک",
+        "start_char": 70,
+        "end_char": 95,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم ارائه دلیل برای اعتیاد خوانده",
+      "evidence": {
+        "quote": "اولاً خواهان ادله رأی که اعتیاد خوانده را مدلل سازد ارائه نداده",
+        "start_char": 287,
+        "end_char": 350,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم مراجعه خوانده به ملاقات به دلیل اصرارهای مکرر خواهان",
+      "evidence": {
+        "quote": "خوانده اعلام نموده به علت اصرارهای مکرر خواهان و آبروریزی وی اعلام کرده ام فعلاً جهت ملاقات مراجعت نکرده ام",
+        "start_char": 578,
+        "end_char": 685,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

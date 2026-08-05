@@ -1,0 +1,123 @@
+{
+  "ruling_id": "4002",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حبس تعزیری",
+      "evidence": {
+        "quote": "تحمل چهار ماه حبس تعزیری",
+        "start_char": 208,
+        "end_char": 232,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "جزای نقدی",
+      "evidence": {
+        "quote": "به جای حبس به جزای نقدی",
+        "start_char": 469,
+        "end_char": 492,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای م.الف.",
+        "start_char": 0,
+        "end_char": 25,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "مورد اعتراض قرار داده است",
+        "start_char": 243,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تبدیل",
+      "evidence": {
+        "quote": "به جای حبس به جزای نقدی به مبلغ یک میلیون ریال تبدیل می نماید",
+        "start_char": 469,
+        "end_char": 530,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته تأیید می گردد",
+        "start_char": 652,
+        "end_char": 688,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "چون تجدیدنظرخواه در سنین جوانی",
+        "start_char": 326,
+        "end_char": 356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "مناسب تر به حال متهم است",
+        "start_char": 534,
+        "end_char": 558,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه شماره",
+      "evidence": {
+        "quote": "دادنامه شماره 01180",
+        "start_char": 34,
+        "end_char": 53,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم به شرب خمر و توهین به مأمورین محکوم شده است",
+      "evidence": {
+        "quote": "به اتهام شرب خمر و توهین به مأمورین محکوم شده است",
+        "start_char": 134,
+        "end_char": 183,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم در سنین جوانی است و اظهار ندامت کرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در سنین جوانی [می باشد] و اظهار ندامت نموده",
+        "start_char": 330,
+        "end_char": 386,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

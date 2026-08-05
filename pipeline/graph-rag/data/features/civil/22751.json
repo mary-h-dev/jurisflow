@@ -1,0 +1,163 @@
+{
+  "ruling_id": "22751",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "معامله فاقد ارکان اساسی صحت عقد بوده و محکوم به بطلان است",
+        "start_char": 1362,
+        "end_char": 1419,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "معامله به قصد فرار از دین",
+        "start_char": 1460,
+        "end_char": 1485,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صوری",
+      "evidence": {
+        "quote": "به صورت صوری اقدام به انتقال اموال خود",
+        "start_char": 1137,
+        "end_char": 1175,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "اقدام به انتقال اموال خود",
+        "start_char": 1150,
+        "end_char": 1175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "فرار از پرداخت دین خود",
+        "start_char": 1099,
+        "end_char": 1121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض دادنامه فوق الاشعار را تقاضا دارد",
+        "start_char": 5203,
+        "end_char": 5240,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان های دعوی تقابل",
+        "start_char": 883,
+        "end_char": 909,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وکیل خوانده ردیف دوم در مقام دفاع اظهار داشته",
+        "start_char": 4069,
+        "end_char": 4114,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "بنابراین فرجام خواهی به عمل آمده وارد تشخیص",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دانگ مشاع",
+      "evidence": {
+        "quote": "نسبت به سه دانگ مشاع صادر و تسلیم گردیده است",
+        "start_char": 642,
+        "end_char": 686,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "اسناد مالکیت مشاعی یک دستگاه آپارتمان",
+        "start_char": 477,
+        "end_char": 514,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "موضوع معامله (یک واحد آپارتمان)",
+        "start_char": 5803,
+        "end_char": 5834,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "معامله به صورت صوری انجام شده است",
+      "evidence": {
+        "quote": "به صورت صوری اقدام به انتقال اموال خود",
+        "start_char": 1137,
+        "end_char": 1175,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اموال در زمان معامله تحت بازداشت نبوده است",
+      "evidence": {
+        "quote": "موضوع معامله (یک واحد آپارتمان) تحت بازداشت نبوده",
+        "start_char": 5803,
+        "end_char": 5852,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "بازداشت اموال چندین ماه پس از معامله صورت گرفته است",
+      "evidence": {
+        "quote": "بازداشت سه دانگ سهمی آقای م. م.ک. ، چندین ماه بعد از وقوع معامله مورخ 89/3/26 بین او و فرجام خواه (آقای م. ک. ) صورت گرفته",
+        "start_char": 6129,
+        "end_char": 6251,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

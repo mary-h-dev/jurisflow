@@ -1,0 +1,163 @@
+{
+  "ruling_id": "24679",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قانون مدنی",
+      "evidence": {
+        "quote": "عطف به ماسبق نشدن قوانین و مقررات به گذشته برابر ماده 4 قانون مدنی",
+        "start_char": 699,
+        "end_char": 765,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور رای",
+      "evidence": {
+        "quote": "صدور رأی به اخذ جریمه",
+        "start_char": 14,
+        "end_char": 35,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "رأي مورد اعتراض",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در شعب تجدیدنظر دیوان عدالت اداری می باشد",
+        "start_char": 1238,
+        "end_char": 1298,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "خارج از مهلت بیست روزه قانونی تسلیم گردیده است",
+        "start_char": 1438,
+        "end_char": 1484,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دادخواست",
+      "evidence": {
+        "quote": "قرار رد دادخواست تجدیدنظرخواهی صادر و اعلام می گردد",
+        "start_char": 1572,
+        "end_char": 1623,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "اسناد ارایه شده از ناحیه شاکی",
+        "start_char": 486,
+        "end_char": 515,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "شهرداری",
+      "evidence": {
+        "quote": "بی توجهی کمیسیون ماده 100 شهرداری",
+        "start_char": 613,
+        "end_char": 646,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "رسمی دادگستری",
+      "evidence": {
+        "quote": "با اتکای نظر کارشناس رسمی دادگستری",
+        "start_char": 409,
+        "end_char": 443,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "صدور رأی به اخذ جریمه",
+        "start_char": 14,
+        "end_char": 35,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "اسناد ارایه شده از ناحیه شاکی",
+        "start_char": 486,
+        "end_char": 515,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "با ملاحظه اینکه دادنامه شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادخواست تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "دادخواست تجدیدنظرخواهی در شعب...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تخلف ساختمانی بدون احصا توسط کارشناس رخ داده است",
+      "evidence": {
+        "quote": "حصول شرایط قانونی جهت تعیین جریمه در رأی کمیسیون به نحو مستدل و مستند و با جلب نظر کارشناس احصا نگردیده",
+        "start_char": 258,
+        "end_char": 361,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواهی خارج از مهلت قانونی ارائه شده است",
+      "evidence": {
+        "quote": "دادخواست تجدیدنظرخواهی در شعب...، خارج از مهلت بیست روزه قانونی تسلیم گردیده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

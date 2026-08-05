@@ -1,0 +1,183 @@
+{
+  "ruling_id": "10362",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه قراردادی",
+      "evidence": {
+        "quote": "وجود رابطه قراردادی بیمه‌ای فی‬مابین خواهان و خوانده ردیف اول",
+        "start_char": 289,
+        "end_char": 350,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شخص ثالث",
+      "evidence": {
+        "quote": "در انتساب ‬عنوان شخص ثالث به سرنشینان خودرو جای تردیدی نیست",
+        "start_char": 581,
+        "end_char": 640,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قتل عمدی",
+      "evidence": {
+        "quote": "قتل عمدی مورث",
+        "start_char": 882,
+        "end_char": 895,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قتل شبه عمد",
+      "evidence": {
+        "quote": "نه قتل شبه عمد",
+        "start_char": 906,
+        "end_char": 920,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "ایشان تحت عنوان وارث نامبردگان مطالبه دیه می‌کنند",
+        "start_char": 2079,
+        "end_char": 2128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت دیه",
+      "evidence": {
+        "quote": "محکومیت شرکت خوانده را به پرداخت یک فقره دیه کامل",
+        "start_char": 1113,
+        "end_char": 1162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه معترض ‬عنه را به استناد ماده 358 از قانون آیین دادرسی مدنی نقض نموده",
+        "start_char": 3106,
+        "end_char": 3182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی مذکور",
+        "start_char": 3246,
+        "end_char": 3266,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست تقدیمی آقای الف. به طرفیت شرکت ب. ا",
+        "start_char": 0,
+        "end_char": 52,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت شرکت ب. ا",
+        "start_char": 34,
+        "end_char": 52,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وارث",
+      "evidence": {
+        "quote": "در مقام وارث متوفیان",
+        "start_char": 414,
+        "end_char": 434,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مقتولین",
+      "evidence": {
+        "quote": "وارث مقتولین شخص ثالث است",
+        "start_char": 2832,
+        "end_char": 2857,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "الزام به پرداخت دیه مرحومه ط.ش.",
+        "start_char": 63,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بیمه‌نامه",
+      "evidence": {
+        "quote": "به حکایت بیمه‬ نامه استنادی محرز است",
+        "start_char": 355,
+        "end_char": 391,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اتومبیل",
+      "evidence": {
+        "quote": "مشارالیه رانندگی اتومبیل را داشته",
+        "start_char": 1940,
+        "end_char": 1973,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وقوع حادثه تصادف منجر به فوت",
+      "evidence": {
+        "quote": "وقوع حادثه تصادف منجر به فوت مرحومین فوق",
+        "start_char": 166,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مقصر بودن راننده در تصادف",
+      "evidence": {
+        "quote": "اتومبیل واژگون و در این تصادف وی مقصر اعلام شده",
+        "start_char": 1977,
+        "end_char": 2024,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

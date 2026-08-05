@@ -1,0 +1,173 @@
+{
+  "ruling_id": "28154",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "خواستار تمکین زوجه شده",
+        "start_char": 210,
+        "end_char": 232,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوای خواهان اصلی صادر واعلام میکند",
+        "start_char": 729,
+        "end_char": 777,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "از دادنامه شماره 9209972926300824 صادره از همین شعبه دادگاه واخواهی کرده",
+        "start_char": 44,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض وارد",
+      "evidence": {
+        "quote": "از ناحیه تجدیدنظر خواه اعتراض وارد نمیباشد",
+        "start_char": 1196,
+        "end_char": 1238,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه صدرالذکر را نقض",
+        "start_char": 704,
+        "end_char": 727,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض دادنامه معترض عنه را عیناً تائید مینماید",
+        "start_char": 1613,
+        "end_char": 1673,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "که در آن خواستار تمکین زوجه شده را قبلاً بابت مهریه به او واگذار کرده",
+        "start_char": 201,
+        "end_char": 270,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی تمکین زوجه بخواسته زوج اصدار یافته است",
+        "start_char": 1065,
+        "end_char": 1121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "با توجه به ادعای واخواه",
+        "start_char": 419,
+        "end_char": 442,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخوانده",
+      "evidence": {
+        "quote": "عدم حضور زوج [ واخوانده ]",
+        "start_char": 444,
+        "end_char": 469,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید نظر خواهی آقای الف. م.ز.",
+        "start_char": 936,
+        "end_char": 966,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "حسب مبایعه نامه عادی که تصویر آن ضمیمه شده است",
+        "start_char": 137,
+        "end_char": 183,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "نمی تواند درملک متعلق به زوجه از او تمکین بخواهد",
+        "start_char": 284,
+        "end_char": 332,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "و باید منزل مستقلی را تهیه کرده",
+        "start_char": 333,
+        "end_char": 363,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج آپارتمانی را بابت مهریه به زوجه واگذار کرده است",
+      "evidence": {
+        "quote": "زوج آپارتمانی را که در آن خواستار تمکین زوجه شده را قبلاً بابت مهریه به او واگذار کرده",
+        "start_char": 184,
+        "end_char": 270,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج در جلسه دادرسی حضور نداشته است",
+      "evidence": {
+        "quote": "عدم حضور زوج [ واخوانده ] درجلسه دادرسی",
+        "start_char": 444,
+        "end_char": 483,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

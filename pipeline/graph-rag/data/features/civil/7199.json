@@ -1,0 +1,173 @@
+{
+  "ruling_id": "7199",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "به لحاظ عسر و حرج زوجه",
+        "start_char": 114,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بذل مهریه و حقوق قانونی",
+        "start_char": 1707,
+        "end_char": 1730,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "حضانت طفل 4 ساله",
+        "start_char": 1930,
+        "end_char": 1946,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "از حکم صادره تجدیدنظرخواهی می کنند",
+        "start_char": 2098,
+        "end_char": 2132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض زوج نسبت به اصل طلاق",
+        "start_char": 2134,
+        "end_char": 2161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "قابلیت تأیید را ندارد و نقض می گردد",
+        "start_char": 4318,
+        "end_char": 4353,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان توضیح داده است",
+        "start_char": 191,
+        "end_char": 217,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای د.د.",
+        "start_char": 39,
+        "end_char": 57,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "متأسفانه زوج اعتیاد به مواد مخدر (هروئین) دارد",
+        "start_char": 341,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "به لحاظ عسر و حرج زوجه",
+        "start_char": 114,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "به حکایت سند رسمی ازدواج",
+        "start_char": 221,
+        "end_char": 245,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "تلاش موکله در مطالبه مهریه",
+        "start_char": 725,
+        "end_char": 751,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دیه",
+      "evidence": {
+        "quote": "محکومیت خوانده به پرداخت دیه",
+        "start_char": 1484,
+        "end_char": 1512,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج به مواد مخدر اعتیاد دارد",
+      "evidence": {
+        "quote": "متأسفانه زوج اعتیاد به مواد مخدر (هروئین) دارد",
+        "start_char": 341,
+        "end_char": 387,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به دلیل حبس مهریه را پرداخت نکرده است",
+      "evidence": {
+        "quote": "زوج تحمل حبس را بر پرداخت مهریه ترجیح داده است",
+        "start_char": 792,
+        "end_char": 838,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده به دلیل ایراد صدمه بدنی محکوم شده است",
+      "evidence": {
+        "quote": "مبنی بر محکومیت خوانده به پرداخت دیه جهت ایراد صدمه بدنی عمدی به خواهان",
+        "start_char": 1476,
+        "end_char": 1547,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

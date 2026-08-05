@@ -1,0 +1,153 @@
+{
+  "ruling_id": "38333",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "بطلان دعوی ابتدایی",
+        "start_char": 70,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتبار",
+      "evidence": {
+        "quote": "اعتبار امر قضاوت شده",
+        "start_char": 1378,
+        "end_char": 1398,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی طرح شده",
+        "start_char": 255,
+        "end_char": 276,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "اقامه نمایند",
+        "start_char": 1611,
+        "end_char": 1623,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "متن دادنامه مبحوث عنه را نقض نموده",
+        "start_char": 2813,
+        "end_char": 2847,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "شناسایی خواندگان",
+        "start_char": 95,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تاجر",
+      "evidence": {
+        "quote": "به عنوان تاجر",
+        "start_char": 112,
+        "end_char": 125,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان ( تجدیدنظرخواه )",
+        "start_char": 1200,
+        "end_char": 1223,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته",
+        "start_char": 0,
+        "end_char": 22,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حکم",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی",
+        "start_char": 127,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "دادخواست",
+        "start_char": 481,
+        "end_char": 489,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواندگان در دعوی ابتدایی به عنوان تاجر شناسایی شده بودند",
+      "evidence": {
+        "quote": "شناسایی خواندگان به عنوان تاجر",
+        "start_char": 95,
+        "end_char": 125,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حکم ورشکستگی صادر شده بود",
+      "evidence": {
+        "quote": "صدور حکم ورشکستگی",
+        "start_char": 127,
+        "end_char": 144,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواندگان در دعاوی مختلف دارای اشخاص مستقلی هستند",
+      "evidence": {
+        "quote": "خواندگان مستقلی دارند",
+        "start_char": 2507,
+        "end_char": 2528,
+        "confidence": 0.85
+      }
+    }
+  ]
+}

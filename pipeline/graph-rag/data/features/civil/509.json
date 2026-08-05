@@ -1,0 +1,163 @@
+{
+  "ruling_id": "509",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "صدور حکم به فسخ قرارداد",
+        "start_char": 152,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار فسخ",
+      "evidence": {
+        "quote": "اعمال خیار فسخ قرار داد",
+        "start_char": 2431,
+        "end_char": 2454,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "برای طرفین حق فسخی منظور و در نظر گرفته نشده است",
+        "start_char": 1442,
+        "end_char": 1490,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انعقاد",
+      "evidence": {
+        "quote": "مبادرت به انعقاد قراردادی",
+        "start_char": 277,
+        "end_char": 302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ثبت",
+      "evidence": {
+        "quote": "مبادرت به ثبت نام",
+        "start_char": 698,
+        "end_char": 715,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "دریافت",
+      "evidence": {
+        "quote": "دریافت وجوه حاصله",
+        "start_char": 718,
+        "end_char": 735,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "قرار رد دعوا صادر",
+        "start_char": 1932,
+        "end_char": 1949,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی مؤسسه باشگاه فرهنگی ورزشی ش.",
+        "start_char": 2121,
+        "end_char": 2163,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار داشته",
+        "start_char": 214,
+        "end_char": 237,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مبادرت به انعقاد قراردادی با شرکت خوانده",
+        "start_char": 277,
+        "end_char": 317,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "رد دعوی تجدیدنظرخواه",
+        "start_char": 2296,
+        "end_char": 2316,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "فسخ قرارداد مورخ 1/2/88",
+        "start_char": 164,
+        "end_char": 187,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده تعهدات قراردادی را اجرا نکرده است",
+      "evidence": {
+        "quote": "با عدم اجرای تعهدات مندرج در ماده 2 قرارداد",
+        "start_char": 649,
+        "end_char": 692,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "داور مرضی الطرفین فوت کرده است",
+      "evidence": {
+        "quote": "داور مرضی الطرفین آقای د. به رحمت ایزدی پیوسته",
+        "start_char": 1151,
+        "end_char": 1197,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین در مورد داور جایگزین به توافق نرسیده‌اند",
+      "evidence": {
+        "quote": "طرفین نیز [در مورد] داور دیگری... به توافق نرسیده اند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

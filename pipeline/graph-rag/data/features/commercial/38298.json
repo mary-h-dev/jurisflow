@@ -1,0 +1,143 @@
+{
+  "ruling_id": "38298",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ورشکستگی",
+      "evidence": {
+        "quote": "اعلان حکم ورشکستگی",
+        "start_char": 27,
+        "end_char": 45,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "حق رجوع به مضمون عنه را ندارد",
+        "start_char": 1326,
+        "end_char": 1355,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "دعوی مطابق قوانین موضوعه اقامه شده باشد",
+        "start_char": 165,
+        "end_char": 204,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مدعی طلبی است",
+        "start_char": 897,
+        "end_char": 910,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "را نقض نموده",
+        "start_char": 1715,
+        "end_char": 1727,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر و اعلام",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی ابتدایی را صادر و اعلام می نماید",
+        "start_char": 1757,
+        "end_char": 1810,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهانهای",
+      "evidence": {
+        "quote": "خواهانهای ابتدایی به موجب تصاویر گواهی عدم پرداخت",
+        "start_char": 798,
+        "end_char": 847,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ضامن",
+      "evidence": {
+        "quote": "سند اجرایی سند رهنی ( بعنوان ضامن )",
+        "start_char": 861,
+        "end_char": 896,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مضمون",
+      "evidence": {
+        "quote": "حق رجوع به مضمون عنه را ندارد",
+        "start_char": 1326,
+        "end_char": 1355,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "دو فقره چک",
+        "start_char": 848,
+        "end_char": 858,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "سند اجرایی سند رهنی",
+        "start_char": 861,
+        "end_char": 880,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طلب شخص محرز نشده است",
+      "evidence": {
+        "quote": "مادامیکه طلب شخص محرز نشود",
+        "start_char": 636,
+        "end_char": 662,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ضامن دین را پرداخت نکرده است",
+      "evidence": {
+        "quote": "مادامیکه ضامن دین مضمون عنه را پرداخت ننماید",
+        "start_char": 1280,
+        "end_char": 1324,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

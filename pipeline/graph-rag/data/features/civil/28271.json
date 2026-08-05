@@ -1,0 +1,183 @@
+{
+  "ruling_id": "28271",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "دعوایی به خواستۀ ابطال اجرائیه",
+        "start_char": 69,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد رهن",
+      "evidence": {
+        "quote": "اثر حقوقی عقد رهن ناظر به آینده است",
+        "start_char": 1897,
+        "end_char": 1932,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ضمان",
+      "evidence": {
+        "quote": "وهم عقد رهن ( ماده 775 قانون مدنی ) وهم عقد ضمان(ماده 684) از عقود تبعی هستند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقود",
+      "evidence": {
+        "quote": "وهم عقد رهن ( ماده 775 قانون مدنی ) وهم عقد ضمان(ماده 684) از عقود تبعی هستند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "دعوایی به خواستۀ ابطال اجرائیه وصدور قرار توقیف عملیات اجرایی اقامه کرده است",
+        "start_char": 69,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "متعهد شده بهای کالاهای خریداری شده از شرکت مذکور را طبق فاکتورهای صادره وبه شرح قیمت های مندرج در آن درموعد مقرر پرداخت کند",
+        "start_char": 385,
+        "end_char": 508,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "چک وسفته هایی تسلیم می نماید",
+        "start_char": 600,
+        "end_char": 628,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای الف. خ.",
+        "start_char": 4155,
+        "end_char": 4181,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان در شرح دادخواست اظهار داشته",
+        "start_char": 148,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از شرکت مذکور را خوانده ردیف اول را نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "چنانچه مبلغ این اسناد در سررسید پرداخت نشد",
+        "start_char": 631,
+        "end_char": 673,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به دادگاه ارائه نشده",
+        "start_char": 4857,
+        "end_char": 4890,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "مطابق منطوق سند رهنی شماره.. دفتر خانه... تهران",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چک وسفته هایی تسلیم می نماید",
+        "start_char": 600,
+        "end_char": 628,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فاکتور",
+      "evidence": {
+        "quote": "طبق فاکتورهای صادره",
+        "start_char": 437,
+        "end_char": 456,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شرکت هیچ کالایی به مشتری نفروخته است",
+      "evidence": {
+        "quote": "از تاریخ تنظیم سند رهنی مطلقاً قطعات ولوازم یدکی به خوانده ردیف دوم نفروخته وهیچگونه فاکتوری هم صادر نکرده است",
+        "start_char": 886,
+        "end_char": 996,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند موضوع اجرا ناظر به دیون گذشته است",
+      "evidence": {
+        "quote": "موضوع تعهد راهن ناظر به مراوده های قبلی مشتری وشرکت هم می باشد",
+        "start_char": 3460,
+        "end_char": 3522,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

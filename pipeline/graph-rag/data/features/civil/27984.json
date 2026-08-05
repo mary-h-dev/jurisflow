@@ -1,0 +1,153 @@
+{
+  "ruling_id": "27984",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم تبرع",
+      "evidence": {
+        "quote": "با توجه به اینکه اصل بر عدم تبرع بوده",
+        "start_char": 496,
+        "end_char": 533,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت اجرت المثل",
+        "start_char": 117,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت اجرت المثل",
+        "start_char": 117,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در محاکم تجدید نظر",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه معترض عنه را بشرح فوق تائید",
+        "start_char": 1888,
+        "end_char": 1923,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "موید مالکیت خواهان می باشد",
+        "start_char": 469,
+        "end_char": 495,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت",
+        "start_char": 117,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "حکم به محکومیت زوج",
+        "start_char": 1239,
+        "end_char": 1257,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در حق زوجه اصدار یافته است",
+        "start_char": 1291,
+        "end_char": 1317,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "اجرت المثل منزل مسکونی",
+        "start_char": 140,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "ملاحظه سند قطعی غیر منقول",
+        "start_char": 347,
+        "end_char": 372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حق الوکاله",
+      "evidence": {
+        "quote": "و کلیه خسارت دادرسی و حق الوکاله وکیل",
+        "start_char": 210,
+        "end_char": 247,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده از تاریخ 1378/12/02 تا 1390/01/30 مستحق مطالبه اجره المثل بوده است",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت اجرت المثل منزل مسکونی موکله از تاریخ 2 / 12 / 1378 لغایت 30 / 1 / 1390",
+        "start_char": 117,
+        "end_char": 210,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده از تاریخ 1382/01/01 تا 1393/01/01 محکوم به پرداخت نفقه بوده است",
+      "evidence": {
+        "quote": "از مورخه 1382/1/1 تا 1393/1/1 محکوم به پرداخت نفقه گردیده",
+        "start_char": 1505,
+        "end_char": 1561,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

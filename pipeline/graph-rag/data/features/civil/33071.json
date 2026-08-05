@@ -1,0 +1,133 @@
+{
+  "ruling_id": "33071",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "تقاضای صدور حکم سلب حضانت",
+        "start_char": 169,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "عدم صلاحیت در نگه داری فرزند مشترک",
+        "start_char": 197,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "به خواسته تقاضای صدور حکم",
+        "start_char": 159,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "ارائه تصویر طلاق صادره",
+        "start_char": 540,
+        "end_char": 562,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 1760,
+        "end_char": 1779,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با توجه به دادخواست خواهان",
+        "start_char": 457,
+        "end_char": 483,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "عدم صلاحیت از نگهداری فرزند مشترک توسط خوانده",
+        "start_char": 492,
+        "end_char": 537,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی",
+        "start_char": 1542,
+        "end_char": 1569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در خصوص دعوی تجدیدنظرخوانده",
+        "start_char": 1218,
+        "end_char": 1245,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "نگه داری فرزند مشترک",
+        "start_char": 211,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده دارای اعتیاد بوده است",
+      "evidence": {
+        "quote": "دلیل طلاق آن داشتن اعتیاد خوانده بوده",
+        "start_char": 566,
+        "end_char": 603,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده محکوم به سرقت شده است",
+      "evidence": {
+        "quote": "خوانده یکفقره حکم به محکومیت مبنی بر سرقت داشته",
+        "start_char": 613,
+        "end_char": 660,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

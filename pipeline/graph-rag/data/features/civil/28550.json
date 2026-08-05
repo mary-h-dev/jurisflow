@@ -1,0 +1,143 @@
+{
+  "ruling_id": "28550",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مصلحت",
+      "evidence": {
+        "quote": "بلحاظ مصلحت طفل",
+        "start_char": 932,
+        "end_char": 947,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "موازین قانونی",
+      "evidence": {
+        "quote": "موافق موازین قانونی",
+        "start_char": 1073,
+        "end_char": 1092,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قواعد دادرسی",
+      "evidence": {
+        "quote": "با رعایت اصول و قواعد دادرسی",
+        "start_char": 1095,
+        "end_char": 1123,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی مطروحه صادر",
+        "start_char": 544,
+        "end_char": 570,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدید نظرخواهی",
+        "start_char": 607,
+        "end_char": 626,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان قابل اجابت نیست",
+        "start_char": 474,
+        "end_char": 501,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "توسط خوانده پس از متارکه",
+        "start_char": 242,
+        "end_char": 266,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظر خواه نیز در این مرحله",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "به خواسته حضانت فرزند مشترک",
+        "start_char": 71,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی صادره ظرف 20 روز",
+        "start_char": 586,
+        "end_char": 606,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین به حکایت پرونده متارکه کردند",
+      "evidence": {
+        "quote": "زوجین به حکایت پرونده متارکه کردند",
+        "start_char": 139,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حضانت فرزند در پرونده طلاق به مادر واگذار شد",
+      "evidence": {
+        "quote": "حضانت فرزند در پرونده طلاق به مادر واگذار شد",
+        "start_char": 176,
+        "end_char": 220,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان ازدواج مجدد نموده است",
+      "evidence": {
+        "quote": "خواهان حسب اظهار خوانده ازدواج مجدد نموده است",
+        "start_char": 296,
+        "end_char": 341,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "35412",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرات المثل ایام زوجیت",
+        "start_char": 101,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نکاح دائم",
+      "evidence": {
+        "quote": "رابطه نکاح دائم بین طرفین محرز بوده",
+        "start_char": 208,
+        "end_char": 243,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه اجرات المثل ایام زوجیت",
+        "start_char": 93,
+        "end_char": 130,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خوانده موصوف را به پرداخت (98600000) ریال بابت اجرت المثل",
+        "start_char": 828,
+        "end_char": 885,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نظربه اینکه دادنامه مورد اعتراض منطبق با آیین دادرسی",
+        "start_char": 1540,
+        "end_char": 1592,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رددعوی خواهان",
+        "start_char": 2716,
+        "end_char": 2736,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان « م. ص. فرزند م. با وکالت ز. ج.ر. »",
+        "start_char": 0,
+        "end_char": 55,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده « ف. ن.م. فرزند ه. »",
+        "start_char": 57,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "واخواه",
+      "evidence": {
+        "quote": "رأی صادره نسبت به «خوانده»; غیابی تلقی",
+        "start_char": 966,
+        "end_char": 1004,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم به محکومیت تجدیدنظرخواه به پرداخت اجرت المثل",
+        "start_char": 2173,
+        "end_char": 2221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به دستور زوج و با عدم قصد تبرع",
+        "start_char": 343,
+        "end_char": 373,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "هرگاه زوجه کارهایی را که شرعاً به عهده وی نبوده",
+        "start_char": 259,
+        "end_char": 306,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "از جمله سند ازدواج به شماره (10232-80/4/23)",
+        "start_char": 162,
+        "end_char": 205,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره (1051- 94/7/29) صادره",
+        "start_char": 1385,
+        "end_char": 1428,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین طرفین برقرار بوده است",
+      "evidence": {
+        "quote": "رابطه نکاح دائم بین طرفین محرز بوده",
+        "start_char": 208,
+        "end_char": 243,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در جلسه دادگاه حضور نیافته است",
+      "evidence": {
+        "quote": "خوانده با وصف ابلاغ در جلسه دادگاه حضور نیافته",
+        "start_char": 611,
+        "end_char": 657,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اثبات عدم تبرع توسط زوجه انجام نشده است",
+      "evidence": {
+        "quote": "دلیلی براثبات آن ابراز نشده است",
+        "start_char": 2385,
+        "end_char": 2416,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

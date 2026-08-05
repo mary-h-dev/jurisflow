@@ -1,0 +1,183 @@
+{
+  "ruling_id": "5300",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت دائم محرز بوده",
+        "start_char": 113,
+        "end_char": 139,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "رفتار زوج موجب بروز عسر و حرج برای زوجه گردیده",
+        "start_char": 316,
+        "end_char": 362,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "تخلف زوج از شرایط ضمن عقد و تحقق شرط طلاق",
+        "start_char": 652,
+        "end_char": 693,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "خود را به طلاق خلعی مطلقه نماید",
+        "start_char": 1016,
+        "end_char": 1047,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم طلاق",
+        "start_char": 55,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "به نظر دادگاه اعتراض وارد است",
+        "start_char": 1744,
+        "end_char": 1773,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "بذل هر میزان از مهریه خود",
+        "start_char": 940,
+        "end_char": 965,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه مارالذکر",
+        "start_char": 2377,
+        "end_char": 2401,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی تجدیدنظر خوانده صادر",
+        "start_char": 2402,
+        "end_char": 2438,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "به طرفیت آقای م.ن.",
+        "start_char": 36,
+        "end_char": 54,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "به طرفیت خانم ل.ه.",
+        "start_char": 1540,
+        "end_char": 1558,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با تقاضای تجدیدنظر خوانده",
+        "start_char": 1653,
+        "end_char": 1678,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "با توجه به سند ازدواج شماره 25093",
+        "start_char": 79,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بذل هر میزان از مهریه خود",
+        "start_char": 940,
+        "end_char": 965,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج دارای بیماری و معلول ذهنی است",
+      "evidence": {
+        "quote": "به جهت پایین بودن سطح هوشیاری زوج که ازاین جهت معلول ذهنی محسوب می گردد",
+        "start_char": 200,
+        "end_char": 271,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج به بیماری خود اقرار کرده است",
+      "evidence": {
+        "quote": "زوج نیز در جلسه دادگاه به بیماری خود اقرار و اعتراف نموده است",
+        "start_char": 511,
+        "end_char": 572,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه از بیماری زوج مطلع بوده است",
+      "evidence": {
+        "quote": "از بیماری زوج اطلاع کامل داشته است",
+        "start_char": 1938,
+        "end_char": 1972,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

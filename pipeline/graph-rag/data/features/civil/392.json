@@ -1,0 +1,163 @@
+{
+  "ruling_id": "392",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "سرقفلی",
+      "evidence": {
+        "quote": "حق سرقفلی قابلیت توقیف و فروش دارد",
+        "start_char": 2583,
+        "end_char": 2617,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل",
+        "start_char": 1437,
+        "end_char": 1454,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "حکم بر برائت خوانده صادر می نماید",
+        "start_char": 1685,
+        "end_char": 1718,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "فروش",
+      "evidence": {
+        "quote": "خواستار آن شده که اولاً به جهت عدم توافق طرفین در انتفاع از سرقفلی و عدم قابلیت تقسیم آن دادگاه حکم به فروش آن را صادر نماید",
+        "start_char": 671,
+        "end_char": 795,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "در مورد مطالبه اجرت المثل",
+        "start_char": 1429,
+        "end_char": 1454,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی دادگــاه بدوی را نسبت به خواسته اول متضمن فروش سرقفلی، در خور نقض تشخیص",
+        "start_char": 2954,
+        "end_char": 3029,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان صاحب هشت نهم مشاع از سرقفلی یک باب مغازه پلاک ثبتی 116/174 بخش 3 تهران می باشد",
+        "start_char": 339,
+        "end_char": 424,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "یک نهم سرقفلی نیز به خوانده تعلق دارد",
+        "start_char": 427,
+        "end_char": 464,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "دعوی تجدیدنظرخواه با خواسته های فروش سرقفلی مشاعی و مطالبه اجرت المثل ایام تصرف",
+        "start_char": 2050,
+        "end_char": 2129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بنا به موارد فوق به ترتیب منجر به صدور قرار رد دعوی و حکم برائت نموده اند",
+        "start_char": 2441,
+        "end_char": 2514,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سرقفلی",
+      "evidence": {
+        "quote": "خواسته 1- فروش سرقفلی مشاعی",
+        "start_char": 64,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "مغازه خلع ید شده و پلمپ گردیده",
+        "start_char": 570,
+        "end_char": 600,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اعیان",
+      "evidence": {
+        "quote": "در مورد اعیان مطرح است",
+        "start_char": 1150,
+        "end_char": 1172,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مغازه پلمپ شده است",
+      "evidence": {
+        "quote": "مغازه خلع ید شده و پلمپ گردیده",
+        "start_char": 570,
+        "end_char": 600,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "طرفین از مغازه انتفاع ندارند",
+      "evidence": {
+        "quote": "هیچ یک از طرفین از آن انتفاعی ندارند و استفاده نمی کنند",
+        "start_char": 603,
+        "end_char": 658,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

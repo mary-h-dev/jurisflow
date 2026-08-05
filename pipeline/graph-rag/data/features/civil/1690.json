@@ -1,0 +1,153 @@
+{
+  "ruling_id": "1690",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "به خواسته الزام خوانده به تمکین",
+        "start_char": 40,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم صلاحیت",
+      "evidence": {
+        "quote": "قرار عدم صلاحیت خود را",
+        "start_char": 946,
+        "end_char": 968,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زندگی مشترک",
+      "evidence": {
+        "quote": "این زوجین در حال حاضر فاقد زندگی مشترک با هم بوده",
+        "start_char": 2979,
+        "end_char": 3028,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی به خواسته الزام خوانده به تمکین تقدیم",
+        "start_char": 30,
+        "end_char": 77,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "خوانده را در حوزه قضایی ک اعلام نموده است",
+        "start_char": 120,
+        "end_char": 161,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض رأی شماره 1291 - 23/6/91",
+        "start_char": 4255,
+        "end_char": 4283,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "ضمن تأیید رأی بدون شماره مورخ 15/7/91",
+        "start_char": 4180,
+        "end_char": 4217,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "شخص زوج که خواهان پرونده است",
+        "start_char": 1181,
+        "end_char": 1209,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 50,
+        "end_char": 71,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "اقامتگاه زوجه تابع اقامتگاه زوج می باشد",
+        "start_char": 425,
+        "end_char": 464,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "اقامتگاه زوجه تابع اقامتگاه زوج می باشد",
+        "start_char": 425,
+        "end_char": 464,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "پس از وصول پرونده به دادگستری ش",
+        "start_char": 1018,
+        "end_char": 1049,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین از یکدیگر جدا شده‌اند و زندگی مشترک ندارند",
+      "evidence": {
+        "quote": "این زوجین در حال حاضر فاقد زندگی مشترک با هم بوده و به لحاظ وجود اختلاف فی مابین عملاً جدا از هم زندگی می نمایند",
+        "start_char": 2979,
+        "end_char": 3091,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه در منزل پدری سکونت دارد",
+      "evidence": {
+        "quote": "زوجه به لحاظ اختلاف موقتاً در منزل پدری اش سکونت گزیده است",
+        "start_char": 733,
+        "end_char": 791,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

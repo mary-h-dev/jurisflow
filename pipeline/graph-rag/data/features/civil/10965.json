@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10965",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "صدور حکم مبنی بر تأیید فسخ قرارداد",
+        "start_char": 87,
+        "end_char": 121,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "فروشنده حق فسخ مبایعه‌نامه را دارد",
+        "start_char": 1039,
+        "end_char": 1073,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار",
+      "evidence": {
+        "quote": "حصول خیار تخلف از شرط موقوف به عدم پرداخت چک بوده",
+        "start_char": 7893,
+        "end_char": 7942,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی",
+        "start_char": 289,
+        "end_char": 312,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ 250,000,000ریال خوانده نقداً پرداخت نموده",
+        "start_char": 643,
+        "end_char": 689,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "برگشت",
+      "evidence": {
+        "quote": "دو فقره از چک‌های موصوف با ارائه به بانک محالٌ‌علیه برگشت شده",
+        "start_char": 1215,
+        "end_char": 1276,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "مراتب فسخ قرارداد را طی اظهارنامه بشماره2850/91-1391/6/30 به خوانده اعلام نموده است",
+        "start_char": 1308,
+        "end_char": 1391,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "فروشنده حق فسخ مبایعه‌نامه را دارد",
+        "start_char": 1039,
+        "end_char": 1073,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "فروشنده حق فسخ مبایعه‌نامه را دارد و ضمن فسخ قرارداد و اعلام آن بوسیله اظهارنامه رسمی به خریدار",
+        "start_char": 1039,
+        "end_char": 1134,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکلای خواهان مت=",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به صورت پیش‌فروش به خوانده واگذار نموده",
+        "start_char": 600,
+        "end_char": 639,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "موكل به موجب مبايعه‌نامه شماره 35812",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک‌دستگاه آپارتمان به مساحت تقریبی 50 متر مربع",
+        "start_char": 482,
+        "end_char": 528,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "سه فقره چک بشماره‌های",
+        "start_char": 707,
+        "end_char": 728,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "الزام به تنظیم سند رسمی",
+        "start_char": 289,
+        "end_char": 312,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک‌ها در نزد فروشنده به صورت امانی نگهداری می‌شده است",
+      "evidence": {
+        "quote": "سه فقره چک موضوع دادخواست به شرح ذیل قرارداد در قسمت توضیحات به طور امانت در نزد فروشنده نگهداری می‌شده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک در رهن بانک قرار دارد",
+      "evidence": {
+        "quote": "ملک مورد معامله به نام خواهان اصلی نبوده و در رهن بانک پ. قرار دارد",
+        "start_char": 5783,
+        "end_char": 5850,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت بخشی از وجوه چک‌ها",
+      "evidence": {
+        "quote": "دو فقره از چک‌های موصوف با ارائه به بانک محالٌ‌علیه برگشت شده",
+        "start_char": 1215,
+        "end_char": 1276,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

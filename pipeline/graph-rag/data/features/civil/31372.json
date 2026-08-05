@@ -1,0 +1,143 @@
+{
+  "ruling_id": "31372",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "تایید فسخ مبایعه نامه",
+        "start_char": 586,
+        "end_char": 607,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لزوم",
+      "evidence": {
+        "quote": "به اعتبار اصل لزوم و صحت قراردادها",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم سند رسمی",
+        "start_char": 94,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "تسلیم وتحویل مغازه",
+        "start_char": 268,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ ده میلیون تومان به موکل پرداخت نماید",
+        "start_char": 991,
+        "end_char": 1032,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم سند رسمی",
+        "start_char": 94,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان دعوای اصلی",
+        "start_char": 712,
+        "end_char": 729,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "جایی که فروشنده مقدم برتنظیم سندرسمی",
+        "start_char": 4689,
+        "end_char": 4725,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "یک باب مغازه",
+        "start_char": 140,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه نامه شماره 5922-28/ 9/ 90",
+        "start_char": 596,
+        "end_char": 628,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "مالکیت رسمی وقانونی خوانده ی دعوای اصلی نسبت به ملک",
+        "start_char": 1598,
+        "end_char": 1649,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک در رهن بانک است",
+      "evidence": {
+        "quote": "ملک موضوع دادخواست در رهن بانک مهر می باشد",
+        "start_char": 1678,
+        "end_char": 1720,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده در تاریخ مقرر برای تحویل حضور نیافته است",
+      "evidence": {
+        "quote": "نامبرده در تاریخ مذکور حضور نیافته",
+        "start_char": 1292,
+        "end_char": 1326,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

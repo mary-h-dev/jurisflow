@@ -1,0 +1,153 @@
+{
+  "ruling_id": "29372",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین عام و خاص",
+        "start_char": 80,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی خواهان صادر",
+        "start_char": 532,
+        "end_char": 561,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین عام و خاص",
+        "start_char": 80,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در محاکم محترم تجدیدنظر",
+        "start_char": 623,
+        "end_char": 658,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیلی که موجبات نقض و یا بی اعتباری دادنامه را فراهم نماید ارائه ننموده لذا بنا به مراتب دادگاه مستندا به قسمت اخیر ماده 358 قانون آیین دادرسی دادگاههای عمومی و انقلاب در امور مدنی 21/1/79 ضمن رد اعتراض معترض دادنامه تجدیدنظرخواسته را نتیجتا تایید می نماید",
+        "start_char": 1250,
+        "end_char": 1519,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست آقای الف. ح. فرزند م. به طرفیت خانم پ. ض.پ. فرزند ر. به خواسته الزام خوانده",
+        "start_char": 0,
+        "end_char": 92,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین عام و خاص",
+        "start_char": 80,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تمکین از زوج نماید",
+        "start_char": 446,
+        "end_char": 464,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیلی که موجبات نقض و یا بی اعتباری دادنامه را فراهم نماید ارائه ننموده",
+        "start_char": 1250,
+        "end_char": 1334,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "بطلان دعوی خواهان بدوی تجدیدنظرخواه درمورد الزام خوانده بدوی تجدیدنظرخوانده را به تمکین",
+        "start_char": 898,
+        "end_char": 985,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "رای صادره وفق موازین شرعی و قانونی اصدار یافته",
+        "start_char": 1107,
+        "end_char": 1153,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده مدعی خوف آسیب و ضرر بدنی است",
+      "evidence": {
+        "quote": "مدعی خوف آسیب و ضرر بدنی میباشد",
+        "start_char": 154,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده دچار شکستگی پا شده است",
+      "evidence": {
+        "quote": "منجر به شکستگی پای خوانده حاکی از صحت دفاعیات وی میباشد",
+        "start_char": 303,
+        "end_char": 358,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرار مجرمیت و کیفرخواست در خصوص ضرب و جرح صادر شده است",
+      "evidence": {
+        "quote": "از جمله قرار مجرمیت و کیفرخواست صادره در خصوص ایراد ضرب و جرح عمدی",
+        "start_char": 214,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

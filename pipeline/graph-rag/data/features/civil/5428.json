@@ -1,0 +1,183 @@
+{
+  "ruling_id": "5428",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "به لحاظ عسر و حرج",
+        "start_char": 178,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 152,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دارایی",
+      "evidence": {
+        "quote": "ازجمله تنصیف دارایی",
+        "start_char": 1511,
+        "end_char": 1530,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "تجدیدنظرخواه نسبت به حقوق مالی خود ازجمله تنصیف دارایی و جهیزیه و نفقه ایام عده اعتراض کرده است",
+        "start_char": 1476,
+        "end_char": 1571,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پذیرفته",
+      "evidence": {
+        "quote": "سیاهه جهیزیه ای را که وکیل تجدیدنظرخواه ارائه کرده پذیرفته است",
+        "start_char": 1672,
+        "end_char": 1734,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نمودن",
+      "evidence": {
+        "quote": "ضمن ردّ تجدیدنظرخواهی",
+        "start_char": 2688,
+        "end_char": 2709,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان را موجه دانسته",
+        "start_char": 453,
+        "end_char": 474,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "با تقاضای تجدیدنظر خوانده (زوج)",
+        "start_char": 1409,
+        "end_char": 1440,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "باعث عسر و حرج خود داشته و با عنایت به اینکه داوران طرفین جهت ایجاد صلح و سازش بین زوجین تلاش خود را نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی خانم الف.ح.",
+        "start_char": 1224,
+        "end_char": 1257,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "گواهی عدم",
+      "evidence": {
+        "quote": "گواهی عدم امکان سازش صادر می گردد",
+        "start_char": 547,
+        "end_char": 580,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "زوج مهریه مافی القباله را",
+        "start_char": 691,
+        "end_char": 716,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "به میزان 500 عدد سکه بهار آزادی",
+        "start_char": 717,
+        "end_char": 748,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "سیاهه جهیزیه ای را",
+        "start_char": 1672,
+        "end_char": 1690,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "به پرداخت یک میلیون و دویست هزار تومان نفقه ایام عده محکوم می نماید",
+        "start_char": 908,
+        "end_char": 975,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تلاش داوران برای صلح و سازش بی‌نتیجه بوده است",
+      "evidence": {
+        "quote": "داوران طرفین جهت ایجاد صلح و سازش بین زوجین تلاش خود را نموده لکن بی نتیجه بوده",
+        "start_char": 303,
+        "end_char": 382,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج سیاهه جهیزیه را پذیرفته است",
+      "evidence": {
+        "quote": "زوج در جلسه دادگاه مورخه 10/12/92 سیاهه جهیزیه ای را که وکیل تجدیدنظرخواه ارائه کرده پذیرفته است",
+        "start_char": 1638,
+        "end_char": 1734,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

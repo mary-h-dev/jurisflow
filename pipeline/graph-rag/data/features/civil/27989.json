@@ -1,0 +1,183 @@
+{
+  "ruling_id": "27989",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت",
+        "start_char": 612,
+        "end_char": 629,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "تکلیف زوج بر پرداخت نفقه",
+        "start_char": 664,
+        "end_char": 688,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "عدم ارائه دلیل از سوی زوج بر برائت ذمه خویش",
+        "start_char": 701,
+        "end_char": 744,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "تا مثبت نشوز زوجه باشد",
+        "start_char": 547,
+        "end_char": 569,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه",
+        "start_char": 47,
+        "end_char": 68,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "تمکین نمیکند",
+        "start_char": 1432,
+        "end_char": 1444,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض آن",
+        "start_char": 1665,
+        "end_char": 1675,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در مورد تجدیدنظر خواهی",
+        "start_char": 1159,
+        "end_char": 1181,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خانم ف. ر.ق.م. به طرفیت آقای ع. ن.",
+        "start_char": 7,
+        "end_char": 46,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده همسر دائمی من است",
+        "start_char": 262,
+        "end_char": 286,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تکلیف زوج بر پرداخت نفقه",
+        "start_char": 664,
+        "end_char": 688,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه در صورت جلسه",
+        "start_char": 1346,
+        "end_char": 1363,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه معوقه",
+        "start_char": 57,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "بپرداخت مبلغ 000/000 /12 ریال",
+        "start_char": 874,
+        "end_char": 903,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت میان طرفین برقرار است",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت",
+        "start_char": 612,
+        "end_char": 629,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه از ناحیه زوج تامین جانی ندارد",
+      "evidence": {
+        "quote": "از ناحیه زوج تامین جانی ندارد",
+        "start_char": 1401,
+        "end_char": 1429,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه تمکین نمی‌کند",
+      "evidence": {
+        "quote": "تمکین نمیکند",
+        "start_char": 1432,
+        "end_char": 1444,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

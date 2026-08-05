@@ -1,0 +1,113 @@
+{
+  "ruling_id": "34862",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان صادر می نماید",
+        "start_char": 1989,
+        "end_char": 2027,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "الزام خوانده به انتقال برق",
+        "start_char": 174,
+        "end_char": 200,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "جابه‌جایی",
+      "evidence": {
+        "quote": "تقاضای الزام خوانده به جابجائی تیر برق ها را داریم",
+        "start_char": 984,
+        "end_char": 1034,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "از رأی مذکور فرجام خواهی نموده",
+        "start_char": 2090,
+        "end_char": 2120,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با حضور قیم خواهان و نماینده خوانده تشکیل شده",
+        "start_char": 754,
+        "end_char": 799,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به انتقال برق",
+        "start_char": 174,
+        "end_char": 200,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "تقاضای نقض رأی فرجام خواهه را نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "زمین خواهان دارای کاربری زراعی می باشد",
+        "start_char": 1075,
+        "end_char": 1113,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ایجاد خط برق در ملک موروثی بدون اذن",
+      "evidence": {
+        "quote": "خوانده در سال های قبل بدون اذن و اجازه اقدام به ایجاد خط برق و انتقال آن از ملک موروثی نموده است",
+        "start_char": 270,
+        "end_char": 366,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تخریب درختان توسط تیر برق",
+      "evidence": {
+        "quote": "درخت های ما را تخریب می کنند",
+        "start_char": 955,
+        "end_char": 983,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

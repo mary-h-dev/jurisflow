@@ -1,0 +1,203 @@
+{
+  "ruling_id": "6859",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "با استناد به مقررات مربوط به عقد بیع",
+        "start_char": 772,
+        "end_char": 808,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "منافی حق مرتهن می باشد",
+        "start_char": 2496,
+        "end_char": 2518,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصالت",
+      "evidence": {
+        "quote": "به خواسته احراز اصالت قرارداد بیع",
+        "start_char": 112,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "احراز",
+      "evidence": {
+        "quote": "به خواسته احراز اصالت قرارداد بیع",
+        "start_char": 112,
+        "end_char": 145,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "و نهایتاً انتقال این سند بنام موکل",
+        "start_char": 251,
+        "end_char": 285,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فک رهن",
+      "evidence": {
+        "quote": "مربوط به فک رهن سند مالکیت",
+        "start_char": 224,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مبلغ پنجاه وشش میلیون ریال بابت باقیمانده ثمن معامله را از آقای الف. و خانم م.الف. مطالبه کرده اند",
+        "start_char": 1123,
+        "end_char": 1221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض و رسیدگی به استناد بند ج ماده 401 قانون مرقوم",
+        "start_char": 4362,
+        "end_char": 4411,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "صدور حکم بر بی حقی خواهان دعوی اصلی را دارم",
+        "start_char": 2013,
+        "end_char": 2056,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "بنا به مراتب با توجه به کیفیت طرح دعوی و تعهدات فروشنده به شرحی که مذکور افتاد قبول درخواست خواهان معنی نداشته",
+        "start_char": 3903,
+        "end_char": 4013,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "مرتهن",
+      "evidence": {
+        "quote": "منافی حق مرتهن می باشد",
+        "start_char": 2496,
+        "end_char": 2518,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فروشنده",
+      "evidence": {
+        "quote": "چون فروشنده در بند الف شرایط ضمنی معامله تهیه مدارک لازم",
+        "start_char": 3555,
+        "end_char": 3611,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد بیع",
+      "evidence": {
+        "quote": "احراز اصالت قرارداد بیع مورخ 27/12/79",
+        "start_char": 122,
+        "end_char": 159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند مالکیت",
+      "evidence": {
+        "quote": "مربوط به فک رهن سند مالکیت",
+        "start_char": 224,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "مبادرت به خرید یک واحد مسکونی آپارتمان",
+        "start_char": 370,
+        "end_char": 408,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ثمن معامله",
+      "evidence": {
+        "quote": "مبلغ پنجاه وشش میلیون ریال بابت باقیمانده ثمن معامله",
+        "start_char": 1123,
+        "end_char": 1175,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "سند عادی با سند رهنی بانک مغایرت دارد",
+      "evidence": {
+        "quote": "سند عادی استنادی خواهان مؤخر بر تاریخ سند رهنی بانک می باشد که به لحاظ مغایرت و تعارض سند عادی مذکور با حقوق بانک",
+        "start_char": 1764,
+        "end_char": 1877,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک در رهن بانک قرار دارد",
+      "evidence": {
+        "quote": "در رهن بانک قرارگرفته است",
+        "start_char": 1724,
+        "end_char": 1749,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله بدون رضایت بانک انجام شده است",
+      "evidence": {
+        "quote": "معامله انجام شده بدون اطلاع و بدون رضایت بانک",
+        "start_char": 1878,
+        "end_char": 1923,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

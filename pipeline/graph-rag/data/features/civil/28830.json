@@ -1,0 +1,173 @@
+{
+  "ruling_id": "28830",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "مطالبه اجرت المثل ایام زوجیت",
+        "start_char": 115,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "قصد تبرع هم نداشته",
+        "start_char": 390,
+        "end_char": 408,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه اجرت المثل",
+        "start_char": 105,
+        "end_char": 132,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "تسلیم دادگاه نموده",
+        "start_char": 193,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "صدور حکم بر محکومیت خوانده",
+        "start_char": 493,
+        "end_char": 519,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "آنرا نقض",
+        "start_char": 1761,
+        "end_char": 1769,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 1771,
+        "end_char": 1797,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "بطرفیت خوانده آقای( ر. خ.الف با وکالت خانم س. ع. ) دادخواستی",
+        "start_char": 44,
+        "end_char": 104,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده آقای( ر. خ.الف با وکالت خانم س. ع. )",
+        "start_char": 44,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "به محکومیت تجدیدنظرخواه",
+        "start_char": 1295,
+        "end_char": 1318,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "ضمن وارد دانستن اعتراض معترض",
+        "start_char": 1571,
+        "end_char": 1599,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "به موجب تصویر سند نکاح نامه",
+        "start_char": 236,
+        "end_char": 263,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "وشناسنامه پیوستی",
+        "start_char": 278,
+        "end_char": 294,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "تومان",
+      "evidence": {
+        "quote": "به پرداخت هشت میلیون تومان",
+        "start_char": 853,
+        "end_char": 879,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت برقرار بوده است",
+      "evidence": {
+        "quote": "دادخواست رابطه زوجیت برقرار بوده",
+        "start_char": 295,
+        "end_char": 327,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اقدام به پرداخت اجرت المثل انجام نشده است",
+      "evidence": {
+        "quote": "عدم تبرع اثبات نشده",
+        "start_char": 1404,
+        "end_char": 1423,
+        "confidence": 0.7
+      }
+    }
+  ]
+}

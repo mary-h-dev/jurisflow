@@ -1,0 +1,123 @@
+{
+  "ruling_id": "38543",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "تایید فسخ قرارداد",
+        "start_char": 1022,
+        "end_char": 1039,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "ابطال رای داوری",
+        "start_char": 302,
+        "end_char": 317,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "اقدام به طرح دعوی",
+        "start_char": 276,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور رای",
+      "evidence": {
+        "quote": "صدور رای بشرح خواسته",
+        "start_char": 532,
+        "end_char": 552,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استماع دعوی",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی صادر می نماید",
+        "start_char": 1809,
+        "end_char": 1843,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "در حق خوانده محکوم می گردد",
+        "start_char": 231,
+        "end_char": 257,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "در صلاحیت داور مرضی الطرفین است",
+        "start_char": 1066,
+        "end_char": 1097,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "به تحویل مبیع",
+        "start_char": 144,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "ابطال رای داوری",
+        "start_char": 302,
+        "end_char": 317,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده محکوم به تحویل مبیع شده است",
+      "evidence": {
+        "quote": "در حق خوانده محکوم می گردد",
+        "start_char": 231,
+        "end_char": 257,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوای ابطال رای داوری در شعبه دیگری در دست رسیدگی است",
+      "evidence": {
+        "quote": "پرونده ی مرتبط بشماره کلاسه *بخواسته ی ابطال رای داوری به شعبه *ارجاع و در دست رسیدگی می باشد",
+        "start_char": 629,
+        "end_char": 722,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

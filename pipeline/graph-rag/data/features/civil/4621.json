@@ -1,0 +1,143 @@
+{
+  "ruling_id": "4621",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تأخیر تأدیه",
+      "evidence": {
+        "quote": "خسار تأخیر تأدیه",
+        "start_char": 108,
+        "end_char": 124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بی‌حقی",
+      "evidence": {
+        "quote": "حکم بر بی حقی خواهان صادر می گردد",
+        "start_char": 1416,
+        "end_char": 1449,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه ارزش زمین",
+        "start_char": 48,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروخته",
+      "evidence": {
+        "quote": "به خواهان فروخته",
+        "start_char": 219,
+        "end_char": 235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 2228,
+        "end_char": 2248,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده یک قطعه زمین",
+        "start_char": 138,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان صادر",
+        "start_char": 1173,
+        "end_char": 1190,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در حق تجدیدنظرخواه",
+        "start_char": 1871,
+        "end_char": 1889,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "یک قطعه زمین",
+        "start_char": 145,
+        "end_char": 157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "طی مبایعه نامه مورخ 28/2/82",
+        "start_char": 191,
+        "end_char": 218,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "مطابق دادنامه شماره 193",
+        "start_char": 239,
+        "end_char": 262,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زمین متعلق به شخص ثالث است",
+      "evidence": {
+        "quote": "زمین مستحق للغیر و متعلق به شخصی به نام آقای ع.ن. می باشد",
+        "start_char": 318,
+        "end_char": 375,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قیمت زمین افزایش یافته است",
+      "evidence": {
+        "quote": "موقعی که زمین را خریده متری پانزده هزار تومان خریداری کرده ولی الان 300 هزار تومان شده است",
+        "start_char": 622,
+        "end_char": 712,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

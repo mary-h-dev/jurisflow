@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25286",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حضانت",
+      "evidence": {
+        "quote": "لغو حضانت",
+        "start_char": 46,
+        "end_char": 55,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکلیف",
+      "evidence": {
+        "quote": "تکلیف مادر می‌باشد",
+        "start_char": 250,
+        "end_char": 268,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "لغو",
+      "evidence": {
+        "quote": "لغو حضانت",
+        "start_char": 46,
+        "end_char": 55,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان صادر",
+        "start_char": 391,
+        "end_char": 417,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "با نقض دادنامه بدوی",
+        "start_char": 834,
+        "end_char": 853,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واگذار",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک را به پدر واگذار می‌نماید",
+        "start_char": 854,
+        "end_char": 897,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت ف. ن. به خواسته لغو حضانت",
+        "start_char": 21,
+        "end_char": 55,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده نیز از نگهداری فرزندش",
+        "start_char": 149,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مادر",
+      "evidence": {
+        "quote": "تکلیف مادر می‌باشد",
+        "start_char": 250,
+        "end_char": 268,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "پدر",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک را به پدر واگذار می‌نماید",
+        "start_char": 854,
+        "end_char": 897,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "طفل",
+      "evidence": {
+        "quote": "طفل مشترک در سن 4 سالگی به سر می‌برد",
+        "start_char": 112,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک را به پدر واگذار می‌نماید",
+        "start_char": 854,
+        "end_char": 897,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طفل در سن ۴ سالگی است",
+      "evidence": {
+        "quote": "طفل مشترک در سن 4 سالگی به سر می‌برد",
+        "start_char": 112,
+        "end_char": 148,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مادر از نگهداری فرزند عجز کرده است",
+      "evidence": {
+        "quote": "خوانده نیز از نگهداری فرزندش در این سن اظهار عجز نموده است",
+        "start_char": 149,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پدر در قید حیات است",
+      "evidence": {
+        "quote": "در قید حیات بودن پدر",
+        "start_char": 813,
+        "end_char": 833,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

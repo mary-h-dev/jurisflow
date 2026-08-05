@@ -1,0 +1,153 @@
+{
+  "ruling_id": "28004",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "به خواسته خلع ید مشاعی",
+        "start_char": 61,
+        "end_char": 83,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه",
+      "evidence": {
+        "quote": "وجود رابطه استیجاری",
+        "start_char": 723,
+        "end_char": 742,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "غاصبانه",
+      "evidence": {
+        "quote": "عدم احراز غاصبانه بودن",
+        "start_char": 751,
+        "end_char": 773,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مال مشاع",
+      "evidence": {
+        "quote": "اجاره مال مشاع جائز است",
+        "start_char": 1917,
+        "end_char": 1939,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "رد گردیده است",
+        "start_char": 787,
+        "end_char": 800,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته در خور نقض می باشد",
+        "start_char": 1592,
+        "end_char": 1631,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان خانم ن. ب.ز.",
+        "start_char": 0,
+        "end_char": 32,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بطرفیت خوانده آقای الف. ج.",
+        "start_char": 34,
+        "end_char": 60,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ن. ب.ز.",
+        "start_char": 1381,
+        "end_char": 1407,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده از یک باب مغازه",
+        "start_char": 1534,
+        "end_char": 1563,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "یک باب",
+      "evidence": {
+        "quote": "از یک باب مغازه جزء پلاک ثبتی...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پلاک ثبتی",
+      "evidence": {
+        "quote": "پلاک ثبتی شماره... فرعی از 114 اصلی",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود رابطه استیجاری بین طرفین",
+      "evidence": {
+        "quote": "وجود رابطه استیجاری بین طرفین نسبت به ملک مورد دعوی وجود دارند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اذن شریک در تصرف",
+      "evidence": {
+        "quote": "با توجه به عدم اذن تجدیدنظرخواه در تصرف تجدیدنظرخوانده",
+        "start_char": 1987,
+        "end_char": 2039,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

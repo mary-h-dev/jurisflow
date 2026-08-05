@@ -1,0 +1,213 @@
+{
+  "ruling_id": "5302",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "وقوع عقد نکاح دائم",
+        "start_char": 108,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت دائم",
+        "start_char": 330,
+        "end_char": 352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "در عسر و حرجی غیرقابل تحمل قرار داده",
+        "start_char": 724,
+        "end_char": 760,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلع",
+      "evidence": {
+        "quote": "نوع طلاق خلع نوبت اول می باشد",
+        "start_char": 937,
+        "end_char": 966,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم طلاق",
+        "start_char": 42,
+        "end_char": 65,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "به زوج بذل کرده است",
+        "start_char": 1034,
+        "end_char": 1053,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "ضمن ردّ اعتراض معترض",
+        "start_char": 2209,
+        "end_char": 2229,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "عیناً تأیید می نماید",
+        "start_char": 2257,
+        "end_char": 2277,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان اعلام نموده",
+        "start_char": 80,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بین خواهان و خوانده",
+        "start_char": 353,
+        "end_char": 372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "الزام زوج به مطلقه نمودن",
+        "start_char": 885,
+        "end_char": 909,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "وضعیت زوجه را",
+        "start_char": 710,
+        "end_char": 723,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلیل یا دلایلی",
+        "start_char": 1996,
+        "end_char": 2023,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "سند ازدواج شماره 1854",
+        "start_char": 382,
+        "end_char": 403,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "از مهریه",
+        "start_char": 985,
+        "end_char": 993,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سکه",
+      "evidence": {
+        "quote": "60 سکه از مهریه",
+        "start_char": 978,
+        "end_char": 993,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تشکیل زندگی مشترک و تهیه مسکن",
+      "evidence": {
+        "quote": "اقدامی از ناحیه خواهان در خصوص تهیه مسکن و تشکیل زندگی مشترک صورت نگرفته",
+        "start_char": 142,
+        "end_char": 214,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم شروع زندگی مشترک بیش از ۲ سال",
+      "evidence": {
+        "quote": "علی رغم گذشت بیش از 2 سال زوجین زندگی مشترک خود را شروع نکرده اند",
+        "start_char": 620,
+        "end_char": 685,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم بارداری زوجه",
+      "evidence": {
+        "quote": "زوجه باردار نیست",
+        "start_char": 1214,
+        "end_char": 1230,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم وجود فرزند مشترک",
+      "evidence": {
+        "quote": "زوجین فاقد فرزند مشترک هستند",
+        "start_char": 1292,
+        "end_char": 1320,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

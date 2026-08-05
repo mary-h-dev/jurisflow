@@ -1,0 +1,203 @@
+{
+  "ruling_id": "35470",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مسئولیت",
+      "evidence": {
+        "quote": "مسئولیت مدعی علیهم",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "حق",
+      "evidence": {
+        "quote": "حق مطالبه حق الوکاله",
+        "start_char": 2771,
+        "end_char": 2791,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه سفته",
+        "start_char": 66,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "ضمن رد مطالبه خسارت تاخیر تادیه",
+        "start_char": 1400,
+        "end_char": 1431,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "قرار ابطال دادخواست",
+        "start_char": 2150,
+        "end_char": 2169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض این قسمت از دادنامه",
+        "start_char": 2879,
+        "end_char": 2906,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "دارنده",
+      "evidence": {
+        "quote": "وجود سند تجارتی در ید دارنده",
+        "start_char": 391,
+        "end_char": 419,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "صادرکننده",
+      "evidence": {
+        "quote": "اشتغال ذمه صادر کننده",
+        "start_char": 428,
+        "end_char": 449,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "ظهرنویس",
+      "evidence": {
+        "quote": "ظهر نویس",
+        "start_char": 452,
+        "end_char": 460,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان را نسبت به سایر خواسته ها ثابت",
+        "start_char": 1488,
+        "end_char": 1530,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "حکم بر محکومیت خواندگان",
+        "start_char": 1554,
+        "end_char": 1577,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه شرکت دولتی محسوب",
+        "start_char": 2585,
+        "end_char": 2614,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "ازسوی تجدیدنظرخوانده",
+        "start_char": 2949,
+        "end_char": 2969,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سفته",
+      "evidence": {
+        "quote": "مستندات ابرازی منضم دادخواست از جمله سفته های",
+        "start_char": 199,
+        "end_char": 244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "وجود سند تجارتی در ید دارنده",
+        "start_char": 391,
+        "end_char": 419,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "قرار ابطال دادخواست",
+        "start_char": 2150,
+        "end_char": 2169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به آن قسمت ازدادنامه",
+        "start_char": 2410,
+        "end_char": 2435,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "سفته‌ها فاقد تاریخ سر رسید هستند",
+      "evidence": {
+        "quote": "با توجه به عدم درج آن در سغته ها بوده",
+        "start_char": 1103,
+        "end_char": 1140,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرکت تجدیدنظرخواه یک شرکت دولتی است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه شرکت دولتی محسوب",
+        "start_char": 2585,
+        "end_char": 2614,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

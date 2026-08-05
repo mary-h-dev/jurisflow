@@ -1,0 +1,143 @@
+{
+  "ruling_id": "25399",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مضاربه",
+      "evidence": {
+        "quote": "موضوع قرارداد مضاربه",
+        "start_char": 273,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد صلح",
+      "evidence": {
+        "quote": "یا عقد صلح",
+        "start_char": 2078,
+        "end_char": 2088,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "از طریق شرط لازم",
+        "start_char": 831,
+        "end_char": 847,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ",
+        "start_char": 48,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی کرده است",
+        "start_char": 1438,
+        "end_char": 1460,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "بانک",
+      "evidence": {
+        "quote": "در خصوص دعوی بانک ر.ک",
+        "start_char": 0,
+        "end_char": 20,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده ردیف اول",
+        "start_char": 337,
+        "end_char": 352,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از خواهان اخذ می‌نماید",
+        "start_char": 394,
+        "end_char": 416,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "عامل",
+      "evidence": {
+        "quote": "از سوی عامل",
+        "start_char": 783,
+        "end_char": 794,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "موضوع قرارداد مضاربه",
+        "start_char": 273,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مطالبه مبلغ 213/187/132 ریال",
+        "start_char": 58,
+        "end_char": 86,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "در قرارداد میزان و نحوه تقسیم سود تعیین نشده است",
+      "evidence": {
+        "quote": "در ماده 17 قرارداد فی‌مابین میزان و نحوه تقسیم سود تعیین نگردیده",
+        "start_char": 2206,
+        "end_char": 2270,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوی باطل شناخته شد",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی صادر می‌نماید",
+        "start_char": 1098,
+        "end_char": 1129,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

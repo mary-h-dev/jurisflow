@@ -1,0 +1,173 @@
+{
+  "ruling_id": "9531",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "صوری",
+      "evidence": {
+        "quote": "طلاق صورت گرفته صوری بوده",
+        "start_char": 208,
+        "end_char": 233,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معافیت",
+      "evidence": {
+        "quote": "کارت معافیت کفالت",
+        "start_char": 902,
+        "end_char": 919,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "طلاق‌نامه به عنوان یکی از اسناد رسمی",
+        "start_char": 1186,
+        "end_char": 1222,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض به رأی صادره",
+        "start_char": 55,
+        "end_char": 74,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم به رد شکایت مطروحه",
+        "start_char": 640,
+        "end_char": 662,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "قابل نقض تشخیص",
+        "start_char": 1767,
+        "end_char": 1781,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "شکایت",
+      "evidence": {
+        "quote": "حکم به ورود شکایت",
+        "start_char": 1890,
+        "end_char": 1907,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "از اختیارات قانونی خوانده بوده",
+        "start_char": 111,
+        "end_char": 141,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "شاکی",
+      "evidence": {
+        "quote": "پدر شاکی",
+        "start_char": 236,
+        "end_char": 244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتکی عنه",
+      "evidence": {
+        "quote": "اقدام مشتکی‌عنه",
+        "start_char": 443,
+        "end_char": 458,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه [تجدیدنظرخوانده]",
+        "start_char": 1944,
+        "end_char": 1973,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "طلاق‌نامه",
+      "evidence": {
+        "quote": "طلاق‌نامه به عنوان یکی از اسناد رسمی",
+        "start_char": 1186,
+        "end_char": 1222,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "کارت",
+      "evidence": {
+        "quote": "کارت معافیت کفالت",
+        "start_char": 902,
+        "end_char": 919,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طلاق والدین شاکی صوری بوده است",
+      "evidence": {
+        "quote": "طلاق صورت گرفته صوری بوده",
+        "start_char": 208,
+        "end_char": 233,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شاکی قبلاً دارای کارت معافیت کفالت بوده است",
+      "evidence": {
+        "quote": "کارت معافیت کفالت برای وی صادر گردیده بود",
+        "start_char": 902,
+        "end_char": 943,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سازمان وظیفه عمومی اثر معافیت را لغو کرده بود",
+      "evidence": {
+        "quote": "معافیت کفالت را از مشارالیه سلب و لغو اثر نموده است",
+        "start_char": 1120,
+        "end_char": 1171,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "ruling_id": "859",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "صدور حکم به بطلان دعوای تجدیدنظرخواه",
+        "start_char": 118,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعدی",
+      "evidence": {
+        "quote": "موضوع تعریف قانونی «تعدی»",
+        "start_char": 2297,
+        "end_char": 2322,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعاده‌دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی کرده است",
+        "start_char": 1639,
+        "end_char": 1667,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ف.ح.",
+        "start_char": 0,
+        "end_char": 23,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "مشعر بر صدور حکم",
+        "start_char": 110,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "احداث",
+      "evidence": {
+        "quote": "احداث بالکن",
+        "start_char": 642,
+        "end_char": 653,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "در مورد مطالبه اجور معوقه",
+        "start_char": 1282,
+        "end_char": 1307,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی کرده است",
+        "start_char": 1639,
+        "end_char": 1667,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد اعاده دادرسی حاضر",
+        "start_char": 2744,
+        "end_char": 2769,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بطلان دعوای تجدیدنظرخواه",
+        "start_char": 130,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "«خواهان بدوی»",
+        "start_char": 155,
+        "end_char": 168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "برای مستأجر باعث ایجاد کمال انتفاع",
+        "start_char": 769,
+        "end_char": 803,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "برای موجر حداقل از دو جهت باعث ورود ضرر است",
+        "start_char": 831,
+        "end_char": 874,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مالک",
+      "evidence": {
+        "quote": "خروج از اذن موجر و مالک را مخدوش و متزلزل نمی کند",
+        "start_char": 2551,
+        "end_char": 2600,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مغازه",
+      "evidence": {
+        "quote": "تخلیه یک باب مغازه",
+        "start_char": 185,
+        "end_char": 203,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجاره‌نامه",
+      "evidence": {
+        "quote": "وجود بالکن در اجاره نامه رسمی فی مابین نیز مذکور نمی باشد",
+        "start_char": 694,
+        "end_char": 751,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اجور معوقه",
+      "evidence": {
+        "quote": "در مورد مطالبه اجور معوقه",
+        "start_char": 1282,
+        "end_char": 1307,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "احداث بالکن بعد از سال 1373",
+      "evidence": {
+        "quote": "احداث بالکن بعد از سال 1373 ایجاد شده است",
+        "start_char": 642,
+        "end_char": 683,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مغازه فاقد بالکن در پرونده شهرداری است",
+      "evidence": {
+        "quote": "مغازه مزبور فاقد بالکن عنوان شده",
+        "start_char": 450,
+        "end_char": 482,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

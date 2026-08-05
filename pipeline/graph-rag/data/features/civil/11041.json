@@ -1,0 +1,153 @@
+{
+  "ruling_id": "11041",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "به خواسته طلاق",
+        "start_char": 36,
+        "end_char": 50,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "احراز و اثبات عسر و حرج",
+        "start_char": 249,
+        "end_char": 272,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "کلیه مهریه خود را در قبال طلاق بذل نماید",
+        "start_char": 1472,
+        "end_char": 1512,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه بدوی",
+        "start_char": 1656,
+        "end_char": 1676,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اجبار",
+      "evidence": {
+        "quote": "زوج را اجبار به طلاق همسرش می‌نماید",
+        "start_char": 1710,
+        "end_char": 1745,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده به عنوان زوج با طلاق موافق نبوده",
+        "start_char": 76,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان دلیلی برای احراز و اثبات عسر و حرج ارائه نداده است",
+        "start_char": 231,
+        "end_char": 288,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج را اجبار به طلاق همسرش می‌نماید",
+        "start_char": 1710,
+        "end_char": 1745,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجین",
+      "evidence": {
+        "quote": "وقتی که زوجین هنوز به صورت عملی زندگی مشترک خود را شروع نکرده‌اند",
+        "start_char": 1214,
+        "end_char": 1279,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "کراهت بوجود آمده از ناحیه زوجه",
+        "start_char": 1424,
+        "end_char": 1454,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "کلیه مهریه خود را در قبال طلاق بذل نماید",
+        "start_char": 1472,
+        "end_char": 1512,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم موافقت زوج با طلاق",
+      "evidence": {
+        "quote": "خوانده به عنوان زوج با طلاق موافق نبوده",
+        "start_char": 76,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شروع نشدن زندگی مشترک زوجین",
+      "evidence": {
+        "quote": "زوجین هنوز به صورت عملی زندگی مشترک خود را شروع نکرده‌اند",
+        "start_char": 1222,
+        "end_char": 1279,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود تنش و تشنج در زندگی مشترک",
+      "evidence": {
+        "quote": "زندگی مشترک دچار تشنج و تنش شده‌ است",
+        "start_char": 871,
+        "end_char": 907,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

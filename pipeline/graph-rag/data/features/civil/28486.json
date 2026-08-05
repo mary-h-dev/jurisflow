@@ -1,0 +1,223 @@
+{
+  "ruling_id": "28486",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عقد بیع",
+      "evidence": {
+        "quote": "تایید و اثبات عقد بیع",
+        "start_char": 94,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع شرط",
+      "evidence": {
+        "quote": "تحقق بیع شرط",
+        "start_char": 1249,
+        "end_char": 1261,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "محقق گشتن بیع قطعی",
+        "start_char": 1311,
+        "end_char": 1329,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "الزام خوانده به رفع تصرف",
+        "start_char": 159,
+        "end_char": 183,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مدعی مالکیت نسبت به عین ملک",
+        "start_char": 1338,
+        "end_char": 1365,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اثبات",
+      "evidence": {
+        "quote": "به خواسته تایید و اثبات عقد بیع",
+        "start_char": 84,
+        "end_char": 115,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "الزام خوانده به رفع تصرف",
+        "start_char": 159,
+        "end_char": 183,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ چک به میزان بیست میلیارد ریال به اضافه کل مبلغ اجاره معینه 9 ماهه",
+        "start_char": 615,
+        "end_char": 685,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "مورد معامله را تخلیه",
+        "start_char": 1135,
+        "end_char": 1155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "برگشت",
+      "evidence": {
+        "quote": "با عنایت به برگشت چک های موضوع توافق نامه",
+        "start_char": 1205,
+        "end_char": 1246,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه تجدیدنظر",
+        "start_char": 6432,
+        "end_char": 6456,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان ع.الف. ب.",
+        "start_char": 0,
+        "end_char": 29,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت م. س.",
+        "start_char": 49,
+        "end_char": 63,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای م. س.",
+        "start_char": 5289,
+        "end_char": 5321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "نسبت به دادنامه 372 مورخ 1394/3/30 صادره از شعبه هشتم دادگاه عمومی حقوقی اسلامشهر که براساس دادنامه موصوف در مورد دعوای تجدیدنظر خوانده",
+        "start_char": 5366,
+        "end_char": 5500,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "کامیون",
+      "evidence": {
+        "quote": "یکباب نمایشگاه کامیون",
+        "start_char": 206,
+        "end_char": 227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "اصل مبلغ چک",
+        "start_char": 611,
+        "end_char": 622,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "عین ملک متنازع فیه",
+        "start_char": 1358,
+        "end_char": 1376,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده در زمان سر رسید چک فاقد موجودی بوده است",
+      "evidence": {
+        "quote": "حساب خوانده در زمان سر رسید چکها فاقد هرگونه موجودی",
+        "start_char": 3731,
+        "end_char": 3782,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "املاک مورد نزاع فاقد پلاک ثبتی بوده و از طریق مبایعه نامه منتقل می‌شدند",
+      "evidence": {
+        "quote": "املاک واقع در شهرک کامیوندان فاقد پلاک ثبتی بوده و صرفاً کلیه نقل و انتقالات آن از طریق مبایعه نامه انجام می پذیرد",
+        "start_char": 1769,
+        "end_char": 1883,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده از ملک مورد نزاع تصرف دارد",
+      "evidence": {
+        "quote": "تجدیدنظر خواه به عنوان مالک در ملک مورد ترافع تصرف دارد",
+        "start_char": 6190,
+        "end_char": 6245,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

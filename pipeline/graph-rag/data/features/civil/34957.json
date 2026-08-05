@@ -1,0 +1,173 @@
+{
+  "ruling_id": "34957",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "صدور حکم بر فسخ نکاح",
+        "start_char": 47,
+        "end_char": 67,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اشتراط",
+      "evidence": {
+        "quote": "اشتراط وصف خاص در عقد نکاحیه",
+        "start_char": 461,
+        "end_char": 489,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "دادخواستی بطرفیت",
+        "start_char": 11,
+        "end_char": 27,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "رأی صادره مورد اعتراض زوج واقع شده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرمان‌خواهی",
+      "evidence": {
+        "quote": "درخواست فرجامخواهی نموده",
+        "start_char": 948,
+        "end_char": 972,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی تجدیدنظرخواسته را بعنوان نوعی نقص در دادنامه... نقض و به همان دادگاه عودت داده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "رأی بدوی را خالی از خدشه دانسته و آنرا تأیید نموده است",
+        "start_char": 858,
+        "end_char": 912,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابرام",
+      "evidence": {
+        "quote": "ابرام می‌گردد",
+        "start_char": 1954,
+        "end_char": 1967,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "عقب ماندگی ذهنی زوجه",
+        "start_char": 74,
+        "end_char": 94,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "رأی صادره مورد اعتراض زوج واقع",
+        "start_char": 915,
+        "end_char": 945,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوای خواهان را مردود دانسته",
+        "start_char": 692,
+        "end_char": 720,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "نقض از سوی فرمانخواه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی صادره",
+        "start_char": 723,
+        "end_char": 732,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "در دادنامه شماره 0001175 - 94/6/9",
+        "start_char": 653,
+        "end_char": 686,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه به عقب ماندگی ذهنی مبتلا است",
+      "evidence": {
+        "quote": "مبتلا به درجاتی از عقب ماندگی ذهنی می باشد",
+        "start_char": 202,
+        "end_char": 244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرط سلامت ذهنی در عقد نکاحیه ذکر نشده است",
+      "evidence": {
+        "quote": "دلیلی بر اشتراط سلامت ذهنی زوجه اقامه نشده",
+        "start_char": 503,
+        "end_char": 545,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

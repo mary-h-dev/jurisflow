@@ -1,0 +1,143 @@
+{
+  "ruling_id": "5312",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه",
+        "start_char": 70,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "تمکین صورت نمی گیرد",
+        "start_char": 267,
+        "end_char": 286,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه نفقه",
+        "start_char": 60,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "نفقه ایام گذشته توسط خوانده پرداخت می شده",
+        "start_char": 150,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "حکم به ردّ دعوی صادر",
+        "start_char": 410,
+        "end_char": 430,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه تجدیدنظر",
+        "start_char": 482,
+        "end_char": 519,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت آقای ح.ح. فرزند م. به خواسته مطالبه نفقه",
+        "start_char": 32,
+        "end_char": 81,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "توسط خوانده پرداخت می شده",
+        "start_char": 166,
+        "end_char": 191,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1185 مورخ 5/9/92 در پرونده کلاسه 00719 صادره از شعبه 262 دادگاه عمومی حقوقی تهران که به موجب آن حکم به ردّ دعوی تجدیدنظرخواه",
+        "start_char": 646,
+        "end_char": 792,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 1185",
+        "start_char": 646,
+        "end_char": 672,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "این رأی قطعی است",
+        "start_char": 1750,
+        "end_char": 1766,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین در زیر یک سقف زندگی مشترک داشته‌اند",
+      "evidence": {
+        "quote": "گویای زندگی مشترک زوجین در زیر یک سقف بوده اند",
+        "start_char": 863,
+        "end_char": 909,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوج از سال 1392 منزل پدری را ترک کرده است",
+      "evidence": {
+        "quote": "از شهریور سال 92 خواهان از منزل پدری خود هستند",
+        "start_char": 194,
+        "end_char": 240,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

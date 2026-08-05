@@ -1,0 +1,153 @@
+{
+  "ruling_id": "436",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "مال",
+      "evidence": {
+        "quote": "مبیع مال غیر بوده",
+        "start_char": 386,
+        "end_char": 403,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "به انضمام کلیه خسارات دادرسی",
+        "start_char": 129,
+        "end_char": 157,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "استحقاق",
+      "evidence": {
+        "quote": "غرامات ناشی از استحقاق للغیر",
+        "start_char": 3769,
+        "end_char": 3797,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت غرامات",
+        "start_char": 64,
+        "end_char": 93,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "فروخته",
+      "evidence": {
+        "quote": "خوانده یک دستگاه آپارتمان به موکل فروخته",
+        "start_char": 275,
+        "end_char": 315,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "مطالبه مبلغ 000/000/51 ریال",
+        "start_char": 1797,
+        "end_char": 1824,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "قابل اعتراض در محاکم تجدیدنظر",
+        "start_char": 2526,
+        "end_char": 2555,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوی خواهان",
+        "start_char": 0,
+        "end_char": 19,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده",
+        "start_char": 38,
+        "end_char": 53,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "غرامات وارده به مشتری",
+        "start_char": 1314,
+        "end_char": 1335,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه نامه عادی",
+      "evidence": {
+        "quote": "به موجب مبایعه نامه عادی 27/7/85",
+        "start_char": 242,
+        "end_char": 274,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دستگاه آپارتمان",
+      "evidence": {
+        "quote": "خوانده یک دستگاه آپار de آپارتمان به موکل فروخته",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مبیع مال غیر بوده است",
+      "evidence": {
+        "quote": "مبیع مال غیر بوده",
+        "start_char": 386,
+        "end_char": 403,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "کلاهبرداری خوانده محرز شده است",
+      "evidence": {
+        "quote": "کلاهبرداری خوانده بدوی راجع به آپارتمان موصوف به موجب دادنامه های کیفری مذکور محرز و مسلم گردیده است",
+        "start_char": 3145,
+        "end_char": 3245,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

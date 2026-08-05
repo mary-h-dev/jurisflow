@@ -1,0 +1,123 @@
+{
+  "ruling_id": "35428",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "امانت",
+      "evidence": {
+        "quote": "خواهان اظهارداشت امانت بوده است",
+        "start_char": 411,
+        "end_char": 442,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "هبه",
+      "evidence": {
+        "quote": "بلکه هبه است",
+        "start_char": 1210,
+        "end_char": 1222,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "به محکومیت خوانده به استرداد طلاجات",
+        "start_char": 81,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "بخواسته مطالبه طلاجات اهدائی",
+        "start_char": 1040,
+        "end_char": 1068,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم ه. بکویر دیلو",
+        "start_char": 833,
+        "end_char": 865,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به محکومیت خوانده",
+        "start_char": 81,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با توجه به دادخواست تقدیمی خواهان",
+        "start_char": 142,
+        "end_char": 175,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه باهیچیک از شقوق ماده 348 قانون آئین دادرسی منطبق نمیباشد",
+        "start_char": 1694,
+        "end_char": 1763,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اموال منقول و طلا",
+      "evidence": {
+        "quote": "استرداد طلاجات",
+        "start_char": 102,
+        "end_char": 116,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "هدیه دادن اموال بین طرفین",
+      "evidence": {
+        "quote": "هدایائی که از طرف خانواده طرفین به همدیگر داده میشود",
+        "start_char": 1137,
+        "end_char": 1189,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "استفاده از هدایا توسط طرفین",
+      "evidence": {
+        "quote": "عروس یاداماد و هردو از هدایای اهدایی استفاده می کنند",
+        "start_char": 1325,
+        "end_char": 1377,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

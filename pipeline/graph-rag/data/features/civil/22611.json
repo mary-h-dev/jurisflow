@@ -1,0 +1,203 @@
+{
+  "ruling_id": "22611",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "شروط ضمن عقد",
+        "start_char": 97,
+        "end_char": 109,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سوء رفتار",
+      "evidence": {
+        "quote": "سوءرفتار زوج",
+        "start_char": 655,
+        "end_char": 667,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دعوی",
+      "evidence": {
+        "quote": "صلح با انکار دعوی",
+        "start_char": 2817,
+        "end_char": 2834,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "تمکین",
+        "start_char": 1729,
+        "end_char": 1734,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "تقاضای صدور حکم طلاق",
+        "start_char": 44,
+        "end_char": 64,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت نمی کند",
+        "start_char": 605,
+        "end_char": 619,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی",
+        "start_char": 1459,
+        "end_char": 1472,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "فرجام خواهی",
+        "start_char": 1658,
+        "end_char": 1669,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض و رسیدگی",
+        "start_char": 3583,
+        "end_char": 3595,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه خانم خ. ذ.پ.",
+        "start_char": 0,
+        "end_char": 17,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "شوهر",
+        "start_char": 482,
+        "end_char": 486,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده",
+        "start_char": 773,
+        "end_char": 779,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "داوران",
+        "start_char": 960,
+        "end_char": 966,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "مهریه",
+        "start_char": 735,
+        "end_char": 740,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "نفقه",
+        "start_char": 591,
+        "end_char": 595,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بهار آزادی",
+      "evidence": {
+        "quote": "سکه بهار آزادی",
+        "start_char": 1119,
+        "end_char": 1133,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه توسط زوج",
+      "evidence": {
+        "quote": "نفقه همسرش را پرداخت نمی کند",
+        "start_char": 591,
+        "end_char": 619,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود فرزند مشترک",
+      "evidence": {
+        "quote": "با داشتن فرزند مشترک پسر7 ساله",
+        "start_char": 451,
+        "end_char": 481,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم اثبات ضرب و جرح توسط شهود",
+      "evidence": {
+        "quote": "شهودی هم بر ایراد ضرب و جرح توسط زوج به زوجه شهادت نداده اند",
+        "start_char": 2638,
+        "end_char": 2698,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "628",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ربا",
+      "evidence": {
+        "quote": "تعیین وجه به عنوان خسارت عدم پرداخت بدهی از مصادیف ربا می باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خسارت تأخیر تأدیه",
+      "evidence": {
+        "quote": "عنوان قانونی آن خسارت تأخیر تأدیه می باشد",
+        "start_char": 1805,
+        "end_char": 1846,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان آن صادر می گردد",
+        "start_char": 497,
+        "end_char": 525,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادره نقض می شود",
+        "start_char": 2133,
+        "end_char": 2153,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه 000/000/75 ریال خسارت روزانه",
+        "start_char": 84,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مستأجر متعهدگردیده این مبلغ را تا تاریخ 30/2/90 به حساب مشخص شده موجر به پردازد",
+        "start_char": 1300,
+        "end_char": 1379,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "مورد اجاره تخلیه و تحویل موجر شده",
+        "start_char": 1092,
+        "end_char": 1125,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان غیر وارد تشخیص",
+        "start_char": 468,
+        "end_char": 494,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مستندات ابرازی خواهان ظاهراً دلالت بر مدیون بودن خوانده دارد",
+        "start_char": 2172,
+        "end_char": 2232,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مستأجر",
+      "evidence": {
+        "quote": "آقای ف.الف. مستأجر تجدیدنظرخواه بوده",
+        "start_char": 991,
+        "end_char": 1027,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موجر",
+      "evidence": {
+        "quote": "نزد موجر داشته",
+        "start_char": 1076,
+        "end_char": 1090,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نامه عادی",
+      "evidence": {
+        "quote": "مستند به موافقت نامه عادی مورخ 20/1/90",
+        "start_char": 223,
+        "end_char": 261,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ودیعه",
+      "evidence": {
+        "quote": "پنج میلیون تومان به عنوان ودیعه یا قرض الحسنه نزد موجر داشته",
+        "start_char": 1030,
+        "end_char": 1090,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "بدهی",
+      "evidence": {
+        "quote": "میزان بدهی مستأجر دو میلیون تومان تعیین شده",
+        "start_char": 1254,
+        "end_char": 1297,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "طرفین قراردادی در تاریخ 20/1/1390 توافق کرده‌اند",
+      "evidence": {
+        "quote": "با توجه به قرارداد تنظیمی بین طرفین در تاریخ 20/1/1390",
+        "start_char": 920,
+        "end_char": 974,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده بدهی دو میلیون تومانی دارد",
+      "evidence": {
+        "quote": "میزان بدهی مستأجر دو میلیون تومان تعیین شده",
+        "start_char": 1254,
+        "end_char": 1297,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده مستندات مدیون بودن را پذیرفته است",
+      "evidence": {
+        "quote": "خوانده ضمن پذیرش مستند مذکور",
+        "start_char": 2285,
+        "end_char": 2313,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

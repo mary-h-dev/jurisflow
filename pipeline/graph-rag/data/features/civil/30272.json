@@ -1,0 +1,113 @@
+{
+  "ruling_id": "30272",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "معامله",
+      "evidence": {
+        "quote": "مورد معامله باید مبهم نباشد",
+        "start_char": 215,
+        "end_char": 242,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم استماع",
+      "evidence": {
+        "quote": "قرار عدم استماع دعوی را صادر و اعلام مینماید",
+        "start_char": 513,
+        "end_char": 557,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "رای صادره ظرف بیست روز پس از ابلاغ قابل تجدیدنظرخواهی است",
+        "start_char": 558,
+        "end_char": 615,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "بخواسته تسلیم و تحویل مبیع",
+        "start_char": 52,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عیناً تأیید و استوار می نماید",
+        "start_char": 1441,
+        "end_char": 1496,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان را به کیفیت مزبور قابل استماع ندانسته",
+        "start_char": 408,
+        "end_char": 459,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "صدور قرار عدم استماع دعوی تجدیدنظرخواه",
+        "start_char": 870,
+        "end_char": 908,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "بخواسته تسلیم و تحویل مبیع",
+        "start_char": 52,
+        "end_char": 78,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "شماره",
+      "evidence": {
+        "quote": "موضوع قرارداد شماره 1 مورخ 91/6/20",
+        "start_char": 79,
+        "end_char": 113,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مورد معامله به دلیل عدم ذکر مشخصات کافی، مبهم است",
+      "evidence": {
+        "quote": "حسب ملاحظه قرارداد استنادی مورد معامله سه امتیاز 63 متری پروژه چیتگر میباشد و هیچ گونه مشخصات دیگری از مورد معامله بیان نگردیده",
+        "start_char": 247,
+        "end_char": 374,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

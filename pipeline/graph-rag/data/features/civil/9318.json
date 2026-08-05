@@ -1,0 +1,133 @@
+{
+  "ruling_id": "9318",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "امر مختومه",
+      "evidence": {
+        "quote": "از اعتبار امر مختومه برخوردار می-باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "اقامه نداشته است",
+        "start_char": 456,
+        "end_char": 472,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض رأی معترض‌عنه",
+        "start_char": 1243,
+        "end_char": 1264,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "قرار رد شکایت صادر و اعلام می گردد",
+        "start_char": 1310,
+        "end_char": 1344,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "شاکیه",
+      "evidence": {
+        "quote": "در خصوص شکایت شاکیه",
+        "start_char": 0,
+        "end_char": 19,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "شوهر شاکیه",
+        "start_char": 66,
+        "end_char": 76,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "خوانده شکایت نیز",
+        "start_char": 400,
+        "end_char": 416,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتکی عنه",
+      "evidence": {
+        "quote": "حکم به الزام مشتکی‌عنه",
+        "start_char": 604,
+        "end_char": 626,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "حکم",
+      "evidence": {
+        "quote": "حسب دلالت حکم کارگزینی شماره...",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "رأی صادره قطعی است",
+        "start_char": 1346,
+        "end_char": 1364,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 1350 ـ 27/6/92",
+        "start_char": 883,
+        "end_char": 914,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "محل کار شوهر در تهران است",
+      "evidence": {
+        "quote": "محل کار سکونت وی در تهران واقع شده است",
+        "start_char": 129,
+        "end_char": 167,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

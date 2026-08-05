@@ -1,0 +1,103 @@
+{
+  "ruling_id": "37607",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "استفاده از اسناد مجعول",
+      "evidence": {
+        "quote": "بابت استفاده ها از ان اسناد مجعول به تحمل سه سال و ششماه حبس تعزیری",
+        "start_char": 642,
+        "end_char": 709,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ضبط",
+      "evidence": {
+        "quote": "ضبط و امحای گردند",
+        "start_char": 965,
+        "end_char": 982,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واخواهی",
+      "evidence": {
+        "quote": "قابل واخواهی",
+        "start_char": 1019,
+        "end_char": 1031,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 1069,
+        "end_char": 1087,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "عدم حضور متهم جهت دفاع از خود در دادگاه",
+        "start_char": 386,
+        "end_char": 425,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "استفاده از اسناد مجعول",
+        "start_char": 90,
+        "end_char": 112,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "انقلاب",
+      "evidence": {
+        "quote": "مکاتبات سپاه پاسداران انقلاب اسلامی، بسیج، شهرداری تهران و *",
+        "start_char": 113,
+        "end_char": 173,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "متهم در دادگاه حضور نیافته است",
+      "evidence": {
+        "quote": "عدم حضور متهم جهت دفاع از خود در دادگاه",
+        "start_char": 386,
+        "end_char": 425,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "رأی دادگاه به صورت غیابی صادر شده است",
+      "evidence": {
+        "quote": "رای صادره غیابی",
+        "start_char": 984,
+        "end_char": 999,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

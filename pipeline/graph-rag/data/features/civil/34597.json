@@ -1,0 +1,123 @@
+{
+  "ruling_id": "34597",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "غیرمنقول",
+      "evidence": {
+        "quote": "مطالعه ثمن بیع ملک غیرمنقول",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "محل وقوع عقد نیز آن شهرستان می‌باشد",
+        "start_char": 1275,
+        "end_char": 1310,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خواندگان به پرداخت مبلغ سیصد میلیون ریال",
+        "start_char": 289,
+        "end_char": 335,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "موضوع دعوی مطالبه ثمن معامله بوده",
+        "start_char": 836,
+        "end_char": 869,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "دعوی خود را در محاکم حقوقی شهرستان جلفا اقامه کرده است",
+        "start_char": 1585,
+        "end_char": 1639,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "به طرفیت آقایان سیروس همراهی نودلقی و ح. ن.گ.",
+        "start_char": 233,
+        "end_char": 278,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان می‌تواند به دادگاه محل وقوع عقد قرارداد مراجعه نماید",
+        "start_char": 1486,
+        "end_char": 1545,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "یک باب",
+      "evidence": {
+        "quote": "یک باب منزل مسکونی",
+        "start_char": 362,
+        "end_char": 380,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ سیصد میلیون ریال",
+        "start_char": 314,
+        "end_char": 335,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خواندگان مقیم شهر تهران هستند",
+      "evidence": {
+        "quote": "نامبردگان مقیم شهر تهران می‌باشند",
+        "start_char": 800,
+        "end_char": 833,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد در حوزه قضائی شهرستان جلفا واقع شده است",
+      "evidence": {
+        "quote": "قرارداد موضوع دعوی در حوزة قضائی شهرستان جلفا و مشاور املاک توپراق واقع شده است",
+        "start_char": 2726,
+        "end_char": 2805,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

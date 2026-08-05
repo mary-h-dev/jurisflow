@@ -1,0 +1,173 @@
+{
+  "ruling_id": "803",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت اصحاب دعوی",
+        "start_char": 137,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مصلحت",
+      "evidence": {
+        "quote": "مصلحت و غبطه طفل اقتضا می کند",
+        "start_char": 475,
+        "end_char": 504,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم مبنی بر سلب حضانت",
+        "start_char": 34,
+        "end_char": 70,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان صادر",
+        "start_char": 650,
+        "end_char": 679,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای ح.ک.",
+        "start_char": 844,
+        "end_char": 867,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه معترض^^^^نه را عیناً تأیید می نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "نظر به اینکه خواهان دلیل عدم صلاحیت زوجه را",
+        "start_char": 209,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "عدم صلاحیت زوجه را",
+        "start_char": 234,
+        "end_char": 252,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه به طرفیت خانم س.م.",
+        "start_char": 989,
+        "end_char": 1020,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "ضمن رد اعتراض معترض",
+        "start_char": 1529,
+        "end_char": 1548,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "حسب دلالت مندرجات سند نکاحیه",
+        "start_char": 166,
+        "end_char": 194,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حکم",
+      "evidence": {
+        "quote": "حکم قطعی کیفری مبنی بر رابطه نامشروع",
+        "start_char": 253,
+        "end_char": 289,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه 9101100",
+        "start_char": 887,
+        "end_char": 905,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "رابطه زوجیت بین اصحاب دعوی وجود دارد",
+      "evidence": {
+        "quote": "احراز رابطه زوجیت اصحاب دعوی",
+        "start_char": 137,
+        "end_char": 165,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "فرزند مشترک دختر است",
+      "evidence": {
+        "quote": "با توجه به اینکه فرزند مشترک دختر می باشد",
+        "start_char": 433,
+        "end_char": 474,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "حکم قبلی مبنی بر رد دعوی صادر شده است",
+      "evidence": {
+        "quote": "حکم به رد دعوی به شرح دادنامه تصدیر گردیده",
+        "start_char": 1101,
+        "end_char": 1143,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

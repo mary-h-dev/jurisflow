@@ -1,0 +1,113 @@
+{
+  "ruling_id": "38372",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "استیفای ناروا",
+      "evidence": {
+        "quote": "دریافت وجه مصداق استیفای ناروا محسوب گردیده",
+        "start_char": 691,
+        "end_char": 734,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی دلیلی بر ایفای تعهد ارایه نکرده است",
+        "start_char": 632,
+        "end_char": 681,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "رد دادخواست",
+      "evidence": {
+        "quote": "قرار رد دادخواست تجدیدنظرخواهی تجدیدنظرخواه ردیف دوم را صادر و اعلام می نماید",
+        "start_char": 430,
+        "end_char": 507,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "معترض ملزم به استرداد ان است",
+        "start_char": 773,
+        "end_char": 801,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "لایحه منضم ان متضمن اعتراض موجه و موثری نبوده",
+        "start_char": 961,
+        "end_char": 1006,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "علیه تجدید نظر خواه ردیف دوم رایی صادر نشده است",
+        "start_char": 308,
+        "end_char": 355,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "محکومیت تجدید نظر خوانده ردیف اول شده است",
+        "start_char": 252,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "ان دعوای استرداد وجه و خسارات دادرسی",
+        "start_char": 177,
+        "end_char": 213,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "از دادنامه شماره 017099557مورخ 1400/11/23",
+        "start_char": 87,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجه برای ارائه خدمات پرداخت شده است اما خدماتی ارائه نشده است",
+      "evidence": {
+        "quote": "وجه مورد خواسته برای ارایه خدمات مورد توافق پرداخت شده است.لیکن تجدیدنظرخواهی دلیلی بر ایفای تعهد ارایه نکرده است",
+        "start_char": 568,
+        "end_char": 681,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

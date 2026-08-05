@@ -1,0 +1,193 @@
+{
+  "ruling_id": "26240",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "الزام به ثبت طلاق و بدواً تنفیذ طلاق",
+        "start_char": 62,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نکاح",
+      "evidence": {
+        "quote": "انحلال نکاح و ثبت طلاق",
+        "start_char": 2312,
+        "end_char": 2334,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 2004,
+        "end_char": 2029,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ثبت طلاق",
+      "evidence": {
+        "quote": "الزام به ثبت طلاق",
+        "start_char": 62,
+        "end_char": 79,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تنفیذ",
+      "evidence": {
+        "quote": "بدواً تنفیذ طلاق",
+        "start_char": 82,
+        "end_char": 98,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "نسبت به دادنامه فوق‌الذکر تجدیدنظر خواهی نموده است",
+        "start_char": 2822,
+        "end_char": 2872,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "نسبت به دادنامه فوق‌الذکر فرجام خواهی نموده",
+        "start_char": 3114,
+        "end_char": 3157,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "با رد اعتراض رأی تجدیدنظر خواسته را تأیید کرده است",
+        "start_char": 3030,
+        "end_char": 3080,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "جهت ریشه‌کن کردن فتنه ، زوج به طلاق دادن همسرش اقدام نموده",
+        "start_char": 285,
+        "end_char": 343,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "با حضور وکیل زوج و وکیل زوجه و زوجه تشکیل شده است",
+        "start_char": 608,
+        "end_char": 657,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار داشته",
+        "start_char": 658,
+        "end_char": 681,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "پس از ابلاغ نسخه ثانی دادخواست و ضمایم به تجدیدنظر خوانده",
+        "start_char": 2876,
+        "end_char": 2933,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "استشهادیه",
+      "evidence": {
+        "quote": "به استناد یکبرگ استشهادیه",
+        "start_char": 127,
+        "end_char": 152,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اقرارنامه",
+      "evidence": {
+        "quote": "و اقرار نامه",
+        "start_char": 153,
+        "end_char": 165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "آماده تأدیه مهریه",
+        "start_char": 421,
+        "end_char": 438,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اجرای غیررسمی صیغه طلاق",
+      "evidence": {
+        "quote": "مراتب وقوع طلاق بصورت غیررسمی به دادسرای عمومی و انقلاب ارومیه اعلام شده است",
+        "start_char": 1451,
+        "end_char": 1527,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم رعایت تشریفات قانونی در طلاق",
+      "evidence": {
+        "quote": "صیغه طلاق مطابق با قانون و رعایت تشریفات مقرر در قوانین موضوعه اجرا نشده است",
+        "start_char": 2635,
+        "end_char": 2711,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم رعایت عدالت در شهود",
+      "evidence": {
+        "quote": "شهودی که ذیل طلاق نامه را امضا کرده‌اند همگی اعتیاد شدید به موادمخدر دارند و دارای سابقه کیفری هستند و عدالتی ندارند",
+        "start_char": 1038,
+        "end_char": 1154,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

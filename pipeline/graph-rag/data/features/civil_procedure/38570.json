@@ -1,0 +1,183 @@
+{
+  "ruling_id": "38570",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "خلع ید",
+      "evidence": {
+        "quote": "صدور حکم خلع ید",
+        "start_char": 154,
+        "end_char": 169,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اعتراض ثالث",
+      "evidence": {
+        "quote": "اعتراض ثالث طاری",
+        "start_char": 282,
+        "end_char": 298,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مالکیت",
+      "evidence": {
+        "quote": "مبنای مالکیت",
+        "start_char": 359,
+        "end_char": 371,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی",
+        "start_char": 0,
+        "end_char": 21,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدورحکم",
+      "evidence": {
+        "quote": "متضمن صدور حکم",
+        "start_char": 148,
+        "end_char": 162,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صدور",
+      "evidence": {
+        "quote": "صدور قرار عدم استماع",
+        "start_char": 239,
+        "end_char": 259,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام داشته",
+      "evidence": {
+        "quote": "مراتب اعتراض ثالث طاری خود به دادنامه استنادی در این پرونده را اعلام داشته است",
+        "start_char": 722,
+        "end_char": 800,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظر خواسته را در این قسمت نقض",
+        "start_char": 1699,
+        "end_char": 1741,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را به دادگاه محترم بدوی اعاده",
+        "start_char": 1744,
+        "end_char": 1780,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه نسبت به زمین",
+        "start_char": 170,
+        "end_char": 195,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "مبنای مالکیت تجدیدنظرخوانده",
+        "start_char": 359,
+        "end_char": 386,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض‌عنه",
+      "evidence": {
+        "quote": "مشخصات رای معترض عنه",
+        "start_char": 890,
+        "end_char": 910,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "زمین",
+      "evidence": {
+        "quote": "نسبت به زمین متنازع فیه",
+        "start_char": 183,
+        "end_char": 206,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "مبایعه نامه مورخ 1380/3/25",
+        "start_char": 450,
+        "end_char": 476,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره *مورخه 1402/09/19",
+        "start_char": 90,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "اعتراض ثالث در قالب لایحه دست‌نویس تقدیم شده است",
+      "evidence": {
+        "quote": "اعتراض ثالث در یک لایحه دست نویس تقدیم شده",
+        "start_char": 845,
+        "end_char": 887,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "درخواست تجدیدنظر در خصوص قرار عدم استماع اعتراض ثالث مطرح شده است",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی به عمل امده را در خصوص قرار عدم استماع راجع به اعتراض ثالث طاری",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

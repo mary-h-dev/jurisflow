@@ -1,0 +1,223 @@
+{
+  "ruling_id": "4368",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "به خواسته صدور گواهی عدم امکان سازش",
+        "start_char": 85,
+        "end_char": 120,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "عدم پرداخت نفقه",
+        "start_char": 157,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "منجر به طرح دعوی طلاق گردیده است",
+        "start_char": 740,
+        "end_char": 772,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تسلیم",
+      "evidence": {
+        "quote": "تسلیم نموده اند",
+        "start_char": 192,
+        "end_char": 207,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "مخالفت موکل با طلاق را اعلام",
+        "start_char": 244,
+        "end_char": 272,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "شکایت",
+      "evidence": {
+        "quote": "مبادرت به شکایت نموده",
+        "start_char": 561,
+        "end_char": 582,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امکان سازش",
+      "evidence": {
+        "quote": "مبادرت به صدور گواهی عدم امکان سازش می نماید",
+        "start_char": 1509,
+        "end_char": 1553,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 2037,
+        "end_char": 2055,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد اعتراض",
+      "evidence": {
+        "quote": "ضمن رد اعــتراض معـــترض",
+        "start_char": 2861,
+        "end_char": 2885,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از سوی زوج",
+        "start_char": 144,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "از ناحیه زوجه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به خواهان اجازه داده می شود",
+        "start_char": 1556,
+        "end_char": 1583,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "وکلای خوانده",
+        "start_char": 209,
+        "end_char": 221,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "معترض",
+      "evidence": {
+        "quote": "اعــتراض معـــترض",
+        "start_char": 2868,
+        "end_char": 2885,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "سند نکاحیه شماره 4929-21/10/85",
+        "start_char": 1450,
+        "end_char": 1480,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "قبول بذل مهریه",
+        "start_char": 1758,
+        "end_char": 1772,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ترک زندگی مشترک توسط زوج",
+      "evidence": {
+        "quote": "به سبب ترک زندگی مشترک از سوی زوج",
+        "start_char": 121,
+        "end_char": 154,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه توسط زوج",
+      "evidence": {
+        "quote": "عدم پرداخت نفقه در طول زندگی مشترک",
+        "start_char": 157,
+        "end_char": 191,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "پرداخت مقرری توسط دولت آلمان به زوجه",
+      "evidence": {
+        "quote": "پرداخت مقرری از سوی دولت به زوجه",
+        "start_char": 870,
+        "end_char": 902,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود اختلاف مالی شدید بین زوجین",
+      "evidence": {
+        "quote": "منشأ اختلافات زوجین عمدتاً مسائل مالی بوده",
+        "start_char": 461,
+        "end_char": 503,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "داشتن فرزند مشترک پسر ۲ ساله",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک پسر 2 ساله",
+        "start_char": 1888,
+        "end_char": 1916,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

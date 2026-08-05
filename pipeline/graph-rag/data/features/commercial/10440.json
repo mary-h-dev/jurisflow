@@ -1,0 +1,203 @@
+{
+  "ruling_id": "10440",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "برائت",
+      "evidence": {
+        "quote": "نظر به اینکه خوانده در مقام دفاع حاضر نگردیده و لایحه دفاعیه‌ای هم تقدیم این دادگاه نکرده‌اند",
+        "start_char": 278,
+        "end_char": 371,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اقرار",
+      "evidence": {
+        "quote": "پاره‌ای از حقوقدانان و از جمله قضات محترم و رویه قضایی، فلسفه نمایندگی را در تحریر مستند سفید امضاء مطرح می‌نمایند",
+        "start_char": 1069,
+        "end_char": 1183,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تهاتر",
+      "evidence": {
+        "quote": "حسب مستندات ارائه شده از ناحیه تجدیدنظرخوانده، وی با شرکت ش. تسویه نموده و دیون شرکت با مطالبات وی تسویه وتهاتر شده است",
+        "start_char": 3086,
+        "end_char": 3205,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ یکصد و هفتاد و پنج میلیون ریال",
+        "start_char": 92,
+        "end_char": 144,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "پرداخت مبلغ نود و چهار میلیون ریال",
+        "start_char": 2152,
+        "end_char": 2186,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "خواهان دعوی را با توجه به عدم حضور خوانده و عدم تقدیم لایحه دفاعیه",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "مانع از درج مبلغ مازاد یا کمتر نبوده و لزوماً چنانچه مطالبه مبتنی بر مبلغی مازاد بر مرقومه مندرج به نحو چاپی باشد، مستلزم ابطال تمبر‌ها با پرداخت حقوق دیوانی و دولتی است",
+        "start_char": 1520,
+        "end_char": 1689,
+        "confidence": 0.85
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "آقای م.ق. و خانم م.ح. به وکالت از شرکت ش. دادخواستی به طرفیت آقای الف.ز.",
+        "start_char": 19,
+        "end_char": 91,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای الف.ز.",
+        "start_char": 71,
+        "end_char": 91,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "با وکالت از شرکت ش.",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "قاضی",
+      "evidence": {
+        "quote": "رئیس شعبه 86 دادگاه عمومی حقوقی تهران – یزدانی",
+        "start_char": 2632,
+        "end_char": 2678,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سفته",
+      "evidence": {
+        "quote": "بیست فقره سفته تحت شماره ... الی ...",
+        "start_char": 172,
+        "end_char": 208,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند عادی",
+      "evidence": {
+        "quote": "9 فقره سند عادی",
+        "start_char": 154,
+        "end_char": 169,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "دادخواستی به طرفیت آقای الف.ز.",
+        "start_char": 61,
+        "end_char": 91,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه دفاعیه",
+      "evidence": {
+        "quote": "لایحه دفاعیه‌ای هم تقدیم این دادگاه نکرده‌اند",
+        "start_char": 326,
+        "end_char": 371,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت انجام نشده",
+      "evidence": {
+        "quote": "پرداخت مبلغ نود و چهار میلیون ریال",
+        "start_char": 2152,
+        "end_char": 2186,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرارداد امضا شده",
+      "evidence": {
+        "quote": "سفته‌های ابرازی از ناحیه خواهان دعوی صرفاً برخوردار از امضاء بوده",
+        "start_char": 591,
+        "end_char": 656,
+        "confidence": 0.85
+      }
+    },
+    {
+      "category": "fact",
+      "value": "سند جعلی ارائه نشده",
+      "evidence": {
+        "quote": "سفته‌های مذکور با رجوع به عرف، خصیصه تضمین را دارد یا خیر",
+        "start_char": 1727,
+        "end_char": 1784,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خسارات دادرسی",
+      "evidence": {
+        "quote": "با لحاظ خسارات دادرسی و تأخیر در تأدیه",
+        "start_char": 209,
+        "end_char": 247,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

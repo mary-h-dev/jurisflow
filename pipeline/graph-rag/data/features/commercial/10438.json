@@ -1,0 +1,203 @@
+{
+  "ruling_id": "10438",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "خسارت تأخیر تأدیه از تاریخ چک‌ها و در مورد سفته ها از تاریخ تقدیم دادخواست",
+        "start_char": 1163,
+        "end_char": 1237,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "concept",
+      "value": "محکومیت",
+      "evidence": {
+        "quote": "خوانده را به پرداخت مبلغ صدر‌الذکر بابت اصل خواسته محکوم می‌نماید",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظر",
+      "evidence": {
+        "quote": "رأی صادره حضوری، ظرف بیست روز، قابل اعتراض در دادگاه تجدیدنظر استان تهران می‌باشد",
+        "start_char": 1468,
+        "end_char": 1549,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نقض",
+      "evidence": {
+        "quote": "آن قسمت از دادنامه که بر محکومیت تجدید‌نظر‌خواه به پرداخت مبلغ هفتاد میلیون ریال بابت وجه 4 فقره سفته به همراه خسارت دادرسی مربوطه و خسارت تأخیر تأدیه از تاریخ تقدیم دادخواست اشعار دارد، مطابق مقررات نمی‌باشد و مستوجب نقض است",
+        "start_char": 2205,
+        "end_char": 2430,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه مبلغ هشتاد و دو میلیون ریال",
+        "start_char": 46,
+        "end_char": 90,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "خوانده دلیلی بر پرداخت وجه اسناد ارائه ننموده است",
+        "start_char": 815,
+        "end_char": 864,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقامه",
+      "evidence": {
+        "quote": "آقای ب.م. به طرفیت آقای د.ع. به خواسته مطالبه مبلغ هشتاد و دو میلیون ریال بابت دو فقره چک",
+        "start_char": 17,
+        "end_char": 106,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض خوانده به قرار مزبور از سوی شعبه 1014 دادگاه عمومی جزایی تهران رد شده است",
+        "start_char": 721,
+        "end_char": 801,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "از تاریخ تقدیم دادخواست (1391/7/3)",
+        "start_char": 1214,
+        "end_char": 1248,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "آقای ب.م. به طرفیت آقای د.ع. به خواسته مطالبه مبلغ هشتاد و دو میلیون ریال",
+        "start_char": 17,
+        "end_char": 90,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "آقای ب.م. به طرفیت آقای د.ع. به خواسته مطالبه مبلغ هشتاد و دو میلیون ریال",
+        "start_char": 17,
+        "end_char": 90,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدید‌نظر‌خواهی محکوم‌ٌعلیه نسبت به این بخش از دادنامه وارد و محمول بر صحت نمی‌باشد",
+        "start_char": 1918,
+        "end_char": 2001,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "دو فقره چک به شماره‌های ... مورخه 1390/2/31 (9 میلیون ریال) و ... مورخه 1390/4/31 (3 میلیون ریال)",
+        "start_char": 96,
+        "end_char": 193,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "سفته",
+      "evidence": {
+        "quote": "چهار فقره سفته به شماره‌های ... جمعاً به مبلغ هفتاد میلیون ریال",
+        "start_char": 196,
+        "end_char": 259,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "گواهی‌نامه",
+      "evidence": {
+        "quote": "گواهینامه عدم پرداخت آن",
+        "start_char": 360,
+        "end_char": 383,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "از تاریخ تقدیم دادخواست (1391/7/3)",
+        "start_char": 1214,
+        "end_char": 1248,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "پرداخت انجام نشده",
+      "evidence": {
+        "quote": "خوانده دلیلی بر پرداخت وجه اسناد ارائه ننموده است",
+        "start_char": 815,
+        "end_char": 864,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوای خواهان ثابت است",
+      "evidence": {
+        "quote": "خواسته خواهان ثابت است",
+        "start_char": 875,
+        "end_char": 897,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "قرار منع تعقیب صادر شده",
+      "evidence": {
+        "quote": "در پرونده مزبور قرار منع تعقیب صادر شده",
+        "start_char": 639,
+        "end_char": 678,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

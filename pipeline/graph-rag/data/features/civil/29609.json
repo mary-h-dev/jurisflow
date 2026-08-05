@@ -1,0 +1,153 @@
+{
+  "ruling_id": "29609",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "علقه زوجیت",
+      "evidence": {
+        "quote": "احراز وجود علقه زوجیت بین طرفین متداعیین",
+        "start_char": 213,
+        "end_char": 253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد نکاح",
+      "evidence": {
+        "quote": "به سبب عقد نکاح",
+        "start_char": 254,
+        "end_char": 269,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت نفقه معوقه",
+        "start_char": 74,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض از سوی طرفین به آن وارد نگردیده است",
+        "start_char": 330,
+        "end_char": 372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادگاه با قبول اعتراض تجدید نظر خواه دادنامه مورد اعتراض را نقض",
+        "start_char": 2550,
+        "end_char": 2613,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "و رددعوی خواهان بدوی را رد می کند",
+        "start_char": 2614,
+        "end_char": 2647,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دادخواست خانم ط. د. فرزند ک. بطرفیت آقای غ. ک. فرزند م.",
+        "start_char": 0,
+        "end_char": 63,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت نفقه معوقه",
+        "start_char": 74,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "نفقه زن به عهده شوهر است",
+        "start_char": 538,
+        "end_char": 562,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "از ناحیه زوجه حکایت از این دارد",
+        "start_char": 2174,
+        "end_char": 2205,
+        "confidence": 0.8
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "فتوکپی مصدق نکاحنامه رسمی شماره 4828",
+        "start_char": 176,
+        "end_char": 212,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت نفقه معوقه",
+        "start_char": 74,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وجود رابطه زوجیت بین طرفین",
+      "evidence": {
+        "quote": "احراز وجود علقه زوجیت بین طرفین متداعیین",
+        "start_char": 213,
+        "end_char": 253,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زندگی مشترک زوجین",
+      "evidence": {
+        "quote": "زوجین با یکدیگر زندگی مشترک داشته اند",
+        "start_char": 2209,
+        "end_char": 2246,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

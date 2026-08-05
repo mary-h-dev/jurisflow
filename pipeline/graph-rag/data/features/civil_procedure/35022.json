@@ -1,0 +1,133 @@
+{
+  "ruling_id": "35022",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اعسار",
+      "evidence": {
+        "quote": "به خواسته اعسار و تقسیط",
+        "start_char": 76,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تقسیط",
+      "evidence": {
+        "quote": "به خواسته اعسار و تقسیط",
+        "start_char": 76,
+        "end_char": 99,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواست فرجامی تقدیم که",
+        "start_char": 395,
+        "end_char": 419,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده به دادگاه اعاده می شود",
+        "start_char": 911,
+        "end_char": 940,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "با احراز اعسار خواهان",
+        "start_char": 195,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ممیز",
+      "evidence": {
+        "quote": "عضو ممیز",
+        "start_char": 576,
+        "end_char": 584,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادخواست",
+      "evidence": {
+        "quote": "به خواسته اعسار و تقسیط",
+        "start_char": 76,
+        "end_char": 99,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "محکوم به دادنامه شماره 001125",
+        "start_char": 100,
+        "end_char": 129,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پرونده",
+      "evidence": {
+        "quote": "ملاحظه پرونده",
+        "start_char": 587,
+        "end_char": 600,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "احراز اعسار شده است",
+      "evidence": {
+        "quote": "با احراز اعسار",
+        "start_char": 195,
+        "end_char": 209,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوی اعسار غیر مالی است",
+      "evidence": {
+        "quote": "دعوی اعسار غیر مالی است",
+        "start_char": 693,
+        "end_char": 716,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دعوی قابلیت رسیدگی فرجامی ندارد",
+      "evidence": {
+        "quote": "بنابراین قابلیت رسیدگی فرجامی نداشته",
+        "start_char": 820,
+        "end_char": 856,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

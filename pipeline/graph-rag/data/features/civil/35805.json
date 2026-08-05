@@ -1,0 +1,203 @@
+{
+  "ruling_id": "35805",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "به خواسته صدور حکم به فسخ نکاح",
+        "start_char": 244,
+        "end_char": 274,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خیار فسخ",
+      "evidence": {
+        "quote": "در نتیجه خیار فسخ برایم ایجاد شد",
+        "start_char": 509,
+        "end_char": 541,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "و حکم به بطلان دعوی فسخ نکاح صادر کرد",
+        "start_char": 1165,
+        "end_char": 1202,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "نسبت به آن از سوی زوج تجدیدنظر خواهی شد",
+        "start_char": 1223,
+        "end_char": 1262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "پس از ابلاغ رأی نسبت به آن فرجام خواهی از ناحیه زوج به عمل آمد",
+        "start_char": 1361,
+        "end_char": 1423,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تدلیس",
+      "evidence": {
+        "quote": "در نتیجه موجب فریب در ازدواج و تدلیس اینجانب شد",
+        "start_char": 1585,
+        "end_char": 1632,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "کتمان",
+      "evidence": {
+        "quote": "زوجه این موضوع را از من کتمان نموده است",
+        "start_char": 421,
+        "end_char": 460,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارائه",
+      "evidence": {
+        "quote": "زوجه سند شناسنامه المثنی ارائه داد",
+        "start_char": 1447,
+        "end_char": 1481,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "به محض اطلاع نارضایتی خود را طی اظهارنامه اعلام نمودم",
+        "start_char": 1708,
+        "end_char": 1761,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تقدیم دادخواست",
+      "evidence": {
+        "quote": "مجبور به تقدیم دادخواست فسخ نکاح شدم",
+        "start_char": 1810,
+        "end_char": 1846,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "نسبت به آن از سوی زوج تجدیدنظر خواهی شد",
+        "start_char": 1223,
+        "end_char": 1262,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه همان مطالب دادخواست را بیان نمود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "گواه",
+      "evidence": {
+        "quote": "از پدر و مادر و خواهر خواهان به عنوان گواه تحقیق شد",
+        "start_char": 717,
+        "end_char": 768,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "شناسنامه",
+      "evidence": {
+        "quote": "اقدام به شناسنامه المثنی نموده",
+        "start_char": 463,
+        "end_char": 493,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "لایحه",
+      "evidence": {
+        "quote": "و در لایحه آمده است",
+        "start_char": 1424,
+        "end_char": 1443,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اظهارنامه",
+      "evidence": {
+        "quote": "خود را طی اظهارنامه اعلام نمودم",
+        "start_char": 1730,
+        "end_char": 1761,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجه پیش از ازدواج همسر داشته است",
+      "evidence": {
+        "quote": "پس از 14 روز متوجه شدم که زوجه قبلا دارای همسر بوده",
+        "start_char": 326,
+        "end_char": 377,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه ازدواج قبلی خود را پنهان کرده است",
+      "evidence": {
+        "quote": "زوجه این موضوع را از من کتمان نموده است",
+        "start_char": 421,
+        "end_char": 460,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "زوجه شناسنامه المثنی دارد",
+      "evidence": {
+        "quote": "اقدام به شناسنامه المثنی نموده",
+        "start_char": 463,
+        "end_char": 493,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

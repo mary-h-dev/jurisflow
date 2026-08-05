@@ -1,0 +1,223 @@
+{
+  "ruling_id": "37452",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "به دلیل عسر و حرج",
+        "start_char": 90,
+        "end_char": 107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عقد",
+      "evidence": {
+        "quote": "شرایط ضمن عقد",
+        "start_char": 110,
+        "end_char": 123,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "کراهت",
+      "evidence": {
+        "quote": "کراهت زوجه",
+        "start_char": 962,
+        "end_char": 972,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "سازش",
+      "evidence": {
+        "quote": "امکان سازش وجود ندارد",
+        "start_char": 712,
+        "end_char": 733,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی فرجامخواه صادر گردیده",
+        "start_char": 2019,
+        "end_char": 2058,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "طرح دعوی نموده",
+        "start_char": 153,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "بذل",
+      "evidence": {
+        "quote": "بذل می نماید",
+        "start_char": 1055,
+        "end_char": 1067,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "نسبت به دادنامه اعتراض نموده است",
+        "start_char": 1273,
+        "end_char": 1305,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه فرجامخواسته را نقض و پرونده را جهت رسیدگی مجدد به دادگاه صادر کننده رای منقوض ارجاع می نماید",
+        "start_char": 3404,
+        "end_char": 3504,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان",
+        "start_char": 412,
+        "end_char": 423,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت ا. م. طرح دعوی نموده",
+        "start_char": 138,
+        "end_char": 167,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "دعوی تمکین زوج رد شده",
+        "start_char": 459,
+        "end_char": 480,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "کراهت زوجه",
+        "start_char": 962,
+        "end_char": 972,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "داور زوج بشرح ص 35 اعلام کرده",
+        "start_char": 631,
+        "end_char": 660,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرمان‌خواه",
+      "evidence": {
+        "quote": "وکیل فرجامخوانده",
+        "start_char": 1639,
+        "end_char": 1655,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "فرجامخواه",
+      "evidence": {
+        "quote": "نسبت به دادنامه فرجامخواهی نموده",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "باقیمانده مهریه خود",
+        "start_char": 2943,
+        "end_char": 2962,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سکه",
+      "evidence": {
+        "quote": "145 سکه از مهریه",
+        "start_char": 1035,
+        "end_char": 1051,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین یک سال است که از هم جدا هستند",
+      "evidence": {
+        "quote": "و یکسال است.که زوجه در منزل پدری است.",
+        "start_char": 299,
+        "end_char": 336,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه توسط زوج",
+      "evidence": {
+        "quote": "و نفقه ای به او پرداخت نشده است",
+        "start_char": 336,
+        "end_char": 367,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تهیه مسکن و اثاث البیت توسط زوج",
+      "evidence": {
+        "quote": "عدم تهیه مسکن و اثاث البیت از ناحیه زوج",
+        "start_char": 782,
+        "end_char": 821,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

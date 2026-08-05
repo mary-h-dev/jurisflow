@@ -1,0 +1,183 @@
+{
+  "ruling_id": "743",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تاخیر تادیه",
+      "evidence": {
+        "quote": "خسارات دادرسی و تأخیر تأدیه",
+        "start_char": 123,
+        "end_char": 150,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اصل خواسته",
+      "evidence": {
+        "quote": "بابت اصل خواسته",
+        "start_char": 953,
+        "end_char": 968,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه",
+        "start_char": 68,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "مبلغ مورد خواسته را به حساب خوانده واریز نموده است",
+        "start_char": 280,
+        "end_char": 330,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اقدام",
+      "evidence": {
+        "quote": "خوانده نسبت به استرداد مبلغ مذکور اقدام نکرده است",
+        "start_char": 333,
+        "end_char": 382,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "خواستار رد دعوی مطروحه شده است",
+        "start_char": 521,
+        "end_char": 551,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را عیناً تأیید",
+        "start_char": 2197,
+        "end_char": 2234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "ضمن رد تجدیدنظرخواهی",
+        "start_char": 2124,
+        "end_char": 2144,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "وکیل خواهان اظهار نموده است",
+        "start_char": 171,
+        "end_char": 198,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مبلغ مورد خواسته را به حساب خوانده واریز نموده است",
+        "start_char": 280,
+        "end_char": 330,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه هیچ دلیلی بر مدیونیت",
+        "start_char": 1706,
+        "end_char": 1739,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "مدیونیت تجدیدنظرخوانده به وی",
+        "start_char": 1732,
+        "end_char": 1760,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه",
+        "start_char": 68,
+        "end_char": 88,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قبض",
+      "evidence": {
+        "quote": "به استناد دو فقره قبض واریزی",
+        "start_char": 199,
+        "end_char": 227,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه بدوی مطابق با موازین قانونی",
+        "start_char": 1812,
+        "end_char": 1847,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واریز وجه توسط خواهان به حساب خوانده",
+      "evidence": {
+        "quote": "واریز وجه توسط خواهان به حساب خوانده محرز و مسلم است",
+        "start_char": 570,
+        "end_char": 622,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم استرداد مبلغ توسط خوانده",
+      "evidence": {
+        "quote": "خوانده نسبت به استرداد مبلغ مذکور اقدام نکرده است",
+        "start_char": 333,
+        "end_char": 382,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

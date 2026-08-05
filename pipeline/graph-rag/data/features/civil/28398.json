@@ -1,0 +1,163 @@
+{
+  "ruling_id": "28398",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال بخشی از رای داوری",
+        "start_char": 58,
+        "end_char": 91,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قوانین موجد",
+      "evidence": {
+        "quote": "برخلاف قوانین موجد حق رای خود را صادر",
+        "start_char": 385,
+        "end_char": 422,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "لاضرر",
+      "evidence": {
+        "quote": "مطابق قاعده لاضرر",
+        "start_char": 2381,
+        "end_char": 2398,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "حکم به ابطال رای داوری صادر گردیده است",
+        "start_char": 1934,
+        "end_char": 1972,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "در زمان تحویل آپارتمان 100 متری به ایشان تحویل گردیده است",
+        "start_char": 299,
+        "end_char": 356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظر خواهی تعاونی مسکن",
+        "start_char": 1415,
+        "end_char": 1449,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "به طرفیت تعاونی مسکن ن. به خواسته ابطال بخشی از رای داوری",
+        "start_char": 34,
+        "end_char": 91,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مبنی بر محکومیت خوانده به پرداخت",
+        "start_char": 140,
+        "end_char": 172,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "شرکت تجدیدنظر متعهد به تحویل",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "به تجدیدنظر خوانده بوده است",
+        "start_char": 2166,
+        "end_char": 2193,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "رأی",
+      "evidence": {
+        "quote": "ابطال بخشی از رای داوری شماره 525/9",
+        "start_char": 68,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "تحویل آپارتمان 130 متری",
+        "start_char": 267,
+        "end_char": 290,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "حسب قرارداد بین شرکت تعاونی خوانده با خواهان",
+        "start_char": 470,
+        "end_char": 514,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "تحویل آپارتمان با متراژ کمتر از قرارداد",
+      "evidence": {
+        "quote": "در زمان تحویل آپارتمان 100 متری به ایشان تحویل گردیده است",
+        "start_char": 299,
+        "end_char": 356,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اختلاف در ملاک محاسبه قیمت در رای داوری",
+      "evidence": {
+        "quote": "داور مرضی الطرفین ملاک محاسبه پرداخت قیمت را زمان فروش آپارتمان 130 متری قرار داده است",
+        "start_char": 640,
+        "end_char": 726,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

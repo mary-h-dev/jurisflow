@@ -1,0 +1,253 @@
+{
+  "ruling_id": "35086",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عدم امکان",
+      "evidence": {
+        "quote": "صدور گواهی عدم امکان سازش",
+        "start_char": 86,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نکاح دائم",
+      "evidence": {
+        "quote": "حکایت از نکاح دائم طرفین",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "بذل مهریه از سوی زوجه خلع نوبت اول می باشد",
+        "start_char": 3126,
+        "end_char": 3168,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "خلع",
+      "evidence": {
+        "quote": "نوع طلاق خلع ذکر گردیده",
+        "start_char": 3604,
+        "end_char": 3627,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فرجام‌خواهی",
+      "evidence": {
+        "quote": "از آن فرجام خواهی کرده است",
+        "start_char": 3511,
+        "end_char": 3537,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تقدیم",
+      "evidence": {
+        "quote": "دادخواستی را... تقدیم دفتر کل دادگستری",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعلام",
+      "evidence": {
+        "quote": "اعلام نموده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "این نظریه مورد اعتراض زوج قرار گرفته است",
+        "start_char": 1405,
+        "end_char": 1445,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه فرجام خواسته نقض و در اجرای... ارجاع و بازگردانده می شود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در تاریخ 94/1/20 خواهان آقای ر. س.",
+        "start_char": 0,
+        "end_char": 34,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت خوانده خانم ز. ع.",
+        "start_char": 49,
+        "end_char": 75,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج با استناد به تصویر رونوشت سند ازدواج",
+        "start_char": 335,
+        "end_char": 375,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "در برابر زوجه اعلام نموده",
+        "start_char": 760,
+        "end_char": 785,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "داور",
+      "evidence": {
+        "quote": "نظر داور زوج بعداً",
+        "start_char": 1011,
+        "end_char": 1029,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "کارشناس",
+      "evidence": {
+        "quote": "خانم س.ع. به عنوان کارشناس",
+        "start_char": 1295,
+        "end_char": 1321,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "هیئت",
+      "evidence": {
+        "quote": "به هیأت سه نفره کارشناسان ارجاع نموده است",
+        "start_char": 1643,
+        "end_char": 1684,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند ازدواج",
+      "evidence": {
+        "quote": "با استناد به تصویر رونوشت سند ازدواج",
+        "start_char": 339,
+        "end_char": 375,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مهریه",
+      "evidence": {
+        "quote": "تعداد 350 عدد سکه از مهریه خویش",
+        "start_char": 604,
+        "end_char": 635,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سکه",
+      "evidence": {
+        "quote": "364 عدد سکه تمام بهار آزادی",
+        "start_char": 425,
+        "end_char": 452,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جهیزیه",
+      "evidence": {
+        "quote": "جهیزیه در ید زوج است",
+        "start_char": 2087,
+        "end_char": 2107,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "دادنامه 9409972988502803-94/11/15 را صادر کرده است",
+        "start_char": 2901,
+        "end_char": 2951,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوج و زوجه درگیر اختلاف مالی و طلاق هستند",
+      "evidence": {
+        "quote": "در مورد اموالی که زوج به آنها اشاره کرده فی مابین طرفین اختلاف بوده",
+        "start_char": 5017,
+        "end_char": 5084,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "نظریه داور زوجه اخذ نشده است",
+      "evidence": {
+        "quote": "پیش از صدور رأی نظریه داور زوجه اخذ نگردیده است",
+        "start_char": 4488,
+        "end_char": 4535,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "دادگاه حقوق مالی طرفین را مشخص نکرده است",
+      "evidence": {
+        "quote": "در مورد اموالی که زوج به آنها اشاره کرده فی مابین طرفین اختلاف بوده و دادگاه رسیدگی کننده، در این مورد رسیدگی و تعیین تکلیف نکرده است",
+        "start_char": 5017,
+        "end_char": 5150,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

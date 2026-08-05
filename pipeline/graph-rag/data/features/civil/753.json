@@ -1,0 +1,133 @@
+{
+  "ruling_id": "753",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "التزام",
+      "evidence": {
+        "quote": "وجه التزام قراردادی",
+        "start_char": 198,
+        "end_char": 217,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رهن",
+      "evidence": {
+        "quote": "درقید رهن بانک مسکن می باشد",
+        "start_char": 403,
+        "end_char": 430,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تنظیم",
+      "evidence": {
+        "quote": "تنظیم سند رسمی انتقال",
+        "start_char": 105,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی خانم الف.ی.",
+        "start_char": 795,
+        "end_char": 820,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید می‌نماید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را به استناد ماده 358 قانون مرقوم تأیید می نماید",
+        "start_char": 1582,
+        "end_char": 1653,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوای خواهان به کیفیت حاضر مسموع نیست",
+        "start_char": 436,
+        "end_char": 473,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تنظیم سند رسمی",
+        "start_char": 89,
+        "end_char": 119,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه دلایل و مدارکی",
+        "start_char": 1281,
+        "end_char": 1308,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "واحد آپارتمان",
+        "start_char": 130,
+        "end_char": 143,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "ملک موضوع خواسته",
+        "start_char": 277,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "ملک موضوع دعوا در رهن بانک مسکن است",
+      "evidence": {
+        "quote": "ملک موضوع خواسته درقید رهن بانک مسکن می باشد",
+        "start_char": 386,
+        "end_char": 430,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ملک موضوع خواسته تفکیک نشده است",
+      "evidence": {
+        "quote": "ملک موضوع خواسته در حال حاضر تفکیک نشده است",
+        "start_char": 277,
+        "end_char": 320,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

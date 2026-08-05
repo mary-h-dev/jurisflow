@@ -1,0 +1,163 @@
+{
+  "ruling_id": "700",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام به تمکین",
+        "start_char": 34,
+        "end_char": 58,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم به بطلان دعوی مزبور را صادر",
+        "start_char": 320,
+        "end_char": 351,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "طرح دعوی",
+      "evidence": {
+        "quote": "طرح دعوی الزام به تمکین وجاهت قانونی ندارد",
+        "start_char": 230,
+        "end_char": 272,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "در خصوص تجدیدنظرخواهی آقای خ.الف.",
+        "start_char": 521,
+        "end_char": 554,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "لذا اعتراض نامبرده قابل انطباق با جهات مقرر",
+        "start_char": 1017,
+        "end_char": 1060,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد",
+      "evidence": {
+        "quote": "حکم به رد دعوی صادر شده است",
+        "start_char": 750,
+        "end_char": 777,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "حکم تجدیدنظرخواسته را تأیید می نماید",
+        "start_char": 1187,
+        "end_char": 1223,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "زوجین",
+      "evidence": {
+        "quote": "با عنایت به اظهارات زوجین",
+        "start_char": 60,
+        "end_char": 85,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "ایراد تجدیدنظرخواه در حدی نیست",
+        "start_char": 941,
+        "end_char": 971,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 877 ـ 27/6/91 صادره از شعبه 201 دادگاه حقوقی (خانواده) تهران که به موجب آن دعوی تجدیدنظرخواه به خواسته الزام به تمکین زوجه",
+        "start_char": 574,
+        "end_char": 718,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "به خواسته الزام به تمکین زوجه",
+        "start_char": 689,
+        "end_char": 718,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "نسبت به دادنامه شماره 877 ـ 27/6/91",
+        "start_char": 574,
+        "end_char": 609,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "حکم",
+      "evidence": {
+        "quote": "حکم تجدیدنظرخواسته را تأیید می نماید",
+        "start_char": 1187,
+        "end_char": 1223,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین در یک منزل مشترک زندگی می‌کنند",
+      "evidence": {
+        "quote": "زوجین هم اکنون در یک منزل مشترک زندگی می نمایند",
+        "start_char": 146,
+        "end_char": 193,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "اخطاریه در یک آدرس به زوجین ابلاغ شده است",
+      "evidence": {
+        "quote": "با توجه به اینکه اخطاریه در یک آدرس به زوجین ابلاغ شده است",
+        "start_char": 779,
+        "end_char": 837,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

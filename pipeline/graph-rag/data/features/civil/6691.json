@@ -1,0 +1,193 @@
+{
+  "ruling_id": "6691",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "خواستار بطلان وکالت نامه ها و اسناد رسمی انتقال",
+        "start_char": 580,
+        "end_char": 627,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بیع",
+      "evidence": {
+        "quote": "بیع غرری محسوب",
+        "start_char": 1633,
+        "end_char": 1647,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "معامله",
+      "evidence": {
+        "quote": "از ارکان تحقق بیع صحیح معینی بودن ثمن معامله می باشد",
+        "start_char": 1507,
+        "end_char": 1559,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فضولی",
+      "evidence": {
+        "quote": "فضولی و مورد تأیید موکل نیست",
+        "start_char": 3313,
+        "end_char": 3341,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه خسارات دادرسی",
+        "start_char": 258,
+        "end_char": 280,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوا",
+      "evidence": {
+        "quote": "ادعاهای وکیل خواهان را ردّ نموده",
+        "start_char": 806,
+        "end_char": 838,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض و درخواست ارجاع موضوع به هیئت 3 نفره کارشناس را نموده",
+        "start_char": 1056,
+        "end_char": 1116,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه تجدیدنظر استان می باشد",
+        "start_char": 2151,
+        "end_char": 2202,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "ازجمله کپی مصدق شده وکالت نامه و اسناد رسمی به موجب آن ها مدعی شده خواهان",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "مدعی شده خوانده به عنوان وکیل و فرزند خواهان",
+        "start_char": 407,
+        "end_char": 451,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "خوانده به عنوان وکیل و فرزند خواهان",
+        "start_char": 416,
+        "end_char": 451,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "موکل",
+      "evidence": {
+        "quote": "بدون رعایت مصلحت موکل",
+        "start_char": 452,
+        "end_char": 473,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "نامه",
+      "evidence": {
+        "quote": "بطلان وکالت نامه 123298 مورخه 18/1/90",
+        "start_char": 91,
+        "end_char": 128,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "بطلان سند 159082 مورخه 30/1/90",
+        "start_char": 154,
+        "end_char": 184,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "انتقال شش دانگ آپارتمان پلاک ثبتی 8191 فرعی",
+        "start_char": 3179,
+        "end_char": 3222,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "وکیل ملک را به نام خودش منتقل کرده است",
+      "evidence": {
+        "quote": "آقای ع.گ. به وکالت از مادرش (خانم ن.س.) مورد وکالت را در قبال ثمن بخس به خود انتقال داده",
+        "start_char": 3696,
+        "end_char": 3784,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "ثمن معامله در سند رسمی با ارزش واقعی متفاوت بوده است",
+      "evidence": {
+        "quote": "ثمن معامله مندرج در سند رسمی مبلغ اصلی ملک نمی باشد",
+        "start_char": 677,
+        "end_char": 728,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "fact",
+      "value": "هیچ رسید کتبی مبنی بر تحویل ثمن ارائه نشده است",
+      "evidence": {
+        "quote": "و هیچ رسید کتبی نیز مبنی بر تحویل همین ثمن نیز ارائه نکرده است",
+        "start_char": 3868,
+        "end_char": 3930,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ruling_id": "11009",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "رابطه زوجیت اصحاب دعوی محرز است",
+        "start_char": 109,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت دائم",
+      "evidence": {
+        "quote": "ادامه علقه زوجیت دائم",
+        "start_char": 943,
+        "end_char": 964,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "مانع مشروع",
+      "evidence": {
+        "quote": "دلیلی نیز بر وجود مانع مشروع",
+        "start_char": 1065,
+        "end_char": 1093,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "عذر",
+      "evidence": {
+        "quote": "عذر موجه",
+        "start_char": 1097,
+        "end_char": 1105,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نشوز",
+      "evidence": {
+        "quote": "دلیل بر نشوز زوجه در گذشته نیست",
+        "start_char": 1197,
+        "end_char": 1228,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "الزام",
+      "evidence": {
+        "quote": "به خواسته الزام به تمکین",
+        "start_char": 58,
+        "end_char": 82,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در دادگاه تجدیدنظر",
+        "start_char": 550,
+        "end_char": 587,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "دادنامه مذکور نقض می‌شود",
+        "start_char": 1600,
+        "end_char": 1624,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان در مورخه 1393/6/25",
+        "start_char": 142,
+        "end_char": 167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در منزل مشترک زندگی کرده",
+        "start_char": 1004,
+        "end_char": 1041,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "از سوی زوج می‌باشد",
+        "start_char": 1322,
+        "end_char": 1340,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "الزام زوجه به بازگشت",
+        "start_char": 1689,
+        "end_char": 1709,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "منزل",
+      "evidence": {
+        "quote": "بازگشت به منزل شوهرش",
+        "start_char": 865,
+        "end_char": 885,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "فراهم شدن مسکن متناسب با شئون زوجه",
+        "start_char": 1780,
+        "end_char": 1814,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اثاث‌البیت",
+      "evidence": {
+        "quote": "و اثاث البیت متعارف",
+        "start_char": 1302,
+        "end_char": 1321,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "شرایط و مقدمات تمکین فراهم نیست",
+      "evidence": {
+        "quote": "چون شرایط و مقدمات تمکین فراهم نیست",
+        "start_char": 374,
+        "end_char": 409,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "تجدیدنظرخواه در منزل مشترک زندگی کرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخواه در منزل مشترک زندگی کرده",
+        "start_char": 1004,
+        "end_char": 1041,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

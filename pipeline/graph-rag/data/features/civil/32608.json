@@ -1,0 +1,203 @@
+{
+  "ruling_id": "32608",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "استرداد",
+      "evidence": {
+        "quote": "می تواند آنرا مسترد نماید",
+        "start_char": 867,
+        "end_char": 892,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تبرع",
+      "evidence": {
+        "quote": "عدم تبرع پرداخت",
+        "start_char": 1993,
+        "end_char": 2008,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "دلالت بر وجود دین داشته",
+        "start_char": 2011,
+        "end_char": 2034,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "قرض",
+      "evidence": {
+        "quote": "در مقام ادای دین است",
+        "start_char": 2832,
+        "end_char": 2852,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته ی مطالبه وجه",
+        "start_char": 89,
+        "end_char": 111,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واریز",
+      "evidence": {
+        "quote": "از طریق فیش بانکی و یا انتقال بوسیله دستگاه ای تی ام به حساب خوانده واریز",
+        "start_char": 241,
+        "end_char": 314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "از استرداد وجوه امتناع می نماید",
+        "start_char": 320,
+        "end_char": 351,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "صادر",
+      "evidence": {
+        "quote": "چک شماره 25894/33232000 عهده بانک پارسیان را صادر",
+        "start_char": 500,
+        "end_char": 549,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تحویل",
+      "evidence": {
+        "quote": "به خوانده تحویل نموده",
+        "start_char": 552,
+        "end_char": 573,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "در خور نقض است",
+        "start_char": 1953,
+        "end_char": 1967,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان صادر",
+        "start_char": 1274,
+        "end_char": 1291,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به حساب خوانده واریز",
+        "start_char": 294,
+        "end_char": 314,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "حکم به محکومیت تجدیدنظر خواه",
+        "start_char": 1715,
+        "end_char": 1743,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "در حق تجدیدنظر خوانده صادر گردیده است",
+        "start_char": 1803,
+        "end_char": 1840,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "مطالبه وجه به مبلغ300/000/000 ریال",
+        "start_char": 101,
+        "end_char": 135,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "چک شماره 25894/33232000",
+        "start_char": 500,
+        "end_char": 523,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سکه",
+      "evidence": {
+        "quote": "خرید 20 سکه",
+        "start_char": 2421,
+        "end_char": 2432,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "واریز وجه از طریق فیش بانکی یا دستگاه ATM انجام شده است",
+      "evidence": {
+        "quote": "مبلغ 300/000/000 ریال در فواصل زمانی متناوب از طریق فیش بانکی و یا انتقال بوسیله دستگاه ای تی ام به حساب خوانده واریز",
+        "start_char": 197,
+        "end_char": 314,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده چکی را به خوانده تحویل داده است",
+      "evidence": {
+        "quote": "چک شماره 25894/33232000 عهده بانک پارسیان را صادر و به خوانده تحویل نموده",
+        "start_char": 500,
+        "end_char": 573,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

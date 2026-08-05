@@ -1,0 +1,163 @@
+{
+  "ruling_id": "21253",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "ابطال",
+      "evidence": {
+        "quote": "به خواسته ابطال مبایعه‌نامه",
+        "start_char": 172,
+        "end_char": 199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "صوری",
+      "evidence": {
+        "quote": "این معامله صوری و به قصد فرار از ادای دین بوده",
+        "start_char": 1121,
+        "end_char": 1167,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "به قصد فرار از ادای دین",
+        "start_char": 949,
+        "end_char": 972,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "موجبات قانونی و شرعی ابطال و مبایعه‌نامه (بطلان بیع) فراهم باشد",
+        "start_char": 6370,
+        "end_char": 6433,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "و مطالبه خسارت دادرسی",
+        "start_char": 272,
+        "end_char": 293,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "واگذار",
+      "evidence": {
+        "quote": "به آن‌ها واگذار نموده",
+        "start_char": 1049,
+        "end_char": 1070,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "حکم به رد دعوی خواهان‌ها صادر",
+        "start_char": 5320,
+        "end_char": 5349,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواهان‌ها از خوانده ردیف یک و چهار",
+        "start_char": 337,
+        "end_char": 371,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "طبق احکام صادره پیوست به‌عنوان خیانت در امانت نسبت به 5 فقره چک",
+        "start_char": 372,
+        "end_char": 435,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "یعنی اول بایع قصد فرار از دین داشته باشد",
+        "start_char": 5834,
+        "end_char": 5874,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به خواسته ابطال مبایعه‌نامه",
+        "start_char": 172,
+        "end_char": 199,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "نسبت به 5 فقره چک",
+        "start_char": 418,
+        "end_char": 435,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "سرقفلی",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده ردیف یک سرقفلی پلاک 2483 و 2494 بخش ثبت تهران را",
+        "start_char": 801,
+        "end_char": 864,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده سرقفلی را برخلاف قانون به دیگری واگذار کرده است",
+      "evidence": {
+        "quote": "تجدیدنظرخوانده ردیف یک سرقفلی پلاک 2483 و 2494 بخش ثبت تهران را برخلاف ماده 4 قانون نحوه اجرای محکومیتهای مالی مصوب 1377/8/10 و ماده 218 قانون مدنی به قصد فرار از ادای دین طبق دادخواست تقدیمی خواندگان ردیف 1 و 3 و برابر مبایعه‌نامه عادی 1392/11/23 به آن‌ها واگذار نموده است",
+        "start_char": 801,
+        "end_char": 1074,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "معامله با قیمت نصف قیمت واقعی انجام شده است",
+      "evidence": {
+        "quote": "ثمن معامله هم پنجاه درصد قیمت واقعی سرقفلی پلاک‌های مذکور می‌باشد",
+        "start_char": 1182,
+        "end_char": 1247,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

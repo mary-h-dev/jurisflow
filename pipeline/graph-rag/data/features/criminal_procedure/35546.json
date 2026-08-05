@@ -1,0 +1,123 @@
+{
+  "ruling_id": "35546",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حبس تعزیری",
+      "evidence": {
+        "quote": "حکم به محکومیت متهم بتحمل دوماه حبس تعزیری صادر و اعلام میدارد",
+        "start_char": 399,
+        "end_char": 461,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تعلیق",
+      "evidence": {
+        "quote": "اجرای مجازات حبس تعزیری معینه را بمدت دو سال به حال تعلیق در آورده",
+        "start_char": 1687,
+        "end_char": 1753,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی نموده اند",
+        "start_char": 1405,
+        "end_char": 1428,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "عرضه",
+      "evidence": {
+        "quote": "بنا بر عرضه کالای مشمول استاندارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی نموده اند",
+        "start_char": 1405,
+        "end_char": 1428,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "بزهکاری متهم رامحرزتشخیص داده",
+        "start_char": 273,
+        "end_char": 302,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "رئیس شعبه",
+      "evidence": {
+        "quote": "رئیس شعبه 1049",
+        "start_char": 534,
+        "end_char": 548,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "طلا",
+      "evidence": {
+        "quote": "عرضه و فروش طلای غیر استاندارد",
+        "start_char": 1374,
+        "end_char": 1404,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "جزای نقدی",
+      "evidence": {
+        "quote": "پنجاه میلیون ریال جزای نقدی",
+        "start_char": 1339,
+        "end_char": 1366,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "کالا فاقد استاندارد است",
+      "evidence": {
+        "quote": "وکشف کالای فاقد استاندارد از ید متهم",
+        "start_char": 175,
+        "end_char": 211,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "متهم سابقه کیفری ندارد",
+      "evidence": {
+        "quote": "با توجه به فقدان سوابق کیفری",
+        "start_char": 1599,
+        "end_char": 1627,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

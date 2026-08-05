@@ -1,0 +1,163 @@
+{
+  "ruling_id": "25789",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "فقط حق فسخ را دارد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "شرط",
+      "evidence": {
+        "quote": "با عنایت به گذاشتن «شرط مقدار»",
+        "start_char": 801,
+        "end_char": 831,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "بطلان",
+      "evidence": {
+        "quote": "حکم بر بطلان دعوی خواهان صادر",
+        "start_char": 1641,
+        "end_char": 1670,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه پرداخت وجه معادل کسری متراژ",
+        "start_char": 2025,
+        "end_char": 2069,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "ارایه",
+      "evidence": {
+        "quote": "دلیل و مدرکی که موجب گسیختن دادنامه تجدیدنظرخواسته شود اقامه و ارایه نکرده است",
+        "start_char": 2482,
+        "end_char": 2560,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "تأیید",
+      "evidence": {
+        "quote": "دادنامه تجدیدنظرخواسته را تأیید می‌کند",
+        "start_char": 2810,
+        "end_char": 2848,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی آقای و. م. به طرفیت 1- آقای س. الف.د.",
+        "start_char": 8,
+        "end_char": 50,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواندگان",
+      "evidence": {
+        "quote": "الزام خواندگان به پرداخت کسری متراژ",
+        "start_char": 109,
+        "end_char": 144,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "فقط حق فسخ را دارد و نمی‌تواند نسبت به استرداد مبلغ کسری متراژ اقدام نماید مگر آن که طرفین نسبت به محاسبه زیاده یا نقیصه تراضی کنند",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "تجدیدنظرخواهی آقای و. م.",
+        "start_char": 1851,
+        "end_char": 1875,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "به استناد مبایعه‌نامه و صورت‌مجلس تفکیکی",
+        "start_char": 145,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "صورت‌مجلس تفکیکی",
+      "evidence": {
+        "quote": "به استناد مبایعه‌نامه و صورت‌مجلس تفکیکی",
+        "start_char": 145,
+        "end_char": 185,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "خریداری شش‌دانگ ملک به شماره پلاک ثبتی",
+        "start_char": 382,
+        "end_char": 420,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مساحت ملک در مبایعه‌نامه با واقعیت متفاوت است",
+      "evidence": {
+        "quote": "در زمان خریداری، فروشندگان اعلام داشتند که ساختمان 50 متر مربع است اما در مبایعه‌نامه 49 متر مربع ذکر شده است",
+        "start_char": 504,
+        "end_char": 613,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مساحت واقعی ملک طبق صورت‌مجلس تفکیکی بیشتر از آنچه در مبایعه‌نامه ذکر شده است",
+      "evidence": {
+        "quote": "بعد از تنظیم صورت‌مجلس تفکیکی مشخص شده مساحت 62/47 متر مربع است",
+        "start_char": 1039,
+        "end_char": 1102,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

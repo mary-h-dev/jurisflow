@@ -1,0 +1,193 @@
+{
+  "ruling_id": "10983",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "شرط ضمن",
+      "evidence": {
+        "quote": "شرط ضمن عقد",
+        "start_char": 144,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "زوجیت",
+      "evidence": {
+        "quote": "وجود زوجیت محرز است",
+        "start_char": 953,
+        "end_char": 972,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تکالیف",
+      "evidence": {
+        "quote": "زوجین تکالیفی نسبت به یکدیگر دارند",
+        "start_char": 989,
+        "end_char": 1023,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 96,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی",
+        "start_char": 513,
+        "end_char": 531,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "نفقه هم مطالبه کرده‌است",
+        "start_char": 1439,
+        "end_char": 1462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "ضمن نقض دادنامه",
+        "start_char": 1520,
+        "end_char": 1535,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "خواسته خواهان را فاقد وجاهت قانونی",
+        "start_char": 326,
+        "end_char": 360,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به تمکین",
+        "start_char": 96,
+        "end_char": 117,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "زوج متعهد شده‌ است",
+        "start_char": 159,
+        "end_char": 177,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "زوجه بر اساس شرط ضمن عقد",
+        "start_char": 131,
+        "end_char": 155,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "بطلان دعوی تجدیدنظرخواه",
+        "start_char": 816,
+        "end_char": 839,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخوانده",
+      "evidence": {
+        "quote": "الزام تجدیدنظرخوانده به تمکین",
+        "start_char": 1570,
+        "end_char": 1599,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "عقدنامه",
+      "evidence": {
+        "quote": "شروطی که در عقدنامه آمده",
+        "start_char": 1052,
+        "end_char": 1076,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "نفقه هم مطالبه کرده‌است",
+        "start_char": 1439,
+        "end_char": 1462,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مسکن",
+      "evidence": {
+        "quote": "منوط است به مسکنی که زوجه انتخاب کرده باشد",
+        "start_char": 1653,
+        "end_char": 1695,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "زوجین در کشور لهستان ساکن شده‌اند",
+      "evidence": {
+        "quote": "زوجه سالهاست در کشور لهستان ساکن شد",
+        "start_char": 1401,
+        "end_char": 1436,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "شرط ضمن عقد مبنی بر حق انتخاب محل سکونت با زوجه است",
+      "evidence": {
+        "quote": "اختيار انتخاب محل سکونت با زوجه می‌باشد",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

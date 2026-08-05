@@ -1,0 +1,183 @@
+{
+  "ruling_id": "28656",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "تعهد",
+      "evidence": {
+        "quote": "تاثیری در تعهد قراردادی مشارالیه با بانک اعطاکننده تسهیلات و بازپرداخت اقساط وام نداشته است",
+        "start_char": 1894,
+        "end_char": 1985,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رهن",
+      "evidence": {
+        "quote": "قرارداد تنظیمی در چارچوب عقود رهن و ضمان قابل تفسیر می باشد",
+        "start_char": 4023,
+        "end_char": 4082,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تهاتر",
+      "evidence": {
+        "quote": "زمانی که این مبلغ ( یازده میلیون تومان ) مورد تهاتر قرار خواهد گرفت",
+        "start_char": 4534,
+        "end_char": 4601,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "استنکاف",
+      "evidence": {
+        "quote": "خوانده از بازپرداخت تسهیلات استنکاف کرده",
+        "start_char": 537,
+        "end_char": 577,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ یازده میلیون تومان از وام دریافتی را به مشارالیه داده ام",
+        "start_char": 1077,
+        "end_char": 1138,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "نسبت به مطالبه مبلغ پرداختی اقدام نماید",
+        "start_char": 3977,
+        "end_char": 4016,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "الزام خوانده به پرداخت",
+        "start_char": 132,
+        "end_char": 154,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در حق خواهان صادر و اعلام می شود",
+        "start_char": 2486,
+        "end_char": 2518,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "ضامن",
+      "evidence": {
+        "quote": "حق مراجعه به مضمون عقد را دارد",
+        "start_char": 4130,
+        "end_char": 4160,
+        "confidence": 0.8
+      }
+    },
+    {
+      "category": "role",
+      "value": "مدیون",
+      "evidence": {
+        "quote": "ذمه تجدیدنظرخواه ( مدیون ) در قبال مبلغ معنونه",
+        "start_char": 4274,
+        "end_char": 4320,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند",
+      "evidence": {
+        "quote": "در قالب سند تسهیلات رسمی شماره...مورخه 4/11/80",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ملک",
+      "evidence": {
+        "quote": "در صدد تملک ملک مذکور بوده است",
+        "start_char": 585,
+        "end_char": 615,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "به پرداخت یک میلیارد و سی میلیون ریال",
+        "start_char": 145,
+        "end_char": 182,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "قرارداد",
+      "evidence": {
+        "quote": "ملاحظه قرارداد و سند اعطای تسهیلات بانکی",
+        "start_char": 1474,
+        "end_char": 1514,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده ملک را در رهن بانک قرار داده است",
+      "evidence": {
+        "quote": "تمامی ششدانگ پلاک ثبتی....فرعی از 10676 اصلی واقع در بخش یکم قم را در رهن بانک مذکور قرار داده است",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خواهان برای جلوگیری از تملک بانک، بدهی را پرداخت کرده است",
+      "evidence": {
+        "quote": "پس از انقضای قرارداد ،بدهی بانکی را پرداخت کرده است",
+        "start_char": 2163,
+        "end_char": 2214,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مدت قرارداد منقضی شده است",
+      "evidence": {
+        "quote": "مدت آن در زمان پرداخت بدهی بانکی از سوی خواهان و فک سند ، منقضی شده بود",
+        "start_char": 1694,
+        "end_char": 1765,
+        "confidence": 0.95
+      }
+    }
+  ]
+}

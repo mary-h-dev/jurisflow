@@ -1,0 +1,203 @@
+{
+  "ruling_id": "3600",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "سرقت",
+      "evidence": {
+        "quote": "سرقت 44 فقره ایران چک یک میلیون ریالی",
+        "start_char": 2624,
+        "end_char": 2661,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "اختلاس",
+      "evidence": {
+        "quote": "اتهام شما دایر بر اختلاس به میزان /000/000/44 ریال",
+        "start_char": 7325,
+        "end_char": 7375,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "کلاهبرداری",
+      "evidence": {
+        "quote": "مرتکب کلاهبرداری شده",
+        "start_char": 12711,
+        "end_char": 12731,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رد",
+      "evidence": {
+        "quote": "متهم به رد مال در این خصوص نیز محکوم گردید",
+        "start_char": 10755,
+        "end_char": 10797,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "دین",
+      "evidence": {
+        "quote": "طبق ماده 267 قانون مدنی ایفای دین از جانب غیر مدیون هم جایز است",
+        "start_char": 13405,
+        "end_char": 13468,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "برداشت",
+      "evidence": {
+        "quote": "تعداد 10 فقره از ایران چک های 100 هزار تومانی را برداشتم",
+        "start_char": 6972,
+        "end_char": 7028,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "مبلغ یک میلیون و دویست هزار تومان را به حساب آقای ر.و. واریز کردم",
+        "start_char": 8271,
+        "end_char": 8336,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "استعلام",
+      "evidence": {
+        "quote": "بایستی اسامی آن ها از بانک استعلام شود",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض ندارم",
+        "start_char": 7651,
+        "end_char": 7663,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده دادرسی",
+      "evidence": {
+        "quote": "تقاضای اعاده دادرسی نموده است",
+        "start_char": 11382,
+        "end_char": 11411,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "نماینده",
+      "evidence": {
+        "quote": "به عنوان نماینده حقوقی معرفی شده",
+        "start_char": 1850,
+        "end_char": 1882,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "متهم",
+      "evidence": {
+        "quote": "برای متهم قرار بازداشت موقت به مدت یک ماه صادر شده است",
+        "start_char": 7569,
+        "end_char": 7623,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "وکیل",
+      "evidence": {
+        "quote": "آقای ع.د. آقای ن.ن. را به عنوان وکیل خود معرفی نموده",
+        "start_char": 11059,
+        "end_char": 11111,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "تعداد 44 فقره ایران چک یک میلیون ریالی",
+        "start_char": 98,
+        "end_char": 136,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد",
+      "evidence": {
+        "quote": "اسناد جهت بایگانی توسط مسئول بایگانی و کارمندان بایگانی بررسی و کاملاً چک می شوند",
+        "start_char": 1264,
+        "end_char": 1345,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وجه",
+      "evidence": {
+        "quote": "مبلغ یک میلیون و دویست هزار تومان را به حساب آقای ر.و. واریز کردم",
+        "start_char": 8271,
+        "end_char": 8336,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "چک‌ها از بایگانی سرقت شده است",
+      "evidence": {
+        "quote": "از بایگانی شعبه توسط شخص یا اشخاصی مجهولی سرقت شده است",
+        "start_char": 177,
+        "end_char": 231,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "چک‌ها باطل شده‌اند",
+      "evidence": {
+        "quote": "بله باطل شده است",
+        "start_char": 2212,
+        "end_char": 2228,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبلغی توسط همکاران متهم به حساب بانک واریز شده است",
+      "evidence": {
+        "quote": "مبلغ یک میلیون و دویست هزار تومان را خود متهم پرداخت و بقیه را همکاران همان شعبه به حساب واسطه بانک گذاشتند",
+        "start_char": 9963,
+        "end_char": 10070,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

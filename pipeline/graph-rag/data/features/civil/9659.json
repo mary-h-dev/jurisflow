@@ -1,0 +1,193 @@
+{
+  "ruling_id": "9659",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق حبس",
+      "evidence": {
+        "quote": "با این برداشت قائل به حق حبس برای خریدار شده",
+        "start_char": 3205,
+        "end_char": 3249,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "ثمن",
+      "evidence": {
+        "quote": "مبلغ چک مورد دعوی بابت ثمن مبیع بوده است",
+        "start_char": 1534,
+        "end_char": 1574,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "حاضر به پرداخت بدهی خود نمی باشد",
+        "start_char": 340,
+        "end_char": 372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "استدعای رد دعوی خواهان را دارم",
+        "start_char": 1712,
+        "end_char": 1742,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "action",
+      "value": "انتقال",
+      "evidence": {
+        "quote": "نسبت به انتقال مبیع اقدام نماید",
+        "start_char": 866,
+        "end_char": 897,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تخلیه",
+      "evidence": {
+        "quote": "از تخلیه ملک تاکنون خودداری نموده است",
+        "start_char": 1466,
+        "end_char": 1503,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ع.پ. به خواسته صدور حکم بر محکومیت خوانده",
+        "start_char": 71,
+        "end_char": 126,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دعوی خواهان را وارد تشخیص",
+        "start_char": 2140,
+        "end_char": 2165,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "بایع",
+      "evidence": {
+        "quote": "هر یک از بایع و مشتری حق دارد",
+        "start_char": 3299,
+        "end_char": 3328,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "هر یک از بایع و مشتری حق دارد",
+        "start_char": 3299,
+        "end_char": 3328,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خریدار",
+      "evidence": {
+        "quote": "بایع باید به محض وقوع معامله آن را به خریدار تسلیم",
+        "start_char": 3116,
+        "end_char": 3166,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "چک",
+      "evidence": {
+        "quote": "به موجب یک فقره چک به شماره 899380 بانک ملی",
+        "start_char": 249,
+        "end_char": 292,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ریال",
+      "evidence": {
+        "quote": "مبلغ دو میلیارد ریال و کلیه خسارات دادرسی",
+        "start_char": 137,
+        "end_char": 178,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "ساختمان",
+      "evidence": {
+        "quote": "یک دستگاه ساختمان از خواهان خریداری نموده",
+        "start_char": 719,
+        "end_char": 760,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "مبیع",
+      "evidence": {
+        "quote": "نسبت به انتقال مبیع اقدام نماید",
+        "start_char": 866,
+        "end_char": 897,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده چک را پرداخت نکرده است",
+      "evidence": {
+        "quote": "حاضر به پرداخت بدهی خود نمی باشد",
+        "start_char": 340,
+        "end_char": 372,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مبیع هنوز در تصرف خوانده است",
+      "evidence": {
+        "quote": "هنوز مبیع در تصرف و ید خوانده می باشد",
+        "start_char": 1245,
+        "end_char": 1282,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "خوانده از تخلیه ملک خودداری کرده است",
+      "evidence": {
+        "quote": "از تخلیه ملک تاکنون خودداری نموده است",
+        "start_char": 1466,
+        "end_char": 1503,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

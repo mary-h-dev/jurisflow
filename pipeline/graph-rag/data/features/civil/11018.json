@@ -1,0 +1,163 @@
+{
+  "ruling_id": "11018",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "حق فسخ",
+      "evidence": {
+        "quote": "صرفاً برای خواهان حق فسخ باقی می‌ماند",
+        "start_char": 1198,
+        "end_char": 1235,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "فسخ",
+      "evidence": {
+        "quote": "در صورت عدم فسخ",
+        "start_char": 2150,
+        "end_char": 2165,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "مطالبه",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه کسری آپارتمان",
+        "start_char": 35,
+        "end_char": 69,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "اعتراض به شرح لایحه اعتراضیه وارد",
+        "start_char": 1862,
+        "end_char": 1895,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "مستوجب نقض آن می‌باشد",
+        "start_char": 1898,
+        "end_char": 1919,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "اعاده",
+      "evidence": {
+        "quote": "پرونده را جهت رسیدگی و اظهارنظر ماهیتی به دادگاه نخستین اعاده می‌نماید",
+        "start_char": 2783,
+        "end_char": 2853,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "در خصوص دعوای م.الف. به طرفیت ع.ک.",
+        "start_char": 0,
+        "end_char": 34,
+        "confidence": 0.9
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "را از خوانده خریداری می‌نماید",
+        "start_char": 650,
+        "end_char": 679,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "مشتری",
+      "evidence": {
+        "quote": "مشتری در صورت عدم فسخ حق دریافت مبلغ اضافی پرداختی را دارد",
+        "start_char": 2144,
+        "end_char": 2202,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "مبایعه‌نامه",
+      "evidence": {
+        "quote": "تصویر مبایعه‌نامه.. مورخه 1385/8/10",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "آپارتمان",
+      "evidence": {
+        "quote": "یک واحد آپارتمان به انضمام پارکینگ و انباری",
+        "start_char": 526,
+        "end_char": 569,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "پارکینگ",
+      "evidence": {
+        "quote": "به خواسته مطالبه وجه کسری آپارتمان به میزان 4 مترمربع و نبود پارکینگ",
+        "start_char": 35,
+        "end_char": 103,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "انباری",
+      "evidence": {
+        "quote": "مساحت انباری نیز 3/3 متر بوده است",
+        "start_char": 745,
+        "end_char": 778,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "مساحت آپارتمان کمتر از میزان قراردادی است",
+      "evidence": {
+        "quote": "در حین تسلیم مساحت آن کمتر از میزان مقرر قراردادی بوده است",
+        "start_char": 1101,
+        "end_char": 1159,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "آپارتمان فاقد پارکینگ است",
+      "evidence": {
+        "quote": "آپارتمان خریداری شده فاقد پارکینگ می‌باشد",
+        "start_char": 781,
+        "end_char": 822,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

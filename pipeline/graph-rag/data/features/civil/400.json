@@ -1,0 +1,143 @@
+{
+  "ruling_id": "400",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "اجرت المثل",
+      "evidence": {
+        "quote": "به پرداخت اجرت المثل ایام تصرف",
+        "start_char": 214,
+        "end_char": 244,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تجدیدنظرخواهی",
+      "evidence": {
+        "quote": "قابل تجدیدنظرخواهی در مرجع محترم تجدیدنظر",
+        "start_char": 2123,
+        "end_char": 2164,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تسبیب",
+      "evidence": {
+        "quote": "با رعایت قاعده تسبیب",
+        "start_char": null,
+        "end_char": null,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "پرداخت",
+      "evidence": {
+        "quote": "به پرداخت اجرت المثل",
+        "start_char": 214,
+        "end_char": 234,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "تصرف",
+      "evidence": {
+        "quote": "که توسط خوانده تصرف",
+        "start_char": 284,
+        "end_char": 303,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "از تاریخ مالکیت خواهان ها",
+        "start_char": 366,
+        "end_char": 391,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "به طرفیت آقای ر.ع. فرزند ب.به خواسته رسیدگی و صدور حکم بر محکومیت خوانده",
+        "start_char": 141,
+        "end_char": 213,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواهان",
+      "evidence": {
+        "quote": "به طرفیت تجدیدنظرخواهان های فوق",
+        "start_char": 2366,
+        "end_char": 2397,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "پارکینگ",
+      "evidence": {
+        "quote": "بخشی از پارکینگ آپارتمان",
+        "start_char": 245,
+        "end_char": 269,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "اسناد مالکیت",
+      "evidence": {
+        "quote": "تصاویر مصدق از اسناد مالکیت",
+        "start_char": 657,
+        "end_char": 684,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "وکالت‌نامه",
+      "evidence": {
+        "quote": "با استناد به وکالت نامه",
+        "start_char": 633,
+        "end_char": 656,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "خوانده بخشی از پارکینگ را با الحاق به قسمت تجاری تصرف کرده است",
+      "evidence": {
+        "quote": "که توسط خوانده تصرف و با الحاق آن به قسمت تجاری آپارتمان از آن انتفاع می برده است",
+        "start_char": 284,
+        "end_char": 365,
+        "confidence": 0.95
+      }
+    },
+    {
+      "category": "fact",
+      "value": "مالکیت خواهان‌ها از سال ۶۹ تا ۸۵ است",
+      "evidence": {
+        "quote": "از تاریخ مالکیت خواهان ها (به زعم خواهان ها از سال 69 الی 85 به مدت شانزده سال)",
+        "start_char": 366,
+        "end_char": 445,
+        "confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "ruling_id": "25476",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "عسر و حرج",
+      "evidence": {
+        "quote": "به لحاظ عسر و حرج ناشی از عدم پرداخت نفقه",
+        "start_char": 99,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "احراز وجود رابطه زوجیت دائم بین خواهان و خوانده",
+        "start_char": 226,
+        "end_char": 273,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "طلاق",
+      "evidence": {
+        "quote": "حکم به طلاق خلع زوجه صادر می‌نماید",
+        "start_char": 2313,
+        "end_char": 2347,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "صدور حکم",
+      "evidence": {
+        "quote": "به خواسته صدور حکم طلاق",
+        "start_char": 50,
+        "end_char": 73,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "مطالبه نفقه",
+      "evidence": {
+        "quote": "مطالبه نفقه از سوی زوجه",
+        "start_char": 420,
+        "end_char": 443,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "امتناع",
+      "evidence": {
+        "quote": "امتناع زوج از پرداخت",
+        "start_char": 521,
+        "end_char": 541,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "رأی صادره دادگاه بدوی را نقض کرده",
+        "start_char": 2239,
+        "end_char": 2272,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادخواست تقدیمی خواهان",
+        "start_char": 194,
+        "end_char": 216,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "بین خواهان و خوانده",
+        "start_char": 254,
+        "end_char": 273,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "مطالبه نفقه از سوی زوجه بایستی منجر به صدورحکم محکومیت زوج",
+        "start_char": 420,
+        "end_char": 478,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "مطالبه نفقه از سوی زوجه",
+        "start_char": 420,
+        "end_char": 443,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند رسمی",
+      "evidence": {
+        "quote": "رونوشت سند رسمی نکاح شماره 23303",
+        "start_char": 290,
+        "end_char": 322,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "عدم پرداخت نفقه",
+        "start_char": 125,
+        "end_char": 140,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "فرزند",
+      "evidence": {
+        "quote": "حضانت فرزند مشترک بر عهده زوجه است",
+        "start_char": 2348,
+        "end_char": 2382,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم پرداخت نفقه توسط زوج",
+      "evidence": {
+        "quote": "با مواجه شدن اجرائیه با عدم پرداخت نفقه توسط زوج بوده",
+        "start_char": 880,
+        "end_char": 933,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "وجود رابطه زوجیت دائم",
+      "evidence": {
+        "quote": "احراز وجود رابطه زوجیت دائم بین خواهان و خوانده",
+        "start_char": 226,
+        "end_char": 273,
+        "confidence": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "ruling_id": "28751",
+  "concepts": [
+    {
+      "category": "concept",
+      "value": "رابطه زوجیت",
+      "evidence": {
+        "quote": "وجود رابطه زوجیت فیمابین طرفین محرز است",
+        "start_char": 211,
+        "end_char": 250,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "تمکین",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده به تمکین از خواهان صادر",
+        "start_char": 507,
+        "end_char": 552,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "concept",
+      "value": "نفقه",
+      "evidence": {
+        "quote": "تمکین زوجه از زوج مستلزم تهیه مسکن مستقل و پرداخت نفقه می باشد",
+        "start_char": 1360,
+        "end_char": 1422,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "actions": [
+    {
+      "category": "action",
+      "value": "اعتراض",
+      "evidence": {
+        "quote": "مورد اعتراض مشارالیها واقع شده است",
+        "start_char": 1090,
+        "end_char": 1124,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "نقض",
+      "evidence": {
+        "quote": "نقض حکم به رددعوی خواهان بدوی",
+        "start_char": 1520,
+        "end_char": 1549,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "action",
+      "value": "رد دعوی",
+      "evidence": {
+        "quote": "رد دعوی خواهان بدوی",
+        "start_char": 1531,
+        "end_char": 1549,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "roles": [
+    {
+      "category": "role",
+      "value": "خواهان",
+      "evidence": {
+        "quote": "دادگاه دعوی خواهان را وارد دانسته",
+        "start_char": 433,
+        "end_char": 466,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "خوانده",
+      "evidence": {
+        "quote": "حکم به محکومیت خوانده به تمکین",
+        "start_char": 507,
+        "end_char": 537,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوج",
+      "evidence": {
+        "quote": "تمکین زوجه از زوج مستلزم",
+        "start_char": 1360,
+        "end_char": 1384,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "زوجه",
+      "evidence": {
+        "quote": "تمکین زوجه از زوج",
+        "start_char": 1360,
+        "end_char": 1377,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "role",
+      "value": "تجدیدنظرخواه",
+      "evidence": {
+        "quote": "لایحه اعتراضیه تجدید نظرخواه",
+        "start_char": 1181,
+        "end_char": 1209,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "objects": [
+    {
+      "category": "object",
+      "value": "سند نکاحیه",
+      "evidence": {
+        "quote": "رونوشت سند نکاحیه شماره 3682",
+        "start_char": 130,
+        "end_char": 158,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "object",
+      "value": "دادنامه",
+      "evidence": {
+        "quote": "بدادنامه شماره 511",
+        "start_char": 948,
+        "end_char": 966,
+        "confidence": 1.0
+      }
+    }
+  ],
+  "facts": [
+    {
+      "category": "fact",
+      "value": "عدم تهیه مسکن مستقل توسط زوج",
+      "evidence": {
+        "quote": "عدم تهیه مسکن مستقل",
+        "start_char": 1247,
+        "end_char": 1266,
+        "confidence": 1.0
+      }
+    },
+    {
+      "category": "fact",
+      "value": "عدم تهیه اثاث البیت متعارف توسط زوج",
+      "evidence": {
+        "quote": "عدم تهیه مسکن مستقل وباثاث البیت متعارف از سوی زوج",
+        "start_char": 1247,
+        "end_char": 1297,
+        "confidence": 1.0
+      }
+    }
+  ]
+}
