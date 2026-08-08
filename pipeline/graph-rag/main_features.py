@@ -19,6 +19,12 @@ main_features.py — اجرای دو-مرحله‌ای پایپ‌لاین Featu
     uv run main_features.py extract civil --limit 50
     uv run main_features.py load civil --limit 50
     PYTHONUNBUFFERED=1 uv run main_features.py extract civil --limit 0 2>&1 | tee -a pipeline.log
+    PYTHONUNBUFFERED=1 FEATURE_PROVIDER_ORDER=openrouter uv run main_features.py extract civil --limit 0 2>&1 | tee -a pipeline.log
+    # export OPENROUTER_API_KEY="key"
+    PYTHONUNBUFFERED=1 FEATURE_PROVIDER_ORDER=openrouter uv run main_features.py extract criminal_procedure --limit 0 2>&1 | tee -a criminal_procedure.log
+
+    PYTHONUNBUFFERED=1 uv run main_features.py load civil --limit 0 2>&1 | tee -a load_civil.log
+
 """
 
 import dataclasses
@@ -34,7 +40,6 @@ from database.feature_loader import FeatureGraphLoader
 from features.extractor import extract_ruling
 from features.schemas import Evidence, ExtractedFeature, FeatureExtractionResult
 from features.vocab_resolver import VocabResolver
-
 
 
 load_dotenv()
@@ -130,7 +135,7 @@ def load_domain(domain: str, limit: int | None):
     loader = FeatureGraphLoader(connection)
     loader.create_indexes()
 
-    loaded_count, skipped_count = 0, 0
+    loaded_count, skipped_count, failed_count = 0, 0, 0
     for i, path in enumerate(paths, start=1):
         with open(path, encoding="utf-8") as f:
             data = json.load(f)
@@ -138,14 +143,23 @@ def load_domain(domain: str, limit: int | None):
 
         if loader.is_ruling_loaded(result.ruling_id):
             skipped_count += 1
-            continue  # قبلاً بارگذاری شده -- resumable، نگاه کن به توضیح feature_loader.py
+            if skipped_count % 200 == 0:
+                print(f"  ⏭️  {skipped_count} مورد قبلی رد شدن (تا الان)...")
+            continue  # قبلاً بارگذاری شده -- resumable
 
-        loader.load_result(result)
-        loaded_count += 1
-        print(f"  ✅ [{i}/{len(paths)}] {result.ruling_id} بارگذاری شد")
+        try:
+            loader.load_result(result)
+            loaded_count += 1
+            print(f"  ✅ [{i}/{len(paths)}] {result.ruling_id} بارگذاری شد")
+        except ValueError as e:
+            skipped_count += 1
+            print(f"  ⚠️ [{i}/{len(paths)}] {e}")
+        except Exception as e:
+            failed_count += 1
+            print(f"  ❌ [{i}/{len(paths)}] خطای غیرمنتظره در پرونده {result.ruling_id}: {e}")
 
     connection.close()
-    print(f"\n✅ {loaded_count} نتیجه‌ی جدید بارگذاری شد، {skipped_count} از قبل موجود بود (رد شد).")
+    print(f"\n✅ {loaded_count} نتیجه‌ی جدید بارگذاری شد، {skipped_count} رد شد (از قبل موجود یا پرونده یتیم)، {failed_count} با خطا مواجه شد.")
 
 
 if __name__ == "__main__":
@@ -167,3 +181,6 @@ if __name__ == "__main__":
     else:
         print("❌ عمل نامعتبر؛ از extract یا load استفاده کن.")
         sys.exit(1)
+
+
+

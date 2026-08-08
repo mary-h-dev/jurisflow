@@ -173,31 +173,24 @@ ALL_VOCAB_LABELS = list(VOCAB_CATEGORIES.keys()) + [SKIP_LABEL]
 LLM_TEMPERATURE = 0.1
 
 # --- نام مدل هرکدام از providerها ---
-GEMINI_MODEL = "models/gemini-2.5-flash"       # https://ai.google.dev/gemini-api/docs/models
-GROQ_MODEL = "llama-3.3-70b-versatile"         # https://console.groq.com/docs/models
-OPENROUTER_MODEL = "google/gemma-4-26b-a4b-it:free"
-GITHUB_MODEL = "gpt-4o-mini"                    # https://github.com/marketplace/models
-DEEPSEEK_MODEL = "deepseek-reasoner"            # همون DeepSeek R1 — https://api-docs.deepseek.com             # https://inference-docs.cerebras.ai/models
-CEREBRAS_MODEL = "gemma-4-31b"
-OLLAMA_MODEL = "qwen2.5:3b"
-OLLAMA_BASE_URL ="http://localhost:11434"
+GEMINI_MODEL = "models/gemini-2.5-flash"      
+GROQ_MODEL = "llama-3.1-8b-instant"         
+OPENROUTER_MODEL = "google/gemma-4-26b-a4b-it:free"              
+DEEPSEEK_MODEL = "deepseek-reasoner"                        
 
-# چون بعضی فایل‌های قدیمی‌تر ممکنه مستقیم LLM_MODEL رو ایمپورت کنن，
-# نگهش می‌داریم و برابر با provider پیش‌فرض (Gemini) می‌ذاریم — ولی
-# در عمل هرکدوم از providerها با مدل خودشون صدا زده می‌شن، نه این
-# متغیر.
+
 LLM_MODEL = GEMINI_MODEL
 
-# ترتیب اولویت providerها: این لیست رو دستی عوض کن تا provider اول
-# (و بقیه به ترتیب fallback) رو خودت انتخاب کنی. اسم‌های مجاز:
-# "gemini", "groq", "openrouter", "github", "deepseek", "cerebras"
-#
-# مثال: اگه می‌خوای DeepSeek R1 اول امتحان بشه (برای reasoning قوی‌تر)
-# و بعدش Gemini fallback باشه:
+
 # PROVIDER_ORDER = ["groq", "cerebras", "gemini", "openrouter", "github", "deepseek", "ollama"]
 
-PROVIDER_ORDER = ["openrouter", "groq","gemini"]
-MAX_OUTPUT_TOKENS = 6000 # برای این نوع خروجی JSON، کافیه
+
+
+_env_order = os.getenv("FEATURE_PROVIDER_ORDER")
+PROVIDER_ORDER = _env_order.split(",") if _env_order else ["gemini", "groq", "openrouter"]
+
+
+MAX_OUTPUT_TOKENS = 6000 
 
 
 class _MultiProviderChatClient:
@@ -320,30 +313,6 @@ def _make_openrouter_call():
     return call
 
 
-def _make_github_call():
-    """
-    فراخوانی GitHub Models (OpenAI-compatible). نیاز به GITHUB_TOKEN
-    در .env دارد (یک Personal Access Token از GitHub، بدون نیاز به
-    scope خاصی برای Models). کاتالوگ کامل مدل‌ها:
-    https://github.com/marketplace/models
-    """
-    from openai import OpenAI
-
-    client = OpenAI(
-        base_url="https://models.inference.ai.azure.com",
-        api_key=os.getenv("GITHUB_TOKEN"),
-    )
-
-    def call(prompt: str, temperature: float) -> str:
-        response = client.chat.completions.create(
-            model=GITHUB_MODEL,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=temperature,
-            max_tokens=MAX_OUTPUT_TOKENS,   # ← اضافه شد
-        )
-        return response.choices[0].message.content
-
-    return call
 
 
 def _make_deepseek_call():
@@ -368,51 +337,6 @@ def _make_deepseek_call():
     return call
 
 
-def _make_cerebras_call():
-    """
-    فراخوانی Cerebras Cloud (OpenAI-compatible، سرعت استنتاج خیلی بالا).
-    نیاز به CEREBRAS_API_KEY در .env دارد
-    (بگیرش از https://cloud.cerebras.ai/). کاتالوگ مدل‌ها:
-    https://inference-docs.cerebras.ai/models
-    """
-    from openai import OpenAI
-
-    client = OpenAI(base_url="https://api.cerebras.ai/v1", api_key=os.getenv("CEREBRAS_API_KEY"))
-
-    def call(prompt: str, temperature: float) -> str:
-        response = client.chat.completions.create(
-            model=CEREBRAS_MODEL,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=temperature,
-            max_tokens=MAX_OUTPUT_TOKENS,   # ← اضافه شد
-        )
-        return response.choices[0].message.content
-
-    return call
-
-        
-def _make_ollama_call():
-    import requests
-
-    def call(prompt: str, temperature: float) -> str:
-        response = requests.post(
-            f"{OLLAMA_BASE_URL}/api/chat",
-            json={
-                "model": OLLAMA_MODEL,
-                "messages": [{"role": "user", "content": prompt}],
-                "options": {
-                    "num_ctx": 8192,
-                    "temperature": temperature,
-                },
-                "stream": False,
-            },
-            timeout=300,
-        )
-        response.raise_for_status()
-        return response.json()["message"]["content"]
-
-    return call
-
 
 
 # نگاشت نام provider → تابع‌سازِ call. هر provider فقط وقتی به زنجیره
@@ -421,10 +345,7 @@ _PROVIDER_FACTORIES = {
     "gemini": ("GEMINI_API_KEY", _make_gemini_call),
     "groq": ("GROQ_API_KEY", _make_groq_call),
     "openrouter": ("OPENROUTER_API_KEY", _make_openrouter_call),
-    "github": ("GITHUB_TOKEN", _make_github_call),
     "deepseek": ("DEEPSEEK_API_KEY", _make_deepseek_call),
-    "cerebras": ("CEREBRAS_API_KEY", _make_cerebras_call),
-    "ollama": ("OLLAMA_MODEL", _make_ollama_call),
 
 }
 
@@ -440,9 +361,7 @@ def get_llm_client():
         GEMINI_API_KEY      — https://aistudio.google.com/apikey
         GROQ_API_KEY        — https://console.groq.com/keys
         OPENROUTER_API_KEY  — https://openrouter.ai/keys
-        GITHUB_TOKEN        — https://github.com/settings/tokens
         DEEPSEEK_API_KEY    — https://platform.deepseek.com/api_keys
-        CEREBRAS_API_KEY    — https://cloud.cerebras.ai/
 
     اگر کلید یک provider تنظیم نشده باشد، آن provider به‌سادگی از
     زنجیره حذف می‌شود (نه این‌که خطا بدهد) — پس فقط گذاشتن یکی از
@@ -464,7 +383,7 @@ def get_llm_client():
         raise RuntimeError(
             "هیچ API key ای برای LLM تنظیم نشده. حداقل یکی از "
             "GEMINI_API_KEY / GROQ_API_KEY / OPENROUTER_API_KEY / "
-            "GITHUB_TOKEN / DEEPSEEK_API_KEY / CEREBRAS_API_KEY را در .env بگذار."
+            "DEEPSEEK_API_KEY  را در .env بگذار."
         )
 
     print(f"🔌 LLM providerهای فعال (به‌ترتیب اولویت): {[name for name, _ in providers]}")

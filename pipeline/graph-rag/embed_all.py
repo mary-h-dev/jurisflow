@@ -4,11 +4,21 @@ embed_all.py — تولید embedding برای Rule Graph و Fact Graph
 پویا بودن نسبت به قوانین: مثل main.py و main_cases.py، این فایل هم
 مستقیم از laws.configs.LAW_CONFIGS حلقه می‌زنه — نه یک لیست دستی.
 
+⚠️ افزوده‌ی جدید — rules-extra: علاوه بر ۵ قانون اصلیِ LAW_CONFIGS، در
+عمل ده‌ها مقدار دیگر برای a.law در گراف پیدا شد (مثلاً «قانون حمایت
+خانواده»، «قانون امور حسبی»، و حتی رشته‌های نامرتب مثل «و ۲۳۰ قانون
+مدنی» که در واقع تکه‌ی یک ارجاع هستند، نه اسم مستقل یک قانون). تصمیم:
+همه‌ی این‌ها را هم embed می‌کنیم — چون embedding روی خودِ `content`
+ماده انجام می‌شود، نه روی اسم قانون؛ حتی اگر برچسبِ «کدام قانون» کثیف
+باشد، محتوای خودِ ماده هنوز واقعی و قابل‌استفاده است. تمیزکردنِ خودِ
+برچسب `law` (اصلاح parser استخراج ارجاعات) یک کار جداست، برای بعد.
+
 نحوه‌ی استفاده:
-    uv run embed_all.py rules            ← فقط مواد قانونی، هر ۵ قانون
-    uv run embed_all.py rules civil      ← فقط یک قانون خاص
+    uv run embed_all.py rules            ← فقط ۵ قانون اصلی، هر ۵ تا
+    uv run embed_all.py rules civil      ← فقط یک قانون خاص از ۵ تای اصلی
+    uv run embed_all.py rules-extra      ← همه‌ی مقادیر a.law خارج از ۵ تای اصلی
     uv run embed_all.py cases            ← خلاصه + بخش‌های رأی‌ها
-    uv run embed_all.py all              ← هر دو
+    uv run embed_all.py all              ← rules + rules-extra + cases
 """
 
 import os
@@ -69,6 +79,40 @@ def _embed_and_save(items: list[dict], text_key: str, save_fn, id_key: str, max_
         print(f"  ✅ {min(i + BATCH_SIZE, total)}/{total}")
 
 
+def _embed_one_law(store: EmbeddingStore, law_name: str):
+    """
+    منطق مشترک بین embed_rules (۵ قانون اصلی) و embed_extra_laws (بقیه)
+    — یک‌بار نوشته شده تا هردو دقیقاً یک رفتار داشته باشن.
+    """
+    articles = store.get_articles_without_embedding(law_name)
+    print(f"\n📊 {law_name[:80]}: {len(articles)} ماده نیاز به embedding دارند")
+
+    if articles:
+        _embed_and_save(
+            items=[{"id": (a["num"], law_name), "content": a["content"]} for a in articles],
+            text_key="content",
+            save_fn=lambda id_pair, emb: store.save_article_embedding(id_pair[0], id_pair[1], emb),
+            id_key="id",
+            max_length=512,
+        )
+
+    notes = store.get_notes_without_embedding(law_name)
+    if notes:
+        print(f"📊 {law_name[:80]}: {len(notes)} تبصره نیاز به embedding دارند")
+        _embed_and_save(
+            items=[
+                {"id": (n["note_num"], n["article_num"], law_name), "content": n["content"]}
+                for n in notes
+            ],
+            text_key="content",
+            save_fn=lambda id_triple, emb: store.save_note_embedding(
+                id_triple[0], id_triple[1], id_triple[2], emb
+            ),
+            id_key="id",
+            max_length=512,
+        )
+
+
 def embed_rules(law_key: str | None = None):
     connection = Neo4jConnection(NEO4J_URI, NEO4J_USER, NEO4J_PASS)
     store = EmbeddingStore(connection)
@@ -81,41 +125,41 @@ def embed_rules(law_key: str | None = None):
             if key not in LAW_CONFIGS:
                 print(f"❌ کلید ناشناخته: {key}")
                 continue
-
-            law_name = LAW_CONFIGS[key].law_name
-            articles = store.get_articles_without_embedding(law_name)
-            print(f"\n📊 {law_name}: {len(articles)} ماده نیاز به embedding دارند")
-
-            if not articles:
-                continue
-
-            _embed_and_save(
-                items=[{"id": (a["num"], law_name), "content": a["content"]} for a in articles],
-                text_key="content",
-                save_fn=lambda id_pair, emb: store.save_article_embedding(id_pair[0], id_pair[1], emb),
-                id_key="id",
-                max_length=512,
-            )
-
-            notes = store.get_notes_without_embedding(law_name)
-            print(f"📊 {law_name}: {len(notes)} تبصره نیاز به embedding دارند")
-            if notes:
-                _embed_and_save(
-                    items=[
-                        {"id": (n["note_num"], n["article_num"], law_name), "content": n["content"]}
-                        for n in notes
-                    ],
-                    text_key="content",
-                    save_fn=lambda id_triple, emb: store.save_note_embedding(
-                        id_triple[0], id_triple[1], id_triple[2], emb
-                    ),
-                    id_key="id",
-                    max_length=512,
-                )
+            _embed_one_law(store, LAW_CONFIGS[key].law_name)
     finally:
         connection.close()
 
-    print("\n🎉 embedding قوانین تمام شد!")
+    print("\n🎉 embedding قوانین اصلی تمام شد!")
+
+
+def get_extra_law_values(connection: Neo4jConnection) -> list[str]:
+    """
+    تمام مقادیر a.law که در ۵ قانون اصلیِ LAW_CONFIGS نیستن — شامل هم
+    قوانین فرعیِ واقعی (مثل «قانون حمایت خانواده») هم رشته‌های
+    نامرتبِ ناشی از خطای parser (که عمداً فیلتر نمی‌شن، نگاه کن به
+    توضیح بالای فایل).
+    """
+    known = {cfg.law_name for cfg in LAW_CONFIGS.values()}
+    with connection.session() as session:
+        result = session.run("MATCH (a:Article) WHERE a.law IS NOT NULL RETURN DISTINCT a.law AS law")
+        return sorted({r["law"] for r in result if r["law"] not in known})
+
+
+def embed_extra_laws():
+    connection = Neo4jConnection(NEO4J_URI, NEO4J_USER, NEO4J_PASS)
+    store = EmbeddingStore(connection)
+
+    try:
+        store.create_vector_indexes()
+        extra_laws = get_extra_law_values(connection)
+        print(f"📚 {len(extra_laws)} مقدار «قانون» خارج از ۵ قانون اصلی پیدا شد")
+
+        for law_name in extra_laws:
+            _embed_one_law(store, law_name)
+    finally:
+        connection.close()
+
+    print("\n🎉 embedding قوانین فرعی/متفرقه هم تمام شد!")
 
 
 def embed_cases():
@@ -161,6 +205,7 @@ def _usage():
     keys = "|".join(LAW_CONFIGS.keys())
     print("استفاده:")
     print(f"  uv run embed_all.py rules [<{keys}>]")
+    print("  uv run embed_all.py rules-extra")
     print("  uv run embed_all.py cases")
     print("  uv run embed_all.py all")
 
@@ -175,10 +220,13 @@ if __name__ == "__main__":
 
     if mode == "rules":
         embed_rules(extra)
+    elif mode == "rules-extra":
+        embed_extra_laws()
     elif mode == "cases":
         embed_cases()
     elif mode == "all":
         embed_rules()
+        embed_extra_laws()
         embed_cases()
     else:
         _usage()

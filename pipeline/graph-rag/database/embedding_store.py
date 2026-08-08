@@ -18,6 +18,14 @@ retrieval رو نوشتیم، باید بتونیم اثر هرکدوم (مثل�
         - Ruling.title_embedding    ← عنوان (کوتاه، پرمعنا، برای جستجوی سریع)
         - Ruling.summary_embedding  ← «پیام» / legal_factual_summary
         - RulingSection.embedding   ← متن کامل هر لایه‌ی رأی
+
+⚠️ تغییر تاریخ [رفع باگ]: در get_articles_without_embedding، شرط قبلی
+   `a.status <> 'abolished'` وقتی a.status اصلاً NULL بود (نه رشته‌ی
+   'abolished')، نتیجه‌ی مقایسه‌ش در Cypher به‌جای true/false، خودش NULL
+   می‌شد — و هر شرط NULL در WHERE مثل false رفتار می‌کنه، یعنی اون ماده
+   بی‌صدا از نتیجه حذف می‌شد. با coalesce(a.status, '') این مشکل رفع شده:
+   اگه status نال باشه، به‌جاش رشته‌ی خالی در نظر گرفته می‌شه که مطمئناً
+   با 'abolished' برابر نیست، پس ماده دیگه به‌اشتباه رد نمی‌شه.
 """
 
 from database.connection import Neo4jConnection
@@ -54,7 +62,9 @@ class EmbeddingStore:
             result = session.run(
                 """
                 MATCH (a:Article {law: $law})
-                WHERE a.embedding IS NULL AND a.status <> 'abolished'
+                WHERE a.embedding IS NULL
+                  AND coalesce(a.status, '') <> 'abolished'
+                  AND a.content IS NOT NULL AND a.content <> ''
                 RETURN a.article_number AS num, a.content AS content
                 ORDER BY a.article_number
                 """,
@@ -83,7 +93,9 @@ class EmbeddingStore:
             result = session.run(
                 """
                 MATCH (a:Article {law: $law})-[:HAS_NOTE]->(n:Note)
-                WHERE n.embedding IS NULL AND n.status <> 'abolished'
+                WHERE n.embedding IS NULL
+                  AND coalesce(n.status, '') <> 'abolished'
+                  AND n.content IS NOT NULL AND n.content <> ''
                 RETURN n.note_number AS note_num, n.article_number AS article_num, n.content AS content
                 """,
                 law=law,
@@ -175,4 +187,44 @@ class EmbeddingStore:
                 section_id=section_id, embedding=embedding,
             )
 
+    def get_facts_without_embedding(self) -> list[dict]:
+        with self.connection.session() as session:
+            result = session.run(
+                """
+                MATCH (f:LegalFact)
+                WHERE f.embedding IS NULL AND f.text IS NOT NULL
+                RETURN elementId(f) AS fact_id, f.text AS text
+                """
+            )
+            return [{"fact_id": r["fact_id"], "text": r["text"]} for r in result]
 
+
+
+    def save_fact_embedding(self, fact_id: str, embedding: list[float]):
+        with self.connection.session() as session:
+            session.run(
+                "MATCH (f:LegalFact) WHERE elementId(f) = $id SET f.embedding = $embedding",
+                id=fact_id, embedding=embedding,
+            )
+
+
+
+    def attach_vocab_embeddings(self):
+        """
+        برای concept/action/role/object: بردار موجود در
+        vocab_embeddings_cache.json را مستقیم به نودهای مربوطه وصل می‌کند —
+        بدون embed کردن دوباره.
+        """
+        import json
+        cache = json.load(open("data/legal-vocabulary/gap_audit/vocab_embeddings_cache.json", encoding="utf-8"))
+        label_map = {"concept": "LegalConcept", "action": "LegalAction", "role": "LegalRole", "object": "LegalObject"}
+
+        with self.connection.session() as session:
+            for entry in cache.values():
+                label = label_map.get(entry["category"])
+                if not label:
+                    continue
+                session.run(
+                    f"MATCH (n:{label} {{name: $value}}) SET n.embedding = $embedding",
+                    value=entry["word"], embedding=entry["vector"],
+                )

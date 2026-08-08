@@ -44,6 +44,7 @@ features/database/feature_loader.py — بارگذاری گراف سوم (Featur
     crash کند و کاری که تا الان انجام شده را از دست بدهد.
 """
 
+
 import time
 
 from database.connection import Neo4jConnection
@@ -70,7 +71,7 @@ def _with_retry(fn, *args, **kwargs):
         except Exception as e:  # noqa: BLE001 — قطعی شبکه/Neo4j هم باید اینجا گرفته بشه
             last_error = e
             if attempt < _MAX_RETRIES - 1:
-                print(f"  ⏳ خطای موقت در Neo4j، تلاش دوباره "
+                print(f"   ⏳ خطای موقت در Neo4j، تلاش دوباره "
                       f"({attempt + 1}/{_MAX_RETRIES}): {e}")
                 time.sleep(_RETRY_DELAY_SECONDS)
     raise RuntimeError(f"❌ نوشتن در Neo4j بعد از {_MAX_RETRIES} تلاش شکست خورد: {last_error}")
@@ -90,32 +91,56 @@ class FeatureGraphLoader:
                 _with_retry(session.run, q)
         print("✅ Index های Feature Graph آماده‌اند.")
 
+    def ruling_exists(self, ruling_id: str) -> bool:
+        """
+        بررسی وجود نود :Ruling در دیتابیس برای جلوگیری از Silent Failure روی پرونده‌های یتیم.
+        """
+        ruling_id_str = str(ruling_id)
+        with self.connection.session() as session:
+            result = _with_retry(
+                session.run,
+                "MATCH (r:Ruling {ruling_id: $ruling_id}) RETURN count(r) AS cnt",
+                ruling_id=ruling_id_str,
+            )
+            record = result.single()
+            return bool(record and record["cnt"] > 0)
+
     def is_ruling_loaded(self, ruling_id: str) -> bool:
         """
-        چک idempotency: آیا این ruling قبلاً کامل بارگذاری شده؟ برای
-        جلوگیری از تکرار رابطه‌ها اگر main_features.py load دوباره
-        روی همون فایل‌ها اجرا بشه (نگاه کن به توضیح بالای فایل).
+        چک idempotency: آیا این ruling قبلاً کامل بارگذاری شده؟
         """
+        ruling_id_str = str(ruling_id)
         with self.connection.session() as session:
             result = _with_retry(
                 session.run,
                 "MATCH (r:Ruling {ruling_id: $ruling_id}) RETURN r.features_loaded AS loaded",
-                ruling_id=ruling_id,
+                ruling_id=ruling_id_str,
             )
             record = result.single()
             return bool(record and record["loaded"])
 
     def load_result(self, result: FeatureExtractionResult):
+        ruling_id_str = str(result.ruling_id)
+
+        # ۱. بررسی وجود نود Ruling قبل از بارگذاری (جلوگیری از Silent Failure)
+        if not self.ruling_exists(ruling_id_str):
+            raise ValueError(
+                f"❌ نود :Ruling برای ruling_id='{ruling_id_str}' در Neo4j وجود ندارد (پرونده یتیم/Orphan)."
+            )
+
+        # ۲. بارگذاری ویژگی‌ها و ثبت علامت موفقیت
         with self.connection.session() as session:
             for category_key, field_name in _FIELD_NAMES.items():
                 cat = VOCAB_CATEGORIES[category_key]
                 for item in getattr(result, field_name):
-                    _with_retry(session.execute_write, self._link_closed_vocab, result.ruling_id, item, cat)
+                    _with_retry(session.execute_write, self._link_closed_vocab, ruling_id_str, item, cat)
             for fact in result.facts:
-                _with_retry(session.execute_write, self._link_fact, result.ruling_id, fact)
-            _with_retry(session.run,
-                        "MATCH (r:Ruling {ruling_id: $ruling_id}) SET r.features_loaded = true",
-                        ruling_id=result.ruling_id)
+                _with_retry(session.execute_write, self._link_fact, ruling_id_str, fact)
+            _with_retry(
+                session.run,
+                "MATCH (r:Ruling {ruling_id: $ruling_id}) SET r.features_loaded = true",
+                ruling_id=ruling_id_str,
+            )
 
     @staticmethod
     def _link_closed_vocab(tx, ruling_id: str, item: ExtractedFeature, cat):
@@ -152,3 +177,6 @@ class FeatureGraphLoader:
             end=item.evidence.end_char,
             confidence=item.evidence.confidence,
         )
+
+
+
