@@ -6,6 +6,7 @@ embed_features.py — embedding نودهای Feature graph (لایه‌ی سوم
 اجرا فقط بعد از این‌ها لازمه:
     - main_features.py load <domain> --limit 0 (برای همه‌ی domain ها)
     - بازسازی vocab_embeddings_cache.json
+    uv run embed_features.py
 """
 
 import os

@@ -210,21 +210,48 @@ class EmbeddingStore:
 
 
     def attach_vocab_embeddings(self):
-        """
-        برای concept/action/role/object: بردار موجود در
-        vocab_embeddings_cache.json را مستقیم به نودهای مربوطه وصل می‌کند —
-        بدون embed کردن دوباره.
-        """
         import json
         cache = json.load(open("data/legal-vocabulary/gap_audit/vocab_embeddings_cache.json", encoding="utf-8"))
-        label_map = {"concept": "LegalConcept", "action": "LegalAction", "role": "LegalRole", "object": "LegalObject"}
-
+        label_map = {
+            "concept": "LegalConcept",
+            "action": "LegalAction",
+            "role": "LegalRole",
+            "object": "LegalObject"
+        }
+        updated = 0
         with self.connection.session() as session:
             for entry in cache.values():
                 label = label_map.get(entry["category"])
                 if not label:
                     continue
-                session.run(
-                    f"MATCH (n:{label} {{name: $value}}) SET n.embedding = $embedding",
-                    value=entry["word"], embedding=entry["vector"],
+                result = session.run(
+                    f"MATCH (n:{label} {{name: $name}}) SET n.embedding = $embedding RETURN count(n) AS cnt",
+                    name=entry["word"],    
+                    embedding=entry["vector"],
                 )
+                updated += result.single()["cnt"]
+        print(f"✅ {updated} نود واژگانی embedding گرفت.")
+
+
+
+
+
+    # def attach_vocab_embeddings(self):
+    #     """
+    #     برای concept/action/role/object: بردار موجود در
+    #     vocab_embeddings_cache.json را مستقیم به نودهای مربوطه وصل می‌کند —
+    #     بدون embed کردن دوباره.
+    #     """
+    #     import json
+    #     cache = json.load(open("data/legal-vocabulary/gap_audit/vocab_embeddings_cache.json", encoding="utf-8"))
+    #     label_map = {"concept": "LegalConcept", "action": "LegalAction", "role": "LegalRole", "object": "LegalObject"}
+
+    #     with self.connection.session() as session:
+    #         for entry in cache.values():
+    #             label = label_map.get(entry["category"])
+    #             if not label:
+    #                 continue
+    #             session.run(
+    #                 f"MATCH (n:{label} {{name: $value}}) SET n.embedding = $embedding",
+    #                 value=entry["word"], embedding=entry["vector"],
+    #             )
