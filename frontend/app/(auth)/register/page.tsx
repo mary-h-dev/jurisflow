@@ -1,10 +1,11 @@
+// app/(auth)/register/page.tsx
 "use client"
 
 import { useState } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
 import toast from "react-hot-toast"
-import { authApi } from "@/lib/api/auth"
+import { registerAction, getMeAction } from "@/lib/auth/actions"
 import { useAuthStore } from "@/store/auth.store"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -23,19 +24,19 @@ export default function RegisterPage() {
   const router = useRouter()
   const { setUser } = useAuthStore()
   const [loading, setLoading] = useState(false)
-  const [form, setForm] = useState({
-    full_name: "",
-    email:     "",
-    password:  "",
-  })
+  const [form, setForm] = useState({ full_name: "", email: "", password: "" })
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setLoading(true)
     try {
-      await authApi.register(form.email, form.password, form.full_name)
-      await authApi.login(form.email, form.password)
-      const me = await authApi.me()
+      const result = await registerAction(form.email, form.password, form.full_name)
+      if (!result.success) {
+        toast.error("خطا در ثبت‌نام. لطفاً دوباره تلاش کنید.")
+        return
+      }
+
+      const me = await getMeAction()
       setUser(me)
       router.push("/onboarding/role")
     } catch {
@@ -49,9 +50,7 @@ export default function RegisterPage() {
     <Card className="shadow-lg border-border/50 dark:bg-card">
       <CardHeader>
         <CardTitle className="text-xl text-center">ایجاد حساب جدید</CardTitle>
-        <CardDescription className="text-center">
-          رایگان شروع کنید
-        </CardDescription>
+        <CardDescription className="text-center">رایگان شروع کنید</CardDescription>
       </CardHeader>
 
       <form onSubmit={handleSubmit}>
@@ -106,10 +105,7 @@ export default function RegisterPage() {
 
           <p className="text-sm text-muted-foreground text-center">
             حساب دارید؟{" "}
-            <Link
-              href="/login"
-              className="text-accent font-medium hover:underline"
-            >
+            <Link href="/login" className="text-accent font-medium hover:underline">
               وارد شوید
             </Link>
           </p>

@@ -1,5 +1,4 @@
-
-import { Sidebar } from "../../components/layout/Sidebar"
+import { Sidebar } from "@/components/layout/Sidebar"
 
 export default function DashboardLayout({
   children,
@@ -7,12 +6,18 @@ export default function DashboardLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className="flex h-screen overflow-hidden bg-background">
-      {/* Sidebar — راست صفحه (RTL) */}
+    <div
+      style={{ display: "flex", height: "100vh", overflow: "hidden" }}
+      className="bg-background"
+    >
+      {/* Sidebar — سمت راست در RTL */}
       <Sidebar />
 
       {/* محتوای اصلی */}
-      <main className="flex-1 overflow-y-auto">
+      <main
+        style={{ flex: 1, overflowY: "auto" }}
+        className="bg-background"
+      >
         {children}
       </main>
     </div>

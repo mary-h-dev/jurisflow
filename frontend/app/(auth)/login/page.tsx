@@ -1,10 +1,11 @@
+// app/(auth)/login/page.tsx
 "use client"
 
 import { useState } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
 import toast from "react-hot-toast"
-import { authApi } from "@/lib/api/auth"
+import { loginAction, getMeAction, getProfileAction } from "@/lib/auth/actions"
 import { useAuthStore } from "@/store/auth.store"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -28,18 +29,23 @@ export default function LoginPage() {
     e.preventDefault()
     setLoading(true)
     try {
-      await authApi.login(form.email, form.password)
-      const me = await authApi.me()
+      const result = await loginAction(form.email, form.password)
+      if (!result.success) {
+        toast.error("ایمیل یا رمز عبور اشتباه است")
+        return
+      }
+
+      const me = await getMeAction()
       setUser(me)
 
-      const status = await authApi.onboardingStatus()
-      if (!status.is_onboarding_complete) {
+      const profile = await getProfileAction()
+      if (!profile?.role) {
         router.push("/onboarding/role")
       } else {
         router.push("/search")
       }
     } catch {
-      toast.error("ایمیل یا رمز عبور اشتباه است")
+      toast.error("خطایی رخ داد. دوباره تلاش کنید.")
     } finally {
       setLoading(false)
     }
@@ -90,10 +96,7 @@ export default function LoginPage() {
 
           <p className="text-sm text-muted-foreground text-center">
             حساب ندارید؟{" "}
-            <Link
-              href="/register"
-              className="text-accent font-medium hover:underline"
-            >
+            <Link href="/register" className="text-accent font-medium hover:underline">
               ثبت‌نام کنید
             </Link>
           </p>
