@@ -79,9 +79,3 @@ MEDIA_ROOT = BASE_DIR / "media"
 
 
 
-# ── Plan Limits ───────────────────────────────────────────────────────────────
-PLAN_LIMITS = {
-    "free":       {"daily_queries": 10},
-    "pro":        {"daily_queries": 500},
-    "enterprise": {"daily_queries": -1},
-}
