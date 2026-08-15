@@ -2,36 +2,56 @@ from pydantic import BaseModel
 from typing import Optional
 
 
-# ── Input ─────────────────────────────────────────────────────────────────────
-
 class SearchIn(BaseModel):
     query: str
-    law:   str = "قانون مدنی"
 
 
-# ── Output ────────────────────────────────────────────────────────────────────
+class EvidenceOut(BaseModel):
+    source_type:      str
+    text:             str
+    score:            float
+    rrf_score:        float
+    ruling_id:        Optional[str] = None
+    feature_value:    Optional[str] = None
+    feature_category: Optional[str] = None
+    article_number:   Optional[int] = None
+    law_name:         Optional[str] = None
+    cited_articles:   list[str] = []   
 
-class SourceOut(BaseModel):
-    article_number: Optional[int] = None
-    title:          Optional[str] = None
-    source_type:    str = "law"
-    law:            str
 
 
-class ConfidenceBreakdownOut(BaseModel):
-    embedding: float
-    llm:       float
-    graph:     float
+class ChannelQualityOut(BaseModel):
+    feature:       float
+    ruling:        float
+    article:       float
+    missing:       list[str]
+    skipped:       list[str]
+    graph_support: Optional[float] = None
+
+
+
+
+class RoutingOut(BaseModel):
+    rewritten_query:    str
+    channels:           list[str]
+    routing_confidence: float
+    intent:             str
+    case_type_hint:     Optional[str] = None
+    ambiguity_flag:     bool
+    raw_ok:             bool
 
 
 class ConfidenceOut(BaseModel):
-    final:     float
-    level:     str        # high | medium | low
-    note:      Optional[str] = None
-    breakdown: ConfidenceBreakdownOut
+    score:    float
+    level:    str
+    note:     Optional[str] = None
+    channels: ChannelQualityOut
 
 
 class SearchOut(BaseModel):
-    answer:     str
-    confidence: ConfidenceOut
-    sources:    list[SourceOut]
+    query:        str
+    evidences:    list[EvidenceOut]
+    confidence:   ConfidenceOut
+    routing:      RoutingOut
+    ruling_ids:   list[str]
+    article_refs: list[str]   # format: "<law name> - ماده <number>", matches gold_articles

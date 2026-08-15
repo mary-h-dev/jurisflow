@@ -1,416 +1,372 @@
 from __future__ import annotations
 
-import json
 import logging
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+from typing import Optional
 
-import requests
-from django.conf import settings
-from groq import Groq
-from neo4j import GraphDatabase, Driver
+from core.neo4j import neo4j_client
+from .graph_support import compute_graph_support
+from .embedder import embed_text
+from .router import RoutingResult, route_query
+from .confidence import (
+    UncertaintyVector,
+    ConfidenceResult,
+    build_uncertainty_vector,
+    compute_confidence,
+)
 
 logger = logging.getLogger(__name__)
 
+_RRF_K = 60
+_ALL_CHANNELS = ("feature", "ruling", "article")
 
-# ── Data Classes ──────────────────────────────────────────────────────────────
 
-@dataclass
-class ArticleResult:
-    """نتیجه خام از Neo4j"""
-    num:            int
-    content:        str
-    law:            str
-    llm_confidence: float
-    vector_score:   float = 0.0
-
+# -- Evidence dataclass ------------------------------------------------------
 
 @dataclass
-class ClassificationResult:
-    """نتیجه classification سوال"""
-    topics:     list[str]
-    confidence: float
-    primary:    str | None  # مهم‌ترین topic
+class Evidence:
+    source_type:      str
+    text:             str
+    score:            float
+    rrf_score:        float         = 0.0
+    ruling_id:        Optional[str] = None
+    feature_value:    Optional[str] = None
+    feature_category: Optional[str] = None
+    article_number:   Optional[int] = None
+    law_name:         Optional[str] = None
+    cited_articles:   list[str]     = field(default_factory=list)  
+    confidence:       Optional[float] = None
 
 
 @dataclass
-class ConfidenceResult:
-    final:     float
-    level:     str
-    note:      str | None
-    embedding: float
-    llm:       float
-    graph:     float
-
-
-# ── Search Service ────────────────────────────────────────────────────────────
-
-class SearchService:
-
-    def __init__(self):
-        self._driver: Driver | None = None
-        self._groq:   Groq   | None = None
-
-    # ── Lazy Connections ──────────────────────────────────────────────────────
+class SearchResult:
+    query:            str
+    evidences:        list[Evidence]             = field(default_factory=list)
+    feature_results:  list[Evidence]             = field(default_factory=list)
+    ruling_results:   list[Evidence]             = field(default_factory=list)
+    article_results:  list[Evidence]             = field(default_factory=list)
+    confidence:       Optional[ConfidenceResult] = None
+    routing:          Optional[RoutingResult]    = None
 
     @property
-    def driver(self) -> Driver:
-        if self._driver is None:
-            self._driver = GraphDatabase.driver(
-                settings.NEO4J_URI,
-                auth=(settings.NEO4J_USERNAME, settings.NEO4J_PASSWORD),
-            )
-        return self._driver
+    def ruling_ids(self) -> list[str]:
+        return list({e.ruling_id for e in self.evidences if e.ruling_id})
+
 
     @property
-    def groq(self) -> Groq:
-        if self._groq is None:
-            self._groq = Groq(api_key=settings.GROQ_API_KEY)
-        return self._groq
+    def article_refs(self) -> list[str]:
+        return _build_article_refs(self.article_results, self.ruling_results)
 
-    def close(self):
-        if self._driver:
-            self._driver.close()
-            self._driver = None
 
-    # ── Classification ────────────────────────────────────────────────────────
+# -- RRF ----------------------------------------------------------------------
 
-    LEGAL_TOPICS = [
-        "مالکیت و اموال",
-        "قراردادها و معاملات",
-        "اجاره و روابط موجر و مستاجر",
-        "ازدواج و طلاق",
-        "ارث و وصیت",
-        "مسئولیت مدنی",
-        "اهلیت و شخصیت حقوقی",
-        "اثبات دعوا و ادله",
-        "حقوق بین‌الملل خصوصی",
-        "سایر",
-    ]
+def _rrf_score(rank: int) -> float:
+    return 1.0 / (_RRF_K + rank)
 
-    def _classify_query(self, query: str) -> ClassificationResult:
-        """
-        موضوع سوال رو با Groq تشخیص میده.
-        اگه classification fail شد، با topics خالی برمیگرده
-        تا fallback به جستجوی بدون فیلتر بشه.
-        """
-        prompt = f"""
-سوال حقوقی زیر به کدام موضوع یا موضوعات مربوط می‌شود؟
-فقط از لیست زیر انتخاب کن:
 
-{chr(10).join(f"- {t}" for t in self.LEGAL_TOPICS)}
+def _fuse_with_rrf(*ranked_lists: list[Evidence], top_k: int = 10) -> list[Evidence]:
+    scores: dict[str, float]    = {}
+    items:  dict[str, Evidence] = {}
 
-سوال: {query}
+    for ranked_list in ranked_lists:
+        for rank, ev in enumerate(ranked_list, start=1):
+            key = f"{ev.source_type}:{ev.ruling_id}:{ev.text[:50]}"
+            scores[key] = scores.get(key, 0.0) + _rrf_score(rank)
+            if key not in items:
+                items[key] = ev
 
-فقط JSON برگردون، هیچ توضیح اضافه‌ای نده:
-{{"topics": ["موضوع اول"], "confidence": 0.9}}
+    sorted_keys = sorted(scores, key=lambda k: -scores[k])[:top_k]
+    results = []
+    for key in sorted_keys:
+        ev           = items[key]
+        ev.rrf_score = scores[key]
+        results.append(ev)
+    return results
+
+
+# -- article_refs helper -------------------------------------------------------
+
+def _build_article_refs(
+    article_results: list[Evidence],
+    ruling_results: list[Evidence],
+) -> list[str]:
+    """
+    Built directly from article_results and ruling citations (each with
+    its own top_k), NOT from the RRF-fused `evidences` list. The fused
+    list caps at final_top_k across all three channels competing together,
+    which can drop an article that ranked well within its own channel
+    (see debug session: article ranked #19 within ruling_channel's own
+    top-30 was absent from the cross-channel fused output).
+    """
+    refs: list[str] = []
+    seen: set[str] = set()
+
+    for e in article_results:
+        if not e.law_name or not e.article_number:
+            continue
+        ref = f"{e.law_name} - ماده {e.article_number}"
+        if ref not in seen:
+            seen.add(ref)
+            refs.append(ref)
+
+    for e in ruling_results:
+        for ref in (e.cited_articles or []):
+            if ref not in seen:
+                seen.add(ref)
+                refs.append(ref)
+
+    return refs
+
+
+
+
+# -- Channel queries ------------------------------------------------------------
+
+_FEATURE_LABELS = [
+    "LegalConcept", "LegalRole", "LegalAction", "LegalObject", "LegalFact"
+]
+
+
+_FEATURE_QUERY = """
+CALL db.index.vector.queryNodes($index_name, $top_k, $embedding)
+YIELD node AS feature, score
+MATCH (r:Ruling)-[rel]->(feature)
+WHERE type(rel) IN ['HAS_CONCEPT','HAS_ROLE','HAS_ACTION','HAS_OBJECT','HAS_FACT']
+RETURN
+    feature.name       AS value,
+    labels(feature)[0] AS category,
+    rel.evidence       AS quote,
+    rel.confidence     AS confidence,
+    r.ruling_id        AS ruling_id,
+    score
+ORDER BY score DESC
+LIMIT $top_k
 """
+
+
+_RULING_SUMMARY_QUERY = """
+CALL db.index.vector.queryNodes('ruling_summary_embedding', $top_k, $embedding)
+YIELD node AS ruling, score
+OPTIONAL MATCH (ruling)-[cites:CITES]->(article:Article)
+WITH ruling, score, collect(DISTINCT (article.law + ' - ماده ' + toString(article.article_number))) AS cited
+RETURN
+    ruling.ruling_id             AS ruling_id,
+    ruling.legal_factual_summary AS text,
+    cited                        AS cited_articles,
+    score
+ORDER BY score DESC
+LIMIT $top_k
+"""
+
+
+
+_RULING_SECTION_QUERY = """
+CALL db.index.vector.queryNodes('ruling_section_embedding', $top_k, $embedding)
+YIELD node AS section, score
+MATCH (r:Ruling)-[:HAS_SECTION]->(section)
+OPTIONAL MATCH (r)-[cites:CITES]->(article:Article)
+WITH r, section, score, collect(DISTINCT (article.law + ' - ماده ' + toString(article.article_number))) AS cited
+RETURN
+    r.ruling_id  AS ruling_id,
+    section.text AS text,
+    cited        AS cited_articles,
+    score
+ORDER BY score DESC
+LIMIT $top_k
+"""
+
+
+
+_ARTICLE_QUERY = """
+CALL db.index.vector.queryNodes('article_embedding', $top_k, $embedding)
+YIELD node AS article, score
+MATCH (law:Law)-[:CONTAINS]->(article)
+RETURN
+    article.article_number AS article_number,
+    article.content         AS text,
+    law.name                AS law_name,
+    score
+ORDER BY score DESC
+LIMIT $top_k
+"""
+
+
+def _search_features(session, embedding: list[float], top_k: int) -> list[Evidence]:
+    results = []
+    seen: set[str] = set()
+
+    for label in _FEATURE_LABELS:
+        index_name = f"{label.lower()}_embedding"
         try:
-            response = self.groq.chat.completions.create(
-                model="llama-3.3-70b-versatile",
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.1,
-            )
-            text = response.choices[0].message.content.strip()
-            text = text.replace("```json", "").replace("```", "").strip()
-            data = json.loads(text)
-
-            topics = data.get("topics", [])
-            confidence = float(data.get("confidence", 0.0))
-
-            return ClassificationResult(
-                topics=topics,
-                confidence=confidence,
-                primary=topics[0] if topics else None,
-            )
-
-        except Exception as e:
-            logger.warning(f"Classification failed: {e} — falling back to no filter")
-            return ClassificationResult(topics=[], confidence=0.0, primary=None)
-
-    # ── Embedding ─────────────────────────────────────────────────────────────
-
-    def _embed(self, text: str) -> list[float]:
-        """
-        Development  → Ollama (local, بدون rate limit)
-        Production   → Gemini (دقیق‌تر برای فارسی)
-        """
-        if settings.DEBUG:
-            return self._embed_ollama(text)
-        return self._embed_gemini(text)
-
-    def _embed_ollama(self, text: str) -> list[float]:
-        response = requests.post(
-            f"{settings.OLLAMA_URL}/api/embeddings",
-            json={"model": settings.OLLAMA_MODEL, "prompt": text[:2000]},
-            timeout=120,
-        )
-        response.raise_for_status()
-        data = response.json()
-        return data.get("embedding") or data.get("embeddings", [[]])[0]
-
-    def _embed_gemini(self, text: str) -> list[float]:
-        from google import genai
-        client = genai.Client(api_key=settings.GEMINI_API_KEY)
-        result = client.models.embed_content(
-            model="models/gemini-embedding-001",
-            contents=text[:2000],
-        )
-        return result.embeddings[0].values
-
-    # ── Vector Search ─────────────────────────────────────────────────────────
-
-    def _vector_search(
-        self,
-        embedding: list[float],
-        law:       str,
-        top_k:     int = 10,
-        topic:     str | None = None,
-    ) -> list[ArticleResult]:
-        """
-        جستجوی semantic در Neo4j.
-        اگه topic داده شده، اول با فیلتر topic سرچ می‌کنه.
-        """
-        topic_filter = """
-            AND EXISTS {
-                MATCH (node)-[:HAS_TOPIC]->(t:Topic {name: $topic})
-            }
-        """ if topic else ""
-
-        with self.driver.session() as session:
-            result = session.run(
-                f"""
-                CALL db.index.vector.queryNodes(
-                    'article_embedding', $top_k, $embedding
-                ) YIELD node, score
-                WHERE node.status <> 'abolished'
-                  AND ($law = '' OR node.law = $law)
-                  {topic_filter}
-                RETURN
-                    node.article_number            AS num,
-                    node.content                   AS content,
-                    node.law                       AS law,
-                    coalesce(node.confidence, 0.7) AS llm_confidence,
-                    score                          AS vector_score
-                ORDER BY score DESC
-                """,
+            records = session.run(
+                _FEATURE_QUERY,
+                index_name=index_name,
                 embedding=embedding,
                 top_k=top_k,
-                law=law,
-                topic=topic or "",
             )
-            return [
-                ArticleResult(
-                    num=r["num"],
-                    content=r["content"],
-                    law=r["law"],
-                    llm_confidence=r["llm_confidence"],
-                    vector_score=r["vector_score"],
-                )
-                for r in result
-            ]
-
-    def _vector_search_with_fallback(
-        self,
-        embedding: list[float],
-        law:       str,
-        topic:     str | None,
-        top_k:     int = 10,
-    ) -> list[ArticleResult]:
-        """
-        استراتژی Fallback:
-        ۱. اگه topic داشتیم، اول با فیلتر topic سرچ کن
-        ۲. اگه نتیجه کمتر از ۳ تا بود یا topic نداشتیم،
-           بدون فیلتر دوباره سرچ کن
-        """
-        if topic:
-            results = self._vector_search(embedding, law, top_k, topic=topic)
-            if len(results) >= 3:
-                logger.debug(f"Topic filter hit: {topic} → {len(results)} results")
-                return results
-            logger.debug(f"Topic filter miss: {topic} → fallback to no filter")
-
-        return self._vector_search(embedding, law, top_k, topic=None)
-
-    # ── Graph Traversal ───────────────────────────────────────────────────────
-
-    def _graph_traversal(
-        self,
-        article_nums: list[int],
-        law:          str,
-    ) -> list[ArticleResult]:
-        """
-        مواد مرتبط رو از طریق REFERENCES و HAS_TOPIC پیدا می‌کنه.
-        محدود به ۱۰ نتیجه برای جلوگیری از context overflow.
-        """
-        with self.driver.session() as session:
-            result = session.run(
-                """
-                UNWIND $nums AS num
-                MATCH (a:Article {article_number: num, law: $law})
-
-                OPTIONAL MATCH (a)-[:REFERENCES]->(ref:Article)
-
-                OPTIONAL MATCH (a)-[:HAS_TOPIC]->(t:Topic)
-                    <-[:HAS_TOPIC]-(related:Article)
-                WHERE related.article_number <> num
-                  AND related.status <> 'abolished'
-
-                WITH
-                    collect(DISTINCT ref)[..3]    AS refs,
-                    collect(DISTINCT related)[..3] AS relateds
-
-                WITH refs + relateds AS extras
-                UNWIND extras AS extra
-                WITH extra WHERE extra IS NOT NULL
-
-                RETURN DISTINCT
-                    extra.article_number            AS num,
-                    extra.content                   AS content,
-                    extra.law                       AS law,
-                    coalesce(extra.confidence, 0.7) AS llm_confidence
-                LIMIT 10
-                """,
-                nums=article_nums[:3],
-                law=law,
-            )
-            return [
-                ArticleResult(
-                    num=r["num"],
-                    content=r["content"],
-                    law=r["law"],
-                    llm_confidence=r["llm_confidence"],
-                )
-                for r in result
-            ]
-
-    # ── Confidence ────────────────────────────────────────────────────────────
-
-    def _calculate_confidence(
-        self,
-        top_vector_score:  float,
-        llm_confidence:    float,
-        has_graph_results: bool,
-    ) -> ConfidenceResult:
-        graph_score = 1.0 if has_graph_results else 0.5
-
-        final = round(
-            0.5 * top_vector_score +
-            0.3 * llm_confidence   +
-            0.2 * graph_score,
-            3,
-        )
-
-        if final >= 0.8:
-            level, note = "high", None
-        elif final >= 0.6:
-            level, note = "medium", "پاسخ نیاز به بررسی بیشتر دارد"
-        else:
-            level, note = "low", "اطمینان کافی وجود ندارد. با وکیل مشورت کنید"
-
-        return ConfidenceResult(
-            final=final,
-            level=level,
-            note=note,
-            embedding=round(top_vector_score, 3),
-            llm=round(llm_confidence, 3),
-            graph=round(graph_score, 3),
-        )
-
-    # ── Answer Generation ─────────────────────────────────────────────────────
-
-    def _generate_answer(
-        self,
-        query:    str,
-        articles: list[ArticleResult],
-    ) -> str:
-        context = "\n\n".join([
-            f"ماده {a.num} — {a.law}:\n{a.content}"
-            for a in articles[:7]
-        ])
-
-        prompt = f"""تو یک دستیار حقوقی متخصص در قوانین ایران هستی.
-
-سوال کاربر: {query}
-
-مواد قانونی مرتبط:
-{context}
-
-قوانین پاسخ‌دهی:
-- فقط از مواد ارائه‌شده استفاده کن
-- شماره ماده و نام قانون رو در جواب ذکر کن
-- اگه جواب در مواد نیست، صادقانه بگو
-- جواب رو به فارسی روان بنویس
-
-جواب:"""
-
-        response = self.groq.chat.completions.create(
-            model="llama-3.3-70b-versatile",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.1,
-        )
-        return response.choices[0].message.content.strip()
-
-    # ── Main Search ───────────────────────────────────────────────────────────
-
-    def search(self, query: str, law: str = "قانون مدنی") -> dict | None:
-        try:
-            # ۱. classification — موضوع سوال رو پیدا کن
-            classification = self._classify_query(query)
-            topic = (
-                classification.primary
-                if classification.confidence >= 0.7
-                else None
-            )
-            logger.debug(f"Classification: {classification}")
-
-            # ۲. embed سوال
-            embedding = self._embed(query)
-
-            # ۳. vector search با fallback strategy
-            vector_results = self._vector_search_with_fallback(
-                embedding=embedding,
-                law=law,
-                topic=topic,
-                top_k=10,
-            )
-
-            if not vector_results:
-                logger.warning(f"No results for query: {query}")
-                return None
-
-            # ۴. graph traversal
-            nums          = [r.num for r in vector_results]
-            graph_results = self._graph_traversal(nums, law)
-
-            # ۵. ترکیب و dedup
-            seen:         set[int]          = set()
-            all_articles: list[ArticleResult] = []
-            for article in vector_results + graph_results:
-                if article.num not in seen:
-                    seen.add(article.num)
-                    all_articles.append(article)
-
-            # ۶. confidence
-            top        = vector_results[0]
-            confidence = self._calculate_confidence(
-                top_vector_score=top.vector_score,
-                llm_confidence=top.llm_confidence,
-                has_graph_results=bool(graph_results),
-            )
-
-            # ۷. جواب نهایی
-            answer = self._generate_answer(query, all_articles)
-
-            return {
-                "answer":     answer,
-                "confidence": confidence,
-                "sources":    all_articles,
-            }
-
+            for r in records:
+                key = f"{r['ruling_id']}:{r['value']}"
+                if key in seen:
+                    continue
+                seen.add(key)
+                text = r["quote"] or r["value"] or ""
+                results.append(Evidence(
+                    source_type="feature",
+                    text=text,
+                    score=float(r["score"]),
+                    ruling_id=str(r["ruling_id"]) if r["ruling_id"] else None,
+                    feature_value=r["value"],
+                    feature_category=r["category"],
+                    confidence=float(r["confidence"]) if r["confidence"] else None,
+                ))
         except Exception as e:
-            logger.error(f"SearchService.search error: {e}", exc_info=True)
-            return None
+            logger.warning(f"Feature search failed for {label}: {e}")
+
+    return sorted(results, key=lambda e: -e.score)[:top_k]
 
 
-# ── Singleton ─────────────────────────────────────────────────────────────────
+def _search_ruling_sections(session, embedding: list[float], top_k: int) -> list[Evidence]:
+    try:
+        records = session.run(_RULING_SECTION_QUERY, embedding=embedding, top_k=top_k)
+        return [
+            Evidence(
+                source_type="ruling",
+                text=r["text"] or "",
+                score=float(r["score"]),
+                ruling_id=str(r["ruling_id"]) if r["ruling_id"] else None,
+                cited_articles=r["cited_articles"] or [],
+            )
+            for r in records
+        ]
+    except Exception as e:
+        logger.warning(f"Ruling section search failed: {e}")
+        return []
+
+
+def _search_ruling_summaries(session, embedding: list[float], top_k: int) -> list[Evidence]:
+    try:
+        records = session.run(_RULING_SUMMARY_QUERY, embedding=embedding, top_k=top_k)
+        return [
+            Evidence(
+                source_type="ruling",
+                text=r["text"] or "",
+                score=float(r["score"]),
+                ruling_id=str(r["ruling_id"]) if r["ruling_id"] else None,
+                cited_articles=r["cited_articles"] or [],
+            )
+            for r in records
+        ]
+    except Exception as e:
+        logger.warning(f"Ruling summary search failed: {e}")
+        return []
+
+
+def _search_rulings(session, embedding: list[float], top_k: int) -> list[Evidence]:
+    """
+    Fuses two views of the same ruling: legal_factual_summary (dense,
+    judge-oriented conclusion of law) and raw section text (verbose,
+    includes procedural noise). Summary alone can outrank noisy sections
+    for direct legal queries; keeping both avoids losing recall on queries
+    that only match specific section phrasing.
+    """
+    summary_hits = _search_ruling_summaries(session, embedding, top_k)
+    section_hits = _search_ruling_sections(session, embedding, top_k)
+    return _fuse_with_rrf(summary_hits, section_hits, top_k=top_k)
+
+
+
+def _search_articles(session, embedding: list[float], top_k: int) -> list[Evidence]:
+    try:
+        records = session.run(_ARTICLE_QUERY, embedding=embedding, top_k=top_k)
+        return [
+            Evidence(
+                source_type="article",
+                text=r["text"] or "",
+                score=float(r["score"]),
+                article_number=r["article_number"],
+                law_name=r["law_name"],
+            )
+            for r in records
+        ]
+    except Exception as e:
+        logger.warning(f"Article search failed: {e}")
+        return []
+
+
+
+
+
+
+# -- Search Service -------------------------------------------------------------
+class SearchService:
+
+    def search(
+        self,
+        query:         str,
+        feature_top_k: int = 20,
+        ruling_top_k:  int = 20,
+        article_top_k: int = 20,
+        final_top_k:   int = 20,
+    ) -> SearchResult:
+        routing = route_query(query)
+        embedding = embed_text(routing.rewritten_query)
+        # routing = RoutingResult(
+        #     rewritten_query=query,
+        #     channels=["feature", "ruling", "article"],
+        #     routing_confidence=1.0,
+        #     intent="calibration_test",
+        #     case_type_hint=None,
+        #     ambiguity_flag=False,
+        #     raw_ok=True,
+        # )
+        # embedding = embed_text(query)
+
+
+        with neo4j_client.session() as session:
+            feature_results = (
+                _search_features(session, embedding, feature_top_k)
+                if "feature" in routing.channels else []
+            )
+            ruling_results = (
+                _search_rulings(session, embedding, ruling_top_k)
+                if "ruling" in routing.channels else []
+            )
+            article_results = (
+                _search_articles(session, embedding, article_top_k)
+                if "article" in routing.channels else []
+            )
+
+        skipped_channels = [c for c in _ALL_CHANNELS if c not in routing.channels]
+
+        fused = _fuse_with_rrf(
+            feature_results, ruling_results, article_results, top_k=final_top_k,
+        )
+
+        graph_support = compute_graph_support(feature_results, article_results)
+
+        vec = build_uncertainty_vector(
+            feature_scores=[e.score for e in feature_results],
+            ruling_scores=[e.score for e in ruling_results],
+            article_scores=[e.score for e in article_results],
+            skipped_channels=skipped_channels,
+            graph_support_quality=graph_support,
+        )
+        confidence = compute_confidence(
+            vec,
+            queried_channels=routing.channels,
+            routing_confidence=routing.routing_confidence,
+            ambiguity_flag=routing.ambiguity_flag,
+        )
+
+        return SearchResult(
+            query=query,
+            evidences=fused,
+            feature_results=feature_results,
+            ruling_results=ruling_results,
+            article_results=article_results,
+            confidence=confidence,
+            routing=routing,
+        )
+
+
 search_service = SearchService()

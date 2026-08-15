@@ -1,76 +1,78 @@
+import logging
+
 from ninja import Router
 from ninja.errors import HttpError
 
 from core.auth import jwt_auth
-from core.permissions import check_plan_limit
-from .schemas import SearchIn, SearchOut, SourceOut, ConfidenceOut, ConfidenceBreakdownOut
+from .schemas import (
+    SearchIn,
+    SearchOut,
+    EvidenceOut,
+    ConfidenceOut,
+    ChannelQualityOut,
+    RoutingOut,
+)
 from .services import search_service
 
+logger = logging.getLogger(__name__)
 router = Router()
 
+_ALL_CHANNELS = {"feature", "ruling", "article"}
 
-@router.post(
-    "/query",
-    auth=jwt_auth,
-    response=SearchOut,
-    summary="جستجوی هوشمند در قوانین",
-)
+
+@router.post("/query", auth=jwt_auth, response=SearchOut)
 def query(request, data: SearchIn):
-    user = request.user
-
-    # چک plan limit و increment در یک atomic operation
-    if not user.can_query_and_increment():
-        raise HttpError(
-            429,
-            "سقف روزانه پرسش‌های شما تمام شده. برای ادامه پلن خود را ارتقا دهید."
-        )
-
     if len(data.query.strip()) < 5:
-        raise HttpError(400, "سوال خیلی کوتاه است.")
+        raise HttpError(400, "Query is too short.")
 
-    result = search_service.search(data.query, data.law)
+    try:
+        result = search_service.search(data.query)
+    except Exception as e:
+        logger.error(f"Search failed: {e}", exc_info=True)
+        raise HttpError(500, "Search failed. Please try again.")
 
-    if not result:
-        raise HttpError(500, "خطا در پردازش درخواست. لطفاً دوباره تلاش کنید.")
-
-    confidence = result["confidence"]
+    conf = result.confidence
+    routing = result.routing
 
     return SearchOut(
-        answer=result["answer"],
+        query=result.query,
+        evidences=[
+            EvidenceOut(
+                source_type=e.source_type,
+                text=e.text,
+                score=e.score,
+                rrf_score=e.rrf_score,
+                ruling_id=e.ruling_id,
+                feature_value=e.feature_value,
+                feature_category=e.feature_category,
+                article_number=e.article_number,
+                law_name=e.law_name,
+                cited_articles=e.cited_articles,
+            )
+            for e in result.evidences
+        ],
         confidence=ConfidenceOut(
-            final=confidence.final,
-            level=confidence.level,
-            note=confidence.note,
-            breakdown=ConfidenceBreakdownOut(
-                embedding=confidence.embedding,
-                llm=confidence.llm,
-                graph=confidence.graph,
+            score=conf.score,
+            level=conf.level,
+            note=conf.note,
+            channels=ChannelQualityOut(
+                feature=conf.vector.feature_quality,
+                ruling=conf.vector.ruling_quality,
+                article=conf.vector.article_quality,
+                missing=conf.vector.missing_channels,
+                skipped=sorted(_ALL_CHANNELS - set(routing.channels)),
+                graph_support=conf.vector.graph_support_quality,
             ),
         ),
-        sources=[
-            SourceOut(
-                article_number=a.num,
-                law=a.law,
-                source_type="law",
-            )
-            for a in result["sources"]
-        ],
+        routing=RoutingOut(
+            rewritten_query=routing.rewritten_query,
+            channels=routing.channels,
+            routing_confidence=routing.routing_confidence,
+            intent=routing.intent,
+            case_type_hint=routing.case_type_hint,
+            ambiguity_flag=routing.ambiguity_flag,
+            raw_ok=routing.raw_ok,
+        ),
+        ruling_ids=result.ruling_ids,
+        article_refs=result.article_refs,
     )
-
-
-
-@router.get(
-    "/laws",
-    auth=jwt_auth,
-    summary="لیست قوانین موجود در سیستم",
-)
-def available_laws(request):
-    """
-    لیست قوانینی که در Neo4j موجودند.
-    با اضافه شدن قوانین جدید، خودکار آپدیت میشه.
-    """
-    with search_service.driver.session() as session:
-        result = session.run(
-            "MATCH (l:Law) RETURN l.name AS name ORDER BY l.name"
-        )
-        return {"laws": [r["name"] for r in result]}
