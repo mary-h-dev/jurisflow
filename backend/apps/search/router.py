@@ -103,7 +103,7 @@ def _call_groq(query: str) -> str:
             {"role": "system", "content": _SYSTEM_PROMPT},
             {"role": "user", "content": query},
         ],
-        temperature=0.1,
+        temperature=0.0,
         response_format={"type": "json_object"},
         timeout=_GROQ_TIMEOUT_SECONDS,
     )
@@ -128,3 +128,11 @@ def _parse(data: dict, original_query: str) -> RoutingResult:
         ambiguity_flag=bool(data.get("ambiguity_flag", False)),
         raw_ok=True,
     )
+
+
+
+
+
+
+
+

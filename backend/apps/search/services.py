@@ -7,7 +7,8 @@ from typing import Optional
 from core.neo4j import neo4j_client
 from .graph_support import compute_graph_support
 from .embedder import embed_text
-from .router import RoutingResult, route_query
+from .router import RoutingResult
+from .router_cache import route_query_cached
 from .confidence import (
     UncertaintyVector,
     ConfidenceResult,
@@ -86,37 +87,32 @@ def _fuse_with_rrf(*ranked_lists: list[Evidence], top_k: int = 10) -> list[Evide
 
 # -- article_refs helper -------------------------------------------------------
 
+
+_LATIN_TO_PERSIAN = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
+
 def _build_article_refs(
     article_results: list[Evidence],
     ruling_results: list[Evidence],
 ) -> list[str]:
-    """
-    Built directly from article_results and ruling citations (each with
-    its own top_k), NOT from the RRF-fused `evidences` list. The fused
-    list caps at final_top_k across all three channels competing together,
-    which can drop an article that ranked well within its own channel
-    (see debug session: article ranked #19 within ruling_channel's own
-    top-30 was absent from the cross-channel fused output).
-    """
     refs: list[str] = []
     seen: set[str] = set()
 
     for e in article_results:
         if not e.law_name or not e.article_number:
             continue
-        ref = f"{e.law_name} - ماده {e.article_number}"
+        ref = f"{e.law_name} - ماده {str(e.article_number).translate(_LATIN_TO_PERSIAN)}"
         if ref not in seen:
             seen.add(ref)
             refs.append(ref)
 
     for e in ruling_results:
         for ref in (e.cited_articles or []):
-            if ref not in seen:
-                seen.add(ref)
-                refs.append(ref)
+            normalized = ref.translate(_LATIN_TO_PERSIAN)
+            if normalized not in seen:
+                seen.add(normalized)
+                refs.append(normalized)
 
     return refs
-
 
 
 
@@ -234,7 +230,7 @@ def _search_ruling_sections(session, embedding: list[float], top_k: int) -> list
                 text=r["text"] or "",
                 score=float(r["score"]),
                 ruling_id=str(r["ruling_id"]) if r["ruling_id"] else None,
-                cited_articles=r["cited_articles"] or [],
+                cited_articles=[ref.translate(_LATIN_TO_PERSIAN) for ref in (r["cited_articles"] or [])],
             )
             for r in records
         ]
@@ -252,7 +248,7 @@ def _search_ruling_summaries(session, embedding: list[float], top_k: int) -> lis
                 text=r["text"] or "",
                 score=float(r["score"]),
                 ruling_id=str(r["ruling_id"]) if r["ruling_id"] else None,
-                cited_articles=r["cited_articles"] or [],
+                cited_articles=[ref.translate(_LATIN_TO_PERSIAN) for ref in (r["cited_articles"] or [])],
             )
             for r in records
         ]
@@ -308,7 +304,8 @@ class SearchService:
         article_top_k: int = 20,
         final_top_k:   int = 20,
     ) -> SearchResult:
-        routing = route_query(query)
+        # routing = route_query(query)
+        routing = route_query_cached(query)
         embedding = embed_text(routing.rewritten_query)
         # routing = RoutingResult(
         #     rewritten_query=query,
