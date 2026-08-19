@@ -6,45 +6,87 @@ from dataclasses import dataclass
 from django.conf import settings
 
 from apps.search.services import SearchResult
-
-
+from core.neo4j import neo4j_client
 
 _LATIN_TO_PERSIAN = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
+_PERSIAN_TO_LATIN = str.maketrans("۰۱۲۳۴۵۶۷۸۹", "0123456789")
 _MAX_FEATURE_EVIDENCE = 8
 _MAX_RULING_EVIDENCE = 5
+_MAX_GROUNDED_FEATURES_PER_ARTICLE = 10
+
+# See the priority-order comment above _rank_article_refs (unchanged) for
+# why article candidates are capped and ranked the way they are.
 _DEFAULT_MAX_ARTICLES_PER_QUERY = 25
 
-
-# search_result.article_refs is a UNION of every article cited by every
-# retrieved ruling, which routinely runs to 50-100+ unique refs for a
-# single query -- most appearing in only one ruling's citation list.
-# Verifying every single one is impractical (LLM calls, latency, free-tier
-# rate limits) and unnecessary, so we cap it.
-#
-# We tried two rankings that both backfired on real cases:
-#   - raw citation frequency: generic articles that several unrelated,
-#     low-relevance rulings happen to co-cite outrank a gold article
-#     that only one HIGHLY relevant retrieved ruling cites (observed:
-#     ruling 34630 -- گold procedural article ماده ۴۷۴ ranked ~43rd of
-#     75 purely because few rulings happened to cite it).
-#   - article_channel-first, frequency-second: still leaves the same
-#     citation-only ties broken by raw count, same problem for refs the
-#     embedding channel never surfaces directly.
-#
-# Correct priority now:
-#   1. article_results (article_channel) hits, in their OWN score order --
-#      already a query-specific relevance ranking, trust it first.
-#   2. remaining budget filled by ruling-citation refs, ranked by the SUM
-#      of the .score of every retrieved ruling that cites them -- so one
-#      citation from a highly-relevant ruling can outrank several
-#      citations from low-relevance ones, instead of raw count treating
-#      every citing ruling as equally informative regardless of how well
-#      it actually matched the query.
+_BATCH_GROUNDED_FEATURES_QUERY = """
+UNWIND $articles AS a
+CALL {
+  WITH a
+  MATCH (feature)-[g:GROUNDED_IN]->(article:Article {article_number: a.number, law: a.law})
+  WHERE g.npmi IS NOT NULL
+  RETURN labels(feature)[0] AS feature_label, feature.name AS feature_value
+  ORDER BY g.npmi DESC
+  LIMIT $limit
+}
+RETURN a.law AS law, a.number AS number, collect({label: feature_label, value: feature_value}) AS top_features
+"""
 
 
+def _parse_article_ref(ref: str) -> tuple[str, int] | None:
+    """
+    Reverses the "<law> - ماده <persian digits>" format used everywhere
+    in this codebase back into (law, article_number) as stored on the
+    Article node -- law and article_number (Latin int), per
+    database/law_loader.py. Returns None for a ref that doesn't match
+    the expected shape; callers skip GROUNDED_IN lookup for it rather
+    than guessing.
+    """
+    if " - ماده " not in ref:
+        return None
+    law_name, num_part = ref.rsplit(" - ماده ", 1)
+    latin_num = num_part.translate(_PERSIAN_TO_LATIN)
+    if not latin_num.isdigit():
+        return None
+    return law_name, int(latin_num)
 
 
+def _fetch_grounded_features(refs: list[str]) -> dict[str, set[tuple[str, str]]]:
+    """
+    Batched lookup against the GROUNDED_IN edges built by
+    database/grounded_in_builder.py: for each article_ref, returns the
+    set of (feature_label, feature_value) pairs statistically grounded
+    to it (ranked by NPMI, capped). A ref that fails to parse, or whose
+    article has no GROUNDED_IN edges (e.g. excluded procedural-law
+    articles -- see that file's _PROCEDURAL_DOMAINS), is simply absent
+    from the returned dict; build_evidence_bundles falls back to the
+    shared feature list for those.
+    """
+    parsed_by_ref = {ref: _parse_article_ref(ref) for ref in refs}
+    articles_param = [
+        {"law": law, "number": number}
+        for parsed in parsed_by_ref.values() if parsed
+        for law, number in [parsed]
+    ]
+    if not articles_param:
+        return {}
 
+    with neo4j_client.session() as session:
+        rows = session.run(
+            _BATCH_GROUNDED_FEATURES_QUERY,
+            articles=articles_param,
+            limit=_MAX_GROUNDED_FEATURES_PER_ARTICLE,
+        )
+        grounded_by_law_number = {
+            (row["law"], row["number"]): {
+                (f["label"], f["value"]) for f in row["top_features"]
+            }
+            for row in rows
+        }
+
+    return {
+        ref: grounded_by_law_number.get(parsed, set())
+        for ref, parsed in parsed_by_ref.items() if parsed
+    }
 
 
 @dataclass
@@ -54,9 +96,6 @@ class ArticleEvidenceBundle:
     article_ref: str
     article_text: str
     supporting_texts: list[str]
-
-
-
 
 
 def _normalized_citations(cited_articles: list[str] | None) -> list[str]:
@@ -74,15 +113,9 @@ def _normalized_citations(cited_articles: list[str] | None) -> list[str]:
     return [ref.translate(_LATIN_TO_PERSIAN) for ref in (cited_articles or [])]
 
 
-
-
-
 def _rank_article_refs(search_result: SearchResult) -> list[str]:
     """See the priority order explained in the module-level comment above."""
     return [ref for ref, _tier, _weight in debug_rank_article_refs(search_result)]
-
-
-
 
 
 def debug_rank_article_refs(search_result: SearchResult) -> list[tuple[str, str, float]]:
@@ -116,18 +149,19 @@ def debug_rank_article_refs(search_result: SearchResult) -> list[tuple[str, str,
     return direct_refs_ordered + citation_ranked
 
 
-
-
 def build_evidence_bundles(search_result: SearchResult) -> list[ArticleEvidenceBundle]:
     """
     Groups evidence in `search_result` by article_ref so each article can
     be verified independently. An article's supporting evidence is:
       - its own article text, from article_results
       - text of ruling evidence that cites it (cited_articles match)
-      - a capped sample of feature evidence (case-fact context; features
-        are not linked to specific articles in the graph, so the same
-        top feature facts are shared across all article bundles for a
-        given query)
+      - feature evidence GROUNDED_IN this specific article (via the
+        NPMI-scored GROUNDED_IN edges from database/grounded_in_builder.py),
+        intersected with the features actually retrieved for this query
+        -- NOT a generic shared list. If an article has no GROUNDED_IN
+        edges (e.g. excluded procedural-law articles) or none of its
+        grounded features were retrieved for this query, falls back to
+        the top retrieved features generally, same as before.
 
     Only the top `AUDITOR_MAX_ARTICLES_PER_QUERY` refs (article_channel
     hits first, then citation-score-weighted, see _rank_article_refs)
@@ -146,7 +180,9 @@ def build_evidence_bundles(search_result: SearchResult) -> list[ArticleEvidenceB
         ref = f"{e.law_name} - ماده {str(e.article_number).translate(_LATIN_TO_PERSIAN)}"
         article_text_by_ref.setdefault(ref, e.text)
 
-    shared_feature_texts = [
+    grounded_features_by_ref = _fetch_grounded_features(ranked_refs)
+
+    fallback_feature_texts = [
         e.text for e in search_result.feature_results[:_MAX_FEATURE_EVIDENCE] if e.text
     ]
 
@@ -158,10 +194,30 @@ def build_evidence_bundles(search_result: SearchResult) -> list[ArticleEvidenceB
             if e.text and ref in _normalized_citations(e.cited_articles)
         ][:_MAX_RULING_EVIDENCE]
 
+        # Grounded features are used as-is (their names), not filtered down
+        # to only the ones a retrieved quote happens to match verbatim --
+        # exact-match intersection was tried and made evidence sparser,
+        # not richer, since the graph's top-NPMI features for an article
+        # (computed corpus-wide) rarely match a specific case's extracted
+        # feature values by exact string equality. Presented as a distinct
+        # "known relevant factors" line so the LLM can use it as prior
+        # knowledge about the article even without a case-specific quote.
+        grounded_pairs = grounded_features_by_ref.get(ref, set())
+        grounded_values = [value for _label, value in grounded_pairs]
+        grounded_context = (
+            "عوامل حقوقی که طبق آمار پرونده‌های مشابه با این ماده مرتبط‌اند: "
+            + "، ".join(grounded_values)
+        ) if grounded_values else None
+
+        feature_texts = fallback_feature_texts
+        supporting_texts = ruling_texts + feature_texts
+        if grounded_context:
+            supporting_texts = [grounded_context] + supporting_texts
+
         bundles.append(ArticleEvidenceBundle(
             article_ref=ref,
             article_text=article_text_by_ref.get(ref, ""),
-            supporting_texts=ruling_texts + shared_feature_texts,
+            supporting_texts=supporting_texts,
         ))
 
     return bundles

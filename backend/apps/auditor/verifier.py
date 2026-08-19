@@ -12,23 +12,18 @@ from .schemas import ChecklistItemOut
 
 logger = logging.getLogger(__name__)
 
-_GEMINI_MODEL = "gemini-2.5-flash"  # gemini-2.0-flash was shut down 2026-06-01
+_GEMINI_MODEL = "gemini-2.5-flash" 
 _GROQ_MODEL = "llama-3.3-70b-versatile"
-
-# Keeps the per-call prompt small enough to stay well under free-tier
-# TPM caps (Groq ~6000 tokens/minute; OpenRouter free models similarly
-# capped). Ruling/section text especially can run to several thousand
-# characters uncapped, which alone can burn most of the per-minute
-# budget in one call. Article text gets a higher cap than evidence
-# since cutting it too short was observed to make the model fall back
-# to generic case-fact conditions instead of article-specific ones.
 _MAX_ARTICLE_TEXT_CHARS = 1200
 _MAX_EVIDENCE_TEXT_CHARS = 300
+
+
 
 
 def _truncate(text: str, max_chars: int) -> str:
     text = text.strip()
     return text if len(text) <= max_chars else text[:max_chars].rstrip() + " ..."
+
 
 _PROMPT_TEMPLATE = """
 تو یک حقوقدان دقیق و محتاط هستی که وظیفه‌ی audit یک ماده‌ی قانونی خاص را نسبت به شرح واقعیت یک پرونده بر عهده داری.
@@ -124,6 +119,8 @@ def _call_gemini(prompt: str) -> str:
         ),
     )
     return response.text or ""
+
+
 
 
 _MAX_RETRIES = 3
