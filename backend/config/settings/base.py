@@ -20,8 +20,8 @@ INSTALLED_APPS = [
     # Local
     "apps.users",
     "apps.search",
-    "apps.agents",
-    "apps.documents",
+    "apps.auditor",
+    "apps.legal_agents",
 ]
 
 MIDDLEWARE = [
