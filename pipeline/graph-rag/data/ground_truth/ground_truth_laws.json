@@ -1,0 +1,256 @@
+[
+  {
+    "query": "طبق ماده ۱ قانون مجازات اسلامی، این قانون شامل چه مباحثی می‌شود؟",
+    "case_type": "کیفری",
+    "gold_articles": ["قانون مجازات اسلامی - ماده 1"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "کاربر مستقیماً محتوای کلی ماده را می‌پرسد؛ صرفاً متن ماده برای پاسخ کافی است و نیازی به facts پرونده یا رویه‌ی قضایی نیست."
+    }
+  },
+  {
+    "query": "قوانین جزایی ایران نسبت به چه کسانی و در چه قلمرویی اعمال می‌شود؟",
+    "case_type": "کیفری",
+    "gold_articles": ["قانون مجازات اسلامی - ماده 3"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "سوال مستقیماً درباره‌ی حکم کلی ماده (قلمرو مکانی اجرای قانون) است، بدون طرح یک پرونده‌ی خاص."
+    }
+  },
+  {
+    "query": "طبق ماده ۵ قانون مجازات اسلامی، ایرانی که خارج از کشور مرتکب جعل امضای مقام رهبری بشه چطور محاکمه می‌شه؟",
+    "case_type": "کیفری",
+    "gold_articles": ["قانون مجازات اسلامی - ماده 5"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "سوال به یکی از بندهای صریح ماده (بند ب) اشاره می‌کند و صرفاً می‌خواهد بداند حکم مقرر در متن ماده چیست؛ فرضی کلی است نه یک پرونده‌ی واقعی با facts خاص."
+    }
+  },
+  {
+    "query": "اگر بعد از وقوع جرم، قانون جدید مجازات رو تخفیف بده، حکم قطعی قبلی چطور اصلاح می‌شه؟",
+    "case_type": "کیفری",
+    "gold_articles": ["قانون مجازات اسلامی - ماده 10"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "پاسخ کامل (تقاضای اصلاح از دادگاه صادرکننده حکم توسط قاضی اجرای احکام یا خودِ محکوم، و اصلاح مجازات توسط همان دادگاه) عیناً در متن بند ب ماده آمده؛ نیازی به رویه‌ی قضایی یا facts پرونده‌ی خاص نیست."
+    }
+  },
+  {
+    "query": "انواع مجازات‌های مقرر در قانون مجازات اسلامی طبق ماده ۱۴ کدامند؟",
+    "case_type": "کیفری",
+    "gold_articles": ["قانون مجازات اسلامی - ماده 14"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "سوال صرفاً فهرست چهارگانه‌ی مجازات‌ها را که در متن ماده آمده می‌خواهد؛ نیازی به facts پرونده یا سابقه‌ی قضایی نیست."
+    }
+  },
+  {
+    "query": "طبق ماده ۱۳۱۲ قانون مدنی، در چه مواردی می‌شود با شهادت شاهد، موضوعی رو ثابت کرد حتی اگه سند رسمی وجود نداشته باشه؟",
+    "case_type": "حقوقی",
+    "gold_articles": ["قانون مدنی - ماده 1312"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "پاسخ کامل (پنج مورد استثنا) عیناً در متن ماده فهرست شده؛ سوال کلی درباره‌ی خودِ ماده است، نه یک پرونده‌ی خاص."
+    }
+  },
+  {
+    "query": "شرایط لازم برای این‌که یه نفر بتونه به‌عنوان شاهد شهادت بده چیه؟",
+    "case_type": "حقوقی",
+    "gold_articles": ["قانون مدنی - ماده 1313"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "شرایط شاهد (بلوغ، عقل، عدالت، ایمان، طهارت مولد) و موارد رد شهادت مستقیماً در متن ماده و تبصره‌های آن آمده."
+    }
+  },
+  {
+    "query": "شهادتی که از روی شک و تردید باشه، معتبره یا نه؟",
+    "case_type": "حقوقی",
+    "gold_articles": ["قانون مدنی - ماده 1315"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "پاسخ صریحاً در متن ماده آمده (شهادت باید از روی قطع و یقین باشد)، بدون نیاز به facts پرونده یا رویه‌ی قضایی."
+    }
+  },
+  {
+    "query": "اگه شهود در یه دعوی با هم اختلاف نظر داشته باشن، شهادتشون چه حکمی داره؟",
+    "case_type": "حقوقی",
+    "gold_articles": ["قانون مدنی - ماده 1317"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "حکم کلی اختلاف شهود و استثنای «قدر متیقن» عیناً در متن ماده بیان شده؛ سوال فرضی کلی است نه مبتنی بر یک پرونده‌ی واقعی."
+    }
+  },
+  {
+    "query": "اَماره طبق قانون مدنی یعنی چی؟",
+    "case_type": "حقوقی",
+    "gold_articles": ["قانون مدنی - ماده 1321"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "سوال صرفاً تعریف مندرج در متن ماده را می‌خواهد، بدون هیچ ارجاع به facts پرونده یا نیاز به رویه‌ی قضایی."
+    }
+  },
+  {
+    "query": "مهلت درخواست فرجام‌خواهی طبق ماده ۳۹۷ قانون آیین دادرسی مدنی چقدره؟",
+    "case_type": "حقوقی",
+    "gold_articles": ["قانون آیین دادرسی مدنی - ماده 397"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "پاسخ (بیست روز برای مقیمان ایران، دو ماه برای مقیمان خارج) عیناً در متن ماده آمده؛ سوال کلی درباره‌ی خودِ ماده است."
+    }
+  },
+  {
+    "query": "بعد از این‌که دیوان عالی کشور یه رأی رو نقض می‌کنه، پرونده برای رسیدگی مجدد به کجا ارجاع می‌شه؟",
+    "case_type": "حقوقی",
+    "gold_articles": ["قانون آیین دادرسی مدنی - ماده 401"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "سه حالت ارجاع پرونده پس از نقض (بندهای الف، ب، ج) مستقیماً در متن ماده مشخص شده؛ نیازی به facts پرونده یا رویه‌ی قضایی نیست."
+    }
+  },
+  {
+    "query": "اگه رأیی به حقوق یه شخص ثالث که در دادرسی دخالت نداشته لطمه بزنه، اون شخص چه حقی داره؟",
+    "case_type": "حقوقی",
+    "gold_articles": ["قانون آیین دادرسی مدنی - ماده 417"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "حق اعتراض شخص ثالث و شرط آن (عدم دخالت در دادرسی) صریحاً در متن ماده بیان شده."
+    }
+  },
+  {
+    "query": "طبق ماده ۴۲۶ قانون آیین دادرسی مدنی، در چه مواردی می‌شه نسبت به یه حکم قطعی درخواست اعاده دادرسی داد؟",
+    "case_type": "حقوقی",
+    "gold_articles": ["قانون آیین دادرسی مدنی - ماده 426"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "هفت جهت اعاده دادرسی به‌صورت فهرست‌وار در متن خودِ ماده آمده؛ سوال صرفاً محتوای ماده را می‌خواهد."
+    }
+  },
+  {
+    "query": "طبق قانون تجارت، تاجر کیه؟",
+    "case_type": "حقوقی",
+    "gold_articles": ["قانون تجارت - ماده 1"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "تعریف «تاجر» عیناً در متن ماده آمده؛ سوال کلی درباره‌ی تعریف قانونی است، بدون طرح یک پرونده‌ی خاص."
+    }
+  },
+  {
+    "query": "طبق ماده ۲۰ قانون تجارت، شرکت‌های تجارتی چند نوع‌ان و کدومان؟",
+    "case_type": "حقوقی",
+    "gold_articles": ["قانون تجارت - ماده 20"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "فهرست هفت‌گانه‌ی انواع شرکت‌های تجارتی مستقیماً در متن ماده آمده و پاسخ‌دادن نیازی به facts پرونده یا رویه‌ی قضایی ندارد."
+    }
+  },
+  {
+    "query": "حق‌العمل‌کار طبق قانون تجارت یعنی چی؟",
+    "case_type": "حقوقی",
+    "gold_articles": ["قانون تجارت - ماده 357"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "سوال صرفاً تعریف مندرج در متن ماده را می‌خواهد؛ بدون اشاره به facts پرونده یا نیاز به سابقه‌ی قضایی."
+    }
+  },
+  {
+    "query": "ورشکستگی طبق قانون تجارت چطور تعریف می‌شه و از کِی حاصل میشه؟",
+    "case_type": "حقوقی",
+    "gold_articles": ["قانون تجارت - ماده 412"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "تعریف ورشکستگی (توقف از تأدیه وجوه) و قاعده‌ی امکان صدور حکم تا یک سال پس از فوت، هر دو مستقیماً در متن ماده آمده."
+    }
+  },
+  {
+    "query": "اصل برائت طبق قانون آیین دادرسی کیفری یعنی چی؟",
+    "case_type": "کیفری",
+    "gold_articles": ["قانون آیین دادرسی کیفری - ماده 4"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "تعریف اصل برائت و شرط اقدامات محدودکننده مستقیماً در متن ماده آمده؛ سوال کلی درباره‌ی محتوای ماده است."
+    }
+  },
+  {
+    "query": "متهم در مرحله تحقیقات مقدماتی چه حقی نسبت به داشتن وکیل داره؟",
+    "case_type": "کیفری",
+    "gold_articles": ["قانون آیین دادرسی کیفری - ماده 190"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "حق همراه‌داشتن وکیل و نحوه‌ی تفهیم آن به متهم عیناً در متن ماده و تبصره‌های آن بیان شده."
+    }
+  },
+  {
+    "query": "طبق قانون آیین دادرسی کیفری، بازداشت موقت فقط در چه جرایمی جایزه؟",
+    "case_type": "کیفری",
+    "gold_articles": ["قانون آیین دادرسی کیفری - ماده 237"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "فهرست جرایمی که صدور قرار بازداشت موقت در آن‌ها مجاز است به‌صراحت در بندهای ماده آمده؛ سوال کلی و بدون facts پرونده است."
+    }
+  },
+  {
+    "query": "در چه مواردی می‌شه نسبت به یه حکم محکومیت قطعی درخواست اعاده دادرسی داد؟",
+    "case_type": "کیفری",
+    "gold_articles": ["قانون آیین دادرسی کیفری - ماده 474"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "موارد پذیرش درخواست اعاده دادرسی به‌صورت فهرست‌وار در متن ماده ذکر شده و پاسخ صرفاً نیازمند خودِ متن ماده است."
+    }
+  },
+  {
+    "query": "شاکی تا کِی می‌تونه در جرایم قابل گذشت درخواست ترک تعقیب بده؟",
+    "case_type": "کیفری",
+    "gold_articles": ["قانون آیین دادرسی کیفری - ماده 79"],
+    "gold_routing": {
+      "feature_channel": false,
+      "ruling_channel": false,
+      "article_channel": true,
+      "rationale": "مهلت و شرایط درخواست ترک تعقیب و تعقیب مجدد مستقیماً در متن ماده بیان شده؛ نیازی به facts پرونده یا رویه‌ی قضایی نیست."
+    }
+  }
+
+]
