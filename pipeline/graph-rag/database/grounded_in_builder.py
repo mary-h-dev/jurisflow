@@ -49,8 +49,6 @@ _FEATURE_REL_TYPES = ["HAS_CONCEPT", "HAS_ROLE", "HAS_ACTION", "HAS_OBJECT"]
 
 
 
-
-
 _BUILD_QUERY = """
 MATCH (r:Ruling)-[rel]->(feature)
 WHERE type(rel) IN $feature_rel_types
@@ -96,6 +94,34 @@ UNWIND $rows AS row
 MATCH ()-[g:GROUNDED_IN]->() WHERE elementId(g) = row.rel_id
 SET g.pmi = row.pmi, g.npmi = row.npmi
 """
+
+
+_JOINT_RULING_COUNT_QUERY = """
+MATCH (r:Ruling)-[rel]->(feature)
+WHERE type(rel) IN $feature_rel_types
+MATCH (r)-[:CITES]->(article:Article)
+WHERE NOT article.domain IN $procedural_domains
+RETURN elementId(feature) AS feature_id, elementId(article) AS article_id,
+       count(DISTINCT r) AS n_joint
+"""
+
+_FEATURE_RULING_COUNT_QUERY = """
+MATCH (r:Ruling)-[rel]->(feature)
+WHERE type(rel) IN $feature_rel_types
+RETURN elementId(feature) AS feature_id, count(DISTINCT r) AS n_feature
+"""
+
+_ARTICLE_RULING_COUNT_QUERY = """
+MATCH (r:Ruling)-[:CITES]->(article:Article)
+WHERE NOT article.domain IN $procedural_domains
+RETURN elementId(article) AS article_id, count(DISTINCT r) AS n_article
+"""
+
+_TOTAL_RULING_COUNT_QUERY = "MATCH (r:Ruling) RETURN count(r) AS n"
+
+
+
+
 
 
 @dataclass
@@ -162,41 +188,50 @@ def sample_grounded_in(connection: Neo4jConnection, limit: int = 15) -> None:
                 f"| official={row['official_count']} text={row['text_count']}"
             )
 
-
 def compute_pmi_scores(connection: Neo4jConnection) -> PmiStats:
-    """Reads all GROUNDED_IN edges, computes PMI/NPMI in Python (graph is
-    small enough — tens of thousands of edges), writes scores back in one
-    batched UNWIND. NPMI is bounded in [-1, 1]; use it, not raw PMI, for
-    any downstream thresholding since raw PMI is unbounded and sensitive
-    to low co_count noise.
+    """
+    All three probabilities (joint, feature-marginal, article-marginal)
+    are counted at the SAME unit (distinct rulings) over the SAME
+    denominator (total rulings, N) -- this is required for PMI/NPMI to
+    be mathematically well-defined; mixing different normalizing totals
+    across p_joint/p_feature/p_article breaks NPMI's [-1,1] bound and
+    makes the ranking not a true PMI.
     """
     with connection.session() as session:
-        rows = list(session.run(_FETCH_EDGES_QUERY))
+        N = session.run(_TOTAL_RULING_COUNT_QUERY).single()["n"]
 
-    edges = [
-        (r["rel_id"], r["feature_id"], r["article_id"], r["co_count"])
-        for r in rows
-    ]
+        joint_rows = list(session.run(
+            _JOINT_RULING_COUNT_QUERY,
+            feature_rel_types=_FEATURE_REL_TYPES,
+            procedural_domains=list(_PROCEDURAL_DOMAINS),
+        ))
+        feature_freq = {
+            r["feature_id"]: r["n_feature"]
+            for r in session.run(_FEATURE_RULING_COUNT_QUERY, feature_rel_types=_FEATURE_REL_TYPES)
+        }
+        article_freq = {
+            r["article_id"]: r["n_article"]
+            for r in session.run(_ARTICLE_RULING_COUNT_QUERY, procedural_domains=list(_PROCEDURAL_DOMAINS))
+        }
 
-    feature_totals: Counter[str] = Counter()
-    article_totals: Counter[str] = Counter()
-    total_co = 0
-
-    for _, feature_id, article_id, co_count in edges:
-        feature_totals[feature_id] += co_count
-        article_totals[article_id] += co_count
-        total_co += co_count
+        # rel_id needed for the write-back; fetch alongside the join count
+        edge_rel_ids = {
+            (r["feature_id"], r["article_id"]): r["rel_id"]
+            for r in session.run(_FETCH_EDGES_QUERY)
+        }
 
     updates = []
-    for rel_id, feature_id, article_id, co_count in edges:
-        p_joint = co_count / total_co
-        p_feature = feature_totals[feature_id] / total_co
-        p_article = article_totals[article_id] / total_co
+    for row in joint_rows:
+        key = (row["feature_id"], row["article_id"])
+        rel_id = edge_rel_ids.get(key)
+        if rel_id is None:
+            continue
+
+        p_joint = row["n_joint"] / N
+        p_feature = feature_freq[row["feature_id"]] / N
+        p_article = article_freq[row["article_id"]] / N
 
         pmi = math.log(p_joint / (p_feature * p_article))
-        # NPMI: normalize to [-1, 1] using -log(p_joint) so common pairs
-        # (like خواهان/خوانده -> high-frequency article) don't get an
-        # inflated score just because co_count is large in absolute terms.
         npmi = pmi / (-math.log(p_joint))
 
         updates.append({"rel_id": rel_id, "pmi": pmi, "npmi": npmi})
@@ -204,9 +239,7 @@ def compute_pmi_scores(connection: Neo4jConnection) -> PmiStats:
     with connection.session() as session:
         session.run(_UPDATE_PMI_QUERY, rows=updates)
 
-    return PmiStats(edges_scored=len(updates), total_co_occurrences=total_co)
-
-
+    return PmiStats(edges_scored=len(updates), total_co_occurrences=sum(row["n_joint"] for row in joint_rows))
 
 
 _MIN_CO_COUNT_FOR_RANKING = 3  
