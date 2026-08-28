@@ -17,8 +17,6 @@ from .services import search_service
 logger = logging.getLogger(__name__)
 router = Router()
 
-_ALL_CHANNELS = {"feature", "ruling", "article"}
-
 
 @router.post("/query", auth=jwt_auth, response=SearchOut)
 def query(request, data: SearchIn):
@@ -60,10 +58,8 @@ def query(request, data: SearchIn):
                 ruling=conf.vector.ruling_quality,
                 article=conf.vector.article_quality,
                 missing=conf.vector.missing_channels,
-                skipped=sorted(_ALL_CHANNELS - set(routing.channels)),
-                graph_support=conf.vector.graph_support_quality,
             ),
-        ),
+            ),
         routing=RoutingOut(
             rewritten_query=routing.rewritten_query,
             channels=routing.channels,

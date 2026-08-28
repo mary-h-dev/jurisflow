@@ -21,13 +21,10 @@ class EvidenceOut(BaseModel):
 
 
 class ChannelQualityOut(BaseModel):
-    feature:       float
-    ruling:        float
-    article:       float
-    missing:       list[str]
-    skipped:       list[str]
-    graph_support: Optional[float] = None
-
+    feature: float
+    ruling:  float
+    article: float
+    missing: list[str]
 
 
 
@@ -39,6 +36,8 @@ class RoutingOut(BaseModel):
     case_type_hint:     Optional[str] = None
     ambiguity_flag:     bool
     raw_ok:             bool
+
+
 
 
 class ConfidenceOut(BaseModel):
@@ -54,4 +53,4 @@ class SearchOut(BaseModel):
     confidence:   ConfidenceOut
     routing:      RoutingOut
     ruling_ids:   list[str]
-    article_refs: list[str]   # format: "<law name> - ماده <number>", matches gold_articles
+    article_refs: list[str]   

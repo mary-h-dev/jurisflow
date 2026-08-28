@@ -2,17 +2,14 @@ from __future__ import annotations
 
 import json
 import logging
+import re
 from dataclasses import dataclass
-
-from django.conf import settings
+from core.llm_client import get_client
+from .apps_search_config import ROUTER_MODEL
 
 logger = logging.getLogger(__name__)
 
 _VALID_CHANNELS = {"feature", "ruling", "article"}
-
-# Must match the system's case_type taxonomy exactly (see database/config
-# domain -> case_type mapping). These two literals are data values, not
-# display text, so they are kept in Persian intentionally.
 _VALID_CASE_TYPES = {"حقوقی", "کیفری"}
 
 
@@ -49,6 +46,24 @@ Example:
   wrong channels: ["article", "ruling"]  // missing "feature" — نشوز is a
     fact-dependent legal concept, not just an article reference
 
+IMPORTANT — "ruling" is the rarest correct channel. Iranian courts are a
+civil-law (statutory) system, not a precedent-based one: the vast majority
+of legal reasoning is derived directly from statutory article text, not from
+binding case-law (رأی وحدت رویه). Only select "ruling" when the query is
+explicitly about finding similar precedent cases or when the legal question
+is known to hinge on a specific binding judicial interpretation that is not
+recoverable from the article text alone. Do NOT include "ruling" by default
+just because a query is complex or fact-heavy — most complex legal questions
+are still resolved with "feature" + "article" only.
+
+Example (ruling NOT needed, despite being a substantial fact-heavy question):
+  query: "در تصادف رانندگی که خودم مقصر بودم، همسرم فوت کرد. آیا به عنوان
+    وارث می‌توانم دیه فوت او را مطالبه کنم؟"
+  correct channels: ["feature", "article"]
+  wrong channels: ["feature", "ruling", "article"]  // "ruling" added
+    reflexively; the answer is fully determined by statutory text (قتل
+    غیرعمد و حرمان قاتل از دیه), no binding precedent is needed.
+
 ambiguity_flag should be true only for queries that lack enough content to
 determine intent (e.g. a single bare term), not for queries that are merely
 long or informally phrased.
@@ -56,10 +71,10 @@ long or informally phrased.
 Respond with the JSON object only.
 """
 
-
-
-_GROQ_MODEL = "llama-3.3-70b-versatile"
-_GROQ_TIMEOUT_SECONDS = 10
+# The model can still wrap JSON in a ```json ... ``` fence occasionally.
+# Strip it defensively before parsing rather than trusting the response
+# format alone.
+_CODE_FENCE_RE = re.compile(r"^```(?:json)?\s*|\s*```$", re.MULTILINE)
 
 
 @dataclass
@@ -70,18 +85,24 @@ class RoutingResult:
     intent:              str
     case_type_hint:      str | None
     ambiguity_flag:      bool
-    raw_ok:              bool = True   # False if the LLM call failed and a fallback was used
+    raw_ok:              bool = True
 
 
 def route_query(query: str) -> RoutingResult:
     try:
-        raw = _call_groq(query)
-        data = json.loads(raw)
+        raw = get_client().complete(
+            model=ROUTER_MODEL.model,
+            temperature=ROUTER_MODEL.temperature,
+            messages=[
+                {"role": "system", "content": _SYSTEM_PROMPT},
+                {"role": "user", "content": query},
+            ],
+            max_tokens=ROUTER_MODEL.max_tokens,
+        )
+        data = json.loads(_strip_code_fence(raw))
         return _parse(data, query)
     except Exception as e:
-        logger.warning(f"Router failed, falling back to all channels: {e}")
-        # A fresh instance each time — never reuse or mutate a shared object,
-        # to avoid a race condition under concurrent requests.
+        logger.warning(f"Router failed, falling back to all channels: {e}", exc_info=True)
         return RoutingResult(
             rewritten_query=query,
             channels=["feature", "ruling", "article"],
@@ -93,21 +114,8 @@ def route_query(query: str) -> RoutingResult:
         )
 
 
-def _call_groq(query: str) -> str:
-    from groq import Groq
-    client = Groq(api_key=settings.GROQ_API_KEY)
-
-    response = client.chat.completions.create(
-        model=_GROQ_MODEL,
-        messages=[
-            {"role": "system", "content": _SYSTEM_PROMPT},
-            {"role": "user", "content": query},
-        ],
-        temperature=0.0,
-        response_format={"type": "json_object"},
-        timeout=_GROQ_TIMEOUT_SECONDS,
-    )
-    return response.choices[0].message.content
+def _strip_code_fence(raw: str) -> str:
+    return _CODE_FENCE_RE.sub("", raw.strip()).strip()
 
 
 def _parse(data: dict, original_query: str) -> RoutingResult:
@@ -128,11 +136,3 @@ def _parse(data: dict, original_query: str) -> RoutingResult:
         ambiguity_flag=bool(data.get("ambiguity_flag", False)),
         raw_ok=True,
     )
-
-
-
-
-
-
-
-

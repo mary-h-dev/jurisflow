@@ -5,10 +5,9 @@ from dataclasses import dataclass, field
 from typing import Optional
 
 from core.neo4j import neo4j_client
-from .graph_support import compute_graph_support
 from .embedder import embed_text
-from .router import RoutingResult
 from .router_cache import route_query_cached
+from .router import RoutingResult
 from .confidence import (
     UncertaintyVector,
     ConfidenceResult,
@@ -19,7 +18,7 @@ from .confidence import (
 logger = logging.getLogger(__name__)
 
 _RRF_K = 60
-_ALL_CHANNELS = ("feature", "ruling", "article")
+_LATIN_TO_PERSIAN = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
 
 
 # -- Evidence dataclass ------------------------------------------------------
@@ -35,7 +34,7 @@ class Evidence:
     feature_category: Optional[str] = None
     article_number:   Optional[int] = None
     law_name:         Optional[str] = None
-    cited_articles:   list[str]     = field(default_factory=list)  
+    cited_articles:   list[str]     = field(default_factory=list)
     confidence:       Optional[float] = None
 
 
@@ -53,7 +52,6 @@ class SearchResult:
     def ruling_ids(self) -> list[str]:
         return list({e.ruling_id for e in self.evidences if e.ruling_id})
 
-
     @property
     def article_refs(self) -> list[str]:
         return _build_article_refs(self.article_results, self.ruling_results)
@@ -65,7 +63,7 @@ def _rrf_score(rank: int) -> float:
     return 1.0 / (_RRF_K + rank)
 
 
-def _fuse_with_rrf(*ranked_lists: list[Evidence], top_k: int = 10) -> list[Evidence]:
+def _fuse_with_rrf(*ranked_lists: list[Evidence], top_k: int = 20) -> list[Evidence]:
     scores: dict[str, float]    = {}
     items:  dict[str, Evidence] = {}
 
@@ -87,13 +85,17 @@ def _fuse_with_rrf(*ranked_lists: list[Evidence], top_k: int = 10) -> list[Evide
 
 # -- article_refs helper -------------------------------------------------------
 
-
-_LATIN_TO_PERSIAN = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
-
 def _build_article_refs(
     article_results: list[Evidence],
     ruling_results: list[Evidence],
 ) -> list[str]:
+    """
+    Built directly from article_results and ruling citations (each with
+    its own top_k), NOT from the RRF-fused `evidences` list -- the fused
+    list caps at final_top_k across all channels competing together and
+    can drop an article that ranked well within its own channel.
+    Format uses Persian digits to match gold_articles annotation format.
+    """
     refs: list[str] = []
     seen: set[str] = set()
 
@@ -115,13 +117,7 @@ def _build_article_refs(
     return refs
 
 
-
 # -- Channel queries ------------------------------------------------------------
-
-_FEATURE_LABELS = [
-    "LegalConcept", "LegalRole", "LegalAction", "LegalObject", "LegalFact"
-]
-
 
 _FEATURE_QUERY = """
 CALL db.index.vector.queryNodes($index_name, $top_k, $embedding)
@@ -139,6 +135,21 @@ ORDER BY score DESC
 LIMIT $top_k
 """
 
+_FEATURE_LABELS = ["LegalConcept", "LegalRole", "LegalAction", "LegalObject", "LegalFact"]
+
+_EXACT_FEATURE_QUERY = """
+MATCH (r:Ruling)-[rel]->(feature)
+WHERE type(rel) IN ['HAS_CONCEPT','HAS_ROLE','HAS_ACTION','HAS_OBJECT']
+  AND feature.name = $canonical_value
+RETURN
+    feature.name       AS value,
+    labels(feature)[0] AS category,
+    rel.evidence       AS quote,
+    rel.confidence     AS confidence,
+    r.ruling_id        AS ruling_id,
+    1.0                AS score
+LIMIT $top_k
+"""
 
 _RULING_SUMMARY_QUERY = """
 CALL db.index.vector.queryNodes('ruling_summary_embedding', $top_k, $embedding)
@@ -153,8 +164,6 @@ RETURN
 ORDER BY score DESC
 LIMIT $top_k
 """
-
-
 
 _RULING_SECTION_QUERY = """
 CALL db.index.vector.queryNodes('ruling_section_embedding', $top_k, $embedding)
@@ -171,8 +180,6 @@ ORDER BY score DESC
 LIMIT $top_k
 """
 
-
-
 _ARTICLE_QUERY = """
 CALL db.index.vector.queryNodes('article_embedding', $top_k, $embedding)
 YIELD node AS article, score
@@ -187,19 +194,51 @@ LIMIT $top_k
 """
 
 
-def _search_features(session, embedding: list[float], top_k: int) -> list[Evidence]:
+def _search_features(session, query: str, embedding: list[float], top_k: int) -> list[Evidence]:
+    """Deterministic exact/token match against the closed vocabulary first
+    (see exact_feature_matcher.py); falls back to embedding similarity
+    only if no vocabulary term matched -- short legal terms don't
+    separate reliably in embedding space."""
+    from .exact_feature_matcher import exact_feature_matcher
+
+    exact_matches = exact_feature_matcher.find_matches(query)
+
+    if exact_matches:
+        results = []
+        seen: set[str] = set()
+        for canonical_value, _category_key in exact_matches:
+            try:
+                records = session.run(_EXACT_FEATURE_QUERY, canonical_value=canonical_value, top_k=top_k)
+                for r in records:
+                    key = f"{r['ruling_id']}:{r['value']}"
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    text = r["quote"] or r["value"] or ""
+                    results.append(Evidence(
+                        source_type="feature",
+                        text=text,
+                        score=float(r["score"]),
+                        ruling_id=str(r["ruling_id"]) if r["ruling_id"] else None,
+                        feature_value=r["value"],
+                        feature_category=r["category"],
+                        confidence=float(r["confidence"]) if r["confidence"] else None,
+                    ))
+            except Exception as e:
+                logger.warning(f"Exact feature match query failed for {canonical_value}: {e}")
+        if results:
+            return results[:top_k]
+
+    return _search_features_embedding_fallback(session, embedding, top_k)
+
+
+def _search_features_embedding_fallback(session, embedding: list[float], top_k: int) -> list[Evidence]:
     results = []
     seen: set[str] = set()
-
     for label in _FEATURE_LABELS:
         index_name = f"{label.lower()}_embedding"
         try:
-            records = session.run(
-                _FEATURE_QUERY,
-                index_name=index_name,
-                embedding=embedding,
-                top_k=top_k,
-            )
+            records = session.run(_FEATURE_QUERY, index_name=index_name, embedding=embedding, top_k=top_k)
             for r in records:
                 key = f"{r['ruling_id']}:{r['value']}"
                 if key in seen:
@@ -217,7 +256,6 @@ def _search_features(session, embedding: list[float], top_k: int) -> list[Eviden
                 ))
         except Exception as e:
             logger.warning(f"Feature search failed for {label}: {e}")
-
     return sorted(results, key=lambda e: -e.score)[:top_k]
 
 
@@ -226,11 +264,9 @@ def _search_ruling_sections(session, embedding: list[float], top_k: int) -> list
         records = session.run(_RULING_SECTION_QUERY, embedding=embedding, top_k=top_k)
         return [
             Evidence(
-                source_type="ruling",
-                text=r["text"] or "",
-                score=float(r["score"]),
+                source_type="ruling", text=r["text"] or "", score=float(r["score"]),
                 ruling_id=str(r["ruling_id"]) if r["ruling_id"] else None,
-                cited_articles=[ref.translate(_LATIN_TO_PERSIAN) for ref in (r["cited_articles"] or [])],
+                cited_articles=[c.translate(_LATIN_TO_PERSIAN) for c in (r["cited_articles"] or [])],
             )
             for r in records
         ]
@@ -244,11 +280,9 @@ def _search_ruling_summaries(session, embedding: list[float], top_k: int) -> lis
         records = session.run(_RULING_SUMMARY_QUERY, embedding=embedding, top_k=top_k)
         return [
             Evidence(
-                source_type="ruling",
-                text=r["text"] or "",
-                score=float(r["score"]),
+                source_type="ruling", text=r["text"] or "", score=float(r["score"]),
                 ruling_id=str(r["ruling_id"]) if r["ruling_id"] else None,
-                cited_articles=[ref.translate(_LATIN_TO_PERSIAN) for ref in (r["cited_articles"] or [])],
+                cited_articles=[c.translate(_LATIN_TO_PERSIAN) for c in (r["cited_articles"] or [])],
             )
             for r in records
         ]
@@ -258,17 +292,9 @@ def _search_ruling_summaries(session, embedding: list[float], top_k: int) -> lis
 
 
 def _search_rulings(session, embedding: list[float], top_k: int) -> list[Evidence]:
-    """
-    Fuses two views of the same ruling: legal_factual_summary (dense,
-    judge-oriented conclusion of law) and raw section text (verbose,
-    includes procedural noise). Summary alone can outrank noisy sections
-    for direct legal queries; keeping both avoids losing recall on queries
-    that only match specific section phrasing.
-    """
     summary_hits = _search_ruling_summaries(session, embedding, top_k)
     section_hits = _search_ruling_sections(session, embedding, top_k)
     return _fuse_with_rrf(summary_hits, section_hits, top_k=top_k)
-
 
 
 def _search_articles(session, embedding: list[float], top_k: int) -> list[Evidence]:
@@ -276,11 +302,8 @@ def _search_articles(session, embedding: list[float], top_k: int) -> list[Eviden
         records = session.run(_ARTICLE_QUERY, embedding=embedding, top_k=top_k)
         return [
             Evidence(
-                source_type="article",
-                text=r["text"] or "",
-                score=float(r["score"]),
-                article_number=r["article_number"],
-                law_name=r["law_name"],
+                source_type="article", text=r["text"] or "", score=float(r["score"]),
+                article_number=r["article_number"], law_name=r["law_name"],
             )
             for r in records
         ]
@@ -289,12 +312,18 @@ def _search_articles(session, embedding: list[float], top_k: int) -> list[Eviden
         return []
 
 
-
-
-
-
 # -- Search Service -------------------------------------------------------------
+
 class SearchService:
+    """
+    Channel gating (LLM deciding which channels to query) was tested via
+    ablation and REMOVED: it reduced AUROC from 0.756 to 0.682 and
+    Spearman from 0.401 to 0.151 (see apps/search/calibration/). All
+    three channels are now always queried. The router's rewrite +
+    case_type_hint are still used (rewrite improved article ranking in
+    manual tests); case_type_hint is metadata only and does not filter
+    retrieval.
+    """
 
     def search(
         self,
@@ -304,56 +333,28 @@ class SearchService:
         article_top_k: int = 20,
         final_top_k:   int = 20,
     ) -> SearchResult:
-        # routing = route_query(query)
         routing = route_query_cached(query)
         embedding = embed_text(routing.rewritten_query)
-        # routing = RoutingResult(
-        #     rewritten_query=query,
-        #     channels=["feature", "ruling", "article"],
-        #     routing_confidence=1.0,
-        #     intent="calibration_test",
-        #     case_type_hint=None,
-        #     ambiguity_flag=False,
-        #     raw_ok=True,
-        # )
-        # embedding = embed_text(query)
-
 
         with neo4j_client.session() as session:
-            feature_results = (
-                _search_features(session, embedding, feature_top_k)
-                if "feature" in routing.channels else []
-            )
-            ruling_results = (
-                _search_rulings(session, embedding, ruling_top_k)
-                if "ruling" in routing.channels else []
-            )
-            article_results = (
-                _search_articles(session, embedding, article_top_k)
-                if "article" in routing.channels else []
-            )
-
-        skipped_channels = [c for c in _ALL_CHANNELS if c not in routing.channels]
+            feature_results = _search_features(session, routing.rewritten_query, embedding, feature_top_k)
+            ruling_results  = _search_rulings(session, embedding, ruling_top_k)
+            article_results = _search_articles(session, embedding, article_top_k)
 
         fused = _fuse_with_rrf(
             feature_results, ruling_results, article_results, top_k=final_top_k,
         )
 
-        graph_support = compute_graph_support(feature_results, article_results)
+        # graph_support disabled: ablation showed it reduced AUROC
+        # (0.756 -> 0.675). graph_support.py is kept intact for reference
+        # and possible future use with more annotation data.
 
         vec = build_uncertainty_vector(
             feature_scores=[e.score for e in feature_results],
             ruling_scores=[e.score for e in ruling_results],
             article_scores=[e.score for e in article_results],
-            skipped_channels=skipped_channels,
-            graph_support_quality=graph_support,
         )
-        confidence = compute_confidence(
-            vec,
-            queried_channels=routing.channels,
-            routing_confidence=routing.routing_confidence,
-            ambiguity_flag=routing.ambiguity_flag,
-        )
+        confidence = compute_confidence(vec)
 
         return SearchResult(
             query=query,

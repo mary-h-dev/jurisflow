@@ -19,6 +19,7 @@ def embed_text(text: str) -> list[float]:
 
 
 def _embed_ollama(text: str) -> list[float]:
+    print(f"[embed_text] len={len(text)} chars | preview: {text[:150]!r}")
     try:
         response = requests.post(
             f"{settings.OLLAMA_URL}/api/embeddings",
@@ -31,6 +32,7 @@ def _embed_ollama(text: str) -> list[float]:
     except Exception as e:
         logger.error(f"Ollama embedding failed: {e}")
         raise
+
 
 
 def _embed_gemini(text: str) -> list[float]:
