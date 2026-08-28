@@ -1,0 +1,46 @@
+(backend) @mohadese1370 ➜ /workspaces/jurisflow/backend (main) $ DJANGO_SETTINGS_MODULE=config.settings.development python -c "import django; django.setup(); from apps.search.calibration.gemini_embedding_probe import run; run()"
+[cache] Loading cached raw outputs from /workspaces/jurisflow/backend/apps/search/calibration/cache/train_val_140_no_routing.pkl
+[cache] Loading cached raw outputs from /workspaces/jurisflow/backend/apps/search/calibration/cache/test_140_no_routing.pkl
+======================================================================
+ruling_id: 34894  case_type: کیفری
+query: خودروی نیسان من که قرض داده بودم، در پرونده مواد مخدر به نفع دولت ضبط شده. من اعتراض ثالث دادم. مرجع
+  [قانون مجازات اسلامی - ماده ۲۱۵] Gemini sim(query, gold_article) = 0.6451
+  [قانون آیین دادرسی کیفری - ماده ۱۴۸] Gemini sim(query, gold_article) = 0.6084
+
+======================================================================
+ruling_id: 35603  case_type: کیفری
+query: من به خاطر زدن چاقو و ایجاد جراحت عمدی به شش ماه حبس محکوم شدم. دادگاه بدوی اجرای حبس رو معلق کرده. 
+  [قانون مجازات اسلامی - ماده ۴۷] Gemini sim(query, gold_article) = 0.6433
+
+======================================================================
+ruling_id: 40963  case_type: کیفری
+query: کسی رو با ماشین از جلوی خونه‌ش بردم و بعد جسدش پیدا شد. علت فوت معلوم نیست و من نمی‌تونم ثابت کنم مر
+  [قانون مجازات اسلامی - ماده ۵۱۳] Gemini sim(query, gold_article) = 0.7375
+
+======================================================================
+ruling_id: 25154  case_type: کیفری
+query: تو یه تصادف رانندگی یکی فوت کرده و دادگاه منو به قصاص محکوم کرده. کارشناس راهنمایی گفته من از ماشین 
+  [قانون مجازات اسلامی - ماده ۲۱۱] Gemini sim(query, gold_article) = 0.6027
+  [قانون آیین دادرسی کیفری - ماده ۱۶۶] Gemini sim(query, gold_article) = 0.6848
+
+======================================================================
+ruling_id: 29030  case_type: کیفری
+query: پای من بعد از شکستگی استخوان ران کمتر از دو سانتی‌متر کوتاه شده. دادگاه گفته این کوتاهی داخل در درما
+  [قانون مجازات اسلامی - ماده ۵۶۹] Gemini sim(query, gold_article) = 0.5615
+
+======================================================================
+ruling_id: 36525  case_type: کیفری
+query: قاتل بعد از ارتکاب قتل فراری شده و بعداً در درگیری با ماموران کشته شده. قتل در ماه حرام اتفاق افتاده
+  [قانون مجازات اسلامی - ماده ۵۵۶] Gemini sim(query, gold_article) = 0.5880
+
+======================================================================
+ruling_id: 36913  case_type: کیفری
+query: من وکیل یک نفر هستم که به اتهام فروش مال غیر محکوم شده. براش درخواست اعاده دادرسی به دیوان عالی کشور
+  [قانون آیین دادرسی کیفری - ماده ۴۴۰] Gemini sim(query, gold_article) = 0.6856
+  [قانون آیین دادرسی کیفری - ماده ۴۷۶] Gemini sim(query, gold_article) = 0.7171
+
+======================================================================
+ruling_id: 23043  case_type: کیفری
+query: دادگاه منو به خاطر زنای غیرمحصنه به صد ضربه شلاق محکوم کرده و گفته هم اقرار کردم هم علم قاضی داره. ح
+  [قانون مجازات اسلامی - ماده ۲۱۲] Gemini sim(query, gold_article) = 0.6574
+  [قانون آیین دادرسی کیفری - ماده ۴۹۹] Gemini sim(query, gold_article) = 0.7106

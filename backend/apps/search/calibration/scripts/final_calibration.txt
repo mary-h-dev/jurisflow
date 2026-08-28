@@ -1,0 +1,36 @@
+Train label distribution: 58 high / 36 low
+CV AUROC (train_val folds): 0.616 +/- 0.078
+
+Learned coefficients:
+  feature_quality: +0.008
+  ruling_quality: +0.290
+  article_quality: -0.080
+  intercept: +0.046
+
+=== FINAL TEST RESULTS (logistic regression, not grid search) ===
+Test AUROC:    0.613
+Test Spearman: 0.133
+(backend) @mohadese1370 ➜ /workspaces/jurisflow/backend (main) $ 
+
+
+
+
+
+[cache] Saved to /workspaces/jurisflow/backend/apps/search/calibration/cache/test_140_final.pkl
+Train label distribution: 60 high / 52 low
+CV AUROC (train_val folds): 0.564 +/- 0.072
+
+Learned coefficients:
+  feature_quality: +0.002
+  ruling_quality: +0.399
+  article_quality: -0.061
+  intercept: +0.034
+
+=== FINAL TEST RESULTS (logistic regression, not grid search) ===
+Test AUROC:    0.682
+Test Spearman: 0.151
+(backend) @mohadese1370 ➜ /workspaces/jurisflow/backend (main) $ 
+
+
+
+

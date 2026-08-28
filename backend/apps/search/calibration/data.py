@@ -15,7 +15,8 @@ class AnnotatedSample:
     query: str
     gold_articles: list[str]
     gold_routing: dict
-    gold_checklist: list[dict]
+    gold_checklist_by_article: dict
+    excluded_articles: list[dict] = None
 
 
 def load_case_annotations(path: str | Path) -> list[AnnotatedSample]:
@@ -36,7 +37,8 @@ def load_case_annotations(path: str | Path) -> list[AnnotatedSample]:
             query=item["query"],
             gold_articles=item["gold_articles"],
             gold_routing=item["gold_routing"],
-            gold_checklist=item["gold_checklist"],
+            gold_checklist_by_article=item.get("gold_checklist_by_article", {}),
+            excluded_articles=item.get("excluded_articles", []),
         ))
     return samples
 

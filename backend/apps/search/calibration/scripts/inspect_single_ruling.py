@@ -5,9 +5,10 @@ separately with large top_k to distinguish embedding failure vs cutoff.
 Run:
     DJANGO_SETTINGS_MODULE=config.settings.development python -c "
     import django; django.setup()
-    from apps.search.calibration.inspect_single_ruling import run
+    from apps.search.calibration.scripts.inspect_single_ruling import run
     run()
     "
+    DJANGO_SETTINGS_MODULE=config.settings.development python apps/search/calibration/scripts/inspect_single_ruling.py
 """
 
 from __future__ import annotations
@@ -15,8 +16,8 @@ from apps.search.calibration.data import load_case_annotations
 from apps.search.services import search_service
 from apps.search.calibration.metrics import normalize_refs
 
-_ANNOTATION_PATH = "apps/search/calibration/data/annotations/case_grounded_100.json"
-_TARGET_RULING_ID = "34630"
+_ANNOTATION_PATH = "apps/search/calibration/data/annotations/case_grounded.json"
+_TARGET_RULING_ID = "10493"
 _PROBE_K = 30
 
 

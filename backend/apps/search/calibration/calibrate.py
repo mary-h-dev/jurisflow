@@ -8,7 +8,7 @@ from apps.search import confidence as confidence_module
 from apps.search.services import search_service
 from .data import AnnotatedSample, stratified_k_folds
 from .metrics import spearman_correlation, auroc_high_quality, recall_at_k_refs, f1_score_refs
-
+from .leakage_guard import exclude_self_ruling
 logger = logging.getLogger(__name__)
 
 
@@ -96,6 +96,8 @@ def _collect_raw_outputs(samples: list[AnnotatedSample]) -> dict[str, RawSearchO
         except Exception as e:
             logger.error(f"Search failed for ruling_id={sample.ruling_id}: {e}")
             continue
+        
+        result = exclude_self_ruling(result, sample.ruling_id)   
 
         recall = recall_at_k_refs(result.article_refs, sample.gold_articles)
         f1 = f1_score_refs(result.article_refs, sample.gold_articles)

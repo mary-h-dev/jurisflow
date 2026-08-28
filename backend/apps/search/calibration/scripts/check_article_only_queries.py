@@ -8,11 +8,7 @@ with objects like:
     {"query": "...", "gold_articles": ["قانون X - ماده Y", ...]}
 
 Run:
-    DJANGO_SETTINGS_MODULE=config.settings.development python -c "
-    import django; django.setup()
-    from apps.search.calibration.check_article_only_queries import run
-    run()
-    "
+DJANGO_SETTINGS_MODULE=config.settings.development python -c "import django; django.setup(); from apps.search.calibration.scripts.check_article_only_queries import run; run()"
 """
 
 import json

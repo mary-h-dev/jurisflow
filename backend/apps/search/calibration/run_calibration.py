@@ -18,7 +18,7 @@ from .metrics import spearman_correlation, auroc_high_quality
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-_ANNOTATION_PATH ="apps/search/calibration/data/annotations/case_grounded_100.json"
+_ANNOTATION_PATH ="apps/search/calibration/data/annotations/case_grounded.json"
 
 
 def main():
