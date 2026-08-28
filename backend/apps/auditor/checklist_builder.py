@@ -13,6 +13,15 @@ _PERSIAN_TO_LATIN = str.maketrans("۰۱۲۳۴۵۶۷۸۹", "0123456789")
 _MAX_FEATURE_EVIDENCE = 8
 _MAX_RULING_EVIDENCE = 5
 _MAX_GROUNDED_FEATURES_PER_ARTICLE = 10
+_CIVIL_LAW_MARKERS = ("قانون مدنی", "قانون آیین دادرسی مدنی", "قانون تجارت")
+_CRIMINAL_LAW_MARKERS = ("قانون مجازات اسلامی", "قانون آیین دادرسی کیفری")
+
+_CROSS_DOMAIN_PENALTY = 0.3  # multiplies the weight of an article whose law
+                              # family doesn't match the query's case_type_hint --
+                              # not a hard filter, since some civil cases do
+                              # legitimately cite criminal-procedure articles
+                              # (e.g. damages arising from a crime) and vice versa
+
 
 # See the priority-order comment above _rank_article_refs (unchanged) for
 # why article candidates are capped and ranked the way they are.
@@ -29,6 +38,12 @@ CALL {
   LIMIT $limit
 }
 RETURN a.law AS law, a.number AS number, collect({label: feature_label, value: feature_value}) AS top_features
+"""
+
+_BATCH_ARTICLE_TEXT_QUERY = """
+UNWIND $refs AS ref
+MATCH (law:Law {name: ref.law_name})-[:CONTAINS]->(article:Article {article_number: ref.article_number})
+RETURN ref.law_name AS law_name, ref.article_number AS article_number, article.content AS text
 """
 
 
@@ -89,6 +104,45 @@ def _fetch_grounded_features(refs: list[str]) -> dict[str, set[tuple[str, str]]]
     }
 
 
+def _fetch_article_texts(refs: list[str]) -> dict[str, str]:
+    """
+    Batched, deterministic fetch of article text by (law_name,
+    article_number) for every ref in `refs` -- independent of whether
+    the article came from the embedding-based article_channel or only
+    from a ruling's citation. Fixes a real bug: citation-only articles
+    (e.g. ماده ۴۷۴, reached only via ruling citations) previously had
+    empty article_text, because the old article_text_by_ref was built
+    solely from search_result.article_results. Without the article's own
+    text, the verifier prompt's requirement to ground every condition in
+    the article's actual wording (see verifier.py's Golden Rule 1) was
+    impossible to satisfy for those articles.
+
+    Uses the same Law/CONTAINS/Article pattern already proven working by
+    apps/search/services.py's article_channel query -- not the separate
+    Article.law string property used by GROUNDED_IN edges above.
+    """
+    parsed_by_ref = {ref: _parse_article_ref(ref) for ref in refs}
+    refs_param = [
+        {"law_name": law, "article_number": number}
+        for parsed in parsed_by_ref.values() if parsed
+        for law, number in [parsed]
+    ]
+    if not refs_param:
+        return {}
+
+    with neo4j_client.session() as session:
+        rows = session.run(_BATCH_ARTICLE_TEXT_QUERY, refs=refs_param)
+        text_by_law_number = {
+            (row["law_name"], row["article_number"]): row["text"] or ""
+            for row in rows
+        }
+
+    return {
+        ref: text_by_law_number.get(parsed, "")
+        for ref, parsed in parsed_by_ref.items() if parsed
+    }
+
+
 @dataclass
 class ArticleEvidenceBundle:
     """All evidence gathered for a single article_ref, assembled from the
@@ -113,6 +167,33 @@ def _normalized_citations(cited_articles: list[str] | None) -> list[str]:
     return [ref.translate(_LATIN_TO_PERSIAN) for ref in (cited_articles or [])]
 
 
+
+
+def _case_type_penalty(ref: str, case_type_hint: str | None) -> float:
+    """
+    Returns a multiplier (1.0 = no penalty, _CROSS_DOMAIN_PENALTY = penalized)
+    based on whether `ref`'s law family matches the query's case_type_hint
+    (from the router -- see RoutingResult.case_type_hint). Soft penalty,
+    not a hard filter: a cross-domain article with enough citation support
+    can still outrank a same-domain article with very little.
+
+    If case_type_hint is missing/unrecognized, no penalty is applied --
+    better to fall back to the old (unfiltered) behavior than to guess.
+    """
+    if not case_type_hint:
+        return 1.0
+
+    is_civil_ref = ref.startswith(_CIVIL_LAW_MARKERS)
+    is_criminal_ref = ref.startswith(_CRIMINAL_LAW_MARKERS)
+
+    if case_type_hint == "حقوقی" and is_criminal_ref:
+        return _CROSS_DOMAIN_PENALTY
+    if case_type_hint == "کیفری" and is_civil_ref:
+        return _CROSS_DOMAIN_PENALTY
+
+    return 1.0
+
+
 def _rank_article_refs(search_result: SearchResult) -> list[str]:
     """See the priority order explained in the module-level comment above."""
     return [ref for ref, _tier, _weight in debug_rank_article_refs(search_result)]
@@ -126,6 +207,8 @@ def debug_rank_article_refs(search_result: SearchResult) -> list[tuple[str, str,
     'direct' tier + the article_channel score, or 'citation' tier + the
     summed score of every retrieved ruling that cites it.
     """
+    case_type_hint = search_result.routing.case_type_hint if search_result.routing else None
+
     direct_refs_ordered: list[tuple[str, str, float]] = []
     seen = set()
     for e in search_result.article_results:
@@ -134,7 +217,9 @@ def debug_rank_article_refs(search_result: SearchResult) -> list[tuple[str, str,
         ref = f"{e.law_name} - ماده {str(e.article_number).translate(_LATIN_TO_PERSIAN)}"
         if ref not in seen:
             seen.add(ref)
-            direct_refs_ordered.append((ref, "direct", e.score))
+            weight = e.score * _case_type_penalty(ref, case_type_hint)
+            direct_refs_ordered.append((ref, "direct", weight))
+    direct_refs_ordered.sort(key=lambda t: -t[2])  # re-sort since penalty can reorder
 
     citation_weight: dict[str, float] = defaultdict(float)
     for e in search_result.ruling_results:
@@ -143,17 +228,24 @@ def debug_rank_article_refs(search_result: SearchResult) -> list[tuple[str, str,
 
     original_order = {ref: i for i, ref in enumerate(search_result.article_refs)}
     citation_only_refs = [ref for ref in search_result.article_refs if ref not in seen]
-    citation_only_refs.sort(key=lambda ref: (-citation_weight[ref], original_order[ref]))
 
-    citation_ranked = [(ref, "citation", citation_weight[ref]) for ref in citation_only_refs]
+    def _penalized_citation_weight(ref: str) -> float:
+        return citation_weight[ref] * _case_type_penalty(ref, case_type_hint)
+
+    citation_only_refs.sort(key=lambda ref: (-_penalized_citation_weight(ref), original_order[ref]))
+
+    citation_ranked = [(ref, "citation", _penalized_citation_weight(ref)) for ref in citation_only_refs]
     return direct_refs_ordered + citation_ranked
+
 
 
 def build_evidence_bundles(search_result: SearchResult) -> list[ArticleEvidenceBundle]:
     """
     Groups evidence in `search_result` by article_ref so each article can
     be verified independently. An article's supporting evidence is:
-      - its own article text, from article_results
+      - its own article text, fetched deterministically by (law,
+        article_number) for every ranked ref (see _fetch_article_texts) --
+        not dependent on whether article_channel happened to surface it
       - text of ruling evidence that cites it (cited_articles match)
       - feature evidence GROUNDED_IN this specific article (via the
         NPMI-scored GROUNDED_IN edges from database/grounded_in_builder.py),
@@ -173,12 +265,7 @@ def build_evidence_bundles(search_result: SearchResult) -> list[ArticleEvidenceB
     )
     ranked_refs = _rank_article_refs(search_result)[:max_articles]
 
-    article_text_by_ref: dict[str, str] = {}
-    for e in search_result.article_results:
-        if not e.law_name or not e.article_number:
-            continue
-        ref = f"{e.law_name} - ماده {str(e.article_number).translate(_LATIN_TO_PERSIAN)}"
-        article_text_by_ref.setdefault(ref, e.text)
+    article_text_by_ref = _fetch_article_texts(ranked_refs)
 
     grounded_features_by_ref = _fetch_grounded_features(ranked_refs)
 

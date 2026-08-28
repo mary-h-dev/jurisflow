@@ -15,7 +15,7 @@ from .verifier import AuditorAPIError, VerificationError, verify_article
 
 logger = logging.getLogger(__name__)
 
-_DEFAULT_REQUEST_DELAY_SECONDS = 4.0  # keeps Groq free tier (30 RPM / ~6000 TPM) comfortably under its cap
+_DEFAULT_REQUEST_DELAY_SECONDS = 0.5  # spacing between calls; lower this now that OpenRouter is a paid tier, not a free-tier rate limit
 
 
 class AuditorService:
@@ -30,22 +30,24 @@ class AuditorService:
                 time.sleep(delay)
 
             try:
-                checklist = verify_article(search_result.query, bundle)
+                result = verify_article(search_result.query, bundle)
             except AuditorAPIError as e:
                 logger.error(f"Skipping article {bundle.article_ref}: {e}")
                 continue
             except VerificationError as e:
                 logger.warning(f"Skipping article {bundle.article_ref}: {e}")
                 continue
-            audited.append(decide(bundle.article_ref, checklist))
+            audited.append(decide(bundle.article_ref, result.checklist, result.topically_relevant))
 
         auditor_out = AuditorOut(
             query=search_result.query,
             verified_articles=audited,
             pruned_articles=prune(audited),
-            confidence=CombinedConfidenceOut(score=0, level="low"),  # placeholder, overwritten below
+            confidence=CombinedConfidenceOut(
+                score=0, level="low",
+                retrieval_score=0, auditor_score=0, prune_ratio=0,
+        ),
         )
-
         auditor_conf = compute_auditor_confidence(auditor_out)
         combined = combine_confidence(search_result.confidence, auditor_conf)
         auditor_out.confidence = CombinedConfidenceOut(

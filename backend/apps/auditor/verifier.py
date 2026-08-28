@@ -2,21 +2,52 @@ from __future__ import annotations
 
 import json
 import logging
-import time
-
-import requests
-from django.conf import settings
+from dataclasses import dataclass
 
 from .checklist_builder import ArticleEvidenceBundle
+from core.llm_client import get_client
+from .apps_auditor_config import AUDITOR_MODEL
 from .schemas import ChecklistItemOut
+from pathlib import Path
 
 logger = logging.getLogger(__name__)
 
-_GEMINI_MODEL = "gemini-2.5-flash" 
-_GROQ_MODEL = "llama-3.3-70b-versatile"
+
+_CHECKLIST_DB_PATH = Path(__file__).resolve().parent / "data" / "checklist_db.json"
+_checklist_db_cache: dict[str, list[str]] | None = None
+
+
 _MAX_ARTICLE_TEXT_CHARS = 1200
 _MAX_EVIDENCE_TEXT_CHARS = 300
 
+
+
+def _load_checklist_db() -> dict[str, list[str]]:
+    """
+    Loads the offline-generated fixed checklist for annotation-dataset
+    articles (see build_checklist_db.py). Cached in-process -- read once,
+    reused for every verify_article call in this run. Missing file or
+    parse error falls back to an empty dict, which just means every
+    article goes through the normal (LLM-generates-its-own-checklist)
+    path -- never a hard failure.
+    """
+    global _checklist_db_cache
+    if _checklist_db_cache is not None:
+        return _checklist_db_cache
+
+    if not _CHECKLIST_DB_PATH.exists():
+        logger.warning(f"checklist_db.json not found at {_CHECKLIST_DB_PATH}, "
+                        f"all articles will use LLM-generated checklists")
+        _checklist_db_cache = {}
+        return _checklist_db_cache
+
+    try:
+        _checklist_db_cache = json.loads(_CHECKLIST_DB_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as e:
+        logger.warning(f"checklist_db.json unreadable ({e}), falling back to LLM generation")
+        _checklist_db_cache = {}
+
+    return _checklist_db_cache
 
 
 
@@ -26,43 +57,89 @@ def _truncate(text: str, max_chars: int) -> str:
 
 
 _PROMPT_TEMPLATE = """
-تو یک حقوقدان دقیق و محتاط هستی که وظیفه‌ی audit یک ماده‌ی قانونی خاص را نسبت به شرح واقعیت یک پرونده بر عهده داری.
+You are a precise, cautious legal auditor. Your task is to audit whether one specific statutory article applies to the facts of a case.
 
-شرح واقعیت پرونده (query):
+=== CASE FACTS (query) ===
 {query}
 
-ماده‌ی مورد بررسی: {article_ref}
-متن ماده:
+=== ARTICLE UNDER REVIEW: {article_ref} ===
 {article_text}
 
-شواهد پشتیبان (آرای مرتبط و واقعیت‌های استخراج‌شده):
+=== SUPPORTING EVIDENCE (related rulings and extracted facts) ===
 {evidence_block}
 
-قانون طلایی (خیلی مهم): چک‌لیست باید مختصِ **همین ماده** باشد، نه یک خلاصه‌ی کلی از واقعیت پرونده.
-هر شرط باید مستقیماً از یک عنصر قانونی داخل متن همین ماده استخراج شده باشد (مثلاً یک قید، یک استثنا، یک رکن مادی یا معنوی که خودِ این ماده ذکر کرده).
-اگر چک‌لیستی که می‌سازی می‌تواند بدون تغییر برای ماده‌ی دیگری هم استفاده شود (چون فقط واقعیت‌های عمومی پرونده مثل «درگیری رخ داده» یا «متهم شرکت داشته» را تکرار می‌کند)، اشتباه است — آن را دوباره بساز و عناصر خاص همین ماده را پیدا کن.
+GOLDEN RULE 1 (critical): The checklist must be specific to THIS article, not a generic summary of the case facts.
+Every condition must be derived from a legal element actually stated in this article's own text (a qualifier, an exception, a material or mental element the article itself names).
+If a checklist you produce could be reused unchanged for a different article -- because it only restates generic case facts like "a fight occurred" or "the defendant took part" -- it is wrong. Rebuild it and find the elements specific to this article.
 
-مثال درست (برای نشان دادن سطح دقت مورد انتظار):
-ماده مربوط به دفاع مشروع → شرط باید چیزی مثل «تناسب دفاع با خطر احراز شده است» یا «امکان توسل به طرق قانونی دیگر وجود نداشته است» باشد — نه صرفاً «متهم برای دفاع از خود اقدام کرده است».
-ماده مربوط به معاونت در جرم → شرط باید چیزی مثل «کمک یا تحریک متهم مقدم بر وقوع جرم اصلی بوده است» باشد — نه صرفاً «متهم در درگیری شرکت داشته است».
+Example of the expected precision:
+An article on legitimate self-defense -> a condition should read something like "the defense was proportionate to the established danger" or "no lawful alternative was available" -- not merely "the defendant acted in self-defense".
+An article on aiding and abetting -> a condition should read something like "the defendant's assistance or incitement preceded the underlying offense" -- not merely "the defendant was present at the incident".
 
-قانون طلایی دوم (خیلی مهم — قطبیت شرط‌ها): همیشه هر condition را طوری بنویس که satisfied=true به معنای «این عامل به نفع اعمال ماده است» باشد، نه برعکس.
-- اگر متن ماده یک استثنا یا مانع دارد (مثل «...مگر اینکه X» یا «...به‌جز در صورت X»)، آن استثنا را مستقیماً به‌عنوان condition ننویس. آن را وارونه و مثبت بازنویسی کن: مثلاً به‌جای «متهم سابقه محکومیت دارد» (که وقتی false باشد گیج‌کننده است)، بنویس «استثنای سابقه‌ی محکومیت مصداق ندارد» و satisfied را بر همین اساس تعیین کن.
-- اگر ماده یک تکلیف قانونی برای دادگاه/مرجع مقرر کرده و موضوع پرونده دقیقاً **نقض همان تکلیف** است (مثل زمینه‌های اعاده دادرسی که وقتی تکلیفی انجام نشده باشد راه باز می‌شود)، condition را از زاویه‌ی «آیا این زمینه برای اقدام حاضر [مثلاً اعاده دادرسی] فراهم است» بنویس، نه از زاویه‌ی «آیا آن تکلیف انجام شده است». مثال بد: «دادگاه مکلف به تعیین مجازات جایگزین است» با satisfied=false وقتی دادگاه این کار را نکرده — این وارونه است. مثال درست: «دادگاه مجازات جایگزین را علی‌رغم تکلیف قانونی تعیین نکرده است» با satisfied=true.
-- قبل از نهایی کردن هر condition از خودت بپرس: «اگر satisfied=true باشد، آیا این واقعاً به معنای نزدیک‌تر شدن به اعمال ماده است؟» اگر جواب نه است، جمله را وارونه کن.
+GOLDEN RULE 2 (critical -- condition polarity): Always phrase every condition so that satisfied=true means "this factor favors the article applying" -- never the reverse.
+- If the article's text contains an exception or bar (e.g. "... unless X" or "... except where X"), do not write that exception verbatim as the condition. Invert it into a positive statement: instead of "the defendant has a prior conviction" (confusing when false), write "the prior-conviction exception does not apply", and set satisfied accordingly.
+- If the article imposes a legal duty on the court/authority, and the case is precisely about a FAILURE of that duty (e.g. grounds for retrial that open up when a duty was not fulfilled), phrase the condition from the angle of "is this ground available for the present action [e.g. retrial]", not "was that duty fulfilled". Bad example: "the court is obligated to impose a substitute penalty" with satisfied=false when the court didn't -- this is inverted. Good example: "the court failed to impose the legally required substitute penalty" with satisfied=true.
+- Before finalizing each condition, ask yourself: "if satisfied=true, does this genuinely move the case closer to the article applying?" If the answer is no, invert the wording.
 
-وظیفه‌ی تو:
-۱. یک چک‌لیست تشخیصی از شرایط قانونی لازم برای اعمال **همین ماده** (طبق دو قانون طلایی بالا) بساز — فقط بر اساس متن ماده و شواهد نمایش داده‌شده، نه دانش خارجی.
-۲. هر شرط را با توجه به شرح واقعیت و شواهد بالا ارزیابی کن و مشخص کن آیا برقرار است (satisfied) یا نه.
-۳. برای هر شرط مشخص کن آیا یک شرط ضروری (necessary) برای اعمال ماده است یا صرفاً زمینه‌ای/توضیحی.
 
-فقط یک آبجکت JSON با ساختار زیر برگردان، بدون هیچ متن اضافه. مقدار satisfied باید همیشه دقیقاً true یا false باشد (هیچ‌وقت "unknown" یا مقدار دیگر)؛ اگر مطمئن نیستی، بر اساس بهترین برداشتت از شواهد موجود true یا false انتخاب کن:
+GOLDEN RULE 3 (critical -- stay inside this article's own elements): The checklist's necessary conditions must come ONLY from the legal elements this article's own text actually requires (subject matter, actors, thresholds, procedural triggers, etc). Supporting evidence may be used to judge whether those elements are met -- never to introduce a NEW condition this article's text does not itself impose.
+A competing or alternative legal basis mentioned in the evidence (e.g. a different article, or a contractual clause that might displace this one) is NEVER a condition of THIS article. Do not add a condition like "the parties did not otherwise agree on damages" or "no other legal basis applies" just because supporting evidence discusses a competing provision -- that is a separate legal question for deliberation, not an element this article's own text requires. If you catch yourself writing a condition phrased as "X does not apply instead" or "no other Y exists", stop -- that is almost always this exact mistake. Delete it.This is the single most common mistake in this task -- watch for it specifically.
+
+YOUR TASK:
+1. First, decide topical relevance: is this article about the same legal issue the query raises at all -- regardless of whether it ultimately applies? An article defining a threshold the case falls short of (e.g. "at least 3 participants required" when the case has 2) is topically relevant even though it will turn out inapplicable. An article about an unrelated matter (e.g. weapons possession, when the query is about phone harassment) is not topically relevant, even if it was retrieved.
+2. Build a diagnostic checklist of the legal conditions required for THIS article to apply (per all three golden rules above) -- based only on the article text and the evidence shown, not outside knowledge. Every condition must trace back to a specific phrase in the article text itself -- if you cannot point to the words in the article that a condition comes from, it does not belong on this checklist.
+   LIMIT: at most 3 necessary conditions. Most articles have 1-2 core elements; if you have written more than 3, you have almost certainly split one element into several, or smuggled in a condition from the case facts or a competing article rather than this article's own text. Merge or cut down to the 3 most essential.
+3. Evaluate each condition against the case facts and evidence above, and determine whether it is satisfied.
+4. For each condition, determine whether it is a necessary condition for the article to apply, or merely contextual/explanatory.
+5. SELF-CHECK before finalizing: for every necessary condition, re-read the article text under review and confirm you can point to the specific words it comes from. If a condition instead comes from something the evidence says about a DIFFERENT article, a competing legal basis, or a general fact pattern -- delete it. This check overrides everything else: it is better to end up with 1 necessary condition than to keep one you cannot source to this article's own text.
+
+
+LANGUAGE REQUIREMENT (critical): write every "condition" string in Persian (فارسی), using proper legal Persian terminology -- never English or a mix of languages within one checklist. This is because the output must stay directly comparable to Persian-language gold annotations and be read by Persian-speaking legal reviewers.
+
+Return ONLY a single JSON object with this structure, no extra text. The value of satisfied must always be exactly true or false (never "unknown" or anything else); if uncertain, pick true or false based on your best reading of the evidence available:
 {{
+  "topically_relevant": true,
   "checklist": [
     {{"condition": "...", "necessary": true, "satisfied": true}}
   ]
 }}
 """
+
+
+
+_EVALUATION_ONLY_PROMPT_TEMPLATE = """
+You are a precise, cautious legal auditor. Your task is to evaluate whether one specific statutory article applies to the facts of a case, using a FIXED checklist of conditions -- you do not create the checklist, only evaluate it.
+
+=== CASE FACTS (query) ===
+{query}
+
+=== ARTICLE UNDER REVIEW: {article_ref} ===
+{article_text}
+
+=== SUPPORTING EVIDENCE (related rulings and extracted facts) ===
+{evidence_block}
+
+=== FIXED CHECKLIST (do not add, remove, or reword any condition) ===
+{conditions_block}
+
+GOLDEN RULE (critical -- polarity): For each condition, satisfied=true must always mean "this factor favors the article applying." If a condition is phrased as an exception or bar, satisfied=true means the exception does NOT apply (i.e. the bar is absent).
+
+YOUR TASK:
+1. Decide topical relevance: is this article about the same legal issue the query raises at all -- regardless of whether it ultimately applies?
+2. For EACH of the fixed conditions listed above, evaluate it against the case facts and evidence, and determine whether it is satisfied. Every condition in the fixed checklist is necessary=true by construction -- do not change this.
+3. Do NOT invent any additional condition, even if the evidence discusses a competing article or an alternative legal basis. Evaluate only the conditions given.
+
+LANGUAGE REQUIREMENT: keep every "condition" string EXACTLY as given in the fixed checklist above -- do not translate, reword, or paraphrase it.
+
+Return ONLY a single JSON object with this structure, no extra text. The value of satisfied must always be exactly true or false:
+{{
+  "topically_relevant": true,
+  "checklist": [
+    {{"condition": "...", "necessary": true, "satisfied": true}}
+  ]
+}}
+"""
+
 
 
 class VerificationError(Exception):
@@ -73,186 +150,60 @@ class VerificationError(Exception):
 
 class AuditorAPIError(VerificationError):
     """The LLM call itself failed: network error, invalid/missing API
-    key, rate limit, quota, timeout, etc. This means verification did
-    not run at all -- distinct from the model running and returning
-    something unusable (see AuditorParseError)."""
+    key, rate limit exhausted after the SDK's own retries, timeout, etc.
+    Verification did not run at all -- distinct from the model running
+    and returning something unusable (see AuditorParseError)."""
 
-    def __init__(self, provider: str, article_ref: str, cause: Exception):
-        self.provider = provider
+    def __init__(self, article_ref: str, cause: Exception):
         self.article_ref = article_ref
         self.cause = cause
         super().__init__(
-            f"{provider} API call failed for {article_ref}: "
-            f"{type(cause).__name__}: {cause}"
+            f"LLM call failed for {article_ref}: {type(cause).__name__}: {cause}"
         )
 
 
 class AuditorParseError(VerificationError):
     """The LLM call succeeded but the response was not valid JSON, or
-    didn't match the expected checklist schema. Includes a truncated
-    copy of the raw response to help debug prompt/schema drift."""
+    didn't match the expected checklist schema after _MAX_PARSE_RETRIES
+    attempts. Includes a truncated copy of the raw response to help
+    debug prompt/schema drift."""
 
-    def __init__(self, provider: str, article_ref: str, raw_text: str | None, cause: Exception):
-        self.provider = provider
+    def __init__(self, article_ref: str, raw_text: str, cause: Exception):
         self.article_ref = article_ref
         self.raw_text = raw_text
         self.cause = cause
-        preview = (raw_text or "")[:500]
         super().__init__(
-            f"Could not parse {provider} response for {article_ref}: "
+            f"Could not parse response for {article_ref}: "
             f"{type(cause).__name__}: {cause}\n"
-            f"raw response (truncated): {preview!r}"
+            f"raw response (truncated): {raw_text[:500]!r}"
         )
 
 
-def _call_gemini(prompt: str) -> str:
-    from google import genai
-    from google.genai import types
-
-    client = genai.Client(api_key=settings.GEMINI_API_KEY)
-    response = client.models.generate_content(
-        model=_GEMINI_MODEL,
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            response_mime_type="application/json",
-            temperature=0.0,
-        ),
-    )
-    return response.text or ""
+_MAX_PARSE_RETRIES = 2
 
 
+@dataclass
+class VerificationResult:
+    topically_relevant: bool
+    checklist: list[ChecklistItemOut]
 
 
-_MAX_RETRIES = 3
-_BACKOFF_BASE_SECONDS = 5.0
-
-
-def _post_chat_completion_with_retry(url: str, headers: dict, model: str, prompt: str) -> str:
+def verify_article(query: str, bundle: ArticleEvidenceBundle) -> VerificationResult:
     """
-    Shared OpenAI-compatible chat-completions caller with 429 retry +
-    exponential backoff, used by both Groq and OpenRouter. Free tiers on
-    both can be exceeded mid-run even with a fixed delay between requests
-    -- longer prompts (more evidence) burn the per-minute token budget
-    faster than the per-minute request budget. Honors Retry-After when
-    the provider sends one; otherwise backs off base * 2**attempt seconds.
-    """
-    last_error: Exception | None = None
-
-    for attempt in range(_MAX_RETRIES):
-        logger.info(f"sending request to {url} (attempt {attempt + 1}/{_MAX_RETRIES})")
-        response = requests.post(
-            url,
-            headers=headers,
-            json={
-                "model": model,
-                "messages": [{"role": "user", "content": prompt}],
-                "temperature": 0.0,
-                "response_format": {"type": "json_object"},
-            },
-            timeout=(10, 60),  # (connect_timeout, read_timeout) -- explicit split so a
-                               # connection-level hang fails in 10s instead of possibly
-                               # not honoring a bare int under some proxy setups
-        )
-        logger.info(f"got response from {url}: status={response.status_code}")
-
-        if response.status_code == 429:
-            retry_after = response.headers.get("Retry-After")
-            wait_seconds = (
-                float(retry_after) if retry_after
-                else _BACKOFF_BASE_SECONDS * (2 ** attempt)
-            )
-            logger.warning(
-                f"{url} rate limit hit (attempt {attempt + 1}/{_MAX_RETRIES}), "
-                f"waiting {wait_seconds:.1f}s"
-            )
-            last_error = requests.HTTPError(f"429 rate limited: {response.text[:200]}")
-            time.sleep(wait_seconds)
-            continue
-
-        response.raise_for_status()
-        data = response.json()
-        choice = data["choices"][0]
-        content = choice.get("message", {}).get("content")
-
-        if not content:
-            # Some free-tier models (observed with OpenRouter's gpt-oss-20b)
-            # burn the whole output budget on reasoning tokens and return
-            # content=None/"" with finish_reason="length" or similar. This
-            # is not a network/HTTP failure, so it doesn't retry here --
-            # it's surfaced to the caller as a clear error instead of
-            # silently propagating None into json.loads().
-            finish_reason = choice.get("finish_reason", "unknown")
-            raise ValueError(
-                f"empty completion content (finish_reason={finish_reason!r}); "
-                f"the model likely exhausted its output budget on reasoning "
-                f"tokens without producing a final answer"
-            )
-
-        return content
-
-    raise last_error or RuntimeError(f"{url} call failed after retries")
-
-
-_GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
-_OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
-_OPENROUTER_MODEL = "openai/gpt-oss-20b:free"
-# google/gemma-4-26b-a4b-it:free
-# openai/gpt-oss-20b:free
-# z-ai/glm-5.2:free
-
-
-
-def _call_groq(prompt: str) -> str:
-    headers = {
-        "Authorization": f"Bearer {settings.GROQ_API_KEY}",
-        "Content-Type": "application/json",
-    }
-    return _post_chat_completion_with_retry(_GROQ_URL, headers, _GROQ_MODEL, prompt)
-
-
-def _call_openrouter(prompt: str) -> str:
-    headers = {
-        "Authorization": f"Bearer {settings.OPENROUTER_API_KEY}",
-        "Content-Type": "application/json",
-    }
-    return _post_chat_completion_with_retry(_OPENROUTER_URL, headers, _OPENROUTER_MODEL, prompt)
-
-
-_PROVIDERS = {
-    "gemini": _call_gemini,
-    "groq": _call_groq,
-    "openrouter": _call_openrouter,
-}
-
-
-def verify_article(query: str, bundle: ArticleEvidenceBundle) -> list[ChecklistItemOut]:
-    """
-    Single combined LLM call per article: builds the diagnostic checklist
-    for `bundle.article_ref` and evaluates every condition against `query`
-    and `bundle.supporting_texts` in one pass. Checklist generation and
+    Single combined LLM call per article: decides topical relevance,
+    builds the diagnostic checklist for `bundle.article_ref`, and
+    evaluates every condition against `query` and
+    `bundle.supporting_texts` in one pass. Checklist generation and
     item-wise verification are merged into one request to halve the
     number of LLM calls versus a two-step pipeline.
 
-    Provider is chosen via settings.AUDITOR_LLM_PROVIDER ("groq",
-    "openrouter", or "gemini"), defaulting to "groq". To switch providers,
-    change only this ONE setting -- no code change needed:
-
-        AUDITOR_LLM_PROVIDER = "openrouter"   # temporary, free-tier fallback
-        AUDITOR_LLM_PROVIDER = "groq"         # previous default
-        AUDITOR_LLM_PROVIDER = "gemini"       # production, once billing is set up
+    Uses the shared LLMClient (see client.py, initialised in apps.py)
+    pointed at OpenRouter, with model/temperature from config.AUDITOR_MODEL.
 
     Raises AuditorAPIError if the API call itself fails, or
-    AuditorParseError if the call succeeds but the response can't be
-    parsed into ChecklistItemOut records. Both subclass VerificationError.
+    AuditorParseError if every parse attempt fails. Both subclass
+    VerificationError.
     """
-    provider_name = getattr(settings, "AUDITOR_LLM_PROVIDER", "groq")
-    call = _PROVIDERS.get(provider_name)
-    if call is None:
-        raise ValueError(
-            f"Unknown AUDITOR_LLM_PROVIDER={provider_name!r}, "
-            f"expected one of {list(_PROVIDERS)}"
-        )
-
     evidence_block = "\n".join(
         f"- {_truncate(t, _MAX_EVIDENCE_TEXT_CHARS)}" for t in bundle.supporting_texts
     )
@@ -261,46 +212,80 @@ def verify_article(query: str, bundle: ArticleEvidenceBundle) -> list[ChecklistI
     article_text = bundle.article_text or "(متن ماده در دسترس نیست)"
     article_text = _truncate(article_text, _MAX_ARTICLE_TEXT_CHARS)
 
-    prompt = _PROMPT_TEMPLATE.format(
-        query=query,
-        article_ref=bundle.article_ref,
-        article_text=article_text,
-        evidence_block=evidence_block,
-    )
 
-    _MAX_PARSE_RETRIES = 2
+    predefined_conditions = _load_checklist_db().get(bundle.article_ref)
+
+    if predefined_conditions:
+        conditions_block = "\n".join(f"- {c}" for c in predefined_conditions)
+        prompt = _EVALUATION_ONLY_PROMPT_TEMPLATE.format(
+            query=query,
+            article_ref=bundle.article_ref,
+            article_text=article_text,
+            evidence_block=evidence_block,
+            conditions_block=conditions_block,
+        )
+    else:
+        prompt = _PROMPT_TEMPLATE.format(
+            query=query,
+            article_ref=bundle.article_ref,
+            article_text=article_text,
+            evidence_block=evidence_block,
+        )
+
+
+
+    messages = [{"role": "user", "content": prompt}]
+
     last_parse_error: Exception | None = None
     last_raw_text = ""
 
     for attempt in range(_MAX_PARSE_RETRIES):
         try:
-            raw_text = call(prompt)
+            raw_text = get_client().complete(
+                model=AUDITOR_MODEL.model,
+                temperature=AUDITOR_MODEL.temperature,
+                messages=messages,
+                max_tokens=AUDITOR_MODEL.max_tokens,
+            )
         except Exception as e:
-            logger.error(f"{provider_name} API call failed for {bundle.article_ref}: {e}")
-            raise AuditorAPIError(provider_name, bundle.article_ref, e) from e
+            logger.error(f"LLM call failed for {bundle.article_ref}: {e}")
+            raise AuditorAPIError(bundle.article_ref, e) from e
 
+        raw_text = raw_text.replace("```json", "").replace("```", "").strip()
         last_raw_text = raw_text
+
         try:
             raw = json.loads(raw_text)
-            items = raw.get("checklist") if isinstance(raw, dict) else raw
+            if not isinstance(raw, dict):
+                raise ValueError(f"expected a JSON object, got {type(raw).__name__}")
+
+            items = raw.get("checklist")
             if not isinstance(items, list) or not items:
-                raise ValueError(f"expected a non-empty list, got {items!r}")
+                raise ValueError(f"expected a non-empty 'checklist' list, got {items!r}")
+
+            topically_relevant = raw.get("topically_relevant")
+            if not isinstance(topically_relevant, bool):
+                logger.warning(
+                    f"topically_relevant missing/invalid for {bundle.article_ref} "
+                    f"({topically_relevant!r}), defaulting to True (conservative -- "
+                    f"don't silently drop an article from downstream context)"
+                )
+                topically_relevant = True
 
             checklist: list[ChecklistItemOut] = []
             for item in items:
                 try:
                     checklist.append(ChecklistItemOut(**item))
                 except Exception as item_error:
-                    # One malformed item (e.g. an extra/missing field) doesn't
-                    # need to discard an otherwise-usable checklist -- skip
-                    # just that item and keep going.
+                    # One malformed item doesn't need to discard an
+                    # otherwise-usable checklist -- skip just that item.
                     logger.warning(
                         f"Skipping malformed checklist item for {bundle.article_ref}: "
                         f"{item_error} -- item was {item!r}"
                     )
             if not checklist:
                 raise ValueError("every checklist item failed to parse")
-            return checklist
+            return VerificationResult(topically_relevant=topically_relevant, checklist=checklist)
         except Exception as e:
             last_parse_error = e
             logger.warning(
@@ -310,4 +295,4 @@ def verify_article(query: str, bundle: ArticleEvidenceBundle) -> list[ChecklistI
                 f"Auditor response parsing failed for {bundle.article_ref}: {e}"
             )
 
-    raise AuditorParseError(provider_name, bundle.article_ref, last_raw_text, last_parse_error)
+    raise AuditorParseError(bundle.article_ref, last_raw_text, last_parse_error)

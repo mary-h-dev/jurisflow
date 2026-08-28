@@ -36,9 +36,26 @@ class ChecklistItemOut(BaseModel):
 
 
 class AuditedArticleOut(BaseModel):
+    """
+    is_applicable and topically_relevant answer two different questions
+    and must NOT be conflated:
+      - is_applicable: does the article's legal test come out True or
+        False given the case facts (the checklist's necessary conditions).
+      - topically_relevant: is the article about the same legal issue
+        the query raises, regardless of which way is_applicable came out.
+
+    A "no" answer is often the correct answer -- e.g. a query asking
+    whether 2 participants meet a 3-participant threshold, where the
+    governing article's own headcount condition is the reason the
+    answer is no. That article is topically_relevant=True,
+    is_applicable=False, and MUST still reach the deliberation layer:
+    downstream code must not filter on is_applicable alone, or it will
+    silently drop the article that the final answer needs to cite.
+    """
     article_ref: str
     checklist: list[ChecklistItemOut]
     is_applicable: bool
+    topically_relevant: bool
     auditor_confidence: float
 
 
