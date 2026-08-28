@@ -24,9 +24,21 @@ class Neo4jClient:
             self._driver = GraphDatabase.driver(
                 settings.NEO4J_URI,
                 auth=(settings.NEO4J_USERNAME, settings.NEO4J_PASSWORD),
+                max_connection_lifetime=300,        # recycle connections every 5 min --
+                                                    # avoids handing out a connection the
+                                                    # server/network silently dropped
+                                                    # after being idle during long
+                                                    # Auditor delays between LLM calls
+                connection_acquisition_timeout=60,
+                keep_alive=True,
             )
             logger.debug("Neo4j driver created")
         return self._driver
+    
+
+
+
+
 
     def session(self) -> Session:
         return self.driver.session()
