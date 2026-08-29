@@ -1,14 +1,20 @@
+"""
+Judge agent — impartial evaluation that sees both sides before ruling.
+"""
+
 from __future__ import annotations
 
 import json
 import logging
 
+from core.llm_client import get_client
+
+from apps.legal_agents.llm_config import JUDGE_MODEL
 from apps.legal_agents.nodes._base import (
     BaseDeliberationAgent,
-    _format_applicable_articles,
+    _format_articles,
     _RESPONSE_SCHEMA,
     _SHARED_CONTEXT,
-    _get_client,
 )
 from apps.legal_agents.schemas import AgentOpinion, AuditorOut, Verdict
 
@@ -23,7 +29,7 @@ and the verified articles only. Your verdict must reflect the most likely court 
 class JudgeAgent(BaseDeliberationAgent):
     role          = "judge"
     system_prompt = _SYSTEM_PROMPT
-    temperature   = 0.1
+    model_config  = JUDGE_MODEL
 
     def _role_instruction(self) -> str:
         return """\
@@ -58,7 +64,7 @@ class JudgeAgent(BaseDeliberationAgent):
         user_message = (
             _SHARED_CONTEXT.format(
                 query       = auditor_out.query,
-                articles    = _format_applicable_articles(auditor_out),
+                articles    = _format_articles(auditor_out),
                 prior_score = auditor_out.confidence.score,
                 prior_level = auditor_out.confidence.level,
                 prune_ratio = auditor_out.confidence.prune_ratio,
@@ -69,14 +75,18 @@ class JudgeAgent(BaseDeliberationAgent):
             + _RESPONSE_SCHEMA
         )
 
-        raw = _get_client().complete(
-            model       = self.model,
-            temperature = self.temperature,
+        raw = get_client().complete(
+            model       = self.model_config.model,
+            temperature = self.model_config.temperature,
             messages    = [
                 {"role": "system", "content": self.system_prompt},
                 {"role": "user",   "content": user_message},
             ],
+            max_tokens  = self.model_config.max_tokens,
         )
+        if not raw:
+            raise ValueError(f"Empty response from model '{self.model_config.model}'")
+
         raw  = raw.replace("```json", "").replace("```", "").strip()
         data = json.loads(raw)
 

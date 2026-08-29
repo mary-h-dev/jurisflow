@@ -2,7 +2,7 @@
 Unit tests for apps.legal_agents.fusion.deterministic.
 
 No LLM calls, no Django setup required.
-Run with:  pytest apps/legal_agents/tests/test_fusion.py -v
+Run with:  uv run python -m pytest apps/legal_agents/tests/test_fusion.py -v
 """
 
 from __future__ import annotations

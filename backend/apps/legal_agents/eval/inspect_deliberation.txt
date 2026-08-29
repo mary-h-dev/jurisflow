@@ -1,0 +1,117 @@
+backend) @mohadese1370 ➜ /workspaces/jurisflow/backend (main) $ DJANGO_SETTINGS_MODULE=config.settings.development python -c "import django; django.setup(); from apps.legal_agents.inspect_deliberation import run; run()"
+======================================================================
+DELIBERATION DEBUG  |  ruling=10362
+======================================================================
+
+Query:
+  در یک تصادف رانندگی که خودم مقصر بودم، همسر و فرزنم فوت کردند. آیا من به عنوان تنها وارث اون‌ها حق دریافت و مطالبه دیه فوتشون رو دارم؟
+
+Auditor confidence: 0.74  (high)  prune_ratio=40%
+
+======================================================================
+ARTICLE SUMMARY
+======================================================================
+
+APPLICABLE (5):
+  ✓  قانون مجازات اسلامی - ماده ۴۵۱  (conf=1.00)
+  ✓  قانون مجازات اسلامی - ماده ۳۵۱  (conf=1.00)
+  ✓  قانون مدنی - ماده ۹۴۶  (conf=1.00)
+  ✓  قانون مدنی - ماده ۹۰۶  (conf=1.00)
+  ✓  قانون مجازات اسلامی - ماده ۴۶۲  (conf=1.00)
+
+NOT APPLICABLE but topically relevant (9):
+  ~  قانون مجازات اسلامی - ماده ۶۱۶  (conf=0.67)
+       failed: وجود مطالبه دیه از ناحیه اولیای دم واجد صلاحیت قانونی
+  ~  قانون مجازات اسلامی - ماده ۳۵۷  (conf=0.50)
+       failed: جنایت ارتکابی از نوع جنایت عمدی باشد
+  ~  قانون مجازات اسلامی - ماده ۳۵۲  (conf=0.50)
+       failed: حق قصاص به دیه تبدیل شده یا مصالحه شده باشد
+  ~  قانون مدنی - ماده ۸۸۰  (conf=0.50)
+       failed: عمدی بودن قتل
+  ~  قانون مجازات اسلامی - ماده ۴۶۸  (conf=0.50)
+       failed: فرد در زمان فوت توانایی ارث‌بردن داشته باشد
+  ~  قانون مجازات اسلامی - ماده ۴۸۷  (conf=0.50)
+       failed: شناخته نشدن قاتل یا کشته شدن بر اثر ازدحام
+  ~  قانون مدنی - ماده ۸۸۵  (conf=0.50)
+       failed: مطالبه ارث توسط اولاد شخص ممنوع از ارث
+  ~  قانون مدنی - ماده ۸۶۶  (conf=0.50)
+       failed: عدم وجود هرگونه وارث برای متوفی
+  ~  قانون مجازات اسلامی - ماده ۳۴۸  (conf=0.00)
+       failed: موضوع حق یا ادعا «حق قصاص» باشد
+       failed: شرایط انتقال و ارث‌بری حق قصاص محقق باشد
+
+PRUNED — not sent to agents (1):
+  ✗  قانون مجازات اسلامی - ماده ۷۱۴
+
+======================================================================
+RUNNING AGENTS  (LLM calls — may take ~30s)
+======================================================================
+
+======================================================================
+PER-AGENT OPINIONS
+======================================================================
+
+  [DEFENDER]
+    verdict    : strong_for
+    confidence : 0.90
+    position   : The client, as the sole legal heir of the deceased wife and child, has a strong legal right to claim and receive the 'diya' (blood money) for their deaths, despite being the perpetrator of the accident.
+    arguments  :
+      1. The client, as the killer and an heir of the deceased, is entitled to claim 'diya' for the death of his wife and child, regardless of whether the killing was intentional, semi-intentional, or by pure mistake.
+      2. The client, as a legal heir, has the right to claim 'diya' as long as the claim is not related to the right of 'qisas' (retribution in kind).
+      3. The client, as the husband, is entitled to inherit from his deceased wife's estate, which includes the 'diya', given the legal marital relationship at the time of death.
+      4. In the absence of children or grandchildren for the deceased, and with at least one parent of the deceased alive, the inheritance rules for 'diya' would still apply, and the client, as the surviving spouse, would be a primary heir.
+    cited      : قانون مجازات اسلامی - ماده ۴۵۱, قانون مجازات اسلامی - ماده ۳۵۱, قانون مدنی - ماده ۹۴۶, قانون مدنی - ماده ۹۰۶, قانون مجازات اسلامی - ماده ۴۶۲
+    risks      :
+      - The nature of the 'diya' claim (whether it is for the wife or child) might have specific nuances in inheritance distribution that need careful consideration.
+      - While the client is the perpetrator, the legal framework clearly separates the criminal liability from the inheritance rights to 'diya'. However, public perception or emotional factors in court might need careful management.
+
+  [PROSECUTOR]
+    verdict    : strong_against
+    confidence : 0.90
+    position   : شما به عنوان قاتل، حق دریافت دیه از مقتولین را نخواهید داشت، حتی اگر تنها وارث باشید.
+    arguments  :
+      1. بر اساس ماده ۴۵۱ قانون مجازات اسلامی، اگر قاتل از ورثه مقتول باشد، از ارث و دیه محروم می‌شود. در این پرونده، شما به عنوان مقصر حادثه که منجر به فوت همسر و فرزندتان شده‌اید، قاتل محسوب می‌شوید و بنابراین از دریافت دیه آنها محروم خواهید بود.
+      2. ماده ۳۵۱ قانون مجازات اسلامی اگرچه به ورثه قانونی اجازه مطالبه دیه را می‌دهد، اما این ماده نمی‌تواند بر حکم صریح ماده ۴۵۱ غلبه کند که قاتل را از ارث و دیه محروم می‌سازد. حق شما برای مطالبه دیه به دلیل وضعیتتان به عنوان قاتل، سلب شده است.
+      3. ماده ۴۶۲ قانون مجازات اسلامی که به پرداخت دیه در جنایات عمدی یا شبه‌عمدی اشاره دارد، به معنای حق قاتل برای دریافت دیه نیست، بلکه به تکلیف پرداخت دیه از سوی قاتل یا عاقله او اشاره دارد. این ماده حق شما را برای دریافت دیه ایجاد نمی‌کند.
+    cited      : قانون مجازات اسلامی - ماده ۴۵۱, قانون مجازات اسلامی - ماده ۳۵۱, قانون مجازات اسلامی - ماده ۴۶۲
+    risks      :
+      - خطر اصلی این است که دادگاه به دلیل وضعیت شما به عنوان قاتل، درخواست شما برای دریافت دیه را رد خواهد کرد.
+      - ممکن است با اتهامات کیفری دیگری نیز مواجه شوید که مستقل از موضوع دیه است.
+      - حتی اگر تنها وارث باشید، قانون صراحتاً قاتل را از ارث و دیه محروم کرده است و این یک مانع قانونی جدی است.
+
+  [JUDGE]
+    verdict    : strong_against
+    confidence : 0.95
+    position   : The claimant, as the perpetrator of the deaths, is legally barred from inheriting the 'diya' of his deceased wife and child.
+    arguments  :
+      1. According to Article 451 of the Islamic Penal Code, if the killer is among the heirs of the deceased, they are deprived of both inheritance and 'diya'. Since the claimant is the perpetrator of the accident that led to the death of his wife and child, he is considered the killer and is thus barred from receiving their 'diya'.
+      2. While Article 351 of the Islamic Penal Code allows legal heirs to claim 'diya', this right is superseded by the explicit prohibition in Article 451 for a killer to inherit 'diya'. The claimant's right to claim 'diya' is nullified due to his status as the killer.
+      3. Article 462 of the Islamic Penal Code, which addresses the payment of 'diya' in intentional or semi-intentional crimes, pertains to the obligation of the killer or their 'Aqeleh' to pay 'diya', not to the killer's right to receive it. This article does not establish a right for the claimant to receive 'diya'.
+    cited      : قانون مجازات اسلامی - ماده ۴۵۱
+    risks      :
+      - The interpretation of 'قاتل' (killer) in the context of an accidental death (خطای محض) might be debated, but generally, the person whose actions directly caused the death, even if unintentional, is considered the perpetrator for the purpose of inheritance disqualification.
+
+======================================================================
+FUSION  (deterministic)
+======================================================================
+
+  consensus       : majority
+  majority verdict: strong_against
+  verdict spread  : {'defender': 'strong_for', 'prosecutor': 'strong_against', 'judge': 'strong_against'}
+  agent conf      : mean=0.92  std=0.03
+  prior conf      : 0.74
+  final conf      : 0.85  (high)
+  uncertainty flag: False
+  agreed articles : ['قانون مجازات اسلامی - ماده ۳۵۱', 'قانون مجازات اسلامی - ماده ۴۵۱', 'قانون مجازات اسلامی - ماده ۴۶۲']
+
+======================================================================
+CITATION LEAK CHECK
+======================================================================
+  ✓  No citation leaks — agents respected pruned articles
+
+======================================================================
+SUMMARY
+======================================================================
+  completed nodes : ['defender', 'prosecutor', 'judge', 'fusion']
+  total elapsed   : 12.2s
+(backend) @mohadese1370 ➜ /workspaces/jurisflow/backend (main) $ 

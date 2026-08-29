@@ -1,5 +1,8 @@
 """
-Shared LLM client and base class for the three deliberation agents.
+Shared scaffolding for the three deliberation agents.
+
+The LLM client is sourced from core.llm_client (shared with apps.auditor
+and apps.search) -- no per-app client construction here.
 """
 
 from __future__ import annotations
@@ -8,70 +11,46 @@ import json
 import logging
 from abc import ABC, abstractmethod
 
-from openai import OpenAI
+from core.llm_client import ModelConfig, get_client
 
+from apps.legal_agents.llm_config import DELIBERATION_MODEL
 from apps.legal_agents.schemas import AgentOpinion, AuditorOut, Verdict
 
 logger = logging.getLogger(__name__)
 
 
 # ---------------------------------------------------------------------------
-# LLM client
-# ---------------------------------------------------------------------------
-
-class LLMClient:
-    """OpenAI-compatible client — pointed at OpenRouter."""
-
-    def __init__(self, api_key: str, base_url: str) -> None:
-        self._client = OpenAI(api_key=api_key, base_url=base_url)
-
-    def complete(self, model: str, temperature: float, messages: list[dict]) -> str:
-        response = self._client.chat.completions.create(
-            model       = model,
-            messages    = messages,
-            temperature = temperature,
-            max_tokens  = 1024,
-        )
-        return response.choices[0].message.content.strip()
-
-
-_client: LLMClient | None = None
-
-
-def init_client(client: LLMClient) -> None:
-    global _client
-    _client = client
-
-
-def _get_client() -> LLMClient:
-    if _client is None:
-        raise RuntimeError("LLMClient not initialised — check apps.py AppConfig.ready()")
-    return _client
-
-
-# ---------------------------------------------------------------------------
 # Prompt helpers
 # ---------------------------------------------------------------------------
 
-def _format_applicable_articles(auditor_out: AuditorOut) -> str:
+def _format_articles(auditor_out: AuditorOut) -> str:
     lines: list[str] = []
     for art in auditor_out.verified_articles:
-        if not art.is_applicable:
+        if not art.is_applicable and not getattr(art, "topically_relevant", False):
             continue
-        satisfied = [c.condition for c in art.checklist if c.satisfied]
+        if art.is_applicable:
+            status    = "APPLICABLE"
+            satisfied = [c.condition for c in art.checklist if c.satisfied]
+            detail    = f"Satisfied conditions: {'; '.join(satisfied) or 'none'}"
+        else:
+            status = "NOT APPLICABLE"
+            failed = [c.condition for c in art.checklist if c.necessary and not c.satisfied]
+            detail = f"Failed condition(s): {'; '.join(failed) or 'see checklist'}"
         lines.append(
-            f"  • {art.article_ref}  (confidence: {art.auditor_confidence:.2f})\n"
-            f"    Satisfied conditions: {'; '.join(satisfied) or 'none'}"
+            f"  [{status}] {art.article_ref}  (auditor_confidence: {art.auditor_confidence:.2f})\n"
+            f"    {detail}"
         )
-    return "\n".join(lines) if lines else "  (no applicable articles)"
+    return "\n".join(lines) if lines else "  (no relevant articles found)"
 
 
 _SHARED_CONTEXT = """\
 === LEGAL QUERY ===
 {query}
 
-=== VERIFIED APPLICABLE ARTICLES ===
-(Only these passed the Auditor checklist — do NOT cite anything else.)
+=== AUDITOR-VERIFIED ARTICLES ===
+Each article is labelled APPLICABLE or NOT APPLICABLE.
+- Cite APPLICABLE articles as supporting evidence.
+- Use NOT APPLICABLE articles to show why a charge or claim does NOT hold.
 {articles}
 
 === RETRIEVAL QUALITY ===
@@ -98,10 +77,9 @@ Respond with a single JSON object — no markdown fences, no extra keys:
 # ---------------------------------------------------------------------------
 
 class BaseDeliberationAgent(ABC):
-    role:          str
+    role:         str
     system_prompt: str
-    model:         str  = "google/gemini-2.5-flash"
-    temperature:   float = 0.2
+    model_config: ModelConfig = DELIBERATION_MODEL
 
     def run(self, auditor_out: AuditorOut) -> AgentOpinion:
         logger.info("[%s] starting — query=%r", self.role, auditor_out.query[:80])
@@ -109,7 +87,7 @@ class BaseDeliberationAgent(ABC):
         user_message = (
             _SHARED_CONTEXT.format(
                 query       = auditor_out.query,
-                articles    = _format_applicable_articles(auditor_out),
+                articles    = _format_articles(auditor_out),
                 prior_score = auditor_out.confidence.score,
                 prior_level = auditor_out.confidence.level,
                 prune_ratio = auditor_out.confidence.prune_ratio,
@@ -119,14 +97,18 @@ class BaseDeliberationAgent(ABC):
             + _RESPONSE_SCHEMA
         )
 
-        raw = _get_client().complete(
-            model       = self.model,
-            temperature = self.temperature,
+        raw = get_client().complete(
+            model       = self.model_config.model,
+            temperature = self.model_config.temperature,
             messages    = [
                 {"role": "system", "content": self.system_prompt},
                 {"role": "user",   "content": user_message},
             ],
+            max_tokens  = self.model_config.max_tokens,
         )
+        if not raw:
+            raise ValueError(f"Empty response from model '{self.model_config.model}'")
+
         raw  = raw.replace("```json", "").replace("```", "").strip()
         data = json.loads(raw)
 

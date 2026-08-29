@@ -27,6 +27,7 @@ class AuditedArticleOut(BaseModel):
     article_ref:        str
     checklist:          list[ChecklistItemOut]
     is_applicable:      bool
+    topically_relevant: bool  = False  # True when article is relevant even if not applicable
     auditor_confidence: float = Field(ge=0.0, le=1.0)
 
 
@@ -98,6 +99,61 @@ class FusionOut(BaseModel):
 
 
 # ---------------------------------------------------------------------------
+# User-facing checklist  (shown to the end user after deliberation)
+# ---------------------------------------------------------------------------
+
+class ArticleChecklistItem(BaseModel):
+    """One article row in the legal summary section."""
+    article_ref:    str
+    is_applicable:  bool
+    fa_label:       str   # فارسی — e.g. "صدق می‌کند" / "صدق نمی‌کند"
+    en_label:       str   # English — e.g. "Applies" / "Does not apply"
+    reason:         str   # failed / satisfied condition in plain language
+
+
+class AgentChecklistItem(BaseModel):
+    """One row per agent in the debate summary section."""
+    role:       str    # defender | prosecutor | judge
+    fa_role:    str    # وکیل مدافع | دادستان | قاضی
+    verdict:    str
+    fa_verdict: str    # فارسی verdict label
+    confidence: float
+    position:   str
+
+
+class ActionItem(BaseModel):
+    """One recommended action for the end user."""
+    priority:  int     # 1 = most urgent
+    fa_action: str
+    en_action: str
+
+
+class CaseChecklist(BaseModel):
+    """
+    Structured summary shown to the end user after deliberation.
+    Contains three sections: legal articles, agent debate, and action items.
+    """
+
+    # Section A — legal summary
+    overall_fa:     str    # یک جمله خلاصه فارسی
+    overall_en:     str    # one-sentence English summary
+    articles:       list[ArticleChecklistItem]
+
+    # Section B — agent debate
+    agents:         list[AgentChecklistItem]
+    consensus_fa:   str    # توافق / اکثریت / اختلاف نظر
+    consensus_en:   str    # Full agreement / Majority / Split
+
+    # Section C — recommended actions
+    actions:        list[ActionItem]
+
+    # Uncertainty signal
+    uncertainty_flag: bool
+    uncertainty_fa:   str   # توضیح فارسی عدم قطعیت (خالی اگر flag=False)
+    uncertainty_en:   str   # English explanation
+
+
+# ---------------------------------------------------------------------------
 # Final API response
 # ---------------------------------------------------------------------------
 
@@ -109,9 +165,11 @@ class DeliberationOut(BaseModel):
     prosecutor_opinion: Optional[AgentOpinion] = None
     judge_opinion:      Optional[AgentOpinion] = None
 
-    fusion:              Optional[FusionOut]          = None
-    applicable_articles: list[AuditedArticleOut]      = []
+    fusion:              Optional[FusionOut]             = None
+    applicable_articles: list[AuditedArticleOut]         = []
     auditor_confidence:  Optional[CombinedConfidenceOut] = None
+
+    checklist: Optional[CaseChecklist] = None   # user-facing summary
 
     completed_nodes: list[str] = []
     error:           Optional[str] = None

@@ -1,0 +1,226 @@
+backend) @mohadese1370 ➜ /workspaces/jurisflow/backend (main) $ DJANGO_SETTINGS_MODULE=config.settings.development python -c "import django; django.setup(); from apps.legal_agents.inspect_e2e import run; run()"
+
+======================================================================
+END-TO-END DEBUG  |  ruling=10362  |  کیفری
+======================================================================
+
+Query:
+  در یک تصادف رانندگی که خودم مقصر بودم، همسر و فرزنم فوت کردند. آیا من به عنوان تنها وارث اون‌ها حق دریافت و مطالبه دیه فوتشون رو دارم؟
+
+Gold articles   : ['قانون مجازات اسلامی - ماده ۴۵۱']
+Annotation conf : 0.95
+
+======================================================================
+LAYER 1 — RETRIEVAL
+======================================================================
+[embed_text] len=78 chars | preview: 'حکم ارث بردن راننده مقصر در تصادف منجر به قتل غیرعمد از دیه همسر و فرزند متوفی'
+
+  Retrieval confidence : 0.85
+  Elapsed              : 15.6s
+
+  Retrieved articles : 83
+  Gold articles      : 1
+
+  Gold FOUND in retrieval (1):
+    ✓  قانون مجازات اسلامی - ماده ۴۵۱
+
+======================================================================
+LAYER 2 — AUDITOR
+======================================================================
+
+  Auditor confidence : 0.77  (medium)
+  Prune ratio        : 80%
+  Elapsed            : 274.8s
+
+  Applicable after pruning : 5
+    ✓  قانون مجازات اسلامی - ماده ۴۵۱  (conf=1.00)
+    ✓  قانون مجازات اسلامی - ماده ۳۵۱  (conf=1.00)
+    ✓  قانون مدنی - ماده ۹۴۶  (conf=1.00)
+    ✓  قانون مدنی - ماده ۹۰۶  (conf=1.00)
+    ✓  قانون مجازات اسلامی - ماده ۴۶۲  (conf=1.00)
+
+  Pruned (20) :
+    ✗  قانون مجازات اسلامی - ماده ۷۱۴
+    ✗  قانون مجازات اسلامی - ماده ۶۱۶
+    ✗  قانون مجازات اسلامی - ماده ۳۵۷
+    ✗  قانون مجازات اسلامی - ماده ۳۵۲
+    ✗  قانون مدنی - ماده ۶۲۷
+    ✗  قانون مجازات اسلامی - ماده ۴۵۵
+    ✗  قانون مدنی - ماده ۸۸۰
+    ✗  قانون مدنی - ماده ۹۱۱
+    ✗  قانون مدنی - ماده ۹۳۷
+    ✗  قانون مجازات اسلامی - ماده ۴۶۸
+    ✗  قانون مجازات اسلامی - ماده ۴۴۹
+    ✗  قانون مجازات اسلامی - ماده ۳۴۸
+    ✗  قانون مجازات اسلامی - ماده ۴۸۷
+    ✗  قانون مدنی - ماده ۸۸۵
+    ✗  قانون مدنی - ماده ۸۶۶
+    ✗  قانون آیین دادرسی مدنی - ماده ۳۴۸
+    ✗  قانون آیین دادرسی مدنی - ماده ۳
+    ✗  قانون آیین دادرسی مدنی - ماده ۵
+    ✗  قانون آیین دادرسی مدنی - ماده ۳۵۸
+    ✗  قانون مجازات اسلامی - ماده ۷۱۸
+
+  Checklist vs gold:
+
+    [قانون مجازات اسلامی - ماده ۴۵۱]  is_applicable=True
+      (no gold match)  satisfied=True  — قاتل از ورثه مقتول باشد
+      (no gold match)  satisfied=True  — قتل به یکی از صور عمدی، شبه‌عمدی یا خطای محض واقع شده باشد
+  [cache] saved → /tmp/jurisflow_e2e_cache_10362.json
+
+======================================================================
+LAYER 3 — DELIBERATION AGENTS
+======================================================================
+
+  Elapsed : 12.3s
+  [defender  ]  verdict=strong_for        conf=0.90
+  [prosecutor]  verdict=strong_against    conf=0.95
+  [judge     ]  verdict=strong_against    conf=0.90
+
+======================================================================
+UNCERTAINTY REPORT
+======================================================================
+
+  ── Confidence by layer ──────────────────────────────────
+  Retrieval score  : 0.85
+  Auditor score    : 1.00
+  Prune ratio      : 80%
+  Prior (combined) : 0.77  (medium)
+
+  ── Agent deliberation ───────────────────────────────────
+  Verdict spread   : {'defender': 'strong_for', 'prosecutor': 'strong_against', 'judge': 'strong_against'}
+  Consensus        : majority
+  Agent conf mean  : 0.92  std=0.03
+
+  ── Final output ─────────────────────────────────────────
+  Final confidence : 0.86  (high)
+  Uncertainty flag : False
+  Gold confidence  : 0.95
+  Delta vs gold    : 0.09  ✓ good
+
+  ── Uncertainty notes ────────────────────────────────────
+    ⚠  Noisy retrieval: 80% of articles pruned
+
+  ── Article agreement ────────────────────────────────────
+  Agreed by ≥2 agents : ['قانون مجازات اسلامی - ماده ۴۵۱', 'قانون مدنی - ماده ۹۰۶', 'قانون مجازات اسلامی - ماده ۳۵۱', 'قانون مدنی - ماده ۹۴۶']
+  Overlap with gold   : ['قانون مجازات اسلامی - ماده ۴۵۱']
+
+======================================================================
+SUMMARY
+======================================================================
+  Completed nodes : ['defender', 'prosecutor', 'judge', 'fusion']
+  Total elapsed   : 302.7s  (retrieval=15.6s  audit=274.8s  agents=12.3s)
+
+  uncertainty_flag=False  final_level=high
+  → سیستم با اطمینان نسبی نتیجه داد
+
+  [cache] next run will load auditor from: /tmp/jurisflow_e2e_cache_10362.json
+(backend) @mohadese1370 ➜ /workspaces/jurisflow/backend (main) $ 
+
+
+
+
+
+
+
+
+backend) @mohadese1370 ➜ /workspaces/jurisflow/backend (main) $ DJANGO_SETTINGS_MODULE=config.settings.development python -c "import django; django.setup(); from apps.legal_agents.inspect_e2e import run; run()"
+
+======================================================================
+END-TO-END DEBUG  |  ruling=10362  |  کیفری
+======================================================================
+
+Query:
+  در یک تصادف رانندگی که خودم مقصر بودم، همسر و فرزنم فوت کردند. آیا من به عنوان تنها وارث اون‌ها حق دریافت و مطالبه دیه فوتشون رو دارم؟
+
+Gold articles   : ['قانون مجازات اسلامی - ماده ۴۵۱']
+Annotation conf : 0.95
+  [cache] loaded from /tmp/jurisflow_e2e_cache_10362.json — skipping search+audit
+
+======================================================================
+LAYER 1+2 — RETRIEVAL+AUDITOR  (from cache)
+======================================================================
+
+  Applicable after pruning : 5
+    ✓  قانون مجازات اسلامی - ماده ۴۵۱  (conf=1.00)
+    ✓  قانون مجازات اسلامی - ماده ۳۵۱  (conf=1.00)
+    ✓  قانون مدنی - ماده ۹۴۶  (conf=1.00)
+    ✓  قانون مدنی - ماده ۹۰۶  (conf=1.00)
+    ✓  قانون مجازات اسلامی - ماده ۴۶۲  (conf=1.00)
+
+  Pruned (20) :
+    ✗  قانون مجازات اسلامی - ماده ۷۱۴
+    ✗  قانون مجازات اسلامی - ماده ۶۱۶
+    ✗  قانون مجازات اسلامی - ماده ۳۵۷
+    ✗  قانون مجازات اسلامی - ماده ۳۵۲
+    ✗  قانون مدنی - ماده ۶۲۷
+    ✗  قانون مجازات اسلامی - ماده ۴۵۵
+    ✗  قانون مدنی - ماده ۸۸۰
+    ✗  قانون مدنی - ماده ۹۱۱
+    ✗  قانون مدنی - ماده ۹۳۷
+    ✗  قانون مجازات اسلامی - ماده ۴۶۸
+    ✗  قانون مجازات اسلامی - ماده ۴۴۹
+    ✗  قانون مجازات اسلامی - ماده ۳۴۸
+    ✗  قانون مجازات اسلامی - ماده ۴۸۷
+    ✗  قانون مدنی - ماده ۸۸۵
+    ✗  قانون مدنی - ماده ۸۶۶
+    ✗  قانون آیین دادرسی مدنی - ماده ۳۴۸
+    ✗  قانون آیین دادرسی مدنی - ماده ۳
+    ✗  قانون آیین دادرسی مدنی - ماده ۵
+    ✗  قانون آیین دادرسی مدنی - ماده ۳۵۸
+    ✗  قانون مجازات اسلامی - ماده ۷۱۸
+
+  Checklist vs gold:
+
+    [قانون مجازات اسلامی - ماده ۴۵۱]  is_applicable=True
+      (no gold match)  satisfied=True  — قاتل از ورثه مقتول باشد
+      (no gold match)  satisfied=True  — قتل به یکی از صور عمدی، شبه‌عمدی یا خطای محض واقع شده باشد
+
+======================================================================
+LAYER 3 — DELIBERATION AGENTS
+======================================================================
+
+  Elapsed : 13.9s
+  [defender  ]  verdict=strong_for        conf=0.95
+  [prosecutor]  verdict=strong_against    conf=0.95
+  [judge     ]  verdict=strong_against    conf=0.90
+
+======================================================================
+UNCERTAINTY REPORT
+======================================================================
+
+  ── Confidence by layer ──────────────────────────────────
+  Retrieval score  : 0.85
+  Auditor score    : 1.00
+  Prune ratio      : 80%
+  Prior (combined) : 0.77  (medium)
+
+  ── Agent deliberation ───────────────────────────────────
+  Verdict spread   : {'defender': 'strong_for', 'prosecutor': 'strong_against', 'judge': 'strong_against'}
+  Consensus        : majority
+  Agent conf mean  : 0.93  std=0.03
+
+  ── Final output ─────────────────────────────────────────
+  Final confidence : 0.87  (high)
+  Uncertainty flag : False
+  Gold confidence  : 0.95
+  Delta vs gold    : 0.08  ✓ good
+
+  ── Uncertainty notes ────────────────────────────────────
+    ⚠  Noisy retrieval: 80% of articles pruned
+
+  ── Article agreement ────────────────────────────────────
+  Agreed by ≥2 agents : ['قانون مدنی - ماده ۹۴۶', 'قانون مجازات اسلامی - ماده ۳۵۱', 'قانون مدنی - ماده ۹۰۶', 'قانون مجازات اسلامی - ماده ۴۵۱']
+  Overlap with gold   : ['قانون مجازات اسلامی - ماده ۴۵۱']
+
+======================================================================
+SUMMARY
+======================================================================
+  Completed nodes : ['defender', 'prosecutor', 'judge', 'fusion']
+  Total elapsed   : 13.9s  (retrieval=0.0s  audit=0.0s  agents=13.9s)
+
+  uncertainty_flag=False  final_level=high
+  → سیستم با اطمینان نسبی نتیجه داد
+
+  [cache] next run will load auditor from: /tmp/jurisflow_e2e_cache_10362.json
+(backend) @mohadese1370 ➜ /workspaces/jurisflow/backend (main) $ 
