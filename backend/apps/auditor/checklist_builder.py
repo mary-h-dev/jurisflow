@@ -13,15 +13,6 @@ _PERSIAN_TO_LATIN = str.maketrans("۰۱۲۳۴۵۶۷۸۹", "0123456789")
 _MAX_FEATURE_EVIDENCE = 8
 _MAX_RULING_EVIDENCE = 5
 _MAX_GROUNDED_FEATURES_PER_ARTICLE = 10
-_CIVIL_LAW_MARKERS = ("قانون مدنی", "قانون آیین دادرسی مدنی", "قانون تجارت")
-_CRIMINAL_LAW_MARKERS = ("قانون مجازات اسلامی", "قانون آیین دادرسی کیفری")
-
-_CROSS_DOMAIN_PENALTY = 0.3  # multiplies the weight of an article whose law
-                              # family doesn't match the query's case_type_hint --
-                              # not a hard filter, since some civil cases do
-                              # legitimately cite criminal-procedure articles
-                              # (e.g. damages arising from a crime) and vice versa
-
 
 # See the priority-order comment above _rank_article_refs (unchanged) for
 # why article candidates are capped and ranked the way they are.
@@ -167,33 +158,6 @@ def _normalized_citations(cited_articles: list[str] | None) -> list[str]:
     return [ref.translate(_LATIN_TO_PERSIAN) for ref in (cited_articles or [])]
 
 
-
-
-def _case_type_penalty(ref: str, case_type_hint: str | None) -> float:
-    """
-    Returns a multiplier (1.0 = no penalty, _CROSS_DOMAIN_PENALTY = penalized)
-    based on whether `ref`'s law family matches the query's case_type_hint
-    (from the router -- see RoutingResult.case_type_hint). Soft penalty,
-    not a hard filter: a cross-domain article with enough citation support
-    can still outrank a same-domain article with very little.
-
-    If case_type_hint is missing/unrecognized, no penalty is applied --
-    better to fall back to the old (unfiltered) behavior than to guess.
-    """
-    if not case_type_hint:
-        return 1.0
-
-    is_civil_ref = ref.startswith(_CIVIL_LAW_MARKERS)
-    is_criminal_ref = ref.startswith(_CRIMINAL_LAW_MARKERS)
-
-    if case_type_hint == "حقوقی" and is_criminal_ref:
-        return _CROSS_DOMAIN_PENALTY
-    if case_type_hint == "کیفری" and is_civil_ref:
-        return _CROSS_DOMAIN_PENALTY
-
-    return 1.0
-
-
 def _rank_article_refs(search_result: SearchResult) -> list[str]:
     """See the priority order explained in the module-level comment above."""
     return [ref for ref, _tier, _weight in debug_rank_article_refs(search_result)]
@@ -207,8 +171,6 @@ def debug_rank_article_refs(search_result: SearchResult) -> list[tuple[str, str,
     'direct' tier + the article_channel score, or 'citation' tier + the
     summed score of every retrieved ruling that cites it.
     """
-    case_type_hint = search_result.routing.case_type_hint if search_result.routing else None
-
     direct_refs_ordered: list[tuple[str, str, float]] = []
     seen = set()
     for e in search_result.article_results:
@@ -217,9 +179,7 @@ def debug_rank_article_refs(search_result: SearchResult) -> list[tuple[str, str,
         ref = f"{e.law_name} - ماده {str(e.article_number).translate(_LATIN_TO_PERSIAN)}"
         if ref not in seen:
             seen.add(ref)
-            weight = e.score * _case_type_penalty(ref, case_type_hint)
-            direct_refs_ordered.append((ref, "direct", weight))
-    direct_refs_ordered.sort(key=lambda t: -t[2])  # re-sort since penalty can reorder
+            direct_refs_ordered.append((ref, "direct", e.score))
 
     citation_weight: dict[str, float] = defaultdict(float)
     for e in search_result.ruling_results:
@@ -228,15 +188,10 @@ def debug_rank_article_refs(search_result: SearchResult) -> list[tuple[str, str,
 
     original_order = {ref: i for i, ref in enumerate(search_result.article_refs)}
     citation_only_refs = [ref for ref in search_result.article_refs if ref not in seen]
+    citation_only_refs.sort(key=lambda ref: (-citation_weight[ref], original_order[ref]))
 
-    def _penalized_citation_weight(ref: str) -> float:
-        return citation_weight[ref] * _case_type_penalty(ref, case_type_hint)
-
-    citation_only_refs.sort(key=lambda ref: (-_penalized_citation_weight(ref), original_order[ref]))
-
-    citation_ranked = [(ref, "citation", _penalized_citation_weight(ref)) for ref in citation_only_refs]
+    citation_ranked = [(ref, "citation", citation_weight[ref]) for ref in citation_only_refs]
     return direct_refs_ordered + citation_ranked
-
 
 
 def build_evidence_bundles(search_result: SearchResult) -> list[ArticleEvidenceBundle]:
