@@ -1,0 +1,1437 @@
+{
+  "train_metrics": {
+    "label": "TRAIN_VAL",
+    "n": 112,
+    "precision": 0.8831168831168831,
+    "recall": 0.8717948717948718,
+    "f1": 0.8774193548387098,
+    "accuracy": 0.8303571428571429,
+    "ece": 0.2455357142857143,
+    "auroc": 0.807315233785822,
+    "n_pos": 78,
+    "n_neg": 34
+  },
+  "test_metrics": {
+    "label": "TEST",
+    "n": 28,
+    "precision": 1.0,
+    "recall": 0.84,
+    "f1": 0.9130434782608696,
+    "accuracy": 0.8571428571428571,
+    "ece": 0.11904761904761905,
+    "auroc": 0.92,
+    "n_pos": 25,
+    "n_neg": 3
+  },
+  "calibration": {
+    "slope": 0.8945345529973869,
+    "intercept": -0.6141571952970892,
+    "test_ece_calibrated": 0.33445797443738645
+  },
+  "per_sample": {
+    "train_val": [
+      {
+        "ruling_id": "34894",
+        "article_ref": "قانون مجازات اسلامی - ماده ۲۱۵",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "34894",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۱۴۸",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38071",
+        "article_ref": "قانون مجازات اسلامی - ماده ۳۴۶",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38071",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۴۷۴",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 0.5,
+        "item_level_accuracy": 0.5,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38071",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۴۷۶",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36360",
+        "article_ref": "قانون مجازات اسلامی - ماده ۶۰۹",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36360",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۴۲۸",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "37607",
+        "article_ref": "قانون مجازات اسلامی - ماده ۲۱۵",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36157",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۳۱۰",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36284",
+        "article_ref": "قانون مجازات اسلامی - ماده ۲۹۰",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "33413",
+        "article_ref": "قانون مجازات اسلامی - ماده ۶۰۸",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 0.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "37240",
+        "article_ref": "قانون مجازات اسلامی - ماده ۱۲۷",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "37321",
+        "article_ref": "قانون مجازات اسلامی - ماده ۶۱۸",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.6666666666666666,
+        "item_level_accuracy": 0.6666666666666666,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "37321",
+        "article_ref": "قانون مجازات اسلامی - ماده ۶۱۴",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "35599",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۱۸۸",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "35599",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۲۴۷",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 0.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "37242",
+        "article_ref": "قانون مجازات اسلامی - ماده ۴۸۲",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36405",
+        "article_ref": "قانون مجازات اسلامی - ماده ۳۰۲",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36405",
+        "article_ref": "قانون مجازات اسلامی - ماده ۳۰۳",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 0.5,
+        "item_level_accuracy": 0.5,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36311",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۵۹۷",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "25154",
+        "article_ref": "قانون مجازات اسلامی - ماده ۲۱۱",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "25154",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۱۶۶",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36261",
+        "article_ref": "قانون مجازات اسلامی - ماده ۳۶",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 0.5,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "10362",
+        "article_ref": "قانون مجازات اسلامی - ماده ۴۵۱",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "34828",
+        "article_ref": "قانون مجازات اسلامی - ماده ۱۳۴",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 0.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "34828",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۴۷۴",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36525",
+        "article_ref": "قانون مجازات اسلامی - ماده ۵۵۶",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": false
+      },
+      {
+        "ruling_id": "36510",
+        "article_ref": "قانون مجازات اسلامی - ماده ۲۷۹",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 0.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36803",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۴۰۶",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "37316",
+        "article_ref": "قانون مجازات اسلامی - ماده ۱۰۵",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "34613",
+        "article_ref": "قانون مجازات اسلامی - ماده ۴۸۷",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "35747",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۳۱۲",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36904",
+        "article_ref": "قانون مجازات اسلامی - ماده ۱۷۱",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "35796",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۳۴۵",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "34630",
+        "article_ref": "قانون مجازات اسلامی - ماده ۶۴۱",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 0.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "34630",
+        "article_ref": "قانون مجازات اسلامی - ماده ۶۶",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "34630",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۴۷۴",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36913",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۴۴۰",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 0.5,
+        "item_level_accuracy": 0.5,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36913",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۴۷۶",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "23043",
+        "article_ref": "قانون مجازات اسلامی - ماده ۲۱۲",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "23043",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۴۹۹",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 0.5,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "23048",
+        "article_ref": "قانون مجازات اسلامی - ماده ۱۳۰",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 0.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36522",
+        "article_ref": "قانون مجازات اسلامی - ماده ۲۹۰",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "25197",
+        "article_ref": "قانون مجازات اسلامی - ماده ۱۹",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "25197",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۳۰۱",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36789",
+        "article_ref": "قانون مجازات اسلامی - ماده ۶۶",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36789",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۴۷۴",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36199",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۳۰۲",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "37581",
+        "article_ref": "قانون مجازات اسلامی - ماده ۴۷",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "27682",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۲۹۷",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 0.5,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "27682",
+        "article_ref": "قانون مجازات اسلامی - ماده ۱۱",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "37664",
+        "article_ref": "قانون مجازات اسلامی - ماده ۲۹۰",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "34741",
+        "article_ref": "قانون مجازات اسلامی - ماده ۳۷",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.5,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "34741",
+        "article_ref": "قانون مجازات اسلامی - ماده ۴۰",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.5,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "34741",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۴۷۴",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 0.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "34681",
+        "article_ref": "قانون مجازات اسلامی - ماده ۲۱۱",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 0.5,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38527",
+        "article_ref": "قانون تجارت - ماده ۳۱۸",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38527",
+        "article_ref": "قانون تجارت - ماده ۳۱۹",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "37656",
+        "article_ref": "قانون مدنی - ماده ۳۳۶",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38508",
+        "article_ref": "قانون مدنی - ماده ۳۹۹",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38508",
+        "article_ref": "قانون مدنی - ماده ۴۰۱",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38410",
+        "article_ref": "قانون مدنی - ماده ۱۱۲۲",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38410",
+        "article_ref": "قانون مدنی - ماده ۱۱۲۳",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "43592",
+        "article_ref": "قانون مدنی - ماده ۱۱۳۳",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.5,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "43624",
+        "article_ref": "قانون آیین دادرسی مدنی - ماده ۳۶۷",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "42607",
+        "article_ref": "قانون مدنی - ماده ۱۱۳۰",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38523",
+        "article_ref": "قانون مدنی - ماده ۱۱۷۳",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "43665",
+        "article_ref": "قانون مدنی - ماده ۵",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 0.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "43665",
+        "article_ref": "قانون مدنی - ماده ۶",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38529",
+        "article_ref": "قانون مدنی - ماده ۲۴۷",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38529",
+        "article_ref": "قانون مدنی - ماده ۳۶۵",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38318",
+        "article_ref": "قانون مدنی - ماده ۱۱۰۷",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.5,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38318",
+        "article_ref": "قانون مدنی - ماده ۱۱۰۹",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38695",
+        "article_ref": "قانون مدنی - ماده ۸۰۶",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "43722",
+        "article_ref": "قانون مدنی - ماده ۳۵۵",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 0.5,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "37523",
+        "article_ref": "قانون مدنی - ماده ۱۱۲۹",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "42829",
+        "article_ref": "قانون آیین دادرسی مدنی - ماده ۱۳",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38582",
+        "article_ref": "قانون تجارت - ماده ۵۳۶",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38582",
+        "article_ref": "قانون تجارت - ماده ۵۳۷",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.5,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38450",
+        "article_ref": "قانون مدنی - ماده ۱۱۲۳",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38450",
+        "article_ref": "قانون مدنی - ماده ۱۱۲۸",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "43788",
+        "article_ref": "قانون مدنی - ماده ۳۳۶",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "37492",
+        "article_ref": "قانون مدنی - ماده ۱۱۳۰",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 0.6666666666666666,
+        "item_level_accuracy": 0.6666666666666666,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38617",
+        "article_ref": "قانون مدنی - ماده ۳۳۶",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38556",
+        "article_ref": "قانون آیین دادرسی مدنی - ماده ۴۸۹",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38556",
+        "article_ref": "قانون مدنی - ماده ۲۳۱",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "37659",
+        "article_ref": "قانون مدنی - ماده ۱۱۳۳",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "43812",
+        "article_ref": "قانون مدنی - ماده ۸۰۳",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38186",
+        "article_ref": "قانون مدنی - ماده ۱۱۲۱",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38186",
+        "article_ref": "قانون مدنی - ماده ۱۱۲۳",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "43562",
+        "article_ref": "قانون مدنی - ماده ۱۱۳۰",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38338",
+        "article_ref": "قانون آیین دادرسی مدنی - ماده ۱۹۵",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38178",
+        "article_ref": "قانون مدنی - ماده ۱۳۳۵",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "43144",
+        "article_ref": "قانون مدنی - ماده ۱۰",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "43144",
+        "article_ref": "قانون مدنی - ماده ۲۱۹",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "43144",
+        "article_ref": "قانون مدنی - ماده ۴۴۴",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38522",
+        "article_ref": "قانون آیین دادرسی مدنی - ماده ۲۰۲",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38522",
+        "article_ref": "قانون مدنی - ماده ۱۲۷۵",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "34703",
+        "article_ref": "قانون تجارت - ماده ۲۱۰",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.5,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38790",
+        "article_ref": "قانون آیین دادرسی مدنی - ماده ۴۸۸",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "43594",
+        "article_ref": "قانون مدنی - ماده ۳۳۶",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 0.5,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38347",
+        "article_ref": "قانون مدنی - ماده ۱۳۲۱",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.6666666666666666,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38380",
+        "article_ref": "قانون مدنی - ماده ۳۳۶",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "43602",
+        "article_ref": "قانون مدنی - ماده ۲۳۰",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38404",
+        "article_ref": "قانون مدنی - ماده ۹۳۹",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 0.0,
+        "topically_relevant_predicted": false
+      },
+      {
+        "ruling_id": "38605",
+        "article_ref": "قانون مدنی - ماده ۱۱۳۳",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38163",
+        "article_ref": "قانون مدنی - ماده ۱۱۲۸",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 0.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38145",
+        "article_ref": "قانون مدنی - ماده ۱۱۲۹",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38320",
+        "article_ref": "قانون تجارت - ماده ۱۱۸",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38320",
+        "article_ref": "قانون تجارت - ماده ۱۲۵",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 0.5,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38398",
+        "article_ref": "قانون مدنی - ماده ۲۲۸",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38398",
+        "article_ref": "قانون مدنی - ماده ۲۳۰",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      }
+    ],
+    "test": [
+      {
+        "ruling_id": "35795",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۳۰۳",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "37681",
+        "article_ref": "قانون مجازات اسلامی - ماده ۱۲۰",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36508",
+        "article_ref": "قانون مجازات اسلامی - ماده ۳۴۶",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "34746",
+        "article_ref": "قانون مجازات اسلامی - ماده ۲۲۳",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "29012",
+        "article_ref": "قانون مجازات اسلامی - ماده ۱۲۱",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36782",
+        "article_ref": "قانون مجازات اسلامی - ماده ۶۶",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36782",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۴۷۴",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "36531",
+        "article_ref": "قانون مجازات اسلامی - ماده ۴۴۷",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38739",
+        "article_ref": "قانون مدنی - ماده ۳۷۲",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 0.6666666666666666,
+        "item_level_accuracy": 0.6666666666666666,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38417",
+        "article_ref": "قانون مدنی - ماده ۱۱۷۰",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "43785",
+        "article_ref": "قانون تجارت - ماده ۴۱۸",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38632",
+        "article_ref": "قانون آیین دادرسی مدنی - ماده ۲۷",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38295",
+        "article_ref": "قانون تجارت - ماده ۴۱۳",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.3333333333333333,
+        "item_level_accuracy": 0.6666666666666666,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38363",
+        "article_ref": "قانون مدنی - ماده ۲۳۰",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38363",
+        "article_ref": "قانون آیین دادرسی مدنی - ماده ۵۲۲",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 0.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "42548",
+        "article_ref": "قانون مدنی - ماده ۱۱۳۰",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "43746",
+        "article_ref": "قانون مدنی - ماده ۱۱۳۳",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38573",
+        "article_ref": "قانون تجارت - ماده ۱",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": false
+      },
+      {
+        "ruling_id": "38573",
+        "article_ref": "قانون تجارت - ماده ۲",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": false
+      },
+      {
+        "ruling_id": "37565",
+        "article_ref": "قانون مدنی - ماده ۱۱۶۹",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38569",
+        "article_ref": "قانون آیین دادرسی مدنی - ماده ۴۲۶",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38569",
+        "article_ref": "قانون آیین دادرسی مدنی - ماده ۴۲۹",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "10493",
+        "article_ref": "قانون مدنی - ماده ۲۳۲",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 0.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38392",
+        "article_ref": "قانون مدنی - ماده ۸۶۸",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38392",
+        "article_ref": "قانون مدنی - ماده ۸۶۹",
+        "gold_is_applicable": false,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38381",
+        "article_ref": "قانون آیین دادرسی کیفری - ماده ۱۴",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38381",
+        "article_ref": "قانون مجازات اسلامی - ماده ۲۱۴",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": true,
+        "is_applicable_correct": true,
+        "raw_auditor_confidence": 1.0,
+        "item_level_accuracy": 1.0,
+        "topically_relevant_predicted": true
+      },
+      {
+        "ruling_id": "38381",
+        "article_ref": "قانون مدنی - ماده ۳۹۱",
+        "gold_is_applicable": true,
+        "predicted_is_applicable": false,
+        "is_applicable_correct": false,
+        "raw_auditor_confidence": 0.0,
+        "item_level_accuracy": 0.0,
+        "topically_relevant_predicted": false
+      }
+    ]
+  }
+}

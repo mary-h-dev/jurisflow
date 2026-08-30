@@ -115,7 +115,7 @@ def run() -> None:
     from apps.auditor.checklist_builder import build_evidence_bundles, debug_rank_article_refs
     from apps.auditor.verifier import verify_article
 
-    from .apps_auditor_config import AUDITOR_MODEL
+    from ...apps_auditor_config import AUDITOR_MODEL
     provider = AUDITOR_MODEL.model
     delay = getattr(django_settings, "AUDITOR_LLM_REQUEST_DELAY_SECONDS", 4.0)
     from apps.auditor.checklist_builder import _DEFAULT_MAX_ARTICLES_PER_QUERY

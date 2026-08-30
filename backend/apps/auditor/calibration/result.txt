@@ -1,0 +1,22 @@
+
+=== TRAIN_VAL metrics (112 article rows) ===
+  is_applicable  precision=0.883  recall=0.872  f1=0.877
+  overall accuracy: 0.830
+  ECE: 0.246  (lower is better, 0 = perfectly calibrated)
+  AUROC: 0.807
+  gold_is_applicable distribution: 78 true / 34 false
+
+=== TEST metrics (28 article rows) ===
+  is_applicable  precision=1.000  recall=0.840  f1=0.913
+  overall accuracy: 0.857
+  ECE: 0.119  (lower is better, 0 = perfectly calibrated)
+  AUROC: 0.920
+  gold_is_applicable distribution: 25 true / 3 false
+
+Platt scaling CV AUROC: 0.624 +/- 0.096
+Learned calibration: slope=+0.895  intercept=-0.614
+
+Test ECE with CALIBRATED confidence: 0.334 (vs raw ECE: 0.119)
+
+Saved full results to /workspaces/jurisflow/backend/apps/auditor/calibration/data/auditor_calibration_results.json
+(backend) @mary1993-svg ➜ /workspaces/jurisflow/backend (main) $ 
