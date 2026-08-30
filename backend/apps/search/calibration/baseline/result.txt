@@ -1,0 +1,52 @@
+cache] Saved to /workspaces/jurisflow/backend/apps/search/calibration/cache/test_140_cp_candidates.pkl
+
+=== coverage mode = all ===
+alpha=0.10  q_hat=inf (not achievable at n=25)  ECR= 46.4%  APSS=20.00  SSC= 46.4%
+alpha=0.15  q_hat=inf (not achievable at n=25)  ECR= 46.4%  APSS=20.00  SSC= 46.4%
+alpha=0.20  q_hat=inf (not achievable at n=25)  ECR= 46.4%  APSS=20.00  SSC= 46.4%
+alpha=0.25  q_hat=inf (not achievable at n=25)  ECR= 46.4%  APSS=20.00  SSC= 46.4%
+alpha=0.30  q_hat=inf (not achievable at n=25)  ECR= 46.4%  APSS=20.00  SSC= 46.4%
+
+=== coverage mode = any ===
+alpha=0.10  q_hat=inf (not achievable at n=25)  ECR= 71.4%  APSS=20.00  SSC= 71.4%
+alpha=0.15  q_hat=inf (not achievable at n=25)  ECR= 71.4%  APSS=20.00  SSC= 71.4%
+alpha=0.20  q_hat=inf (not achievable at n=25)  ECR= 71.4%  APSS=20.00  SSC= 71.4%
+alpha=0.25  q_hat=inf (not achievable at n=25)  ECR= 71.4%  APSS=20.00  SSC= 71.4%
+alpha=0.30  q_hat=inf (not achievable at n=25)  ECR= 71.4%  APSS=20.00  SSC= 71.4%
+
+=== scoring function (mode/alpha independent, test pool) ===
+AUROC=0.8401   ECE=21.39%
+(backend) @mary1993-svg ➜ /workspaces/jurisflow/backend (main) $ 
+
+
+
+
+
+
+ackend) @mary1993-svg ➜ /workspaces/jurisflow/backend (main) $ DJANGO_SETTINGS_MODULE=config.settings.development python -c "import django; django.setup(); from apps.search.calibration.baseline.calibrate_conformal import run; run()"
+[cache] Loading cached raw outputs from /workspaces/jurisflow/backend/apps/search/calibration/cache/conformal_calibration_25_cp_candidates.pkl
+[cache] Loading cached raw outputs from /workspaces/jurisflow/backend/apps/search/calibration/cache/test_140_cp_candidates.pkl
+
+=== coverage mode = all ===
+alpha=0.10  q_hat=inf (retrieval-recall bottleneck, not calib size)  ECR= 46.4%  APSS=20.00  SSC= 46.4%
+alpha=0.15  q_hat=inf (retrieval-recall bottleneck, not calib size)  ECR= 46.4%  APSS=20.00  SSC= 46.4%
+alpha=0.20  q_hat=inf (retrieval-recall bottleneck, not calib size)  ECR= 46.4%  APSS=20.00  SSC= 46.4%
+alpha=0.25  q_hat=inf (retrieval-recall bottleneck, not calib size)  ECR= 46.4%  APSS=20.00  SSC= 46.4%
+alpha=0.30  q_hat=inf (retrieval-recall bottleneck, not calib size)  ECR= 46.4%  APSS=20.00  SSC= 46.4%
+alpha=0.40  q_hat=inf (retrieval-recall bottleneck, not calib size)  ECR= 46.4%  APSS=20.00  SSC= 46.4%
+alpha=0.50  q_hat=inf (retrieval-recall bottleneck, not calib size)  ECR= 46.4%  APSS=20.00  SSC= 46.4%
+alpha=0.60  q_hat=inf (retrieval-recall bottleneck, not calib size)  ECR= 46.4%  APSS=20.00  SSC= 46.4%
+
+=== coverage mode = any ===
+alpha=0.10  q_hat=inf (retrieval-recall bottleneck, not calib size)  ECR= 71.4%  APSS=20.00  SSC= 71.4%
+alpha=0.15  q_hat=inf (retrieval-recall bottleneck, not calib size)  ECR= 71.4%  APSS=20.00  SSC= 71.4%
+alpha=0.20  q_hat=inf (retrieval-recall bottleneck, not calib size)  ECR= 71.4%  APSS=20.00  SSC= 71.4%
+alpha=0.25  q_hat=inf (retrieval-recall bottleneck, not calib size)  ECR= 71.4%  APSS=20.00  SSC= 71.4%
+alpha=0.30  q_hat=inf (retrieval-recall bottleneck, not calib size)  ECR= 71.4%  APSS=20.00  SSC= 71.4%
+alpha=0.40  q_hat=0.7628                                            ECR= 64.3%  APSS= 7.71  SSC= 33.3%
+alpha=0.50  q_hat=0.4233                                            ECR= 57.1%  APSS= 2.50  SSC= 25.0%
+alpha=0.60  q_hat=0.2188                                            ECR= 53.6%  APSS= 1.39  SSC= 50.0%
+
+=== scoring function (mode/alpha independent, test pool) ===
+AUROC=0.8401   ECE=21.39%
+(backend) @mary1993-svg ➜ /workspaces/jurisflow/backend (main) $ 
