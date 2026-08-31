@@ -14,6 +14,21 @@ _MAX_FEATURE_EVIDENCE = 8
 _MAX_RULING_EVIDENCE = 5
 _MAX_GROUNDED_FEATURES_PER_ARTICLE = 10
 
+# Copied independently from database/grounded_in_builder.py's constant of
+# the same name (not imported, to keep database/ and apps/ decoupled --
+# per earlier project decision). A GROUNDED_IN edge with a very low raw
+# co-occurrence count (e.g. 1) can get an NPMI close to 1.0 purely from
+# statistical noise (small denominators inflate PMI for rare joint
+# events), even though compute_pmi_scores() in grounded_in_builder.py
+# writes npmi for EVERY edge with no such filter -- the co_count>=3
+# threshold previously existed only inside that file's sample_pmi()
+# debug/display helper, never in the query this module actually uses
+# for retrieval. Without this filter here, noisy low-count features
+# (generic words like "اوراق پرونده") could be shown to the Auditor as
+# "statistically significant factors" for an article, which is the
+# opposite of PMI's purpose.
+_MIN_CO_COUNT_FOR_RANKING = 3
+
 # See the priority-order comment above _rank_article_refs (unchanged) for
 # why article candidates are capped and ranked the way they are.
 _DEFAULT_MAX_ARTICLES_PER_QUERY = 25
@@ -24,6 +39,7 @@ CALL {
   WITH a
   MATCH (feature)-[g:GROUNDED_IN]->(article:Article {article_number: a.number, law: a.law})
   WHERE g.npmi IS NOT NULL
+    AND (g.official_count + g.text_count) >= $min_co_count
   RETURN labels(feature)[0] AS feature_label, feature.name AS feature_value
   ORDER BY g.npmi DESC
   LIMIT $limit
@@ -61,11 +77,13 @@ def _fetch_grounded_features(refs: list[str]) -> dict[str, set[tuple[str, str]]]
     Batched lookup against the GROUNDED_IN edges built by
     database/grounded_in_builder.py: for each article_ref, returns the
     set of (feature_label, feature_value) pairs statistically grounded
-    to it (ranked by NPMI, capped). A ref that fails to parse, or whose
-    article has no GROUNDED_IN edges (e.g. excluded procedural-law
-    articles -- see that file's _PROCEDURAL_DOMAINS), is simply absent
-    from the returned dict; build_evidence_bundles falls back to the
-    shared feature list for those.
+    to it (ranked by NPMI, capped, and filtered to co_count >=
+    _MIN_CO_COUNT_FOR_RANKING to avoid noisy low-count edges -- see
+    the constant's docstring above). A ref that fails to parse, or
+    whose article has no GROUNDED_IN edges (e.g. excluded
+    procedural-law articles -- see that file's _PROCEDURAL_DOMAINS), is
+    simply absent from the returned dict; build_evidence_bundles falls
+    back to the shared feature list for those.
     """
     parsed_by_ref = {ref: _parse_article_ref(ref) for ref in refs}
     articles_param = [
@@ -81,6 +99,7 @@ def _fetch_grounded_features(refs: list[str]) -> dict[str, set[tuple[str, str]]]
             _BATCH_GROUNDED_FEATURES_QUERY,
             articles=articles_param,
             limit=_MAX_GROUNDED_FEATURES_PER_ARTICLE,
+            min_co_count=_MIN_CO_COUNT_FOR_RANKING,
         )
         grounded_by_law_number = {
             (row["law"], row["number"]): {
