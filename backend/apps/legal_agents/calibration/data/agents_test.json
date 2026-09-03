@@ -1,0 +1,848 @@
+{
+  "metrics": {
+    "label": "TEST",
+    "n": 28,
+    "auroc": null,
+    "ece": 0.1721,
+    "accuracy": 1.0,
+    "mean_precision": 1.0,
+    "mean_recall": 1.0,
+    "mean_f1": 1.0,
+    "consensus_rate": 0.9286,
+    "full_consensus_rate": 0.2143
+  },
+  "calibration": null,
+  "per_sample": [
+    {
+      "ruling_id": "35795",
+      "case_type": "کیفری",
+      "gold_articles": [
+        "قانون آیین دادرسی کیفری - ماده ۳۰۳"
+      ],
+      "final_confidence": 0.84,
+      "correct": 1,
+      "majority_verdict": "strong_for",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون آیین دادرسی کیفری - ماده ۳۰۳"
+      ],
+      "all_cited": [
+        "قانون آیین دادرسی کیفری - ماده ۳۰۳"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "strong_for"
+      },
+      "elapsed_s": 10.9,
+      "error": null
+    },
+    {
+      "ruling_id": "37681",
+      "case_type": "کیفری",
+      "gold_articles": [
+        "قانون مجازات اسلامی - ماده ۱۲۰"
+      ],
+      "final_confidence": 0.83,
+      "correct": 1,
+      "majority_verdict": "strong_for",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون مجازات اسلامی - ماده ۱۲۰"
+      ],
+      "all_cited": [
+        "قانون مجازات اسلامی - ماده ۱۲۰"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "strong_for"
+      },
+      "elapsed_s": 9.2,
+      "error": null
+    },
+    {
+      "ruling_id": "36528",
+      "case_type": "کیفری",
+      "gold_articles": [
+        "قانون مجازات اسلامی - ماده ۲۰۸",
+        "قانون آیین دادرسی مدنی - ماده ۲۷۰",
+        "قانون آیین دادرسی مدنی - ماده ۲۷۲"
+      ],
+      "final_confidence": 0.84,
+      "correct": 1,
+      "majority_verdict": "strong_against",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون آیین دادرسی مدنی - ماده ۲۷۰",
+        "قانون مجازات اسلامی - ماده ۲۰۸",
+        "قانون آیین دادرسی مدنی - ماده ۲۷۲"
+      ],
+      "all_cited": [
+        "قانون آیین دادرسی مدنی - ماده ۲۷۰",
+        "قانون مجازات اسلامی - ماده ۲۰۸",
+        "قانون آیین دادرسی مدنی - ماده ۲۷۲"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "strong_against"
+      },
+      "elapsed_s": 8.9,
+      "error": null
+    },
+    {
+      "ruling_id": "36508",
+      "case_type": "کیفری",
+      "gold_articles": [
+        "قانون مجازات اسلامی - ماده ۳۴۶"
+      ],
+      "final_confidence": 0.846,
+      "correct": 1,
+      "majority_verdict": "strong_for",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون مجازات اسلامی - ماده ۳۴۶"
+      ],
+      "all_cited": [
+        "قانون مجازات اسلامی - ماده ۳۴۶"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "strong_for"
+      },
+      "elapsed_s": 8.8,
+      "error": null
+    },
+    {
+      "ruling_id": "27684",
+      "case_type": "کیفری",
+      "gold_articles": [
+        "قانون مجازات اسلامی - ماده ۲۱۸",
+        "قانون مجازات اسلامی - ماده ۱۷۳"
+      ],
+      "final_confidence": 0.84,
+      "correct": 1,
+      "majority_verdict": "strong_for",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون مجازات اسلامی - ماده ۲۱۸",
+        "قانون مجازات اسلامی - ماده ۱۷۳"
+      ],
+      "all_cited": [
+        "قانون مجازات اسلامی - ماده ۲۱۸",
+        "قانون مجازات اسلامی - ماده ۱۷۳"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "strong_for"
+      },
+      "elapsed_s": 9.9,
+      "error": null
+    },
+    {
+      "ruling_id": "37626",
+      "case_type": "کیفری",
+      "gold_articles": [
+        "قانون آیین دادرسی کیفری - ماده ۴۵۸"
+      ],
+      "final_confidence": 0.85,
+      "correct": 1,
+      "majority_verdict": "strong_for",
+      "consensus": "full",
+      "agreed_articles": [
+        "قانون آیین دادرسی کیفری - ماده ۴۵۸"
+      ],
+      "all_cited": [
+        "قانون آیین دادرسی کیفری - ماده ۴۵۸"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_for",
+        "judge": "strong_for"
+      },
+      "elapsed_s": 5.5,
+      "error": null
+    },
+    {
+      "ruling_id": "36431",
+      "case_type": "کیفری",
+      "gold_articles": [
+        "قانون آیین دادرسی کیفری - ماده ۴۲۸"
+      ],
+      "final_confidence": 0.83,
+      "correct": 1,
+      "majority_verdict": "strong_against",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون آیین دادرسی کیفری - ماده ۴۲۸"
+      ],
+      "all_cited": [
+        "قانون آیین دادرسی کیفری - ماده ۴۲۸"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "strong_against"
+      },
+      "elapsed_s": 8.5,
+      "error": null
+    },
+    {
+      "ruling_id": "36567",
+      "case_type": "کیفری",
+      "gold_articles": [
+        "قانون مجازات اسلامی - ماده ۶۱۴"
+      ],
+      "final_confidence": 0.8,
+      "correct": 1,
+      "majority_verdict": "strong_against",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون مجازات اسلامی - ماده ۶۱۴"
+      ],
+      "all_cited": [
+        "قانون مجازات اسلامی - ماده ۶۱۴"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "moderate_for",
+        "prosecutor": "strong_against",
+        "judge": "strong_against"
+      },
+      "elapsed_s": 13.3,
+      "error": null
+    },
+    {
+      "ruling_id": "34746",
+      "case_type": "کیفری",
+      "gold_articles": [
+        "قانون مجازات اسلامی - ماده ۲۲۳"
+      ],
+      "final_confidence": 0.82,
+      "correct": 1,
+      "majority_verdict": "strong_for",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون مجازات اسلامی - ماده ۲۲۳"
+      ],
+      "all_cited": [
+        "قانون مجازات اسلامی - ماده ۲۲۳"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "moderate_against",
+        "judge": "strong_for"
+      },
+      "elapsed_s": 8.4,
+      "error": null
+    },
+    {
+      "ruling_id": "37828",
+      "case_type": "کیفری",
+      "gold_articles": [
+        "قانون مجازات اسلامی - ماده ۲۰"
+      ],
+      "final_confidence": 0.84,
+      "correct": 1,
+      "majority_verdict": "strong_for",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون مجازات اسلامی - ماده ۲۰"
+      ],
+      "all_cited": [
+        "قانون مجازات اسلامی - ماده ۲۰"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "strong_for"
+      },
+      "elapsed_s": 8.5,
+      "error": null
+    },
+    {
+      "ruling_id": "29012",
+      "case_type": "کیفری",
+      "gold_articles": [
+        "قانون مجازات اسلامی - ماده ۱۲۱"
+      ],
+      "final_confidence": 0.83,
+      "correct": 1,
+      "majority_verdict": "strong_for",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون مجازات اسلامی - ماده ۱۲۱"
+      ],
+      "all_cited": [
+        "قانون مجازات اسلامی - ماده ۱۲۱"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "strong_for"
+      },
+      "elapsed_s": 8.4,
+      "error": null
+    },
+    {
+      "ruling_id": "36782",
+      "case_type": "کیفری",
+      "gold_articles": [
+        "قانون مجازات اسلامی - ماده ۶۶",
+        "قانون آیین دادرسی کیفری - ماده ۴۷۴"
+      ],
+      "final_confidence": 0.84,
+      "correct": 1,
+      "majority_verdict": "strong_for",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون مجازات اسلامی - ماده ۶۶",
+        "قانون آیین دادرسی کیفری - ماده ۴۷۴"
+      ],
+      "all_cited": [
+        "قانون مجازات اسلامی - ماده ۶۶",
+        "قانون آیین دادرسی کیفری - ماده ۴۷۴"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "strong_for"
+      },
+      "elapsed_s": 9.1,
+      "error": null
+    },
+    {
+      "ruling_id": "36531",
+      "case_type": "کیفری",
+      "gold_articles": [
+        "قانون مجازات اسلامی - ماده ۴۴۷",
+        "قانون مجازات اسلامی - ماده ۶۱۴"
+      ],
+      "final_confidence": 0.73,
+      "correct": 1,
+      "majority_verdict": "neutral",
+      "consensus": "split",
+      "agreed_articles": [
+        "قانون مجازات اسلامی - ماده ۶۱۴",
+        "قانون مجازات اسلامی - ماده ۴۴۷"
+      ],
+      "all_cited": [
+        "قانون مجازات اسلامی - ماده ۶۱۴",
+        "قانون مجازات اسلامی - ماده ۴۴۷"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": true,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "moderate_against"
+      },
+      "elapsed_s": 12.4,
+      "error": null
+    },
+    {
+      "ruling_id": "38739",
+      "case_type": "حقوقی",
+      "gold_articles": [
+        "قانون مدنی - ماده ۳۷۲"
+      ],
+      "final_confidence": 0.846,
+      "correct": 1,
+      "majority_verdict": "strong_against",
+      "consensus": "full",
+      "agreed_articles": [
+        "قانون مدنی - ماده ۳۷۲"
+      ],
+      "all_cited": [
+        "قانون مدنی - ماده ۳۷۲"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_against",
+        "prosecutor": "strong_against",
+        "judge": "strong_against"
+      },
+      "elapsed_s": 8.2,
+      "error": null
+    },
+    {
+      "ruling_id": "39154",
+      "case_type": "حقوقی",
+      "gold_articles": [
+        "قانون مدنی - ماده ۳۳۶"
+      ],
+      "final_confidence": 0.84,
+      "correct": 1,
+      "majority_verdict": "strong_against",
+      "consensus": "full",
+      "agreed_articles": [
+        "قانون مدنی - ماده ۳۳۶"
+      ],
+      "all_cited": [
+        "قانون مدنی - ماده ۳۳۶"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_against",
+        "prosecutor": "strong_against",
+        "judge": "strong_against"
+      },
+      "elapsed_s": 8.5,
+      "error": null
+    },
+    {
+      "ruling_id": "38417",
+      "case_type": "حقوقی",
+      "gold_articles": [
+        "قانون مدنی - ماده ۱۱۷۰"
+      ],
+      "final_confidence": 0.86,
+      "correct": 1,
+      "majority_verdict": "strong_against",
+      "consensus": "full",
+      "agreed_articles": [
+        "قانون مدنی - ماده ۱۱۷۰"
+      ],
+      "all_cited": [
+        "قانون مدنی - ماده ۱۱۷۰"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_against",
+        "prosecutor": "strong_against",
+        "judge": "strong_against"
+      },
+      "elapsed_s": 8.0,
+      "error": null
+    },
+    {
+      "ruling_id": "43785",
+      "case_type": "حقوقی",
+      "gold_articles": [
+        "قانون مدنی - ماده ۷۰۹",
+        "قانون تجارت - ماده ۴۱۷",
+        "قانون تجارت - ماده ۴۱۸",
+        "قانون تجارت - ماده ۴۱۹",
+        "قانون تجارت - ماده ۴۲۳"
+      ],
+      "final_confidence": 0.83,
+      "correct": 1,
+      "majority_verdict": "strong_against",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون تجارت - ماده ۴۱۸",
+        "قانون تجارت - ماده ۴۱۹",
+        "قانون مدنی - ماده ۷۰۹",
+        "قانون تجارت - ماده ۴۱۷"
+      ],
+      "all_cited": [
+        "قانون تجارت - ماده ۴۱۷",
+        "قانون مدنی - ماده ۷۰۹",
+        "قانون تجارت - ماده ۴۱۹",
+        "قانون تجارت - ماده ۴۱۸",
+        "قانون تجارت - ماده ۴۲۳"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "strong_against"
+      },
+      "elapsed_s": 13.2,
+      "error": null
+    },
+    {
+      "ruling_id": "38632",
+      "case_type": "حقوقی",
+      "gold_articles": [
+        "قانون آیین دادرسی مدنی - ماده ۲۷"
+      ],
+      "final_confidence": 0.84,
+      "correct": 1,
+      "majority_verdict": "strong_for",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون آیین دادرسی مدنی - ماده ۲۷"
+      ],
+      "all_cited": [
+        "قانون آیین دادرسی مدنی - ماده ۲۷"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "strong_for"
+      },
+      "elapsed_s": 8.5,
+      "error": null
+    },
+    {
+      "ruling_id": "38295",
+      "case_type": "حقوقی",
+      "gold_articles": [
+        "قانون تجارت - ماده ۴۱۳"
+      ],
+      "final_confidence": 0.71,
+      "correct": 1,
+      "majority_verdict": "neutral",
+      "consensus": "split",
+      "agreed_articles": [
+        "قانون تجارت - ماده ۴۱۳"
+      ],
+      "all_cited": [
+        "قانون تجارت - ماده ۴۱۳"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": true,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "moderate_against"
+      },
+      "elapsed_s": 9.0,
+      "error": null
+    },
+    {
+      "ruling_id": "38363",
+      "case_type": "حقوقی",
+      "gold_articles": [
+        "قانون مدنی - ماده ۲۳۰",
+        "قانون آیین دادرسی مدنی - ماده ۵۲۲"
+      ],
+      "final_confidence": 0.85,
+      "correct": 1,
+      "majority_verdict": "strong_for",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون مدنی - ماده ۲۳۰",
+        "قانون آیین دادرسی مدنی - ماده ۵۲۲"
+      ],
+      "all_cited": [
+        "قانون مدنی - ماده ۲۳۰",
+        "قانون آیین دادرسی مدنی - ماده ۵۲۲"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "strong_for"
+      },
+      "elapsed_s": 8.5,
+      "error": null
+    },
+    {
+      "ruling_id": "42548",
+      "case_type": "حقوقی",
+      "gold_articles": [
+        "قانون مدنی - ماده ۱۱۳۰"
+      ],
+      "final_confidence": 0.83,
+      "correct": 1,
+      "majority_verdict": "strong_for",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون مدنی - ماده ۱۱۳۰"
+      ],
+      "all_cited": [
+        "قانون مدنی - ماده ۱۱۳۰"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "moderate_against",
+        "judge": "strong_for"
+      },
+      "elapsed_s": 9.2,
+      "error": null
+    },
+    {
+      "ruling_id": "43746",
+      "case_type": "حقوقی",
+      "gold_articles": [
+        "قانون مدنی - ماده ۱۱۳۳"
+      ],
+      "final_confidence": 0.84,
+      "correct": 1,
+      "majority_verdict": "strong_against",
+      "consensus": "full",
+      "agreed_articles": [
+        "قانون مدنی - ماده ۱۱۳۳"
+      ],
+      "all_cited": [
+        "قانون مدنی - ماده ۱۱۳۳"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_against",
+        "prosecutor": "strong_against",
+        "judge": "strong_against"
+      },
+      "elapsed_s": 7.0,
+      "error": null
+    },
+    {
+      "ruling_id": "38573",
+      "case_type": "حقوقی",
+      "gold_articles": [
+        "قانون تجارت - ماده ۱",
+        "قانون تجارت - ماده ۲"
+      ],
+      "final_confidence": 0.84,
+      "correct": 1,
+      "majority_verdict": "strong_for",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون تجارت - ماده ۱",
+        "قانون تجارت - ماده ۲"
+      ],
+      "all_cited": [
+        "قانون تجارت - ماده ۱",
+        "قانون تجارت - ماده ۲"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "strong_for"
+      },
+      "elapsed_s": 9.9,
+      "error": null
+    },
+    {
+      "ruling_id": "37565",
+      "case_type": "حقوقی",
+      "gold_articles": [
+        "قانون مدنی - ماده ۱۱۶۹"
+      ],
+      "final_confidence": 0.81,
+      "correct": 1,
+      "majority_verdict": "strong_against",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون مدنی - ماده ۱۱۶۹"
+      ],
+      "all_cited": [
+        "قانون مدنی - ماده ۱۱۶۹"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "moderate_against",
+        "prosecutor": "strong_against",
+        "judge": "strong_against"
+      },
+      "elapsed_s": 8.1,
+      "error": null
+    },
+    {
+      "ruling_id": "38569",
+      "case_type": "حقوقی",
+      "gold_articles": [
+        "قانون آیین دادرسی مدنی - ماده ۴۲۶",
+        "قانون آیین دادرسی مدنی - ماده ۴۲۹"
+      ],
+      "final_confidence": 0.83,
+      "correct": 1,
+      "majority_verdict": "strong_for",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون آیین دادرسی مدنی - ماده ۴۲۶",
+        "قانون آیین دادرسی مدنی - ماده ۴۲۹"
+      ],
+      "all_cited": [
+        "قانون آیین دادرسی مدنی - ماده ۴۲۶",
+        "قانون آیین دادرسی مدنی - ماده ۴۲۹"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "strong_for"
+      },
+      "elapsed_s": 12.5,
+      "error": null
+    },
+    {
+      "ruling_id": "10493",
+      "case_type": "حقوقی",
+      "gold_articles": [
+        "قانون آیین دادرسی مدنی - ماده ۵۲۲",
+        "قانون مدنی - ماده ۲۳۲"
+      ],
+      "final_confidence": 0.84,
+      "correct": 1,
+      "majority_verdict": "strong_against",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون مدنی - ماده ۲۳۲",
+        "قانون آیین دادرسی مدنی - ماده ۵۲۲"
+      ],
+      "all_cited": [
+        "قانون مدنی - ماده ۲۳۲",
+        "قانون آیین دادرسی مدنی - ماده ۵۲۲"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "strong_against"
+      },
+      "elapsed_s": 9.0,
+      "error": null
+    },
+    {
+      "ruling_id": "38392",
+      "case_type": "حقوقی",
+      "gold_articles": [
+        "قانون مدنی - ماده ۸۶۸",
+        "قانون مدنی - ماده ۸۶۹"
+      ],
+      "final_confidence": 0.84,
+      "correct": 1,
+      "majority_verdict": "strong_against",
+      "consensus": "majority",
+      "agreed_articles": [
+        "قانون مدنی - ماده ۸۶۸",
+        "قانون مدنی - ماده ۸۶۹"
+      ],
+      "all_cited": [
+        "قانون مدنی - ماده ۸۶۸",
+        "قانون مدنی - ماده ۸۶۹"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_against",
+        "judge": "strong_against"
+      },
+      "elapsed_s": 8.5,
+      "error": null
+    },
+    {
+      "ruling_id": "38381",
+      "case_type": "حقوقی",
+      "gold_articles": [
+        "قانون آیین دادرسی کیفری - ماده ۱۴",
+        "قانون مجازات اسلامی - ماده ۲۱۴",
+        "قانون مدنی - ماده ۳۹۱"
+      ],
+      "final_confidence": 0.84,
+      "correct": 1,
+      "majority_verdict": "strong_for",
+      "consensus": "full",
+      "agreed_articles": [
+        "قانون مجازات اسلامی - ماده ۲۱۴",
+        "قانون آیین دادرسی کیفری - ماده ۱۴",
+        "قانون مدنی - ماده ۳۹۱"
+      ],
+      "all_cited": [
+        "قانون مجازات اسلامی - ماده ۲۱۴",
+        "قانون آیین دادرسی کیفری - ماده ۱۴",
+        "قانون مدنی - ماده ۳۹۱"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "uncertainty_flag": false,
+      "verdict_spread": {
+        "defender": "strong_for",
+        "prosecutor": "strong_for",
+        "judge": "strong_for"
+      },
+      "elapsed_s": 5.5,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "n_calibration": 25,
+  "optimal_alpha_p": 0.35,
+  "optimal_alpha_a": 0.65,
+  "optimal_auroc": 0.6985,
+  "current_alpha_p": 0.4,
+  "current_alpha_a": 0.6,
+  "grid": [
+    {
+      "alpha_p": 0.1,
+      "alpha_a": 0.9,
+      "auroc": 0.6618
+    },
+    {
+      "alpha_p": 0.15,
+      "alpha_a": 0.85,
+      "auroc": 0.6691
+    },
+    {
+      "alpha_p": 0.2,
+      "alpha_a": 0.8,
+      "auroc": 0.6691
+    },
+    {
+      "alpha_p": 0.25,
+      "alpha_a": 0.75,
+      "auroc": 0.6765
+    },
+    {
+      "alpha_p": 0.3,
+      "alpha_a": 0.7,
+      "auroc": 0.6838
+    },
+    {
+      "alpha_p": 0.35,
+      "alpha_a": 0.65,
+      "auroc": 0.6985
+    },
+    {
+      "alpha_p": 0.4,
+      "alpha_a": 0.6,
+      "auroc": 0.6949
+    },
+    {
+      "alpha_p": 0.45,
+      "alpha_a": 0.55,
+      "auroc": 0.6912
+    },
+    {
+      "alpha_p": 0.5,
+      "alpha_a": 0.5,
+      "auroc": 0.6838
+    },
+    {
+      "alpha_p": 0.55,
+      "alpha_a": 0.44999999999999996,
+      "auroc": 0.6765
+    },
+    {
+      "alpha_p": 0.6,
+      "alpha_a": 0.4,
+      "auroc": 0.6618
+    },
+    {
+      "alpha_p": 0.65,
+      "alpha_a": 0.35,
+      "auroc": 0.6581
+    },
+    {
+      "alpha_p": 0.7,
+      "alpha_a": 0.30000000000000004,
+      "auroc": 0.6397
+    },
+    {
+      "alpha_p": 0.75,
+      "alpha_a": 0.25,
+      "auroc": 0.625
+    },
+    {
+      "alpha_p": 0.8,
+      "alpha_a": 0.19999999999999996,
+      "auroc": 0.6103
+    },
+    {
+      "alpha_p": 0.85,
+      "alpha_a": 0.15000000000000002,
+      "auroc": 0.5882
+    },
+    {
+      "alpha_p": 0.9,
+      "alpha_a": 0.09999999999999998,
+      "auroc": 0.5809
+    }
+  ],
+  "note": "n=25 is small for 2-parameter fitting; treat as indicative. Full calibration on train_val is left to future work."
+}
