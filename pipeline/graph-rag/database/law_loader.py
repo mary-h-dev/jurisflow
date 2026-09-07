@@ -1,11 +1,9 @@
-
-
 from database.connection import Neo4jConnection
 from laws.schemas import Law, Article, Note
 
 
 def dict_to_law(data: dict) -> Law:
-    """JSON خوانده‌شده از فایل را به آبجکت Law تبدیل می‌کند"""
+    """Converts JSON read from a file into a Law object."""
 
     def to_note(d):
         return Note(**d)
@@ -33,16 +31,16 @@ class LawGraphLoader:
         with self.connection.session() as session:
             for q in queries:
                 session.run(q)
-        print("✅ Index های Rule Graph آماده‌اند.")
+        print("✅ Rule Graph indexes are ready.")
 
     def load_law(self, law: Law):
-        print(f"📥 شروع بارگذاری: {law.name} ({law.domain}) — {len(law.articles)} ماده")
+        print(f"📥 Starting load: {law.name} ({law.domain}) — {len(law.articles)} articles")
         with self.connection.session() as session:
             session.execute_write(self._create_law, law)
             for article in law.articles:
                 session.execute_write(self._load_article, article, law.name)
             session.execute_write(self._create_references, law.name)
-        print("✅ بارگذاری تمام شد.")
+        print("✅ Loading finished.")
 
     @staticmethod
     def _create_law(tx, law: Law):

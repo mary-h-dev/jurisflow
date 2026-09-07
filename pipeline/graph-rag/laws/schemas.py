@@ -1,10 +1,9 @@
-
 from dataclasses import dataclass, field
 
 
 @dataclass
 class Note:
-    """تبصره‌ی یک ماده"""
+    """A note (تبصره) attached to an article"""
     note_number: int
     content: str
     status: str = "active"        # active | amended | abolished | interpreted
@@ -12,12 +11,12 @@ class Note:
 
 @dataclass
 class Article:
-    """یک ماده‌ی قانونی — واحد اصلی Rule Graph"""
+    """A single statutory article — the core unit of the Rule Graph"""
     article_number: int
     content: str
-    law_name: str                 # مثلاً "قانون مدنی"
-    domain: str                   # مدنی | کیفری | تجاری | دادرسی مدنی | دادرسی کیفری
-    case_type: str                # حقوقی | کیفری — همیشه مشتق از domain، دستی وارد نمی‌شود
+    law_name: str                 # e.g. "Civil Code"
+    domain: str                   # Civil | Criminal | Commercial | Civil Procedure | Criminal Procedure
+    case_type: str                # civil | criminal — always derived from domain, never entered manually
     notes: list[Note] = field(default_factory=list)
     status: str = "active"
     references: list[int] = field(default_factory=list)
@@ -25,9 +24,9 @@ class Article:
 
 @dataclass
 class Law:
-    """یک قانون کامل، به صورت لیست تخت (flat) از مواد"""
+    """A complete statute, represented as a flat list of articles"""
     name: str
     domain: str
-    case_type: str                # حقوقی | کیفری — همیشه مشتق از domain
+    case_type: str                # civil | criminal — always derived from domain
     url: str
     articles: list[Article] = field(default_factory=list)

@@ -1,5 +1,3 @@
-
-
 import time
 import requests
 from bs4 import BeautifulSoup
@@ -17,7 +15,7 @@ HEADERS = {
 
 
 def fetch_page(url: str, delay: float = 1.5) -> BeautifulSoup | None:
-    """دریافت صفحه HTML و برگرداندن BeautifulSoup"""
+    """Fetch an HTML page and return it as a BeautifulSoup object."""
     try:
         time.sleep(delay)
         response = requests.get(url, headers=HEADERS, timeout=15)
@@ -28,38 +26,38 @@ def fetch_page(url: str, delay: float = 1.5) -> BeautifulSoup | None:
     except requests.exceptions.HTTPError as e:
         print(f"❌ HTTP Error: {e}")
     except requests.exceptions.ConnectionError:
-        print(f"❌ اتصال به {url} برقرار نشد.")
+        print(f"❌ Could not connect to {url}.")
     except requests.exceptions.Timeout:
-        print(f"❌ Timeout برای {url}")
+        print(f"❌ Timeout for {url}")
 
     return None
 
 
 def save_raw_html(url: str, output_path: str) -> bool:
-    """ذخیره HTML خام برای استفاده آفلاین"""
+    """Save the raw HTML for offline use."""
     try:
         time.sleep(1.5)
         response = requests.get(url, headers=HEADERS, timeout=15)
         response.raise_for_status()
 
         if not response.text or len(response.text.strip()) == 0:
-            print(f"⚠️ پاسخ سرور برای {url} خالی بود (status={response.status_code}) — ذخیره نشد.")
+            print(f"⚠️ Server response for {url} was empty (status={response.status_code}) — not saved.")
             return False
 
         with open(output_path, "w", encoding="utf-8") as f:
             f.write(response.text)
-        print(f"✅ HTML ذخیره شد: {output_path} ({len(response.text)} کاراکتر)")
+        print(f"✅ HTML saved: {output_path} ({len(response.text)} characters)")
         return True
     except Exception as e:
-        print(f"❌ خطا در ذخیره HTML: {e}")
+        print(f"❌ Error saving HTML: {e}")
         return False
 
 
 def load_local_html(file_path: str) -> BeautifulSoup | None:
-    """بارگذاری HTML از فایل محلی (حالت آفلاین)"""
+    """Load HTML from a local file (offline mode)."""
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             return BeautifulSoup(f.read(), "lxml")
     except FileNotFoundError:
-        print(f"❌ فایل یافت نشد: {file_path}")
+        print(f"❌ File not found: {file_path}")
         return None

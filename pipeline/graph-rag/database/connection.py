@@ -1,4 +1,3 @@
-
 from neo4j import GraphDatabase
 
 
@@ -13,7 +12,7 @@ class Neo4jConnection:
         return self.driver.session()
 
     def clear_database(self):
-        """پاک کردن کل دیتابیس — فقط برای توسعه"""
+        """Wipe the entire database — development use only."""
         with self.session() as session:
             session.run("MATCH (n) DETACH DELETE n")
-        print("🗑️ دیتابیس پاک شد.")
+        print("🗑️ Database cleared.")

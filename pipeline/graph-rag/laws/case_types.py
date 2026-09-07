@@ -1,5 +1,3 @@
-
-
 DOMAIN_TO_CASE_TYPE = {
     "مدنی":          "حقوقی",
     "تجاری":         "حقوقی",
@@ -10,9 +8,9 @@ DOMAIN_TO_CASE_TYPE = {
 
 
 def case_type_of(domain: str) -> str:
-    """نوع کلی پرونده (حقوقی|کیفری) را از روی domain برمی‌گرداند"""
+    """Returns the overall case type (civil | criminal) based on the domain."""
     if domain not in DOMAIN_TO_CASE_TYPE:
         raise ValueError(
-            f"domain ناشناخته: '{domain}' — آن را در DOMAIN_TO_CASE_TYPE اضافه کنید."
+            f"Unknown domain: '{domain}' — add it to DOMAIN_TO_CASE_TYPE."
         )
     return DOMAIN_TO_CASE_TYPE[domain]
