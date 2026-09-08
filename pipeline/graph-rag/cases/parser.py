@@ -1,14 +1,17 @@
 """
-cases/parser.py — پارسر مخصوص رأی‌های سامانه ملی آراء (ara.jri.ac.ir)
+cases/parser.py — parser dedicated to rulings from the National Rulings
+                   System (ara.jri.ac.ir)
 
-منطق کلی:
-    - container شماره ۰: عنوان + «پیام» + متادیتای پرونده (شماره دادنامه/
-      تاریخ/گروه) + «مستندات» (مواد قانونی) + select#Judge_ID (پرونده‌های مرتبط)
-    - div#treeText: چون «متن تجمیعی پرونده» به‌صورت پیش‌فرض فعاله، این div
-      می‌تونه چند <h1> جدا داشته باشه (هر کدوم یک لایه‌ی دادرسی: بدوی،
-      تجدیدنظر، دیوان عالی، ...). چون id این h1 ها روی سایت تکراری و
-      غیرقابل‌اعتماده (دیده شده: دو h1 با id="titr6")، فقط بر اساس
-      ترتیب واقعی ظاهرشدن‌شون در صفحه (نه id) از هم جدا می‌شن.
+General logic:
+    - container index 0: title + "message" + case metadata (verdict number/
+      date/group) + "citations" (statutory articles) + select#Judge_ID
+      (related rulings)
+    - div#treeText: since "aggregated case text" is enabled by default,
+      this div can contain several separate <h1> elements (each one a
+      litigation tier: first instance, appeal, supreme court, ...). Since
+      the id of these h1 elements is duplicated and unreliable on the site
+      (observed: two h1 with id="titr6"), they are separated purely based
+      on their actual order of appearance on the page (not by id).
 """
 
 import re
@@ -18,7 +21,8 @@ from cases.schemas import Ruling, RulingSection, CitedArticle
 
 PERSIAN_DIGITS = str.maketrans("۰۱۲۳۴۵۶۷۸۹", "0123456789")
 
-# نام‌های کامل («قانون ...») ۵ قانون مادر و مترادف‌های رایج‌شون روی این سایت.
+# Full names ("قانون ...") of our 5 core statutes and their common
+# synonyms as they appear on this site.
 FULL_LAW_NAMES = [
     "قانون مدنی",
     "قانون تجارت",
@@ -31,10 +35,10 @@ FULL_LAW_NAMES = [
     "قانون آیین دادرسی دادگاه های عمومی و انقلاب در امور کیفری",
 ]
 
-# بعضی رأی‌ها فقط عبارت ترکیبی رو بدون پیشوند «قانون» می‌آرن (مثلاً
-# «مواد ۳۴۸ آیین دادرسی مدنی»). فقط برای عبارت‌های به‌قدر کافی مشخص
-# (نه کلمات تک مثل «مدنی» به‌تنهایی، که خیلی مبهم و پرتکرارن) این حالت
-# رو هم می‌پذیریم.
+# Some rulings only give the bare compound phrase without the "قانون"
+# prefix (e.g. "مواد ۳۴۸ آیین دادرسی مدنی"). We only accept this for
+# phrases that are specific enough (not single words like "مدنی" alone,
+# which would be far too ambiguous and too common).
 BARE_LAW_NAMES = [
     "آیین دادرسی مدنی",
     "آئین دادرسی مدنی",
@@ -42,8 +46,8 @@ BARE_LAW_NAMES = [
     "آئین دادرسی کیفری",
 ]
 
-# نگاشت هر نام/مترادفی که روی سامانه‌ی آراء دیده می‌شه، به همون نام رسمی
-# که در laws/configs.py برای اسکرپ خودِ قانون استفاده کردیم.
+# Maps every name/synonym seen on the rulings system to the same
+# canonical name we used for scraping the statute itself in laws/configs.py.
 LAW_NAME_TO_CANONICAL = {
     "قانون مدنی": "قانون مدنی",
     "قانون تجارت": "قانون تجارت",
@@ -60,12 +64,9 @@ LAW_NAME_TO_CANONICAL = {
     "آئین دادرسی کیفری": "قانون آیین دادرسی کیفری",
 }
 
-# برای سازگاری با کد قدیمی/بقیه‌ی فایل
-KNOWN_LAW_NAMES = FULL_LAW_NAMES
-
 
 def _normalize_law_name(name: str) -> str:
-    """اگر نام شناخته‌شده بود به نام رسمی نگاشت می‌کنه، وگرنه دست‌نخورده برمی‌گردونه."""
+    """Maps a name to its canonical form if known, otherwise returns it unchanged."""
     return LAW_NAME_TO_CANONICAL.get(name.strip(), name.strip())
 
 
@@ -74,10 +75,10 @@ _INVISIBLE_CHARS_PATTERN = re.compile(r"[\u200b\u200c\u200d\u200e\u200f\ufeff]")
 
 def _clean_free_text(text: str) -> str:
     """
-    نرمال‌سازی متن آزاد قبل از هر تشخیص الگو: تبدیل رقم فارسی به لاتین،
-    یکدست‌کردن نیم‌فاصله/فاصله (که باعث می‌شد نام‌های ترکیبی مثل
-    «دادگاه‌های» با رسم‌الخط‌های مختلف match نشن)، و جمع‌کردن فاصله‌های
-    پشت‌سرهم.
+    Normalize free text before any pattern matching: convert Persian
+    digits to Latin, unify ZWNJ/spacing (which was causing compound names
+    like "دادگاه‌های" to fail to match across different spelling
+    conventions), and collapse consecutive whitespace.
     """
     text = text.translate(PERSIAN_DIGITS)
     text = _INVISIBLE_CHARS_PATTERN.sub(" ", text)
@@ -89,27 +90,29 @@ _REFERENTIAL_PATTERN = re.compile(
     r"^قانون(?:\s+[\u0600-\u06FF]+){0,4}?\s+"
     r"(?:مذکور|موصوف|مارالذکر|فوق[\s-]?الذکر|یادشده|اخیرالذکر|لاحق|سابق)\b"
 )
-# «آن قانون» / «همان قانون» — برخلاف بقیه‌ی کلمات ارجاعی، اینجا کلمه‌ی
-# اشاره («آن»/«همان») *قبل* از «قانون» می‌آد، نه بعدش — پس باید متنِ
-# پیش از رخداد «قانون» رو چک کنیم، نه بعدش.
+# "آن قانون" / "همان قانون" — unlike the other referential words, here the
+# demonstrative word ("آن"/"همان") comes *before* "قانون", not after — so
+# we need to check the text preceding the "قانون" occurrence, not after it.
 _BACKWARD_REFERENTIAL_PATTERN = re.compile(r"(?:آن|همان)\s*$")
 
 _NUMBER_GROUP_PATTERN = re.compile(r"(?:ماده|مواد)\s*((?:\d+\s*(?:و|،|,)?\s*)+)")
-# حالت خاص: «مواد X ... و Y قانون دیگر» — Y بدون «ماده» جلوش میاد ولی با
-# «و» به فهرست قبلی وصله. فقط وقتی این عدد *دقیقاً ابتدای پنجره* باشه
-# (بلافاصله بعد از مرز قانون قبلی) در نظر می‌گیریم — تا با اعداد نامرتبط
-# دیگه (تاریخ، مبلغ، شماره پرونده) قاطی نشه.
+# Special case: "مواد X ... و Y قانون دیگر" — Y comes without "ماده" in
+# front of it but is joined to the previous list with "و". We only accept
+# this number when it's *exactly at the start of the window* (immediately
+# after the previous law boundary), so it doesn't get mixed up with other
+# unrelated numbers (dates, amounts, case numbers).
 _LEADING_CONTINUATION_PATTERN = re.compile(r"^\s*(?:و|،)\s*(\d+)\b")
 
 
-# تشخیص «تبصره N از» (یا بدون «از») بلافاصله قبل از «ماده» — فقط وقتی
-# دقیقاً یک شماره ماده در همون گروه باشه به‌عنوان تبصره‌ی همون ماده در
-# نظر گرفته می‌شه (تا با فهرست چندماده‌ای که تبصره‌شون نامشخصه قاطی نشه).
+# Detects "تبصره N از" (or without "از") immediately before "ماده" — only
+# treated as a note of that same article when there is exactly one article
+# number in the same group (so it doesn't get mixed up with a multi-article
+# list whose note is ambiguous).
 _TABSARE_PREFIX_PATTERN = re.compile(r"تبصره\s*(\d+)\s*(?:از\s+)?$")
 
 
 def _numbers_in_window(window: str) -> list[tuple[int, int | None, int]]:
-    """خروجی: لیستی از (شماره_ماده, شماره_تبصره_یا_None, موقعیت_تطبیق_در_پنجره)"""
+    """Output: a list of (article_number, note_number_or_None, match_position_in_window)"""
     results = []
 
     for m in _NUMBER_GROUP_PATTERN.finditer(window):
@@ -134,16 +137,18 @@ def _numbers_in_window(window: str) -> list[tuple[int, int | None, int]]:
 
 def _find_law_fences(text: str) -> list[tuple[int, int, str | None, bool]]:
     """
-    پیدا کردن همه‌ی «مرزها» در متن: هر رخداد کلمه‌ی «قانون» (چه یکی از
-    ۵ قانون مادرمون باشه، چه قانونی کاملاً ناشناخته مثل «قانون تشکیل
-    دادگاه‌های عمومی») + هر رخداد نام ترکیبی بدون پیشوند.
+    Finds all "fences" (boundaries) in the text: every occurrence of the
+    word "قانون" (whether one of our 5 core statutes or a completely
+    unknown statute like "قانون تشکیل دادگاه‌های عمومی") + every occurrence
+    of a bare compound name without the prefix.
 
-    چرا قانون‌های ناشناخته هم مرز حساب می‌شن؟
-    چون اگه مرزبندی نکنیم، پنجره‌ی عقب‌گرد برای پیدا کردن «ماده» یک
-    قانونِ شناخته‌شده‌ی *بعدی* می‌تونه از وسط یک قانون ناشناخته‌ی دیگه رد
-    بشه و شماره‌ماده‌ی اون رو به اشتباه بدزده.
+    Why do unknown statutes count as fences too?
+    Because without fencing them off, the backward-looking window used to
+    find the "ماده" belonging to the *next* known statute could reach back
+    through the middle of another, unknown statute and incorrectly steal
+    its article number.
 
-    خروجی هر مرز: (start, end, نام_رسمی_یا_None, آیا_ارجاعی_است)
+    Output for each fence: (start, end, canonical_name_or_None, is_referential)
     """
     fences = []
     full_spans: list[tuple[int, int]] = []
@@ -174,19 +179,20 @@ def _find_law_fences(text: str) -> list[tuple[int, int, str | None, bool]]:
             fences.append((start, start + len("قانون"), None, True))
             continue
 
-        # قانونِ ناشناخته — فقط مرز، بدون انتساب
+        # Unknown statute — a fence only, with no attribution
         fences.append((start, start + len("قانون"), None, False))
 
     for bare in BARE_LAW_NAMES:
         for m in re.finditer(re.escape(bare), text):
             start = m.start()
             end = start + len(bare)
-            # اگه این عبارت داخل محدوده‌ی یکی از مرزهای «قانون ...» که
-            # قبلاً پیدا کردیم افتاده، یعنی جزئی از همون مرزه، دوباره
-            # اضافه نکن. (توجه: این بررسیِ دقیقِ containment است، نه یک
-            # حدسِ فاصله‌ای مثل چک‌کردن N کاراکتر قبل — چون آن حالت باعث
-            # می‌شد اگه یک «قانون» نامرتبط تصادفاً نزدیک بود، این fence
-            # به‌اشتباه حذف بشه و شماره‌ماده به مرز غلط بعدی نشت کنه.)
+            # If this phrase falls inside the span of a "قانون ..." fence
+            # we already found, it's part of that same fence — don't add
+            # it again. (Note: this is an exact containment check, not a
+            # distance heuristic like checking N characters before —
+            # because that would incorrectly drop this fence whenever an
+            # unrelated "قانون" happened to be nearby, letting the article
+            # number leak into the wrong subsequent fence.)
             if any(fs <= start < fe for fs, fe in full_spans):
                 continue
             fences.append((start, end, LAW_NAME_TO_CANONICAL[bare], False))
@@ -199,19 +205,22 @@ def _extract_articles_from_free_text(
     text: str, window_size: int = 400, forward_window: int = 60
 ) -> list[CitedArticle]:
     """
-    استخراج «حدسی» مواد قانونی از متن آزاد رأی — مکمل جعبه‌ی رسمی
-    «مستندات» که گاهی خالی می‌مونه. پشتیبانی می‌کنه از:
-        - نام‌های سنتی/طولانی قانون (با لنگرِ FULL_LAW_NAMES)
-        - ارجاعات ضمنی («قانون مذکور»، «قانون موصوف»، «آن قانون»، ...)
-        - کلمه‌ی جمع «مواد» با چند شماره‌ی جدا با «و»/«،»
-        - مرزبندی درست بین قانون‌های مختلف (حتی وقتی یکی‌شون ناشناخته باشه)
-        - تبصره‌ی مشخصِ یک ماده (نه کل ماده)
-        - هر دو جهت جمله: «ماده N ... قانون X» (عقب‌گرد) و
-          «قانون X ... ماده N» (جلوگرد، مثلاً «قانون مدنی، ماده ۱۹۹»)
+    "Best-effort" extraction of statutory articles from the ruling's free
+    text — complementing the official "citations" box, which is sometimes
+    left empty. Handles:
+        - traditional/long statute names (anchored on FULL_LAW_NAMES)
+        - implicit references ("قانون مذکور", "قانون موصوف", "آن قانون", ...)
+        - the plural word "مواد" with several numbers separated by "و"/"،"
+        - correct boundaries between different statutes (even when one of
+          them is unknown)
+        - a specific note of an article (not the whole article)
+        - both sentence directions: "ماده N ... قانون X" (backward) and
+          "قانون X ... ماده N" (forward, e.g. "قانون مدنی، ماده ۱۹۹")
 
-    برای جلوگیری از دوبار-شمارش وقتی هر دو جهت به یک عدد می‌رسن، ابتدا
-    پاسِ عقب‌گرد (که پرکاربردتره) اجرا و موقعیت‌هاش ثبت می‌شه؛ پاسِ
-    جلوگرد فقط عددهایی رو اضافه می‌کنه که قبلاً claim نشدن.
+    To avoid double-counting when both directions reach the same number,
+    the backward pass (the more common one) runs first and records its
+    positions; the forward pass only adds numbers that haven't already
+    been claimed.
     """
     text = _clean_free_text(text)
     fences = _find_law_fences(text)
@@ -229,9 +238,9 @@ def _extract_articles_from_free_text(
         resolved.append((start, end, attributed))
 
     results: list[CitedArticle] = []
-    claimed_positions: set[int] = set()   # موقعیت مطلقِ شروع هر عدد که قبلاً استفاده شده
+    claimed_positions: set[int] = set()   # absolute start position of every number already used
 
-    # پاس ۱ — عقب‌گرد (رفتار اصلی و پیش‌فرض)
+    # Pass 1 — backward (the main, default behavior)
     prev_fence_end = 0
     for start, end, attributed in resolved:
         if attributed:
@@ -243,7 +252,7 @@ def _extract_articles_from_free_text(
                 results.append(CitedArticle(article_number=num, law_name=attributed, note_number=note_num))
         prev_fence_end = end
 
-    # پاس ۲ — جلوگرد (مکمل، فقط برای «قانون X ... ماده N»)
+    # Pass 2 — forward (complementary, only for "قانون X ... ماده N")
     for idx, (start, end, attributed) in enumerate(resolved):
         if not attributed:
             continue
@@ -266,14 +275,15 @@ def _to_latin_digits(text: str) -> str:
 
 def _parse_cited_articles(mostanadat_text: str) -> list[CitedArticle]:
     """
-    دو فرمت دیده شده در «مستندات»:
+    Two formats observed in the "citations" ("مستندات") field:
         "ماده 312 قانون تجارت-ماده 2 قانون اصلاح موادی از قانون صدور چک-"
-            → هر بخش (جداشده با -) یک ماده و یک قانون مجزا
+            → each segment (split on -) is one article and one separate statute
         "ماده 399 ماده 401 قانون مدنی-"
-            → چند ماده‌ی متوالی که یک نام قانون مشترک دارن (بدون - بین‌شون)
-    راه‌حل: ابتدا با "-" گروه‌بندی می‌کنیم؛ داخل هر گروه همه‌ی شماره‌ماده‌ها
-    را جدا استخراج می‌کنیم و نام قانون را از انتهای گروه (بعد از آخرین
-    "ماده <عدد>") می‌گیریم — این هر دو فرمت را پوشش می‌دهد.
+            → several consecutive articles sharing one common statute name
+              (with no - between them)
+    Solution: first group by "-"; within each group, extract all article
+    numbers separately and take the statute name from the end of the group
+    (after the last "ماده <number>") — this covers both formats.
     """
     text = _to_latin_digits(mostanadat_text)
     articles = []
@@ -290,8 +300,9 @@ def _parse_cited_articles(mostanadat_text: str) -> list[CitedArticle]:
         law_name = law_name_match.group(1).strip() if law_name_match else ""
         law_name = _normalize_law_name(law_name)
 
-        # اگر دقیقاً یک ماده در این بخش بود، چک کن آیا بلافاصله قبلش
-        # «تبصره N از» اومده (یعنی استناد به یک تبصره‌ی خاص بوده، نه کل ماده)
+        # If this segment had exactly one article, check whether it was
+        # immediately preceded by "تبصره N از" (meaning the citation was to
+        # a specific note, not the whole article)
         note_number = None
         if len(article_numbers) == 1:
             prefix = chunk[:re.search(r"ماده\s*\d+", chunk).start()]
@@ -368,9 +379,10 @@ def _extract_cited_articles_text(container0) -> str:
 
 def _split_into_sections(tree_text_div) -> list[RulingSection]:
     """
-    تقسیم div#treeText به بخش‌های جدا بر اساس <h1> ها.
-    چون id این h1 ها تکراری/غیرقابل‌اعتماده، فقط از شیء واقعی (identity)
-    برای تشخیص «به h1 بعدی رسیدیم» استفاده می‌کنیم، نه از id یا متنش.
+    Splits div#treeText into separate sections based on <h1> elements.
+    Since the id of these h1 elements is duplicated/unreliable, only the
+    actual object identity is used to detect "we've reached the next h1",
+    not its id or text.
     """
     headers = tree_text_div.find_all("h1")
     if not headers:
@@ -385,8 +397,9 @@ def _split_into_sections(tree_text_div) -> list[RulingSection]:
         for sib in h1.next_siblings:
             if id(sib) in header_object_ids:
                 break
-            # یک <div> معمولاً یعنی به منوی «فهرست» انتهای صفحه رسیدیم؛
-            # محتوای واقعی رأی همیشه متن ساده + <br> است، نه div تودرتو.
+            # A <div> usually means we've reached the "index" menu at the
+            # end of the page; the actual ruling content is always plain
+            # text + <br>, never a nested div.
             if getattr(sib, "name", None) == "div":
                 break
             if hasattr(sib, "get_text"):
@@ -421,8 +434,9 @@ def parse_ruling(soup: BeautifulSoup, ruling_id: str, url: str) -> Ruling:
 
     cited_articles = _parse_cited_articles(cited_text)
 
-    # روی متن همه‌ی بخش‌ها با هم (نه هرکدوم جدا) اجرا می‌شه، چون یک ماده
-    # ممکنه در یک بخش ذکر بشه ولی نام قانون در جمله‌ی بعدی/بخش دیگه بیاد
+    # Runs on the combined text of all sections together (not each one
+    # separately), because an article might be mentioned in one section
+    # while the statute name appears in the next sentence/another section
     full_text_all_sections = " ".join(s.text for s in sections)
     text_cited_articles = _extract_articles_from_free_text(full_text_all_sections)
 

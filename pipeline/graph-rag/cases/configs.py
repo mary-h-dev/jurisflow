@@ -1,26 +1,29 @@
 """
-cases/configs.py — نگاشت هر قانون مادر به شناسه‌ی «Laws» در سامانه ملی آراء
+cases/configs.py — maps each core statute to its "Laws" ID on the National
+                    Rulings System (ara.jri.ac.ir)
 
-این فایل کاملاً مستقل از laws/configs.py است:
-    laws/configs.py   → برای اسکرپ متن خودِ قانون از qavanin.ir
-    cases/configs.py  → فقط شناسه‌ی همون قانون در سامانه‌ی رأی‌ها
-                         (ara.jri.ac.ir) — سایت و ID کاملاً جداست.
+This file is completely independent of laws/configs.py:
+    laws/configs.py   → for scraping the statute's own text from qavanin.ir
+    cases/configs.py  → only the ID of that same statute on the rulings
+                         system (ara.jri.ac.ir) — a different site with a
+                         completely different ID space.
 
-پویا بودن:
-    کلیدها (civil, penal, ...) باید دقیقاً با کلیدهای موجود در
-    laws.configs.LAW_CONFIGS یکی باشن. پایپ‌لاین پرونده‌ها مستقیم از
-    روی LAW_CONFIGS حلقه می‌زنه (نه یک لیست جدا و دستی) — یعنی اگر
-    قانون جدیدی به laws/configs.py اضافه شد، خودکار وارد اسکرپ پرونده‌ها
-    هم می‌شه، به شرطی که شناسه‌ش اینجا هم ثبت شده باشه.
+Dynamic by design:
+    The keys (civil, penal, ...) must exactly match the keys in
+    laws.configs.LAW_CONFIGS. The cases pipeline loops directly over
+    LAW_CONFIGS (not a separate manual list) — meaning that if a new
+    statute is later added to laws/configs.py, it will automatically be
+    included in the case-scraping step too, as long as its ID is also
+    registered here.
 
-    اگر قانونی در LAW_CONFIGS باشه ولی شناسه‌ش اینجا نباشه، پایپ‌لاین
-    با خطای واضح متوقف می‌شه (نه این‌که بی‌صدا ردش کنه) — تا کسی که
-    قانون جدید اضافه می‌کنه، فراموش نکنه شناسه‌ی سامانه‌ی آراء رو هم
-    اضافه کنه.
+    If a statute exists in LAW_CONFIGS but its ID is missing here, the
+    pipeline stops with a clear error (rather than silently skipping it) —
+    so that whoever adds a new statute doesn't forget to also add its
+    rulings-system ID.
 
-    نحوه‌ی پیدا کردن شناسه‌ی یک قانون جدید: در کادر جستجوی قوانین
-    سامانه ملی آراء (ara.jri.ac.ir) نام قانون رو تایپ کن، در HTML
-    گزینه‌ی <option value="..."> همون شناسه‌ی موردنیازه.
+    How to find a new statute's ID: type the statute's name into the
+    statute search box on the National Rulings System (ara.jri.ac.ir);
+    in the HTML, the <option value="..."> is the ID you need.
 """
 
 CASE_SEARCH_LAW_IDS: dict[str, int] = {
@@ -34,13 +37,14 @@ CASE_SEARCH_LAW_IDS: dict[str, int] = {
 
 def get_case_search_id(law_key: str) -> int:
     """
-    شناسه‌ی سامانه‌ی آراء برای یک کلید قانون را برمی‌گرداند.
-    اگر ثبت نشده باشد، خطای واضح می‌دهد (به‌جای بی‌صدا نادیده گرفتن).
+    Returns the rulings-system ID for a given statute key.
+    Raises a clear error if it isn't registered (instead of silently
+    ignoring it).
     """
     if law_key not in CASE_SEARCH_LAW_IDS:
         raise KeyError(
-            f"شناسه‌ی سامانه‌ی آراء برای قانون «{law_key}» ثبت نشده. "
-            f"در ara.jri.ac.ir نام قانون را جستجو کن، شناسه‌ی <option> را "
-            f"پیدا کن، و به CASE_SEARCH_LAW_IDS در cases/configs.py اضافه کن."
+            f"No rulings-system ID registered for statute '{law_key}'. "
+            f"Search for the statute's name on ara.jri.ac.ir, find its "
+            f"<option> id, and add it to CASE_SEARCH_LAW_IDS in cases/configs.py."
         )
     return CASE_SEARCH_LAW_IDS[law_key]

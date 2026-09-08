@@ -1,23 +1,26 @@
 """
-cases/schemas.py — ساختار داده‌ی مخصوص Fact Graph (پرونده‌ها/آراء)
+cases/schemas.py — data structures dedicated to the Fact Graph (rulings/cases)
 
-چرا زیر cases/ و نه یک models/ عمومی؟
-    دقیقاً به همون دلیلی که laws/schemas.py جدا بود: Ruling ساختار کاملاً
-    متفاوتی از Article داره و نباید با هم قاطی بشن.
+Why under cases/ and not a generic models/?
+    Exactly for the same reason laws/schemas.py is separate: Ruling has a
+    completely different structure from Article and the two must not be
+    mixed together.
 
-چرا فقط court_level + text نگه می‌داریم و نه فیلدهای ریزتر (شماره پرونده،
-قضات) به‌ازای هر بخش؟
-    چون قالب این فیلدها بین انواع دادگاه (بدوی/تجدیدنظر/دیوان عالی/نظریه)
-    و بین سال‌های مختلف به‌شدت فرق می‌کنه (مثلاً «شماره پرونده» در یک‌جا،
-    «پرونده کلاسه» در جای دیگه، و گاهی مقادیر با «*» سانسور شدن). به‌جای
-    regex شکننده برای هر حالت، متن کامل هر بخش رو نگه می‌داریم تا در
-    مرحله‌ی بعد (استخراج مفهومی با LLM برای Ontology Graph) دقیق‌تر
-    پردازش بشه.
+Why do we only keep court_level + text and not finer-grained fields (case
+number, judges) per section?
+    Because the format of these fields varies drastically between court
+    tiers (first instance/appeal/supreme court/opinion) and between
+    different years (e.g. "case number" in one place, "docket number"
+    ("پرونده کلاسه") in another, and sometimes values are censored with
+    "*"). Instead of writing a fragile regex for every case, we keep the
+    full text of each section so it can be processed more precisely in a
+    later stage (concept extraction with an LLM for the Ontology Graph).
 
-چرا یک صفحه (یک Ruling) می‌تونه چند «بخش» (RulingSection) داشته باشه؟
-    چون سایت به‌صورت پیش‌فرض «متن تجمیعی پرونده» رو فعال نگه می‌داره —
-    یعنی وقتی یک پرونده چند دور تجدیدنظر/اعاده دادرسی داشته، همه‌ی
-    لایه‌های تاریخی‌اش (هرکدوم با <h1> جدا) توی یک صفحه به‌هم چسبیده‌ن.
+Why can a single page (one Ruling) have several "sections" (RulingSection)?
+    Because the site keeps "aggregated case text" enabled by default —
+    meaning that when a case went through several rounds of appeal/retrial,
+    all of its historical layers (each separated by its own <h1>) are
+    concatenated together on a single page.
 """
 
 from dataclasses import dataclass, field
@@ -25,36 +28,36 @@ from dataclasses import dataclass, field
 
 @dataclass
 class CitedArticle:
-    """یک ماده‌ی قانونی که در «مستندات» این رأی ذکر شده"""
+    """A statutory article mentioned in this ruling's "citations" field"""
     article_number: int
-    law_name: str          # نام قانون همون‌طور که در سایت نوشته شده، مثلاً "قانون مدنی"
-    note_number: int | None = None   # اگر استناد به یک تبصره‌ی خاصِ این ماده بود (نه کل ماده)
+    law_name: str          # statute name exactly as written on the site, e.g. "قانون مدنی"
+    note_number: int | None = None   # set if the citation was to a specific note of this article (not the whole article)
 
 
 @dataclass
 class RulingSection:
-    """یک بخش از متن ادغام‌شده — یک لایه‌ی دادرسی (بدوی | تجدیدنظر | دیوان عالی | نظریه | ...)"""
-    court_level: str       # متن دقیق h1، مثلاً "رأی دادگاه بدوی" یا "نظریه ..."
-    text: str               # کل متن این بخش، بدون پردازش بیشتر
+    """One section of the aggregated text — one litigation tier (first instance | appeal | supreme court | opinion | ...)"""
+    court_level: str       # the exact h1 text, e.g. "رأی دادگاه بدوی" or "نظریه ..."
+    text: str               # the full text of this section, with no further processing
 
 
 @dataclass
 class Ruling:
-    """یک صفحه/رأی در سامانه ملی آراء (کلید = ruling_id از URL)"""
-    ruling_id: str                          # از URL، مثلاً "32208"
-    title: str                              # عنوان رسمی پرونده روی سایت
-    legal_factual_summary: str              # «پیام» — خلاصه‌ی رسمی نوشته‌شده توسط پژوهشگاه
-    verdict_number: str                     # شماره دادنامه قطعی (مربوط به همین ruling_id)
-    verdict_date: str                       # تاریخ دادنامه قطعی
-    case_type: str                          # حقوقی | کیفری  (از «گروه رأی»)
+    """One page/ruling on the National Rulings System (key = ruling_id from the URL)"""
+    ruling_id: str                          # from the URL, e.g. "32208"
+    title: str                              # the case's official title on the site
+    legal_factual_summary: str              # "پیام" — the official summary written by the research institute
+    verdict_number: str                     # final verdict number (for this ruling_id)
+    verdict_date: str                       # final verdict date
+    case_type: str                          # civil | criminal (from "گروه رأی")
     cited_articles: list[CitedArticle] = field(default_factory=list)
-    # مواد قانونی‌ای که در جعبه‌ی رسمی «مستندات» ذکر نشدن (چون این فیلد
-    # دستی/ویرایشیه و گاهی خالی می‌مونه)، ولی خودِ متن رأی صریحاً بهشون
-    # استناد کرده. فقط برای ۵ قانون مادرمون استخراج می‌شه (چون فقط همین‌ها
-    # در Rule Graph وجود دارن و قابل اتصالن). چون از متن آزاد استخراج شده،
-    # نسبت به cited_articles کمتر قابل‌اعتماده — مرحله‌ی Auditor باید
-    # نهایتاً اعتبارش رو تأیید کنه.
+    # Statutory articles not mentioned in the official "citations" box
+    # (since that field is manually edited and sometimes left empty), but
+    # which the ruling's own text explicitly cites. Only extracted for our
+    # 5 core statutes (since only those exist in the Rule Graph and can be
+    # linked). Because it's extracted from free text, it's less reliable
+    # than cited_articles — the Auditor stage must ultimately validate it.
     text_cited_articles: list[CitedArticle] = field(default_factory=list)
-    related_ruling_ids: list[str] = field(default_factory=list)   # سایر لایه‌های همین پرونده
-    sections: list[RulingSection] = field(default_factory=list)   # متن تجمیعی، تفکیک‌شده بر اساس h1
+    related_ruling_ids: list[str] = field(default_factory=list)   # other tiers of the same case
+    sections: list[RulingSection] = field(default_factory=list)   # aggregated text, split by h1
     url: str = ""

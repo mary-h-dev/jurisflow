@@ -1,5 +1,5 @@
 """
-main.py — Rule Graph pipeline for the 5 core statutes (civil, penal,
+main_laws.py — Rule Graph pipeline for the 5 core statutes (civil, penal,
           commercial, criminal_procedure, civil_procedure)
 
 Two independent steps:
@@ -104,7 +104,7 @@ def scrape_one(key: str):
         print(f"   1) Open in browser: {LAW_URLS.get(key, '(URL not defined)')}")
         print("   2) Wait for the page to fully load.")
         print(f"   3) Ctrl+S -> \"Webpage, Complete\" -> save it exactly at this path: {raw_html}")
-        print(f"   4) Run again: python main.py scrape {key}")
+        print(f"   4) Run again: python main_laws.py scrape {key}")
         return
 
     soup = load_local_html(raw_html)
@@ -346,8 +346,8 @@ def load_single(key: str):
 
 def _usage():
     print("Usage:")
-    print("  uv run main.py scrape <civil|penal|commercial|criminal_procedure|civil_procedure|all>")
-    print("  uv run main.py load   <civil|penal|commercial|criminal_procedure|civil_procedure|all>")
+    print("  uv run main_laws.py scrape <civil|penal|commercial|criminal_procedure|civil_procedure|all>")
+    print("  uv run main.laws.py load   <civil|penal|commercial|criminal_procedure|civil_procedure|all>")
 
 
 def _run_load(target: str):

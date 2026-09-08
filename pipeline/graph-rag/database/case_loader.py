@@ -1,25 +1,27 @@
 """
-database/case_loader.py — بارگذاری گراف پرونده‌ها (Fact Graph) در Neo4j
+database/case_loader.py — loads the case graph (Fact Graph) into Neo4j
 
-از همون Neo4jConnection مشترک استفاده می‌کنه (نگاه کن به database/connection.py)
-— دقیقاً مثل law_loader.py، فقط این یکی مسئول گره‌های Ruling/RulingSection است.
+Uses the same shared Neo4jConnection (see database/connection.py) —
+exactly like law_loader.py, except this one is responsible for the
+Ruling/RulingSection nodes.
 
-ساختار گراف:
+Graph structure:
     (:Ruling {ruling_id, title, summary, verdict_number, verdict_date,
                case_type, url})
         -[:HAS_SECTION]->
     (:RulingSection {court_level, text})
 
-    (:Ruling)-[:CITES {source: "official"}]->(:Article)   ← از «مستندات» رسمی
-    (:Ruling)-[:CITES {source: "text"}]->(:Article)        ← استخراج از متن آزاد
+    (:Ruling)-[:CITES {source: "official"}]->(:Article)   ← from the official "citations" field
+    (:Ruling)-[:CITES {source: "text"}]->(:Article)        ← extracted from free text
 
-    (:Ruling)-[:RELATED_TO]->(:Ruling)   ← لایه‌های دیگه‌ی همون پرونده
+    (:Ruling)-[:RELATED_TO]->(:Ruling)   ← other tiers of the same case
 
-نکته: گره Article باید از قبل توسط laws/database (Rule Graph) ساخته شده
-باشه. اگر شماره‌ماده‌ای در Rule Graph پیدا نشه (مثلاً ماده‌ای که در
-پرونده‌ی خیلی قدیمی به قانونی منسوخ استناد شده)، MERGE به‌جای MATCH
-استفاده می‌کنیم تا رابطه از دست نره، ولی چنین Article ای بدون content
-باقی می‌مونه (نشونه‌ی این‌که باید بعداً بررسی بشه).
+Note: the Article node must already have been created by laws/database
+(Rule Graph). If an article number cannot be found in the Rule Graph
+(e.g. an article cited by a very old case that refers to a now-abolished
+statute), MERGE is used instead of MATCH so the relationship isn't lost —
+but such an Article will remain without content (a signal that it needs
+to be reviewed later).
 """
 
 from database.connection import Neo4jConnection
@@ -51,7 +53,7 @@ class CaseGraphLoader:
         with self.connection.session() as session:
             for q in queries:
                 session.run(q)
-        print("✅ Index های Fact Graph آماده‌اند.")
+        print("✅ Fact Graph indexes are ready.")
 
     def load_ruling(self, ruling: Ruling):
         with self.connection.session() as session:
