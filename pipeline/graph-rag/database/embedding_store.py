@@ -1,31 +1,34 @@
 """
-database/embedding_store.py — ذخیره‌ی embedding روی گره‌های Rule Graph و Fact Graph
+database/embedding_store.py — stores embeddings on Rule Graph and Fact Graph nodes
 
-نکته‌ی مهم درباره‌ی طراحی: هر واحد قابل‌جستجو (ماده، تبصره، عنوان پرونده،
-خلاصه‌ی پرونده، هر بخش رأی) روی فیلد embedding *جدای خودش* ذخیره می‌شه —
-نه یک embedding ترکیبی از همه‌چیز با هم. این عمداً اینطوریه: وقتی تابع
-retrieval رو نوشتیم، باید بتونیم اثر هرکدوم (مثلاً فقط عنوان در برابر فقط
-خلاصه) رو جدا جدا بسنجیم، نه یک عدد قاطی که معلوم نیست کدوم فیلد باعث
-تطابق شده.
+Important design note: every searchable unit (article, note, ruling title,
+ruling summary, each ruling section) is stored on its *own separate*
+embedding field — not one combined embedding of everything together. This
+is deliberate: when we write the retrieval function, we need to be able to
+evaluate the effect of each one separately (e.g. title-only vs
+summary-only), not one mixed number where it's unclear which field
+actually drove the match.
 
-واحدهای قابل embedding:
+Embeddable units:
     Rule Graph:
-        - Article.embedding        ← متن اصلی ماده
-        - Note.embedding            ← متن هر تبصره (جدا از ماده — چون یک
-                                       تبصره می‌تونه استثنا/شرط کاملاً
-                                       متفاوتی از متن اصلی ماده باشه)
+        - Article.embedding        ← the article's main text
+        - Note.embedding            ← each note's text (kept separate from
+                                       the article — since a note can be a
+                                       completely different exception/
+                                       condition from the article's main text)
     Fact Graph:
-        - Ruling.title_embedding    ← عنوان (کوتاه، پرمعنا، برای جستجوی سریع)
-        - Ruling.summary_embedding  ← «پیام» / legal_factual_summary
-        - RulingSection.embedding   ← متن کامل هر لایه‌ی رأی
+        - Ruling.title_embedding    ← title (short, information-dense, for fast lookup)
+        - Ruling.summary_embedding  ← "پیام" / legal_factual_summary
+        - RulingSection.embedding   ← the full text of each ruling tier
 
-⚠️ تغییر تاریخ [رفع باگ]: در get_articles_without_embedding، شرط قبلی
-   `a.status <> 'abolished'` وقتی a.status اصلاً NULL بود (نه رشته‌ی
-   'abolished')، نتیجه‌ی مقایسه‌ش در Cypher به‌جای true/false، خودش NULL
-   می‌شد — و هر شرط NULL در WHERE مثل false رفتار می‌کنه، یعنی اون ماده
-   بی‌صدا از نتیجه حذف می‌شد. با coalesce(a.status, '') این مشکل رفع شده:
-   اگه status نال باشه، به‌جاش رشته‌ی خالی در نظر گرفته می‌شه که مطمئناً
-   با 'abolished' برابر نیست، پس ماده دیگه به‌اشتباه رد نمی‌شه.
+⚠️ Changelog [bug fix]: in get_articles_without_embedding, the previous
+   condition `a.status <> 'abolished'` — when a.status was NULL (rather
+   than the string 'abolished') — evaluated to NULL instead of true/false
+   in Cypher, and any NULL condition in a WHERE clause behaves like false,
+   meaning that article was silently dropped from the result. Fixed with
+   coalesce(a.status, ''): if status is NULL, it's treated as an empty
+   string instead, which is guaranteed not to equal 'abolished', so the
+   article is no longer incorrectly excluded.
 """
 
 from database.connection import Neo4jConnection
@@ -53,9 +56,9 @@ class EmbeddingStore:
                         `vector.similarity_function`: 'cosine'
                     }}}}
                 """)
-        print("✅ Vector index های هر دو گراف آماده‌اند (Article, Note, Ruling×۲, RulingSection).")
+        print("✅ Vector indexes for both graphs are ready (Article, Note, Ruling x2, RulingSection).")
 
-    # ── Rule Graph: مواد ────────────────────────────────────────────────
+    # ── Rule Graph: articles ────────────────────────────────────────────
 
     def get_articles_without_embedding(self, law: str) -> list[dict]:
         with self.connection.session() as session:
@@ -82,11 +85,12 @@ class EmbeddingStore:
                 num=article_number, law=law, embedding=embedding,
             )
 
-    # ── Rule Graph: تبصره‌ها ────────────────────────────────────────────
-    # نکته: چرا این مهمه؟ چون در cases/parser.py وقتی یک رأی به «تبصره N
-    # از ماده M» استناد می‌کنه، ما اون رو در CitedArticle.note_number ثبت
-    # کردیم. بدون embedding خودِ متن تبصره، هیچ‌وقت نمی‌تونیم موقع retrieval
-    # مستقیم محتوای همون تبصره‌ی خاص رو (نه کل ماده رو) پیدا کنیم.
+    # ── Rule Graph: notes ───────────────────────────────────────────────
+    # Note: why does this matter? Because in cases/parser.py, when a
+    # ruling cites "Note N of Article M", we recorded that as
+    # CitedArticle.note_number. Without embedding the note's own text, we
+    # could never retrieve that specific note's content directly (as
+    # opposed to the whole article) at retrieval time.
 
     def get_notes_without_embedding(self, law: str) -> list[dict]:
         with self.connection.session() as session:
@@ -115,7 +119,7 @@ class EmbeddingStore:
                 note_num=note_number, article_num=article_number, law=law, embedding=embedding,
             )
 
-    # ── Fact Graph: عنوان پرونده ────────────────────────────────────────
+    # ── Fact Graph: ruling title ─────────────────────────────────────────
 
     def get_ruling_titles_without_embedding(self) -> list[dict]:
         with self.connection.session() as session:
@@ -139,7 +143,7 @@ class EmbeddingStore:
                 id=ruling_id, embedding=embedding,
             )
 
-    # ── Fact Graph: خلاصه‌ی پرونده ──────────────────────────────────────
+    # ── Fact Graph: ruling summary ───────────────────────────────────────
 
     def get_rulings_without_summary_embedding(self) -> list[dict]:
         with self.connection.session() as session:
@@ -164,7 +168,7 @@ class EmbeddingStore:
                 id=ruling_id, embedding=embedding,
             )
 
-    # ── Fact Graph: بخش‌های رأی ─────────────────────────────────────────
+    # ── Fact Graph: ruling sections ──────────────────────────────────────
 
     def get_sections_without_embedding(self) -> list[dict]:
         with self.connection.session() as session:
@@ -230,8 +234,4 @@ class EmbeddingStore:
                     embedding=entry["vector"],
                 )
                 updated += result.single()["cnt"]
-        print(f"✅ {updated} نود واژگانی embedding گرفت.")
-
-
-
-
+        print(f"✅ {updated} vocabulary nodes received an embedding.")

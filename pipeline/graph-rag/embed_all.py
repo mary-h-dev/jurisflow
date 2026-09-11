@@ -1,23 +1,25 @@
 """
-embed_all.py — تولید embedding برای Rule Graph و Fact Graph
+embed_all.py — generates embeddings for the Rule Graph and Fact Graph
 
-پویا بودن نسبت به قوانین: مثل main.py و main_cases.py، این فایل هم
-مستقیم از laws.configs.LAW_CONFIGS حلقه می‌زنه — نه یک لیست دستی.
+Dynamic with respect to statutes: like main.py and main_cases.py, this
+file also loops directly over laws.configs.LAW_CONFIGS — not a manual list.
 
-⚠️ افزوده‌ی جدید — rules-extra: علاوه بر ۵ قانون اصلیِ LAW_CONFIGS، در
-عمل ده‌ها مقدار دیگر برای a.law در گراف پیدا شد (مثلاً «قانون حمایت
-خانواده»، «قانون امور حسبی»، و حتی رشته‌های نامرتب مثل «و ۲۳۰ قانون
-مدنی» که در واقع تکه‌ی یک ارجاع هستند، نه اسم مستقل یک قانون). تصمیم:
-همه‌ی این‌ها را هم embed می‌کنیم — چون embedding روی خودِ `content`
-ماده انجام می‌شود، نه روی اسم قانون؛ حتی اگر برچسبِ «کدام قانون» کثیف
-باشد، محتوای خودِ ماده هنوز واقعی و قابل‌استفاده است. تمیزکردنِ خودِ
-برچسب `law` (اصلاح parser استخراج ارجاعات) یک کار جداست، برای بعد.
+⚠️ New addition — rules-extra: besides the 5 core statutes in
+LAW_CONFIGS, dozens of other values for a.law were found in practice in
+the graph (e.g. "قانون حمایت خانواده" [Family Protection Act], "قانون
+امور حسبی", and even messy strings like "و ۲۳۰ قانون مدنی" which are
+actually a fragment of a reference, not an independent statute name).
+Decision: we embed all of these too — because embedding runs on the
+article's `content` itself, not on the statute name; even if the "which
+statute" label is dirty, the article's own content is still real and
+usable. Cleaning up the `law` label itself (fixing the reference-
+extraction parser) is a separate task, for later.
 
-نحوه‌ی استفاده:
-    uv run embed_all.py rules            ← فقط ۵ قانون اصلی، هر ۵ تا
-    uv run embed_all.py rules civil      ← فقط یک قانون خاص از ۵ تای اصلی
-    uv run embed_all.py rules-extra      ← همه‌ی مقادیر a.law خارج از ۵ تای اصلی
-    uv run embed_all.py cases            ← خلاصه + بخش‌های رأی‌ها
+Usage:
+    uv run embed_all.py rules            ← only the 5 core statutes, all of them
+    uv run embed_all.py rules civil      ← only one specific core statute
+    uv run embed_all.py rules-extra      ← every a.law value outside the 5 core statutes
+    uv run embed_all.py cases            ← ruling summaries + sections
     uv run embed_all.py all              ← rules + rules-extra + cases
 """
 
@@ -38,16 +40,17 @@ NEO4J_URI  = os.getenv("NEO4J_URI")
 NEO4J_USER = os.getenv("NEO4J_USERNAME")
 NEO4J_PASS = os.getenv("NEO4J_PASSWORD")
 
-BATCH_SIZE = 12   # چند متن در هر فراخوانی مدل با هم پردازش بشن
+BATCH_SIZE = 12   # how many texts to process together per model call
 
 
 def _save_with_retry(save_fn, item_id, embedding, retries: int = 3, delay: float = 5.0):
     """
-    اتصال به Neo4j Aura (یا هر سرور ابری دیگه) گاهی به‌خاطر قطعی موقت
-    شبکه/idle-timeout قطع می‌شه. چون هر save_xxx_embedding خودش هر بار
-    یک session جدید باز می‌کنه، صرفاً تلاش دوباره معمولاً کافیه — درایور
-    خودش کانکشن جدید می‌سازه. اگه بعد از چند تلاش هم جواب نداد، این یک
-    آیتم رو رد می‌کنیم (به‌جای این‌که کل باقی‌مونده‌ی ۱۰۰۰+ آیتم از بین بره).
+    The connection to Neo4j Aura (or any other cloud server) sometimes
+    drops due to a transient network outage / idle timeout. Since each
+    save_xxx_embedding opens a fresh session every time, a simple retry is
+    usually enough — the driver creates a new connection on its own. If it
+    still fails after a few attempts, we skip this one item (rather than
+    losing the entire remaining 1000+ items).
     """
     for attempt in range(retries):
         try:
@@ -55,17 +58,17 @@ def _save_with_retry(save_fn, item_id, embedding, retries: int = 3, delay: float
             return True
         except (ServiceUnavailable, SessionExpired, Neo4jError) as e:
             if attempt < retries - 1:
-                print(f"  ⏳ قطعی اتصال Neo4j، تلاش دوباره ({attempt + 1}/{retries}) بعد از {delay} ثانیه...")
+                print(f"  ⏳ Neo4j connection outage, retrying ({attempt + 1}/{retries}) after {delay}s...")
                 time.sleep(delay)
             else:
-                print(f"  ❌ ذخیره‌ی {item_id} بعد از {retries} تلاش شکست خورد — رد شد: {e}")
+                print(f"  ❌ Saving {item_id} failed after {retries} attempts — skipped: {e}")
                 return False
 
 
 def _embed_and_save(items: list[dict], text_key: str, save_fn, id_key: str, max_length: int | None = None):
     """
-    الگوی مشترک: batch بساز، embed کن، ذخیره کن. برای هر سه نوع گره
-    (Article/Ruling/RulingSection) همین تابع استفاده می‌شه.
+    Shared pattern: build a batch, embed it, save it. Used for all three
+    node types (Article/Ruling/RulingSection).
     """
     total = len(items)
     for i in range(0, total, BATCH_SIZE):
@@ -81,11 +84,12 @@ def _embed_and_save(items: list[dict], text_key: str, save_fn, id_key: str, max_
 
 def _embed_one_law(store: EmbeddingStore, law_name: str):
     """
-    منطق مشترک بین embed_rules (۵ قانون اصلی) و embed_extra_laws (بقیه)
-    — یک‌بار نوشته شده تا هردو دقیقاً یک رفتار داشته باشن.
+    Logic shared between embed_rules (the 5 core statutes) and
+    embed_extra_laws (everything else) — written once so both behave
+    exactly the same way.
     """
     articles = store.get_articles_without_embedding(law_name)
-    print(f"\n📊 {law_name[:80]}: {len(articles)} ماده نیاز به embedding دارند")
+    print(f"\n📊 {law_name[:80]}: {len(articles)} articles need embedding")
 
     if articles:
         _embed_and_save(
@@ -98,7 +102,7 @@ def _embed_one_law(store: EmbeddingStore, law_name: str):
 
     notes = store.get_notes_without_embedding(law_name)
     if notes:
-        print(f"📊 {law_name[:80]}: {len(notes)} تبصره نیاز به embedding دارند")
+        print(f"📊 {law_name[:80]}: {len(notes)} notes need embedding")
         _embed_and_save(
             items=[
                 {"id": (n["note_num"], n["article_num"], law_name), "content": n["content"]}
@@ -123,21 +127,21 @@ def embed_rules(law_key: str | None = None):
 
         for key in keys:
             if key not in LAW_CONFIGS:
-                print(f"❌ کلید ناشناخته: {key}")
+                print(f"❌ Unknown key: {key}")
                 continue
             _embed_one_law(store, LAW_CONFIGS[key].law_name)
     finally:
         connection.close()
 
-    print("\n🎉 embedding قوانین اصلی تمام شد!")
+    print("\n🎉 Core statute embedding finished!")
 
 
 def get_extra_law_values(connection: Neo4jConnection) -> list[str]:
     """
-    تمام مقادیر a.law که در ۵ قانون اصلیِ LAW_CONFIGS نیستن — شامل هم
-    قوانین فرعیِ واقعی (مثل «قانون حمایت خانواده») هم رشته‌های
-    نامرتبِ ناشی از خطای parser (که عمداً فیلتر نمی‌شن، نگاه کن به
-    توضیح بالای فایل).
+    Every a.law value that isn't one of the 5 core statutes in
+    LAW_CONFIGS — including both genuine secondary statutes (like "قانون
+    حمایت خانواده") and messy strings caused by parser errors
+    (deliberately not filtered out, see the note at the top of this file).
     """
     known = {cfg.law_name for cfg in LAW_CONFIGS.values()}
     with connection.session() as session:
@@ -152,14 +156,14 @@ def embed_extra_laws():
     try:
         store.create_vector_indexes()
         extra_laws = get_extra_law_values(connection)
-        print(f"📚 {len(extra_laws)} مقدار «قانون» خارج از ۵ قانون اصلی پیدا شد")
+        print(f"📚 {len(extra_laws)} 'law' values found outside the 5 core statutes")
 
         for law_name in extra_laws:
             _embed_one_law(store, law_name)
     finally:
         connection.close()
 
-    print("\n🎉 embedding قوانین فرعی/متفرقه هم تمام شد!")
+    print("\n🎉 Secondary/miscellaneous statute embedding finished too!")
 
 
 def embed_cases():
@@ -170,7 +174,7 @@ def embed_cases():
         store.create_vector_indexes()
 
         titles = store.get_ruling_titles_without_embedding()
-        print(f"\n📊 {len(titles)} عنوان پرونده نیاز به embedding دارند")
+        print(f"\n📊 {len(titles)} ruling titles need embedding")
         if titles:
             _embed_and_save(
                 items=titles, text_key="text",
@@ -179,7 +183,7 @@ def embed_cases():
             )
 
         rulings = store.get_rulings_without_summary_embedding()
-        print(f"\n📊 {len(rulings)} خلاصه‌ی رأی نیاز به embedding دارند")
+        print(f"\n📊 {len(rulings)} ruling summaries need embedding")
         if rulings:
             _embed_and_save(
                 items=rulings, text_key="text",
@@ -188,7 +192,7 @@ def embed_cases():
             )
 
         sections = store.get_sections_without_embedding()
-        print(f"\n📊 {len(sections)} بخش رأی نیاز به embedding دارند")
+        print(f"\n📊 {len(sections)} ruling sections need embedding")
         if sections:
             _embed_and_save(
                 items=sections, text_key="text",
@@ -198,12 +202,12 @@ def embed_cases():
     finally:
         connection.close()
 
-    print("\n🎉 embedding پرونده‌ها تمام شد!")
+    print("\n🎉 Case embedding finished!")
 
 
 def _usage():
     keys = "|".join(LAW_CONFIGS.keys())
-    print("استفاده:")
+    print("Usage:")
     print(f"  uv run embed_all.py rules [<{keys}>]")
     print("  uv run embed_all.py rules-extra")
     print("  uv run embed_all.py cases")

@@ -1,30 +1,34 @@
 """
-common/embedder.py — embedding با bge-m3 از طریق Ollama (محلی)
+common/embedder.py — embedding with bge-m3 via Ollama (local)
 
-چرا Ollama و نه نسخه‌ی native (FlagEmbedding)؟
-    نسخه‌ی native روی محیط با رم محدود (Codespace با ۹ گیگ) مدام OOM
-    می‌شد. Ollama یک سرور جدا با مدیریت حافظه‌ی خودشه و پایدارتر اجراست
-    — به قیمت دقت کمی پایین‌تر (چون مدلش کوانتیزه‌ست). این یک تصمیم
-    آگاهانه برای عبور از گیرِ فعلیه، نه تصمیم نهایی — اگه بعداً منابع
-    بیشتری در دسترس بود، می‌شه به native برگشت.
+Why Ollama and not the native version (FlagEmbedding)?
+    The native version kept OOM-crashing on a memory-constrained
+    environment (a Codespace with 9GB RAM). Ollama runs as a separate
+    server with its own memory management and runs more stably — at the
+    cost of slightly lower accuracy (since its model is quantized). This
+    is a deliberate decision to get past the current constraint, not a
+    final one — if more resources become available later, it's possible
+    to go back to the native version.
 
-    ⚠️ نکته‌ی مهم برای بعد: embeddingهای این دو مدل با هم *سازگار نیستن*
-    (فضای برداری متفاوت دارن). اگه یک روز مدل عوض شد، باید همه‌ی
-    embeddingهای قبلی (چه Article/Note چه Ruling/RulingSection) از نو
-    ساخته بشن — نمی‌شه قاطی‌شون کرد.
+    ⚠️ Important note for later: embeddings from these two models are
+    *not compatible* with each other (different vector spaces). If the
+    model is ever switched, all previous embeddings (Article/Note as well
+    as Ruling/RulingSection) must be regenerated from scratch — they can't
+    be mixed.
 
-پیش‌نیاز: سرویس Ollama باید از قبل روشن باشه و مدل pull شده باشه:
+Prerequisite: the Ollama service must already be running and the model
+must be pulled:
     ollama pull bge-m3
 
-نکته‌ی مهم درباره‌ی طول متن (نسخه‌ی دوم): نسخه‌ی اول فقط با یک سقف
-کاراکتریِ بزرگ (max_length × ۴) کار می‌کرد و همه‌چیز رو در یک درخواست
-می‌فرستاد — این برای بخش‌های خیلی طولانیِ رأی (چند هزار کلمه) باعث
-می‌شد خودِ سرور Ollama با خطای 500 کرش کنه، چون context واقعیِ
-سرویس‌دهیِ Ollama معمولاً کوچیک‌تر از ظرفیت نظریِ مدل (۸۱۹۲) پیکربندی
-شده. راه‌حل: به‌جای truncate یا فرستادن یک‌جا، متن طولانی رو به
-تکه‌های امن (chunk) تقسیم می‌کنیم، هرکدوم رو جدا embed می‌کنیم، و
-میانگین بردارها رو برمی‌گردونیم — این‌جوری هیچ محتوایی گم نمی‌شه و
-درخواست هم هیچ‌وقت از حد امن Ollama رد نمی‌شه.
+Important note about text length (second version): the first version only
+worked with a single large character cap (max_length × 4) and sent
+everything in one request — this caused the Ollama server itself to crash
+with a 500 error on very long ruling sections (several thousand words),
+because Ollama's actual serving context is usually configured smaller
+than the model's theoretical capacity (8192). Solution: instead of
+truncating or sending everything at once, long text is split into safe
+chunks, each is embedded separately, and the vectors are averaged — this
+way no content is lost and the request never exceeds Ollama's safe limit.
 """
 
 import time
@@ -33,24 +37,25 @@ import requests
 OLLAMA_URL = "http://localhost:11434/api/embeddings"
 MODEL_NAME = "bge-m3"
 
-# سقف امنیتی پیش‌فرض (وقتی max_length مشخص نشده)
+# Default safety cap (when max_length isn't specified)
 _DEFAULT_SAFETY_CHAR_CAP = 20000
 
-# تخمین تقریبی نسبت کاراکتر به توکن برای فارسی
+# Rough character-to-token ratio estimate for Persian
 _CHARS_PER_TOKEN_ESTIMATE = 4
 
-# حداکثر اندازه‌ی *هر تکه* که در یک درخواست تکی به Ollama فرستاده می‌شه.
-# این عدد عمداً محافظه‌کارانه و مستقل از max_length کاربره — چون هدفش
-# جلوگیری از کرش سرور Ollamaست، نه رعایت ظرفیت نظری مدل.
+# Maximum size of *each chunk* sent to Ollama in a single request.
+# This number is deliberately conservative and independent of the
+# caller's max_length — its purpose is to prevent the Ollama server from
+# crashing, not to respect the model's theoretical capacity.
 _SAFE_CHUNK_SIZE = 3000
 _CHUNK_OVERLAP = 200
 
 
 def _resolve_char_cap(max_length: int | None) -> int:
     """
-    سقف کلیِ محتوایی که پردازش می‌شه (نه اندازه‌ی هر درخواست تکی — اون
-    رو _SAFE_CHUNK_SIZE کنترل می‌کنه). اگه متن از این سقف بزرگ‌تر بود،
-    قبل از chunk‌کردن، تا همین‌جا کوتاه می‌شه.
+    Overall content cap for what gets processed (not the size of each
+    individual request — that's controlled by _SAFE_CHUNK_SIZE). If the
+    text exceeds this cap, it's truncated to this length before chunking.
     """
     if max_length is None:
         return _DEFAULT_SAFETY_CHAR_CAP
@@ -58,7 +63,7 @@ def _resolve_char_cap(max_length: int | None) -> int:
 
 
 def _chunk_text(text: str) -> list[str]:
-    """تقسیم متن به تکه‌های امن با هم‌پوشانی کوچیک (تا مرز جمله‌ها قطع نشه)"""
+    """Split text into safe chunks with a small overlap (so sentence boundaries aren't cut)"""
     if len(text) <= _SAFE_CHUNK_SIZE:
         return [text]
 
@@ -79,7 +84,7 @@ def _average_vectors(vectors: list[list[float]]) -> list[float]:
 
 
 def _embed_single_request(text: str, retries: int = 2) -> list[float]:
-    """یک درخواست تکی به Ollama — فرض بر اینه که text از قبل به اندازه‌ی امن chunk شده"""
+    """A single request to Ollama — assumes text has already been chunked to a safe size"""
     last_error = None
     for attempt in range(retries + 1):
         try:
@@ -93,7 +98,7 @@ def _embed_single_request(text: str, retries: int = 2) -> list[float]:
         except requests.exceptions.RequestException as e:
             last_error = e
             if attempt < retries:
-                print(f"  ⏳ خطا در embedding، تلاش دوباره ({attempt + 1}/{retries})...")
+                print(f"  ⏳ Embedding error, retrying ({attempt + 1}/{retries})...")
                 time.sleep(3)
 
     raise last_error
@@ -105,7 +110,7 @@ def embed_text(text: str, retries: int = 2, max_length: int | None = None) -> li
 
     chunks = _chunk_text(text)
     if len(chunks) > 1:
-        print(f"  ✂️  متن طولانی به {len(chunks)} تکه تقسیم شد (برای جلوگیری از کرش Ollama)")
+        print(f"  ✂️  Long text split into {len(chunks)} chunks (to prevent Ollama from crashing)")
 
     vectors = [_embed_single_request(chunk, retries=retries) for chunk in chunks]
     return _average_vectors(vectors)
@@ -118,9 +123,9 @@ def embed_batch(
     max_length: int | None = None,
 ) -> list[list[float]]:
     """
-    Ollama batching واقعی سمت سرور نداره (هر درخواست یک متن)، پس یکی‌یکی
-    صدا می‌زنیم. batch_size فقط برای سازگاری با فراخوانی‌های قبلی نگه
-    داشته شده.
+    Ollama has no real server-side batching (one text per request), so we
+    call it one by one. batch_size is only kept for compatibility with
+    previous call sites.
     """
     embeddings = []
     for text in texts:
