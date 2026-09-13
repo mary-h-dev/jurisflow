@@ -1,14 +1,15 @@
 """
-features/merge_approved_gaps.py — ادغام واژه‌های تأییدشده به واژه‌نامه‌ی categorized
+features/merge_approved_gaps.py — merges approved terms into the
+categorized vocabulary
 
-ورودی: CSV با ستون‌های اصلی gap_report + یک ستون "دسته_بازبینی" که مقدارش
-یکی از این‌هاست:
-    - یکی از کلیدهای VOCAB_CATEGORIES ("concept"/"action"/"role"/"object"/"principle")
-      → یعنی به‌عنوان واژه‌ی جدید به همون دسته اضافه بشه
-    - "alias:<canonical>" → یعنی alias برای یک واژه‌ی canonical موجود
-    - "REMOVE" یا خالی → نادیده گرفته می‌شه
+Input: a CSV with the main gap_report columns plus a "دسته_بازبینی"
+(review category) column, whose value is one of:
+    - one of the VOCAB_CATEGORIES keys ("concept"/"action"/"role"/"object"/"principle")
+      → add as a new term to that category
+    - "alias:<canonical>" → add as an alias of an existing canonical term
+    - "REMOVE" or empty → ignored
 
-هیچ فایلی مستقیم overwrite نمی‌شه مگر با dry_run=False صریح.
+No file is overwritten directly unless dry_run=False is passed explicitly.
 """
 
 import csv
@@ -19,7 +20,7 @@ from features.configs import VOCAB_CATEGORIES
 
 _HERE = Path(__file__).resolve().parent.parent
 VOCAB_DIR = _HERE / "data" / "legal-vocabulary" / "categorized"
-REVIEWED_CSV = _HERE / "data" / "legal-vocabulary" / "gap_audit" / "gap_report_reviewed.csv"  # مسیر فایل خودتون رو اینجا تنظیم کنید
+REVIEWED_CSV = _HERE / "data" / "legal-vocabulary" / "gap_audit" / "gap_report_reviewed.csv"  # set your file path here
 
 VALID_CATEGORIES = set(VOCAB_CATEGORIES.keys())  # {"concept","action","role","object","principle"}
 
@@ -29,13 +30,14 @@ def run(csv_path: Path = REVIEWED_CSV, dry_run: bool = True):
         rows = list(csv.DictReader(f))
 
     if "دسته_بازبینی" not in rows[0]:
-        raise ValueError("ستون «دسته_بازبینی» در فایل پیدا نشد — نام ستون رو چک کن.")
+        raise ValueError("Column «دسته_بازبینی» not found in the file — check the column name.")
 
     to_add_canonical: dict[str, list[str]] = {k: [] for k in VOCAB_CATEGORIES}
     to_add_alias: dict[str, list[tuple[str, str]]] = {k: [] for k in VOCAB_CATEGORIES}
     skipped, invalid = [], []
 
-    # واژه‌نامه‌ی فعلی رو یک‌بار لود کن تا برای alias بتونیم دسته‌ی canonical رو پیدا کنیم
+    # Load the current vocabulary once, so for aliases we can find the
+    # canonical term's category
     existing_canon = {
         key: set(json.load(open(VOCAB_DIR / f"{key}s.json", encoding="utf-8")))
         if (VOCAB_DIR / f"{key}s.json").exists() else set()
@@ -58,27 +60,27 @@ def run(csv_path: Path = REVIEWED_CSV, dry_run: bool = True):
             if found_key:
                 to_add_alias[found_key].append((canonical, term))
             else:
-                invalid.append((term, decision, "canonical پیدا نشد در هیچ دسته‌ای"))
+                invalid.append((term, decision, "canonical not found in any category"))
         else:
-            invalid.append((term, decision, "مقدار نامعتبر"))
+            invalid.append((term, decision, "invalid value"))
 
-    # --- گزارش قبل از نوشتن ---
-    print(f"📄 {len(rows)} ردیف خونده شد — {len(skipped)} REMOVE/خالی رد شد\n")
+    # --- report before writing ---
+    print(f"📄 Read {len(rows)} rows — {len(skipped)} REMOVE/empty skipped\n")
     for key in VOCAB_CATEGORIES:
         if to_add_canonical[key]:
-            print(f"➕ {key} ({len(to_add_canonical[key])} واژه‌ی جدید): {to_add_canonical[key]}")
+            print(f"➕ {key} ({len(to_add_canonical[key])} new terms): {to_add_canonical[key]}")
         if to_add_alias[key]:
-            print(f"🔗 {key} ({len(to_add_alias[key])} alias جدید): {to_add_alias[key]}")
+            print(f"🔗 {key} ({len(to_add_alias[key])} new aliases): {to_add_alias[key]}")
     if invalid:
-        print(f"\n⚠️ {len(invalid)} ردیفِ نامعتبر (بررسی دستی لازمه):")
+        print(f"\n⚠️ {len(invalid)} invalid rows (need manual review):")
         for term, decision, reason in invalid:
             print(f"  - «{term}» → «{decision}» ({reason})")
 
     if dry_run:
-        print("\n🔍 dry_run=True — هیچ فایلی تغییر نکرد. اگه گزارش بالا درسته: run(dry_run=False)")
+        print("\n🔍 dry_run=True — no file was changed. If the report above looks right: run(dry_run=False)")
         return
 
-    # --- نوشتن واقعی ---
+    # --- actual write ---
     for key in VOCAB_CATEGORIES:
         canon_path = VOCAB_DIR / f"{key}s.json"
         alias_path = VOCAB_DIR / f"{key}s_aliases.json"
@@ -99,8 +101,8 @@ def run(csv_path: Path = REVIEWED_CSV, dry_run: bool = True):
         json.dump(sorted(canon_list), open(canon_path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
         json.dump(alias_map, open(alias_path, "w", encoding="utf-8"), ensure_ascii=False, indent=2, sort_keys=True)
 
-    print("\n✅ فایل‌های categorized/*.json به‌روزرسانی شدن.")
+    print("\n✅ categorized/*.json files updated.")
 
 
 if __name__ == "__main__":
-    run(dry_run=True)  # اول همیشه dry_run — بعد از بررسی خروجی، run(dry_run=False) کن
+    run(dry_run=True)  # always dry_run first — after reviewing the output, run(dry_run=False)

@@ -1,15 +1,16 @@
 """
-features/find_orphan_rulings.py — پیدا کردن دقیقِ ruling_id هایی که در
-data/features/<domain>/*.json هستن ولی node Ruling متناظرشون در Neo4j
-وجود نداره.
+features/find_orphan_rulings.py — precisely finds ruling_ids that exist
+in data/features/<domain>/*.json but have no matching Ruling node in
+Neo4j.
 
-چرا این اسکریپت لازم بود؟
-    دو تشخیص متفاوت مطرح شد (type mismatch از یک AI، بازمانده‌ی migration
-    ناقص از AI دیگر) — به‌جای انتخاب بین حدس‌ها، این اسکریپت مستقیماً
-    برای *هر* ruling_id چک می‌کند که آیا node متناظرش (با هر دو نوع
-    رشته/عدد) وجود دارد یا نه، و لیست دقیق یتیم‌ها را گزارش می‌دهد.
+Why was this script needed?
+    Two different diagnoses were proposed (a type mismatch from one AI, a
+    leftover from an incomplete migration from another). Rather than
+    picking between guesses, this script directly checks, for *every*
+    ruling_id, whether the matching node exists (as both string and
+    number type), and reports the exact list of orphans.
 
-نحوه‌ی اجرا:
+Usage:
     uv run -m features.find_orphan_rulings civil
 """
 
@@ -43,8 +44,8 @@ def get_all_extracted_ruling_ids(domain: str) -> list[str]:
 
 def find_orphans(ruling_ids: list[str], connection: Neo4jConnection) -> dict:
     """
-    برای هر ruling_id چک می‌کند: آیا با نوع رشته وجود دارد؟ با نوع عدد؟
-    خروجی: {"missing_both": [...], "found_as_string": n, "found_as_int": n}
+    For each ruling_id, checks: does it exist as a string type? As an
+    integer type? Output: {"missing_both": [...], "found_as_string": n, "found_as_int": n}
     """
     missing_both = []
     found_as_string = 0
@@ -85,7 +86,7 @@ def find_orphans(ruling_ids: list[str], connection: Neo4jConnection) -> dict:
 
 def run(domain: str):
     ruling_ids = get_all_extracted_ruling_ids(domain)
-    print(f"📂 {len(ruling_ids)} ruling_id از فایل‌های استخراج‌شده‌ی «{domain}» خوانده شد")
+    print(f"📂 Read {len(ruling_ids)} ruling_ids from the extracted files for «{domain}»")
 
     connection = Neo4jConnection(NEO4J_URI, NEO4J_USER, NEO4J_PASS)
     try:
@@ -93,23 +94,23 @@ def run(domain: str):
     finally:
         connection.close()
 
-    print(f"\n📊 نتیجه:")
-    print(f"  ✅ پیدا شد با نوع رشته : {stats['found_as_string']}")
-    print(f"  ✅ پیدا شد با نوع عدد  : {stats['found_as_int']}  "
-          f"(اگه این عدد > 0 بود، یعنی type mismatch واقعاً بخشی از مشکل بوده)")
-    print(f"  🔴 اصلاً پیدا نشد      : {len(stats['missing_both'])}  "
-          f"(یعنی Ruling node این‌ها اصلاً در گراف Case ساخته نشده)")
+    print(f"\n📊 Result:")
+    print(f"  ✅ Found as string type: {stats['found_as_string']}")
+    print(f"  ✅ Found as int type   : {stats['found_as_int']}  "
+          f"(if this is > 0, the type mismatch was genuinely part of the problem)")
+    print(f"  🔴 Not found at all    : {len(stats['missing_both'])}  "
+          f"(their Ruling node was never created in the Case graph)")
 
     if stats["missing_both"]:
         out_path = f"data/features/{domain}_orphan_ruling_ids.txt"
         with open(out_path, "w", encoding="utf-8") as f:
             f.write("\n".join(stats["missing_both"]))
-        print(f"\n💾 لیست کامل ruling_id های یتیم ذخیره شد: {out_path}")
-        print(f"   نمونه (۱۰ تای اول): {stats['missing_both'][:10]}")
+        print(f"\n💾 Full list of orphan ruling_ids saved: {out_path}")
+        print(f"   Sample (first 10): {stats['missing_both'][:10]}")
 
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("استفاده: uv run -m features.find_orphan_rulings <domain>")
+        print("Usage: uv run -m features.find_orphan_rulings <domain>")
         sys.exit(1)
     run(sys.argv[1])

@@ -1,44 +1,47 @@
 """
-features/vocab_resolver.py — نگاشت مقدار آزادِ استخراج‌شده توسط LLM به
-نزدیک‌ترین واژه‌ی closed vocabulary — فقط با روش‌های قطعی (deterministic)،
-بدون هیچ fuzzy matching احتمالی (نه character-similarity، نه embedding).
+features/vocab_resolver.py — maps a freely-extracted LLM value to the
+closest closed-vocabulary term, using deterministic methods only
+(no fuzzy matching, no embedding similarity).
 
-چرا هیچ fuzzy matching (نه difflib، نه embedding)؟
-    تست شد و رد شد. «توقیف» (مصادره‌ی مال) و «توقف» (متوقف‌شدن) فقط یک
-    حرف فرق دارن ولی معنایشان کاملاً متفاوته — difflib این دو رو
-    اشتباهی یکی گرفت. برای رد کردن این ریسک با ابزار دیگه، شباهت
-    embedding (bge-m3) هم مستقیم تست شد: «توقیف» در برابر «توقیف
-    خودرو» = ۰.۸۸۹ (باید شبیه باشه)، «توقیف» در برابر «توقف» = ۰.۸۴۶
-    (نباید شبیه باشه). فاصله‌ی فقط ۰.۰۴۳ بین match درست و غلط یعنی
-    هیچ threshold ای نمی‌تونه این دو رو قابل‌اعتماد از هم جدا کنه —
-    این یک محدودیت ذاتی مدل embedding عمومیه برای افعال هم‌ریشه‌ی
-    فارسی، نه یک پارامتر قابل‌تنظیم.
+Why no fuzzy matching (no difflib, no embedding)?
+    Tested and rejected. "توقیف" (seizure of property) and "توقف"
+    (coming to a stop) differ by a single character but have completely
+    different meanings — difflib incorrectly matched them. To rule this
+    out with a different tool too, embedding similarity (bge-m3) was
+    tested directly: "توقیف" vs "توقیف خودرو" (should be similar) =
+    0.889, "توقیف" vs "توقف" (should NOT be similar) = 0.846. A gap of
+    only 0.043 between the correct and incorrect match means no
+    threshold can reliably separate them — this is an inherent
+    limitation of general-purpose embedding models on Persian
+    near-homograph verbs, not a tunable parameter. See
+    diagnose_confusable_pairs.py for the full test and ADR-006.
 
-    پس فلسفه: بهتره یک Feature درست رد بشه، تا این‌که به یک واژه‌ی
-    نزدیک ولی معنایاً غلط snap بشه و بی‌صدا در گراف بشینه — دقیقاً
-    همون فلسفه‌ای که در کل این پروژه (رد کردن evidence بدون موقعیت،
-    رد کردن quote های حاوی «...») دنبال کردیم.
+    So the guiding principle: better to correctly drop a feature than to
+    snap it to a nearby-but-wrong term that silently sits in the graph —
+    the same principle followed elsewhere in this project (rejecting
+    evidence without a location, rejecting quotes containing "...").
 
-دو نوع match مجاز — هردو قطعی، نه احتمالی:
-    ۱. Exact / Alias match: مقدار (بعد از normalize) دقیقاً برابر یک
-       canonical یا یکی از aliasهاش باشد.
-    ۲. Token-containment: یک واژه‌ی canonical *کامل* (به‌صورت
-       دنباله‌ی توکن، نه substring خام) داخل عبارت استخراج‌شده باشد.
-       مثال: «خوانده ردیف اول» شامل توکن دقیق «خوانده» است → match.
-       ولی «توقیف» هرگز به «توقف» match نمی‌شود، چون این دو رشته‌ی
-       متفاوتند، نه چون شبیه‌اند.
+Two allowed match types — both deterministic, not probabilistic:
+    1. Exact / alias match: the value (after normalization) is exactly
+       equal to a canonical term or one of its aliases.
+    2. Token-containment: a *complete* canonical term (as a token
+       sequence, not a raw substring) appears inside the extracted
+       phrase. Example: "خوانده ردیف اول" contains the exact token
+       "خوانده" → match. But "توقیف" never matches "توقف", because
+       these are different strings, not because they're similar.
 
-       چرا سطح توکن، نه substring خام؟ چون substring خام باعث
-       false-positive می‌شود — مثلاً «رد» می‌تواند به‌عنوان substring
-       داخل «تجدیدنظرخواهی» ظاهر شود بدون این‌که واقعاً همان کلمه
-       باشد. همان الگویی که در features/vocab_gap_audit.py برای حل
-       مشکل مشابه («ولی» داخل «مسئولیت») استفاده شد، اینجا هم به‌کار
-       رفته.
+       Why at the token level, not raw substring? Because a raw
+       substring check causes false positives — e.g. "رد" can appear as
+       a substring inside "تجدیدنظرخواهی" without actually being that
+       word. The same pattern used in features/vocab_gap_audit.py to
+       solve an analogous problem ("ولی" inside "مسئولیت") is applied
+       here too.
 
-هر Feature رد شده (نه match شد، نه exact نه containment) لاگ می‌شود —
-این لیست خودش منبع کشف alias های جدید است: اگر یک عبارت رد شده زیاد
-تکرار شد (مثلاً «اقامه دعوا» به‌جای «اقامه دعوی»)، دستی به
-*_aliases.json اضافه می‌شود. رشد واژه‌نامه با مرور دستی، نه حدس خودکار.
+Every rejected feature (no exact or containment match) is logged — this
+list is itself the source for discovering new aliases: if a rejected
+phrase recurs often (e.g. "اقامه دعوا" instead of "اقامه دعوی"), it's
+manually added to *_aliases.json. Vocabulary growth happens via manual
+review, not automatic guessing.
 """
 
 from __future__ import annotations
@@ -52,7 +55,7 @@ from features.configs import VOCAB_CATEGORIES
 _HERE = Path(__file__).resolve().parent.parent
 VOCAB_DIR = _HERE / "data" / "legal-vocabulary" / "categorized"
 
-_MIN_TOKEN_LEN = 2  # هم‌راستا با MIN_TOKEN_LEN در vocab_gap_audit.py
+_MIN_TOKEN_LEN = 2  # matches MIN_TOKEN_LEN in vocab_gap_audit.py
 
 
 def _normalize(s: str) -> str:
@@ -62,20 +65,20 @@ def _normalize(s: str) -> str:
     )
 
 
-_TOKEN_SPLIT_RE = re.compile(r"[^\u0600-\u06FF\u200c]+")  # فقط حروف فارسی/عربی + نیم‌فاصله
+_TOKEN_SPLIT_RE = re.compile(r"[^\u0600-\u06FF\u200c]+")  # Persian/Arabic letters + ZWNJ only
 
 
 def _tokenize(text: str) -> list[str]:
     """
-    هم‌راستا با tokenize در vocab_gap_audit.py — فقط دنباله‌های فارسی/
-    عربی را توکن حساب می‌کند (نه substring خام)، تا از false-positive
-    مثل «رد» داخل «تجدیدنظرخواهی» جلوگیری شود.
+    Matches tokenize in vocab_gap_audit.py — only counts Persian/Arabic
+    runs as tokens (not raw substrings), to avoid false positives like
+    "رد" inside "تجدیدنظرخواهی".
     """
     return [t for t in _TOKEN_SPLIT_RE.split(text) if len(t) >= _MIN_TOKEN_LEN]
 
 
 def _token_sequence_contained(needle_tokens: list[str], haystack_tokens: list[str]) -> bool:
-    """آیا دنباله‌ی needle_tokens به‌طور کامل و پیوسته در haystack_tokens حاضر است؟"""
+    """Is needle_tokens present as a complete, contiguous subsequence of haystack_tokens?"""
     n = len(needle_tokens)
     if n == 0:
         return False
@@ -86,7 +89,7 @@ def _token_sequence_contained(needle_tokens: list[str], haystack_tokens: list[st
 
 
 def _load_alias_index(category_key: str) -> dict[str, str]:
-    """خروجی: {normalized_alias_or_canonical: canonical_word}"""
+    """Output: {normalized_alias_or_canonical: canonical_word}"""
     index: dict[str, str] = {}
     canon_path = VOCAB_DIR / f"{category_key}s.json"
     alias_path = VOCAB_DIR / f"{category_key}s_aliases.json"
@@ -106,34 +109,34 @@ def _load_alias_index(category_key: str) -> dict[str, str]:
 
 class VocabResolver:
     """
-    یک نمونه از این کلاس فقط *یک‌بار* در ابتدای main_features.py ساخته
-    می‌شود (نه هر پرونده) — چون بارگذاری واژه‌نامه هزینه دارد و باید
-    فقط یک‌بار انجام شود، بعد برای همه‌ی پرونده‌ها استفاده مجدد شود.
+    One instance of this class is created *once*, at the start of
+    main_features.py (not per case) — because loading the vocabulary has
+    a cost and should only happen once, then be reused across all cases.
     """
 
     def __init__(self):
         self._alias_index: dict[str, dict[str, str]] = {
             key: _load_alias_index(key) for key in VOCAB_CATEGORIES
         }
-        # برای token-containment: هر واژه‌ی canonical/alias به‌همراه
-        # توکن‌های خودش (پیش‌محاسبه‌شده، برای سرعت)
+        # For token-containment: each canonical/alias term along with its
+        # own tokens (precomputed, for speed)
         self._tokenized_vocab: dict[str, list[tuple[list[str], str]]] = {}
         for key, alias_index in self._alias_index.items():
             entries = []
             for normalized_raw, canonical in alias_index.items():
-                # از خودِ canonical/alias اصلی (قبل از normalize) توکنایز می‌کنیم
+                # tokenize from the original canonical/alias (before normalize)
                 pass
             self._tokenized_vocab[key] = []
 
-        # چون alias_index کلیدش نسخه‌ی normalize شده است (بدون فاصله)،
-        # برای توکنایز کردن باید از خودِ رشته‌ی اصلی (قبل از normalize)
-        # استفاده کنیم — پس raw wordها را جدا نگه می‌داریم.
+        # Since alias_index's key is the normalized form (no spaces), we
+        # need the original raw string for tokenizing — so raw words are
+        # kept separately.
         self._raw_words_by_category: dict[str, list[tuple[str, str]]] = {
             key: self._load_raw_words(key) for key in VOCAB_CATEGORIES
         }
 
     def _load_raw_words(self, category_key: str) -> list[tuple[str, str]]:
-        """خروجی: [(واژه‌ی خام (alias یا canonical)، canonical), ...]"""
+        """Output: [(raw word (alias or canonical), canonical), ...]"""
         pairs: list[tuple[str, str]] = []
         canon_path = VOCAB_DIR / f"{category_key}s.json"
         alias_path = VOCAB_DIR / f"{category_key}s_aliases.json"
@@ -152,29 +155,30 @@ class VocabResolver:
 
     def resolve(self, raw_value: str, category_key: str) -> str | None:
         """
-        raw_value: مقداری که LLM آزادانه (بدون دیدن واژه‌نامه) نوشته.
-        خروجی: واژه‌ی canonical در closed vocabulary، یا None اگر
-        هیچ match قطعی (exact یا token-containment) پیدا نشد.
+        raw_value: a value the LLM wrote freely (without seeing the
+        vocabulary). Returns: the canonical closed-vocabulary term, or
+        None if no deterministic match (exact or token-containment) was
+        found.
         """
         if category_key not in VOCAB_CATEGORIES:
             return None
 
-        # ۱. Exact / Alias match (سریع‌ترین و امن‌ترین مسیر)
+        # 1. Exact / alias match (fastest and safest path)
         normalized = _normalize(raw_value)
         alias_index = self._alias_index[category_key]
         if normalized in alias_index:
             return alias_index[normalized]
 
-        # ۲. Token-containment — آیا یک واژه‌ی کامل واژه‌نامه، به‌صورت
-        #    دنباله‌ی توکن، داخل raw_value هست؟ اگه چند واژه‌ی مختلف
-        #    match شدن، طولانی‌ترین (دقیق‌ترین) رو انتخاب می‌کنیم —
-        #    مثلاً «خوانده ردیف اول» اگه هم به «خوانده» هم به یک واژه‌ی
-        #    فرضی طولانی‌تر match بشه، طولانی‌تر ترجیح داده می‌شود.
+        # 2. Token-containment — is a complete vocabulary term present,
+        #    as a token sequence, inside raw_value? If several different
+        #    terms match, the longest (most specific) one is chosen —
+        #    e.g. if "خوانده ردیف اول" matches both "خوانده" and some
+        #    hypothetically longer term, the longer one is preferred.
         raw_tokens = _tokenize(raw_value)
         if not raw_tokens:
             return None
 
-        best_match: tuple[int, str] | None = None  # (طول توکن، canonical)
+        best_match: tuple[int, str] | None = None  # (token length, canonical)
         for word, canonical in self._raw_words_by_category[category_key]:
             word_tokens = _tokenize(word)
             if not word_tokens:

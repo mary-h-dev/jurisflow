@@ -1,16 +1,17 @@
 """
-features/vocab_gap_audit.py — Frequency Audit روی closed vocabulary
+features/vocab_gap_audit.py — Frequency Audit over the closed vocabulary
 
-هدف: پیدا کردن عبارات پرتکرار توی متن کامل ۵۰۰۰ پرونده که هنوز در
-هیچ‌کدوم از ۵ دسته‌ی closed vocabulary (concepts/actions/roles/objects/
-principles) پوشش داده نشدن — بدون این‌که چیزی از واژه‌نامه‌ی فعلی حذف
-یا بازنویسی بشه. این فقط یک لایه‌ی تکمیلیِ *پیشنهادی* اضافه می‌کنه؛
-هیچ‌چیز خودکار به فایل‌های categorized/*.json اضافه نمی‌شه.
+Goal: find frequently-occurring phrases across the full text of ~5000
+cases that aren't yet covered by any of the 5 closed-vocabulary
+categories (concepts/actions/roles/objects/principles) — without
+removing or rewriting anything in the current vocabulary. This only adds
+a *proposed* supplementary layer; nothing is automatically added to the
+categorized/*.json files.
 
-نحوه‌ی اجرا:
+Usage:
     uv run -m features.vocab_gap_audit
 
-    یا فقط تست ایمنیِ پاک‌سازی (بدون اجرای کامل):
+    Or just the cleaning safety check (without a full run):
     uv run python -c "from features.vocab_gap_audit import check_cleaning_safety; check_cleaning_safety(200)"
 """
 
@@ -35,26 +36,27 @@ VOCAB_EMBED_CACHE = GAP_AUDIT_DIR / "vocab_embeddings_cache.json"
 CANDIDATE_EMBED_CHECKPOINT = GAP_AUDIT_DIR / "_candidate_embeddings.jsonl"
 REPORT_PATH = GAP_AUDIT_DIR / "gap_report.csv"
 
-# --- تنظیمات قابل‌تغییر ---
-MIN_DISTINCT_RULINGS = 50  # آستانه‌ی اولیه؛ بعد از دیدن توزیع واقعی تنظیمش کن
-ALIAS_SIMILARITY_THRESHOLD = 0.87  # نقطه‌ی شروع پیشنهادی (۰.۸۵-۰.۹)
-MIN_TOKEN_LEN = 2  # واژه‌های تک‌کاراکتری معمولاً نویزن
+# --- tunable settings ---
+MIN_DISTINCT_RULINGS = 50  # starting threshold; adjust after seeing the real distribution
+ALIAS_SIMILARITY_THRESHOLD = 0.87  # suggested starting point (0.85-0.9)
+MIN_TOKEN_LEN = 2  # single-character terms are usually noise
 
-# --- فیلتر stopword (جدید) ---
-# چرا لازم شد؟ اولین اجرای واقعی gap_report.csv رو دیدیم: صدر لیست
-# (بر اساس تعداد پرونده‌ی متمایز) پر بود از حروف‌اضافه/ربط فارسی («به»،
-# «است»، «از»، «در»، «با»، «که»، «را»، «این»، «بر»...) که به دسته‌های
-# تصادفی (concept/role/object) با امتیاز شباهت پایین (۰.۶۰-۰.۷۰، خیلی
-# زیر ALIAS_SIMILARITY_THRESHOLD) نسبت داده شده بودن. این‌ها به هیچ‌وجه
-# candidate واژه‌نامه‌ی حقوقی نیستن؛ یک لیست ثابت و کوچیک برای فیلترشون
-# کافیه — پیچیده‌تر (مثل POS-tagging) برای این نوع نویز لازم نیست.
+# --- stopword filter (added later) ---
+# Why was this needed? The first real run of gap_report.csv showed the
+# top of the list (by distinct case count) full of Persian prepositions/
+# conjunctions ("به", "است", "از", "در", "با", "که", "را", "این", "بر"...)
+# that had been assigned to random categories (concept/role/object) with
+# low similarity scores (0.60-0.70, well below
+# ALIAS_SIMILARITY_THRESHOLD). These are in no way legal-vocabulary
+# candidates; a small fixed list is enough to filter them — something
+# more elaborate (like POS-tagging) isn't needed for this kind of noise.
 #
-# چرا یک unigram/bigram فقط وقتی فیلتر می‌شه که *همه‌ی* توکن‌هاش
-# stopword باشن، نه اگه حتی یکی از توکن‌هاش باشه؟ چون bigramهایی مثل
-# «پس از» (که خودش هم صرفاً حرف‌اضافه‌ست) باید فیلتر بشه، ولی ترکیب‌های
-# معنادار مثل «دادگاه عمومی» یا «تجدیدنظر استان» که تصادفاً یک stopword
-# ندارن دست‌نخورده می‌مونن. یک قانون ساده: اگر و فقط اگر تمام توکن‌های
-# عبارت در STOPWORDS باشن، حذف می‌شه.
+# Why is a unigram/bigram only filtered when *all* of its tokens are
+# stopwords, not if even one of them is? Because bigrams like "پس از"
+# (itself just a preposition) should be filtered, but meaningful
+# combinations like "دادگاه عمومی" or "تجدیدنظر استان" that happen to
+# contain no stopword must stay untouched. Simple rule: filter only if
+# and only if every token of the phrase is in STOPWORDS.
 STOPWORDS: set[str] = {
     "به", "از", "در", "با", "که", "را", "این", "آن", "بر", "پس",
     "است", "شده", "شد", "باشد", "بود", "می", "را", "تا", "یا", "و",
@@ -66,7 +68,7 @@ STOPWORDS: set[str] = {
 
 
 # ==================================================================
-# مرحله ۱: پاک‌سازی متن قبل از شمارش فرکانس
+# Stage 1: text cleaning before frequency counting
 # ==================================================================
 
 FULL_LAW_NAMES = [
@@ -105,9 +107,10 @@ _CLEAN_REGEX = re.compile("|".join(_CLEAN_PATTERNS))
 
 _REMOVED_SENTINEL = " ‹removed› "
 
-# استثنای شناخته‌شده: عبارت‌هایی که گاهی به‌خاطر همپوشانی با
-# FULL_LAW_NAMES ناپدید می‌شن (مثل «طبق قانون» قبل از «قانون مدنی»).
-# بررسی و تأیید شده که ابهام ذاتی متنه، نه باگ — نرخ وقوعش خیلی پایینه.
+# Known caveat: phrases that sometimes disappear due to overlap with
+# FULL_LAW_NAMES (e.g. "طبق قانون" before "قانون مدنی"). Reviewed and
+# confirmed this is inherent text ambiguity, not a bug — its occurrence
+# rate is very low.
 KNOWN_ACCEPTABLE_OVERLAPS = {"طبق قانون"}
 
 
@@ -120,7 +123,7 @@ def _is_cataloged_article_reference(word: str) -> bool:
 
 
 # ==================================================================
-# مرحله ۲: شمارش فرکانس (unigram + bigram) — با آگاهی از مجاورت واقعی
+# Stage 2: frequency counting (unigram + bigram) — aware of real adjacency
 # ==================================================================
 
 _SCAN_RE = re.compile(r"[\u0600-\u06FF\u200c]+|[^\u0600-\u06FF\u200c]+")
@@ -161,8 +164,8 @@ def _tokens_with_real_adjacency(text: str) -> tuple[list[str], list[bool]]:
 
 
 def _is_all_stopwords(gram: str) -> bool:
-    """آیا *همه‌ی* توکن‌های این عبارت stopword ان؟ (نه فقط یکی‌شون —
-    وگرنه ترکیب‌های معنادار مثل «دادگاه عمومی» هم فیلتر می‌شدن)"""
+    """Are *all* tokens of this phrase stopwords? (not just one — otherwise
+    meaningful combinations like "دادگاه عمومی" would also be filtered)"""
     return all(tok in STOPWORDS for tok in gram.split(" "))
 
 
@@ -213,17 +216,17 @@ def load_all_ruling_texts() -> dict[str, str]:
             bad_files.append((path, str(e)))
 
     if bad_files:
-        print(f"⚠️ {len(bad_files)} فایل خراب/خالی رد شد (از {len(paths)} کل):")
+        print(f"⚠️ Skipped {len(bad_files)} corrupted/empty files (out of {len(paths)} total):")
         for path, err in bad_files[:20]:
             print(f"  - {path}: {err}")
         if len(bad_files) > 20:
-            print(f"  ... و {len(bad_files) - 20} مورد دیگر")
+            print(f"  ... and {len(bad_files) - 20} more")
 
     return texts
 
 
 # ==================================================================
-# مرحله ۳: مقایسه با واژه‌نامه‌ی فعلی
+# Stage 3: comparison against the current vocabulary
 # ==================================================================
 
 def _normalize(s: str) -> str:
@@ -256,12 +259,12 @@ def find_gap_candidates(
         g for g, stats in freq.items()
         if len(stats["ruling_ids"]) >= min_distinct
         and _normalize(g) not in vocab_index
-        and not _is_all_stopwords(g)  # لایه‌ی دوم اطمینان — حتی اگر جایی از فیلترِ مرحله‌ی ۲ رد شده باشه
+        and not _is_all_stopwords(g)  # second safety layer — even if something slipped past stage-2 filtering
     ]
 
 
 # ==================================================================
-# مرحله ۴: چک شباهت معنایی (جلوگیری از duplicate/drift)
+# Stage 4: semantic similarity check (prevents duplicates/drift)
 # ==================================================================
 
 def _cosine(a: list[float], b: list[float]) -> float:
@@ -280,17 +283,17 @@ def build_vocab_embeddings(vocab_index: dict[str, tuple[str, str]]) -> dict[str,
         cache = json.load(open(VOCAB_EMBED_CACHE, encoding="utf-8"))
 
     to_embed = [(norm, word, cat) for norm, (word, cat) in vocab_index.items() if norm not in cache]
-    print(f"📚 embedding واژه‌نامه: {len(cache)} از قبل در کش، {len(to_embed)} باقی‌مونده")
+    print(f"📚 Embedding vocabulary: {len(cache)} already cached, {len(to_embed)} remaining")
 
     for i, (norm, word, cat) in enumerate(to_embed, start=1):
         vector = embed_text(word)
         cache[norm] = {"word": word, "category": cat, "vector": vector}
         if i % 50 == 0:
             json.dump(cache, open(VOCAB_EMBED_CACHE, "w", encoding="utf-8"))
-            print(f"  ... {i}/{len(to_embed)} embed شد (ذخیره‌ی موقت انجام شد)")
+            print(f"  ... {i}/{len(to_embed)} embedded (checkpoint saved)")
 
     json.dump(cache, open(VOCAB_EMBED_CACHE, "w", encoding="utf-8"))
-    print(f"✅ کل کش embedding واژه‌نامه: {len(cache)} واژه")
+    print(f"✅ Total vocabulary embedding cache: {len(cache)} terms")
     return cache
 
 
@@ -310,14 +313,14 @@ def load_candidate_embeddings_checkpoint() -> dict[str, list[float]]:
 def embed_candidates(candidates: list[str]) -> dict[str, list[float]]:
     done = load_candidate_embeddings_checkpoint()
     remaining = [c for c in candidates if c not in done]
-    print(f"🔎 embedding کاندیداها: {len(done)} از قبل در کش، {len(remaining)} باقی‌مونده")
+    print(f"🔎 Embedding candidates: {len(done)} already cached, {len(remaining)} remaining")
     with open(CANDIDATE_EMBED_CHECKPOINT, "a", encoding="utf-8") as f:
         for i, c in enumerate(remaining, start=1):
             vector = embed_text(c)
             done[c] = vector
             f.write(json.dumps({"candidate": c, "vector": vector}, ensure_ascii=False) + "\n")
             if i % 50 == 0:
-                print(f"  ... {i}/{len(remaining)} embed شد")
+                print(f"  ... {i}/{len(remaining)} embedded")
     return done
 
 
@@ -333,7 +336,7 @@ def find_best_vocab_match(
 
 
 # ==================================================================
-# تست ایمنیِ پاک‌سازی (پیش‌شرط اجباری قبل از run)
+# Cleaning safety test (mandatory precondition before run)
 # ==================================================================
 
 def _phrase_present_with_real_adjacency(
@@ -390,54 +393,54 @@ def check_cleaning_safety(sample_size: int = 200, ruling_texts: dict[str, str] |
 
     if expected_problems:
         distinct_words = sorted({p["word"] for p in expected_problems})
-        print(f"ℹ️ {len(distinct_words)} واژه‌ی مورد انتظار (بخشی از نام قانون، ارجاع به ماده‌ی "
-              f"کاتالوگ‌شده، یا همپوشانیِ شناخته‌شده) عمداً حذف شدن — این طبیعیه، نه باگ: "
-              f"{distinct_words}")
+        print(f"ℹ️ {len(distinct_words)} expected terms (part of a law name, a cataloged "
+              f"article reference, or a known overlap) were intentionally removed — "
+              f"this is normal, not a bug: {distinct_words}")
 
     if not unexpected_problems:
-        print(f"✅ روی {len(sample_ids)} پرونده‌ی نمونه، هیچ واژه‌ی vocab غیرمنتظره‌ای به‌اشتباه پاک نشد.")
+        print(f"✅ Across {len(sample_ids)} sample cases, no vocab term was unexpectedly removed.")
     else:
         distinct_unexpected = sorted({p["word"] for p in unexpected_problems})
-        print(f"🔴 {len(unexpected_problems)} مورد پاک‌سازیِ *غیرمنتظره* پیدا شد "
-              f"({len(distinct_unexpected)} واژه‌ی یکتا):")
+        print(f"🔴 Found {len(unexpected_problems)} *unexpected* cleaning cases "
+              f"({len(distinct_unexpected)} distinct terms):")
         for p in unexpected_problems[:30]:
-            print(f"  - «{p['word']}» در پرونده‌ی {p['ruling_id']} حذف شد")
+            print(f"  - «{p['word']}» removed in case {p['ruling_id']}")
         if len(unexpected_problems) > 30:
-            print(f"  ... و {len(unexpected_problems) - 30} مورد دیگر")
-        print("⚠️ قبل از اجرای run() این‌ها را در FULL_LAW_NAMES/_CLEAN_PATTERNS اصلاح کن.")
+            print(f"  ... and {len(unexpected_problems) - 30} more")
+        print("⚠️ Fix these in FULL_LAW_NAMES/_CLEAN_PATTERNS before running run().")
 
     return unexpected_problems
 
 
 # ==================================================================
-# مرحله ۵ و ۶: گزارش نهایی + Coverage
+# Stages 5 & 6: final report + coverage
 # ==================================================================
 
 def run(min_distinct_rulings: int = MIN_DISTINCT_RULINGS, safety_sample_size: int = 200):
-    print("📂 بارگذاری متن کامل رأی‌ها...")
+    print("📂 Loading full ruling texts...")
     ruling_texts = load_all_ruling_texts()
-    print(f"   {len(ruling_texts)} پرونده بارگذاری شد")
+    print(f"   {len(ruling_texts)} cases loaded")
 
-    print("\n🛡️ اجرای پیش‌شرط اجباری: check_cleaning_safety...")
+    print("\n🛡️ Running mandatory precondition: check_cleaning_safety...")
     problems = check_cleaning_safety(sample_size=safety_sample_size, ruling_texts=ruling_texts)
     if problems:
-        print("\n❌ run() متوقف شد چون پاک‌سازی مشکل‌دار است. اول این‌ها را اصلاح کن، بعد دوباره اجرا کن.")
+        print("\n❌ run() stopped because cleaning is problematic. Fix these first, then re-run.")
         return
     print()
 
-    print("🔢 شمارش فرکانس unigram/bigram (stopwordها فیلتر شدن)...")
+    print("🔢 Counting unigram/bigram frequency (stopwords filtered)...")
     freq = count_frequencies(ruling_texts)
-    print(f"   {len(freq)} عبارت یکتا (بعد از پاک‌سازی و فیلتر stopword)")
+    print(f"   {len(freq)} unique phrases (after cleaning and stopword filtering)")
 
     vocab_index = load_existing_vocab()
-    print(f"📖 واژه‌نامه‌ی فعلی: {len(vocab_index)} واژه/alias یکتا (نرمال‌شده)")
+    print(f"📖 Current vocabulary: {len(vocab_index)} unique terms/aliases (normalized)")
 
     candidates = find_gap_candidates(freq, vocab_index, min_distinct_rulings)
-    print(f"🕳️ {len(candidates)} کاندیدای gap پیدا شد (آستانه: حداقل "
-          f"{min_distinct_rulings} پرونده‌ی متمایز)")
+    print(f"🕳️ Found {len(candidates)} gap candidates (threshold: at least "
+          f"{min_distinct_rulings} distinct cases)")
 
     if not candidates:
-        print("✅ هیچ gapی بالای آستانه پیدا نشد.")
+        print("✅ No gap found above the threshold.")
         return
 
     vocab_cache = build_vocab_embeddings(vocab_index)
@@ -464,7 +467,7 @@ def run(min_distinct_rulings: int = MIN_DISTINCT_RULINGS, safety_sample_size: in
                 f"{best_word} ({score:.2f})" if best_word else "-",
                 verdict,
             ])
-    print(f"💾 گزارش ذخیره شد: {REPORT_PATH}")
+    print(f"💾 Report saved: {REPORT_PATH}")
 
     total_freq_all = sum(stats["total"] for stats in freq.values())
     covered_freq = sum(
@@ -476,12 +479,12 @@ def run(min_distinct_rulings: int = MIN_DISTINCT_RULINGS, safety_sample_size: in
     coverage_after = (covered_freq + gap_freq) / total_freq_all if total_freq_all else 0
 
     print("\n" + "=" * 60)
-    print("📊 گزارش Coverage")
+    print("📊 Coverage Report")
     print("=" * 60)
-    print(f"  قبل از audit : {coverage_before:.2%}")
-    print(f"  بعد از audit (به‌شرط تأیید همه‌ی gapها): {coverage_after:.2%}")
-    print(f"  (مخرج شامل کل n-gramهای کورپوس، *بعد از فیلتر stopword*، است —")
-    print(f"   نه فقط کاندیداهای پرتکرار؛ برای همین حتی «بعد» هم به ۱۰۰٪ نمی‌رسه.)")
+    print(f"  Before audit: {coverage_before:.2%}")
+    print(f"  After audit (assuming all gaps are approved): {coverage_after:.2%}")
+    print(f"  (The denominator includes all corpus n-grams *after* stopword filtering —")
+    print(f"   not just frequent candidates; that's why even 'after' doesn't reach 100%.)")
 
 
 if __name__ == "__main__":

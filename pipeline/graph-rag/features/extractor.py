@@ -1,26 +1,30 @@
 """
-features/extractor.py — استخراج Feature از متن یک رأی با LLM (لایه‌ی سوم گراف)
+features/extractor.py — LLM-based Feature extraction from a ruling's text
+                          (third graph layer)
 
-نحوه‌ی کار (نسخه‌ی جدید — بدون فرستادن واژه‌نامه در prompt):
-    ۱. LLM آزادانه (بدون دیدن closed vocabulary) از متن رأی، concept/
-       action/role/object/fact استخراج می‌کند — دقیقاً با همان کلماتی
-       که در متن آمده، نه پارافریز.
-    ۲. هر value استخراج‌شده (به‌جز fact که آزاد است) با
-       features/vocab_resolver.py به نزدیک‌ترین واژه‌ی closed
-       vocabulary نگاشت می‌شود (normalize → alias → fuzzy → embedding).
-       اگر resolver هیچ match نزدیکی پیدا نکرد، آن Feature رد می‌شود.
-    ۳. برای هر Feature یک evidence-quote هم خواسته می‌شود؛ موقعیتش در
-       متن اصلی با str.find (یا fuzzy fallback) پیدا می‌شود.
+How it works (current version — vocabulary is NOT sent in the prompt):
+    1. The LLM freely (without seeing the closed vocabulary) extracts
+       concept/action/role/object/fact from the ruling text — using the
+       exact wording found in the text, not a paraphrase.
+    2. Each extracted value (except fact, which is free-form) is mapped to
+       the closest closed-vocabulary term via features/vocab_resolver.py.
+       Resolution is deterministic only: exact/alias match, then
+       token-containment (no fuzzy string matching, no embedding
+       similarity — see vocab_resolver.py's docstring and ADR-006 for why).
+       If the resolver finds no match, that feature is dropped.
+    3. For every feature, an evidence quote is also requested; its
+       position in the source text is located with str.find (or a fuzzy
+       fallback for minor LLM rewording).
 
-چرا این تغییر (نه فرستادن واژه‌نامه در prompt)؟
-    چون واژه‌نامه‌ی کامل (چند صد واژه) prompt را از سقف token/TPM
-    بیشتر providerهای رایگان رد می‌کرد. راه‌حل اول (retrieval سبک با
-    embedding کل پرونده) امتحان و رد شد — چون کلمات کوتاه/پرتکرار مثل
-    «خواهان» امتیاز شباهت پایینی به یک پاراگراف طولانی می‌گرفتند و از
-    prompt حذف می‌شدند. راه‌حل فعلی: بگذار LLM آزاد استخراج کند (prompt
-    کوچک می‌ماند)، و match با واژه‌نامه را *بعد از* استخراج و روی
-    عبارات کوتاه (نه کل پرونده) انجام بده — که هم دقیق‌تر است هم prompt
-    کوچک می‌ماند.
+Why this change (not sending the vocabulary in the prompt)?
+    The full vocabulary (several hundred terms) pushed the prompt past the
+    token/TPM ceiling of most free-tier providers. The first alternative
+    (lightweight retrieval via whole-case embedding) was tried and
+    rejected — short, frequent terms like "خواهان" scored low similarity
+    against a long paragraph and got dropped from the prompt. Current
+    approach: let the LLM extract freely (prompt stays small), and match
+    against the vocabulary *after* extraction, on short phrases (not the
+    whole case) — which is both more accurate and keeps the prompt small.
 """
 
 from __future__ import annotations
@@ -42,9 +46,9 @@ _HERE = Path(__file__).resolve().parent.parent  # graph-rag/
 
 _client = get_llm_client()
 
-# سقف امنیتی طول متن رأی که به LLM فرستاده می‌شود.
+# Safety cap on ruling text length sent to the LLM.
 MAX_TEXT_CHARS = 12000
-_HEAD_RATIO = 0.4  # ۴۰٪ به ابتدای متن، ۶۰٪ به انتها (چون انتها مهم‌تره)
+_HEAD_RATIO = 0.4  # 40% from the start of the text, 60% from the end (end matters more)
 
 _CATEGORY_DESCRIPTIONS = "\n".join(
     f'- {c.key}: {c.label_fa} — {c.description}' for c in VOCAB_CATEGORIES.values()
@@ -63,58 +67,69 @@ def _truncate_keep_head_and_tail(text: str, max_chars: int) -> str:
     )
 
 
+# NOTE: instructional text translated to English. The category
+# descriptions embedded via {_CATEGORY_DESCRIPTIONS} come from
+# configs.py and stay in Persian (they describe the actual Persian
+# legal categories being extracted), and the ruling text itself is of
+# course Persian legal text — both are content, not documentation.
 def _build_prompt(ruling_text: str) -> str:
     return f"""
-تو یک دستیار حقوقی متخصص در قوانین ایران هستی. از متن رأی زیر، Featureهای
-حقوقی را طبق دسته‌های زیر استخراج کن:
+You are a legal assistant specialized in Iranian law. From the ruling
+text below, extract legal Features according to the following
+categories:
 
 {_CATEGORY_DESCRIPTIONS}
 
-⚠️ برای concept/action/role/object: دقیقاً همان اصطلاحی که در متن آمده
-استفاده کن — پارافریز یا خلاصه‌سازی نکن، همان شکل دقیق کلمه/عبارت را
-بنویس (چون بعداً با یک واژه‌نامه‌ی رسمی تطبیق داده می‌شود).
+⚠️ For concept/action/role/object: use exactly the term as it appears
+in the text — do not paraphrase or summarize, write the exact form of
+the word/phrase (since it will later be matched against an official
+vocabulary).
 
-برای دسته‌ی "{FACT_CATEGORY.key}" ({FACT_CATEGORY.label_fa}):
+For the "{FACT_CATEGORY.key}" category ({FACT_CATEGORY.label_fa}):
 {FACT_CATEGORY.description}
-اینجا آزاد هستی — واقعیات کلیدیِ رأی را با یک جمله‌ی کوتاه بنویس.
-⚠️ مثال‌های بالا (مثل «پرداخت انجام نشده» یا «سند جعلی ارائه شده») فقط
-برای نشان‌دادن *سبک نوشتن* fact هستند، نه فهرستی که باید همیشه پر شود.
-اگر یکی از این مثال‌ها در *این* رأی مصداق ندارد، اصلاً ذکرش نکن — هرگز
-یک Feature را فقط به این دلیل که در توضیحات بالا مثال زده شده، با
-evidence_quote خالی و confidence صفر برنگردان؛ چنین مواردی به‌طور کامل
-حذف خواهند شد، پس اصلاً وقتت را صرفشان نکن.
+Here you are free — write the key facts of the ruling as a short
+sentence.
+⚠️ The examples above (like "payment was not made" or "a forged
+document was submitted") are only meant to show the *writing style* of
+a fact, not a checklist that must always be filled. If one of these
+examples doesn't apply in *this* ruling, don't mention it at all —
+never return a Feature just because it was used as an example above,
+with an empty evidence_quote and zero confidence; such cases will be
+discarded entirely, so don't waste your time on them.
 
-برای *هر* Feature استخراج‌شده (در هر دسته‌ای)، یک evidence لازم است:
-دقیقاً همان بخشی از متن رأی که این Feature از آن برداشت شده (عیناً،
-بدون تغییر کلمه، تا بشه موقعیتش را در متن پیدا کرد)، به‌علاوه‌ی یک عدد
-اطمینان بین 0 و 1.
+For *every* extracted Feature (in any category), evidence is required:
+exactly the part of the ruling text this Feature was drawn from
+(verbatim, without changing a single word, so its position in the text
+can be located), plus a confidence number between 0 and 1.
 
-⚠️ نکته‌ی حیاتی درباره‌ی evidence: quote باید **مستقیماً و مشخصاً**
-همان چیزی را ثابت کند که در «value» گفته شده — نه یک جمله‌ی کلی از
-همان بخش از متن که فقط نزدیک آن قسمت آمده. اگر برای یک Feature
-نمی‌توانی evidence دقیق و مرتبط پیدا کنی، آن Feature را اصلاً استخراج
-نکن.
+⚠️ Critical note about evidence: the quote must **directly and
+specifically** prove what is stated in "value" — not a general sentence
+from the same area of the text that merely happens to be nearby. If you
+cannot find precise, relevant evidence for a Feature, do not extract
+that Feature at all.
 
-⚠️ evidence_quote هرگز نباید شامل «...» یا خلاصه‌سازی/ترکیبِ چند تکه‌ی
-جدا از متن باشد — باید عیناً یک بخشِ *پیوسته* و *کامل* از متن اصلی
-باشد، کلمه‌به‌کلمه، بدون هیچ حذفیات. اگر جمله‌ی کامل خیلی طولانی است،
-فقط کوتاه‌ترین بخشِ پیوسته‌ای از متن را انتخاب کن که به‌تنهایی ادعای
-«value» را ثابت می‌کند — نه کل جمله با «...» بریده‌شده.
+⚠️ evidence_quote must never contain "..." or a summary/combination of
+several separate pieces of text — it must be exactly one *contiguous*
+and *complete* section of the original text, word-for-word, with
+nothing omitted. If the full sentence is too long, pick only the
+shortest contiguous portion of the text that on its own proves the
+"value" claim — not the whole sentence truncated with "...".
 
-⚠️ راهنمای دقیق برای تعیین confidence (لطفاً دقیقاً رعایت کن، نه فقط
-تقریبی؛ یک عدد ثابت برای همه‌ی موارد، مثلاً همه 0.95، قابل‌قبول نیست):
-- 0.95-1.0: کلمه یا عبارت «value» عیناً و بدون هیچ واسطه‌ای در evidence quote آمده است.
-- 0.75-0.9: value مستقیماً در quote نیامده، ولی مفهومش به‌وضوح و بدون ابهام از آن استنباط می‌شود.
-- 0.5-0.74: نیاز به استنباط چندمرحله‌ای یا context بیرون از quote دارد.
-- زیر 0.5: ارتباط ضعیف است؛ در این حالت بهتر است اصلاً این Feature را استخراج نکنی.
+⚠️ Precise guide for setting confidence (please follow exactly, not
+just approximately — a constant number for every item, e.g. all 0.95,
+is not acceptable):
+- 0.95-1.0: the exact word/phrase in "value" appears verbatim, with no intermediary, in the evidence quote.
+- 0.75-0.9: value doesn't appear directly in the quote, but its meaning is clearly and unambiguously inferable from it.
+- 0.5-0.74: requires multi-step inference or context outside the quote.
+- below 0.5: the connection is weak; in this case it's better not to extract this Feature at all.
 
-متن رأی:
+Ruling text:
 \"\"\"
 {_truncate_keep_head_and_tail(ruling_text, MAX_TEXT_CHARS)}
 \"\"\"
 
-فقط JSON برگردون — بدون هیچ توضیح اضافه، دقیقاً به این فرم (هر دسته
-می‌تواند لیست خالی باشد):
+Return only JSON — no extra explanation — in exactly this form (any
+category can be an empty list):
 {{
   "concept": [{{"value": "...", "evidence_quote": "...", "confidence": 0.9}}],
   "action": [],
@@ -125,8 +140,8 @@ evidence_quote خالی و confidence صفر برنگردان؛ چنین موا�
 """
 
 
-# کاراکترهای کنترلی جهت‌دهیِ متن (bidi control characters) — کاملاً
-# نامرئی‌ان، پس هم مثل نیم‌فاصله باید در fuzzy-match نادیده گرفته بشن.
+# Bidi text-direction control characters — fully invisible, so like the
+# zero-width non-joiner they must be ignored during fuzzy matching too.
 _BIDI_CONTROL_CHARS = "\u200e\u200f\u202a\u202b\u202c\u202d\u202e"
 _SPLIT_SEPARATOR_RE = re.compile(r"[\s\u200c" + _BIDI_CONTROL_CHARS + r"]+")
 
@@ -157,7 +172,7 @@ def _locate_evidence(quote: str, full_text: str, confidence: float) -> Evidence:
         return Evidence(quote=quote, start_char=start, end_char=end, confidence=confidence)
 
     if "..." in quote or "…" in quote:
-        print(f"  ⚠️ evidence حاوی «...» و پیدا نشد — احتمالاً پارافریزِ مدل: «{quote[:50]}...»")
+        print(f"  ⚠️ evidence contains '...' and was not found — likely a model paraphrase: «{quote[:50]}...»")
         return Evidence(quote=quote, start_char=None, end_char=None, confidence=confidence)
 
     return Evidence(quote=quote, start_char=None, end_char=None, confidence=confidence)
@@ -167,8 +182,8 @@ def extract_ruling(
     ruling_id: str, ruling_text: str, resolver: VocabResolver, retries: int = 2
 ) -> FeatureExtractionResult:
     """
-    resolver: یک نمونه‌ی VocabResolver — باید *یک‌بار* در main_features.py
-    ساخته و برای همه‌ی پرونده‌ها استفاده مجدد شود (نه هر پرونده جدا).
+    resolver: a VocabResolver instance — must be created *once* in
+    main_features.py and reused across all cases (not created per case).
     """
     prompt = _build_prompt(ruling_text)
 
@@ -187,11 +202,11 @@ def extract_ruling(
         except Exception as e:  # noqa: BLE001
             last_error = e
             if attempt < retries:
-                print(f"  ⏳ خطا در استخراج Feature برای {ruling_id} "
-                      f"(تلاش {attempt + 1}/{retries}): {e}")
+                print(f"  ⏳ Feature extraction error for {ruling_id} "
+                      f"(attempt {attempt + 1}/{retries}): {e}")
                 time.sleep(3)
 
-    raise RuntimeError(f"❌ استخراج Feature برای {ruling_id} شکست خورد: {last_error}")
+    raise RuntimeError(f"❌ Feature extraction failed for {ruling_id}: {last_error}")
 
 
 def _to_result(
@@ -206,38 +221,36 @@ def _to_result(
         "fact": result.facts,
     }
 
-
-
     for category_key, target_list in target_lists.items():
-            is_free_category = category_key == "fact"  # fact از واژه‌نامه resolve نمی‌شه
-            seen_values = set()  # فقط همینجا مقداردهی اولیه — قبل از حلقه‌ی داخلی
+        is_free_category = category_key == "fact"  # fact is not resolved against the vocabulary
+        seen_values = set()  # initialized here only — before the inner loop
 
-            for item in data.get(category_key, []):
-                raw_value = str(item.get("value", "")).strip()
-                if not raw_value:
+        for item in data.get(category_key, []):
+            raw_value = str(item.get("value", "")).strip()
+            if not raw_value:
+                continue
+
+            if is_free_category:
+                value = raw_value
+            else:
+                value = resolver.resolve(raw_value, category_key)
+                if value is None:
+                    print(f"  ⚠️ «{raw_value}» did not match any closed-vocabulary term "
+                          f"— dropped ({category_key})")
                     continue
 
-                if is_free_category:
-                    value = raw_value
-                else:
-                    value = resolver.resolve(raw_value, category_key)
-                    if value is None:
-                        print(f"  ⚠️ «{raw_value}» به هیچ واژه‌ی closed vocabulary نزدیک نبود "
-                            f"— رد شد ({category_key})")
-                        continue
+            if value in seen_values:  # duplicate check here, after resolving to canonical value
+                continue
+            seen_values.add(value)
 
-                if value in seen_values:  # ← چک تکرار اینجا، بعد از resolve شدن value
-                    continue
-                seen_values.add(value)
+            raw_quote = str(item.get("evidence_quote", "")).strip()
+            if not raw_quote:
+                print(f"  🚫 [{ruling_id}] dropped, no evidence ({category_key}): «{value}»")
+                continue
 
-                raw_quote = str(item.get("evidence_quote", "")).strip()
-                if not raw_quote:
-                    print(f"  🚫 [{ruling_id}] بدون evidence رد شد ({category_key}): «{value}»")
-                    continue
-
-                evidence = _locate_evidence(raw_quote, ruling_text, float(item.get("confidence", 0.0)))
-                _warn_if_evidence_unrelated(ruling_id, category_key, value, evidence.quote)
-                target_list.append(ExtractedFeature(category=category_key, value=value, evidence=evidence))
+            evidence = _locate_evidence(raw_quote, ruling_text, float(item.get("confidence", 0.0)))
+            _warn_if_evidence_unrelated(ruling_id, category_key, value, evidence.quote)
+            target_list.append(ExtractedFeature(category=category_key, value=value, evidence=evidence))
 
     return result
 
@@ -245,5 +258,5 @@ def _to_result(
 def _warn_if_evidence_unrelated(ruling_id: str, category_key: str, value: str, quote: str):
     value_tokens = [t for t in re.split(r"[\s\u200c]+", value) if len(t) > 1]
     if value_tokens and quote and not any(t in quote for t in value_tokens):
-        print(f"  🔎 [{ruling_id}] احتمال عدم تطابق evidence با value "
+        print(f"  🔎 [{ruling_id}] possible evidence/value mismatch "
               f"({category_key}=«{value}»): «{quote[:60]}...»")

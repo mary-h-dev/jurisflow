@@ -1,29 +1,24 @@
 """
-main_features.py — اجرای دو-مرحله‌ای پایپ‌لاین Feature Extraction (گراف سوم)
+main_features.py — two-stage runner for the Feature Extraction pipeline
+(third graph layer)
 
-⚠️ چرا یک فایل جدا از main_cases.py؟
-    چون این مرحله LLM-heavy است (نه فقط اسکرپ/regex ارزون)، و طبق
-    تصمیمی که گرفتیم باید با یک نمونه‌ی کوچک (پایلوت) شروع بشه، نه کل
-    دیتاست. برای همین limit پیش‌فرض این اسکریپت عمداً ۵۰ گذاشته شده —
-    تا کسی به‌اشتباه کل ~۲۴۰۰ پرونده رو یک‌جا اجرا نکنه و هزینه/زمان
-    غیرمنتظره نده.
+⚠️ Why a separate file from main_cases.py?
+    Because this stage is LLM-heavy (not just cheap scraping/regex), and
+    per the agreed plan it should start with a small pilot sample, not
+    the whole dataset. That's why this script's default limit is
+    deliberately set to 50 — so nobody accidentally runs all ~2400 cases
+    at once and gets an unexpected cost/time bill.
 
-چرا extract و load دو مرحله‌ی جدا هستن (مثل main_cases.py)؟
-    extract فقط LLM صدا می‌زنه و نتیجه رو به‌صورت JSON روی دیسک
-    می‌ریزه (resumable: اگه یک پرونده قبلاً استخراج شده، رد می‌شه).
-    load مستقل بعداً همون JSON ها رو می‌خونه و توی Neo4j می‌ریزه.
-    این جدایی یعنی اگه یک روز schema گراف عوض شد، لازم نیست دوباره
-    هزینه‌ی LLM بدیم — فقط load رو دوباره اجرا می‌کنیم.
+Why are extract and load two separate stages (like main_cases.py)?
+    extract only calls the LLM and writes the result to disk as JSON
+    (resumable: if a case was already extracted, it's skipped). load
+    independently reads those JSON files later and writes them into
+    Neo4j. This separation means if the graph schema changes one day,
+    there's no need to pay the LLM cost again — just re-run load.
 
-نحوه‌ی استفاده:
+Usage:
     uv run main_features.py extract civil --limit 50
     uv run main_features.py load civil --limit 50
-    PYTHONUNBUFFERED=1 uv run main_features.py extract civil --limit 0 2>&1 | tee -a pipeline.log
-    PYTHONUNBUFFERED=1 FEATURE_PROVIDER_ORDER=openrouter uv run main_features.py extract civil --limit 0 2>&1 | tee -a pipeline.log
-    # export OPENROUTER_API_KEY="key"
-    PYTHONUNBUFFERED=1 FEATURE_PROVIDER_ORDER=openrouter uv run main_features.py extract criminal_procedure --limit 0 2>&1 | tee -a criminal_procedure.log
-
-    PYTHONUNBUFFERED=1 uv run main_features.py load civil --limit 0 2>&1 | tee -a load_civil.log
 
 """
 
@@ -49,13 +44,13 @@ NEO4J_USER = os.getenv("NEO4J_USERNAME")
 NEO4J_PASS = os.getenv("NEO4J_PASSWORD")
 
 CASES_DIR = "data/cases"
-FEATURES_DIR = "data/features"  # خروجی extract اینجا ذخیره می‌شود (ورودی load)
+FEATURES_DIR = "data/features"  # extract output goes here (load's input)
 
 DEFAULT_PILOT_LIMIT = 50
 
 
 def _ruling_full_text(ruling: dict) -> str:
-    """متن کامل رأی را از سکشن‌های ذخیره‌شده بازمی‌سازد (نگاه کن به cases/schemas.py)"""
+    """Reconstructs the full ruling text from its stored sections (see cases/schemas.py)"""
     return "\n\n".join(s["text"] for s in ruling.get("sections", []))
 
 
@@ -67,11 +62,11 @@ def extract_domain(domain: str, limit: int | None):
     if limit:
         paths = paths[:limit]
 
-    print(f"🔎 استخراج Feature برای {len(paths)} پرونده از «{domain}» "
-          f"(limit={limit or 'بدون محدودیت'})...")
+    print(f"🔎 Extracting Features for {len(paths)} cases from «{domain}» "
+          f"(limit={limit or 'unlimited'})...")
 
     resolver = VocabResolver()
-    print("📖 واژه‌نامه و کش embedding برای resolver بارگذاری شد.")
+    print("📖 Vocabulary and embedding cache loaded for the resolver.")
 
     done, skipped, failed = 0, 0, 0
     for i, path in enumerate(paths, start=1):
@@ -79,18 +74,18 @@ def extract_domain(domain: str, limit: int | None):
             with open(path, encoding="utf-8") as f:
                 ruling = json.load(f)
         except (json.JSONDecodeError, OSError) as e:
-            print(f"  ⚠️ [{i}/{len(paths)}] فایل خراب/خالی رد شد ({path}): {e}")
+            print(f"  ⚠️ [{i}/{len(paths)}] Corrupted/empty file skipped ({path}): {e}")
             failed += 1
             continue
 
         out_path = f"{out_dir}/{ruling['ruling_id']}.json"
         if os.path.exists(out_path):
             skipped += 1
-            continue  # resumable — قبلاً استخراج شده
+            continue  # resumable — already extracted
 
         text = _ruling_full_text(ruling)
         if not text.strip():
-            print(f"  ⚠️ [{i}/{len(paths)}] {ruling['ruling_id']}: متن خالی، رد شد")
+            print(f"  ⚠️ [{i}/{len(paths)}] {ruling['ruling_id']}: empty text, skipped")
             continue
 
         try:
@@ -104,9 +99,9 @@ def extract_domain(domain: str, limit: int | None):
             json.dump(dataclasses.asdict(result), f, ensure_ascii=False, indent=2)
         done += 1
         n_features = len(result.all_features())
-        print(f"  ✅ [{i}/{len(paths)}] {ruling['ruling_id']}: {n_features} feature استخراج شد")
+        print(f"  ✅ [{i}/{len(paths)}] {ruling['ruling_id']}: {n_features} features extracted")
 
-    print(f"\n📊 نتیجه: {done} استخراج‌شده، {skipped} از قبل موجود (رد شد)، {failed} شکست‌خورده")
+    print(f"\n📊 Result: {done} extracted, {skipped} already existed (skipped), {failed} failed")
 
 
 def _dict_to_result(data: dict) -> FeatureExtractionResult:
@@ -127,8 +122,8 @@ def load_domain(domain: str, limit: int | None):
         paths = paths[:limit]
 
     if not paths:
-        print(f"⚠️ هیچ فایل استخراج‌شده‌ای برای «{domain}» پیدا نشد. "
-              f"اول extract را اجرا کن.")
+        print(f"⚠️ No extracted files found for «{domain}». "
+              f"Run extract first.")
         return
 
     connection = Neo4jConnection(NEO4J_URI, NEO4J_USER, NEO4J_PASS)
@@ -144,43 +139,40 @@ def load_domain(domain: str, limit: int | None):
         if loader.is_ruling_loaded(result.ruling_id):
             skipped_count += 1
             if skipped_count % 200 == 0:
-                print(f"  ⏭️  {skipped_count} مورد قبلی رد شدن (تا الان)...")
-            continue  # قبلاً بارگذاری شده -- resumable
+                print(f"  ⏭️  {skipped_count} previous items skipped so far...")
+            continue  # already loaded -- resumable
 
         try:
             loader.load_result(result)
             loaded_count += 1
-            print(f"  ✅ [{i}/{len(paths)}] {result.ruling_id} بارگذاری شد")
+            print(f"  ✅ [{i}/{len(paths)}] {result.ruling_id} loaded")
         except ValueError as e:
             skipped_count += 1
             print(f"  ⚠️ [{i}/{len(paths)}] {e}")
         except Exception as e:
             failed_count += 1
-            print(f"  ❌ [{i}/{len(paths)}] خطای غیرمنتظره در پرونده {result.ruling_id}: {e}")
+            print(f"  ❌ [{i}/{len(paths)}] Unexpected error on case {result.ruling_id}: {e}")
 
     connection.close()
-    print(f"\n✅ {loaded_count} نتیجه‌ی جدید بارگذاری شد، {skipped_count} رد شد (از قبل موجود یا پرونده یتیم)، {failed_count} با خطا مواجه شد.")
+    print(f"\n✅ {loaded_count} new results loaded, {skipped_count} skipped (already existed or orphan case), {failed_count} failed.")
 
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("استفاده: uv run main_features.py extract|load <domain> [--limit N]")
-        print(f"         (پیش‌فرض limit={DEFAULT_PILOT_LIMIT}؛ برای کل دیتاست: --limit 0)")
+        print("Usage: uv run main_features.py extract|load <domain> [--limit N]")
+        print(f"       (default limit={DEFAULT_PILOT_LIMIT}; for the full dataset: --limit 0)")
         sys.exit(1)
 
     action, domain = sys.argv[1], sys.argv[2]
     limit = DEFAULT_PILOT_LIMIT
     if "--limit" in sys.argv:
         limit = int(sys.argv[sys.argv.index("--limit") + 1])
-    limit = limit or None  # --limit 0 یعنی بدون محدودیت
+    limit = limit or None  # --limit 0 means no limit
 
     if action == "extract":
         extract_domain(domain, limit)
     elif action == "load":
         load_domain(domain, limit)
     else:
-        print("❌ عمل نامعتبر؛ از extract یا load استفاده کن.")
+        print("❌ Invalid action; use extract or load.")
         sys.exit(1)
-
-
-

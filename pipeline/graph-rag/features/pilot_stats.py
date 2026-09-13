@@ -1,6 +1,6 @@
 """
-features/pilot_stats.py — آمار کلی روی خروجی‌های pilot، بدون نیاز به
-خوندن دستیِ تک‌تک فایل‌ها.
+features/pilot_stats.py — overall stats over pilot outputs, without
+needing to manually read each file one by one.
 uv run -m features.pilot_stats
 """
 import glob
@@ -9,7 +9,7 @@ from collections import Counter
 
 def run(features_dir="data/features/civil"):
     paths = glob.glob(f"{features_dir}/*.json")
-    print(f"📂 {len(paths)} پرونده")
+    print(f"📂 {len(paths)} cases")
 
     total_features = 0
     null_count = 0
@@ -33,11 +33,11 @@ def run(features_dir="data/features/civil"):
                 if cat == "roles":
                     role_counts[item["value"]] += 1
 
-    print(f"📊 کل Feature: {total_features}")
-    print(f"🔴 نرخ null (evidence location شکست‌خورده): {null_count}/{total_features} ({null_count/total_features:.1%})")
-    print(f"📈 توزیع confidence: {Counter(confidences)}")
-    print(f"⚠️ پرونده‌های بدون خواهان/خوانده: {len(files_missing_khahan_khoonde)} → {files_missing_khahan_khoonde[:10]}")
-    print(f"🏷️ پرتکرارترین role ها: {role_counts.most_common(15)}")
+    print(f"📊 Total Features: {total_features}")
+    print(f"🔴 Null rate (evidence location failed): {null_count}/{total_features} ({null_count/total_features:.1%})")
+    print(f"📈 Confidence distribution: {Counter(confidences)}")
+    print(f"⚠️ Cases missing plaintiff/defendant (خواهان/خوانده): {len(files_missing_khahan_khoonde)} → {files_missing_khahan_khoonde[:10]}")
+    print(f"🏷️ Most common roles: {role_counts.most_common(15)}")
 
 if __name__ == "__main__":
     run()

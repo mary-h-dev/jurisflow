@@ -1,47 +1,51 @@
 """
-features/database/feature_loader.py — بارگذاری گراف سوم (Feature Graph) در Neo4j
+features/database/feature_loader.py — loads the third graph layer
+(Feature Graph) into Neo4j
 
-از همون Neo4jConnection مشترک استفاده می‌کنه (database/connection.py)،
-دقیقاً مثل database/case_loader.py و database/law_loader.py.
+Uses the same shared Neo4jConnection (database/connection.py), exactly
+like database/case_loader.py and database/law_loader.py.
 
-ساختار گراف:
+Graph structure:
     (:Ruling)-[:HAS_CONCEPT   {evidence, start_char, end_char, confidence}]->(:LegalConcept   {name})
     (:Ruling)-[:HAS_ACTION    {...}]->(:LegalAction    {name})
     (:Ruling)-[:HAS_ROLE      {...}]->(:LegalRole      {name})
     (:Ruling)-[:HAS_OBJECT    {...}]->(:LegalObject    {name})
     (:Ruling)-[:HAS_FACT      {...}]->(:LegalFact      {text})
 
-چرا closed-vocab node ها MERGE می‌شوند ولی LegalFact نه؟
-    چون Concept/Action/Role/Object از یک لیست بسته و
-    یکتاشده (بعد از canonicalization در vocabulary_categorizer.py)
-    می‌آیند — یک node واحد برای «بیع» در کل گراف کافی است، و MERGE
-    باعث می‌شود همه‌ی رأی‌های مرتبط به یک node وصل شوند (این دقیقاً
-    همون چیزیه که query زدن رو قدرتمند می‌کنه).
-    Factها اما آزاد و به‌شدت متنوعند؛ اگر آن‌ها را هم MERGE کنیم،
-    Factهای مشابه ولی نه‌کاملاً یکسان (که در متن حقوقی خیلی رایج است)
-    به‌اشتباه در یک node ادغام می‌شوند و اطلاعات خاص هر پرونده گم
-    می‌شود. برای همین هر Fact یک node مستقل با CREATE می‌گیرد، حتی اگر
-    شبیه یک Fact در پرونده‌ی دیگر باشد.
+Why are closed-vocab nodes MERGEd but LegalFact isn't?
+    Because Concept/Action/Role/Object come from a closed, deduplicated
+    list (after canonicalization in vocabulary_categorizer.py) — a single
+    node for "بیع" across the whole graph is enough, and MERGE means all
+    related rulings connect to that one node (which is exactly what makes
+    querying powerful). Facts, however, are free and highly varied; if we
+    MERGEd them too, similar-but-not-identical Facts (very common in
+    legal text) would be incorrectly merged into one node and each case's
+    specific information would be lost. So every Fact gets its own
+    independent node via CREATE, even if it looks similar to a Fact in
+    another case.
 
-چرا خودِ رابطه‌ها (نه فقط node ها) با CREATE ساخته می‌شوند، نه MERGE؟
-    قبلاً `MERGE (r)-[rel:...]->(n)` بود که یک باگ واقعی داشت: اگر یک
-    مفهوم (مثلاً «فسخ») دو بار در بخش‌های مختلف یک رأی ذکر شده باشد،
-    MERGE دومین نوشتن evidence را جای اولی می‌گذاشت و شاهدِ اول برای
-    همیشه گم می‌شد. با CREATE، هر بار که یک Feature در یک رأی دیده
-    می‌شود یک رابطه‌ی جدا و evidence خودش را می‌گیرد؛ Neo4j اجازه‌ی
-    چند رابطه‌ی هم‌نوع بین دو node را می‌دهد، پس این مشکلی ایجاد
-    نمی‌کند و query زدن هم تغییری نمی‌کند (فقط شاهدها کامل‌تر می‌مانند).
+Why are the relationships themselves (not just the nodes) created with
+CREATE, not MERGE?
+    It used to be `MERGE (r)-[rel:...]->(n)`, which had a real bug: if a
+    concept (e.g. "فسخ") was mentioned twice in different parts of one
+    ruling, MERGE would overwrite the first evidence with the second, and
+    the first piece of evidence was lost forever. With CREATE, every time
+    a feature is seen in a ruling it gets its own separate relationship
+    with its own evidence; Neo4j allows multiple relationships of the
+    same type between two nodes, so this causes no problem, and querying
+    is unaffected (only the evidence stays more complete).
 
-    این تغییر یک اثر جانبی دارد: اگر load_result() روی یک ruling دو
-    بار صدا زده شود (مثلاً اجرای مجدد main_features.py load)، رابطه‌ها
-    تکراری ساخته می‌شوند. برای همین is_ruling_loaded/mark_ruling_loaded
-    اضافه شده — قبل از بارگذاری هر ruling چک می‌شود که قبلاً بارگذاری
-    نشده باشد (idempotency در سطح ruling، نه در سطح رابطه‌ی تکی).
+    This change has one side effect: if load_result() is called twice for
+    the same ruling (e.g. re-running main_features.py load), relationships
+    would be duplicated. That's why is_ruling_loaded/mark_ruling_loaded
+    was added — before loading each ruling, it's checked that it hasn't
+    already been loaded (idempotency at the ruling level, not at the
+    individual-relationship level).
 
-چرا retry دور نوشتن‌های Neo4j؟
-    چون main_features.py قرار است روی صدها/هزاران رأی پشت سر هم
-    اجرا شود؛ یک قطعی لحظه‌ای شبکه یا Neo4j Aura نباید کل اجرا را
-    crash کند و کاری که تا الان انجام شده را از دست بدهد.
+Why retry around Neo4j writes?
+    Because main_features.py is meant to run across hundreds/thousands of
+    rulings in sequence; a momentary network or Neo4j Aura outage
+    shouldn't crash the whole run and lose the work done so far.
 """
 
 
@@ -51,7 +55,7 @@ from database.connection import Neo4jConnection
 from features.configs import FACT_CATEGORY, VOCAB_CATEGORIES
 from features.schemas import ExtractedFeature, FeatureExtractionResult
 
-# نگاشت کلید دسته → نام فیلد لیست در FeatureExtractionResult
+# category key → list-field name mapping in FeatureExtractionResult
 _FIELD_NAMES = {
     "concept": "concepts",
     "action": "actions",
@@ -68,13 +72,13 @@ def _with_retry(fn, *args, **kwargs):
     for attempt in range(_MAX_RETRIES):
         try:
             return fn(*args, **kwargs)
-        except Exception as e:  # noqa: BLE001 — قطعی شبکه/Neo4j هم باید اینجا گرفته بشه
+        except Exception as e:  # noqa: BLE001 — network/Neo4j outages should be caught here too
             last_error = e
             if attempt < _MAX_RETRIES - 1:
-                print(f"   ⏳ خطای موقت در Neo4j، تلاش دوباره "
+                print(f"   ⏳ Temporary Neo4j error, retrying "
                       f"({attempt + 1}/{_MAX_RETRIES}): {e}")
                 time.sleep(_RETRY_DELAY_SECONDS)
-    raise RuntimeError(f"❌ نوشتن در Neo4j بعد از {_MAX_RETRIES} تلاش شکست خورد: {last_error}")
+    raise RuntimeError(f"❌ Neo4j write failed after {_MAX_RETRIES} attempts: {last_error}")
 
 
 class FeatureGraphLoader:
@@ -89,11 +93,12 @@ class FeatureGraphLoader:
         with self.connection.session() as session:
             for q in queries:
                 _with_retry(session.run, q)
-        print("✅ Index های Feature Graph آماده‌اند.")
+        print("✅ Feature Graph indexes are ready.")
 
     def ruling_exists(self, ruling_id: str) -> bool:
         """
-        بررسی وجود نود :Ruling در دیتابیس برای جلوگیری از Silent Failure روی پرونده‌های یتیم.
+        Checks whether a :Ruling node exists in the database, to prevent a
+        silent failure on orphan cases.
         """
         ruling_id_str = str(ruling_id)
         with self.connection.session() as session:
@@ -107,7 +112,7 @@ class FeatureGraphLoader:
 
     def is_ruling_loaded(self, ruling_id: str) -> bool:
         """
-        چک idempotency: آیا این ruling قبلاً کامل بارگذاری شده؟
+        Idempotency check: has this ruling already been fully loaded?
         """
         ruling_id_str = str(ruling_id)
         with self.connection.session() as session:
@@ -122,13 +127,13 @@ class FeatureGraphLoader:
     def load_result(self, result: FeatureExtractionResult):
         ruling_id_str = str(result.ruling_id)
 
-        # ۱. بررسی وجود نود Ruling قبل از بارگذاری (جلوگیری از Silent Failure)
+        # 1. verify the Ruling node exists before loading (prevents silent failure)
         if not self.ruling_exists(ruling_id_str):
             raise ValueError(
-                f"❌ نود :Ruling برای ruling_id='{ruling_id_str}' در Neo4j وجود ندارد (پرونده یتیم/Orphan)."
+                f"❌ :Ruling node not found for ruling_id='{ruling_id_str}' in Neo4j (orphan case)."
             )
 
-        # ۲. بارگذاری ویژگی‌ها و ثبت علامت موفقیت
+        # 2. load features and mark success
         with self.connection.session() as session:
             for category_key, field_name in _FIELD_NAMES.items():
                 cat = VOCAB_CATEGORIES[category_key]
@@ -177,6 +182,3 @@ class FeatureGraphLoader:
             end=item.evidence.end_char,
             confidence=item.evidence.confidence,
         )
-
-
-

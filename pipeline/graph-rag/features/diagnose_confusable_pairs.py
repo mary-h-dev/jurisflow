@@ -1,17 +1,18 @@
 """
-features/diagnose_confusable_pairs.py — تست ارزون قبل از commit کردن به
-                                          resolver مبتنی‌بر embedding
+features/diagnose_confusable_pairs.py — a cheap test before committing to
+                                          an embedding-based resolver
 
-چرا این اسکریپت لازم بود؟
-    قبل از این‌که دوباره یک پایلوت کامل بزنیم و باز هم snap های غلط
-    ببینیم، باید مستقیماً بپرسیم: «آیا bge-m3 اصلاً می‌تونه بین «توقیف»
-    و «توقف» (یا «صدور حکم» و «دوره محکومیت») تمایز بذاره؟» اگه جواب
-    نه باشه، resolver مبتنی‌بر embedding هم بی‌فایده‌ست و باید کلاً
-    استراتژی عوض بشه (مثلاً فقط exact/alias match، بدون هیچ fuzzy).
-    این تست فقط چندتا فراخوانی embed_text می‌خواد (چند ثانیه)، نه یک
-    پایلوت ۵۰-تایی کامل (چند دقیقه + هزینه‌ی LLM).
+Why was this script needed?
+    Before running a full pilot again and seeing more incorrect snaps, we
+    needed to directly ask: "can bge-m3 actually distinguish between
+    'توقیف' and 'توقف' (or 'صدور حکم' and 'دوره محکومیت')?" If the
+    answer is no, an embedding-based resolver is useless regardless, and
+    the strategy needs to change entirely (e.g. exact/alias match only,
+    no fuzzy matching at all). This test only needs a handful of
+    embed_text calls (a few seconds), not a full 50-case pilot (several
+    minutes + LLM cost).
 
-نحوه‌ی اجرا:
+Usage:
     uv run -m features.diagnose_confusable_pairs
 """
 
@@ -19,17 +20,17 @@ import math
 
 from common.embedder import embed_text
 
-# جفت‌هایی که واقعاً توی خروجی‌های قبلی دیدیم به‌اشتباه به‌هم snap شدن،
-# به‌علاوه‌ی چند جفتِ کنترل (که باید واقعاً شبیه باشن، تا مطمئن بشیم
-# آستانه بی‌معنی/خیلی سخت‌گیرانه نیست)
+# Pairs actually observed being incorrectly snapped together in previous
+# outputs, plus a few control pairs (that should genuinely be similar, to
+# confirm the threshold isn't meaninglessly strict)
 CONFUSABLE_PAIRS = [
-    # (استخراج‌شده‌ی مدل, واژه‌ی واژه‌نامه که غلط snap شد, آیا باید شبیه باشن؟)
-    ("توقیف", "توقف", False),                    # مصادره‌ی مال  vs  متوقف‌شدن — نباید شبیه باشن
-    ("صدور حکم بر رفع توقیف", "دوره محکومیت", False),  # کاملاً بی‌ربط
-    ("بطلان عقد اجاره", "عقد اجاره", False),        # «بطلان» باید فرق داشته باشه، نه گم بشه
+    # (model-extracted phrase, vocabulary term it was incorrectly snapped to, should they be similar?)
+    ("توقیف", "توقف", False),                    # seizure of property  vs  coming to a stop — should NOT be similar
+    ("صدور حکم بر رفع توقیف", "دوره محکومیت", False),  # completely unrelated
+    ("بطلان عقد اجاره", "عقد اجاره", False),        # "بطلان" (nullity) must stay distinct, not get lost
     ("انقضاء مدت اجاره", "عقد اجاره", False),
-    ("اعلان بطلان", "اعلام اینکه", False),           # اصلاً یه واژه‌ی معتبر نیست
-    # --- جفت‌های کنترل: این‌ها *باید* شبیه باشن ---
+    ("اعلان بطلان", "اعلام اینکه", False),           # not even a valid term at all
+    # --- control pairs: these *should* be similar ---
     ("خوانده ردیف اول", "خوانده", True),
     ("اقامه دعوا", "اقامه دعوی", True),
     ("توقیف خودرو", "توقیف", True),
@@ -44,9 +45,9 @@ def _cosine(a: list[float], b: list[float]) -> float:
 
 
 def run():
-    print("🔬 تست تمایزِ embedding روی جفت‌های واقعاً مشکل‌سازِ قبلی\n")
-    print(f"{'عبارت استخراج‌شده':<28} {'واژه‌نامه':<20} {'باید شبیه؟':<10} {'شباهت واقعی':<12}")
-    print("-" * 75)
+    print("🔬 Testing embedding distinguishability on previously problematic pairs\n")
+    print(f"{'extracted phrase':<28} {'vocab term':<20} {'should be similar?':<19} {'actual similarity':<12}")
+    print("-" * 84)
 
     problems = []
     for raw, vocab_word, should_be_similar in CONFUSABLE_PAIRS:
@@ -55,23 +56,24 @@ def run():
         score = _cosine(v1, v2)
 
         verdict = "✅" if (score > 0.75) == should_be_similar else "🔴"
-        print(f"{raw:<28} {vocab_word:<20} {'بله' if should_be_similar else 'نه':<10} {score:.3f} {verdict}")
+        print(f"{raw:<28} {vocab_word:<20} {'yes' if should_be_similar else 'no':<19} {score:.3f} {verdict}")
 
         if (score > 0.75) != should_be_similar:
             problems.append((raw, vocab_word, score, should_be_similar))
 
     print()
     if not problems:
-        print("✅ embedding این جفت‌ها را درست تشخیص داد — resolver مبتنی‌بر "
-              "embedding برای این واژه‌نامه احتمالاً قابل‌اعتماده.")
+        print("✅ Embedding correctly distinguished these pairs — an embedding-based "
+              "resolver is probably reliable for this vocabulary.")
     else:
-        print(f"🔴 {len(problems)} جفت اشتباه تشخیص داده شد:")
+        print(f"🔴 {len(problems)} pairs were misclassified:")
         for raw, vocab_word, score, expected in problems:
-            print(f"  - «{raw}» vs «{vocab_word}»: شباهت={score:.3f} "
-                  f"(انتظار می‌رفت {'شبیه' if expected else 'غیرشبیه'} باشن)")
-        print("\n⚠️ اگه اکثر این‌ها 🔴 بودن، یعنی embedding هم برای این جفت‌های خاص "
-              "قابل‌اعتماد نیست — باید resolver محدود بشه به فقط exact/alias "
-              "match (بدون هیچ fuzzy semantic)، حتی اگه یعنی recall کمتر بشه.")
+            print(f"  - «{raw}» vs «{vocab_word}»: similarity={score:.3f} "
+                  f"(expected them to be {'similar' if expected else 'dissimilar'})")
+        print("\n⚠️ If most of these are 🔴, embedding is not reliable for these "
+              "specific pairs either — the resolver should be restricted to "
+              "exact/alias match only (no fuzzy semantic matching), even if that "
+              "means lower recall.")
 
 
 if __name__ == "__main__":

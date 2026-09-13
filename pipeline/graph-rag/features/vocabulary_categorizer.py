@@ -1,55 +1,62 @@
 """
-features/vocabulary_categorizer.py — دسته‌بندیِ یک‌بارِ واژه‌نامه‌ی حقوقی
-                                      به closed vocabulary برای هر Feature
+features/vocabulary_categorizer.py — one-time categorization of the legal
+                                      vocabulary into a closed vocabulary
+                                      per Feature category
 
-چرا این کار لازم است؟
-    data/legal-vocabulary/legal_vocabulary.json یک دیکشنری عمومی حقوقی
-    است (۲۴۱۶ رکورد {واژه, معنی})، نه یک لیست دسته‌بندی‌شده. طرح اصلی
-    می‌گفت «LLM فقط از بین Conceptهای موجود انتخاب کند» — این فقط وقتی
-    درست کار می‌کند که از قبل بدانیم کدام واژه Concept است، کدام Action،
-    کدام Role، کدام Object. این اسکریپت دقیقاً همان کار را می‌کند —
-    **یک‌بار**، نه به‌ازای هر پرونده.
+Why is this needed?
+    data/legal-vocabulary/legal_vocabulary.json is a general legal
+    dictionary (2416 {term, meaning} records), not a categorized list.
+    The original design said "the LLM must only choose among existing
+    concepts" — this only works if we already know which term is a
+    Concept, which is an Action, which is a Role, which is an Object.
+    This script does exactly that — **once**, not per case.
 
-چرا هر واژه یک «ریشه» (canonical form) هم می‌گیرد؟
-    چون واژه‌نامه پر از مترادف/زیرشاخه است: «بیع»، «عقد بیع»،
-    «قرارداد بیع» نباید سه node جدا در گراف شوند. به‌جای یک pass دوم
-    جداگانه برای ادغام (که یعنی دوباره هزینه‌ی LLM روی کل واژه‌نامه)،
-    همین‌جا از LLM خواسته می‌شود همزمان با دسته‌بندی، ریشه‌ی هر واژه را
-    هم مشخص کند. اگر واژه‌ای خودش ریشه است، «ریشه» برابر خودِ واژه
-    برمی‌گردد. خروجی نهایی (export_categorized) بر اساس این ریشه‌ها
-    دسته‌بندی و یکتاسازی می‌شود؛ نگاشت alias→ریشه هم جداگانه نگه
-    داشته می‌شود تا در extractor.py بعداً بشه واژه‌ی خام متن را به
-    node درست در گراف وصل کرد.
+Why does every term also get a "root" (canonical form)?
+    Because the dictionary is full of synonyms/variants: "بیع", "عقد
+    بیع", "قرارداد بیع" should not become three separate graph nodes.
+    Instead of a separate second pass just for merging (which means
+    paying the LLM cost over the whole vocabulary again), the LLM is
+    asked to determine each term's root at the same time as
+    categorizing it. If a term is itself the root, "root" equals the
+    term itself. The final output (export_categorized) is categorized
+    and deduplicated based on these roots; the alias→root mapping is
+    also kept separately so that extractor.py can later connect a raw
+    term from the text to the correct graph node.
 
-چرا batch (نه یکی‌یکی و نه همه‌باهم)؟
-    یکی‌یکی = ۲۴۱۶ فراخوانی LLM، گران و کند.
-    همه‌باهم = یک پرامپت غول‌آسا با ریسک بالای خطای JSON و از دست رفتن
-               کل نتیجه با یک خطا.
-    پس در دسته‌های VOCAB_BATCH_SIZE‌تایی (پیش‌فرض ۶۰) کار می‌کنیم —
-    حدود ۴۰ فراخوانی برای کل واژه‌نامه.
+Why batching (neither one-by-one nor all at once)?
+    One-by-one = 2416 LLM calls, expensive and slow.
+    All at once = one giant prompt with a high risk of a JSON error and
+                  losing the entire result to a single mistake.
+    So we work in batches of VOCAB_BATCH_SIZE (default 60) —
+    about 40 calls for the whole vocabulary.
 
-چرا resumable با checkpoint (نه فقط یک خروجی نهایی)؟
-    اگر روی batch شماره‌ی ۳۰ از ۴۰ خطا بگیریم (rate limit، قطعی شبکه...)،
-    نمی‌خواهیم ۲۹ batch قبلی که هزینه‌ش پرداخت شده از دست برود. هر batch
-    که کامل شد، بلافاصله در یک فایل jsonl append می‌شود؛ اجرای مجدد
-    اسکریپت واژه‌هایی که قبلاً دسته‌بندی شده‌اند را رد می‌کند.
+Why resumable with a checkpoint (not just one final output)?
+    If we hit an error on batch 30 of 40 (rate limit, network outage,
+    ...), we don't want to lose the 29 previous batches we already paid
+    for. As soon as a batch completes, it's immediately appended to a
+    jsonl file; re-running the script skips terms already categorized.
 
-خروجی نهایی:
+Note on JSON keys: the checkpoint/output records use the Persian keys
+"واژه" (term), "دسته" (category), "ریشه" (root) throughout this file —
+kept as-is rather than translated to English, since a real checkpoint
+file on disk already uses this schema; renaming would break resuming
+from it without a migration step.
+
+Final output:
     data/legal-vocabulary/categorized/{concepts,actions,roles,objects}.json
-        هرکدوم یک لیست ساده از رشته‌های *ریشه* (canonical، نه همه‌ی
-        alias های خام) — همون چیزی که extractor.py بعداً به‌عنوان
-        closed vocabulary در پرامپت LLM استفاده می‌کند.
+        each a plain list of *root* strings (canonical, not all raw
+        aliases) — exactly what extractor.py later uses as the closed
+        vocabulary in the LLM prompt.
     data/legal-vocabulary/categorized/{concepts,actions,roles,objects}_aliases.json
-        نگاشت ریشه → لیست alias های خام (برای هر دسته جدا)، مثلاً
-        {"بیع": ["بیع", "عقد بیع", "قرارداد بیع"]}. این برای
-        قابل‌ردیابی بودن نگه داشته می‌شود، نه برای استفاده‌ی مستقیم در
-        پرامپت.
+        root → list of raw aliases mapping (per category), e.g.
+        {"بیع": ["بیع", "عقد بیع", "قرارداد بیع"]}. Kept for
+        traceability, not for direct use in the prompt.
     data/legal-vocabulary/categorized/skipped.json
-        واژه‌هایی که «مفید نیستند» تشخیص داده شدند — نگه داشته می‌شود
-        فقط برای مرور دستی و اطمینان از درستی تصمیم LLM، نه برای استفاده
-        در pipeline.
+        terms judged "not useful" — kept only for manual review and to
+        confirm the LLM's decision was correct, not for use in the
+        pipeline.
 
-نحوه‌ی اجرا:
+Usage:
     uv run -m features.vocabulary_categorizer
 """
 
@@ -82,35 +89,44 @@ CHECKPOINT_PATH = OUTPUT_DIR / "_checkpoint.jsonl"
 _client = get_llm_client()
 
 
+# NOTE: instructional text translated to English below; the category
+# descriptions/examples embedded via {categories_desc} come from
+# configs.py and stay in Persian (they're the actual Persian legal
+# vocabulary content being categorized). The requested output keys
+# ("واژه"/"دسته"/"ریشه") are also left as-is — see module docstring.
 PROMPT_TEMPLATE = """
-تو یک دستیار حقوقی متخصص در قوانین ایران هستی. وظیفه‌ات دسته‌بندی
-واژه‌های زیر (از یک دیکشنری حقوقی) به یکی از دسته‌های مشخص‌شده است.
+You are a legal assistant specialized in Iranian law. Your task is to
+categorize the following terms (from a legal dictionary) into one of the
+categories specified below.
 
-دسته‌ها:
+Categories:
 {categories_desc}
 
-- "{skip_label}": اگر واژه یک اصطلاح فنی حقوقیِ مفید برای دسته‌بندی
-  پرونده‌ها نیست (مثلاً یک واژه‌ی صرفاً زبانی/عمومی است، یا خیلی کلی/
-  نامشخص است که در هیچ‌کدام از دسته‌های بالا جا نمی‌شود).
+- "{skip_label}": if the term is not a useful legal/technical term for
+  categorizing cases (e.g. it is a purely linguistic/general word, or is
+  too vague/unclear to fit any of the categories above).
 
-علاوه بر دسته، برای هر واژه یک «ریشه» (canonical form) هم مشخص کن:
-- اگر چند واژه در همین لیست مترادف یا زیرشاخه‌ی همدیگرند (مثلاً «بیع»،
-  «عقد بیع»، «قرارداد بیع»)، همه باید یک «ریشه» یکسان بگیرند — کوتاه‌ترین
-  و رایج‌ترین شکل اصطلاح را به‌عنوان ریشه انتخاب کن (مثلاً «بیع»).
-- اگر واژه‌ای مترادف/زیرشاخه‌ی هیچ واژه‌ی دیگری در همین لیست نیست،
-  «ریشه» همان خودِ واژه است.
-- برای واژه‌های "{skip_label}"، «ریشه» را برابر خودِ واژه بگذار
-  (استفاده نمی‌شود، ولی فیلد باید پر باشد).
+In addition to the category, also determine a "root" (canonical form)
+for each term:
+- If several terms in this list are synonyms or variants of one another
+  (e.g. "بیع", "عقد بیع", "قرارداد بیع"), they must all get the same
+  root — choose the shortest, most common form of the term as the root
+  (e.g. "بیع").
+- If a term is not a synonym/variant of any other term in this list,
+  its root is the term itself.
+- For "{skip_label}" terms, set the root equal to the term itself
+  (unused, but the field must still be filled).
 
-قوانین مهم:
-- هر واژه دقیقاً یک دسته و یک ریشه می‌گیرد.
-- خروجی باید شامل *دقیقاً* همان تعداد و همان ترتیب واژه‌های ورودی باشد.
-- فقط از برچسب‌های داده‌شده استفاده کن: {all_labels}
+Important rules:
+- Every term gets exactly one category and one root.
+- The output must contain *exactly* the same number and order of terms
+  as the input.
+- Only use the given labels: {all_labels}
 
-واژه‌ها (به همراه معنی برای رفع ابهام):
+Terms (with their meaning, to resolve ambiguity):
 {words_block}
 
-فقط JSON برگردون — بدون هیچ توضیح اضافه، به این فرم:
+Return only JSON — no extra explanation — in exactly this form:
 [
   {{"واژه": "...", "دسته": "...", "ریشه": "..."}},
   ...
@@ -122,7 +138,7 @@ def _build_categories_desc() -> str:
     lines = []
     for cat in VOCAB_CATEGORIES.values():
         examples = "، ".join(cat.examples)
-        lines.append(f'- "{cat.key}" ({cat.label_fa}): {cat.description} مثال: {examples}.')
+        lines.append(f'- "{cat.key}" ({cat.label_fa}): {cat.description} Examples: {examples}.')
     return "\n".join(lines)
 
 
@@ -131,18 +147,19 @@ _CATEGORIES_DESC = _build_categories_desc()
 
 def load_vocabulary() -> list[dict]:
     """
-    واژه‌نامه‌ی خام را می‌خواند و واژه‌های تکراری را ادغام می‌کند.
+    Reads the raw vocabulary and merges duplicate terms.
 
-    چرا این ادغام لازم است؟
-        در legal_vocabulary.json حدود ۹۰ واژه (مثل «خلاف»، «تصرف») بیش
-        از یک‌بار با تعریف‌های متفاوت آمده‌اند. اگر این رکوردهای تکراری
-        مستقل به LLM فرستاده شوند، ممکن است برچسب‌های متفاوتی بگیرند
-        (چون هرکدام تعریف متفاوتی می‌بینند) — و چون checkpoint بر اساس
-        «واژه» dict می‌سازد، یکی از این نتایج بی‌صدا توسط دیگری overwrite
-        می‌شود (یک واژه، دو تصمیمِ متناقض، فقط آخری باقی می‌ماند). برای
-        جلوگیری از این از دست‌رفتنِ بی‌صدا، همه‌ی تعریف‌های یک واژه قبل
-        از ارسال به LLM با «؛» ادغام می‌شوند تا مدل یک تصمیم واحد و
-        آگاه از هر دو معنی بگیرد.
+    Why is this merge needed?
+        In legal_vocabulary.json, about 90 terms (e.g. "خلاف", "تصرف")
+        appear more than once with different definitions. If these
+        duplicate records were sent to the LLM independently, they might
+        get different labels (since each sees a different definition) —
+        and since the checkpoint is keyed by "term", one of these
+        results silently overwrites the other (one term, two
+        contradictory decisions, only the last one survives). To
+        prevent this silent data loss, all definitions of a term are
+        merged with "؛" before sending to the LLM, so the model makes a
+        single decision informed by both meanings.
     """
     with open(VOCAB_SOURCE, encoding="utf-8") as f:
         raw = json.load(f)
@@ -156,8 +173,8 @@ def load_vocabulary() -> list[dict]:
 
     duplicates = {w: ms for w, ms in merged.items() if len(ms) > 1}
     if duplicates:
-        print(f"ℹ️ {len(duplicates)} واژه‌ی تکراری در منبع پیدا و ادغام شد "
-              f"(مثال: {list(duplicates.keys())[:3]})")
+        print(f"ℹ️ Found and merged {len(duplicates)} duplicate terms in the source "
+              f"(example: {list(duplicates.keys())[:3]})")
 
     return [
         {"واژه": word, "معنی": " ؛ ".join(meanings)}
@@ -166,7 +183,7 @@ def load_vocabulary() -> list[dict]:
 
 
 def load_checkpoint() -> dict[str, dict]:
-    """واژه‌هایی که قبلاً دسته‌بندی شده‌اند را برمی‌گرداند: {واژه: {"دسته", "ریشه"}}"""
+    """Returns terms already categorized: {term: {"دسته", "ریشه"}}"""
     if not CHECKPOINT_PATH.exists():
         return {}
     done: dict[str, dict] = {}
@@ -194,10 +211,11 @@ def _batch(items: list, size: int):
 
 def classify_batch(batch: list[dict], retries: int = 2) -> list[dict]:
     """
-    یک batch از واژه‌ها را به LLM می‌دهد و لیست {"واژه", "دسته"} برمی‌گرداند.
-    اگر تعداد یا محتوای خروجی با ورودی نخواند، batch را نامعتبر می‌داند
-    و به‌جای حدس زدن، آن را (پس از retry) با خطا گزارش می‌کند — تا داده‌ی
-    نادرست بی‌صدا وارد closed vocabulary نشود.
+    Sends a batch of terms to the LLM and returns a list of
+    {"واژه", "دسته", "ریشه"}. If the count or content of the output
+    doesn't match the input, the batch is considered invalid and — rather
+    than guessing — reported as an error (after retrying), so incorrect
+    data doesn't silently enter the closed vocabulary.
     """
     words_block = "\n".join(
         f'{idx+1}. {row["واژه"]}: {row["معنی"][:VOCAB_MEANING_CHAR_CAP]}'
@@ -227,36 +245,36 @@ def classify_batch(batch: list[dict], retries: int = 2) -> list[dict]:
             got_words = [row["واژه"] for row in parsed]
             if got_words != expected_words:
                 raise ValueError(
-                    f"عدم تطابق ترتیب/تعداد واژه‌ها "
-                    f"(انتظار {len(expected_words)}, دریافت {len(got_words)})"
+                    f"Term count/order mismatch "
+                    f"(expected {len(expected_words)}, got {len(got_words)})"
                 )
             for row in parsed:
                 if row["دسته"] not in ALL_VOCAB_LABELS:
-                    raise ValueError(f"برچسب نامعتبر: {row['دسته']}")
+                    raise ValueError(f"Invalid label: {row['دسته']}")
                 if not row.get("ریشه", "").strip():
-                    raise ValueError(f"فیلد «ریشه» خالی برای واژه‌ی «{row['واژه']}»")
+                    raise ValueError(f"Empty «root» field for term «{row['واژه']}»")
 
             return parsed
 
-        except Exception as e:  # noqa: BLE001 — می‌خوایم خطای JSON/schema هم بگیریم
+        except Exception as e:  # noqa: BLE001 — JSON/schema errors should be caught here too
             last_error = e
             if attempt < retries:
-                print(f"  ⏳ خطا در batch، تلاش دوباره ({attempt + 1}/{retries}): {e}")
+                print(f"  ⏳ Batch error, retrying ({attempt + 1}/{retries}): {e}")
                 time.sleep(3)
 
-    raise RuntimeError(f"❌ batch شکست خورد بعد از {retries + 1} تلاش: {last_error}")
+    raise RuntimeError(f"❌ Batch failed after {retries + 1} attempts: {last_error}")
 
 
 def audit_checkpoint_conflicts() -> dict[str, list[dict]]:
     """
-    checkpoint خام (jsonl، پیش از dict-collapse) را می‌خواند و واژه‌هایی
-    را که بیش از یک بار با «دسته» یا «ریشه» متفاوت ثبت شده‌اند گزارش
-    می‌کند. مخصوصاً برای checkpointهایی که با نسخه‌ی قبل از رفع باگِ
-    ادغام واژه‌های تکراری (load_vocabulary) ساخته شده‌اند — تا قبل از
-    export_categorized() بشود دستی تصمیم گرفت کدام برچسب درست است.
+    Reads the raw checkpoint (jsonl, before dict-collapse) and reports
+    terms recorded more than once with a different category or root.
+    Mainly relevant for checkpoints built with a version predating the
+    duplicate-term-merge bugfix (load_vocabulary) — so a manual decision
+    can be made about which label is correct before export_categorized().
     """
     if not CHECKPOINT_PATH.exists():
-        print("⚠️ فایل checkpoint پیدا نشد.")
+        print("⚠️ Checkpoint file not found.")
         return {}
 
     seen: dict[str, list[dict]] = {}
@@ -274,15 +292,15 @@ def audit_checkpoint_conflicts() -> dict[str, list[dict]]:
     }
 
     if not conflicts:
-        print("✅ هیچ تناقضی در checkpoint پیدا نشد.")
+        print("✅ No conflicts found in the checkpoint.")
     else:
-        print(f"⚠️ {len(conflicts)} واژه با برچسب‌های متناقض پیدا شد "
-              f"(در export_categorized فعلی فقط آخرین رکورد باقی می‌ماند):")
+        print(f"⚠️ Found {len(conflicts)} terms with conflicting labels "
+              f"(export_categorized currently keeps only the last record):")
         for w, rows in list(conflicts.items())[:20]:
             labels = " | ".join(f'{r["دسته"]}/{r["ریشه"]}' for r in rows)
             print(f"  - {w}: {labels}")
         if len(conflicts) > 20:
-            print(f"  ... و {len(conflicts) - 20} مورد دیگر")
+            print(f"  ... and {len(conflicts) - 20} more")
 
     return conflicts
 
@@ -295,42 +313,42 @@ def run(limit: int | None = None):
     already_done = load_checkpoint()
     remaining = [row for row in vocabulary if row["واژه"] not in already_done]
 
-    print(f"📚 کل واژه‌نامه: {len(vocabulary)} | قبلاً دسته‌بندی‌شده: {len(already_done)} "
-          f"| باقی‌مانده: {len(remaining)}")
+    print(f"📚 Full vocabulary: {len(vocabulary)} | already categorized: {len(already_done)} "
+          f"| remaining: {len(remaining)}")
 
     if not remaining:
-        print("✅ همه‌ی واژه‌ها قبلاً دسته‌بندی شده‌اند. برو سراغ export_categorized().")
+        print("✅ All terms already categorized. Go run export_categorized().")
         return
 
     total_batches = (len(remaining) + VOCAB_BATCH_SIZE - 1) // VOCAB_BATCH_SIZE
     for i, batch in enumerate(_batch(remaining, VOCAB_BATCH_SIZE), start=1):
-        print(f"  🔎 batch {i}/{total_batches} ({len(batch)} واژه)...")
+        print(f"  🔎 batch {i}/{total_batches} ({len(batch)} terms)...")
         try:
             results = classify_batch(batch)
         except RuntimeError as e:
-            print(f"  ⚠️ رد شد و در اجرای بعدی دوباره تلاش می‌شود: {e}")
+            print(f"  ⚠️ Skipped, will retry on next run: {e}")
             continue
         append_checkpoint(results)
-        time.sleep(0.5)  # فاصله‌ی کوچک برای رعایت rate limit
+        time.sleep(0.5)  # small delay to respect rate limits
 
-    print("✅ دسته‌بندی تمام batchها انجام شد (یا برای اجرای بعدی صف شد).")
+    print("✅ All batches categorized (or queued for the next run).")
 
 
 def export_categorized():
     """
-    checkpoint خام (jsonl، یک ردیف به‌ازای هر واژه‌ی خام) را می‌خواند و
-    بر اساس «ریشه» یکتاسازی می‌کند — یعنی خروجی نهایی لیستِ *مفاهیمِ
-    ریشه* است (مثلاً «بیع»)، نه همه‌ی ۲۴۱۶ واژه‌ی خام (مثلاً «بیع»،
-    «عقد بیع»، «قرارداد بیع» هرسه). به‌ازای هر دسته دو فایل تولید
-    می‌شود: لیست ریشه‌ها (برای استفاده در پرامپت extractor.py) و
-    نگاشت ریشه→alias ها (برای ردیابی/دیباگ).
+    Reads the raw checkpoint (jsonl, one row per raw term) and
+    deduplicates based on "root" — i.e. the final output is a list of
+    *root* concepts (e.g. "بیع"), not all 2416 raw terms (e.g. "بیع",
+    "عقد بیع", "قرارداد بیع" all three). Two files are produced per
+    category: the list of roots (for use in extractor.py's prompt) and
+    the root→alias mapping (for traceability/debugging).
     """
     done = load_checkpoint()
     if not done:
-        print("⚠️ هنوز چیزی دسته‌بندی نشده. اول run() را اجرا کن.")
+        print("⚠️ Nothing categorized yet. Run run() first.")
         return
 
-    # buckets[category][ریشه] = [alias1, alias2, ...]
+    # buckets[category][root] = [alias1, alias2, ...]
     buckets: dict[str, dict[str, list[str]]] = {key: {} for key in VOCAB_CATEGORIES}
     skipped: list[str] = []
 
@@ -343,7 +361,7 @@ def export_categorized():
             buckets[label].setdefault(root, []).append(word)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    print("\n📊 گزارش نهایی (بعد از ادغام مترادف‌ها/aliasها):")
+    print("\n📊 Final report (after merging synonyms/aliases):")
     total_roots = 0
     for key, root_map in buckets.items():
         canonical_list = sorted(root_map.keys())
@@ -359,16 +377,16 @@ def export_categorized():
                        ensure_ascii=False, indent=2)
 
         raw_count = sum(len(a) for a in root_map.values())
-        print(f"  💾 {canon_path.name}: {len(canonical_list)} مفهوم ریشه "
-              f"(از {raw_count} واژه‌ی خام)")
+        print(f"  💾 {canon_path.name}: {len(canonical_list)} root concepts "
+              f"(from {raw_count} raw terms)")
 
     with open(OUTPUT_DIR / "skipped.json", "w", encoding="utf-8") as f:
         json.dump(sorted(skipped), f, ensure_ascii=False, indent=2)
-    print(f"  💾 skipped.json: {len(skipped)} واژه (نادیده گرفته‌شده)")
+    print(f"  💾 skipped.json: {len(skipped)} terms (ignored)")
 
-    print(f"\n🎯 جمع کل مفاهیم ریشه در همه‌ی دسته‌ها: {total_roots} "
-          f"(هدف تقریبی پیشنهادشده: ۴۰۰-۶۰۰ — این فقط یک راهنماست، "
-          f"نه یک قانون؛ خودت با نگاه به aliasها قضاوت کن)")
+    print(f"\n🎯 Total root concepts across all categories: {total_roots} "
+          f"(suggested rough target: 400-600 — this is only a guide, "
+          f"not a rule; use your own judgment looking at the aliases)")
 
 
 if __name__ == "__main__":

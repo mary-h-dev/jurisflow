@@ -1,11 +1,11 @@
 """
-embed_features.py — embedding نودهای Feature graph (لایه‌ی سوم)
-    ۱. concept/action/role/object: کپی بردار از vocab_embeddings_cache.json
-    ۲. fact: embed تازه (متن آزاد)
-    ۳. ساخت vector index برای هر ۵ label
-اجرا فقط بعد از این‌ها لازمه:
-    - main_features.py load <domain> --limit 0 (برای همه‌ی domain ها)
-    - بازسازی vocab_embeddings_cache.json
+embed_features.py — embeds Feature graph nodes (third graph layer)
+    1. concept/action/role/object: copies the vector from vocab_embeddings_cache.json
+    2. fact: embedded fresh (free text)
+    3. builds a vector index for all 5 labels
+Only needs to run after:
+    - main_features.py load <domain> --limit 0 (for all domains)
+    - vocab_embeddings_cache.json has been rebuilt
     uv run embed_features.py
 """
 
@@ -36,7 +36,7 @@ def create_feature_vector_indexes(connection):
                     `vector.similarity_function`: 'cosine'
                 }}}}
             """)
-    print("✅ vector index های Feature graph آماده شدن.")
+    print("✅ Feature graph vector indexes are ready.")
 
 
 def run():
@@ -46,12 +46,12 @@ def run():
     try:
         create_feature_vector_indexes(connection)
 
-        print("📚 چسباندن embedding واژگان (concept/action/role/object)...")
+        print("📚 Attaching vocabulary embeddings (concept/action/role/object)...")
         store.attach_vocab_embeddings()
 
-        print("📝 embedding factها...")
+        print("📝 Embedding facts...")
         facts = store.get_facts_without_embedding()
-        print(f"   {len(facts)} fact نیاز به embedding دارند")
+        print(f"   {len(facts)} facts need embedding")
         for i, fact in enumerate(facts, start=1):
             vector = embed_text(fact["text"])
             store.save_fact_embedding(fact["fact_id"], vector)
@@ -61,7 +61,7 @@ def run():
     finally:
         connection.close()
 
-    print("\n🎉 embedding کامل Feature graph تمام شد!")
+    print("\n🎉 Feature graph embedding complete!")
 
 
 if __name__ == "__main__":

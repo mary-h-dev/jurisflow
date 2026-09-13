@@ -1,15 +1,26 @@
 """
-features/vocab_retrieval.py — انتخاب زیرمجموعه‌ی محتمل از closed vocabulary
-با استفاده از embeddingهایی که *از قبل* روی RulingSection ذخیره شده‌اند
-(database/embedding_store.py) — نه با embed کردن دوباره‌ی متن پرونده.
+features/vocab_retrieval.py — DEPRECATED / NOT USED BY THE ACTIVE PIPELINE.
 
-چرا این بهتر از embed کردن مجدد است؟
-    چون همون مدل (bge-m3/Ollama) و همون واحد (هر بخش رأی جدا) از قبل
-    برای کل کورپوس محاسبه و در Neo4j ذخیره شده. embed کردن دوباره‌ی
-    متن رأی در extractor.py هم هزینه‌ی محاسباتی تکراری بود، هم فرصت
-    ناسازگاری (اگه یک روز chunk-size اینجا با chunk-size دیتابیس فرق
-    می‌کرد). حالا هر دو طرف (پرونده و واژگان) دقیقاً از یک فضای برداری
-    می‌آیند.
+Kept for reference only. extractor.py does NOT import this module — see
+extractor.py's own docstring for why this approach was tried and rejected.
+
+Original purpose: select a likely subset of the closed vocabulary using
+embeddings already stored on RulingSection nodes
+(database/embedding_store.py) — instead of re-embedding the case text.
+
+Why this seemed better than re-embedding:
+    The same model (bge-m3/Ollama) and the same unit (each ruling section
+    separately) had already been computed and stored in Neo4j for the
+    whole corpus. Re-embedding the ruling text inside extractor.py would
+    have been both redundant computation and a source of inconsistency
+    (if chunk-size here ever diverged from the database's chunk-size).
+    This way both sides (case and vocabulary) would come from exactly the
+    same vector space.
+
+Why it was rejected in favor of the current approach (free extraction +
+post-hoc resolution): short, frequent terms (e.g. "خواهان") scored low
+similarity against a long paragraph and got dropped from the candidate
+set before the LLM ever saw them. See extractor.py's module docstring.
 """
 
 import json
@@ -39,13 +50,13 @@ def _load_vocab_cache() -> dict[str, dict]:
 
 def retrieve_relevant_vocab(section_embeddings: list[list[float]]) -> dict[str, list[str]]:
     """
-    ورودی: embeddingهای بخش‌های یک پرونده (از EmbeddingStore.get_section_embeddings)
-    خروجی: {category_key: [واژه‌های محتمل]}
+    Input: embeddings of a case's sections (from
+    EmbeddingStore.get_section_embeddings). Output: {category_key: [likely terms]}
     """
     if not section_embeddings:
-        # اگه پرونده هنوز embedding نداره (مثلاً هنوز embed_all.py cases
-        # روش اجرا نشده)، به‌جای شکست، کل واژه‌نامه رو برگردون —
-        # fallback امن، نه crash.
+        # If the case has no embeddings yet (e.g. embed_all.py for cases
+        # hasn't run yet), return the whole vocabulary instead of failing
+        # — a safe fallback, not a crash.
         vocab_cache = _load_vocab_cache()
         result = {key: [] for key in VOCAB_CATEGORIES}
         for entry in vocab_cache.values():
