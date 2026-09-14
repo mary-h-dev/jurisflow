@@ -58,5 +58,13 @@ logs/
 .DS_Store
 Thumbs.db
 
+# Python & Calibration Caches
+*.pkl
+**/cache/
+**/calibration_cache/
+**/e2e_cache/
+apps/legal_agents/calibration/scripts
+figures/
+apps/legal_agents/calibration/ablation/**.txt
 
 inst.txt
