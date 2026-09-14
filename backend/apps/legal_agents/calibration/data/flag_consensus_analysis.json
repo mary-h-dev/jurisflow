@@ -1,0 +1,52 @@
+{
+  "n_test": 28,
+  "flag_analysis": {
+    "any": {
+      "tp": 4,
+      "fp": 11,
+      "fn": 9,
+      "tn": 4,
+      "precision": 0.2667,
+      "recall": 0.3077,
+      "f1": 0.2857
+    },
+    "all": {
+      "tp": 7,
+      "fp": 8,
+      "fn": 11,
+      "tn": 2,
+      "precision": 0.4667,
+      "recall": 0.3889,
+      "f1": 0.4242
+    }
+  },
+  "consensus_breakdown": {
+    "full": {
+      "n": 1,
+      "pct": 3.6,
+      "accuracy_any": 1.0,
+      "accuracy_all": 1.0,
+      "mean_confidence": 0.8716
+    },
+    "majority": {
+      "n": 22,
+      "pct": 78.6,
+      "accuracy_any": 0.5,
+      "accuracy_all": 0.3182,
+      "mean_confidence": 0.7998
+    },
+    "split": {
+      "n": 5,
+      "pct": 17.9,
+      "accuracy_any": 0.6,
+      "accuracy_all": 0.4,
+      "mean_confidence": 0.689
+    }
+  },
+  "flag_sources": {
+    "total_flagged": 15,
+    "split_only": 1,
+    "high_std_only": 10,
+    "both": 4
+  }
+}

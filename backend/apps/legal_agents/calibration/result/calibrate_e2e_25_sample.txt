@@ -1,0 +1,34 @@
+
+============================================================
+E2E [CALIBRATION] — 25 samples  (errors: 0)
+============================================================
+  ── Coverage (any: >=1 gold in agreed_articles) ──────
+  AUROC      : 0.6949
+  ECE        : 0.119
+  Accuracy   : 0.68
+
+  ── Coverage (all: ALL golds in agreed_articles) ─────
+  AUROC      : 0.8452
+  ECE        : 0.639
+  Accuracy   : 0.16
+
+  ── Article-level ────────────────────────────────────
+  Precision  : 0.3094
+  Recall     : 0.46
+  F1         : 0.3257
+
+  ── Consensus ────────────────────────────────────────
+  Rate (full+majority) : 0.76
+  Full consensus       : 0.08
+  Split rate           : 0.24
+  Uncertainty flags    : 0.24
+
+  ── Confidence distribution ──────────────────────────
+  Mean +/- std : 0.799 +/- 0.0724
+
+  ── Auditor quality ──────────────────────────────────
+  Gold kept by auditor : 0.68
+
+  Total elapsed : 6330s  (cache hits: 0/25)
+  Saved → /workspaces/jurisflow/backend/apps/legal_agents/calibration/data/e2e_calibration.json
+(backend) @mary1993-svg ➜ /workspaces/jurisflow/backend (main) $ 

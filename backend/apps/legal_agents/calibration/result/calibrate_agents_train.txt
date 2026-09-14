@@ -1,0 +1,14 @@
+
+=== TRAIN_VAL metrics (112 samples) ===
+  AUROC          : 0.7798
+  ECE            : 0.1726  (lower is better)
+  Accuracy       : 0.9732
+  Mean Precision : 0.9732
+  Mean Recall    : 0.9688
+  Mean F1        : 0.9702
+  Consensus rate : 0.8482  (full+majority / n)
+  Full consensus : 0.2232
+
+
+Platt scaling CV AUROC: 0.455 +/- 0.347
+Calibration: slope=+1.950  intercept=-1.489

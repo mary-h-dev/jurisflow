@@ -116,7 +116,7 @@ class AgentChecklistItem(BaseModel):
     role:       str    # defender | prosecutor | judge
     fa_role:    str    # وکیل مدافع | دادستان | قاضی
     verdict:    str
-    fa_verdict: str    # فارسی verdict label
+    fa_verdict: str    
     confidence: float
     position:   str
 

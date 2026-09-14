@@ -1,0 +1,41 @@
+backend) @mary1993-svg ➜ /workspaces/jurisflow/backend (main) $ DJANGO_SETTINGS_MODULE=config.settings.development python -c "
+import django; django.setup()
+from apps.legal_agents.calibration.calibrate_fusion import run; run()"
+============================================================
+FUSION WEIGHT CALIBRATION (n=25 calibration samples)
+============================================================
+No API calls — using cached e2e_calibration.json
+
+Usable samples: 25
+Label distribution: 17 correct / 8 incorrect
+
+Grid search results (alpha_p, alpha_a, AUROC):
+  alpha_p=0.10  alpha_a=0.90  AUROC=0.6618
+  alpha_p=0.15  alpha_a=0.85  AUROC=0.6691
+  alpha_p=0.20  alpha_a=0.80  AUROC=0.6691
+  alpha_p=0.25  alpha_a=0.75  AUROC=0.6765
+  alpha_p=0.30  alpha_a=0.70  AUROC=0.6838
+  alpha_p=0.35  alpha_a=0.65  AUROC=0.6985 ← best
+  alpha_p=0.40  alpha_a=0.60  AUROC=0.6949
+  alpha_p=0.45  alpha_a=0.55  AUROC=0.6912
+  alpha_p=0.50  alpha_a=0.50  AUROC=0.6838
+  alpha_p=0.55  alpha_a=0.45  AUROC=0.6765
+  alpha_p=0.60  alpha_a=0.40  AUROC=0.6618
+  alpha_p=0.65  alpha_a=0.35  AUROC=0.6581
+  alpha_p=0.70  alpha_a=0.30  AUROC=0.6397
+  alpha_p=0.75  alpha_a=0.25  AUROC=0.625
+  alpha_p=0.80  alpha_a=0.20  AUROC=0.6103
+  alpha_p=0.85  alpha_a=0.15  AUROC=0.5882
+  alpha_p=0.90  alpha_a=0.10  AUROC=0.5809
+
+Current weights  : alpha_p=0.4  alpha_a=0.6
+Optimal weights  : alpha_p=0.35  alpha_a=0.65
+Best AUROC       : 0.6985
+
+AUROC with current weights : 0.6949
+AUROC with optimal weights : 0.6985
+Delta                      : +0.0036
+=> Difference is negligible — current weights are acceptable.
+
+Saved → /workspaces/jurisflow/backend/apps/legal_agents/calibration/data/fusion_calibration.json
+(backend) @mary1993-svg ➜ /workspaces/jurisflow/backend (main) $ 

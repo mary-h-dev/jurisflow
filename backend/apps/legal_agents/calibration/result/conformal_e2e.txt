@@ -1,0 +1,149 @@
+backend) @mary1993-svg ➜ /workspaces/jurisflow/backend (main) $ DJANGO_SETTINGS_MODULE=config.settings.development python -c "
+import django; django.setup()
+from apps.legal_agents.calibration.calibrate_conformal_e2e import run; run()"
+============================================================
+CONFORMAL PREDICTION — OUR METHOD (final_confidence)
+============================================================
+Non-conformity : 1 - final_confidence
+Candidate pool : agreed_articles (cited by >=2 agents)
+No API calls   — using cached e2e results
+
+Calibration samples : 25
+Test samples        : 28
+
+[any] calibration: 25 scores  inf=8 (32% gold not in agreed)
+
+  mode=any
+   alpha     q_hat      ECR    APSS
+  ------  --------  -------  ------
+    0.10       inf    53.6%    2.39
+    0.15       inf    53.6%    2.39
+    0.20       inf    53.6%    2.39
+    0.25       inf    53.6%    2.39
+    0.30       inf    53.6%    2.39
+    0.40    0.3072    46.4%    1.93
+    0.50    0.2680    42.9%    1.68
+    0.60    0.1632    10.7%    0.46
+
+  Scoring function [any]:
+    AUROC    : 0.7128
+    ECE      : 0.2261
+    Accuracy : 0.5357
+
+[all] calibration: 25 scores  inf=21 (84% gold not in agreed)
+
+  mode=all
+   alpha     q_hat      ECR    APSS
+  ------  --------  -------  ------
+    0.10       inf    35.7%    2.39
+    0.15       inf    35.7%    2.39
+    0.20       inf    35.7%    2.39
+    0.25       inf    35.7%    2.39
+    0.30       inf    35.7%    2.39
+    0.40       inf    35.7%    2.39
+    0.50       inf    35.7%    2.39
+    0.60       inf    35.7%    2.39
+
+  Scoring function [all]:
+    AUROC    : 0.6333
+    ECE      : 0.366
+    Accuracy : 0.3571
+
+============================================================
+COMPARISON: Baseline vs Our Method (mode=any)
+============================================================
+   alpha   Baseline APSS   Ours APSS    Delta
+    0.40            7.71        1.93  ↓5.78
+    0.50            2.50        1.68  ↓0.82
+    0.60            1.39        0.46  ↓0.93
+
+Saved → /workspaces/jurisflow/backend/apps/legal_agents/calibration/data/conformal_e2e_results.json
+
+
+
+
+
+Saved → /workspaces/jurisflow/backend/apps/legal_agents/calibration/data/conformal_e2e_results.json
+(backend) @mary1993-svg ➜ /workspaces/jurisflow/backend (main) $ DJANGO_SETTINGS_MODULE=config.settings.development python -c "
+import django; django.setup()
+from apps.legal_agents.calibration.calibrate_conformal_e2e import run; run()"
+============================================================
+CONFORMAL PREDICTION — OUR METHOD (final_confidence)
+============================================================
+Non-conformity : 1 - final_confidence
+Candidate pool : agreed_articles (cited by >=2 agents)
+No API calls   — using cached e2e results
+
+Calibration samples : 25
+Test samples        : 28
+
+[any] calibration: 25 scores  inf=8 (32% gold not in agreed)
+
+  mode=any
+   alpha     q_hat      ECR    APSS
+  ------  --------  -------  ------
+    0.10       inf    53.6%    2.39
+    0.15       inf    53.6%    2.39
+    0.20       inf    53.6%    2.39
+    0.25       inf    53.6%    2.39
+    0.30       inf    53.6%    2.39
+    0.40    0.3072    46.4%    1.93
+    0.50    0.2680    42.9%    1.68
+    0.60    0.1632    10.7%    0.46
+
+  Scoring function [any]:
+    AUROC    : 0.7128
+    ECE      : 0.2261
+    Accuracy : 0.5357
+
+[all] calibration: 25 scores  inf=21 (84% gold not in agreed)
+
+  mode=all
+   alpha     q_hat      ECR    APSS
+  ------  --------  -------  ------
+    0.10       inf    35.7%    2.39
+    0.15       inf    35.7%    2.39
+    0.20       inf    35.7%    2.39
+    0.25       inf    35.7%    2.39
+    0.30       inf    35.7%    2.39
+    0.40       inf    35.7%    2.39
+    0.50       inf    35.7%    2.39
+    0.60       inf    35.7%    2.39
+
+  Scoring function [all]:
+    AUROC    : 0.6333
+    ECE      : 0.366
+    Accuracy : 0.3571
+
+============================================================
+VALID COMPARISON: ECR-matched (not alpha-matched)
+============================================================
+
+    ECR target   Baseline APSS   Ours APSS   Coverage OK
+  ------------  --------------  ----------  ------------
+  α=0.10  base_ECR=71.4%  base_APSS= 20.00  ours_APSS= 2.39  ✗ (ours=53.6%)
+  α=0.15  base_ECR=71.4%  base_APSS= 20.00  ours_APSS= 2.39  ✗ (ours=53.6%)
+  α=0.20  base_ECR=71.4%  base_APSS= 20.00  ours_APSS= 2.39  ✗ (ours=53.6%)
+  α=0.25  base_ECR=71.4%  base_APSS= 20.00  ours_APSS= 2.39  ✗ (ours=53.6%)
+  α=0.30  base_ECR=71.4%  base_APSS= 20.00  ours_APSS= 2.39  ✗ (ours=53.6%)
+  α=0.40  base_ECR=64.3%  base_APSS=  7.71  ours_APSS= 1.93  ✗ (ours=46.4%)
+  α=0.50  base_ECR=57.1%  base_APSS=  2.50  ours_APSS= 1.68  ✗ (ours=42.9%)
+  α=0.60  base_ECR=53.6%  base_APSS=  1.39  ours_APSS= 0.46  ✗ (ours=10.7%)
+
+  ⚠ No alpha where our ECR >= baseline ECR.
+  => The 32% inf rate in calibration limits our maximum ECR to ~68%.
+  => Report upper-bound ECR gap as a Limitation.
+
+  Full trade-off curve (for ECR-vs-APSS figure):
+   alpha   Baseline ECR   Baseline APSS   Ours ECR   Ours APSS
+    0.10          71.4%           20.00      53.6%        2.39
+    0.15          71.4%           20.00      53.6%        2.39
+    0.20          71.4%           20.00      53.6%        2.39
+    0.25          71.4%           20.00      53.6%        2.39
+    0.30          71.4%           20.00      53.6%        2.39
+    0.40          64.3%            7.71      46.4%        1.93
+    0.50          57.1%            2.50      42.9%        1.68
+    0.60          53.6%            1.39      10.7%        0.46
+
+Saved → /workspaces/jurisflow/backend/apps/legal_agents/calibration/data/conformal_e2e_results.json
+(backend) @mary1993-svg ➜ /workspaces/jurisflow/backend (main) $ 

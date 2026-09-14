@@ -1,56 +1,61 @@
 {
-  "n_test": 23,
+  "n_test": 28,
   "variants": {
     "retrieval_only": {
       "label": "Retrieval only",
-      "auroc_any": 0.8417,
-      "ece_any": 0.2045,
-      "auroc_all": 0.8308,
-      "ece_all": 0.4219,
-      "brier": 0.2579,
-      "mean_conf": 0.8567,
-      "std_conf": 0.0217
+      "auroc_any": 0.8267,
+      "ece_any": 0.0368,
+      "auroc_all": 0.8267,
+      "ece_all": 0.0368,
+      "brier": 0.0931,
+      "mean_conf": 0.856,
+      "std_conf": 0.0207,
+      "label_type": "retrieval"
     },
     "auditor_only": {
       "label": "Auditor only",
-      "auroc_any": 0.875,
-      "ece_any": 0.0775,
-      "auroc_all": 0.8346,
-      "ece_all": 0.2949,
-      "brier": 0.2056,
-      "mean_conf": 0.7297,
-      "std_conf": 0.1118
+      "auroc_any": 0.7985,
+      "ece_any": 0.2348,
+      "auroc_all": 0.7985,
+      "ece_all": 0.2348,
+      "brier": 0.2892,
+      "mean_conf": 0.7348,
+      "std_conf": 0.1024,
+      "label_type": "auditor"
     },
     "agent_mean_only": {
       "label": "Agent mean only",
-      "auroc_any": 0.4042,
-      "ece_any": 0.1838,
-      "auroc_all": 0.3962,
-      "ece_all": 0.4012,
-      "brier": 0.277,
-      "mean_conf": 0.8359,
-      "std_conf": 0.0585
+      "auroc_any": 0.3179,
+      "ece_any": 0.3085,
+      "auroc_all": 0.3278,
+      "ece_all": 0.487,
+      "brier": 0.3669,
+      "mean_conf": 0.8442,
+      "std_conf": 0.0597,
+      "label_type": "end-to-end"
     },
     "fusion_no_consensus": {
       "label": "Fusion (no consensus)",
-      "auroc_any": 0.45,
-      "ece_any": 0.2169,
-      "auroc_all": 0.4615,
-      "ece_all": 0.3587,
-      "brier": 0.2425,
-      "mean_conf": 0.7934,
-      "std_conf": 0.0623
+      "auroc_any": 0.3487,
+      "ece_any": 0.27,
+      "auroc_all": 0.3778,
+      "ece_all": 0.4433,
+      "brier": 0.3232,
+      "mean_conf": 0.8004,
+      "std_conf": 0.0603,
+      "label_type": "end-to-end"
     },
     "full_fusion": {
       "label": "Full fusion (ours)",
-      "auroc_any": 0.5333,
-      "ece_any": 0.1665,
-      "auroc_all": 0.4923,
-      "ece_all": 0.3369,
-      "brier": 0.2365,
-      "mean_conf": 0.7717,
-      "std_conf": 0.076
+      "auroc_any": 0.3949,
+      "ece_any": 0.2469,
+      "auroc_all": 0.3944,
+      "ece_all": 0.4254,
+      "brier": 0.3183,
+      "mean_conf": 0.7826,
+      "std_conf": 0.0743,
+      "label_type": "end-to-end"
     }
   },
-  "note": "All computed from cached e2e data — zero API calls"
+  "note": "Layer-specific labels: retrieval→gold_in_retrieval, auditor→gold_in_applicable, agent/fusion→correct_any"
 }
